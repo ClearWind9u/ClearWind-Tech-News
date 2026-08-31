@@ -3,7 +3,7 @@
 import React from 'react';
 import { NewsItem, getCategoryLabel } from '../types/news';
 import { useBilingual } from './BilingualContext';
-import { Clock, Bookmark, ArrowUpRight, Heart, Check } from 'lucide-react';
+import { Clock, Bookmark, ArrowUpRight, Heart } from 'lucide-react';
 
 interface NewsCardProps {
   article: NewsItem;
@@ -44,7 +44,7 @@ export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) 
   return (
     <article
       onClick={handleCardClick}
-      className={`group relative rounded-2xl bg-[#121722] hover:bg-[#161D2B] border p-5 cursor-pointer transition-colors duration-200 flex flex-col justify-between h-full ${
+      className={`group relative rounded-2xl bg-[#121722] hover:bg-[#161D2B] border p-4 sm:p-5 cursor-pointer transition-colors duration-200 flex flex-col justify-between h-full ${
         read ? 'border-white/5 opacity-85' : 'border-white/10 hover:border-emerald-500/50 shadow-sm'
       }`}
     >
@@ -65,12 +65,12 @@ export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) 
             </span>
           </div>
 
-          <span className="text-xs font-bold text-slate-400 font-mono shrink-0">
+          <span className="text-xs font-bold text-slate-300 font-mono shrink-0">
             {article.hotScore} pts
           </span>
         </div>
 
-        {/* Thumbnail */}
+        {/* Thumbnail with fixed aspect ratio */}
         {article.thumbnailUrl ? (
           <div className="w-full aspect-[16/9] mb-3.5 rounded-xl overflow-hidden bg-[#0B0E14] border border-slate-800/80 shrink-0">
             <img
@@ -81,12 +81,12 @@ export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) 
             />
           </div>
         ) : (
-          <div className="w-full h-1.5 rounded-xl mb-3" />
+          <div className="w-full h-1 rounded-xl mb-3" />
         )}
 
         {/* Title: Pure White if unread, subtle slate if read */}
         <h3
-          className={`text-base leading-snug mb-3.5 line-clamp-2 h-11 transition-colors ${
+          className={`text-sm sm:text-base leading-snug mb-3.5 line-clamp-2 h-11 transition-colors ${
             read
               ? 'text-slate-300 font-semibold group-hover:text-emerald-400'
               : 'text-white font-bold group-hover:text-emerald-400'
@@ -96,20 +96,20 @@ export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) 
         </h3>
 
         {/* 3 Key Takeaways Container */}
-        <div className="space-y-2 mb-4 bg-[#0B0E14]/95 p-3.5 rounded-xl border border-slate-800/90 h-[145px] overflow-hidden">
-          <div className="text-[11px] font-bold text-emerald-400 mb-1.5 uppercase tracking-wider">
+        <div className="space-y-2 mb-3.5 bg-[#0B0E14]/95 p-3 sm:p-3.5 rounded-xl border border-slate-800/90 h-[145px] overflow-hidden">
+          <div className="text-[10px] sm:text-[11px] font-bold text-emerald-400 mb-1 uppercase tracking-wider">
             {t.keyTakeaways}
           </div>
           {summaryPoints.slice(0, 3).map((point, idx) => (
-            <div key={idx} className="flex items-start gap-2 text-xs text-slate-200 leading-relaxed font-normal">
+            <div key={idx} className="flex items-start gap-1.5 sm:gap-2 text-xs text-slate-200 leading-relaxed font-normal">
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 mt-1.5 shrink-0" />
               <span className="line-clamp-2">{point}</span>
             </div>
           ))}
         </div>
 
-        {/* Interactive Tags */}
-        <div className="flex items-center gap-1.5 flex-wrap mb-4 h-6 overflow-hidden">
+        {/* Interactive Tags (Single line with clean overflow handling) */}
+        <div className="flex items-center gap-1.5 overflow-hidden whitespace-nowrap mb-3.5 h-6">
           {article.tags.slice(0, 3).map((tag, i) => (
             <button
               key={i}
@@ -118,7 +118,7 @@ export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) 
                 e.stopPropagation();
                 setSelectedTag(tag);
               }}
-              className="text-[10px] font-mono text-slate-400 hover:text-emerald-300 bg-[#0B0E14] px-2 py-0.5 rounded border border-slate-800 hover:border-emerald-500/40 transition-colors"
+              className="text-[10px] font-mono text-slate-400 hover:text-emerald-300 bg-[#0B0E14] px-2 py-0.5 rounded border border-slate-800 hover:border-emerald-500/40 transition-colors shrink-0 truncate max-w-[100px]"
             >
               #{tag}
             </button>
@@ -127,16 +127,16 @@ export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) 
       </div>
 
       {/* Footer Info & Actions */}
-      <div className="pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400 mt-auto">
-        <div className="flex items-center gap-2.5">
+      <div className="pt-3 border-t border-slate-800 flex items-center justify-between text-xs text-slate-300 mt-auto">
+        <div className="flex items-center gap-2">
           <span>{formattedDate}</span>
           <span className="flex items-center gap-1 text-slate-400 font-medium">
-            <Clock className="w-3 h-3 text-slate-500" />
+            <Clock className="w-3 h-3 text-slate-400" />
             {article.readTimeMinutes} {t.readTime}
           </span>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5">
           {/* Upvote Button */}
           <button
             type="button"
@@ -144,7 +144,7 @@ export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) 
               e.stopPropagation();
               toggleUpvote(article.id);
             }}
-            className={`px-2.5 py-1 rounded-lg border flex items-center gap-1 text-[11px] font-mono font-bold transition-colors ${
+            className={`px-2 py-1 rounded-lg border flex items-center gap-1 text-[11px] font-mono font-bold transition-colors ${
               isUpvoted(article.id)
                 ? 'bg-red-500/20 text-red-400 border-red-500/40'
                 : 'bg-[#0B0E14] border-slate-800 text-slate-300 hover:text-red-400 hover:border-red-500/30'
@@ -154,7 +154,7 @@ export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) 
             <span>{upvoteCount}</span>
           </button>
 
-          {/* Bookmark (Save for later) Button */}
+          {/* Bookmark Button */}
           <button
             type="button"
             onClick={(e) => {
