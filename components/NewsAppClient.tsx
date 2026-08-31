@@ -12,7 +12,7 @@ import { NewsDetailModal } from './NewsDetailModal';
 import { BookmarkDrawer } from './BookmarkDrawer';
 import { ShortcutsModal } from './ShortcutsModal';
 import { Footer } from './Footer';
-import { useBilingual } from './BilingualContext';
+import { useBilingual, SortOption } from './BilingualContext';
 import {
   Newspaper,
   SearchX,
@@ -21,6 +21,11 @@ import {
   Keyboard,
   X,
   Tag,
+  CheckCheck,
+  Flame,
+  Clock,
+  Sparkles,
+  Bookmark,
 } from 'lucide-react';
 
 interface NewsAppClientProps {
@@ -28,7 +33,23 @@ interface NewsAppClientProps {
 }
 
 export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => {
-  const { lang, setLang, t, viewMode, setViewMode, toggleTheme, selectedTag, setSelectedTag } = useBilingual();
+  const {
+    lang,
+    setLang,
+    t,
+    viewMode,
+    setViewMode,
+    toggleTheme,
+    selectedTag,
+    setSelectedTag,
+    readArticles,
+    isRead,
+    markAllAsRead,
+    bookmarks,
+    sortOption,
+    setSortOption,
+  } = useBilingual();
+
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedOrigin, setSelectedOrigin] = useState<'all' | 'vietnam' | 'global'>('all');
@@ -76,8 +97,14 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
     return Array.from(set);
   }, [initialData]);
 
+  // Unread count
+  const unreadCount = useMemo(() => {
+    return initialData.articles.filter((a) => !readArticles.includes(a.id)).length;
+  }, [initialData, readArticles]);
+
+  // Filter & Sort Pipeline
   const filteredArticles = useMemo(() => {
-    return initialData.articles.filter((article) => {
+    let result = initialData.articles.filter((article) => {
       if (selectedTag && !article.tags.some((t) => t.toLowerCase() === selectedTag.toLowerCase())) {
         return false;
       }
@@ -87,6 +114,14 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
       }
 
       if (selectedCategory !== 'all' && article.category !== selectedCategory) {
+        return false;
+      }
+
+      if (sortOption === 'unread' && isRead(article.id)) {
+        return false;
+      }
+
+      if (sortOption === 'saved' && !bookmarks.includes(article.id)) {
         return false;
       }
 
@@ -111,11 +146,37 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
 
       return true;
     });
-  }, [initialData, selectedOrigin, selectedCategory, searchQuery, selectedTag]);
+
+    // Apply Sorting Priority
+    if (sortOption === 'trending') {
+      result = [...result].sort((a, b) => b.hotScore - a.hotScore);
+    } else {
+      // 'latest', 'unread', 'saved' sort by newest first
+      result = [...result].sort(
+        (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+      );
+    }
+
+    return result;
+  }, [
+    initialData,
+    selectedOrigin,
+    selectedCategory,
+    searchQuery,
+    selectedTag,
+    sortOption,
+    readArticles,
+    bookmarks,
+    isRead,
+  ]);
 
   const featuredArticles = useMemo(() => {
     return [...initialData.articles].sort((a, b) => b.hotScore - a.hotScore).slice(0, 3);
   }, [initialData]);
+
+  const handleMarkAllRead = () => {
+    markAllAsRead(initialData.articles.map((a) => a.id));
+  };
 
   return (
     <div className="min-h-screen flex flex-col justify-between bg-[#0B0E14] text-white">
@@ -132,17 +193,26 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
         />
 
         <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 relative z-10">
-          {!searchQuery && !selectedTag && selectedCategory === 'all' && selectedOrigin === 'all' && (
-            <HeroBento
-              articles={featuredArticles}
-              onSelectArticle={(article) => setActiveArticle(article)}
-            />
-          )}
+          {/* Hero Featured Highlights (Only on main clean view) */}
+          {!searchQuery &&
+            !selectedTag &&
+            selectedCategory === 'all' &&
+            selectedOrigin === 'all' &&
+            sortOption === 'latest' && (
+              <HeroBento
+                articles={featuredArticles}
+                onSelectArticle={(article) => setActiveArticle(article)}
+              />
+            )}
 
+          {/* Active Tag Filter Indicator */}
           {selectedTag && (
             <div className="mb-4 flex items-center gap-2 p-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-xs text-emerald-400">
               <Tag className="w-4 h-4" />
-              <span>{lang === 'vi' ? 'Đang lọc theo thẻ:' : 'Filtering by tag:'} <strong>#{selectedTag}</strong></span>
+              <span>
+                {lang === 'vi' ? 'Đang lọc theo thẻ:' : 'Filtering by tag:'}{' '}
+                <strong>#{selectedTag}</strong>
+              </span>
               <button
                 onClick={() => setSelectedTag(null)}
                 className="ml-auto p-1 hover:bg-emerald-500/20 rounded-md transition-colors"
@@ -153,6 +223,7 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
             </div>
           )}
 
+          {/* Category Filter Pills */}
           <CategoryFilter
             categories={categories}
             selectedCategory={selectedCategory}
@@ -162,16 +233,82 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
             totalArticlesCount={filteredArticles.length}
           />
 
-          <div className="flex items-center justify-between mb-5 pb-2 border-b border-slate-800">
-            <h2 className="text-base font-bold text-white flex items-center gap-2">
-              <Newspaper className="w-4 h-4 text-emerald-400" />
-              <span>{t.latestTitle}</span>
-              <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 font-mono">
-                {filteredArticles.length}
-              </span>
-            </h2>
+          {/* Section Header: Priority Tabs (Latest, Trending, Unread, Saved) & Layout Controls */}
+          <div className="flex flex-wrap items-center justify-between gap-3 mb-5 pb-3 border-b border-slate-800">
+            {/* Priority & Status Tabs */}
+            <div className="flex items-center gap-1.5 p-1 bg-[#121722] rounded-xl border border-slate-800 text-xs">
+              <button
+                onClick={() => setSortOption('latest')}
+                className={`px-3 py-1.5 rounded-lg font-bold transition-all flex items-center gap-1.5 ${
+                  sortOption === 'latest'
+                    ? 'bg-emerald-500 text-white shadow-sm'
+                    : 'text-slate-400 hover:text-white'
+                }`}
+              >
+                <Clock className="w-3.5 h-3.5" />
+                <span>{t.tabLatest}</span>
+              </button>
 
+              <button
+                onClick={() => setSortOption('trending')}
+                className={`px-3 py-1.5 rounded-lg font-bold transition-all flex items-center gap-1.5 ${
+                  sortOption === 'trending'
+                    ? 'bg-emerald-500 text-white shadow-sm'
+                    : 'text-slate-400 hover:text-white'
+                }`}
+              >
+                <Flame className="w-3.5 h-3.5" />
+                <span>{t.tabTrending}</span>
+              </button>
+
+              <button
+                onClick={() => setSortOption('unread')}
+                className={`px-3 py-1.5 rounded-lg font-bold transition-all flex items-center gap-1.5 ${
+                  sortOption === 'unread'
+                    ? 'bg-emerald-500 text-white shadow-sm'
+                    : 'text-slate-400 hover:text-white'
+                }`}
+              >
+                <Sparkles className="w-3.5 h-3.5" />
+                <span>{t.tabUnread}</span>
+                {unreadCount > 0 && (
+                  <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-emerald-400/20 text-emerald-300 font-mono">
+                    {unreadCount}
+                  </span>
+                )}
+              </button>
+
+              <button
+                onClick={() => setSortOption('saved')}
+                className={`px-3 py-1.5 rounded-lg font-bold transition-all flex items-center gap-1.5 ${
+                  sortOption === 'saved'
+                    ? 'bg-emerald-500 text-white shadow-sm'
+                    : 'text-slate-400 hover:text-white'
+                }`}
+              >
+                <Bookmark className="w-3.5 h-3.5" />
+                <span>{t.tabSaved}</span>
+                {bookmarks.length > 0 && (
+                  <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-slate-700 text-slate-300 font-mono">
+                    {bookmarks.length}
+                  </span>
+                )}
+              </button>
+            </div>
+
+            {/* Right Controls: Mark all read + View Mode + Shortcuts */}
             <div className="flex items-center gap-2">
+              {unreadCount > 0 && (
+                <button
+                  onClick={handleMarkAllRead}
+                  className="px-2.5 py-1 text-xs text-slate-400 hover:text-emerald-400 bg-[#121722] hover:bg-[#161D2B] border border-slate-800 rounded-lg transition-colors flex items-center gap-1 font-medium"
+                  title={t.markAllRead}
+                >
+                  <CheckCheck className="w-3.5 h-3.5" />
+                  <span className="hidden sm:inline">{t.markAllRead}</span>
+                </button>
+              )}
+
               <div className="flex items-center bg-[#121722] p-0.5 rounded-lg border border-slate-800">
                 <button
                   onClick={() => setViewMode('grid')}
@@ -208,16 +345,17 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
             </div>
           </div>
 
+          {/* News Feed Content */}
           {filteredArticles.length === 0 ? (
             <div className="py-16 text-center bg-[#121722] border border-slate-800 rounded-2xl p-8 max-w-lg mx-auto">
               <SearchX className="w-10 h-10 mx-auto text-slate-500 mb-3 stroke-[1.5]" />
-              <h3 className="text-base font-bold text-white mb-2">
-                {t.noResults}
-              </h3>
+              <h3 className="text-base font-bold text-white mb-2">{t.noResults}</h3>
               <p className="text-xs text-slate-400 mb-4">
-                {lang === 'vi'
-                  ? 'Hãy thử tìm kiếm với từ khóa khác hoặc xóa bộ lọc.'
-                  : 'Try searching with different keywords or reset the filter.'}
+                {sortOption === 'saved'
+                  ? t.noBookmarks
+                  : sortOption === 'unread'
+                  ? 'Bạn đã đọc hết tất cả các bài viết!'
+                  : 'Hãy thử tìm kiếm với từ khóa khác hoặc xóa bộ lọc.'}
               </p>
               <button
                 onClick={() => {
@@ -225,10 +363,11 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
                   setSelectedTag(null);
                   setSelectedCategory('all');
                   setSelectedOrigin('all');
+                  setSortOption('latest');
                 }}
                 className="px-4 py-2 rounded-xl text-xs font-bold bg-emerald-500 text-white hover:bg-emerald-600 transition-colors"
               >
-                {lang === 'vi' ? 'Đặt lại bộ lọc' : 'Reset filters'}
+                {lang === 'vi' ? 'Xem tất cả bài viết' : 'View all articles'}
               </button>
             </div>
           ) : viewMode === 'grid' ? (

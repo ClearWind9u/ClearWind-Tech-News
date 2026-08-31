@@ -19,11 +19,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'ClearWind Team' }],
   creator: 'ClearWind',
-  metadataBase: new URL('https://clearwind-tech-news.vercel.app'),
+  metadataBase: new URL('https://windtech-sandy.vercel.app'),
   openGraph: {
     type: 'website',
     locale: 'vi_VN',
-    url: 'https://clearwind-tech-news.vercel.app',
+    url: 'https://windtech-sandy.vercel.app',
     title: 'ClearWind Tech News - Báo Công Nghệ & IT Tự Động 24/7',
     description: 'Chắt lọc tri thức, thanh lọc thông tin công nghệ bằng AI Gemini Pro.',
     siteName: 'ClearWind Tech News',

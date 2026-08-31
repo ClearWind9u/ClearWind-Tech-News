@@ -11,7 +11,17 @@ interface NewsRowCompactProps {
 }
 
 export const NewsRowCompact: React.FC<NewsRowCompactProps> = ({ article, onSelectArticle }) => {
-  const { lang, t, toggleBookmark, isBookmarked, toggleUpvote, isUpvoted, setSelectedTag } = useBilingual();
+  const {
+    lang,
+    t,
+    toggleBookmark,
+    isBookmarked,
+    toggleUpvote,
+    isUpvoted,
+    setSelectedTag,
+    isRead,
+    markAsRead,
+  } = useBilingual();
 
   const title = lang === 'vi' ? article.title_vi : article.title_en;
   const categoryLabel = getCategoryLabel(article.category, lang);
@@ -21,11 +31,19 @@ export const NewsRowCompact: React.FC<NewsRowCompactProps> = ({ article, onSelec
   });
 
   const upvoteCount = (article.upvotes || 0) + (isUpvoted(article.id) ? 1 : 0);
+  const read = isRead(article.id);
+
+  const handleRowClick = () => {
+    markAsRead(article.id);
+    onSelectArticle(article);
+  };
 
   return (
     <div
-      onClick={() => onSelectArticle(article)}
-      className="group p-4 rounded-xl bg-[#121722] hover:bg-[#161D2B] border border-white/10 hover:border-emerald-500/50 transition-colors duration-200 flex items-center justify-between gap-4 cursor-pointer"
+      onClick={handleRowClick}
+      className={`group p-4 rounded-xl bg-[#121722] hover:bg-[#161D2B] border transition-colors duration-200 flex items-center justify-between gap-4 cursor-pointer ${
+        read ? 'border-white/5 opacity-85' : 'border-white/10 hover:border-emerald-500/50'
+      }`}
     >
       {/* Upvote Box */}
       <button
@@ -47,6 +65,7 @@ export const NewsRowCompact: React.FC<NewsRowCompactProps> = ({ article, onSelec
       {/* Main Content */}
       <div className="flex-1 min-w-0">
         <div className="flex items-center gap-2 mb-1 flex-wrap">
+          {!read && <span className="w-2 h-2 rounded-full bg-emerald-400 shrink-0" title={t.unreadBadge} />}
           <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-slate-800 text-slate-200 border border-slate-700">
             {article.sourceName}
           </span>
@@ -60,7 +79,11 @@ export const NewsRowCompact: React.FC<NewsRowCompactProps> = ({ article, onSelec
         </div>
 
         {/* Title */}
-        <h3 className="text-sm sm:text-base font-bold text-white group-hover:text-emerald-400 transition-colors line-clamp-1 leading-snug">
+        <h3
+          className={`text-sm sm:text-base leading-snug line-clamp-1 transition-colors ${
+            read ? 'text-slate-300 font-medium group-hover:text-emerald-400' : 'text-white font-bold group-hover:text-emerald-400'
+          }`}
+        >
           {title}
         </h3>
 
@@ -98,7 +121,7 @@ export const NewsRowCompact: React.FC<NewsRowCompactProps> = ({ article, onSelec
               ? 'bg-emerald-500 text-white border-emerald-400'
               : 'bg-[#0B0E14] text-slate-300 hover:text-emerald-400 border-slate-800'
           }`}
-          title={t.bookmarks}
+          title={t.readLater}
         >
           <Bookmark className="w-3.5 h-3.5" />
         </button>

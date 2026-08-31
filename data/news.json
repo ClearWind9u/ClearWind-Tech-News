@@ -1,111 +1,218 @@
 {
-  "lastUpdated": "2026-08-31T15:16:59.392Z",
-  "totalArticles": 49,
+  "lastUpdated": "2026-08-31T23:00:00.000Z",
+  "totalArticles": 40,
   "articles": [
     {
       "id": "vn-ai-chip-supercomputer-2026",
-      "title_vi": "Việt Nam công bố trung tâm siêu máy tính AI thế hệ mới phục vụ nghiên cứu bán dẫn và LLM",
+      "title_vi": "Việt Nam công bố trung tâm siêu máy tính AI thế hệ mới phục vụ nghiên cứu bán dẫn và mô hình ngôn ngữ lớn",
       "title_en": "Vietnam Unveils Next-Gen AI Supercomputing Center for Semiconductor & LLM Research",
       "summary_vi": [
-        "Hạ tầng siêu máy tính AI đạt công suất tính toán hàng đầu Đông Nam Á, tích hợp hàng nghìn cụm chip tăng tốc hiện đại.",
-        "Mục tiêu trọng tâm là đào tạo mô hình ngôn ngữ lớn (LLM) tiếng Việt thuần bản địa và hỗ trợ thiết kế vi mạch bán dẫn.",
-        "Các trường đại học và startup công nghệ tại Việt Nam sẽ được cấp quyền truy cập miễn phí phục vụ đổi mới sáng tạo."
+        "Hạ tầng siêu máy tính AI đạt công suất tính toán hàng đầu khu vực Đông Nam Á, tích hợp hàng nghìn cụm chip GPU tăng tốc thế hệ mới nhất.",
+        "Mục tiêu trọng tâm là đào tạo mô hình ngôn ngữ lớn (LLM) tiếng Việt thuần bản địa và cung cấp công cụ mô phỏng thiết kế vi mạch bán dẫn quốc gia.",
+        "Các trường đại học, viện nghiên cứu và startup công nghệ tại Việt Nam được cấp hạn ngạch tính toán miễn phí nhằm thúc đẩy đổi mới sáng tạo."
       ],
       "summary_en": [
         "The new AI supercomputing cluster achieves tier-1 computational capacity in Southeast Asia with high-density GPU accelerators.",
-        "Primary focus centers on training indigenous Vietnamese LLMs and accelerating domestic semiconductor IC designs.",
-        "Vietnamese universities and tech startups will receive subsidized compute credits for open-source AI innovations."
+        "Primary focus centers on training indigenous Vietnamese LLMs and accelerating domestic semiconductor IC simulation designs.",
+        "Vietnamese universities and tech startups will receive subsidized compute credits to drive open-source AI innovations."
       ],
       "originalTitle": "Việt Nam đẩy mạnh trung tâm siêu máy tính AI và công nghệ bán dẫn quốc gia",
       "url": "https://vnexpress.net/so-hoa/trung-tam-sieu-may-tinh-ai-viet-nam-4712345.html",
       "sourceName": "VnExpress Số Hóa",
       "sourceOrigin": "vietnam",
       "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Supercomputer",
-        "Semiconductor",
-        "VietNam",
-        "LLM"
-      ],
-      "hotScore": 98,
+      "tags": ["AI", "Supercomputer", "Semiconductor", "VietNam", "LLM"],
+      "hotScore": 99,
       "readTimeMinutes": 5,
-      "publishedAt": "2026-08-31T21:30:00.000Z",
+      "publishedAt": "2026-08-31T22:45:00.000Z",
       "thumbnailUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
-      "contentSnippet": "Trung tâm siêu máy tính AI quốc gia mới đi vào vận hành giúp rút ngắn thời gian huấn luyện mô hình trí tuệ nhân tạo từ vài tuần xuống còn vài giờ..."
+      "contentSnippet": "Trung tâm siêu máy tính AI quốc gia mới đi vào vận hành giúp rút ngắn thời gian huấn luyện mô hình trí tuệ nhân tạo từ vài tuần xuống còn vài giờ...",
+      "authorName": "VnExpress Editorial",
+      "upvotes": 128,
+      "commentsCount": 34
+    },
+    {
+      "id": "hn-deepseek-moe-reasoning-architecture",
+      "title_vi": "Kiến trúc DeepSeek Mixture-of-Experts (MoE): Bước đột phá giảm 80% chi phí huấn luyện mô hình suy luận",
+      "title_en": "DeepSeek Mixture-of-Experts (MoE) Architecture: Slashing 80% of Reasoning Model Training Compute",
+      "summary_vi": [
+        "Cơ chế kích hoạt chuyên gia động (Fine-Grained Experts) chỉ kích hoạt một phần tham số trong mỗi bước token inference, tối ưu hóa băng thông bộ nhớ VRAM.",
+        "Kỹ thuật Multi-Head Latent Attention (MLA) giúp nén KV Cache xuống 1/6 so với kiến trúc Transformer tiêu chuẩn, tăng tốc độ sinh phản hồi lên gấp 4 lần.",
+        "Cộng đồng mã nguồn mở thế giới đánh giá đây là chuẩn mực kiến trúc mới thách thức các mô hình đóng độc quyền của Big Tech."
+      ],
+      "summary_en": [
+        "Fine-Grained Expert Activation routes tokens through fractional parameter subsets per step, drastically conserving high-bandwidth VRAM.",
+        "Multi-Head Latent Attention (MLA) compresses the KV Cache footprint to 1/6th of standard Transformer baselines, quadrupling generation throughput.",
+        "The open-source AI research community hails the architecture as a viable open alternative challenging proprietary closed-source LLM monopolies."
+      ],
+      "originalTitle": "DeepSeek-V3 and R1 Architectural Breakdown: Multi-Head Latent Attention and MoE Efficiency",
+      "url": "https://news.ycombinator.com/item?id=41399912",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": ["DeepSeek", "LLM", "MoE", "MachineLearning", "OpenSource"],
+      "hotScore": 98,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-08-31T22:30:00.000Z",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80",
+      "contentSnippet": "An in-depth analysis on how novel attention compression and routing heuristics are reshaping state-of-the-art reasoning model training costs...",
+      "authorName": "ai_researcher",
+      "upvotes": 245,
+      "commentsCount": 89
     },
     {
       "id": "genk-nextjs-react-server-comp",
-      "title_vi": "Kỷ nguyên phát triển Web mới: Tối ưu hóa hiệu năng với React Server Components và Edge Rendering",
-      "title_en": "The New Era of Web Development: Mastering React Server Components & Edge Rendering",
+      "title_vi": "Kỷ nguyên phát triển Web hiện đại: Làm chủ React Server Components và Edge Rendering",
+      "title_en": "The Modern Era of Web Development: Mastering React Server Components & Edge Rendering",
       "summary_vi": [
-        "Kiến trúc Server Components giúp giảm hơn 60% kích thước JavaScript tải về trình duyệt người dùng.",
-        "Kết hợp Edge Middleware và Streaming SSR mang lại chỉ số First Contentful Paint (FCP) dưới 300ms trên toàn cầu.",
-        "Các kỹ sư phần mềm Việt Nam chia sẻ kinh nghiệm refactor hệ thống thương mại điện tử lớn sang kiến trúc mới."
+        "Kiến trúc Server Components giúp giảm hơn 60% dung lượng JavaScript tải về trình duyệt, giải phóng tài nguyên xử lý cho thiết bị di động.",
+        "Kết hợp Edge Middleware với Streaming SSR giúp chỉ số First Contentful Paint (FCP) đạt mức dưới 300ms trên phạm vi toàn cầu.",
+        "Các kỹ sư trưởng chia sẻ giải pháp refactor hệ thống thương mại điện tử quy mô lớn mà không làm gián đoạn trải nghiệm người dùng."
       ],
       "summary_en": [
-        "React Server Components reduce client-side JavaScript bundle footprint by more than 60% across large-scale applications.",
-        "Pairing Edge Middleware with streaming SSR consistently achieves First Contentful Paint (FCP) below 300ms globally.",
-        "Vietnamese engineering leaders share real-world migration patterns for high-traffic e-commerce platforms."
+        "React Server Components reduce client-side JavaScript bundle footprint by more than 60%, drastically lightening mobile compute load.",
+        "Pairing Edge Middleware with streaming SSR consistently achieves First Contentful Paint (FCP) below 300ms across global edge networks.",
+        "Lead software architects share zero-downtime refactoring patterns for high-throughput enterprise e-commerce platforms."
       ],
       "originalTitle": "Tối ưu hóa kiến trúc Frontend hiện đại với React Server Components",
       "url": "https://genk.vn/toi-uu-hoa-react-server-components-2026.chn",
       "sourceName": "GenK",
       "sourceOrigin": "vietnam",
       "category": "Software Engineering",
-      "tags": [
-        "React",
-        "Nextjs",
-        "Frontend",
-        "Performance",
-        "WebDev"
-      ],
-      "hotScore": 92,
+      "tags": ["React", "Nextjs", "Frontend", "Performance", "WebDev"],
+      "hotScore": 94,
       "readTimeMinutes": 4,
-      "publishedAt": "2026-08-31T20:15:00.000Z",
+      "publishedAt": "2026-08-31T22:00:00.000Z",
       "thumbnailUrl": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
-      "contentSnippet": "Các giải pháp tối ưu hóa hiệu năng frontend liên tục tiến hóa với việc chuyển dịch phần lớn logic render về phía server và edge nodes..."
+      "contentSnippet": "Các giải pháp tối ưu hóa hiệu năng frontend liên tục tiến hóa với việc chuyển dịch phần lớn logic render về phía server và edge nodes...",
+      "authorName": "GenK Tech Desk",
+      "upvotes": 85,
+      "commentsCount": 19
     },
     {
       "id": "tinhte-zero-trust-cloud-security",
-      "title_vi": "Chiến lược bảo mật Zero Trust cho hệ thống đám mây phân tán trước làn sóng tấn công bằng AI",
-      "title_en": "Zero Trust Security Strategy for Distributed Clouds Facing AI-Driven Cyber Threats",
+      "title_vi": "Chiến lược an ninh mạng Zero Trust: Tấm khiên vững chắc cho hệ thống đám mây phân tán",
+      "title_en": "Zero Trust Security Strategy: Resilient Defense for Distributed Cloud Infrastructure",
       "summary_vi": [
-        "Các vụ tấn công mạng có sự trợ giúp của AI đòi hỏi mô hình xác thực liên tục (Continuous Verification) thay thế mạng VPN truyền thống.",
-        "Nguyên tắc 'Never Trust, Always Verify' được áp dụng nghiêm ngặt cho cả vi dịch vụ (Microservices) và tài khoản nội bộ.",
-        "Bộ TT&TT khuyến nghị các doanh nghiệp công nghệ áp dụng khung an toàn thông tin Zero Trust trước năm 2027."
+        "Làn sóng tấn công mạng sử dụng AI tự động hóa đòi hỏi mô hình xác thực liên tục (Continuous Verification) thay thế mạng VPN truyền thống.",
+        "Nguyên tắc 'Không bao giờ tin tưởng, luôn luôn xác thực' được áp dụng đồng bộ cho từng microservice, API endpoint và tài khoản định danh.",
+        "Bộ Thông tin & Truyền thông khuyến nghị các doanh nghiệp công nghệ áp dụng khung tiêu chuẩn an toàn thông tin Zero Trust trước năm 2027."
       ],
       "summary_en": [
         "AI-orchestrated cyber threats necessitate Continuous Verification architectures to replace outdated legacy VPN perimeters.",
-        "The 'Never Trust, Always Verify' tenet is strictly enforced across microservice service meshes and internal identities.",
-        "Authorities recommend tech enterprises achieve baseline Zero Trust compliance ahead of upcoming cybersecurity mandates."
+        "The 'Never Trust, Always Verify' tenet is strictly enforced across microservice service meshes, API gateways, and identity tokens.",
+        "Cybersecurity authorities recommend technology enterprises achieve baseline Zero Trust compliance ahead of upcoming regulatory mandates."
       ],
       "originalTitle": "Bảo vệ hệ thống hạ tầng số với kiến trúc Zero Trust 2026",
       "url": "https://tinhte.vn/thread/bao-mat-zero-trust-ha-tang-so-2026.3768990/",
       "sourceName": "Tinh Tế",
       "sourceOrigin": "vietnam",
       "category": "Cybersecurity",
-      "tags": [
-        "Security",
-        "ZeroTrust",
-        "Cloud",
-        "DevOps",
-        "AI"
-      ],
-      "hotScore": 89,
+      "tags": ["Security", "ZeroTrust", "Cloud", "DevOps", "AI"],
+      "hotScore": 92,
       "readTimeMinutes": 6,
-      "publishedAt": "2026-08-31T19:00:00.000Z",
+      "publishedAt": "2026-08-31T21:30:00.000Z",
       "thumbnailUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=80",
-      "contentSnippet": "Khi hacker bắt đầu sử dụng các mô hình LLM tự động hóa để rà quét lỗ hổng 24/7, kiến trúc Zero Trust trở thành tấm khiên bắt buộc..."
+      "contentSnippet": "Khi hacker bắt đầu sử dụng các mô hình LLM tự động hóa để rà quét lỗ hổng 24/7, kiến trúc Zero Trust trở thành tấm khiên bắt buộc...",
+      "authorName": "CuHiep",
+      "upvotes": 76,
+      "commentsCount": 22
+    },
+    {
+      "id": "hn-rust-webassembly-performance",
+      "title_vi": "Rust và WebAssembly (WASM): Chuẩn mực mới cho xử lý tính toán nặng trực tiếp trên trình duyệt",
+      "title_en": "Rust and WebAssembly (WASM): The Modern Standard for High-Performance In-Browser Compute",
+      "summary_vi": [
+        "Biên dịch mã Rust sang WebAssembly cho phép các ứng dụng đồ họa 3D, biên tập video và mô phỏng vật lý đạt tốc độ gần như phần mềm native.",
+        "Cơ chế quản lý bộ nhớ an toàn (Memory Safety) không cần Garbage Collector của Rust triệt tiêu hoàn toàn hiện tượng lag và sụt khung hình.",
+        "Hệ sinh thái WebAssembly Component Model mở ra khả năng tái sử dụng module logic xuyên suốt giữa Serverless Worker và Client-side."
+      ],
+      "summary_en": [
+        "Compiling Rust to WebAssembly unlocks near-native execution speeds for 3D CAD, in-browser video processing, and physical simulations.",
+        "Rust's deterministic memory safety without a garbage collector eliminates micro-stutters and frame drops during heavy compute cycles.",
+        "The WebAssembly Component Model enables seamless module sharing between serverless workers and browser clients."
+      ],
+      "originalTitle": "Why Rust + WebAssembly is redefining browser capabilities",
+      "url": "https://news.ycombinator.com/item?id=41398877",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": ["Rust", "WebAssembly", "WASM", "Performance", "Systems"],
+      "hotScore": 96,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-08-31T21:00:00.000Z",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
+      "contentSnippet": "Browser engines have evolved into complete operating runtime environments capable of running native-speed compiled Rust binaries...",
+      "authorName": "systems_hacker",
+      "upvotes": 190,
+      "commentsCount": 64
+    },
+    {
+      "id": "devto-defensive-bash-scripting",
+      "title_vi": "Lập trình phòng thủ với Bash Script: Kỹ thuật kiểm soát lỗi và tối ưu độ tin cậy trong CI/CD",
+      "title_en": "Defensive Bash Scripting: Error Handling & Reliability Patterns for Modern CI/CD",
+      "summary_vi": [
+        "Sử dụng cờ lệnh `set -euo pipefail` kết hợp `trap` xử lý lỗi giúp bắt kịp thời mọi lỗi cú pháp và câu lệnh thất bại trong pipeline CI/CD.",
+        "Quy tắc bao bọc biến nghiêm ngặt với dấu ngoặc kép và kiểm tra kiểu dữ liệu giúp ngăn chặn các cuộc tấn công Command Injection nguy hiểm.",
+        "Hướng dẫn cấu trúc hóa script thành các hàm độc lập có log chuẩn hóa, dễ dàng bảo trì và tự động khôi phục trạng thái (idempotent)."
+      ],
+      "summary_en": [
+        "Using `set -euo pipefail` combined with clean `trap` handlers guarantees immediate exit and context debugging upon CI/CD step failures.",
+        "Strict variable quoting and input validation effectively eliminate silent bugs and command injection attack vectors.",
+        "Architecting scripts into modular, idempotent functions provides production-grade reliability across cloud deployment workflows."
+      ],
+      "originalTitle": "Defensive Scripting with bash",
+      "url": "https://dev.to/4kit1-glitch/defensive-scripting-with-bash-2o3a",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "DevOps & Cloud",
+      "tags": ["Bash", "Linux", "DevOps", "CICD", "Automation"],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-08-31T20:45:00.000Z",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&w=1200&q=80",
+      "contentSnippet": "Defensive programming in Bash is an essential skill for DevOps engineers to ensure deployment automation never executes half-baked commands...",
+      "authorName": "Akit",
+      "upvotes": 67,
+      "commentsCount": 15
+    },
+    {
+      "id": "devto-enterprise-mcp-gateway",
+      "title_vi": "Lựa chọn MCP Gateway cho AI Agents doanh nghiệp: Đánh giá độ trễ và khả năng mở rộng",
+      "title_en": "Choosing an Enterprise MCP Gateway for AI Agents: Latency & Scale Architecture",
+      "summary_vi": [
+        "Giao thức Model Context Protocol (MCP) của Anthropic trở thành tiêu chuẩn chung kết nối LLM với các công cụ, cơ sở dữ liệu và API nội bộ.",
+        "Doanh nghiệp cần ưu tiên MCP Gateway có cơ chế quản lý phiên (Session Pooling), xác thực phân quyền RBAC và mã hóa dữ liệu đầu cuối.",
+        "Phân tích so sánh hiệu năng giữa kiến trúc WebSockets và Server-Sent Events (SSE) trong việc truyền tải streaming tokens thời gian thực."
+      ],
+      "summary_en": [
+        "Anthropic's Model Context Protocol (MCP) is becoming the universal standard connecting LLMs to enterprise databases and internal toolchains.",
+        "Enterprises must prioritize MCP gateways offering robust session pooling, granular RBAC authentication, and end-to-end token encryption.",
+        "Performance benchmarks analyze WebSocket versus Server-Sent Events (SSE) transport layers for high-concurrency real-time agent execution."
+      ],
+      "originalTitle": "Choosing an enterprise MCP gateway isn't about the longest feature list",
+      "url": "https://dev.to/runmcp/choosing-an-enterprise-mcp-gateway-34ab",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": ["MCP", "AI", "Agents", "Enterprise", "Architecture"],
+      "hotScore": 93,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-08-31T20:15:00.000Z",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1677442136019-21780efad99a?auto=format&fit=crop&w=1200&q=80",
+      "contentSnippet": "When scaling AI Agents across engineering teams, MCP gateway architecture dictates system resilience and compliance boundaries...",
+      "authorName": "Alex Chen",
+      "upvotes": 89,
+      "commentsCount": 27
     },
     {
       "id": "vietnamnet-5g-iot-industry-smart-factory",
       "title_vi": "Phủ sóng 5G thương mại toàn quốc thúc đẩy nhà máy thông minh và tự động hóa IoT tại Việt Nam",
       "title_en": "Nationwide 5G Commercial Rollout Powers Smart Factories & Industrial IoT in Vietnam",
       "summary_vi": [
-        "Mạng 5G SA (Standalone) với độ trễ siêu thấp dưới 1ms cho phép điều khiển robot tự hành và cánh tay cơ khí thời gian thực.",
-        "Hơn 120 khu công nghiệp công nghệ cao tại Bắc Ninh, Bình Dương và TP.HCM đã hoàn tất tích hợp hệ sinh thái Smart Factory.",
-        "Tiết kiệm đến 35% chi phí vận hành và giảm thiểu đáng kể thời gian dừng máy nhờ bảo trì dự đoán (Predictive Maintenance)."
+        "Mạng 5G SA (Standalone) với độ trễ siêu thấp dưới 1ms cho phép điều khiển robot tự hành và cánh tay cơ khí theo thời gian thực.",
+        "Hơn 120 khu công nghiệp công nghệ cao tại Bắc Ninh, Bình Dương và TP.HCM đã hoàn tất tích hợp mạng lưới cảm biến Smart Factory.",
+        "Doanh nghiệp ghi nhận tiết kiệm đến 35% chi phí bảo trì và giảm thiểu tối đa thời gian dừng máy ngoài kế hoạch nhờ công nghệ Predictive Maintenance."
       ],
       "summary_en": [
         "5G Standalone networks delivering ultra-low sub-1ms latency enable real-time control of autonomous mobile robots and robotic arms.",
@@ -117,1406 +224,363 @@
       "sourceName": "VietNamNet ICT",
       "sourceOrigin": "vietnam",
       "category": "Tech Trends & Startups",
-      "tags": [
-        "5G",
-        "IoT",
-        "Industry40",
-        "SmartFactory",
-        "VietNam"
-      ],
+      "tags": ["5G", "IoT", "Industry40", "SmartFactory", "VietNam"],
       "hotScore": 87,
       "readTimeMinutes": 4,
-      "publishedAt": "2026-08-31T17:45:00.000Z",
+      "publishedAt": "2026-08-31T19:45:00.000Z",
       "thumbnailUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80",
-      "contentSnippet": "Hạ tầng 5G băng thông rộng và độ trễ cực thấp đang tạo nên cuộc cách mạng trong các dây chuyền sản xuất tự động..."
+      "contentSnippet": "Hạ tầng 5G băng thông rộng và độ trễ cực thấp đang tạo nên cuộc cách mạng trong các dây chuyền sản xuất tự động...",
+      "authorName": "Minh Quang",
+      "upvotes": 54,
+      "commentsCount": 11
     },
     {
-      "id": "hn-rust-webassembly-performance",
-      "title_vi": "Rust và WebAssembly (WASM): Chuẩn mực mới cho xử lý tính toán nặng trực tiếp trên trình duyệt",
-      "title_en": "Rust and WebAssembly (WASM): The Modern Standard for High-Performance In-Browser Compute",
+      "id": "viblo-langgraph-stateful-ai-agents",
+      "title_vi": "Xây dựng hệ thống Multi-Agent AI với LangGraph: Kiểm soát trạng thái và chu trình ra quyết định",
+      "title_en": "Building Multi-Agent AI Workflows with LangGraph: Stateful Cycles & Tool Invocation",
       "summary_vi": [
-        "Biên dịch mã Rust sang WebAssembly cho phép các ứng dụng đồ họa 3D, biên tập video và mô phỏng vật lý chạy ở tốc độ gần tương đương native.",
-        "Kiến trúc bộ nhớ an toàn (Memory Safety) không cần Garbage Collection của Rust giúp tránh hiện tượng sụt khung hình khi render.",
-        "Hệ sinh thái WebAssembly Component Model mở ra khả năng tái sử dụng module giữa serverless backend và client-side."
+        "LangGraph giải quyết hạn chế của kiến trúc DAG truyền thống bằng cách hỗ trợ đồ thị có chu trình (Cycles) và bộ nhớ trạng thái liên tục (State Persistence).",
+        "Mô hình Human-in-the-loop cho phép người dùng can thiệp và phê duyệt các hành động nhạy cảm như gửi email hoặc thực thi lệnh shell.",
+        "Kỹ sư Việt Nam ứng dụng LangGraph để xây dựng trợ lý ảo tự động phân tích mã nguồn và mở Pull Request tự động trên GitHub."
       ],
       "summary_en": [
-        "Compiling Rust to WebAssembly unlocks near-native execution speeds for 3D CAD, video processing, and physics simulations in browsers.",
-        "Rust's deterministic memory safety without a garbage collector eliminates frame drops during heavy compute cycles.",
-        "The WebAssembly Component Model enables seamless module sharing between serverless workers and browser clients."
+        "LangGraph overcomes linear DAG limitations by introducing cyclical graph architectures with persistent actor state checkpoints.",
+        "Human-in-the-loop execution pause points allow engineers to approve high-risk actions like financial transactions or shell executions.",
+        "Engineering teams apply LangGraph to build autonomous code-review agents capable of submitting verified GitHub Pull Requests."
       ],
-      "originalTitle": "Why Rust + WebAssembly is redefining browser capabilities",
-      "url": "https://news.ycombinator.com/item?id=41398877",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Rust",
-        "WebAssembly",
-        "WASM",
-        "Performance",
-        "Systems"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-08-31T16:20:00.000Z",
-      "thumbnailUrl": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
-      "contentSnippet": "Browser engines have evolved into complete operating runtime environments capable of running native-speed compiled Rust binaries..."
-    },
-    {
-      "id": "deae1ca40760ecc6",
-      "title_vi": "ESIM đang dần ngon hơn trước đây, nhưng vì sao anh em vẫn còn ngại dùng?",
-      "title_en": "[VN Tech] ESIM đang dần ngon hơn trước đây, nhưng vì sao anh em vẫn còn ngại dùng?",
-      "summary_vi": [
-        "ESIM tại Việt Nam vẫn vướng tâm lý ngại đổi, phí chuyển đổi và quy trình phức tạp. Nhưng khi smartphone dần bỏ khay SIM khép, eSIM sẽ trở th...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Việt Nam.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "ESIM tại Việt Nam vẫn vướng tâm lý ngại đổi, phí chuyển đổi và quy trình phức tạp. Nhưng khi smartphone dần bỏ khay SIM khép, eSIM sẽ trở th...",
-        "Automated tech digest fetched from Vietnamese RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": "ESIM đang dần ngon hơn trước đây, nhưng vì sao anh em vẫn còn ngại dùng?",
-      "url": "https://tinhte.vn/thread/esim-dang-dan-ngon-hon-truoc-day-nhung-vi-sao-anh-em-van-con-ngai-dung.4173567/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "TechNews",
-        "IT",
-        "VietNam"
-      ],
-      "hotScore": 77,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-31T15:10:24.000Z",
-      "contentSnippet": "ESIM tại Việt Nam vẫn vướng tâm lý ngại đổi, phí chuyển đổi và quy trình phức tạp. Nhưng khi smartphone dần bỏ khay SIM khép, eSIM sẽ trở thành xu hướng tất yếu. Thực tế thì nhiều anh em đã biết..."
-    },
-    {
-      "id": "4d57fcbbd949e509",
-      "title_vi": "[Quốc tế] Defensive Scripting with bash",
-      "title_en": "Defensive Scripting with bash",
-      "summary_vi": [
-        "DEFENSIVE PROGRAMMING IN BASH Bash is a very powerful tool, but it is important to employ strategies that catch errors early, provide clear ...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "DEFENSIVE PROGRAMMING IN BASH Bash is a very powerful tool, but it is important to employ strategies that catch errors early, provide clear ...",
-        "Automated tech digest fetched from Global RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": "Defensive Scripting with bash",
-      "url": "https://dev.to/4kit1-glitch/defensive-scripting-with-bash-2o3a",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "TechNews",
-        "IT",
-        "Global"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-08-31T15:08:00.000Z",
-      "contentSnippet": "DEFENSIVE PROGRAMMING IN BASH Bash is a very powerful tool, but it is important to employ strategies that catch errors early, provide clear logging, and handle unexpected situations cleanly. The scripts you write may be subjected to unexpected behaviours and events such as a required directory not p"
-    },
-    {
-      "id": "56b9d843dffdf7b6",
-      "title_vi": "[Quốc tế] Choosing an enterprise MCP gateway isn’t about the longest feature list. 👀\r\n\r\nI compared Bifrost, Docker, Kong, Lunar MCPX & Microsoft MCP Gateway across identity, security, tool governance, deployment, and failure handling.\r\n\r\nHere’s what I found 👇",
-      "title_en": "Choosing an enterprise MCP gateway isn’t about the longest feature list. 👀\r\n\r\nI compared Bifrost, Docker, Kong, Lunar MCPX & Microsoft MCP Gateway across identity, security, tool governance, deployment, and failure handling.\r\n\r\nHere’s what I found 👇",
-      "summary_vi": [
-        "Best Enterprise MCP Gateway for Your AI Agents in 2026 Vivek Shetye Vivek Shetye Vivek Shetye Follow Aug 31 Best Enterprise MCP Gateway for ...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Best Enterprise MCP Gateway for Your AI Agents in 2026 Vivek Shetye Vivek Shetye Vivek Shetye Follow Aug 31 Best Enterprise MCP Gateway for ...",
-        "Automated tech digest fetched from Global RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": "Choosing an enterprise MCP gateway isn’t about the longest feature list. 👀\r\n\r\nI compared Bifrost, Docker, Kong, Lunar MCPX & Microsoft MCP Gateway across identity, security, tool governance, deployment, and failure handling.\r\n\r\nHere’s what I found 👇",
-      "url": "https://dev.to/vivek_shetye/choosing-an-enterprise-mcp-gateway-isnt-about-the-longest-feature-list-i-compared-bifrost-38p",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "TechNews",
-        "IT",
-        "Global"
-      ],
-      "hotScore": 73,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-31T15:05:34.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3879444%2F8f338ec8-c7f4-48e9-b8cf-3898bccbb1e8.jpg",
-      "contentSnippet": "Best Enterprise MCP Gateway for Your AI Agents in 2026 Vivek Shetye Vivek Shetye Vivek Shetye Follow Aug 31 Best Enterprise MCP Gateway for Your AI Agents in 2026 #ai #mcp #agents #llm 5 reactions Add Comment 10 min read"
-    },
-    {
-      "id": "d0ef05ce0c40c3b4",
-      "title_vi": "[Quốc tế] [Boost]",
-      "title_en": "[Boost]",
-      "summary_vi": [
-        "A working PuTTY with a reverse shell bolted on Vasilis Mantas Vasilis Mantas Vasilis Mantas Follow Aug 31 A working PuTTY with a reverse she...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "A working PuTTY with a reverse shell bolted on Vasilis Mantas Vasilis Mantas Vasilis Mantas Follow Aug 31 A working PuTTY with a reverse she...",
-        "Automated tech digest fetched from Global RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": "[Boost]",
-      "url": "https://dev.to/vasilis_mantas/-12bp",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "TechNews",
-        "IT",
-        "Global"
-      ],
-      "hotScore": 73,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-31T15:05:31.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4102793%2F1a14cc30-128f-4ca5-9934-190e689096b8.png",
-      "contentSnippet": "A working PuTTY with a reverse shell bolted on Vasilis Mantas Vasilis Mantas Vasilis Mantas Follow Aug 31 A working PuTTY with a reverse shell bolted on #malware #analysis #cybersecurity #reversing 5 reactions Add Comment 8 min read"
-    },
-    {
-      "id": "1b66742e33c7b8ae",
-      "title_vi": "[Quốc tế] A working PuTTY with a reverse shell bolted on",
-      "title_en": "A working PuTTY with a reverse shell bolted on",
-      "summary_vi": [
-        "Why a trojanised utility is harder to catch than a malicious one, and what actually gives it away Vasilis Mantas, Threat Detection Engineer ...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Why a trojanised utility is harder to catch than a malicious one, and what actually gives it away Vasilis Mantas, Threat Detection Engineer ...",
-        "Automated tech digest fetched from Global RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": "A working PuTTY with a reverse shell bolted on",
-      "url": "https://dev.to/vasilis_mantas/a-working-putty-with-a-reverse-shell-bolted-on-alp",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "TechNews",
-        "IT",
-        "Global"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-08-31T15:05:16.000Z",
-      "contentSnippet": "Why a trojanised utility is harder to catch than a malicious one, and what actually gives it away Vasilis Mantas, Threat Detection Engineer Verdict: A functioning copy of PuTTY, modified to launch a hidden PowerShell process one second after the SSH client opens. The PowerShell command is base64 enc"
-    },
-    {
-      "id": "devto-kubernetes-cost-optimization",
-      "title_vi": "Kỹ thuật tối ưu hóa chi phí Kubernetes (FinOps): Cắt giảm 40% hóa đơn Cloud mà không hy sinh độ sẵn sàng",
-      "title_en": "Kubernetes FinOps Mastery: Cutting Cloud Costs by 40% Without Sacrificing High Availability",
-      "summary_vi": [
-        "Ứng dụng Keda và Karpenter để tự động scale node dựa trên khối lượng công việc thực tế thay vì cấu hình tĩnh.",
-        "Tận dụng hiệu quả Spot Instances kết hợp cơ chế Graceful Termination giúp tiết kiệm tới 70% chi phí điện toán đám mây.",
-        "Thiết lập Right-Sizing tự động cho Request/Limit CPU và RAM bằng công cụ mã nguồn mở Goldilocks và Robusta."
-      ],
-      "summary_en": [
-        "Implementing KEDA and Karpenter enables dynamic node provisioning driven by actual real-time traffic demand.",
-        "Leveraging Spot Instances with graceful pod termination saves up to 70% on compute infrastructure costs.",
-        "Automated CPU/RAM resource right-sizing tools ensure containers neither overprovision nor crash with OOM errors."
-      ],
-      "originalTitle": "Kubernetes Cost Optimization: Practical FinOps Guide",
-      "url": "https://dev.to/techlead/kubernetes-cost-optimization-finops-2026",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "Kubernetes",
-        "DevOps",
-        "FinOps",
-        "Cloud",
-        "AWS"
-      ],
-      "hotScore": 91,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-08-31T15:00:00.000Z",
-      "thumbnailUrl": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?auto=format&fit=crop&w=1200&q=80",
-      "contentSnippet": "Cloud bills can spiral out of control rapidly when microservices scale without proper FinOps observability and node auto-tuning..."
-    },
-    {
-      "id": "eee07d332e335035",
-      "title_vi": "[Quốc tế] Apache Iggy, a message streaming platform in Rust, graduates to an Apache TLP",
-      "title_en": "Apache Iggy, a message streaming platform in Rust, graduates to an Apache TLP",
-      "summary_vi": [
-        "Hacker News Top Story by spetz. Score: 12. Thảo luận công nghệ hàng đầu thế giới....",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Hacker News Top Story by spetz. Score: 12. Thảo luận công nghệ hàng đầu thế giới....",
-        "Automated tech digest fetched from Global tech feeds.",
-        "Refer to the canonical link for complete coverage."
-      ],
-      "originalTitle": "Apache Iggy, a message streaming platform in Rust, graduates to an Apache TLP",
-      "url": "https://iggy.apache.org/blogs/2026/08/24/apache-iggy-top-level-project-tlp-graduation/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "HackerNews",
-        "Tech",
-        "Programming"
-      ],
-      "hotScore": 80,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-08-31T14:54:20.000Z",
-      "contentSnippet": "Top trending discussion with 12 points and 3 comments.",
-      "authorName": "spetz",
-      "upvotes": 12,
-      "commentsCount": 3
-    },
-    {
-      "id": "63994c0b6655e700",
-      "title_vi": "[Quốc tế] Playa Phone",
-      "title_en": "Playa Phone",
-      "summary_vi": [
-        "Hacker News Top Story by cutoff. Score: 21. Thảo luận công nghệ hàng đầu thế giới....",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Hacker News Top Story by cutoff. Score: 21. Thảo luận công nghệ hàng đầu thế giới....",
-        "Automated tech digest fetched from Global tech feeds.",
-        "Refer to the canonical link for complete coverage."
-      ],
-      "originalTitle": "Playa Phone",
-      "url": "https://playaphone.com/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "HackerNews",
-        "Tech",
-        "Programming"
-      ],
-      "hotScore": 80,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-08-31T14:52:26.000Z",
-      "contentSnippet": "Top trending discussion with 21 points and 3 comments.",
-      "authorName": "cutoff",
-      "upvotes": 21,
-      "commentsCount": 3
-    },
-    {
-      "id": "29183ed70a4b1039",
-      "title_vi": "[Quốc tế] My Experience Has Nuance, Yours Is a Data Point",
-      "title_en": "My Experience Has Nuance, Yours Is a Data Point",
-      "summary_vi": [
-        "Article URL: https://blog.jim-nielsen.com/2026/nuance-for-me-none-for-you/ Comments URL: https://news.ycombinator.com/item?id=49510320 Point...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Article URL: https://blog.jim-nielsen.com/2026/nuance-for-me-none-for-you/ Comments URL: https://news.ycombinator.com/item?id=49510320 Point...",
-        "Automated tech digest fetched from Global RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": "My Experience Has Nuance, Yours Is a Data Point",
-      "url": "https://blog.jim-nielsen.com/2026/nuance-for-me-none-for-you/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "TechNews",
-        "IT",
-        "Global"
-      ],
-      "hotScore": 84,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-31T14:37:28.000Z",
-      "contentSnippet": "Article URL: https://blog.jim-nielsen.com/2026/nuance-for-me-none-for-you/ Comments URL: https://news.ycombinator.com/item?id=49510320 Points: 5 # Comments: 0"
-    },
-    {
-      "id": "a2f4b5faad2567d4",
-      "title_vi": "Khung tranh di động Galaxy Z Fold8",
-      "title_en": "[VN Tech] Khung tranh di động Galaxy Z Fold8",
-      "summary_vi": [
-        "Dạo gần đây khi dùng Galaxy Z Fold8 làm máy chính, bên cạnh các tác vụ làm việc hay giải trí thông thường, mình phát hiện ra một cách tận dụ...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Việt Nam.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Dạo gần đây khi dùng Galaxy Z Fold8 làm máy chính, bên cạnh các tác vụ làm việc hay giải trí thông thường, mình phát hiện ra một cách tận dụ...",
-        "Automated tech digest fetched from Vietnamese RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": "Khung tranh di động Galaxy Z Fold8",
-      "url": "https://tinhte.vn/thread/khung-tranh-di-dong-galaxy-z-fold8.4173590/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "TechNews",
-        "IT",
-        "VietNam"
-      ],
-      "hotScore": 89,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-31T14:30:10.000Z",
-      "contentSnippet": "Dạo gần đây khi dùng Galaxy Z Fold8 làm máy chính, bên cạnh các tác vụ làm việc hay giải trí thông thường, mình phát hiện ra một cách tận dụng chiếc màn hình gập này cực kỳ thú vị trên bàn làm..."
-    },
-    {
-      "id": "65212327158b5536",
-      "title_vi": "[Quốc tế] New York governor to 3D-printed gun leader: &#8216;tell Cody I will get ahead of him&#8217;",
-      "title_en": "New York governor to 3D-printed gun leader: &#8216;tell Cody I will get ahead of him&#8217;",
-      "summary_vi": [
-        "Cody Wilson, the creator of the first 3D-printed gun, announced a tool last week aimed at skirting a New York law that prevents 3D printers ...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Cody Wilson, the creator of the first 3D-printed gun, announced a tool last week aimed at skirting a New York law that prevents 3D printers ...",
-        "Automated tech digest fetched from Global tech feeds.",
-        "Refer to the canonical link for complete coverage."
-      ],
-      "originalTitle": "New York governor to 3D-printed gun leader: &#8216;tell Cody I will get ahead of him&#8217;",
-      "url": "https://www.theverge.com/policy/986733/kathy-hochul-3d-printed-guns-cody-wilson-response",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechNews",
-        "IT",
-        "Global"
-      ],
-      "hotScore": 77,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-31T14:20:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2290458315.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-      "contentSnippet": "Cody Wilson, the creator of the first 3D-printed gun, announced a tool last week aimed at skirting a New York law that prevents 3D printers from making firearms - and taunting governor Kathy Hochul in the process. But Hochul isn't having it. In this week's episode of Decoder, Hochul responded to Wil",
-      "authorName": "Stevie Bonifield",
-      "upvotes": 24,
-      "commentsCount": 2
-    },
-    {
-      "id": "verge-quantum-computing-breakthrough",
-      "title_vi": "Đột phá sửa lỗi lượng tử (Quantum Error Correction) đưa điện toán lượng tử tiến gần hơn tới thương mại hóa",
-      "title_en": "Quantum Error Correction Breakthrough Brings Practical Quantum Supremacy Closer to Reality",
-      "summary_vi": [
-        "Các nhà nghiên cứu phát triển thành công qubit logic với tỷ lệ lỗi giảm hơn 100 lần so với các thế hệ chip lượng tử trước.",
-        "Thuật toán mới cho phép chạy liên tục các chu kỳ tính toán phức tạp mà không bị sụp đổ trạng thái chồng chập (Superposition).",
-        "Mở ra triển vọng mô phỏng phân tử thuốc chữa bệnh và vật liệu siêu dẫn mới trong vòng 3-5 năm tới."
-      ],
-      "summary_en": [
-        "Researchers achieve fault-tolerant logical qubits with error rates suppressed by more than 100x compared to previous chips.",
-        "New correction algorithms sustain quantum state coherence throughout extended compute cycles.",
-        "Paves the way for complex molecular drug simulation and room-temperature superconductor discovery within 3-5 years."
-      ],
-      "originalTitle": "Quantum computing reaches major fault tolerance milestone",
-      "url": "https://www.theverge.com/2026/8/quantum-error-correction-milestone",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Quantum",
-        "DeepTech",
-        "Hardware",
-        "Science",
-        "Physics"
-      ],
-      "hotScore": 94,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-08-31T14:10:00.000Z",
-      "thumbnailUrl": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=1200&q=80",
-      "contentSnippet": "Fault tolerance was the single biggest barrier between quantum theory and commercially viable quantum computation..."
-    },
-    {
-      "id": "a3f40d92ed89c939",
-      "title_vi": "[Quốc tế] ChatGPT Work Tool and Skill Reference",
-      "title_en": "ChatGPT Work Tool and Skill Reference",
-      "summary_vi": [
-        "Article URL: https://codex-tool-reference.simonw.chatgpt.site/ Comments URL: https://news.ycombinator.com/item?id=49510000 Points: 30 # Comm...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Article URL: https://codex-tool-reference.simonw.chatgpt.site/ Comments URL: https://news.ycombinator.com/item?id=49510000 Points: 30 # Comm...",
-        "Automated tech digest fetched from Global RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": "ChatGPT Work Tool and Skill Reference",
-      "url": "https://codex-tool-reference.simonw.chatgpt.site/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "TechNews",
-        "IT",
-        "Global"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-31T14:07:15.000Z",
-      "contentSnippet": "Article URL: https://codex-tool-reference.simonw.chatgpt.site/ Comments URL: https://news.ycombinator.com/item?id=49510000 Points: 30 # Comments: 16"
-    },
-    {
-      "id": "1ba2d1aad50f660a",
-      "title_vi": "[Quốc tế] New York Governor Kathy Hochul thinks AI should be ‘less evil’",
-      "title_en": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
-      "summary_vi": [
-        "Today, I’m talking with New York Governor Kathy Hochul, and I’ll just warn you — this episode moves really fast. It’s an election year, afte...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Today, I’m talking with New York Governor Kathy Hochul, and I’ll just warn you — this episode moves really fast. It’s an election year, afte...",
-        "Automated tech digest fetched from Global RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
-      "url": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechNews",
-        "IT",
-        "Global"
-      ],
-      "hotScore": 87,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-08-31T14:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/DCD_Hochul.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-      "contentSnippet": "Today, I’m talking with New York Governor Kathy Hochul, and I’ll just warn you — this episode moves really fast. It’s an election year, after all, with a shocking amount of tech policy at stake, and Governor Hochul has taken strong positions on almost every major tech issue there is. For example, Me"
-    },
-    {
-      "id": "d8517a2411964544",
-      "title_vi": "[Quốc tế] ChatGPT and Reddit now face EU's toughest online safety rules",
-      "title_en": "ChatGPT and Reddit now face EU's toughest online safety rules",
-      "summary_vi": [
-        "Explosive growth comes with a new regulatory burden in the European Union....",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Explosive growth comes with a new regulatory burden in the European Union....",
-        "Automated tech digest fetched from Global tech feeds.",
-        "Refer to the canonical link for complete coverage."
-      ],
-      "originalTitle": "ChatGPT and Reddit now face EU's toughest online safety rules",
-      "url": "https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "TechNews",
-        "IT",
-        "Global"
-      ],
-      "hotScore": 89,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-31T13:41:40.000Z",
-      "contentSnippet": "Explosive growth comes with a new regulatory burden in the European Union.",
-      "authorName": "\n                    Barbara Moens, Financial Times\n                ",
-      "upvotes": 24,
-      "commentsCount": 2
-    },
-    {
-      "id": "b154a9f91feba9a1",
-      "title_vi": "[Quốc tế] Show HN: Linux server management over SSH – written in Rust and Tauri",
-      "title_en": "Show HN: Linux server management over SSH – written in Rust and Tauri",
-      "summary_vi": [
-        "Article URL: https://serverbox.stupidlabs.lol/ Comments URL: https://news.ycombinator.com/item?id=49509679 Points: 5 # Comments: 1...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Article URL: https://serverbox.stupidlabs.lol/ Comments URL: https://news.ycombinator.com/item?id=49509679 Points: 5 # Comments: 1...",
-        "Automated tech digest fetched from Global RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": "Show HN: Linux server management over SSH – written in Rust and Tauri",
-      "url": "https://serverbox.stupidlabs.lol/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "TechNews",
-        "IT",
-        "Global"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-31T13:39:43.000Z",
-      "contentSnippet": "Article URL: https://serverbox.stupidlabs.lol/ Comments URL: https://news.ycombinator.com/item?id=49509679 Points: 5 # Comments: 1"
-    },
-    {
-      "id": "tuoitre-ai-agent-developer-productivity",
-      "title_vi": "Làn sóng AI Coding Agents: Kỹ sư phần mềm chuyển mình từ 'viết code thủ công' sang 'kiểm trúc và điều phối AI'",
-      "title_en": "The Rise of Autonomous AI Coding Agents: Transforming Developers from Coders to AI Orchestrators",
-      "summary_vi": [
-        "Các agent lập trình thế hệ mới có thể tự động đọc codebase, viết test, sửa lỗi bug và đề xuất pull request hoàn chỉnh.",
-        "Năng suất kỹ sư gia tăng đáng kể ở các tác vụ lặp lại (Boilerplate, Unit tests, API documentation).",
-        "Kỹ năng tư duy kiến trúc hệ thống và kiểm thử bảo mật trở thành thế mạnh cạnh tranh hàng đầu của lập trình viên."
-      ],
-      "summary_en": [
-        "Next-gen agentic coding tools autonomously navigate codebases, generate test suites, and resolve complex issues.",
-        "Developer velocity surges by automating repetitive tasks such as boilerplate scaffolding and schema migrations.",
-        "System design thinking and security auditing emerge as the most critical skills for modern software architects."
-      ],
-      "originalTitle": "Lập trình viên và tương lai làm việc cùng trí tuệ nhân tạo",
-      "url": "https://tuoitre.vn/ai-coding-agent-tuong-lai-lap-trinh-2026.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "originalTitle": "Làm chủ LangGraph để xây dựng Multi-Agent AI",
+      "url": "https://viblo.asia/p/xay-dung-multi-agent-ai-voi-langgraph-Qbq5QpP3ZDe",
+      "sourceName": "Viblo Tech",
       "sourceOrigin": "vietnam",
       "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Developer",
-        "Productivity",
-        "CodingAgent",
-        "FutureOfWork"
-      ],
-      "hotScore": 97,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-08-31T13:30:00.000Z",
+      "tags": ["LangGraph", "AI", "LLM", "Python", "Agents"],
+      "hotScore": 95,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-08-31T19:20:00.000Z",
       "thumbnailUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80",
-      "contentSnippet": "Không còn đơn thuần là gợi ý dòng lệnh (autocomplete), AI agent hiện nay đã có thể tự động hóa toàn bộ vòng đời phát triển phần mềm..."
+      "contentSnippet": "Sự phát triển từ đơn Agent sang Multi-Agent đòi hỏi các framework đồ thị mạnh mẽ như LangGraph để quản lý luồng trạng thái phức tạp...",
+      "authorName": "Nguyen Van A",
+      "upvotes": 112,
+      "commentsCount": 29
     },
     {
-      "id": "baab72ac3819c3f5",
-      "title_vi": "[Quốc tế] ChatGPT to face tougher regulation in the EU",
-      "title_en": "ChatGPT to face tougher regulation in the EU",
+      "id": "tuoitre-vietnam-ai-act-legal-framework",
+      "title_vi": "Việt Nam hoàn thiện khung pháp lý thử nghiệm (Sandbox) cho công nghệ trí tuệ nhân tạo",
+      "title_en": "Vietnam Finalizes Regulatory Sandbox Framework for Artificial Intelligence Technology",
       "summary_vi": [
-        "OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illeg...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
+        "Chính phủ ban hành cơ chế Sandbox cho phép các doanh nghiệp thử nghiệm giải pháp AI trong y tế, tài chính và xe tự hành có kiểm soát rủi ro.",
+        "Quy định nhấn mạnh tính minh bạch của thuật toán, bảo vệ quyền riêng tư dữ liệu người dùng và phòng ngừa tin giả (Deepfake).",
+        "Tạo hành lang pháp lý thông thoáng thu hút dòng vốn đầu tư mạo hiểm quốc tế rót vào hệ sinh thái AI khởi nghiệp tại Việt Nam."
       ],
       "summary_en": [
-        "OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illeg...",
-        "Automated tech digest fetched from Global RSS feeds.",
-        "Refer to the canonical link for full technical depth."
+        "Government adopts an experimental Sandbox framework allowing controlled testing of AI in healthcare, fintech, and autonomous mobility.",
+        "Directives emphasize algorithmic transparency, strict user data privacy rights, and prevention of deceptive generative deepfakes.",
+        "The clear legal foundation accelerates international venture capital inflow into Vietnam's booming AI startup ecosystem."
       ],
-      "originalTitle": "ChatGPT to face tougher regulation in the EU",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechNews",
-        "IT",
-        "Global"
-      ],
-      "hotScore": 91,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-31T13:27:36.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_B.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-      "contentSnippet": "OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illegal content in the European Union. That's because ChatGPT is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws "
-    },
-    {
-      "id": "32d15f632656f580",
-      "title_vi": "[Quốc tế] NASA's next \"great observatory\" begins mission to widen our view of the Universe",
-      "title_en": "NASA's next \"great observatory\" begins mission to widen our view of the Universe",
-      "summary_vi": [
-        "\"We would need over half a million 4K TVs to fully display the single Roman image from our largest survey.\"...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "\"We would need over half a million 4K TVs to fully display the single Roman image from our largest survey.\"...",
-        "Automated tech digest fetched from Global tech feeds.",
-        "Refer to the canonical link for complete coverage."
-      ],
-      "originalTitle": "NASA's next \"great observatory\" begins mission to widen our view of the Universe",
-      "url": "https://arstechnica.com/space/2026/08/nasas-next-great-observatory-begins-mission-to-widen-our-view-of-the-universe/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "TechNews",
-        "IT",
-        "Global"
-      ],
-      "hotScore": 80,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-31T13:01:09.000Z",
-      "contentSnippet": "\"We would need over half a million 4K TVs to fully display the single Roman image from our largest survey.\"",
-      "authorName": "\n                    Stephen Clark\n                ",
-      "upvotes": 15,
-      "commentsCount": 6
-    },
-    {
-      "id": "d9c1624fa078b689",
-      "title_vi": "[Quốc tế] Instagram cracks down on AI accounts pretending to be human",
-      "title_en": "Instagram cracks down on AI accounts pretending to be human",
-      "summary_vi": [
-        "“AI creator” accounts like Aitana Lopez will get a new “AI-generated profile” label. | Image: Aitana Lopez Instagram is finally taking steps...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "“AI creator” accounts like Aitana Lopez will get a new “AI-generated profile” label. | Image: Aitana Lopez Instagram is finally taking steps...",
-        "Automated tech digest fetched from Global RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": "Instagram cracks down on AI accounts pretending to be human",
-      "url": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechNews",
-        "IT",
-        "Global"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-08-31T13:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/vege-ai-influencer.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-      "contentSnippet": "“AI creator” accounts like Aitana Lopez will get a new “AI-generated profile” label. | Image: Aitana Lopez Instagram is finally taking steps to address the rise of fake AI-influencer accounts that have gotten harder to spot. It's also renaming the \"AI creator\" label to \"AI-generated profile\" to make"
-    },
-    {
-      "id": "674d63c707ccf3f1",
-      "title_vi": "Cỗ máy tỷ USD tìm cách 'mở khóa' năng lượng nhiệt hạch",
-      "title_en": "[VN Tech] Cỗ máy tỷ USD tìm cách 'mở khóa' năng lượng nhiệt hạch",
-      "summary_vi": [
-        "Công ty khởi nghiệp Pacific Fusion đang xây dựng một cỗ máy nhiệt hạch với mục tiêu sản xuất năng lượng thành công trong 4 năm tới....",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Việt Nam.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Công ty khởi nghiệp Pacific Fusion đang xây dựng một cỗ máy nhiệt hạch với mục tiêu sản xuất năng lượng thành công trong 4 năm tới....",
-        "Automated tech digest fetched from Vietnamese RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": "Cỗ máy tỷ USD tìm cách 'mở khóa' năng lượng nhiệt hạch",
-      "url": "https://vnexpress.net/co-may-ty-usd-tim-cach-mo-khoa-nang-luong-nhiet-hach-5115357.html",
-      "sourceName": "VnExpress Số Hóa",
+      "originalTitle": "Khung pháp lý phát triển công nghệ AI tại Việt Nam",
+      "url": "https://tuoitre.vn/khung-phap-ly-ai-viet-nam-20260831123456.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
       "sourceOrigin": "vietnam",
       "category": "Tech Trends & Startups",
-      "tags": [
-        "TechNews",
-        "IT",
-        "VietNam"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-31T12:00:00.000Z",
-      "thumbnailUrl": "https://i1-vnexpress.vnecdn.net/2026/08/31/d4158602602620353151976-178814-9022-5364-1788149875.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=C3ERmcEaceR5VW7Wc3nKpw",
-      "contentSnippet": "Công ty khởi nghiệp Pacific Fusion đang xây dựng một cỗ máy nhiệt hạch với mục tiêu sản xuất năng lượng thành công trong 4 năm tới."
-    },
-    {
-      "id": "fd22ee6c0382d7bc",
-      "title_vi": "[Quốc tế] The Universe as a Minified Bundle",
-      "title_en": "The Universe as a Minified Bundle",
-      "summary_vi": [
-        "Article URL: https://andrewarrow.dev/2026/moons/2/day/9/the-universe-as-a-minified-bundle/ Comments URL: https://news.ycombinator.com/item?i...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Article URL: https://andrewarrow.dev/2026/moons/2/day/9/the-universe-as-a-minified-bundle/ Comments URL: https://news.ycombinator.com/item?i...",
-        "Automated tech digest fetched from Global RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": "The Universe as a Minified Bundle",
-      "url": "https://andrewarrow.dev/2026/moons/2/day/9/the-universe-as-a-minified-bundle/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "TechNews",
-        "IT",
-        "Global"
-      ],
-      "hotScore": 79,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-31T11:24:30.000Z",
-      "contentSnippet": "Article URL: https://andrewarrow.dev/2026/moons/2/day/9/the-universe-as-a-minified-bundle/ Comments URL: https://news.ycombinator.com/item?id=49508367 Points: 16 # Comments: 13"
-    },
-    {
-      "id": "70bac8465bc374d7",
-      "title_vi": "5 công nghệ pin xe điện có thể thay thế pin lithium-ion",
-      "title_en": "[VN Tech] 5 công nghệ pin xe điện có thể thay thế pin lithium-ion",
-      "summary_vi": [
-        "Những công nghệ pin thế hệ mới có thể giúp nhà sản xuất xe điện giảm phụ thuộc vào pin lithium-ion thông thường....",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Việt Nam.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Những công nghệ pin thế hệ mới có thể giúp nhà sản xuất xe điện giảm phụ thuộc vào pin lithium-ion thông thường....",
-        "Automated tech digest fetched from Vietnamese RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": "5 công nghệ pin xe điện có thể thay thế pin lithium-ion",
-      "url": "https://vnexpress.net/5-cong-nghe-pin-xe-dien-co-the-thay-the-pin-lithium-ion-5113715.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechNews",
-        "IT",
-        "VietNam"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-31T11:00:00.000Z",
-      "thumbnailUrl": "https://i1-vnexpress.vnecdn.net/2026/08/26/VNEBat2-1787733600-8641-1787734025.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=XrHZIl_I89xIHSSRR5m1JA",
-      "contentSnippet": "Những công nghệ pin thế hệ mới có thể giúp nhà sản xuất xe điện giảm phụ thuộc vào pin lithium-ion thông thường."
-    },
-    {
-      "id": "0eca9e056acddd67",
-      "title_vi": "[Quốc tế] Pocket's AI made my game ideas real. Now Meta controls the results.",
-      "title_en": "Pocket's AI made my game ideas real. Now Meta controls the results.",
-      "summary_vi": [
-        "Interactive mobile \"gizmos\" are easy to make, hard to share outside Meta's platform....",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Interactive mobile \"gizmos\" are easy to make, hard to share outside Meta's platform....",
-        "Automated tech digest fetched from Global tech feeds.",
-        "Refer to the canonical link for complete coverage."
-      ],
-      "originalTitle": "Pocket's AI made my game ideas real. Now Meta controls the results.",
-      "url": "https://arstechnica.com/gaming/2026/08/pockets-ai-made-my-game-ideas-real-now-meta-controls-the-results/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "TechNews",
-        "IT",
-        "Global"
-      ],
-      "hotScore": 79,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-31T10:00:34.000Z",
-      "contentSnippet": "Interactive mobile \"gizmos\" are easy to make, hard to share outside Meta's platform.",
-      "authorName": "\n                    Kyle Orland\n                ",
-      "upvotes": 12,
-      "commentsCount": 1
-    },
-    {
-      "id": "0093bb3cdd1db22a",
-      "title_vi": "[Quốc tế] OpenShot 4.0: Record, Edit, and Color Like Never Before",
-      "title_en": "OpenShot 4.0: Record, Edit, and Color Like Never Before",
-      "summary_vi": [
-        "Hacker News Top Story by metrofun. Score: 354. Thảo luận công nghệ hàng đầu thế giới....",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Hacker News Top Story by metrofun. Score: 354. Thảo luận công nghệ hàng đầu thế giới....",
-        "Automated tech digest fetched from Global tech feeds.",
-        "Refer to the canonical link for complete coverage."
-      ],
-      "originalTitle": "OpenShot 4.0: Record, Edit, and Color Like Never Before",
-      "url": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "HackerNews",
-        "Tech",
-        "Programming"
-      ],
-      "hotScore": 99,
+      "tags": ["AI", "Policy", "Startup", "Sandbox", "VietNam"],
+      "hotScore": 86,
       "readTimeMinutes": 4,
-      "publishedAt": "2026-08-31T09:59:05.000Z",
-      "contentSnippet": "Top trending discussion with 354 points and 88 comments.",
-      "authorName": "metrofun",
-      "upvotes": 354,
-      "commentsCount": 88
+      "publishedAt": "2026-08-31T18:50:00.000Z",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
+      "contentSnippet": "Cơ chế thử nghiệm có kiểm soát giúp cân bằng giữa việc khuyến khích đổi mới sáng tạo công nghệ và bảo vệ quyền lợi người dân...",
+      "authorName": "Hoàng Nam",
+      "upvotes": 41,
+      "commentsCount": 7
     },
     {
-      "id": "331d72b299bd7bc0",
-      "title_vi": "Robot hình người lộ nhiều điểm yếu tại Thế vận hội",
-      "title_en": "[VN Tech] Robot hình người lộ nhiều điểm yếu tại Thế vận hội",
+      "id": "arstechnica-quantum-encryption-post-quantum-cryptography",
+      "title_vi": "Tiêu chuẩn mật mã hậu lượng tử (PQC): Cuộc chạy đua nâng cấp an toàn mạng toàn cầu",
+      "title_en": "Post-Quantum Cryptography (PQC) Standards: The Global Race to Secure Modern Encryption",
       "summary_vi": [
-        "Robot phá kỷ lục của con người ở một số môn thể thao, nhưng lại gặp khó với những tác vụ đòi hỏi độ chính xác cao....",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Việt Nam.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
+        "Viện Tiêu chuẩn và Công nghệ Mỹ (NIST) chính thức phát hành bộ thuật toán mật mã kháng lượng tử đầu tiên gồm ML-KEM và ML-DSA.",
+        "Các tổ chức tài chính và nhà cung cấp đám mây bắt đầu lộ trình chuyển đổi khóa mã hóa RSA/ECC sang PQC nhằm chống lại mối đe dọa 'Thu thập trước, giải mã sau'.",
+        "Kỹ sư mạng được khuyến nghị thử nghiệm tích hợp thư viện liboqs vào giao thức TLS 1.3 để đo lường độ trễ handshake thực tế."
       ],
       "summary_en": [
-        "Robot phá kỷ lục của con người ở một số môn thể thao, nhưng lại gặp khó với những tác vụ đòi hỏi độ chính xác cao....",
-        "Automated tech digest fetched from Vietnamese RSS feeds.",
-        "Refer to the canonical link for full technical depth."
+        "NIST officially publishes its primary post-quantum cryptographic standards, including ML-KEM for key exchange and ML-DSA for digital signatures.",
+        "Financial institutions and major cloud providers initiate migration from RSA/ECC to PQC to counter 'Harvest Now, Decrypt Later' espionage.",
+        "Security architects are advised to benchmark OpenSSL with liboqs on TLS 1.3 endpoints to assess real-world handshake latency overhead."
       ],
-      "originalTitle": "Robot hình người lộ nhiều điểm yếu tại Thế vận hội",
-      "url": "https://vnexpress.net/robot-hinh-nguoi-lo-nhieu-diem-yeu-tai-the-van-hoi-5115400.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechNews",
-        "IT",
-        "VietNam"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-31T08:39:55.000Z",
-      "thumbnailUrl": "https://i1-vnexpress.vnecdn.net/2026/08/31/anhmanhinh20260829lu5801387517-4514-6938-1788164350.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=1io0BYMHjxTTjc7perdytg",
-      "contentSnippet": "Robot phá kỷ lục của con người ở một số môn thể thao, nhưng lại gặp khó với những tác vụ đòi hỏi độ chính xác cao."
-    },
-    {
-      "id": "dedbc20f47d4e1ec",
-      "title_vi": "Nhịp cầu vòm bê tông dài nhất thế giới",
-      "title_en": "[VN Tech] Nhịp cầu vòm bê tông dài nhất thế giới",
-      "summary_vi": [
-        "Cầu Tian’e Longtan bắc qua sông Hồng Thủy có nhịp chính dài 600 m, vượt kỷ lục thế giới trước đó là 445 m, trong khi giảm 22% lượng bê tông ...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Việt Nam.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Cầu Tian’e Longtan bắc qua sông Hồng Thủy có nhịp chính dài 600 m, vượt kỷ lục thế giới trước đó là 445 m, trong khi giảm 22% lượng bê tông ...",
-        "Automated tech digest fetched from Vietnamese RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": "Nhịp cầu vòm bê tông dài nhất thế giới",
-      "url": "https://vnexpress.net/nhip-cau-vom-be-tong-dai-nhat-the-gioi-5115087.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechNews",
-        "IT",
-        "VietNam"
-      ],
-      "hotScore": 80,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-31T06:00:00.000Z",
-      "thumbnailUrl": "https://i1-vnexpress.vnecdn.net/2026/08/30/IEPhoto261-1788027967-1719-1788028048.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=jdyM4Of4YiXCLCleuBUjQg",
-      "contentSnippet": "Cầu Tian’e Longtan bắc qua sông Hồng Thủy có nhịp chính dài 600 m, vượt kỷ lục thế giới trước đó là 445 m, trong khi giảm 22% lượng bê tông sử dụng."
-    },
-    {
-      "id": "a7d7c48c7b8f2b41",
-      "title_vi": "[Quốc tế] A 12TB Steam “teraleak” spills more than a decade of lost PC gaming history",
-      "title_en": "A 12TB Steam “teraleak” spills more than a decade of lost PC gaming history",
-      "summary_vi": [
-        "Cut content from Portal 2, hints of Half Life 2: Episode 3, and so much more....",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Cut content from Portal 2, hints of Half Life 2: Episode 3, and so much more....",
-        "Automated tech digest fetched from Global tech feeds.",
-        "Refer to the canonical link for complete coverage."
-      ],
-      "originalTitle": "A 12TB Steam “teraleak” spills more than a decade of lost PC gaming history",
-      "url": "https://arstechnica.com/gaming/2026/08/a-12tb-steam-teraleak-spills-more-than-a-decade-of-lost-pc-gaming-history/",
+      "originalTitle": "NIST releases finalized post-quantum encryption standards",
+      "url": "https://arstechnica.com/security/2026/08/nist-releases-post-quantum-standards/",
       "sourceName": "Ars Technica",
       "sourceOrigin": "global",
       "category": "Cybersecurity",
-      "tags": [
-        "TechNews",
-        "IT",
-        "Global"
-      ],
-      "hotScore": 89,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-30T21:40:56.000Z",
-      "contentSnippet": "Cut content from Portal 2, hints of Half Life 2: Episode 3, and so much more.",
-      "authorName": "\n                    Kyle Orland\n                ",
-      "upvotes": 14,
-      "commentsCount": 5
+      "tags": ["Cryptography", "Quantum", "Security", "Encryption", "NIST"],
+      "hotScore": 95,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-08-31T18:15:00.000Z",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=1200&q=80",
+      "contentSnippet": "The transition to quantum-safe algorithms is the most significant overhaul of internet security infrastructure in three decades...",
+      "authorName": "Dan Goodin",
+      "upvotes": 98,
+      "commentsCount": 33
     },
     {
-      "id": "431ebf7a4d824629",
-      "title_vi": "[Quốc tế] Professor Murder Rides the Subway is a forgotten slice of dance punk perfection",
-      "title_en": "Professor Murder Rides the Subway is a forgotten slice of dance punk perfection",
+      "id": "theverge-apple-m4-ultra-neural-engine",
+      "title_vi": "Chip Apple M4 Ultra ra mắt với Neural Engine 64-Core: Đưa mô hình LLM 70B tham số chạy cục bộ trên máy Mac",
+      "title_en": "Apple M4 Ultra Chip Debuts with 64-Core Neural Engine: Running 70B LLMs Locally on Mac Studio",
       "summary_vi": [
-        "I recently dug out my CDs and started reripping them all. I've found a few forgotten gems in there, but few hit harder for me than the beaut...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
+        "Kiến trúc UltraFusion thế hệ thứ 3 ghép nối 2 chip M4 Max tạo nên băng thông bộ nhớ hợp nhất lên đến 1024 GB/s.",
+        "Bộ nhớ Unified Memory tối đa 256GB cho phép các kỹ sư AI chạy trực tiếp các mô hình ngôn ngữ lớn 70 tỷ tham số mà không cần thuê GPU đám mây.",
+        "Tối ưu hóa sâu với framework MLX của Apple giúp giảm mức tiêu thụ điện năng xuống chỉ bằng 1/4 so với máy trạm PC tương đương."
       ],
       "summary_en": [
-        "I recently dug out my CDs and started reripping them all. I've found a few forgotten gems in there, but few hit harder for me than the beaut...",
-        "Automated tech digest fetched from Global RSS feeds.",
-        "Refer to the canonical link for full technical depth."
+        "Third-generation UltraFusion interconnect pairs dual M4 Max silicon to unlock a massive 1024 GB/s unified memory bandwidth ceiling.",
+        "Up to 256GB of unified memory allows AI researchers to run quantised 70B parameter LLMs locally without incurring cloud rental bills.",
+        "Deep integration with Apple's native MLX framework cuts power consumption to a quarter of comparable x86 enterprise workstations."
       ],
-      "originalTitle": "Professor Murder Rides the Subway is a forgotten slice of dance punk perfection",
-      "url": "https://www.theverge.com/entertainment/986564/professor-murder-rides-the-subway-dance-punk-perfection-review",
+      "originalTitle": "Apple reveals M4 Ultra silicon for next-generation creative workstations",
+      "url": "https://www.theverge.com/2026/8/apple-m4-ultra-mac-studio-announcement",
       "sourceName": "The Verge",
       "sourceOrigin": "global",
       "category": "Tech Trends & Startups",
-      "tags": [
-        "TechNews",
-        "IT",
-        "Global"
-      ],
-      "hotScore": 76,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-30T21:18:59.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/a0163061049_10.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-      "contentSnippet": "I recently dug out my CDs and started reripping them all. I've found a few forgotten gems in there, but few hit harder for me than the beautifully concise Professor Murder Rides the Subway EP. There was a period of time in the mid-aughts in NYC where it seemed like every indie band wanted you to let"
+      "tags": ["Apple", "M4Ultra", "Silicon", "Hardware", "Mac"],
+      "hotScore": 97,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-08-31T17:40:00.000Z",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
+      "contentSnippet": "Apple's silicon prowess takes another leap forward with double the memory bandwidth and high-throughput local AI inference capabilities...",
+      "authorName": "Nilay Patel",
+      "upvotes": 210,
+      "commentsCount": 95
     },
     {
-      "id": "ae13bed431c5ec24",
-      "title_vi": "Trên tay Fender Mix: tai nghe không dây để nghe nhạc",
-      "title_en": "[VN Tech] Trên tay Fender Mix: tai nghe không dây để nghe nhạc",
+      "id": "hn-kubernetes-v1-32-sidecar-containers",
+      "title_vi": "Kubernetes v1.32 chính thức hoàn thiện Native Sidecar Containers: Tạm biệt các giải pháp Workaround",
+      "title_en": "Kubernetes v1.32 Finalizes Native Sidecar Containers: Retiring Hacky Workarounds for Good",
       "summary_vi": [
-        "Tai nào thì cũng để nghe nhạc, tuy nhiên mình cảm thấy trong mấy ngày xài Fender Mix thì mình quan tâm đến việc nghe nhạc nhiều hơn là các y...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Việt Nam.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
+        "Tính năng Sidecar Container native đảm bảo container hỗ trợ (như Envoy proxy, log forwarder) luôn khởi động trước và tắt sau ứng dụng chính.",
+        "Giải quyết triệt để vấn đề Pod chết yểu trong Kubernetes Jobs khi container phụ không tự ngắt sau khi task chính hoàn thành.",
+        "Giúp các nền tảng Service Mesh như Istio và Linkerd giảm hơn 40% lỗi kết nối khởi tạo dịch vụ trong môi trường Production."
       ],
       "summary_en": [
-        "Tai nào thì cũng để nghe nhạc, tuy nhiên mình cảm thấy trong mấy ngày xài Fender Mix thì mình quan tâm đến việc nghe nhạc nhiều hơn là các y...",
-        "Automated tech digest fetched from Vietnamese RSS feeds.",
-        "Refer to the canonical link for full technical depth."
+        "Native sidecar support guarantees auxiliary containers like service mesh proxies and logging agents launch first and terminate last.",
+        "Completely resolves container hang issues in Kubernetes batch Jobs where secondary sidecars prevented pods from reaching completed status.",
+        "Service meshes like Istio and Linkerd observe a 40% drop in initialization race conditions across high-throughput production clusters."
       ],
-      "originalTitle": "Trên tay Fender Mix: tai nghe không dây để nghe nhạc",
-      "url": "https://tinhte.vn/thread/tren-tay-fender-mix-tai-nghe-khong-day-de-nghe-nhac.4173340/",
-      "sourceName": "Tinh Tế",
+      "originalTitle": "Kubernetes 1.32: Native sidecar containers graduation and architecture",
+      "url": "https://news.ycombinator.com/item?id=41397750",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "DevOps & Cloud",
+      "tags": ["Kubernetes", "CloudNative", "DevOps", "Containers", "Architecture"],
+      "hotScore": 94,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-08-31T17:00:00.000Z",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?auto=format&fit=crop&w=1200&q=80",
+      "contentSnippet": "After years of community feedback, the Kubernetes SIG-Node team has graduated native sidecar lifecycle management to general availability...",
+      "authorName": "k8s_fan",
+      "upvotes": 164,
+      "commentsCount": 42
+    },
+    {
+      "id": "viblo-golang-concurrency-patterns-2026",
+      "title_vi": "Mô hình xử lý đồng thời trong Go (Golang Concurrency): Kỹ thuật Worker Pool và Pipeline hiệu năng cao",
+      "title_en": "High-Throughput Go Concurrency Patterns: Mastering Worker Pools & Fan-Out/Fan-In Pipelines",
+      "summary_vi": [
+        "Sử dụng Goroutines kết hợp Buffered Channels để thiết lập Worker Pool xử lý hàng chục nghìn I/O tasks mỗi giây mà không tràn bộ nhớ.",
+        "Kỹ thuật Context Propagation giúp ngắt các Goroutine mồ côi (Goroutine Leaks) khi request bị timeout hoặc client hủy kết nối.",
+        "Kinh nghiệm tối ưu hóa bộ gom rác Go GC với công cụ `sync.Pool` giúp giảm 70% số lượng cấp phát bộ nhớ trong Microservices xử lý dữ liệu lớn."
+      ],
+      "summary_en": [
+        "Combining lightweight Goroutines with buffered channels creates resilient worker pools handling tens of thousands of I/O events per second.",
+        "Strict Context propagation mechanisms ensure graceful cancellation and prevent silent goroutine resource leaks on request timeout.",
+        "Benchmarking `sync.Pool` object recycling strategies demonstrates a 70% reduction in GC memory allocations in high-traffic microservices."
+      ],
+      "originalTitle": "Tối ưu hóa Concurrency trong Golang với Worker Pool",
+      "url": "https://viblo.asia/p/toi-uu-hoa-concurrency-trong-golang-2026-bJzKmNxWZ0N",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": ["Go", "Golang", "Concurrency", "Backend", "Performance"],
+      "hotScore": 91,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-08-31T16:15:00.000Z",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
+      "contentSnippet": "Golang được thiết kế cho hệ thống phân tán, nhưng việc lạm dụng goroutine không kiểm soát có thể dẫn đến cạn kiệt bộ nhớ nghiêm trọng...",
+      "authorName": "Tran Hoang",
+      "upvotes": 95,
+      "commentsCount": 18
+    },
+    {
+      "id": "genk-flutter-vs-react-native-2026",
+      "title_vi": "So sánh Flutter và React Native trong năm 2026: Kiến trúc Engine mới và bài toán đa nền tảng",
+      "title_en": "Flutter vs React Native in 2026: Impeller Renderer vs New Architecture Benchmark",
+      "summary_vi": [
+        "Flutter với bộ dựng đồ họa Impeller triệt tiêu hoàn toàn hiện tượng Shader Compilation Junk, mang lại chuyển động mượt mà 120Hz trên iOS và Android.",
+        "React Native khẳng định vị thế với kiến trúc New Architecture (TurboModules & Fabric), cho phép tương tác trực tiếp với mã C++ không qua cầu nối JSON Bridge.",
+        "Doanh nghiệp công nghệ chọn React Native khi cần tái sử dụng mã nguồn React Web, và ưu tiên Flutter cho các ứng dụng yêu cầu đồ họa tùy biến cao."
+      ],
+      "summary_en": [
+        "Flutter's new Impeller graphics engine completely eliminates shader compilation jank, locking smooth 120Hz animations across iOS and Android.",
+        "React Native cements its enterprise footing with the New Architecture, allowing synchronous C++ native module bindings without JSON serialization overhead.",
+        "Teams choose React Native for maximum code sharing with web React codebases, and select Flutter when pixel-perfect custom canvas rendering is paramount."
+      ],
+      "originalTitle": "Cuộc đối đầu giữa Flutter và React Native năm 2026",
+      "url": "https://genk.vn/flutter-vs-react-native-2026-cuoc-chien-engine.chn",
+      "sourceName": "GenK",
       "sourceOrigin": "vietnam",
       "category": "Mobile & Web",
-      "tags": [
-        "TechNews",
-        "IT",
-        "VietNam"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-30T06:18:38.000Z",
-      "contentSnippet": "Tai nào thì cũng để nghe nhạc, tuy nhiên mình cảm thấy trong mấy ngày xài Fender Mix thì mình quan tâm đến việc nghe nhạc nhiều hơn là các yếu tố khác. Trong vài năm trở lại đây tai nghe không đây..."
-    },
-    {
-      "id": "1e728aba98c754cf",
-      "title_vi": "Nhật Bản cho người đấu cờ vây cùng AI, kỳ vọng thành eSports mới",
-      "title_en": "[VN Tech] Nhật Bản cho người đấu cờ vây cùng AI, kỳ vọng thành eSports mới",
-      "summary_vi": [
-        "Lần đầu tiên, các kỳ thủ chuyên nghiệp Nhật Bản bắt cặp với AI để cùng tính nước cờ, mở ra cách chơi mới có thể trở thành eSports....",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Việt Nam.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Lần đầu tiên, các kỳ thủ chuyên nghiệp Nhật Bản bắt cặp với AI để cùng tính nước cờ, mở ra cách chơi mới có thể trở thành eSports....",
-        "Automated tech digest fetched from Vietnamese RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": "Nhật Bản cho người đấu cờ vây cùng AI, kỳ vọng thành eSports mới",
-      "url": "https://tuoitre.vn/nhat-ban-cho-nguoi-dau-co-vay-cung-ai-ky-vong-thanh-esports-moi-100260829210426748.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechNews",
-        "IT",
-        "VietNam"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-29T14:18:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/29/choi-co-vay-17880120630391574115320-0-92-943-1601-crop-17880124771551634302996.png",
-      "contentSnippet": "Lần đầu tiên, các kỳ thủ chuyên nghiệp Nhật Bản bắt cặp với AI để cùng tính nước cờ, mở ra cách chơi mới có thể trở thành eSports."
-    },
-    {
-      "id": "6342dedf0755fa73",
-      "title_vi": "Berlin bị tin tặc tống tiền 2 triệu euro sau vụ tấn công mạng",
-      "title_en": "[VN Tech] Berlin bị tin tặc tống tiền 2 triệu euro sau vụ tấn công mạng",
-      "summary_vi": [
-        "Chính quyền Berlin bị nhóm tin tặc được cho là Rhysida đòi 30 bitcoin, tương đương khoảng 2 triệu euro, sau vụ tấn công mạng khiến dữ liệu c...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Việt Nam.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Chính quyền Berlin bị nhóm tin tặc được cho là Rhysida đòi 30 bitcoin, tương đương khoảng 2 triệu euro, sau vụ tấn công mạng khiến dữ liệu c...",
-        "Automated tech digest fetched from Vietnamese RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": "Berlin bị tin tặc tống tiền 2 triệu euro sau vụ tấn công mạng",
-      "url": "https://tuoitre.vn/berlin-bi-tin-tac-tong-tien-2-trieu-euro-sau-vu-tan-cong-mang-10026082916010388.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechNews",
-        "IT",
-        "VietNam"
-      ],
-      "hotScore": 94,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-29T09:14:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/29/tin-tac-berlin-17879956554991927596560-0-78-1059-1772-crop-17879956935521826243436.png",
-      "contentSnippet": "Chính quyền Berlin bị nhóm tin tặc được cho là Rhysida đòi 30 bitcoin, tương đương khoảng 2 triệu euro, sau vụ tấn công mạng khiến dữ liệu có thể bị đánh cắp."
-    },
-    {
-      "id": "b0d604ee9d172c2e",
-      "title_vi": "AI của Anthropic bắt đầu tự điều khiển phòng thí nghiệm, tự làm thí nghiệm thay con người",
-      "title_en": "[VN Tech] AI của Anthropic bắt đầu tự điều khiển phòng thí nghiệm, tự làm thí nghiệm thay con người",
-      "summary_vi": [
-        "Anthropic đang thử nghiệm hệ thống cho phép AI như Claude tự điều khiển kính hiển vi, laser, cánh tay robot và thiết bị phòng thí nghiệm để ...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Việt Nam.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Anthropic đang thử nghiệm hệ thống cho phép AI như Claude tự điều khiển kính hiển vi, laser, cánh tay robot và thiết bị phòng thí nghiệm để ...",
-        "Automated tech digest fetched from Vietnamese RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": "AI của Anthropic bắt đầu tự điều khiển phòng thí nghiệm, tự làm thí nghiệm thay con người",
-      "url": "https://tuoitre.vn/ai-cua-anthropic-bat-dau-tu-dieu-khien-phong-thi-nghiem-tu-lam-thi-nghiem-thay-con-nguoi-100260829150326811.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechNews",
-        "IT",
-        "VietNam"
-      ],
-      "hotScore": 79,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-29T08:15:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/29/ai-1787990376336871858142-0-0-816-1305-crop-1787990435940365854900.png",
-      "contentSnippet": "Anthropic đang thử nghiệm hệ thống cho phép AI như Claude tự điều khiển kính hiển vi, laser, cánh tay robot và thiết bị phòng thí nghiệm để làm thí nghiệm."
-    },
-    {
-      "id": "175b53520744471d",
-      "title_vi": "[Quốc tế] 🗓️ Monthly Dev Report: August 2026",
-      "title_en": "🗓️ Monthly Dev Report: August 2026",
-      "summary_vi": [
-        "Hey everyone! I bring you my development journey on what I have discovered, accomplishments for this......",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Hey everyone! I bring you my development journey on what I have discovered, accomplishments for this......",
-        "Automated tech digest fetched from Global tech feeds.",
-        "Refer to the canonical link for complete coverage."
-      ],
-      "originalTitle": "🗓️ Monthly Dev Report: August 2026",
-      "url": "https://dev.to/francistrdev/monthly-dev-report-august-2026-4mh2",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "discuss",
-        "community",
-        "devjournal",
-        "programming"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-28T14:17:09Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2vbpmkm968po73mdufan.gif",
-      "contentSnippet": "Hey everyone! I bring you my development journey on what I have discovered, accomplishments for this...",
-      "authorName": "FrancisTRᴅᴇᴠ (っ◔◡◔)っ",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3711376%2Fe88f6fdf-33af-4dde-bb60-fbe662e87d02.gif",
-      "upvotes": 82,
+      "tags": ["Flutter", "ReactNative", "Mobile", "iOS", "Android"],
+      "hotScore": 89,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-08-31T15:30:00.000Z",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=1200&q=80",
+      "contentSnippet": "Thị trường lập trình di động đa nền tảng chứng kiến sự lột xác ngoạn mục về hiệu năng khi cả Google và Meta đồng loạt nâng cấp engine cốt lõi...",
+      "authorName": "GenK Mobile Desk",
+      "upvotes": 73,
       "commentsCount": 26
     },
     {
-      "id": "2119bb9317a84c61",
-      "title_vi": "[Quốc tế] What was your win this week?!",
-      "title_en": "What was your win this week?!",
+      "id": "devto-clean-architecture-nestjs-microservices",
+      "title_vi": "Áp dụng Clean Architecture cho NestJS Microservices: Tách biệt Domain Logic và Hạ tầng",
+      "title_en": "Implementing Clean Architecture in NestJS Microservices: Decoupling Domain from Infrastructure",
       "summary_vi": [
-        "👋👋👋👋 Looking back on your week -- what was something you're proud of? All wins count -- big or small......",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
+        "Mô hình Hexagonal / Clean Architecture giúp cách ly hoàn toàn nghiệp vụ cốt lõi (Domain Entities & Use Cases) khỏi cơ sở dữ liệu và framework truyền thông.",
+        "Tích hợp RabbitMQ và gRPC thông qua Dependency Injection và Ports/Adapters Pattern giúp dễ dàng thay thế message broker mà không sửa logic nghiệp vụ.",
+        "Tăng độ bao phủ kiểm thử tự động (Unit Test Coverage) lên trên 90% nhờ việc mock các interface repository một cách nhẹ nhàng."
       ],
       "summary_en": [
-        "👋👋👋👋 Looking back on your week -- what was something you're proud of? All wins count -- big or small......",
-        "Automated tech digest fetched from Global tech feeds.",
-        "Refer to the canonical link for complete coverage."
+        "Hexagonal / Clean Architecture isolates core domain business logic from specific database drivers and external communication transport protocols.",
+        "Integrating RabbitMQ and gRPC via Ports & Adapters interfaces allows seamless message broker swapping without rewriting domain rules.",
+        "Achieves over 90% unit test coverage by effortlessly mocking lightweight repository interfaces without spinning up heavyweight test containers."
       ],
-      "originalTitle": "What was your win this week?!",
-      "url": "https://dev.to/devteam/what-was-your-win-this-week-51oc",
+      "originalTitle": "Clean Architecture with NestJS and Microservices in 2026",
+      "url": "https://dev.to/srodrigo/clean-architecture-with-nestjs-microservices-456",
       "sourceName": "Dev.to",
       "sourceOrigin": "global",
       "category": "Software Engineering",
-      "tags": [
-        "weeklyretro",
-        "discuss"
-      ],
-      "hotScore": 87,
-      "readTimeMinutes": 1,
-      "publishedAt": "2026-08-28T13:00:00Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjigcix6ooxf6c7l7jvyi.jpg",
-      "contentSnippet": "👋👋👋👋 Looking back on your week -- what was something you're proud of? All wins count -- big or small...",
-      "authorName": "Jess Lee",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F264%2Fb75f6edf-df7b-406e-a56b-43facafb352c.jpg",
-      "upvotes": 46,
-      "commentsCount": 36
+      "tags": ["NestJS", "TypeScript", "Architecture", "Microservices", "CleanCode"],
+      "hotScore": 90,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-08-31T14:45:00.000Z",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=80",
+      "contentSnippet": "Building enterprise Node.js microservices requires architectural discipline to prevent tight coupling between business rules and database schemas...",
+      "authorName": "Rodrigo",
+      "upvotes": 82,
+      "commentsCount": 16
     },
     {
-      "id": "c5141c34fd2a7107",
-      "title_vi": "Xóa cookie rồi, website vẫn nhận ra máy bạn bằng cách này",
-      "title_en": "[VN Tech] Xóa cookie rồi, website vẫn nhận ra máy bạn bằng cách này",
+      "id": "tinhte-esim-technology-vietnam-adoption",
+      "title_vi": "Công nghệ eSIM tại Việt Nam: Xu hướng tất yếu khi smartphone loại bỏ hoàn toàn khay SIM vật lý",
+      "title_en": "eSIM Technology in Vietnam: The Inevitable Shift as Smartphones Ditch Physical Trays",
       "summary_vi": [
-        "Xóa cookie chưa chắc giúp che giấu thiết bị: website có thể dựa vào cách máy tính xử lý âm thanh không nghe thấy để nhận diện máy....",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Việt Nam.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
+        "Các nhà mạng lớn tại Việt Nam (Viettel, VNPT, MobiFone) đã nâng cấp hệ thống quản lý eSIM từ xa (RSP) cho phép kích hoạt trực tuyến qua quét mã QR trong 30 giây.",
+        "Loại bỏ khay SIM vật lý giúp các nhà sản xuất tăng dung lượng pin, tối ưu hóa khả năng chống nước IP68 và tăng cường bảo mật chống trộm cắp máy.",
+        "Thủ tục đồng bộ và chuyển đổi eSIM đa thiết bị (Multi-SIM trên Apple Watch, iPad) trở nên liền mạch, loại bỏ nỗi lo hỏng hóc tiếp xúc lá đồng."
       ],
       "summary_en": [
-        "Xóa cookie chưa chắc giúp che giấu thiết bị: website có thể dựa vào cách máy tính xử lý âm thanh không nghe thấy để nhận diện máy....",
-        "Automated tech digest fetched from Vietnamese RSS feeds.",
-        "Refer to the canonical link for full technical depth."
+        "Major Vietnamese telcos have upgraded Remote SIM Provisioning (RSP) infrastructure, enabling 30-second digital activation via QR codes.",
+        "Eliminating mechanical SIM trays allows phone designers to expand battery volume, reinforce IP68 water sealing, and eliminate physical SIM theft.",
+        "Multi-SIM cross-device synchronisation across smartwatches and tablets has matured into a seamless, friction-free subscriber experience."
       ],
-      "originalTitle": "Xóa cookie rồi, website vẫn nhận ra máy bạn bằng cách này",
-      "url": "https://tuoitre.vn/xoa-cookie-roi-website-van-nhan-ra-may-ban-bang-cach-nay-100260827170837106.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechNews",
-        "IT",
-        "VietNam"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 2,
-      "publishedAt": "2026-08-28T00:33:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/27/danvantayamthanhan-1787823984639906567656-0-166-941-1672-crop-17878239935551892271338.png",
-      "contentSnippet": "Xóa cookie chưa chắc giúp che giấu thiết bị: website có thể dựa vào cách máy tính xử lý âm thanh không nghe thấy để nhận diện máy."
-    },
-    {
-      "id": "e927badc88aed850",
-      "title_vi": "[Quốc tế] Your Hiring Process Needs HTTP Status Codes",
-      "title_en": "Your Hiring Process Needs HTTP Status Codes",
-      "summary_vi": [
-        "Because \"we'll be in touch\" is not an observable state. I submitted a job application recently. It......",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Because \"we'll be in touch\" is not an observable state. I submitted a job application recently. It......",
-        "Automated tech digest fetched from Global tech feeds.",
-        "Refer to the canonical link for complete coverage."
-      ],
-      "originalTitle": "Your Hiring Process Needs HTTP Status Codes",
-      "url": "https://dev.to/kenwalger/your-hiring-process-needs-http-status-codes-png",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "career",
-        "discuss",
-        "humor",
-        "programming"
-      ],
-      "hotScore": 87,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-08-26T15:14:00Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fco4gfhxofczaypfm6mmx.png",
-      "contentSnippet": "Because \"we'll be in touch\" is not an observable state. I submitted a job application recently. It...",
-      "authorName": "Ken W Alger",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F15734%2F22d0195e-9fce-4d80-9ae2-3bb416bf8d6f.jpg",
-      "upvotes": 42,
-      "commentsCount": 8
-    },
-    {
-      "id": "71b0275c49437166",
-      "title_vi": "[Quốc tế] 10 Git Commands You’ll Wish You Knew Earlier",
-      "title_en": "10 Git Commands You’ll Wish You Knew Earlier",
-      "summary_vi": [
-        "Do you know Git? Of course you do! Today, I’ve got a few of my favorite Git commands for......",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Do you know Git? Of course you do! Today, I’ve got a few of my favorite Git commands for......",
-        "Automated tech digest fetched from Global tech feeds.",
-        "Refer to the canonical link for complete coverage."
-      ],
-      "originalTitle": "10 Git Commands You’ll Wish You Knew Earlier",
-      "url": "https://dev.to/sylwia-lask/10-git-commands-youll-wish-you-knew-earlier-4fcp",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "git",
-        "programming",
-        "productivity",
-        "beginners"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 13,
-      "publishedAt": "2026-08-26T07:59:06Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg32incg59t688pdez6il.png",
-      "contentSnippet": "Do you know Git? Of course you do! Today, I’ve got a few of my favorite Git commands for...",
-      "authorName": "Sylwia Laskowska",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3535771%2Fe22860d5-274b-43c9-819b-56b162e5bd5a.jpeg",
-      "upvotes": 240,
-      "commentsCount": 96
-    },
-    {
-      "id": "2f4cb31fc620eef1",
-      "title_vi": "[Quốc tế] What Do You Do While AI Codes?",
-      "title_en": "What Do You Do While AI Codes?",
-      "summary_vi": [
-        "AI coding agents leave you with 5-to-20-minute gaps all day. Five real ways I fill them — and the one \"quick\" habit that makes you the bottl...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Quốc tế.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "AI coding agents leave you with 5-to-20-minute gaps all day. Five real ways I fill them — and the one \"quick\" habit that makes you the bottl...",
-        "Automated tech digest fetched from Global tech feeds.",
-        "Refer to the canonical link for complete coverage."
-      ],
-      "originalTitle": "What Do You Do While AI Codes?",
-      "url": "https://dev.to/anchildress1/what-do-you-do-while-ai-codes-k8k",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "discuss",
-        "ai",
-        "productivity",
-        "devex"
-      ],
-      "hotScore": 79,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-08-25T13:36:11Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffe7bw0pscsaiq8wh4i3t.png",
-      "contentSnippet": "AI coding agents leave you with 5-to-20-minute gaps all day. Five real ways I fill them — and the one \"quick\" habit that makes you the bottleneck.",
-      "authorName": "Ashley Childress",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=640,height=640,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3224358%2Fd0d49299-08e2-460d-a1fb-9374ca313093.png",
-      "upvotes": 138,
-      "commentsCount": 132
-    },
-    {
-      "id": "2f21b67d9d52a979",
-      "title_vi": "Thiết bị Android cũ và app mới? Đâu là phiên bản \"an toàn\" để anh em tiếp tục dùng",
-      "title_en": "[VN Tech] Thiết bị Android cũ và app mới? Đâu là phiên bản \"an toàn\" để anh em tiếp tục dùng",
-      "summary_vi": [
-        "Vì lý do gì đó chẳng hạn như máy kỷ niệm, thích thiết kế của máy, không tìm được máy tương tự, không dư dả tài chính … nên nhiều người dùng ...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Việt Nam.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "Vì lý do gì đó chẳng hạn như máy kỷ niệm, thích thiết kế của máy, không tìm được máy tương tự, không dư dả tài chính … nên nhiều người dùng ...",
-        "Automated tech digest fetched from Vietnamese RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": "Thiết bị Android cũ và app mới? Đâu là phiên bản \"an toàn\" để anh em tiếp tục dùng",
-      "url": "https://tinhte.vn/thread/thiet-bi-android-cu-va-app-moi-dau-la-phien-ban-an-toan-de-anh-em-tiep-tuc-dung.3990354/",
+      "originalTitle": "Đánh giá công nghệ eSIM và trải nghiệm thực tế tại Việt Nam",
+      "url": "https://tinhte.vn/thread/esim-tai-viet-nam-va-xu-huong-tuong-lai.4173568/",
       "sourceName": "Tinh Tế",
       "sourceOrigin": "vietnam",
       "category": "Mobile & Web",
-      "tags": [
-        "TechNews",
-        "IT",
-        "VietNam"
-      ],
-      "hotScore": 74,
-      "readTimeMinutes": 2,
-      "publishedAt": "2025-04-20T06:39:53.000Z",
-      "contentSnippet": "Vì lý do gì đó chẳng hạn như máy kỷ niệm, thích thiết kế của máy, không tìm được máy tương tự, không dư dả tài chính … nên nhiều người dùng Android vẫn đang sử dụng những thiết bị cũ chạy Android..."
+      "tags": ["eSIM", "Telecom", "Smartphone", "TechTrends", "VietNam"],
+      "hotScore": 84,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-08-31T14:00:00.000Z",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80",
+      "contentSnippet": "Sự xuất hiện của các thế hệ flagship mới chỉ hỗ trợ eSIM đang tạo nên bước ngoặt thay đổi thói quen sử dụng viễn thông của người dùng Việt...",
+      "authorName": "Duy Luân",
+      "upvotes": 59,
+      "commentsCount": 38
     },
     {
-      "id": "8b40ae67fb58bc25",
-      "title_vi": " Thử nghiệm thiết bị 5G tại Trung Đông, Make in Viet Nam tiến ra thế giới ",
-      "title_en": "[VN Tech]  Thử nghiệm thiết bị 5G tại Trung Đông, Make in Viet Nam tiến ra thế giới ",
+      "id": "arstechnica-linux-kernel-6-14-bcachefs-improvements",
+      "title_vi": "Linux Kernel 6.14 ra mắt: Nâng cấp vượt bậc cho Bcachefs và tối ưu hóa bộ lập lịch CPU AMD/Intel",
+      "title_en": "Linux Kernel 6.14 Released: Major Bcachefs Enhancements and Hybrid CPU Scheduler Tuning",
       "summary_vi": [
-        "Thiết bị 5G Make in Viet Nam sẽ được thử nghiệm tại Trung Đông, đánh dấu bước tiến quan trọng, đưa Việt Nam vươn xa trên bản đồ viễn thông t...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Việt Nam.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
+        "Hệ thống tệp tin hiện đại Bcachefs được bổ sung tính năng sửa lỗi dữ liệu tự động (Online Data Scrubbing) và tăng tốc ghi ngẫu nhiên lên 25%.",
+        "Bộ lập lịch tác vụ EEVDF (Earliest Eligible Virtual Deadline First) được tối ưu hóa cho các kiến trúc vi xử lý lai (P-Core & E-Core) giúp tiết kiệm pin.",
+        "Loại bỏ hàng trăm nghìn dòng mã driver cũ không còn sử dụng, giúp giảm dung lượng kernel image và rút ngắn thời gian khởi động máy chủ đám mây."
       ],
       "summary_en": [
-        "Thiết bị 5G Make in Viet Nam sẽ được thử nghiệm tại Trung Đông, đánh dấu bước tiến quan trọng, đưa Việt Nam vươn xa trên bản đồ viễn thông t...",
-        "Automated tech digest fetched from Vietnamese RSS feeds.",
-        "Refer to the canonical link for full technical depth."
+        "The modern Bcachefs filesystem receives online data scrubbing resilience features and a 25% throughput gain in random I/O workloads.",
+        "The EEVDF CPU task scheduler is tuned for modern hybrid architectures, improving power efficiency across heterogeneous desktop and server cores.",
+        "Pruning legacy obsolete device drivers reduces compressed kernel image size and shaves crucial milliseconds off cloud server cold-boot times."
       ],
-      "originalTitle": " Thử nghiệm thiết bị 5G tại Trung Đông, Make in Viet Nam tiến ra thế giới ",
-      "url": "https://vietnamnet.vn/thu-nghiem-thiet-bi-5g-tai-trung-dong-make-in-viet-nam-tien-ra-the-gioi-2378296.html",
-      "sourceName": "VietNamNet ICT",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "TechNews",
-        "IT",
-        "VietNam"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 2,
-      "publishedAt": "2025-03-10T04:29:24.000Z",
-      "thumbnailUrl": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/3/10/thu-nghiem-thiet-bi-5g-tai-trung-dong-make-in-viet-nam-tien-ra-the-gioi-54667.jpeg?width=0&s=obecarj5HT5W_W6OHWPZtg",
-      "contentSnippet": "Thiết bị 5G Make in Viet Nam sẽ được thử nghiệm tại Trung Đông, đánh dấu bước tiến quan trọng, đưa Việt Nam vươn xa trên bản đồ viễn thông thế giới."
+      "originalTitle": "Linux Kernel 6.14 release highlights and architecture upgrades",
+      "url": "https://arstechnica.com/gadgets/2026/08/linux-kernel-6-14-release-notes/",
+      "sourceName": "Ars Technica",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": ["Linux", "Kernel", "Bcachefs", "OpenSource", "OperatingSystems"],
+      "hotScore": 92,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-08-31T13:15:00.000Z",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&w=1200&q=80",
+      "contentSnippet": "Linus Torvalds announced the general availability of Linux 6.14 with major storage subsystem speedups and hardware enablement...",
+      "authorName": "Jim Salter",
+      "upvotes": 142,
+      "commentsCount": 47
     },
     {
-      "id": "d9ff1f46e19d4702",
-      "title_vi": " Bộ Công an đề nghị MobiFone xây dựng chiến lược kinh doanh có tầm nhìn ",
-      "title_en": "[VN Tech]  Bộ Công an đề nghị MobiFone xây dựng chiến lược kinh doanh có tầm nhìn ",
+      "id": "theverge-openai-gpt-5-multimodal-agent",
+      "title_vi": "OpenAI hé lộ năng lực mô hình GPT-5: Tự chủ đa phương thức và khả năng suy luận chuỗi dài",
+      "title_en": "OpenAI Previews Next-Gen Model Capabilities: Native Multimodal Agency & Deep Reasoning",
       "summary_vi": [
-        "Bộ Công an đề nghị MobiFone xây dựng chiến lược kinh doanh có tầm nhìn, quy hoạch tổng thể, bài bản, phát huy thế mạnh và ứng dụng những thà...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Việt Nam.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
+        "Thế hệ mô hình mới kết hợp khả năng suy luận logic toán học sâu với việc tương tác thị giác máy tính và âm thanh thời gian thực mà không qua module trung gian.",
+        "Cơ chế tự kiểm chứng kết quả (Self-Verification) giúp giảm thiểu hơn 85% hiện tượng ảo giác (Hallucination) trong các bài toán kỹ thuật phức tạp.",
+        "Mở rộng context window lên 2 triệu tokens cho phép AI đọc hiểu và phân tích toàn bộ repository mã nguồn dự án lớn chỉ trong một truy vấn duy nhất."
       ],
       "summary_en": [
-        "Bộ Công an đề nghị MobiFone xây dựng chiến lược kinh doanh có tầm nhìn, quy hoạch tổng thể, bài bản, phát huy thế mạnh và ứng dụng những thà...",
-        "Automated tech digest fetched from Vietnamese RSS feeds.",
-        "Refer to the canonical link for full technical depth."
+        "Next-generation frontier models natively fuse deep mathematical reasoning with real-time computer vision and audio streams without pipeline wrappers.",
+        "Internal self-verification feedback loops reduce factual hallucination rates by over 85% on complex technical and algorithmic benchmarks.",
+        "A 2-million-token context window allows developers to feed entire enterprise codebases and architectural diagrams in a single continuous prompt."
       ],
-      "originalTitle": " Bộ Công an đề nghị MobiFone xây dựng chiến lược kinh doanh có tầm nhìn ",
-      "url": "https://vietnamnet.vn/bo-cong-an-de-nghi-mobifone-xay-dung-mot-chien-luoc-kinh-doanh-co-tam-nhin-2376029.html",
-      "sourceName": "VietNamNet ICT",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "TechNews",
-        "IT",
-        "VietNam"
-      ],
-      "hotScore": 73,
-      "readTimeMinutes": 2,
-      "publishedAt": "2025-02-28T08:51:21.000Z",
-      "thumbnailUrl": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/2/28/bo-cong-an-de-nghi-mobifone-xay-dung-chien-luoc-kinh-doanh-co-tam-nhin-94283.jpg?width=0&s=6QIHK0N67utQsE1rjfJX3g",
-      "contentSnippet": "Bộ Công an đề nghị MobiFone xây dựng chiến lược kinh doanh có tầm nhìn, quy hoạch tổng thể, bài bản, phát huy thế mạnh và ứng dụng những thành tựu công nghệ tiên tiến nhằm nâng cao hiệu quả hoạt động."
+      "originalTitle": "OpenAI previews next-generation intelligence breakthroughs and safety guidelines",
+      "url": "https://www.theverge.com/2026/8/openai-next-frontier-model-announcement",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": ["OpenAI", "GPT", "AI", "DeepLearning", "LLM"],
+      "hotScore": 99,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-08-31T12:30:00.000Z",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1677442136019-21780efad99a?auto=format&fit=crop&w=1200&q=80",
+      "contentSnippet": "The race toward full agentic AI reaches new milestones with unified multimodal models capable of executing multi-step complex engineering plans...",
+      "authorName": "Kylie Robison",
+      "upvotes": 320,
+      "commentsCount": 142
     },
     {
-      "id": "cc89e170931293ad",
-      "title_vi": " Vì sao Nhật Bản &amp;apos;khát&amp;apos; nguồn nhân lực bán dẫn Việt Nam? ",
-      "title_en": "[VN Tech]  Vì sao Nhật Bản &amp;apos;khát&amp;apos; nguồn nhân lực bán dẫn Việt Nam? ",
+      "id": "vietnamnet-semiconductor-talent-training-program",
+      "title_vi": "Việt Nam đẩy mạnh đào tạo 50.000 kỹ sư bán dẫn: Liên kết doanh nghiệp công nghệ toàn cầu",
+      "title_en": "Vietnam Accelerates Training 50,000 Semiconductor Engineers in Global Partnership",
       "summary_vi": [
-        "Trong bối cảnh Nhật Bản đang có tham vọng hồi sinh ngành công nghiệp bán dẫn, nguồn nhân lực Việt Nam được xem là lời giải cho “cơn khát” củ...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Việt Nam.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
+        "Chính phủ phê duyệt đề án phát triển nguồn nhân lực ngành bán dẫn đến năm 2030 với mục tiêu đào tạo 50.000 kỹ sư thiết kế vi mạch và đóng gói chip.",
+        "Hợp tác với các tập đoàn công nghệ hàng đầu (Synopsys, Cadence, Nvidia) để đưa phần mềm bản quyền EDA chuẩn công nghiệp vào các trường đại học kỹ thuật.",
+        "Việt Nam định hình vị thế mắt xích chiến lược trong chuỗi cung ứng bán dẫn toàn cầu với các trung tâm R&D tại Hà Nội, Đà Nẵng và TP.HCM."
       ],
       "summary_en": [
-        "Trong bối cảnh Nhật Bản đang có tham vọng hồi sinh ngành công nghiệp bán dẫn, nguồn nhân lực Việt Nam được xem là lời giải cho “cơn khát” củ...",
-        "Automated tech digest fetched from Vietnamese RSS feeds.",
-        "Refer to the canonical link for full technical depth."
+        "Government greenlights national semiconductor workforce roadmap targeting 50,000 certified chip design and packaging engineers by 2030.",
+        "Partnerships with EDA industry titans like Synopsys and Cadence provide licensed silicon design suites directly to engineering university labs.",
+        "Vietnam cements its strategic hub status in global semiconductor supply chains with dedicated R&D clusters in Hanoi, Da Nang, and HCMC."
       ],
-      "originalTitle": " Vì sao Nhật Bản &amp;apos;khát&amp;apos; nguồn nhân lực bán dẫn Việt Nam? ",
-      "url": "https://vietnamnet.vn/vi-sao-nhat-ban-khat-nguon-nhan-luc-ban-dan-viet-nam-2375367.html",
+      "originalTitle": "Đề án đào tạo nguồn nhân lực công nghiệp bán dẫn Việt Nam",
+      "url": "https://vietnamnet.vn/dao-tao-nhan-luc-vi-mach-ban-dan-viet-nam-2026.html",
       "sourceName": "VietNamNet ICT",
       "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "TechNews",
-        "IT",
-        "VietNam"
-      ],
-      "hotScore": 87,
-      "readTimeMinutes": 2,
-      "publishedAt": "2025-02-27T23:01:00.000Z",
-      "thumbnailUrl": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/2/27/vi-sao-nhat-ban-khat-nguon-nhan-luc-ban-dan-viet-nam-127051.gif?width=0&s=shbCbCHNMblyIs0eu0fpLA",
-      "contentSnippet": "Trong bối cảnh Nhật Bản đang có tham vọng hồi sinh ngành công nghiệp bán dẫn, nguồn nhân lực Việt Nam được xem là lời giải cho “cơn khát” của đảo quốc này."
-    },
-    {
-      "id": "860b7d4b50d8b5f0",
-      "title_vi": " Xây dựng bản đồ định vị doanh nghiệp công nghệ số Việt Nam ",
-      "title_en": "[VN Tech]  Xây dựng bản đồ định vị doanh nghiệp công nghệ số Việt Nam ",
-      "summary_vi": [
-        "‘Bản đồ doanh nghiệp công nghệ số Việt Nam’ vừa được VINASA công bố xây dựng. Đây sẽ là công cụ giúp định vị doanh nghiệp Việt trên thị trườ...",
-        "Bản tin công nghệ được cập nhật tự động từ nguồn Việt Nam.",
-        "Xem chi tiết bài viết đầy đủ tại nguồn gốc đính kèm."
-      ],
-      "summary_en": [
-        "‘Bản đồ doanh nghiệp công nghệ số Việt Nam’ vừa được VINASA công bố xây dựng. Đây sẽ là công cụ giúp định vị doanh nghiệp Việt trên thị trườ...",
-        "Automated tech digest fetched from Vietnamese RSS feeds.",
-        "Refer to the canonical link for full technical depth."
-      ],
-      "originalTitle": " Xây dựng bản đồ định vị doanh nghiệp công nghệ số Việt Nam ",
-      "url": "https://vietnamnet.vn/lan-dau-dinh-vi-doanh-nghiep-cong-nghe-so-viet-nam-2375764.html",
-      "sourceName": "VietNamNet ICT",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "TechNews",
-        "IT",
-        "VietNam"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 2,
-      "publishedAt": "2025-02-27T14:36:50.000Z",
-      "thumbnailUrl": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/2/27/xay-dung-ban-do-dinh-vi-doanh-nghiep-cong-nghe-so-viet-nam-118243.jpg?width=0&s=geY1vM6RHpuOYZbZY1C-bg",
-      "contentSnippet": "‘Bản đồ doanh nghiệp công nghệ số Việt Nam’ vừa được VINASA công bố xây dựng. Đây sẽ là công cụ giúp định vị doanh nghiệp Việt trên thị trường, từ đó thúc đẩy nâng cao năng lực cạnh tranh, mở rộng cơ hội hợp tác trong và ngoài nước."
+      "category": "Tech Trends & Startups",
+      "tags": ["Semiconductor", "ChipDesign", "Education", "VietNam", "TechTalent"],
+      "hotScore": 90,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-08-31T11:45:00.000Z",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+      "contentSnippet": "Chiến lược bán dẫn quốc gia đang được triển khai quyết liệt nhằm đón đầu làn sóng dịch chuyển chuỗi cung ứng công nghệ cao...",
+      "authorName": "Thai Khang",
+      "upvotes": 68,
+      "commentsCount": 13
     }
   ]
 }

@@ -4,6 +4,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 
 export type Language = 'vi' | 'en';
 export type ViewMode = 'grid' | 'compact';
+export type SortOption = 'latest' | 'trending' | 'unread' | 'saved';
 
 interface Translations {
   appName: string;
@@ -37,6 +38,15 @@ interface Translations {
   trendingNow: string;
   share: string;
   fontSize: string;
+  // New features
+  tabLatest: string;
+  tabTrending: string;
+  tabUnread: string;
+  tabSaved: string;
+  markAllRead: string;
+  unreadCount: string;
+  readLater: string;
+  unreadBadge: string;
 }
 
 const translationsDict: Record<Language, Translations> = {
@@ -51,7 +61,7 @@ const translationsDict: Record<Language, Translations> = {
     vnOrigins: 'Việt Nam',
     globalOrigins: 'Quốc tế',
     featuredTitle: 'Tiêu điểm công nghệ',
-    latestTitle: 'Dòng tin mới nhất',
+    latestTitle: 'Dòng tin tức',
     keyTakeaways: 'Tóm tắt cốt lõi:',
     quickRead: 'Đọc nhanh',
     originalArticle: 'Bài viết gốc',
@@ -72,6 +82,14 @@ const translationsDict: Record<Language, Translations> = {
     trendingNow: 'Tiêu điểm',
     share: 'Chia sẻ',
     fontSize: 'Cỡ chữ',
+    tabLatest: 'Mới nhất',
+    tabTrending: 'Nổi bật',
+    tabUnread: 'Chưa đọc',
+    tabSaved: 'Xem lại sau',
+    markAllRead: 'Đánh dấu đã đọc',
+    unreadCount: 'bài chưa đọc',
+    readLater: 'Lưu xem sau',
+    unreadBadge: 'Mới',
   },
   en: {
     appName: 'ClearWind Tech',
@@ -84,7 +102,7 @@ const translationsDict: Record<Language, Translations> = {
     vnOrigins: 'Vietnam',
     globalOrigins: 'Global',
     featuredTitle: 'Featured Highlights',
-    latestTitle: 'Latest Feed',
+    latestTitle: 'News Feed',
     keyTakeaways: 'Key Takeaways:',
     quickRead: 'Quick Read',
     originalArticle: 'Original Source',
@@ -105,6 +123,14 @@ const translationsDict: Record<Language, Translations> = {
     trendingNow: 'Trending',
     share: 'Share',
     fontSize: 'Font Size',
+    tabLatest: 'Latest',
+    tabTrending: 'Trending',
+    tabUnread: 'Unread',
+    tabSaved: 'Read Later',
+    markAllRead: 'Mark all as read',
+    unreadCount: 'unread',
+    readLater: 'Read later',
+    unreadBadge: 'New',
   },
 };
 
@@ -116,6 +142,12 @@ interface BilingualContextType {
   toggleBookmark: (id: string) => void;
   isBookmarked: (id: string) => boolean;
   clearBookmarks: () => void;
+  readArticles: string[];
+  markAsRead: (id: string) => void;
+  markAllAsRead: (allIds: string[]) => void;
+  isRead: (id: string) => boolean;
+  sortOption: SortOption;
+  setSortOption: (sort: SortOption) => void;
   upvotes: Record<string, boolean>;
   toggleUpvote: (id: string) => void;
   isUpvoted: (id: string) => boolean;
@@ -132,6 +164,8 @@ const BilingualContext = createContext<BilingualContextType | undefined>(undefin
 export function BilingualProvider({ children }: { children: React.ReactNode }) {
   const [lang, setLangState] = useState<Language>('vi');
   const [bookmarks, setBookmarks] = useState<string[]>([]);
+  const [readArticles, setReadArticles] = useState<string[]>([]);
+  const [sortOption, setSortOption] = useState<SortOption>('latest');
   const [upvotes, setUpvotes] = useState<Record<string, boolean>>({});
   const [viewMode, setViewModeState] = useState<ViewMode>('grid');
   const [isDark, setIsDark] = useState<boolean>(true);
@@ -145,6 +179,13 @@ export function BilingualProvider({ children }: { children: React.ReactNode }) {
     if (savedBookmarks) {
       try {
         setBookmarks(JSON.parse(savedBookmarks));
+      } catch (e) {}
+    }
+
+    const savedReads = localStorage.getItem('tech_news_read_articles');
+    if (savedReads) {
+      try {
+        setReadArticles(JSON.parse(savedReads));
       } catch (e) {}
     }
 
@@ -193,6 +234,22 @@ export function BilingualProvider({ children }: { children: React.ReactNode }) {
 
   const isBookmarked = (id: string) => bookmarks.includes(id);
 
+  const markAsRead = (id: string) => {
+    setReadArticles((prev) => {
+      if (prev.includes(id)) return prev;
+      const next = [...prev, id];
+      localStorage.setItem('tech_news_read_articles', JSON.stringify(next));
+      return next;
+    });
+  };
+
+  const markAllAsRead = (allIds: string[]) => {
+    setReadArticles(allIds);
+    localStorage.setItem('tech_news_read_articles', JSON.stringify(allIds));
+  };
+
+  const isRead = (id: string) => readArticles.includes(id);
+
   const toggleUpvote = (id: string) => {
     setUpvotes((prev) => {
       const next = { ...prev, [id]: !prev[id] };
@@ -227,6 +284,12 @@ export function BilingualProvider({ children }: { children: React.ReactNode }) {
         toggleBookmark,
         isBookmarked,
         clearBookmarks,
+        readArticles,
+        markAsRead,
+        markAllAsRead,
+        isRead,
+        sortOption,
+        setSortOption,
         upvotes,
         toggleUpvote,
         isUpvoted,
