@@ -1,0 +1,46 @@
+name: Auto Update News Digest (24/7)
+
+on:
+  schedule:
+    # Runs every 2 hours (00:00, 02:00, 04:00, ... UTC)
+    - cron: '0 */2 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Fetch RSS Feeds & Summarize with Gemini Pro
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: npm run fetch-news
+
+      - name: Commit and Push Changes if News Updated
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          if git diff --staged --quiet; then
+            echo "No new news articles found. Skipping commit."
+          else
+            git commit -m "🤖 auto(news): update tech news digest [skip ci]"
+            git push origin main
+          fi
