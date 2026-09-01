@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { useBilingual } from './BilingualContext';
-import { Terminal } from 'lucide-react';
+import { Terminal, ShieldCheck, CheckCircle2, Globe2 } from 'lucide-react';
 
 interface FooterProps {
   lastUpdated: string;
@@ -42,8 +42,9 @@ export const Footer: React.FC<FooterProps> = ({ lastUpdated }) => {
           </div>
 
           <div>
-            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-300 mb-3">
-              Nguồn tin tổng hợp
+            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-300 mb-3 flex items-center gap-1.5">
+              <Globe2 className="w-3.5 h-3.5 text-emerald-400" />
+              <span>{lang === 'vi' ? 'Nguồn tin chọn lọc' : 'Curated Sources'}</span>
             </h4>
             <div className="flex flex-wrap gap-1.5 text-xs text-slate-400">
               <span className="px-2 py-1 rounded bg-[#121722] border border-slate-800">VnExpress</span>
@@ -51,7 +52,6 @@ export const Footer: React.FC<FooterProps> = ({ lastUpdated }) => {
               <span className="px-2 py-1 rounded bg-[#121722] border border-slate-800">Tinh Tế</span>
               <span className="px-2 py-1 rounded bg-[#121722] border border-slate-800">VietNamNet</span>
               <span className="px-2 py-1 rounded bg-[#121722] border border-slate-800">Tuổi Trẻ</span>
-              <span className="px-2 py-1 rounded bg-[#121722] border border-slate-800">Viblo</span>
               <span className="px-2 py-1 rounded bg-[#121722] border border-slate-800">Dev.to</span>
               <span className="px-2 py-1 rounded bg-[#121722] border border-slate-800">Hacker News</span>
               <span className="px-2 py-1 rounded bg-[#121722] border border-slate-800">The Verge</span>
@@ -60,19 +60,29 @@ export const Footer: React.FC<FooterProps> = ({ lastUpdated }) => {
           </div>
 
           <div>
-            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-300 mb-3">
-              Hạ tầng & Vận hành
+            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-300 mb-3 flex items-center gap-1.5">
+              <ShieldCheck className="w-3.5 h-3.5 text-cyan-400" />
+              <span>{lang === 'vi' ? 'Tiêu chuẩn biên tập' : 'Editorial Standards'}</span>
             </h4>
-            <ul className="space-y-1.5 text-xs text-slate-400">
-              <li>AI Engine: <strong>Gemini Pro</strong></li>
-              <li>Scheduler: <strong>GitHub Actions Cron 24/7</strong></li>
-              <li>Hosting: <strong>Vercel / Cloudflare (0đ)</strong></li>
+            <ul className="space-y-2 text-xs text-slate-400">
+              <li className="flex items-center gap-1.5">
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+                <span>{lang === 'vi' ? 'Tổng hợp đa nguồn uy tín 24/7' : 'Curated multi-source 24/7 digest'}</span>
+              </li>
+              <li className="flex items-center gap-1.5">
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+                <span>{lang === 'vi' ? 'Tóm tắt 3 điểm cốt lõi chuẩn IT' : '3-tier core technical key takeaways'}</span>
+              </li>
+              <li className="flex items-center gap-1.5">
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+                <span>{lang === 'vi' ? 'Song ngữ hoàn chỉnh Việt - Anh' : 'Bilingual Vietnamese & English'}</span>
+              </li>
             </ul>
           </div>
         </div>
 
         <div className="pt-6 border-t border-slate-800/60 text-center text-xs text-slate-500">
-          ClearWind Tech News © 2026 • Làn Gió Tin Tức IT Tinh Gọn
+          ClearWind Tech © 2026 • {lang === 'vi' ? 'Bản tin Công nghệ & IT Tinh Gọn' : 'Curated Tech & IT Digest'}
         </div>
       </div>
     </footer>

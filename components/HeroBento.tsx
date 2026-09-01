@@ -25,7 +25,7 @@ export const HeroBento: React.FC<HeroBentoProps> = ({ articles, onSelectArticle 
           {t.featuredTitle}
         </h2>
         <span className="text-xs text-slate-400 font-medium">
-          Gemini Pro Curated
+          {lang === 'vi' ? 'Tiêu điểm biên tập' : 'Editorial Highlights'}
         </span>
       </div>
 

@@ -81,7 +81,7 @@ export default async function Image() {
               gap: '8px',
             }}
           >
-            ✦ Gemini Pro Powered
+            ✦ Curated Tech Digest
           </div>
         </div>
 
@@ -96,7 +96,7 @@ export default async function Image() {
               letterSpacing: '-1px',
             }}
           >
-            Làn Gió Tin Tức Công Nghệ Tinh Gọn & Tự Động 24/7
+            Làn Gió Tin Tức Công Nghệ Tinh Gọn 24/7
           </div>
           <div
             style={{
@@ -106,7 +106,7 @@ export default async function Image() {
               maxWidth: '900px',
             }}
           >
-            Tổng hợp tin tức IT đa nguồn, trích xuất 3 điểm cốt lõi với Gemini AI. Song ngữ Việt - Anh, chi phí vận hành 0đ.
+            Tổng hợp tin tức IT đa nguồn, trích xuất 3 điểm cốt lõi chuyên sâu. Song ngữ hoàn chỉnh Việt - Anh.
           </div>
         </div>
 

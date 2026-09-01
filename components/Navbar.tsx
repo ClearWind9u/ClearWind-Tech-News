@@ -65,9 +65,9 @@ export const Navbar: React.FC<NavbarProps> = ({
                 <span className="font-extrabold text-base tracking-tight text-white">
                   Clear<span className="text-emerald-400">Wind</span>
                 </span>
-                <span className="hidden sm:inline-flex items-center gap-1 text-[10px] uppercase font-semibold px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-400 border border-emerald-500/25">
+                <span className="hidden sm:inline-flex items-center gap-1 text-[10px] uppercase font-bold px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-400 border border-emerald-500/25">
                   <Sparkles className="w-2.5 h-2.5" />
-                  Gemini Pro
+                  Tech Digest
                 </span>
               </div>
               <p className="text-[10px] text-slate-400 hidden sm:block">
