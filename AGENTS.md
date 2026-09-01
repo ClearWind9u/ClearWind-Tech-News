@@ -23,3 +23,8 @@ Chào mừng bạn đến với dự án **ClearWind Tech News (Báo Công ngh�
 - **Kiểm tra Schema bắt buộc**: Mọi bản ghi dữ liệu trước khi lưu vào `data/news.json` hoặc đưa lên State/UI đều phải vượt qua Zod schema `NewsItemSchema.safeParse()`.
 - **Tránh trùng lặp tin tức (Deduplication)**: Dựa trên SHA-256 hash của URL bài viết gốc.
 - **Format thời gian**: Theo chuẩn ISO và hiển thị theo giờ Việt Nam (UTC+7 / GMT+7).
+
+## 4. Chiến lược Phân Nhánh & Release (Git Flow)
+- **`develop` (Active Development)**: Nhánh làm việc chính thức cho mọi tính năng và coding hàng ngày. Toàn bộ code phát triển đều commit và push trực tiếp trên `develop`.
+- **`feature/<name>` (Major Features)**: Khi có tính năng lớn, rẽ nhánh từ `develop`, tạo PR merge vào `develop`, sau đó xóa nhánh feature.
+- **`main` (Production)**: Nhánh chạy production thực tế, tự động nhận bản merge từ `develop` định kỳ 1 tuần/lần qua GitHub Actions cronjob (`.github/workflows/weekly_merge_develop_to_main.yml`).
