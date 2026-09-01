@@ -53,8 +53,10 @@ export const NewsItemSchema = z.object({
 
 export type NewsItem = z.infer<typeof NewsItemSchema>;
 
-export interface NewsDatabase {
-  lastUpdated: string;
-  totalArticles: number;
-  articles: NewsItem[];
-}
+export const NewsDatabaseSchema = z.object({
+  lastUpdated: z.string(),
+  totalArticles: z.number(),
+  articles: z.array(NewsItemSchema),
+});
+
+export type NewsDatabase = z.infer<typeof NewsDatabaseSchema>;

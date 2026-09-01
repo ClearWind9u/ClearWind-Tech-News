@@ -30,7 +30,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Ambient Radial Glow Background */
 .ambient-glow {
   position: fixed;
   top: 0;
@@ -45,7 +44,6 @@ body {
   z-index: 0;
 }
 
-/* Clean Card Surface */
 .tech-card {
   background-color: var(--bg-card);
   border: 1px solid var(--border-color);
@@ -59,7 +57,6 @@ body {
   box-shadow: 0 12px 32px -8px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(16, 185, 129, 0.2);
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;

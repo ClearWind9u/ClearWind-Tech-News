@@ -4,6 +4,7 @@ import crypto from 'crypto';
 import Parser from 'rss-parser';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { NewsItem, NewsItemSchema, NewsDatabase } from '../types/news';
+import { getNewsDatabase, saveNewsDatabase } from '../lib/db';
 import {
   classifyCategory,
   translateTitleToVietnamese,
@@ -388,21 +389,8 @@ export async function runCrawlerPipeline() {
     console.log('[News Pipeline] GEMINI_API_KEY detected. Using Gemini 1.5 Pro AI summarization.');
   }
 
-  // Load existing database
-  let db: NewsDatabase = {
-    lastUpdated: new Date().toISOString(),
-    totalArticles: 0,
-    articles: [],
-  };
-
-  if (fs.existsSync(DATA_FILE)) {
-    try {
-      const raw = fs.readFileSync(DATA_FILE, 'utf-8');
-      db = JSON.parse(raw);
-    } catch (e) {
-      console.warn('[News Pipeline] Could not parse existing news.json. Creating fresh database.');
-    }
-  }
+  // Load existing database via Universal DB Layer
+  const db: NewsDatabase = await getNewsDatabase();
 
   const existingIds = new Set(db.articles.map((a) => a.id));
   const newArticles: NewsItem[] = [];
@@ -486,8 +474,7 @@ export async function runCrawlerPipeline() {
     articles: allArticles,
   };
 
-  fs.mkdirSync(path.dirname(DATA_FILE), { recursive: true });
-  fs.writeFileSync(DATA_FILE, JSON.stringify(updatedDb, null, 2), 'utf-8');
+  await saveNewsDatabase(updatedDb);
 
   console.log(`[Pipeline Done] Added ${newArticles.length} new items. Total in DB: ${allArticles.length}`);
 }

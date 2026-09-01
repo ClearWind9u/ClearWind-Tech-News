@@ -1,16 +1,53 @@
 import fs from 'fs';
 import path from 'path';
-import { NewsDatabase, NewsItem } from '@/types/news';
+import { NewsDatabase, NewsDatabaseSchema } from '../types/news';
 
-// Zero-cost Git-as-DB Provider (Default)
-export function getLocalNewsDatabase(): NewsDatabase {
-  const dataPath = path.join(process.cwd(), 'data', 'news.json');
-  if (fs.existsSync(dataPath)) {
+const LOCAL_DATA_FILE = path.join(process.cwd(), 'data', 'news.json');
+
+/**
+ * Universal Database Layer for ClearWind Tech News
+ * Supports:
+ * 1. Cloud Serverless Storage (Upstash Redis / Vercel KV / REST Endpoint)
+ * 2. Fallback to Local Git-as-Database (data/news.json)
+ */
+
+export async function getNewsDatabase(): Promise<NewsDatabase> {
+  // 1. Try fetching from Cloud Serverless KV if configured
+  const kvUrl = process.env.UPSTASH_REDIS_REST_URL ?? process.env.KV_REST_API_URL;
+  const kvToken = process.env.UPSTASH_REDIS_REST_TOKEN ?? process.env.KV_REST_API_TOKEN;
+
+  if (kvUrl && kvToken) {
     try {
-      const fileContent = fs.readFileSync(dataPath, 'utf-8');
-      return JSON.parse(fileContent);
-    } catch (e) {
-      console.error('Failed to parse news.json:', e);
+      const response = await fetch(`${kvUrl}/get/clearwind_tech_news`, {
+        headers: { Authorization: `Bearer ${kvToken}` },
+        cache: 'no-store',
+      });
+      if (response.ok) {
+        const json = await response.json();
+        if (json.result) {
+          const parsed = typeof json.result === 'string' ? JSON.parse(json.result) : json.result;
+          const valid = NewsDatabaseSchema.safeParse(parsed);
+          if (valid.success) {
+            return valid.data;
+          }
+        }
+      }
+    } catch (error) {
+      console.warn('[DB Layer] Failed to read from Cloud KV. Falling back to local file.', error);
+    }
+  }
+
+  // 2. Fallback to local JSON file
+  if (fs.existsSync(LOCAL_DATA_FILE)) {
+    try {
+      const raw = fs.readFileSync(LOCAL_DATA_FILE, 'utf-8');
+      const parsed = JSON.parse(raw);
+      const valid = NewsDatabaseSchema.safeParse(parsed);
+      if (valid.success) {
+        return valid.data;
+      }
+    } catch (error) {
+      console.warn('[DB Layer] Failed to parse local news.json:', error);
     }
   }
 
@@ -21,27 +58,40 @@ export function getLocalNewsDatabase(): NewsDatabase {
   };
 }
 
-// Optional Supabase PostgreSQL Query Handler
-export async function getNewsFromSupabase(): Promise<NewsItem[] | null> {
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+export async function saveNewsDatabase(db: NewsDatabase): Promise<boolean> {
+  let savedToCloud = false;
 
-  if (!supabaseUrl || !supabaseAnonKey) {
-    return null; // Fallback to Git-as-DB
+  // 1. Try saving to Cloud Serverless KV (Zero Git Commits needed!)
+  const kvUrl = process.env.UPSTASH_REDIS_REST_URL ?? process.env.KV_REST_API_URL;
+  const kvToken = process.env.UPSTASH_REDIS_REST_TOKEN ?? process.env.KV_REST_API_TOKEN;
+
+  if (kvUrl && kvToken) {
+    try {
+      const payload = JSON.stringify(db);
+      const response = await fetch(`${kvUrl}/set/clearwind_tech_news`, {
+        method: 'POST',
+        headers: {
+          Authorization: `Bearer ${kvToken}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify([payload]),
+      });
+      if (response.ok) {
+        console.log('[DB Layer] Successfully saved database to Cloud KV (0 Git commits needed)!');
+        savedToCloud = true;
+      }
+    } catch (error) {
+      console.warn('[DB Layer] Failed to save to Cloud KV:', error);
+    }
   }
 
+  // 2. Always persist local JSON backup
   try {
-    const res = await fetch(`${supabaseUrl}/rest/v1/news?select=*&order=publishedAt.desc&limit=100`, {
-      headers: {
-        apikey: supabaseAnonKey,
-        Authorization: `Bearer ${supabaseAnonKey}`,
-      },
-      next: { revalidate: 3600 },
-    });
-    if (!res.ok) return null;
-    return await res.json();
-  } catch (err) {
-    console.warn('Could not connect to Supabase, falling back to local DB:', err);
-    return null;
+    fs.mkdirSync(path.dirname(LOCAL_DATA_FILE), { recursive: true });
+    fs.writeFileSync(LOCAL_DATA_FILE, JSON.stringify(db, null, 2), 'utf-8');
+    return true;
+  } catch (error) {
+    console.error('[DB Layer] Error writing local JSON backup:', error);
+    return savedToCloud;
   }
 }
