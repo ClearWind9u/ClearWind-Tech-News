@@ -187,7 +187,7 @@ export function BilingualProvider({ children }: { children: React.ReactNode }) {
   const [bookmarks, setBookmarks] = useState<string[]>([]);
   const [readArticles, setReadArticles] = useState<string[]>([]);
   const [sortOption, setSortOption] = useState<SortOption>('latest');
-  const [timeFilter, setTimeFilterState] = useState<TimeFilterOption>('7d');
+  const [timeFilter, setTimeFilterState] = useState<TimeFilterOption>('24h');
   const [upvotes, setUpvotes] = useState<Record<string, boolean>>({});
   const [viewMode, setViewModeState] = useState<ViewMode>('grid');
   const [isDark, setIsDark] = useState<boolean>(true);

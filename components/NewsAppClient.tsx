@@ -26,11 +26,15 @@ import {
   Clock,
   Sparkles,
   Bookmark,
+  ChevronLeft,
+  ChevronRight,
 } from 'lucide-react';
 
 interface NewsAppClientProps {
   initialData: NewsDatabase;
 }
+
+const ITEMS_PER_PAGE = 12;
 
 export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => {
   const {
@@ -58,6 +62,7 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
   const [activeArticle, setActiveArticle] = useState<NewsItem | null>(null);
   const [isBookmarkDrawerOpen, setIsBookmarkDrawerOpen] = useState(false);
   const [isShortcutsOpen, setIsShortcutsOpen] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
 
   // Auto clean up stale bookmarks when articles load
   useEffect(() => {
@@ -65,6 +70,11 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
       cleanupStaleBookmarks(initialData.articles.map((a: NewsItem) => a.id));
     }
   }, [initialData?.articles, cleanupStaleBookmarks]);
+
+  // Reset pagination to Page 1 when any filter changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [selectedCategory, selectedOrigin, searchQuery, selectedTag, sortOption, timeFilter]);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -207,6 +217,23 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
     isRead,
   ]);
 
+  // Pagination Calculations
+  const totalPages = Math.max(1, Math.ceil(filteredArticles.length / ITEMS_PER_PAGE));
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const endIndex = startIndex + ITEMS_PER_PAGE;
+  const paginatedArticles = useMemo(() => {
+    return filteredArticles.slice(startIndex, endIndex);
+  }, [filteredArticles, startIndex, endIndex]);
+
+  const handlePageChange = (page: number) => {
+    if (page < 1 || page > totalPages) return;
+    setCurrentPage(page);
+    const feedElement = document.getElementById('news-feed-container');
+    if (feedElement) {
+      feedElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   const featuredArticles = useMemo(() => {
     return [...initialData.articles].sort((a, b) => b.hotScore - a.hotScore).slice(0, 3);
   }, [initialData]);
@@ -236,7 +263,8 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
             !selectedTag &&
             selectedCategory === 'all' &&
             selectedOrigin === 'all' &&
-            sortOption === 'latest' && (
+            sortOption === 'latest' &&
+            currentPage === 1 && (
               <HeroBento
                 articles={featuredArticles}
                 onSelectArticle={(article) => setActiveArticle(article)}
@@ -261,7 +289,7 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
             </div>
           )}
 
-          {/* Category Filter Pills */}
+          {/* Category & Timeframe Filter Pills */}
           <CategoryFilter
             categories={categories}
             selectedCategory={selectedCategory}
@@ -272,7 +300,10 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
           />
 
           {/* Section Header: Priority Tabs (Latest, Trending, Unread, Saved) & Layout Controls */}
-          <div className="flex flex-wrap items-center justify-between gap-3 mb-5 pb-3 border-b border-slate-800">
+          <div
+            id="news-feed-container"
+            className="flex flex-wrap items-center justify-between gap-3 mb-5 pb-3 border-b border-slate-800 scroll-mt-20"
+          >
             {/* Priority & Status Tabs */}
             <div className="flex items-center gap-1.5 p-1 bg-[#121722] rounded-xl border border-slate-800 text-xs">
               <button
@@ -327,23 +358,22 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
                 <Bookmark className="w-3.5 h-3.5" />
                 <span>{t.tabSaved}</span>
                 {savedArticlesCount > 0 && (
-                  <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-slate-700 text-slate-300 font-mono">
+                  <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-emerald-400/20 text-emerald-300 font-mono">
                     {savedArticlesCount}
                   </span>
                 )}
               </button>
             </div>
 
-            {/* Right Controls: Mark all read + View Mode + Shortcuts */}
+            {/* Quick Actions (Mark Read, View Switcher, Shortcuts) */}
             <div className="flex items-center gap-2">
               {unreadCount > 0 && (
                 <button
                   onClick={handleMarkAllRead}
-                  className="px-2.5 py-1 text-xs text-slate-400 hover:text-emerald-400 bg-[#121722] hover:bg-[#161D2B] border border-slate-800 rounded-lg transition-colors flex items-center gap-1 font-medium"
-                  title={t.markAllRead}
+                  className="hidden md:flex items-center gap-1.5 px-3 py-1.5 text-xs text-slate-400 hover:text-emerald-400 bg-[#121722] hover:bg-[#161D2B] rounded-lg border border-slate-800 transition-colors font-medium"
                 >
                   <CheckCheck className="w-3.5 h-3.5" />
-                  <span className="hidden sm:inline">{t.markAllRead}</span>
+                  <span>{t.markAllRead}</span>
                 </button>
               )}
 
@@ -393,7 +423,7 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
                   ? t.noBookmarks
                   : sortOption === 'unread'
                   ? 'Bạn đã đọc hết tất cả các bài viết!'
-                  : 'Hãy thử tìm kiếm với từ khóa khác hoặc xóa bộ lọc.'}
+                  : 'Hãy thử tìm kiếm với từ khóa khác hoặc chuyển khoảng thời gian.'}
               </p>
               <button
                 onClick={() => {
@@ -410,7 +440,7 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
             </div>
           ) : viewMode === 'grid' ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-              {filteredArticles.map((article) => (
+              {paginatedArticles.map((article) => (
                 <NewsCard
                   key={article.id}
                   article={article}
@@ -420,13 +450,73 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
             </div>
           ) : (
             <div className="space-y-2.5">
-              {filteredArticles.map((article) => (
+              {paginatedArticles.map((article) => (
                 <NewsRowCompact
                   key={article.id}
                   article={article}
                   onSelectArticle={(art) => setActiveArticle(art)}
                 />
               ))}
+            </div>
+          )}
+
+          {/* Pagination Bar */}
+          {filteredArticles.length > 0 && totalPages > 1 && (
+            <div className="mt-10 pt-6 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div className="text-xs text-slate-400 font-mono">
+                {lang === 'vi' ? 'Hiển thị' : 'Showing'}{' '}
+                <span className="text-emerald-400 font-bold">{startIndex + 1}</span> -{' '}
+                <span className="text-emerald-400 font-bold">
+                  {Math.min(endIndex, filteredArticles.length)}
+                </span>{' '}
+                {lang === 'vi' ? 'trên' : 'of'}{' '}
+                <span className="text-white font-bold">{filteredArticles.length}</span>{' '}
+                {lang === 'vi' ? 'bản tin' : 'articles'}
+              </div>
+
+              <div className="flex items-center gap-1.5">
+                <button
+                  onClick={() => handlePageChange(currentPage - 1)}
+                  disabled={currentPage === 1}
+                  className={`p-2 rounded-xl border text-xs font-bold transition-colors flex items-center gap-1 ${
+                    currentPage === 1
+                      ? 'border-slate-800/50 text-slate-600 cursor-not-allowed bg-[#0B0E14]'
+                      : 'border-slate-800 text-slate-300 hover:text-white hover:border-emerald-500/50 bg-[#121722]'
+                  }`}
+                  title={lang === 'vi' ? 'Trang trước' : 'Previous page'}
+                >
+                  <ChevronLeft className="w-4 h-4" />
+                </button>
+
+                <div className="flex items-center gap-1">
+                  {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNum) => (
+                    <button
+                      key={pageNum}
+                      onClick={() => handlePageChange(pageNum)}
+                      className={`min-w-[36px] h-9 px-2 rounded-xl text-xs font-bold transition-all ${
+                        currentPage === pageNum
+                          ? 'bg-emerald-500 text-white shadow-md shadow-emerald-500/20 font-extrabold'
+                          : 'bg-[#121722] border border-slate-800 text-slate-400 hover:text-white hover:border-slate-700'
+                      }`}
+                    >
+                      {pageNum}
+                    </button>
+                  ))}
+                </div>
+
+                <button
+                  onClick={() => handlePageChange(currentPage + 1)}
+                  disabled={currentPage === totalPages}
+                  className={`p-2 rounded-xl border text-xs font-bold transition-colors flex items-center gap-1 ${
+                    currentPage === totalPages
+                      ? 'border-slate-800/50 text-slate-600 cursor-not-allowed bg-[#0B0E14]'
+                      : 'border-slate-800 text-slate-300 hover:text-white hover:border-emerald-500/50 bg-[#121722]'
+                  }`}
+                  title={lang === 'vi' ? 'Trang sau' : 'Next page'}
+                >
+                  <ChevronRight className="w-4 h-4" />
+                </button>
+              </div>
             </div>
           )}
         </main>

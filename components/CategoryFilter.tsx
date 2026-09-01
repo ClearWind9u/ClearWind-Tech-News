@@ -67,23 +67,12 @@ export const CategoryFilter: React.FC<CategoryFilterProps> = ({
           </button>
         </div>
 
-        {/* Timeframe Filter (7 ngày gần nhất / 24h / 3d / Tất cả / Cũ >7d) */}
+        {/* Timeframe Filter (24h / 3d / 7d / Lưu trữ / Tất cả) */}
         <div className="flex items-center gap-1 p-1 bg-[#121722] rounded-xl border border-slate-800 text-xs overflow-x-auto">
           <span className="text-[11px] text-slate-400 font-semibold px-2 flex items-center gap-1 shrink-0">
             <Calendar className="w-3 h-3 text-emerald-400" />
             <span className="hidden sm:inline">{t.timeFilterLabel}</span>
           </span>
-
-          <button
-            onClick={() => setTimeFilter('7d')}
-            className={`px-2.5 py-1 font-bold rounded-lg transition-colors shrink-0 ${
-              timeFilter === '7d'
-                ? 'bg-emerald-500 text-white shadow-sm'
-                : 'text-slate-400 hover:text-white'
-            }`}
-          >
-            {t.time7d}
-          </button>
 
           <button
             onClick={() => setTimeFilter('24h')}
@@ -108,14 +97,14 @@ export const CategoryFilter: React.FC<CategoryFilterProps> = ({
           </button>
 
           <button
-            onClick={() => setTimeFilter('all')}
+            onClick={() => setTimeFilter('7d')}
             className={`px-2.5 py-1 font-bold rounded-lg transition-colors shrink-0 ${
-              timeFilter === 'all'
+              timeFilter === '7d'
                 ? 'bg-emerald-500 text-white shadow-sm'
                 : 'text-slate-400 hover:text-white'
             }`}
           >
-            {t.timeAll}
+            {t.time7d}
           </button>
 
           <button
@@ -127,6 +116,17 @@ export const CategoryFilter: React.FC<CategoryFilterProps> = ({
             }`}
           >
             {t.timeArchived}
+          </button>
+
+          <button
+            onClick={() => setTimeFilter('all')}
+            className={`px-2.5 py-1 font-bold rounded-lg transition-colors shrink-0 ${
+              timeFilter === 'all'
+                ? 'bg-emerald-500 text-white shadow-sm'
+                : 'text-slate-400 hover:text-white'
+            }`}
+          >
+            {t.timeAll}
           </button>
         </div>
 
