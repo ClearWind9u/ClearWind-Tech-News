@@ -60,3 +60,28 @@ export const NewsDatabaseSchema = z.object({
 });
 
 export type NewsDatabase = z.infer<typeof NewsDatabaseSchema>;
+
+export type TimeFilterOption = 'all' | '24h' | '3d' | '7d' | 'archived';
+
+export function isArticleInTimeRange(publishedAt: string, filter: TimeFilterOption): boolean {
+  if (filter === 'all') return true;
+  const now = Date.now();
+  const articleTime = new Date(publishedAt).getTime();
+  if (isNaN(articleTime)) return true;
+
+  const diffHours = (now - articleTime) / (1000 * 60 * 60);
+
+  switch (filter) {
+    case '24h':
+      return diffHours <= 24;
+    case '3d':
+      return diffHours <= 72;
+    case '7d':
+      return diffHours <= 168; // 7 days
+    case 'archived':
+      return diffHours > 168; // older than 7 days
+    default:
+      return true;
+  }
+}
+

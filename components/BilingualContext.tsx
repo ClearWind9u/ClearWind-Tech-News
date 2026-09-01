@@ -1,6 +1,7 @@
 'use client';
 
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
+import { TimeFilterOption } from '../types/news';
 
 export type Language = 'vi' | 'en';
 export type ViewMode = 'grid' | 'compact';
@@ -46,6 +47,12 @@ interface Translations {
   unreadCount: string;
   readLater: string;
   unreadBadge: string;
+  timeFilterLabel: string;
+  timeAll: string;
+  time24h: string;
+  time3d: string;
+  time7d: string;
+  timeArchived: string;
 }
 
 const translationsDict: Record<Language, Translations> = {
@@ -89,6 +96,12 @@ const translationsDict: Record<Language, Translations> = {
     unreadCount: 'bài chưa đọc',
     readLater: 'Lưu xem sau',
     unreadBadge: 'Mới',
+    timeFilterLabel: 'Thời gian:',
+    timeAll: 'Tất cả',
+    time24h: '24 giờ qua',
+    time3d: '3 ngày qua',
+    time7d: '7 ngày gần đây',
+    timeArchived: 'Lưu trữ cũ (> 7 ngày)',
   },
   en: {
     appName: 'ClearWind Tech',
@@ -130,6 +143,12 @@ const translationsDict: Record<Language, Translations> = {
     unreadCount: 'unread',
     readLater: 'Read later',
     unreadBadge: 'New',
+    timeFilterLabel: 'Timeframe:',
+    timeAll: 'All Time',
+    time24h: 'Last 24h',
+    time3d: 'Last 3 Days',
+    time7d: 'Last 7 Days',
+    timeArchived: 'Archived (> 7 Days)',
   },
 };
 
@@ -148,6 +167,8 @@ interface BilingualContextType {
   isRead: (id: string) => boolean;
   sortOption: SortOption;
   setSortOption: (sort: SortOption) => void;
+  timeFilter: TimeFilterOption;
+  setTimeFilter: (time: TimeFilterOption) => void;
   upvotes: Record<string, boolean>;
   toggleUpvote: (id: string) => void;
   isUpvoted: (id: string) => boolean;
@@ -166,6 +187,7 @@ export function BilingualProvider({ children }: { children: React.ReactNode }) {
   const [bookmarks, setBookmarks] = useState<string[]>([]);
   const [readArticles, setReadArticles] = useState<string[]>([]);
   const [sortOption, setSortOption] = useState<SortOption>('latest');
+  const [timeFilter, setTimeFilterState] = useState<TimeFilterOption>('7d');
   const [upvotes, setUpvotes] = useState<Record<string, boolean>>({});
   const [viewMode, setViewModeState] = useState<ViewMode>('grid');
   const [isDark, setIsDark] = useState<boolean>(true);
@@ -220,6 +242,10 @@ export function BilingualProvider({ children }: { children: React.ReactNode }) {
   const setViewMode = (mode: ViewMode) => {
     setViewModeState(mode);
     localStorage.setItem('tech_news_view', mode);
+  };
+
+  const setTimeFilter = (newTime: TimeFilterOption) => {
+    setTimeFilterState(newTime);
   };
 
   const toggleBookmark = useCallback((id: string) => {
@@ -307,6 +333,8 @@ export function BilingualProvider({ children }: { children: React.ReactNode }) {
         isRead,
         sortOption,
         setSortOption,
+        timeFilter,
+        setTimeFilter,
         upvotes,
         toggleUpvote,
         isUpvoted,

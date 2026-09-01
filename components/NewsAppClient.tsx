@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useMemo, useEffect } from 'react';
-import { NewsDatabase, NewsItem } from '@/types/news';
+import { NewsDatabase, NewsItem, isArticleInTimeRange } from '@/types/news';
 import { Navbar } from './Navbar';
 import { HeroBento } from './HeroBento';
 import { TrendingTicker } from './TrendingTicker';
@@ -49,6 +49,7 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
     cleanupStaleBookmarks,
     sortOption,
     setSortOption,
+    timeFilter,
   } = useBilingual();
 
   const [searchQuery, setSearchQuery] = useState('');
@@ -60,10 +61,10 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
 
   // Auto clean up stale bookmarks when articles load
   useEffect(() => {
-    if (initialData.articles && initialData.articles.length > 0) {
-      cleanupStaleBookmarks(initialData.articles.map((a) => a.id));
+    if (initialData?.articles && initialData.articles.length > 0) {
+      cleanupStaleBookmarks(initialData.articles.map((a: NewsItem) => a.id));
     }
-  }, [initialData.articles, cleanupStaleBookmarks]);
+  }, [initialData?.articles, cleanupStaleBookmarks]);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -149,6 +150,13 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
         return false;
       }
 
+      // Timeframe Filter (Preserve bookmarks and search results across all time)
+      if (sortOption !== 'saved' && !searchQuery.trim() && !selectedTag) {
+        if (!isArticleInTimeRange(article.publishedAt, timeFilter)) {
+          return false;
+        }
+      }
+
       if (searchQuery.trim()) {
         const query = searchQuery.toLowerCase().trim();
         const titleVi = (article.title_vi || '').toLowerCase();
@@ -193,6 +201,7 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
     searchQuery,
     selectedTag,
     sortOption,
+    timeFilter,
     readArticles,
     bookmarks,
     isRead,

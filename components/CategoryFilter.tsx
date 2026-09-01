@@ -3,7 +3,7 @@
 import React from 'react';
 import { getCategoryLabel } from '../types/news';
 import { useBilingual } from './BilingualContext';
-import { Layers, MapPin, Globe } from 'lucide-react';
+import { Layers, MapPin, Globe, Calendar, Clock } from 'lucide-react';
 
 interface CategoryFilterProps {
   categories: string[];
@@ -22,12 +22,13 @@ export const CategoryFilter: React.FC<CategoryFilterProps> = ({
   onSelectOrigin,
   totalArticlesCount,
 }) => {
-  const { lang, t } = useBilingual();
+  const { lang, t, timeFilter, setTimeFilter } = useBilingual();
 
   return (
     <div className="space-y-3.5 mb-6">
-      {/* Origins Switcher (Tabs) & Counter */}
+      {/* Top Filter Bar: Origins Switcher, Timeframe Switcher & Counter */}
       <div className="flex flex-wrap items-center justify-between gap-2.5 pb-3 border-b border-slate-800">
+        {/* Origins (Vietnam / Global / All) */}
         <div className="flex items-center gap-1 p-1 bg-[#121722] rounded-xl border border-slate-800 text-xs">
           <button
             onClick={() => onSelectOrigin('all')}
@@ -66,7 +67,71 @@ export const CategoryFilter: React.FC<CategoryFilterProps> = ({
           </button>
         </div>
 
-        <div className="text-xs text-slate-400 font-mono flex items-center gap-1">
+        {/* Timeframe Filter (7 ngày gần nhất / 24h / 3d / Tất cả / Cũ >7d) */}
+        <div className="flex items-center gap-1 p-1 bg-[#121722] rounded-xl border border-slate-800 text-xs overflow-x-auto">
+          <span className="text-[11px] text-slate-400 font-semibold px-2 flex items-center gap-1 shrink-0">
+            <Calendar className="w-3 h-3 text-emerald-400" />
+            <span className="hidden sm:inline">{t.timeFilterLabel}</span>
+          </span>
+
+          <button
+            onClick={() => setTimeFilter('7d')}
+            className={`px-2.5 py-1 font-bold rounded-lg transition-colors shrink-0 ${
+              timeFilter === '7d'
+                ? 'bg-emerald-500 text-white shadow-sm'
+                : 'text-slate-400 hover:text-white'
+            }`}
+          >
+            {t.time7d}
+          </button>
+
+          <button
+            onClick={() => setTimeFilter('24h')}
+            className={`px-2.5 py-1 font-bold rounded-lg transition-colors shrink-0 ${
+              timeFilter === '24h'
+                ? 'bg-emerald-500 text-white shadow-sm'
+                : 'text-slate-400 hover:text-white'
+            }`}
+          >
+            {t.time24h}
+          </button>
+
+          <button
+            onClick={() => setTimeFilter('3d')}
+            className={`px-2.5 py-1 font-bold rounded-lg transition-colors shrink-0 ${
+              timeFilter === '3d'
+                ? 'bg-emerald-500 text-white shadow-sm'
+                : 'text-slate-400 hover:text-white'
+            }`}
+          >
+            {t.time3d}
+          </button>
+
+          <button
+            onClick={() => setTimeFilter('all')}
+            className={`px-2.5 py-1 font-bold rounded-lg transition-colors shrink-0 ${
+              timeFilter === 'all'
+                ? 'bg-emerald-500 text-white shadow-sm'
+                : 'text-slate-400 hover:text-white'
+            }`}
+          >
+            {t.timeAll}
+          </button>
+
+          <button
+            onClick={() => setTimeFilter('archived')}
+            className={`px-2.5 py-1 font-bold rounded-lg transition-colors shrink-0 ${
+              timeFilter === 'archived'
+                ? 'bg-amber-500 text-slate-950 shadow-sm font-extrabold'
+                : 'text-slate-400 hover:text-amber-300'
+            }`}
+          >
+            {t.timeArchived}
+          </button>
+        </div>
+
+        {/* Counter */}
+        <div className="text-xs text-slate-400 font-mono flex items-center gap-1 shrink-0">
           <span className="text-emerald-400 font-bold">{totalArticlesCount}</span>
           <span>{lang === 'vi' ? 'bản tin' : 'articles'}</span>
         </div>

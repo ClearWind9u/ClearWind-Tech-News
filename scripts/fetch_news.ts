@@ -463,10 +463,10 @@ export async function runCrawlerPipeline() {
     }
   }
 
-  // Merge and sort all articles
+  // Merge and sort all articles (Preserve long-term knowledge archive up to 500 articles)
   const allArticles = [...newArticles, ...db.articles]
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
-    .slice(0, 100); // Keep top 100 freshest articles
+    .slice(0, 500);
 
   const updatedDb: NewsDatabase = {
     lastUpdated: new Date().toISOString(),
