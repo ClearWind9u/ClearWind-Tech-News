@@ -4,6 +4,13 @@ import crypto from 'crypto';
 import Parser from 'rss-parser';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { NewsItem, NewsItemSchema, NewsDatabase } from '../types/news';
+import {
+  classifyCategory,
+  translateTitleToVietnamese,
+  generateTechnicalTakeaways,
+  decodeHtml,
+  CanonicalCategory,
+} from './it_translator';
 import dotenv from 'dotenv';
 
 dotenv.config();
@@ -14,7 +21,7 @@ interface RSSFeedConfig {
   name: string;
   url: string;
   origin: 'vietnam' | 'global';
-  defaultCategory: string;
+  defaultCategory: CanonicalCategory;
 }
 
 const RSS_FEEDS: RSSFeedConfig[] = [
@@ -27,7 +34,7 @@ const RSS_FEEDS: RSSFeedConfig[] = [
   },
   {
     name: 'GenK',
-    url: 'https://genk.vn/tin-ict.rss',
+    url: 'https://genk.vn/rss/home.rss',
     origin: 'vietnam',
     defaultCategory: 'Software Engineering',
   },
@@ -51,7 +58,7 @@ const RSS_FEEDS: RSSFeedConfig[] = [
   },
   {
     name: 'Viblo Tech',
-    url: 'https://viblo.asia/feed.rss',
+    url: 'https://viblo.asia/rss/posts/editors-choice',
     origin: 'vietnam',
     defaultCategory: 'Software Engineering',
   },
@@ -72,86 +79,101 @@ const RSS_FEEDS: RSSFeedConfig[] = [
 
 const parser = new Parser({
   headers: {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 AI-Tech-Digest/2.0',
+    'User-Agent':
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 ClearWind-Tech-Bot/2.0',
     Accept: 'application/rss+xml, application/xml, text/xml, */*',
   },
   timeout: 10000,
 });
 
+// === Dedicated Safe Extractor Functions (Data Integrity Guard) ===
+
 function generateHashId(url: string): string {
   return crypto.createHash('sha256').update(url.trim()).digest('hex').substring(0, 16);
 }
 
-function cleanHtml(html: string): string {
-  return html
+function cleanHtml(html?: string): string {
+  if (!html || typeof html !== 'string') return '';
+  return decodeHtml(html)
     .replace(/<[^>]*>?/gm, '')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
     .replace(/\s+/g, ' ')
     .trim();
 }
 
-function extractThumbnail(item: any): string | undefined {
-  if (item.enclosure?.url && item.enclosure.type?.startsWith('image/')) {
+function parsePublishedDate(isoDate?: string, pubDate?: string): string {
+  if (isoDate && typeof isoDate === 'string' && !isNaN(Date.parse(isoDate))) {
+    return new Date(isoDate).toISOString();
+  }
+  if (pubDate && typeof pubDate === 'string' && !isNaN(Date.parse(pubDate))) {
+    return new Date(pubDate).toISOString();
+  }
+  return new Date().toISOString();
+}
+
+function extractSafeThumbnail(item: any): string | undefined {
+  if (item?.enclosure?.url && typeof item.enclosure.url === 'string') {
     return item.enclosure.url;
   }
-  if (item['media:content']?.['$']?.url) {
+  if (item?.['media:content']?.['$']?.url && typeof item['media:content']['$'].url === 'string') {
     return item['media:content']['$'].url;
   }
-  if (item['media:thumbnail']?.['$']?.url) {
+  if (item?.['media:thumbnail']?.['$']?.url && typeof item['media:thumbnail']['$'].url === 'string') {
     return item['media:thumbnail']['$'].url;
   }
-  const content = item.content || item['content:encoded'] || item.description || '';
-  const match = content.match(/<img[^>]+src="([^">]+)"/i);
-  if (match && match[1] && (match[1].startsWith('http://') || match[1].startsWith('https://'))) {
-    return match[1];
+  const content = item?.content ?? item?.['content:encoded'] ?? item?.description ?? '';
+  if (typeof content === 'string') {
+    const match = content.match(/<img[^>]+src="([^">]+)"/i);
+    if (match && match[1] && (match[1].startsWith('http://') || match[1].startsWith('https://'))) {
+      return match[1];
+    }
   }
   return undefined;
 }
 
-// Enhanced Fallback summary generator with rich technical value
-function generateFallbackSummary(title: string, snippet: string, origin: 'vietnam' | 'global', defaultCategory: string) {
+// Enhanced Fallback summary & translation generator with domain classification
+function generateFallbackSummary(
+  title: string,
+  snippet: string,
+  origin: 'vietnam' | 'global',
+  defaultCategory: CanonicalCategory
+) {
   const isVn = origin === 'vietnam';
-  
-  // Clean prefixes if any
-  const cleanTitle = title.replace(/^\[(Quốc tế|VN Tech)\]\s*/i, '').trim();
+  const cleanTitle = decodeHtml(title).replace(/^\[(Quốc tế|VN Tech)\]\s*/i, '').trim();
 
+  // 1. Precise Category Auto-Classification
+  const category = classifyCategory(cleanTitle, snippet) ?? defaultCategory;
+
+  // 2. Bilingual Title Handling
   let vietnameseTitle = cleanTitle;
   let englishTitle = cleanTitle;
 
   if (isVn) {
-    englishTitle = `Vietnam Tech Update: ${cleanTitle}`;
+    vietnameseTitle = cleanTitle;
+    englishTitle = cleanTitle;
   } else {
-    // Basic smart translation heuristics for common tech terms
-    vietnameseTitle = cleanTitle
-      .replace(/Defensive Scripting with bash/i, 'Lập trình phòng thủ với Bash Script: Kỹ thuật kiểm soát lỗi và tối ưu an toàn')
-      .replace(/Choosing an enterprise MCP gateway.*/i, 'Lựa chọn MCP Gateway cho hạ tầng AI doanh nghiệp: Đánh giá kiến trúc và độ trễ')
-      .replace(/Building AI agents with LangGraph/i, 'Xây dựng Multi-Agent AI với LangGraph và Stateful Workflows')
-      .replace(/Zero Trust Security.*/i, 'Kiến trúc bảo mật Zero Trust cho hạ tầng Cloud phân tán');
+    vietnameseTitle = translateTitleToVietnamese(cleanTitle);
+    englishTitle = cleanTitle;
   }
 
-  const cleanSnippet = snippet.replace(/<[^>]+>/g, '').trim();
-  const leadSentence = cleanSnippet.split(/[.\n]/)[0] || cleanTitle;
+  // 3. Domain-specific 3-point technical takeaways
+  const summaryVi = generateTechnicalTakeaways(vietnameseTitle, snippet, category, 'vi');
+  const summaryEn = generateTechnicalTakeaways(englishTitle, snippet, category, 'en');
+
+  // 4. Tags extraction
+  const categoryTag = category.split(' ')[0].replace(/[^a-zA-Z0-9]/g, '');
+  const tags = isVn
+    ? [categoryTag, 'CongNghe', 'VietNam']
+    : [categoryTag, 'SoftwareEngineering', 'Tech'];
 
   return {
     title_vi: vietnameseTitle,
     title_en: englishTitle,
-    summary_vi: [
-      `${leadSentence}. Phân tích các yếu tố kỹ thuật then chốt và chuẩn kiến trúc đang định hình xu hướng ngành công nghệ.`,
-      `Đánh giá chuyên sâu về hiệu năng, khả năng mở rộng (scalability) và giải pháp tích hợp tối ưu cho hệ thống thực tế.`,
-      `Tổng kết bài học kinh nghiệm và khuyến nghị áp dụng thực tiễn dành cho lập trình viên và kỹ sư công nghệ.`,
-    ],
-    summary_en: [
-      `${leadSentence}. Explores key architectural factors and technological innovations shaping modern industry benchmarks.`,
-      `In-depth technical breakdown covering execution speed, system scalability, and streamlined production integration.`,
-      `Actionable implementation insights and engineering best practices recommended for modern development workflows.`,
-    ],
-    category: defaultCategory,
-    tags: isVn ? ['CongNghe', 'LapTrinh', 'VietNam'] : ['SoftwareEngineering', 'Architecture', 'Tech'],
-    hotScore: Math.floor(Math.random() * 15) + 82,
-    readTimeMinutes: Math.max(3, Math.min(8, Math.round(cleanSnippet.length / 250))),
+    summary_vi: summaryVi,
+    summary_en: summaryEn,
+    category,
+    tags,
+    hotScore: Math.floor(Math.random() * 15) + 84,
+    readTimeMinutes: Math.max(3, Math.min(8, Math.round((snippet ?? '').length / 250))),
   };
 }
 
@@ -159,7 +181,7 @@ async function summarizeWithGemini(
   title: string,
   contentSnippet: string,
   origin: 'vietnam' | 'global',
-  defaultCategory: string,
+  defaultCategory: CanonicalCategory,
   apiKey?: string
 ) {
   if (!apiKey) {
@@ -177,7 +199,7 @@ async function summarizeWithGemini(
     });
 
     const prompt = `
-Bạn là một chuyên gia phân tích công nghệ và kỹ sư trưởng (Principal Engineer).
+Bạn là chuyên gia phân tích công nghệ cao cấp và kỹ sư trưởng (Principal Engineer).
 Nhiệm vụ: Phân tích bài viết công nghệ dưới đây và trả về DUY NHẤT một JSON Object hợp lệ (không markdown):
 
 Nguồn tin: ${origin === 'vietnam' ? 'Việt Nam' : 'Quốc tế'}
@@ -185,16 +207,22 @@ Tiêu đề gốc: ${title}
 Nội dung trích đoạn: ${contentSnippet}
 
 Yêu cầu nghiêm ngặt về chất lượng tóm tắt:
-1. "title_vi": Tiêu đề thuần Tiếng Việt 100%, chuẩn xác chuyên ngành, TUYỆT ĐỐI KHÔNG thêm tiền tố như "[Quốc tế]" hay "[VN Tech]".
+1. "title_vi": Tiêu đề dịch hoặc viết lại thuần Tiếng Việt 100% tự nhiên, chuẩn xác thuật ngữ IT. TUYỆT ĐỐI KHÔNG để nguyên tiếng Anh nếu nguồn tin là quốc tế, KHÔNG thêm tiền tố như "[Quốc tế]".
 2. "title_en": Tiêu đề thuần Tiếng Anh 100% tự nhiên, rõ ràng.
-3. "summary_vi": Mảng 3 chuỗi tiếng Việt chi tiết, giàu giá trị chuyên môn (mỗi ý dài 25-45 từ):
+3. "summary_vi": Mảng đúng 3 chuỗi tiếng Việt chi tiết, giàu giá trị chuyên môn (mỗi ý dài 25-45 từ):
    - Ý 1: Bối cảnh, bản chất công nghệ hoặc sự kiện cốt lõi được nhắc đến.
    - Ý 2: Chi tiết kỹ thuật, giải pháp kiến trúc, số liệu hoặc cơ chế hoạt động bên dưới.
    - Ý 3: Giá trị thực tiễn, tác động tới ngành IT/lập trình viên hoặc bài học ứng dụng.
-4. "summary_en": Mảng 3 chuỗi tiếng Anh tương ứng với độ chi tiết kỹ thuật tương đương.
-5. "category": Chọn 1 trong các danh mục sau: AI & Machine Learning | DevOps & Cloud | Cybersecurity | Software Engineering | Mobile & Web | Tech Trends & Startups
-6. "tags": 3-5 tags ngắn gọn chuẩn ngành (ví dụ: AI, React, Rust, Kubernetes, Security).
-7. "hotScore": Điểm nóng từ 75 đến 99.
+4. "summary_en": Mảng đúng 3 chuỗi tiếng Anh tương ứng với độ chi tiết kỹ thuật tương đương.
+5. "category": Phải chọn CHÍNH XÁC 1 trong 6 danh mục chuẩn sau:
+   - "AI & Machine Learning"
+   - "Software Engineering"
+   - "DevOps & Cloud"
+   - "Cybersecurity"
+   - "Mobile & Web"
+   - "Tech Trends & Startups"
+6. "tags": 3-5 tags ngắn gọn chuẩn ngành (ví dụ: ["AI", "React", "Rust", "Kubernetes", "Security"]).
+7. "hotScore": Điểm nóng số nguyên từ 75 đến 99.
 8. "readTimeMinutes": Số phút đọc ước tính từ 3 đến 8.
 
 Định dạng JSON trả về:
@@ -213,9 +241,16 @@ Yêu cầu nghiêm ngặt về chất lượng tóm tắt:
     const result = await model.generateContent(prompt);
     const text = result.response.text().trim();
     const cleanedText = text.replace(/^```json\s*/, '').replace(/\s*```$/, '');
-    return JSON.parse(cleanedText);
+    const parsed = JSON.parse(cleanedText);
+
+    // Validate category
+    if (!parsed.category) {
+      parsed.category = classifyCategory(title, contentSnippet) ?? defaultCategory;
+    }
+
+    return parsed;
   } catch (error: any) {
-    console.warn(`[Gemini API Warning] Failed to summarize article "${title}". Using fallback.`);
+    console.warn(`[Gemini API Warning] Failed to summarize article "${title}". Using intelligent IT fallback.`);
     return generateFallbackSummary(title, contentSnippet, origin, defaultCategory);
   }
 }
@@ -226,17 +261,18 @@ async function fetchDevToArticles(existingIds: Set<string>, apiKey?: string): Pr
   try {
     console.log('[Crawler] Fetching Dev.to API...');
     const response = await fetch('https://dev.to/api/articles?per_page=5&top=7', {
-      headers: { 'User-Agent': 'AI-Tech-Digest-Bot/2.0' },
+      headers: { 'User-Agent': 'ClearWind-Tech-Bot/2.0' },
     });
     if (!response.ok) return articles;
     const items = await response.json();
 
     for (const item of items) {
+      if (!item?.url) continue;
       const id = generateHashId(item.url);
       if (existingIds.has(id)) continue;
 
-      const rawTitle = item.title || '';
-      const rawContent = cleanHtml(item.description || item.body_markdown || '');
+      const rawTitle = cleanHtml(item.title ?? '');
+      const rawContent = cleanHtml(item.description ?? item.body_markdown ?? '');
       const summaryData = await summarizeWithGemini(
         rawTitle,
         rawContent,
@@ -247,36 +283,35 @@ async function fetchDevToArticles(existingIds: Set<string>, apiKey?: string): Pr
 
       const candidate: NewsItem = {
         id,
-        title_vi: summaryData.title_vi || rawTitle,
-        title_en: summaryData.title_en || rawTitle,
-        summary_vi: summaryData.summary_vi || [rawContent.slice(0, 150) + '...'],
-        summary_en: summaryData.summary_en || [rawContent.slice(0, 150) + '...'],
+        title_vi: summaryData.title_vi ?? translateTitleToVietnamese(rawTitle),
+        title_en: summaryData.title_en ?? rawTitle,
+        summary_vi: summaryData.summary_vi,
+        summary_en: summaryData.summary_en,
         originalTitle: rawTitle,
         url: item.url,
         sourceName: 'Dev.to',
         sourceOrigin: 'global',
-        category: summaryData.category || 'Software Engineering',
-        tags: Array.isArray(item.tag_list) && item.tag_list.length > 0 ? item.tag_list : summaryData.tags,
-        hotScore: typeof summaryData.hotScore === 'number' ? summaryData.hotScore : 88,
-        readTimeMinutes: item.reading_time_minutes || summaryData.readTimeMinutes || 4,
-        publishedAt: item.published_at || new Date().toISOString(),
-        thumbnailUrl: item.cover_image || item.social_image || undefined,
-        contentSnippet: rawContent.slice(0, 300),
-        authorName: item.user?.name || 'Dev.to Author',
-        authorAvatar: item.user?.profile_image || undefined,
-        upvotes: item.positive_reactions_count || 12,
-        commentsCount: item.comments_count || 3,
+        category: summaryData.category ?? classifyCategory(rawTitle, rawContent),
+        tags: summaryData.tags?.length ? summaryData.tags : (item.tag_list ?? ['DevTo', 'Programming']),
+        hotScore: summaryData.hotScore ?? 85,
+        readTimeMinutes: summaryData.readTimeMinutes ?? item.reading_time_minutes ?? 4,
+        publishedAt: parsePublishedDate(item.published_at),
+        thumbnailUrl: item.cover_image ?? item.social_image ?? undefined,
+        contentSnippet: rawContent.substring(0, 300),
+        authorName: item.user?.name ?? item.user?.username ?? 'Dev.to Author',
+        authorAvatar: item.user?.profile_image_90 ?? undefined,
+        upvotes: item.positive_reactions_count ?? 10,
+        commentsCount: item.comments_count ?? 0,
       };
 
-      const validated = NewsItemSchema.safeParse(candidate);
-      if (validated.success) {
-        articles.push(validated.data);
+      const valid = NewsItemSchema.safeParse(candidate);
+      if (valid.success) {
+        articles.push(candidate);
         existingIds.add(id);
       }
-      await new Promise((r) => setTimeout(r, 400));
     }
-  } catch (err: any) {
-    console.warn('[Crawler Warning] Dev.to API:', err.message);
+  } catch (error) {
+    console.warn('[Crawler Warning] Error fetching Dev.to:', error);
   }
   return articles;
 }
@@ -286,66 +321,74 @@ async function fetchHackerNewsArticles(existingIds: Set<string>, apiKey?: string
   const articles: NewsItem[] = [];
   try {
     console.log('[Crawler] Fetching Hacker News API...');
-    const topIdsRes = await fetch('https://hacker-news.firebaseio.com/v0/topstories.json?limitToFirst=6&orderBy="$key"');
-    if (!topIdsRes.ok) return articles;
-    const topIds: number[] = await topIdsRes.json();
+    const topRes = await fetch('https://hacker-news.firebaseio.com/v0/topstories.json');
+    if (!topRes.ok) return articles;
+    const topIds: number[] = await topRes.json();
 
-    for (const storyId of topIds.slice(0, 4)) {
-      try {
-        const itemRes = await fetch(`https://hacker-news.firebaseio.com/v0/item/${storyId}.json`);
-        if (!itemRes.ok) continue;
-        const story = await itemRes.json();
-        const url = story.url || `https://news.ycombinator.com/item?id=${storyId}`;
-        const id = generateHashId(url);
-        if (existingIds.has(id)) continue;
+    const selectedIds = topIds.slice(0, 4);
+    for (const storyId of selectedIds) {
+      const itemRes = await fetch(`https://hacker-news.firebaseio.com/v0/item/${storyId}.json`);
+      if (!itemRes.ok) continue;
+      const item = await itemRes.json();
+      if (!item || !item.url) continue;
 
-        const rawTitle = story.title || '';
-        const summaryData = await summarizeWithGemini(
-          rawTitle,
-          `Hacker News Top Story by ${story.by}. Score: ${story.score}. Thảo luận công nghệ hàng đầu thế giới.`,
-          'global',
-          'Software Engineering',
-          apiKey
-        );
+      const id = generateHashId(item.url);
+      if (existingIds.has(id)) continue;
 
-        const candidate: NewsItem = {
-          id,
-          title_vi: summaryData.title_vi || rawTitle,
-          title_en: summaryData.title_en || rawTitle,
-          summary_vi: summaryData.summary_vi || [`Thảo luận sôi nổi trên Hacker News với ${story.score} điểm.`],
-          summary_en: summaryData.summary_en || [`Trending technical discussion on Hacker News with ${story.score} points.`],
-          originalTitle: rawTitle,
-          url,
-          sourceName: 'Hacker News',
-          sourceOrigin: 'global',
-          category: summaryData.category || 'Software Engineering',
-          tags: ['HackerNews', 'Tech', 'Programming'],
-          hotScore: Math.min(99, Math.max(80, Math.floor((story.score || 50) / 5) + 70)),
-          readTimeMinutes: 4,
-          publishedAt: new Date(story.time * 1000).toISOString(),
-          contentSnippet: `Top trending discussion with ${story.score} points and ${story.descendants || 0} comments.`,
-          authorName: story.by,
-          upvotes: story.score || 45,
-          commentsCount: story.descendants || 10,
-        };
+      const rawTitle = cleanHtml(item.title ?? '');
+      const rawContent = `Top trending discussion with ${item.score ?? 50} points and ${item.descendants ?? 0} comments.`;
+      const summaryData = await summarizeWithGemini(
+        rawTitle,
+        rawContent,
+        'global',
+        'Software Engineering',
+        apiKey
+      );
 
-        const validated = NewsItemSchema.safeParse(candidate);
-        if (validated.success) {
-          articles.push(validated.data);
-          existingIds.add(id);
-        }
-        await new Promise((r) => setTimeout(r, 400));
-      } catch (e) {}
+      const candidate: NewsItem = {
+        id,
+        title_vi: summaryData.title_vi ?? translateTitleToVietnamese(rawTitle),
+        title_en: summaryData.title_en ?? rawTitle,
+        summary_vi: summaryData.summary_vi,
+        summary_en: summaryData.summary_en,
+        originalTitle: rawTitle,
+        url: item.url,
+        sourceName: 'Hacker News',
+        sourceOrigin: 'global',
+        category: summaryData.category ?? classifyCategory(rawTitle, rawContent),
+        tags: summaryData.tags?.length ? summaryData.tags : ['HackerNews', 'Tech', 'Programming'],
+        hotScore: Math.min(99, Math.max(75, Math.floor((item.score ?? 50) / 4))),
+        readTimeMinutes: summaryData.readTimeMinutes ?? 4,
+        publishedAt: item.time ? new Date(item.time * 1000).toISOString() : new Date().toISOString(),
+        contentSnippet: rawContent,
+        authorName: item.by ?? 'hn_user',
+        upvotes: item.score ?? 1,
+        commentsCount: item.descendants ?? 0,
+      };
+
+      const valid = NewsItemSchema.safeParse(candidate);
+      if (valid.success) {
+        articles.push(candidate);
+        existingIds.add(id);
+      }
     }
-  } catch (err: any) {
-    console.warn('[Crawler Warning] Hacker News API:', err.message);
+  } catch (error) {
+    console.warn('[Crawler Warning] Error fetching Hacker News:', error);
   }
   return articles;
 }
 
-async function main() {
+export async function runCrawlerPipeline() {
   console.log('[News Pipeline] Starting RSS & Multi-API Crawler...');
+  const apiKey = process.env.GEMINI_API_KEY;
 
+  if (!apiKey) {
+    console.log('[News Pipeline] GEMINI_API_KEY is not set. Using intelligent IT translation & classification fallback.');
+  } else {
+    console.log('[News Pipeline] GEMINI_API_KEY detected. Using Gemini 1.5 Pro AI summarization.');
+  }
+
+  // Load existing database
   let db: NewsDatabase = {
     lastUpdated: new Date().toISOString(),
     totalArticles: 0,
@@ -354,47 +397,44 @@ async function main() {
 
   if (fs.existsSync(DATA_FILE)) {
     try {
-      const fileData = fs.readFileSync(DATA_FILE, 'utf-8');
-      db = JSON.parse(fileData);
+      const raw = fs.readFileSync(DATA_FILE, 'utf-8');
+      db = JSON.parse(raw);
     } catch (e) {
-      console.error('Error reading existing news.json. Initializing new database.');
+      console.warn('[News Pipeline] Could not parse existing news.json. Creating fresh database.');
     }
   }
 
   const existingIds = new Set(db.articles.map((a) => a.id));
   const newArticles: NewsItem[] = [];
-  const apiKey = process.env.GEMINI_API_KEY;
 
-  const devToArticles = await fetchDevToArticles(existingIds, apiKey);
-  newArticles.push(...devToArticles);
+  // 1. Fetch REST APIs (Dev.to & Hacker News)
+  const devToItems = await fetchDevToArticles(existingIds, apiKey);
+  newArticles.push(...devToItems);
 
-  const hnArticles = await fetchHackerNewsArticles(existingIds, apiKey);
-  newArticles.push(...hnArticles);
+  const hnItems = await fetchHackerNewsArticles(existingIds, apiKey);
+  newArticles.push(...hnItems);
 
+  // 2. Fetch RSS Feeds
   for (const feed of RSS_FEEDS) {
     try {
       console.log(`[Crawler] Fetching: ${feed.name}...`);
       const parsedFeed = await parser.parseURL(feed.url);
-      const latestItems = (parsedFeed.items || []).slice(0, 4);
 
-      for (const item of latestItems) {
-        const itemUrl = item.link || item.guid || '';
-        if (!itemUrl) continue;
-
-        const id = generateHashId(itemUrl);
+      const items = (parsedFeed.items ?? []).slice(0, 5);
+      for (const item of items) {
+        if (!item?.link) continue;
+        const id = generateHashId(item.link);
         if (existingIds.has(id)) continue;
 
-        const rawTitle = item.title || 'Untitled';
-        const rawContent = item.content || item['content:encoded'] || item.contentSnippet || item.description || '';
-        const cleanSnippet = cleanHtml(rawContent).slice(0, 1500);
-        const thumbnail = extractThumbnail(item);
-        const publishedDate = item.isoDate || item.pubDate || new Date().toISOString();
-
-        console.log(`[AI Summarizer] ${feed.name}: "${rawTitle.slice(0, 50)}..."`);
+        const rawTitle = cleanHtml(item.title ?? '');
+        const rawContent = cleanHtml(
+          item.contentSnippet ?? item.content ?? item.summary ?? item.description ?? ''
+        );
+        const thumbnailUrl = extractSafeThumbnail(item);
 
         const summaryData = await summarizeWithGemini(
           rawTitle,
-          cleanSnippet,
+          rawContent,
           feed.origin,
           feed.defaultCategory,
           apiKey
@@ -402,56 +442,60 @@ async function main() {
 
         const candidate: NewsItem = {
           id,
-          title_vi: summaryData.title_vi || rawTitle,
-          title_en: summaryData.title_en || rawTitle,
-          summary_vi: Array.isArray(summaryData.summary_vi) && summaryData.summary_vi.length > 0 ? summaryData.summary_vi : [cleanSnippet.slice(0, 150) + '...'],
-          summary_en: Array.isArray(summaryData.summary_en) && summaryData.summary_en.length > 0 ? summaryData.summary_en : [cleanSnippet.slice(0, 150) + '...'],
+          title_vi: summaryData.title_vi ?? (feed.origin === 'global' ? translateTitleToVietnamese(rawTitle) : rawTitle),
+          title_en: summaryData.title_en ?? rawTitle,
+          summary_vi: summaryData.summary_vi,
+          summary_en: summaryData.summary_en,
           originalTitle: rawTitle,
-          url: itemUrl,
+          url: item.link.trim(),
           sourceName: feed.name,
           sourceOrigin: feed.origin,
-          category: summaryData.category || feed.defaultCategory,
-          tags: Array.isArray(summaryData.tags) ? summaryData.tags : ['Tech', 'IT'],
-          hotScore: typeof summaryData.hotScore === 'number' ? summaryData.hotScore : 82,
-          readTimeMinutes: typeof summaryData.readTimeMinutes === 'number' ? summaryData.readTimeMinutes : 3,
-          publishedAt: publishedDate,
-          thumbnailUrl: thumbnail,
-          contentSnippet: cleanSnippet.slice(0, 300),
-          authorName: item.creator || item.author || feed.name,
+          category: summaryData.category ?? classifyCategory(rawTitle, rawContent) ?? feed.defaultCategory,
+          tags: summaryData.tags?.length
+            ? summaryData.tags
+            : [feed.defaultCategory.split(' ')[0], 'Tech'],
+          hotScore: summaryData.hotScore ?? Math.floor(Math.random() * 15) + 82,
+          readTimeMinutes: summaryData.readTimeMinutes ?? 3,
+          publishedAt: parsePublishedDate(item.isoDate, item.pubDate),
+          thumbnailUrl,
+          contentSnippet: rawContent.substring(0, 300),
+          authorName: item.creator ?? item.author ?? feed.name,
           upvotes: Math.floor(Math.random() * 30) + 10,
           commentsCount: Math.floor(Math.random() * 10) + 1,
         };
 
-        const validated = NewsItemSchema.safeParse(candidate);
-        if (validated.success) {
-          newArticles.push(validated.data);
+        const valid = NewsItemSchema.safeParse(candidate);
+        if (valid.success) {
+          newArticles.push(candidate);
           existingIds.add(id);
         }
-
-        await new Promise((r) => setTimeout(r, 400));
       }
-    } catch (err: any) {
-      console.warn(`[Crawler Warning] ${feed.name}: ${err.message}`);
+    } catch (error: any) {
+      console.warn(`[Crawler Warning] ${feed.name}: ${error.message ?? error}`);
     }
   }
 
-  const combinedArticles = [...newArticles, ...db.articles]
+  // Merge and sort all articles
+  const allArticles = [...newArticles, ...db.articles]
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
-    .slice(0, 250);
+    .slice(0, 100); // Keep top 100 freshest articles
 
   const updatedDb: NewsDatabase = {
     lastUpdated: new Date().toISOString(),
-    totalArticles: combinedArticles.length,
-    articles: combinedArticles,
+    totalArticles: allArticles.length,
+    articles: allArticles,
   };
 
   fs.mkdirSync(path.dirname(DATA_FILE), { recursive: true });
   fs.writeFileSync(DATA_FILE, JSON.stringify(updatedDb, null, 2), 'utf-8');
 
-  console.log(`[Pipeline Done] Added ${newArticles.length} new items. Total: ${updatedDb.totalArticles}`);
+  console.log(`[Pipeline Done] Added ${newArticles.length} new items. Total in DB: ${allArticles.length}`);
 }
 
-main().catch((err) => {
-  console.error('Fatal error in news pipeline:', err);
-  process.exit(1);
-});
+// Direct execution
+if (require.main === module) {
+  runCrawlerPipeline().catch((err) => {
+    console.error('[Pipeline Fatal Error]', err);
+    process.exit(1);
+  });
+}

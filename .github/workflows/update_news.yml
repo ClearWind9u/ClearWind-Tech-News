@@ -4,7 +4,11 @@ on:
   schedule:
     # Runs every 2 hours (00:00, 02:00, 04:00, ... UTC)
     - cron: '0 */2 * * *'
-  workflow_dispatch: # Allows manual trigger from GitHub UI
+  workflow_dispatch: # Allows manual trigger from GitHub Actions UI
+
+concurrency:
+  group: update-news-cron
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -18,6 +22,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -26,7 +31,7 @@ jobs:
           cache: 'npm'
 
       - name: Install Dependencies
-        run: npm ci
+        run: npm ci || npm install
 
       - name: Fetch RSS Feeds & Summarize with Gemini Pro
         env:
@@ -39,8 +44,11 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/news.json
           if git diff --staged --quiet; then
-            echo "No new news articles found. Skipping commit."
+            echo "No new news articles found. Database is up to date."
           else
+            echo "New articles found. Rebasing and pushing to main..."
             git commit -m "🤖 auto(news): update tech news digest [skip ci]"
+            git pull --rebase origin main
             git push origin main
+            echo "Successfully pushed latest news to main!"
           fi

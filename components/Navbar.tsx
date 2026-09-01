@@ -8,11 +8,19 @@ interface NavbarProps {
   searchQuery: string;
   setSearchQuery: (query: string) => void;
   onOpenBookmarks: () => void;
+  savedCount?: number;
 }
 
-export const Navbar: React.FC<NavbarProps> = ({ searchQuery, setSearchQuery, onOpenBookmarks }) => {
+export const Navbar: React.FC<NavbarProps> = ({
+  searchQuery,
+  setSearchQuery,
+  onOpenBookmarks,
+  savedCount,
+}) => {
   const { lang, setLang, t, bookmarks, isDark, toggleTheme } = useBilingual();
   const [isScrolled, setIsScrolled] = useState(false);
+
+  const displayBookmarksCount = typeof savedCount === 'number' ? savedCount : bookmarks.length;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -121,9 +129,9 @@ export const Navbar: React.FC<NavbarProps> = ({ searchQuery, setSearchQuery, onO
               title={t.bookmarks}
             >
               <Bookmark className="w-4 h-4" />
-              {bookmarks.length > 0 && (
+              {displayBookmarksCount > 0 && (
                 <span className="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-emerald-500 text-[10px] text-white font-bold flex items-center justify-center">
-                  {bookmarks.length}
+                  {displayBookmarksCount}
                 </span>
               )}
             </button>

@@ -1,6 +1,6 @@
 'use client';
 
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
 
 export type Language = 'vi' | 'en';
 export type ViewMode = 'grid' | 'compact';
@@ -38,7 +38,6 @@ interface Translations {
   trendingNow: string;
   share: string;
   fontSize: string;
-  // New features
   tabLatest: string;
   tabTrending: string;
   tabUnread: string;
@@ -56,7 +55,7 @@ const translationsDict: Record<Language, Translations> = {
     subTagline: 'Chắt lọc tri thức, thanh lọc thông tin công nghệ đa nguồn bằng Gemini Pro.',
     poweredBy: 'Vận hành bởi Gemini Pro',
     searchPlaceholder: 'Tìm kiếm tin tức, công nghệ (Ctrl+K)...',
-    allCategories: 'Tất cả',
+    allCategories: 'Tất cả danh mục',
     allOrigins: 'Tất cả nguồn',
     vnOrigins: 'Việt Nam',
     globalOrigins: 'Quốc tế',
@@ -66,7 +65,7 @@ const translationsDict: Record<Language, Translations> = {
     quickRead: 'Đọc nhanh',
     originalArticle: 'Bài viết gốc',
     bookmarks: 'Đã lưu',
-    noBookmarks: 'Chưa có bài viết nào được lưu.',
+    noBookmarks: 'Chưa có bài viết nào được lưu. Hãy bấm biểu tượng Bookmark trên các bài viết để đọc lại sau!',
     noResults: 'Không tìm thấy bài viết phù hợp.',
     hotScore: 'Điểm',
     readTime: 'phút đọc',
@@ -97,7 +96,7 @@ const translationsDict: Record<Language, Translations> = {
     subTagline: 'Breeze through tech noise with AI summaries powered by Gemini Pro.',
     poweredBy: 'Powered by Gemini Pro',
     searchPlaceholder: 'Search tech news (Ctrl+K)...',
-    allCategories: 'All',
+    allCategories: 'All Categories',
     allOrigins: 'All Sources',
     vnOrigins: 'Vietnam',
     globalOrigins: 'Global',
@@ -106,8 +105,8 @@ const translationsDict: Record<Language, Translations> = {
     keyTakeaways: 'Key Takeaways:',
     quickRead: 'Quick Read',
     originalArticle: 'Original Source',
-    bookmarks: 'Saved',
-    noBookmarks: 'No saved articles yet.',
+    bookmarks: 'Saved Articles',
+    noBookmarks: 'No saved articles yet. Click the bookmark icon on any article to save for later reading!',
     noResults: 'No articles found.',
     hotScore: 'Score',
     readTime: 'min read',
@@ -142,6 +141,7 @@ interface BilingualContextType {
   toggleBookmark: (id: string) => void;
   isBookmarked: (id: string) => boolean;
   clearBookmarks: () => void;
+  cleanupStaleBookmarks: (validIds: string[]) => void;
   readArticles: string[];
   markAsRead: (id: string) => void;
   markAllAsRead: (allIds: string[]) => void;
@@ -178,21 +178,24 @@ export function BilingualProvider({ children }: { children: React.ReactNode }) {
     const savedBookmarks = localStorage.getItem('tech_news_bookmarks');
     if (savedBookmarks) {
       try {
-        setBookmarks(JSON.parse(savedBookmarks));
+        const parsed = JSON.parse(savedBookmarks);
+        if (Array.isArray(parsed)) setBookmarks(parsed);
       } catch (e) {}
     }
 
     const savedReads = localStorage.getItem('tech_news_read_articles');
     if (savedReads) {
       try {
-        setReadArticles(JSON.parse(savedReads));
+        const parsed = JSON.parse(savedReads);
+        if (Array.isArray(parsed)) setReadArticles(parsed);
       } catch (e) {}
     }
 
     const savedUpvotes = localStorage.getItem('tech_news_upvotes');
     if (savedUpvotes) {
       try {
-        setUpvotes(JSON.parse(savedUpvotes));
+        const parsed = JSON.parse(savedUpvotes);
+        if (parsed && typeof parsed === 'object') setUpvotes(parsed);
       } catch (e) {}
     }
 
@@ -219,46 +222,59 @@ export function BilingualProvider({ children }: { children: React.ReactNode }) {
     localStorage.setItem('tech_news_view', mode);
   };
 
-  const toggleBookmark = (id: string) => {
+  const toggleBookmark = useCallback((id: string) => {
     setBookmarks((prev) => {
       const next = prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id];
       localStorage.setItem('tech_news_bookmarks', JSON.stringify(next));
       return next;
     });
-  };
+  }, []);
 
-  const clearBookmarks = () => {
+  const clearBookmarks = useCallback(() => {
     setBookmarks([]);
     localStorage.removeItem('tech_news_bookmarks');
-  };
+  }, []);
 
-  const isBookmarked = (id: string) => bookmarks.includes(id);
+  const cleanupStaleBookmarks = useCallback((validIds: string[]) => {
+    if (!validIds || validIds.length === 0) return;
+    setBookmarks((prev) => {
+      const validSet = new Set(validIds);
+      const filtered = prev.filter((id) => validSet.has(id));
+      if (filtered.length !== prev.length) {
+        localStorage.setItem('tech_news_bookmarks', JSON.stringify(filtered));
+        return filtered;
+      }
+      return prev;
+    });
+  }, []);
 
-  const markAsRead = (id: string) => {
+  const isBookmarked = useCallback((id: string) => bookmarks.includes(id), [bookmarks]);
+
+  const markAsRead = useCallback((id: string) => {
     setReadArticles((prev) => {
       if (prev.includes(id)) return prev;
       const next = [...prev, id];
       localStorage.setItem('tech_news_read_articles', JSON.stringify(next));
       return next;
     });
-  };
+  }, []);
 
-  const markAllAsRead = (allIds: string[]) => {
+  const markAllAsRead = useCallback((allIds: string[]) => {
     setReadArticles(allIds);
     localStorage.setItem('tech_news_read_articles', JSON.stringify(allIds));
-  };
+  }, []);
 
-  const isRead = (id: string) => readArticles.includes(id);
+  const isRead = useCallback((id: string) => readArticles.includes(id), [readArticles]);
 
-  const toggleUpvote = (id: string) => {
+  const toggleUpvote = useCallback((id: string) => {
     setUpvotes((prev) => {
       const next = { ...prev, [id]: !prev[id] };
       localStorage.setItem('tech_news_upvotes', JSON.stringify(next));
       return next;
     });
-  };
+  }, []);
 
-  const isUpvoted = (id: string) => !!upvotes[id];
+  const isUpvoted = useCallback((id: string) => !!upvotes[id], [upvotes]);
 
   const toggleTheme = () => {
     setIsDark((prev) => {
@@ -284,6 +300,7 @@ export function BilingualProvider({ children }: { children: React.ReactNode }) {
         toggleBookmark,
         isBookmarked,
         clearBookmarks,
+        cleanupStaleBookmarks,
         readArticles,
         markAsRead,
         markAllAsRead,

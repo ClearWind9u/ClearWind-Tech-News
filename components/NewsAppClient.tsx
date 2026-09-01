@@ -46,6 +46,7 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
     isRead,
     markAllAsRead,
     bookmarks,
+    cleanupStaleBookmarks,
     sortOption,
     setSortOption,
   } = useBilingual();
@@ -56,6 +57,13 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
   const [activeArticle, setActiveArticle] = useState<NewsItem | null>(null);
   const [isBookmarkDrawerOpen, setIsBookmarkDrawerOpen] = useState(false);
   const [isShortcutsOpen, setIsShortcutsOpen] = useState(false);
+
+  // Auto clean up stale bookmarks when articles load
+  useEffect(() => {
+    if (initialData.articles && initialData.articles.length > 0) {
+      cleanupStaleBookmarks(initialData.articles.map((a) => a.id));
+    }
+  }, [initialData.articles, cleanupStaleBookmarks]);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -89,18 +97,34 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [viewMode, lang, setViewMode, setLang, toggleTheme]);
 
+  const ALL_CANONICAL_CATEGORIES = [
+    'AI & Machine Learning',
+    'Software Engineering',
+    'DevOps & Cloud',
+    'Cybersecurity',
+    'Mobile & Web',
+    'Tech Trends & Startups',
+  ];
+
   const categories = useMemo(() => {
-    const set = new Set<string>();
+    const existingSet = new Set<string>();
     initialData.articles.forEach((a) => {
-      if (a.category) set.add(a.category);
+      if (a.category) existingSet.add(a.category);
     });
-    return Array.from(set);
+    return ALL_CANONICAL_CATEGORIES.filter((c) => existingSet.has(c)).concat(
+      Array.from(existingSet).filter((c) => !ALL_CANONICAL_CATEGORIES.includes(c))
+    );
   }, [initialData]);
 
   // Unread count
   const unreadCount = useMemo(() => {
     return initialData.articles.filter((a) => !readArticles.includes(a.id)).length;
   }, [initialData, readArticles]);
+
+  // Valid Saved count
+  const savedArticlesCount = useMemo(() => {
+    return initialData.articles.filter((a) => bookmarks.includes(a.id)).length;
+  }, [initialData.articles, bookmarks]);
 
   // Filter & Sort Pipeline
   const filteredArticles = useMemo(() => {
@@ -126,13 +150,15 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
       }
 
       if (searchQuery.trim()) {
-        const query = searchQuery.toLowerCase();
-        const titleVi = article.title_vi.toLowerCase();
-        const titleEn = article.title_en.toLowerCase();
-        const summaryVi = article.summary_vi.join(' ').toLowerCase();
-        const summaryEn = article.summary_en.join(' ').toLowerCase();
-        const tags = article.tags.join(' ').toLowerCase();
-        const source = article.sourceName.toLowerCase();
+        const query = searchQuery.toLowerCase().trim();
+        const titleVi = (article.title_vi || '').toLowerCase();
+        const titleEn = (article.title_en || '').toLowerCase();
+        const summaryVi = (article.summary_vi || []).join(' ').toLowerCase();
+        const summaryEn = (article.summary_en || []).join(' ').toLowerCase();
+        const tags = (article.tags || []).join(' ').toLowerCase();
+        const source = (article.sourceName || '').toLowerCase();
+        const author = (article.authorName || '').toLowerCase();
+        const category = (article.category || '').toLowerCase();
 
         return (
           titleVi.includes(query) ||
@@ -140,7 +166,9 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
           summaryVi.includes(query) ||
           summaryEn.includes(query) ||
           tags.includes(query) ||
-          source.includes(query)
+          source.includes(query) ||
+          author.includes(query) ||
+          category.includes(query)
         );
       }
 
@@ -185,6 +213,7 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
           searchQuery={searchQuery}
           setSearchQuery={setSearchQuery}
           onOpenBookmarks={() => setIsBookmarkDrawerOpen(true)}
+          savedCount={savedArticlesCount}
         />
 
         <TrendingTicker
@@ -288,9 +317,9 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({ initialData }) => 
               >
                 <Bookmark className="w-3.5 h-3.5" />
                 <span>{t.tabSaved}</span>
-                {bookmarks.length > 0 && (
+                {savedArticlesCount > 0 && (
                   <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-slate-700 text-slate-300 font-mono">
-                    {bookmarks.length}
+                    {savedArticlesCount}
                   </span>
                 )}
               </button>

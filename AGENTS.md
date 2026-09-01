@@ -15,8 +15,11 @@ Chào mừng bạn đến với dự án **ClearWind Tech News (Báo Công ngh�
 - **Data Storage**: `data/news.json` (Git-as-Database) - an toàn, bảo mật, version-controlled.
 - **Automation**: GitHub Actions workflow cron (`.github/workflows/update_news.yml`).
 
-## 3. Quy định xử lý dữ liệu và AI
-- Luôn kiểm tra tính hợp lệ của dữ liệu đầu ra từ Gemini bằng Zod schema.
-- Luôn có cơ chế Fallback (nếu API key chưa cấu hình hoặc bị rate-limit, hệ thống vẫn hoạt động ổn định).
-- Tránh trùng lặp tin tức (Deduplication) dựa trên URL hash hoặc GUID.
-- Format thời gian theo chuẩn ISO và hiển thị theo giờ Việt Nam (UTC+7 / GMT+7).
+## 3. Quy định xử lý dữ liệu và AI (Data Integrity & Clean Logic)
+- **Cấm lạm dụng toán tử `||` mơ hồ**: Tuyệt đối không viết chuỗi `a || b ? c : d`. Ưu tiên dùng Nullish Coalescing (`??`) và tách thành các hàm Extractor độc lập (`parsePublishedDate`, `cleanHtml`, `extractSafeThumbnail`).
+- **Phòng chống ảo giác (Zero Hallucination)**: Mọi URL, thời gian và tác giả phải được trích xuất từ RSS/API chính thức của tòa soạn báo.
+- **Dịch thuật IT chuyên sâu**: Toàn bộ tin quốc tế khi ở chế độ Tiếng Việt (`VI`) phải được dịch chuẩn xác theo thuật ngữ IT chuyên ngành (`title_vi` và `summary_vi`), không pha tạp tiếng Anh thô.
+- **Đồng bộ Bookmarks**: Badge số lượng đã lưu trên Navbar và danh sách trong Drawer phải luôn được đồng bộ và dọn dẹp các ID cũ (Stale IDs) thời gian thực.
+- **Kiểm tra Schema bắt buộc**: Mọi bản ghi dữ liệu trước khi lưu vào `data/news.json` hoặc đưa lên State/UI đều phải vượt qua Zod schema `NewsItemSchema.safeParse()`.
+- **Tránh trùng lặp tin tức (Deduplication)**: Dựa trên SHA-256 hash của URL bài viết gốc.
+- **Format thời gian**: Theo chuẩn ISO và hiển thị theo giờ Việt Nam (UTC+7 / GMT+7).
