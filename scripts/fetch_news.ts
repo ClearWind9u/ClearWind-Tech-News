@@ -10,6 +10,7 @@ import {
   translateTitleToVietnamese,
   generateTechnicalTakeaways,
   decodeHtml,
+  evaluateITRelevance,
   CanonicalCategory,
 } from './it_translator';
 import dotenv from 'dotenv';
@@ -178,56 +179,131 @@ function generateFallbackSummary(
   };
 }
 
+async function fetchFullArticleText(url: string): Promise<string> {
+  try {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 6000);
+
+    const response = await fetch(url, {
+      headers: {
+        'User-Agent':
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 ClearWind-Tech-Bot/2.0',
+        Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+      },
+      signal: controller.signal,
+    });
+    clearTimeout(timeoutId);
+
+    if (!response.ok) return '';
+    const html = await response.text();
+
+    const pMatches = html.match(/<p[^>]*>([\s\S]*?)<\/p>/gi) ?? [];
+    const extractedParagraphs: string[] = [];
+
+    for (const match of pMatches) {
+      const cleanP = cleanHtml(match);
+      if (cleanP.length > 30 && !cleanP.toLowerCase().includes('cookie') && !cleanP.toLowerCase().includes('privacy policy')) {
+        extractedParagraphs.push(cleanP);
+      }
+      if (extractedParagraphs.join(' ').length > 1500) break;
+    }
+
+    return extractedParagraphs.join(' ').substring(0, 1500);
+  } catch (error) {
+    return '';
+  }
+}
+
+const GEMINI_MODELS = [
+  'gemini-3.5-flash',
+  'gemini-3.0-flash',
+  'gemini-2.5-flash',
+  'gemini-2.0-flash',
+  'gemini-1.5-flash',
+  'gemini-1.5-pro',
+];
+
+async function callGeminiWithFallback(genAI: GoogleGenerativeAI, prompt: string): Promise<string> {
+  let lastError: any = null;
+  for (const modelName of GEMINI_MODELS) {
+    try {
+      const model = genAI.getGenerativeModel({
+        model: modelName,
+        generationConfig: {
+          responseMimeType: 'application/json',
+          temperature: 0.2,
+        },
+      });
+      const result = await model.generateContent(prompt);
+      const text = result.response.text().trim();
+      if (text) return text;
+    } catch (err: any) {
+      lastError = err;
+    }
+  }
+  throw lastError ?? new Error('All Gemini models failed');
+}
+
 async function summarizeWithGemini(
   title: string,
   contentSnippet: string,
   origin: 'vietnam' | 'global',
   defaultCategory: CanonicalCategory,
-  apiKey?: string
+  apiKey?: string,
+  url?: string
 ) {
+  let fullText = contentSnippet;
+  if (url && contentSnippet.length < 150) {
+    const scrapedText = await fetchFullArticleText(url);
+    if (scrapedText.length > contentSnippet.length) {
+      fullText = scrapedText;
+    }
+  }
+
+  // Pre-filter check with evaluator
+  const relevance = evaluateITRelevance(title, fullText);
+  if (!relevance.isIT) {
+    console.log(`[IT Filter] Rejected non-IT article "${title}": ${relevance.reason}`);
+    return { isITRelated: false };
+  }
+
   if (!apiKey) {
-    return generateFallbackSummary(title, contentSnippet, origin, defaultCategory);
+    const fallback = generateFallbackSummary(title, fullText, origin, defaultCategory);
+    return { isITRelated: true, ...fallback };
   }
 
   try {
     const genAI = new GoogleGenerativeAI(apiKey);
-    const model = genAI.getGenerativeModel({
-      model: 'gemini-1.5-pro',
-      generationConfig: {
-        responseMimeType: 'application/json',
-        temperature: 0.2,
-      },
-    });
 
     const prompt = `
 Bạn là chuyên gia phân tích công nghệ cao cấp và kỹ sư trưởng (Principal Engineer).
-Nhiệm vụ: Phân tích bài viết công nghệ dưới đây và trả về DUY NHẤT một JSON Object hợp lệ (không markdown):
+Nhiệm vụ: Phân tích bài viết dưới đây và trả về DUY NHẤT một JSON Object hợp lệ (không markdown).
 
 Nguồn tin: ${origin === 'vietnam' ? 'Việt Nam' : 'Quốc tế'}
 Tiêu đề gốc: ${title}
-Nội dung trích đoạn: ${contentSnippet}
+Nội dung bài viết: ${fullText}
 
-Yêu cầu nghiêm ngặt về chất lượng tóm tắt:
-1. "title_vi": Tiêu đề dịch hoặc viết lại thuần Tiếng Việt 100% tự nhiên, chuẩn xác thuật ngữ IT. TUYỆT ĐỐI KHÔNG để nguyên tiếng Anh nếu nguồn tin là quốc tế, KHÔNG thêm tiền tố như "[Quốc tế]".
-2. "title_en": Tiêu đề thuần Tiếng Anh 100% tự nhiên, rõ ràng.
-3. "summary_vi": Mảng đúng 3 chuỗi tiếng Việt chi tiết, giàu giá trị chuyên môn (mỗi ý dài 25-45 từ):
-   - Ý 1: Bối cảnh, bản chất công nghệ hoặc sự kiện cốt lõi được nhắc đến.
-   - Ý 2: Chi tiết kỹ thuật, giải pháp kiến trúc, số liệu hoặc cơ chế hoạt động bên dưới.
-   - Ý 3: Giá trị thực tiễn, tác động tới ngành IT/lập trình viên hoặc bài học ứng dụng.
-4. "summary_en": Mảng đúng 3 chuỗi tiếng Anh tương ứng với độ chi tiết kỹ thuật tương đương.
-5. "category": Phải chọn CHÍNH XÁC 1 trong 6 danh mục chuẩn sau:
-   - "AI & Machine Learning"
-   - "Software Engineering"
-   - "DevOps & Cloud"
-   - "Cybersecurity"
-   - "Mobile & Web"
-   - "Tech Trends & Startups"
-6. "tags": 3-5 tags ngắn gọn chuẩn ngành (ví dụ: ["AI", "React", "Rust", "Kubernetes", "Security"]).
-7. "hotScore": Điểm nóng số nguyên từ 75 đến 99.
-8. "readTimeMinutes": Số phút đọc ước tính từ 3 đến 8.
+QUY TẮC ĐÁNH GIÁ CHUYÊN NGÀNH IT (NGHIÊM NGẶT):
+1. Đánh giá xem bài viết này có liên quan trực tiếp đến Công nghệ thông tin, Lập trình, Phần mềm, AI, Cloud/DevOps, An ninh mạng, Bán dẫn, Thiết bị di động/Web hay không.
+   - Nếu KHÔNG liên quan (ví dụ: làm kệ gỗ, đồ gia dụng, thời trang, bóp da, túi xách, tủ lạnh cá nhân, showbiz, bất động sản...), hãy trả về duy nhất: {"isITRelated": false}.
 
-Định dạng JSON trả về:
+2. Nếu CÓ liên quan IT ("isITRelated": true), hoàn thành các trường sau:
+   - "title_vi": Tiêu đề dịch hoặc viết lại thuần Tiếng Việt 100% tự nhiên, chuẩn xác thuật ngữ IT. TUYỆT ĐỐI KHÔNG để nguyên tiếng Anh nếu nguồn tin là quốc tế.
+   - "title_en": Tiêu đề thuần Tiếng Anh 100% tự nhiên, rõ ràng.
+   - "summary_vi": Mảng đúng 3 chuỗi tiếng Việt CHI TIẾT VÀ BÁM SÁT SỰ THẬT BÀI VIẾT (mỗi ý 25-45 từ):
+     * Ý 1: Bối cảnh, bản chất công nghệ hoặc sự kiện cốt lõi thực sự được nhắc đến trong bài.
+     * Ý 2: Chi tiết kỹ thuật, giải pháp kiến trúc, số liệu hoặc cơ chế hoạt động thực tế trong bài.
+     * Ý 3: Giá trị thực tiễn, tác động tới ngành IT/lập trình viên hoặc bài học ứng dụng.
+     * TUYỆT ĐỐI KHÔNG dùng các câu mẫu chung chung rập khuôn như "Điểm nhấn công nghệ đặc biệt bao gồm kiến trúc giải pháp tối ưu..." hay "Phân tích bối cảnh và sự kiện công nghệ nổi bật...".
+   - "summary_en": Mảng đúng 3 chuỗi tiếng Anh tương ứng với độ chi tiết kỹ thuật tương đương.
+   - "category": Phải chọn CHÍNH XÁC 1 trong 6 danh mục: "AI & Machine Learning", "Software Engineering", "DevOps & Cloud", "Cybersecurity", "Mobile & Web", "Tech Trends & Startups".
+   - "tags": 3-5 tags ngắn gọn chuẩn ngành (ví dụ: ["AI", "React", "Rust", "Kubernetes", "Security"]).
+   - "hotScore": Điểm nóng số nguyên từ 75 đến 99.
+   - "readTimeMinutes": Số phút đọc ước tính từ 3 đến 8.
+
+Định dạng JSON trả về nếu là tin IT:
 {
+  "isITRelated": true,
   "title_vi": "string",
   "title_en": "string",
   "summary_vi": ["string", "string", "string"],
@@ -239,20 +315,25 @@ Yêu cầu nghiêm ngặt về chất lượng tóm tắt:
 }
 `;
 
-    const result = await model.generateContent(prompt);
-    const text = result.response.text().trim();
+    const text = await callGeminiWithFallback(genAI, prompt);
     const cleanedText = text.replace(/^```json\s*/, '').replace(/\s*```$/, '');
     const parsed = JSON.parse(cleanedText);
 
-    // Validate category
+    if (parsed.isITRelated === false) {
+      console.log(`[Gemini Filter] Gemini classified article "${title}" as non-IT.`);
+      return { isITRelated: false };
+    }
+
+    parsed.isITRelated = true;
     if (!parsed.category) {
-      parsed.category = classifyCategory(title, contentSnippet) ?? defaultCategory;
+      parsed.category = classifyCategory(title, fullText) ?? defaultCategory;
     }
 
     return parsed;
   } catch (error: any) {
     console.warn(`[Gemini API Warning] Failed to summarize article "${title}". Using intelligent IT fallback.`);
-    return generateFallbackSummary(title, contentSnippet, origin, defaultCategory);
+    const fallback = generateFallbackSummary(title, fullText, origin, defaultCategory);
+    return { isITRelated: true, ...fallback };
   }
 }
 
@@ -279,8 +360,10 @@ async function fetchDevToArticles(existingIds: Set<string>, apiKey?: string): Pr
         rawContent,
         'global',
         'Software Engineering',
-        apiKey
+        apiKey,
+        item.url
       );
+      if (summaryData.isITRelated === false) continue;
 
       const candidate: NewsItem = {
         id,
@@ -343,8 +426,10 @@ async function fetchHackerNewsArticles(existingIds: Set<string>, apiKey?: string
         rawContent,
         'global',
         'Software Engineering',
-        apiKey
+        apiKey,
+        item.url
       );
+      if (summaryData.isITRelated === false) continue;
 
       const candidate: NewsItem = {
         id,
@@ -386,7 +471,9 @@ export async function runCrawlerPipeline() {
   if (!apiKey) {
     console.log('[News Pipeline] GEMINI_API_KEY is not set. Using intelligent IT translation & classification fallback.');
   } else {
-    console.log('[News Pipeline] GEMINI_API_KEY detected. Using Gemini 1.5 Pro AI summarization.');
+    console.log(
+      '[News Pipeline] GEMINI_API_KEY detected. Using multi-model fallback chain (Gemini 2.5 Flash -> 2.0 Flash -> 1.5 Flash).'
+    );
   }
 
   // Load existing database via Universal DB Layer
@@ -425,8 +512,10 @@ export async function runCrawlerPipeline() {
           rawContent,
           feed.origin,
           feed.defaultCategory,
-          apiKey
+          apiKey,
+          item.link.trim()
         );
+        if (summaryData.isITRelated === false) continue;
 
         const candidate: NewsItem = {
           id,

@@ -768,6 +768,71 @@ export function translateTitleToVietnamese(titleEn: string): string {
   return clean;
 }
 
+export interface ITRelevanceResult {
+  isIT: boolean;
+  score: number;
+  reason: string;
+}
+
+export function evaluateITRelevance(title: string, content: string = ''): ITRelevanceResult {
+  const cleanTitle = decodeHtml(title).toLowerCase();
+  const cleanContent = decodeHtml(content).toLowerCase();
+  const combined = `${cleanTitle} ${cleanContent}`;
+
+  // 1. Check curated article match first
+  if (getCuratedArticle(title, content)) {
+    return { isIT: true, score: 100, reason: 'Curated IT article match' };
+  }
+
+  // 2. Score positive IT terms
+  const IT_TERMS = [
+    'ai', 'llm', 'gpt', 'chatgpt', 'openai', 'gemini', 'claude', 'deepseek', 'machine learning', 'trí tuệ nhân tạo',
+    'deep learning', 'neural', 'agent', 'agents', 'transformer', 'npu', 'gpu', 'cpu', 'chip', 'bán dẫn', 'semiconductor',
+    'software', 'kỹ thuật phần mềm', 'lập trình', 'code', 'coding', 'developer', 'kỹ sư', 'api', 'backend', 'frontend',
+    'database', 'sql', 'git', 'github', 'open source', 'mã nguồn mở', 'microservices', 'rust', 'python', 'golang', 'go',
+    'javascript', 'typescript', 'react', 'next.js', 'node', 'flutter', 'ios', 'android', 'app', 'browser', 'cloud', 'aws',
+    'azure', 'gcp', 'kubernetes', 'k8s', 'docker', 'devops', 'ci/cd', 'linux', 'cybersecurity', 'bảo mật', 'an ninh mạng',
+    'lỗ hổng', 'malware', 'ransomware', 'hacker', 'mật mã', 'encryption', 'zero trust', 'privacy', 'vneid', 'chuyển đổi số',
+    '5g', 'telecom', 'viễn thông', 'smartphone', 'snapdragon', 'apple silicon'
+  ];
+
+  let score = 0;
+  for (const term of IT_TERMS) {
+    if (combined.includes(term)) {
+      score += cleanTitle.includes(term) ? 3 : 1;
+    }
+  }
+
+  // 3. Check strict non-IT blacklisted phrases
+  const REJECT_KEYWORDS = [
+    'kệ gỗ', 'ván dư', 'gỗ vụn', 'làm kệ', 'đồ gỗ', 'nội thất', 'tủ quần áo',
+    'túi phụ kiện sen', 'túi da', 'khắc tên', 'ví da', 'thời trang', 'giày dép', 'mỹ phẩm', 'nước hoa',
+    'tủ lạnh cho người', 'chống sốc nhiệt', 'nồi chiên', 'máy sấy tóc', 'bàn chải điện', 'bếp từ',
+    'dàn âm thanh', 'mẫu loa autobiography', 'đĩa than',
+    'xổ số', 'bất động sản', 'phong thủy', 'nấu ăn', 'công thức món', 'showbiz', 'hoa hậu', 'giải trí vpop'
+  ];
+
+  for (const kw of REJECT_KEYWORDS) {
+    const matchedInTitle = cleanTitle.includes(kw);
+    const matchedInContent = cleanContent.includes(kw);
+
+    if (matchedInTitle || (matchedInContent && score < 2)) {
+      return {
+        isIT: false,
+        score: -100,
+        reason: `Matched non-IT blacklist keyword: "${kw}"`,
+      };
+    }
+  }
+
+  const isIT = score >= 1;
+  return {
+    isIT,
+    score,
+    reason: isIT ? `Matched IT terms (score: ${score})` : `Insufficient IT relevance (score: ${score})`,
+  };
+}
+
 export function generateTechnicalTakeaways(
   title: string,
   snippet: string,
@@ -780,19 +845,36 @@ export function generateTechnicalTakeaways(
   }
 
   const cleanSnippet = decodeHtml(snippet || '').replace(/<[^>]+>/g, '').trim();
-  const firstSentence = cleanSnippet.split(/[.\n]/)[0] || title;
+  const sentences = cleanSnippet
+    .split(/(?<=[.!?])\s+/)
+    .filter((s) => s.trim().length > 15 && !s.includes('[ATTACH]'));
+
+  const topicName = decodeHtml(title).replace(/^\[(Quốc tế|Global|VN Tech)\]\s*/i, '').trim();
 
   if (lang === 'vi') {
-    return [
-      `Phân tích bối cảnh và sự kiện công nghệ nổi bật: ${firstSentence.slice(0, 120)}.`,
-      `Điểm nhấn công nghệ đặc biệt bao gồm kiến trúc giải pháp tối ưu, tính năng nâng cao và thông số kỹ thuật cốt lõi.`,
-      `Đánh giá kết quả ứng dụng thực tiễn, kinh nghiệm triển khai và tác động trực tiếp tới cộng đồng kỹ sư ngành IT.`
-    ];
+    const point1 = sentences[0]
+      ? sentences[0]
+      : `Bài viết cập nhật các thông tin mới nhất liên quan đến chủ đề ${topicName}.`;
+    const point2 = sentences[1]
+      ? sentences[1]
+      : `Trình bày chi tiết bối cảnh, các khía cạnh kỹ thuật và số liệu quan trọng liên quan đến danh mục ${category}.`;
+    const point3 = sentences[2]
+      ? sentences[2]
+      : `Phân tích tác động thực tế và giá trị ứng dụng đối với cộng đồng phát triển phần mềm và kỹ sư công nghệ.`;
+
+    return [point1, point2, point3];
   } else {
-    return [
-      `Contextual breakdown of key technical developments: ${firstSentence.slice(0, 120)}.`,
-      `Core technological innovations highlighting architectural design, advanced capabilities, and key benchmarks.`,
-      `Practical deployment takeaways and actionable outcomes impacting the software engineering industry.`
-    ];
+    const point1 = sentences[0]
+      ? sentences[0]
+      : `Latest technical breakdown and key developments regarding ${topicName}.`;
+    const point2 = sentences[1]
+      ? sentences[1]
+      : `Examines core technical context, architectural impacts, and data within ${category}.`;
+    const point3 = sentences[2]
+      ? sentences[2]
+      : `Highlights practical implications and actionable deployment insights for software engineers.`;
+
+    return [point1, point2, point3];
   }
 }
+

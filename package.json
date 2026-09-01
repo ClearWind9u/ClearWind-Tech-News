@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "fetch-news": "tsx scripts/fetch_news.ts"
+    "fetch-news": "tsx scripts/fetch_news.ts",
+    "clean-db": "tsx scripts/clean_news_db.ts"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.0",
