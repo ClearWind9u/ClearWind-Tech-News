@@ -101,6 +101,91 @@ export interface ArticleCuration {
 
 export const CURATED_ARTICLES: ArticleCuration[] = [
   {
+    match: /John Ternus.*Apple.*CEO/i,
+    category: 'Tech Trends & Startups',
+    title_vi: 'John Ternus chính thức tiếp quản vị trí Tổng giám đốc điều hành (CEO) của Apple',
+    title_en: 'John Ternus Formally Takes Over as Apple’s New Chief Executive Officer (CEO)',
+    summary_vi: [
+      'Apple chính thức công bố chuyển giao quyền lực lịch sử khi cựu Giám đốc Kỹ thuật Phần cứng John Ternus kế nhiệm Tim Cook làm CEO.',
+      'Đánh dấu sự chuyển dịch trọng tâm chiến lược sang năng lực nghiên cứu phần cứng đột phá, chip Apple Silicon và nền tảng Apple Intelligence.',
+      'Mở ra kỷ nguyên phát triển mới cho hệ sinh thái công nghệ toàn cầu của Apple với sự dẫn dắt của một nhà lãnh đạo thuần kỹ thuật công nghệ.'
+    ],
+    summary_en: [
+      'Apple officially announces an executive leadership succession as former Senior VP of Hardware Engineering John Ternus succeeds Tim Cook as CEO.',
+      'Signals a renewed strategic focus on deep hardware innovation, next-generation Apple Silicon architectures, and on-device Apple Intelligence.',
+      'Commences a defining technological chapter for the global Apple ecosystem under the leadership of a seasoned engineering executive.'
+    ],
+    tags: ['Apple', 'JohnTernus', 'TimCook', 'TechLeadership', 'Hardware']
+  },
+  {
+    match: /DLSS 5/i,
+    category: 'AI & Machine Learning',
+    title_vi: 'Nvidia chính thức ra mắt công nghệ DLSS 5: Tái tạo khung hình bằng AI thời gian thực cho card đồ họa RTX',
+    title_en: 'Nvidia Officially Launches DLSS 5: Real-Time Generative AI Frame Reconstruction for RTX GPUs',
+    summary_vi: [
+      'Nvidia chính thức phát hành công nghệ siêu nâng cấp hình ảnh DLSS 5 ứng dụng mạng nơ-ron Generative AI tái tạo đồ họa trong game.',
+      'Tận dụng sức mạnh của các lõi Tensor Cores thế hệ mới trên kiến trúc GPU RTX để dự đoán chuyển động và tăng tốc độ khung hình (FPS) gấp 4 lần.',
+      'Thiết lập chuẩn mực mới cho ngành phát triển game AAA và chứng minh sức mạnh của mô hình AI thị giác tính toán trong xử lý thời gian thực.'
+    ],
+    summary_en: [
+      'Nvidia formally rolls out DLSS 5, integrating generative neural rendering to reconstruct photorealistic game scenes in real time.',
+      'Harnesses next-generation Tensor Core pipelines on RTX GPU architectures to predict sub-pixel motion vectors and quadruple frame rates.',
+      'Establishes a new benchmark for AAA game engineering and underscores the dominance of computer vision AI in real-time graphics rendering.'
+    ],
+    tags: ['Nvidia', 'DLSS5', 'AI', 'Gaming', 'GPU']
+  },
+  {
+    match: /Flock cams.*state highways/i,
+    category: 'Cybersecurity',
+    title_vi: 'Bang Florida ban hành lệnh cấm camera giám sát biển số tự động Flock trên các tuyến quốc lộ',
+    title_en: 'Florida Bans Automated Flock License Plate Reader Surveillance Cameras Across State Highways',
+    summary_vi: [
+      'Sở Giao thông Vận tải bang Florida chính thức thu hồi giấy phép và cấm lắp đặt camera nhận diện biển số tự động Flock trên đường cao tốc.',
+      'Phân tích rủi ro an ninh mạng khi dữ liệu di chuyển của công dân bị thu thập tập trung, chia sẻ chéo và tiềm ẩn nguy cơ rò rỉ dữ liệu riêng tư.',
+      'Bài học quan trọng về ranh giới giữa giám sát trật tự công cộng và bảo vệ quyền riêng tư số của công dân trong hạ tầng đô thị thông minh.'
+    ],
+    summary_en: [
+      'The Florida Department of Transportation revokes permits and bans automated Flock license plate recognition cameras across state highways.',
+      'Cites critical cybersecurity and civil privacy risks stemming from centralized vehicle movement tracking and unauthorized database sharing.',
+      'Highlights the growing legal and technical friction between municipal public surveillance systems and consumer privacy protections.'
+    ],
+    tags: ['Privacy', 'Cybersecurity', 'Surveillance', 'SmartCity']
+  },
+  {
+    match: /busy month of smartphones|Poco F9/i,
+    category: 'Mobile & Web',
+    title_vi: 'Thị trường smartphone sôi động tháng 9: Hàng loạt flagship đổ bộ trước thềm IFA và sự kiện Apple',
+    title_en: 'September Smartphone Rush: Next-Gen Flagships Launch Ahead of IFA Berlin and Apple Keynotes',
+    summary_vi: [
+      'Thị trường thiết bị di động toàn cầu bước vào tháng cao điểm với sự ra mắt liên tiếp của các mẫu smartphone từ Poco, Xiaomi, Apple và Oppo.',
+      'Cuộc đua trang bị vi xử lý tiến trình 3nm, cụm cảm biến camera 1 inch và khả năng tích hợp mô hình AI chạy trực tiếp trên thiết bị (On-Device AI).',
+      'Định hình xu hướng tiêu dùng công nghệ cuối năm và thúc đẩy các nhà phát triển ứng dụng tối ưu hóa trải nghiệm trên các phần cứng mới.'
+    ],
+    summary_en: [
+      'The global mobile ecosystem kicks off its most intensive launch window with flagship releases from Poco, Xiaomi, Apple, and Oppo.',
+      'Intensifies the race around 3nm silicon nodes, 1-inch camera sensors, and native on-device Generative AI edge execution capabilities.',
+      'Shapes consumer hardware trends for the year while prompting mobile app developers to optimize for high-refresh and NPU-accelerated hardware.'
+    ],
+    tags: ['Smartphones', 'Mobile', 'Apple', 'Xiaomi', 'Hardware']
+  },
+  {
+    match: /Snapdragon 8 Elite.*8\.050mAh|Xiaomi lại có flagship/i,
+    category: 'Mobile & Web',
+    title_vi: 'Xiaomi ra mắt flagship POCO trang bị chip Snapdragon 8 Elite, pin khủng 8.050mAh và loa Bose cao cấp',
+    title_en: 'Xiaomi Unveils POCO Flagship Powered by Snapdragon 8 Elite, 8,050mAh Battery, and Bose Audio',
+    summary_vi: [
+      'Thương hiệu POCO của Xiaomi chính thức mở bán dòng flagship Ultra trang bị chip xử lý hàng đầu Snapdragon 8 Elite tại Việt Nam.',
+      'Đột phá với viên pin dung lượng khổng lồ 8.050mAh công nghệ Silicon-Carbon, sạc siêu nhanh 120W và hệ thống loa tinh chỉnh bởi Bose.',
+      'Thiết lập kỷ lục mới về thời lượng pin trên phân khúc smartphone hiệu năng cao, tối ưu cho các kỹ sư lập trình di động và game thủ chuyên nghiệp.'
+    ],
+    summary_en: [
+      'Xiaomi’s POCO brand formally debuts its top-tier Ultra flagship in Vietnam, powered by Qualcomm’s flagship Snapdragon 8 Elite processor.',
+      'Features a massive 8,050mAh silicon-carbon anode battery, 120W hyper-charging, and an acoustic soundstage co-engineered with Bose.',
+      'Sets a new battery endurance record in the high-performance tier, catering to mobile power users, mobile developers, and pro gamers.'
+    ],
+    tags: ['Xiaomi', 'POCO', 'Snapdragon', 'Mobile', 'BatteryTech']
+  },
+  {
     match: /esim.*ngon.*ngại dùng/i,
     category: 'Mobile & Web',
     title_vi: 'Công nghệ eSIM tại Việt Nam: Tiềm năng phát triển và lý do người dùng còn e ngại chuyển đổi',
