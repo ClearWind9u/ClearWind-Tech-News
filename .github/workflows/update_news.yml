@@ -33,22 +33,28 @@ jobs:
       - name: Install Dependencies
         run: npm ci || npm install
 
-      - name: Fetch RSS Feeds & Summarize with Gemini Pro
+      - name: Fetch RSS Feeds, Auto-Translate & Save to Database
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          UPSTASH_REDIS_REST_URL: ${{ secrets.UPSTASH_REDIS_REST_URL }}
+          UPSTASH_REDIS_REST_TOKEN: ${{ secrets.UPSTASH_REDIS_REST_TOKEN }}
+          KV_REST_API_URL: ${{ secrets.KV_REST_API_URL }}
+          KV_REST_API_TOKEN: ${{ secrets.KV_REST_API_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run fetch-news
 
-      - name: Commit and Push Changes if News Updated
+      - name: Backup & Commit Changes (Only when using local JSON fallback)
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/news.json
           if git diff --staged --quiet; then
-            echo "No new news articles found. Database is up to date."
+            echo "Database is synchronized. No repository changes needed."
           else
-            echo "New articles found. Rebasing and pushing to main..."
+            echo "Local database updated. Rebasing and committing..."
             git commit -m "🤖 auto(news): update tech news digest [skip ci]"
             git pull --rebase origin main
             git push origin main
-            echo "Successfully pushed latest news to main!"
+            echo "Successfully updated news repository!"
           fi
