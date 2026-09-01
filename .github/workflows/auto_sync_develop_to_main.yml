@@ -1,0 +1,37 @@
+name: Auto Sync develop to main (Production Auto-Deploy)
+
+on:
+  push:
+    branches:
+      - develop
+  workflow_dispatch:
+
+concurrency:
+  group: sync-develop-main
+  cancel-in-progress: true
+
+jobs:
+  sync-to-main:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Git Credentials
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Sync develop branch to main
+        run: |
+          git fetch origin main
+          git checkout main
+          git reset --hard origin/develop
+          git push --force origin main
+          echo "Successfully synced develop branch to main for automatic Vercel Production deployment!"
