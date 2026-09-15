@@ -1,7 +1,14 @@
 import fs from 'fs';
 import path from 'path';
 import { NewsDatabase, NewsDatabaseSchema } from '../types/news';
-import { evaluateITRelevance, generateTechnicalTakeaways, classifyCategory, getCuratedArticle } from './it_translator';
+import {
+  evaluateITRelevance,
+  generateTechnicalTakeaways,
+  generateTechnicalTakeawaysAsync,
+  translateTitleToVietnameseAsync,
+  classifyCategory,
+  getCuratedArticle,
+} from './it_translator';
 
 const DATA_FILE = path.join(__dirname, '..', 'data', 'news.json');
 
@@ -11,7 +18,16 @@ const GENERIC_TEMPLATE_PHRASES = [
   'Contextual breakdown of key technical developments:',
   'Core technological innovations highlighting architectural design, advanced capabilities, and key benchmarks.',
   'Practical deployment takeaways and actionable outcomes impacting the software engineering industry.',
+  'Trình bày chi tiết bối cảnh, các khía cạnh kỹ thuật',
+  'Phân tích tác động thực tế và giá trị ứng dụng đối với cộng đồng phát triển',
+  'Bài viết cập nhật các thông tin mới nhất liên quan đến chủ đề',
+  'Sign inAppearance settings',
+  'AI CODE CREATION',
+  'GitHub Copilot',
 ];
+
+const hasVietnameseDiacritics = (str?: string) =>
+  Boolean(str && /[àáảãạâầấẩẫậăằắẳẵặèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ]/i.test(str));
 
 export async function cleanNewsDatabase() {
   console.log('[Clean DB] Reading data/news.json...');
@@ -43,13 +59,20 @@ export async function cleanNewsDatabase() {
       continue;
     }
 
-    // 2. Check for legacy generic template summaries
+    // 2. Check for navigation junk or boilerplate template in summary
     const hasGenericTemplate = article.summary_vi.some((line) =>
       GENERIC_TEMPLATE_PHRASES.some((phrase) => line.includes(phrase))
     );
 
-    if (hasGenericTemplate) {
-      console.log(`[Clean DB] 🧹 Cleaning generic template summary for IT Article: "${article.title_vi}"`);
+    const isEnglishOnlyTitle =
+      article.sourceOrigin === 'global' && !hasVietnameseDiacritics(article.title_vi);
+
+    const isEnglishOnlySummary =
+      article.sourceOrigin === 'global' &&
+      article.summary_vi.some((line) => !hasVietnameseDiacritics(line));
+
+    if (hasGenericTemplate || isEnglishOnlyTitle || isEnglishOnlySummary) {
+      console.log(`[Clean DB] 🧹 Translating & cleaning article: "${article.title_vi}"`);
       const curated = getCuratedArticle(title, content);
       if (curated) {
         article.title_vi = curated.title_vi;
@@ -61,8 +84,11 @@ export async function cleanNewsDatabase() {
       } else {
         const cat = classifyCategory(title, content);
         article.category = cat;
-        article.summary_vi = generateTechnicalTakeaways(article.title_vi, content, cat, 'vi');
-        article.summary_en = generateTechnicalTakeaways(article.title_en, content, cat, 'en');
+        if (isEnglishOnlyTitle) {
+          article.title_vi = await translateTitleToVietnameseAsync(article.originalTitle || article.title_vi);
+        }
+        article.summary_vi = await generateTechnicalTakeawaysAsync(article.title_vi, content, cat, 'vi');
+        article.summary_en = await generateTechnicalTakeawaysAsync(article.title_en, content, cat, 'en');
       }
       updatedCount++;
     }

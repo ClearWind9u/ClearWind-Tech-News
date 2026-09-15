@@ -8,7 +8,9 @@ import { getNewsDatabase, saveNewsDatabase } from '../lib/db';
 import {
   classifyCategory,
   translateTitleToVietnamese,
+  translateTitleToVietnameseAsync,
   generateTechnicalTakeaways,
+  generateTechnicalTakeawaysAsync,
   decodeHtml,
   evaluateITRelevance,
   CanonicalCategory,
@@ -133,7 +135,7 @@ function extractSafeThumbnail(item: any): string | undefined {
 }
 
 // Enhanced Fallback summary & translation generator with domain classification
-function generateFallbackSummary(
+async function generateFallbackSummary(
   title: string,
   snippet: string,
   origin: 'vietnam' | 'global',
@@ -153,13 +155,13 @@ function generateFallbackSummary(
     vietnameseTitle = cleanTitle;
     englishTitle = cleanTitle;
   } else {
-    vietnameseTitle = translateTitleToVietnamese(cleanTitle);
+    vietnameseTitle = await translateTitleToVietnameseAsync(cleanTitle);
     englishTitle = cleanTitle;
   }
 
   // 3. Domain-specific 3-point technical takeaways
-  const summaryVi = generateTechnicalTakeaways(vietnameseTitle, snippet, category, 'vi');
-  const summaryEn = generateTechnicalTakeaways(englishTitle, snippet, category, 'en');
+  const summaryVi = await generateTechnicalTakeawaysAsync(vietnameseTitle, snippet, category, 'vi');
+  const summaryEn = await generateTechnicalTakeawaysAsync(englishTitle, snippet, category, 'en');
 
   // 4. Tags extraction
   const categoryTag = category.split(' ')[0].replace(/[^a-zA-Z0-9]/g, '');
@@ -181,6 +183,19 @@ function generateFallbackSummary(
 
 async function fetchFullArticleText(url: string): Promise<string> {
   try {
+    const urlLower = url.toLowerCase();
+    // Skip repositories, social platforms, and media sites where generic paragraph scraping grabs UI navigation menus
+    if (
+      urlLower.includes('github.com') ||
+      urlLower.includes('twitter.com') ||
+      urlLower.includes('x.com') ||
+      urlLower.includes('reddit.com') ||
+      urlLower.includes('youtube.com') ||
+      urlLower.endsWith('.pdf')
+    ) {
+      return '';
+    }
+
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 3500);
 
@@ -195,34 +210,98 @@ async function fetchFullArticleText(url: string): Promise<string> {
     clearTimeout(timeoutId);
 
     if (!response.ok) return '';
-    const html = await response.text();
+    let html = await response.text();
 
-    const pMatches = html.match(/<p[^>]*>([\s\S]*?)<\/p>/gi) ?? [];
+    // 1. Strip structural chrome and non-content elements
+    html = html.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+    html = html.replace(/<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>/gi, '');
+    html = html.replace(/<header\b[^<]*(?:(?!<\/header>)<[^<]*)*<\/header>/gi, '');
+    html = html.replace(/<nav\b[^<]*(?:(?!<\/nav>)<[^<]*)*<\/nav>/gi, '');
+    html = html.replace(/<footer\b[^<]*(?:(?!<\/footer>)<[^<]*)*<\/footer>/gi, '');
+    html = html.replace(/<aside\b[^<]*(?:(?!<\/aside>)<[^<]*)*<\/aside>/gi, '');
+    html = html.replace(/<form\b[^<]*(?:(?!<\/form>)<[^<]*)*<\/form>/gi, '');
+
+    // 2. Targeted content container extraction for known news portals
+    let searchArea = html;
+    const containerMatch = html.match(
+      /<(?:article|div)[^>]*(?:class|id)=["'][^"']*(?:fck_detail|detail-content|knc-content|bbWrapper|article-content|entry-content|post-content|maincontent|story-body)[^"']*["'][^>]*>([\s\S]*?)<\/(?:article|div)>/i
+    );
+    if (containerMatch?.[1]) {
+      searchArea = containerMatch[1];
+    }
+
+    const pMatches = searchArea.match(/<p[^>]*>([\s\S]*?)<\/p>/gi) ?? [];
     const extractedParagraphs: string[] = [];
+
+    const JUNK_TERMS = [
+      'sign in',
+      'sign up',
+      'appearance settings',
+      'skip to content',
+      'cookie policy',
+      'privacy policy',
+      'terms of service',
+      'all rights reserved',
+      'subscribe to',
+      'toggle navigation',
+      'create an account',
+      'ai code creation',
+      'github copilot',
+      'mcp registry',
+      'write better code',
+      'podcast',
+      'cần biết',
+      'quảng cáo',
+      'xin chào',
+      'đăng nhập',
+      'đăng xuất',
+      'cài đặt tài khoản',
+      'tuổi trẻ sao',
+      'báo điện tử tuổi trẻ',
+      'tổng biên tập',
+      'tòa soạn',
+      'hotline',
+      'liên hệ',
+      'bản quyền thuộc về',
+      'tin liên quan',
+    ];
 
     for (const match of pMatches) {
       const cleanP = cleanHtml(match);
-      if (cleanP.length > 30 && !cleanP.toLowerCase().includes('cookie') && !cleanP.toLowerCase().includes('privacy policy')) {
-        extractedParagraphs.push(cleanP);
+      if (cleanP.length > 35) {
+        const lower = cleanP.toLowerCase();
+        const isJunk = JUNK_TERMS.some((term) => lower.includes(term));
+        if (!isJunk) {
+          extractedParagraphs.push(cleanP);
+        }
       }
       if (extractedParagraphs.join(' ').length > 1500) break;
     }
 
-    return extractedParagraphs.join(' ').substring(0, 1500);
-  } catch (error) {
+    const result = extractedParagraphs.join(' ').substring(0, 1500);
+    const resultLower = result.toLowerCase();
+    if (
+      resultLower.includes('appearance settings') ||
+      resultLower.includes('quảng cáo') ||
+      resultLower.includes('xin chào') ||
+      resultLower.includes('tuổi trẻ sao')
+    ) {
+      return '';
+    }
+    return result;
+  } catch {
     return '';
   }
 }
 
+// Resilient production models with high quota and zero 503 capacity issues
 const GEMINI_MODELS = [
-  'gemini-3.5-flash-lite',
-  'gemini-3.1-flash-lite',
-  'gemini-3-flash',
+  'gemini-2.5-flash',
   'gemini-2.5-flash-lite',
-  'gemini-3.7-flash',
-  'gemini-3.6-flash',
-  'gemini-3.8-flash',
-  'gemini-3.5-flash',
+  'gemini-2.0-flash',
+  'gemini-2.0-flash-lite',
+  'gemini-1.5-flash',
+  'gemini-1.5-flash-8b',
 ];
 
 async function callGeminiWithFallback(genAI: GoogleGenerativeAI, prompt: string): Promise<string> {
@@ -236,7 +315,14 @@ async function callGeminiWithFallback(genAI: GoogleGenerativeAI, prompt: string)
           temperature: 0.2,
         },
       });
-      const result = await model.generateContent(prompt);
+
+      // Strict 7-second timeout to prevent TCP hang / wsarecv drops
+      const generatePromise = model.generateContent(prompt);
+      const timeoutPromise = new Promise<never>((_, reject) =>
+        setTimeout(() => reject(new Error('Timeout (7s) exceeded')), 7000)
+      );
+
+      const result = await Promise.race([generatePromise, timeoutPromise]);
       const text = result.response.text().trim();
       if (text) return text;
     } catch (err: any) {
@@ -258,7 +344,7 @@ async function summarizeWithGemini(
   let fullText = contentSnippet;
   if (url && contentSnippet.length < 150) {
     const scrapedText = await fetchFullArticleText(url);
-    if (scrapedText.length > contentSnippet.length) {
+    if (scrapedText && scrapedText.length >= 120) {
       fullText = scrapedText;
     }
   }
@@ -271,7 +357,7 @@ async function summarizeWithGemini(
   }
 
   if (!apiKey) {
-    const fallback = generateFallbackSummary(title, fullText, origin, defaultCategory);
+    const fallback = await generateFallbackSummary(title, fullText, origin, defaultCategory);
     return { isITRelated: true, ...fallback };
   }
 
@@ -335,7 +421,7 @@ QUY TẮC ĐÁNH GIÁ CHUYÊN NGÀNH IT (NGHIÊM NGẶT):
     return parsed;
   } catch (error: any) {
     console.warn(`[Gemini API Warning] Article "${title}" failed: ${error?.message ?? error}. Using intelligent IT fallback.`);
-    const fallback = generateFallbackSummary(title, fullText, origin, defaultCategory);
+    const fallback = await generateFallbackSummary(title, fullText, origin, defaultCategory);
     return { isITRelated: true, ...fallback };
   }
 }

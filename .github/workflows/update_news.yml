@@ -16,6 +16,7 @@ permissions:
 jobs:
   fetch-and-update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Checkout Repository

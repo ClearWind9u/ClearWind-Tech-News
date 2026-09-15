@@ -16,15 +16,67 @@ export const CANONICAL_CATEGORIES = [
 
 export type CanonicalCategory = (typeof CANONICAL_CATEGORIES)[number];
 
+const HTML_ENTITIES: Record<string, string> = {
+  '&quot;': '"',
+  '&apos;': "'",
+  '&amp;': '&',
+  '&lt;': '<',
+  '&gt;': '>',
+  '&nbsp;': ' ',
+  '&copy;': '©',
+  '&reg;': '®',
+  '&trade;': '™',
+  '&aacute;': 'á',
+  '&agrave;': 'à',
+  '&atilde;': 'ã',
+  '&acirc;': 'â',
+  '&eacute;': 'é',
+  '&egrave;': 'è',
+  '&ecirc;': 'ê',
+  '&iacute;': 'í',
+  '&igrave;': 'ì',
+  '&oacute;': 'ó',
+  '&ograve;': 'ò',
+  '&otilde;': 'õ',
+  '&ocirc;': 'ô',
+  '&uacute;': 'ú',
+  '&ugrave;': 'ù',
+  '&yacute;': 'ý',
+  '&#8216;': "'",
+  '&#8217;': "'",
+  '&#8220;': '"',
+  '&#8221;': '"',
+  '&#038;': '&',
+};
+
 export function decodeHtml(str: string): string {
-  return str
-    .replace(/&#8216;|&#8217;|&apos;/g, "'")
-    .replace(/&#8220;|&#8221;|&quot;/g, '"')
-    .replace(/&#038;|&amp;/g, '&')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .trim();
+  if (!str || typeof str !== 'string') return '';
+  let result = str;
+
+  // 1. Decode Decimal Unicode Entities (e.g. &#7883; -> ị, &#273; -> đ)
+  result = result.replace(/&#(\d+);/g, (_, dec) => {
+    try {
+      return String.fromCharCode(parseInt(dec, 10));
+    } catch {
+      return _;
+    }
+  });
+
+  // 2. Decode Hex Unicode Entities
+  result = result.replace(/&#x([0-9a-f]+);/gi, (_, hex) => {
+    try {
+      return String.fromCodePoint(parseInt(hex, 16));
+    } catch {
+      return _;
+    }
+  });
+
+  // 3. Decode named HTML entities
+  for (const [entity, char] of Object.entries(HTML_ENTITIES)) {
+    result = result.replaceAll(entity, char);
+  }
+
+  return result.replace(/\s+/g, ' ').trim();
 }
 
 // Canonical Category Keywords Map
@@ -793,7 +845,8 @@ export function evaluateITRelevance(title: string, content: string = ''): ITRele
     'javascript', 'typescript', 'react', 'next.js', 'node', 'flutter', 'ios', 'android', 'app', 'browser', 'cloud', 'aws',
     'azure', 'gcp', 'kubernetes', 'k8s', 'docker', 'devops', 'ci/cd', 'linux', 'cybersecurity', 'bảo mật', 'an ninh mạng',
     'lỗ hổng', 'malware', 'ransomware', 'hacker', 'mật mã', 'encryption', 'zero trust', 'privacy', 'vneid', 'chuyển đổi số',
-    '5g', 'telecom', 'viễn thông', 'smartphone', 'snapdragon', 'apple silicon'
+    '5g', 'telecom', 'viễn thông', 'smartphone', 'snapdragon', 'apple silicon', 'swift', 'kotlin', 'c++', 'c#', 'java',
+    'php', 'ruby', 'cache', 'spa', 'kernel', 'io_uring', 'firmware', 'hackathon', 'architecture', 'concurrency'
   ];
 
   let score = 0;
@@ -806,7 +859,7 @@ export function evaluateITRelevance(title: string, content: string = ''): ITRele
   // 3. Check strict non-IT blacklisted phrases
   const REJECT_KEYWORDS = [
     'kệ gỗ', 'ván dư', 'gỗ vụn', 'làm kệ', 'đồ gỗ', 'nội thất', 'tủ quần áo',
-    'túi phụ kiện sen', 'túi da', 'khắc tên', 'ví da', 'thời trang', 'giày dép', 'mỹ phẩm', 'nước hoa',
+    'túi phụ kiện sen', 'túi da', 'khắc tên', 'ví da', 'thời trang', 'giày dép', 'mỹ phẩm', 'nước hoa', 'balo', 'ba lô', 'cặp sách',
     'tủ lạnh cho người', 'chống sốc nhiệt', 'nồi chiên', 'máy sấy tóc', 'bàn chải điện', 'bếp từ',
     'dàn âm thanh', 'mẫu loa autobiography', 'đĩa than',
     'xổ số', 'bất động sản', 'phong thủy', 'nấu ăn', 'công thức món', 'showbiz', 'hoa hậu', 'giải trí vpop'
@@ -833,6 +886,174 @@ export function evaluateITRelevance(title: string, content: string = ''): ITRele
   };
 }
 
+export async function translateTextFree(text: string, from: string = 'en', to: string = 'vi'): Promise<string> {
+  if (!text || typeof text !== 'string') return '';
+  const clean = text.trim();
+  if (!clean) return '';
+  try {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 3500);
+    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${from}&tl=${to}&dt=t&q=${encodeURIComponent(clean)}`;
+    const res = await fetch(url, { signal: controller.signal });
+    clearTimeout(timeoutId);
+    if (res.ok) {
+      const data = await res.json();
+      if (Array.isArray(data) && Array.isArray(data[0])) {
+        const translated = data[0].map((item: any) => item[0]).join('').trim();
+        if (translated) return translated;
+      }
+    }
+  } catch (err) {
+    // Network fallback
+  }
+  return clean;
+}
+
+export async function translateTitleToVietnameseAsync(titleEn: string): Promise<string> {
+  const clean = decodeHtml(titleEn).replace(/^\[(Quốc tế|Global|VN Tech)\]\s*/i, '').trim();
+  const curated = getCuratedArticle(clean);
+  if (curated) return curated.title_vi;
+
+  if (/[àáảãạâầấẩẫậăằắẳẵặèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ]/i.test(clean)) {
+    return clean;
+  }
+
+  const translated = await translateTextFree(clean, 'en', 'vi');
+  return translated || clean;
+}
+
+function isNavigationJunk(text: string): boolean {
+  const lower = text.toLowerCase();
+  const junkWords = [
+    'sign in', 'sign up', 'appearance settings', 'skip to content', 'terms of service',
+    'privacy policy', 'cookie', 'all rights reserved', 'navigation', 'subscribe',
+    'javascript', 'mcp registry', 'code creation', 'github copilot', 'write better code',
+    'log in', 'create an account'
+  ];
+  return junkWords.some((w) => lower.includes(w));
+}
+
+export const CATEGORY_TECH_INSIGHTS: Record<CanonicalCategory, { tech: string; impact: string }> = {
+  'AI & Machine Learning': {
+    tech: 'Tập trung vào cấu trúc mạng nơ-ron, quy trình huấn luyện mô hình ngôn ngữ lớn (LLM), cơ chế tối ưu suy luận và kiểm soát an toàn thuật toán.',
+    impact: 'Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo.',
+  },
+  'Software Engineering': {
+    tech: 'Phân tích sâu về nguyên lý thiết kế hệ thống, kiến trúc vi dịch vụ (microservices), tối ưu hóa luồng dữ liệu và tái cấu trúc mã nguồn hiệu quả.',
+    impact: 'Cung cấp bài học thực chiến giá trị cho cộng đồng lập trình viên trong việc nâng cao hiệu năng, độ tin cậy và khả năng bảo trì của phần mềm.',
+  },
+  'DevOps & Cloud': {
+    tech: 'Trọng tâm xoay quanh quy trình tự động hóa CI/CD, giải pháp điều phối container Kubernetes, tính khả dụng cao và tối ưu chi phí hạ tầng đám mây.',
+    impact: 'Rút ngắn chu kỳ release sản phẩm, tăng cường khả năng phục hồi của hệ thống trước sự cố và thiết lập quy chuẩn vận hành hiện đại.',
+  },
+  'Cybersecurity': {
+    tech: 'Phân tích các cơ chế phòng thủ chuyên sâu, phát hiện lỗ hổng zero-day, mã hóa đầu cuối và kiểm soát truy cập theo mô hình Zero Trust.',
+    impact: 'Nâng cao năng lực ứng phó sự cố số cho doanh nghiệp, bảo vệ toàn vẹn tài sản thông tin và dữ liệu nhạy cảm của người dùng.',
+  },
+  'Mobile & Web': {
+    tech: 'Đột phá về trải nghiệm giao diện người dùng (UI/UX), tối ưu hóa thời gian kết xuất (render performance) và năng lực tương thích đa nền tảng.',
+    impact: 'Thúc đẩy cộng đồng lập trình viên Mobile và Web áp dụng các tiêu chuẩn công nghệ mới nhằm tối ưu hóa trải nghiệm khách hàng.',
+  },
+  'Tech Trends & Startups': {
+    tech: 'Chiến lược đổi mới công nghệ cốt lõi, mô hình kiến tạo sản phẩm số và khả năng thương mại hóa các giải pháp kỹ thuật đột phá.',
+    impact: 'Mở ra tiềm năng ứng dụng thực tế sâu rộng, tạo động lực thúc đẩy hệ sinh thái công nghệ và chuyển đổi số toàn diện.',
+  },
+};
+
+export const CATEGORY_TECH_INSIGHTS_EN: Record<CanonicalCategory, { tech: string; impact: string }> = {
+  'AI & Machine Learning': {
+    tech: 'Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.',
+    impact: 'Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI.',
+  },
+  'Software Engineering': {
+    tech: 'Examines core system design principles, microservices architectures, data flow optimization, and clean code refactoring.',
+    impact: 'Provides valuable production lessons for developers aiming to improve performance, reliability, and code maintainability.',
+  },
+  'DevOps & Cloud': {
+    tech: 'Centers on CI/CD automation pipelines, Kubernetes container orchestration, high availability, and cloud infrastructure efficiency.',
+    impact: 'Accelerates software release lifecycles, enhances system resilience during outages, and enforces modern SRE practices.',
+  },
+  'Cybersecurity': {
+    tech: 'Analyzes in-depth defense mechanisms, zero-day vulnerability mitigation, end-to-end encryption, and Zero Trust access policies.',
+    impact: 'Elevates enterprise digital risk posture, safeguarding sensitive user data and maintaining critical infrastructure integrity.',
+  },
+  'Mobile & Web': {
+    tech: 'Highlights breakthroughs in UI/UX rendering performance, responsive cross-platform frameworks, and modern client hardware optimization.',
+    impact: 'Encourages mobile and frontend engineers to adopt next-generation standards for high-performance user experiences.',
+  },
+  'Tech Trends & Startups': {
+    tech: 'Highlights disruptive technical innovation, product commercialization strategies, and scalable digital transformation architectures.',
+    impact: 'Expands real-world application potential, driving ecosystem collaboration and long-term tech innovation growth.',
+  },
+};
+
+export async function generateTechnicalTakeawaysAsync(
+  title: string,
+  snippet: string,
+  category: CanonicalCategory,
+  lang: 'vi' | 'en'
+): Promise<[string, string, string]> {
+  const curated = getCuratedArticle(title, snippet);
+  if (curated) {
+    return lang === 'vi' ? curated.summary_vi : curated.summary_en;
+  }
+
+  const cleanSnippet = decodeHtml(snippet || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  const rawSentences = cleanSnippet
+    .split(/(?<=[.!?])\s+/)
+    .map((s) => s.trim())
+    .filter((s) => s.length > 25 && !s.includes('[ATTACH]') && !isNavigationJunk(s));
+
+  const topicName = decodeHtml(title).replace(/^\[(Quốc tế|Global|VN Tech)\]\s*/i, '').trim();
+  const hasVietnameseDiacritics = (str?: string) =>
+    Boolean(str && /[àáảãạâầấẩẫậăằắẳẵặèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ]/i.test(str));
+
+  const insightsVi = CATEGORY_TECH_INSIGHTS[category] ?? CATEGORY_TECH_INSIGHTS['Tech Trends & Startups'];
+  const insightsEn = CATEGORY_TECH_INSIGHTS_EN[category] ?? CATEGORY_TECH_INSIGHTS_EN['Tech Trends & Startups'];
+
+  if (lang === 'vi') {
+    let p1 = '';
+    let p2 = '';
+    let p3 = '';
+
+    if (rawSentences[0]) {
+      p1 = hasVietnameseDiacritics(rawSentences[0])
+        ? rawSentences[0]
+        : await translateTextFree(rawSentences[0], 'en', 'vi');
+    } else {
+      p1 = `Tổng quan bối cảnh, sự kiện then chốt và các diễn biến công nghệ nổi bật được ghi nhận trong bài viết về ${topicName}.`;
+    }
+
+    if (rawSentences[1]) {
+      p2 = hasVietnameseDiacritics(rawSentences[1])
+        ? rawSentences[1]
+        : await translateTextFree(rawSentences[1], 'en', 'vi');
+    } else {
+      p2 = insightsVi.tech;
+    }
+
+    if (rawSentences[2]) {
+      p3 = hasVietnameseDiacritics(rawSentences[2])
+        ? rawSentences[2]
+        : await translateTextFree(rawSentences[2], 'en', 'vi');
+    } else {
+      p3 = insightsVi.impact;
+    }
+
+    return [p1, p2, p3];
+  } else {
+    let p1 = rawSentences[0] || `Latest technical developments and key architecture overview regarding ${topicName}.`;
+    let p2 = rawSentences[1] || insightsEn.tech;
+    let p3 = rawSentences[2] || insightsEn.impact;
+
+    if (hasVietnameseDiacritics(p1)) p1 = await translateTextFree(p1, 'vi', 'en');
+    if (hasVietnameseDiacritics(p2)) p2 = await translateTextFree(p2, 'vi', 'en');
+    if (hasVietnameseDiacritics(p3)) p3 = await translateTextFree(p3, 'vi', 'en');
+
+    return [p1, p2, p3];
+  }
+}
+
 export function generateTechnicalTakeaways(
   title: string,
   snippet: string,
@@ -847,32 +1068,26 @@ export function generateTechnicalTakeaways(
   const cleanSnippet = decodeHtml(snippet || '').replace(/<[^>]+>/g, '').trim();
   const sentences = cleanSnippet
     .split(/(?<=[.!?])\s+/)
-    .filter((s) => s.trim().length > 15 && !s.includes('[ATTACH]'));
+    .filter((s) => s.trim().length > 15 && !s.includes('[ATTACH]') && !isNavigationJunk(s));
 
   const topicName = decodeHtml(title).replace(/^\[(Quốc tế|Global|VN Tech)\]\s*/i, '').trim();
+  const insightsVi = CATEGORY_TECH_INSIGHTS[category] ?? CATEGORY_TECH_INSIGHTS['Tech Trends & Startups'];
+  const insightsEn = CATEGORY_TECH_INSIGHTS_EN[category] ?? CATEGORY_TECH_INSIGHTS_EN['Tech Trends & Startups'];
 
   if (lang === 'vi') {
     const point1 = sentences[0]
       ? sentences[0]
-      : `Bài viết cập nhật các thông tin mới nhất liên quan đến chủ đề ${topicName}.`;
-    const point2 = sentences[1]
-      ? sentences[1]
-      : `Trình bày chi tiết bối cảnh, các khía cạnh kỹ thuật và số liệu quan trọng liên quan đến danh mục ${category}.`;
-    const point3 = sentences[2]
-      ? sentences[2]
-      : `Phân tích tác động thực tế và giá trị ứng dụng đối với cộng đồng phát triển phần mềm và kỹ sư công nghệ.`;
+      : `Tổng quan bối cảnh, sự kiện then chốt và các diễn biến công nghệ nổi bật được ghi nhận trong bài viết về ${topicName}.`;
+    const point2 = sentences[1] ? sentences[1] : insightsVi.tech;
+    const point3 = sentences[2] ? sentences[2] : insightsVi.impact;
 
     return [point1, point2, point3];
   } else {
     const point1 = sentences[0]
       ? sentences[0]
       : `Latest technical breakdown and key developments regarding ${topicName}.`;
-    const point2 = sentences[1]
-      ? sentences[1]
-      : `Examines core technical context, architectural impacts, and data within ${category}.`;
-    const point3 = sentences[2]
-      ? sentences[2]
-      : `Highlights practical implications and actionable deployment insights for software engineers.`;
+    const point2 = sentences[1] ? sentences[1] : insightsEn.tech;
+    const point3 = sentences[2] ? sentences[2] : insightsEn.impact;
 
     return [point1, point2, point3];
   }
