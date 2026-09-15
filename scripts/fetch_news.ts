@@ -215,7 +215,9 @@ async function fetchFullArticleText(url: string): Promise<string> {
 }
 
 const GEMINI_MODELS = [
+  'gemini-3.8-flash',
   'gemini-3.5-flash',
+  'gemini-3.1-flash',
   'gemini-3.0-flash',
   'gemini-2.5-flash',
   'gemini-2.0-flash',
@@ -224,7 +226,7 @@ const GEMINI_MODELS = [
 ];
 
 async function callGeminiWithFallback(genAI: GoogleGenerativeAI, prompt: string): Promise<string> {
-  let lastError: any = null;
+  const errors: string[] = [];
   for (const modelName of GEMINI_MODELS) {
     try {
       const model = genAI.getGenerativeModel({
@@ -238,10 +240,11 @@ async function callGeminiWithFallback(genAI: GoogleGenerativeAI, prompt: string)
       const text = result.response.text().trim();
       if (text) return text;
     } catch (err: any) {
-      lastError = err;
+      const msg = err?.message ? String(err.message).split('\n')[0] : String(err);
+      errors.push(`[${modelName}]: ${msg}`);
     }
   }
-  throw lastError ?? new Error('All Gemini models failed');
+  throw new Error(errors.slice(0, 3).join(' | '));
 }
 
 async function summarizeWithGemini(
@@ -331,7 +334,7 @@ QUY TẮC ĐÁNH GIÁ CHUYÊN NGÀNH IT (NGHIÊM NGẶT):
 
     return parsed;
   } catch (error: any) {
-    console.warn(`[Gemini API Warning] Failed to summarize article "${title}". Using intelligent IT fallback.`);
+    console.warn(`[Gemini API Warning] Article "${title}" failed: ${error?.message ?? error}. Using intelligent IT fallback.`);
     const fallback = generateFallbackSummary(title, fullText, origin, defaultCategory);
     return { isITRelated: true, ...fallback };
   }
