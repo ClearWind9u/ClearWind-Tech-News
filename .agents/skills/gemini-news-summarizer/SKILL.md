@@ -53,10 +53,11 @@ export interface NewsSummaryOutput {
 
 ## 3. Recommended Gemini Models & Fallback Architecture
 - **Chuỗi Model ưu tiên (Multi-Model Fallback Chain)**:
-  1. `gemini-3.5-flash` / `gemini-3.0-flash` (Model thế hệ mới nhất, tốc độ vượt trội, 100% Free Tier).
-  2. `gemini-2.5-flash` (Thế hệ Flash 2.5 cực nhanh & thông minh).
-  3. `gemini-2.0-flash` (Tối ưu hóa phản hồi JSON, độ trễ cực thấp).
-  4. `gemini-1.5-flash` (Dự phòng tốc độ cao).
-  5. `gemini-1.5-pro` (Dự phòng độ sâu lập luận).
+  1. `gemini-2.5-flash` / `gemini-2.5-flash-lite` (Model thế hệ mới, tốc độ cực nhanh, quota dồi dào, 100% Free Tier).
+  2. `gemini-2.0-flash` / `gemini-2.0-flash-lite` (Độ trễ cực thấp, phản hồi JSON chuẩn xác).
+  3. `gemini-1.5-flash` / `gemini-1.5-flash-8b` (Dự phòng ổn định, context window lớn).
+  *(Lưu ý: Không dùng các phiên bản preview thử nghiệm như gemini-3.8-flash vì hay gặp lỗi 503 No capacity)*.
+- **Intelligent IT Fallback Engine**: Tự động kích hoạt dịch thuật thuật ngữ IT chuẩn xác và 3 điểm vàng kỹ thuật nếu API gặp sự cố quota hoặc mạng.
+
 - **Cấu hình generation**: `temperature: 0.2`, `responseMimeType: "application/json"`.
 - **Full Context Extraction**: Nếu RSS description quá ngắn (< 150 ký tự), tự động cào trang HTML bài gốc để trích xuất thẻ `<p>` làm context giàu thông tin trước khi gọi Gemini API.

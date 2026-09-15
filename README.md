@@ -1,206 +1,161 @@
-# 🍃 ClearWind Tech News (Làn Gió Tin Tức IT Tự Động 24/7)
+# ClearWind Tech News
 
-Hệ thống tổng hợp, phân tích và tóm tắt tin tức công nghệ đa nguồn hoàn toàn tự động 24/7 bằng **Gemini Pro**, thiết kế giao diện cao cấp (**Tasteful Design** phong cách Daily.dev / Linear), hỗ trợ **Song ngữ (Tiếng Việt 🇻🇳 & Tiếng Anh 🇺🇸, ưu tiên 70% nguồn Việt Nam)** với **chi phí vận hành 0đ (Free Tier 100%)**.
+Nền tảng tổng hợp, phân tích và tóm tắt tin tức công nghệ song ngữ (Việt - Anh) vận hành tự động 24/7. Dự án kết hợp Next.js 14, mô hình ngôn ngữ Google Gemini và cơ chế Git-as-Database để duy trì hệ thống cập nhật liên tục với chi phí vận hành 0đ.
 
 ---
 
-## 🧭 Kiến Trúc & Sơ Đồ Hoạt Động 24/7 (Workflow)
+## 🏛️ Kiến trúc hệ thống (System Architecture)
 
 ```mermaid
-graph TD
-    subgraph Schedulers ["1. Bộ Kích Hoạt Tự Động 0đ"]
-        A["GitHub Actions Cronjob<br/>(Chạy ngầm định kỳ mỗi 2 tiếng)"]
-        M["Kích hoạt thủ công<br/>(Workflow Dispatch / Webhook)"]
+flowchart TD
+    subgraph Automation ["1. Scheduler (0đ)"]
+        Cron["GitHub Actions Cron (2 giờ/lần)"]
+        Manual["Workflow Dispatch"]
     end
 
-    subgraph Crawler ["2. Engine Thu Thập & AI Pipeline"]
-        B["Multi-API & RSS Crawler<br/>(Dev.to API + Hacker News API + 7 RSS Feeds)"]
-        C["Deduplication Filter<br/>(Lọc trùng bằng SHA-256 URL Hash)"]
-        D["Gemini Pro AI Engine<br/>(Trích xuất 3 Key Takeaways, Song ngữ, Hot Score)"]
-        E["Zod Schema Validator<br/>(Kiểm tra tính toàn vẹn dữ liệu)"]
+    subgraph Pipeline ["2. Data Engine & AI Processing"]
+        Crawler["Crawler (Dev.to, Hacker News, 7 RSS Feeds)"]
+        Dedup["Deduplication (SHA-256 URL Hash)"]
+        Filter["IT Relevance & Content Sanitizer"]
+        AI["Gemini Flash / Intelligent IT Fallback"]
+        Validate["Zod Schema Validation"]
     end
 
-    subgraph Storage ["3. Cơ Sở Dữ Liệu 0đ"]
-        F["Git-as-Database (data/news.json)<br/>hoặc Supabase PostgreSQL"]
+    subgraph Storage ["3. Storage Layer"]
+        GitDB["data/news.json (Git-as-Database)"]
+        RemoteDB["Supabase PostgreSQL (Tùy chọn)"]
     end
 
-    subgraph Deployment ["4. Hosting & Giao Diện Người Dùng"]
-        G["GitHub Repo Auto Commit & Push"]
-        H["Vercel / Cloudflare Pages<br/>(Auto Build & Deploy Static Site SSG)"]
-        I["Độc giả Đọc Báo<br/>(Bento Grid, Reader Mode, Bookmarks, Song ngữ)"]
+    subgraph Client ["4. Web App (Next.js 14)"]
+        Vercel["Vercel Edge / Static Site (SSG)"]
+        Reader["Giao diện: Bento Grid, Reader Mode, Bookmarks"]
     end
 
-    A --> B
-    M --> B
-    B --> C
-    C -->|Bài viết mới| D
-    D --> E
-    E --> F
-    F --> G
-    G -->|Trigger Build| H
-    H --> I
+    Cron --> Crawler
+    Manual --> Crawler
+    Crawler --> Dedup --> Filter --> AI --> Validate
+    Validate --> GitDB & RemoteDB
+    GitDB -->|Auto Commit & Push| Vercel --> Reader
 ```
 
 ---
 
-## 🌟 Những Điểm Nổi Bật & Tính Năng Đột Phá
+## 🚀 Tính năng cốt lõi
 
-### 1. 🤖 Trí Tuệ Nhân Tạo Song Ngữ (Gemini Pro)
-- **Tóm tắt 3 điểm cốt lõi (Key Takeaways)**: Bóc tách sự kiện chính, thông số kỹ thuật và tác động thực tế của bài báo.
-- **Dịch thuật & Bản địa hóa chuẩn IT**: Giữ nguyên tính chuyên môn của các thuật ngữ công nghệ.
-- **Tính điểm nóng (Hot Score 🔥 1-100)**: Tự động xếp hạng độ chấn động và sức hút của bài báo.
-- **Gán nhãn Category & Tags**: Tự động phân loại vào 6 danh mục chuyên ngành (*AI & Machine Learning, DevOps & Cloud, Cybersecurity, Software Engineering, Mobile & Web, Tech Trends*).
-
-### 2. 🎨 Tasteful Design System & UI/UX Đẳng Cấp
-- **Bento Grid Hero**: Bài viết tiêu điểm nổi bật phong cách tạp chí công nghệ số (*The Verge / Daily.dev*).
-- **Chế độ xem linh hoạt (Layout Switcher)**:
-  - 🍱 **Grid View**: Card bài viết trực quan với ảnh bìa HD, tóm tắt nổi bật và tags.
-  - 📋 **Compact View**: Danh sách thông tin cô đọng cho lập trình viên đọc tin nhanh (*Hacker News style*).
-- **Immersive Reader Mode**: Popup đọc tin chuyên sâu với thanh công cụ **tăng/giảm cỡ chữ (A- / A+)**, sao chép link, chia sẻ trực tiếp lên X (Twitter), và toggle bản dịch song ngữ.
-- **Thả tim / Upvotes & Bookmarks**: Độc giả có thể tương tác và lưu bài viết tức thì không cần tài khoản (lưu cục bộ bằng `localStorage`).
-- **Phím tắt thông minh (Keyboard Shortcuts)**:
-  - `Ctrl + K`: Mở nhanh thanh tìm kiếm full-text.
-  - `?`: Bật/tắt bảng trợ giúp phím tắt.
-  - `V`: Đổi chế độ xem Grid / Compact.
-  - `L`: Chuyển đổi nhanh ngôn ngữ Tiếng Việt 🇻🇳 / English 🇺🇸.
-  - `T`: Đổi theme Dark / Light.
-  - `B`: Mở thanh bài viết đã lưu.
+- **Tự động hóa hoàn toàn 24/7**: Định kỳ mỗi 2 tiếng, GitHub Actions tự động cào tin từ 9 nguồn uy tín, phân tích nội dung, trích xuất điểm kỹ thuật cốt lõi và cập nhật trang web.
+- **Tóm tắt kỹ thuật 3 điểm vàng**: Phân tích bối cảnh, giải pháp kiến trúc/thông số kỹ thuật và bài học thực tiễn cho kỹ sư phần mềm; loại bỏ hoàn toàn các câu tóm tắt chung chung rập khuôn.
+- **Hỗ trợ song ngữ (Bilingual VI/EN)**: Tự động dịch tiêu đề và tóm tắt tin quốc tế sang tiếng Việt chuẩn thuật ngữ IT; hỗ trợ chuyển đổi nhanh giao diện giữa Tiếng Việt và Tiếng Anh.
+- **Bộ lọc IT & Chống cào rác (Sanitizer)**: Loại bỏ các thẻ điều hướng, menu quảng cáo, thông tin phi công nghệ (gia dụng, showbiz, xe xăng) để giữ dữ liệu thuần túy kỹ thuật.
+- **Fallback Engine độc lập (0đ chi phí)**: Khi API Gemini chạm giới hạn quota hoặc gián đoạn mạng, hệ thống tự động kích hoạt pipeline dịch thuật và sinh điểm nhấn chuyên ngành theo danh mục, đảm bảo tiến trình không bao giờ lỗi.
+- **Giao diện hiện đại phong cách Linear / Daily.dev**:
+  - Tông màu Dark mode cao cấp, bố cục Bento Grid kết hợp Compact View.
+  - Reader Mode tập trung với tùy chỉnh cỡ chữ và chia sẻ nhanh.
+  - Lưu bài viết (Bookmark) và Upvote tức thì vào `localStorage` không cần đăng nhập.
+  - Phím tắt tiện lợi: `Ctrl + K` (Tìm kiếm), `V` (Đổi chế độ xem), `L` (Đổi ngôn ngữ), `B` (Mở Bookmark).
 
 ---
 
-## 📡 Nguồn Tin Tự Động (70% Việt Nam • 30% Quốc Tế)
+## 🛠️ Công nghệ sử dụng (Tech Stack)
 
-| Nguồn tin | Phương thức lấy tin | Thể loại tin tức |
+| Thành phần | Công nghệ | Mục đích |
 | :--- | :--- | :--- |
-| **VnExpress Số Hóa** | RSS Feed chuẩn | Xu hướng công nghệ, AI, Bán dẫn, Thiết bị |
-| **GenK** | RSS Feed chuẩn | Lập trình, Phần cứng, Thủ thuật, ICT |
-| **Tinh Tế** | RSS Feed chuẩn | Thiết bị số, Di động, Trải nghiệm công nghệ |
-| **VietNamNet ICT** | RSS Feed chuẩn | Chuyển đổi số, Viễn thông, Hạ tầng số |
-| **Tuổi Trẻ Nhịp Sống Số** | RSS Feed chuẩn | Đời sống số, Xu hướng công nghệ tương lai |
-| **Viblo Tech** | RSS Feed chuẩn | Lập trình phần mềm, Kiến trúc hệ thống |
-| **Dev.to** | **Official REST API** | Bài viết kỹ thuật chuyên sâu từ Dev toàn cầu |
-| **Hacker News** | **Firebase REST API** | Thảo luận công nghệ & Startup hàng đầu thế giới |
-| **The Verge** | RSS Feed chuẩn | Tin Big Tech, AI quốc tế, Sản phẩm đột phá |
-| **Ars Technica** | RSS Feed chuẩn | Phân tích chuyên sâu An ninh mạng, Khoa học & IT |
+| **Framework** | Next.js 14 (App Router) | Server Components, SSG tối ưu SEO và tốc độ tải |
+| **Language** | TypeScript | Kiểm soát kiểu dữ liệu nghiêm ngặt toàn bộ dự án |
+| **Styling** | Tailwind CSS | Thiết kế giao diện hiện đại, responsive và dark mode |
+| **AI Engine** | Google Gemini API (`gemini-2.5-flash`, `2.0-flash`) | Phân tích bài viết, tóm tắt 3 điểm, gắn tag và chấm Hot Score |
+| **Data Engine** | `rss-parser`, Zod | Cào RSS/API, trích xuất nội dung và xác thực schema |
+| **Database** | `data/news.json` (Git-as-DB) | Lưu trữ an toàn, có version control, chi phí 0đ |
+| **CI/CD** | GitHub Actions | Cronjob chạy pipeline tự động và commit dữ liệu |
+| **Deployment** | Vercel | Hosting static web tốc độ cao trên Edge Network |
 
 ---
 
-## 🚀 Hướng Dẫn Chạy Cục Bộ (Local Development)
+## 📡 Nguồn dữ liệu (Data Sources)
 
-### 1. Cài đặt Dependencies
+Dự án cân đối tỉ lệ ~70% nguồn Việt Nam và ~30% nguồn quốc tế:
+
+- **Việt Nam**: VnExpress Số Hóa, GenK, Tinh Tế, VietNamNet ICT, Tuổi Trẻ Nhịp Sống Số, Viblo Tech.
+- **Quốc tế**: Dev.to (Official REST API), Hacker News (Firebase REST API), The Verge, Ars Technica.
+
+---
+
+## 💻 Cài đặt & Chạy cục bộ (Local Setup)
+
+### 1. Clone repository
+```bash
+git clone https://github.com/ClearWind9u/ClearWind-Tech-News.git
+cd ClearWind-Tech-News
+```
+
+### 2. Cài đặt thư viện
 ```bash
 npm install
 ```
 
-### 2. Thiết lập Biến Môi Trường (Tùy chọn)
-Tạo file `.env` từ `.env.example`:
+### 3. Cấu hình biến môi trường (Tùy chọn)
+Tạo file `.env.local` ở thư mục gốc:
 ```env
-# Lấy API Key miễn phí tại: https://aistudio.google.com/app/apikey
+# Lấy miễn phí tại: https://aistudio.google.com/app/apikey
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
-*(Lưu ý: Nếu chưa nhập key, hệ thống có sẵn bộ xử lý **Fallback thông minh** giúp bạn vẫn cào tin và test website đầy đủ).*
+*(Lưu ý: Nếu không cấu hình key, pipeline sẽ tự động sử dụng Fallback Engine để bạn vẫn chạy thử và phát triển giao diện bình thường).*
 
-### 3. Kích hoạt Pipeline cào & tóm tắt tin tức mới
+### 4. Chạy kiểm thử pipeline & server
 ```bash
+# Kiểm tra và dọn dẹp database
+npm run clean-db
+
+# Chạy crawler lấy tin mới
 npm run fetch-news
-```
 
-### 4. Khởi động Web Server
-```bash
+# Khởi động server phát triển
 npm run dev
 ```
-Truy cập: `http://localhost:3000`
+Mở trình duyệt tại: `http://localhost:3000`
 
 ---
 
-## 🌐 Hướng Dẫn Deploy Miễn Phí 100% Lên Vercel & Tự Động Hóa 24/7
+## 🚢 Triển khai (Deployment & Automation)
 
-### Bước 1: Đẩy mã nguồn lên GitHub
-```bash
-git init
-git add .
-git commit -m "feat: complete automated ai tech news digest"
-git branch -M main
-git remote add origin https://github.com/<username>/<repo-name>.git
-git push -u origin main
-```
+### 1. Deploy lên Vercel
+1. Import repository vào tài khoản [Vercel](https://vercel.com).
+2. Chọn framework **Next.js** và nhấn **Deploy** (không cần cấu hình thêm).
 
-### Bước 2: Thiết lập Quyền & Secret trên GitHub Repository
-1. Trên GitHub, vào **Settings** -> **Secrets and variables** -> **Actions** -> bấm **New repository secret**:
-   - Tên: `GEMINI_API_KEY`
-   - Giá trị: `<API_KEY_CỦA_BẠN>`
-2. Vào **Settings** -> **Actions** -> **General** -> cuộn xuống mục **Workflow permissions**:
-   - Chọn **Read and write permissions** (cho phép bot tự động commit dữ liệu tin tức mới).
-   - Bấm **Save**.
+### 2. Cấu hình tự động hóa GitHub Actions
+1. Trên GitHub repo, vào **Settings** -> **Secrets and variables** -> **Actions** -> thêm Secret:
+   - `GEMINI_API_KEY`: API Key lấy từ Google AI Studio.
+2. Vào **Settings** -> **Actions** -> **General** -> mục **Workflow permissions**:
+   - Chọn **Read and write permissions** để workflow tự động commit dữ liệu mới.
+   - Nhấn **Save**.
 
-### Bước 3: Kết nối & Deploy lên Vercel (0đ)
-1. Đăng nhập [Vercel.com](https://vercel.com) bằng tài khoản GitHub.
-2. Bấm **Add New...** -> **Project** -> Chọn repository vừa tạo.
-3. Bấm **Deploy** (không cần cấu hình thêm gì, file `vercel.json` đã chuẩn hóa sẵn).
-4. Vercel sẽ cấp cho bạn một domain miễn phí dạng `https://ten-du-an.vercel.app`.
-
-> **Vòng lặp tự động 24/7 hoạt động như thế nào?**
-> - Cứ mỗi 2 tiếng, GitHub Actions sẽ tự động chạy `npm run fetch-news` để cào tin mới từ các báo -> gọi Gemini Pro tóm tắt -> ghi vào `data/news.json` và push lên GitHub.
-> - Ngay khi nhận được commit mới, Vercel sẽ tự động build lại trang tĩnh (SSG) trong vòng 20 giây -> độc giả luôn có tin mới nhất với tốc độ tải trang tức thì!
+Sau khi cài đặt, GitHub Actions sẽ định kỳ chạy job cào tin và Vercel sẽ tự động build lại website tĩnh (SSG) trong vài chục giây.
 
 ---
 
-## 🗄️ Tùy Chọn Sử Dụng Database Supabase (PostgreSQL)
-
-Nếu bạn muốn mở rộng lưu trữ bài viết lên PostgreSQL trên đám mây:
-1. Đăng ký tài khoản miễn phí tại [Supabase.com](https://supabase.com).
-2. Vào **SQL Editor** trong Supabase và dán nội dung từ file [supabase/migrations/20260831_init_news_schema.sql](file:///d:/Code/Tuhoc/NewTech/supabase/migrations/20260831_init_news_schema.sql) để tạo bảng và chỉ mục.
-3. Thêm các biến môi trường vào Vercel / `.env`:
-   ```env
-   NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
-   ```
-4. Module [lib/db.ts](file:///d:/Code/Tuhoc/NewTech/lib/db.ts) sẽ tự động kích hoạt kết nối Supabase song song với Git-as-DB.
-
----
-
-## 📁 Cấu Trúc Thư Mục Chuẩn Hóa
+## 📁 Cấu trúc dự án
 
 ```text
-├── .agents/                           # Hệ thống Customizations cho AI Agent
-│   ├── rules/
-│   │   ├── news-pipeline-rules.md     # Quy chuẩn xử lý dữ liệu & AI
-│   │   └── ui-design-guidelines.md    # Chuẩn thiết kế Tasteful UI/UX
-│   ├── skills/
-│   │   ├── gemini-news-summarizer/    # Skill tóm tắt song ngữ Gemini Pro
-│   │   ├── rss-crawler-pipeline/      # Danh mục RSS tuyển chọn
-│   │   └── github-actions-scheduler/  # Runbook tự động hóa 24/7
-│   └── mcp_config.json                # Cấu hình MCP (GitHub, Fetch, Postgres)
+├── .agents/                           # AI Agent Skills & Quy chuẩn kiến trúc
+│   ├── rules/                         # Quy định về code quality, git flow, data integrity
+│   └── skills/                        # 8 Skills chuyên môn hóa (crawler, summarizer, UI/UX...)
 ├── .github/workflows/
-│   └── update_news.yml                # Cronjob chạy ngầm mỗi 2 tiếng
-├── app/
-│   ├── globals.css                    # Glassmorphism, Ambient Glow, Theme tokens
-│   ├── layout.tsx                     # Root Layout, SEO Tags, Viewport
-│   └── page.tsx                       # Server Component render tin tức
-├── components/
-│   ├── BilingualContext.tsx           # Quản lý Ngôn ngữ, Bookmarks, Upvotes, Theme
-│   ├── Navbar.tsx                     # Header, Search (Ctrl+K), Lang Switcher
-│   ├── TrendingTicker.tsx             # Dải tin nóng chạy ngang trang
-│   ├── HeroBento.tsx                  # Bento Grid tin tiêu điểm nổi bật
-│   ├── NewsCard.tsx                   # Card bài viết (Grid View) với Key Takeaways
-│   ├── NewsRowCompact.tsx             # Hàng bài viết (Compact View) phong cách Daily.dev
-│   ├── NewsDetailModal.tsx            # Reader Mode chuyên sâu, cỡ chữ, share
-│   ├── CategoryFilter.tsx             # Bộ lọc danh mục và nguồn VN/Quốc tế
-│   ├── BookmarkDrawer.tsx             # Quản lý bài viết đã lưu
-│   ├── ShortcutsModal.tsx             # Bảng tra cứu phím tắt (?)
-│   └── Footer.tsx                     # Footer thông tin đồng bộ & bản quyền
+│   ├── update_news.yml                # Cronjob tự động cào tin mỗi 2 tiếng
+│   └── weekly_merge_develop_to_main.yml # Tự động đồng bộ develop -> main
+├── app/                               # Next.js 14 App Router (Layout, Page, Styling)
+├── components/                        # UI Components (Bento Hero, NewsCard, ReaderModal...)
 ├── data/
-│   └── news.json                      # Cơ sở dữ liệu Git-as-Database
-├── lib/
-│   ├── db.ts                          # Bộ điều phối dữ liệu (Git-as-DB & Supabase)
-│   └── supabase.ts                    # Cấu hình Supabase client (Optional)
+│   └── news.json                      # Database tin tức (Git-as-Database)
+├── lib/                               # Data layer & helper kết nối Supabase/Local DB
 ├── scripts/
-│   └── fetch_news.ts                  # Engine cào tin đa nguồn & tóm tắt AI
-├── supabase/migrations/
-│   └── 20260831_init_news_schema.sql  # Schema bảng & RLS cho Supabase
-├── types/
-│   └── news.ts                        # Zod Schema & TypeScript interfaces
-├── vercel.json                        # Cấu hình tối ưu deploy Vercel Free Tier
-├── package.json                       # Dependencies & Scripts
-└── README.md                          # Tài liệu hướng dẫn toàn diện
+│   ├── fetch_news.ts                  # Pipeline cào RSS/API, trích xuất và tóm tắt tin
+│   ├── it_translator.ts               # Bộ dịch thuật IT và phân tích kỹ thuật dự phòng
+│   └── clean_news_db.ts               # Script kiểm tra, lọc tin phi-IT và chuẩn hóa DB
+└── types/
+    └── news.ts                        # Zod Schema & TypeScript interfaces
 ```
+
+---
+
+## 📄 Giấy phép (License)
+
+Dự án được phát hành theo giấy phép [MIT License](LICENSE).
