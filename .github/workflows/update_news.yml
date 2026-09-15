@@ -21,6 +21,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
+          ref: develop
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -48,11 +49,18 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Stage only data/news.json
           git add data/news.json
+          
           if git diff --staged --quiet; then
             echo "Database is synchronized. No repository changes needed."
           else
-            echo "Local database updated. Rebasing and committing..."
+            echo "Local database updated. Discarding extra file changes and committing..."
+            # Discard any extra unstaged or untracked changes (e.g. package-lock.json modified by npm)
+            git checkout -- .
+            git clean -fd
+            
             git commit -m "🤖 auto(news): update tech news digest [skip ci]"
             git pull --rebase origin develop
             git push origin develop
