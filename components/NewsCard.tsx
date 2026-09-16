@@ -6,15 +6,9 @@ import { useBilingual } from './BilingualContext';
 import {
   Clock,
   Bookmark,
-  ArrowUpRight,
   Heart,
-  Sparkles,
-  Code2,
-  Cloud,
-  ShieldCheck,
-  Smartphone,
-  Rocket,
   Zap,
+  ArrowUpRight,
 } from 'lucide-react';
 
 interface NewsCardProps {
@@ -22,58 +16,51 @@ interface NewsCardProps {
   onSelectArticle: (article: NewsItem) => void;
 }
 
-// Category-themed visual fallback banner configurations
-const CATEGORY_THEMES: Record<
+// Editorial Category Monograms & Badges (Inspired by The Verge & Wired typography)
+const CATEGORY_META: Record<
   string,
   {
-    bgGradient: string;
-    borderAccent: string;
-    glowColor: string;
-    icon: React.ReactNode;
-    techSubtitle: string;
+    acronym: string;
+    accentClass: string;
+    lightPattern: string;
+    darkPattern: string;
   }
 > = {
   'AI & Machine Learning': {
-    bgGradient: 'from-purple-950/70 via-[#10141E] to-cyan-950/70',
-    borderAccent: 'border-purple-500/20',
-    glowColor: 'bg-purple-500/10',
-    icon: <Sparkles className="w-8 h-8 text-cyan-400" />,
-    techSubtitle: 'NEURAL INTELLIGENCE',
+    acronym: 'AI / ML',
+    accentClass: 'text-purple-600 dark:text-purple-400 border-purple-500/30 bg-purple-500/10',
+    lightPattern: 'from-purple-50 via-slate-50 to-indigo-50',
+    darkPattern: 'from-purple-950/40 via-[#0E121B] to-slate-900',
   },
   'Software Engineering': {
-    bgGradient: 'from-emerald-950/70 via-[#10141E] to-teal-950/70',
-    borderAccent: 'border-emerald-500/20',
-    glowColor: 'bg-emerald-500/10',
-    icon: <Code2 className="w-8 h-8 text-emerald-400" />,
-    techSubtitle: 'CLEAN ARCHITECTURE',
+    acronym: 'DEV / SYS',
+    accentClass: 'text-emerald-600 dark:text-emerald-400 border-emerald-500/30 bg-emerald-500/10',
+    lightPattern: 'from-emerald-50 via-slate-50 to-teal-50',
+    darkPattern: 'from-emerald-950/40 via-[#0E121B] to-slate-900',
   },
   'DevOps & Cloud': {
-    bgGradient: 'from-blue-950/70 via-[#10141E] to-indigo-950/70',
-    borderAccent: 'border-blue-500/20',
-    glowColor: 'bg-blue-500/10',
-    icon: <Cloud className="w-8 h-8 text-blue-400" />,
-    techSubtitle: 'CLOUD INFRASTRUCTURE',
+    acronym: 'CLOUD / SRE',
+    accentClass: 'text-blue-600 dark:text-blue-400 border-blue-500/30 bg-blue-500/10',
+    lightPattern: 'from-blue-50 via-slate-50 to-indigo-50',
+    darkPattern: 'from-blue-950/40 via-[#0E121B] to-slate-900',
   },
   'Cybersecurity': {
-    bgGradient: 'from-slate-950 via-[#10141E] to-emerald-950/70',
-    borderAccent: 'border-emerald-500/20',
-    glowColor: 'bg-emerald-500/10',
-    icon: <ShieldCheck className="w-8 h-8 text-emerald-400" />,
-    techSubtitle: 'ZERO TRUST DEFENSE',
+    acronym: 'SEC / DEF',
+    accentClass: 'text-red-600 dark:text-red-400 border-red-500/30 bg-red-500/10',
+    lightPattern: 'from-rose-50 via-slate-50 to-orange-50',
+    darkPattern: 'from-red-950/40 via-[#0E121B] to-slate-900',
   },
   'Mobile & Web': {
-    bgGradient: 'from-indigo-950/70 via-[#10141E] to-pink-950/60',
-    borderAccent: 'border-indigo-500/20',
-    glowColor: 'bg-indigo-500/10',
-    icon: <Smartphone className="w-8 h-8 text-indigo-400" />,
-    techSubtitle: 'MODERN WEB & MOBILE',
+    acronym: 'CLIENT / WEB',
+    accentClass: 'text-cyan-600 dark:text-cyan-400 border-cyan-500/30 bg-cyan-500/10',
+    lightPattern: 'from-cyan-50 via-slate-50 to-sky-50',
+    darkPattern: 'from-cyan-950/40 via-[#0E121B] to-slate-900',
   },
   'Tech Trends & Startups': {
-    bgGradient: 'from-amber-950/70 via-[#10141E] to-emerald-950/60',
-    borderAccent: 'border-amber-500/20',
-    glowColor: 'bg-amber-500/10',
-    icon: <Rocket className="w-8 h-8 text-amber-400" />,
-    techSubtitle: 'NEXT-GEN INNOVATION',
+    acronym: 'VENTURE / IT',
+    accentClass: 'text-amber-600 dark:text-amber-400 border-amber-500/30 bg-amber-500/10',
+    lightPattern: 'from-amber-50 via-slate-50 to-orange-50',
+    darkPattern: 'from-amber-950/40 via-[#0E121B] to-slate-900',
   },
 };
 
@@ -90,23 +77,19 @@ export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) 
     markAsRead,
   } = useBilingual();
 
-  const formattedDate = new Date(article.publishedAt).toLocaleDateString(
-    lang === 'vi' ? 'vi-VN' : 'en-US',
-    {
-      month: '2-digit',
-      day: '2-digit',
-      hour: '2-digit',
-      minute: '2-digit',
-    }
-  );
-
-  const title = lang === 'vi' ? article.title_vi : article.title_en;
-  const summaryPoints = lang === 'vi' ? article.summary_vi : article.summary_en;
+  const title =
+    (lang === 'vi' ? article.title_vi : article.title_en) ||
+    article.title_vi ||
+    article.originalTitle ||
+    '';
+  const summaryPoints =
+    (lang === 'vi' ? article.summary_vi : article.summary_en) ||
+    article.summary_vi ||
+    [];
   const categoryLabel = getCategoryLabel(article.category, lang);
   const upvoteCount = (article.upvotes || 0) + (isUpvoted(article.id) ? 1 : 0);
   const read = isRead(article.id);
-
-  const theme = CATEGORY_THEMES[article.category] ?? CATEGORY_THEMES['Tech Trends & Startups'];
+  const meta = CATEGORY_META[article.category] ?? CATEGORY_META['Tech Trends & Startups'];
 
   const handleCardClick = () => {
     markAsRead(article.id);
@@ -116,126 +99,87 @@ export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) 
   return (
     <article
       onClick={handleCardClick}
-      className={`group relative rounded-2xl bg-[#121722] hover:bg-[#151C2A] border p-4 sm:p-4.5 cursor-pointer transition-all duration-200 flex flex-col justify-between h-full shadow-sm hover:shadow-md ${
-        read ? 'border-white/5 opacity-90' : 'border-white/10 hover:border-emerald-500/50'
+      className={`group relative rounded-2xl bg-white dark:bg-[#11141E] hover:bg-slate-50 dark:hover:bg-[#151A27] border border-slate-200/90 dark:border-white/[0.08] hover:border-emerald-500/50 dark:hover:border-emerald-500/40 p-4 sm:p-5 cursor-pointer transition-all duration-200 flex flex-col justify-between h-full shadow-xs hover:shadow-lg hover:-translate-y-0.5 ${
+        read ? 'opacity-85' : 'opacity-100'
       }`}
     >
       <div className="flex flex-col flex-1">
-        {/* Uniform Top Visual Header: Real Image or Category-Themed IT Tech Banner */}
-        <div className="w-full aspect-[16/9] mb-3.5 rounded-xl overflow-hidden bg-[#0B0E14] border border-slate-800/80 shrink-0 relative group-hover:border-slate-700 transition-colors">
+        {/* Visual Media Header (16:9 Thumbnail or Typographic Monogram) */}
+        <div className="w-full aspect-[16/9] mb-3.5 rounded-xl overflow-hidden bg-slate-100 dark:bg-[#090A0F] border border-slate-200/80 dark:border-white/[0.06] shrink-0 relative">
           {article.thumbnailUrl ? (
             <img
               src={article.thumbnailUrl}
               alt={title}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               loading="lazy"
+              decoding="async"
             />
           ) : (
             <div
-              className={`w-full h-full bg-gradient-to-br ${theme.bgGradient} flex flex-col items-center justify-center relative p-4 text-center overflow-hidden`}
+              className={`w-full h-full bg-gradient-to-br ${meta.lightPattern} dark:${meta.darkPattern} flex flex-col items-center justify-center relative p-4 text-center overflow-hidden`}
             >
-              {/* Subtle Tech Grid Pattern overlay */}
               <div
-                className="absolute inset-0 opacity-15 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:12px_12px]"
+                className="absolute inset-0 opacity-15 dark:opacity-10 bg-[radial-gradient(#000000_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px]"
                 aria-hidden="true"
               />
-              <div
-                className={`absolute w-28 h-28 rounded-full ${theme.glowColor} blur-2xl pointer-events-none`}
-              />
-
-              <div className="relative z-10 flex flex-col items-center gap-1.5">
-                <div className="p-2.5 rounded-xl bg-slate-900/80 border border-slate-700/60 shadow-lg backdrop-blur-sm group-hover:scale-110 transition-transform duration-300">
-                  {theme.icon}
-                </div>
-                <span className="text-[9px] font-mono tracking-widest text-slate-400 font-bold uppercase">
-                  {theme.techSubtitle}
+              <div className="relative z-10 flex flex-col items-center gap-1">
+                <span className="font-mono text-2xl font-black tracking-tight text-slate-800/80 dark:text-white/80 group-hover:tracking-widest transition-all duration-300">
+                  {meta.acronym}
                 </span>
               </div>
             </div>
           )}
 
-          {/* Overlay Pill Badges on Top Banner */}
-          <div className="absolute top-2.5 left-2.5 right-2.5 flex items-center justify-between gap-1.5 pointer-events-none">
-            <div className="flex items-center gap-1.5 min-w-0">
+          {/* Floating Pill Badges (Hot Score & Unread Pulse) */}
+          <div className="absolute top-2.5 left-2.5 right-2.5 flex items-center justify-between pointer-events-none">
+            <div className="flex items-center gap-1.5">
               {!read && (
                 <span
-                  className="w-2 h-2 rounded-full bg-emerald-400 shrink-0 shadow-sm animate-pulse"
+                  className="w-2 h-2 rounded-full bg-emerald-500 shrink-0 animate-pulse shadow-sm"
                   title={t.unreadBadge}
                 />
               )}
-              <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-slate-900/90 text-slate-200 border border-slate-700/80 backdrop-blur-md truncate max-w-[110px]">
-                {article.sourceName}
-              </span>
             </div>
 
-            <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-emerald-500/90 text-slate-950 backdrop-blur-md shrink-0 font-mono shadow-sm">
+            <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-slate-900/85 dark:bg-black/75 text-emerald-400 font-mono backdrop-blur-md border border-white/10 shadow-xs">
               {article.hotScore} pts
             </span>
           </div>
         </div>
 
-        {/* Category Pill */}
-        <div className="flex items-center justify-between gap-2 mb-2">
-          <span className="px-2.5 py-0.5 text-[10.5px] font-bold rounded-full bg-emerald-500/15 text-emerald-300 border border-emerald-500/25 truncate max-w-[180px]">
-            {categoryLabel}
+        {/* Eyebrow Kicker: Source + Category (Uppercase Mono - The Verge style) */}
+        <div className="flex items-center gap-2 mb-2 text-[11px] font-mono tracking-wide text-slate-500 dark:text-slate-400">
+          <span className="font-bold text-slate-800 dark:text-slate-200 uppercase truncate max-w-[130px]">
+            {article.sourceName}
           </span>
-          <span className="flex items-center gap-1 text-[11px] text-slate-400 font-medium">
-            <Clock className="w-3 h-3 text-slate-400" />
-            {article.readTimeMinutes} {t.readTime}
+          <span>•</span>
+          <span className="uppercase text-emerald-600 dark:text-emerald-400 truncate">
+            {categoryLabel}
           </span>
         </div>
 
-        {/* Title: 2-line clamped with stable height */}
+        {/* Title: Editorial Headline */}
         <h3
-          className={`text-sm sm:text-[15px] leading-snug mb-3 line-clamp-2 min-h-[2.6rem] transition-colors ${
+          className={`text-[15px] sm:text-base leading-snug font-extrabold mb-2.5 line-clamp-2 transition-colors duration-200 font-display ${
             read
-              ? 'text-slate-300 font-semibold group-hover:text-emerald-400'
-              : 'text-white font-bold group-hover:text-emerald-400'
+              ? 'text-slate-600 dark:text-slate-300 group-hover:text-emerald-600 dark:group-hover:text-emerald-400'
+              : 'text-slate-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400'
           }`}
         >
           {title}
         </h3>
 
-        {/* 3-Tier Core Takeaways (Fully readable with flexible container) */}
-        <div className="space-y-2 mb-3 bg-[#0B0E14]/90 p-3 sm:p-3.5 rounded-xl border border-slate-800/90 flex-1 flex flex-col justify-start">
-          <div className="text-[10px] sm:text-[10.5px] font-bold text-emerald-400 uppercase tracking-wider flex items-center gap-1.5">
-            <Zap className="w-3 h-3 text-emerald-400" />
-            <span>{t.keyTakeaways}</span>
-          </div>
-
-          <div className="space-y-2 text-[11.5px] sm:text-xs text-slate-200 leading-relaxed font-normal">
-            {summaryPoints.slice(0, 3).map((point, idx) => (
-              <div key={idx} className="flex items-start gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 mt-1.5 shrink-0" />
-                <p className="line-clamp-2 text-slate-200">{point}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Tags Row */}
-        <div className="flex items-center gap-1.5 overflow-hidden whitespace-nowrap mb-3 h-6">
-          {article.tags.slice(0, 3).map((tag, i) => (
-            <button
-              key={i}
-              type="button"
-              onClick={(e) => {
-                e.stopPropagation();
-                setSelectedTag(tag);
-              }}
-              className="text-[10px] font-mono text-slate-400 hover:text-emerald-300 bg-[#0B0E14] px-2 py-0.5 rounded border border-slate-800 hover:border-emerald-500/40 transition-colors shrink-0 truncate max-w-[110px]"
-            >
-              #{tag}
-            </button>
-          ))}
-        </div>
+        {/* Clean Editorial Excerpt (Leading Takeaway Preview without bulky numbers) */}
+        {summaryPoints.length > 0 && (
+          <p className="text-xs sm:text-[13px] text-slate-600 dark:text-slate-400 line-clamp-2 leading-relaxed mb-4">
+            {summaryPoints[0]}
+          </p>
+        )}
       </div>
 
-      {/* Footer Date & Actions */}
-      <div className="pt-2.5 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-300 mt-auto">
-        <span className="text-[11px] text-slate-400">{formattedDate}</span>
-
-        <div className="flex items-center gap-1.5">
+      {/* Card Footer: Metadata & Quick Actions */}
+      <div className="flex items-center justify-between pt-3 border-t border-slate-100 dark:border-white/[0.06] text-xs">
+        <div className="flex items-center gap-2">
           {/* Upvote Button */}
           <button
             type="button"
@@ -243,13 +187,13 @@ export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) 
               e.stopPropagation();
               toggleUpvote(article.id);
             }}
-            className={`px-2 py-1 rounded-lg border flex items-center gap-1 text-[11px] font-mono font-bold transition-colors ${
+            className={`flex items-center gap-1 px-2 py-0.8 rounded-lg border text-xs font-mono font-medium transition-all ${
               isUpvoted(article.id)
-                ? 'bg-red-500/20 text-red-400 border-red-500/40'
-                : 'bg-[#0B0E14] border-slate-800 text-slate-300 hover:text-red-400 hover:border-red-500/30'
+                ? 'bg-rose-500/15 text-rose-600 dark:text-rose-400 border-rose-500/30'
+                : 'bg-slate-100/70 hover:bg-slate-200/80 dark:bg-white/[0.04] dark:hover:bg-white/[0.08] border-slate-200/80 dark:border-white/10 text-slate-600 dark:text-slate-400'
             }`}
           >
-            <Heart className={`w-3 h-3 ${isUpvoted(article.id) ? 'fill-red-400' : ''}`} />
+            <Heart className={`w-3.5 h-3.5 ${isUpvoted(article.id) ? 'fill-rose-500 text-rose-500' : ''}`} />
             <span>{upvoteCount}</span>
           </button>
 
@@ -260,20 +204,22 @@ export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) 
               e.stopPropagation();
               toggleBookmark(article.id);
             }}
-            className={`p-1.5 rounded-lg border transition-colors ${
+            className={`p-1.5 rounded-lg border transition-all ${
               isBookmarked(article.id)
-                ? 'bg-emerald-500 text-white border-emerald-400'
-                : 'bg-[#0B0E14] border-slate-800 text-slate-400 hover:text-emerald-400 hover:border-emerald-500/40'
+                ? 'bg-emerald-500 text-white border-emerald-500 shadow-xs'
+                : 'bg-slate-100/70 hover:bg-slate-200/80 dark:bg-white/[0.04] dark:hover:bg-white/[0.08] border-slate-200/80 dark:border-white/10 text-slate-600 dark:text-slate-400 hover:text-emerald-600 dark:hover:text-emerald-400'
             }`}
-            title={t.readLater}
+            title={t.bookmarks}
           >
             <Bookmark className="w-3.5 h-3.5" />
           </button>
+        </div>
 
-          <span className="inline-flex items-center gap-0.5 text-xs font-bold text-emerald-400 pl-1">
-            {t.quickRead}
-            <ArrowUpRight className="w-3.5 h-3.5" />
-          </span>
+        {/* Reading Time & Quick Read */}
+        <div className="flex items-center gap-1.5 text-[11px] font-medium text-slate-500 dark:text-slate-400">
+          <Clock className="w-3 h-3 text-slate-400 dark:text-slate-500" />
+          <span>{article.readTimeMinutes} {t.readTime}</span>
+          <ArrowUpRight className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400 group-hover:translate-x-0.5 transition-transform" />
         </div>
       </div>
     </article>

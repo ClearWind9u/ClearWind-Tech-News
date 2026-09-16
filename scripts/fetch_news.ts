@@ -9,6 +9,8 @@ import {
   classifyCategory,
   translateTitleToVietnamese,
   translateTitleToVietnameseAsync,
+  translateTitleToEnglishAsync,
+  hasVietnameseDiacritics,
   generateTechnicalTakeaways,
   generateTechnicalTakeawaysAsync,
   decodeHtml,
@@ -153,7 +155,7 @@ async function generateFallbackSummary(
 
   if (isVn) {
     vietnameseTitle = cleanTitle;
-    englishTitle = cleanTitle;
+    englishTitle = await translateTitleToEnglishAsync(cleanTitle);
   } else {
     vietnameseTitle = await translateTitleToVietnameseAsync(cleanTitle);
     englishTitle = cleanTitle;
@@ -364,41 +366,59 @@ async function summarizeWithGemini(
   try {
     const genAI = new GoogleGenerativeAI(apiKey);
 
+    const isVietnamSource = origin === 'vietnam';
     const prompt = `
 Bạn là chuyên gia phân tích công nghệ cao cấp và kỹ sư trưởng (Principal Engineer).
-Nhiệm vụ: Phân tích bài viết dưới đây và trả về DUY NHẤT một JSON Object hợp lệ (không markdown).
+Nhiệm vụ: Phân tích bài viết dưới đây và trả về DUY NHẤT một JSON Object hợp lệ (không markdown, không giải thích thêm).
 
-Nguồn tin: ${origin === 'vietnam' ? 'Việt Nam' : 'Quốc tế'}
+Nguồn tin: ${isVietnamSource ? 'Việt Nam (bài viết gốc bằng tiếng Việt)' : 'Quốc tế (bài viết gốc bằng tiếng Anh)'}
 Tiêu đề gốc: ${title}
 Nội dung bài viết: ${fullText}
 
 QUY TẮC ĐÁNH GIÁ CHUYÊN NGÀNH IT (NGHIÊM NGẶT):
 1. Đánh giá xem bài viết này có liên quan trực tiếp đến Công nghệ thông tin, Lập trình, Phần mềm, AI, Cloud/DevOps, An ninh mạng, Bán dẫn, Thiết bị di động/Web hay không.
-   - Nếu KHÔNG liên quan (ví dụ: làm kệ gỗ, đồ gia dụng, thời trang, bóp da, túi xách, tủ lạnh cá nhân, showbiz, bất động sản...), hãy trả về duy nhất: {"isITRelated": false}.
+   - Nếu KHÔNG liên quan (ví dụ: làm kệ gỗ, đồ gia dụng, thời trang, túi xách, showbiz, bất động sản, phim ảnh không liên quan tech...), hãy trả về: {"isITRelated": false}
 
 2. Nếu CÓ liên quan IT ("isITRelated": true), hoàn thành các trường sau:
-   - "title_vi": Tiêu đề dịch hoặc viết lại thuần Tiếng Việt 100% tự nhiên, chuẩn xác thuật ngữ IT. TUYỆT ĐỐI KHÔNG để nguyên tiếng Anh nếu nguồn tin là quốc tế.
-   - "title_en": Tiêu đề thuần Tiếng Anh 100% tự nhiên, rõ ràng.
-   - "summary_vi": Mảng đúng 3 chuỗi tiếng Việt CHI TIẾT VÀ BÁM SÁT SỰ THẬT BÀI VIẾT (mỗi ý 25-45 từ):
-     * Ý 1: Bối cảnh, bản chất công nghệ hoặc sự kiện cốt lõi thực sự được nhắc đến trong bài.
-     * Ý 2: Chi tiết kỹ thuật, giải pháp kiến trúc, số liệu hoặc cơ chế hoạt động thực tế trong bài.
-     * Ý 3: Giá trị thực tiễn, tác động tới ngành IT/lập trình viên hoặc bài học ứng dụng.
-     * TUYỆT ĐỐI KHÔNG dùng các câu mẫu chung chung rập khuôn như "Điểm nhấn công nghệ đặc biệt bao gồm kiến trúc giải pháp tối ưu..." hay "Phân tích bối cảnh và sự kiện công nghệ nổi bật...".
-   - "summary_en": Mảng đúng 3 chuỗi tiếng Anh tương ứng với độ chi tiết kỹ thuật tương đương.
-   - "category": Phải chọn CHÍNH XÁC 1 trong 6 danh mục: "AI & Machine Learning", "Software Engineering", "DevOps & Cloud", "Cybersecurity", "Mobile & Web", "Tech Trends & Startups".
-   - "tags": 3-5 tags ngắn gọn chuẩn ngành (ví dụ: ["AI", "React", "Rust", "Kubernetes", "Security"]).
-   - "hotScore": Điểm nóng số nguyên từ 75 đến 99.
-   - "readTimeMinutes": Số phút đọc ước tính từ 3 đến 8.
+
+   TRƯỜNG title_vi (BẮT BUỘC — TIẾNG VIỆT 100%):
+   - Nếu nguồn tin là Quốc tế: PHẢI dịch sang tiếng Việt tự nhiên, thuần Việt hoàn toàn, KHÔNG được để nguyên tên tiếng Anh kỹ thuật như tên sản phẩm, công ty.
+   - Nếu nguồn tin là Việt Nam: giữ nguyên tiêu đề tiếng Việt, chỉnh sửa nếu cần.
+   - TUYỆT ĐỐI cấm: title_vi === title_en (nếu vi bằng en thì BẮT BUỘC phải dịch lại).
+   - Tên riêng như "Meta", "Google", "Kubernetes", "React" CÓ THỂ giữ nguyên, nhưng phần mô tả PHẢI bằng tiếng Việt.
+
+   TRƯỜNG title_en (BẮT BUỘC — TIẾNG ANH 100%):
+   - Nếu nguồn tin là Việt Nam: PHẢI dịch sang tiếng Anh theo phong cách báo chí công nghệ quốc tế (The Verge, TechCrunch).
+   - Nếu nguồn tin là Quốc tế: giữ nguyên tiêu đề gốc, chỉnh sửa nếu cần.
+   - TUYỆT ĐỐI cấm: title_en chứa bất kỳ ký tự có dấu tiếng Việt (ă, â, đ, ê, ô, ơ, ư, ắ, ế, ố, ớ, ứ...).
+
+   TRƯỜNG summary_vi (BẮT BUỘC — PHẢI LÀ TIẾNG VIỆT THUẦN TÚY):
+   - Mảng ĐÚNG 3 chuỗi, mỗi chuỗi từ 25 đến 45 từ tiếng Việt.
+   - PHẢI chứa ký tự tiếng Việt có dấu (ă, â, đ, ê, ô, ơ, ư...). Câu toàn tiếng Anh là VI PHẠM NGHIÊM TRỌNG.
+   - Ý 1: Bối cảnh và sự kiện cốt lõi thực sự được nhắc đến trong bài.
+   - Ý 2: Chi tiết kỹ thuật, giải pháp kiến trúc, số liệu hoặc cơ chế hoạt động thực tế.
+   - Ý 3: Giá trị thực tiễn, tác động tới ngành IT/lập trình viên hoặc bài học ứng dụng.
+   - TUYỆT ĐỐI KHÔNG viết câu mẫu rập khuôn như "Điểm nhấn công nghệ đặc biệt bao gồm...", "Top trending discussion with X points...", "Phân tích bối cảnh và sự kiện...".
+
+   TRƯỜNG summary_en (BẮT BUỘC — PHẢI LÀ TIẾNG ANH THUẦN TÚY):
+   - Mảng ĐÚNG 3 chuỗi tiếng Anh tương ứng, mỗi chuỗi từ 25 đến 45 từ.
+   - TUYỆT ĐỐI KHÔNG chứa bất kỳ ký tự có dấu tiếng Việt. Câu có dấu tiếng Việt là VI PHẠM NGHIÊM TRỌNG.
+   - Nội dung kỹ thuật cần tương đương chiều sâu với summary_vi.
+
+   TRƯỜNG category: Chọn CHÍNH XÁC 1 trong 6: "AI & Machine Learning", "Software Engineering", "DevOps & Cloud", "Cybersecurity", "Mobile & Web", "Tech Trends & Startups".
+   TRƯỜNG tags: 3-5 tags ngắn gọn chuẩn ngành (ví dụ: ["AI", "React", "Rust", "Kubernetes", "Security"]).
+   TRƯỜNG hotScore: Số nguyên từ 75 đến 99 thể hiện độ nóng/quan trọng của tin.
+   TRƯỜNG readTimeMinutes: Số phút đọc ước tính từ 3 đến 8.
 
 Định dạng JSON trả về nếu là tin IT:
 {
   "isITRelated": true,
-  "title_vi": "string",
-  "title_en": "string",
-  "summary_vi": ["string", "string", "string"],
-  "summary_en": ["string", "string", "string"],
-  "category": "string",
-  "tags": ["string", "string", "string"],
+  "title_vi": "string tiếng Việt",
+  "title_en": "string in English",
+  "summary_vi": ["chuỗi tiếng Việt 1", "chuỗi tiếng Việt 2", "chuỗi tiếng Việt 3"],
+  "summary_en": ["English string 1", "English string 2", "English string 3"],
+  "category": "one of 6 categories",
+  "tags": ["tag1", "tag2", "tag3"],
   "hotScore": 90,
   "readTimeMinutes": 5
 }
@@ -416,6 +436,32 @@ QUY TẮC ĐÁNH GIÁ CHUYÊN NGÀNH IT (NGHIÊM NGẶT):
     parsed.isITRelated = true;
     if (!parsed.category) {
       parsed.category = classifyCategory(title, fullText) ?? defaultCategory;
+    }
+
+    // ── Post-parse Bilingual Validation ──
+    // Guard 1: title_vi must differ from title_en (for non-VN sources)
+    if (!isVietnamSource && parsed.title_vi && parsed.title_vi === parsed.title_en) {
+      console.warn(`[Bilingual Guard] title_vi === title_en for "${title}". Regenerating VI title.`);
+      parsed.title_vi = await translateTitleToVietnameseAsync(parsed.title_en);
+    }
+
+    // Guard 2: summary_vi items must contain Vietnamese diacritics
+    if (parsed.summary_vi && Array.isArray(parsed.summary_vi)) {
+      const hasVi = parsed.summary_vi.some((s: string) => hasVietnameseDiacritics(s));
+      if (!hasVi) {
+        console.warn(`[Bilingual Guard] summary_vi has no Vietnamese diacritics for "${title}". Regenerating.`);
+        const viTitle = parsed.title_vi ?? (await translateTitleToVietnameseAsync(title));
+        parsed.summary_vi = await generateTechnicalTakeawaysAsync(viTitle, fullText, parsed.category, 'vi');
+      }
+    }
+
+    // Guard 3: summary_en must NOT contain Vietnamese diacritics
+    if (parsed.summary_en && Array.isArray(parsed.summary_en)) {
+      const hasViInEn = parsed.summary_en.some((s: string) => hasVietnameseDiacritics(s));
+      if (hasViInEn) {
+        console.warn(`[Bilingual Guard] summary_en contains Vietnamese text for "${title}". Regenerating.`);
+        parsed.summary_en = await generateTechnicalTakeawaysAsync(parsed.title_en ?? title, fullText, parsed.category, 'en');
+      }
     }
 
     return parsed;
@@ -509,10 +555,11 @@ async function fetchHackerNewsArticles(existingIds: Set<string>, apiKey?: string
       if (existingIds.has(id)) continue;
 
       const rawTitle = cleanHtml(item.title ?? '');
-      const rawContent = `Top trending discussion with ${item.score ?? 50} points and ${item.descendants ?? 0} comments.`;
+      // HN stories often lack body text — use title as context + engagement stats
+      const hnContext = `Hacker News top story: "${rawTitle}". Score: ${item.score ?? 50} points, ${item.descendants ?? 0} comments. Category: Tech discussion, programming, open-source.`;
       const summaryData = await summarizeWithGemini(
         rawTitle,
-        rawContent,
+        hnContext,
         'global',
         'Software Engineering',
         apiKey,
@@ -530,12 +577,12 @@ async function fetchHackerNewsArticles(existingIds: Set<string>, apiKey?: string
         url: item.url,
         sourceName: 'Hacker News',
         sourceOrigin: 'global',
-        category: summaryData.category ?? classifyCategory(rawTitle, rawContent),
+        category: summaryData.category ?? classifyCategory(rawTitle, hnContext),
         tags: summaryData.tags?.length ? summaryData.tags : ['HackerNews', 'Tech', 'Programming'],
         hotScore: Math.min(99, Math.max(75, Math.floor((item.score ?? 50) / 4))),
         readTimeMinutes: summaryData.readTimeMinutes ?? 4,
         publishedAt: item.time ? new Date(item.time * 1000).toISOString() : new Date().toISOString(),
-        contentSnippet: rawContent,
+        contentSnippet: hnContext.substring(0, 300),
         authorName: item.by ?? 'hn_user',
         upvotes: item.score ?? 1,
         commentsCount: item.descendants ?? 0,
@@ -606,12 +653,42 @@ export async function runCrawlerPipeline() {
         );
         if (summaryData.isITRelated === false) continue;
 
+        const isVn = feed.origin === 'vietnam';
+        const title_vi =
+          summaryData.title_vi ?? (isVn ? rawTitle : await translateTitleToVietnameseAsync(rawTitle));
+        const title_en =
+          summaryData.title_en && !hasVietnameseDiacritics(summaryData.title_en)
+            ? summaryData.title_en
+            : (isVn ? await translateTitleToEnglishAsync(rawTitle) : rawTitle);
+
+        // validate summary_vi for Vietnamese diacritics
+        let summary_vi = summaryData.summary_vi;
+        if (!summary_vi || !summary_vi.some((s: string) => hasVietnameseDiacritics(s))) {
+          console.warn(`[Bilingual Guard RSS] summary_vi not Vietnamese for "${rawTitle}". Regenerating.`);
+          summary_vi = await generateTechnicalTakeawaysAsync(
+            summaryData.title_vi ?? rawTitle,
+            rawContent,
+            summaryData.category ?? feed.defaultCategory,
+            'vi'
+          );
+        }
+
+        let summary_en = summaryData.summary_en;
+        if (!summary_en || summary_en.some((s: string) => hasVietnameseDiacritics(s))) {
+          summary_en = await generateTechnicalTakeawaysAsync(
+            title_en,
+            rawContent,
+            summaryData.category ?? feed.defaultCategory,
+            'en'
+          );
+        }
+
         const candidate: NewsItem = {
           id,
-          title_vi: summaryData.title_vi ?? (feed.origin === 'global' ? translateTitleToVietnamese(rawTitle) : rawTitle),
-          title_en: summaryData.title_en ?? rawTitle,
-          summary_vi: summaryData.summary_vi,
-          summary_en: summaryData.summary_en,
+          title_vi,
+          title_en,
+          summary_vi: summary_vi,
+          summary_en,
           originalTitle: rawTitle,
           url: item.link.trim(),
           sourceName: feed.name,

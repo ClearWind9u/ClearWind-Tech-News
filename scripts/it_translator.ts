@@ -909,17 +909,65 @@ export async function translateTextFree(text: string, from: string = 'en', to: s
   return clean;
 }
 
+export const VN_DIACRITICS_REGEX = /[àáảãạâầấẩẫậăằắẳẵặèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ]/i;
+
+export function hasVietnameseDiacritics(str?: string): boolean {
+  return Boolean(str && VN_DIACRITICS_REGEX.test(str));
+}
+
 export async function translateTitleToVietnameseAsync(titleEn: string): Promise<string> {
   const clean = decodeHtml(titleEn).replace(/^\[(Quốc tế|Global|VN Tech)\]\s*/i, '').trim();
   const curated = getCuratedArticle(clean);
   if (curated) return curated.title_vi;
 
-  if (/[àáảãạâầấẩẫậăằắẳẵặèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ]/i.test(clean)) {
+  if (hasVietnameseDiacritics(clean)) {
     return clean;
   }
 
   const translated = await translateTextFree(clean, 'en', 'vi');
   return translated || clean;
+}
+
+export async function translateTitleToEnglishAsync(titleVi: string): Promise<string> {
+  const clean = decodeHtml(titleVi)
+    .replace(/^\[(Quốc tế|Global|VN Tech|Tinhte|GenK|VnExpress)\]\s*/i, '')
+    .trim();
+  const curated = getCuratedArticle(clean);
+  if (curated) return curated.title_en;
+
+  // If there are no Vietnamese diacritics, it is already in English
+  if (!hasVietnameseDiacritics(clean)) {
+    return clean;
+  }
+
+  const translated = await translateTextFree(clean, 'vi', 'en');
+  return translated || clean;
+}
+
+export async function translateSummaryPointsToEnglishAsync(points: string[]): Promise<string[]> {
+  const result: string[] = [];
+  for (const point of points) {
+    if (hasVietnameseDiacritics(point)) {
+      const translated = await translateTextFree(point, 'vi', 'en');
+      result.push(translated || point);
+    } else {
+      result.push(point);
+    }
+  }
+  return result;
+}
+
+export async function translateSummaryPointsToVietnameseAsync(points: string[]): Promise<string[]> {
+  const result: string[] = [];
+  for (const point of points) {
+    if (!hasVietnameseDiacritics(point)) {
+      const translated = await translateTextFree(point, 'en', 'vi');
+      result.push(translated || point);
+    } else {
+      result.push(point);
+    }
+  }
+  return result;
 }
 
 function isNavigationJunk(text: string): boolean {
@@ -1005,8 +1053,6 @@ export async function generateTechnicalTakeawaysAsync(
     .filter((s) => s.length > 25 && !s.includes('[ATTACH]') && !isNavigationJunk(s));
 
   const topicName = decodeHtml(title).replace(/^\[(Quốc tế|Global|VN Tech)\]\s*/i, '').trim();
-  const hasVietnameseDiacritics = (str?: string) =>
-    Boolean(str && /[àáảãạâầấẩẫậăằắẳẵặèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ]/i.test(str));
 
   const insightsVi = CATEGORY_TECH_INSIGHTS[category] ?? CATEGORY_TECH_INSIGHTS['Tech Trends & Startups'];
   const insightsEn = CATEGORY_TECH_INSIGHTS_EN[category] ?? CATEGORY_TECH_INSIGHTS_EN['Tech Trends & Startups'];
@@ -1016,12 +1062,14 @@ export async function generateTechnicalTakeawaysAsync(
     let p2 = '';
     let p3 = '';
 
+    const topicVi = !hasVietnameseDiacritics(topicName) ? await translateTextFree(topicName, 'en', 'vi') : topicName;
+
     if (rawSentences[0]) {
       p1 = hasVietnameseDiacritics(rawSentences[0])
         ? rawSentences[0]
         : await translateTextFree(rawSentences[0], 'en', 'vi');
     } else {
-      p1 = `Tổng quan bối cảnh, sự kiện then chốt và các diễn biến công nghệ nổi bật được ghi nhận trong bài viết về ${topicName}.`;
+      p1 = `Tổng quan bối cảnh, sự kiện then chốt và các diễn biến công nghệ nổi bật được ghi nhận trong bài viết về ${topicVi}.`;
     }
 
     if (rawSentences[1]) {
@@ -1042,7 +1090,9 @@ export async function generateTechnicalTakeawaysAsync(
 
     return [p1, p2, p3];
   } else {
-    let p1 = rawSentences[0] || `Latest technical developments and key architecture overview regarding ${topicName}.`;
+    const topicEn = hasVietnameseDiacritics(topicName) ? await translateTextFree(topicName, 'vi', 'en') : topicName;
+
+    let p1 = rawSentences[0] || `Latest technical developments and key architecture overview regarding ${topicEn}.`;
     let p2 = rawSentences[1] || insightsEn.tech;
     let p3 = rawSentences[2] || insightsEn.impact;
 

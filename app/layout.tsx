@@ -1,6 +1,21 @@
 import type { Metadata } from 'next';
+import { Plus_Jakarta_Sans, JetBrains_Mono } from 'next/font/google';
 import './globals.css';
 import { BilingualProvider } from '@/components/BilingualContext';
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+  subsets: ['latin', 'vietnamese'],
+  weight: ['400', '500', '600', '700', '800'],
+  variable: '--font-sans',
+  display: 'swap',
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-mono',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: 'ClearWind Tech News - Bản Tin Công Nghệ & IT Tinh Gọn 24/7',
@@ -49,12 +64,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="vi" suppressHydrationWarning>
-      <body className="antialiased selection:bg-purple-brand selection:text-white relative bg-canvas text-body">
+    <html
+      lang="vi"
+      suppressHydrationWarning
+      className={`${plusJakartaSans.variable} ${jetbrainsMono.variable}`}
+    >
+      <body className="antialiased selection:bg-emerald-500 selection:text-white relative bg-canvas text-body font-sans">
         <div className="daily-hero-gradient" />
-        <BilingualProvider>
-          {children}
-        </BilingualProvider>
+        <BilingualProvider>{children}</BilingualProvider>
       </body>
     </html>
   );

@@ -3,9 +3,10 @@ import path from 'path';
 import { NewsDatabase, NewsDatabaseSchema } from '../types/news';
 import {
   evaluateITRelevance,
-  generateTechnicalTakeaways,
   generateTechnicalTakeawaysAsync,
   translateTitleToVietnameseAsync,
+  translateTitleToEnglishAsync,
+  hasVietnameseDiacritics,
   classifyCategory,
   getCuratedArticle,
 } from './it_translator';
@@ -26,9 +27,6 @@ const GENERIC_TEMPLATE_PHRASES = [
   'GitHub Copilot',
 ];
 
-const hasVietnameseDiacritics = (str?: string) =>
-  Boolean(str && /[àáảãạâầấẩẫậăằắẳẵặèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ]/i.test(str));
-
 export async function cleanNewsDatabase() {
   console.log('[Clean DB] Reading data/news.json...');
   if (!fs.existsSync(DATA_FILE)) {
@@ -48,7 +46,7 @@ export async function cleanNewsDatabase() {
 
   for (const article of db.articles) {
     const title = article.originalTitle || article.title_vi;
-    const content = article.contentSnippet || article.summary_vi.join(' ');
+    const content = article.contentSnippet || (article.summary_vi ? article.summary_vi.join(' ') : '');
 
     // 1. Evaluate IT Relevance
     const relevance = evaluateITRelevance(title, content);
@@ -59,20 +57,38 @@ export async function cleanNewsDatabase() {
       continue;
     }
 
-    // 2. Check for navigation junk or boilerplate template in summary
-    const hasGenericTemplate = article.summary_vi.some((line) =>
+    // 2. Check for boilerplate templates in summaries
+    const hasGenericTemplate = (article.summary_vi ?? []).some((line) =>
       GENERIC_TEMPLATE_PHRASES.some((phrase) => line.includes(phrase))
     );
 
-    const isEnglishOnlyTitle =
+    // 3. Check for language mismatches
+    const isVietnameseInTitleEn =
+      hasVietnameseDiacritics(article.title_en) ||
+      (hasVietnameseDiacritics(article.title_vi) && article.title_en === article.title_vi);
+
+    const isVietnameseInSummaryEn =
+      !article.summary_en ||
+      article.summary_en.length < 3 ||
+      article.summary_en.some((line) => hasVietnameseDiacritics(line));
+
+    const isEnglishInTitleVi =
       article.sourceOrigin === 'global' && !hasVietnameseDiacritics(article.title_vi);
 
-    const isEnglishOnlySummary =
-      article.sourceOrigin === 'global' &&
-      article.summary_vi.some((line) => !hasVietnameseDiacritics(line));
+    const isEnglishInSummaryVi =
+      !article.summary_vi ||
+      article.summary_vi.length < 3 ||
+      (article.sourceOrigin === 'global' &&
+        article.summary_vi.some((line) => !hasVietnameseDiacritics(line)));
 
-    if (hasGenericTemplate || isEnglishOnlyTitle || isEnglishOnlySummary) {
-      console.log(`[Clean DB] 🧹 Translating & cleaning article: "${article.title_vi}"`);
+    const needsUpdate =
+      hasGenericTemplate ||
+      isVietnameseInTitleEn ||
+      isVietnameseInSummaryEn ||
+      isEnglishInTitleVi ||
+      isEnglishInSummaryVi;
+
+    if (needsUpdate) {
       const curated = getCuratedArticle(title, content);
       if (curated) {
         article.title_vi = curated.title_vi;
@@ -82,14 +98,29 @@ export async function cleanNewsDatabase() {
         article.category = curated.category;
         article.tags = curated.tags;
       } else {
-        const cat = classifyCategory(title, content);
+        const cat = classifyCategory(title, content) ?? article.category ?? 'Tech Trends & Startups';
         article.category = cat;
-        if (isEnglishOnlyTitle) {
+
+        // Fix Vietnamese title if missing
+        if (isEnglishInTitleVi) {
           article.title_vi = await translateTitleToVietnameseAsync(article.originalTitle || article.title_vi);
         }
-        article.summary_vi = await generateTechnicalTakeawaysAsync(article.title_vi, content, cat, 'vi');
-        article.summary_en = await generateTechnicalTakeawaysAsync(article.title_en, content, cat, 'en');
+
+        // Fix English title if missing or identical to Vietnamese
+        if (isVietnameseInTitleEn) {
+          article.title_en = await translateTitleToEnglishAsync(article.originalTitle || article.title_vi);
+        }
+
+        // Fix summaries to be pure 3-point technical takeaways in respective languages
+        if (isEnglishInSummaryVi || hasGenericTemplate) {
+          article.summary_vi = await generateTechnicalTakeawaysAsync(article.title_vi, content, cat, 'vi');
+        }
+
+        if (isVietnameseInSummaryEn || hasGenericTemplate) {
+          article.summary_en = await generateTechnicalTakeawaysAsync(article.title_en, content, cat, 'en');
+        }
       }
+      console.log(`[Clean DB] 🌐 Harmonized bilingual content for: "${article.title_vi.substring(0, 45)}..." -> EN: "${article.title_en.substring(0, 45)}..."`);
       updatedCount++;
     }
 
@@ -111,7 +142,7 @@ export async function cleanNewsDatabase() {
   fs.writeFileSync(DATA_FILE, JSON.stringify(updatedDb, null, 2), 'utf-8');
   console.log(`[Clean DB Success] Finished!`);
   console.log(` - Removed non-IT articles: ${removedCount}`);
-  console.log(` - Refactored template summaries: ${updatedCount}`);
+  console.log(` - Harmonized bilingual articles: ${updatedCount}`);
   console.log(` - Total remaining IT articles in DB: ${cleanedArticles.length}`);
 }
 

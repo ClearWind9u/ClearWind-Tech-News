@@ -10,10 +10,16 @@ module.exports = {
     extend: {
       colors: {
         dark: {
-          bg: '#0B0E14',
-          card: '#121722',
-          hover: '#171E2C',
-          subtle: '#080A0F',
+          bg: '#090A0F',
+          card: '#11141E',
+          hover: '#161B29',
+          subtle: '#0D1018',
+        },
+        light: {
+          bg: '#F8FAFC',
+          card: '#FFFFFF',
+          hover: '#F1F5F9',
+          subtle: '#F1F5F9',
         },
         emerald: {
           DEFAULT: '#10B981',
@@ -33,8 +39,9 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ['"Be Vietnam Pro"', 'Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
-        mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
+        sans: ['var(--font-sans)', '"Plus Jakarta Sans"', 'Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+        display: ['var(--font-sans)', '"Plus Jakarta Sans"', 'Inter', '-apple-system', 'sans-serif'],
+        mono: ['var(--font-mono)', '"JetBrains Mono"', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
       },
       borderRadius: {
         xs: '8px',
@@ -47,11 +54,16 @@ module.exports = {
       },
       animation: {
         'fade-in': 'fadeIn 0.2s ease-out forwards',
+        shimmer: 'shimmer 1.8s infinite linear',
       },
       keyframes: {
         fadeIn: {
           '0%': { opacity: '0', transform: 'translateY(4px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        shimmer: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(100%)' },
         },
       },
     },

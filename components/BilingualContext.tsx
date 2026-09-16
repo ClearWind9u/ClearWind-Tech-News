@@ -228,8 +228,10 @@ export function BilingualProvider({ children }: { children: React.ReactNode }) {
     if (savedTheme === 'light') {
       setIsDark(false);
       document.documentElement.classList.add('light');
+      document.documentElement.classList.remove('dark');
     } else {
       setIsDark(true);
+      document.documentElement.classList.add('dark');
       document.documentElement.classList.remove('light');
     }
   }, []);
@@ -306,10 +308,12 @@ export function BilingualProvider({ children }: { children: React.ReactNode }) {
     setIsDark((prev) => {
       const next = !prev;
       if (next) {
+        document.documentElement.classList.add('dark');
         document.documentElement.classList.remove('light');
         localStorage.setItem('tech_news_theme', 'dark');
       } else {
         document.documentElement.classList.add('light');
+        document.documentElement.classList.remove('dark');
         localStorage.setItem('tech_news_theme', 'light');
       }
       return next;
