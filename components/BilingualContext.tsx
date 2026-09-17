@@ -5,7 +5,7 @@ import { TimeFilterOption } from '../types/news';
 
 export type Language = 'vi' | 'en';
 export type ViewMode = 'grid' | 'compact';
-export type SortOption = 'latest' | 'trending' | 'unread' | 'saved';
+export type SortOption = 'latest' | 'trending' | 'forYou' | 'unread' | 'saved';
 
 interface Translations {
   appName: string;
@@ -41,18 +41,41 @@ interface Translations {
   fontSize: string;
   tabLatest: string;
   tabTrending: string;
+  tabForYou: string;
   tabUnread: string;
   tabSaved: string;
+  relatedArticles: string;
+  forYouBadge: string;
   markAllRead: string;
   unreadCount: string;
   readLater: string;
   unreadBadge: string;
   timeFilterLabel: string;
+  timeHorizon: string;
   timeAll: string;
   time24h: string;
   time3d: string;
   time7d: string;
   timeArchived: string;
+  archive: string;
+  readTimeFilter: string;
+  readQuick: string;
+  readMedium: string;
+  readDeep: string;
+  hotTrending: string;
+  hotSuper: string;
+  itemsPerPage: string;
+  pageIndicator: string;
+  resetFilters: string;
+  filterByMonth: string;
+  allMonths: string;
+  filters: string;
+  activeFilters: string;
+  searchInlinePlaceholder: string;
+  sourceOrigin: string;
+  hotnessLevel: string;
+  techTags: string;
+  articlesCount: string;
 }
 
 const translationsDict: Record<Language, Translations> = {
@@ -90,18 +113,41 @@ const translationsDict: Record<Language, Translations> = {
     fontSize: 'Cỡ chữ',
     tabLatest: 'Mới nhất',
     tabTrending: 'Nổi bật',
+    tabForYou: 'Dành cho bạn',
     tabUnread: 'Chưa đọc',
     tabSaved: 'Xem lại sau',
+    relatedArticles: 'Có thể bạn quan tâm',
+    forYouBadge: 'Gợi ý AI',
     markAllRead: 'Đánh dấu đã đọc',
     unreadCount: 'bài chưa đọc',
     readLater: 'Lưu xem sau',
     unreadBadge: 'Mới',
     timeFilterLabel: 'Thời gian:',
+    timeHorizon: 'Thời gian đăng',
     timeAll: 'Tất cả',
     time24h: '24 giờ qua',
     time3d: '3 ngày qua',
     time7d: '7 ngày gần đây',
     timeArchived: 'Lưu trữ cũ (> 7 ngày)',
+    archive: 'Kho lưu trữ',
+    readTimeFilter: 'Thời lượng đọc',
+    readQuick: '< 3p (Đọc nhanh)',
+    readMedium: '3 - 6p (Tiêu chuẩn)',
+    readDeep: '> 6p (Chuyên sâu)',
+    hotTrending: 'Thịnh hành (>=85)',
+    hotSuper: 'Chấn động (>=90)',
+    itemsPerPage: 'Số lượng/trang',
+    pageIndicator: 'Trang',
+    resetFilters: 'Đặt lại bộ lọc',
+    filterByMonth: 'Lọc theo tháng',
+    allMonths: 'Tất cả các tháng',
+    filters: 'Bộ lọc',
+    activeFilters: 'Đang áp dụng',
+    searchInlinePlaceholder: 'Tìm kiếm tin tức hoặc nhấn / để gõ...',
+    sourceOrigin: 'Nguồn tin & Khu vực',
+    hotnessLevel: 'Mức độ quan tâm',
+    techTags: 'Tags công nghệ',
+    articlesCount: 'bản tin',
   },
   en: {
     appName: 'ClearWind Tech',
@@ -137,18 +183,41 @@ const translationsDict: Record<Language, Translations> = {
     fontSize: 'Font Size',
     tabLatest: 'Latest',
     tabTrending: 'Trending',
+    tabForYou: 'For You',
     tabUnread: 'Unread',
     tabSaved: 'Read Later',
+    relatedArticles: 'You Might Also Like',
+    forYouBadge: 'AI Pick',
     markAllRead: 'Mark all as read',
     unreadCount: 'unread',
     readLater: 'Read later',
     unreadBadge: 'New',
     timeFilterLabel: 'Timeframe:',
+    timeHorizon: 'Published Time',
     timeAll: 'All Time',
     time24h: 'Last 24h',
     time3d: 'Last 3 Days',
     time7d: 'Last 7 Days',
     timeArchived: 'Archived (> 7 Days)',
+    archive: 'Archive',
+    readTimeFilter: 'Reading Time',
+    readQuick: '< 3m (Quick)',
+    readMedium: '3 - 6m (Standard)',
+    readDeep: '> 6m (In-depth)',
+    hotTrending: 'Trending (>=85)',
+    hotSuper: 'Breaking (>=90)',
+    itemsPerPage: 'Items/page',
+    pageIndicator: 'Page',
+    resetFilters: 'Reset filters',
+    filterByMonth: 'Filter by month',
+    allMonths: 'All months',
+    filters: 'Filters',
+    activeFilters: 'Active Filters',
+    searchInlinePlaceholder: 'Search news or press / to filter...',
+    sourceOrigin: 'Source Origin',
+    hotnessLevel: 'Hotness Level',
+    techTags: 'Tech Tags',
+    articlesCount: 'articles',
   },
 };
 
@@ -236,19 +305,19 @@ export function BilingualProvider({ children }: { children: React.ReactNode }) {
     }
   }, []);
 
-  const setLang = (newLang: Language) => {
+  const setLang = useCallback((newLang: Language) => {
     setLangState(newLang);
     localStorage.setItem('tech_news_lang', newLang);
-  };
+  }, []);
 
-  const setViewMode = (mode: ViewMode) => {
+  const setViewMode = useCallback((mode: ViewMode) => {
     setViewModeState(mode);
     localStorage.setItem('tech_news_view', mode);
-  };
+  }, []);
 
-  const setTimeFilter = (newTime: TimeFilterOption) => {
+  const setTimeFilter = useCallback((newTime: TimeFilterOption) => {
     setTimeFilterState(newTime);
-  };
+  }, []);
 
   const toggleBookmark = useCallback((id: string) => {
     setBookmarks((prev) => {
@@ -304,7 +373,7 @@ export function BilingualProvider({ children }: { children: React.ReactNode }) {
 
   const isUpvoted = useCallback((id: string) => !!upvotes[id], [upvotes]);
 
-  const toggleTheme = () => {
+  const toggleTheme = useCallback(() => {
     setIsDark((prev) => {
       const next = !prev;
       if (next) {
@@ -318,7 +387,7 @@ export function BilingualProvider({ children }: { children: React.ReactNode }) {
       }
       return next;
     });
-  };
+  }, []);
 
   return (
     <BilingualContext.Provider

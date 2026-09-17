@@ -78,29 +78,44 @@ export interface NewsSummaryOutput {
 
 ---
 
-## 3. Post-Parse Bilingual Validation Guards (3 lớp bắt buộc)
+## 3. Post-Parse Bilingual Validation Guards (4 lớp bắt buộc)
 
-Sau khi parse JSON từ Gemini, **PHẢI** chạy 3 guard theo thứ tự trước khi accept kết quả:
+Sau khi parse JSON từ Gemini hoặc crawler, **BẮT BUỘC** chạy qua `ensureStrictBilingualQuality` theo 4 guard nghiêm ngặt:
 
 ```typescript
-// Guard 1: title_vi ≠ title_en (với tin quốc tế)
-if (!isVietnamSource && parsed.title_vi === parsed.title_en) {
-  parsed.title_vi = await translateTitleToVietnameseAsync(parsed.title_en);
+// Guard 1: title_vi PHẢI có dấu tiếng Việt và khác title_en (với tin quốc tế)
+const titleViHasVi = hasVietnameseDiacritics(candidate.title_vi);
+const titleViSameAsEn = candidate.title_vi.trim().toLowerCase() === candidate.title_en.trim().toLowerCase();
+if (!titleViHasVi || (!isVietnamSource && titleViSameAsEn)) {
+  candidate.title_vi = await translateTitleToVietnameseAsync(candidate.title_en || rawTitle);
 }
 
-// Guard 2: summary_vi PHẢI có dấu tiếng Việt
-const hasViDiacritics = parsed.summary_vi?.some(s => hasVietnameseDiacritics(s));
-if (!hasViDiacritics) {
-  parsed.summary_vi = await generateTechnicalTakeawaysAsync(
-    parsed.title_vi, fullText, parsed.category, 'vi'
+// Guard 2: title_en KHÔNG được chứa dấu tiếng Việt
+if (hasVietnameseDiacritics(candidate.title_en) || !candidate.title_en) {
+  candidate.title_en = await translateTitleToEnglishAsync(candidate.title_vi || rawTitle);
+}
+
+// Guard 3: summary_vi PHẢI gồm đúng 3 câu, và MỌI CÂU đều phải có dấu tiếng Việt
+const isSummaryViValid =
+  Array.isArray(candidate.summary_vi) &&
+  candidate.summary_vi.length === 3 &&
+  candidate.summary_vi.every((s) => hasVietnameseDiacritics(s));
+
+if (!isSummaryViValid) {
+  candidate.summary_vi = await generateTechnicalTakeawaysAsync(
+    candidate.title_vi, contextSnippet, candidate.category, 'vi'
   );
 }
 
-// Guard 3: summary_en KHÔNG được có dấu tiếng Việt
-const hasViInEn = parsed.summary_en?.some(s => hasVietnameseDiacritics(s));
-if (hasViInEn) {
-  parsed.summary_en = await generateTechnicalTakeawaysAsync(
-    parsed.title_en, fullText, parsed.category, 'en'
+// Guard 4: summary_en PHẢI gồm đúng 3 câu, và MỌI CÂU KHÔNG ĐƯỢC có dấu tiếng Việt
+const isSummaryEnValid =
+  Array.isArray(candidate.summary_en) &&
+  candidate.summary_en.length === 3 &&
+  candidate.summary_en.every((s) => !hasVietnameseDiacritics(s));
+
+if (!isSummaryEnValid) {
+  candidate.summary_en = await generateTechnicalTakeawaysAsync(
+    candidate.title_en, contextSnippet, candidate.category, 'en'
   );
 }
 ```
@@ -109,14 +124,15 @@ if (hasViInEn) {
 
 ## 4. Hacker News Context Strategy
 
-HN stories thường thiếu body text — KHÔNG dùng placeholder "Top trending discussion with X points" làm context.
-Thay vào đó, dùng template phong phú hơn:
-
-```typescript
-const hnContext = `Hacker News top story: "${rawTitle}". Score: ${item.score} points, ${item.descendants} comments. Category: Tech discussion, programming, open-source.`;
-// → Gemini sẽ cào thêm fullText từ URL nếu hnContext < 150 ký tự
-// → Tránh hoàn toàn việc summary_vi bị lẫn câu tiếng Anh từ placeholder
-```
+HN stories thường thiếu body text trên Firebase API:
+1. Luôn chủ động gọi `fetchFullArticleText(item.url)` để cào nội dung bài báo gốc từ trang đích.
+2. Nếu trang đích không cào được hoặc bị chặn, tuyệt đối **KHÔNG** truyền chuỗi meta thô như `"Score: 282 points, 51 comments. Category: Tech discussion..."` vì AI sẽ dịch máy nguyên văn điểm số thay vì phân tích nội dung kỹ thuật.
+3. Thay vào đó, tổng hợp context kỹ thuật chuẩn:
+   ```typescript
+   const hnContext = articleBody && articleBody.length >= 100
+     ? articleBody
+     : `Chủ đề thảo luận kỹ thuật phần mềm và công nghệ cao cấp: "${rawTitle}". Thảo luận kiến trúc hệ thống và mã nguồn mở trên Hacker News.`;
+   ```
 
 ---
 
@@ -129,7 +145,7 @@ const hnContext = `Hacker News top story: "${rawTitle}". Score: ${item.score} po
 
   *(Không dùng preview thử nghiệm như gemini-3.8-flash — hay gặp lỗi 503 No capacity)*.
 
-- **Intelligent IT Fallback Engine**: Tự động kích hoạt `generateTechnicalTakeawaysAsync()` nếu API lỗi.
+- **Intelligent IT Fallback Engine**: Tự động kích hoạt `generateTechnicalTakeawaysAsync()` với đa kênh dịch (Google Translate Mobile + Extension + MyMemory) nếu API lỗi.
 - **Cấu hình generation**: `temperature: 0.2`, `responseMimeType: "application/json"`.
 - **Full Context Extraction**: Nếu RSS description < 150 ký tự, tự động cào HTML bài gốc (`fetchFullArticleText`) trước khi gọi Gemini.
 
@@ -137,10 +153,9 @@ const hnContext = `Hacker News top story: "${rawTitle}". Score: ${item.score} po
 
 ## 6. Zero-Tolerance Checklist (QA cuối pipeline)
 
-- [ ] `title_vi ≠ title_en` — bắt buộc với mọi bài gốc tiếng Anh
-- [ ] `title_en` không chứa dấu tiếng Việt — kiểm tra bằng `hasVietnameseDiacritics()`
-- [ ] `summary_vi` chứa ít nhất 1 chuỗi có dấu tiếng Việt (ă, â, đ, ê...)
-- [ ] `summary_en` không có bất kỳ chuỗi nào chứa dấu tiếng Việt
-- [ ] Mỗi array `summary_vi` và `summary_en` có đúng 3 phần tử
-- [ ] Mỗi phần tử đạt 25–45 từ, không dùng câu rập khuôn chung chung
+- [ ] `title_vi` có dấu tiếng Việt hợp lệ 100% — bắt buộc với mọi bài gốc tiếng Anh
+- [ ] `title_en` không chứa bất kỳ dấu tiếng Việt nào — kiểm tra bằng `hasVietnameseDiacritics()`
+- [ ] `summary_vi` gồm 3 phần tử, `every()` phần tử đều có dấu tiếng Việt
+- [ ] `summary_en` gồm 3 phần tử, `every()` phần tử đều là tiếng Anh thuần túy
+- [ ] Mỗi phần tử đạt 20–45 từ, không chứa câu meta rập khuôn ("Hacker News top story...", "Score: X points...")
 

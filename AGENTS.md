@@ -28,3 +28,14 @@ Chào mừng bạn đến với dự án **ClearWind Tech News (Báo Công ngh�
 - **`develop` (Active Development)**: Nhánh làm việc chính thức cho mọi tính năng và coding hàng ngày. Toàn bộ code phát triển đều commit và push trực tiếp trên `develop`.
 - **`feature/<name>` (Major Features)**: Khi có tính năng lớn, rẽ nhánh từ `develop`, tạo PR merge vào `develop`, sau đó xóa nhánh feature.
 - **`main` (Production)**: Nhánh chạy production thực tế, tự động nhận bản merge từ `develop` định kỳ 1 tuần/lần qua GitHub Actions cronjob (`.github/workflows/weekly_merge_develop_to_main.yml`).
+
+## 5. Quy Chuẩn Bất Biến Phải Bảo Toàn (Project Invariants)
+*Xem chi tiết và cập nhật tại `INVARIANTS.md` và skill `project-invariants-keeper`*:
+- **Dark / Light Mode**: Mọi component phải hỗ trợ cả 2 theme (`.dark` class), không hardcode màu chết.
+- **Song ngữ VI/EN 100%**: Mọi nhãn chữ phải qua `t.<key>` trong `BilingualContext.tsx`, không hardcode text thô.
+- **Thư viện Icon Lucide**: 100% dùng `lucide-react`, **CẤM TUYỆT ĐỐI** chèn emoji thô vào JSX làm icon.
+- **Tìm kiếm Duy nhất**: Chỉ dùng Spotlight Search (`⌘K`) trên Navbar, không tạo thêm ô search trùng lặp dưới Feed.
+- **Zero Login Friction**: Độc giả dùng đầy đủ tính năng lưu tin, gợi ý tin không cần tài khoản (qua `localStorage`).
+- **Chi phí 0đ**: 100% Free Tier (Vercel, Git-as-DB, GitHub Actions cron).
+- **Rà soát Link Hàng Ngày**: Chạy job 03:00 sáng tự động gỡ bỏ link 404/deleted với chốt an toàn 20%.
+

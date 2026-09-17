@@ -9,6 +9,11 @@ import {
   Heart,
   Zap,
   ArrowUpRight,
+  Cpu,
+  Terminal,
+  Cloud,
+  ShieldCheck,
+  Smartphone,
 } from 'lucide-react';
 
 interface NewsCardProps {
@@ -16,51 +21,56 @@ interface NewsCardProps {
   onSelectArticle: (article: NewsItem) => void;
 }
 
-// Editorial Category Monograms & Badges (Inspired by The Verge & Wired typography)
-const CATEGORY_META: Record<
-  string,
-  {
-    acronym: string;
-    accentClass: string;
-    lightPattern: string;
-    darkPattern: string;
-  }
-> = {
+interface CategoryTheme {
+  acronym: string;
+  icon: React.ComponentType<{ className?: string }>;
+  chipClass: string;
+  glowClass: string;
+  bgGradient: string;
+}
+
+const CATEGORY_THEMES: Record<string, CategoryTheme> = {
   'AI & Machine Learning': {
-    acronym: 'AI / ML',
-    accentClass: 'text-purple-600 dark:text-purple-400 border-purple-500/30 bg-purple-500/10',
-    lightPattern: 'from-purple-50 via-slate-50 to-indigo-50',
-    darkPattern: 'from-purple-950/40 via-[#0E121B] to-slate-900',
+    acronym: 'AI / MACHINE LEARNING',
+    icon: Cpu,
+    chipClass: 'bg-purple-500/15 text-purple-600 dark:text-purple-300 border-purple-500/30',
+    glowClass: 'bg-purple-500/25',
+    bgGradient: 'bg-gradient-to-br from-purple-950/40 via-slate-900/80 to-slate-950 dark:from-purple-950/50 dark:via-[#0D101B] dark:to-[#07090F]',
   },
   'Software Engineering': {
-    acronym: 'DEV / SYS',
-    accentClass: 'text-emerald-600 dark:text-emerald-400 border-emerald-500/30 bg-emerald-500/10',
-    lightPattern: 'from-emerald-50 via-slate-50 to-teal-50',
-    darkPattern: 'from-emerald-950/40 via-[#0E121B] to-slate-900',
+    acronym: 'SOFTWARE ARCHITECTURE',
+    icon: Terminal,
+    chipClass: 'bg-emerald-500/15 text-emerald-600 dark:text-emerald-300 border-emerald-500/30',
+    glowClass: 'bg-emerald-500/25',
+    bgGradient: 'bg-gradient-to-br from-emerald-950/40 via-slate-900/80 to-slate-950 dark:from-emerald-950/50 dark:via-[#0D101B] dark:to-[#07090F]',
   },
   'DevOps & Cloud': {
-    acronym: 'CLOUD / SRE',
-    accentClass: 'text-blue-600 dark:text-blue-400 border-blue-500/30 bg-blue-500/10',
-    lightPattern: 'from-blue-50 via-slate-50 to-indigo-50',
-    darkPattern: 'from-blue-950/40 via-[#0E121B] to-slate-900',
+    acronym: 'DEVOPS & CLOUD INFRA',
+    icon: Cloud,
+    chipClass: 'bg-sky-500/15 text-sky-600 dark:text-sky-300 border-sky-500/30',
+    glowClass: 'bg-sky-500/25',
+    bgGradient: 'bg-gradient-to-br from-sky-950/40 via-slate-900/80 to-slate-950 dark:from-sky-950/50 dark:via-[#0D101B] dark:to-[#07090F]',
   },
   'Cybersecurity': {
-    acronym: 'SEC / DEF',
-    accentClass: 'text-red-600 dark:text-red-400 border-red-500/30 bg-red-500/10',
-    lightPattern: 'from-rose-50 via-slate-50 to-orange-50',
-    darkPattern: 'from-red-950/40 via-[#0E121B] to-slate-900',
+    acronym: 'CYBERSECURITY & DEFENSE',
+    icon: ShieldCheck,
+    chipClass: 'bg-rose-500/15 text-rose-600 dark:text-rose-300 border-rose-500/30',
+    glowClass: 'bg-rose-500/25',
+    bgGradient: 'bg-gradient-to-br from-rose-950/40 via-slate-900/80 to-slate-950 dark:from-rose-950/50 dark:via-[#0D101B] dark:to-[#07090F]',
   },
   'Mobile & Web': {
-    acronym: 'CLIENT / WEB',
-    accentClass: 'text-cyan-600 dark:text-cyan-400 border-cyan-500/30 bg-cyan-500/10',
-    lightPattern: 'from-cyan-50 via-slate-50 to-sky-50',
-    darkPattern: 'from-cyan-950/40 via-[#0E121B] to-slate-900',
+    acronym: 'WEB & MOBILE ECOSYSTEM',
+    icon: Smartphone,
+    chipClass: 'bg-cyan-500/15 text-cyan-600 dark:text-cyan-300 border-cyan-500/30',
+    glowClass: 'bg-cyan-500/25',
+    bgGradient: 'bg-gradient-to-br from-cyan-950/40 via-slate-900/80 to-slate-950 dark:from-cyan-950/50 dark:via-[#0D101B] dark:to-[#07090F]',
   },
   'Tech Trends & Startups': {
-    acronym: 'VENTURE / IT',
-    accentClass: 'text-amber-600 dark:text-amber-400 border-amber-500/30 bg-amber-500/10',
-    lightPattern: 'from-amber-50 via-slate-50 to-orange-50',
-    darkPattern: 'from-amber-950/40 via-[#0E121B] to-slate-900',
+    acronym: 'VENTURE & TECH TRENDS',
+    icon: Zap,
+    chipClass: 'bg-amber-500/15 text-amber-600 dark:text-amber-300 border-amber-500/30',
+    glowClass: 'bg-amber-500/25',
+    bgGradient: 'bg-gradient-to-br from-amber-950/40 via-slate-900/80 to-slate-950 dark:from-amber-950/50 dark:via-[#0D101B] dark:to-[#07090F]',
   },
 };
 
@@ -89,7 +99,8 @@ export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) 
   const categoryLabel = getCategoryLabel(article.category, lang);
   const upvoteCount = (article.upvotes || 0) + (isUpvoted(article.id) ? 1 : 0);
   const read = isRead(article.id);
-  const meta = CATEGORY_META[article.category] ?? CATEGORY_META['Tech Trends & Startups'];
+  const theme = CATEGORY_THEMES[article.category] ?? CATEGORY_THEMES['Tech Trends & Startups'];
+  const IconComponent = theme.icon;
 
   const handleCardClick = () => {
     markAsRead(article.id);
@@ -105,7 +116,7 @@ export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) 
     >
       <div className="flex flex-col flex-1">
         {/* Visual Media Header (16:9 Thumbnail or Typographic Monogram) */}
-        <div className="w-full aspect-[16/9] mb-3.5 rounded-xl overflow-hidden bg-slate-100 dark:bg-[#090A0F] border border-slate-200/80 dark:border-white/[0.06] shrink-0 relative">
+        <div className="w-full aspect-[16/9] mb-3.5 rounded-xl overflow-hidden bg-slate-900 dark:bg-[#080A10] border border-slate-200/80 dark:border-white/[0.06] shrink-0 relative">
           {article.thumbnailUrl ? (
             <img
               src={article.thumbnailUrl}
@@ -116,35 +127,42 @@ export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) 
             />
           ) : (
             <div
-              className={`w-full h-full bg-gradient-to-br ${meta.lightPattern} dark:${meta.darkPattern} flex flex-col items-center justify-center relative p-4 text-center overflow-hidden`}
+              className={`w-full h-full ${theme.bgGradient} flex flex-col items-center justify-center relative p-4 text-center overflow-hidden`}
             >
+              {/* Subtle ambient radiant glow orb */}
               <div
-                className="absolute inset-0 opacity-15 dark:opacity-10 bg-[radial-gradient(#000000_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:16px_16px]"
+                className={`absolute w-32 h-32 rounded-full ${theme.glowClass} blur-2xl pointer-events-none opacity-70`}
                 aria-hidden="true"
               />
-              <div className="relative z-10 flex flex-col items-center gap-1">
-                <span className="font-mono text-2xl font-black tracking-tight text-slate-800/80 dark:text-white/80 group-hover:tracking-widest transition-all duration-300">
-                  {meta.acronym}
+              {/* High-tech subtle dot grid */}
+              <div
+                className="absolute inset-0 opacity-25 dark:opacity-20 bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:14px_14px]"
+                aria-hidden="true"
+              />
+
+              {/* Centered Modern Tech Icon & Category Acronym */}
+              <div className="relative z-10 flex flex-col items-center gap-2">
+                <div
+                  className={`w-11 h-11 rounded-2xl flex items-center justify-center border shadow-inner ${theme.chipClass} group-hover:scale-110 transition-transform duration-300`}
+                >
+                  <IconComponent className="w-5 h-5" />
+                </div>
+                <span className="font-mono text-[10.5px] font-extrabold tracking-wider text-white uppercase px-2.5 py-0.5 rounded-md bg-black/60 dark:bg-black/50 backdrop-blur-md border border-white/10 shadow-xs">
+                  {theme.acronym}
                 </span>
               </div>
             </div>
           )}
 
-          {/* Floating Pill Badges (Hot Score & Unread Pulse) */}
-          <div className="absolute top-2.5 left-2.5 right-2.5 flex items-center justify-between pointer-events-none">
-            <div className="flex items-center gap-1.5">
-              {!read && (
-                <span
-                  className="w-2 h-2 rounded-full bg-emerald-500 shrink-0 animate-pulse shadow-sm"
-                  title={t.unreadBadge}
-                />
-              )}
+          {/* Floating Pill Badge (Unread Dot) */}
+          {!read && (
+            <div className="absolute top-2.5 left-2.5 flex items-center pointer-events-none">
+              <span
+                className="w-2 h-2 rounded-full bg-emerald-500 shrink-0 shadow-xs"
+                title={t.unreadBadge}
+              />
             </div>
-
-            <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-slate-900/85 dark:bg-black/75 text-emerald-400 font-mono backdrop-blur-md border border-white/10 shadow-xs">
-              {article.hotScore} pts
-            </span>
-          </div>
+          )}
         </div>
 
         {/* Eyebrow Kicker: Source + Category (Uppercase Mono - The Verge style) */}

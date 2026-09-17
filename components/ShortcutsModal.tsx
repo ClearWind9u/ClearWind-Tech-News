@@ -21,6 +21,7 @@ export const ShortcutsModal: React.FC<ShortcutsModalProps> = ({ isOpen, onClose 
     { key: 'V', desc: 'Chuyển đổi chế độ xem Lưới / Danh sách' },
     { key: 'L', desc: 'Đổi ngôn ngữ Tiếng Việt / English' },
     { key: 'T', desc: 'Đổi chế độ sáng / tối' },
+    { key: '[ / ]', desc: 'Chuyển trang trước / trang sau' },
     { key: 'Esc', desc: 'Đóng cửa sổ / Modal' },
   ] : [
     { key: 'Ctrl + K', desc: 'Open instant search bar' },
@@ -29,6 +30,7 @@ export const ShortcutsModal: React.FC<ShortcutsModalProps> = ({ isOpen, onClose 
     { key: 'V', desc: 'Toggle Grid / Compact list view' },
     { key: 'L', desc: 'Toggle language Vietnamese / English' },
     { key: 'T', desc: 'Toggle Dark / Light theme' },
+    { key: '[ / ]', desc: 'Previous / Next page' },
     { key: 'Esc', desc: 'Close open dialogs / Modals' },
   ];
 

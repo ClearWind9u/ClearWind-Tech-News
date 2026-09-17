@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "fetch-news": "tsx scripts/fetch_news.ts",
-    "clean-db": "tsx scripts/clean_news_db.ts"
+    "clean-db": "tsx scripts/clean_news_db.ts",
+    "audit-links": "tsx scripts/audit_dead_links.ts"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.0",

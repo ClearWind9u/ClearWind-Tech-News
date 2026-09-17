@@ -69,7 +69,7 @@ export const NewsRowCompact: React.FC<NewsRowCompactProps> = ({ article, onSelec
       {/* Main Content */}
       <div className="flex-1 min-w-0">
         <div className="flex items-center gap-2 mb-1 flex-wrap">
-          {!read && <span className="w-2 h-2 rounded-full bg-emerald-500 shrink-0 animate-pulse" title={t.unreadBadge} />}
+          {!read && <span className="w-2 h-2 rounded-full bg-emerald-500 shrink-0" title={t.unreadBadge} />}
           <span className="text-[10px] font-semibold px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700">
             {article.sourceName}
           </span>
@@ -112,9 +112,6 @@ export const NewsRowCompact: React.FC<NewsRowCompactProps> = ({ article, onSelec
 
       {/* Right Actions */}
       <div className="flex items-center gap-2 shrink-0">
-        <div className="hidden sm:flex items-center gap-1 text-xs font-bold text-slate-500 dark:text-slate-400 font-mono">
-          <span>{article.hotScore} pts</span>
-        </div>
 
         <button
           type="button"

@@ -1,161 +1,108 @@
 # ClearWind Tech News
 
-Nền tảng tổng hợp, phân tích và tóm tắt tin tức công nghệ song ngữ (Việt - Anh) vận hành tự động 24/7. Dự án kết hợp Next.js 14, mô hình ngôn ngữ Google Gemini và cơ chế Git-as-Database để duy trì hệ thống cập nhật liên tục với chi phí vận hành 0đ.
+Nền tảng tổng hợp và tóm tắt tin tức công nghệ song ngữ (Việt - Anh) vận hành tự động 24/7. Dự án kết hợp Next.js 14, Google Gemini Flash và cơ chế Git-as-Database để duy trì cập nhật liên tục với chi phí vận hành 0đ.
 
 ---
 
-## 🏛️ Kiến trúc hệ thống (System Architecture)
+## Kiến trúc hệ thống
 
 ```mermaid
-flowchart TD
-    subgraph Automation ["1. Scheduler (0đ)"]
-        Cron["GitHub Actions Cron (2 giờ/lần)"]
-        Manual["Workflow Dispatch"]
-    end
-
-    subgraph Pipeline ["2. Data Engine & AI Processing"]
-        Crawler["Crawler (Dev.to, Hacker News, 7 RSS Feeds)"]
-        Dedup["Deduplication (SHA-256 URL Hash)"]
-        Filter["IT Relevance & Content Sanitizer"]
-        AI["Gemini Flash / Intelligent IT Fallback"]
-        Validate["Zod Schema Validation"]
-    end
-
-    subgraph Storage ["3. Storage Layer"]
-        GitDB["data/news.json (Git-as-Database)"]
-        RemoteDB["Supabase PostgreSQL (Tùy chọn)"]
-    end
-
-    subgraph Client ["4. Web App (Next.js 14)"]
-        Vercel["Vercel Edge / Static Site (SSG)"]
-        Reader["Giao diện: Bento Grid, Reader Mode, Bookmarks"]
-    end
-
-    Cron --> Crawler
-    Manual --> Crawler
-    Crawler --> Dedup --> Filter --> AI --> Validate
-    Validate --> GitDB & RemoteDB
-    GitDB -->|Auto Commit & Push| Vercel --> Reader
+flowchart LR
+    Cron["GitHub Actions Cron"] --> Crawler["Crawler Pipeline\n(RSS, Dev.to, Hacker News)"]
+    Crawler --> AI["Gemini Flash\n& IT Translation Chain"]
+    AI --> Store["data/news.json\n& data/archive/"]
+    Store --> Web["Next.js 14 Frontend\n(Vercel Edge / SSG)"]
 ```
 
----
-
-## 🚀 Tính năng cốt lõi
-
-- **Tự động hóa hoàn toàn 24/7**: Định kỳ mỗi 2 tiếng, GitHub Actions tự động cào tin từ 9 nguồn uy tín, phân tích nội dung, trích xuất điểm kỹ thuật cốt lõi và cập nhật trang web.
-- **Tóm tắt kỹ thuật 3 điểm vàng**: Phân tích bối cảnh, giải pháp kiến trúc/thông số kỹ thuật và bài học thực tiễn cho kỹ sư phần mềm; loại bỏ hoàn toàn các câu tóm tắt chung chung rập khuôn.
-- **Hỗ trợ song ngữ (Bilingual VI/EN)**: Tự động dịch tiêu đề và tóm tắt tin quốc tế sang tiếng Việt chuẩn thuật ngữ IT; hỗ trợ chuyển đổi nhanh giao diện giữa Tiếng Việt và Tiếng Anh.
-- **Bộ lọc IT & Chống cào rác (Sanitizer)**: Loại bỏ các thẻ điều hướng, menu quảng cáo, thông tin phi công nghệ (gia dụng, showbiz, xe xăng) để giữ dữ liệu thuần túy kỹ thuật.
-- **Fallback Engine độc lập (0đ chi phí)**: Khi API Gemini chạm giới hạn quota hoặc gián đoạn mạng, hệ thống tự động kích hoạt pipeline dịch thuật và sinh điểm nhấn chuyên ngành theo danh mục, đảm bảo tiến trình không bao giờ lỗi.
-- **Giao diện hiện đại phong cách Linear / Daily.dev**:
-  - Tông màu Dark mode cao cấp, bố cục Bento Grid kết hợp Compact View.
-  - Reader Mode tập trung với tùy chỉnh cỡ chữ và chia sẻ nhanh.
-  - Lưu bài viết (Bookmark) và Upvote tức thì vào `localStorage` không cần đăng nhập.
-  - Phím tắt tiện lợi: `Ctrl + K` (Tìm kiếm), `V` (Đổi chế độ xem), `L` (Đổi ngôn ngữ), `B` (Mở Bookmark).
+1. **Thu thập dữ liệu**: Tự động cào tin định kỳ từ các nguồn công nghệ uy tín (70% Việt Nam, 30% Quốc tế).
+2. **Xử lý nội dung**: Lọc bỏ nội dung phi công nghệ, trích xuất toàn văn, tóm tắt 3 điểm cốt lõi và dịch song ngữ chuẩn thuật ngữ IT.
+3. **Lưu trữ & Lập chỉ mục**: Phân vùng dữ liệu dài hạn theo tháng (`data/archive/YYYY-MM.json`) và tạo chỉ mục tìm kiếm siêu nhẹ (`data/search-index.json`).
+4. **Hiển thị**: Web tĩnh tối ưu SEO, tải trang tức thì, hỗ trợ đọc offline qua `localStorage`.
 
 ---
 
-## 🛠️ Công nghệ sử dụng (Tech Stack)
+## Tính năng chính
 
-| Thành phần | Công nghệ | Mục đích |
-| :--- | :--- | :--- |
-| **Framework** | Next.js 14 (App Router) | Server Components, SSG tối ưu SEO và tốc độ tải |
-| **Language** | TypeScript | Kiểm soát kiểu dữ liệu nghiêm ngặt toàn bộ dự án |
-| **Styling** | Tailwind CSS | Thiết kế giao diện hiện đại, responsive và dark mode |
-| **AI Engine** | Google Gemini API (`gemini-2.5-flash`, `2.0-flash`) | Phân tích bài viết, tóm tắt 3 điểm, gắn tag và chấm Hot Score |
-| **Data Engine** | `rss-parser`, Zod | Cào RSS/API, trích xuất nội dung và xác thực schema |
-| **Database** | `data/news.json` (Git-as-DB) | Lưu trữ an toàn, có version control, chi phí 0đ |
-| **CI/CD** | GitHub Actions | Cronjob chạy pipeline tự động và commit dữ liệu |
-| **Deployment** | Vercel | Hosting static web tốc độ cao trên Edge Network |
+- **Tự động hóa 24/7**: Chạy hoàn toàn tự động qua GitHub Actions, tự commit dữ liệu mới mà không cần can thiệp thủ công.
+- **Song ngữ hoàn chỉnh (VI / EN)**: Mọi bài viết đều có tiêu đề và 3 điểm tóm tắt kỹ thuật ở cả hai ngôn ngữ. Chuyển đổi ngôn ngữ chỉ với một phím bấm (`L`).
+- **Kho lưu trữ dài hạn & Tìm kiếm nhanh**: Không xóa tin cũ; hỗ trợ lọc theo chuyên mục, theo tháng phát hành và tìm kiếm tức thì qua Spotlight Modal (`Ctrl + K`).
+- **Trải nghiệm đọc tập trung**:
+  - Giao diện Dark mode tối giản phong cách Linear / Daily.dev.
+  - Reader Mode có thể tùy chỉnh kích thước chữ.
+  - Lưu bài viết (Bookmark) và đánh dấu đã đọc vào trình duyệt mà không cần tài khoản đăng nhập.
+  - Thumbnail dự phòng hiện đại với icon chuyên ngành và độ tương phản cao cho các bài không có ảnh.
 
 ---
 
-## 📡 Nguồn dữ liệu (Data Sources)
+## Công nghệ sử dụng
 
-Dự án cân đối tỉ lệ ~70% nguồn Việt Nam và ~30% nguồn quốc tế:
-
-- **Việt Nam**: VnExpress Số Hóa, GenK, Tinh Tế, VietNamNet ICT, Tuổi Trẻ Nhịp Sống Số, Viblo Tech.
-- **Quốc tế**: Dev.to (Official REST API), Hacker News (Firebase REST API), The Verge, Ars Technica.
+- **Frontend**: Next.js 14 (App Router), TypeScript, Tailwind CSS, Lucide Icons.
+- **AI & Dịch thuật**: Google Gemini API (`gemini-2.5-flash`), đa kênh dịch dự phòng Google Translate + MyMemory.
+- **Xử lý dữ liệu**: `rss-parser`, Zod Schema Validation, SHA-256 URL Deduplication.
+- **Lưu trữ & CI/CD**: Git-as-Database, GitHub Actions Workflow, Vercel Platform.
 
 ---
 
-## 💻 Cài đặt & Chạy cục bộ (Local Setup)
+## Cài đặt và chạy cục bộ
 
-### 1. Clone repository
+### 1. Clone mã nguồn và cài đặt dependencies
+
 ```bash
 git clone https://github.com/ClearWind9u/ClearWind-Tech-News.git
 cd ClearWind-Tech-News
-```
-
-### 2. Cài đặt thư viện
-```bash
 npm install
 ```
 
-### 3. Cấu hình biến môi trường (Tùy chọn)
-Tạo file `.env.local` ở thư mục gốc:
+### 2. Cấu hình biến môi trường (Tùy chọn)
+
+Tạo file `.env.local` ở thư mục gốc nếu muốn sử dụng Gemini API trực tiếp:
+
 ```env
-# Lấy miễn phí tại: https://aistudio.google.com/app/apikey
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
-*(Lưu ý: Nếu không cấu hình key, pipeline sẽ tự động sử dụng Fallback Engine để bạn vẫn chạy thử và phát triển giao diện bình thường).*
 
-### 4. Chạy kiểm thử pipeline & server
+*Lưu ý: Nếu không có API Key, hệ thống sẽ tự động sử dụng Fallback Translation Engine tích hợp sẵn để phục vụ phát triển giao diện.*
+
+### 3. Các lệnh thường dùng
+
 ```bash
-# Kiểm tra và dọn dẹp database
-npm run clean-db
+# Khởi chạy giao diện ở môi trường local
+npm run dev
 
-# Chạy crawler lấy tin mới
+# Chạy crawler cào và tóm tắt tin mới
 npm run fetch-news
 
-# Khởi động server phát triển
-npm run dev
+# Dọn dẹp và chuẩn hóa dữ liệu tin tức
+npm run clean-db
+
+# Kiểm tra kiểu dữ liệu và build ứng dụng
+npm run build
 ```
-Mở trình duyệt tại: `http://localhost:3000`
+
+Mở trình duyệt tại `http://localhost:3000` để xem kết quả.
 
 ---
 
-## 🚢 Triển khai (Deployment & Automation)
-
-### 1. Deploy lên Vercel
-1. Import repository vào tài khoản [Vercel](https://vercel.com).
-2. Chọn framework **Next.js** và nhấn **Deploy** (không cần cấu hình thêm).
-
-### 2. Cấu hình tự động hóa GitHub Actions
-1. Trên GitHub repo, vào **Settings** -> **Secrets and variables** -> **Actions** -> thêm Secret:
-   - `GEMINI_API_KEY`: API Key lấy từ Google AI Studio.
-2. Vào **Settings** -> **Actions** -> **General** -> mục **Workflow permissions**:
-   - Chọn **Read and write permissions** để workflow tự động commit dữ liệu mới.
-   - Nhấn **Save**.
-
-Sau khi cài đặt, GitHub Actions sẽ định kỳ chạy job cào tin và Vercel sẽ tự động build lại website tĩnh (SSG) trong vài chục giây.
-
----
-
-## 📁 Cấu trúc dự án
+## Cấu trúc thư mục
 
 ```text
-├── .agents/                           # AI Agent Skills & Quy chuẩn kiến trúc
-│   ├── rules/                         # Quy định về code quality, git flow, data integrity
-│   └── skills/                        # 8 Skills chuyên môn hóa (crawler, summarizer, UI/UX...)
-├── .github/workflows/
-│   ├── update_news.yml                # Cronjob tự động cào tin mỗi 2 tiếng
-│   └── weekly_merge_develop_to_main.yml # Tự động đồng bộ develop -> main
-├── app/                               # Next.js 14 App Router (Layout, Page, Styling)
-├── components/                        # UI Components (Bento Hero, NewsCard, ReaderModal...)
+├── .agents/          # Quy chuẩn kiến trúc, skills và prompt templates
+├── app/              # Next.js App Router (trang chủ, API routes, RSS feed)
+├── components/       # Các UI components (NewsCard, Spotlight, Modal, Filters)
 ├── data/
-│   └── news.json                      # Database tin tức (Git-as-Database)
-├── lib/                               # Data layer & helper kết nối Supabase/Local DB
-├── scripts/
-│   ├── fetch_news.ts                  # Pipeline cào RSS/API, trích xuất và tóm tắt tin
-│   ├── it_translator.ts               # Bộ dịch thuật IT và phân tích kỹ thuật dự phòng
-│   └── clean_news_db.ts               # Script kiểm tra, lọc tin phi-IT và chuẩn hóa DB
-└── types/
-    └── news.ts                        # Zod Schema & TypeScript interfaces
+│   ├── news.json     # Dữ liệu tin tức chính đang hiển thị
+│   ├── archive/      # Phân vùng lưu trữ theo tháng (YYYY-MM.json)
+│   └── search-index.json # Chỉ mục tìm kiếm nén
+├── lib/              # Logic truy xuất database và lưu trữ phân vùng
+├── scripts/          # Pipeline cào tin, bộ dịch IT và công cụ kiểm định
+└── types/            # Định nghĩa kiểu dữ liệu TypeScript và Zod schema
 ```
 
 ---
 
-## 📄 Giấy phép (License)
+## Triển khai
 
-Dự án được phát hành theo giấy phép [MIT License](LICENSE).
+1. **Frontend (Vercel)**: Kết nối repository với Vercel, framework Next.js sẽ được nhận diện và triển khai tự động.
+2. **Tự động hóa (GitHub Actions)**:
+   - Thêm secret `GEMINI_API_KEY` vào **Settings** -> **Secrets and variables** -> **Actions** (nếu có).
+   - Trong **Settings** -> **Actions** -> **General** -> **Workflow permissions**, chọn **Read and write permissions** để cronjob có quyền commit dữ liệu mới.

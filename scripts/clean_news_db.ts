@@ -9,6 +9,7 @@ import {
   hasVietnameseDiacritics,
   classifyCategory,
   getCuratedArticle,
+  decodeHtml,
 } from './it_translator';
 
 const DATA_FILE = path.join(__dirname, '..', 'data', 'news.json');
@@ -124,6 +125,25 @@ export async function cleanNewsDatabase() {
       updatedCount++;
     }
 
+    // 4. Sanitize HTML entities and whitespace across all text fields
+    article.title_vi = decodeHtml(article.title_vi);
+    article.title_en = decodeHtml(article.title_en);
+    if (article.originalTitle) {
+      article.originalTitle = decodeHtml(article.originalTitle);
+    }
+    if (article.contentSnippet) {
+      article.contentSnippet = decodeHtml(article.contentSnippet);
+    }
+    if (article.thumbnailUrl) {
+      article.thumbnailUrl = decodeHtml(article.thumbnailUrl).replace(/\s+/g, '');
+    }
+    if (Array.isArray(article.summary_vi)) {
+      article.summary_vi = article.summary_vi.map((s) => decodeHtml(s)) as [string, string, string];
+    }
+    if (Array.isArray(article.summary_en)) {
+      article.summary_en = article.summary_en.map((s) => decodeHtml(s)) as [string, string, string];
+    }
+
     cleanedArticles.push(article);
   }
 
@@ -144,6 +164,11 @@ export async function cleanNewsDatabase() {
   console.log(` - Removed non-IT articles: ${removedCount}`);
   console.log(` - Harmonized bilingual articles: ${updatedCount}`);
   console.log(` - Total remaining IT articles in DB: ${cleanedArticles.length}`);
+
+  // Sync with long-term archive partitions and search index
+  const { saveToArchive } = await import('../lib/db');
+  const manifest = await saveToArchive(cleanedArticles);
+  console.log(`[Clean DB Archive] Synchronized ${manifest.totalArticles} articles across archive partitions.`);
 }
 
 if (require.main === module) {

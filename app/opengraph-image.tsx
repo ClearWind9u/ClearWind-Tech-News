@@ -136,7 +136,7 @@ export default async function Image() {
               fontWeight: '600',
             }}
           >
-            ⚡ Đọc Nhanh 10 Giây
+            Đọc Nhanh 10 Giây
           </div>
           <div
             style={{

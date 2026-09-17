@@ -117,21 +117,25 @@ function parsePublishedDate(isoDate?: string, pubDate?: string): string {
 }
 
 function extractSafeThumbnail(item: any): string | undefined {
+  let url: string | undefined;
   if (item?.enclosure?.url && typeof item.enclosure.url === 'string') {
-    return item.enclosure.url;
-  }
-  if (item?.['media:content']?.['$']?.url && typeof item['media:content']['$'].url === 'string') {
-    return item['media:content']['$'].url;
-  }
-  if (item?.['media:thumbnail']?.['$']?.url && typeof item['media:thumbnail']['$'].url === 'string') {
-    return item['media:thumbnail']['$'].url;
-  }
-  const content = item?.content ?? item?.['content:encoded'] ?? item?.description ?? '';
-  if (typeof content === 'string') {
-    const match = content.match(/<img[^>]+src="([^">]+)"/i);
-    if (match && match[1] && (match[1].startsWith('http://') || match[1].startsWith('https://'))) {
-      return match[1];
+    url = item.enclosure.url;
+  } else if (item?.['media:content']?.['$']?.url && typeof item['media:content']['$'].url === 'string') {
+    url = item['media:content']['$'].url;
+  } else if (item?.['media:thumbnail']?.['$']?.url && typeof item['media:thumbnail']['$'].url === 'string') {
+    url = item['media:thumbnail']['$'].url;
+  } else {
+    const content = item?.content ?? item?.['content:encoded'] ?? item?.description ?? '';
+    if (typeof content === 'string') {
+      const match = content.match(/<img[^>]+src="([^">]+)"/i);
+      if (match && match[1] && (match[1].startsWith('http://') || match[1].startsWith('https://'))) {
+        url = match[1];
+      }
     }
+  }
+
+  if (url) {
+    return decodeHtml(url).replace(/\s+/g, '');
   }
   return undefined;
 }
@@ -502,10 +506,10 @@ async function fetchDevToArticles(existingIds: Set<string>, apiKey?: string): Pr
 
       const candidate: NewsItem = {
         id,
-        title_vi: summaryData.title_vi ?? translateTitleToVietnamese(rawTitle),
+        title_vi: summaryData.title_vi ?? (await translateTitleToVietnameseAsync(rawTitle)),
         title_en: summaryData.title_en ?? rawTitle,
-        summary_vi: summaryData.summary_vi,
-        summary_en: summaryData.summary_en,
+        summary_vi: summaryData.summary_vi ?? [],
+        summary_en: summaryData.summary_en ?? [],
         originalTitle: rawTitle,
         url: item.url,
         sourceName: 'Dev.to',
@@ -523,9 +527,11 @@ async function fetchDevToArticles(existingIds: Set<string>, apiKey?: string): Pr
         commentsCount: item.comments_count ?? 0,
       };
 
-      const valid = NewsItemSchema.safeParse(candidate);
+      const strictlyGuarded = await ensureStrictBilingualQuality(candidate, rawTitle, rawContent, 'global');
+
+      const valid = NewsItemSchema.safeParse(strictlyGuarded);
       if (valid.success) {
-        articles.push(candidate);
+        articles.push(strictlyGuarded);
         existingIds.add(id);
       }
     }
@@ -533,6 +539,59 @@ async function fetchDevToArticles(existingIds: Set<string>, apiKey?: string): Pr
     console.warn('[Crawler Warning] Error fetching Dev.to:', error);
   }
   return articles;
+}
+
+async function ensureStrictBilingualQuality(
+  item: NewsItem,
+  rawTitle: string,
+  contextSnippet: string,
+  origin: 'vietnam' | 'global'
+): Promise<NewsItem> {
+  const isVn = origin === 'vietnam';
+
+  // 1. Ensure title_vi is valid Vietnamese
+  const titleViHasVi = hasVietnameseDiacritics(item.title_vi);
+  const titleViSameAsEn = item.title_vi.trim().toLowerCase() === (item.title_en || '').trim().toLowerCase();
+  if (!titleViHasVi || (!isVn && titleViSameAsEn)) {
+    item.title_vi = await translateTitleToVietnameseAsync(item.title_en || rawTitle);
+  }
+
+  // 2. Ensure title_en is valid English (no Vietnamese diacritics)
+  if (hasVietnameseDiacritics(item.title_en) || !item.title_en) {
+    item.title_en = await translateTitleToEnglishAsync(item.title_vi || rawTitle);
+  }
+
+  // 3. Ensure summary_vi is valid 3-point Vietnamese takeaways
+  const isSummaryViValid =
+    Array.isArray(item.summary_vi) &&
+    item.summary_vi.length === 3 &&
+    item.summary_vi.every((s) => hasVietnameseDiacritics(s));
+
+  if (!isSummaryViValid) {
+    item.summary_vi = await generateTechnicalTakeawaysAsync(
+      item.title_vi,
+      contextSnippet,
+      (item.category as CanonicalCategory) || 'Tech Trends & Startups',
+      'vi'
+    );
+  }
+
+  // 4. Ensure summary_en is valid 3-point English takeaways (no Vietnamese diacritics)
+  const isSummaryEnValid =
+    Array.isArray(item.summary_en) &&
+    item.summary_en.length === 3 &&
+    item.summary_en.every((s) => !hasVietnameseDiacritics(s));
+
+  if (!isSummaryEnValid) {
+    item.summary_en = await generateTechnicalTakeawaysAsync(
+      item.title_en,
+      contextSnippet,
+      (item.category as CanonicalCategory) || 'Tech Trends & Startups',
+      'en'
+    );
+  }
+
+  return item;
 }
 
 // REST API Fetcher: Hacker News
@@ -555,8 +614,18 @@ async function fetchHackerNewsArticles(existingIds: Set<string>, apiKey?: string
       if (existingIds.has(id)) continue;
 
       const rawTitle = cleanHtml(item.title ?? '');
-      // HN stories often lack body text — use title as context + engagement stats
-      const hnContext = `Hacker News top story: "${rawTitle}". Score: ${item.score ?? 50} points, ${item.descendants ?? 0} comments. Category: Tech discussion, programming, open-source.`;
+      // Try scraping actual article content for deeper context
+      let articleBody = '';
+      try {
+        articleBody = await fetchFullArticleText(item.url);
+      } catch {
+        // Fallback to title synthesis
+      }
+
+      const hnContext = articleBody && articleBody.length >= 100
+        ? articleBody
+        : `Chủ đề thảo luận kỹ thuật phần mềm và công nghệ cao cấp: "${rawTitle}". Thảo luận kiến trúc hệ thống và mã nguồn mở trên Hacker News.`;
+
       const summaryData = await summarizeWithGemini(
         rawTitle,
         hnContext,
@@ -569,10 +638,10 @@ async function fetchHackerNewsArticles(existingIds: Set<string>, apiKey?: string
 
       const candidate: NewsItem = {
         id,
-        title_vi: summaryData.title_vi ?? translateTitleToVietnamese(rawTitle),
+        title_vi: summaryData.title_vi ?? (await translateTitleToVietnameseAsync(rawTitle)),
         title_en: summaryData.title_en ?? rawTitle,
-        summary_vi: summaryData.summary_vi,
-        summary_en: summaryData.summary_en,
+        summary_vi: summaryData.summary_vi ?? [],
+        summary_en: summaryData.summary_en ?? [],
         originalTitle: rawTitle,
         url: item.url,
         sourceName: 'Hacker News',
@@ -588,9 +657,11 @@ async function fetchHackerNewsArticles(existingIds: Set<string>, apiKey?: string
         commentsCount: item.descendants ?? 0,
       };
 
-      const valid = NewsItemSchema.safeParse(candidate);
+      const strictlyGuarded = await ensureStrictBilingualQuality(candidate, rawTitle, hnContext, 'global');
+
+      const valid = NewsItemSchema.safeParse(strictlyGuarded);
       if (valid.success) {
-        articles.push(candidate);
+        articles.push(strictlyGuarded);
         existingIds.add(id);
       }
     }
@@ -687,8 +758,8 @@ export async function runCrawlerPipeline() {
           id,
           title_vi,
           title_en,
-          summary_vi: summary_vi,
-          summary_en,
+          summary_vi: summary_vi ?? [],
+          summary_en: summary_en ?? [],
           originalTitle: rawTitle,
           url: item.link.trim(),
           sourceName: feed.name,
@@ -707,9 +778,11 @@ export async function runCrawlerPipeline() {
           commentsCount: Math.floor(Math.random() * 10) + 1,
         };
 
-        const valid = NewsItemSchema.safeParse(candidate);
+        const strictlyGuarded = await ensureStrictBilingualQuality(candidate, rawTitle, rawContent, feed.origin);
+
+        const valid = NewsItemSchema.safeParse(strictlyGuarded);
         if (valid.success) {
-          newArticles.push(candidate);
+          newArticles.push(strictlyGuarded);
           existingIds.add(id);
         }
       }
@@ -718,10 +791,17 @@ export async function runCrawlerPipeline() {
     }
   }
 
-  // Merge and sort all articles (Preserve long-term knowledge archive up to 500 articles)
-  const allArticles = [...newArticles, ...db.articles]
-    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
-    .slice(0, 500);
+  // Merge and sort all articles (Preserve long-term knowledge archive without truncation)
+  const mergedArticlesMap = new Map<string, NewsItem>();
+  for (const a of db.articles) {
+    mergedArticlesMap.set(a.id, a);
+  }
+  for (const a of newArticles) {
+    mergedArticlesMap.set(a.id, a);
+  }
+
+  const allArticles = Array.from(mergedArticlesMap.values())
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 
   const updatedDb: NewsDatabase = {
     lastUpdated: new Date().toISOString(),
