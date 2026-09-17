@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-17T19:31:20.015Z",
-  "totalArticles": 183,
+  "lastUpdated": "2026-09-17T22:35:56.784Z",
+  "totalArticles": 188,
   "articles": [
     {
       "id": "30ce1b03502691ef",
@@ -131,6 +131,70 @@
       "commentsCount": 6
     },
     {
+      "id": "b99c151f8719568d",
+      "title_vi": "Bonsai 2 27B: Nén gần như không mất dữ liệu trong kích thước nhỏ hơn 9 lần",
+      "title_en": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+      "summary_vi": [
+        "Chủ đề thảo luận kỹ thuật phần mềm và công nghệ cao cấp: \"Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint\".",
+        "Thảo luận kiến trúc hệ thống và mã nguồn mở trên Hacker News.",
+        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "Advanced technology and software engineering discussion topic: \"Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint\".",
+        "Discuss system architecture and open source code on Hacker News.",
+        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
+      ],
+      "originalTitle": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+      "url": "https://prismml.com/news/bonsai-2-27b",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "SoftwareEngineering",
+        "Tech"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-17T21:13:31.000Z",
+      "contentSnippet": "Chủ đề thảo luận kỹ thuật phần mềm và công nghệ cao cấp: \"Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint\". Thảo luận kiến trúc hệ thống và mã nguồn mở trên Hacker News.",
+      "authorName": "JonSchneider",
+      "upvotes": 74,
+      "commentsCount": 18
+    },
+    {
+      "id": "2529c4416d7268f8",
+      "title_vi": "Bend – Ngôn ngữ chặn lỗi AI thông qua proof, trên CPU và GPU",
+      "title_en": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+      "summary_vi": [
+        ".html: phần đầu của nó (tiêu đề, mô tả và kiểu dáng, cho đến thẻ kiểu đóng), sau đó là phần thân của nó.",
+        "--> Bend × 1.Cài đặt Curl -fsSL https://bend-lang.com/install.sh | sh 2.Thêm phần này vào AGENTS.md của bạn Khi sử dụng Bend: - chạy `bend Guide` để tìm hiểu nó - sử dụng `LAWS.bend` để giữ các quy tắc quan trọng - chạy `bend PROOF.bend` trước khi cam kết - song song mã bất cứ khi nào có thể 3. Tận hưởng các ứng dụng được mã hóa nhanh, không có lỗi!",
+        "Bẻ cong một ngôn ngữ nhanh giúp ngăn chặn các lỗi của AI thông qua tốc độ bằng chứng C · Song song CUDA · Bằng chứng tinh gọn Trong nền kinh tế hậu AGI, con người cuối cùng sẽ ngừng viết và đọc mã, nhưng chúng ta vẫn cần một cách không mơ hồ để nói với các AI đang xây dựng thế giới xung quanh chúng ta những gì chúng ta muốn làm."
+      ],
+      "summary_en": [
+        ".html: its head (title, description and style, up to the closing style tag), then its body.",
+        "--> Bend × 1.Install curl -fsSL https://bend-lang.com/install.sh | sh 2.Add this to your AGENTS.md When using Bend: - run `bend guide` to learn it - use `LAWS.bend` to keep important rules - run `bend PROOF.bend` before committing - parallelize the code whenever possible 3.Enjoy bug-free, fast vibe-coded apps!",
+        "Bend a fast language that blocks AI mistakes via proof C speed · CUDA parallelism · Lean proofs In the post-AGI economy, humans will eventually stop writing and reading code, but we still need an ambiguity-free way to tell the AIs building the world around us what we want done."
+      ],
+      "originalTitle": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+      "url": "https://bend-lang.com/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "SoftwareEngineering",
+        "Tech"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-09-17T20:36:13.000Z",
+      "contentSnippet": ".html: its head (title, description and style, up to the closing style tag), then its body. --> Bend × 1.Install curl -fsSL https://bend-lang.com/install.sh | sh 2.Add this to your AGENTS.md When using Bend: - run `bend guide` to learn it - use `LAWS.bend` to keep important rules - run `bend PROOF.b",
+      "authorName": "nicolas-siplis",
+      "upvotes": 175,
+      "commentsCount": 90
+    },
+    {
       "id": "8e6fce628dc58901",
       "title_vi": "Go Zero to Hero - Bài 17: Slice - Linh hồn của danh sách dữ liệu trong Go",
       "title_en": "Go Zero to Hero - Lesson 17: Slice - The soul of data lists in Go",
@@ -161,6 +225,71 @@
       "authorName": "Cô Gái IT",
       "upvotes": 21,
       "commentsCount": 3
+    },
+    {
+      "id": "fa958b936d28768b",
+      "title_vi": "Astra cho Luật",
+      "title_en": "Astra for Law",
+      "summary_vi": [
+        "Mô hình mạnh mẽ nhất của chúng tôi, được cấu hình thành nền tảng AI mới cho luật.",
+        "Đang tải...Chia sẻHôm nay, chúng tôi sẽ giới thiệu Astra for Law: một nền tảng mới dành cho các công ty luật và công ty công nghệ pháp lý nhằm xây dựng các sản phẩm và quy trình làm việc AI xoay quanh chuyên môn của họ.",
+        "Nó kết hợp GPT‑6 Astra, mô hình mới nhất và mạnh mẽ nhất của chúng tôi, với các cài đặt, công cụ và bối cảnh được điều chỉnh cho công việc pháp lý chuyên nghiệp."
+      ],
+      "summary_en": [
+        "Our most powerful model, configured into a new AI foundation for law.",
+        "Loading…ShareToday, we’re introducing Astra for Law: a new foundation for law firms and legal technology companies to build AI products and workflows around their expertise.",
+        "It combines GPT‑6 Astra, our latest and most powerful model, with settings, tools, and context tailored for professional legal work."
+      ],
+      "originalTitle": "Astra for Law",
+      "url": "https://openai.com/index/astra-for-law/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "SoftwareEngineering",
+        "Tech"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-09-17T20:17:48.000Z",
+      "contentSnippet": "Our most powerful model, configured into a new AI foundation for law. Loading…ShareToday, we’re introducing Astra for Law: a new foundation for law firms and legal technology companies to build AI products and workflows around their expertise. It combines GPT‑6 Astra, our latest and most powerful mo",
+      "authorName": "vertigoruntime",
+      "upvotes": 189,
+      "commentsCount": 182
+    },
+    {
+      "id": "8092c8022d580cab",
+      "title_vi": "Sự chậm lại của siêu trí tuệ AI",
+      "title_en": "The AI Superintelligence Slowdown",
+      "summary_vi": [
+        "Bạn có nhớ khi các nhà lãnh đạo công nghệ yêu cầu nhân viên của họ “tiến nhanh và phá vỡ mọi thứ” không?",
+        "Có vẻ như đó cũng là con đường của AI.",
+        "Nhưng sau một mùa hè khi các tác nhân AI lừa đảo trở thành hiện thực và các nhà nghiên cứu cảnh báo rằng AI có thể giết chết tất cả chúng ta, một số công ty AI hàng đầu của Hoa Kỳ đã công khai gợi ý rằng đã đến lúc phải phanh gấp và “tăng tốc” trong quá trình phát triển AI vượt trội."
+      ],
+      "summary_en": [
+        "Remember when tech leaders would tell their employees to “move fast and break things”?",
+        "It seemed that would be the way of AI too.",
+        "But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US AI companies are publicly suggesting it’s time to pump the brakes and “pace the frontier” of bleeding-edge AI development."
+      ],
+      "originalTitle": "The AI Superintelligence Slowdown",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "SoftwareEngineering",
+        "Tech"
+      ],
+      "hotScore": 89,
+      "readTimeMinutes": 8,
+      "publishedAt": "2026-09-17T19:28:24.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK_414_5_D.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US AI companies are publicly suggesting it’",
+      "authorName": "Sean Hollister",
+      "upvotes": 19,
+      "commentsCount": 8
     },
     {
       "id": "0a3be15b32c0f91d",
@@ -2403,6 +2532,40 @@
       "authorName": "nonmaskable",
       "upvotes": 341,
       "commentsCount": 136
+    },
+    {
+      "id": "b6b83728020856fe",
+      "title_vi": "Cách chúng tôi chế tạo rô-bốt đồng hành trên máy tính để bàn với Gemma 4 và Raspberry Pi",
+      "title_en": "How we built a desktop companion robot with Gemma 4 and Raspberry Pi",
+      "summary_vi": [
+        "Câu chuyện hậu trường về cách chúng tôi xây dựng DinoDesk AI—một robot đồng hành LEGO Dino ưu tiên quyền riêng tư, được hỗ trợ bởi kiến ​​trúc lai Local Gemma 4 và Cloud Gemini.",
+        "Tập trung vào cấu trúc mạng nơ-ron, quy trình huấn luyện mô hình ngôn ngữ lớn (LLM), cơ chế tối ưu suy luận và kiểm soát an toàn thuật toán.",
+        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "The behind-the-scenes story of how we built DinoDesk AI—a privacy-first, LEGO dino companion robot powered by a hybrid Local Gemma 4 and Cloud Gemini architecture.",
+        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
+        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
+      ],
+      "originalTitle": "How we built a desktop companion robot with Gemma 4 and Raspberry Pi",
+      "url": "https://dev.to/googleai/how-we-built-a-desktop-companion-robot-with-gemma-4-and-raspberry-pi-2oke",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "SoftwareEngineering",
+        "Tech"
+      ],
+      "hotScore": 89,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-16T10:15:52.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fbebechien.github.io%2Fcozy-corner-future%2Fimages%2Fhow-we-built-a-desktop-companion-robot.png",
+      "contentSnippet": "The behind-the-scenes story of how we built DinoDesk AI—a privacy-first, LEGO dino companion robot powered by a hybrid Local Gemma 4 and Cloud Gemini architecture.",
+      "authorName": "bebechien",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3714120%2F58c2015b-b06c-4f0e-9cb0-1014430d9773.png",
+      "upvotes": 26,
+      "commentsCount": 4
     },
     {
       "id": "a14252e5f070a2f0",
