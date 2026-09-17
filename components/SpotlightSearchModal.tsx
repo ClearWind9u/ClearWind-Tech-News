@@ -5,18 +5,18 @@ import { NewsItem, getCategoryLabel } from '@/types/news';
 import { useBilingual } from './BilingualContext';
 import { Search, X, TrendingUp, CornerDownLeft, Hash } from 'lucide-react';
 
-// Category accent colors — used ONLY inside category chips, never on chrome
+// Category accent colors — used inside category chips
 const CATEGORY_ACCENTS: Record<string, { dot: string; label: string }> = {
-  'AI & Machine Learning':    { dot: '#57c1ff', label: 'AI' },
-  'Software Engineering':     { dot: '#59d499', label: 'Eng' },
-  'DevOps & Cloud':           { dot: '#ffc533', label: 'Cloud' },
-  'Cybersecurity':            { dot: '#ff6161', label: 'Sec' },
-  'Mobile & Web':             { dot: '#a78bfa', label: 'Web' },
-  'Tech Trends & Startups':   { dot: '#f472b6', label: 'Trend' },
+  'AI & Machine Learning': { dot: '#38bdf8', label: 'AI' },
+  'Software Engineering': { dot: '#10b981', label: 'Eng' },
+  'DevOps & Cloud': { dot: '#f59e0b', label: 'Cloud' },
+  'Cybersecurity': { dot: '#f43f5e', label: 'Sec' },
+  'Mobile & Web': { dot: '#8b5cf6', label: 'Web' },
+  'Tech Trends & Startups': { dot: '#ec4899', label: 'Trend' },
 };
 
 function getCategoryAccent(cat: string) {
-  return CATEGORY_ACCENTS[cat] ?? { dot: '#9c9c9d', label: cat.slice(0, 4) };
+  return CATEGORY_ACCENTS[cat] ?? { dot: '#94a3b8', label: cat.slice(0, 4) };
 }
 
 interface SpotlightSearchModalProps {
@@ -43,7 +43,7 @@ export const SpotlightSearchModal: React.FC<SpotlightSearchModalProps> = ({
   const trendingTags = useMemo(() => {
     const tagCount: Record<string, number> = {};
     articles.forEach((a) => {
-      a.tags.forEach((tag) => {
+      (a.tags ?? []).forEach((tag) => {
         tagCount[tag] = (tagCount[tag] || 0) + 1;
       });
     });
@@ -152,31 +152,21 @@ export const SpotlightSearchModal: React.FC<SpotlightSearchModalProps> = ({
   ];
 
   return (
-    <div className="fixed inset-0 z-50 flex items-start justify-center pt-[10vh] sm:pt-[12vh] px-4">
-      {/* Raycast-style backdrop: near-black + subtle blur */}
+    <div className="fixed inset-0 z-50 flex items-start justify-center pt-4 sm:pt-[12vh] px-2.5 sm:px-4 animate-in fade-in duration-150">
+      {/* Backdrop: Adaptive dark/light overlay with subtle blur */}
       <div
-        className="fixed inset-0 bg-black/70 backdrop-blur-sm"
+        className="fixed inset-0 bg-slate-900/40 dark:bg-black/75 backdrop-blur-xs transition-opacity"
         onClick={onClose}
       />
 
-      {/* Command Palette Window — Raycast surface ladder */}
+      {/* Command Palette Window — Adaptive Surface */}
       <div
-        className="relative w-full max-w-[640px] z-10 flex flex-col overflow-hidden"
-        style={{
-          background: '#131417',
-          border: '1px solid #242728',
-          borderRadius: '12px',
-          maxHeight: '72vh',
-          boxShadow: '0 32px 64px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.04) inset',
-        }}
+        className="relative w-full max-w-[640px] z-10 flex flex-col overflow-hidden bg-white dark:bg-[#11141E] border border-slate-200 dark:border-white/10 rounded-2xl shadow-2xl dark:shadow-[0_32px_64px_rgba(0,0,0,0.7)] max-h-[85vh] sm:max-h-[72vh] transition-colors"
         onClick={(e) => e.stopPropagation()}
       >
         {/* ── Search Input Row ── */}
-        <div
-          className="flex items-center gap-3 px-4 py-3.5"
-          style={{ borderBottom: '1px solid #242728' }}
-        >
-          <Search className="w-[15px] h-[15px] shrink-0" style={{ color: '#6a6b6c' }} />
+        <div className="flex items-center gap-2.5 sm:gap-3 px-3.5 sm:px-4 py-3 sm:py-3.5 border-b border-slate-200 dark:border-white/10">
+          <Search className="w-4 h-4 shrink-0 text-emerald-500 dark:text-emerald-400" />
           <input
             ref={inputRef}
             type="text"
@@ -187,51 +177,39 @@ export const SpotlightSearchModal: React.FC<SpotlightSearchModalProps> = ({
                 ? 'Tìm kiếm bản tin công nghệ...'
                 : 'Search tech news...'
             }
-            className="flex-1 bg-transparent text-[15px] focus:outline-none"
-            style={{
-              color: '#f4f4f6',
-              caretColor: '#f4f4f6',
-              fontFamily: 'Inter, system-ui, sans-serif',
-              fontFeatureSettings: '"calt","kern","liga","ss03"',
-            }}
+            className="flex-1 bg-transparent text-base sm:text-sm text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 focus:outline-hidden"
           />
           {query && (
             <button
               onClick={() => setQuery('')}
-              className="shrink-0 p-1 rounded transition-colors"
-              style={{ color: '#6a6b6c' }}
+              className="shrink-0 p-1.5 rounded-md text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors"
+              title={lang === 'vi' ? 'Xóa nội dung' : 'Clear'}
             >
-              <X className="w-3.5 h-3.5" />
+              <X className="w-4 h-4" />
             </button>
           )}
-          {/* ESC Keycap — Raycast signature */}
-          <kbd
-            className="shrink-0 px-1.5 py-0.5 rounded text-[11px] font-medium"
-            style={{
-              background: 'linear-gradient(180deg, #1e1e20 0%, #161618 100%)',
-              border: '1px solid #2e2e30',
-              color: '#6a6b6c',
-              fontFamily: 'Inter, system-ui, sans-serif',
-            }}
+          {/* Mobile Close Button */}
+          <button
+            onClick={onClose}
+            className="sm:hidden shrink-0 px-2 py-1 text-xs font-bold text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white"
           >
+            {lang === 'vi' ? 'Đóng' : 'Done'}
+          </button>
+          {/* Desktop ESC Keycap */}
+          <kbd className="hidden sm:inline-block shrink-0 px-2 py-0.5 rounded-md text-[10px] font-mono font-bold bg-slate-100 dark:bg-white/10 border border-slate-200 dark:border-white/10 text-slate-500 dark:text-slate-400 shadow-2xs">
             ESC
           </kbd>
         </div>
 
-        {/* ── Scope Filter Pills (Raycast pill-tab style) ── */}
-        <div
-          className="flex items-center gap-1 px-3 py-2 overflow-x-auto scrollbar-none"
-          style={{ borderBottom: '1px solid #1c1c1e' }}
-        >
+        {/* ── Scope Filter Pills ── */}
+        <div className="flex items-center gap-1.5 px-3.5 py-2 overflow-x-auto scrollbar-none border-b border-slate-200/80 dark:border-white/5 bg-slate-50/50 dark:bg-black/20">
           <button
             onClick={() => setSelectedCategory('all')}
-            className="shrink-0 px-2.5 py-1 rounded-full text-[13px] transition-all"
-            style={{
-              background: selectedCategory === 'all' ? '#1e1f22' : 'transparent',
-              color: selectedCategory === 'all' ? '#f4f4f6' : '#6a6b6c',
-              fontFamily: 'Inter, system-ui, sans-serif',
-              fontWeight: selectedCategory === 'all' ? 500 : 400,
-            }}
+            className={`shrink-0 px-2.5 py-1 rounded-full text-xs font-medium transition-all ${
+              selectedCategory === 'all'
+                ? 'bg-slate-900 text-white dark:bg-white/15 dark:text-white font-semibold shadow-xs'
+                : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/60 dark:hover:bg-white/5'
+            }`}
           >
             {t.allCategories ?? 'All'}
           </button>
@@ -242,17 +220,15 @@ export const SpotlightSearchModal: React.FC<SpotlightSearchModalProps> = ({
               <button
                 key={cat}
                 onClick={() => setSelectedCategory(isActive ? 'all' : cat)}
-                className="shrink-0 flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[13px] transition-all"
-                style={{
-                  background: isActive ? '#1e1f22' : 'transparent',
-                  color: isActive ? '#f4f4f6' : '#6a6b6c',
-                  fontFamily: 'Inter, system-ui, sans-serif',
-                  fontWeight: isActive ? 500 : 400,
-                }}
+                className={`shrink-0 flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium transition-all ${
+                  isActive
+                    ? 'bg-slate-900 text-white dark:bg-white/15 dark:text-white font-semibold shadow-xs'
+                    : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-200/60 dark:hover:bg-white/5'
+                }`}
               >
                 <span
                   className="w-1.5 h-1.5 rounded-full shrink-0"
-                  style={{ background: accent.dot, opacity: isActive ? 1 : 0.55 }}
+                  style={{ background: accent.dot }}
                 />
                 {getCategoryLabel(cat, lang)}
               </button>
@@ -261,28 +237,15 @@ export const SpotlightSearchModal: React.FC<SpotlightSearchModalProps> = ({
         </div>
 
         {/* ── Results Body ── */}
-        <div
-          className="flex-1 overflow-y-auto p-2"
-          style={{ scrollbarWidth: 'thin', scrollbarColor: '#2e2e30 transparent' }}
-        >
+        <div className="flex-1 overflow-y-auto p-2 scrollbar-thin">
           {/* Empty state: Trending tags */}
           {!query && (
-            <div className="px-2 pt-1 pb-2 mb-1" style={{ borderBottom: '1px solid #1c1c1e' }}>
-              <div
-                className="flex items-center gap-1.5 mb-2 px-1"
-                style={{
-                  color: '#434345',
-                  fontSize: '11px',
-                  fontFamily: 'Inter, system-ui, sans-serif',
-                  fontWeight: 500,
-                  letterSpacing: '0.06em',
-                  textTransform: 'uppercase',
-                }}
-              >
-                <TrendingUp className="w-3 h-3" />
-                <span>{lang === 'vi' ? 'Chủ đề nổi bật' : 'Trending'}</span>
+            <div className="px-2 pt-1 pb-2.5 mb-1.5 border-b border-slate-200/80 dark:border-white/5">
+              <div className="flex items-center gap-1.5 mb-2 px-1 text-[11px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider font-mono">
+                <TrendingUp className="w-3 h-3 text-indigo-500 dark:text-indigo-400" />
+                <span>{lang === 'vi' ? 'Chủ đề nổi bật' : 'Trending Tags'}</span>
               </div>
-              <div className="flex flex-wrap gap-1">
+              <div className="flex flex-wrap gap-1.5">
                 {trendingTags.map((tag) => (
                   <button
                     key={tag}
@@ -290,15 +253,9 @@ export const SpotlightSearchModal: React.FC<SpotlightSearchModalProps> = ({
                       setQuery(tag);
                       setSelectedTag(tag);
                     }}
-                    className="flex items-center gap-1 px-2 py-0.5 rounded text-[12px] transition-colors"
-                    style={{
-                      background: '#1a1b1e',
-                      border: '1px solid #2a2b2e',
-                      color: '#9c9c9d',
-                      fontFamily: 'Inter, system-ui, sans-serif',
-                    }}
+                    className="flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs bg-slate-100 hover:bg-slate-200 dark:bg-white/5 dark:hover:bg-white/10 border border-slate-200 dark:border-white/10 text-slate-700 dark:text-slate-300 transition-colors font-mono"
                   >
-                    <Hash className="w-3 h-3" style={{ color: '#6a6b6c' }} />
+                    <Hash className="w-2.5 h-2.5 text-slate-400" />
                     {tag}
                   </button>
                 ))}
@@ -307,37 +264,24 @@ export const SpotlightSearchModal: React.FC<SpotlightSearchModalProps> = ({
           )}
 
           {/* Section label */}
-          <div
-            className="px-3 py-1 mb-0.5"
-            style={{
-              color: '#434345',
-              fontSize: '11px',
-              fontFamily: 'Inter, system-ui, sans-serif',
-              fontWeight: 500,
-              letterSpacing: '0.06em',
-              textTransform: 'uppercase',
-            }}
-          >
+          <div className="px-2.5 py-1 text-[11px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider font-mono">
             {query
               ? `${filteredArticles.length} ${lang === 'vi' ? 'kết quả' : 'results'}`
               : lang === 'vi'
-              ? 'Nổi bật hôm nay'
-              : 'Featured Today'}
+              ? 'Tiêu điểm hôm nay'
+              : 'Featured Highlights'}
           </div>
 
           {/* Result rows */}
           {filteredArticles.length === 0 ? (
-            <div className="py-10 text-center">
-              <Search className="w-7 h-7 mx-auto mb-2 opacity-20" style={{ color: '#6a6b6c' }} />
-              <p
-                className="text-sm"
-                style={{ color: '#6a6b6c', fontFamily: 'Inter, system-ui, sans-serif' }}
-              >
-                {lang === 'vi' ? 'Không tìm thấy bản tin nào.' : 'No articles found.'}
+            <div className="py-12 text-center">
+              <Search className="w-8 h-8 mx-auto mb-2 text-slate-300 dark:text-slate-600" />
+              <p className="text-xs text-slate-500 dark:text-slate-400">
+                {lang === 'vi' ? 'Không tìm thấy bản tin phù hợp.' : 'No articles found.'}
               </p>
             </div>
           ) : (
-            <div ref={listRef}>
+            <div ref={listRef} className="space-y-0.5">
               {filteredArticles.map((article, idx) => {
                 const title =
                   (lang === 'vi' ? article.title_vi : article.title_en) ??
@@ -354,20 +298,14 @@ export const SpotlightSearchModal: React.FC<SpotlightSearchModalProps> = ({
                       onSelectArticle(article);
                       onClose();
                     }}
-                    className="flex items-center gap-3 px-3 py-2.5 cursor-pointer transition-all"
-                    style={{
-                      background: isSelected ? '#1e1f22' : 'transparent',
-                      borderRadius: '6px',
-                    }}
+                    className={`flex items-center gap-3 px-3 py-2.5 rounded-xl cursor-pointer transition-all ${
+                      isSelected
+                        ? 'bg-slate-100 dark:bg-white/10 text-slate-900 dark:text-white shadow-2xs'
+                        : 'text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-white/[0.04]'
+                    }`}
                   >
                     {/* Category accent tile */}
-                    <div
-                      className="w-7 h-7 rounded shrink-0 flex items-center justify-center"
-                      style={{
-                        background: '#1a1b1e',
-                        border: '1px solid #2a2b2e',
-                      }}
-                    >
+                    <div className="w-7 h-7 rounded-lg shrink-0 flex items-center justify-center bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10">
                       <span
                         className="w-2 h-2 rounded-full"
                         style={{ background: accent.dot }}
@@ -376,48 +314,23 @@ export const SpotlightSearchModal: React.FC<SpotlightSearchModalProps> = ({
 
                     {/* Text */}
                     <div className="flex-1 min-w-0">
-                      <div
-                        className="mb-0.5 flex items-center gap-1.5"
-                        style={{
-                          color: '#9c9c9d',
-                          fontSize: '11px',
-                          fontFamily: 'Inter, system-ui, sans-serif',
-                        }}
-                      >
-                        <span style={{ color: '#cdcdcd', fontWeight: 500 }}>
+                      <div className="mb-0.5 flex items-center gap-1.5 text-[11px] text-slate-500 dark:text-slate-400">
+                        <span className="font-semibold text-slate-700 dark:text-slate-300">
                           {article.sourceName}
                         </span>
-                        <span style={{ color: '#434345' }}>·</span>
-                        <span style={{ color: accent.dot, opacity: 0.9 }}>
+                        <span>·</span>
+                        <span style={{ color: accent.dot }} className="font-mono font-medium">
                           {accent.label}
                         </span>
                       </div>
-                      <div
-                        className="truncate"
-                        style={{
-                          color: isSelected ? '#f4f4f6' : '#cdcdcd',
-                          fontSize: '14px',
-                          fontWeight: 500,
-                          fontFamily: 'Inter, system-ui, sans-serif',
-                          fontFeatureSettings: '"calt","kern","liga","ss03"',
-                          lineHeight: 1.4,
-                        }}
-                      >
+                      <div className="truncate text-xs font-semibold text-slate-900 dark:text-slate-100 leading-snug">
                         {title}
                       </div>
                     </div>
 
                     {/* Enter hint when selected */}
                     {isSelected && (
-                      <kbd
-                        className="shrink-0 flex items-center px-1.5 py-0.5 rounded text-[11px] gap-0.5"
-                        style={{
-                          background: 'linear-gradient(180deg, #1e1f22 0%, #191a1d 100%)',
-                          border: '1px solid #2e2e30',
-                          color: '#6a6b6c',
-                          fontFamily: 'Inter, system-ui, sans-serif',
-                        }}
-                      >
+                      <kbd className="shrink-0 flex items-center px-1.5 py-0.5 rounded-md text-[10px] font-mono text-slate-500 dark:text-slate-400 bg-white dark:bg-white/10 border border-slate-200 dark:border-white/15 shadow-2xs">
                         <CornerDownLeft className="w-3 h-3" />
                       </kbd>
                     )}
@@ -428,52 +341,23 @@ export const SpotlightSearchModal: React.FC<SpotlightSearchModalProps> = ({
           )}
         </div>
 
-        {/* ── Footer Keyboard Hints — Raycast keycap style ── */}
-        <div
-          className="flex items-center justify-between px-4 py-2.5"
-          style={{
-            borderTop: '1px solid #1c1c1e',
-            background: '#0f1012',
-          }}
-        >
+        {/* ── Footer Keyboard Hints ── */}
+        <div className="flex items-center justify-between px-4 py-2.5 border-t border-slate-200 dark:border-white/10 bg-slate-50 dark:bg-[#0E1018] text-xs text-slate-500 dark:text-slate-400">
           <div className="flex items-center gap-3">
             {[
               { key: '↑↓', label: lang === 'vi' ? 'Điều hướng' : 'Navigate' },
-              { key: '↵',  label: lang === 'vi' ? 'Mở bài' : 'Open' },
+              { key: '↵', label: lang === 'vi' ? 'Mở bài' : 'Open' },
             ].map(({ key, label }) => (
-              <span
-                key={key}
-                className="flex items-center gap-1.5"
-                style={{ color: '#434345', fontSize: '12px', fontFamily: 'Inter, system-ui, sans-serif' }}
-              >
-                <kbd
-                  className="px-1.5 py-0.5 rounded text-[11px]"
-                  style={{
-                    background: 'linear-gradient(180deg, #1e1e20 0%, #161618 100%)',
-                    border: '1px solid #2e2e30',
-                    color: '#6a6b6c',
-                    fontFamily: 'Inter, system-ui, sans-serif',
-                  }}
-                >
+              <span key={key} className="flex items-center gap-1.5 text-[11px]">
+                <kbd className="px-1.5 py-0.5 rounded-md text-[10px] font-mono bg-white dark:bg-white/10 border border-slate-200 dark:border-white/15 text-slate-500 dark:text-slate-400 shadow-2xs">
                   {key}
                 </kbd>
                 <span>{label}</span>
               </span>
             ))}
           </div>
-          <span
-            className="flex items-center gap-1.5"
-            style={{ color: '#434345', fontSize: '12px', fontFamily: 'Inter, system-ui, sans-serif' }}
-          >
-            <kbd
-              className="px-1.5 py-0.5 rounded text-[11px]"
-              style={{
-                background: 'linear-gradient(180deg, #1e1e20 0%, #161618 100%)',
-                border: '1px solid #2e2e30',
-                color: '#6a6b6c',
-                fontFamily: 'Inter, system-ui, sans-serif',
-              }}
-            >
+          <span className="flex items-center gap-1.5 text-[11px]">
+            <kbd className="px-1.5 py-0.5 rounded-md text-[10px] font-mono bg-white dark:bg-white/10 border border-slate-200 dark:border-white/15 text-slate-500 dark:text-slate-400 shadow-2xs">
               ESC
             </kbd>
             <span>{lang === 'vi' ? 'Đóng' : 'Close'}</span>

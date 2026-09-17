@@ -12,6 +12,17 @@ export const CategoryEnum = z.enum([
 
 export type NewsCategory = z.infer<typeof CategoryEnum>;
 
+export const CANONICAL_CATEGORIES = [
+  'AI & Machine Learning',
+  'Software Engineering',
+  'Cybersecurity',
+  'DevOps & Cloud',
+  'Mobile & Web',
+  'Tech Trends & Startups',
+] as const;
+
+export type CanonicalCategory = (typeof CANONICAL_CATEGORIES)[number];
+
 export const CATEGORY_LABELS: Record<string, { vi: string; en: string }> = {
   'AI & Machine Learning': { vi: 'Trí tuệ nhân tạo', en: 'AI & Machine Learning' },
   'Software Engineering': { vi: 'Kỹ thuật phần mềm', en: 'Software Engineering' },
@@ -84,4 +95,38 @@ export function isArticleInTimeRange(publishedAt: string, filter: TimeFilterOpti
       return true;
   }
 }
+
+/**
+ * Lightweight search index item (reduces payload by ~85% for lightning-fast client search)
+ */
+export const SearchIndexItemSchema = z.object({
+  id: z.string(),
+  vi: z.string(),
+  en: z.string(),
+  cat: z.string(),
+  tags: z.array(z.string()),
+  t: z.string(), // publishedAt ISO string
+  h: z.number(), // hotScore
+  o: z.enum(['vietnam', 'global']),
+  r: z.number(), // readTimeMinutes
+});
+
+export type SearchIndexItem = z.infer<typeof SearchIndexItemSchema>;
+
+export interface ArchiveMonthInfo {
+  key: string;       // '2026-09'
+  label_vi: string;  // 'Tháng 09/2026'
+  label_en: string;  // 'September 2026'
+  count: number;
+}
+
+export interface ArchiveManifest {
+  lastUpdated: string;
+  totalArticles: number;
+  months: ArchiveMonthInfo[];
+}
+
+export type ReadTimeFilterOption = 'all' | 'quick' | 'medium' | 'deep';
+export type HotFilterOption = 'all' | 'trending' | 'superhot';
+
 

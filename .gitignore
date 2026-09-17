@@ -1,20 +1,43 @@
 # Dependencies
 node_modules/
+/.pnp
+.pnp.js
 
-# Next.js Build
+# Next.js Build & Output
 .next/
 out/
+build/
+dist/
 
-# Environment Variables
+# TypeScript Cache
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment Variables (Public Repo Security)
 .env
 .env*.local
 .env.production
 .env.development
+.env.test
+!.env.example
 
-# Vercel Artifacts
+# Vercel & Deployment Artifacts
 .vercel/
+
+# Logs & Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache & Temp Files
+.turbo
+.cache
+*.tmp
 
 # Operating System Files
 .DS_Store
 Thumbs.db
 desktop.ini
+*.swp
+*.swo

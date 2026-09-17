@@ -28,8 +28,8 @@ export const BookmarkDrawer: React.FC<BookmarkDrawerProps> = ({
     <div className="fixed inset-0 z-50 overflow-hidden animate-fade-in">
       <div className="absolute inset-0 bg-slate-900/60 dark:bg-[#080A0F]/80 backdrop-blur-sm" onClick={onClose} />
 
-      <div className="fixed inset-y-0 right-0 max-w-full flex pl-10">
-        <div className="w-screen max-w-md bg-white dark:bg-[#121722] border-l border-slate-200 dark:border-white/10 shadow-2xl p-6 flex flex-col justify-between transition-colors">
+      <div className="fixed inset-y-0 right-0 max-w-full flex pl-0 sm:pl-10">
+        <div className="w-screen max-w-md bg-white dark:bg-[#121722] border-l border-slate-200 dark:border-white/10 shadow-2xl p-4 sm:p-6 flex flex-col justify-between transition-colors">
           <div>
             <div className="flex items-center justify-between pb-4 border-b border-slate-200 dark:border-white/10 mb-4">
               <div className="flex items-center gap-2">
@@ -46,7 +46,8 @@ export const BookmarkDrawer: React.FC<BookmarkDrawerProps> = ({
 
               <button
                 onClick={onClose}
-                className="p-1.5 rounded-lg text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-white/10 transition-colors"
+                className="p-2 min-w-[36px] min-h-[36px] flex items-center justify-center rounded-lg text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-white/10 transition-colors"
+                title={lang === 'vi' ? 'Đóng' : 'Close'}
               >
                 <X className="w-5 h-5" />
               </button>
@@ -78,7 +79,7 @@ export const BookmarkDrawer: React.FC<BookmarkDrawerProps> = ({
                           e.stopPropagation();
                           toggleBookmark(article.id);
                         }}
-                        className="text-slate-400 hover:text-red-500 p-1 transition-colors"
+                        className="p-1.5 min-w-[32px] min-h-[32px] flex items-center justify-center rounded-lg text-slate-400 hover:text-rose-500 hover:bg-rose-500/10 transition-colors"
                         title={lang === 'vi' ? 'Xóa' : 'Remove'}
                       >
                         <Trash2 className="w-3.5 h-3.5" />

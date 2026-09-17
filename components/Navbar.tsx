@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useBilingual } from './BilingualContext';
-import { Search, Bookmark, Sun, Moon, Sparkles } from 'lucide-react';
+import { Search, Bookmark, Sun, Moon } from 'lucide-react';
 
 interface NavbarProps {
   onOpenSearch: () => void;
@@ -47,30 +47,25 @@ export const Navbar: React.FC<NavbarProps> = ({
           : 'bg-transparent border-b border-transparent'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 gap-3 sm:gap-4">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16 gap-2 sm:gap-4">
           {/* Logo & Brand */}
-          <div className="flex items-center gap-2.5 sm:gap-3 shrink-0">
-            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-gradient-to-tr from-emerald-500 to-cyan-500 flex items-center justify-center shadow-lg shadow-emerald-500/20 text-white font-bold p-1.5">
+          <div className="flex items-center gap-2 sm:gap-2.5 shrink-0">
+            <div className="w-8 h-8 rounded-xl bg-gradient-to-tr from-emerald-500 to-cyan-500 flex items-center justify-center shadow-md shadow-emerald-500/15 text-white font-bold p-1.5 shrink-0">
               <svg viewBox="0 0 100 100" className="w-full h-full text-white" fill="none" stroke="currentColor" strokeWidth="9" strokeLinecap="round">
                 <path d="M25 35 C 36 22, 62 22, 70 32 C 76 40, 70 50, 60 50 C 50 50, 48 42, 56 40" />
                 <path d="M18 52 C 30 52, 70 52, 78 52 C 86 52, 88 64, 78 66 C 70 68, 68 60, 76 58" />
                 <path d="M25 70 C 38 70, 50 70, 56 76 C 60 80, 56 86, 50 86 C 44 86, 42 80, 48 78" />
               </svg>
             </div>
-            <div>
-              <div className="flex items-center gap-1.5 sm:gap-2">
-                <span className="font-extrabold text-base tracking-tight text-slate-900 dark:text-white font-display">
-                  Clear<span className="text-emerald-500 dark:text-emerald-400">Wind</span>
-                </span>
-                <span className="hidden sm:inline-flex items-center gap-1 text-[10px] uppercase font-mono font-bold px-2 py-0.5 rounded-md bg-emerald-500/10 dark:bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 dark:border-emerald-500/25">
-                  <Sparkles className="w-2.5 h-2.5" />
-                  Tech Digest
-                </span>
-              </div>
-              <p className="text-[10.5px] text-slate-500 dark:text-slate-400 hidden sm:block">
-                {t.freeHostingBadge}
-              </p>
+            <div className="flex items-center gap-2">
+              <span className="font-extrabold text-base tracking-tight text-slate-900 dark:text-white font-display">
+                Clear<span className="text-emerald-500 dark:text-emerald-400">Wind</span>
+              </span>
+              <span className="hidden sm:inline-flex items-center gap-1.5 text-[10px] uppercase font-mono font-bold px-2 py-0.5 rounded-md bg-emerald-500/10 dark:bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 dark:border-emerald-500/25">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                Tech Digest
+              </span>
             </div>
           </div>
 
@@ -96,7 +91,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             {/* Mobile Search Icon Button */}
             <button
               onClick={onOpenSearch}
-              className="sm:hidden p-2 rounded-xl bg-slate-100 dark:bg-white/[0.05] border border-slate-200 dark:border-white/10 text-slate-600 dark:text-slate-300 hover:text-emerald-500 transition-colors"
+              className="sm:hidden p-2 min-w-[36px] min-h-[36px] flex items-center justify-center rounded-xl bg-slate-100 dark:bg-white/[0.05] border border-slate-200 dark:border-white/10 text-slate-600 dark:text-slate-300 hover:text-emerald-500 transition-colors"
               title="Tìm kiếm (Ctrl+K)"
             >
               <Search className="w-4 h-4 text-emerald-500" />
@@ -105,7 +100,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <div className="flex items-center bg-slate-100 dark:bg-white/[0.05] border border-slate-200 dark:border-white/10 rounded-xl p-0.5 text-xs">
               <button
                 onClick={() => setLang('vi')}
-                className={`px-2 py-1 sm:px-2.5 sm:py-1 rounded-lg transition-colors font-mono font-bold text-[11px] sm:text-xs ${
+                className={`px-2 py-1 sm:px-2.5 sm:py-1 rounded-lg transition-colors font-mono font-bold text-[11px] sm:text-xs min-h-[32px] flex items-center justify-center ${
                   lang === 'vi'
                     ? 'bg-emerald-500 text-white shadow-sm'
                     : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
@@ -116,7 +111,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               </button>
               <button
                 onClick={() => setLang('en')}
-                className={`px-2 py-1 sm:px-2.5 sm:py-1 rounded-lg transition-colors font-mono font-bold text-[11px] sm:text-xs ${
+                className={`px-2 py-1 sm:px-2.5 sm:py-1 rounded-lg transition-colors font-mono font-bold text-[11px] sm:text-xs min-h-[32px] flex items-center justify-center ${
                   lang === 'en'
                     ? 'bg-emerald-500 text-white shadow-sm'
                     : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
@@ -130,7 +125,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             {/* Bookmarks Trigger */}
             <button
               onClick={onOpenBookmarks}
-              className="relative p-2 rounded-xl bg-slate-100 dark:bg-white/[0.05] border border-slate-200 dark:border-white/10 text-slate-700 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:border-emerald-500/40 transition-colors"
+              className="relative p-2 min-w-[36px] min-h-[36px] flex items-center justify-center rounded-xl bg-slate-100 dark:bg-white/[0.05] border border-slate-200 dark:border-white/10 text-slate-700 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:border-emerald-500/40 transition-colors"
               title={t.bookmarks}
             >
               <Bookmark className="w-4 h-4" />
@@ -144,7 +139,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             {/* Dark/Light Mode Toggle */}
             <button
               onClick={toggleTheme}
-              className="p-2 rounded-xl bg-slate-100 dark:bg-white/[0.05] border border-slate-200 dark:border-white/10 text-slate-700 dark:text-slate-300 hover:text-amber-500 dark:hover:text-cyan-400 hover:border-amber-400/40 dark:hover:border-cyan-500/40 transition-colors"
+              className="p-2 min-w-[36px] min-h-[36px] flex items-center justify-center rounded-xl bg-slate-100 dark:bg-white/[0.05] border border-slate-200 dark:border-white/10 text-slate-700 dark:text-slate-300 hover:text-amber-500 dark:hover:text-cyan-400 hover:border-amber-400/40 dark:hover:border-cyan-500/40 transition-colors"
               title={t.themeToggle}
             >
               {isDark ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4 text-slate-700" />}

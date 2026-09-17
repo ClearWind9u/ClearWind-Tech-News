@@ -42,6 +42,13 @@ const HTML_ENTITIES: Record<string, string> = {
   '&uacute;': 'ú',
   '&ugrave;': 'ù',
   '&yacute;': 'ý',
+  '&ldquo;': '"',
+  '&rdquo;': '"',
+  '&lsquo;': "'",
+  '&rsquo;': "'",
+  '&ndash;': '–',
+  '&mdash;': '—',
+  '&hellip;': '…',
   '&#8216;': "'",
   '&#8217;': "'",
   '&#8220;': '"',
@@ -53,27 +60,35 @@ export function decodeHtml(str: string): string {
   if (!str || typeof str !== 'string') return '';
   let result = str;
 
-  // 1. Decode Decimal Unicode Entities (e.g. &#7883; -> ị, &#273; -> đ)
-  result = result.replace(/&#(\d+);/g, (_, dec) => {
-    try {
-      return String.fromCharCode(parseInt(dec, 10));
-    } catch {
-      return _;
-    }
-  });
+  // Multi-pass decode to resolve nested/double encoding (e.g. &amp;apos; -> &apos; -> ')
+  for (let iter = 0; iter < 3; iter++) {
+    const prev = result;
 
-  // 2. Decode Hex Unicode Entities
-  result = result.replace(/&#x([0-9a-f]+);/gi, (_, hex) => {
-    try {
-      return String.fromCodePoint(parseInt(hex, 16));
-    } catch {
-      return _;
-    }
-  });
+    // 1. Decode Decimal Unicode Entities (e.g. &#7883; -> ị, &#273; -> đ, &#038; -> &)
+    result = result.replace(/&#(\d+);/g, (_, dec) => {
+      try {
+        const code = parseInt(dec, 10);
+        return String.fromCodePoint(code);
+      } catch {
+        return _;
+      }
+    });
 
-  // 3. Decode named HTML entities
-  for (const [entity, char] of Object.entries(HTML_ENTITIES)) {
-    result = result.replaceAll(entity, char);
+    // 2. Decode Hex Unicode Entities
+    result = result.replace(/&#x([0-9a-f]+);/gi, (_, hex) => {
+      try {
+        return String.fromCodePoint(parseInt(hex, 16));
+      } catch {
+        return _;
+      }
+    });
+
+    // 3. Decode named HTML entities
+    for (const [entity, char] of Object.entries(HTML_ENTITIES)) {
+      result = result.replaceAll(entity, char);
+    }
+
+    if (result === prev) break;
   }
 
   return result.replace(/\s+/g, ' ').trim();
@@ -152,6 +167,23 @@ export interface ArticleCuration {
 }
 
 export const CURATED_ARTICLES: ArticleCuration[] = [
+  {
+    match: /Training a 4B model.*faster query plans than Postgres|Huấn luyện mô hình 4B.*Postgres/i,
+    category: 'AI & Machine Learning',
+    title_vi: 'Huấn luyện mô hình AI 4B tối ưu kế hoạch truy vấn SQL nhanh hơn 81% so với PostgreSQL',
+    title_en: 'Training a 4B Model to Produce 81% Faster SQL Query Plans Than PostgreSQL',
+    summary_vi: [
+      'Nghiên cứu ứng dụng mô hình học máy chuyên biệt 4 tỷ tham số (4B) nhằm giải quyết bài toán tối ưu hóa chi phí kế hoạch thực thi câu lệnh SQL.',
+      'Đạt bước đột phá với tốc độ sinh execution plan nhanh hơn 81% so với bộ tối ưu hóa truyền thống (Cost-based Query Optimizer) của PostgreSQL.',
+      'Chứng minh tiềm năng tích hợp trực tiếp các mô hình AI nhỏ gọn vào lõi hệ quản trị cơ sở dữ liệu để tăng tốc xử lý truy vấn lớn trong thời gian thực.'
+    ],
+    summary_en: [
+      'Pioneers a specialized 4-billion parameter AI model designed to optimize SQL execution plan generation and query cost estimation.',
+      'Achieves an 81% speedup in producing optimal execution plans compared to the native cost-based query optimizer in PostgreSQL.',
+      'Demonstrates the viability of embedding lightweight foundation models directly into database engines for real-time latency reduction.'
+    ],
+    tags: ['AI', 'PostgreSQL', 'SQL', 'Database', 'MachineLearning']
+  },
   {
     match: /John Ternus.*Apple.*CEO/i,
     category: 'Tech Trends & Startups',
@@ -886,10 +918,38 @@ export function evaluateITRelevance(title: string, content: string = ''): ITRele
   };
 }
 
+export const IT_TERM_REPLACEMENTS: Array<[RegExp, string]> = [
+  [/Đào tạo mô hình/gi, 'Huấn luyện mô hình'],
+  [/đào tạo mô hình/gi, 'huấn luyện mô hình'],
+  [/đào tạo AI/gi, 'huấn luyện AI'],
+  [/Đào tạo AI/gi, 'Huấn luyện AI'],
+  [/đặc vụ AI/gi, 'tác nhân AI (AI Agent)'],
+  [/Đặc vụ AI/gi, 'Tác nhân AI (AI Agent)'],
+  [/mã hóa Vibe/gi, 'Lập trình Vibe Coding'],
+  [/kế hoạch truy vấn/gi, 'kế hoạch truy vấn SQL'],
+  [/cơ sở dữ liệu đám mây/gi, 'cơ sở dữ liệu Cloud'],
+  [/trí tuệ nhân tạo biên giới/gi, 'các mô hình AI tiên tiến (Frontier AI)'],
+  [/mô hình biên giới/gi, 'mô hình AI tiên tiến (Frontier Models)'],
+];
+
+export function polishVietnameseITTerminology(text: string): string {
+  let polished = text;
+  for (const [regex, replacement] of IT_TERM_REPLACEMENTS) {
+    polished = polished.replace(regex, replacement);
+  }
+  return polished;
+}
+
+/**
+ * Resilient Multi-Provider Translation Engine
+ * Falls through 3 distinct API providers with strict timeout safeguards
+ */
 export async function translateTextFree(text: string, from: string = 'en', to: string = 'vi'): Promise<string> {
   if (!text || typeof text !== 'string') return '';
   const clean = text.trim();
   if (!clean) return '';
+
+  // Provider 1: Google Translate Mobile (GTX)
   try {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 3500);
@@ -900,12 +960,51 @@ export async function translateTextFree(text: string, from: string = 'en', to: s
       const data = await res.json();
       if (Array.isArray(data) && Array.isArray(data[0])) {
         const translated = data[0].map((item: any) => item[0]).join('').trim();
-        if (translated) return translated;
+        if (translated && (to !== 'vi' || hasVietnameseDiacritics(translated))) {
+          return to === 'vi' ? polishVietnameseITTerminology(translated) : translated;
+        }
       }
     }
-  } catch (err) {
-    // Network fallback
+  } catch {
+    // Fallthrough to Provider 2
   }
+
+  // Provider 2: Google Translate Extension Endpoint (dict-chrome-ex)
+  try {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 3500);
+    const url = `https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=${from}&tl=${to}&q=${encodeURIComponent(clean)}`;
+    const res = await fetch(url, { signal: controller.signal });
+    clearTimeout(timeoutId);
+    if (res.ok) {
+      const data = await res.json();
+      const translated = Array.isArray(data) ? data.join('').trim() : typeof data === 'string' ? data.trim() : '';
+      if (translated && (to !== 'vi' || hasVietnameseDiacritics(translated))) {
+        return to === 'vi' ? polishVietnameseITTerminology(translated) : translated;
+      }
+    }
+  } catch {
+    // Fallthrough to Provider 3
+  }
+
+  // Provider 3: MyMemory Translation API
+  try {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 4000);
+    const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(clean)}&langpair=${from}|${to}`;
+    const res = await fetch(url, { signal: controller.signal });
+    clearTimeout(timeoutId);
+    if (res.ok) {
+      const data = await res.json();
+      const translated = data?.responseData?.translatedText?.trim();
+      if (translated && (to !== 'vi' || hasVietnameseDiacritics(translated))) {
+        return to === 'vi' ? polishVietnameseITTerminology(translated) : translated;
+      }
+    }
+  } catch {
+    // Exhausted external providers
+  }
+
   return clean;
 }
 
@@ -925,7 +1024,12 @@ export async function translateTitleToVietnameseAsync(titleEn: string): Promise<
   }
 
   const translated = await translateTextFree(clean, 'en', 'vi');
-  return translated || clean;
+  if (translated && hasVietnameseDiacritics(translated)) {
+    return translated;
+  }
+
+  // If translation returned unchanged English, generate a clean technical title in Vietnamese
+  return `Phân tích công nghệ: ${clean}`;
 }
 
 export async function translateTitleToEnglishAsync(titleVi: string): Promise<string> {
@@ -976,7 +1080,8 @@ function isNavigationJunk(text: string): boolean {
     'sign in', 'sign up', 'appearance settings', 'skip to content', 'terms of service',
     'privacy policy', 'cookie', 'all rights reserved', 'navigation', 'subscribe',
     'javascript', 'mcp registry', 'code creation', 'github copilot', 'write better code',
-    'log in', 'create an account'
+    'log in', 'create an account', 'hacker news top story', 'score:', 'points,', 'comments.',
+    'câu chuyện hàng đầu của hacker news', 'thảo luận công nghệ, lập trình'
   ];
   return junkWords.some((w) => lower.includes(w));
 }
@@ -1068,15 +1173,17 @@ export async function generateTechnicalTakeawaysAsync(
       p1 = hasVietnameseDiacritics(rawSentences[0])
         ? rawSentences[0]
         : await translateTextFree(rawSentences[0], 'en', 'vi');
-    } else {
-      p1 = `Tổng quan bối cảnh, sự kiện then chốt và các diễn biến công nghệ nổi bật được ghi nhận trong bài viết về ${topicVi}.`;
+    }
+    if (!p1 || !hasVietnameseDiacritics(p1)) {
+      p1 = `Tổng quan bối cảnh, sự kiện then chốt và các diễn biến kỹ thuật nổi bật được ghi nhận về ${topicVi}.`;
     }
 
     if (rawSentences[1]) {
       p2 = hasVietnameseDiacritics(rawSentences[1])
         ? rawSentences[1]
         : await translateTextFree(rawSentences[1], 'en', 'vi');
-    } else {
+    }
+    if (!p2 || !hasVietnameseDiacritics(p2)) {
       p2 = insightsVi.tech;
     }
 
@@ -1084,7 +1191,8 @@ export async function generateTechnicalTakeawaysAsync(
       p3 = hasVietnameseDiacritics(rawSentences[2])
         ? rawSentences[2]
         : await translateTextFree(rawSentences[2], 'en', 'vi');
-    } else {
+    }
+    if (!p3 || !hasVietnameseDiacritics(p3)) {
       p3 = insightsVi.impact;
     }
 
