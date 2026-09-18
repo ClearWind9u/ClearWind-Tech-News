@@ -523,7 +523,7 @@ async function fetchDevToArticles(existingIds: Set<string>, apiKey?: string): Pr
         contentSnippet: rawContent.substring(0, 300),
         authorName: item.user?.name ?? item.user?.username ?? 'Dev.to Author',
         authorAvatar: item.user?.profile_image_90 ?? undefined,
-        upvotes: item.positive_reactions_count ?? 10,
+        upvotes: item.positive_reactions_count ?? 0,
         commentsCount: item.comments_count ?? 0,
       };
 
@@ -774,8 +774,8 @@ export async function runCrawlerPipeline() {
           thumbnailUrl,
           contentSnippet: rawContent.substring(0, 300),
           authorName: item.creator ?? item.author ?? feed.name,
-          upvotes: Math.floor(Math.random() * 30) + 10,
-          commentsCount: Math.floor(Math.random() * 10) + 1,
+          upvotes: 0,
+          commentsCount: 0,
         };
 
         const strictlyGuarded = await ensureStrictBilingualQuality(candidate, rawTitle, rawContent, feed.origin);

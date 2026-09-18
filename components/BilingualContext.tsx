@@ -76,6 +76,32 @@ interface Translations {
   hotnessLevel: string;
   techTags: string;
   articlesCount: string;
+  listenAudio: string;
+  stopAudio: string;
+  pauseAudio: string;
+  resumeAudio: string;
+  audioSpeed: string;
+  audioNotSupported: string;
+  morningBriefing: string;
+  morningBriefingDesc: string;
+  playBriefing: string;
+  prevStory: string;
+  nextStory: string;
+  storyCounter: string;
+  podcastRadio: string;
+  closeBriefing: string;
+  jumpToStory: string;
+  techRadarTitle: string;
+  techRadarDesc: string;
+  surgingGroup: string;
+  adoptGroup: string;
+  emergingGroup: string;
+  radarCollapse: string;
+  radarExpand: string;
+  articlesCountLabel: string;
+  avgScoreLabel: string;
+  filterByTagActive: string;
+  expandPlaylist: string;
 }
 
 const translationsDict: Record<Language, Translations> = {
@@ -148,6 +174,32 @@ const translationsDict: Record<Language, Translations> = {
     hotnessLevel: 'Mức độ quan tâm',
     techTags: 'Tags công nghệ',
     articlesCount: 'bản tin',
+    listenAudio: 'Nghe tóm tắt',
+    stopAudio: 'Dừng đọc',
+    pauseAudio: 'Tạm dừng',
+    resumeAudio: 'Tiếp tục',
+    audioSpeed: 'Tốc độ',
+    audioNotSupported: 'Trình duyệt không hỗ trợ đọc',
+    morningBriefing: 'Bản tin sáng 3 phút',
+    morningBriefingDesc: 'Điểm tin 5 bài công nghệ nổi bật hôm nay qua giọng đọc AI',
+    playBriefing: 'Bật Bản Tin',
+    prevStory: 'Bài trước',
+    nextStory: 'Bài tiếp',
+    storyCounter: 'Bài',
+    podcastRadio: 'Radio Công Nghệ 24/7',
+    closeBriefing: 'Đóng bản tin',
+    jumpToStory: 'Nghe bài này',
+    techRadarTitle: 'Radar Xu Hướng Công Nghệ',
+    techRadarDesc: 'Chỉ số đo lường mức độ quan tâm và nhịp đập công nghệ thời gian thực',
+    surgingGroup: 'Đang bùng nổ',
+    adoptGroup: 'Trọng tâm & Ổn định',
+    emergingGroup: 'Mới nổi & Tiềm năng',
+    radarCollapse: 'Thu gọn',
+    radarExpand: 'Mở rộng Radar',
+    articlesCountLabel: 'bài',
+    avgScoreLabel: 'điểm TB',
+    filterByTagActive: 'Đang lọc theo',
+    expandPlaylist: 'Mở rộng danh sách phát',
   },
   en: {
     appName: 'ClearWind Tech',
@@ -218,6 +270,32 @@ const translationsDict: Record<Language, Translations> = {
     hotnessLevel: 'Hotness Level',
     techTags: 'Tech Tags',
     articlesCount: 'articles',
+    listenAudio: 'Listen Takeaways',
+    stopAudio: 'Stop Audio',
+    pauseAudio: 'Pause',
+    resumeAudio: 'Resume',
+    audioSpeed: 'Speed',
+    audioNotSupported: 'Speech synthesis not supported',
+    morningBriefing: '3-Min Daily Briefing',
+    morningBriefingDesc: 'Top 5 trending tech stories today in an AI-narrated audio podcast',
+    playBriefing: 'Play Briefing',
+    prevStory: 'Previous Story',
+    nextStory: 'Next Story',
+    storyCounter: 'Story',
+    podcastRadio: '24/7 Tech Radio',
+    closeBriefing: 'Close Briefing',
+    jumpToStory: 'Play this story',
+    techRadarTitle: 'Tech Radar & Pulse',
+    techRadarDesc: 'Real-time technology adoption velocity and developer interest pulse',
+    surgingGroup: 'Surging Now',
+    adoptGroup: 'Core & Adopt',
+    emergingGroup: 'Emerging & Fresh',
+    radarCollapse: 'Collapse',
+    radarExpand: 'Expand Radar',
+    articlesCountLabel: 'stories',
+    avgScoreLabel: 'pts avg',
+    filterByTagActive: 'Filtered by',
+    expandPlaylist: 'Expand Playlist',
   },
 };
 

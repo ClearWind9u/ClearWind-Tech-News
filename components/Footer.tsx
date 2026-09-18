@@ -7,16 +7,8 @@ interface FooterProps {
   lastUpdated: string;
 }
 
-export const Footer: React.FC<FooterProps> = ({ lastUpdated }) => {
+export const Footer: React.FC<FooterProps> = () => {
   const { lang, t } = useBilingual();
-
-  const formattedDate = new Date(lastUpdated).toLocaleDateString(lang === 'vi' ? 'vi-VN' : 'en-US', {
-    hour: '2-digit',
-    minute: '2-digit',
-    day: 'numeric',
-    month: 'numeric',
-    year: 'numeric',
-  });
 
   return (
     <footer className="mt-16 border-t border-slate-200/80 dark:border-white/10 bg-slate-50/50 dark:bg-[#06080D] py-8 transition-colors">
@@ -41,15 +33,10 @@ export const Footer: React.FC<FooterProps> = ({ lastUpdated }) => {
             </div>
           </div>
 
-          {/* Status & Last Updated */}
-          <div className="flex items-center gap-3 text-xs text-slate-500 dark:text-slate-400 font-mono">
-            <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-500/10 dark:bg-emerald-500/15 border border-emerald-500/20 text-emerald-600 dark:text-emerald-400">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-              <span>{lang === 'vi' ? 'Tự động 24/7' : 'Live 24/7'}</span>
-            </div>
-            <span>
-              {t.lastUpdated} {formattedDate}
-            </span>
+          {/* Status Indicator */}
+          <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-500/10 dark:bg-emerald-500/15 border border-emerald-500/20 text-emerald-600 dark:text-emerald-400 text-xs font-mono">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+            <span>{lang === 'vi' ? 'Tự động 24/7' : 'Live 24/7'}</span>
           </div>
         </div>
 

@@ -1,12 +1,12 @@
 'use client';
 
 import React from 'react';
-import { NewsItem, getCategoryLabel } from '../types/news';
+import { NewsItem, getCategoryLabel, formatRelativeTime } from '../types/news';
 import { useBilingual } from './BilingualContext';
 import {
   Clock,
   Bookmark,
-  Heart,
+  Calendar,
   Zap,
   ArrowUpRight,
   Cpu,
@@ -14,11 +14,14 @@ import {
   Cloud,
   ShieldCheck,
   Smartphone,
+  Headphones,
 } from 'lucide-react';
 
 interface NewsCardProps {
   article: NewsItem;
   onSelectArticle: (article: NewsItem) => void;
+  onListen?: (article: NewsItem) => void;
+  isFocused?: boolean;
 }
 
 interface CategoryTheme {
@@ -74,14 +77,17 @@ const CATEGORY_THEMES: Record<string, CategoryTheme> = {
   },
 };
 
-export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) => {
+export const NewsCard: React.FC<NewsCardProps> = ({
+  article,
+  onSelectArticle,
+  onListen,
+  isFocused = false,
+}) => {
   const {
     lang,
     t,
     toggleBookmark,
     isBookmarked,
-    toggleUpvote,
-    isUpvoted,
     setSelectedTag,
     isRead,
     markAsRead,
@@ -97,7 +103,7 @@ export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) 
     article.summary_vi ||
     [];
   const categoryLabel = getCategoryLabel(article.category, lang);
-  const upvoteCount = (article.upvotes || 0) + (isUpvoted(article.id) ? 1 : 0);
+  const timeAgo = formatRelativeTime(article.publishedAt, lang);
   const read = isRead(article.id);
   const theme = CATEGORY_THEMES[article.category] ?? CATEGORY_THEMES['Tech Trends & Startups'];
   const IconComponent = theme.icon;
@@ -109,10 +115,13 @@ export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) 
 
   return (
     <article
+      id={`article-card-${article.id}`}
       onClick={handleCardClick}
-      className={`group relative rounded-2xl bg-white dark:bg-[#11141E] hover:bg-slate-50 dark:hover:bg-[#151A27] border border-slate-200/90 dark:border-white/[0.08] hover:border-emerald-500/50 dark:hover:border-emerald-500/40 p-4 sm:p-5 cursor-pointer transition-all duration-200 flex flex-col justify-between h-full shadow-xs hover:shadow-lg hover:-translate-y-0.5 ${
-        read ? 'opacity-85' : 'opacity-100'
-      }`}
+      className={`group relative rounded-2xl bg-white dark:bg-[#11141E] hover:bg-slate-50 dark:hover:bg-[#151A27] border p-4 sm:p-5 cursor-pointer transition-all duration-200 flex flex-col justify-between h-full shadow-xs hover:shadow-lg hover:-translate-y-0.5 ${
+        isFocused
+          ? 'ring-2 ring-emerald-500 dark:ring-emerald-400 border-emerald-500/80 dark:border-emerald-400/80 shadow-xl shadow-emerald-500/20 -translate-y-1 z-10'
+          : 'border-slate-200/90 dark:border-white/[0.08] hover:border-emerald-500/50 dark:hover:border-emerald-500/40'
+      } ${read ? 'opacity-85' : 'opacity-100'}`}
     >
       <div className="flex flex-col flex-1">
         {/* Visual Media Header (16:9 Thumbnail or Typographic Monogram) */}
@@ -198,21 +207,18 @@ export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) 
       {/* Card Footer: Metadata & Quick Actions */}
       <div className="flex items-center justify-between pt-3 border-t border-slate-100 dark:border-white/[0.06] text-xs">
         <div className="flex items-center gap-2">
-          {/* Upvote Button */}
+          {/* Quick Listen Button */}
           <button
             type="button"
             onClick={(e) => {
               e.stopPropagation();
-              toggleUpvote(article.id);
+              onListen ? onListen(article) : onSelectArticle(article);
             }}
-            className={`flex items-center gap-1 px-2 py-0.8 rounded-lg border text-xs font-mono font-medium transition-all ${
-              isUpvoted(article.id)
-                ? 'bg-rose-500/15 text-rose-600 dark:text-rose-400 border-rose-500/30'
-                : 'bg-slate-100/70 hover:bg-slate-200/80 dark:bg-white/[0.04] dark:hover:bg-white/[0.08] border-slate-200/80 dark:border-white/10 text-slate-600 dark:text-slate-400'
-            }`}
+            className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border-emerald-500/20 dark:border-emerald-500/30 text-[11px] font-bold transition-all shadow-2xs hover:scale-[1.02] active:scale-[0.98]"
+            title={lang === 'vi' ? 'Nghe tóm tắt' : 'Listen Takeaways'}
           >
-            <Heart className={`w-3.5 h-3.5 ${isUpvoted(article.id) ? 'fill-rose-500 text-rose-500' : ''}`} />
-            <span>{upvoteCount}</span>
+            <Headphones className="w-3.5 h-3.5" />
+            <span>{lang === 'vi' ? 'Nghe' : 'Listen'}</span>
           </button>
 
           {/* Bookmark Button */}
@@ -231,6 +237,17 @@ export const NewsCard: React.FC<NewsCardProps> = ({ article, onSelectArticle }) 
           >
             <Bookmark className="w-3.5 h-3.5" />
           </button>
+
+          {/* Published Date */}
+          {timeAgo && (
+            <span
+              className="text-[11px] font-mono text-slate-500 dark:text-slate-400 flex items-center gap-1 font-medium"
+              title={new Date(article.publishedAt).toLocaleString(lang === 'vi' ? 'vi-VN' : 'en-US')}
+            >
+              <Calendar className="w-3 h-3 text-slate-400 dark:text-slate-500 shrink-0" />
+              <span>{timeAgo}</span>
+            </span>
+          )}
         </div>
 
         {/* Reading Time & Quick Read */}

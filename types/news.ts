@@ -75,7 +75,6 @@ export type NewsDatabase = z.infer<typeof NewsDatabaseSchema>;
 export type TimeFilterOption = 'all' | '24h' | '3d' | '7d' | 'archived';
 
 export function isArticleInTimeRange(publishedAt: string, filter: TimeFilterOption): boolean {
-  if (filter === 'all') return true;
   const now = Date.now();
   const articleTime = new Date(publishedAt).getTime();
   if (isNaN(articleTime)) return true;
@@ -83,6 +82,9 @@ export function isArticleInTimeRange(publishedAt: string, filter: TimeFilterOpti
   const diffHours = (now - articleTime) / (1000 * 60 * 60);
 
   switch (filter) {
+    case 'all':
+      // Tạm ẩn tin tức cũ quá 30 ngày khỏi UI mặc định (30 ngày = 720 giờ)
+      return diffHours <= 24 * 30;
     case '24h':
       return diffHours <= 24;
     case '3d':
@@ -94,6 +96,45 @@ export function isArticleInTimeRange(publishedAt: string, filter: TimeFilterOpti
     default:
       return true;
   }
+}
+
+export function isArticleOlderThanDays(publishedAt: string, days = 30): boolean {
+  const articleTime = new Date(publishedAt).getTime();
+  if (isNaN(articleTime)) return false;
+  const diffMs = Date.now() - articleTime;
+  return diffMs > days * 24 * 60 * 60 * 1000;
+}
+
+export function formatRelativeTime(publishedAt: string, lang: 'vi' | 'en'): string {
+  const now = Date.now();
+  const date = new Date(publishedAt).getTime();
+  if (isNaN(date)) return '';
+  const diffMs = now - date;
+  const diffSec = Math.max(0, Math.floor(diffMs / 1000));
+  const diffMin = Math.floor(diffSec / 60);
+  const diffHours = Math.floor(diffMin / 60);
+  const diffDays = Math.floor(diffHours / 24);
+
+  if (diffMin < 1) {
+    return lang === 'vi' ? 'Vừa xong' : 'Just now';
+  }
+  if (diffMin < 60) {
+    return lang === 'vi' ? `${diffMin} phút trước` : `${diffMin}m ago`;
+  }
+  if (diffHours < 24) {
+    return lang === 'vi' ? `${diffHours} giờ trước` : `${diffHours}h ago`;
+  }
+  if (diffDays === 1) {
+    return lang === 'vi' ? 'Hôm qua' : 'Yesterday';
+  }
+  if (diffDays < 7) {
+    return lang === 'vi' ? `${diffDays} ngày trước` : `${diffDays}d ago`;
+  }
+  return new Date(publishedAt).toLocaleDateString(lang === 'vi' ? 'vi-VN' : 'en-US', {
+    day: 'numeric',
+    month: 'numeric',
+    year: diffDays > 365 ? 'numeric' : undefined,
+  });
 }
 
 /**
