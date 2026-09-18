@@ -3,14 +3,15 @@
 import React from 'react';
 import { NewsItem, getCategoryLabel } from '../types/news';
 import { useBilingual } from './BilingualContext';
-import { Bookmark, ArrowUpRight } from 'lucide-react';
+import { Bookmark, ArrowUpRight, Headphones } from 'lucide-react';
 
 interface HeroBentoProps {
   articles: NewsItem[];
   onSelectArticle: (article: NewsItem) => void;
+  onListen?: (article: NewsItem) => void;
 }
 
-export const HeroBento: React.FC<HeroBentoProps> = ({ articles, onSelectArticle }) => {
+export const HeroBento: React.FC<HeroBentoProps> = ({ articles, onSelectArticle, onListen }) => {
   const { lang, t, toggleBookmark, isBookmarked } = useBilingual();
 
   if (!articles || articles.length === 0) return null;
@@ -125,6 +126,19 @@ export const HeroBento: React.FC<HeroBentoProps> = ({ articles, onSelectArticle 
             </div>
 
             <div className="flex items-center gap-2 shrink-0">
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onListen ? onListen(leadArticle) : onSelectArticle(leadArticle);
+                }}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border-emerald-500/20 dark:border-emerald-500/30 text-xs font-bold transition-all shadow-2xs hover:scale-[1.02] active:scale-[0.98]"
+                title={lang === 'vi' ? 'Nghe tóm tắt' : 'Listen Takeaways'}
+              >
+                <Headphones className="w-3.5 h-3.5" />
+                <span>{lang === 'vi' ? 'Nghe' : 'Listen'}</span>
+              </button>
+
               <button
                 type="button"
                 onClick={(e) => {

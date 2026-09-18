@@ -5,6 +5,7 @@ import {
   NewsDatabase,
   NewsItem,
   isArticleInTimeRange,
+  isArticleOlderThanDays,
   ArchiveManifest,
   ReadTimeFilterOption,
   HotFilterOption,
@@ -21,6 +22,11 @@ import { NewsDetailModal } from './NewsDetailModal';
 import { BookmarkDrawer } from './BookmarkDrawer';
 import { ShortcutsModal } from './ShortcutsModal';
 import { SpotlightSearchModal } from './SpotlightSearchModal';
+import { DailyBriefingPlayer } from './DailyBriefingPlayer';
+import { useDailyBriefingPlaylist } from '@/lib/speech_synthesizer';
+import { TechRadarWidget } from './TechRadarWidget';
+import { computeTechRadar } from '@/lib/tech_radar_engine';
+import { matchSearchQuery, matchTechnologyTag } from '@/lib/search_utils';
 
 function areParamsEqual(searchString: string, newParams: URLSearchParams): boolean {
   const currentParams = new URLSearchParams(searchString);
@@ -47,6 +53,7 @@ import {
   ChevronLeft,
   ChevronRight,
   SlidersHorizontal,
+  Keyboard,
 } from 'lucide-react';
 import { getPersonalizedRecommendations } from '@/lib/user_interest_tracker';
 
@@ -72,6 +79,7 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
     isRead,
     markAllAsRead,
     bookmarks,
+    toggleBookmark,
     cleanupStaleBookmarks,
     sortOption,
     setSortOption,
@@ -83,9 +91,27 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedOrigin, setSelectedOrigin] = useState<'all' | 'vietnam' | 'global'>('all');
   const [activeArticle, setActiveArticle] = useState<NewsItem | null>(null);
+  const [autoPlayAudio, setAutoPlayAudio] = useState(false);
   const [isBookmarkDrawerOpen, setIsBookmarkDrawerOpen] = useState(false);
   const [isShortcutsOpen, setIsShortcutsOpen] = useState(false);
   const [isSpotlightOpen, setIsSpotlightOpen] = useState(false);
+  const [isBriefingOpen, setIsBriefingOpen] = useState(false);
+  const [focusedCardIndex, setFocusedCardIndex] = useState<number>(-1);
+
+  // Top 5 stories for 3-minute morning briefing / 24/7 tech radio podcast
+  const topBriefingArticles = useMemo(() => {
+    return [...(initialData?.articles ?? [])]
+      .filter((a) => !isArticleOlderThanDays(a.publishedAt, 30))
+      .sort((a, b) => b.hotScore - a.hotScore)
+      .slice(0, 5);
+  }, [initialData?.articles]);
+
+  const briefingPlayer = useDailyBriefingPlaylist(topBriefingArticles, lang);
+
+  const handleOpenArticle = useCallback((art: NewsItem, autoPlay = false) => {
+    setActiveArticle(art);
+    setAutoPlayAudio(autoPlay);
+  }, []);
 
   // Advanced Filters State
   const [selectedMonth, setSelectedMonth] = useState('all');
@@ -126,6 +152,11 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
     }
     return initialData?.articles ?? [];
   }, [selectedMonth, monthArticlesCache, initialData?.articles]);
+
+  // Real-time Tech Radar data computed from current active articles pool
+  const radarData = useMemo(() => {
+    return computeTechRadar(activeArticlesPool);
+  }, [activeArticlesPool]);
 
   const [currentPage, setCurrentPage] = useState(1);
   const [isLoading, setIsLoading] = useState(false);
@@ -402,7 +433,8 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
   // Filter & Sort Pipeline
   const filteredArticles = useMemo(() => {
     let result = activeArticlesPool.filter((article) => {
-      if (selectedTag && !article.tags.some((t) => t.toLowerCase() === selectedTag.toLowerCase())) {
+      // 1. Tag & Technology Entity Filter (Tech Radar and Tags)
+      if (selectedTag && !matchTechnologyTag(selectedTag, article)) {
         return false;
       }
 
@@ -436,34 +468,28 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
         if (hotFilter === 'superhot' && article.hotScore < 90) return false;
       }
 
-      // Timeframe Filter (Preserve bookmarks and search results across all time)
-      if (sortOption !== 'saved' && !searchQuery.trim() && !selectedTag && selectedMonth === 'all') {
+      // Timeframe Filter (Default to <= 30 days; preserve bookmarks, search results and archive partitions)
+      if (sortOption !== 'saved' && !searchQuery.trim() && selectedMonth === 'all') {
         if (!isArticleInTimeRange(article.publishedAt, timeFilter)) {
           return false;
         }
       }
 
+      // 2. Search query filter (with Vietnamese diacritic-insensitive matching)
       if (searchQuery.trim()) {
-        const query = searchQuery.toLowerCase().trim();
-        const titleVi = (article.title_vi || '').toLowerCase();
-        const titleEn = (article.title_en || '').toLowerCase();
-        const summaryVi = (article.summary_vi || []).join(' ').toLowerCase();
-        const summaryEn = (article.summary_en || []).join(' ').toLowerCase();
-        const tags = (article.tags || []).join(' ').toLowerCase();
-        const source = (article.sourceName || '').toLowerCase();
-        const author = (article.authorName || '').toLowerCase();
-        const category = (article.category || '').toLowerCase();
-
-        return (
-          titleVi.includes(query) ||
-          titleEn.includes(query) ||
-          summaryVi.includes(query) ||
-          summaryEn.includes(query) ||
-          tags.includes(query) ||
-          source.includes(query) ||
-          author.includes(query) ||
-          category.includes(query)
+        const isMatch = matchSearchQuery(
+          searchQuery,
+          article.title_vi,
+          article.title_en,
+          article.originalTitle,
+          article.summary_vi,
+          article.summary_en,
+          article.tags,
+          article.sourceName,
+          article.authorName,
+          article.category
         );
+        if (!isMatch) return false;
       }
 
       return true;
@@ -515,19 +541,101 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
     }
   }, [totalPages]);
 
-  // Keyboard navigation shortcuts
+  // Reset card focus when changing page, filter or search
+  useEffect(() => {
+    setFocusedCardIndex(-1);
+  }, [currentPage, selectedCategory, sortOption, searchQuery, selectedOrigin, selectedMonth]);
+
+  // Smooth scroll focused card into view
+  useEffect(() => {
+    if (focusedCardIndex >= 0 && paginatedArticles[focusedCardIndex]) {
+      const el = document.getElementById(`article-card-${paginatedArticles[focusedCardIndex].id}`);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }
+  }, [focusedCardIndex, paginatedArticles]);
+
+  // Keyboard navigation shortcuts (Vim / Linear pro navigation)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (['INPUT', 'TEXTAREA', 'SELECT'].includes((e.target as HTMLElement)?.tagName)) {
         return;
       }
 
+      // If Escape is pressed, dismiss dialogs or clear focus
+      if (e.key === 'Escape') {
+        if (isShortcutsOpen) {
+          setIsShortcutsOpen(false);
+        } else if (isBookmarkDrawerOpen) {
+          setIsBookmarkDrawerOpen(false);
+        } else if (activeArticle) {
+          setActiveArticle(null);
+        } else if (isBriefingOpen) {
+          setIsBriefingOpen(false);
+        } else if (focusedCardIndex !== -1) {
+          setFocusedCardIndex(-1);
+        }
+        return;
+      }
+
+      // If activeArticle or shortcuts modal is open, don't trigger feed shortcuts
+      if (activeArticle || isShortcutsOpen || isBookmarkDrawerOpen) {
+        return;
+      }
+
       if (e.key === '?') {
         e.preventDefault();
         setIsShortcutsOpen((prev) => !prev);
+      } else if (e.key.toLowerCase() === 'j') {
+        e.preventDefault();
+        setFocusedCardIndex((prev) => (prev <= 0 ? 0 : prev - 1));
+      } else if (e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        setFocusedCardIndex((prev) => (prev === -1 ? 0 : prev < paginatedArticles.length - 1 ? prev + 1 : prev));
+      } else if (e.key === ' ') {
+        e.preventDefault();
+        if (focusedCardIndex >= 0 && paginatedArticles[focusedCardIndex]) {
+          handleOpenArticle(paginatedArticles[focusedCardIndex], true);
+        } else {
+          // Toggle Daily Briefing
+          if (briefingPlayer.isPlaying) {
+            if (briefingPlayer.isPaused) {
+              briefingPlayer.resume();
+            } else {
+              briefingPlayer.pause();
+            }
+          } else {
+            setIsBriefingOpen(true);
+            briefingPlayer.startBriefing();
+          }
+        }
+      } else if (e.key === 'Enter') {
+        if (focusedCardIndex >= 0 && paginatedArticles[focusedCardIndex]) {
+          e.preventDefault();
+          handleOpenArticle(paginatedArticles[focusedCardIndex], false);
+        }
       } else if (e.key.toLowerCase() === 'b') {
         e.preventDefault();
-        setIsBookmarkDrawerOpen((prev) => !prev);
+        if (focusedCardIndex >= 0 && paginatedArticles[focusedCardIndex]) {
+          toggleBookmark(paginatedArticles[focusedCardIndex].id);
+        } else {
+          setIsBookmarkDrawerOpen((prev) => !prev);
+        }
+      } else if (e.key.toLowerCase() === 'o') {
+        if (focusedCardIndex >= 0 && paginatedArticles[focusedCardIndex]) {
+          e.preventDefault();
+          window.open(paginatedArticles[focusedCardIndex].url, '_blank');
+        }
+      } else if (e.key.toLowerCase() === 'p') {
+        e.preventDefault();
+        if (isBriefingOpen && briefingPlayer.isPlaying) {
+          briefingPlayer.stop();
+          setIsBriefingOpen(false);
+        } else {
+          setIsBriefingOpen(true);
+          briefingPlayer.startBriefing();
+        }
       } else if (e.key.toLowerCase() === 'v') {
         e.preventDefault();
         setViewMode(viewMode === 'grid' ? 'compact' : 'grid');
@@ -543,19 +651,35 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
       } else if (e.key === ']') {
         e.preventDefault();
         handlePageChange(currentPage + 1);
-      } else if (e.key === 'Escape') {
-        setIsShortcutsOpen(false);
-        setIsBookmarkDrawerOpen(false);
-        setActiveArticle(null);
       }
     };
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [viewMode, lang, setViewMode, setLang, toggleTheme, currentPage, handlePageChange]);
+  }, [
+    viewMode,
+    lang,
+    setViewMode,
+    setLang,
+    toggleTheme,
+    currentPage,
+    handlePageChange,
+    focusedCardIndex,
+    paginatedArticles,
+    activeArticle,
+    isShortcutsOpen,
+    isBookmarkDrawerOpen,
+    isBriefingOpen,
+    briefingPlayer,
+    handleOpenArticle,
+    toggleBookmark,
+  ]);
 
   const featuredArticles = useMemo(() => {
-    return [...activeArticlesPool].sort((a, b) => b.hotScore - a.hotScore).slice(0, 3);
+    return [...activeArticlesPool]
+      .filter((a) => !isArticleOlderThanDays(a.publishedAt, 30))
+      .sort((a, b) => b.hotScore - a.hotScore)
+      .slice(0, 3);
   }, [activeArticlesPool]);
 
   const handleMarkAllRead = () => {
@@ -585,6 +709,14 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
           onOpenSearch={() => setIsSpotlightOpen(true)}
           onOpenBookmarks={() => setIsBookmarkDrawerOpen(true)}
           savedCount={savedArticlesCount}
+          onOpenBriefing={() => {
+            setIsBriefingOpen(true);
+            if (!briefingPlayer.isPlaying) {
+              briefingPlayer.startBriefing();
+            }
+          }}
+          isBriefingPlaying={briefingPlayer.isPlaying && !briefingPlayer.isPaused}
+          onOpenShortcuts={() => setIsShortcutsOpen(true)}
         />
 
         <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
@@ -603,7 +735,8 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
                 ) : (
                   <HeroBento
                     articles={featuredArticles}
-                    onSelectArticle={(art) => setActiveArticle(art)}
+                    onSelectArticle={(art) => handleOpenArticle(art, false)}
+                    onListen={(art) => handleOpenArticle(art, true)}
                   />
                 )}
               </div>
@@ -630,6 +763,18 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
             onResetAllFilters={handleResetAllFilters}
             isFiltered={isFiltered}
             activeFiltersCount={activeFiltersCount}
+          />
+
+          {/* Real-time Tech Radar & Developer Pulse Widget */}
+          <TechRadarWidget
+            radarData={radarData}
+            selectedTag={selectedTag}
+            onSelectTag={(tag) => {
+              if (tag && selectedCategory !== 'all') {
+                setSelectedCategory('all');
+              }
+              setSelectedTag(tag);
+            }}
           />
 
           {/* Section Header: Priority Tabs (Latest, Trending, Unread, Saved) & Layout Controls */}
@@ -772,21 +917,25 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
           ) : paginatedArticles.length > 0 ? (
             viewMode === 'grid' ? (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {paginatedArticles.map((article) => (
+                {paginatedArticles.map((article, idx) => (
                   <NewsCard
                     key={article.id}
                     article={article}
-                    onSelectArticle={(art) => setActiveArticle(art)}
+                    isFocused={focusedCardIndex === idx}
+                    onSelectArticle={(art) => handleOpenArticle(art, false)}
+                    onListen={(art) => handleOpenArticle(art, true)}
                   />
                 ))}
               </div>
             ) : (
               <div className="space-y-3">
-                {paginatedArticles.map((article) => (
+                {paginatedArticles.map((article, idx) => (
                   <NewsRowCompact
                     key={article.id}
                     article={article}
-                    onSelectArticle={(art) => setActiveArticle(art)}
+                    isFocused={focusedCardIndex === idx}
+                    onSelectArticle={(art) => handleOpenArticle(art, false)}
+                    onListen={(art) => handleOpenArticle(art, true)}
                   />
                 ))}
               </div>
@@ -954,9 +1103,13 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
 
       <NewsDetailModal
         article={activeArticle}
-        onClose={() => setActiveArticle(null)}
+        onClose={() => {
+          setActiveArticle(null);
+          setAutoPlayAudio(false);
+        }}
         allArticles={activeArticlesPool}
-        onSelectArticle={(art) => setActiveArticle(art)}
+        onSelectArticle={(art) => handleOpenArticle(art, false)}
+        autoPlayAudio={autoPlayAudio}
       />
 
       <BookmarkDrawer
@@ -977,6 +1130,27 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
         articles={activeArticlesPool}
         onSelectArticle={(art) => setActiveArticle(art)}
       />
+
+      <DailyBriefingPlayer
+        articles={topBriefingArticles}
+        player={briefingPlayer}
+        isOpen={isBriefingOpen}
+        onClose={() => setIsBriefingOpen(false)}
+        onOpenArticleDetail={(art) => handleOpenArticle(art, false)}
+      />
+
+      {/* Floating Shortcuts Hint Pill (Bottom-Left) */}
+      <button
+        onClick={() => setIsShortcutsOpen(true)}
+        className="fixed bottom-5 left-4 sm:left-6 z-30 flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/95 dark:bg-[#111522]/95 backdrop-blur-xl border border-slate-200/90 dark:border-white/10 text-slate-700 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:border-emerald-500/40 shadow-lg shadow-slate-900/5 dark:shadow-black/20 text-xs font-semibold transition-all hover:scale-105 active:scale-95 cursor-pointer"
+        title={`${t.shortcuts} (?)`}
+      >
+        <Keyboard className="w-3.5 h-3.5 text-emerald-500" />
+        <span className="hidden sm:inline">{t.shortcuts}</span>
+        <kbd className="px-1.5 py-0.2 text-[10px] font-mono font-bold bg-slate-100 dark:bg-white/10 rounded border border-slate-200 dark:border-white/10 text-emerald-600 dark:text-emerald-400">
+          ?
+        </kbd>
+      </button>
     </div>
   );
 };

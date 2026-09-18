@@ -1,23 +1,28 @@
 'use client';
 
 import React from 'react';
-import { NewsItem, getCategoryLabel } from '../types/news';
+import { NewsItem, getCategoryLabel, formatRelativeTime } from '../types/news';
 import { useBilingual } from './BilingualContext';
-import { Clock, Bookmark, Heart, ArrowUpRight } from 'lucide-react';
+import { Clock, Bookmark, Calendar, ArrowUpRight, Headphones } from 'lucide-react';
 
 interface NewsRowCompactProps {
   article: NewsItem;
   onSelectArticle: (article: NewsItem) => void;
+  onListen?: (article: NewsItem) => void;
+  isFocused?: boolean;
 }
 
-export const NewsRowCompact: React.FC<NewsRowCompactProps> = ({ article, onSelectArticle }) => {
+export const NewsRowCompact: React.FC<NewsRowCompactProps> = ({
+  article,
+  onSelectArticle,
+  onListen,
+  isFocused = false,
+}) => {
   const {
     lang,
     t,
     toggleBookmark,
     isBookmarked,
-    toggleUpvote,
-    isUpvoted,
     setSelectedTag,
     isRead,
     markAsRead,
@@ -29,12 +34,7 @@ export const NewsRowCompact: React.FC<NewsRowCompactProps> = ({ article, onSelec
     article.originalTitle ||
     '';
   const categoryLabel = getCategoryLabel(article.category, lang);
-  const formattedDate = new Date(article.publishedAt).toLocaleDateString(lang === 'vi' ? 'vi-VN' : 'en-US', {
-    month: '2-digit',
-    day: '2-digit',
-  });
-
-  const upvoteCount = (article.upvotes || 0) + (isUpvoted(article.id) ? 1 : 0);
+  const timeAgo = formatRelativeTime(article.publishedAt, lang);
   const read = isRead(article.id);
 
   const handleRowClick = () => {
@@ -44,27 +44,22 @@ export const NewsRowCompact: React.FC<NewsRowCompactProps> = ({ article, onSelec
 
   return (
     <div
+      id={`article-card-${article.id}`}
       onClick={handleRowClick}
-      className={`group p-4 rounded-xl bg-white dark:bg-[#11141E] hover:bg-slate-50 dark:hover:bg-[#151B28] border border-slate-200/90 dark:border-white/[0.08] hover:border-emerald-500/50 dark:hover:border-emerald-500/40 transition-all duration-200 flex items-center justify-between gap-4 cursor-pointer shadow-sm hover:shadow-md ${
-        read ? 'opacity-85' : 'opacity-100'
-      }`}
+      className={`group p-4 rounded-xl bg-white dark:bg-[#11141E] hover:bg-slate-50 dark:hover:bg-[#151B28] border transition-all duration-200 flex items-center justify-between gap-4 cursor-pointer shadow-sm hover:shadow-md ${
+        isFocused
+          ? 'ring-2 ring-emerald-500 dark:ring-emerald-400 border-emerald-500/80 dark:border-emerald-400/80 shadow-lg shadow-emerald-500/15 -translate-y-0.5 z-10'
+          : 'border-slate-200/90 dark:border-white/[0.08] hover:border-emerald-500/50 dark:hover:border-emerald-500/40'
+      } ${read ? 'opacity-85' : 'opacity-100'}`}
     >
-      {/* Upvote Box */}
-      <button
-        type="button"
-        onClick={(e) => {
-          e.stopPropagation();
-          toggleUpvote(article.id);
-        }}
-        className={`flex flex-col items-center justify-center w-11 h-11 rounded-lg border text-xs font-mono transition-colors shrink-0 ${
-          isUpvoted(article.id)
-            ? 'bg-rose-500/15 text-rose-600 dark:text-rose-400 border-rose-500/30 shadow-sm'
-            : 'bg-slate-50 dark:bg-[#0D1018] border-slate-200 dark:border-white/10 text-slate-600 dark:text-slate-400 hover:text-rose-500 hover:border-rose-500/30'
-        }`}
+      {/* Date & Time Badge */}
+      <div
+        className="flex flex-col items-center justify-center w-12 h-12 rounded-xl bg-slate-100 dark:bg-white/[0.04] border border-slate-200/80 dark:border-white/10 text-slate-600 dark:text-slate-400 shrink-0 font-mono"
+        title={new Date(article.publishedAt).toLocaleString(lang === 'vi' ? 'vi-VN' : 'en-US')}
       >
-        <Heart className={`w-3.5 h-3.5 ${isUpvoted(article.id) ? 'fill-rose-500 text-rose-500' : ''}`} />
-        <span className="text-[10px] font-bold mt-0.5">{upvoteCount}</span>
-      </button>
+        <Calendar className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400 mb-0.5" />
+        <span className="text-[9.5px] font-bold truncate max-w-[44px] text-center leading-tight">{timeAgo}</span>
+      </div>
 
       {/* Main Content */}
       <div className="flex-1 min-w-0">
@@ -112,6 +107,17 @@ export const NewsRowCompact: React.FC<NewsRowCompactProps> = ({ article, onSelec
 
       {/* Right Actions */}
       <div className="flex items-center gap-2 shrink-0">
+        <button
+          type="button"
+          onClick={(e) => {
+            e.stopPropagation();
+            onListen ? onListen(article) : onSelectArticle(article);
+          }}
+          className="p-2 rounded-lg border bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border-emerald-500/20 dark:border-emerald-500/30 transition-colors"
+          title={lang === 'vi' ? 'Nghe tóm tắt' : 'Listen Takeaways'}
+        >
+          <Headphones className="w-3.5 h-3.5" />
+        </button>
 
         <button
           type="button"

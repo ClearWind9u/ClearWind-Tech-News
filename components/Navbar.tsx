@@ -2,18 +2,24 @@
 
 import React, { useState, useEffect } from 'react';
 import { useBilingual } from './BilingualContext';
-import { Search, Bookmark, Sun, Moon } from 'lucide-react';
+import { Search, Bookmark, Sun, Moon, Radio, Keyboard } from 'lucide-react';
 
 interface NavbarProps {
   onOpenSearch: () => void;
   onOpenBookmarks: () => void;
   savedCount?: number;
+  onOpenBriefing?: () => void;
+  isBriefingPlaying?: boolean;
+  onOpenShortcuts?: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
   onOpenSearch,
   onOpenBookmarks,
   savedCount,
+  onOpenBriefing,
+  isBriefingPlaying,
+  onOpenShortcuts,
 }) => {
   const { lang, setLang, t, bookmarks, isDark, toggleTheme } = useBilingual();
   const [isScrolled, setIsScrolled] = useState(false);
@@ -73,7 +79,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           <button
             onClick={onOpenSearch}
             className="flex-1 max-w-xs sm:max-w-sm hidden sm:flex items-center justify-between px-3.5 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200/80 dark:bg-white/[0.05] dark:hover:bg-white/[0.09] border border-slate-200 dark:border-white/10 text-xs transition-all duration-200 group shadow-xs cursor-pointer text-left"
-            title="Tìm kiếm thông minh (Ctrl+K)"
+            title={t.searchPlaceholder}
           >
             <div className="flex items-center gap-2 text-slate-500 dark:text-slate-400 group-hover:text-slate-800 dark:group-hover:text-slate-200 min-w-0">
               <Search className="w-3.5 h-3.5 text-emerald-500 shrink-0 group-hover:scale-110 transition-transform" />
@@ -88,11 +94,39 @@ export const Navbar: React.FC<NavbarProps> = ({
 
           {/* Right Action Controls */}
           <div className="flex items-center gap-1.5 sm:gap-2">
+            {/* Morning Briefing / Radio 3 Phút Button */}
+            {onOpenBriefing && (
+              <>
+                <button
+                  onClick={onOpenBriefing}
+                  className="hidden md:flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-gradient-to-r from-emerald-500/10 to-cyan-500/10 hover:from-emerald-500/20 hover:to-cyan-500/20 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 text-xs font-bold transition-all shadow-xs cursor-pointer"
+                  title={`${t.morningBriefing} (P)`}
+                >
+                  <Radio
+                    className={`w-3.5 h-3.5 ${isBriefingPlaying ? 'animate-pulse text-emerald-500' : ''}`}
+                  />
+                  <span>{t.morningBriefing}</span>
+                  <kbd className="px-1 py-0.2 text-[9px] font-mono font-bold bg-white/60 dark:bg-black/30 rounded border border-emerald-500/20 text-slate-500 dark:text-slate-400">
+                    P
+                  </kbd>
+                </button>
+                <button
+                  onClick={onOpenBriefing}
+                  className="md:hidden p-2 min-w-[36px] min-h-[36px] flex items-center justify-center rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 hover:bg-emerald-500/20 transition-colors"
+                  title={t.morningBriefing}
+                >
+                  <Radio
+                    className={`w-4 h-4 ${isBriefingPlaying ? 'animate-pulse text-emerald-500' : ''}`}
+                  />
+                </button>
+              </>
+            )}
+
             {/* Mobile Search Icon Button */}
             <button
               onClick={onOpenSearch}
               className="sm:hidden p-2 min-w-[36px] min-h-[36px] flex items-center justify-center rounded-xl bg-slate-100 dark:bg-white/[0.05] border border-slate-200 dark:border-white/10 text-slate-600 dark:text-slate-300 hover:text-emerald-500 transition-colors"
-              title="Tìm kiếm (Ctrl+K)"
+              title={t.searchPlaceholder}
             >
               <Search className="w-4 h-4 text-emerald-500" />
             </button>
@@ -135,6 +169,17 @@ export const Navbar: React.FC<NavbarProps> = ({
                 </span>
               )}
             </button>
+
+            {/* Keyboard Shortcuts Trigger */}
+            {onOpenShortcuts && (
+              <button
+                onClick={onOpenShortcuts}
+                className="p-2 min-w-[36px] min-h-[36px] flex items-center justify-center rounded-xl bg-slate-100 dark:bg-white/[0.05] border border-slate-200 dark:border-white/10 text-slate-700 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:border-emerald-500/40 transition-colors"
+                title={`${t.shortcuts} (?)`}
+              >
+                <Keyboard className="w-4 h-4" />
+              </button>
+            )}
 
             {/* Dark/Light Mode Toggle */}
             <button

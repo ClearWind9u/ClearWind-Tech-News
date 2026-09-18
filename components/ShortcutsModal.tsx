@@ -15,23 +15,33 @@ export const ShortcutsModal: React.FC<ShortcutsModalProps> = ({ isOpen, onClose 
   if (!isOpen) return null;
 
   const shortcutsList = lang === 'vi' ? [
-    { key: 'Ctrl + K', desc: 'Mở thanh tìm kiếm tin tức tức thì' },
-    { key: '?', desc: 'Bật / Tắt bảng phím tắt này' },
-    { key: 'B', desc: 'Mở danh sách bài viết đã lưu' },
+    { key: 'J / K', desc: 'Lùi bài trước (J - Trái) / Tới bài sau (K - Phải)' },
+    { key: 'Space', desc: 'Nghe tóm tắt bài đang chọn (hoặc Bản tin sáng)' },
+    { key: 'Enter', desc: 'Mở xem chi tiết bài viết đang chọn' },
+    { key: 'B', desc: 'Lưu bài đang chọn / Mở danh sách đã lưu' },
+    { key: 'O', desc: 'Mở bài gốc trên trang nguồn ở tab mới' },
+    { key: 'P', desc: 'Bật / Tắt Bản tin sáng 3 phút (Radio Podcast)' },
+    { key: 'Ctrl + K', desc: 'Mở thanh tìm kiếm tin tức Spotlight' },
     { key: 'V', desc: 'Chuyển đổi chế độ xem Lưới / Danh sách' },
     { key: 'L', desc: 'Đổi ngôn ngữ Tiếng Việt / English' },
-    { key: 'T', desc: 'Đổi chế độ sáng / tối' },
+    { key: 'T', desc: 'Đổi chế độ Sáng / Tối' },
     { key: '[ / ]', desc: 'Chuyển trang trước / trang sau' },
-    { key: 'Esc', desc: 'Đóng cửa sổ / Modal' },
+    { key: '?', desc: 'Bật / Tắt bảng phím tắt này' },
+    { key: 'Esc', desc: 'Đóng Modal / Bỏ chọn bài viết' },
   ] : [
-    { key: 'Ctrl + K', desc: 'Open instant search bar' },
-    { key: '?', desc: 'Toggle shortcuts cheat sheet' },
-    { key: 'B', desc: 'Open saved articles (Bookmarks)' },
+    { key: 'J / K', desc: 'Previous story (J - Left) / Next story (K - Right)' },
+    { key: 'Space', desc: 'Listen to focused article (or Daily Briefing)' },
+    { key: 'Enter', desc: 'Open focused article detail' },
+    { key: 'B', desc: 'Bookmark focused article / Open saved list' },
+    { key: 'O', desc: 'Open original article in a new tab' },
+    { key: 'P', desc: 'Toggle 3-Min Daily Briefing (Radio Podcast)' },
+    { key: 'Ctrl + K', desc: 'Open instant Spotlight search bar' },
     { key: 'V', desc: 'Toggle Grid / Compact list view' },
     { key: 'L', desc: 'Toggle language Vietnamese / English' },
     { key: 'T', desc: 'Toggle Dark / Light theme' },
     { key: '[ / ]', desc: 'Previous / Next page' },
-    { key: 'Esc', desc: 'Close open dialogs / Modals' },
+    { key: '?', desc: 'Toggle shortcuts cheat sheet' },
+    { key: 'Esc', desc: 'Close dialogs / Clear card focus' },
   ];
 
   return (

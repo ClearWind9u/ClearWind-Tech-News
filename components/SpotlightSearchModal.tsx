@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { NewsItem, getCategoryLabel } from '@/types/news';
 import { useBilingual } from './BilingualContext';
 import { Search, X, TrendingUp, CornerDownLeft, Hash } from 'lucide-react';
+import { matchSearchQuery } from '@/lib/search_utils';
 
 // Category accent colors — used inside category chips
 const CATEGORY_ACCENTS: Record<string, { dot: string; label: string }> = {
@@ -62,19 +63,20 @@ export const SpotlightSearchModal: React.FC<SpotlightSearchModalProps> = ({
     }
 
     if (query.trim()) {
-      const q = query.toLowerCase().trim();
-      result = result.filter((a) => {
-        const titleMatch =
-          a.title_vi?.toLowerCase().includes(q) ||
-          a.title_en?.toLowerCase().includes(q) ||
-          a.originalTitle?.toLowerCase().includes(q);
-        const sourceMatch = a.sourceName?.toLowerCase().includes(q);
-        const tagMatch = a.tags?.some((t) => t.toLowerCase().includes(q));
-        const summaryMatch =
-          a.summary_vi?.some((s) => s.toLowerCase().includes(q)) ||
-          a.summary_en?.some((s) => s.toLowerCase().includes(q));
-        return titleMatch || sourceMatch || tagMatch || summaryMatch;
-      });
+      result = result.filter((a) =>
+        matchSearchQuery(
+          query,
+          a.title_vi,
+          a.title_en,
+          a.originalTitle,
+          a.summary_vi,
+          a.summary_en,
+          a.tags,
+          a.sourceName,
+          a.authorName,
+          a.category
+        )
+      );
     } else {
       result = [...result].sort((a, b) => b.hotScore - a.hotScore).slice(0, 7);
     }
