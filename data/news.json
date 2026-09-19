@@ -1,7 +1,459 @@
 {
-  "lastUpdated": "2026-09-19T02:40:07.296Z",
+  "lastUpdated": "2026-09-19T13:39:53.289Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "8a175fdbec4cf144",
+      "title_vi": "Go Zero to Hero - Bài 19: Các hàm thao tác trên Slice: append, copy",
+      "title_en": "Go Zero to Hero - Lesson 19: Functions to operate on Slice: append, copy",
+      "summary_vi": [
+        "Slice trong Golang không chỉ là một danh sách động thông thường mà còn đi kèm với các hàm tích hợp sẵn cực kỳ mạnh mẽ để quản lý bộ nhớ và biến đổi dữ...",
+        "Phân tích sâu về nguyên lý thiết kế hệ thống, kiến trúc vi dịch vụ (microservices), tối ưu hóa luồng dữ liệu và tái cấu trúc mã nguồn hiệu quả.",
+        "Cung cấp bài học thực chiến giá trị cho cộng đồng lập trình viên trong việc nâng cao hiệu năng, độ tin cậy và khả năng bảo trì của phần mềm."
+      ],
+      "summary_en": [
+        "Slice in Golang is not just a regular dynamic list but also comes with extremely powerful built-in functions for memory management and data transformation...",
+        "Examines core system design principles, microservices architectures, data flow optimization, and clean code refactoring.",
+        "Provides valuable production lessons for developers aiming to improve performance, reliability, and code maintainability."
+      ],
+      "originalTitle": "Go Zero to Hero - Bài 19: Các hàm thao tác trên Slice: append, copy",
+      "url": "https://viblo.asia/p/go-zero-to-hero-bai-19-cac-ham-thao-tac-tren-slice-append-copy-ymJXDAAEJkq",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Software",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 89,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-19T20:34:37.000Z",
+      "contentSnippet": "Slice trong Golang không chỉ là một danh sách động thông thường mà còn đi kèm với các hàm tích hợp sẵn cực kỳ mạnh mẽ để quản lý bộ nhớ và biến đổi dữ...",
+      "authorName": "Cô Gái IT",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "abd60b67252a3490",
+      "title_vi": "Bài 4: Cách sử dụng Backend (NodeJS hoặc Golang) để đọc và xử lý message từ Kafka do Debezium đẩy ra.",
+      "title_en": "Lesson 4: How to use Backend (NodeJS or Golang) to read and process messages from Kafka pushed out by Debezium.",
+      "summary_vi": [
+        "Bài toán thực tế Giả sử bạn đang làm tính năng tìm kiếm user.",
+        "Bạn muốn mỗi khi có user mới đăng ký (hoặc cập nhật thông tin) ở MySQL, thì ngay lập...",
+        "Cung cấp bài học thực chiến giá trị cho cộng đồng lập trình viên trong việc nâng cao hiệu năng, độ tin cậy và khả năng bảo trì của phần mềm."
+      ],
+      "summary_en": [
+        "Actual problem Suppose you are doing a user search feature.",
+        "You want every time a new user registers (or updates information) in MySQL,...",
+        "Provides valuable production lessons for developers aiming to improve performance, reliability, and code maintainability."
+      ],
+      "originalTitle": "Bài 4: Cách sử dụng Backend (NodeJS hoặc Golang) để đọc và xử lý message từ Kafka do Debezium đẩy ra.",
+      "url": "https://viblo.asia/p/bai-4-cach-su-dung-backend-nodejs-hoac-golang-de-doc-va-xu-ly-message-tu-kafka-do-debezium-day-ra-gdJzvaNvJz5",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Software",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 91,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-19T17:03:29.000Z",
+      "contentSnippet": "1. Bài toán thực tế Giả sử bạn đang làm tính năng tìm kiếm user. Bạn muốn mỗi khi có user mới đăng ký (hoặc cập nhật thông tin) ở MySQL, thì ngay lập...",
+      "authorName": "Cô Gái IT",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5dc280b8b51ba5d4",
+      "title_vi": "Bài 3: Hướng dẫn cấu hình Debezium MySQL Connector và theo dõi dữ liệu thay đổi trên Kafka.",
+      "title_en": "Lesson 3: Instructions for configuring Debezium MySQL Connector and monitoring data changes on Kafka.",
+      "summary_vi": [
+        "Ở Bài 2 chúng ta đã dựng xong \"cơ sở hạ tầng\" nhưng chúng mới chỉ đứng nhìn nhau chứ chưa làm việc.",
+        "Hôm nay, chúng ta sẽ bắt tay vào việc quan trọng n...",
+        "Cung cấp bài học thực chiến giá trị cho cộng đồng lập trình viên trong việc nâng cao hiệu năng, độ tin cậy và khả năng bảo trì của phần mềm."
+      ],
+      "summary_en": [
+        "In Lesson 2 we have finished building the \"infrastructure\" but they are just standing there looking at each other and not working yet.",
+        "Today, we will embark on the most important...",
+        "Provides valuable production lessons for developers aiming to improve performance, reliability, and code maintainability."
+      ],
+      "originalTitle": "Bài 3: Hướng dẫn cấu hình Debezium MySQL Connector và theo dõi dữ liệu thay đổi trên Kafka.",
+      "url": "https://viblo.asia/p/bai-3-huong-dan-cau-hinh-debezium-mysql-connector-va-theo-doi-du-lieu-thay-doi-tren-kafka-OXLA0OGkJGr",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Software",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 97,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-19T17:01:13.000Z",
+      "contentSnippet": "Ở Bài 2 chúng ta đã dựng xong \"cơ sở hạ tầng\" nhưng chúng mới chỉ đứng nhìn nhau chứ chưa làm việc. Hôm nay, chúng ta sẽ bắt tay vào việc quan trọng n...",
+      "authorName": "Cô Gái IT",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e1cbda194a44f4c3",
+      "title_vi": "Auth0 Bài 4: Hiểu về các luồng xác thực (OAuth2 & OpenID Connect) – Khi nào dùng luồng nào?",
+      "title_en": "Auth0 Lesson 4: Understanding authentication flows (OAuth2 & OpenID Connect) – When to use which flow?",
+      "summary_vi": [
+        "Ở bài trước, chúng ta đã xây xong \"tòa nhà\" (Tenant) và \"quầy lễ tân\" (Application).",
+        "Bây giờ, câu hỏi đặt ra là: Làm sao để lễ tân trao chìa khóa (Tok...",
+        "Mở ra tiềm năng ứng dụng thực tế sâu rộng, tạo động lực thúc đẩy hệ sinh thái công nghệ và chuyển đổi số toàn diện."
+      ],
+      "summary_en": [
+        "In the previous lesson, we finished building the \"building\" (Tenant) and the \"reception desk\" (Application).",
+        "Now, the question is: How to get the receptionist to hand over the key (Tok...",
+        "Expands real-world application potential, driving ecosystem collaboration and long-term tech innovation growth."
+      ],
+      "originalTitle": "Auth0 Bài 4: Hiểu về các luồng xác thực (OAuth2 & OpenID Connect) – Khi nào dùng luồng nào?",
+      "url": "https://viblo.asia/p/auth0-bai-4-hieu-ve-cac-luong-xac-thuc-oauth2-openid-connect-khi-nao-dung-luong-nao-1XVOWDwPVMz",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Tech",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-19T16:56:00.000Z",
+      "contentSnippet": "Ở bài trước, chúng ta đã xây xong \"tòa nhà\" (Tenant) và \"quầy lễ tân\" (Application). Bây giờ, câu hỏi đặt ra là: Làm sao để lễ tân trao chìa khóa (Tok...",
+      "authorName": "Cô Gái IT",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0c851d9d2e3e582d",
+      "title_vi": "Vingroup triển khai đợt 2 chương trình \"Vì tương lai xanh\"",
+      "title_en": "Vingroup launches the second phase of the program \"For a green future\"",
+      "summary_vi": [
+        "Tập đoàn Vingroup và các công ty trong hệ sinh thái vừa công bố đợt 2 của chương trình \"Vì tương lai xanh\".",
+        "Chương trình nhằm hỗ trợ người dân và doanh nghiệp chuyển sang xe điện, đồng thời thúc...",
+        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "Vingroup and companies in the ecosystem have just announced the second phase of the program \"For a green future\".",
+        "The program aims to support people and businesses switching to electric vehicles, while promoting...",
+        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
+      ],
+      "originalTitle": "Vingroup triển khai đợt 2 chương trình \"Vì tương lai xanh\"",
+      "url": "https://tinhte.vn/thread/vingroup-trien-khai-dot-2-chuong-trinh-vi-tuong-lai-xanh.4178166/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 87,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-19T13:34:40.000Z",
+      "contentSnippet": "Tập đoàn Vingroup và các công ty trong hệ sinh thái vừa công bố đợt 2 của chương trình \"Vì tương lai xanh\". Chương trình nhằm hỗ trợ người dân và doanh nghiệp chuyển sang xe điện, đồng thời thúc...",
+      "authorName": "thanhtung6868",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0d8a0afebc5dac06",
+      "title_vi": "Điện thoại chính và phụ: Tại sao máy cài app ngân hàng lại là máy phụ?",
+      "title_en": "Primary and secondary phones: Why is the device with the banking app installed the secondary phone?",
+      "summary_vi": [
+        "Mấy bữa nay mình chia sẻ nhiều về chiếc Huawei Pura X-View, bên dưới phần bình luận anh em hỏi mình nhiều nhất vẫn là những câu quen thuộc: Máy này cài được app ngân hàng chưa, có chạy được VNeID...",
+        "Chiến lược đổi mới công nghệ cốt lõi, mô hình kiến tạo sản phẩm số và khả năng thương mại hóa các giải pháp kỹ thuật đột phá.",
+        "Mở ra tiềm năng ứng dụng thực tế sâu rộng, tạo động lực thúc đẩy hệ sinh thái công nghệ và chuyển đổi số toàn diện."
+      ],
+      "summary_en": [
+        "These days I've been sharing a lot about the Huawei Pura",
+        "Highlights disruptive technical innovation, product commercialization strategies, and scalable digital transformation architectures.",
+        "Expands real-world application potential, driving ecosystem collaboration and long-term tech innovation growth."
+      ],
+      "originalTitle": "Điện thoại chính và phụ: Tại sao máy cài app ngân hàng lại là máy phụ?",
+      "url": "https://tinhte.vn/thread/dien-thoai-chinh-va-phu-tai-sao-may-cai-app-ngan-hang-lai-la-may-phu.4177852/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Tech",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 87,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-19T13:33:59.000Z",
+      "contentSnippet": "Mấy bữa nay mình chia sẻ nhiều về chiếc Huawei Pura X-View, bên dưới phần bình luận anh em hỏi mình nhiều nhất vẫn là những câu quen thuộc: Máy này cài được app ngân hàng chưa, có chạy được VNeID...",
+      "authorName": "cuhiep",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "21f1d6cb89e92e34",
+      "title_vi": "Apple giỏi làm màu..",
+      "title_en": "Apple is good at making colors..",
+      "summary_vi": [
+        "Ý là Apple rất giỏi làm màu sắc trên iPhone, bất kỳ năm nào màu mới cũng đặc biệt.",
+        "Nhưng màu đỏ Burgundy năm nay mình thấy thật sự đẹp, có thể nói đẹp nhất trong những màu...",
+        "Mở ra tiềm năng ứng dụng thực tế sâu rộng, tạo động lực thúc đẩy hệ sinh thái công nghệ và chuyển đổi số toàn diện."
+      ],
+      "summary_en": [
+        "The idea is that Apple is very good at making colors on the iPhone, any year a new color is special.",
+        "But I think this year's Burgundy red is really beautiful, I can say the most beautiful among the colors...",
+        "Expands real-world application potential, driving ecosystem collaboration and long-term tech innovation growth."
+      ],
+      "originalTitle": "Apple giỏi làm màu..",
+      "url": "https://tinhte.vn/thread/apple-gioi-lam-mau.4178146/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Tech",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-19T13:02:36.000Z",
+      "contentSnippet": "Apple giỏi làm màu.. Ý là Apple rất giỏi làm màu sắc trên iPhone, bất kỳ năm nào màu mới cũng đặc biệt. Nhưng màu đỏ Burgundy năm nay mình thấy thật sự đẹp, có thể nói đẹp nhất trong những màu...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9b91344cb433ea00",
+      "title_vi": "Không chỉ có LG. Mọi công ty truyền hình đều đang theo dõi bạn",
+      "title_en": "It’s not just LG. Every TV company is spying on you",
+      "summary_vi": [
+        "Chiếc TV trong phòng khách biết nhiều về bạn hơn bạn tưởng.",
+        "| Ảnh của John Higgins / The Verge Thế giới truyền hình đã gây ra nhiều tranh cãi nhờ một đoạn video dài hai giờ 15 phút từ Game thủ Nexus cho rằng TV LG đang theo dõi một cách bất chính mọi thứ bạn làm.",
+        "Chúng có thể ghi và lưu trữ âm thanh ngay cả khi chúng dường như bị tắt, theo dõi mọi thứ bạn xem và thậm chí có thể bị tấn công từ xa và biến thành thiết bị giám sát bí mật."
+      ],
+      "summary_en": [
+        "The TV in your living room knows more about you than you realize.",
+        "| Photo by John Higgins / The Verge The TV world has been a pot of controversy thanks to a two-hour-and-15-minute video from Gamers Nexus claiming LG TVs are nefariously spying on everything you do.",
+        "They can record and store audio even when they seem to be off, track everything you watch, and could even be hacked remotely and turned into covert surveillance devices."
+      ],
+      "originalTitle": "It’s not just LG. Every TV company is spying on you",
+      "url": "https://www.theverge.com/tech/997682/every-tv-company-is-spying",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "SoftwareEngineering",
+        "Tech"
+      ],
+      "hotScore": 89,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-19T13:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/11/258078_LG_G5_OLED_TV_JHiggins_0005.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "The TV in your living room knows more about you than you realize. | Photo by John Higgins / The Verge The TV world has been a pot of controversy thanks to a two-hour-and-15-minute video from Gamers Nexus claiming LG TVs are nefariously spying on everything you do. They can record and store audio eve",
+      "authorName": "John Higgins",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "79e6d15835f255d2",
+      "title_vi": "Việc dỡ bỏ quy định về AI vẫn chưa kết thúc",
+      "title_en": "The AI regulation smackdown isn’t over",
+      "summary_vi": [
+        "Vào đầu tuần này, ai là ai của AI dường như - ít nhất là tạm thời - đứng về phía các quy định về AI.",
+        "Cuối tuần qua, Giám đốc điều hành Anthropic Dario Amodei đã đề xuất một kế hoạch gồm ba bước để làm chậm quá trình phát triển AI, bao gồm việc đưa các chuyên gia đánh giá của bên thứ ba vào phòng thí nghiệm, điều phối toàn ngành trong nước và xây dựng các thỏa thuận quốc tế có thể với sự hỗ trợ của chính phủ.",
+        "Giám đốc điều hành OpenAI Sam Altman, đồng sáng lập Google DeepMind Demis Hassabis và thậm chí cả Giám đốc điều hành SpaceX Elon Musk dường như đều công khai đồng ý về các khía cạnh của cả ba điều."
+      ],
+      "summary_en": [
+        "At the start of this week, the who's-who of AI seemed - at least tentatively - on the side of AI regulation.",
+        "Over the weekend, Anthropic CEO Dario Amodei had proposed a three-step plan for slowing AI development, including by embedding third-party evaluators in labs, coordinating across the domestic industry, and forging international agreements potentially with government assistance.",
+        "OpenAI CEO Sam Altman, Google DeepMind co-founder Demis Hassabis, and even SpaceX CEO Elon Musk publicly seemed to agree on aspects of all three things."
+      ],
+      "originalTitle": "The AI regulation smackdown isn’t over",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "SoftwareEngineering",
+        "Tech"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-19T13:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "At the start of this week, the who's-who of AI seemed - at least tentatively - on the side of AI regulation. Over the weekend, Anthropic CEO Dario Amodei had proposed a three-step plan for slowing AI development, including by embedding third-party evaluators in labs, coordinating across the domestic",
+      "authorName": "Hayden Field",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "80c04127cf79cd51",
+      "title_vi": "Tin vui cho người dùng iPhone cũ, làm điều này ngay để điện thoại chạy nhanh hơn",
+      "title_en": "Good news for old iPhone users, do this now to make your phone run faster",
+      "summary_vi": [
+        "Apple đã chính thức tung ra hệ sinh thái hệ điều hành mới nhất, trong đó iOS 27 nhận được sự quan tâm lớn nhất.",
+        "Không đơn thuần là bổ sung tính năng, Apple đã tập trung mạnh mẽ vào việc tối ưu hóa trải nghiệm cốt lõi.",
+        "Hãng cho biết iOS 27 giúp thời gian mở ứng dụng nhanh hơn tới 30% và tốc độ tải ảnh mới trong thư viện tăng đến 70%."
+      ],
+      "summary_en": [
+        "Apple has officially launched the latest operating system ecosystem, in which iOS 27 has received the greatest attention.",
+        "More than simply adding features, Apple has focused strongly on optimizing the core experience.",
+        "The company said iOS 27 makes app opening times up to 30% faster and the speed of loading new photos in the library increases up to 70%."
+      ],
+      "originalTitle": "Tin vui cho người dùng iPhone cũ, làm điều này ngay để điện thoại chạy nhanh hơn",
+      "url": "https://genk.vn/tin-vui-cho-nguoi-dung-iphone-cu-lam-dieu-nay-ngay-de-dien-thoai-chay-nhanh-hon-16526091919253742.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Mobile",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 94,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-19T12:52:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/19/avatar1789820680168-1789820680787869960060.jpeg",
+      "contentSnippet": "Người dùng nhiều mẫu iPhone cũ, từ iPhone 11 trở về sau nên cập nhật iOS 27 để sử dụng mượt mà hơn.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a5ce4eccae742b0a",
+      "title_vi": "Học một ngôn ngữ khác có thể là một trong những cách tốt nhất để giữ cho bộ não của bạn khỏe mạnh",
+      "title_en": "Learning another language may be one of the best ways to keep your brain healthy",
+      "summary_vi": [
+        "Học một ngôn ngữ khác là một hoạt động tinh thần rất phức tạp.",
+        "Nó đòi hỏi mọi người phải nhớ các từ, phân biệt các âm thanh lạ, nhận biết các mẫu hình, đưa ra các quy tắc ngữ pháp và tìm ra cách diễn đạt phù hợp vào đúng thời điểm.",
+        "Tất cả điều này xảy ra trong khi nghe, diễn giải và chuẩn bị phản hồi."
+      ],
+      "summary_en": [
+        "Learning another language is a highly complex mental activity.",
+        "It requires people to remember words, distinguish unfamiliar sounds, recognize patterns, work out grammatical rules, and retrieve the right expression at the right moment.",
+        "All of this happens while listening, interpreting, and preparing a response."
+      ],
+      "originalTitle": "Learning another language may be one of the best ways to keep your brain healthy",
+      "url": "https://arstechnica.com/science/2026/09/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy/",
+      "sourceName": "Ars Technica",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "SoftwareEngineering",
+        "Tech"
+      ],
+      "hotScore": 93,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-09-19T11:10:43.000Z",
+      "contentSnippet": "Research suggests that bilingualism can offer cognitive benefits.",
+      "authorName": "\n                    Karen Stollznow, The Conversation\n                ",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "85dec6bba0f470c6",
+      "title_vi": "Gemini tấn công mạng, đoán mật khẩu người dùng",
+      "title_en": "Gemini attacks the network, guessing user passwords",
+      "summary_vi": [
+        "WSJ cho biết cuộc tấn công của Gemini xảy ra từ tháng 5, nhưng chỉ được Google phát hiện sau đó hai tháng.",
+        "Đây là diễn biến mới nhất trong các vụ AI mất kiểm soát, vốn gây ra nhiều lo ngại về an toàn trên mạng Internet.",
+        "\"Trong đợt đánh giá tiêu chuẩn, mô hình đã tìm thấy các dữ liệu công khai trên mạng và đoán thông tin xác thực của người dùng để truy cập những website mà nó tin là một phần của bài kiểm tra\", Heather Adkins, Phó chủ tịch Google phụ trách kỹ thuật an ninh, nói với AFP."
+      ],
+      "summary_en": [
+        "WSJ said the Gemini attack occurred in May, but was only discovered by Google two months later.",
+        "This is the latest development in out-of-control AI cases, which have caused many concerns about safety on the Internet.",
+        "\"During the standard assessment, the model found publicly available data online and guessed users' credentials to access websites it believed were part of the test,\" Heather Adkins, Google's vice president of security engineering, told AFP."
+      ],
+      "originalTitle": "Gemini tấn công mạng, đoán mật khẩu người dùng",
+      "url": "https://vnexpress.net/gemini-tan-cong-mang-doan-mat-khau-nguoi-dung-5122237.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-19T11:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/19/dsc01105-jpg-1789803749-8828-1789803808.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ZYhD_D_l2-BQbM7MtlwbIw",
+      "contentSnippet": "Google thừa nhận mô hình Gemini đã tấn công một số hệ thống bằng cách đoán mật khẩu đăng nhập.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "957dad81750da0dc",
+      "title_vi": "Laya phiên bản mã nguồn mở của Jev",
+      "title_en": "Laya the open source version of Jev",
+      "summary_vi": [
+        "Từ bài báo arXiv tháng 3 năm 2025 của chúng tôi về quỹ đạo chuyển đổi trình tự sang Laya: công cụ quyết định Hệ thống 1 có trọng lượng mở dưới 35 mili giây với RLCD, định tuyến đa ngôn ngữ trên hơn 100 ngôn ngữ và hiệu chuẩn hiện đại.",
+        "Hình 1: Bảng điểm chuẩn đầy đủ - độ chính xác trên các bộ dữ liệu được chia sẻ, 9 quy trình làm việc của ứng dụng, quét 51 ngôn ngữ, độ trễ T4 và sửa chữa hiệu chuẩn.",
+        "Mọi người trong lĩnh vực AI hiện đang nói về một loại mô hình mới: một kiến ​​trúc không tự hồi quy, không tạo văn bản và đưa ra dự đoán xác suất nhanh như chớp trên các lược đồ có cấu trúc."
+      ],
+      "summary_en": [
+        "From our March 2025 arXiv paper on sequence conversion trajectories to Laya: a sub-35ms open-weight System 1 decision engine with RLCD, multilingual routing across 100+ languages, and state-of-the-art calibration.",
+        "Figure 1: Full benchmark board — accuracy on shared datasets, 9 application workflows, 51-language sweep, T4 latency, and calibration repair.",
+        "Everyone in AI right now is talking about a new kind of model: an architecture that is not autoregressive, does not generate text, and gives lightning-fast probability predictions over structured schemas."
+      ],
+      "originalTitle": "Laya the open source version of Jev",
+      "url": "https://laya.convaiinnovations.com/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "SoftwareEngineering",
+        "Tech"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-09-19T10:46:58.000Z",
+      "contentSnippet": "From our March 2025 arXiv paper on sequence conversion trajectories to Laya: a sub-35ms open-weight System 1 decision engine with RLCD, multilingual routing across 100+ languages, and state-of-the-art calibration. Figure 1: Full benchmark board — accuracy on shared datasets, 9 application workflows,",
+      "authorName": "nandakishor_ml",
+      "upvotes": 184,
+      "commentsCount": 27
+    },
+    {
+      "id": "0b78c077bac74674",
+      "title_vi": "Những chiếc vòng quanh cơ thể tí hon đã thay đổi trong thập kỷ qua",
+      "title_en": "Rings around a tiny body have changed over the past decade",
+      "summary_vi": [
+        "Trong nhiều thập kỷ, các nhà thiên văn học cho rằng những chiếc nhẫn là thứ mà chỉ những hành tinh khổng lồ mới có.",
+        "Điều đó đã thay đổi vào năm 2013, khi một vật thể nhỏ, tối quay quanh quỹ đạo giữa Sao Thổ và Sao Thiên Vương đi qua phía trước một ngôi sao và chớp mắt hai lần ở hai bên của sự kiện chính, để lộ hai vòng hẹp xung quanh một vật thể có đường kính gần 250 km.",
+        "“It was a surprise,” says Pablo Santos-Sanz, an astronomer at the Instituto de Astrofísica de Andalucía in Granada, Spain."
+      ],
+      "summary_en": [
+        "Chariklo is only about 250 km across, but it has two rings, and they're changing.",
+        "Highlights breakthroughs in UI/UX rendering performance, responsive cross-platform frameworks, and modern client hardware optimization.",
+        "Encourages mobile and frontend engineers to adopt next-generation standards for high-performance user experiences."
+      ],
+      "originalTitle": "Rings around a tiny body have changed over the past decade",
+      "url": "https://arstechnica.com/science/2026/09/rings-around-a-tiny-body-have-changed-over-the-past-decade/",
+      "sourceName": "Ars Technica",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Mobile",
+        "SoftwareEngineering",
+        "Tech"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-09-19T10:00:06.000Z",
+      "contentSnippet": "Chariklo is only about 250 km across, but it has two rings, and they're changing.",
+      "authorName": "\n                    Jacek Krywko\n                ",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "4fbbeab3f42ed3c7",
       "title_vi": "Tổng hợp những lỗi cơ bản thường gặp khi mới bắt đầu lập trình Go (Golang) và cách khắc phục",
@@ -35,6 +487,38 @@
       "commentsCount": 0
     },
     {
+      "id": "b9c21ef0e3f58c4a",
+      "title_vi": "Áp phích do AI tạo ra không cần phải quá kinh khủng",
+      "title_en": "AI-generated posters don’t have to be horrible",
+      "summary_vi": [
+        "Một bài đăng nổi tiếng hiện nay trên Facebook cho chúng ta thấy tai họa của các áp phích nhận dạng do AI tạo ra.",
+        "Đây là một bài viết về chủ đề này từ tờ Independent.",
+        "Đây là một cái khác tôi tìm thấy trong tự nhiên."
+      ],
+      "summary_en": [
+        "A now famous Facebook post shows us the scourge of identikit posters generated by AI.",
+        "Here’s an article on the subject from the Independent.",
+        "Here’s another I found in the wild."
+      ],
+      "originalTitle": "AI-generated posters don’t have to be horrible",
+      "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "SoftwareEngineering",
+        "Tech"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-09-19T09:20:58.000Z",
+      "contentSnippet": "A now famous Facebook post shows us the scourge of identikit posters generated by AI. Here’s an article on the subject from the Independent. Here’s another I found in the wild. With apologies for picking on the Leamington Beer Festival - they are by no means unique The problem with these is not so m",
+      "authorName": "ereiamjh",
+      "upvotes": 433,
+      "commentsCount": 286
+    },
+    {
       "id": "2939b34eb7e7b0df",
       "title_vi": "Hiểu những cạm bẫy không đồng bộ/chờ đợi trong JavaScript",
       "title_en": "Understanding async/await pitfalls in JavaScript",
@@ -63,6 +547,136 @@
       "publishedAt": "2026-09-19T08:40:12.000Z",
       "contentSnippet": "",
       "authorName": "EME GUG",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "34b5277e1b11bd3f",
+      "title_vi": "AI Claude tham gia phát triển phiên bản tiếp theo của chính nó",
+      "title_en": "AI Claude participates in developing the next version of itself",
+      "summary_vi": [
+        "Anthropic thử nghiệm hệ thống cho phép mô hình AI Claude tự động điều khiển trang thiết bị và tiến hành các thí nghiệm khoa học độc lập.",
+        "Kết hợp LLM đa phương thức với cánh tay robot, kính hiển vi và giao thức điều khiển API phần cứng phòng thí nghiệm.",
+        "Đột phá lớn trong tự động hóa nghiên cứu khoa học (AI for Science), rút ngắn thời gian phát minh vật liệu và dược phẩm mới."
+      ],
+      "summary_en": [
+        "Anthropic pilots autonomous systems enabling Claude AI to interface with physical laboratory instruments and execute wet-lab experiments.",
+        "Connects multimodal LLM planners with robotic actuators, automated microscopes, and low-level hardware control protocols.",
+        "Marks a pivotal leap in AI for Science automation, accelerating discoveries in materials science, biochemistry, and molecular biology."
+      ],
+      "originalTitle": "AI Claude tham gia phát triển phiên bản tiếp theo của chính nó",
+      "url": "https://vnexpress.net/ai-claude-tham-gia-phat-trien-phien-ban-tiep-theo-cua-chinh-no-5121950.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 84,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-09-19T08:22:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/18/lq026201-1789724009-3008-1789724452.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=CCCVmRYTUfucFVjymOvP3g",
+      "contentSnippet": "Công ty Anthropic cho biết AI Claude đang dẫn dắt khoảng 26% hoạt động nghiên cứu và phát triển (R&D) mô hình tiếp theo của công ty.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9f7a2fb4165cad57",
+      "title_vi": "FiiO FT15: Tai nghe Planarmagnetic với driver 101nm, giá $499",
+      "title_en": "FiiO FT15: Planarmagnetic headset with 101nm driver, priced at $499",
+      "summary_vi": [
+        "FIIO ra mắt FT15, mẫu over-ear planarmagnetic với mức giá là $499.",
+        "Điểm nhấn kỹ thuật của tai nghe là việc ứng dụng vật liệu màng loa mới và thiết kế thông số điện học giúp tai dễ dàng kết nối...",
+        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "FIIO launches FT15, a planarmagnetic over-ear model with a price of $499.",
+        "The technical highlight of the headset is the application of new speaker membrane materials and the design of electrical parameters that help the ear easily connect...",
+        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
+      ],
+      "originalTitle": "FiiO FT15: Tai nghe Planarmagnetic với driver 101nm, giá $499",
+      "url": "https://tinhte.vn/thread/fiio-ft15-tai-nghe-planarmagnetic-voi-driver-101nm-gia-499.4178234/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 97,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-19T07:32:42.000Z",
+      "contentSnippet": "FIIO ra mắt FT15, mẫu over-ear planarmagnetic với mức giá là $499. Điểm nhấn kỹ thuật của tai nghe là việc ứng dụng vật liệu màng loa mới và thiết kế thông số điện học giúp tai dễ dàng kết nối...",
+      "authorName": "HThanhLoi",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "4ebdefeee4195b08",
+      "title_vi": "Nghiên cứu do Y học Stanford dẫn đầu cho thấy bộ não con người là hai cơ quan riêng biệt",
+      "title_en": "Human brain is two separate organs, Stanford Medicine-led research finds",
+      "summary_vi": [
+        "Chủ đề thảo luận kỹ thuật phần mềm và công nghệ cao cấp: \"Human brain is two separate organs, Stanford Medicine-led research finds\".",
+        "Thảo luận kiến trúc hệ thống và mã nguồn mở trên Hacker News.",
+        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "Advanced technology and software engineering discussion topic: \"Human brain is two separate organs, Stanford Medicine-led research finds\".",
+        "Discuss system architecture and open source code on Hacker News.",
+        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
+      ],
+      "originalTitle": "Human brain is two separate organs, Stanford Medicine-led research finds",
+      "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "SoftwareEngineering",
+        "Tech"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-19T05:48:50.000Z",
+      "contentSnippet": "Chủ đề thảo luận kỹ thuật phần mềm và công nghệ cao cấp: \"Human brain is two separate organs, Stanford Medicine-led research finds\". Thảo luận kiến trúc hệ thống và mã nguồn mở trên Hacker News.",
+      "authorName": "emigre",
+      "upvotes": 368,
+      "commentsCount": 137
+    },
+    {
+      "id": "0966812459acbfd3",
+      "title_vi": "Giới công nghệ 'chia phe' vì AI nổi loạn",
+      "title_en": "The technology world is 'divided into factions' because AI is rebellious",
+      "summary_vi": [
+        "Lời cảnh báo về nguy cơ AI vượt kiểm soát và tiêu diệt nhân loại khiến giới công nghệ chia thành hai phe tranh luận gay gắt.",
+        "Trong khi nhiều lãnh đạo phòng thí nghiệm AI tiên tiến như CEO Anthropic Dario Amodei hay CEO OpenAI Sam Altman cho rằng cần giảm tốc độ phát triển AI để đảm bảo an toàn, Tổng thống Mỹ Donald Trump và CEO Nvidia Jensen Huang phản đối việc đặt ra giới hạn phát triển.",
+        "Bên kêu gọi làm chậm tốc độ phát triển AI Làn sóng tranh luận về nguy cơ AI vượt kiểm soát bắt đầu giữa tuần trước, khi Jacob Coxon, nhà nghiên cứu cấp cao của Anthropic và từng làm cho OpenAI, tuyên bố từ chức."
+      ],
+      "summary_en": [
+        "The warning about the risk of AI going out of control and destroying humanity has divided the technology community into two fierce debates.",
+        "While many leaders of advanced AI laboratories such as Anthropic CEO Dario Amodei or OpenAI CEO Sam Altman believe that it is necessary to reduce the speed of AI development to ensure safety, US President Donald Trump and Nvidia CEO Jensen Huang oppose setting development limits.",
+        "The side calling for slowing down the pace of AI development The wave of debate about the risk of AI going out of control began in the middle of last week, when Jacob Coxon, a senior researcher at Anthropic and formerly of OpenAI, announced his resignation."
+      ],
+      "originalTitle": "Giới công nghệ 'chia phe' vì AI nổi loạn",
+      "url": "https://vnexpress.net/gioi-cong-nghe-chia-phe-vi-ai-noi-loan-5121529.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-19T03:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/17/20260219t101117z14433150486479-5333-1293-1789647097.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=WZK62oxMQTF4CqVjzGAovQ",
+      "contentSnippet": "Lời cảnh báo về nguy cơ AI vượt kiểm soát và tiêu diệt nhân loại khiến giới công nghệ chia thành hai phe tranh luận gay gắt.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -5884,6 +6498,38 @@
       "commentsCount": 2
     },
     {
+      "id": "cc1d399ef9c4fc87",
+      "title_vi": "“Cuộc sống bí mật của mạch điện” ở đây",
+      "title_en": "“The Secret Life of Circuits” is here",
+      "summary_vi": [
+        "Tác phẩm nghệ thuật bìa cứng. Hình minh họa đầy đủ màu sắc. Đơn đặt hàng trực tiếp đang được gửi từ nhà xuất bản khi chúng tôi nói chuyện; bạn có thể đặt hàng tại đây: The Secret Life of Circuits cũng có sẵn từ Barnes & Noble và Amazon (bao gồm các trang khu vực ở Đức, Pháp, Ba Lan, Tây Ban Nha, Hà Lan, Thụy Điển, Ý, Vương quốc Anh và Canada).",
+        "Điều đó nói lên rằng, công tác hậu cần rất khó khăn nên những đơn hàng này sẽ được giao vào tháng 10.",
+        "Đặt hàng từ Amazon và giao hàng vào tháng 10 Cuốn sách là tài liệu tham khảo mà tôi ước mình có được khi lần đầu tiên học nghề."
+      ],
+      "summary_en": [
+        "Hardcover artwork.Full-color illustrations.Direct orders are shipping from the publisher as we speak; you can order here: The Secret Life of Circuits is also available from Barnes & Noble and Amazon (including regional sites in Germany, France, Poland, Spain, Netherlands, Sweden, Italy, United Kingdom, and Canada).",
+        "That said, logistics are hard, so these orders will ship in October.",
+        "Order from Amazon for October delivery The book is the reference I wish I had when first learning the craft."
+      ],
+      "originalTitle": "“The Secret Life of Circuits” is here",
+      "url": "https://blog.coredump.cx/p/the-secret-life-of-circuits-is-here",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "SoftwareEngineering",
+        "Tech"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-09-15T23:15:05.000Z",
+      "contentSnippet": "Hardcover artwork.Full-color illustrations.Direct orders are shipping from the publisher as we speak; you can order here: The Secret Life of Circuits is also available from Barnes & Noble and Amazon (including regional sites in Germany, France, Poland, Spain, Netherlands, Sweden, Italy, United Kingd",
+      "authorName": "surprisetalk",
+      "upvotes": 126,
+      "commentsCount": 31
+    },
+    {
       "id": "746e67bf33bbd6eb",
       "title_vi": "Microsoft công bố sự kiện Windows và Surface vào ngày 7 tháng 10",
       "title_en": "Microsoft announces Windows and Surface event for October 7th",
@@ -7032,6 +7678,38 @@
       "commentsCount": 91
     },
     {
+      "id": "6693659dac758243",
+      "title_vi": "Trên tay Anker soundcore Liberty 5 Pro Max: tai nghe 6 triệu mà thứ đáng nói nhất không phải chất âm",
+      "title_en": "In the hands of Anker soundcore Liberty 5 Pro Max: 6 million headphones but the most worth mentioning thing is not the sound quality",
+      "summary_vi": [
+        "Nếu từ trước tới giờ anh em vẫn nghĩ soundcore là thương hiệu tai nghe ngon mà giá dễ chịu, kiểu bỏ ra hơn một triệu là có ANC với pin trâu, thì Liberty 5 Pro Max là lần đầu tiên soundcore đặt giá...",
+        "Tập trung vào cấu trúc mạng nơ-ron, quy trình huấn luyện mô hình ngôn ngữ lớn (LLM), cơ chế tối ưu suy luận và kiểm soát an toàn thuật toán.",
+        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "If you have always thought that Soundcore is a good headphone brand at an affordable price, like spending more than a million to get ANC with a strong battery, then Liberty 5 Pro Max is the first time Soundcore has set a price...",
+        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
+        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
+      ],
+      "originalTitle": "Trên tay Anker soundcore Liberty 5 Pro Max: tai nghe 6 triệu mà thứ đáng nói nhất không phải chất âm",
+      "url": "https://tinhte.vn/thread/tren-tay-anker-soundcore-liberty-5-pro-max-tai-nghe-6-trieu-ma-thu-dang-noi-nhat-khong-phai-chat-am.4176195/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 96,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-10T10:27:52.000Z",
+      "contentSnippet": "Nếu từ trước tới giờ anh em vẫn nghĩ soundcore là thương hiệu tai nghe ngon mà giá dễ chịu, kiểu bỏ ra hơn một triệu là có ANC với pin trâu, thì Liberty 5 Pro Max là lần đầu tiên soundcore đặt giá...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "459a7addb7b15167",
       "title_vi": "AI đã mã hóa tốt hơn hầu hết các nhà phát triển phần mềm",
       "title_en": "AI Is Already Better at Coding Than Most Software Developers",
@@ -7470,715 +8148,6 @@
       "authorName": "TẤN NGHI",
       "upvotes": 23,
       "commentsCount": 10
-    },
-    {
-      "id": "5d5c70875c1d0e43",
-      "title_vi": "Apple trình 'bằng chứng gây sốc' trong vụ kiện OpenAI",
-      "title_en": "Apple presents 'shocking evidence' in OpenAI lawsuit",
-      "summary_vi": [
-        "Apple trình lên tòa án chiếc MacBook của cựu nhân viên Chang Liu, bên trong được cho là chứa nhiều bằng chứng \"nội gián\".",
-        "Chi tiết giải pháp kỹ thuật, cơ chế vận hành và kiến trúc chuyên sâu trong lĩnh vực AI & Machine Learning.",
-        "Đánh giá tác động thực tiễn, kinh nghiệm triển khai và giá trị ứng dụng cho cộng đồng kỹ sư công nghệ."
-      ],
-      "summary_en": [
-        "Apple presented to the court former employee Chang Liu's MacBook, which was said to contain a lot of \"inside\" evidence.",
-        "Core technical implementation details, key benchmarks, and design mechanisms in AI & Machine Learning.",
-        "Practical engineering takeaways and deployment impact for software development teams."
-      ],
-      "originalTitle": "Apple trình 'bằng chứng gây sốc' trong vụ kiện OpenAI",
-      "url": "https://vnexpress.net/apple-trinh-bang-chung-gay-soc-trong-vu-kien-openai-5115554.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "CongNghe",
-        "VietNam"
-      ],
-      "hotScore": 96,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-01T04:47:40.000Z",
-      "thumbnailUrl": "https://i1-vnexpress.vnecdn.net/2026/09/01/chatgpt-image-thg-1788234312-2545-1788234387.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=pWT09rGeS8cohq-a8CHSog",
-      "contentSnippet": "Apple trình lên tòa án chiếc MacBook của cựu nhân viên Chang Liu, bên trong được cho là chứa nhiều bằng chứng \"nội gián\".",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 32,
-      "commentsCount": 4
-    },
-    {
-      "id": "e532b0dd72cff61a",
-      "title_vi": "'Ngôi sao bán dẫn Trung Quốc' sản xuất bộ nhớ HBM tiên tiến",
-      "title_en": "'Chinese Semiconductor Star' produces advanced HBM memory",
-      "summary_vi": [
-        "CXMT được cho là đã sản xuất thành công HBM3E, bộ nhớ băng thông cao tiên tiến được sử dụng trong hệ thống chip AI.",
-        "Chi tiết giải pháp kỹ thuật, cơ chế vận hành và kiến trúc chuyên sâu trong lĩnh vực Tech Trends & Startups.",
-        "Đánh giá tác động thực tiễn, kinh nghiệm triển khai và giá trị ứng dụng cho cộng đồng kỹ sư công nghệ."
-      ],
-      "summary_en": [
-        "CXMT is said to have successfully produced HBM3E, an advanced high-bandwidth memory used in AI chip systems.",
-        "Core technical implementation details, key benchmarks, and design mechanisms in Tech Trends & Startups.",
-        "Practical engineering takeaways and deployment impact for software development teams."
-      ],
-      "originalTitle": "'Ngôi sao bán dẫn Trung Quốc' sản xuất bộ nhớ HBM tiên tiến",
-      "url": "https://vnexpress.net/ngoi-sao-ban-dan-trung-quoc-san-xuat-bo-nho-hbm-tien-tien-5115523.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Tech",
-        "CongNghe",
-        "VietNam"
-      ],
-      "hotScore": 98,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-01T03:52:44.000Z",
-      "thumbnailUrl": "https://i1-vnexpress.vnecdn.net/2026/09/01/aag5zy6izbkprdiq2bnz3mwjde-178-9611-6140-1788231254.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=r40kvX6N7oSl-_Li2GJrHQ",
-      "contentSnippet": "CXMT được cho là đã sản xuất thành công HBM3E, bộ nhớ băng thông cao tiên tiến được sử dụng trong hệ thống chip AI.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 16,
-      "commentsCount": 4
-    },
-    {
-      "id": "b16861e804e070b7",
-      "title_vi": "John Ternus chính thức tiếp quản vị trí Tổng giám đốc điều hành (CEO) của Apple",
-      "title_en": "John Ternus Formally Takes Over as Apple’s New Chief Executive Officer (CEO)",
-      "summary_vi": [
-        "Apple chính thức công bố chuyển giao quyền lực lịch sử khi cựu Giám đốc Kỹ thuật Phần cứng John Ternus kế nhiệm Tim Cook làm CEO.",
-        "Đánh dấu sự chuyển dịch trọng tâm chiến lược sang năng lực nghiên cứu phần cứng đột phá, chip Apple Silicon và nền tảng Apple Intelligence.",
-        "Mở ra kỷ nguyên phát triển mới cho hệ sinh thái công nghệ toàn cầu của Apple với sự dẫn dắt của một nhà lãnh đạo thuần kỹ thuật công nghệ."
-      ],
-      "summary_en": [
-        "Apple officially announces an executive leadership succession as former Senior VP of Hardware Engineering John Ternus succeeds Tim Cook as CEO.",
-        "Signals a renewed strategic focus on deep hardware innovation, next-generation Apple Silicon architectures, and on-device Apple Intelligence.",
-        "Commences a defining technological chapter for the global Apple ecosystem under the leadership of a seasoned engineering executive."
-      ],
-      "originalTitle": "John Ternus chính thức trở thành CEO Apple",
-      "url": "https://vnexpress.net/john-ternus-chinh-thuc-tro-thanh-ceo-apple-5115493.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Apple",
-        "JohnTernus",
-        "TimCook",
-        "TechLeadership",
-        "Hardware"
-      ],
-      "hotScore": 87,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-01T02:09:00.000Z",
-      "thumbnailUrl": "https://i1-vnexpress.vnecdn.net/2026/09/01/apple-john-ternus-inline-large-2020-6965-1788224251.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=pVvJYi3DPyNGwE8lTdROlw",
-      "contentSnippet": "John Ternus tiếp quản vị trí CEO Apple từ Tim Cook từ ngày 1/9 với nhiều thách thức đang chờ đợi.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 34,
-      "commentsCount": 6
-    },
-    {
-      "id": "29f3686ec7872062",
-      "title_vi": "Dùng điện thoại tìm camera quay lén chỉ trong vài giây",
-      "title_en": "Use your phone to find hidden cameras in just a few seconds",
-      "summary_vi": [
-        "Các nhà nghiên cứu Hàn Quốc phát triển AI giúp phát hiện camera quay lén trong chưa đến 5 giây, với độ chính xác khoảng 94%.",
-        "Chi tiết giải pháp kỹ thuật, cơ chế vận hành và kiến trúc chuyên sâu trong lĩnh vực AI & Machine Learning.",
-        "Đánh giá tác động thực tiễn, kinh nghiệm triển khai và giá trị ứng dụng cho cộng đồng kỹ sư công nghệ."
-      ],
-      "summary_en": [
-        "Korean researchers developed AI to help detect hidden cameras in less than 5 seconds, with an accuracy of about 94%.",
-        "Core technical implementation details, key benchmarks, and design mechanisms in AI & Machine Learning.",
-        "Practical engineering takeaways and deployment impact for software development teams."
-      ],
-      "originalTitle": "Dùng điện thoại tìm camera quay lén chỉ trong vài giây",
-      "url": "https://tuoitre.vn/dung-dien-thoai-tim-camera-quay-len-chi-trong-vai-giay-100260831095957424.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "CongNghe",
-        "VietNam"
-      ],
-      "hotScore": 93,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-01T00:35:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/31/thumb-how-to-hide-security-camera-inside-ezgifcom-png-to-jpg-converter-1788144909549336068643-17881451158072097221522-89-112-569-881-crop-17881451364781970386119.png",
-      "contentSnippet": "Các nhà nghiên cứu Hàn Quốc phát triển AI giúp phát hiện camera quay lén trong chưa đến 5 giây, với độ chính xác khoảng 94%.",
-      "authorName": "TTXVN",
-      "upvotes": 11,
-      "commentsCount": 5
-    },
-    {
-      "id": "deae1ca40760ecc6",
-      "title_vi": "Công nghệ eSIM tại Việt Nam: Tiềm năng phát triển và lý do người dùng còn e ngại chuyển đổi",
-      "title_en": "eSIM Adoption in Vietnam: Technological Advantages and Real-World Friction Points",
-      "summary_vi": [
-        "Phân tích tâm lý e ngại của người dùng Việt Nam khi chuyển đổi sang eSIM do phí cấp lại sim từ 25k-35k và thủ tục xác thực tại nhà mạng.",
-        "Khám phá kiến trúc chip eUICC tích hợp trực tiếp trên bo mạch smartphone, cho phép kích hoạt profile sóng trực tuyến và hỗ trợ 5G độc lập (SA).",
-        "Thúc đẩy xu hướng smartphone loại bỏ khay SIM vật lý, tối ưu không gian phần cứng cho pin và buộc các nhà mạng số hóa toàn diện quy trình onboarding."
-      ],
-      "summary_en": [
-        "Examines user hesitation in Vietnam toward eSIM adoption due to carrier re-issuance fees ($1-$1.50) and offline identity verification steps.",
-        "Explores the embedded eUICC hardware architecture enabling instant over-the-air carrier profile provisioning and standalone 5G (SA) connectivity.",
-        "Accelerates the smartphone industry transition to trayless hardware designs, freeing interior battery space and driving digital telecom onboarding."
-      ],
-      "originalTitle": "ESIM đang dần ngon hơn trước đây, nhưng vì sao anh em vẫn còn ngại dùng?",
-      "url": "https://tinhte.vn/thread/esim-dang-dan-ngon-hon-truoc-day-nhung-vi-sao-anh-em-van-con-ngai-dung.4173567/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "eSIM",
-        "Mobile",
-        "Telecom",
-        "VietNam"
-      ],
-      "hotScore": 86,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-08-31T16:15:50.000Z",
-      "contentSnippet": "ESIM tại Việt Nam vẫn vướng tâm lý ngại đổi, phí chuyển đổi và quy trình phức tạp. Nhưng khi smartphone dần bỏ khay SIM khép, eSIM sẽ trở thành xu hướng tất yếu. Thực tế thì nhiều anh em đã biết...",
-      "authorName": "Trung Dt",
-      "upvotes": 17,
-      "commentsCount": 2
-    },
-    {
-      "id": "ae13bed431c5ec24",
-      "title_vi": "Trên tay tai nghe không dây Fender Mix: Trải nghiệm âm thanh chuyên nghiệp dành cho người yêu nhạc",
-      "title_en": "Hands-On With Fender Mix: High-Fidelity Wireless Headphones for Pure Music Listening",
-      "summary_vi": [
-        "Đánh giá thực tế dòng tai nghe không dây Fender Mix được thiết kế tập trung tối đa vào trải nghiệm thưởng thức âm nhạc mộc mạc và chuẩn xác.",
-        "Trang bị driver dynamic tùy biến với dải âm cân bằng, chip Bluetooth độ trễ thấp và thời lượng pin ấn tượng cho các phiên nghe kéo dài.",
-        "Cung cấp lựa chọn tuyệt vời cho các kỹ sư âm thanh và lập trình viên cần không gian tĩnh lặng, tập trung cao độ khi làm việc."
-      ],
-      "summary_en": [
-        "Hands-on review of the Fender Mix wireless headphones, engineered with an uncompromising focus on pristine acoustic listening experiences.",
-        "Features custom-tuned dynamic drivers with balanced frequency response, low-latency Bluetooth connectivity, and extended battery endurance.",
-        "Provides a compelling audio tool for sound engineers and software developers requiring immersion and deep focus during intense coding sessions."
-      ],
-      "originalTitle": "Trên tay Fender Mix: tai nghe không dây để nghe nhạc",
-      "url": "https://tinhte.vn/thread/tren-tay-fender-mix-tai-nghe-khong-day-de-nghe-nhac.4173340/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "FenderMix",
-        "Audio",
-        "Hardware",
-        "Headphones"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-08-31T15:43:03.000Z",
-      "contentSnippet": "Tai nào thì cũng để nghe nhạc, tuy nhiên mình cảm thấy trong mấy ngày xài Fender Mix thì mình quan tâm đến việc nghe nhạc nhiều hơn là các yếu tố khác. Trong vài năm trở lại đây tai nghe không đây...",
-      "authorName": "cuhiep",
-      "upvotes": 35,
-      "commentsCount": 4
-    },
-    {
-      "id": "35875a421ff9d602",
-      "title_vi": "Dự án Debian chính thức thông qua quyết định không cấm mã nguồn do AI hỗ trợ tạo ra",
-      "title_en": "Debian Project Formally Votes Not to Ban AI-Generated Code in Linux Distribution",
-      "summary_vi": [
-        "Dự án Debian chính thức bỏ phiếu cho phép lập trình viên sử dụng các công cụ Generative AI trong việc phát triển, bảo trì và viết tài liệu cho Linux.",
-        "Chính sách quy định lập trình viên phải chịu trách nhiệm hoàn toàn về mã nguồn và đảm bảo mã do AI hỗ trợ tuân thủ chuẩn Phần mềm Tự do DFSG.",
-        "Mở ra tiền lệ quan trọng cho hệ sinh thái mã nguồn mở thế giới trong việc dung hòa giữa năng suất AI và bản quyền phần mềm tự do."
-      ],
-      "summary_en": [
-        "The Debian project voted to permit developers to utilize Generative AI tools in coding, package maintenance, and documentation for the Linux distribution.",
-        "The policy mandates human author accountability for code quality, verifying that AI-assisted contributions comply with the Debian Free Software Guidelines.",
-        "Sets a major precedent for open-source ecosystems, reconciling AI-augmented developer velocity with free and open software licensing standards."
-      ],
-      "originalTitle": "Debian won’t ban AI code from its Linux distribution",
-      "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Debian",
-        "Linux",
-        "OpenSource",
-        "AI",
-        "Policy"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-08-31T15:34:58.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK414_AI_CVIRGINIA_I__0009_7.png?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Debian voted to allow developers to use AI tools in their contributions to the Linux distribution's \"development, maintenance, [and] documentation.\" The new policy on AI acknowledges that \"responsible\" use of AI can improve developers' productivity, and goes on to say, \"generative AI is neither exem",
-      "authorName": "Stevie Bonifield",
-      "upvotes": 22,
-      "commentsCount": 4
-    },
-    {
-      "id": "c1b781ce193b04e7",
-      "title_vi": "Tai nghe chống ồn đầu bảng Sony WH-1000XM5 giảm giá về mức thấp kỷ lục",
-      "title_en": "Flagship Sony WH-1000XM5 Noise-Canceling Headphones Drop to All-Time Lowest Price",
-      "summary_vi": [
-        "Dòng tai nghe chống ồn đầu bảng Sony WH-1000XM5 bước vào đợt giảm giá mạnh nhất giúp người dùng tiếp cận công nghệ cách âm cao cấp.",
-        "Sử dụng bộ xử lý kép Integrated Processor V1 và QN1 cùng 8 micro lọc ồn thông minh, hỗ trợ codec âm thanh độ phân giải cao LDAC.",
-        "Nâng cao hiệu suất làm việc từ xa (Remote Work) và tạo môi trường cách âm tĩnh lặng tối ưu cho kỹ sư phần mềm khi viết code."
-      ],
-      "summary_en": [
-        "Sony’s flagship WH-1000XM5 active noise-canceling headphones hit an all-time low price point, democratizing premium acoustics.",
-        "Powered by dual Integrated Processors (V1 and QN1) with an 8-microphone array and LDAC high-resolution wireless audio codec support.",
-        "Significantly enhances remote work productivity by providing an acoustic sanctuary for software developers during deep focus sessions."
-      ],
-      "originalTitle": "Sony’s WH-1000XM5 headphones are back down to their lowest price",
-      "url": "https://www.theverge.com/gadgets/986647/sony-wh1000xm5-headphones-nintendo-switch-2-matic-sonos-deal-sale",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "Sony",
-        "Headphones",
-        "ANC",
-        "Hardware"
-      ],
-      "hotScore": 83,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-08-31T15:31:59.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/sonyxm5.png?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Sony is one of many companies offering Labor Day discounts on tech products, though its week-long sale on the last-gen WH-1000XM5 is one of the most attractive deals I found upon logging in this morning. The comfy over-ear headphones offer some of the best sound quality and active noise cancelling,",
-      "authorName": "Cameron Faulkner",
-      "upvotes": 13,
-      "commentsCount": 6
-    },
-    {
-      "id": "eee07d332e335035",
-      "title_vi": "Apache Iggy: Nền tảng truyền dữ liệu luồng viết bằng Rust chính thức trở thành dự án cấp cao TLP",
-      "title_en": "Apache Iggy: Ultra-Fast Rust Message Streaming Platform Graduates to Apache Top-Level Project",
-      "summary_vi": [
-        "Dự án Apache Iggy viết bằng Rust chính thức tốt nghiệp trở thành Top-Level Project (TLP) của Apache Software Foundation.",
-        "Kiến trúc Message Streaming phi luồng với độ trễ sub-millisecond, tận dụng cơ chế quản lý bộ nhớ không cần Garbage Collection của Rust để tối ưu CPU.",
-        "Cung cấp giải pháp thay thế siêu nhẹ và tốc độ hơn cho Apache Kafka trong các hệ thống Big Data và phân tích luồng dữ liệu thời gian thực."
-      ],
-      "summary_en": [
-        "Apache Iggy, an ultra-high-throughput message streaming engine written in Rust, formally graduates to an Apache Top-Level Project (TLP).",
-        "Architected for sub-millisecond latency, leveraging Rust’s zero-cost abstractions and deterministic memory management without GC pauses.",
-        "Offers a lightweight, hyper-efficient drop-in alternative to Apache Kafka for distributed real-time event-driven data pipelines."
-      ],
-      "originalTitle": "Apache Iggy, a message streaming platform in Rust, graduates to an Apache TLP",
-      "url": "https://iggy.apache.org/blogs/2026/08/24/apache-iggy-top-level-project-tlp-graduation/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Rust",
-        "ApacheIggy",
-        "Streaming",
-        "Kafka",
-        "Backend"
-      ],
-      "hotScore": 80,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-08-31T14:54:20.000Z",
-      "contentSnippet": "Top trending discussion with 51 points and 10 comments.",
-      "authorName": "spetz",
-      "upvotes": 51,
-      "commentsCount": 10
-    },
-    {
-      "id": "63994c0b6655e700",
-      "title_vi": "Playa Phone: Khám phá dự án điện thoại tối giản nhằm giải phóng người dùng khỏi sự xao nhãng",
-      "title_en": "Playa Phone: The Minimalist Device Designed to Free Users from Smartphone Distractions",
-      "summary_vi": [
-        "Giới thiệu dự án Playa Phone – chiếc điện thoại tối giản nhằm giải phóng người dùng khỏi sự phụ thuộc và xao nhãng của smartphone hiện đại.",
-        "Tối giản phần cứng với màn hình đơn sắc tiết kiệm năng lượng, lược bỏ hoàn toàn mạng xã hội và chỉ giữ lại các tính năng liên lạc cơ bản.",
-        "Khởi xướng xu hướng Digital Detox và thiết kế phần cứng tối giản đang nhận được sự ủng hộ lớn từ giới công nghệ."
-      ],
-      "summary_en": [
-        "Introduces the Playa Phone project—a radically stripped-down mobile device engineered to liberate users from digital smartphone addictions.",
-        "Minimizes hardware with an energy-efficient monochrome display, removing social media feeds while preserving essential voice and messaging.",
-        "Sparks growing interest in the Digital Detox movement and intentional hardware design within the modern technology community."
-      ],
-      "originalTitle": "Playa Phone",
-      "url": "https://playaphone.com/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "PlayaPhone",
-        "Hardware",
-        "DigitalDetox",
-        "Minimalism"
-      ],
-      "hotScore": 93,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-08-31T14:52:26.000Z",
-      "contentSnippet": "Top trending discussion with 116 points and 40 comments.",
-      "authorName": "cutoff",
-      "upvotes": 116,
-      "commentsCount": 40
-    },
-    {
-      "id": "a2f4b5faad2567d4",
-      "title_vi": "Galaxy Z Fold8: Trải nghiệm biến smartphone màn hình gập thành khung tranh và màn hình phụ thông minh",
-      "title_en": "Galaxy Z Fold8: Transforming the Foldable Flagship into an Ambient Smart Display Desk Companion",
-      "summary_vi": [
-        "Khám phá trải nghiệm biến chiếc smartphone màn hình gập Galaxy Z Fold8 thành khung tranh và màn hình phụ mini trên bàn làm việc công nghệ.",
-        "Tận dụng cơ chế bản lề Flex Mode cố định đa góc độ, màn hình Dynamic AMOLED tần số quét 120Hz và chế độ Standby Always-On Display thông minh.",
-        "Mở rộng khả năng tương tác đa nhiệm, hỗ trợ lập trình viên theo dõi dashboard và thông báo hệ thống mà không cần bật thêm màn hình lớn."
-      ],
-      "summary_en": [
-        "Explores transforming the Galaxy Z Fold8 foldable flagship into an ambient smart display and secondary monitor on developer desks.",
-        "Leverages multi-angle Flex Mode hinging, a 120Hz Dynamic AMOLED panel, and intelligent Always-On ambient display capabilities.",
-        "Enhances multi-tasking desk ergonomics, enabling engineers to monitor build pipelines and system telemetry without extra hardware monitors."
-      ],
-      "originalTitle": "Khung tranh di động Galaxy Z Fold8",
-      "url": "https://tinhte.vn/thread/khung-tranh-di-dong-galaxy-z-fold8.4173590/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "GalaxyFold",
-        "Samsung",
-        "Mobile",
-        "UIUX"
-      ],
-      "hotScore": 87,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-08-31T14:30:10.000Z",
-      "contentSnippet": "Dạo gần đây khi dùng Galaxy Z Fold8 làm máy chính, bên cạnh các tác vụ làm việc hay giải trí thông thường, mình phát hiện ra một cách tận dụng chiếc màn hình gập này cực kỳ thú vị trên bàn làm...",
-      "authorName": "Anh Tú.",
-      "upvotes": 17,
-      "commentsCount": 1
-    },
-    {
-      "id": "65212327158b5536",
-      "title_vi": "Thống đốc bang New York tuyên chiến với công nghệ in súng 3D và các phần mềm bẻ khóa kiểm duyệt",
-      "title_en": "New York Governor Takes Aim at 3D-Printed Gun Software and Firmware Bypass Tools",
-      "summary_vi": [
-        "Thống đốc bang New York tuyên bố siết chặt các quy định pháp lý nhằm ngăn chặn việc sử dụng máy in 3D để chế tạo vũ khí trái phép.",
-        "Cuộc đối đầu giữa luật pháp và các công cụ phần mềm mã nguồn mở cho phép mã hóa file in 3D vượt qua rào cản kiểm duyệt của máy in.",
-        "Đặt ra bài toán lớn về ranh giới giữa kiểm soát phần mềm, đạo đức kỹ thuật và quản lý các thiết bị sản xuất kỹ thuật số."
-      ],
-      "summary_en": [
-        "The Governor of New York enacts aggressive legislative measures targeting software tools that circumvent 3D printer firearm restrictions.",
-        "Highlights the tension between regulatory enforcement and open-source CAD encryption scripts designed to bypass hardware-level print guardrails.",
-        "Raises fundamental questions regarding software censorship, developer liability, and governance over distributed additive manufacturing."
-      ],
-      "originalTitle": "New York governor to 3D-printed gun leader: ‘tell Cody I will get ahead of him’",
-      "url": "https://www.theverge.com/policy/986733/kathy-hochul-3d-printed-guns-cody-wilson-response",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "3DPrinting",
-        "Policy",
-        "OpenSource",
-        "Security"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-08-31T14:20:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2290458315.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Cody Wilson, the creator of the first 3D-printed gun, announced a tool last week aimed at skirting a New York law that prevents 3D printers from making firearms - and taunting governor Kathy Hochul in the process. But Hochul isn't having it. In this week's episode of Decoder, Hochul responded to Wil",
-      "authorName": "Stevie Bonifield",
-      "upvotes": 35,
-      "commentsCount": 8
-    },
-    {
-      "id": "a3f40d92ed89c939",
-      "title_vi": "Bộ tài liệu tham khảo công cụ và kỹ năng làm việc toàn diện với ChatGPT dành cho kỹ sư AI",
-      "title_en": "Comprehensive ChatGPT Work Tool & Skill Architecture Reference Guide for AI Engineers",
-      "summary_vi": [
-        "Tổng hợp bộ tài liệu tra cứu chuyên sâu về hệ thống công cụ, plugin và kỹ năng lập trình mở rộng dành cho ChatGPT và mô hình AI.",
-        "Hướng dẫn cấu hình Function Calling, tích hợp REST API bên ngoài và định dạng schema JSON để AI thực thi tác vụ chính xác.",
-        "Giúp các kỹ sư phần mềm nhanh chóng làm chủ kỹ thuật xây dựng AI Agent và tự động hóa quy trình nghiệp vụ doanh nghiệp."
-      ],
-      "summary_en": [
-        "Curates an architectural reference guide detailing tool integration patterns, system prompt skills, and MCP connectors for ChatGPT.",
-        "Walks through Function Calling configurations, external REST API orchestration, and structured JSON schema validations for autonomous agents.",
-        "Enables software engineers to reliably engineer multi-step AI agents and automate mission-critical enterprise workflows."
-      ],
-      "originalTitle": "ChatGPT Work Tool and Skill Reference",
-      "url": "https://codex-tool-reference.simonw.chatgpt.site/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "ChatGPT",
-        "AI",
-        "Agents",
-        "PromptEngineering",
-        "LLM"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-08-31T14:07:15.000Z",
-      "contentSnippet": "Top trending discussion with 79 points and 40 comments.",
-      "authorName": "ijidak",
-      "upvotes": 79,
-      "commentsCount": 40
-    },
-    {
-      "id": "1ba2d1aad50f660a",
-      "title_vi": "Thống đốc New York kêu gọi xây dựng chính sách phát triển AI có đạo đức và quản lý trung tâm dữ liệu",
-      "title_en": "New York Governor Advocates for Ethical AI Policy and Sustainable Data Center Governance",
-      "summary_vi": [
-        "Thống đốc New York Kathy Hochul chia sẻ định hướng xây dựng chính sách quản lý trung tâm dữ liệu AI và hạn chế tác động tiêu cực của công nghệ.",
-        "Thảo luận về nhu cầu điện năng khổng lồ của các cụm máy chủ huấn luyện LLM, camera giám sát AI và an toàn thông tin công dân.",
-        "Định hình khung pháp lý cân bằng giữa việc thu hút đầu tư công nghệ bán dẫn/AI và bảo vệ quyền riêng tư cũng như môi trường năng lượng."
-      ],
-      "summary_en": [
-        "New York Governor Kathy Hochul outlines regulatory frameworks for AI data center expansion and mitigating emerging tech risks.",
-        "Addresses massive grid power consumption demanded by LLM superclusters, automated computer vision surveillance, and digital privacy.",
-        "Aims to balance competitive semiconductor and AI infrastructure investments with energy sustainability and algorithmic accountability."
-      ],
-      "originalTitle": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
-      "url": "https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Policy",
-        "DataCenter",
-        "TechEthics"
-      ],
-      "hotScore": 83,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-08-31T14:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/DCD_Hochul.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Today, I’m talking with New York Governor Kathy Hochul, and I’ll just warn you — this episode moves really fast. It’s an election year, after all, with a shocking amount of tech policy at stake, and Governor Hochul has taken strong positions on almost every major tech issue there is. For example, Me",
-      "authorName": "Nilay Patel",
-      "upvotes": 19,
-      "commentsCount": 1
-    },
-    {
-      "id": "674d63c707ccf3f1",
-      "title_vi": "Startup Pacific Fusion đặt mục tiêu thương mại hóa cỗ máy phát điện nhiệt hạch trong 4 năm tới",
-      "title_en": "Pacific Fusion Targets Commercial Net-Electricity Fusion Reactor Deployment Within 4 Years",
-      "summary_vi": [
-        "Startup Pacific Fusion thu hút đầu tư quy mô lớn nhằm chế tạo cỗ máy phát điện nhiệt hạch thương mại trong vòng 4 năm tới.",
-        "Áp dụng công nghệ nén từ trường xung cao áp (Pulsed Magnetic Fields) lên nhiên liệu hạt nhân deuterium-tritium đạt ngưỡng sinh năng lượng ròng.",
-        "Cung cấp nguồn năng lượng sạch vô tận với chi phí thấp để vận hành các siêu trung tâm dữ liệu AI trong kỷ nguyên bùng nổ tính toán."
-      ],
-      "summary_en": [
-        "Pacific Fusion secures major capital funding to construct a grid-scale commercial fusion power plant within a four-year horizon.",
-        "Employs high-current pulsed magnetic compression to drive deuterium-tritium fuel targets to net-energy gain fusion conditions.",
-        "Promises abundant, zero-emission baseload electricity essential for powering next-generation AI gigawatt data centers."
-      ],
-      "originalTitle": "Cỗ máy tỷ USD tìm cách 'mở khóa' năng lượng nhiệt hạch",
-      "url": "https://vnexpress.net/co-may-ty-usd-tim-cach-mo-khoa-nang-luong-nhiet-hach-5115357.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "FusionEnergy",
-        "PacificFusion",
-        "CleanTech",
-        "Energy"
-      ],
-      "hotScore": 91,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-08-31T12:00:00.000Z",
-      "thumbnailUrl": "https://i1-vnexpress.vnecdn.net/2026/08/31/d4158602602620353151976-178814-9022-5364-1788149875.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=C3ERmcEaceR5VW7Wc3nKpw",
-      "contentSnippet": "Công ty khởi nghiệp Pacific Fusion đang xây dựng một cỗ máy nhiệt hạch với mục tiêu sản xuất năng lượng thành công trong 4 năm tới.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 36,
-      "commentsCount": 5
-    },
-    {
-      "id": "70bac8465bc374d7",
-      "title_vi": "5 công nghệ pin xe điện thế hệ mới hứa hẹn thay thế hoàn toàn pin Lithium-ion truyền thống",
-      "title_en": "5 Next-Gen EV Battery Chemistries Poised to Disrupt Traditional Lithium-Ion Systems",
-      "summary_vi": [
-        "Nghiên cứu 5 hướng đột phá về công nghệ pin thế hệ mới nhằm thay thế pin Lithium-ion truyền thống trên xe điện.",
-        "Đánh giá ưu điểm của pin thể rắn (Solid-State), pin Sodium-ion và pin Anode Silicon giúp tăng gấp đôi mật độ năng lượng và sạc siêu nhanh.",
-        "Thúc đẩy sự phát triển của hệ thống quản lý pin thông minh (BMS) trên nền tảng IoT và giảm phụ thuộc vào khoáng sản đất hiếm."
-      ],
-      "summary_en": [
-        "Investigates five breakthrough battery technologies engineered to replace conventional lithium-ion cells in electric mobility.",
-        "Evaluates solid-state electrolytes, sodium-ion chemistries, and silicon-dominant anodes doubling energy density with sub-15min fast charging.",
-        "Drives advanced IoT-based Battery Management System (BMS) architectures while mitigating heavy dependence on scarce mineral supply chains."
-      ],
-      "originalTitle": "5 công nghệ pin xe điện có thể thay thế pin lithium-ion",
-      "url": "https://vnexpress.net/5-cong-nghe-pin-xe-dien-co-the-thay-the-pin-lithium-ion-5113715.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "BatteryTech",
-        "EV",
-        "Hardware",
-        "CleanEnergy"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-08-31T11:00:00.000Z",
-      "thumbnailUrl": "https://i1-vnexpress.vnecdn.net/2026/08/26/VNEBat2-1787733600-8641-1787734025.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=XrHZIl_I89xIHSSRR5m1JA",
-      "contentSnippet": "Những công nghệ pin thế hệ mới có thể giúp nhà sản xuất xe điện giảm phụ thuộc vào pin lithium-ion thông thường.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 37,
-      "commentsCount": 7
-    },
-    {
-      "id": "0093bb3cdd1db22a",
-      "title_vi": "OpenShot 4.0 ra mắt: Bộ công cụ quay phim, biên tập và chỉnh màu video mã nguồn mở đột phá",
-      "title_en": "OpenShot 4.0 Released: Major Open-Source Video Editor Upgrade with Advanced Color Grading",
-      "summary_vi": [
-        "Phần mềm biên tập video mã nguồn mở OpenShot phát hành phiên bản 4.0 với hàng loạt nâng cấp vượt bậc về quay phim và chỉnh màu.",
-        "Nâng cấp engine xử lý đồ họa đa luồng, hỗ trợ tăng tốc phần cứng GPU và bộ công cụ Color Grading chuyên nghiệp.",
-        "Khẳng định sức mạnh của phần mềm tự do nguồn mở (FOSS) trong việc cạnh tranh trực tiếp với các giải pháp thương mại đắt đỏ."
-      ],
-      "summary_en": [
-        "The open-source OpenShot video editing suite releases version 4.0, introducing comprehensive recording, timeline, and color enhancements.",
-        "Features a multi-threaded rendering engine, hardware-accelerated GPU decoding, and professional-grade color correction curves.",
-        "Demonstrates the resilience of Free and Open Source Software (FOSS) delivering competitive alternatives to proprietary editing suites."
-      ],
-      "originalTitle": "OpenShot 4.0: Record, Edit, and Color Like Never Before",
-      "url": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "OpenShot",
-        "OpenSource",
-        "VideoEditing",
-        "SoftwareEngineering"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-08-31T09:59:05.000Z",
-      "contentSnippet": "Top trending discussion with 392 points and 90 comments.",
-      "authorName": "metrofun",
-      "upvotes": 392,
-      "commentsCount": 90
-    },
-    {
-      "id": "331d72b299bd7bc0",
-      "title_vi": "Robot hình người tại Thế vận hội: Bộc lộ điểm yếu trong các tác vụ đòi hỏi sự khéo léo",
-      "title_en": "Humanoid Robots at the Olympic Games: Physical Dexterity and Sensor Latency Bottlenecks",
-      "summary_vi": [
-        "Đánh giá màn thể hiện của các robot hình người tại các kỳ thế vận hội, bộc lộ điểm yếu trong các tác vụ đòi hỏi độ chính xác và khéo léo cao.",
-        "Phân tích giới hạn của hệ thống cảm biến xúc giác, độ trễ xử lý của mô hình thị giác máy tính và cơ cấu truyền động khớp động học.",
-        "Thúc đẩy các kỹ sư Robotics tập trung phát triển mô hình AI điều khiển vật lý (Embodied AI) có khả năng thích nghi môi trường thời gian thực."
-      ],
-      "summary_en": [
-        "Assesses humanoid robot demonstrations at athletic competitions, uncovering critical limitations in fine-motor dexterity tasks.",
-        "Examines hardware bottlenecks in tactile sensor feedback, computer vision inference latency, and high-torque actuator kinematics.",
-        "Spurs robotics engineers to pioneer Embodied AI foundation models capable of real-time physical adaptation and dynamic balance control."
-      ],
-      "originalTitle": "Robot hình người lộ nhiều điểm yếu tại Thế vận hội",
-      "url": "https://vnexpress.net/robot-hinh-nguoi-lo-nhieu-diem-yeu-tai-the-van-hoi-5115400.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Robotics",
-        "Humanoid",
-        "EmbodiedAI",
-        "Hardware"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-08-31T08:39:55.000Z",
-      "thumbnailUrl": "https://i1-vnexpress.vnecdn.net/2026/08/31/anhmanhinh20260829lu5801387517-4514-6938-1788164350.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=1io0BYMHjxTTjc7perdytg",
-      "contentSnippet": "Robot phá kỷ lục của con người ở một số môn thể thao, nhưng lại gặp khó với những tác vụ đòi hỏi độ chính xác cao.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 20,
-      "commentsCount": 6
-    },
-    {
-      "id": "dedbc20f47d4e1ec",
-      "title_vi": "Cầu vòm bê tông dài nhất thế giới Tian’e Longtan: Đột phá tính toán kết cấu kỹ thuật số",
-      "title_en": "Tian’e Longtan Concrete Arch Bridge: Digital Structural Simulation Shatters Engineering Records",
-      "summary_vi": [
-        "Cầu vòm bê tông Tian’e Longtan với nhịp chính dài kỷ lục 600m chính thức hoàn thành, vượt qua mọi kỷ lục xây dựng trước đó.",
-        "Ứng dụng mô hình tính toán kết cấu kỹ thuật số tiên tiến và bê tông cường độ siêu cao giúp giảm 22% lượng vật liệu sử dụng.",
-        "Minh chứng cho vai trò cốt lõi của phần mềm mô phỏng kỹ thuật và cảm biến giám sát thông minh trong các công trình hạ tầng thế kỷ."
-      ],
-      "summary_en": [
-        "The Tian’e Longtan concrete arch bridge achieves a world-record 600-meter main span, surpassing previous engineering benchmarks.",
-        "Employs advanced digital structural simulation software and ultra-high-performance concrete, slashing total material volume by 22%.",
-        "Demonstrates the indispensable role of computational civil engineering algorithms and IoT telemetry in mega-infrastructure development."
-      ],
-      "originalTitle": "Nhịp cầu vòm bê tông dài nhất thế giới",
-      "url": "https://vnexpress.net/nhip-cau-vom-be-tong-dai-nhat-the-gioi-5115087.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "CivilEngineering",
-        "Simulation",
-        "IoT",
-        "Infrastructure"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-08-31T06:00:00.000Z",
-      "thumbnailUrl": "https://i1-vnexpress.vnecdn.net/2026/08/30/IEPhoto261-1788027967-1719-1788028048.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=jdyM4Of4YiXCLCleuBUjQg",
-      "contentSnippet": "Cầu Tian’e Longtan bắc qua sông Hồng Thủy có nhịp chính dài 600 m, vượt kỷ lục thế giới trước đó là 445 m, trong khi giảm 22% lượng bê tông sử dụng.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 34,
-      "commentsCount": 2
-    },
-    {
-      "id": "1e728aba98c754cf",
-      "title_vi": "Nhật Bản thử nghiệm giải đấu cờ vây kết hợp người và AI: Khởi nguồn thể thức eSports trí tuệ mới",
-      "title_en": "Japan Pioneers Hybrid Human-AI Go Tournaments: Designing the Next-Generation Intellectual eSport",
-      "summary_vi": [
-        "Nhật Bản tiên phong tổ chức giải đấu cờ vây kết hợp giữa kỳ thủ chuyên nghiệp và mô hình AI, định hình môn eSports trí tuệ mới.",
-        "Tích hợp thuật toán học tăng cường sâu (Deep Reinforcement Learning) và tìm kiếm cây Monte Carlo (MCTS) để đề xuất nước đi tối ưu.",
-        "Mô hình hóa sự hợp tác cộng sinh giữa con người và trí tuệ nhân tạo (Human-in-the-loop AI) thay vì chỉ xem AI là công cụ thay thế."
-      ],
-      "summary_en": [
-        "Japan tests an exhibition Go tournament pairing master players with AI models, pioneering a cooperative intellectual eSport format.",
-        "Integrates Deep Reinforcement Learning neural networks with Monte Carlo Tree Search (MCTS) algorithms to calculate game branches.",
-        "Exemplifies the Human-in-the-Loop AI paradigm, demonstrating human-machine cognitive symbiosis over outright workforce replacement."
-      ],
-      "originalTitle": "Nhật Bản cho người đấu cờ vây cùng AI, kỳ vọng thành eSports mới",
-      "url": "https://tuoitre.vn/nhat-ban-cho-nguoi-dau-co-vay-cung-ai-ky-vong-thanh-esports-moi-100260829210426748.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "GoGame",
-        "eSports",
-        "DeepLearning",
-        "Japan"
-      ],
-      "hotScore": 87,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-08-29T14:18:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/29/choi-co-vay-17880120630391574115320-0-92-943-1601-crop-17880124771551634302996.png",
-      "contentSnippet": "Lần đầu tiên, các kỳ thủ chuyên nghiệp Nhật Bản bắt cặp với AI để cùng tính nước cờ, mở ra cách chơi mới có thể trở thành eSports.",
-      "authorName": "TTXVN",
-      "upvotes": 12,
-      "commentsCount": 3
-    },
-    {
-      "id": "6342dedf0755fa73",
-      "title_vi": "Chính quyền Berlin bị tin tặc tấn công mã độc tống tiền 2 triệu euro: Báo động an ninh mạng đô thị",
-      "title_en": "Berlin Municipal Infrastructure Hit by €2M Rhysida Ransomware Attack: Urgent Urban Cyber Alert",
-      "summary_vi": [
-        "Chính quyền thành phố Berlin bị nhóm tin tặc Rhysida tấn công tống tiền 2 triệu euro sau sự cố xâm nhập hệ thống dữ liệu công dân.",
-        "Tin tặc khai thác lỗ hổng xác thực trên mạng diện rộng và mã hóa máy chủ trung tâm bằng mã độc tống tiền tinh vi.",
-        "Báo động đỏ về an ninh mạng đô thị và yêu cầu cấp bách triển khai kiến trúc Zero Trust cho toàn bộ hạ tầng công nghệ công cộng."
-      ],
-      "summary_en": [
-        "The Berlin municipality faces a €2 million extortion demand from the Rhysida ransomware syndicate following sensitive database intrusions.",
-        "Threat actors exploited credential vulnerabilities across public WAN endpoints, deploying sophisticated cryptographic locking payloads.",
-        "Highlights the urgent imperative for municipal governments to adopt Zero Trust perimeter architectures across public cyber infrastructure."
-      ],
-      "originalTitle": "Berlin bị tin tặc tống tiền 2 triệu euro sau vụ tấn công mạng",
-      "url": "https://tuoitre.vn/berlin-bi-tin-tac-tong-tien-2-trieu-euro-sau-vu-tan-cong-mang-10026082916010388.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Ransomware",
-        "Cybersecurity",
-        "Berlin",
-        "ZeroTrust"
-      ],
-      "hotScore": 89,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-08-29T09:14:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/8/29/tin-tac-berlin-17879956554991927596560-0-78-1059-1772-crop-17879956935521826243436.png",
-      "contentSnippet": "Chính quyền Berlin bị nhóm tin tặc được cho là Rhysida đòi 30 bitcoin, tương đương khoảng 2 triệu euro, sau vụ tấn công mạng khiến dữ liệu có thể bị đánh cắp.",
-      "authorName": "TTXVN",
-      "upvotes": 23,
-      "commentsCount": 5
     }
   ]
 }
