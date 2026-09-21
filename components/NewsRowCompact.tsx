@@ -3,13 +3,17 @@
 import React from 'react';
 import { NewsItem, getCategoryLabel, formatRelativeTime } from '../types/news';
 import { useBilingual } from './BilingualContext';
-import { Clock, Bookmark, Calendar, ArrowUpRight, Headphones } from 'lucide-react';
+import { Clock, Bookmark, Calendar, ArrowUpRight, Headphones, Layers, ListPlus, Check } from 'lucide-react';
+import { MultiSourceInfo } from '../lib/trend_clustering';
 
 interface NewsRowCompactProps {
   article: NewsItem;
   onSelectArticle: (article: NewsItem) => void;
   onListen?: (article: NewsItem) => void;
   isFocused?: boolean;
+  multiSourceInfo?: MultiSourceInfo;
+  isInAudioQueue?: boolean;
+  onToggleAudioQueue?: (article: NewsItem) => void;
 }
 
 export const NewsRowCompact: React.FC<NewsRowCompactProps> = ({
@@ -17,6 +21,9 @@ export const NewsRowCompact: React.FC<NewsRowCompactProps> = ({
   onSelectArticle,
   onListen,
   isFocused = false,
+  multiSourceInfo,
+  isInAudioQueue = false,
+  onToggleAudioQueue,
 }) => {
   const {
     lang,
@@ -65,6 +72,15 @@ export const NewsRowCompact: React.FC<NewsRowCompactProps> = ({
       <div className="flex-1 min-w-0">
         <div className="flex items-center gap-2 mb-1 flex-wrap">
           {!read && <span className="w-2 h-2 rounded-full bg-emerald-500 shrink-0" title={t.unreadBadge} />}
+          {multiSourceInfo && multiSourceInfo.sourcesCount >= 2 && (
+            <span
+              className="inline-flex items-center gap-1 text-[9.5px] font-mono font-bold text-amber-600 dark:text-amber-400 px-1.5 py-0.5 rounded-md bg-amber-500/10 border border-amber-500/30"
+              title={`${multiSourceInfo.sourcesCount} ${t.multiSourceBadge}: ${multiSourceInfo.sources.join(', ')}`}
+            >
+              <Layers className="w-2.5 h-2.5 animate-pulse text-amber-500" />
+              <span>{multiSourceInfo.sourcesCount} {t.multiSourceBadge}</span>
+            </span>
+          )}
           <span className="text-[10px] font-semibold px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700">
             {article.sourceName}
           </span>
@@ -118,6 +134,24 @@ export const NewsRowCompact: React.FC<NewsRowCompactProps> = ({
         >
           <Headphones className="w-3.5 h-3.5" />
         </button>
+
+        {onToggleAudioQueue && (
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              onToggleAudioQueue(article);
+            }}
+            className={`p-2 rounded-lg border transition-colors ${
+              isInAudioQueue
+                ? 'bg-purple-600 text-white border-purple-600 shadow-sm'
+                : 'bg-slate-50 dark:bg-[#0D1018] text-slate-600 dark:text-slate-400 hover:text-purple-600 dark:hover:text-purple-400 border-slate-200 dark:border-white/10'
+            }`}
+            title={isInAudioQueue ? t.removeFromQueue : t.addToQueue}
+          >
+            {isInAudioQueue ? <Check className="w-3.5 h-3.5" /> : <ListPlus className="w-3.5 h-3.5" />}
+          </button>
+        )}
 
         <button
           type="button"

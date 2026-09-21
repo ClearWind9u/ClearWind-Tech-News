@@ -21,7 +21,7 @@ export async function GET(request: NextRequest) {
     // Source selection: if specific archive month is requested, load that month's partition
     let pool: NewsItem[] = [];
     if (month !== 'all') {
-      pool = getArchiveMonth(month);
+      pool = await getArchiveMonth(month);
     } else {
       // Default to active news database
       const db = await getNewsDatabase();

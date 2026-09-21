@@ -7,14 +7,14 @@ import { NewsItem, NewsItemSchema, NewsDatabase } from '../types/news';
 import { getNewsDatabase, saveNewsDatabase } from '../lib/db';
 import {
   classifyCategory,
-  translateTitleToVietnamese,
   translateTitleToVietnameseAsync,
   translateTitleToEnglishAsync,
   hasVietnameseDiacritics,
-  generateTechnicalTakeaways,
   generateTechnicalTakeawaysAsync,
   decodeHtml,
   evaluateITRelevance,
+  extractSmartTags,
+  isEditorialCleanArticle,
   CanonicalCategory,
 } from './it_translator';
 import dotenv from 'dotenv';
@@ -77,7 +77,7 @@ const RSS_FEEDS: RSSFeedConfig[] = [
   },
   {
     name: 'Ars Technica',
-    url: 'https://feeds.arstechnica.com/arstechnica/index',
+    url: 'https://feeds.arstechnica.com/arstechnica/technology-lab',
     origin: 'global',
     defaultCategory: 'Cybersecurity',
   },
@@ -169,11 +169,8 @@ async function generateFallbackSummary(
   const summaryVi = await generateTechnicalTakeawaysAsync(vietnameseTitle, snippet, category, 'vi');
   const summaryEn = await generateTechnicalTakeawaysAsync(englishTitle, snippet, category, 'en');
 
-  // 4. Tags extraction
-  const categoryTag = category.split(' ')[0].replace(/[^a-zA-Z0-9]/g, '');
-  const tags = isVn
-    ? [categoryTag, 'CongNghe', 'VietNam']
-    : [categoryTag, 'SoftwareEngineering', 'Tech'];
+  // 4. Tags extraction with domain intelligence
+  const tags = extractSmartTags(cleanTitle, snippet, category);
 
   return {
     title_vi: vietnameseTitle,
@@ -226,6 +223,11 @@ async function fetchFullArticleText(url: string): Promise<string> {
     html = html.replace(/<footer\b[^<]*(?:(?!<\/footer>)<[^<]*)*<\/footer>/gi, '');
     html = html.replace(/<aside\b[^<]*(?:(?!<\/aside>)<[^<]*)*<\/aside>/gi, '');
     html = html.replace(/<form\b[^<]*(?:(?!<\/form>)<[^<]*)*<\/form>/gi, '');
+    // Strip forum comments, replies, and discussion threads (XenForo, Reddit, Dev.to comments)
+    html = html.replace(
+      /<(?:div|article|section)[^>]*(?:class|id)=["'][^"']*(?:message-responses|js-quickReply|message-cell--extra|comments-list|comment-container|thread-comments)[^"']*["'][^>]*>[\s\S]*?<\/(?:div|article|section)>/gi,
+      ''
+    );
 
     // 2. Targeted content container extraction for known news portals
     let searchArea = html;
@@ -270,6 +272,13 @@ async function fetchFullArticleText(url: string): Promise<string> {
       'liên hệ',
       'bản quyền thuộc về',
       'tin liên quan',
+      'thíchkhông thích',
+      'likelikedislike',
+      'thíchthích',
+      'ngu vl',
+      'phò phạch',
+      'xàm xàm',
+      'khuyến mãisự kiện',
     ];
 
     for (const match of pMatches) {
@@ -300,14 +309,27 @@ async function fetchFullArticleText(url: string): Promise<string> {
   }
 }
 
-// Resilient production models with high quota and zero 503 capacity issues
+/**
+ * Gemini Model Fallback Chain — Ordered by quality → quota safety.
+ *
+ * Strategy (based on actual free-tier quota table):
+ *   Tier 1 — Quality first:     2.5-flash (5 RPM, 20 RPD)
+ *   Tier 2 — More RPM headroom: 2.5-flash-lite (10 RPM, 20 RPD)
+ *   Tier 3 — High quota backup: 3.5-flash-lite (15 RPM, 500 RPD) ← KEY SAFETY NET
+ *   Tier 4 — High quota backup: 3.1-flash-lite (15 RPM, 500 RPD) ← KEY SAFETY NET
+ *   Tier 5 — Newer mid-tier:    3.5-flash (5 RPM, 20 RPD)
+ *   Tier 6 — Reliable legacy:   1.5-flash (known stable, lowest quota risk)
+ *
+ * Note: gemini-2.0-flash and gemini-3.8-flash omitted (currently over quota per dashboard).
+ * The try-catch in callGeminiWithFallback gracefully skips unavailable models.
+ */
 const GEMINI_MODELS = [
-  'gemini-2.5-flash',
-  'gemini-2.5-flash-lite',
-  'gemini-2.0-flash',
-  'gemini-2.0-flash-lite',
-  'gemini-1.5-flash',
-  'gemini-1.5-flash-8b',
+  'gemini-2.5-flash',        // Tier 1: Best quality,      RPM: 5,  RPD: 20
+  'gemini-2.5-flash-lite',   // Tier 2: Fast + 2x RPM,     RPM: 10, RPD: 20
+  'gemini-3.5-flash-lite',   // Tier 3: HIGH QUOTA backup,  RPM: 15, RPD: 500 ← Critical
+  'gemini-3.1-flash-lite',   // Tier 4: HIGH QUOTA backup,  RPM: 15, RPD: 500 ← Critical
+  'gemini-3.5-flash',        // Tier 5: Newer mid-tier,     RPM: 5,  RPD: 20
+  'gemini-1.5-flash',        // Tier 6: Legacy reliable,    most permissive fallback
 ];
 
 async function callGeminiWithFallback(genAI: GoogleGenerativeAI, prompt: string): Promise<string> {
@@ -529,6 +551,10 @@ async function fetchDevToArticles(existingIds: Set<string>, apiKey?: string): Pr
 
       const strictlyGuarded = await ensureStrictBilingualQuality(candidate, rawTitle, rawContent, 'global');
 
+      if (!isEditorialCleanArticle(strictlyGuarded.title_vi, strictlyGuarded.summary_vi, strictlyGuarded.contentSnippet)) {
+        continue;
+      }
+
       const valid = NewsItemSchema.safeParse(strictlyGuarded);
       if (valid.success) {
         articles.push(strictlyGuarded);
@@ -603,28 +629,32 @@ async function fetchHackerNewsArticles(existingIds: Set<string>, apiKey?: string
     if (!topRes.ok) return articles;
     const topIds: number[] = await topRes.json();
 
-    const selectedIds = topIds.slice(0, 4);
+    const selectedIds = topIds.slice(0, 5);
     for (const storyId of selectedIds) {
       const itemRes = await fetch(`https://hacker-news.firebaseio.com/v0/item/${storyId}.json`);
       if (!itemRes.ok) continue;
       const item = await itemRes.json();
-      if (!item || !item.url) continue;
+
+      // Only process articles (not Ask HN, Show HN polls) with a URL and minimum engagement
+      if (!item || !item.url || item.type !== 'story') continue;
+      if ((item.score ?? 0) < 50) continue; // Skip low-engagement posts
 
       const id = generateHashId(item.url);
       if (existingIds.has(id)) continue;
 
       const rawTitle = cleanHtml(item.title ?? '');
-      // Try scraping actual article content for deeper context
+
+      // Attempt to scrape actual article body for deeper Gemini context
       let articleBody = '';
       try {
         articleBody = await fetchFullArticleText(item.url);
       } catch {
-        // Fallback to title synthesis
+        // Fallback: Gemini will synthesize from title alone
       }
 
-      const hnContext = articleBody && articleBody.length >= 100
-        ? articleBody
-        : `Chủ đề thảo luận kỹ thuật phần mềm và công nghệ cao cấp: "${rawTitle}". Thảo luận kiến trúc hệ thống và mã nguồn mở trên Hacker News.`;
+      // Use scraped body if substantial; otherwise pass only the title.
+      // NEVER use a hardcoded boilerplate string — it produces junk summaries.
+      const hnContext = articleBody && articleBody.length >= 100 ? articleBody : rawTitle;
 
       const summaryData = await summarizeWithGemini(
         rawTitle,
@@ -658,6 +688,10 @@ async function fetchHackerNewsArticles(existingIds: Set<string>, apiKey?: string
       };
 
       const strictlyGuarded = await ensureStrictBilingualQuality(candidate, rawTitle, hnContext, 'global');
+
+      if (!isEditorialCleanArticle(strictlyGuarded.title_vi, strictlyGuarded.summary_vi, strictlyGuarded.contentSnippet)) {
+        continue;
+      }
 
       const valid = NewsItemSchema.safeParse(strictlyGuarded);
       if (valid.success) {
@@ -779,6 +813,11 @@ export async function runCrawlerPipeline() {
         };
 
         const strictlyGuarded = await ensureStrictBilingualQuality(candidate, rawTitle, rawContent, feed.origin);
+
+        if (!isEditorialCleanArticle(strictlyGuarded.title_vi, strictlyGuarded.summary_vi, strictlyGuarded.contentSnippet)) {
+          console.warn(`[Quality Gate Filtered] Skipped forum junk/toxic article: ${strictlyGuarded.title_vi}`);
+          continue;
+        }
 
         const valid = NewsItemSchema.safeParse(strictlyGuarded);
         if (valid.success) {

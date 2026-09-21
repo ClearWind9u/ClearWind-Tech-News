@@ -8,19 +8,54 @@ import {
   ArchiveManifest,
   ArchiveMonthInfo,
 } from '../types/news';
+import clientPromise from './mongodb';
 
 const LOCAL_DATA_FILE = path.join(process.cwd(), 'data', 'news.json');
+const MONGODB_DB_NAME = process.env.MONGODB_DB_NAME || 'clearwind_news';
+const MONGODB_COLLECTION = 'articles';
 
 /**
  * Universal Database Layer for ClearWind Tech News
- * Supports:
- * 1. Cloud Serverless KV (Upstash Redis / Vercel KV)
- * 2. Cloud Remote Gist DB (GitHub Gist API)
- * 3. Local JSON Backup (data/news.json)
+ * Prioritizes high-performance Serverless Cloud Databases:
+ * 1. MongoDB Atlas (Official Native Driver / Connection Pooling)
+ * 2. Cloud Serverless KV (Upstash Redis / Vercel KV)
+ * 3. Cloud Remote Gist DB (GitHub Gist API)
+ * 4. Local JSON Fallback (data/news.json - for offline development)
  */
 
 export async function getNewsDatabase(): Promise<NewsDatabase> {
-  // 1. Upstash Redis / Vercel KV (Fastest Serverless Cloud DB)
+  // 1. MongoDB Atlas (Production Document Database)
+  if (clientPromise) {
+    try {
+      const client = await clientPromise;
+      const db = client.db(MONGODB_DB_NAME);
+      const collection = db.collection(MONGODB_COLLECTION);
+
+      const docs = await collection
+        .find({})
+        .sort({ publishedAt: -1, hotScore: -1 })
+        .limit(250)
+        .toArray();
+
+      if (docs.length > 0) {
+        // Strip MongoDB internal _id
+        const articles: NewsItem[] = docs.map((doc) => {
+          const { _id, ...item } = doc as any;
+          return item as NewsItem;
+        });
+
+        return {
+          lastUpdated: new Date().toISOString(),
+          totalArticles: articles.length,
+          articles,
+        };
+      }
+    } catch (error) {
+      console.warn('[DB Layer] Failed to read from MongoDB Atlas:', error);
+    }
+  }
+
+  // 2. Upstash Redis / Vercel KV (Fastest Serverless Cloud DB)
   const kvUrl = process.env.UPSTASH_REDIS_REST_URL ?? process.env.KV_REST_API_URL;
   const kvToken = process.env.UPSTASH_REDIS_REST_TOKEN ?? process.env.KV_REST_API_TOKEN;
 
@@ -45,7 +80,7 @@ export async function getNewsDatabase(): Promise<NewsDatabase> {
     }
   }
 
-  // 2. GitHub Gist Database (Zero Setup Cloud Storage)
+  // 3. GitHub Gist Database (Zero Setup Cloud Storage)
   const gistId = process.env.GIST_ID;
   const githubToken = process.env.GITHUB_TOKEN ?? process.env.GH_TOKEN;
 
@@ -74,7 +109,7 @@ export async function getNewsDatabase(): Promise<NewsDatabase> {
     }
   }
 
-  // 3. Fallback to local JSON file
+  // 4. Fallback to local JSON file (Offline development seed)
   if (fs.existsSync(LOCAL_DATA_FILE)) {
     try {
       const raw = fs.readFileSync(LOCAL_DATA_FILE, 'utf-8');
@@ -98,7 +133,37 @@ export async function getNewsDatabase(): Promise<NewsDatabase> {
 export async function saveNewsDatabase(db: NewsDatabase): Promise<boolean> {
   let savedToCloud = false;
 
-  // 1. Upstash Redis / Vercel KV (Zero Git Commits needed!)
+  // 1. MongoDB Atlas (Bulk Upsert with unique index on id)
+  if (clientPromise) {
+    try {
+      const client = await clientPromise;
+      const mongoDb = client.db(MONGODB_DB_NAME);
+      const collection = mongoDb.collection(MONGODB_COLLECTION);
+
+      // Create compound indexes if not exists
+      await collection.createIndex({ id: 1 }, { unique: true }).catch(() => {});
+      await collection.createIndex({ publishedAt: -1, hotScore: -1 }).catch(() => {});
+      await collection.createIndex({ category: 1, publishedAt: -1 }).catch(() => {});
+
+      if (db.articles.length > 0) {
+        const bulkOps = db.articles.map((article) => ({
+          updateOne: {
+            filter: { id: article.id },
+            update: { $set: article },
+            upsert: true,
+          },
+        }));
+
+        await collection.bulkWrite(bulkOps, { ordered: false });
+        console.log(`[DB Layer] Successfully synced ${db.articles.length} articles to MongoDB Atlas!`);
+        savedToCloud = true;
+      }
+    } catch (error) {
+      console.warn('[DB Layer] Failed to save to MongoDB Atlas:', error);
+    }
+  }
+
+  // 2. Upstash Redis / Vercel KV (Zero Git Commits needed!)
   const kvUrl = process.env.UPSTASH_REDIS_REST_URL ?? process.env.KV_REST_API_URL;
   const kvToken = process.env.UPSTASH_REDIS_REST_TOKEN ?? process.env.KV_REST_API_TOKEN;
 
@@ -122,7 +187,7 @@ export async function saveNewsDatabase(db: NewsDatabase): Promise<boolean> {
     }
   }
 
-  // 2. GitHub Gist Database Update (Zero Git Commits needed!)
+  // 3. GitHub Gist Database Update (Zero Git Commits needed!)
   const gistId = process.env.GIST_ID;
   const githubToken = process.env.GITHUB_TOKEN ?? process.env.GH_TOKEN;
 
@@ -153,32 +218,21 @@ export async function saveNewsDatabase(db: NewsDatabase): Promise<boolean> {
     }
   }
 
-  // 3. Always persist local JSON backup (Active Hot Store: 250 items)
+  // 4. Local JSON Fallback (Preserved for offline dev / seed when no Cloud DB is configured)
   try {
     fs.mkdirSync(path.dirname(LOCAL_DATA_FILE), { recursive: true });
-    // Keep active store fast and focused
     const activeDb: NewsDatabase = {
       lastUpdated: db.lastUpdated,
       totalArticles: Math.min(db.articles.length, 250),
       articles: db.articles.slice(0, 250),
     };
     fs.writeFileSync(LOCAL_DATA_FILE, JSON.stringify(activeDb, null, 2), 'utf-8');
-
-    // Automatically sync full articles to Long-Term Monthly Archive and Search Index
-    saveToArchive(db.articles).catch((err) => {
-      console.warn('[DB Layer] Warning: Background archive sync error:', err);
-    });
-
     return true;
   } catch (error) {
     console.error('[DB Layer] Error writing local JSON backup:', error);
     return savedToCloud;
   }
 }
-
-const ARCHIVE_DIR = path.join(process.cwd(), 'data', 'archive');
-const ARCHIVE_INDEX_FILE = path.join(ARCHIVE_DIR, 'index.json');
-const SEARCH_INDEX_FILE = path.join(process.cwd(), 'data', 'search-index.json');
 
 /**
  * Extract Month Key YYYY-MM from ISO date string
@@ -191,6 +245,48 @@ export function getMonthKey(dateStr: string): string {
   } catch {
     return new Date().toISOString().slice(0, 7);
   }
+}
+
+/**
+ * Dynamically computes Archive Manifest (month partitions & article counts)
+ * directly in memory from active articles - 0 extra JSON files needed!
+ */
+export function getArchiveManifest(db?: NewsDatabase): ArchiveManifest {
+  const articles = db?.articles ?? [];
+  const monthCounts = new Map<string, number>();
+
+  for (const a of articles) {
+    const m = a.publishedAt ? a.publishedAt.slice(0, 7) : '';
+    if (m && m.length === 7) {
+      monthCounts.set(m, (monthCounts.get(m) ?? 0) + 1);
+    }
+  }
+
+  const sortedMonths: ArchiveMonthInfo[] = Array.from(monthCounts.entries())
+    .sort((a, b) => b[0].localeCompare(a[0]))
+    .map(([key, count]) => {
+      const [year, month] = key.split('-');
+      return {
+        key,
+        label_vi: `Tháng ${month}/${year}`,
+        label_en: new Date(`${key}-01`).toLocaleString('en-US', { month: 'long', year: 'numeric' }),
+        count,
+      };
+    });
+
+  return {
+    lastUpdated: db?.lastUpdated ?? new Date().toISOString(),
+    totalArticles: db?.totalArticles ?? articles.length,
+    months: sortedMonths,
+  };
+}
+
+/**
+ * Get articles from a specific archive month dynamically from database pool
+ */
+export async function getArchiveMonth(monthKey: string, db?: NewsDatabase): Promise<NewsItem[]> {
+  const activeDb = db ?? (await getNewsDatabase());
+  return activeDb.articles.filter((a) => a.publishedAt && a.publishedAt.startsWith(monthKey));
 }
 
 /**
@@ -210,196 +306,10 @@ export function buildSearchIndex(articles: NewsItem[]): SearchIndexItem[] {
   }));
 }
 
-function sanitizeArticleStrings(a: NewsItem): NewsItem {
-  const decode = (s?: string) => {
-    if (!s) return s;
-    return s
-      .replaceAll('&#038;', '&')
-      .replaceAll('&amp;apos;', "'")
-      .replaceAll('&apos;', "'")
-      .replaceAll('&quot;', '"')
-      .replaceAll('&#8216;', "'")
-      .replaceAll('&#8217;', "'")
-      .replaceAll('&#8220;', '"')
-      .replaceAll('&#8221;', '"')
-      .replaceAll('&ndash;', '–')
-      .replaceAll('&mdash;', '—')
-      .replaceAll('&hellip;', '…')
-      .replaceAll('&amp;', '&')
-      .replace(/\s+/g, ' ')
-      .trim();
-  };
-
-  a.title_vi = decode(a.title_vi) || a.title_vi;
-  a.title_en = decode(a.title_en) || a.title_en;
-  if (a.originalTitle) a.originalTitle = decode(a.originalTitle) || a.originalTitle;
-  if (a.contentSnippet) a.contentSnippet = decode(a.contentSnippet) || a.contentSnippet;
-  if (a.thumbnailUrl) a.thumbnailUrl = decode(a.thumbnailUrl)?.replace(/\s+/g, '') || a.thumbnailUrl;
-  if (Array.isArray(a.summary_vi)) {
-    a.summary_vi = a.summary_vi.map((s) => decode(s) || s) as [string, string, string];
-  }
-  if (Array.isArray(a.summary_en)) {
-    a.summary_en = a.summary_en.map((s) => decode(s) || s) as [string, string, string];
-  }
-  return a;
-}
-
-/**
- * Persists and groups articles into monthly JSON archive files (data/archive/YYYY-MM.json)
- * and updates the search index (data/search-index.json)
- */
-export async function saveToArchive(articles: NewsItem[]): Promise<ArchiveManifest> {
-  fs.mkdirSync(ARCHIVE_DIR, { recursive: true });
-
-  // Group incoming articles by month (YYYY-MM)
-  const incomingByMonth = new Map<string, NewsItem[]>();
-  for (const art of articles) {
-    const month = getMonthKey(art.publishedAt);
-    const list = incomingByMonth.get(month) ?? [];
-    list.push(art);
-    incomingByMonth.set(month, list);
-  }
-
-  // Read existing manifest or initialize
-  let manifest: ArchiveManifest = {
-    lastUpdated: new Date().toISOString(),
-    totalArticles: 0,
-    months: [],
-  };
-
-  if (fs.existsSync(ARCHIVE_INDEX_FILE)) {
-    try {
-      manifest = JSON.parse(fs.readFileSync(ARCHIVE_INDEX_FILE, 'utf-8'));
-    } catch {
-      // ignore
-    }
-  }
-
-  const allArchivedArticlesMap = new Map<string, NewsItem>();
-
-  // Process all months present in archive directory + incoming months
-  const existingFiles = fs.existsSync(ARCHIVE_DIR)
-    ? fs.readdirSync(ARCHIVE_DIR).filter((f) => f.endsWith('.json') && f !== 'index.json')
-    : [];
-
-  const allMonthKeys = new Set<string>([
-    ...Array.from(incomingByMonth.keys()),
-    ...existingFiles.map((f) => f.replace('.json', '')),
-  ]);
-
-  const monthInfos: ArchiveMonthInfo[] = [];
-
-  for (const monthKey of Array.from(allMonthKeys).sort().reverse()) {
-    const monthFile = path.join(ARCHIVE_DIR, `${monthKey}.json`);
-    let monthArticles: NewsItem[] = [];
-
-    if (fs.existsSync(monthFile)) {
-      try {
-        const raw = fs.readFileSync(monthFile, 'utf-8');
-        const parsed = JSON.parse(raw);
-        if (Array.isArray(parsed)) {
-          monthArticles = parsed;
-        }
-      } catch (err) {
-        console.warn(`[Archive Layer] Error reading ${monthKey}.json:`, err);
-      }
-    }
-
-    // Merge incoming articles for this month
-    const incoming = incomingByMonth.get(monthKey) ?? [];
-    const mergedMap = new Map<string, NewsItem>();
-    for (const a of monthArticles) {
-      mergedMap.set(a.id, sanitizeArticleStrings(a));
-    }
-    for (const a of incoming) {
-      mergedMap.set(a.id, sanitizeArticleStrings(a));
-    }
-
-    const mergedList = Array.from(mergedMap.values()).sort(
-      (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-    );
-
-    // Write back month partition
-    fs.writeFileSync(monthFile, JSON.stringify(mergedList, null, 2), 'utf-8');
-
-    for (const a of mergedList) {
-      allArchivedArticlesMap.set(a.id, a);
-    }
-
-    // Generate month label
-    const [year, month] = monthKey.split('-');
-    monthInfos.push({
-      key: monthKey,
-      label_vi: `Tháng ${month}/${year}`,
-      label_en: new Date(`${monthKey}-01`).toLocaleString('en-US', { month: 'long', year: 'numeric' }),
-      count: mergedList.length,
-    });
-  }
-
-  // Update Archive Manifest
-  manifest = {
-    lastUpdated: new Date().toISOString(),
-    totalArticles: allArchivedArticlesMap.size,
-    months: monthInfos,
-  };
-  fs.writeFileSync(ARCHIVE_INDEX_FILE, JSON.stringify(manifest, null, 2), 'utf-8');
-
-  // Update Lightweight Search Index
-  const allArticlesList = Array.from(allArchivedArticlesMap.values()).sort(
-    (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-  );
-  const searchIndex = buildSearchIndex(allArticlesList);
-  fs.writeFileSync(SEARCH_INDEX_FILE, JSON.stringify(searchIndex), 'utf-8');
-
-  return manifest;
-}
-
-/**
- * Get archive manifest (months list & counts)
- */
-export function getArchiveManifest(): ArchiveManifest {
-  if (fs.existsSync(ARCHIVE_INDEX_FILE)) {
-    try {
-      return JSON.parse(fs.readFileSync(ARCHIVE_INDEX_FILE, 'utf-8'));
-    } catch {
-      // ignore
-    }
-  }
-  return {
-    lastUpdated: new Date().toISOString(),
-    totalArticles: 0,
-    months: [],
-  };
-}
-
-/**
- * Get articles from a specific archive month
- */
-export function getArchiveMonth(monthKey: string): NewsItem[] {
-  const file = path.join(ARCHIVE_DIR, `${monthKey}.json`);
-  if (fs.existsSync(file)) {
-    try {
-      const raw = fs.readFileSync(file, 'utf-8');
-      const parsed = JSON.parse(raw);
-      if (Array.isArray(parsed)) return parsed;
-    } catch {
-      // ignore
-    }
-  }
-  return [];
-}
-
 /**
  * Get lightweight search index for fast client-side query
  */
-export function getSearchIndex(): SearchIndexItem[] {
-  if (fs.existsSync(SEARCH_INDEX_FILE)) {
-    try {
-      return JSON.parse(fs.readFileSync(SEARCH_INDEX_FILE, 'utf-8'));
-    } catch {
-      // ignore
-    }
-  }
-  return [];
+export async function getSearchIndex(db?: NewsDatabase): Promise<SearchIndexItem[]> {
+  const activeDb = db ?? (await getNewsDatabase());
+  return buildSearchIndex(activeDb.articles);
 }
-

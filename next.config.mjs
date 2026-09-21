@@ -4,6 +4,9 @@ const nextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
   swcMinify: true,
+  experimental: {
+    optimizePackageImports: ['lucide-react'],
+  },
   images: {
     unoptimized: true,
     remotePatterns: [

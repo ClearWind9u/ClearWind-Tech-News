@@ -15,13 +15,20 @@ import {
   ShieldCheck,
   Smartphone,
   Headphones,
+  Layers,
+  ListPlus,
+  Check,
 } from 'lucide-react';
+import { MultiSourceInfo } from '../lib/trend_clustering';
 
 interface NewsCardProps {
   article: NewsItem;
   onSelectArticle: (article: NewsItem) => void;
   onListen?: (article: NewsItem) => void;
   isFocused?: boolean;
+  multiSourceInfo?: MultiSourceInfo;
+  isInAudioQueue?: boolean;
+  onToggleAudioQueue?: (article: NewsItem) => void;
 }
 
 interface CategoryTheme {
@@ -82,6 +89,9 @@ export const NewsCard: React.FC<NewsCardProps> = ({
   onSelectArticle,
   onListen,
   isFocused = false,
+  multiSourceInfo,
+  isInAudioQueue = false,
+  onToggleAudioQueue,
 }) => {
   const {
     lang,
@@ -174,6 +184,24 @@ export const NewsCard: React.FC<NewsCardProps> = ({
           )}
         </div>
 
+        {/* Multi-Source Convergence Badge (When 2+ distinct sources cover the topic) */}
+        {multiSourceInfo && multiSourceInfo.sourcesCount >= 2 && (
+          <div
+            className="inline-flex items-center gap-1.5 px-2 py-0.5 mb-2 rounded-md bg-amber-500/10 border border-amber-500/30 text-amber-600 dark:text-amber-400 font-mono text-[10px] font-bold shadow-2xs w-fit"
+            title={`${multiSourceInfo.sourcesCount} ${t.multiSourceBadge}: ${multiSourceInfo.sources.join(', ')}`}
+          >
+            <Layers className="w-3 h-3 text-amber-500 animate-pulse shrink-0" />
+            <span>{multiSourceInfo.sourcesCount} {t.multiSourceBadge}</span>
+            {multiSourceInfo.clusterLabel &&
+              !multiSourceInfo.clusterLabel.startsWith('tag_') &&
+              !multiSourceInfo.clusterLabel.startsWith('cat_') && (
+                <span className="opacity-75 font-normal truncate max-w-[130px]">
+                  ({multiSourceInfo.clusterLabel})
+                </span>
+              )}
+          </div>
+        )}
+
         {/* Eyebrow Kicker: Source + Category (Uppercase Mono - The Verge style) */}
         <div className="flex items-center gap-2 mb-2 text-[11px] font-mono tracking-wide text-slate-500 dark:text-slate-400">
           <span className="font-bold text-slate-800 dark:text-slate-200 uppercase truncate max-w-[130px]">
@@ -220,6 +248,25 @@ export const NewsCard: React.FC<NewsCardProps> = ({
             <Headphones className="w-3.5 h-3.5" />
             <span>{lang === 'vi' ? 'Nghe' : 'Listen'}</span>
           </button>
+
+          {/* Add to Audio Queue Button */}
+          {onToggleAudioQueue && (
+            <button
+              type="button"
+              onClick={(e) => {
+                e.stopPropagation();
+                onToggleAudioQueue(article);
+              }}
+              className={`p-1.5 rounded-lg border transition-all ${
+                isInAudioQueue
+                  ? 'bg-purple-600 text-white border-purple-600 shadow-xs'
+                  : 'bg-slate-100/70 hover:bg-slate-200/80 dark:bg-white/[0.04] dark:hover:bg-white/[0.08] border-slate-200/80 dark:border-white/10 text-slate-600 dark:text-slate-400 hover:text-purple-600 dark:hover:text-purple-400'
+              }`}
+              title={isInAudioQueue ? t.removeFromQueue : t.addToQueue}
+            >
+              {isInAudioQueue ? <Check className="w-3.5 h-3.5" /> : <ListPlus className="w-3.5 h-3.5" />}
+            </button>
+          )}
 
           {/* Bookmark Button */}
           <button

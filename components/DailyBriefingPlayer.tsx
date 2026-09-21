@@ -36,9 +36,14 @@ export const DailyBriefingPlayer: React.FC<DailyBriefingPlayerProps> = ({
   const { lang, t } = useBilingual();
   const [isExpanded, setIsExpanded] = useState(false);
 
-  if (!isOpen || articles.length === 0) return null;
+  const activePlaylist =
+    player.playlistArticles && player.playlistArticles.length > 0
+      ? player.playlistArticles
+      : articles;
 
-  const currentArticle = articles[player.currentStoryIndex] ?? articles[0];
+  if (!isOpen || activePlaylist.length === 0) return null;
+
+  const currentArticle = activePlaylist[player.currentStoryIndex] ?? activePlaylist[0];
   const currentTitle =
     (lang === 'vi' ? currentArticle.title_vi : currentArticle.title_en) ||
     currentArticle.title_vi ||
@@ -48,6 +53,13 @@ export const DailyBriefingPlayer: React.FC<DailyBriefingPlayerProps> = ({
     (lang === 'vi' ? currentArticle.summary_vi : currentArticle.summary_en) ||
     currentArticle.summary_vi ||
     [];
+
+  const displayTitle = player.playlistTitle || t.morningBriefing;
+  const displayDesc = player.playlistTitle
+    ? (lang === 'vi'
+        ? `Phát ${activePlaylist.length} bài viết công nghệ tuyển chọn`
+        : `Streaming ${activePlaylist.length} curated tech stories`)
+    : t.morningBriefingDesc;
 
   const handleTogglePlay = () => {
     if (player.isPlaying) {
@@ -76,13 +88,13 @@ export const DailyBriefingPlayer: React.FC<DailyBriefingPlayerProps> = ({
                 </div>
                 <div>
                   <h3 className="text-sm font-bold text-slate-900 dark:text-white flex items-center gap-2">
-                    <span>{t.morningBriefing}</span>
-                    <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
-                      {t.storyCounter} {player.currentStoryIndex + 1}/{articles.length}
+                    <span className="truncate max-w-[200px] sm:max-w-xs">{displayTitle}</span>
+                    <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 shrink-0">
+                      {t.storyCounter} {player.currentStoryIndex + 1}/{activePlaylist.length}
                     </span>
                   </h3>
                   <p className="text-[11px] text-slate-500 dark:text-slate-400 truncate max-w-xs sm:max-w-md">
-                    {t.morningBriefingDesc}
+                    {displayDesc}
                   </p>
                 </div>
               </div>
@@ -165,10 +177,10 @@ export const DailyBriefingPlayer: React.FC<DailyBriefingPlayerProps> = ({
               <div>
                 <div className="flex items-center gap-2 mb-2.5 text-xs font-bold text-slate-600 dark:text-slate-400 uppercase tracking-wider font-mono">
                   <ListMusic className="w-3.5 h-3.5" />
-                  <span>Playlist ({articles.length})</span>
+                  <span>Playlist ({activePlaylist.length})</span>
                 </div>
                 <div className="space-y-1.5">
-                  {articles.map((art, idx) => {
+                  {activePlaylist.map((art, idx) => {
                     const isCurrent = idx === player.currentStoryIndex;
                     const artTitle =
                       (lang === 'vi' ? art.title_vi : art.title_en) ||
@@ -179,7 +191,7 @@ export const DailyBriefingPlayer: React.FC<DailyBriefingPlayerProps> = ({
                       <div
                         key={art.id}
                         onClick={() => player.jumpToStory(idx)}
-                        className={`flex items-center justify-between p-2.5 rounded-xl cursor-pointer text-xs transition-colors border ${
+                        className={`group/item flex items-center justify-between p-2.5 rounded-xl cursor-pointer text-xs transition-colors border ${
                           isCurrent
                             ? 'bg-emerald-500/10 dark:bg-emerald-500/15 border-emerald-500/30 text-emerald-600 dark:text-emerald-300 font-semibold'
                             : 'bg-slate-50 dark:bg-white/[0.02] hover:bg-slate-100 dark:hover:bg-white/[0.06] border-slate-200 dark:border-white/5 text-slate-700 dark:text-slate-300'
@@ -191,13 +203,27 @@ export const DailyBriefingPlayer: React.FC<DailyBriefingPlayerProps> = ({
                           </span>
                           <span className="truncate">{artTitle}</span>
                         </div>
-                        {isCurrent && player.isPlaying && !player.isPaused && (
-                          <div className="flex items-center gap-0.5 shrink-0 pl-2">
-                            <span className="w-1 h-3 bg-emerald-500 animate-pulse rounded-full" />
-                            <span className="w-1 h-4 bg-emerald-500 animate-pulse delay-75 rounded-full" />
-                            <span className="w-1 h-2 bg-emerald-500 animate-pulse delay-150 rounded-full" />
-                          </div>
-                        )}
+                        <div className="flex items-center gap-1.5 shrink-0 pl-2">
+                          {isCurrent && player.isPlaying && !player.isPaused && (
+                            <div className="flex items-center gap-0.5 mr-1">
+                              <span className="w-1 h-3 bg-emerald-500 animate-pulse rounded-full" />
+                              <span className="w-1 h-4 bg-emerald-500 animate-pulse delay-75 rounded-full" />
+                              <span className="w-1 h-2 bg-emerald-500 animate-pulse delay-150 rounded-full" />
+                            </div>
+                          )}
+                          {player.playlistArticles && player.playlistArticles.length > 1 && (
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                player.removeFromPlaylist(art.id);
+                              }}
+                              className="p-1 rounded-md text-slate-400 hover:text-rose-500 hover:bg-rose-500/10 transition-colors opacity-0 group-hover/item:opacity-100"
+                              title={t.removeFromQueue || 'Xóa khỏi danh sách'}
+                            >
+                              <X className="w-3.5 h-3.5" />
+                            </button>
+                          )}
+                        </div>
                       </div>
                     );
                   })}
@@ -243,7 +269,7 @@ export const DailyBriefingPlayer: React.FC<DailyBriefingPlayerProps> = ({
                 </button>
                 <button
                   onClick={player.nextStory}
-                  disabled={player.currentStoryIndex >= articles.length - 1}
+                  disabled={player.currentStoryIndex >= activePlaylist.length - 1}
                   className="p-2 rounded-xl bg-slate-200/60 dark:bg-white/5 hover:bg-slate-200 dark:hover:bg-white/10 text-slate-700 dark:text-slate-300 disabled:opacity-30 disabled:pointer-events-none transition-colors"
                   title={t.nextStory}
                 >
@@ -252,7 +278,7 @@ export const DailyBriefingPlayer: React.FC<DailyBriefingPlayerProps> = ({
               </div>
 
               <div className="text-[11px] font-mono text-slate-400">
-                {player.currentStoryIndex + 1} / {articles.length}
+                {player.currentStoryIndex + 1} / {activePlaylist.length}
               </div>
             </div>
           </div>
@@ -267,7 +293,7 @@ export const DailyBriefingPlayer: React.FC<DailyBriefingPlayerProps> = ({
             <div
               onClick={() => setIsExpanded(true)}
               className="w-8 h-8 rounded-xl bg-gradient-to-tr from-emerald-500 to-cyan-500 flex items-center justify-center text-white shrink-0 cursor-pointer shadow-xs hover:scale-105 transition-transform"
-              title={t.morningBriefing}
+              title={displayTitle}
             >
               {player.isPlaying && !player.isPaused ? (
                 <div className="flex items-center gap-0.5 h-3.5">
@@ -286,10 +312,10 @@ export const DailyBriefingPlayer: React.FC<DailyBriefingPlayerProps> = ({
               className="flex-1 min-w-0 cursor-pointer pr-1"
             >
               <div className="flex items-center gap-1.5 text-[10px] font-mono text-emerald-600 dark:text-emerald-400 font-bold uppercase tracking-wider">
-                <span>{t.podcastRadio}</span>
+                <span className="truncate max-w-[130px] sm:max-w-[180px]">{displayTitle}</span>
                 <span>•</span>
                 <span>
-                  {player.currentStoryIndex + 1}/{articles.length}
+                  {player.currentStoryIndex + 1}/{activePlaylist.length}
                 </span>
               </div>
               <p className="text-xs font-semibold text-slate-800 dark:text-slate-100 truncate">
@@ -320,7 +346,7 @@ export const DailyBriefingPlayer: React.FC<DailyBriefingPlayerProps> = ({
               </button>
               <button
                 onClick={player.nextStory}
-                disabled={player.currentStoryIndex >= articles.length - 1}
+                disabled={player.currentStoryIndex >= activePlaylist.length - 1}
                 className="p-1.5 rounded-lg text-slate-400 hover:text-slate-900 dark:hover:text-white disabled:opacity-30 transition-colors"
                 title={t.nextStory}
               >
