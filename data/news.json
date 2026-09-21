@@ -1,7 +1,518 @@
 {
-  "lastUpdated": "2026-09-21T13:30:26.035Z",
-  "totalArticles": 142,
+  "lastUpdated": "2026-09-21T21:29:24.650Z",
+  "totalArticles": 170,
   "articles": [
+    {
+      "id": "b9983234862d9b43",
+      "title_vi": "Xây dựng Middleware kiểm soát truy cập trong Node.js sử dụng tệp cấu hình YAML",
+      "title_en": "Building Access Control Middleware in Node.js Using YAML Configuration Files",
+      "summary_vi": [
+        "Bài viết hướng dẫn lập trình viên xây dựng một đoạn mã trung gian middleware bằng Node.js và framework Express để kiểm soát truy cập dựa trên cấu hình.",
+        "Hệ thống sử dụng tệp cấu hình định dạng YAML nhằm đọc các thiết lập chặn tên miền và cho phép đường dẫn định tuyến một cách linh hoạt.",
+        "Giải pháp này cung cấp mô hình bảo mật ứng dụng hiệu quả, giúp kỹ sư dễ dàng quản lý quyền truy cập mà không cần sửa đổi mã nguồn."
+      ],
+      "summary_en": [
+        "The article guides developers on building a custom middleware component using Node.js and the Express framework to manage access control based on configurations.",
+        "The system utilizes a YAML configuration file to dynamically read settings related to domain restrictions and allowed routing paths with high flexibility.",
+        "This solution provides an effective application security model, helping engineers easily manage access rights without requiring underlying source code modifications."
+      ],
+      "originalTitle": "Viết một đoạn code Middleware trong Node.js (hoặc Laravel) để đọc file cấu hình YAML này và thực hiện việc chặn/cho phép request dựa trên enabled_restrict_domain và enabled_allow_route.",
+      "url": "https://viblo.asia/p/viet-mot-doan-code-middleware-trong-nodejs-hoac-laravel-de-doc-file-cau-hinh-yaml-nay-va-thuc-hien-viec-chancho-phep-request-dua-tren-enabled-restrict-domain-va-enabled-allow-route-7Z4DEgXoJnX",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Node.js",
+        "Express",
+        "Middleware",
+        "Security",
+        "YAML"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-22T00:46:15.000Z",
+      "contentSnippet": "Dưới đây là cách triển khai cơ chế kiểm soát truy cập này bằng một Middleware trong Node.js (sử dụng framework Express). Mô hình này mô phỏng cách một...",
+      "authorName": "Cô Gái IT",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0290c1b4ca4c5481",
+      "title_vi": "Chinh phục cấu trúc dữ liệu Map: Các thao tác thêm, xóa và kiểm tra phần tử hiệu quả",
+      "title_en": "Mastering Map Data Structure: Efficient Insertion, Deletion, and Element Verification Operations",
+      "summary_vi": [
+        "Bài viết cung cấp hướng dẫn chi tiết về cấu trúc dữ liệu dạng ánh xạ, một thành phần nền tảng không thể thiếu trong quá trình xây dựng các ứng dụng backend hiện đại.",
+        "Nội dung tập trung phân tích sâu về vòng đời dữ liệu cùng các thao tác cốt lõi bao gồm thêm mới, xóa bỏ và kiểm tra sự tồn tại của phần tử trong bộ nhớ.",
+        "Việc nắm vững các thao tác này giúp lập trình viên tối ưu hóa hiệu năng ứng dụng, đồng thời tránh được những lỗi logic nghiêm trọng trong quá trình phát triển phần mềm."
+      ],
+      "summary_en": [
+        "The article provides a detailed guide on the map data structure, an essential foundational component for building modern backend applications efficiently.",
+        "The content focuses on deeply analyzing the data lifecycle along with core operations including insertion, deletion, and verifying the existence of elements in memory.",
+        "Mastering these operations helps developers optimize application performance while avoiding severe logic errors during the software development lifecycle."
+      ],
+      "originalTitle": "Go Zero to Hero - Bài 22: Các thao tác trên Map: Thêm, xóa, kiểm tra phần tử",
+      "url": "https://viblo.asia/p/go-zero-to-hero-bai-22-cac-thao-tac-tren-map-them-xoa-kiem-tra-phan-tu-gdJzvaakJz5",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Data Structures",
+        "Backend",
+        "Programming",
+        "Algorithms"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-22T00:05:49.000Z",
+      "contentSnippet": "Map là cấu trúc dữ liệu không thể thiếu trong mọi ứng dụng backend. Hiểu rõ vòng đời và các thao tác trên Map giúp bạn tránh được những lỗi \"chí mạng\"...",
+      "authorName": "Cô Gái IT",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "3c6d345bcd076ab9",
+      "title_vi": "Máy chủ nút trong Kafka là gì? Trái tim của hệ thống phân tán",
+      "title_en": "What is a Kafka Broker? The Heart of Distributed Systems",
+      "summary_vi": [
+        "Hệ thống Apache Kafka hiện đại thường không chạy trên một máy chủ đơn lẻ mà được thiết kế để hoạt động trên một cụm máy chủ phân tán lớn mạnh.",
+        "Máy chủ node trong Kafka đóng vai trò cốt lõi trong việc quản lý dữ liệu, nhận thông điệp từ nhà sản xuất và chuyển tiếp đến người tiêu dùng một cách hiệu quả.",
+        "Hiểu rõ kiến trúc của Kafka Broker giúp các kỹ sư phần mềm tối ưu hóa hiệu năng truyền tải dữ liệu và xây dựng các hệ thống quy mô lớn."
+      ],
+      "summary_en": [
+        "Modern Apache Kafka systems typically do not run on a single standalone machine but are designed to operate across a robust distributed server cluster.",
+        "Kafka brokers play a core role in managing data effectively, receiving messages from producers and efficiently forwarding them to consumers in real time.",
+        "Understanding the underlying architecture of Kafka brokers empowers software engineers to optimize data transmission performance and build scalable large systems."
+      ],
+      "originalTitle": "MÁY CHỦ NODE TRONG KAFKA (KAFKA BROKER) LÀ GÌ? TRÁI TIM CỦA HỆ THỐNG PHÂN TÁN",
+      "url": "https://viblo.asia/p/may-chu-node-trong-kafka-kafka-broker-la-gi-trai-tim-cua-he-thong-phan-tan-bA468mkwLKv",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Kafka",
+        "Distributed Systems",
+        "Backend",
+        "Messaging Queue"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-21T22:30:54.000Z",
+      "contentSnippet": "Trong một hệ thống Kafka hoàn chỉnh, bạn hiếm khi nào chạy mọi thứ trên một máy tính đơn lẻ. Thay vào đó, Kafka được thiết kế để chạy trên một cụm (Cl...",
+      "authorName": "Cô Gái IT",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "4e21a93703087553",
+      "title_vi": "Bài 5: Xử lý Request và Response trong Backend API",
+      "title_en": "Part 5: Handling Requests and Responses in Backend APIs",
+      "summary_vi": [
+        "Bài viết tập trung phân tích tầm quan trọng của việc xử lý dữ liệu đầu vào từ phía client gửi lên và định dạng chuẩn xác kết quả trả về trong hệ thống backend API hiện đại.",
+        "Nội dung đi sâu vào các cơ chế trích xuất dữ liệu yêu cầu một cách chính xác, đồng thời áp dụng các tiêu chuẩn thiết kế cấu trúc phản hồi phù hợp cho ứng dụng web.",
+        "Kiến thức này giúp lập trình viên tối ưu hóa quy trình giao tiếp giữa client và server, nâng cao hiệu suất hoạt động và đảm bảo tính nhất quán cho toàn bộ hệ thống."
+      ],
+      "summary_en": [
+        "This article focuses on analyzing the importance of processing incoming client data and accurately formatting response payloads within modern backend API architectures.",
+        "The content delves into mechanisms for extracting request parameters precisely while applying appropriate design standards for response structures in web applications.",
+        "This knowledge helps developers optimize client-server communication workflows, enhance operational performance, and ensure overall architectural consistency across the system."
+      ],
+      "originalTitle": "Bài 5: Xử lý Request và Response",
+      "url": "https://viblo.asia/p/bai-5-xu-ly-request-va-response-y0VGwgXpVPA",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Backend",
+        "API",
+        "Web Development",
+        "Software Architecture"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-21T22:27:49.000Z",
+      "contentSnippet": "Trọng tâm của mọi Backend API là việc trích xuất chính xác dữ liệu mà Client gửi lên (Request) và định dạng chuẩn xác dữ liệu trả về (Response). Giao ...",
+      "authorName": "Cô Gái IT",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "10718d3b3dad4e09",
+      "title_vi": "Hãng xe General Motors không thể mang Apple CarPlay trở lại vì thực chất tính năng này chưa từng biến mất",
+      "title_en": "GM can’t bring back Apple CarPlay because it never left",
+      "summary_vi": [
+        "Hãng sản xuất ô tô General Motors vừa công bố trải nghiệm phần mềm mới cho các dòng xe tải sắp ra mắt, mang đến giao diện cập nhật cho hệ thống phản chiếu điện thoại thông minh phổ biến.",
+        "Động thái này đã dấy lên nhiều tranh luận trong cộng đồng công nghệ về việc liệu hãng xe có thay đổi quyết định loại bỏ hệ thống kết nối từ các dòng xe chạy bằng động cơ đốt trong trước đó hay không.",
+        "Sự việc phản ánh những thách thức lớn trong chiến lược tích hợp phần mềm ô tô và trải nghiệm người dùng, buộc các nhà sản xuất xe hơi phải cân nhắc kỹ lưỡng giữa hệ thống độc quyền và giao diện bên thứ ba."
+      ],
+      "summary_en": [
+        "General Motors recently announced a new software experience for upcoming truck models, introducing an updated look for popular smartphone mirroring systems within their digital cockpit architecture.",
+        "This announcement sparked widespread confusion and debate across the tech community regarding whether the automaker reversed its previous decision to remove the interface from certain vehicle lineups.",
+        "The situation highlights major challenges in automotive software integration and user experience strategy, forcing traditional manufacturers to carefully balance proprietary systems with third-party smartphone interfaces."
+      ],
+      "originalTitle": "GM can’t ‘bring back’ Apple CarPlay because it never left",
+      "url": "https://www.theverge.com/transportation/998259/gm-apple-carplay-android-auto-phone-mirror-google",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple CarPlay",
+        "Android Auto",
+        "Automotive Software",
+        "General Motors",
+        "User Interface"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-21T17:47:54.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Apple_CarPlay_Split_Home_View_Screen_Projections_Trailering_dd9a21.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Last week, GM announced a new software experience for its upcoming Chevy Silverado and GMC Sierra trucks, including a new look for Apple CarPlay and Android Auto, the popular phone mirroring systems that the automaker made a big deal about removing from its electric vehicles in 2023. Naturally, this",
+      "authorName": "Andrew J. Hawkins",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9543a264293e9a4f",
+      "title_vi": "Cận cảnh cơ chế hoạt động của lá khẩu camera trên iPhone 18 Pro từ iFixit",
+      "title_en": "Close-up view of the iPhone 18 Pro camera aperture mechanism by iFixit",
+      "summary_vi": [
+        "Tổ chức iFixit vừa chính thức công bố hai ảnh động dạng GIF chất lượng cao hiển thị cận cảnh cụm camera chính trên dòng điện thoại thông minh cao cấp iPhone 18 Pro thế hệ mới.",
+        "Hình ảnh trực quan hé lộ chi tiết cơ chế hoạt động cơ khí phức tạp cùng cấu tạo cấu thành bên trong của hệ thống lá khẩu điều chỉnh ánh sáng trên ống kính máy ảnh.",
+        "Phân tích cấu trúc phần cứng này mang lại góc nhìn chuyên sâu cho các kỹ sư phần cứng và nhà phát triển ứng dụng di động tối ưu hóa thuật toán xử lý hình ảnh."
+      ],
+      "summary_en": [
+        "The organization iFixit has officially published two high-quality GIF animations displaying close-up shots of the main camera module on the next-generation iPhone 18 Pro smartphone series.",
+        "The visual imagery thoroughly reveals the complex mechanical operational mechanism and the internal structural composition of the aperture adjustment system on the camera lens.",
+        "Analyzing this hardware architecture provides deep insights for hardware engineers and mobile developers to effectively optimize advanced image processing algorithms."
+      ],
+      "originalTitle": "Cận cảnh lá khẩu iPhone 18 Pro từ iFixit",
+      "url": "https://tinhte.vn/thread/can-canh-la-khau-iphone-18-pro-tu-ifixit.4178481/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone",
+        "Hardware",
+        "iFixit",
+        "Camera",
+        "Mobile Tech"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-21T17:38:05.000Z",
+      "contentSnippet": "iFixit vừa công bố 2 ảnh GIF cận cảnh rõ nét về cụm camera chính trên iPhone 18 Pro series, thấy rõ cách hoạt động và các thành phần cấu tạo của chúng. 8628327 Với video đầu tiên này, có thể...",
+      "authorName": "Nhà Của Cáo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "87612923d2645601",
+      "title_vi": "Đánh giá sắc đỏ Burgundy trên dòng điện thoại iPhone 18 Pro sắp ra mắt",
+      "title_en": "Evaluating the Burgundy Red Color on the Upcoming iPhone 18 Pro Smartphone",
+      "summary_vi": [
+        "Bài viết thảo luận về xu hướng thiết kế màu sắc mới trên dòng điện thoại thông minh cao cấp iPhone 18 Pro sắp tới, tập trung vào phiên bản màu đỏ Burgundy độc đáo và thu hút sự chú ý của người dùng công nghệ.",
+        "Apple tiếp tục khẳng định vị thế dẫn đầu trong việc nghiên cứu vật liệu vỏ máy, áp dụng công nghệ xử lý bề mặt tiên tiến để tạo ra các sắc thái màu sắc độc quyền và bền bỉ hơn theo thời gian.",
+        "Việc chú trọng vào thiết kế phần cứng và trải nghiệm thẩm mỹ không chỉ giúp gia tăng giá trị thương hiệu mà còn tạo ra xu hướng màu sắc chủ đạo cho toàn bộ thị trường thiết bị di động cao cấp."
+      ],
+      "summary_en": [
+        "The article discusses new color design trends on the upcoming high-end iPhone 18 Pro smartphone, focusing on the unique Burgundy red version that captures the attention of technology users.",
+        "Apple continues to reinforce its leadership in device casing material research by applying advanced surface treatment technologies to create exclusive and more durable color shades over time.",
+        "The strong emphasis on hardware design and aesthetic experience not only enhances brand value but also establishes dominant color trends for the entire high-end mobile device market."
+      ],
+      "originalTitle": "Nói về màu đỏ Burgundy trên iPhone 18 Pro: Mình thấy đẹp",
+      "url": "https://tinhte.vn/thread/noi-ve-mau-do-burgundy-tren-iphone-18-pro-minh-thay-dep.4178395/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone 18 Pro",
+        "Mobile Design",
+        "Smartphones"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-21T16:33:34.000Z",
+      "contentSnippet": "Năm ngoái mình cũng có nói về màu cam trên iPhone 17 Pro, mình thấy nó đẹp và năm nay với màu đỏ cũng không khác, vẫn thấy nó đẹp. Trước đó có một cái tinhtefact mình nói Apple thật sự giỏi làm...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "335ec83f5854e83b",
+      "title_vi": "Bốn gã khổng lồ công nghệ Mỹ đối mặt với vụ kiện tập thể vì cáo buộc cố tình kìm hãm sự phát triển của trí tuệ nhân tạo",
+      "title_en": "Four major US tech giants face a class-action lawsuit for allegedly conspiring to slow down artificial intelligence development",
+      "summary_vi": [
+        "Bốn tập đoàn trí tuệ nhân tạo hàng đầu gồm Anthropic, OpenAI, SpaceXAI và Google DeepMind đang phải đối mặt với một vụ kiện tập thể lớn tại tòa án liên bang California do người dùng trả phí đệ trình.",
+        "Đơn kiện cáo buộc các công ty này đã thiết lập một thỏa thuận ngầm bất hợp pháp nhằm cố tình làm chậm tốc độ nghiên cứu và phát triển các mô hình trí tuệ nhân tạo thế hệ mới.",
+        "Vụ kiện này đặt ra những câu hỏi pháp lý quan trọng về quyền lợi người tiêu dùng và tác động của các thỏa thuận kiểm soát công nghệ đối với hệ sinh thái phát triển phần mềm toàn cầu."
+      ],
+      "summary_en": [
+        "Leading artificial intelligence corporations including Anthropic, OpenAI, SpaceXAI, and Google DeepMind are facing a major class-action lawsuit filed by paid users in a California federal court.",
+        "The lawsuit alleges that these companies established an illegal tacit agreement to deliberately slow down the research and development speed of next-generation artificial intelligence models.",
+        "This legal action raises critical questions regarding consumer rights and the impact of technology control agreements on the global software development ecosystem."
+      ],
+      "originalTitle": "Bốn ông lớn công nghệ Mỹ bị kiện vì muốn 'kìm hãm AI'",
+      "url": "https://vnexpress.net/bon-ong-lon-cong-nghe-my-bi-kien-vi-muon-kim-ham-ai-5123063.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "OpenAI",
+        "Google DeepMind",
+        "Anthropic",
+        "Antitrust"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-21T15:56:42.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/21/dsc03232-jpg-1790003720-4156-1790003912.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=hcWsBS3eXC4cJYv7tBq4Yw",
+      "contentSnippet": "Anthropic, OpenAI, SpaceXAI và Google DeepMind bị khởi kiện do ủng hộ việc làm chậm quá trình phát triển các mô hình trí tuệ nhân tạo.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "7779844a4cd41242",
+      "title_vi": "Sở hữu tay cầm điều khiển trò chơi cùng thẻ quà tặng kỹ thuật số với mức giá ưu đãi hấp dẫn",
+      "title_en": "Get an Xbox controller and digital gift card bundle at an attractive discounted price",
+      "summary_vi": [
+        "Newegg đang triển khai chương trình khuyến mãi kết hợp tay cầm chơi game không dây và thẻ quà tặng trị giá với mức giá ưu đãi giúp người dùng tiết kiệm chi phí đáng kể khi mua sắm thiết bị.",
+        "Thiết bị đi kèm hỗ trợ kết nối Bluetooth linh hoạt, tương thích tốt với máy tính cá nhân và các dòng máy chơi game cầm tay hiện đại nhờ thiết kế công thái học tối ưu cùng thời lượng pin ấn tượng.",
+        "Sự kiện giảm giá này mang lại cơ hội tuyệt vời cho các game thủ và kỹ sư trải nghiệm phần cứng chất lượng cao với chi phí tối ưu, thúc đẩy sự phát triển của hệ sinh thái giải trí số."
+      ],
+      "summary_en": [
+        "Newegg is currently hosting a promotional bundle featuring a wireless gaming controller and a digital gift card, offering users a significant cost reduction when purchasing tech accessories.",
+        "The included peripheral supports versatile Bluetooth connectivity, ensuring seamless compatibility with personal computers and modern handheld gaming systems alongside an ergonomic design and reliable battery life.",
+        "This hardware discount provides an excellent opportunity for gamers and tech enthusiasts to acquire high-quality equipment at an optimized price, supporting the growth of digital entertainment ecosystems."
+      ],
+      "originalTitle": "Grab an Xbox controller and a $50 Xbox gift card together for just $80",
+      "url": "https://www.theverge.com/gadgets/998207/xbox-controller-chromebook-usbc-charger-deal-sale",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Hardware",
+        "Gaming",
+        "Peripherals",
+        "Deals"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-21T15:13:32.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/xboxcontroller.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Newegg is hosting a bundle that includes Microsoft’s wireless Xbox controller (in black) and a $50 digital Xbox gift card together for $80. Given that this model typically sits around $50 to $60 depending on the color you want, this is a fantastic value since it essentially knocks its price down to ",
+      "authorName": "Cameron Faulkner",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "34d5f981fc022182",
+      "title_vi": "Sự chú ý là tất cả những gì bạn có",
+      "title_en": "Attention is all you have",
+      "summary_vi": [
+        "Bài viết phân tích hiện tượng tâm lý ảnh hưởng sâu sắc đến cách con người tập trung chú ý vào các nền tảng kỹ thuật số hiện đại ngày nay.",
+        "Các thuật toán gợi ý nội dung trên mạng xã hội và dịch vụ trực tuyến đang thao túng hành vi người dùng nhằm tối ưu hóa thời gian tương tác và doanh thu quảng cáo.",
+        "Lập trình viên và kỹ sư phần mềm cần nhận thức rõ về thiết kế giao diện gây nghiện này để xây dựng những sản phẩm công nghệ có trách nhiệm hơn với xã hội."
+      ],
+      "summary_en": [
+        "The article analyzes the psychological phenomenon that deeply affects how humans focus their attention on modern digital platforms today.",
+        "Content recommendation algorithms on social media and streaming services are manipulating user behavior to optimize engagement time and advertising revenue.",
+        "Developers and software engineers need to be aware of this addictive interface design to build more socially responsible technology products."
+      ],
+      "originalTitle": "Attention is all you have",
+      "url": "https://alicegg.tech/2026/09/21/attention",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Algorithms",
+        "AI",
+        "Social Media",
+        "User Engagement"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-21T14:26:56.000Z",
+      "contentSnippet": "The Tetris effect is one of psychology’s most easy to reproduce experiments. Simply spend a bit of time playing the eponymous game every day for a few weeks. After a little while, you’ll start recognizing familiar Tetromino shapes in clouds, buildings, and everyday objects. You might even see them a",
+      "authorName": "zer0tonin",
+      "upvotes": 464,
+      "commentsCount": 135
+    },
+    {
+      "id": "f132d17a5741fbf5",
+      "title_vi": "Bị Mỹ cấm xuất khẩu, hàng tỷ USD chip NVIDIA vẫn được đưa vào Trung Quốc như thế nào?",
+      "title_en": "Despite US Export Bans, How Billions in NVIDIA Chips Continue Flowing into China",
+      "summary_vi": [
+        "Mặc dù chính phủ Mỹ áp đặt lệnh cấm xuất khẩu nghiêm ngặt các dòng bộ xử lý đồ họa trí tuệ nhân tạo mạnh mẽ nhất, hàng tỷ đô la chip xử lý vẫn âm thầm lọt vào thị trường Trung Quốc nhờ hệ thống trung gian phức tạp.",
+        "Báo cáo điều tra từ tổ chức C4ADS đã vạch ra ba con đường chính bao gồm các viện nghiên cứu, tuyến đường vận tải qua khu vực Đông Nam Á và những mạng lưới công ty bình phong có cấu trúc sở hữu hoàn toàn ẩn giấu.",
+        "Tình trạng này cho thấy sự chênh lệch lớn giữa chính sách hạn chế trên giấy tờ và thực tế kiểm soát chuỗi cung ứng phần cứng, buộc các nhà quản lý phải xem xét lại chiến lược bảo mật công nghệ bán dẫn."
+      ],
+      "summary_en": [
+        "Although the US government imposed strict export bans on the most powerful AI graphics processors, billions of dollars in advanced chips still quietly infiltrated the Chinese market through complex intermediary networks.",
+        "An investigative report by C4ADS outlined three primary channels including research institutes, shipping routes across Southeast Asia, and shell company networks with deeply obscured ownership structures.",
+        "This situation reveals a significant gap between paper-based restriction policies and actual hardware supply chain control, forcing regulators to rethink their semiconductor technology security strategies."
+      ],
+      "originalTitle": "Bị Mỹ cấm xuất khẩu, 4,6 tỷ USD chip NVIDIA vẫn được đưa vào Trung Quốc như thế nào?",
+      "url": "https://genk.vn/bi-my-cam-xuat-khau-46-ty-usd-chip-nvidia-van-duoc-dua-vao-trung-quoc-nhu-the-nao-165260921203201218.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "NVIDIA",
+        "AI",
+        "Semiconductor",
+        "Hardware",
+        "Security"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-21T14:25:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/21/avatar1789997490474-1789997490942345799628-0-160-900-1600-crop-17899975047542048510050.jpg",
+      "contentSnippet": "Thông qua nhiều con đường khác nhau, hàng tỷ USD chip AI của NVIDIA đã được tuồn vào Trung Quốc, bất chấp các hạn chế từ chính phủ Mỹ.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "693823a542ab6ff1",
+      "title_vi": "Liệu John Ternus có thể tìm ra bước đột phá lớn tiếp theo cho Apple trong kỷ nguyên trí tuệ nhân tạo",
+      "title_en": "Can John Ternus find Apple's next big thing in the era of artificial intelligence",
+      "summary_vi": [
+        "Bài viết phân tích sự kiện phần cứng lớn đầu tiên của John Ternus trên cương vị Tổng Giám đốc điều hành Apple, đánh dấu bước chuyển giao quan trọng từ thời kỳ của Tim Cook sang kỷ nguyên tích hợp trí tuệ nhân tạo toàn diện với dòng sản phẩm điện thoại gập mới.",
+        "Apple đang đối mặt với những thách thức lớn về chiến lược phát triển mô hình ngôn ngữ lớn nội bộ, đồng thời phải định hình lại cấu trúc phần cứng và hệ điều hành để hỗ trợ các thiết bị thông minh thế hệ mới tích hợp camera và tính năng lắng nghe xung quanh.",
+        "Sự thay đổi mạnh mẽ trong bộ máy lãnh đạo cấp cao cùng áp lực cạnh tranh từ các đối thủ lớn đòi hỏi Apple phải nhanh chóng thích ứng, giải quyết các bài toán về quyền riêng tư và tìm kiếm động lực tăng trưởng cốt lõi cho giai đoạn tiếp theo."
+      ],
+      "summary_en": [
+        "The article analyzes John Ternus's first major hardware event as Apple's Chief Executive Officer, marking a critical leadership transition from Tim Cook's era into a new phase focused on artificial intelligence integration and foldable smartphones.",
+        "Apple is facing significant strategic challenges regarding the development of in-house foundational models, while simultaneously reshaping hardware architectures and operating systems to support next-generation smart devices equipped with cameras and ambient listening features.",
+        "Major executive restructuring and intense market competition demand that Apple rapidly adapt, address critical privacy concerns, and discover core growth drivers for its upcoming technological roadmap in the industry."
+      ],
+      "originalTitle": "Can John Ternus find Apple’s next big thing?",
+      "url": "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Apple",
+        "Artificial Intelligence",
+        "Mobile",
+        "Hardware",
+        "Tech Leadership"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 7,
+      "publishedAt": "2026-09-21T14:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/JohnTernus_Decoder.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Today, I’m talking with Mark Gurman, who is the world’s best-sourced Apple reporter — both as Bloomberg’s chief Apple correspondent and the host of the upcoming podcast Power On. Earlier this month, Apple hosted its annual iPhone hardware event, virtually every detail of which was reported ahead of ",
+      "authorName": "Nilay Patel",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "84cb1b28a548ef9e",
+      "title_vi": "AI giống trợ giảng hơn là người làm bài hộ: Sinh viên dùng AI thế nào sau khi Thông tư 49 có hiệu lực?",
+      "title_en": "AI Acts More Like A Teaching Assistant Than A Proxy: How Students Use Artificial Intelligence Following Circular 49",
+      "summary_vi": [
+        "Bộ Giáo dục và Đào tạo ban hành Thông tư số 49 quy định cụ thể về việc ứng dụng trí tuệ nhân tạo trong kiểm tra, đánh giá và nghiên cứu khoa học chính thức có hiệu lực từ ngày mười lăm tháng tám năm hai nghìn không trăm hai mươi sáu.",
+        "Văn bản xác định rõ ràng trí tuệ nhân tạo chỉ đóng vai trò là công cụ hỗ trợ học thuật, đồng thời nghiêm cấm mọi hành vi lạm dụng công nghệ để gian lận nhằm bảo vệ tính liêm chính trong môi trường giáo dục đại học.",
+        "Quy định mới buộc sinh viên phải thay đổi phương pháp tiếp cận các mô hình ngôn ngữ lớn như ChatGPT hay Gemini thông qua quy trình đối chiếu tài liệu gốc vô cùng nghiêm ngặt để đảm bảo độ chính xác."
+      ],
+      "summary_en": [
+        "The Ministry of Education and Training issued Circular No 49 specifically regulating the application of artificial intelligence in testing evaluation and scientific research officially taking effect on August fifteenth two thousand twenty-six.",
+        "The document clearly defines that artificial intelligence acts only as an academic support tool while strictly prohibiting any abusive use of technology to cheat in order to protect integrity within higher education.",
+        "The new regulation forces students to change their approach to large language models like ChatGPT or Gemini through a rigorous source document cross-referencing process to ensure absolute accuracy."
+      ],
+      "originalTitle": "\"AI giống trợ giảng hơn là người làm bài hộ\": Sinh viên dùng AI thế nào sau khi Thông tư 49 có hiệu lực?",
+      "url": "https://genk.vn/ai-giong-mot-ban-tro-giang-hon-la-nguoi-lam-bai-ho-sinh-vien-dung-ai-the-nao-sau-khi-thong-tu-49-co-hieu-luc-165260916143205332.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "ChatGPT",
+        "Gemini",
+        "Education",
+        "AI Ethics"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-21T12:35:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/21/genk-honor-pad-v9-46-17894867440511663159766-53-0-1053-1600-crop-17899941713261405599082.jpg",
+      "contentSnippet": "Khi tài liệu gốc và công cụ AI phải mở cùng lúc, kích thước màn hình quyết định nhiều hơn người ta tưởng.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9d1c1841f684d4b7",
+      "title_vi": "Phó chủ tịch Apple khẳng định màn hình iPhone đạt độ bền tối ưu không cần kính cường lực",
+      "title_en": "Apple hardware engineering VP states iPhone displays do not need extra tempered glass protectors",
+      "summary_vi": [
+        "Tom Marieb, Phó chủ tịch phụ trách kỹ thuật phần cứng mới của Apple, đưa ra quan điểm gây chú ý về việc người dùng thiết bị di động hoàn toàn không cần trang bị thêm các miếng dán bảo vệ màn hình.",
+        "Phát biểu này dựa trên những cải tiến vượt bậc về công nghệ vật liệu kính cường lực Ceramic Shield và độ bền cơ học của phần cứng, giúp màn hình thiết bị có khả năng chống trầy xước và chịu lực va đập cực kỳ hiệu quả.",
+        "Thông điệp này từ đại diện hãng công nghệ lớn tác động mạnh mẽ đến thói quen tiêu dùng phụ kiện bảo vệ, đồng thời khẳng định bước tiến lớn trong khâu chế tạo vật liệu hiển thị của các kỹ sư phần cứng."
+      ],
+      "summary_en": [
+        "Tom Marieb, Apple's new VP of Hardware Engineering, recently shared a surprising perspective regarding mobile device users who unnecessarily equip their smartphone displays with extra protective tempered glass sheets.",
+        "This statement highlights remarkable advancements in material science, specifically leveraging Ceramic Shield technology and hardware mechanical durability to ensure exceptional scratch resistance and impact absorption capabilities.",
+        "Such insights from a major tech representative significantly influence consumer accessory habits while emphasizing monumental engineering achievements in modern mobile display manufacturing and hardware design."
+      ],
+      "originalTitle": "Phó chủ tịch Apple nói 'nổi da gà' khi thấy iPhone dán cường lực",
+      "url": "https://vnexpress.net/pho-chu-tich-apple-noi-noi-da-ga-khi-thay-iphone-dan-cuong-luc-5122766.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "Hardware",
+        "Mobile Tech"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-21T08:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/21/i18-copy-1789965981-4282-1789966176.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Bw7BHDZnFPdvat9_FyKGow",
+      "contentSnippet": "Tom Marieb, Phó chủ tịch phụ trách kỹ thuật phần cứng mới của Apple, cho rằng người dùng iPhone không cần trang bị thêm miếng dán cường lực bảo vệ màn hình.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f9ad5a9c7fc42314",
+      "title_vi": "Công ty bán dẫn Trung Quốc CXMT sản xuất hàng loạt chip nhớ DRAM thế hệ thứ năm",
+      "title_en": "Chinese Semiconductor Star CXMT Mass Produces Fifth Generation DRAM Chips",
+      "summary_vi": [
+        "Công ty bán dẫn CXMT của Trung Quốc tuyên bố đã thu hẹp đáng kể khoảng cách công nghệ với các nhà sản xuất chip nhớ hàng đầu thế giới khi chính thức ra mắt hai mẫu LPDDR5X mới tại sự kiện ngành công nghiệp.",
+        "Nền tảng công nghệ DRAM thế hệ thứ năm gọi là G5 đạt bước đột phá lớn về mật độ lưu trữ, cho phép bố trí các cấu trúc vi mô gần nhau hơn để tích hợp nhiều bộ nhớ hơn trên mỗi đế silicon.",
+        "Quy trình sản xuất tiên tiến này giúp tăng sản lượng chip trên mỗi tấm wafer ít nhất năm mươi phần trăm so với thế hệ tiền nhiệm, đồng thời duy trì hiệu quả năng lượng và kiểm soát chi phí tối ưu."
+      ],
+      "summary_en": [
+        "Chinese semiconductor firm CXMT announced it has significantly narrowed the technological gap with leading global memory manufacturers by officially launching two new LPDDR5X models at a major industry event.",
+        "The fifth-generation DRAM technology platform called G5 achieves a major breakthrough in storage density, allowing microstructures to be placed closer together to integrate more memory per silicon die.",
+        "This advanced manufacturing process helps increase chip yield per wafer by at least fifty percent compared to the previous generation while maintaining energy efficiency and optimal cost control."
+      ],
+      "originalTitle": "'Ngôi sao bán dẫn Trung Quốc' sản xuất hàng loạt DRAM thế hệ 5",
+      "url": "https://vnexpress.net/ngoi-sao-ban-dan-trung-quoc-san-xuat-hang-loat-dram-the-he-5-5122672.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Semiconductor",
+        "DRAM",
+        "CXMT",
+        "Hardware",
+        "Memory"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-21T04:14:16.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/21/20251028105342570-1789960244-9260-1789960310.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=VqZHZcHhiwodGLOzZwSaQw",
+      "contentSnippet": "CXMT tuyên bố đã \"thu hẹp khoảng cách\" với những nhà sản xuất chip nhớ DRAM hàng đầu thế giới khi ra mắt hai mẫu LPDDR5X.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "350d5b7537aae51a",
       "title_vi": "Thực Nghiệm Chiến Lược DCA 100 Cổ Phiếu Việt Nam Với Python",
@@ -2317,6 +2828,40 @@
       "commentsCount": 4
     },
     {
+      "id": "1ff6d7f6dcfb6f21",
+      "title_vi": "Mô hình ngôn ngữ lớn phản hồi khác biệt đối với các câu lệnh độc hại khi áp dụng kỹ thuật đóng dấu bản quyền AI",
+      "title_en": "LLMs respond differently to harmful prompts when AI watermarking is used",
+      "summary_vi": [
+        "Để tuân thủ luật pháp Liên minh Châu Âu, các nền tảng trí tuệ nhân tạo đang tích hợp các phương pháp đóng dấu bản quyền nội dung như SynthID-Text do Google phát triển nhằm minh bạch hóa nguồn gốc dữ liệu.",
+        "Nghiên cứu mới chỉ ra rằng việc nhúng dấu bản quyền không chỉ làm thay đổi cách lựa chọn từ ngữ mà còn ảnh hưởng đến việc kích hoạt công cụ và khả năng tuân thủ các hàng rào bảo mật của mô hình.",
+        "Phát hiện này nhấn mạnh tầm quan trọng của việc các nhà phát triển phải kiểm thử kỹ lưỡng hành vi của các tác nhân AI và mô hình ngôn ngữ lớn trong các điều kiện tấn công đối kháng."
+      ],
+      "summary_en": [
+        "In response to European Union regulations, AI platforms are integrating content watermarking techniques like SynthID-Text developed by Google to ensure transparency regarding the origin of generated data.",
+        "New research indicates that embedding watermarks not only alters word selection processes but also impacts tool invocation behaviors and the adherence of models to built-in security guardrails.",
+        "This finding emphasizes the critical need for developers to rigorously test the behavior of large language models and AI agents under adversarial conditions when watermarking mechanisms are deployed."
+      ],
+      "originalTitle": "LLMs respond differently to harmful prompts when AI watermarking is used",
+      "url": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
+      "sourceName": "Ars Technica",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Cybersecurity",
+        "LLM",
+        "SynthID",
+        "Watermarking"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-17T18:33:13.000Z",
+      "contentSnippet": "SynthID can cause models to follow harmful instructions they would otherwise refuse.",
+      "authorName": "\n                    Dan Goodin\n                ",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "653f6e21ba937c45",
       "title_vi": "Thử xoá vật thể iPhone (iOS 27) với Samsung: Apple vẫn đi sau một nhịp",
       "title_en": "Try deleting iPhone objects (iOS 27) with Samsung: Apple is still a step behind",
@@ -4387,6 +4932,75 @@
       "commentsCount": 15
     },
     {
+      "id": "c96b64e8fbb25e98",
+      "title_vi": "Liên minh Châu Âu đề xuất cấm trẻ em dưới 15 tuổi sử dụng mạng xã hội và trợ lý ảo AI",
+      "title_en": "European Union Proposes Ban on Social Media and AI Chatbots for Children Under 15",
+      "summary_vi": [
+        "Liên minh Châu Âu vừa công bố kế hoạch lập pháp chưa từng có tiền lệ nhằm siết chặt quản lý không gian mạng, hướng tới việc bảo vệ trẻ vị thành niên khỏi các rủi ro tiềm ẩn từ nền tảng trực tuyến.",
+        "Đề xuất này tập trung vào việc áp dụng các cơ chế xác thực danh tính nghiêm ngặt để ngăn chặn trẻ em dưới mười lăm tuổi tiếp cận các hệ thống mạng xã hội lớn và các mô hình ngôn ngữ lớn.",
+        "Quy định mới nếu được thông qua sẽ buộc các công ty công nghệ phải tái thiết kế kiến trúc hệ thống xác thực người dùng, tạo ra tiền lệ quan trọng cho việc quản lý an toàn số toàn cầu."
+      ],
+      "summary_en": [
+        "The European Union has announced an unprecedented legislative plan to tighten cyberspace regulations, aiming to protect minors from potential risks originating on major online platforms.",
+        "The proposal focuses on implementing strict identity verification mechanisms to prevent children under fifteen years old from accessing major social networks and large language models.",
+        "If approved, the new regulation will force technology companies to redesign their user authentication system architectures, setting a critical precedent for global digital safety management."
+      ],
+      "originalTitle": "EU đề xuất cấm trẻ dưới 15 tuổi dùng mạng xã hội và chatbot AI",
+      "url": "https://tuoitre.vn/eu-de-xuat-cam-tre-duoi-15-tuoi-dung-mang-xa-hoi-va-chatbot-ai-100260915131326796.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "AI",
+        "Security",
+        "Tech Trends & Startups",
+        "Policy"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-15T15:14:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/15/social-media-1789450510652887685483-50-0-800-1200-crop-178945052046586207963-236-142-750-965-crop-17894605436981689646303.png",
+      "contentSnippet": "Đây được xem là kế hoạch quyết liệt nhất từ trước đến nay của EU nhằm bảo vệ trẻ em trên không gian mạng.",
+      "authorName": "TÂM DƯƠNG⭐",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b0f3e193d36e1597",
+      "title_vi": "Trí tuệ nhân tạo càng cảm xúc, con người càng xa cách",
+      "title_en": "The More Empathetic AI Becomes, the More Humans Drift Apart",
+      "summary_vi": [
+        "Một nghiên cứu mới đây chỉ ra rằng khi các trợ lý ảo trí tuệ nhân tạo thể hiện sự ấm áp và thấu hiểu cảm xúc, người dùng thường tỏ ra vô cùng thích thú và gắn bó hơn.",
+        "Tuy nhiên, sự gia tăng tương tác cảm xúc này lại vô tình làm giảm sút đáng kể mong muốn giao tiếp, gặp gỡ và xây dựng mối quan hệ xã hội với con người ngoài đời thực.",
+        "Hiện tượng này đặt ra những thách thức lớn cho các kỹ sư phần mềm khi thiết kế các mô hình ngôn ngữ lớn, đòi hỏi cần cân bằng giữa trải nghiệm người dùng và hệ lụy tâm lý xã hội."
+      ],
+      "summary_en": [
+        "Recent research indicates that when artificial intelligence virtual assistants exhibit warmth and emotional responsiveness, users tend to show significantly higher engagement and attachment.",
+        "However, this increase in emotional interaction inadvertently leads to a noticeable decline in the user's desire for real-world social communication, meetings, and interpersonal relationships.",
+        "This phenomenon poses substantial challenges for software engineers designing large language models, highlighting the need to carefully balance user experience with broader socio-psychological impacts."
+      ],
+      "originalTitle": "AI càng 'ấm áp', con người càng cách xa nhau",
+      "url": "https://tuoitre.vn/ai-cang-am-ap-con-nguoi-cang-cach-xa-nhau-100260914222517445.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Chatbot",
+        "Machine Learning",
+        "Psychology",
+        "LLM"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-15T15:10:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/14/ai-cang-am-ap-con-nguoi-cang-cach-xa-nhau-1789399362597506335608-26-0-417-626-crop-1789399424557106281126.jpg",
+      "contentSnippet": "Một nghiên cứu cho thấy chatbot AI càng ấm áp và nhạy bén với cảm xúc, người dùng càng cảm thấy thích thú hơn, nhưng đồng thời cũng ít mong muốn gặp gỡ người thật hơn.",
+      "authorName": "BÌNH MINH",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "748ab31264dabb3c",
       "title_vi": "Đăng ký One mới của Meta đặt giá trên mạng xã hội và AI",
       "title_en": "Meta's new One subscriptions put a price on social media and AI",
@@ -4418,6 +5032,41 @@
       "authorName": "Stevie Bonifield",
       "upvotes": 30,
       "commentsCount": 5
+    },
+    {
+      "id": "c1ea4ba366626f42",
+      "title_vi": "Sự suy giảm nhận thức chậm và âm thầm của một kỹ sư phần mềm hiện đại",
+      "title_en": "The Slow and Quiet Cognitive Atrophy of a Modern Software Engineer",
+      "summary_vi": [
+        "Bài viết phân tích mối nguy hại từ sự phụ thuộc quá mức vào trí tuệ nhân tạo, dẫn đến hiện tượng suy giảm nhận thức và mất dần khả năng tư duy giải quyết vấn đề cốt lõi của lập trình viên.",
+        "Tác giả chỉ ra rằng các kỹ sư phần mềm ngày nay thường bỏ qua bước tự suy nghĩ ban đầu, thay vào đó là hỏi trực tiếp AI và chấp nhận mã nguồn sạch một cách mù quáng mà thiếu đi khâu kiểm tra code.",
+        "Việc lặp lại thói quen này trong thời gian dài sẽ làm xói mòn năng lực cốt lõi, khiến lập trình viên dần mất đi khả năng tự viết mã và kiểm soát chất lượng hệ thống phần mềm."
+      ],
+      "summary_en": [
+        "The article analyzes the dangers of over-reliance on artificial intelligence, leading to cognitive atrophy and a gradual loss of core problem-solving abilities among software developers.",
+        "The author points out that modern software engineers often skip initial critical thinking, resorting directly to AI and blindly accepting clean generated code without proper code review steps.",
+        "Repeating this habit over the long term erodes core competencies, eventually leaving developers unable to write code independently or maintain proper control over software system quality."
+      ],
+      "originalTitle": "The Slow and Quiet Cognitive Atrophy of a Modern Software Engineer",
+      "url": "https://dev.to/codingwithjiro/the-slow-and-quiet-cognitive-atrophy-of-a-modern-software-engineer-3lbh",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "AI",
+        "Software Engineering",
+        "Productivity",
+        "Coding"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-15T14:45:01.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fullwog99birf3pzk4teh.webp",
+      "contentSnippet": "Over the past couple of months, I've read a lot of articles about the consequences of AI dependency...",
+      "authorName": "Elmar Chavez",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3807844%2F26b11ae2-e1bd-44c7-8450-ba579ae89f70.png",
+      "upvotes": 88,
+      "commentsCount": 40
     },
     {
       "id": "acd79ca748eae2af",
@@ -4512,6 +5161,320 @@
       "authorName": "bashtian",
       "upvotes": 157,
       "commentsCount": 80
+    },
+    {
+      "id": "0d8dc0a1f47d2968",
+      "title_vi": "Microsoft ban hành bộ quy tắc AI mới, nhấn mạnh vai trò kiểm soát của con người",
+      "title_en": "Microsoft Introduces New AI Guidelines Emphasizing Human Control",
+      "summary_vi": [
+        "Tập đoàn Microsoft vừa chính thức công bố bộ quy tắc vận hành mới dành riêng cho các mô hình trí tuệ nhân tạo nội bộ, qua đó xác lập rõ ràng các giới hạn đạo đức và kỹ thuật cần thiết trong quá trình phát triển.",
+        "Cơ chế cốt lõi của bộ quy tắc này đòi hỏi hệ thống trí tuệ nhân tạo phải luôn nằm dưới sự giám sát và quyền quyết định trực tiếp của con người nhằm ngăn ngừa rủi ro tự động hóa cực đoan.",
+        "Động thái này tạo ra chuẩn mực mới về quản trị công nghệ, tác động trực tiếp đến cách thức các kỹ sư phần mềm thiết kế và kiểm thử những hệ thống tự động hóa thông minh trong tương lai."
+      ],
+      "summary_en": [
+        "Microsoft has officially announced a new set of operating guidelines specifically for internal artificial intelligence models, clearly establishing necessary ethical and technical boundaries during development.",
+        "The core mechanism of these guidelines requires artificial intelligence systems to remain under direct human supervision and decision-making authority to prevent extreme automation risks.",
+        "This move sets a new standard for technology governance, directly impacting how software engineers design and test intelligent automation systems in the future."
+      ],
+      "originalTitle": "Microsoft ra bộ quy tắc AI, nhấn mạnh 'con người quan trọng hơn AI'",
+      "url": "https://tuoitre.vn/microsoft-ra-bo-quy-tac-ai-nhan-manh-con-nguoi-quan-trong-hon-ai-100260915110124318.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Microsoft",
+        "AI",
+        "Ethics",
+        "Governance",
+        "Machine Learning"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-15T11:15:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/15/microsoft-17894448051891713449363-46-172-299-577-crop-1789444901150686991435.png",
+      "contentSnippet": "Microsoft công bố bộ quy tắc cho các mô hình AI nội bộ, nhấn mạnh AI phải luôn nằm dưới sự kiểm soát của con người.",
+      "authorName": "TTXVN",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "2f8716e0e23619f6",
+      "title_vi": "Gánh nặng thầm lặng khi làm việc trong ngành công nghệ thời kỳ trí tuệ nhân tạo",
+      "title_en": "The Quiet Weight of Working in Tech in the AI Era",
+      "summary_vi": [
+        "Sự phát triển vũ bão của trí tuệ nhân tạo đang tạo ra một loại áp lực tâm lý hoàn toàn mới cho lực lượng lao động trong ngành công nghệ hiện nay.",
+        "Các mô hình học máy và công cụ phát triển phần mềm thay đổi liên tục từng tuần, khiến kiến thức chuyên môn cũ nhanh chóng trở nên lỗi thời.",
+        "Các kỹ sư và lập trình viên cần thừa nhận thực trạng kiệt sức này để tìm ra phương pháp thích ứng bền vững trước làn sóng chuyển đổi số."
+      ],
+      "summary_en": [
+        "The rapid advancement of artificial intelligence is generating a completely novel type of psychological pressure for the technology workforce today.",
+        "Machine learning models and software development tools change continuously every single week, rendering outdated technical expertise obsolete very quickly.",
+        "Engineers and developers must acknowledge this burnout reality to discover sustainable adaptation methods facing the ongoing wave of digital transformation."
+      ],
+      "originalTitle": "The Quiet Weight of Working in Tech in the AI Era",
+      "url": "https://dev.to/james_anderson_h/the-quiet-weight-of-working-in-tech-in-the-ai-era-551g",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Software Engineering",
+        "Tech Culture",
+        "Machine Learning",
+        "Developer Burnout"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-15T04:29:39.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F50zj4lwkbfsm336pv2ar.png",
+      "contentSnippet": "I've started noticing a look on people's faces. It's in standups, in the half-second-too-fast \"yeah,...",
+      "authorName": "James Anderson",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3968038%2Fe70ff7fe-85b0-4c3a-8a68-b2269cd108b7.png",
+      "upvotes": 142,
+      "commentsCount": 96
+    },
+    {
+      "id": "0a67bb4610e17cf8",
+      "title_vi": "Các bot trí tuệ nhân tạo đang làm ngập lụt mạng xã hội bằng thư rác rác rưởi",
+      "title_en": "AI bots Timmy, Ren, and Jackie are flooding social media with slop",
+      "summary_vi": [
+        "Các tác nhân trí tuệ nhân tạo đang làm ngập internet bằng thư rác vô nghĩa gửi đến các nền tảng mạng xã hội và nhà văn để quảng bá cho một hệ thống xã hội phức tạp mới.",
+        "Hệ thống tự động sử dụng các bot giao tiếp lịch sự nhưng liên tục gửi yêu cầu tạo tài khoản và email chưa được yêu cầu nhằm tự động hóa công việc nghiên cứu và viết lách.",
+        "Sự bùng nổ của các tác nhân tự động này gây ra nhiều tranh cãi trong cộng đồng quản trị mạng và những người làm sáng tạo nội dung do nguy cơ làm giảm chất lượng thông tin trực tuyến."
+      ],
+      "summary_en": [
+        "Artificial intelligence agents are flooding the internet with nonsensical spam sent to social media platforms and writers in order to promote a novel complex social system.",
+        "The automated system utilizes polite bots that repeatedly send account creation requests and unsolicited emails aimed at automating research and writing tasks for a nominal fee.",
+        "The surge of these autonomous agents sparks controversy among network administrators and content creators due to the potential threat of degrading online information quality."
+      ],
+      "originalTitle": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
+      "url": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
+      "sourceName": "Ars Technica",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Spam",
+        "Social Media",
+        "Automation",
+        "Bots"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-14T21:04:32.000Z",
+      "contentSnippet": "“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”",
+      "authorName": "\n                    Dan Goodin\n                ",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "32774733a18e0511",
+      "title_vi": "Điều gì xảy ra khi trí tuệ nhân tạo vượt qua các bài kiểm tra đánh giá năng lực?",
+      "title_en": "What Happens When AI Outgrows the Tests We Use to Measure It?",
+      "summary_vi": [
+        "Sự ra mắt của các mô hình trí tuệ nhân tạo thế hệ mới tiếp tục làm dấy lên tranh cãi gay gắt trong cộng đồng công nghệ về việc liệu trí tuệ nhân tạo tổng quát đã thực sự xuất hiện hay chưa.",
+        "Các điểm chuẩn đánh giá năng lực truyền thống đang dần trở nên bão hòa, đòi hỏi các nhà phát triển phải liên tục cập nhật phương pháp đo lường thực tế và sử dụng dữ liệu thực nghiệm phức tạp hơn.",
+        "Ngành kỹ thuật phần mềm không hề biến mất khi việc viết mã trở nên dễ dàng hơn, mà thay vào đó sẽ chuyển dịch trọng tâm sang kiến trúc hệ thống, kiểm tra bảo mật và quản lý yêu cầu."
+      ],
+      "summary_en": [
+        "The launch of next generation artificial intelligence models continues to spark fierce debates within the technology community regarding whether artificial general intelligence has truly arrived.",
+        "Traditional benchmark scores are gradually becoming saturated, requiring developers to continuously update practical measurement methods and utilize more complex experimental data.",
+        "The software engineering industry will not disappear as coding becomes easier, but instead will shift its focus toward system architecture, security verification, and requirements management."
+      ],
+      "originalTitle": "What Happens When AI Outgrows the Tests We Use to Measure It?",
+      "url": "https://dev.to/hemapriya_kanagala/what-happens-when-ai-outgrows-the-tests-we-use-to-measure-it-30al",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Benchmarks",
+        "AGI",
+        "Software Engineering",
+        "Machine Learning"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-14T17:12:10.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmbizy1bvs5mibcqzbtyo.jpeg",
+      "contentSnippet": "TL;DR GPT-6 Astra has started another familiar AI conversation. The model is more capable, Jensen...",
+      "authorName": "Hemapriya Kanagala",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3307586%2F2dffaf97-946d-44a6-8a39-07d94a72e07d.png",
+      "upvotes": 126,
+      "commentsCount": 42
+    },
+    {
+      "id": "8b40ae67fb58bc25",
+      "title_vi": "Viettel thử nghiệm thiết bị 5G tại Trung Đông, khẳng định tầm vóc công nghệ Việt Nam",
+      "title_en": "Viettel Expands Global Reach with 5G Equipment Trials in the Middle East at MWC 2025",
+      "summary_vi": [
+        "Tại Hội nghị Di động Thế giới năm 2025, Tổng công ty Công nghiệp Công nghệ cao Viettel đã chính thức công bố thử nghiệm thiết bị 5G với nhà mạng hàng đầu khu vực Trung Đông là Emirates Integrated Telecommunications.",
+        "Giai đoạn đầu của quá trình triển khai kỹ thuật tập trung vào hai hạng mục quan trọng gồm mạng vô tuyến mở công cộng và mạng riêng ảo 5G nhằm tối ưu hóa hạ tầng viễn thông hiện đại.",
+        "Hợp tác chiến lược này mở ra cơ hội thương mại hóa quy mô lớn các giải pháp kết nối thế hệ mới, đặt nền móng vững chắc cho các hệ sinh thái thành phố thông minh và Internet vạn vật."
+      ],
+      "summary_en": [
+        "At Mobile World Congress 2025, Viettel High Technology Corporation officially announced a landmark 5G equipment trial agreement with leading Middle Eastern telecom operator Emirates Integrated Telecommunications.",
+        "The initial technical deployment phase focuses on two critical infrastructure components including public open radio access networks and private 5G networks to optimize modern telecommunications architecture.",
+        "This strategic partnership paves the way for large-scale commercialization of next-generation connectivity solutions, laying a solid foundation for future smart city ecosystems and industrial IoT applications."
+      ],
+      "originalTitle": "Thử nghiệm thiết bị 5G tại Trung Đông, Make in Viet Nam tiến ra thế giới",
+      "url": "https://vietnamnet.vn/thu-nghiem-thiet-bi-5g-tai-trung-dong-make-in-viet-nam-tien-ra-the-gioi-2378296.html",
+      "sourceName": "VietNamNet ICT",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "5G",
+        "OpenRAN",
+        "Telecom",
+        "Viettel",
+        "IoT"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2025-03-10T04:29:24.000Z",
+      "thumbnailUrl": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/3/10/thu-nghiem-thiet-bi-5g-tai-trung-dong-make-in-viet-nam-tien-ra-the-gioi-54667.jpeg?width=0&s=obecarj5HT5W_W6OHWPZtg",
+      "contentSnippet": "Thiết bị 5G Make in Viet Nam sẽ được thử nghiệm tại Trung Đông, đánh dấu bước tiến quan trọng, đưa Việt Nam vươn xa trên bản đồ viễn thông thế giới.",
+      "authorName": "VietNamNet ICT",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "d9ff1f46e19d4702",
+      "title_vi": "Bộ Công an đề nghị MobiFone xây dựng chiến lược kinh doanh có tầm nhìn công nghệ",
+      "title_en": "Ministry of Public Security Urges MobiFone to Build a Visionary Business Strategy",
+      "summary_vi": [
+        "Bộ Công an vừa đưa ra những định hướng chiến lược quan trọng yêu cầu nhà mạng MobiFone phải xây dựng kế hoạch phát triển kinh doanh dài hạn và có tầm nhìn toàn diện.",
+        "Doanh nghiệp viễn thông này cần thực hiện quy hoạch tổng thể bài bản nhằm khai thác tối đa thế mạnh cốt lõi và đẩy mạnh ứng dụng các giải pháp công nghệ tiên tiến.",
+        "Việc chuyển đổi và tối ưu hóa hệ thống hạ tầng viễn thông sẽ giúp nâng cao năng lực hoạt động, đáp ứng tốt hơn yêu cầu chuyển đổi số quốc gia hiện nay."
+      ],
+      "summary_en": [
+        "The Ministry of Public Security has recently issued key strategic orientations requiring telecom operator MobiFone to develop a long-term business development plan.",
+        "The telecommunications enterprise needs to implement a systematic master plan to maximize its core strengths and accelerate the adoption of advanced technology solutions.",
+        "The transformation and optimization of telecommunications infrastructure will significantly enhance operational efficiency and better meet national digital transformation goals."
+      ],
+      "originalTitle": "Bộ Công an đề nghị MobiFone xây dựng chiến lược kinh doanh có tầm nhìn",
+      "url": "https://vietnamnet.vn/bo-cong-an-de-nghi-mobifone-xay-dung-mot-chien-luoc-kinh-doanh-co-tam-nhin-2376029.html",
+      "sourceName": "VietNamNet ICT",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "MobiFone",
+        "Telecom",
+        "Digital Transformation",
+        "Technology Strategy"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2025-02-28T08:51:21.000Z",
+      "thumbnailUrl": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/2/28/bo-cong-an-de-nghi-mobifone-xay-dung-chien-luoc-kinh-doanh-co-tam-nhin-94283.jpg?width=0&s=6QIHK0N67utQsE1rjfJX3g",
+      "contentSnippet": "Bộ Công an đề nghị MobiFone xây dựng chiến lược kinh doanh có tầm nhìn, quy hoạch tổng thể, bài bản, phát huy thế mạnh và ứng dụng những thành tựu công nghệ tiên tiến nhằm nâng cao hiệu quả hoạt động.",
+      "authorName": "VietNamNet ICT",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "cc89e170931293ad",
+      "title_vi": "Vì sao Nhật Bản 'khát' nguồn nhân lực bán dẫn Việt Nam?",
+      "title_en": "Why is Japan experiencing a shortage of semiconductor human resources from Vietnam?",
+      "summary_vi": [
+        "Nhật Bản hiện đang đặt ra những tham vọng lớn nhằm phục hồi và phát triển mạnh mẽ ngành công nghiệp bán dẫn trong nước, đối mặt với thách thức thiếu hụt trầm trọng về kỹ sư có chuyên môn kỹ thuật cao.",
+        "Nguồn nhân lực ngành bán dẫn từ Việt Nam được đánh giá là lời giải chiến lược đầy tiềm năng, nhờ vào lực lượng lao động trẻ, có năng lực tiếp thu nhanh chóng các công nghệ vi mạch và quy trình sản xuất tiên tiến.",
+        "Sự hợp tác này không chỉ giúp Nhật Bản giải quyết bài toán thiếu hụt nhân sự kỹ thuật mà còn tạo cơ hội lớn cho các kỹ sư Việt Nam tiếp cận môi trường làm việc chuẩn quốc tế và nâng cao tay nghề."
+      ],
+      "summary_en": [
+        "Japan is currently setting ambitious goals to strongly revive and develop its domestic semiconductor industry, facing a severe shortage of engineers with high technical expertise.",
+        "Vietnam's semiconductor workforce is evaluated as a potential strategic solution, thanks to a young labor force capable of rapidly absorbing advanced microchip technologies and production processes.",
+        "This cooperation not only helps Japan solve its technical personnel shortage but also creates significant opportunities for Vietnamese engineers to access international standard working environments."
+      ],
+      "originalTitle": "Vì sao Nhật Bản 'khát' nguồn nhân lực bán dẫn Việt Nam?",
+      "url": "https://vietnamnet.vn/vi-sao-nhat-ban-khat-nguon-nhan-luc-ban-dan-viet-nam-2375367.html",
+      "sourceName": "VietNamNet ICT",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Semiconductor",
+        "Hardware",
+        "Engineering",
+        "Vietnam",
+        "Japan"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2025-02-27T23:01:00.000Z",
+      "thumbnailUrl": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/2/27/vi-sao-nhat-ban-khat-nguon-nhan-luc-ban-dan-viet-nam-127051.gif?width=0&s=shbCbCHNMblyIs0eu0fpLA",
+      "contentSnippet": "Trong bối cảnh Nhật Bản đang có tham vọng hồi sinh ngành công nghiệp bán dẫn, nguồn nhân lực Việt Nam được xem là lời giải cho “cơn khát” của đảo quốc này.",
+      "authorName": "VietNamNet ICT",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "860b7d4b50d8b5f0",
+      "title_vi": "Xây dựng bản đồ định vị doanh nghiệp công nghệ số Việt Nam",
+      "title_en": "Building the Positioning Map for Vietnam Digital Technology Enterprises",
+      "summary_vi": [
+        "Hiệp hội Phần mềm và Dịch vụ Công nghệ thông tin Việt Nam vừa chính thức công bố sáng kiến xây dựng bản đồ định vị các doanh nghiệp công nghệ số trên toàn quốc.",
+        "Công cụ này được thiết kế nhằm hệ sinh thái hóa dữ liệu doanh nghiệp, cung cấp nền tảng minh bạch để đánh giá năng lực cốt lõi và mức độ sẵn sàng chuyển đổi số của các tổ chức.",
+        "Dự án hứa hẹn sẽ thúc đẩy mạnh mẽ khả năng cạnh tranh quốc gia, tạo cầu nối vững chắc để các đơn vị công nghệ Việt Nam mở rộng hợp tác chiến lược trong và ngoài nước."
+      ],
+      "summary_en": [
+        "The Vietnam Software and IT Services Association has officially announced an initiative to build a comprehensive positioning map for digital technology enterprises nationwide.",
+        "This tool is designed to systematically organize enterprise data, providing a transparent foundation to evaluate core competencies and digital transformation readiness.",
+        "The project promises to strongly boost national competitiveness, creating a solid bridge for Vietnamese tech firms to expand strategic partnerships both domestically and internationally."
+      ],
+      "originalTitle": "Xây dựng bản đồ định vị doanh nghiệp công nghệ số Việt Nam",
+      "url": "https://vietnamnet.vn/lan-dau-dinh-vi-doanh-nghiep-cong-nghe-so-viet-nam-2375764.html",
+      "sourceName": "VietNamNet ICT",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "VINASA",
+        "Digital Transformation",
+        "Tech Map",
+        "IT Industry"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2025-02-27T14:36:50.000Z",
+      "thumbnailUrl": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/2/27/xay-dung-ban-do-dinh-vi-doanh-nghiep-cong-nghe-so-viet-nam-118243.jpg?width=0&s=geY1vM6RHpuOYZbZY1C-bg",
+      "contentSnippet": "‘Bản đồ doanh nghiệp công nghệ số Việt Nam’ vừa được VINASA công bố xây dựng. Đây sẽ là công cụ giúp định vị doanh nghiệp Việt trên thị trường, từ đó thúc đẩy nâng cao năng lực cạnh tranh, mở rộng cơ hội hợp tác trong và ngoài nước.",
+      "authorName": "VietNamNet ICT",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "33b6adf65f698ff6",
+      "title_vi": "Việt Nam đầu tư xây dựng nhà máy chế tạo chip bán dẫn công nghệ cao",
+      "title_en": "Vietnam to Invest in High-Tech Semiconductor Manufacturing Facility",
+      "summary_vi": [
+        "Chính phủ Việt Nam vừa công bố kế hoạch đầu tư ngân sách lên tới 12.800 tỷ đồng nhằm xây dựng một nhà máy chế tạo chip bán dẫn quy mô nhỏ, đánh dấu bước tiến quan trọng trong việc tự chủ công nghệ.",
+        "Cơ sở hạ tầng này được thiết kế để phục vụ toàn diện các quy trình từ nghiên cứu, thiết kế, sản xuất cho đến đóng gói và kiểm thử, tạo nền tảng kỹ thuật vững chắc cho hệ sinh thái bán dẫn trong nước.",
+        "Dự án này không chỉ thúc đẩy năng lực sản xuất phần cứng mà còn mở ra cơ hội lớn cho các kỹ sư Việt Nam tiếp cận công nghệ chế tạo chip tiên tiến, góp phần nâng cao vị thế quốc gia trên bản đồ công nghệ."
+      ],
+      "summary_en": [
+        "The Vietnamese government has announced a strategic investment of 12.8 trillion VND to construct a small-scale semiconductor manufacturing facility, marking a significant milestone in the nation's journey toward achieving greater technological autonomy and industrial self-reliance.",
+        "This facility is designed to support a comprehensive end-to-end workflow, encompassing research, chip design, fabrication, packaging, and rigorous testing, thereby establishing a robust technical foundation for the domestic semiconductor ecosystem to thrive and innovate.",
+        "This initiative not only bolsters hardware production capabilities but also provides invaluable opportunities for local engineers to engage with advanced manufacturing processes, significantly enhancing the country's competitive standing within the global semiconductor supply chain."
+      ],
+      "originalTitle": "Việt Nam sẽ xây dựng nhà máy chế tạo chip bán dẫn công nghệ cao",
+      "url": "https://vietnamnet.vn/viet-nam-se-xay-dung-nha-may-che-tao-chip-ban-dan-cong-nghe-cao-2375131.html",
+      "sourceName": "VietNamNet ICT",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Semiconductor",
+        "Hardware",
+        "Manufacturing",
+        "Chip Design",
+        "Vietnam Tech"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2025-02-26T02:43:43.000Z",
+      "thumbnailUrl": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/2/26/viet-nam-se-xay-dung-nha-may-che-tao-chip-ban-dan-cong-nghe-cao-49868.jpg?width=0&s=I9FGPUf3hojlKMF0HeE16w",
+      "contentSnippet": "Nhà nước sẽ đầu tư không quá 12.800 tỷ đồng để xây dựng nhà máy chế tạo chip bán dẫn quy mô nhỏ phục vụ nhu cầu nghiên cứu, thiết kế, sản xuất, đóng gói, kiểm thử.",
+      "authorName": "VietNamNet ICT",
+      "upvotes": 0,
+      "commentsCount": 0
     }
   ]
 }
