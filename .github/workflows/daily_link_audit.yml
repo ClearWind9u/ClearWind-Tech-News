@@ -1,4 +1,4 @@
-name: Daily Dead Link Audit & Pruning
+name: Daily News Audit — Dead Links & Content Re-Validation
 
 on:
   schedule:
@@ -14,13 +14,14 @@ permissions:
   contents: write
 
 jobs:
-  audit-and-prune:
+  audit-and-revalidate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # Phase 1 (dead links) ~5 min + Phase 2 (Gemini re-validation of 30 articles) ~15 min
+    timeout-minutes: 25
 
     steps:
       - name: Checkout Repository
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
         with:
           ref: develop
           fetch-depth: 0
@@ -35,23 +36,33 @@ jobs:
       - name: Install Dependencies
         run: npm ci || npm install
 
-      - name: Run Dead Link Auditor
+      - name: Run Dead Link Audit + Content Re-Validation
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MONGODB_URI: ${{ secrets.MONGODB_URI }}
+          MONGODB_DB_NAME: ${{ secrets.MONGODB_DB_NAME }}
+          UPSTASH_REDIS_REST_URL: ${{ secrets.UPSTASH_REDIS_REST_URL }}
+          UPSTASH_REDIS_REST_TOKEN: ${{ secrets.UPSTASH_REDIS_REST_TOKEN }}
+          KV_REST_API_URL: ${{ secrets.KV_REST_API_URL }}
+          KV_REST_API_TOKEN: ${{ secrets.KV_REST_API_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run audit-links
 
       - name: Commit & Sync Cleaned Database
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Stage database and search index
-          git add data/news.json data/search-index.json data/archive/
-          
+
+          # Stage only the database fallback file
+          git add data/news.json
+
           if git diff --staged --quiet; then
-            echo "All news links are healthy and accessible. No database changes needed."
+            echo "✅ All articles are healthy and accurate. No database changes needed."
           else
-            echo "Detected dead links. Pruned and committing updated database..."
-            git commit -m "🤖 auto(audit): prune dead/inaccessible articles [skip ci]"
+            echo "🔄 Database was updated (dead links pruned and/or content re-validated). Committing..."
+            git commit -m "🤖 auto(audit): prune dead links & re-validate stale content [skip ci]"
             git pull --rebase origin develop
             git push origin develop
-            echo "Successfully synced pruned database to develop!"
+            echo "✅ Successfully synced updated database to develop!"
           fi

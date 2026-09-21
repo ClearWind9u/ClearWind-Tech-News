@@ -1,9 +1,10 @@
-name: Auto Update News Digest (24/7)
+name: Auto Update News Digest
 
 on:
   schedule:
-    # Runs every 2 hours (00:00, 02:00, 04:00, ... UTC)
-    - cron: '0 */2 * * *'
+    # Runs every 6 hours (00:00, 06:00, 12:00, 18:00 UTC | 07:00, 13:00, 19:00, 01:00 ICT)
+    # 4 crawls/day is sufficient for tech news freshness and stays well within Gemini free quota.
+    - cron: '0 */6 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub Actions UI
 
 concurrency:
@@ -16,14 +17,15 @@ permissions:
 jobs:
   fetch-and-update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    # Each run: npm ci (~1min) + crawl 8 RSS feeds + HN + Dev.to + Gemini summarize (~15min)
+    timeout-minutes: 20
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           ref: develop
-          fetch-depth: 0
+          fetch-depth: 1
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
@@ -35,9 +37,11 @@ jobs:
       - name: Install Dependencies
         run: npm ci || npm install
 
-      - name: Fetch RSS Feeds, Auto-Translate & Save to Database
+      - name: Crawl RSS Feeds, Summarize with Gemini & Save to DB
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MONGODB_URI: ${{ secrets.MONGODB_URI }}
+          MONGODB_DB_NAME: ${{ secrets.MONGODB_DB_NAME }}
           UPSTASH_REDIS_REST_URL: ${{ secrets.UPSTASH_REDIS_REST_URL }}
           UPSTASH_REDIS_REST_TOKEN: ${{ secrets.UPSTASH_REDIS_REST_TOKEN }}
           KV_REST_API_URL: ${{ secrets.KV_REST_API_URL }}
@@ -46,24 +50,23 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run fetch-news
 
-      - name: Backup & Commit Changes (Only when using local JSON fallback)
+      - name: Commit Changes (Local JSON Fallback Only)
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Stage only data/news.json
+
+          # Stage only data/news.json (all other cloud DBs are updated in-process)
           git add data/news.json
-          
+
           if git diff --staged --quiet; then
-            echo "Database is synchronized. No repository changes needed."
+            echo "✅ DB synchronized (no new articles or all stored in cloud DB). No commit needed."
           else
-            echo "Local database updated. Discarding extra file changes and committing..."
-            # Discard any extra unstaged or untracked changes (e.g. package-lock.json modified by npm)
+            echo "📰 New articles added to local JSON fallback. Committing..."
+            # Discard any unrelated changes (e.g. package-lock.json touched by npm ci)
             git checkout -- .
-            git clean -fd
-            
+            git add data/news.json
             git commit -m "🤖 auto(news): update tech news digest [skip ci]"
             git pull --rebase origin develop
             git push origin develop
-            echo "Successfully updated news repository!"
+            echo "✅ Successfully pushed updated news database to develop!"
           fi

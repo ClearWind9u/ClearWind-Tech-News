@@ -100,7 +100,8 @@ const CATEGORY_KEYWORDS: Record<CanonicalCategory, string[]> = {
     'ai', 'llm', 'gpt', 'chatgpt', 'openai', 'anthropic', 'claude', 'gemini',
     'deepseek', 'machine learning', 'trí tuệ nhân tạo', 'deep learning', 'neural',
     'transformer', 'multimodal', 'agent', 'agents', 'langchain', 'langgraph',
-    'model', 'models', 'diffusion', 'robotics', 'robot', 'cờ vây', 'moe', 'mã nguồn mở ai'
+    'ai model', 'llm model', 'foundation model', 'mô hình ai', 'mô hình ngôn ngữ',
+    'diffusion', 'robotics', 'robot', 'cờ vây', 'moe', 'mã nguồn mở ai'
   ],
   'Cybersecurity': [
     'security', 'cybersecurity', 'bảo mật', 'an ninh mạng', 'vulnerability', 'lỗ hổng',
@@ -111,7 +112,7 @@ const CATEGORY_KEYWORDS: Record<CanonicalCategory, string[]> = {
   'DevOps & Cloud': [
     'devops', 'cloud', 'kubernetes', 'k8s', 'docker', 'container', 'containers',
     'aws', 'azure', 'gcp', 'ci/cd', 'cicd', 'pipeline', 'bash', 'linux', 'kernel',
-    'infrastructure', 'hạ tầng', 'serverless', 'sidecar', 'bcachefs', 'monitoring', 'grafana'
+    'infrastructure', 'hạ tầng', 'serverless', 'sidecar', 'bcachefs', 'monitoring', 'grafana', 'tmux'
   ],
   'Mobile & Web': [
     'mobile', 'di động', 'ios', 'android', 'flutter', 'react native', 'smartphone',
@@ -119,21 +120,23 @@ const CATEGORY_KEYWORDS: Record<CanonicalCategory, string[]> = {
     'iphone', 'web', 'frontend', 'react', 'vue', 'angular', 'css', 'html', 'ui/ux', 'browser'
   ],
   'Software Engineering': [
-    'software engineering', 'kỹ thuật phần mềm', 'rust', 'golang', 'go', 'python',
-    'javascript', 'typescript', 'git', 'github', 'clean architecture', 'microservices',
-    'nestjs', 'backend', 'performance', 'api', 'database', 'sql', 'http', 'concurrency',
-    'worker pool', 'webassembly', 'wasm', 'programming', 'lập trình', 'code', 'hiring',
-    'openshot', 'iggy', 'debian'
+    'software engineering', 'kỹ thuật phần mềm', 'laravel', 'php', 'middleware', 'eloquent',
+    'orm', 'mvc', 'rust', 'golang', 'go zero', 'go', 'python', 'javascript', 'typescript',
+    'git', 'github', 'clean architecture', 'microservices', 'nestjs', 'backend', 'performance',
+    'api', 'rest api', 'restful', 'database', 'sql', 'http', 'concurrency', 'worker pool',
+    'webassembly', 'wasm', 'programming', 'lập trình', 'code', 'hiring', 'architecture constraints',
+    'refactoring', 'tái cấu trúc', 'design pattern', 'oop'
   ],
   'Tech Trends & Startups': [
     'semiconductor', 'bán dẫn', 'vi mạch', 'chip', '5g', 'telecom', 'viễn thông',
     'startup', 'khởi nghiệp', 'nhiệt hạch', 'fusion', 'battery', 'pin', 'solid-state',
     'apple', 'm4', 'silicon', 'hardware', 'phần cứng', 'nasa', 'observatory', 'vũ trụ',
-    'supercomputer', 'siêu máy tính', 'chính sách', 'sandbox', 'thế vận hội', 'bê tông', 'cầu vòm', 'vinasa'
+    'supercomputer', 'siêu máy tính', 'chính sách', 'sandbox', 'thế vận hội', 'bê tông', 'cầu vòm', 'vinasa', 'seo'
   ],
 };
 
 export function classifyCategory(title: string, content: string = ''): CanonicalCategory {
+  const cleanTitle = decodeHtml(title).toLowerCase();
   const combined = decodeHtml(`${title} ${content}`).toLowerCase();
   
   let bestCategory: CanonicalCategory = 'Tech Trends & Startups';
@@ -142,8 +145,16 @@ export function classifyCategory(title: string, content: string = ''): Canonical
   for (const [category, keywords] of Object.entries(CATEGORY_KEYWORDS) as [CanonicalCategory, string[]][]) {
     let score = 0;
     for (const kw of keywords) {
-      if (combined.includes(kw)) {
-        score += title.toLowerCase().includes(kw) ? 3 : 1;
+      if (kw.length <= 3) {
+        // Strict word boundary check for short acronyms (ai, go, sim, sql, git, m4, k8s) to avoid false substring matches
+        const regex = new RegExp(`(^|[^a-zA-Z0-9_À-ỹ])${kw}([^a-zA-Z0-9_À-ỹ]|$)`, 'i');
+        if (regex.test(combined)) {
+          score += regex.test(cleanTitle) ? 4 : 1;
+        }
+      } else {
+        if (combined.includes(kw)) {
+          score += cleanTitle.includes(kw) ? 3 : 1;
+        }
       }
     }
     if (score > maxScore) {
@@ -153,6 +164,115 @@ export function classifyCategory(title: string, content: string = ''): Canonical
   }
 
   return bestCategory;
+}
+
+/**
+ * Intelligent tech entity and domain tag extractor.
+ * Replaces generic placeholders like ['CongNghe', 'VietNam'] with precise technology tags.
+ */
+export function extractSmartTags(title: string, snippet: string = '', category: CanonicalCategory): string[] {
+  const combined = decodeHtml(`${title} ${snippet}`).toLowerCase();
+  const foundTags: string[] = [];
+
+  const TECH_ENTITY_MAP: Array<{ tag: string; pattern: RegExp }> = [
+    { tag: 'Laravel', pattern: /\blaravel\b/i },
+    { tag: 'PHP', pattern: /\bphp\b/i },
+    { tag: 'Middleware', pattern: /\bmiddleware\b/i },
+    { tag: 'Eloquent', pattern: /\beloquent\b/i },
+    { tag: 'Go', pattern: /\b(golang|go zero|goroutine)\b/i },
+    { tag: 'Rust', pattern: /\brust\b/i },
+    { tag: 'Python', pattern: /\bpython\b/i },
+    { tag: 'TypeScript', pattern: /\btypescript\b/i },
+    { tag: 'JavaScript', pattern: /\bjavascript\b/i },
+    { tag: 'React', pattern: /\breact\b/i },
+    { tag: 'NextJS', pattern: /\bnext\.?js\b/i },
+    { tag: 'Vue', pattern: /\bvue\b/i },
+    { tag: 'Docker', pattern: /\bdocker\b/i },
+    { tag: 'Kubernetes', pattern: /\b(kubernetes|k8s)\b/i },
+    { tag: 'Playwright', pattern: /\bplaywright\b/i },
+    { tag: 'OpenTelemetry', pattern: /\bopentelemetry\b/i },
+    { tag: 'PostgreSQL', pattern: /\b(postgres|postgresql)\b/i },
+    { tag: 'MySQL', pattern: /\bmysql\b/i },
+    { tag: 'MongoDB', pattern: /\bmongodb\b/i },
+    { tag: 'Redis', pattern: /\bredis\b/i },
+    { tag: 'DeepSeek', pattern: /\b(deepseek|r1|v3)\b/i },
+    { tag: 'OpenAI', pattern: /\b(openai|chatgpt|gpt-4|gpt-5|sora|o1|o3)\b/i },
+    { tag: 'Claude', pattern: /\b(claude|anthropic)\b/i },
+    { tag: 'Gemini', pattern: /\b(gemini|deepmind)\b/i },
+    { tag: 'Nvidia', pattern: /\b(nvidia|blackwell|cuda)\b/i },
+    { tag: 'Apple', pattern: /\b(apple|iphone|ios|macbook|m4|m5)\b/i },
+    { tag: 'Android', pattern: /\b(android|samsung|galaxy)\b/i },
+    { tag: 'Security', pattern: /\b(bảo mật|an ninh mạng|zero-day|cve|ransomware|malware)\b/i },
+    { tag: 'CleanArchitecture', pattern: /\b(clean architecture|kiến trúc|design pattern|microservices)\b/i },
+    { tag: 'CICD', pattern: /\b(ci\/cd|cicd|github actions)\b/i },
+    { tag: 'Debezium', pattern: /\bdebezium\b/i },
+    { tag: 'Tmux', pattern: /\btmux\b/i },
+  ];
+
+  for (const item of TECH_ENTITY_MAP) {
+    if (item.pattern.test(combined)) {
+      foundTags.push(item.tag);
+    }
+  }
+
+  // Fallback to category-aligned clean tags if no entity matched
+  if (foundTags.length === 0) {
+    switch (category) {
+      case 'AI & Machine Learning':
+        foundTags.push('AI', 'MachineLearning');
+        break;
+      case 'Software Engineering':
+        foundTags.push('SoftwareEngineering', 'Programming');
+        break;
+      case 'DevOps & Cloud':
+        foundTags.push('DevOps', 'Cloud');
+        break;
+      case 'Cybersecurity':
+        foundTags.push('Cybersecurity', 'Security');
+        break;
+      case 'Mobile & Web':
+        foundTags.push('WebDev', 'Mobile');
+        break;
+      case 'Tech Trends & Startups':
+      default:
+        foundTags.push('TechTrends', 'Innovation');
+        break;
+    }
+  }
+
+  return Array.from(new Set(foundTags)).slice(0, 4);
+}
+
+/**
+ * Validates editorial integrity. Rejects forum flame threads, scraped user comments,
+ * and profane or low-quality slang before articles are saved to the database.
+ */
+export function isEditorialCleanArticle(
+  title: string,
+  summary: string[] = [],
+  snippet: string = ''
+): boolean {
+  const text = `${title} ${summary.join(' ')} ${snippet}`.toLowerCase();
+
+  const FORUM_JUNK_PATTERNS = [
+    /thíchkhông thích/i,
+    /likelikedislike/i,
+    /thích\d+thích/i,
+    /like\d+like/i,
+    /ngu vl/i,
+    /phò phạch/i,
+    /xàm xàm/i,
+    /\b(đm|vcl|vkl|đéo|đếch)\b/i,
+    /\b(vlthích|bácthích)\b/i,
+    /tin mớisản phẩm công nghệ mớikhuyến mãisự kiện/i,
+    /\b\d+ngàyip\b/i,
+    /^nói thiệt là/i,
+    /khó chịu thiệt$/i,
+    /\b(ảnh:|photo:)\s*[a-z0-9\s/]+\/\s*(the verge|vnexpress|genk|tuổi trẻ)/i,
+    /(\.html|-->|<!--)/i,
+  ];
+
+  return !FORUM_JUNK_PATTERNS.some((p) => p.test(text));
 }
 
 // Tailored Knowledge Base for verified articles (3-Tier Structure)
@@ -829,6 +949,23 @@ export const CURATED_ARTICLES: ArticleCuration[] = [
       'Catalyzes international trade promotion, facilitating Make in Vietnam software solutions in expanding into global markets.'
     ],
     tags: ['VINASA', 'MakeInVietnam', 'Software', 'Ecosystem']
+  },
+  {
+    match: /thực nghiệm chiến lược dca.*python|dca 100 cổ phiếu.*python/i,
+    category: 'Software Engineering',
+    title_vi: 'Thực Nghiệm Chiến Lược DCA 100 Cổ Phiếu Việt Nam Với Python',
+    title_en: 'Backtesting DCA Strategy on 100 Vietnamese Equities with Python',
+    summary_vi: [
+      'Phân tích thực nghiệm phương pháp đầu tư định kỳ Dollar-Cost Averaging (DCA) trên bộ dữ liệu lịch sử 100 cổ phiếu tại thị trường Việt Nam.',
+      'Thiết kế và triển khai thuật toán backtest hoàn chỉnh bằng Python, tối ưu hóa quá trình xử lý chuỗi thời gian tài chính và kiểm thử tự động.',
+      'Đánh giá hiệu suất định lượng về tỷ suất sinh lời, drawdown tối đa và chia sẻ kinh nghiệm phát triển phần mềm định lượng (Quant Tech).'
+    ],
+    summary_en: [
+      'Empirical analysis of the Dollar-Cost Averaging (DCA) accumulation strategy backtested across 100 Vietnamese equities historical datasets.',
+      'Designs and implements an automated backtesting pipeline in Python, optimizing financial time-series processing and model verification.',
+      'Provides quantitative performance evaluation on CAGR, max drawdown, and actionable production lessons for quantitative finance engineers.'
+    ],
+    tags: ['Python', 'QuantitativeFinance', 'DataScience', 'Algorithm', 'VietNam']
   }
 ];
 
@@ -842,15 +979,6 @@ export function getCuratedArticle(title: string, content: string = ''): ArticleC
   return undefined;
 }
 
-export function translateTitleToVietnamese(titleEn: string): string {
-  const clean = decodeHtml(titleEn).replace(/^\[(Quốc tế|Global|VN Tech)\]\s*/i, '').trim();
-
-  // Check curated matching first
-  const curated = getCuratedArticle(clean);
-  if (curated) return curated.title_vi;
-
-  return clean;
-}
 
 export interface ITRelevanceResult {
   isIT: boolean;
@@ -859,49 +987,49 @@ export interface ITRelevanceResult {
 }
 
 export function evaluateITRelevance(title: string, content: string = ''): ITRelevanceResult {
-  const cleanTitle = decodeHtml(title).toLowerCase();
-  const cleanContent = decodeHtml(content).toLowerCase();
+  const cleanTitle = decodeHtml(title || '').trim();
+  const cleanContent = decodeHtml(content || '').trim();
   const combined = `${cleanTitle} ${cleanContent}`;
+  const lowerCombined = combined.toLowerCase();
+  const lowerTitle = cleanTitle.toLowerCase();
 
-  // 1. Check curated article match first
+  // 1. Check curated article match first (100% verified IT)
   if (getCuratedArticle(title, content)) {
     return { isIT: true, score: 100, reason: 'Curated IT article match' };
   }
 
-  // 2. Score positive IT terms
-  const IT_TERMS = [
-    'ai', 'llm', 'gpt', 'chatgpt', 'openai', 'gemini', 'claude', 'deepseek', 'machine learning', 'trí tuệ nhân tạo',
-    'deep learning', 'neural', 'agent', 'agents', 'transformer', 'npu', 'gpu', 'cpu', 'chip', 'bán dẫn', 'semiconductor',
-    'software', 'kỹ thuật phần mềm', 'lập trình', 'code', 'coding', 'developer', 'kỹ sư', 'api', 'backend', 'frontend',
-    'database', 'sql', 'git', 'github', 'open source', 'mã nguồn mở', 'microservices', 'rust', 'python', 'golang', 'go',
-    'javascript', 'typescript', 'react', 'next.js', 'node', 'flutter', 'ios', 'android', 'app', 'browser', 'cloud', 'aws',
-    'azure', 'gcp', 'kubernetes', 'k8s', 'docker', 'devops', 'ci/cd', 'linux', 'cybersecurity', 'bảo mật', 'an ninh mạng',
-    'lỗ hổng', 'malware', 'ransomware', 'hacker', 'mật mã', 'encryption', 'zero trust', 'privacy', 'vneid', 'chuyển đổi số',
-    '5g', 'telecom', 'viễn thông', 'smartphone', 'snapdragon', 'apple silicon', 'swift', 'kotlin', 'c++', 'c#', 'java',
-    'php', 'ruby', 'cache', 'spa', 'kernel', 'io_uring', 'firmware', 'hackathon', 'architecture', 'concurrency'
-  ];
-
-  let score = 0;
-  for (const term of IT_TERMS) {
-    if (combined.includes(term)) {
-      score += cleanTitle.includes(term) ? 3 : 1;
-    }
-  }
-
-  // 3. Check strict non-IT blacklisted phrases
-  const REJECT_KEYWORDS = [
+  // 2. Strict non-IT blacklist (Biology/Zoology/Wildlife, Showbiz, Crime, Fashion, Accidents, Lifestyle, Politics)
+  const NON_IT_BLACKLIST = [
+    // Zoology / Wildlife / Marine biology / Animals
+    'cá voi', 'cá heo', 'humpback whale', 'whale', 'động vật', 'thú hoang', 'thú non', 'chim cánh cụt',
+    'hóa thạch', 'khủng long', 'loài thú', 'côn trùng', 'sinh vật biển', 'chết non', 'chết lưu',
+    'vườn quốc gia', 'bảo tồn thiên nhiên', 'thú cưng', 'chó mèo', 'thủy sản', 'chăn nuôi', 'nông nghiệp',
+    'stillborn', 'wildlife', 'paleontology', 'marine biology',
+    // Human biology / Neuroscience / Medical (non-tech)
+    'bộ não con người là hai cơ quan', 'não bộ con người', 'thần kinh học', 'sinh học thần kinh',
+    'y học', 'phẫu thuật', 'bệnh viện', 'bệnh nhân', 'dược phẩm', 'vaccine', 'thuốc điều trị',
+    'neuroscience', 'brain scan', 'mri scan', 'clinical trial', 'pharmaceutical',
+    // Entertainment / Showbiz / Pageant / Celebrity gossip
+    'hoa hậu', 'á hậu', 'người đẹp', 'showbiz', 'nghệ sĩ', 'ca sĩ', 'diễn viên', 'phim ảnh', 'rạp chiếu phim',
+    'vpop', 'kpop', 'thời trang', 'váy cưới', 'túi xách', 'mỹ phẩm', 'nước hoa', 'trang điểm', 'son môi',
+    'thảm đỏ', 'scandal', 'hẹn hò', 'chia tay', 'kết hôn', 'ly hôn', 'tình ái',
+    // Crime / Traffic / Accidents / Court
+    'tai nạn giao thông', 'cháy nhà', 'cứu hỏa', 'buôn lậu', 'ma túy', 'trộm cắp', 'cướp giật', 'án mạng',
+    'khởi tố vụ án', 'tạm giam', 'tòa án nhân dân', 'đánh bạc', 'cá độ',
+    // Politics / Government policy (non-tech policy)
+    'contract on america', 'chính trị', 'bầu cử tổng thống', 'nghị viện', 'quốc hội', 'đảng phái',
+    'ngoại giao', 'đại sứ quán', 'hiệp ước', 'biểu tình', 'đình công',
+    // Food / Recipes / Cooking
+    'món ăn', 'công thức nấu', 'nhà hàng', 'ẩm thực', 'quán ăn', 'đặc sản', 'món ngon', 'bếp núc',
+    // Furniture / Craft / Home appliances (non-smart)
     'kệ gỗ', 'ván dư', 'gỗ vụn', 'làm kệ', 'đồ gỗ', 'nội thất', 'tủ quần áo',
-    'túi phụ kiện sen', 'túi da', 'khắc tên', 'ví da', 'thời trang', 'giày dép', 'mỹ phẩm', 'nước hoa', 'balo', 'ba lô', 'cặp sách',
-    'tủ lạnh cho người', 'chống sốc nhiệt', 'nồi chiên', 'máy sấy tóc', 'bàn chải điện', 'bếp từ',
-    'dàn âm thanh', 'mẫu loa autobiography', 'đĩa than',
-    'xổ số', 'bất động sản', 'phong thủy', 'nấu ăn', 'công thức món', 'showbiz', 'hoa hậu', 'giải trí vpop'
+    'nồi chiên', 'máy sấy tóc', 'bàn chải điện', 'bếp từ', 'đĩa than', 'xổ số', 'bất động sản', 'phong thủy',
+    // Forum comment noise (these indicate a forum thread was scraped, not an article)
+    'thíchkhông thích', 'likelikedislike', 'nói thiệt là', 'ngu vl', 'phò phạch', 'xàm xàm',
   ];
 
-  for (const kw of REJECT_KEYWORDS) {
-    const matchedInTitle = cleanTitle.includes(kw);
-    const matchedInContent = cleanContent.includes(kw);
-
-    if (matchedInTitle || (matchedInContent && score < 2)) {
+  for (const kw of NON_IT_BLACKLIST) {
+    if (lowerTitle.includes(kw) || lowerCombined.includes(kw)) {
       return {
         isIT: false,
         score: -100,
@@ -910,26 +1038,120 @@ export function evaluateITRelevance(title: string, content: string = ''): ITRele
     }
   }
 
-  const isIT = score >= 1;
+  // 3. Multi-word High-Confidence Vietnamese IT terms (Unambiguous)
+  const VI_IT_PHRASES = [
+    'trí tuệ nhân tạo', 'kỹ thuật phần mềm', 'lập trình viên', 'lập trình', 'viết mã', 'mã nguồn mở', 'mã nguồn',
+    'an ninh mạng', 'bảo mật thông tin', 'bảo mật', 'điện toán đám mây', 'chíp bán dẫn', 'bán dẫn', 'vi mạch',
+    'thiết kế chip', 'hệ điều hành', 'cơ sở dữ liệu', 'mô hình ngôn ngữ', 'học máy', 'học sâu',
+    'chuyển đổi số', 'hạ tầng số', 'công nghệ thông tin', 'phần mềm độc hại', 'lỗ hổng bảo mật', 'lỗ hổng',
+    'tấn công mạng', 'tin tặc', 'phát triển web', 'ứng dụng web', 'ứng dụng di động', 'điện thoại thông minh',
+    'viễn thông', 'mạng 5g', 'mạng 6g', 'trung tâm dữ liệu', 'máy chủ', 'thực tế ảo', 'thực tế tăng cường',
+    'chuỗi khối', 'tác nhân ai', 'trợ lý ảo', 'cấu trúc dữ liệu', 'thuật toán', 'xử lý ngoại lệ', 'vòng lặp'
+  ];
+
+  // 4. English Technical Tokens (Must match word boundaries \b to avoid substring collisions)
+  const EN_TECH_TOKENS = [
+    'api', 'apis', 'sdk', 'sdks', 'ide', 'cli', 'gui', 'saas', 'paas', 'iaas', 'iot', 'sql', 'nosql', 'sqlite',
+    'k8s', 'sre', 'ci/cd', 'devops', 'software', 'hardware', 'developer', 'developers', 'engineer',
+    'engineers', 'coding', 'frontend', 'backend', 'fullstack', 'kubernetes', 'docker', 'container',
+    'containers', 'microservices', 'database', 'postgres', 'postgresql', 'mysql', 'mariadb', 'mongodb', 'redis',
+    'rust', 'python', 'golang', 'javascript', 'typescript', 'react', 'next\\.js', 'node\\.js', 'vue',
+    'flutter', 'swift', 'kotlin', 'c\\+\\+', 'c#', 'php', 'laravel', 'django', 'fastapi', 'spring', 'nestjs',
+    'linux', 'steamos', 'kernel', 'ubuntu', 'windows', 'surface', 'mini pc', 'aws', 'azure', 'gcp',
+    'cloud', 'cybersecurity', 'malware', 'ransomware', 'zero-day', 'vulnerability', 'vulnerabilities',
+    'gpu', 'gpus', 'cpu', 'cpus', 'npu', 'semiconductor', 'semiconductors', 'nvidia', 'intel', 'amd',
+    'qualcomm', 'snapdragon', 'apple silicon', 'tsmc', 'smartphone', 'smartphones', 'iphone', 'ios', 'android',
+    'firmware', 'llm', 'llms', 'gpt', 'chatgpt', 'openai', 'gemini', 'claude', 'deepseek', 'copilot', 'anthropic',
+    'cve-\\d+', 'quicksort', 'algorithm', 'data structure', 'agent', 'agents', 'runtime', 'pruning', 'hackathon'
+  ];
+
+  let score = 0;
+
+  // Evaluate Vietnamese phrases
+  for (const phrase of VI_IT_PHRASES) {
+    if (lowerTitle.includes(phrase)) {
+      score += 5;
+    } else if (lowerCombined.includes(phrase)) {
+      score += 2;
+    }
+  }
+
+  // Evaluate English tokens with word boundaries
+  for (const token of EN_TECH_TOKENS) {
+    const titleRegex = new RegExp(`\\b${token}\\b`, 'i');
+    const contentRegex = new RegExp(`\\b${token}\\b`, 'i');
+
+    if (titleRegex.test(cleanTitle)) {
+      score += 5;
+    } else if (contentRegex.test(cleanContent)) {
+      score += 2;
+    }
+  }
+
+  // Special rule for "AI" in Vietnamese text:
+  // In Vietnamese, "ai" means "who/anyone". Standalone lowercase "ai" is NOT tech.
+  // Must be uppercase "AI" or accompanied by tech terms.
+  const hasVietnamese = hasVietnameseDiacritics(combined);
+  if (hasVietnamese) {
+    if (/\bAI\b/.test(combined) || /công nghệ AI|mô hình AI|tính năng AI|ứng dụng AI|AI Agent|GenAI/i.test(combined)) {
+      score += /\bAI\b/.test(cleanTitle) ? 5 : 3;
+    }
+  } else {
+    // In English text, standalone AI is valid tech token
+    if (/\bAI\b/i.test(cleanTitle)) {
+      score += 5;
+    } else if (/\bAI\b/i.test(cleanContent)) {
+      score += 2;
+    }
+  }
+
+  // Threshold: Requires at least 1 verified term (score >= 3)
+  const isIT = score >= 3;
   return {
     isIT,
     score,
-    reason: isIT ? `Matched IT terms (score: ${score})` : `Insufficient IT relevance (score: ${score})`,
+    reason: isIT ? `Verified IT technology article (score: ${score})` : `Insufficient IT relevance (score: ${score})`,
   };
 }
 
+/**
+ * Vietnamese IT Terminology Normalization Table
+ *
+ * Rules:
+ * - All regex use /gi flag → case-insensitive by default, NO duplicate upper/lowercase pairs needed.
+ * - Entries here fix Google Translate literal mistranslations of technical terms.
+ * - Non-IT content (health, biology, politics) must be blocked upstream in NON_IT_BLACKLIST,
+ *   NOT added here as a replacement.
+ */
 export const IT_TERM_REPLACEMENTS: Array<[RegExp, string]> = [
-  [/Đào tạo mô hình/gi, 'Huấn luyện mô hình'],
-  [/đào tạo mô hình/gi, 'huấn luyện mô hình'],
-  [/đào tạo AI/gi, 'huấn luyện AI'],
-  [/Đào tạo AI/gi, 'Huấn luyện AI'],
-  [/đặc vụ AI/gi, 'tác nhân AI (AI Agent)'],
-  [/Đặc vụ AI/gi, 'Tác nhân AI (AI Agent)'],
-  [/mã hóa Vibe/gi, 'Lập trình Vibe Coding'],
-  [/kế hoạch truy vấn/gi, 'kế hoạch truy vấn SQL'],
-  [/cơ sở dữ liệu đám mây/gi, 'cơ sở dữ liệu Cloud'],
-  [/trí tuệ nhân tạo biên giới/gi, 'các mô hình AI tiên tiến (Frontier AI)'],
-  [/mô hình biên giới/gi, 'mô hình AI tiên tiến (Frontier Models)'],
+  // Training / ML terminology
+  [/đào tạo mô hình/gi,              'huấn luyện mô hình'],
+  [/đào tạo AI/gi,                    'huấn luyện AI'],
+  // AI Agent — "đặc vụ" is a spy/agent translation artifact
+  [/đặc vụ AI/gi,                     'tác nhân AI (AI Agent)'],
+  // Vibe Coding
+  [/mã hóa vibe/gi,                   'Lập trình Vibe Coding'],
+  // Database / Cloud
+  [/cơ sở dữ liệu đám mây/gi,        'cơ sở dữ liệu Cloud'],
+  // Frontier AI — Google Translate renders "frontier" as "biên giới" (border/territory)
+  [/trí tuệ nhân tạo biên giới/gi,   'các mô hình AI tiên tiến (Frontier AI)'],
+  [/mô hình biên giới/gi,             'mô hình AI tiên tiến (Frontier Models)'],
+  [/đường biên giới pareto/gi,        'đường biên Pareto (Pareto Frontier)'],
+  [/biên giới pareto/gi,              'đường biên Pareto'],
+  // Model weight exfiltration — "Lọc cân nặng" is a nonsensical literal translation
+  [/lọc cân nặng/gi,                  'trích xuất trọng số mô hình AI'],
+  // Flock Safety cameras — "bầy đàn" means "herd/flock" (animal), not a brand name
+  [/camera bầy đàn/gi,               'hệ thống camera Flock Safety'],
+  // Security: hardcoded credentials
+  [/tín dụng được mã hóa cứng/gi,    'thông tin xác thực (credentials) bị hardcode'],
+  [/thông tin đăng nhập được mã hóa cứng/gi, 'thông tin xác thực (credentials) bị hardcode'],
+  // Query plan — only apply when clearly in a database/SQL context
+  [/kế hoạch truy vấn cơ sở dữ liệu/gi, 'kế hoạch thực thi truy vấn SQL (Query Plan)'],
+  // Misc translation artifacts
+  [/giao thức bắt tay/gi,             'giao thức bắt tay (Handshake Protocol)'],
+  [/bộ nhớ đệm/gi,                    'bộ nhớ cache (Cache)'],
+  [/tiêm nhắc/gi,                     'Prompt Injection'],
+  [/điểm cuối/gi,                     'endpoint'],
 ];
 
 export function polishVietnameseITTerminology(text: string): string {
@@ -1140,6 +1362,31 @@ export const CATEGORY_TECH_INSIGHTS_EN: Record<CanonicalCategory, { tech: string
   },
 };
 
+/**
+ * Ensures sentences are complete, whole words, and ends with proper punctuation.
+ * Strips dangling ellipses (...), trailing incomplete words, or unclosed parentheses like "(D...".
+ */
+export function sanitizeSentenceCompleteness(text: string): string {
+  if (!text || typeof text !== 'string') return '';
+  let s = text.trim();
+
+  // 1. Remove dangling trailing ellipses or unclosed parentheses: e.g. " (D...", " (DCA...", "..."
+  s = s.replace(/\s*\([a-zA-Z0-9_\-\s]{0,15}(\.{2,}|…)?\s*$/, '');
+  s = s.replace(/(\.{2,}|…)\s*$/, '');
+
+  // 2. Remove unfinished trailing partial words if ended abruptly (e.g. " D", " th")
+  s = s.replace(/\s+[a-zA-Z0-9_\-]{1,2}$/, '');
+
+  s = s.trim();
+  if (s.length === 0) return '';
+
+  // 3. Ensure sentence ends with appropriate punctuation (. ! ?)
+  if (!/[.!?]$/.test(s)) {
+    s += '.';
+  }
+  return s;
+}
+
 export async function generateTechnicalTakeawaysAsync(
   title: string,
   snippet: string,
@@ -1154,7 +1401,7 @@ export async function generateTechnicalTakeawaysAsync(
   const cleanSnippet = decodeHtml(snippet || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
   const rawSentences = cleanSnippet
     .split(/(?<=[.!?])\s+/)
-    .map((s) => s.trim())
+    .map((s) => sanitizeSentenceCompleteness(s.trim()))
     .filter((s) => s.length > 25 && !s.includes('[ATTACH]') && !isNavigationJunk(s));
 
   const topicName = decodeHtml(title).replace(/^\[(Quốc tế|Global|VN Tech)\]\s*/i, '').trim();
@@ -1184,7 +1431,7 @@ export async function generateTechnicalTakeawaysAsync(
         : await translateTextFree(rawSentences[1], 'en', 'vi');
     }
     if (!p2 || !hasVietnameseDiacritics(p2)) {
-      p2 = insightsVi.tech;
+      p2 = `Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong ${topicVi}.`;
     }
 
     if (rawSentences[2]) {
@@ -1193,16 +1440,16 @@ export async function generateTechnicalTakeawaysAsync(
         : await translateTextFree(rawSentences[2], 'en', 'vi');
     }
     if (!p3 || !hasVietnameseDiacritics(p3)) {
-      p3 = insightsVi.impact;
+      p3 = `Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến ${topicVi}.`;
     }
 
     return [p1, p2, p3];
   } else {
     const topicEn = hasVietnameseDiacritics(topicName) ? await translateTextFree(topicName, 'vi', 'en') : topicName;
 
-    let p1 = rawSentences[0] || `Latest technical developments and key architecture overview regarding ${topicEn}.`;
-    let p2 = rawSentences[1] || insightsEn.tech;
-    let p3 = rawSentences[2] || insightsEn.impact;
+    let p1 = rawSentences[0] || `Key architectural developments and core background regarding ${topicEn}.`;
+    let p2 = rawSentences[1] || `In-depth technical breakdown and implementation mechanisms introduced in ${topicEn}.`;
+    let p3 = rawSentences[2] || `Practical engineering impact and actionable takeaways for developers building with ${topicEn}.`;
 
     if (hasVietnameseDiacritics(p1)) p1 = await translateTextFree(p1, 'vi', 'en');
     if (hasVietnameseDiacritics(p2)) p2 = await translateTextFree(p2, 'vi', 'en');
@@ -1212,42 +1459,4 @@ export async function generateTechnicalTakeawaysAsync(
   }
 }
 
-export function generateTechnicalTakeaways(
-  title: string,
-  snippet: string,
-  category: CanonicalCategory,
-  lang: 'vi' | 'en'
-): [string, string, string] {
-  const curated = getCuratedArticle(title, snippet);
-  if (curated) {
-    return lang === 'vi' ? curated.summary_vi : curated.summary_en;
-  }
-
-  const cleanSnippet = decodeHtml(snippet || '').replace(/<[^>]+>/g, '').trim();
-  const sentences = cleanSnippet
-    .split(/(?<=[.!?])\s+/)
-    .filter((s) => s.trim().length > 15 && !s.includes('[ATTACH]') && !isNavigationJunk(s));
-
-  const topicName = decodeHtml(title).replace(/^\[(Quốc tế|Global|VN Tech)\]\s*/i, '').trim();
-  const insightsVi = CATEGORY_TECH_INSIGHTS[category] ?? CATEGORY_TECH_INSIGHTS['Tech Trends & Startups'];
-  const insightsEn = CATEGORY_TECH_INSIGHTS_EN[category] ?? CATEGORY_TECH_INSIGHTS_EN['Tech Trends & Startups'];
-
-  if (lang === 'vi') {
-    const point1 = sentences[0]
-      ? sentences[0]
-      : `Tổng quan bối cảnh, sự kiện then chốt và các diễn biến công nghệ nổi bật được ghi nhận trong bài viết về ${topicName}.`;
-    const point2 = sentences[1] ? sentences[1] : insightsVi.tech;
-    const point3 = sentences[2] ? sentences[2] : insightsVi.impact;
-
-    return [point1, point2, point3];
-  } else {
-    const point1 = sentences[0]
-      ? sentences[0]
-      : `Latest technical breakdown and key developments regarding ${topicName}.`;
-    const point2 = sentences[1] ? sentences[1] : insightsEn.tech;
-    const point3 = sentences[2] ? sentences[2] : insightsEn.impact;
-
-    return [point1, point2, point3];
-  }
-}
 

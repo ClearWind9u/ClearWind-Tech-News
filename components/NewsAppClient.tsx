@@ -18,15 +18,33 @@ import { NewsRowCompact } from './NewsRowCompact';
 import { Footer } from './Footer';
 import { CardSkeleton, RowSkeleton, HeroSkeleton } from './NewsSkeleton';
 import { useBilingual, SortOption } from './BilingualContext';
-import { NewsDetailModal } from './NewsDetailModal';
-import { BookmarkDrawer } from './BookmarkDrawer';
-import { ShortcutsModal } from './ShortcutsModal';
-import { SpotlightSearchModal } from './SpotlightSearchModal';
-import { DailyBriefingPlayer } from './DailyBriefingPlayer';
+import dynamic from 'next/dynamic';
+
+const NewsDetailModal = dynamic(
+  () => import('./NewsDetailModal').then((m) => m.NewsDetailModal),
+  { ssr: false }
+);
+const BookmarkDrawer = dynamic(
+  () => import('./BookmarkDrawer').then((m) => m.BookmarkDrawer),
+  { ssr: false }
+);
+const ShortcutsModal = dynamic(
+  () => import('./ShortcutsModal').then((m) => m.ShortcutsModal),
+  { ssr: false }
+);
+const SpotlightSearchModal = dynamic(
+  () => import('./SpotlightSearchModal').then((m) => m.SpotlightSearchModal),
+  { ssr: false }
+);
+const DailyBriefingPlayer = dynamic(
+  () => import('./DailyBriefingPlayer').then((m) => m.DailyBriefingPlayer),
+  { ssr: false }
+);
 import { useDailyBriefingPlaylist } from '@/lib/speech_synthesizer';
 import { TechRadarWidget } from './TechRadarWidget';
 import { computeTechRadar } from '@/lib/tech_radar_engine';
 import { matchSearchQuery, matchTechnologyTag } from '@/lib/search_utils';
+import { computeMultiSourceConvergence, getEffectiveHotScore } from '@/lib/trend_clustering';
 
 function areParamsEqual(searchString: string, newParams: URLSearchParams): boolean {
   const currentParams = new URLSearchParams(searchString);
@@ -54,6 +72,12 @@ import {
   ChevronRight,
   SlidersHorizontal,
   Keyboard,
+  Headphones,
+  ListMusic,
+  ListPlus,
+  Play,
+  Trash2,
+  Layers,
 } from 'lucide-react';
 import { getPersonalizedRecommendations } from '@/lib/user_interest_tracker';
 
@@ -108,10 +132,16 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
 
   const briefingPlayer = useDailyBriefingPlaylist(topBriefingArticles, lang);
 
-  const handleOpenArticle = useCallback((art: NewsItem, autoPlay = false) => {
-    setActiveArticle(art);
-    setAutoPlayAudio(autoPlay);
-  }, []);
+  const handleOpenArticle = useCallback(
+    (art: NewsItem, autoPlay = false) => {
+      if (autoPlay && briefingPlayer.isPlaying) {
+        briefingPlayer.stop();
+      }
+      setActiveArticle(art);
+      setAutoPlayAudio(autoPlay);
+    },
+    [briefingPlayer]
+  );
 
   // Advanced Filters State
   const [selectedMonth, setSelectedMonth] = useState('all');
@@ -157,6 +187,58 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
   const radarData = useMemo(() => {
     return computeTechRadar(activeArticlesPool);
   }, [activeArticlesPool]);
+
+  // Multi-source convergence map (boosts stories appearing across multiple outlets)
+  const multiSourceMap = useMemo(() => {
+    return computeMultiSourceConvergence(activeArticlesPool);
+  }, [activeArticlesPool]);
+
+  // Audio Queue State (Custom user selection, persisted in localStorage)
+  const [audioQueueIds, setAudioQueueIds] = useState<string[]>([]);
+
+  useEffect(() => {
+    try {
+      const stored = localStorage.getItem('clearwind_audio_queue');
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (Array.isArray(parsed)) setAudioQueueIds(parsed);
+      }
+    } catch {
+      // ignore
+    }
+  }, []);
+
+  const toggleAudioQueue = useCallback((article: NewsItem) => {
+    setAudioQueueIds((prev) => {
+      let next: string[];
+      if (prev.includes(article.id)) {
+        next = prev.filter((id) => id !== article.id);
+      } else {
+        next = [...prev, article.id];
+      }
+      try {
+        localStorage.setItem('clearwind_audio_queue', JSON.stringify(next));
+      } catch {
+        // ignore
+      }
+      return next;
+    });
+  }, []);
+
+  const clearAudioQueue = useCallback(() => {
+    setAudioQueueIds([]);
+    try {
+      localStorage.removeItem('clearwind_audio_queue');
+    } catch {
+      // ignore
+    }
+  }, []);
+
+  const selectedQueueArticles = useMemo(() => {
+    return audioQueueIds
+      .map((id) => activeArticlesPool.find((a) => a.id === id))
+      .filter((a): a is NewsItem => Boolean(a));
+  }, [audioQueueIds, activeArticlesPool]);
 
   const [currentPage, setCurrentPage] = useState(1);
   const [isLoading, setIsLoading] = useState(false);
@@ -495,12 +577,24 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
       return true;
     });
 
-    // Apply Sorting Priority
+    // Apply Sorting Priority with Multi-Source Convergence Boost
     if (sortOption === 'trending') {
-      result = [...result].sort((a, b) => b.hotScore - a.hotScore);
+      result = [...result].sort((a, b) => {
+        const scoreA = getEffectiveHotScore(a, multiSourceMap.get(a.id));
+        const scoreB = getEffectiveHotScore(b, multiSourceMap.get(b.id));
+        return scoreB - scoreA;
+      });
     } else if (sortOption === 'forYou') {
       const recs = getPersonalizedRecommendations(result, result.length);
-      result = recs.map((r) => r.article);
+      result = [...recs]
+        .sort((a, b) => {
+          const infoA = multiSourceMap.get(a.article.id);
+          const infoB = multiSourceMap.get(b.article.id);
+          const boostA = infoA && infoA.sourcesCount >= 2 ? 0.25 * (infoA.sourcesCount - 1) : 0;
+          const boostB = infoB && infoB.sourcesCount >= 2 ? 0.25 * (infoB.sourcesCount - 1) : 0;
+          return (b.score + boostB) - (a.score + boostA);
+        })
+        .map((r) => r.article);
     } else {
       // 'latest', 'unread', 'saved' sort by newest first
       result = [...result].sort(
@@ -511,6 +605,7 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
     return result;
   }, [
     activeArticlesPool,
+    multiSourceMap,
     selectedOrigin,
     selectedCategory,
     searchQuery,
@@ -540,6 +635,25 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
       feedElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   }, [totalPages]);
+
+  const filteredPlaylistCount = Math.min(filteredArticles.length, 30);
+
+  const handlePlayFilteredList = useCallback(() => {
+    if (filteredArticles.length === 0) return;
+    const count = Math.min(filteredArticles.length, 30);
+    const playList = filteredArticles.slice(0, count);
+    const title = isFiltered
+      ? t.filteredPlaylist
+      : (lang === 'vi' ? 'Bản tin danh sách hiện tại' : 'Current News Playlist');
+    briefingPlayer.playCustomList(playList, title);
+    setIsBriefingOpen(true);
+  }, [filteredArticles, isFiltered, briefingPlayer, t.filteredPlaylist, lang]);
+
+  const handlePlaySelectedQueue = useCallback(() => {
+    if (selectedQueueArticles.length === 0) return;
+    briefingPlayer.playCustomList(selectedQueueArticles, t.customPlaylist);
+    setIsBriefingOpen(true);
+  }, [selectedQueueArticles, briefingPlayer, t.customPlaylist]);
 
   // Reset card focus when changing page, filter or search
   useEffect(() => {
@@ -897,7 +1011,65 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
             </div>
           </div>
 
+          {/* Audio Playlist & Quick Listen Action Bar */}
+          <div className="mb-6 p-3 sm:p-4 rounded-2xl bg-gradient-to-r from-emerald-500/10 via-teal-500/10 to-indigo-500/10 dark:from-emerald-950/30 dark:via-teal-950/20 dark:to-indigo-950/30 border border-emerald-500/20 dark:border-emerald-500/30 flex flex-wrap items-center justify-between gap-3 shadow-xs">
+            <div className="flex items-center gap-2.5 min-w-0">
+              <div className="w-8 h-8 rounded-xl bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0">
+                <Headphones className="w-4 h-4" />
+              </div>
+              <div>
+                <p className="text-xs font-bold text-slate-900 dark:text-white flex items-center gap-1.5 font-display">
+                  <span>{lang === 'vi' ? 'Trải nghiệm nghe bản tin thông minh' : 'Smart Audio Digest Experience'}</span>
+                  <span className="hidden sm:inline-block px-1.5 py-0.2 rounded text-[10px] font-mono font-bold bg-emerald-500/20 text-emerald-600 dark:text-emerald-400">
+                    AI Voice 0đ
+                  </span>
+                </p>
+                <p className="text-[11px] text-slate-500 dark:text-slate-400 truncate max-w-[280px] sm:max-w-md">
+                  {lang === 'vi'
+                    ? 'Nghe liên tục theo bộ lọc hoặc chọn từng bài vào hàng đợi cá nhân'
+                    : 'Stream filtered articles continuously or curate your personal queue'}
+                </p>
+              </div>
+            </div>
 
+            <div className="flex items-center gap-2 flex-wrap w-full sm:w-auto justify-start sm:justify-end">
+              {/* Play Filtered News List Button */}
+              {filteredArticles.length > 0 && (
+                <button
+                  type="button"
+                  onClick={handlePlayFilteredList}
+                  className="flex-1 sm:flex-initial px-3.5 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-600 active:scale-95 text-white font-bold text-xs shadow-sm shadow-emerald-500/20 transition-all flex items-center justify-center gap-1.5 cursor-pointer min-h-[38px]"
+                  title={t.playFilteredList}
+                >
+                  <Play className="w-3.5 h-3.5 fill-current shrink-0" />
+                  <span className="truncate">{t.playFilteredList} ({filteredPlaylistCount})</span>
+                </button>
+              )}
+
+              {/* Play Selected Queue Button (if queue not empty) */}
+              {selectedQueueArticles.length > 0 && (
+                <div className="flex items-center gap-1.5 flex-1 sm:flex-initial">
+                  <button
+                    type="button"
+                    onClick={handlePlaySelectedQueue}
+                    className="flex-1 sm:flex-initial px-3.5 py-2 rounded-xl bg-purple-600 hover:bg-purple-700 active:scale-95 text-white font-bold text-xs shadow-sm shadow-purple-600/20 transition-all flex items-center justify-center gap-1.5 cursor-pointer animate-pulse min-h-[38px]"
+                    title={t.playSelectedQueue}
+                  >
+                    <ListMusic className="w-3.5 h-3.5 shrink-0" />
+                    <span className="truncate">{t.playSelectedQueue} ({selectedQueueArticles.length})</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={clearAudioQueue}
+                    className="p-2 rounded-xl border border-rose-500/30 bg-rose-500/10 text-rose-500 hover:bg-rose-500/20 transition-colors shrink-0 min-h-[38px] min-w-[38px] flex items-center justify-center"
+                    title={t.clearAudioQueue}
+                  >
+                    <Trash2 className="w-3.5 h-3.5" />
+                  </button>
+                </div>
+              )}
+            </div>
+          </div>
 
           {/* Feed Content */}
           {isLoading || isMonthLoading ? (
@@ -924,6 +1096,9 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
                     isFocused={focusedCardIndex === idx}
                     onSelectArticle={(art) => handleOpenArticle(art, false)}
                     onListen={(art) => handleOpenArticle(art, true)}
+                    multiSourceInfo={multiSourceMap.get(article.id)}
+                    isInAudioQueue={audioQueueIds.includes(article.id)}
+                    onToggleAudioQueue={toggleAudioQueue}
                   />
                 ))}
               </div>
@@ -936,6 +1111,9 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
                     isFocused={focusedCardIndex === idx}
                     onSelectArticle={(art) => handleOpenArticle(art, false)}
                     onListen={(art) => handleOpenArticle(art, true)}
+                    multiSourceInfo={multiSourceMap.get(article.id)}
+                    isInAudioQueue={audioQueueIds.includes(article.id)}
+                    onToggleAudioQueue={toggleAudioQueue}
                   />
                 ))}
               </div>
@@ -1132,7 +1310,7 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
       />
 
       <DailyBriefingPlayer
-        articles={topBriefingArticles}
+        articles={briefingPlayer.playlistArticles && briefingPlayer.playlistArticles.length > 0 ? briefingPlayer.playlistArticles : topBriefingArticles}
         player={briefingPlayer}
         isOpen={isBriefingOpen}
         onClose={() => setIsBriefingOpen(false)}

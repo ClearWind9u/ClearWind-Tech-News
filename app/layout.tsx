@@ -132,6 +132,11 @@ export default function RootLayout({
       className={`${plusJakartaSans.variable} ${jetbrainsMono.variable}`}
     >
       <head>
+        <link rel="dns-prefetch" href="https://vcdn1-vnexpress.vnecdn.net" />
+        <link rel="dns-prefetch" href="https://images.viblo.asia" />
+        <link rel="dns-prefetch" href="https://media.dev.to" />
+        <link rel="dns-prefetch" href="https://genk.mediacdn.vn" />
+        <link rel="preconnect" href="https://vcdn1-vnexpress.vnecdn.net" crossOrigin="anonymous" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

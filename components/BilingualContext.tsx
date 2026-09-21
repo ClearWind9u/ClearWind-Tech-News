@@ -102,6 +102,16 @@ interface Translations {
   avgScoreLabel: string;
   filterByTagActive: string;
   expandPlaylist: string;
+  playFilteredList: string;
+  playSelectedQueue: string;
+  addToQueue: string;
+  removeFromQueue: string;
+  inQueue: string;
+  multiSourceBadge: string;
+  customPlaylist: string;
+  filteredPlaylist: string;
+  audioQueueEmpty: string;
+  clearAudioQueue: string;
 }
 
 const translationsDict: Record<Language, Translations> = {
@@ -200,6 +210,16 @@ const translationsDict: Record<Language, Translations> = {
     avgScoreLabel: 'điểm TB',
     filterByTagActive: 'Đang lọc theo',
     expandPlaylist: 'Mở rộng danh sách phát',
+    playFilteredList: 'Nghe danh sách này',
+    playSelectedQueue: 'Phát bài đã chọn',
+    addToQueue: 'Thêm vào danh sách nghe',
+    removeFromQueue: 'Bỏ khỏi danh sách nghe',
+    inQueue: 'Đã trong hàng đợi',
+    multiSourceBadge: 'nguồn hội tụ',
+    customPlaylist: 'Playlist tùy chọn',
+    filteredPlaylist: 'Bản tin theo bộ lọc',
+    audioQueueEmpty: 'Hàng đợi nghe đang trống',
+    clearAudioQueue: 'Xóa hàng đợi',
   },
   en: {
     appName: 'ClearWind Tech',
@@ -296,6 +316,16 @@ const translationsDict: Record<Language, Translations> = {
     avgScoreLabel: 'pts avg',
     filterByTagActive: 'Filtered by',
     expandPlaylist: 'Expand Playlist',
+    playFilteredList: 'Listen to this list',
+    playSelectedQueue: 'Play selected queue',
+    addToQueue: 'Add to audio queue',
+    removeFromQueue: 'Remove from queue',
+    inQueue: 'In audio queue',
+    multiSourceBadge: 'sources converging',
+    customPlaylist: 'Custom Playlist',
+    filteredPlaylist: 'Filtered Briefing',
+    audioQueueEmpty: 'Audio queue is empty',
+    clearAudioQueue: 'Clear audio queue',
   },
 };
 
