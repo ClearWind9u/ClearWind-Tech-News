@@ -1,16 +1,5 @@
 import { z } from 'zod';
 
-export const CategoryEnum = z.enum([
-  'Tất cả / All',
-  'AI & Machine Learning',
-  'DevOps & Cloud',
-  'Cybersecurity',
-  'Software Engineering',
-  'Mobile & Web',
-  'Tech Trends & Startups',
-]);
-
-export type NewsCategory = z.infer<typeof CategoryEnum>;
 
 export const CANONICAL_CATEGORIES = [
   'AI & Machine Learning',

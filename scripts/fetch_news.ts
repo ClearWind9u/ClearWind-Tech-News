@@ -1,5 +1,3 @@
-import fs from 'fs';
-import path from 'path';
 import crypto from 'crypto';
 import Parser from 'rss-parser';
 import { GoogleGenerativeAI } from '@google/generative-ai';
@@ -20,8 +18,6 @@ import {
 import dotenv from 'dotenv';
 
 dotenv.config();
-
-const DATA_FILE = path.join(__dirname, '..', 'data', 'news.json');
 
 interface RSSFeedConfig {
   name: string;

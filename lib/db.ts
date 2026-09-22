@@ -234,18 +234,6 @@ export async function saveNewsDatabase(db: NewsDatabase): Promise<boolean> {
   }
 }
 
-/**
- * Extract Month Key YYYY-MM from ISO date string
- */
-export function getMonthKey(dateStr: string): string {
-  try {
-    const d = new Date(dateStr);
-    if (isNaN(d.getTime())) return new Date().toISOString().slice(0, 7);
-    return d.toISOString().slice(0, 7);
-  } catch {
-    return new Date().toISOString().slice(0, 7);
-  }
-}
 
 /**
  * Dynamically computes Archive Manifest (month partitions & article counts)

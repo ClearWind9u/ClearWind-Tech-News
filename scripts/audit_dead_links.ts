@@ -1,10 +1,6 @@
-import fs from 'fs';
-import path from 'path';
 import { NewsDatabase, NewsItem } from '../types/news';
-import { saveNewsDatabase } from '../lib/db';
+import { getNewsDatabase, saveNewsDatabase } from '../lib/db';
 import { isEditorialCleanArticle } from './it_translator';
-
-const DATA_FILE = path.join(process.cwd(), 'data', 'news.json');
 
 // Modern Browser User-Agent to prevent anti-scraping blocks from VnExpress, Tuổi Trẻ, etc.
 const BROWSER_HEADERS = {
@@ -304,13 +300,7 @@ export async function runDeadLinkAudit() {
   console.log('🔍 [Daily Auditor] Starting health check — Phase 1: Dead Links + Phase 2: Content Re-Validation');
   const startTime = Date.now();
 
-  if (!fs.existsSync(DATA_FILE)) {
-    console.error('❌ [Daily Auditor] data/news.json does not exist!');
-    process.exit(1);
-  }
-
-  const raw = fs.readFileSync(DATA_FILE, 'utf-8');
-  const db: NewsDatabase = JSON.parse(raw);
+  const db = await getNewsDatabase();
   const initialCount = db.articles.length;
   const geminiApiKey = process.env.GEMINI_API_KEY;
 

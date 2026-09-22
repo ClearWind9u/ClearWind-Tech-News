@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useMemo, useEffect, useCallback, useRef } from 'react';
+import React, { useState, useMemo, useEffect, useCallback, useRef, useTransition } from 'react';
 import {
   NewsDatabase,
   NewsItem,
@@ -74,10 +74,8 @@ import {
   Keyboard,
   Headphones,
   ListMusic,
-  ListPlus,
   Play,
   Trash2,
-  Layers,
 } from 'lucide-react';
 import { getPersonalizedRecommendations } from '@/lib/user_interest_tracker';
 
@@ -242,6 +240,7 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
 
   const [currentPage, setCurrentPage] = useState(1);
   const [isLoading, setIsLoading] = useState(false);
+  const [isPending, startTransition] = useTransition();
   const isUrlInitialized = useRef(false);
   const lastSyncedQueryRef = useRef<string>('');
 
@@ -500,17 +499,62 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
     return count;
   }, [selectedOrigin, timeFilter, selectedMonth, readTimeFilter, hotFilter, selectedTag]);
 
+  const handleSelectCategory = useCallback((cat: string) => {
+    startTransition(() => {
+      setSelectedCategory(cat);
+      setCurrentPage(1);
+    });
+  }, [startTransition]);
+
+  const handleSelectOrigin = useCallback((origin: 'all' | 'vietnam' | 'global') => {
+    startTransition(() => {
+      setSelectedOrigin(origin);
+      setCurrentPage(1);
+    });
+  }, [startTransition]);
+
+  const handleSelectTag = useCallback((tag: string | null) => {
+    startTransition(() => {
+      setSelectedTag(tag);
+      setCurrentPage(1);
+    });
+  }, [setSelectedTag, startTransition]);
+
+  const handleSelectMonth = useCallback((month: string) => {
+    startTransition(() => {
+      setSelectedMonth(month);
+      setCurrentPage(1);
+    });
+  }, [startTransition]);
+
+  const handleSelectReadTime = useCallback((opt: ReadTimeFilterOption) => {
+    startTransition(() => {
+      setReadTimeFilter(opt);
+      setCurrentPage(1);
+    });
+  }, [startTransition]);
+
+  const handleSelectHotFilter = useCallback((opt: HotFilterOption) => {
+    startTransition(() => {
+      setHotFilter(opt);
+      setCurrentPage(1);
+    });
+  }, [startTransition]);
+
   const handleResetAllFilters = useCallback(() => {
-    setSelectedCategory('all');
-    setSelectedOrigin('all');
-    setSelectedTag(null);
-    setTimeFilter('all');
-    setSelectedMonth('all');
-    setReadTimeFilter('all');
-    setHotFilter('all');
-    setSearchQuery('');
-    setSortOption('latest');
-  }, [setSelectedTag, setTimeFilter, setSortOption]);
+    startTransition(() => {
+      setSelectedCategory('all');
+      setSelectedOrigin('all');
+      setSelectedTag(null);
+      setTimeFilter('all');
+      setSelectedMonth('all');
+      setReadTimeFilter('all');
+      setHotFilter('all');
+      setSearchQuery('');
+      setSortOption('latest');
+      setCurrentPage(1);
+    });
+  }, [setSelectedTag, setTimeFilter, setSortOption, startTransition]);
 
   // Filter & Sort Pipeline
   const filteredArticles = useMemo(() => {
@@ -629,12 +673,14 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
 
   const handlePageChange = useCallback((page: number) => {
     if (page < 1 || page > totalPages) return;
-    setCurrentPage(page);
+    startTransition(() => {
+      setCurrentPage(page);
+    });
     const feedElement = document.getElementById('news-feed-container');
     if (feedElement) {
       feedElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
-  }, [totalPages]);
+  }, [totalPages, startTransition]);
 
   const filteredPlaylistCount = Math.min(filteredArticles.length, 30);
 
@@ -860,20 +906,20 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
           <CategoryFilter
             categories={categories}
             selectedCategory={selectedCategory}
-            onSelectCategory={setSelectedCategory}
+            onSelectCategory={handleSelectCategory}
             selectedOrigin={selectedOrigin}
-            onSelectOrigin={setSelectedOrigin}
+            onSelectOrigin={handleSelectOrigin}
             totalArticlesCount={filteredArticles.length}
             archiveManifest={archiveManifest}
             selectedMonth={selectedMonth}
-            onSelectMonth={setSelectedMonth}
+            onSelectMonth={handleSelectMonth}
             readTimeFilter={readTimeFilter}
-            onSelectReadTime={setReadTimeFilter}
+            onSelectReadTime={handleSelectReadTime}
             hotFilter={hotFilter}
-            onSelectHotFilter={setHotFilter}
+            onSelectHotFilter={handleSelectHotFilter}
             availableTags={availableTags}
             selectedTag={selectedTag}
-            onSelectTag={setSelectedTag}
+            onSelectTag={handleSelectTag}
             onResetAllFilters={handleResetAllFilters}
             isFiltered={isFiltered}
             activeFiltersCount={activeFiltersCount}
@@ -885,9 +931,9 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
             selectedTag={selectedTag}
             onSelectTag={(tag) => {
               if (tag && selectedCategory !== 'all') {
-                setSelectedCategory('all');
+                handleSelectCategory('all');
               }
-              setSelectedTag(tag);
+              handleSelectTag(tag);
             }}
           />
 
@@ -1011,6 +1057,13 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
             </div>
           </div>
 
+          {/* Subtle Loading Progress Bar during filter / page transitions */}
+          {(isPending || isLoading) && (
+            <div className="h-1 w-full bg-slate-200/60 dark:bg-white/10 overflow-hidden rounded-full mb-4">
+              <div className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-indigo-500 animate-pulse w-full" />
+            </div>
+          )}
+
           {/* Audio Playlist & Quick Listen Action Bar */}
           <div className="mb-6 p-3 sm:p-4 rounded-2xl bg-gradient-to-r from-emerald-500/10 via-teal-500/10 to-indigo-500/10 dark:from-emerald-950/30 dark:via-teal-950/20 dark:to-indigo-950/30 border border-emerald-500/20 dark:border-emerald-500/30 flex flex-wrap items-center justify-between gap-3 shadow-xs">
             <div className="flex items-center gap-2.5 min-w-0">
@@ -1072,7 +1125,7 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
           </div>
 
           {/* Feed Content */}
-          {isLoading || isMonthLoading ? (
+          {isLoading || isPending || isMonthLoading ? (
             viewMode === 'grid' ? (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {Array.from({ length: 6 }).map((_, i) => (

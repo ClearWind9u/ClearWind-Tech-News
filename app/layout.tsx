@@ -137,6 +137,10 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://media.dev.to" />
         <link rel="dns-prefetch" href="https://genk.mediacdn.vn" />
         <link rel="preconnect" href="https://vcdn1-vnexpress.vnecdn.net" crossOrigin="anonymous" />
+        {/* RSS Autodiscovery — enables Feedly, Reeder, NewsBlur to auto-detect feeds */}
+        <link rel="alternate" type="application/rss+xml" title="ClearWind Tech News (Tiếng Việt)" href="/api/rss?lang=vi" />
+        <link rel="alternate" type="application/rss+xml" title="ClearWind Tech News (English)" href="/api/rss?lang=en" />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
