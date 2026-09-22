@@ -1,7 +1,314 @@
 {
-  "lastUpdated": "2026-09-22T02:35:00.712Z",
-  "totalArticles": 179,
+  "lastUpdated": "2026-09-22T10:39:33.403Z",
+  "totalArticles": 188,
   "articles": [
+    {
+      "id": "f13a0b36ef371677",
+      "title_vi": "Top 10 phần mềm nâng cấp video bằng trí tuệ nhân tạo năm 2026: Quy trình làm việc và đánh đổi kỹ thuật",
+      "title_en": "Top 10 AI Video Upscalers in 2026: Workflow and Technical Trade-offs",
+      "summary_vi": [
+        "Bài viết cung cấp bức tranh toàn cảnh về mười công cụ nâng cấp chất lượng video sử dụng trí tuệ nhân tạo hàng đầu trong năm hai nghìn không trăm hai mươi sáu, giúp người dùng lựa chọn giải pháp phù hợp dựa trên nhu cầu thực tế của từng dự án.",
+        "Phân tích chuyên sâu tập trung vào các yếu tố kỹ thuật cốt lõi bao gồm cấu trúc quy trình xử lý dữ liệu, mức độ tiêu thụ tài nguyên phần cứng và các sự đánh đổi giữa tốc độ kết xuất khung hình với độ chi tiết của hình ảnh.",
+        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư xử lý hình ảnh và nhà phát triển hệ thống đa phương tiện, giúp tối ưu hóa hiệu suất vận hành các mô hình học sâu trên hạ tầng phần cứng hiện đại."
+      ],
+      "summary_en": [
+        "The article provides a comprehensive overview of the top ten artificial intelligence video upscaling tools in the year twenty twenty-six, helping users select the right solution based on the practical requirements of each project.",
+        "Deep technical analysis focuses on core factors including data processing workflow architectures, hardware resource consumption levels, and trade-offs between frame rendering speed and image detail fidelity.",
+        "This knowledge delivers high practical value for visual processing engineers and multimedia system developers, helping to optimize the operational performance of deep learning models on modern hardware infrastructure."
+      ],
+      "originalTitle": "Top 10 AI Video Upscalers in 2026: Workflow and Technical Trade-offs",
+      "url": "https://viblo.asia/p/top-10-ai-video-upscalers-in-2026-workflow-and-technical-trade-offs-kNLr3nyEVgA",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Video Upscaling",
+        "Machine Learning",
+        "Deep Learning",
+        "Workflow Optimization"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-09-22T17:10:06.000Z",
+      "contentSnippet": "A resolution number does not tell you whether an AI video upscaler is right for your footage. The useful question is what kind of workflow you need: a...",
+      "authorName": "Carol Luo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "3c010cb7530998ee",
+      "title_vi": "HNSW và B-tree: So sánh hai cấu trúc chỉ mục cho hai bài toán tìm kiếm khác nhau",
+      "title_en": "HNSW and B-tree: Comparing Two Index Structures for Different Search Problems",
+      "summary_vi": [
+        "Bài viết phân tích sự khác biệt cốt lõi giữa cấu trúc chỉ mục HNSW chuyên dụng cho cơ sở dữ liệu vector và B-tree truyền thống khi xử lý các bài toán tìm kiếm dữ liệu hiện đại trong kỷ nguyên trí tuệ nhân tạo.",
+        "Hồ sơ kỹ thuật chỉ ra cách HNSW tối ưu hóa việc tìm kiếm láng giềng gần nhất xấp xỉ trong không gian chiều cao, trong khi B-tree thống trị các truy vấn chính xác và phạm vi dữ liệu có cấu trúc rõ ràng.",
+        "Hiểu rõ bản chất toán học và cơ chế hoạt động của từng loại chỉ mục giúp kỹ sư phần mềm lựa chọn đúng công nghệ lưu trữ, tối ưu hóa hiệu năng hệ thống AI và giảm thiểu chi phí phần cứng."
+      ],
+      "summary_en": [
+        "The article analyzes the core differences between HNSW index structures specialized for vector databases and traditional B-trees when handling modern data retrieval problems in the artificial intelligence era.",
+        "Technical profiles indicate how HNSW optimizes approximate nearest neighbor search in high-dimensional spaces, whereas B-tree dominates exact matches and range queries for structured data.",
+        "Understanding the mathematical nature and operational mechanisms of each index type helps software engineers choose the right storage technology, optimize AI system performance, and minimize hardware costs."
+      ],
+      "originalTitle": "HNSW và B-tree/B+ tree: Cùng là index, nhưng giải quyết hai bài toán khác nhau",
+      "url": "https://viblo.asia/p/hnsw-va-b-treeb-tree-cung-la-index-nhung-giai-quyet-hai-bai-toan-khac-nhau-Nj4vgarqJ6r",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "HNSW",
+        "B-tree",
+        "Vector Database",
+        "Data Structures",
+        "AI Search"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-09-22T17:06:29.000Z",
+      "contentSnippet": "Khi nói đến “tăng tốc tìm kiếm dữ liệu”, người mới tìm hiểu vector database hoặc AI search rất dễ đặt HNSW cạnh những cấu trúc index quen thuộc như B-...",
+      "authorName": "Đỗ Thảo Giang",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9631ff059f77bd8d",
+      "title_vi": "Cách thiết lập quy trình CI/CD đơn giản với GitHub Actions cho lập trình viên",
+      "title_en": "How to set up a simple CI/CD pipeline with GitHub Actions for developers",
+      "summary_vi": [
+        "Bài viết chia sẻ hướng dẫn chi tiết cách thiết lập một quy trình tự động hóa tích hợp và triển khai liên tục hoàn toàn miễn phí cho các dự án phần mềm cá nhân sử dụng công cụ GitHub Actions phổ biến hiện nay.",
+        "Tác giả đi sâu vào việc cấu hình các tệp tin YAML, thiết lập luồng công việc kích hoạt khi có mã nguồn được đẩy lên kho lưu trữ và cách tích hợp các bước kiểm thử tự động một cách hiệu quả.",
+        "Giải pháp này giúp các lập trình viên tối ưu hóa đáng kể thời gian triển khai mã nguồn, giảm thiểu sai sót do thao tác thủ công và nâng cao chất lượng sản phẩm trong suốt quá trình phát triển phần mềm."
+      ],
+      "summary_en": [
+        "This article provides a detailed guide on how to set up a completely free continuous integration and deployment automation pipeline for personal software projects using the popular GitHub Actions tool.",
+        "The author dives deep into configuring YAML files, establishing trigger workflows when source code is pushed to the repository, and effectively integrating automated testing steps into the pipeline.",
+        "This solution helps developers significantly optimize code deployment time, minimize errors caused by manual operations, and enhance product quality throughout the entire software development lifecycle."
+      ],
+      "originalTitle": "Cách mình setup CI/CD đơn giản với GitHub Actions",
+      "url": "https://viblo.asia/p/cach-minh-setup-cicd-don-gian-voi-github-actions-pPLkNbzZJRZ",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "CI/CD",
+        "GitHub Actions",
+        "DevOps",
+        "Automation",
+        "Software Engineering"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-22T16:39:53.000Z",
+      "contentSnippet": "",
+      "authorName": "EME GUG",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ff80b14a824b1de5",
+      "title_vi": "Hướng dẫn bật xác thực đa yếu tố cho tài khoản gốc trên nền tảng AWS",
+      "title_en": "Guide to Enabling Multi-Factor Authentication for AWS Root Accounts",
+      "summary_vi": [
+        "Bài viết hướng dẫn chi tiết quy trình kích hoạt xác thực đa yếu tố nhằm bảo vệ tài khoản gốc có quyền lực tối cao trên hệ thống điện toán đám mây Amazon Web Services khỏi các nguy cơ xâm nhập trái phép.",
+        "Tài khoản quản trị gốc nắm giữ toàn bộ quyền kiểm soát tài nguyên hạ tầng, do đó việc thiết lập lớp bảo mật bổ sung bằng thiết bị phần cứng hoặc ứng dụng di động là yêu cầu bắt buộc trong tiêu chuẩn an toàn thông tin.",
+        "Giải pháp này giúp các kỹ sư hệ thống và quản trị viên đám mây giảm thiểu tối đa rủi ro lộ lọt thông tin xác thực, tuân thủ các quy định bảo mật khắt khe khi vận hành hệ thống sản xuất thực tế."
+      ],
+      "summary_en": [
+        "The article provides a detailed guide on enabling multi-factor authentication to protect the highest-privilege root account on the Amazon Web Services cloud computing platform against unauthorized intrusion risks.",
+        "The root administrative account holds total control over infrastructure resources, making the establishment of an additional security layer using hardware devices or mobile applications a mandatory requirement in information security standards.",
+        "This solution helps system engineers and cloud administrators minimize the risk of credential leakage, strictly complying with stringent security regulations when operating production environments in real-world scenarios."
+      ],
+      "originalTitle": "[02] Hướng dẫn Enable TFA/MFA cho tài khoản Root trên AWS",
+      "url": "https://viblo.asia/p/02-huong-dan-enable-tfamfa-cho-tai-khoan-root-tren-aws-ymJXDW5EJkq",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "AWS",
+        "CloudSecurity",
+        "MFA",
+        "DevOps",
+        "IdentityManagement"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-22T16:02:43.000Z",
+      "contentSnippet": "Hướng dẫn Enable TFA/MFA cho tài khoản Root trên AWS 1. Mục đích Tài khoản AWS Root User là tài khoản có quyền cao nhất trong một AWS Account. Nếu t...",
+      "authorName": "Lê Anh",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e1f1dca4ae9c6918",
+      "title_vi": "Năm điều khiến trí tuệ nhân tạo Siri mới làm người dùng cảm thấy bực mình",
+      "title_en": "Five reasons why the new Siri artificial intelligence is frustrating users",
+      "summary_vi": [
+        "Phiên bản trợ lý ảo tích hợp trí tuệ nhân tạo mới ra mắt gần đây được quảng cáo sở hữu khả năng hiểu ngữ cảnh sâu rộng cùng tính năng tìm kiếm thông minh trong tin nhắn.",
+        "Hệ thống xử lý ngôn ngữ tự nhiên gặp nhiều hạn chế trong việc phân tích ý định phức tạp của người dùng khi truy xuất dữ liệu từ các ứng dụng cốt lõi.",
+        "Sự cố này đặt ra thách thức lớn cho các kỹ sư phần mềm trong việc tối ưu hóa mô hình ngôn ngữ lớn để vận hành mượt mà trên thiết bị di động."
+      ],
+      "summary_en": [
+        "The newly launched virtual assistant integrated with advanced artificial intelligence was advertised to possess deep contextual understanding and smart search features within messages.",
+        "The natural language processing system faces numerous limitations in analyzing complex user intents when retrieving data from core mobile applications efficiently.",
+        "This issue poses a significant challenge for software engineers aiming to optimize large language models for smooth execution directly on edge mobile hardware."
+      ],
+      "originalTitle": "5 điều khiến Siri AI mới làm người dùng bực mình",
+      "url": "https://tinhte.vn/thread/5-dieu-khien-siri-ai-moi-lam-nguoi-dung-buc-minh.4178652/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Siri",
+        "Mobile",
+        "NLP",
+        "iOS"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-22T10:37:25.000Z",
+      "contentSnippet": "5 điều khiến Siri AI mới làm người dùng bực mình Siri AI mới ra mắt cùng iOS 27 tháng này, được quảng cáo là hiểu ngữ cảnh sâu hơn, tìm được thông tin trong tin nhắn và ghi chú, thậm chí nhận...",
+      "authorName": "nhatminhngo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "8a76be6a28f2ddc2",
+      "title_vi": "Phiên bản Mỹ của dòng điện thoại thông minh cao cấp vẫn tiếp tục sử dụng chip modem di động từ Qualcomm",
+      "title_en": "US Version of the Flagship Smartphone Continues to Use Qualcomm Mobile Modem Chipset",
+      "summary_vi": [
+        "Các chuyên gia phân tích phần cứng từ TechInsights đã tiến hành quy trình mổ bụng dòng điện thoại thông minh cao cấp mới nhất nhằm khám phá các linh kiện điện tử bên trong thiết bị.",
+        "Kết quả kiểm tra chi tiết cho thấy riêng phiên bản thương mại phân phối tại thị trường Mỹ vẫn tiếp tục tích hợp bộ vi xử lý modem mạng di động Snapdragon X80 do tập đoàn Qualcomm sản xuất.",
+        "Phát hiện này cung cấp những góc nhìn chuyên sâu về chiến lược chuỗi cung ứng linh kiện phần cứng cũng như lộ trình phát triển công nghệ kết nối không dây của các hãng sản xuất thiết bị di động lớn."
+      ],
+      "summary_en": [
+        "Hardware teardown experts from TechInsights have performed a detailed physical inspection of the latest flagship smartphone to examine the internal electronic components.",
+        "Detailed examination results indicate that exclusively the commercial variant distributed within the United States market continues to integrate the Snapdragon X80 mobile network modem processor manufactured by Qualcomm.",
+        "This discovery provides in-depth perspectives regarding hardware supply chain strategies as well as the wireless connectivity technology roadmap of major mobile device manufacturers."
+      ],
+      "originalTitle": "iPhone 18 Pro Max bản Mỹ hóa ra vẫn dùng modem Qualcomm X80",
+      "url": "https://tinhte.vn/thread/iphone-18-pro-max-ban-my-hoa-ra-van-dung-modem-qualcomm-x80.4178401/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Qualcomm",
+        "Modem",
+        "Hardware",
+        "Mobile",
+        "Smartphones"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-22T09:11:13.000Z",
+      "contentSnippet": "iPhone 18 Pro Max bản Mỹ hóa ra vẫn dùng modem Qualcomm X80 TechInsights vừa mổ bụng iPhone 18 Pro Max và phát hiện riêng bản bán tại thị trường Mỹ vẫn dùng modem Snapdragon X80 của Qualcomm....",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ea5c60e945ffb741",
+      "title_vi": "Khám phá máy đọc sách Boox chạy Android mở, hỗ trợ chia sẻ ghi chú và xem video ngắn",
+      "title_en": "Exploring Boox e-readers running open Android with note-sharing and short video capabilities",
+      "summary_vi": [
+        "Bài viết thảo luận về trải nghiệm sử dụng máy đọc sách Boox từ góc nhìn của một người không chuyên đọc sách, tập trung vào khả năng vận hành hệ điều hành Android mở để tối ưu hóa nhu cầu giải trí và công việc hàng ngày.",
+        "Thiết bị tích hợp hệ điều hành Android cho phép cài đặt các ứng dụng linh hoạt, khả năng đồng bộ ghi chú dễ dàng qua các nền tảng đám mây và tối ưu hóa màn hình mực điện tử để xem các nội dung đa phương tiện.",
+        "Việc ứng dụng các thiết bị đọc sách thông minh chạy hệ điều hành mở mở ra hướng đi mới cho các nhà phát triển phần mềm tối ưu hóa giao diện người dùng trên màn hình E-Ink, nâng cao trải nghiệm số cho người dùng."
+      ],
+      "summary_en": [
+        "The article discusses the user experience of Boox e-readers from a non-avid reader perspective, focusing on the operation of an open Android operating system to optimize daily entertainment and productivity needs.",
+        "The device integrates the Android operating system to allow flexible application installation, seamless note synchronization across cloud platforms, and optimization of electronic ink displays for viewing multimedia content.",
+        "The application of smart e-readers running open operating systems opens up new directions for software developers to optimize user interfaces on E-Ink displays, enhancing the digital user experience."
+      ],
+      "originalTitle": "Bàn chuyện máy đọc sách với Boox: Chạy Android mở, chia sẻ ghi chú và video ngắn",
+      "url": "https://tinhte.vn/thread/ban-chuyen-may-doc-sach-voi-boox-chay-android-mo-chia-se-ghi-chu-va-video-ngan.4177485/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Android",
+        "E-Ink",
+        "Mobile Devices",
+        "Software Integration",
+        "UI UX"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-22T08:46:37.000Z",
+      "contentSnippet": "Mình không phải là kiểu người mọt sách, suốt ngày ngồi ôm cuốn sách dày cộp để đọc. Nhiều khi mở một cuốn sách nhiều chữ ra đọc một hồi là mắt mình bắt đầu díp lại vì buồn ngủ. Nhưng dưới góc độ...",
+      "authorName": "cuhiep",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "dec84f4554b5013f",
+      "title_vi": "Trung Quốc lần đầu thử nghiệm pin mặt trời perovskite dưới lòng đại dương",
+      "title_en": "China Tests Perovskite Solar Cells Underwater for the First Time",
+      "summary_vi": [
+        "Các nhà khoa học Trung Quốc đã lần đầu tiên chứng minh thành công khả năng hoạt động của pin mặt trời perovskite ở độ sâu khoảng mười mét dưới lòng đại dương.",
+        "Hệ thống này đã thực hiện thành công việc sạc trực tiếp cho pin lithium-ion và cung cấp nguồn điện ổn định để vận hành hệ thống đèn LED dưới nước.",
+        "Thành tựu này mở ra hướng đi mới trong việc phát triển nguồn năng lượng tự chủ cho các thiết bị phần cứng, robot ngầm và cảm biến đại dương."
+      ],
+      "summary_en": [
+        "Chinese scientists have successfully demonstrated for the first time that perovskite solar cells can operate effectively at a depth of about ten meters underwater.",
+        "The system successfully charged lithium-ion batteries directly and provided a stable power source to operate LED lighting systems beneath the ocean surface.",
+        "This achievement paves the way for developing autonomous power sources for hardware devices, underwater robots, and deep-sea ocean sensors."
+      ],
+      "originalTitle": "Trung Quốc lần đầu thử nghiệm pin mặt trời ở độ sâu 10 mét ngoài khơi",
+      "url": "https://genk.vn/trung-quoc-lan-dau-thu-nghiem-pin-mat-troi-o-do-sau-10-met-ngoai-khoi-165260922152045727.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Solar Energy",
+        "Perovskite",
+        "Hardware",
+        "IoT",
+        "Underwater Robotics"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-22T08:20:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/22/avatar1790065228112-17900652301762014159826.webp",
+      "contentSnippet": "TPO - Các nhà khoa học Trung Quốc lần đầu chứng minh pin mặt trời perovskite có thể hoạt động ở độ sâu khoảng 10 mét dưới biển, sạc pin lithium-ion và cấp điện cho đèn LED, mở ra hướng phát triển nguồn năng lượng tự chủ cho robot, cảm biến và thiết bị hoạt động dưới nước.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0b72c0a9ba1d83e5",
+      "title_vi": "Điện thoại iPhone 20 Pro Max có thể được trang bị màn hình kích thước lên tới 7 inch",
+      "title_en": "Apple's Upcoming iPhone 20 Pro Max Might Feature a Massive 7 Inch Display",
+      "summary_vi": [
+        "Dòng điện thoại kỷ niệm 20 năm của hãng Apple được đồn đoán sẽ có sự thay đổi mang tính bước ngoặt về ngôn ngữ thiết kế phần cứng cùng kích thước màn hình lớn hơn.",
+        "Các thông tin rò rỉ từ chuỗi cung ứng cho thấy phiên bản cao cấp dự kiến sở hữu màn hình bảy inch với độ phân giải cao, duy trì mật độ điểm ảnh sắc nét.",
+        "Việc gia tăng kích thước vật lý mà vẫn tối ưu hóa không gian hiển thị tiếp tục khẳng định xu hướng phát triển công nghệ phần cứng thiết bị di động cao cấp."
+      ],
+      "summary_en": [
+        "Apple's upcoming anniversary smartphone series is rumored to feature major hardware design changes alongside significantly increased physical display dimensions.",
+        "Supply chain leaks indicate that the top tier model is expected to feature a seven inch screen with high resolution, maintaining a sharp pixel density.",
+        "Expanding physical dimensions while optimizing display space continues to highlight the ongoing development trend in high end mobile hardware technology."
+      ],
+      "originalTitle": "iPhone 20 Pro Max có thể trang bị màn hình 7 inch",
+      "url": "https://vnexpress.net/iphone-20-pro-max-co-the-trang-bi-man-hinh-7-inch-5123069.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "Mobile Hardware",
+        "Display Technology"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-22T04:11:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/21/iphone-anniversary-1790002971-4748-1790002993.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=T8dIBvTdIEo1Z6MXQLeUkA",
+      "contentSnippet": "Mẫu iPhone kỷ niệm 20 năm được cho là sẽ thay đổi lớn về ngôn ngữ thiết kế, trong có kích thước màn hình có thể tăng lên 7 inch.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "29b678d32cdeb246",
       "title_vi": "iPhone 18 Pro trang bị khẩu độ biến thiên, Apple đang thay đổi cách người dùng chụp ảnh như thế nào?",
