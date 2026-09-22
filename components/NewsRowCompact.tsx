@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import { NewsItem, getCategoryLabel, formatRelativeTime } from '../types/news';
 import { useBilingual } from './BilingualContext';
 import { Clock, Bookmark, Calendar, ArrowUpRight, Headphones, Layers, ListPlus, Check } from 'lucide-react';
@@ -93,16 +94,19 @@ export const NewsRowCompact: React.FC<NewsRowCompactProps> = ({
           </span>
         </div>
 
-        {/* Title */}
-        <h3
-          className={`text-sm sm:text-base leading-snug line-clamp-1 transition-colors font-bold ${
+        {/* Title — click opens /article/[id] page; row body click opens modal */}
+        <Link
+          href={`/article/${article.id}`}
+          onClick={(e) => e.stopPropagation()}
+          className={`block text-sm sm:text-base leading-snug line-clamp-1 transition-colors font-bold hover:underline decoration-emerald-500/40 underline-offset-2 ${
             read
-              ? 'text-slate-600 dark:text-slate-300 group-hover:text-emerald-600 dark:group-hover:text-emerald-400'
-              : 'text-slate-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400'
+              ? 'text-slate-600 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400'
+              : 'text-slate-900 dark:text-white hover:text-emerald-600 dark:hover:text-emerald-400'
           }`}
+          title={title}
         >
           {title}
-        </h3>
+        </Link>
 
         <div className="flex items-center gap-2 mt-1">
           {article.tags.slice(0, 3).map((tag, i) => (

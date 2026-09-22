@@ -19,6 +19,7 @@ import {
   Tag,
   MapPin,
   Globe,
+  Bot,
   Layers,
   ChevronDown,
   Check,
@@ -109,6 +110,90 @@ export const CategoryFilter: React.FC<CategoryFilterProps> = ({
 
   return (
     <div className="mb-6 space-y-3 relative" ref={panelRef}>
+      {/* Smart Presets */}
+      <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none touch-pan-x">
+        <span className="text-[10px] font-mono font-bold text-slate-400 dark:text-slate-500 uppercase tracking-widest shrink-0 hidden sm:block">
+          {lang === 'vi' ? 'Khám phá:' : 'Discover:'}
+        </span>
+
+        <button
+          onClick={() => {
+            onSelectCategory('all');
+            onSelectOrigin('all');
+            setTimeFilter('24h');
+            onSelectHotFilter('trending');
+          }}
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-bold transition-all shrink-0
+            bg-gradient-to-r from-orange-500/10 to-red-500/10 border-orange-500/30 text-orange-600 dark:text-orange-400
+            hover:from-orange-500/20 hover:to-red-500/20 hover:border-orange-500/50 hover:shadow-sm"
+        >
+          <Flame className="w-3.5 h-3.5" />
+          {lang === 'vi' ? 'Hôm nay Hot' : 'Hot Today'}
+        </button>
+
+        <button
+          onClick={() => {
+            onSelectCategory('all');
+            onSelectOrigin('vietnam');
+            setTimeFilter('7d');
+            onSelectHotFilter('all');
+          }}
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-bold transition-all shrink-0
+            bg-emerald-500/10 border-emerald-500/30 text-emerald-600 dark:text-emerald-400
+            hover:bg-emerald-500/20 hover:border-emerald-500/50 hover:shadow-sm"
+        >
+          <MapPin className="w-3.5 h-3.5" />
+          {lang === 'vi' ? 'Tin Việt Nam' : 'VN Tech'}
+        </button>
+
+        <button
+          onClick={() => {
+            onSelectCategory('AI & Machine Learning');
+            onSelectOrigin('all');
+            setTimeFilter('7d');
+            onSelectHotFilter('all');
+          }}
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-bold transition-all shrink-0
+            bg-purple-500/10 border-purple-500/30 text-purple-600 dark:text-purple-400
+            hover:bg-purple-500/20 hover:border-purple-500/50 hover:shadow-sm"
+        >
+          <Bot className="w-3.5 h-3.5" />
+          {lang === 'vi' ? 'AI mới nhất' : 'Latest AI'}
+        </button>
+
+        <button
+          onClick={() => {
+            onSelectCategory('all');
+            onSelectOrigin('all');
+            setTimeFilter('all');
+            onSelectReadTime('quick');
+          }}
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-bold transition-all shrink-0
+            bg-sky-500/10 border-sky-500/30 text-sky-600 dark:text-sky-400
+            hover:bg-sky-500/20 hover:border-sky-500/50 hover:shadow-sm"
+        >
+          <Zap className="w-3.5 h-3.5" />
+          {lang === 'vi' ? 'Đọc nhanh' : 'Quick reads'}
+        </button>
+
+        {isFiltered && (
+          <button
+            onClick={onResetAllFilters}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-semibold transition-all shrink-0
+              border-slate-200 dark:border-white/10 text-slate-500 dark:text-slate-400
+              hover:text-rose-600 dark:hover:text-rose-400 hover:border-rose-500/40 hover:bg-rose-500/5"
+          >
+            <X className="w-3 h-3" />
+            {lang === 'vi' ? 'Bỏ lọc' : 'Clear'}
+            {activeFiltersCount > 0 && (
+              <span className="w-4 h-4 rounded-full bg-rose-500/20 text-rose-600 dark:text-rose-400 text-[9px] font-mono font-bold flex items-center justify-center">
+                {activeFiltersCount}
+              </span>
+            )}
+          </button>
+        )}
+      </div>
+
       {/* 1. Category Editorial Nav (The Verge / Linear style tabs) */}
       <div className="flex items-center gap-1.5 overflow-x-auto pb-2 scrollbar-none touch-pan-x border-b border-slate-200 dark:border-white/10">
         <button

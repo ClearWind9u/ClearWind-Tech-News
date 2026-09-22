@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import { NewsItem, getCategoryLabel, formatRelativeTime } from '../types/news';
 import { useBilingual } from './BilingualContext';
 import {
@@ -213,16 +214,19 @@ export const NewsCard: React.FC<NewsCardProps> = ({
           </span>
         </div>
 
-        {/* Title: Editorial Headline */}
-        <h3
-          className={`text-[15px] sm:text-base leading-snug font-extrabold mb-2.5 line-clamp-2 transition-colors duration-200 font-display ${
+        {/* Title: Editorial Headline — click navigates to /article/[id] page */}
+        <Link
+          href={`/article/${article.id}`}
+          onClick={(e) => e.stopPropagation()}
+          className={`block text-[15px] sm:text-base leading-snug font-extrabold mb-2.5 line-clamp-2 transition-colors duration-200 font-display hover:underline decoration-emerald-500/50 underline-offset-2 ${
             read
-              ? 'text-slate-600 dark:text-slate-300 group-hover:text-emerald-600 dark:group-hover:text-emerald-400'
-              : 'text-slate-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400'
+              ? 'text-slate-600 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400'
+              : 'text-slate-900 dark:text-white hover:text-emerald-600 dark:hover:text-emerald-400'
           }`}
+          title={lang === 'vi' ? 'Mở trang bài viết' : 'Open article page'}
         >
           {title}
-        </h3>
+        </Link>
 
         {/* Clean Editorial Excerpt (Leading Takeaway Preview without bulky numbers) */}
         {summaryPoints.length > 0 && (
