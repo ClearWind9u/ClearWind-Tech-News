@@ -1,7 +1,351 @@
 {
-  "lastUpdated": "2026-09-22T16:01:54.377Z",
-  "totalArticles": 201,
+  "lastUpdated": "2026-09-23T02:35:29.699Z",
+  "totalArticles": 217,
   "articles": [
+    {
+      "id": "bdd677658e6ba62d",
+      "title_vi": "Makefile cho lập trình viên: Công cụ tự động hóa không chỉ dành riêng cho C và C++",
+      "title_en": "Makefile for Developers: Powerful Automation Beyond C and C++",
+      "summary_vi": [
+        "Bài viết khám phá cách sử dụng công cụ Makefile trong lập trình hiện đại nhằm mục đích tự động hóa các tác vụ lặp đi lặp lại không chỉ giới hạn trong ngôn ngữ C hoặc C++ truyền thống.",
+        "Nội dung tập trung phân tích cơ chế quản lý dependency thông minh, tối ưu hóa quy trình chạy lệnh build, kiểm thử mã nguồn và triển khai ứng dụng cho nhiều nền tảng công nghệ khác nhau.",
+        "Giá trị thực tiễn mang lại giúp các kỹ sư phần mềm chuẩn hóa môi trường làm việc, tiết kiệm thời gian thao tác dòng lệnh và nâng cao năng suất phát triển dự án hiệu quả."
+      ],
+      "summary_en": [
+        "The article explores how developers utilize Makefile in modern programming to automate repetitive tasks beyond the traditional scope of C and C++ languages.",
+        "It focuses on analyzing intelligent dependency management mechanisms, optimizing command execution workflows for code building, automated testing, and multi-platform deployment.",
+        "The practical value helps software engineers standardize development environments, reduce command-line operation time, and significantly boost overall project productivity."
+      ],
+      "originalTitle": "Makefile cho developer: không chỉ dành cho C/C++",
+      "url": "https://viblo.asia/p/makefile-cho-developer-khong-chi-danh-cho-cc-7Z4DEg3pJnX",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Makefile",
+        "Automation",
+        "DevOps",
+        "Productivity",
+        "Build Tools"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-23T08:01:59.000Z",
+      "contentSnippet": "",
+      "authorName": "EME GUG",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "39793621af932b55",
+      "title_vi": "Vibe Coding Thực Chiến: Kỹ thuật viết câu lệnh cho lập trình viên để tận dụng tối đa trí tuệ nhân tạo",
+      "title_en": "Practical Vibe Coding: Prompt Engineering for Developers to Leverage AI Effectively",
+      "summary_vi": [
+        "Bài viết chia sẻ kinh nghiệm thực chiến về phương pháp viết câu lệnh tối ưu dành cho các lập trình viên khi làm việc với trí tuệ nhân tạo nhằm nâng cao hiệu suất.",
+        "Tác giả sử dụng hạ tầng thực nghiệm trên máy chủ ảo chạy hệ điều hành Ubuntu để kiểm chứng các mô hình và phương thức giao tiếp hiệu quả với công cụ lập trình.",
+        "Nội dung mang lại giá trị thực tiễn giúp lập trình viên kiểm soát tốt hơn các đoạn mã do trí tuệ nhân tạo sinh ra và tránh được những sai sót thường gặp."
+      ],
+      "summary_en": [
+        "The article shares practical experience on optimal prompt engineering methods for developers working with artificial intelligence to significantly improve coding productivity.",
+        "The author utilizes an experimental setup on an Ubuntu virtual private server to verify various AI models and effective communication strategies for software development.",
+        "The content delivers practical value by helping developers maintain better control over AI-generated code and avoid common pitfalls during the development process."
+      ],
+      "originalTitle": "[Vibe Coding Thực Chiến #03] Prompt Engineering Cho Dân Dev: Giao Việc Cho AI Thế Nào Để Không Nhận Về \"Một Đống Rác\"?",
+      "url": "https://viblo.asia/p/vibe-coding-thuc-chien-03-prompt-engineering-cho-dan-dev-giao-viec-cho-ai-the-nao-de-khong-nhan-ve-mot-dong-rac-wd43EXqqLX9",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "AI",
+        "Prompt Engineering",
+        "Software Development",
+        "Vibe Coding"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-09-23T04:39:50.000Z",
+      "contentSnippet": "Tác giả: Lee Series: Vibe Coding Thực Chiến Cùng EzyPlatform (#03) Hạ tầng thực nghiệm: VPS Ubuntu 22.04 LTS (157.66.47.xxx) | Domain: https://1576647...",
+      "authorName": "Duong Nguyen",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "2fbb0f47c2d89c95",
+      "title_vi": "Google mở bán đặt trước dòng máy tính xách tay mới tích hợp sâu trợ lý ảo thông minh nhằm thúc đẩy hệ sinh thái phần cứng AI",
+      "title_en": "Google Opens Pre-orders for New AI-Integrated Laptops to Drive Next-Gen Hardware Ecosystem",
+      "summary_vi": [
+        "Google chính thức mở chương trình đặt trước dòng máy tính xách tay mới với mức giá khởi điểm từ 899 đô la Mỹ nhằm đưa trợ lý ảo thông minh tiếp cận sâu hơn với người dùng phổ thông.",
+        "Thiết bị phần cứng mới được tối ưu hóa cấu hình để chạy các mô hình ngôn ngữ lớn và xử lý tác vụ trí tuệ nhân tạo trực tiếp trên thiết bị với hiệu suất cao.",
+        "Chiến lược này đánh dấu bước chuyển dịch mạnh mẽ của các ông lớn công nghệ trong việc ép thị trường nâng cấp phần cứng để đáp ứng nhu cầu tính toán của kỷ nguyên AI."
+      ],
+      "summary_en": [
+        "Google has officially opened pre-orders for its new laptop lineup starting at 899 US dollars to bring advanced intelligent virtual assistants closer to everyday users.",
+        "The new hardware device is optimized with specialized configurations to run large language models and process artificial intelligence tasks locally with high performance.",
+        "This strategy marks a major shift among tech giants in pushing the market to upgrade hardware infrastructure to meet the heavy computing demands of the AI era."
+      ],
+      "originalTitle": "Googlebook mở đặt trước giá từ 899 đô, Google muốn anh em mua laptop mới chỉ vì Gemini",
+      "url": "https://tinhte.vn/thread/googlebook-mo-dat-truoc-gia-tu-899-do-google-muon-anh-em-mua-laptop-moi-chi-vi-gemini.4178927/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Google",
+        "Gemini",
+        "AI Hardware",
+        "Laptops",
+        "Artificial Intelligence"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-23T02:22:31.000Z",
+      "contentSnippet": "Googlebook mở đặt trước giá từ 899 đô, Google muốn anh em mua laptop mới chỉ vì Gemini Sau lần giới thiệu hồi tháng 5, Google vừa mở đặt trước Googlebook với giá khởi điểm 899 đô, và đây có thể...",
+      "authorName": "nhatminhngo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b92efa4b9b0e0732",
+      "title_vi": "Tổng giám đốc Google Việt Nam: Trí tuệ nhân tạo là công cụ, không thay thế nhà sáng tạo nội dung",
+      "title_en": "Google Vietnam Managing Director: Artificial Intelligence is a tool, not a replacement for creators",
+      "summary_vi": [
+        "Sự kiện YouTube Festival lần đầu tiên tổ chức tại Việt Nam đã công bố nhiều số liệu ấn tượng về mức độ tương tác và sự phát triển mạnh mẽ của cộng đồng nhà sáng tạo nội dung số trong nước.",
+        "Lãnh đạo Google khẳng định công nghệ trí tuệ nhân tạo đóng vai trò là công cụ hỗ trợ nâng cao hiệu suất làm việc, trong khi nội dung nguyên bản và tính sáng tạo của con người vẫn giữ giá trị cốt lõi.",
+        "Xu hướng phát triển này mở ra nhiều cơ hội mới cho các nhà phát triển và nhà sáng tạo tham gia sâu hơn vào nền kinh tế số, tối ưu hóa trải nghiệm người dùng trên các nền tảng video trực tuyến."
+      ],
+      "summary_en": [
+        "The first YouTube Festival held in Vietnam announced impressive metrics regarding user engagement and the strong growth of the domestic digital content creator community.",
+        "Google leadership affirmed that artificial intelligence technology serves as a tool to enhance work efficiency, while original content and human creativity remain the core value.",
+        "This development trend opens up new opportunities for developers and creators to participate more deeply in the digital economy, optimizing user experiences on online video platforms."
+      ],
+      "originalTitle": "Tổng giám đốc Google Việt Nam: 'AI là công cụ, không thay thế nhà sáng tạo'",
+      "url": "https://vnexpress.net/tong-giam-doc-google-viet-nam-ai-la-cong-cu-khong-thay-the-nha-sang-tao-5122913.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "AI",
+        "Google",
+        "YouTube",
+        "Digital Economy",
+        "Content Creators"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-23T02:20:27.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/21/wm1-wm1-lq-01191-1789977449-8121-1789977548.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=0tSrwuxCvPKW98XeXBZG6g",
+      "contentSnippet": "Marc Woo, Tổng giám đốc Google Việt Nam, cho rằng video ngắn và dài sẽ song hành, còn AI giúp nâng hiệu suất chứ không thay thế nội dung nguyên bản.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b61e5c6bce7672a1",
+      "title_vi": "Qualcomm ra mắt dòng vi xử lý di động mới đạt mốc xung nhịp kỷ lục 5 GHz",
+      "title_en": "Qualcomm Launches New Mobile Processors Reaching Record-Breaking 5 GHz Clock Speed",
+      "summary_vi": [
+        "Tại sự kiện công nghệ lớn, nhà sản xuất bán dẫn Qualcomm chính thức công bố hai hệ thống trên vi xử lý cao cấp mới hướng tới phân khúc thiết bị di động hàng đầu.",
+        "Cả hai dòng chip mới được phát triển trên tiến trình sản xuất tiên tiến, tích hợp các lõi xử lý trung tâm đột phá với khả năng vận hành đạt mức xung nhịp cực đại năm GHz.",
+        "Bước tiến về hiệu năng phần cứng này định hình lại tiêu chuẩn sức mạnh tính toán cho thiết bị di động, tối ưu hóa các tác vụ xử lý trí tuệ nhân tạo nặng."
+      ],
+      "summary_en": [
+        "At a major tech summit, semiconductor giant Qualcomm officially announced two flagship system-on-chips designed specifically for next-generation high-end mobile devices.",
+        "Both new processor lineups are built on advanced manufacturing nodes, integrating breakthrough central processing cores capable of operating at a peak clock speed of five gigahertz.",
+        "This hardware performance milestone redefines computational power standards for mobile devices, significantly optimizing heavy artificial intelligence workloads and complex applications."
+      ],
+      "originalTitle": "Qualcomm ra mắt Snapdragon 8 Elite Gen 6 và bản Extreme, CPU di động đầu tiên đạt 5 GHz",
+      "url": "https://tinhte.vn/thread/qualcomm-ra-mat-snapdragon-8-elite-gen-6-va-ban-extreme-cpu-di-dong-dau-tien-dat-5-ghz.4178924/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Qualcomm",
+        "Snapdragon",
+        "Mobile",
+        "Semiconductor",
+        "CPU"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-23T02:18:11.000Z",
+      "contentSnippet": "Tại Snapdragon Summit 2026, Qualcomm công bố cùng lúc hai SoC flagship là Snapdragon 8 Elite Gen 6 (mã SM8950) và Snapdragon 8 Elite Extreme Gen 6 (mã SM8975). Cả hai được sản xuất trên tiến trình...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e196788ac4eba8bd",
+      "title_vi": "Apple tiết lộ món đồ giá rẻ đã truyền cảm hứng cho dòng điện thoại thông minh cao cấp giá hơn 100 triệu đồng",
+      "title_en": "Apple reveals how an inexpensive item inspired their ultra-premium smartphone priced over one hundred million dong",
+      "summary_vi": [
+        "Quá trình nghiên cứu và phát triển dòng điện thoại thông minh cao cấp của Apple đôi khi bắt nguồn từ những món đồ vật dụng rất khiêm tốn trong đời sống hàng ngày thay vì các thiết bị công nghệ đắt tiền.",
+        "Đội ngũ kỹ sư thiết kế phần cứng đã áp dụng các nguyên lý vật liệu học cơ bản để tạo ra cấu trúc khung vỏ bền bỉ và tối ưu hóa trải nghiệm cầm nắm cho dòng sản phẩm có giá trị vô cùng lớn.",
+        "Câu chuyện sáng tạo này mang lại góc nhìn thú vị cho cộng đồng công nghệ về cách tư duy thiết kế sản phẩm phần cứng kết hợp giữa tính thẩm mỹ tối giản và công nghệ chế tác tiên tiến."
+      ],
+      "summary_en": [
+        "The research and development process for Apple's high-end smartphone lineup sometimes originates from modest everyday items rather than expensive technological devices.",
+        "Hardware design engineers applied fundamental material science principles to create a durable frame structure and optimize the ergonomic feel for this exceptionally valuable product line.",
+        "This creative story provides the tech community with a fascinating perspective on hardware design thinking that combines minimalist aesthetics with advanced manufacturing technology."
+      ],
+      "originalTitle": "Apple tiết lộ món đồ vài chục nghìn đã truyền cảm hứng cho iPhone Duo giá tới hơn 100 triệu đồng",
+      "url": "https://genk.vn/apple-tiet-lo-mon-do-vai-chuc-nghin-da-truyen-cam-hung-cho-iphone-duo-gia-toi-hon-100-trieu-dong-165262209220532459.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "Smartphone",
+        "Hardware Design",
+        "Mobile Technology"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-23T02:14:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/22/avatar1790101525985-1790101526551382958453.jpg",
+      "contentSnippet": "Để tìm cảm hứng cho mẫu iPhone đắt nhất của mình, Apple cho biết họ không bắt đầu từ một thiết bị công nghệ xa xỉ.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "37c3896a7f3a4279",
+      "title_vi": "Qualcomm ra mắt Snapdragon 8 Elite Gen 6: Lần đầu tiên dòng chip Elite không còn giữ vị thế mạnh nhất",
+      "title_en": "Qualcomm Officially Launches Snapdragon 8 Elite Gen 6: For the First Time, Elite Brand Is No Longer the Most Powerful",
+      "summary_vi": [
+        "Qualcomm vừa chính thức giới thiệu bộ vi xử lý di động Snapdragon 8 Elite Gen 6, đánh dấu một bước chuyển dịch chiến lược quan trọng trong dòng sản phẩm chip cao cấp dành cho thiết bị di động hàng đầu.",
+        "Điểm nhấn công nghệ của thế hệ vi xử lý này là sự thay đổi trong cấu trúc phân khúc, khi lần đầu tiên cái tên Elite không còn đại diện cho mức hiệu năng xử lý phần cứng mạnh mẽ nhất của hãng.",
+        "Sự thay đổi này tác động lớn đến thị trường thiết bị di động cao cấp, buộc các nhà phát triển phần mềm và kỹ sư tối ưu hóa ứng dụng phải thích ứng với các tiêu chuẩn kiến trúc chip mới mẻ."
+      ],
+      "summary_en": [
+        "Qualcomm has officially introduced the Snapdragon 8 Elite Gen 6 mobile processor, marking a significant strategic shift in their high-end hardware lineup designed for flagship mobile devices.",
+        "The core technological highlight of this generation is a structural segmentation shift, representing the first time the Elite branding no longer represents the absolute peak of the company's hardware performance.",
+        "This strategic evolution heavily impacts the premium mobile market, requiring software developers and hardware engineers to adapt their application optimization strategies to these new architectural standards."
+      ],
+      "originalTitle": "Qualcomm chính thức ra mắt Snapdragon 8 Elite Gen 6: Lần đầu tiên, chip mang tên “Elite” không còn là mạnh nhất",
+      "url": "https://genk.vn/qualcomm-chinh-thuc-ra-mat-snapdragon-8-elite-gen-6-lan-dau-tien-chip-mang-ten-elite-khong-con-la-manh-nhat-165260923052106181.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Qualcomm",
+        "Snapdragon",
+        "Semiconductor",
+        "Mobile",
+        "Hardware"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-23T00:30:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/22/img1227-17901155938121819602679-256-0-1536-2048-crop-1790115608877387319384.jpg",
+      "contentSnippet": "Chúng ta đã quen với việc mỗi thế hệ Snapdragon 8 Elite đại diện cho chip di động mạnh nhất của Qualcomm. Tuy nhiên, đến Gen 6, hãng lại mang đến một bất ngờ chưa từng có.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a86391fe9862bd89",
+      "title_vi": "OpenAI thành lập hội đồng chuyên gia toán học nhằm khắc phục khủng hoảng uy tín liên quan đến nghiên cứu trí tuệ nhân tạo",
+      "title_en": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+      "summary_vi": [
+        "Sau khi vướng vào khủng hoảng uy tín từ các kết quả toán học chưa chuẩn xác, công ty trí tuệ nhân tạo hàng đầu đã quyết định thành lập một hội đồng độc lập gồm các nhà toán học danh tiếng nhằm cải thiện phương thức công bố nghiên cứu.",
+        "Hội đồng chuyên gia này có nhiệm vụ tư vấn trực tiếp cho các doanh nghiệp công nghệ lớn về cách thức tương tác với cộng đồng toán học, đồng thời chuẩn hóa quy trình kiểm định và phát hành các kết quả nghiên cứu học thuật phức tạp.",
+        "Bước đi này đánh dấu sự điều chỉnh quan trọng trong chiến lược phát triển sản phẩm của các hãng công nghệ lớn, nhấn mạnh tầm quan trọng của việc hợp tác chặt chẽ với giới hàn lâm để đảm bảo độ chính xác tuyệt đối."
+      ],
+      "summary_en": [
+        "After facing a reputational crisis stemming from inaccurate mathematical results, the leading artificial intelligence company has established an independent panel of renowned mathematicians to improve research publication methods.",
+        "This panel of experts is tasked with directly advising major technology enterprises on how to interact with the mathematics community while standardizing verification and release processes for complex academic research findings.",
+        "This move marks a crucial strategic adjustment in product development for major tech firms, emphasizing the vital importance of close collaboration with academia to ensure absolute accuracy in scientific applications."
+      ],
+      "originalTitle": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "OpenAI",
+        "Artificial Intelligence",
+        "Mathematics",
+        "AI Ethics",
+        "Tech Trends"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-23T00:17:17.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2294952541.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising it and other AI compa",
+      "authorName": "Robert Hart",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "24836dc4e61f54bd",
+      "title_vi": "Kỹ sư gây sốt khi nói lập trình AI biến con người thành kẻ bấm nút",
+      "title_en": "Engineer Sparks Debate By Claiming AI Programming Turns Humans Into Button Pushers",
+      "summary_vi": [
+        "Bài chia sẻ của một kỹ sư ẩn danh trên mạng xã hội đang thu hút hàng nghìn lượt tương tác và thảo luận sôi nổi từ cộng đồng công nghệ lớn, bao gồm cả tỷ phú Elon Musk, khi đề cập đến những mặt trái của việc áp dụng trí tuệ nhân tạo vào quy trình phát triển phần mềm.",
+        "Nội dung bài viết chỉ ra rằng các công cụ lập trình tự động hóa và AI sinh mã đang dần thay thế vai trò cốt lõi của lập trình viên, biến họ từ những kiến trúc sư phần mềm sáng tạo thành những người vận hành đơn thuần chỉ biết kiểm tra và bấm nút phê duyệt mã lệnh.",
+        "Sự dịch chuyển này đặt ra thách thức lớn về tư duy thuật toán và kỹ năng thiết kế hệ thống cho thế hệ kỹ sư tương lai, đồng thời buộc ngành công nghiệp phần mềm phải tái định nghĩa lại giá trị cốt lõi của con người trong các dự án công nghệ cao."
+      ],
+      "summary_en": [
+        "An anonymous engineer's social media post has sparked thousands of interactions and intense discussions within the major tech community, including billionaire Elon Musk, addressing the hidden downsides of applying artificial intelligence to software development pipelines.",
+        "The article points out that automated programming tools and code-generating AI are gradually replacing the core roles of developers, turning them from creative software architects into mere operators who only review and approve generated code blocks.",
+        "This significant shift poses massive challenges to algorithmic thinking and system design skills for future engineers, while forcing the software industry to redefine the true value of human developers in high-tech projects."
+      ],
+      "originalTitle": "Kỹ sư gây sốt khi nói lập trình AI biến con người thành 'kẻ bấm nút'",
+      "url": "https://vnexpress.net/ky-su-gay-sot-khi-noi-lap-trinh-ai-bien-con-nguoi-thanh-ke-bam-nut-5123546.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Software Engineering",
+        "Automation",
+        "Tech Trends",
+        "Programming"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/23/dsc02951jpg-1790101077-4015-1790101315.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=U3MVAEPqyMZv8vRh0jQ4Eg",
+      "contentSnippet": "Bài chia sẻ của một kỹ sư ẩn danh đang thu hút hàng nghìn bình luận, trong đó có Elon Musk, khi hé lộ mặt trái của lập trình AI là biến con người thành \"kẻ bấm nút\".",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6da3d7e4a150e9ac",
+      "title_vi": "iPhone 18 Pro phiên bản dung lượng cao sử dụng công nghệ bộ nhớ hiệu suất thấp hơn",
+      "title_en": "High-Capacity iPhone 18 Pro Models Equipped with Lower Performance Memory Technology",
+      "summary_vi": [
+        "Dòng điện thoại thông minh cao cấp iPhone 18 Pro và 18 Pro Max phiên bản từ một terabyte trở lên đang vấp phải những đánh giá về tốc độ ghi dữ liệu thấp hơn so với các phiên bản dung lượng thấp hơn do sự thay đổi về công nghệ chip nhớ.",
+        "Apple đã trang bị chip nhớ QLC mới lưu trữ bốn bit trên mỗi ô nhớ cho các bản dung lượng một và hai terabyte nhằm tối ưu mật độ, trong khi các bản hai trăm năm mươi sáu và năm trăm mười hai gigabyte vẫn sử dụng chip TLC cân bằng tốt hơn.",
+        "Sự đánh đổi này giúp nhà sản xuất tối ưu hóa không gian phần cứng nhưng lại làm giảm tốc độ ghi và độ bền tổng thể của bộ nhớ, đặt ra bài toán cho người dùng chuyên nghiệp khi xử lý khối lượng dữ liệu lớn trên thiết bị di động."
+      ],
+      "summary_en": [
+        "The premium smartphone lineup iPhone 18 Pro and 18 Pro Max with storage capacities starting from one terabyte are facing evaluations regarding lower data write speeds compared to smaller capacity versions due to a shift in memory chip technology.",
+        "Apple has equipped the one and two terabyte models with new QLC memory chips storing four bits per cell to optimize density, while the two hundred fifty-six and five hundred twelve gigabyte versions continue using TLC chips for a better performance balance.",
+        "This architectural tradeoff helps manufacturers optimize hardware space but reduces write speeds and overall memory endurance, presenting a challenge for professional users handling massive data workloads on mobile devices."
+      ],
+      "originalTitle": "iPhone 18 Pro dung lượng cao 'dùng bộ nhớ hiệu suất thấp hơn'",
+      "url": "https://vnexpress.net/iphone-18-pro-dung-luong-cao-dung-bo-nho-hieu-suat-thap-hon-5123339.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone",
+        "Hardware",
+        "NAND Flash",
+        "Storage",
+        "Mobile"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-22T23:30:17.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/22/IMG20260918153141-1789746277-1-6550-5426-1790066393.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=bWA-y9FT_WJO3IU1Yq4ZRg",
+      "contentSnippet": "iPhone 18 Pro và 18 Pro Max với dung lượng từ 1 TB được đánh giá có tốc độ ghi dữ liệu thấp hơn các phiên bản 256 và 512 GB do dùng khác loại chip.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "90dda5f360d55e30",
       "title_vi": "[Salesforce Agentforce Sales Consultant 2026] Phần 6 — Predictive & Generative AI (13%): Agentforce, Sales AI & Trusted AI",
@@ -30,6 +374,109 @@
       "publishedAt": "2026-09-22T21:14:01.000Z",
       "contentSnippet": "Ở Phần 5, chúng ta đã nói rất nhiều về một nền tảng quan trọng: Clean & Trusted Data Điều đó đặc biệt quan trọng khi bước sang AI. Một Sales Organi...",
       "authorName": "Chhin Hua",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b55c6cd1054ed866",
+      "title_vi": "Tác nhân trí tuệ nhân tạo mới của công ty Thỏ không cần thiết bị R1 để hoạt động",
+      "title_en": "Rabbit’s new AI agent doesn’t need an R1 to run",
+      "summary_vi": [
+        "Công ty Thỏ đang phát triển một tác nhân trí tuệ nhân tạo độc lập, cho phép người dùng trải nghiệm các tính năng thông minh mà không cần phải mua sắm phần cứng độc quyền đắt đỏ như trước đây.",
+        "Hệ điều hành OS3 mới vận hành trên nền tảng đám mây nhưng có khả năng tương tác cục bộ mượt mà trên nhiều thiết bị chạy hệ điều hành khác nhau như Windows, Mac và Linux một cách linh hoạt.",
+        "Bước tiến này giúp tối ưu hóa khả năng tự động hóa tác vụ đa nền tảng, mở ra hướng đi mới cho việc tích hợp mô hình ngôn ngữ lớn vào hệ sinh thái thiết bị cá nhân."
+      ],
+      "summary_en": [
+        "The startup is rolling out a standalone artificial intelligence agent that allows users to experience smart features without needing to purchase expensive proprietary hardware devices as before.",
+        "The new OS3 operating system runs on cloud infrastructure while retaining the capability to interact locally and smoothly across various operating systems like Windows, Mac, and Linux seamlessly.",
+        "This advancement helps optimize cross-platform task automation capabilities, opening new directions for integrating large language models into the personal device ecosystem effectively."
+      ],
+      "originalTitle": "Rabbit’s new AI agent doesn’t need an R1 to run",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI Agent",
+        "Operating System",
+        "Cloud Computing",
+        "Automation",
+        "Hardware"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-22T20:52:40.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25415491/DSC08587.JPG?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired. The startup says its new OS3 \"agentic operating system\" runs in the cloud but operates locally across Windows, Mac, and Linux devices. A",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0cb9e509ffab2891",
+      "title_vi": "Qualcomm ra mắt Snapdragon 8 Elite Gen 6 với phiên bản Extreme mạnh mẽ hơn",
+      "title_en": "Qualcomm's Snapdragon 8 Elite Gen 6 debuts alongside a high-performance Extreme version",
+      "summary_vi": [
+        "Qualcomm chính thức công bố thế hệ vi xử lý di động cao cấp Snapdragon 8 Elite Gen 6, đồng thời bổ sung thêm phiên bản Extreme với những nâng cấp tập trung vào hiệu năng.",
+        "Cả hai dòng chip mới đều được sản xuất trên tiến trình 2nm tiên tiến, sở hữu cấu trúc CPU gồm hai nhân hiệu năng cao đạt xung nhịp tối đa lên đến 5GHz.",
+        "Phiên bản Extreme mang lại khả năng xử lý trí tuệ nhân tạo vượt trội cùng hiệu suất đồ họa tối ưu, định hình tiêu chuẩn mới cho các thiết bị di động phân khúc cao cấp."
+      ],
+      "summary_en": [
+        "Qualcomm has officially announced its next-generation flagship mobile processor, the Snapdragon 8 Elite Gen 6, alongside a more powerful Extreme variant designed for premium smartphones.",
+        "Both chipsets are manufactured using an advanced 2nm process technology and feature an identical CPU architecture with two high-performance cores capable of reaching clock speeds up to 5GHz.",
+        "The Extreme model delivers enhanced artificial intelligence processing, superior video capture capabilities, and optimized gaming performance, setting a new benchmark for upcoming high-end mobile devices."
+      ],
+      "originalTitle": "Qualcomm’s Snapdragon 8 Elite Gen 6 comes in an Extreme version too",
+      "url": "https://www.theverge.com/gadgets/998842/qualcomm-snapdragon-8-elite-extreme-gen-6",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Qualcomm",
+        "Snapdragon",
+        "Semiconductor",
+        "Mobile Chip"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-22T20:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/qualcomm-snapdragon-8-elite-gen-6-and-extreme.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "The 8 Elite Extreme Gen 6 and 8 Elite Gen 6 share most of their specs in common. | Image: Qualcomm Qualcomm has announced the Snapdragon 8 Elite Gen 6, this year joined by the 8 Elite Extreme Gen 6 too. The company describes both new phone chips as flagships, and the spec differences are relatively ",
+      "authorName": "Dominic Preston",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5e8b60d2c8d4e6ee",
+      "title_vi": "Microsoft triệt phá nền tảng lừa đảo ứng dụng trí tuệ nhân tạo làm tổn hại mười hai nghìn tài khoản",
+      "title_en": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+      "summary_vi": [
+        "Microsoft vừa dẫn đầu chiến dịch phối hợp toàn ngành nhằm triệt phá EvilTokens, một nền tảng lừa đảo có thu phí hoạt động qua Telegram chuyên tấn công hệ thống email doanh nghiệp.",
+        "Nền tảng này tích hợp chatbot trí tuệ nhân tạo để phân tích hộp thư đến, xác định mục tiêu có giá trị cao và tự động soạn thảo email mạo danh nhằm đánh lừa nhân viên chuyển tiền.",
+        "Sự kiện này gióng lên hồi chuông cảnh báo về việc kẻ gian lợi dụng công nghệ trí tuệ nhân tạo tạo ra các chiến dịch tấn công tinh vi, đòi hỏi doanh nghiệp phải nâng cao giải pháp phòng thủ."
+      ],
+      "summary_en": [
+        "Microsoft led an industry-wide campaign to dismantle EvilTokens, a subscription-based scam platform operating via Telegram that specifically targets corporate email systems.",
+        "The platform integrates artificial intelligence chatbots to analyze inboxes, identify high-value targets, and automatically draft impersonation emails to trick employees into transferring funds.",
+        "This event raises severe alarms regarding malicious actors leveraging generative artificial intelligence for sophisticated attacks, urging enterprises to enhance defensive measures."
+      ],
+      "originalTitle": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+      "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
+      "sourceName": "Ars Technica",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Artificial Intelligence",
+        "Microsoft",
+        "Telegram",
+        "Fraud Prevention"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-22T19:45:47.000Z",
+      "contentSnippet": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
+      "authorName": "\n                    Dan Goodin\n                ",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -63,6 +510,40 @@
       "authorName": "Minh Le Duc",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "608eb672ebb7d160",
+      "title_vi": "Mô hình Trí tuệ Nhân tạo hệ mặt trời GPT-6 Sol và Luna",
+      "title_en": "GPT-6 Sol and Luna AI Models",
+      "summary_vi": [
+        "Sau khi giới thiệu siêu trí tuệ nhân tạo GPT-6 Astra, công ty tiếp tục mở rộng hệ sinh thái với hai phiên bản mới là Sol và Luna nhằm đáp ứng nhu cầu đa dạng về chi phí và quy mô ứng dụng.",
+        "Các mô hình này được huấn luyện bằng phương pháp tương tự Astra, mang lại hiệu suất vượt trội trong lập trình, xử lý ngôn ngữ, sử dụng máy tính với chi phí vận hành tối ưu hơn nhờ cải tiến bộ nhớ đệm.",
+        "Việc giảm giá API tới năm mươi phần trăm so với thế hệ trước giúp các doanh nghiệp dễ dàng tích hợp công nghệ trí tuệ nhân tạo tiên tiến vào quy trình làm việc hàng ngày với ngân sách tiết kiệm."
+      ],
+      "summary_en": [
+        "Following the introduction of the flagship GPT-6 Astra, the company is expanding its ecosystem with two new models, Sol and Luna, designed to meet diverse cost scales and application requirements.",
+        "These models are trained using methods similar to Astra, delivering exceptional performance in programming, language processing, and computer use with optimized operational costs through enhanced caching mechanisms.",
+        "Reducing API prices by fifty percent compared to previous generation pricing makes it significantly easier for enterprises to integrate advanced artificial intelligence into everyday workflows on a budget."
+      ],
+      "originalTitle": "GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "GPT-6",
+        "Machine Learning",
+        "API",
+        "Cloud Computing"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-22T18:00:34.000Z",
+      "contentSnippet": "More ways to bring frontier intelligence into the work you do every day. ShareEarlier this month, we introduced GPT‑6 Astra, the most intelligent and aligned model in the world. While the most demanding and important projects still call for Astra’s full depth, work happens at different scales, rhyth",
+      "authorName": "OfficialTurkey",
+      "upvotes": 1215,
+      "commentsCount": 619
     },
     {
       "id": "f13a0b36ef371677",
@@ -165,6 +646,39 @@
       "authorName": "EME GUG",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "0dd3bed5c7dd1c27",
+      "title_vi": "Ra mắt mô hình trí tuệ nhân tạo Claude Opus 5.5 với hiệu suất vượt trội và chi phí vận hành tối ưu",
+      "title_en": "Claude Opus 5.5 Launched with Superior Performance and Optimized Operational Costs",
+      "summary_vi": [
+        "Công ty vừa chính thức giới thiệu Claude Opus 5.5, mẫu mô hình mới nhất thuộc dòng sản phẩm Claude 5.5, mang đến bước nhảy vọt về hiệu năng toàn diện trong công việc.",
+        "Mô hình đạt hiệu suất cao với chi phí vận hành thấp hơn bốn mươi phần trăm so với phiên bản tiền nhiệm, đồng thời vượt qua các bài kiểm tra hành vi tự động khắt khe nhất về độ an toàn.",
+        "Sự cải tiến này giúp lập trình viên hoàn thành các dự án di chuyển mã nguồn khổng lồ hoặc tối ưu hóa ứng dụng web phức tạp một cách nhanh chóng và chính xác hơn."
+      ],
+      "summary_en": [
+        "The company has officially introduced Claude Opus 5.5, the latest model in the Claude 5.5 product family, delivering a comprehensive leap forward in overall work performance.",
+        "The model achieves high efficiency with a forty percent lower operating cost than its predecessor while passing the most rigorous automated behavioral tests for safety alignment.",
+        "These improvements enable developers to complete massive codebase migrations or optimize complex web applications much more quickly and accurately than ever before."
+      ],
+      "originalTitle": "Claude Opus 5.5",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Software Engineering",
+        "AI Safety"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-22T16:29:05.000Z",
+      "contentSnippet": "We’re introducing Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5. Claude Opus 5.5 is our first release since we called for pacing the frontier. It was tested before release by external eva",
+      "authorName": "km144",
+      "upvotes": 1239,
+      "commentsCount": 833
     },
     {
       "id": "ff80b14a824b1de5",
@@ -1119,6 +1633,42 @@
       "authorName": "aray07",
       "upvotes": 222,
       "commentsCount": 38
+    },
+    {
+      "id": "e0d80574eceed4d6",
+      "title_vi": "Mã nguồn sạch không đồng nghĩa với mã nguồn dễ hiểu: Bình luận trong mã chưa bao giờ là vấn đề",
+      "title_en": "Clean Code Is Not the Same as Clear Code: Comments Were Never the Problem",
+      "summary_vi": [
+        "Ngành phát triển phần mềm lâu nay tồn tại quan niệm sai lầm rằng việc viết bình luận trong mã nguồn biểu thị sự thất bại của kỹ sư và minh chứng cho mã nguồn kém chất lượng.",
+        "Trên thực tế, ngay cả những đoạn mã được thiết kế hoàn hảo và sạch sẽ bằng ngôn ngữ C# vẫn có thể xử lý các bài toán phức tạp đòi hỏi thêm chú thích để giải thích ngữ cảnh.",
+        "Lập trình viên cần cân bằng giữa việc viết mã rõ ràng và sử dụng bình luận hợp lý để giải thích các logic ẩn giấu, giúp cải thiện khả năng duy trì hệ thống."
+      ],
+      "summary_en": [
+        "The software development industry has long held the misconception that writing comments in source code indicates engineering failure and proves poor code quality.",
+        "In reality, even cleanly designed and well-structured C# code can handle complex problems that require additional annotations to explain underlying context.",
+        "Developers need to balance writing clear code with using appropriate comments to explain hidden logic, ultimately improving long-term system maintainability."
+      ],
+      "originalTitle": "Clean Code Is Not the Same as Clear Code: Comments Were Never the Problem",
+      "url": "https://dev.to/georgekobaidze/clean-code-is-not-the-same-as-clear-code-comments-were-never-the-problem-42n",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Clean Code",
+        "Software Architecture",
+        "Csharp",
+        "Best Practices",
+        "Code Quality"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-21T18:07:10.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ft5n5mb93970styfkp236.jpeg",
+      "contentSnippet": "Table of Contents A Line That Does Nothing... Except Keep Production Alive Some Code...",
+      "authorName": "Giorgi Kobaidze",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F55651%2F3ad144e9-ca91-4395-b73a-9a0a3d843af9.jpg",
+      "upvotes": 64,
+      "commentsCount": 42
     },
     {
       "id": "10718d3b3dad4e09",
