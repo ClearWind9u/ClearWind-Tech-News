@@ -1,7 +1,41 @@
 {
-  "lastUpdated": "2026-09-23T15:52:41.530Z",
-  "totalArticles": 234,
+  "lastUpdated": "2026-09-23T20:53:54.217Z",
+  "totalArticles": 238,
   "articles": [
+    {
+      "id": "ae50a7a102646436",
+      "title_vi": "Xây dựng hàm xử lý kiểm tra đường dẫn yêu cầu khớp với mẫu ký tự đại diện trong PHP và Laravel",
+      "title_en": "Implementing a Custom Function to Match Request URLs with Wildcard Patterns in PHP and Laravel",
+      "summary_vi": [
+        "Bài viết hướng dẫn lập trình viên phát triển phương thức tùy chỉnh nhằm kiểm tra tính hợp lệ của đường dẫn yêu cầu khi so khớp với các mẫu chuỗi chứa ký tự đại diện dạng dấu sao.",
+        "Hệ thống tận dụng các tính năng có sẵn từ framework để tối ưu hóa quá trình xử lý chuỗi và định tuyến, giúp giảm thiểu độ phức tạp thuật toán và nâng cao hiệu năng ứng dụng.",
+        "Giải pháp này mang lại giá trị thực tiễn cao cho việc phân quyền truy cập hệ thống, quản lý middleware linh hoạt và kiểm soát luồng điều hướng của người dùng trên nền tảng web."
+      ],
+      "summary_en": [
+        "The article guides developers on building a custom method to validate request URLs against string patterns containing wildcard asterisk characters efficiently within backend applications.",
+        "The implementation leverages built-in framework features to optimize string processing and routing logic, significantly reducing algorithmic complexity and improving overall application performance.",
+        "This technical approach delivers high practical value for access control systems, flexible middleware management, and precise navigation flow control for web users on the platform."
+      ],
+      "originalTitle": "Viết một hàm (hoặc class) trong PHP/Laravel để kiểm tra một Request URL xem nó có khớp với các chuỗi pattern chứa dấu sao (wildcard) như '/orders/tracking/*' hay không.",
+      "url": "https://viblo.asia/p/viet-mot-ham-hoac-class-trong-phplaravel-de-kiem-tra-mot-request-url-xem-no-co-khop-voi-cac-chuoi-pattern-chua-dau-sao-wildcard-nhu-orderstracking-hay-khong-8X4EjqbzJN2",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "PHP",
+        "Laravel",
+        "Web Development",
+        "Routing",
+        "Backend"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-24T00:46:57.000Z",
+      "contentSnippet": "Dưới đây là cách triển khai logic kiểm tra URL khớp với các chuỗi pattern có chứa ký tự đại diện (wildcard *) trong PHP/Laravel. Laravel cung cấp sẵn...",
+      "authorName": "Cô Gái IT",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "2cebb7e840240ff7",
       "title_vi": "Hướng dẫn phân quyền vào ENV trong project Laravel",
@@ -31,6 +65,74 @@
       "authorName": "Cô Gái IT",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "ef1b3a4772eab837",
+      "title_vi": "Claude khám phá hệ thống enzyme mới với các chuỗi lặp lại giống như CRISPR",
+      "title_en": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "summary_vi": [
+        "Công ty trí tuệ nhân tạo Anthropic vừa thành lập một nhóm nghiên cứu khoa học sự sống mới nhằm ứng dụng mô hình Claude vào việc phân tích dữ liệu sinh học cơ bản.",
+        "Bằng cách khai thác các tập dữ liệu ADN quy mô lớn để nhận diện những họ protein chưa được đặc tả, hệ thống đã tự động tạo và kiểm định giả thuyết khoa học.",
+        "Kết quả bước đầu cho thấy trí tuệ nhân tạo có thể thúc đẩy mạnh mẽ các phát hiện sinh học mang tính cách mạng, mở ra hướng đi mới cho ngành công nghệ sinh học và y tế."
+      ],
+      "summary_en": [
+        "Artificial intelligence company Anthropic has established a new life sciences research group to apply the Claude model in fundamental biological data analysis.",
+        "By leveraging large-scale DNA datasets to identify uncharacterized protein families, the system automatically generated and tested scientific hypotheses.",
+        "Initial results demonstrate that artificial intelligence can significantly accelerate revolutionary biological discoveries, opening new pathways for biotechnology and medicine."
+      ],
+      "originalTitle": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "Claude",
+        "Biotechnology",
+        "Machine Learning"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-23T18:06:47.000Z",
+      "contentSnippet": "We’re introducing a new life sciences research group and laboratory at Anthropic. Our focus is on fundamental biology research using Claude: exploring datasets of DNA to identify uncharacterized protein families, generating hypotheses at scale, and testing them through experiments in the lab. This p",
+      "authorName": "raahelb",
+      "upvotes": 256,
+      "commentsCount": 251
+    },
+    {
+      "id": "19cdfb1540059636",
+      "title_vi": "Lược sử về các phím tắt thanh cuộn trên hệ điều hành Windows",
+      "title_en": "A brief history of Windows scroll bar shortcuts",
+      "summary_vi": [
+        "Thanh cuộn trên hệ điều hành Windows đã trải qua nhiều thập kỷ phát triển với các thao tác cơ bản bằng chuột và bàn phím để điều hướng nội dung văn bản.",
+        "Bản cập nhật Windows 7 đã giới thiệu thêm menu chuột phải cùng tính năng cuộn trực tiếp giúp người dùng di chuyển khoảng cách xa một cách thuận tiện và nhanh chóng hơn.",
+        "Sự suy giảm của thanh cuộn Win32 truyền thống trước các framework hiện đại và ứng dụng nền tảng web đặt ra bài học về tối ưu hóa trải nghiệm người dùng."
+      ],
+      "summary_en": [
+        "The scroll bar control in Windows operating systems has evolved over decades with basic mouse and keyboard operations for document navigation.",
+        "Windows 7 introduced a right-click context menu and direct scrolling features to help users move long distances much more conveniently.",
+        "The decline of traditional Win32 scroll bars in favor of modern web frameworks highlights important lessons in user experience optimization."
+      ],
+      "originalTitle": "A brief history of Windows scroll bar shortcuts",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260922-00/?p=112719/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Windows",
+        "UI/UX",
+        "Win32",
+        "Web Development",
+        "Chromium"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-23T18:02:08.000Z",
+      "contentSnippet": "For the two decades of Windows, the scroll bar control had just a few basic operations. (For expository purposes, let’s assume that the scroll bar is vertical.) There are five mouse targets: The arrows at the ends of the scroll bar scroll by a line. The regions between the thumb and the arrows scrol",
+      "authorName": "tybulewicz",
+      "upvotes": 60,
+      "commentsCount": 30
     },
     {
       "id": "82c720bbbd26daa2",
@@ -94,6 +196,40 @@
       "authorName": "Nhà Của Cáo",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "b1f9c7a504c77281",
+      "title_vi": "Mô hình chuyển văn bản thành giọng nói Gemini 3.8",
+      "title_en": "Gemini 3.8 text-to-speech",
+      "summary_vi": [
+        "Google vừa chính thức ra mắt hai mô hình chuyển đổi văn bản thành giọng nói tiên tiến mang tên Gemini 3.8 Flash TTS và Flash Lite TTS nhằm mang lại trải nghiệm âm thanh biểu cảm cao.",
+        "Các mô hình này được tích hợp trực tiếp vào hệ sinh thái bao gồm Google AI Studio và Gemini API, giúp nâng cấp hoàn toàn khả năng tạo giọng nói nhân vật tùy chỉnh.",
+        "Công nghệ này đánh dấu bước tiến quan trọng trong việc mở rộng thư viện giọng nói vô tận, hỗ trợ tối đa cho các nhà phát triển xây dựng ứng dụng âm thanh biểu cảm."
+      ],
+      "summary_en": [
+        "Google has officially introduced two advanced text-to-speech models named Gemini 3.8 Flash TTS and Flash Lite TTS to deliver highly expressive audio experiences for users.",
+        "These models are directly integrated into the developer ecosystem including Google AI Studio and Gemini API to fully upgrade custom character voice generation capabilities.",
+        "This technology marks a significant milestone in expanding endless voice libraries, providing robust support for developers building expressive audio applications seamlessly."
+      ],
+      "originalTitle": "Gemini 3.8 text-to-speech",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Gemini",
+        "Text-to-Speech",
+        "AI Models",
+        "Google AI Studio",
+        "Audio Generation"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-23T15:29:23.000Z",
+      "contentSnippet": "Gemini 3.8 text-to-speech says hello Sep 23, 2026 Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS are our most expressive audio generation models yet. Generate custom character voices and direct scene dialogue across Google AI Studio, Gemini API, Gemini Enterprise, Gemini Notebook, and Google Vid",
+      "authorName": "swolpers",
+      "upvotes": 192,
+      "commentsCount": 100
     },
     {
       "id": "0d884d1ff0b14ecc",
