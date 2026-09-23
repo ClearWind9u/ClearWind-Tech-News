@@ -1,7 +1,109 @@
 {
-  "lastUpdated": "2026-09-23T02:35:29.699Z",
-  "totalArticles": 217,
+  "lastUpdated": "2026-09-23T10:31:48.144Z",
+  "totalArticles": 223,
   "articles": [
+    {
+      "id": "82c720bbbd26daa2",
+      "title_vi": "Dịch vụ di chuyển dữ liệu Azure: Những rủi ro khi thiếu bước khảo sát cơ sở dữ liệu?",
+      "title_en": "Azure Data Migration Service: What Can Go Wrong Without Proper Database Discovery?",
+      "summary_vi": [
+        "Việc chuyển đổi cơ sở dữ liệu lên đám mây thoạt nhìn có vẻ đơn giản với các bước xác định nguồn, chọn phương thức di chuyển, thực hiện chuyển dữ liệu và xác thực kết quả cuối cùng.",
+        "Tuy nhiên, nếu bỏ qua quá trình khảo sát kỹ lưỡng hệ thống hiện tại, các kỹ sư thường gặp phải lỗi tương thích, sập nguồn đột ngột và thất thoát dữ liệu nghiêm trọng trong suốt quá trình triển khai.",
+        "Bài học cốt lõi cho các kiến trúc sư hệ thống là phải luôn thực hiện đánh giá toàn diện hạ tầng trước khi di chuyển nhằm đảm bảo tính toàn vẹn và hiệu năng tối ưu trên nền tảng đám mây."
+      ],
+      "summary_en": [
+        "Migrating databases to the cloud may initially appear straightforward by identifying sources, choosing migration methods, moving data, and validating final execution results.",
+        "However, skipping the thorough discovery process of existing systems often leads to severe compatibility errors, unexpected downtime, and critical data loss during deployment.",
+        "The core lesson for system architects is to always conduct a comprehensive infrastructure assessment before migration to guarantee data integrity and optimal cloud performance."
+      ],
+      "originalTitle": "Azure Data Migration Service: What Can Go Wrong Without Proper Database Discovery?",
+      "url": "https://viblo.asia/p/azure-data-migration-service-what-can-go-wrong-without-proper-database-discovery-kY4gDRkqJAe",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "Azure",
+        "Database",
+        "Cloud Migration",
+        "DevOps"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-23T17:29:47.000Z",
+      "contentSnippet": "Moving databases to the cloud can look straightforward on paper. Identify the database, choose a migration method, move the data, and validate the res...",
+      "authorName": "Diwakar Exe",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6167b9ebd87aa797",
+      "title_vi": "Xây dựng phản hồi lỗi API chuẩn mực và hiệu quả hơn cho hệ thống phần mềm",
+      "title_en": "Writing better API error responses",
+      "summary_vi": [
+        "Bài viết tập trung phân tích tầm quan trọng của việc thiết kế các thông điệp phản hồi lỗi API rõ ràng nhằm hỗ trợ tối đa cho các lập trình viên khi tích hợp hệ thống.",
+        "Tác giả đưa ra các nguyên tắc cốt lõi về cấu trúc dữ liệu JSON, mã trạng thái HTTP chuẩn xác và cách cung cấp thông tin chi tiết giúp việc gỡ lỗi trở nên nhanh chóng hơn.",
+        "Áp dụng những phương pháp này giúp giảm thiểu thời gian chết của dịch vụ, nâng cao trải nghiệm cho nhà phát triển và tối ưu hóa quy trình vận hành hệ thống phần mềm hiện đại."
+      ],
+      "summary_en": [
+        "The article focuses on analyzing the importance of designing clear API error response messages to provide maximum support for developers during system integration processes.",
+        "The author introduces core principles regarding JSON data structures, accurate HTTP status codes, and methods for providing detailed diagnostic information to speed up debugging.",
+        "Applying these practices helps minimize service downtime, enhances the developer experience, and optimizes the operational workflows of modern software systems."
+      ],
+      "originalTitle": "Writing better API error responses",
+      "url": "https://viblo.asia/p/writing-better-api-error-responses-2vJPdlMaJeK",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "API",
+        "Backend",
+        "HTTP",
+        "JSON",
+        "Software Architecture"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-23T14:03:30.000Z",
+      "contentSnippet": "",
+      "authorName": "EME GUG",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b6ef96a261c8142b",
+      "title_vi": "Chiếc điện thoại thông minh iPhone đời cũ xuất hiện cùng nhóm nhạc CORTIS",
+      "title_en": "The Special Vintage iPhone Appeared with Boy Band CORTIS",
+      "summary_vi": [
+        "Trong một bài đăng gần đây trên mạng xã hội Instagram, nhóm nhạc nam CORTIS đã gây chú ý khi xuất hiện cùng một chiếc điện thoại thông minh iPhone đời cũ có thiết kế nhỏ gọn trong suốt buổi chụp ảnh nhóm.",
+        "Thiết bị di động này nổi bật với hệ thống camera đơn cùng kiểu dáng đặc trưng của các thế hệ phần cứng di động trước đây, mang lại trải nghiệm hình ảnh khác biệt hoàn toàn so với tiêu chuẩn của các dòng smartphone hiện đại ngày nay.",
+        "Xu hướng hoài cổ này phản ánh sự dịch chuyển trong trải nghiệm thị giác của người dùng trẻ, gợi nhớ về thời kỳ đầu của công nghệ nhiếp ảnh kỹ thuật số trên các thiết bị cầm tay cổ điển."
+      ],
+      "summary_en": [
+        "In a recent Instagram post, boy band CORTIS drew attention by appearing with a compact vintage iPhone model during their group photoshoot session.",
+        "This mobile device stands out with a single camera system and the signature design of earlier mobile hardware generations, delivering a visual experience entirely different from modern smartphone standards.",
+        "This retro trend reflects a shift in visual experiences among young users, recalling the early days of digital photography technology on classic handheld devices."
+      ],
+      "originalTitle": "Chiếc iPhone đặc biệt của CORTIS",
+      "url": "https://genk.vn/chiec-iphone-dac-biet-cua-cortis-165260923141837685.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "Mobile",
+        "Hardware",
+        "Tech Trends"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-23T09:00:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/23/avatar1790147889329-17901478895761813664595.jpg",
+      "contentSnippet": "CORTIS mới đây gây chú ý khi sử dụng iPhone đời cũ để chụp ảnh. Trào lưu này cũng đang được một bộ phận Gen Z Hàn Quốc và Việt Nam hưởng ứng.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "bdd677658e6ba62d",
       "title_vi": "Makefile cho lập trình viên: Công cụ tự động hóa không chỉ dành riêng cho C và C++",
@@ -33,6 +135,109 @@
       "publishedAt": "2026-09-23T08:01:59.000Z",
       "contentSnippet": "",
       "authorName": "EME GUG",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "1e1acb635cb7d4f6",
+      "title_vi": "Anthropic ra mắt mô hình Claude Opus 5.5 nhanh hơn, tiết kiệm chi phí và tối ưu hóa lập trình",
+      "title_en": "Anthropic Launches Claude Opus 5.5: Faster, Cheaper, and Better at Coding",
+      "summary_vi": [
+        "Công ty trí tuệ nhân tạo Anthropic vừa chính thức giới thiệu mô hình Claude Opus 5.5, đánh dấu bước khởi đầu cho thế hệ sản phẩm mới với nhiều cải tiến quan trọng về hiệu năng và trải nghiệm người dùng.",
+        "Phiên bản mới mang lại những bước tiến vượt bậc về tốc độ xử lý, giảm thiểu đáng kể chi phí vận hành cho các nhà phát triển đồng thời nâng cao độ chính xác khi tạo mã nguồn phức tạp.",
+        "Sự kiện này tạo ra tác động lớn đến cộng đồng kỹ sư phần mềm, giúp tối ưu hóa quy trình phát triển ứng dụng và đẩy nhanh tốc độ tích hợp trí tuệ nhân tạo vào các hệ thống doanh nghiệp."
+      ],
+      "summary_en": [
+        "Artificial intelligence company Anthropic has officially introduced the Claude Opus 5.5 model, marking the beginning of a new product generation with significant performance and user experience enhancements.",
+        "The new version delivers breakthrough processing speeds, significantly reduces operational costs for developers, and improves accuracy when generating complex source code.",
+        "This release creates a substantial impact on the software engineering community, helping to optimize application development workflows and accelerate AI integration in enterprise systems."
+      ],
+      "originalTitle": "Anthropic vừa ra mắt Claude Opus 5.5: Nhanh hơn, rẻ hơn mà code ngon hơn",
+      "url": "https://tinhte.vn/thread/anthropic-vua-ra-mat-claude-opus-5-5-nhanh-hon-re-hon-ma-code-ngon-hon.4179060/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "AI",
+        "Machine Learning",
+        "Software Engineering"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-23T07:44:57.000Z",
+      "contentSnippet": "Anthropic vừa ra mắt Claude Opus 5.5: Nhanh hơn, rẻ hơn mà code ngon hơn Anthropic vừa chính thức ra mắt Claude Opus 5.5, mở đầu cho thế hệ 5.5 mới. Điểm mình thấy đáng giá nhất là chi phí vận...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "598585f107ae9e1b",
+      "title_vi": "Xây dựng hệ thống Jev chỉ với 25 dòng mã Python",
+      "title_en": "Jev in 25 Lines of Python",
+      "summary_vi": [
+        "Cộng đồng công nghệ đang bàn luận sôi nổi về xu hướng trí tuệ nhân tạo mới mang tên Jev, được xem như bước tiến tiếp theo của các mô hình ngôn ngữ lớn.",
+        "Bài viết minh họa cách triển khai mô hình GGUF thông qua thư viện llama-cpp-python và NumPy, xử lý trực tiếp các trọng số logits để phân loại nội dung email chỉ trong một đoạn mã ngắn gọn.",
+        "Giải pháp này cung cấp cho lập trình viên cái nhìn thực tế về cách thao tác trực tiếp với đầu ra của mô hình ngôn ngữ lớn mà không cần phụ thuộc vào các framework cồng kềnh."
+      ],
+      "summary_en": [
+        "The tech community has been intensively discussing a new artificial intelligence trend called Jev, which is widely regarded as the next frontier for large language models.",
+        "The article demonstrates how to implement a GGUF model using the llama-cpp-python library and NumPy, directly processing logits to classify email contents within a concise code snippet.",
+        "This approach provides developers with a practical perspective on manipulating large language model outputs directly without relying on bloated and complex software frameworks."
+      ],
+      "originalTitle": "Jev in 25 Lines of Python",
+      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Python",
+        "LLM",
+        "Machine Learning",
+        "GGUF",
+        "AI"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-23T07:26:23.000Z",
+      "contentSnippet": "Everyone and their mom is talking about Jev. Jev this, Jev that. Everyone on Twitter is all over Jev, how it's the next frontier of large language models and the AI paradigm. We don’t really think so. So here's Jev in 25 lines of Python. # /// script # requires-python = \">=3.12\" # dependencies = [\"h",
+      "authorName": "bashbjorn",
+      "upvotes": 176,
+      "commentsCount": 51
+    },
+    {
+      "id": "a3736ec0cd638155",
+      "title_vi": "Hơn 5.000 hộ kinh doanh tại Đà Nẵng được hỗ trợ website và ứng dụng trí tuệ nhân tạo",
+      "title_en": "Over 5000 Business Households in Da Nang Supported with Websites and Artificial Intelligence Applications",
+      "summary_vi": [
+        "Trung tâm Internet Việt Nam phối hợp với các cơ quan tại Đà Nẵng triển khai chương trình hỗ trợ tên miền biz.vn cùng hệ thống website miễn phí cho hơn năm nghìn hộ kinh doanh trong giai đoạn chuyển đổi số.",
+        "Giải pháp kỹ thuật kết hợp hạ tầng tên miền quốc gia với cơ sở dữ liệu bản đồ số và công cụ trí tuệ nhân tạo giúp các cơ sở kinh doanh tự động cập nhật nội dung số.",
+        "Mô hình này giải quyết triệt để nút thắt về kỹ thuật quản trị web cho người dân, tạo tiền đề nhân rộng toàn quốc nhằm thúc đẩy mạnh mẽ kinh tế số và hiện diện trực tuyến."
+      ],
+      "summary_en": [
+        "The Vietnam Internet Network Information Center collaborated with local authorities in Da Nang to deploy the biz.vn domain program and free website systems for over five thousand business households during digital transformation.",
+        "The technical solution combines national domain infrastructure with digital map databases and artificial intelligence tools to help business establishments automatically update digital content seamlessly.",
+        "This model thoroughly resolves technical bottlenecks in web management for citizens, serving as a scalable nationwide prerequisite to strongly promote the digital economy and online presence."
+      ],
+      "originalTitle": "Hơn 5.000 hộ kinh doanh được hỗ trợ website",
+      "url": "https://vnexpress.net/hon-5-000-ho-kinh-doanh-duoc-ho-tro-website-5123726.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Web Development",
+        "AI",
+        "Digital Transformation",
+        "Domain Name",
+        "E-commerce"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-23T05:25:13.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/23/hkdn-1790138745-5088-1790138838.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=sWI9yKTZ--MVxWdw5rxrFg",
+      "contentSnippet": "Hơn 5.000 hộ kinh doanh được hỗ trợ website với tên miền \"biz.vn\", trong mô hình kết hợp dữ liệu, bản đồ số và AI để đơn giản hóa chuyển đổi số.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
