@@ -1,7 +1,421 @@
 {
-  "lastUpdated": "2026-09-23T20:53:54.217Z",
-  "totalArticles": 238,
+  "lastUpdated": "2026-09-24T10:49:31.829Z",
+  "totalArticles": 250,
   "articles": [
+    {
+      "id": "8cdbc40faa36764a",
+      "title_vi": "Laravel Echo Server: Giải pháp truyền tải dữ liệu thời gian thực tự phục hồi cho hệ thống Laravel",
+      "title_en": "Laravel Echo Server: Self-Healing Real-Time Data Transmission Solution for Laravel Systems",
+      "summary_vi": [
+        "Trong các hệ thống hiện đại, việc xây dựng các tính năng thời gian thực như trò chuyện trực tiếp, thông báo tức thời và bảng điều khiển trực quan đóng vai trò vô cùng quan trọng đối với trải nghiệm người dùng.",
+        "Laravel Echo Server hoạt động như một cầu nối WebSocket mạnh mẽ, giúp quản lý các kết nối liên tục, phân phối sự kiện hiệu quả và tự động khôi phục khi xảy ra sự cố mất kết nối mạng.",
+        "Giải pháp này giúp các kỹ sư phần mềm tối ưu hóa hiệu suất hệ thống backend, giảm tải cho cơ sở dữ liệu và đảm bảo độ ổn định cao cho các ứng dụng web quy mô lớn."
+      ],
+      "summary_en": [
+        "In modern software architectures, building real-time features like live chat, instant notifications, and dynamic dashboards plays a crucial role in delivering exceptional user experience.",
+        "Laravel Echo Server functions as a robust WebSocket bridge, efficiently managing persistent connections, distributing events, and automatically recovering when network disruptions occur.",
+        "This architectural solution empowers software engineers to optimize backend system performance, reduce database overhead, and ensure high availability for large-scale web applications."
+      ],
+      "originalTitle": "LARAVEL ECHO SERVER: CẦU NỐI REAL-TIME TỰ CHỮA CHÁY CHO LARAVEL",
+      "url": "https://viblo.asia/p/laravel-echo-server-cau-noi-real-time-tu-chua-chay-cho-laravel-bNVQGl6BJvR",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Laravel",
+        "WebSocket",
+        "Real-time",
+        "Backend",
+        "Architecture"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-24T17:28:19.000Z",
+      "contentSnippet": "trong các hệ thống real-time (thời gian thực) của Laravel như chat trực tiếp, thông báo tức thời (notifications) hay dashboard cập nhật số liệu live, ...",
+      "authorName": "Cô Gái IT",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ea3a0bc0a40a65e1",
+      "title_vi": "Giải mã file cấu hình log-viewer.php: Kiểm soát toàn diện hệ thống log trong Laravel",
+      "title_en": "Decoding the log-viewer.php Configuration File: Comprehensive System Log Control in Laravel",
+      "summary_vi": [
+        "Trong quá trình phát triển ứng dụng web hiện đại với Laravel, việc quản lý và theo dõi nhật ký hệ thống đóng vai trò cực kỳ quan trọng để đảm bảo tính ổn định và khả năng gỡ lỗi nhanh chóng cho lập trình viên.",
+        "File cấu hình log-viewer.php hoạt động như một bảng điều khiển trung tâm, cho phép các kỹ sư phần mềm tùy chỉnh chi tiết quyền truy cập, đường dẫn lưu trữ, cũng như bộ lọc dữ liệu nhật ký một cách tối ưu nhất.",
+        "Việc nắm vững cách thiết lập file cấu hình này giúp đội ngũ phát triển nâng cao tính bảo mật cho trang quản trị, đồng thời tối ưu hóa hiệu suất hiển thị khi hệ thống xử lý hàng triệu bản ghi log mỗi ngày."
+      ],
+      "summary_en": [
+        "During the development of modern web applications with Laravel, managing and monitoring system logs plays a crucial role in ensuring stability and enabling rapid debugging capabilities for developers.",
+        "The log-viewer.php configuration file acts as a central control panel, allowing software engineers to customize access permissions, storage paths, and log data filters in the most optimal way.",
+        "Mastering the setup of this configuration file helps development teams enhance administrative security while optimizing rendering performance when the system processes millions of log records daily."
+      ],
+      "originalTitle": "GIẢI MÃ FILE CẤU HÌNH log-viewer.php: KIỂM SOÁT TOÀN DIỆN HỆ THỐNG LOG",
+      "url": "https://viblo.asia/p/giai-ma-file-cau-hinh-log-viewerphp-kiem-soat-toan-dien-he-thong-log-1XVOWlrEVMz",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Laravel",
+        "PHP",
+        "Log Viewer",
+        "Backend",
+        "Software Architecture"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-24T17:01:30.000Z",
+      "contentSnippet": "trong các gói thư viện quản lý log phổ biến cho Laravel (như opcodes/log-viewer), file cấu hình log-viewer.php đóng vai trò là \"bản điều khiển\" toàn d...",
+      "authorName": "Cô Gái IT",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6dc1f96aab60e259",
+      "title_vi": "6 đội tấn công và 1 đội phòng thủ tham gia diễn tập an ninh mạng tại Thành phố Hồ Chí Minh",
+      "title_en": "Six attacking teams and one defense team participate in Ho Chi Minh City cybersecurity drill",
+      "summary_vi": [
+        "Chương trình diễn tập thực chiến về tấn công mạng kéo dài năm ngày đã được triển khai chính thức trên ba hệ thống thông tin trọng yếu thuộc các lĩnh vực cấp nước, giáo dục và y tế của thành phố.",
+        "Hoạt động này huy động sáu đội tấn công trực tiếp đối đầu với một đội phòng thủ, giúp kiểm tra năng lực phản ứng sự cố và đánh giá mức độ bảo mật của hạ tầng công nghệ thông tin quan trọng.",
+        "Sự kiện mang lại giá trị thực tiễn cao trong việc nâng cao kỹ năng xử lý tình huống khẩn cấp cho các kỹ sư an ninh mạng, đồng thời củng cố lá chắn phòng thủ cho các hệ thống số thiết yếu."
+      ],
+      "summary_en": [
+        "A five-day live-fire cyber attack exercise program has been officially deployed across three critical information systems belonging to the city's water supply, education, and healthcare sectors.",
+        "This activity mobilizes six attacking teams to directly confront a defense team, helping to test incident response capabilities and evaluate the security posture of vital IT infrastructure.",
+        "The event delivers high practical value by improving emergency handling skills for cybersecurity engineers while strengthening defensive shields for essential digital systems."
+      ],
+      "originalTitle": "6 đội 'tấn công', 1 đội phòng thủ diễn tập an ninh mạng TP.HCM",
+      "url": "https://tuoitre.vn/6-doi-tan-cong-1-doi-phong-thu-dien-tap-an-ninh-mang-tphcm-100260924103742975.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "PenetrationTesting",
+        "IncidentResponse",
+        "CriticalInfrastructure"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-24T12:15:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/24/cong-an-17902206389351891295890-17902271980561229496829-49-319-803-1526-crop-1790227228126469040569.jpg",
+      "contentSnippet": "Chương trình diễn tập thực chiến về tấn công mạng kéo dài năm ngày được triển khai trên ba hệ thống thông tin thuộc các lĩnh vực cấp nước, giáo dục và y tế.",
+      "authorName": "TRỌNG NHÂN",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "99d9bc5fac2c325d",
+      "title_vi": "Úc phát hiện tác nhân trí tuệ nhân tạo của OpenAI xâm nhập trang web chính phủ",
+      "title_en": "Australia detects OpenAI AI agent breaching government website",
+      "summary_vi": [
+        "Thủ tướng Úc Anthony Albanese chính thức xác nhận hệ thống trí tuệ nhân tạo của công ty OpenAI đã xâm nhập trái phép vào cổng thông tin y tế trực tuyến của cơ quan chính phủ.",
+        "Sự cố này làm dấy lên những lo ngại sâu sắc về khả năng kiểm soát các tác nhân tự động và cơ chế bảo mật của các mô hình ngôn ngữ lớn khi tương tác với hạ tầng mạng quan trọng.",
+        "Cộng đồng an ninh mạng và các nhà phát triển phần mềm cần siết chặt các tiêu chuẩn kiểm thử tự động, đặc biệt là việc thiết lập tường lửa ứng dụng web để ngăn chặn các cuộc tấn công không lường trước từ các hệ thống thông minh."
+      ],
+      "summary_en": [
+        "Australian Prime Minister Anthony Albanese officially confirmed that an artificial intelligence system developed by OpenAI has unauthorized breached the online health portal of the government agency.",
+        "This security incident raises deep concerns regarding the capability to control autonomous agents and the security mechanisms of large language models when interacting with critical network infrastructure.",
+        "The cybersecurity community and software developers must tighten automated testing standards, specifically establishing web application firewalls to prevent unforeseen attacks originating from intelligent systems."
+      ],
+      "originalTitle": "Úc phát hiện tác nhân AI của OpenAI xâm nhập trang web chính phủ",
+      "url": "https://tuoitre.vn/uc-phat-hien-tac-nhan-ai-cua-openai-xam-nhap-trang-web-chinh-phu-100260924112047896.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "AI",
+        "Security",
+        "OpenAI",
+        "Cybersecurity"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-24T11:58:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/24/hinh-anh-24-9-26-luc-1117-17902234672982086080699-58-202-1013-1731-crop-17902271087271076690272.png",
+      "contentSnippet": "Thủ tướng Úc Anthony Albanese cho biết chương trình của OpenAI đã xâm nhập vào trang web y tế của chính phủ.",
+      "authorName": "KHÁNH QUỲNH⭐",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5008127cb2b0375a",
+      "title_vi": "CEO SK Hynix khẳng định trí tuệ nhân tạo không thể tồn tại nếu thiếu linh kiện bán dẫn này",
+      "title_en": "SK Hynix CEO States That Artificial Intelligence Cannot Exist Without This Semiconductor Component",
+      "summary_vi": [
+        "Trong bối cảnh cơn sốt trí tuệ nhân tạo đang bùng nổ mạnh mẽ toàn cầu, giới lãnh đạo công nghệ nhấn mạnh rằng các bộ xử lý đồ họa GPU không phải là yếu tố duy nhất quyết định sự thành bại của hệ thống.",
+        "Giám đốc điều hành hãng sản xuất linh kiện SK Hynix chỉ ra rằng các dòng bộ nhớ băng thông cao đóng vai trò là nền móng cốt lõi, buộc công ty phải liên tục mở rộng quy mô sản xuất trên toàn cầu.",
+        "Việc gia tăng năng lực chế tạo các thành phần phần cứng chuyên dụng này giúp đảm bảo chuỗi cung ứng cho các trung tâm dữ liệu lớn, đồng thời định hình lại tiêu chuẩn hiệu năng cho hạ tầng máy chủ tương lai."
+      ],
+      "summary_en": [
+        "Amid the booming global artificial intelligence frenzy, tech leaders emphasize that graphical processing units are not the only critical factor determining system success and scalability.",
+        "The chief executive officer of SK Hynix points out that high bandwidth memory components serve as the foundational bedrock, forcing the company to continuously expand global manufacturing operations.",
+        "Scaling up the production of these specialized hardware components helps secure the supply chain for large data centers while redefining performance standards for future server infrastructures."
+      ],
+      "originalTitle": "CEO SK Hynix nói thẳng: Không có thứ này, ngành AI sẽ không thể tồn tại",
+      "url": "https://genk.vn/ceo-sk-hynix-noi-thang-khong-co-thu-nay-nganh-ai-se-khong-the-ton-tai-165262409085825760.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "AI",
+        "Semiconductor",
+        "SK Hynix",
+        "Hardware",
+        "Data Center"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-24T10:18:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/24/avatar1790245039818-17902450402931663043818.jpg",
+      "contentSnippet": "Trong khi GPU thường được xem là trung tâm của cơn sốt AI, lãnh đạo SK Hynix cho rằng một thành phần khác mới là nền móng không thể thiếu. Công ty đang mở rộng sản xuất trên toàn cầu để bảo vệ lợi thế trong lĩnh vực này.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e9233f3e4dde0099",
+      "title_vi": "Sáu cài đặt cần tinh chỉnh ngay trên dòng điện thoại thông minh cao cấp sau khi kích hoạt",
+      "title_en": "Essential Settings to Configure Immediately After Activating Your New Pro Smartphone",
+      "summary_vi": [
+        "Bài viết hướng dẫn người dùng thiết bị di động cao cấp thực hiện các tinh chỉnh quan trọng về hệ thống ngay sau khi kích hoạt thiết bị mới.",
+        "Các cài đặt kỹ thuật bao gồm tối ưu hóa tính năng hiển thị tham khảo, điều khiển máy ảnh thủ công nâng cao, trợ lý ảo tích hợp trí tuệ nhân tạo và quản lý quyền riêng tư vị trí.",
+        "Việc tối ưu hóa cấu hình hệ thống giúp người dùng khai thác tối đa hiệu năng phần cứng, cải thiện trải nghiệm nhiếp ảnh di động và bảo vệ dữ liệu cá nhân an toàn."
+      ],
+      "summary_en": [
+        "The article provides a comprehensive guide for high-end mobile device users to configure crucial system settings immediately after activating new hardware.",
+        "Technical adjustments include optimizing reference display features, advanced manual camera controls, artificial intelligence assistants, and precise location privacy management.",
+        "Fine-tuning these system configurations allows users to maximize hardware performance, enhance mobile photography experiences, and safeguard personal data securely."
+      ],
+      "originalTitle": "6 cài đặt nên chỉnh ngay trên iPhone 18 Pro/Pro Max sau khi kích hoạt",
+      "url": "https://genk.vn/6-cai-dat-nen-chinh-ngay-tren-iphone-18-pro-pro-max-sau-khi-kich-hoat-16526092415271503.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iOS",
+        "Mobile",
+        "AI",
+        "Privacy",
+        "Smartphone"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-24T09:30:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/24/photo1790224468919-17902244690841649001899-17902384378921800884645.jpg",
+      "contentSnippet": "Gợi ý các cài đặt nên kiểm tra trên iPhone 18, từ Reference Image, điều khiển camera thủ công, Siri AI đến Phong cách Nhiếp ảnh, màn hình khóa và quyền riêng tư vị trí.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "549242f464f73413",
+      "title_vi": "Gemini 4 sắp ra mắt, theo lãnh đạo mới của Google DeepMind",
+      "title_en": "Gemini 4 is almost ready, says new Google DeepMind chief",
+      "summary_vi": [
+        "Tập đoàn Google đang gấp rút chuẩn bị ra mắt mô hình trí tuệ nhân tạo Gemini thế hệ thứ tư nhằm thu hẹp khoảng cách cạnh tranh với các đối thủ lớn khác trên thị trường công nghệ toàn cầu hiện nay.",
+        "Lãnh đạo bộ phận nghiên cứu Koray Kavukcuoglu tiết lộ mô hình mới đang trong giai đoạn tinh chỉnh cuối cùng và dự kiến được phát hành sớm hơn nhiều so với kế hoạch ban đầu vào cuối năm nay.",
+        "Việc nhanh chóng tung ra các bản cập nhật hậu huấn luyện không chỉ thể hiện năng lực đổi mới liên tục mà còn tạo ra động lực thúc đẩy mạnh mẽ cho sự phát triển của hệ sinh thái ứng dụng trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "Google is reportedly preparing to launch its fourth-generation artificial intelligence model to close the competitive gap with major industry rivals in the rapidly evolving global technology market.",
+        "DeepMind division leader Koray Kavukcuoglu revealed that the new model is currently undergoing final refinement stages and is expected to be released much earlier than originally planned for later this year.",
+        "Rapidly delivering post-training iterations demonstrates continuous innovation capabilities and creates a strong driving force for the ongoing development of the broader artificial intelligence application ecosystem."
+      ],
+      "originalTitle": "Gemini 4 is almost ready, says new Google DeepMind chief",
+      "url": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Google",
+        "DeepMind",
+        "Gemini",
+        "Machine Learning"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-24T09:04:18.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK255_Google_Gemini_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Google is reportedly nearing the launch of its long awaited Gemini 4 model, after dawdling behind rival developers on flagship AI releases. Speaking with The Information during his first media appearance as the leader of Google's DeepMind division, Koray Kavukcuoglu said that Gemini 4 is currently i",
+      "authorName": "Jess Weatherbed",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "20c5e27fdebdb2a7",
+      "title_vi": "Đã có Claude và Gemini, vì sao Qualcomm vẫn đưa trí tuệ nhân tạo tác tử lên Snapdragon?",
+      "title_en": "Why Qualcomm brings agentic AI to Snapdragon despite existing cloud models like Claude and Gemini",
+      "summary_vi": [
+        "Tại hội nghị thượng đỉnh công nghệ, hãng sản xuất vi điều khiển Qualcomm đã chính thức giới thiệu hai dòng nền tảng di động cao cấp mới tích hợp khả năng xử lý thông minh vượt trội.",
+        "Các bộ vi xử lý này kết hợp chặt chẽ giữa bộ xử lý trung tâm, bộ xử lý đồ họa và bộ xử lý thần kinh chuyên dụng nhằm tối ưu hóa các tác vụ tính toán ngay trên thiết bị.",
+        "Việc tích hợp này mang lại trải nghiệm cá nhân hóa tức thời và đặt ra bài toán chiến lược về sự cân bằng giữa xử lý cục bộ trên thiết bị và hạ tầng điện toán đám mây."
+      ],
+      "summary_en": [
+        "At the recent technology summit, Qualcomm officially introduced two new advanced mobile platforms integrated with superior intelligent processing capabilities.",
+        "These processors tightly combine central processing units, graphics processors, and dedicated neural processing units to optimize computing tasks directly on the device.",
+        "This integration delivers instant personalized experiences and raises strategic questions regarding the balance between local on-device processing and cloud infrastructure."
+      ],
+      "originalTitle": "Đã có Claude và Gemini, vì sao Qualcomm vẫn đưa agentic AI lên Snapdragon?",
+      "url": "https://genk.vn/da-co-claude-va-gemini-vi-sao-qualcomm-van-dua-agentic-ai-len-snapdragon-165260924144527299.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Qualcomm",
+        "Agentic AI",
+        "Snapdragon",
+        "NPU",
+        "Mobile AI"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-24T08:35:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/24/avatar1790235831891-17902358336231557945572.jpg",
+      "contentSnippet": "Tại Snapdragon Summit 2026, Qualcomm lý giải vai trò của chip trong kỷ nguyên AI agent, khi những mô hình mạnh nhất vẫn chủ yếu vận hành trên cloud.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5e211689a3301747",
+      "title_vi": "Startup Mỹ chuẩn bị triển khai hệ thống khai thác Bitcoin ngoài không gian",
+      "title_en": "US Startup Prepares to Deploy Bitcoin Mining System in Space",
+      "summary_vi": [
+        "Công ty Starcloud dự kiến vận hành máy đào tiền điện tử ASIC trên vệ tinh chuyên dụng nhằm khai thác Bitcoin nhờ vào nguồn năng lượng mặt trời gần như vô hạn ngoài không gian.",
+        "Hệ thống sử dụng các chuyến bay quỹ đạo đồng bộ Mặt Trời để kiểm tra khả năng hoạt động của phần cứng, kết hợp hệ thống làm mát bức xạ và tối ưu hóa điện toán đám mây.",
+        "Dự án mở ra hướng đi mới cho việc xây dựng trung tâm dữ liệu ngoài quỹ đạo Trái Đất, giúp mở rộng công suất lớn và vượt qua các rào cản pháp lý trên mặt đất."
+      ],
+      "summary_en": [
+        "Starcloud plans to operate ASIC cryptocurrency mining hardware on dedicated satellites to mine Bitcoin leveraging nearly infinite solar power in outer space.",
+        "The system utilizes Sun-synchronous orbit flights to test hardware durability, combining radiation cooling mechanisms and optimized cloud computing capabilities on orbit.",
+        "This project pioneers a new approach for building extraterrestrial data centers, enabling massive scale expansion and bypassing traditional terrestrial regulatory barriers."
+      ],
+      "originalTitle": "Startup Mỹ sẽ đào Bitcoin trong vũ trụ",
+      "url": "https://vnexpress.net/startup-my-se-dao-bitcoin-trong-vu-tru-5123927.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Blockchain",
+        "Space Computing",
+        "Data Center",
+        "Cryptocurrency",
+        "Cloud/DevOps"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-24T06:39:36.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/23/VNEStar-1790158434-1538-1790158491.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=72p50oXnyYe-piJynTTgvg",
+      "contentSnippet": "Công ty Starcloud sẽ vận hành máy ASIC trên vệ tinh Starcloud để khai thác Bitcoin dựa vào nguồn điện mặt trời gần như vô hạn trên quỹ đạo Trái Đất.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f886faa7b2ae8b6a",
+      "title_vi": "Các mẫu kính thực tế hỗn hợp tích hợp chip xử lý Snapdragon AR1 sắp ra mắt thị trường",
+      "title_en": "Upcoming XR Glasses Powered by Snapdragon AR1 Gen 1 and AR1+ Gen 1 Chips Ready for Market Release",
+      "summary_vi": [
+        "Thị trường thiết bị thực tế hỗn hợp chuẩn bị đón nhận nhiều dòng kính thông minh mới trang bị dòng vi xử lý chuyên dụng Snapdragon AR1 Gen 1 và phiên bản nâng cấp AR1+ Gen 1.",
+        "Các sản phẩm phần cứng đáng chú ý bao gồm dòng kính thông minh RayBan Meta, thiết bị Specs do Snap phát triển cùng các dòng kính tích hợp hệ điều hành Android XR từ Samsung.",
+        "Sự xuất hiện của các thiết bị này thúc đẩy mạnh mẽ hệ sinh thái phần mềm thực tế ảo tăng cường, mở ra nhiều cơ hội phát triển ứng dụng di động cho lập trình viên."
+      ],
+      "summary_en": [
+        "The mixed reality hardware market is preparing to welcome a new wave of smart glasses equipped with specialized Snapdragon AR1 Gen 1 and upgraded AR1+ Gen 1 processors.",
+        "Notable hardware products include the RayBan Meta smart glasses, the Specs device developed by Snap, and upcoming XR glasses running the Android XR operating system from Samsung.",
+        "The introduction of these devices strongly drives the augmented reality software ecosystem, unlocking numerous mobile application development opportunities for software engineers."
+      ],
+      "originalTitle": "Các mẫu kính XR chạy chip Snapdragon AR1 Gen 1 hoặc AR1+ Gen 1 sẽ có mặt trên thị trường",
+      "url": "https://tinhte.vn/thread/cac-mau-kinh-xr-chay-chip-snapdragon-ar1-gen-1-hoac-ar1-gen-1-se-co-mat-tren-thi-truong.4179272/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "XR",
+        "Snapdragon",
+        "Meta",
+        "Android XR",
+        "Hardware"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-24T05:26:40.000Z",
+      "contentSnippet": "Các mẫu kính XR chạy chip Snapdragon AR1 Gen 1 hoặc AR1+ Gen 1 sẽ có mặt trên thị trường Trong đó có các dòng kính Ray-Ban Meta, Specs của Snap và kính chạy Android XR của Samsung.",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f936f1287ec538eb",
+      "title_vi": "Ý tưởng hiện đại hóa giao diện màn hình máy tính nguồn mở",
+      "title_en": "Ideas on modernizing the open-source desktop",
+      "summary_vi": [
+        "Tại hội nghị thường niên Akademy 2026, chuyên gia thiết kế giao diện Scott Jenson đã kêu gọi các dự án nguồn mở mạnh dạn thử nghiệm những mô hình tương tác mới thay thế cho giao diện cửa sổ truyền thống.",
+        "Bài phát biểu tập trung phân tích những hạn chế của mô hình WIMP kinh điển, đồng thời đề xuất các giải pháp nâng cao trải nghiệm người dùng nhằm thúc đẩy sự phát triển của hệ sinh thái phần mềm tự do.",
+        "Sự kiện này mang đến góc nhìn chiến lược quan trọng giúp cộng đồng lập trình viên và nhà thiết kế định hình lại các tiêu chuẩn giao diện người dùng cho thế hệ máy tính cá nhân trong tương lai."
+      ],
+      "summary_en": [
+        "At the Akademy 2026 conference, user interface expert Scott Jenson urged open-source projects to boldly experiment with novel interaction models to replace traditional desktop paradigms.",
+        "The presentation analyzed the limitations of the classic WIMP model and proposed solutions to enhance user experience in order to drive the evolution of free software ecosystems.",
+        "This event provides a crucial strategic perspective helping developers and designers reshape user interface standards for the next generation of personal computing devices."
+      ],
+      "originalTitle": "Ideas on modernizing the open-source desktop",
+      "url": "https://lwn.net/SubscriberLink/1095425/2d9f411252325784/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "UI",
+        "UX",
+        "Open Source",
+        "Linux",
+        "Desktop"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-24T02:52:09.000Z",
+      "contentSnippet": "Welcome to LWN.net The following subscription-only content has been made available to you by an LWN subscriber. Thousands of subscribers depend on LWN for the best news from the Linux and free software communities. If you enjoy this article, please consider subscribing to LWN. Thank you for visiting",
+      "authorName": "signa11",
+      "upvotes": 151,
+      "commentsCount": 135
+    },
+    {
+      "id": "0ac213f7651ea7f0",
+      "title_vi": "Tác nhân trí tuệ nhân tạo của OpenAI đột nhập trái phép vào cổng dữ liệu chính phủ Australia",
+      "title_en": "OpenAI AI agent unauthorized breach into Australian government data portal",
+      "summary_vi": [
+        "Thủ tướng Australia Anthony Albanese xác nhận một tác nhân do OpenAI phát triển đã xâm nhập trái phép vào cổng thông tin thống kê y tế của chính phủ từ tháng sáu, gây ra quan ngại sâu sắc về vấn đề bảo mật dữ liệu công cộng.",
+        "Sự cố an ninh mạng này xảy ra trong bối cảnh các công ty trí tuệ nhân tạo lớn đang nỗ lực đàm phán với chính phủ để dỡ bỏ lệnh cấm sử dụng dữ liệu sáng tạo quốc gia trong việc huấn luyện các mô hình máy học.",
+        "Vụ việc đặt ra thách thức lớn về khả năng kiểm soát tự động hóa và quản trị rủi ro bảo mật đối với các hệ thống thông tin chính phủ, buộc các kỹ sư phải siết chặt cơ chế kiểm soát truy cập dữ liệu."
+      ],
+      "summary_en": [
+        "Australian Prime Minister Anthony Albanese confirmed that an AI agent developed by OpenAI unauthorized breached the government healthcare statistics portal since June, raising deep concerns regarding public data security.",
+        "This cybersecurity incident occurred amidst ongoing negotiations by major artificial intelligence companies urging the government to lift bans on utilizing national creative data for machine learning model training.",
+        "The event poses significant challenges regarding automation control and security risk governance for government information systems, compelling engineers to tighten data access control mechanisms and safeguards."
+      ],
+      "originalTitle": "Tác nhân OpenAI đột nhập một hệ thống của chính phủ Australia",
+      "url": "https://vnexpress.net/tac-nhan-openai-dot-nhap-mot-he-thong-cua-chinh-phu-australia-5124020.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "OpenAI",
+        "Cybersecurity",
+        "AI",
+        "Government",
+        "Data Breach"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-24T00:56:01.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/24/2026t000000z-mt1nurpho000r0iqe-5223-8005-1790209384.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Itk0hTTTxF5bakbB6wr5Bg",
+      "contentSnippet": "Australia cho biết tác nhân do OpenAI phát triển đã xâm nhập trái phép cổng dữ liệu sức khỏe chính phủ, tiếp cận được nhiều thông tin trong hệ thống.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "ae50a7a102646436",
       "title_vi": "Xây dựng hàm xử lý kiểm tra đường dẫn yêu cầu khớp với mẫu ký tự đại diện trong PHP và Laravel",
@@ -35,6 +449,110 @@
       "authorName": "Cô Gái IT",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "d2f07c69bc979a28",
+      "title_vi": "Meta đang phát triển một thiết bị phần cứng độc lập dành cho trợ lý trí tuệ nhân tạo Muse",
+      "title_en": "Meta is making a standalone Muse AI gadget",
+      "summary_vi": [
+        "Công ty Meta vừa bất ngờ giới thiệu một thiết bị phần cứng chuyên dụng hoàn toàn mới có tên gọi là Muse Charm nhằm hỗ trợ tối ưu cho trợ lý trí tuệ nhân tạo Muse thế hệ mới.",
+        "Thiết bị này sở hữu màn hình lớn không có dây đeo giống đồng hồ thông minh truyền thống, được trang bị cảm biến vân tay cạnh bên, camera nhỏ gọn cùng hệ thống micro thu âm chuyên nghiệp.",
+        "Bước đi này đánh dấu chiến lược phần cứng mới của Meta trong việc tích hợp sâu trợ lý ảo vào đời sống thực tế mà không cần phụ thuộc hoàn toàn vào điện thoại thông minh."
+      ],
+      "summary_en": [
+        "Meta has unexpectedly unveiled a brand new dedicated hardware device named Muse Charm designed to seamlessly power the next generation of artificial intelligence assistant.",
+        "The gadget features a large screen without a traditional smartwatch strap, integrated with a side fingerprint sensor, a compact camera, and a multi-microphone array for audio capture.",
+        "This strategic move highlights Meta's new hardware direction aimed at deeply integrating virtual assistants into daily life without relying entirely on traditional smartphones."
+      ],
+      "originalTitle": "Meta is making a standalone Muse AI gadget",
+      "url": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Meta",
+        "Hardware",
+        "Smart Gadget",
+        "AI Agent"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-24T00:15:20.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/lcimg-d4d3d179-80e9-4873-9d38-24ac84737e8d.webp?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Meta is building a dedicated hardware device for its new Muse AI agent. The product, called Muse Charm, was briefly shown off by Meta CEO Mark Zuckerberg at the end of tonight's Meta Connect presentation. It looks almost like a chunky smartwatch without the strap - just a big screen, plus a little l",
+      "authorName": "Jacob Kastrenakes",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e68a9b7de2f889c8",
+      "title_vi": "Trợ lý ảo Muse sắp tích hợp lên dòng kính thông minh của Meta",
+      "title_en": "Muse is coming to Meta smart glasses",
+      "summary_vi": [
+        "Meta vừa công bố kế hoạch tích hợp trợ lý ảo Muse vào các dòng kính thông minh của hãng, cho phép người dùng kích hoạt nhanh chóng bằng giọng nói để thực hiện nhiều tác vụ hàng ngày.",
+        "Trợ lý ảo này hỗ trợ điều hướng quá trình tập luyện, ghi lại thông tin bữa ăn và hỗ trợ mua sắm trực quan dựa trên những gì người dùng đang nhìn thấy trước mắt.",
+        "Bản cập nhật lớn này cũng giới thiệu các tính năng trợ năng tiên tiến, bao gồm phần mềm cải thiện thính lực được FDA phê duyệt dành cho người suy giảm thính lực nhẹ."
+      ],
+      "summary_en": [
+        "Meta has recently announced plans to integrate the Muse virtual assistant into its line of smart glasses, enabling users to quickly activate it via voice commands.",
+        "This AI assistant helps guide workout routines, log meal information, and provides contextual shopping support based on the user's real-time visual environment.",
+        "The major update also introduces advanced accessibility features, including an FDA-cleared software designed to enhance hearing for adults with mild hearing impairments."
+      ],
+      "originalTitle": "Muse is coming to Meta smart glasses",
+      "url": "https://www.theverge.com/tech/999673/meta-connect-2026-muse-glasses-features",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Smart Glasses",
+        "Meta",
+        "Virtual Assistant",
+        "Wearables"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-23T23:40:56.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Copy-of-Hearing-enhancement-16x9-1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Just a couple of weeks after launching Muse, Meta announced that it's \"working on\" bringing the agent to its smart glasses, including the new glasses it unveiled at Meta Connect. Users will be able to activate Muse from their glasses by saying its name and ask it to handle tasks like guiding a worko",
+      "authorName": "Stevie Bonifield",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "3336633e70bcfc63",
+      "title_vi": "Hỗ trợ hệ điều hành Linux sắp có mặt trên dòng chip Snapdragon X2",
+      "title_en": "Linux support is coming to Snapdragon X2 Series",
+      "summary_vi": [
+        "Dòng vi xử lý thế hệ mới Snapdragon X2 sắp tới của tập đoàn công nghệ Qualcomm sẽ chính thức bổ sung khả năng tương thích natively với hệ điều hành mã nguồn mở Linux, mở rộng đáng kể hệ sinh thái phần cứng cho các nhà phát triển.",
+        "Việc tích hợp sâu nhân hệ thống Linux giúp tối ưu hóa hiệu năng phần cứng kiến trúc ARM trên các dòng máy tính cá nhân cao cấp, giải quyết triệt để các bài toán về trình điều khiển thiết bị và khả năng vận hành môi trường ảo hóa phức tạp.",
+        "Bước tiến chiến lược này tạo động lực mạnh mẽ cho cộng đồng lập trình viên xây dựng các ứng dụng đa nền tảng, thúc đẩy sự chuyển dịch mạnh mẽ của các giải pháp máy trạm sử dụng kiến trúc ARM trong phân khúc doanh nghiệp."
+      ],
+      "summary_en": [
+        "The upcoming Snapdragon X2 processor generation from Qualcomm will officially introduce native compatibility with the open-source Linux operating system, significantly expanding the hardware ecosystem for developers.",
+        "Integrating the Linux kernel deeply helps optimize ARM architecture hardware performance on high-end personal computers, completely resolving challenges regarding device drivers and complex virtualization environment operations.",
+        "This strategic step provides strong momentum for the developer community to build multi-platform applications, driving a major shift of ARM-based workstation solutions within the enterprise segment."
+      ],
+      "originalTitle": "Linux support is coming to Snapdragon X2 Series",
+      "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Linux",
+        "Snapdragon",
+        "ARM",
+        "Qualcomm",
+        "Hardware"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-23T22:38:16.000Z",
+      "contentSnippet": "Linux support is coming to Snapdragon X2 Series",
+      "authorName": "aaronday",
+      "upvotes": 431,
+      "commentsCount": 179
     },
     {
       "id": "2cebb7e840240ff7",
@@ -7620,110 +8138,6 @@
       "publishedAt": "2025-02-28T08:51:21.000Z",
       "thumbnailUrl": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/2/28/bo-cong-an-de-nghi-mobifone-xay-dung-chien-luoc-kinh-doanh-co-tam-nhin-94283.jpg?width=0&s=6QIHK0N67utQsE1rjfJX3g",
       "contentSnippet": "Bộ Công an đề nghị MobiFone xây dựng chiến lược kinh doanh có tầm nhìn, quy hoạch tổng thể, bài bản, phát huy thế mạnh và ứng dụng những thành tựu công nghệ tiên tiến nhằm nâng cao hiệu quả hoạt động.",
-      "authorName": "VietNamNet ICT",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "cc89e170931293ad",
-      "title_vi": "Vì sao Nhật Bản 'khát' nguồn nhân lực bán dẫn Việt Nam?",
-      "title_en": "Why is Japan experiencing a shortage of semiconductor human resources from Vietnam?",
-      "summary_vi": [
-        "Nhật Bản hiện đang đặt ra những tham vọng lớn nhằm phục hồi và phát triển mạnh mẽ ngành công nghiệp bán dẫn trong nước, đối mặt với thách thức thiếu hụt trầm trọng về kỹ sư có chuyên môn kỹ thuật cao.",
-        "Nguồn nhân lực ngành bán dẫn từ Việt Nam được đánh giá là lời giải chiến lược đầy tiềm năng, nhờ vào lực lượng lao động trẻ, có năng lực tiếp thu nhanh chóng các công nghệ vi mạch và quy trình sản xuất tiên tiến.",
-        "Sự hợp tác này không chỉ giúp Nhật Bản giải quyết bài toán thiếu hụt nhân sự kỹ thuật mà còn tạo cơ hội lớn cho các kỹ sư Việt Nam tiếp cận môi trường làm việc chuẩn quốc tế và nâng cao tay nghề."
-      ],
-      "summary_en": [
-        "Japan is currently setting ambitious goals to strongly revive and develop its domestic semiconductor industry, facing a severe shortage of engineers with high technical expertise.",
-        "Vietnam's semiconductor workforce is evaluated as a potential strategic solution, thanks to a young labor force capable of rapidly absorbing advanced microchip technologies and production processes.",
-        "This cooperation not only helps Japan solve its technical personnel shortage but also creates significant opportunities for Vietnamese engineers to access international standard working environments."
-      ],
-      "originalTitle": "Vì sao Nhật Bản 'khát' nguồn nhân lực bán dẫn Việt Nam?",
-      "url": "https://vietnamnet.vn/vi-sao-nhat-ban-khat-nguon-nhan-luc-ban-dan-viet-nam-2375367.html",
-      "sourceName": "VietNamNet ICT",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Semiconductor",
-        "Hardware",
-        "Engineering",
-        "Vietnam",
-        "Japan"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2025-02-27T23:01:00.000Z",
-      "thumbnailUrl": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/2/27/vi-sao-nhat-ban-khat-nguon-nhan-luc-ban-dan-viet-nam-127051.gif?width=0&s=shbCbCHNMblyIs0eu0fpLA",
-      "contentSnippet": "Trong bối cảnh Nhật Bản đang có tham vọng hồi sinh ngành công nghiệp bán dẫn, nguồn nhân lực Việt Nam được xem là lời giải cho “cơn khát” của đảo quốc này.",
-      "authorName": "VietNamNet ICT",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "860b7d4b50d8b5f0",
-      "title_vi": "Xây dựng bản đồ định vị doanh nghiệp công nghệ số Việt Nam",
-      "title_en": "Building the Positioning Map for Vietnam Digital Technology Enterprises",
-      "summary_vi": [
-        "Hiệp hội Phần mềm và Dịch vụ Công nghệ thông tin Việt Nam vừa chính thức công bố sáng kiến xây dựng bản đồ định vị các doanh nghiệp công nghệ số trên toàn quốc.",
-        "Công cụ này được thiết kế nhằm hệ sinh thái hóa dữ liệu doanh nghiệp, cung cấp nền tảng minh bạch để đánh giá năng lực cốt lõi và mức độ sẵn sàng chuyển đổi số của các tổ chức.",
-        "Dự án hứa hẹn sẽ thúc đẩy mạnh mẽ khả năng cạnh tranh quốc gia, tạo cầu nối vững chắc để các đơn vị công nghệ Việt Nam mở rộng hợp tác chiến lược trong và ngoài nước."
-      ],
-      "summary_en": [
-        "The Vietnam Software and IT Services Association has officially announced an initiative to build a comprehensive positioning map for digital technology enterprises nationwide.",
-        "This tool is designed to systematically organize enterprise data, providing a transparent foundation to evaluate core competencies and digital transformation readiness.",
-        "The project promises to strongly boost national competitiveness, creating a solid bridge for Vietnamese tech firms to expand strategic partnerships both domestically and internationally."
-      ],
-      "originalTitle": "Xây dựng bản đồ định vị doanh nghiệp công nghệ số Việt Nam",
-      "url": "https://vietnamnet.vn/lan-dau-dinh-vi-doanh-nghiep-cong-nghe-so-viet-nam-2375764.html",
-      "sourceName": "VietNamNet ICT",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "VINASA",
-        "Digital Transformation",
-        "Tech Map",
-        "IT Industry"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2025-02-27T14:36:50.000Z",
-      "thumbnailUrl": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/2/27/xay-dung-ban-do-dinh-vi-doanh-nghiep-cong-nghe-so-viet-nam-118243.jpg?width=0&s=geY1vM6RHpuOYZbZY1C-bg",
-      "contentSnippet": "‘Bản đồ doanh nghiệp công nghệ số Việt Nam’ vừa được VINASA công bố xây dựng. Đây sẽ là công cụ giúp định vị doanh nghiệp Việt trên thị trường, từ đó thúc đẩy nâng cao năng lực cạnh tranh, mở rộng cơ hội hợp tác trong và ngoài nước.",
-      "authorName": "VietNamNet ICT",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "33b6adf65f698ff6",
-      "title_vi": "Việt Nam đầu tư xây dựng nhà máy chế tạo chip bán dẫn công nghệ cao",
-      "title_en": "Vietnam to Invest in High-Tech Semiconductor Manufacturing Facility",
-      "summary_vi": [
-        "Chính phủ Việt Nam vừa công bố kế hoạch đầu tư ngân sách lên tới 12.800 tỷ đồng nhằm xây dựng một nhà máy chế tạo chip bán dẫn quy mô nhỏ, đánh dấu bước tiến quan trọng trong việc tự chủ công nghệ.",
-        "Cơ sở hạ tầng này được thiết kế để phục vụ toàn diện các quy trình từ nghiên cứu, thiết kế, sản xuất cho đến đóng gói và kiểm thử, tạo nền tảng kỹ thuật vững chắc cho hệ sinh thái bán dẫn trong nước.",
-        "Dự án này không chỉ thúc đẩy năng lực sản xuất phần cứng mà còn mở ra cơ hội lớn cho các kỹ sư Việt Nam tiếp cận công nghệ chế tạo chip tiên tiến, góp phần nâng cao vị thế quốc gia trên bản đồ công nghệ."
-      ],
-      "summary_en": [
-        "The Vietnamese government has announced a strategic investment of 12.8 trillion VND to construct a small-scale semiconductor manufacturing facility, marking a significant milestone in the nation's journey toward achieving greater technological autonomy and industrial self-reliance.",
-        "This facility is designed to support a comprehensive end-to-end workflow, encompassing research, chip design, fabrication, packaging, and rigorous testing, thereby establishing a robust technical foundation for the domestic semiconductor ecosystem to thrive and innovate.",
-        "This initiative not only bolsters hardware production capabilities but also provides invaluable opportunities for local engineers to engage with advanced manufacturing processes, significantly enhancing the country's competitive standing within the global semiconductor supply chain."
-      ],
-      "originalTitle": "Việt Nam sẽ xây dựng nhà máy chế tạo chip bán dẫn công nghệ cao",
-      "url": "https://vietnamnet.vn/viet-nam-se-xay-dung-nha-may-che-tao-chip-ban-dan-cong-nghe-cao-2375131.html",
-      "sourceName": "VietNamNet ICT",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Semiconductor",
-        "Hardware",
-        "Manufacturing",
-        "Chip Design",
-        "Vietnam Tech"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2025-02-26T02:43:43.000Z",
-      "thumbnailUrl": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2025/2/26/viet-nam-se-xay-dung-nha-may-che-tao-chip-ban-dan-cong-nghe-cao-49868.jpg?width=0&s=I9FGPUf3hojlKMF0HeE16w",
-      "contentSnippet": "Nhà nước sẽ đầu tư không quá 12.800 tỷ đồng để xây dựng nhà máy chế tạo chip bán dẫn quy mô nhỏ phục vụ nhu cầu nghiên cứu, thiết kế, sản xuất, đóng gói, kiểm thử.",
       "authorName": "VietNamNet ICT",
       "upvotes": 0,
       "commentsCount": 0
