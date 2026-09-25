@@ -1,7 +1,520 @@
 {
-  "lastUpdated": "2026-09-24T20:58:52.564Z",
+  "lastUpdated": "2026-09-25T10:54:05.639Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "e57bf3114388d598",
+      "title_vi": "Từ khóa nil trong Golang: Hiểu đúng để tránh lỗi sập bẫy nil panic",
+      "title_en": "The nil keyword in Golang: Proper understanding to avoid nil panic traps",
+      "summary_vi": [
+        "Khi chuyển đổi ngôn ngữ lập trình từ PHP hoặc JavaScript sang Golang, từ khóa nil thường trở thành cạm bẫy tiềm ẩn lỗi nghiêm trọng cho các lập trình viên mới bắt đầu.",
+        "Bài viết phân tích chi tiết cơ chế hoạt động của con trỏ nil trong cấu trúc dữ liệu Go, giúp kỹ sư phần mềm nhận diện nguyên nhân gây ra ngoại lệ nil pointer panic khi thực thi mã nguồn.",
+        "Hiểu rõ bản chất của nil giúp tối ưu hóa chất lượng mã nguồn Golang, nâng cao độ ổn định cho hệ thống backend và giảm thiểu tối đa rủi ro gián đoạn dịch vụ thực tế."
+      ],
+      "summary_en": [
+        "When transitioning programming languages from PHP or JavaScript to Golang, the nil keyword frequently becomes a hidden trap causing serious errors for novice developers.",
+        "The article analyzes in detail the operating mechanism of nil pointers within Go data structures, helping software engineers identify the root causes of nil pointer panic exceptions during code execution.",
+        "Comprehending the true nature of nil helps optimize Golang source code quality, enhances backend system stability, and minimizes operational risks in production environments."
+      ],
+      "originalTitle": "TỪ KHÓA nil TRONG GOLANG: HIỂU ĐÚNG ĐỂ KHÔNG SẬP BẪY \"NIL PANIC\"",
+      "url": "https://viblo.asia/p/tu-khoa-nil-trong-golang-hieu-dung-de-khong-sap-bay-nil-panic-y0VGwg87VPA",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Golang",
+        "Software Engineering",
+        "Backend",
+        "Programming"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-25T16:43:04.000Z",
+      "contentSnippet": "khi chuyển từ các ngôn ngữ như PHP hay JavaScript sang Golang (Go), một trong những khái niệm nhỏ nhưng dễ tạo ra \"cạm bẫy\" nhất chính là từ khóa nil....",
+      "authorName": "Cô Gái IT",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ca4ab9f8154da8f9",
+      "title_vi": "Bảy lý do doanh nghiệp cần sử dụng Khung áp dụng đám mây Microsoft Azure",
+      "title_en": "Seven Reasons Businesses Need the Microsoft Azure Cloud Adoption Framework",
+      "summary_vi": [
+        "Việc chuyển đổi số không chỉ đơn thuần là di chuyển ứng dụng và hạ tầng từ hệ thống tại chỗ lên nền tảng đám mây mà còn đòi hỏi chiến lược toàn diện.",
+        "Khung áp dụng đám mây Microsoft Azure cung cấp các hướng dẫn chi tiết, phương pháp chuẩn hóa và các công cụ tối ưu hóa kiến trúc mạng doanh nghiệp.",
+        "Doanh nghiệp áp dụng khung này sẽ giảm thiểu rủi ro bảo mật, tăng tốc độ triển khai dịch vụ và tối ưu hóa chi phí vận hành dài hạn."
+      ],
+      "summary_en": [
+        "Digital transformation is no longer limited to migrating applications and infrastructure from on-premises environments to cloud platforms but requires a comprehensive strategy.",
+        "The Microsoft Azure Cloud Adoption Framework provides detailed guidelines, standardized methodologies, and tools to optimize enterprise network architectures.",
+        "Businesses adopting this framework will minimize security risks, accelerate service deployment speeds, and optimize long-term operational costs effectively."
+      ],
+      "originalTitle": "7 Reasons Businesses Need the Microsoft Azure Cloud Adoption Framework",
+      "url": "https://viblo.asia/p/7-reasons-businesses-need-the-microsoft-azure-cloud-adoption-framework-wd43EXnjLX9",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "Microsoft Azure",
+        "Cloud Adoption",
+        "Cloud Computing",
+        "DevOps",
+        "Enterprise IT"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-25T16:06:16.000Z",
+      "contentSnippet": "Cloud adoption is no longer limited to moving applications and infrastructure from on-premises environments to the cloud. Businesses also need to cons...",
+      "authorName": "Diwakar Exe",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "91bca1dceed71767",
+      "title_vi": "Phát triển phần mềm gốc AI: Tái thiết kế quy trình công việc bằng trí tuệ nhân tạo",
+      "title_en": "AI-Native Software Development: Redesigning Workflows with Artificial Intelligence",
+      "summary_vi": [
+        "Trí tuệ nhân tạo đang tạo ra bước chuyển mình mạnh mẽ trong cách thức các kỹ sư phần mềm xây dựng ứng dụng, thay đổi toàn diện từ khâu thu thập yêu cầu cho đến giai đoạn triển khai.",
+        "Các mô hình AI hiện đại hỗ trợ sâu vào việc phân tích kiến trúc giải pháp, tự động sinh mã nguồn, tối ưu hóa kịch bản kiểm thử và xử lý lỗi một cách nhanh chóng, hiệu quả.",
+        "Sự thay đổi này mang lại giá trị thực tiễn to lớn, giúp nâng cao năng suất lập trình viên đáng kể và định hình lại tiêu chuẩn phát triển phần mềm trong kỷ nguyên số."
+      ],
+      "summary_en": [
+        "Artificial intelligence is driving a powerful transformation in how software engineers build applications, comprehensively altering everything from requirements gathering to deployment phases.",
+        "Modern AI models provide deep support for analyzing solution architecture, automatically generating source code, optimizing test scenarios, and handling bugs rapidly and efficiently.",
+        "This shift delivers enormous practical value, significantly boosting developer productivity and reshaping software development standards in the digital era."
+      ],
+      "originalTitle": "AI-Native Software Development: Tái thiết kế Software Development Workflow với AI",
+      "url": "https://viblo.asia/p/ai-native-software-development-tai-thiet-ke-software-development-workflow-voi-ai-K9Vy82lALQR",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "AI-Native",
+        "Software Development",
+        "Workflow",
+        "Automation"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-25T16:06:04.000Z",
+      "contentSnippet": "AI đang thay đổi cách software engineer phát triển phần mềm. Từ việc phân tích requirement, thiết kế solution, viết code, tạo test, debug cho đến code...",
+      "authorName": "Hưng Phạm",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5a3f535c4c4f62ba",
+      "title_vi": "Jev là gì? Mô hình System One biến trí tuệ nhân tạo thành câu lệnh điều kiện thông minh",
+      "title_en": "What is Jev? The System One Model Transforming AI into Smart Conditional Statements",
+      "summary_vi": [
+        "TypeSafe AI vừa cho ra mắt Jev, mô hình System One tiên phong được thiết kế chuyên biệt nhằm đưa ra các phán đoán có định kiểu chính xác cao cho các hệ thống phần mềm.",
+        "Giải pháp này tận dụng cơ chế phân tích nâng cao để chuyển đổi các suy luận phức tạp từ trí tuệ nhân tạo thành dạng câu lệnh điều kiện logic và an toàn kiểu dữ liệu.",
+        "Công nghệ này mang lại giá trị thực tiễn lớn cho các kỹ sư phần mềm khi muốn tích hợp trí tuệ nhân tạo vào hệ thống production mà vẫn đảm bảo tính ổn định tuyệt đối."
+      ],
+      "summary_en": [
+        "TypeSafe AI has introduced Jev, a pioneering System One model specifically designed to provide highly accurate typed judgments for modern software systems.",
+        "The solution leverages advanced analytical mechanisms to convert complex artificial intelligence inferences into logical conditional statements with strict data type safety.",
+        "This technology delivers significant practical value for software engineers looking to integrate artificial intelligence into production environments while ensuring absolute stability."
+      ],
+      "originalTitle": "Jev là gì? Mô hình System One biến AI thành câu lệnh if thông minh",
+      "url": "https://viblo.asia/p/jev-la-gi-mo-hinh-system-one-bien-ai-thanh-cau-lenh-if-thong-minh-lZL9XDybJQK",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "System One",
+        "TypeSafe AI",
+        "Machine Learning",
+        "Software Architecture"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-25T14:28:36.000Z",
+      "contentSnippet": "Jev là mô hình System One đầu tiên được phát triển bởi TypeSafe AI, được thiết kế chuyên biệt để đưa ra các phán đoán có định kiểu (typed judgments) t...",
+      "authorName": "Trần Văn Tuấn",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a532c9f304306719",
+      "title_vi": "Qualcomm hé lộ khả năng khai tử dòng chip di động Snapdragon 8s vì gây nhầm lẫn",
+      "title_en": "Qualcomm Hints at Discontinuing Snapdragon 8s Mobile Chipset Due to Market Confusion",
+      "summary_vi": [
+        "Qualcomm đang cân nhắc lại chiến lược đặt tên cho dòng vi xử lý di động cao cấp khi liên tục thay đổi từ hệ thống ba chữ số sang các dòng Elite và mới đây nhất là Elite Extreme.",
+        "Trong sự kiện công nghệ gần đây, đại diện hãng thừa nhận cách gọi Snapdragon 8s đã tạo ra sự bối rối đáng kể cho người dùng và thị trường thiết bị di động toàn cầu.",
+        "Sự thay đổi chiến lược này phản ánh nỗ lực của nhà sản xuất bán dẫn nhằm tối ưu hóa danh mục sản phẩm, giúp lập trình viên và người tiêu dùng dễ dàng phân định hiệu năng."
+      ],
+      "summary_en": [
+        "Qualcomm is reconsidering its branding strategy for high-end mobile processors, transitioning from traditional three-digit naming schemes to the newer Elite and Elite Extreme lineups.",
+        "During a recent technology summit, company executives acknowledged that the Snapdragon 8s nomenclature has caused significant confusion among consumers and the global mobile market.",
+        "This strategic shift reflects the semiconductor manufacturer's efforts to optimize its product portfolio, helping developers and consumers easily differentiate hardware performance tiers."
+      ],
+      "originalTitle": "Qualcomm nói về tương lai Snapdragon 8s: Cái tên này có thể sẽ biến mất",
+      "url": "https://genk.vn/qualcomm-noi-ve-tuong-lai-snapdragon-8s-cai-ten-nay-co-the-se-bien-mat-165260925172724487.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Qualcomm",
+        "Snapdragon",
+        "Mobile",
+        "Hardware",
+        "Semiconductor"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-25T10:27:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/25/avatar1790331953762-1790331954115291845698.jpg",
+      "contentSnippet": "Sau Snapdragon 8s Gen 3 và 8s Gen 4, Qualcomm đang cân nhắc về việc có tiếp tục dùng chữ “s” hay không.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ce4b83f3cdfc70cc",
+      "title_vi": "ChatGPT trên Siri chưa đạt kỳ vọng của OpenAI do trải nghiệm người dùng rườm rà",
+      "title_en": "ChatGPT Integration on Siri Falls Short of OpenAI Expectations Due to Complex User Experience",
+      "summary_vi": [
+        "Việc tích hợp mô hình trí tuệ nhân tạo ChatGPT lên trợ lý ảo Siri của Apple đang gặp nhiều khó khăn và không đạt được mức độ sử dụng kỳ vọng từ phía nhà phát triển OpenAI.",
+        "Thông tin từ các hồ sơ pháp lý liên quan đến xAI đã vô tình hé lộ những bất cập trong cơ chế vận hành và trải nghiệm tương tác giữa người dùng với hệ thống tích hợp sâu này.",
+        "Sự việc này đặt ra bài toán lớn cho các kỹ sư phần mềm trong việc tối ưu hóa giao diện lập trình ứng dụng di động để giảm bớt các bước thao tác rườm rà cho người cuối cùng."
+      ],
+      "summary_en": [
+        "The integration of the ChatGPT artificial intelligence model into Apple's Siri virtual assistant is facing significant hurdles and failing to meet the usage expectations of developer OpenAI.",
+        "Information from legal documents regarding xAI has inadvertently revealed shortcomings in the operational mechanics and interactive user experience of this deeply integrated system.",
+        "This event poses a major challenge for software engineers in optimizing mobile application programming interfaces to reduce cumbersome operational steps for end users."
+      ],
+      "originalTitle": "ChatGPT trên Siri không ngon như OpenAI kỳ vọng, người dùng lười xài vì rườm rà",
+      "url": "https://tinhte.vn/thread/chatgpt-tren-siri-khong-ngon-nhu-openai-ky-vong-nguoi-dung-luoi-xai-vi-ruom-ra.4179317/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "ChatGPT",
+        "Siri",
+        "Apple",
+        "OpenAI",
+        "Mobile AI"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-25T09:58:00.000Z",
+      "contentSnippet": "ChatGPT trên Siri không ngon như OpenAI kỳ vọng, người dùng lười xài vì rườm rà Đọc hồ sơ vụ kiện với xAI mới thấy việc đưa ChatGPT lên Siri hóa ra lại là nỗi thất vọng của OpenAI. Hãng thừa nhận...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "80dce34688f36666",
+      "title_vi": "Táo Khuyết tạm dừng phát triển thiết bị đeo tích hợp trí tuệ nhân tạo có gắn camera",
+      "title_en": "Apple Temporarily Suspends Development of AI Wearable Device with Integrated Camera",
+      "summary_vi": [
+        "Tập đoàn công nghệ Apple vừa quyết định tạm hoãn quá trình nghiên cứu và phát triển dòng sản phẩm thiết bị đeo thông minh tích hợp trí tuệ nhân tạo có gắn camera sau một thời gian thử nghiệm thực tế.",
+        "Quyết định này xuất phát từ những thách thức về kiến trúc phần cứng, mức tiêu thụ năng lượng của các mô hình học máy trên thiết bị di động và bài toán tối ưu hóa thời lượng pin cho phần cứng nhỏ gọn.",
+        "Sự kiện này phản ánh xu hướng thận trọng hơn của các ông lớn công nghệ trong việc thương mại hóa phần cứng AI, đồng thời đặt ra yêu cầu mới về tối ưu hóa thuật toán thị giác máy tính cho các thiết bị đeo thế hệ mới."
+      ],
+      "summary_en": [
+        "Technology giant Apple has recently decided to temporarily postpone research and development on a new line of smart wearable devices integrated with artificial intelligence and cameras after a period of practical testing.",
+        "This decision stems from significant hardware architecture challenges, high power consumption rates of machine learning models on mobile devices, and the complex task of optimizing battery life for compact form factors.",
+        "This event reflects a more cautious approach by tech giants toward commercializing AI hardware while setting new requirements for optimizing computer vision algorithms for next-generation wearable devices."
+      ],
+      "originalTitle": "Apple tạm dừng làm thiết bị đeo AI gắn camera rồi anh em",
+      "url": "https://tinhte.vn/thread/apple-tam-dung-lam-thiet-bi-deo-ai-gan-camera-roi-anh-em.4179061/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Apple",
+        "AI",
+        "Wearables",
+        "Hardware",
+        "Mobile"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-25T09:09:12.000Z",
+      "contentSnippet": "Apple tạm dừng làm thiết bị đeo AI gắn camera rồi anh em Nghe tin Bloomberg bảo Apple vừa hoãn phát triển chiếc thiết bị đeo AI có camera làm mình thấy cũng khá hợp lý. Trước đó họ thử nghiệm một...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "743ccaaf08c763d3",
+      "title_vi": "Chính phủ Hà Lan xây dựng giải pháp thay thế Microsoft dựa trên NixOS",
+      "title_en": "Dutch governments builds alternative for Microsoft based on NixOS",
+      "summary_vi": [
+        "Cộng đồng DAWO tại Hà Lan đang phát triển một không gian làm việc số hoàn toàn độc lập nhằm giảm sự phụ thuộc vào các tập đoàn công nghệ lớn và bảo vệ giá trị công cộng.",
+        "Hệ thống sử dụng nền tảng NixOS cùng các khối xây dựng mã nguồn mở có khả năng tái tạo cao, cho phép kiểm tra chi tiết và thay thế từng thành phần phần mềm một cách linh hoạt.",
+        "Dự án này mang lại bước đột phá lớn trong việc bảo mật dữ liệu chính phủ, tăng cường khả năng xác thực hạ tầng đám mây và thúc đẩy sự hợp tác minh bạch trong ngành."
+      ],
+      "summary_en": [
+        "The DAWO community in the Netherlands is developing a completely independent digital workspace to reduce reliance on major tech corporations and safeguard public values.",
+        "The system utilizes the NixOS platform along with highly reproducible open source building blocks, allowing for detailed inspection and flexible replacement of software components.",
+        "This project delivers a major breakthrough in securing government data, enhancing cloud infrastructure verification, and promoting transparent industry collaboration."
+      ],
+      "originalTitle": "Dutch governments builds alternative for Microsoft based on NixOS",
+      "url": "https://www.dawo.community/en/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "NixOS",
+        "Open Source",
+        "Cloud Infrastructure",
+        "Government IT",
+        "Digital Autonomy"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-25T08:06:49.000Z",
+      "contentSnippet": "Working together on a digitally autonomous workplace for the Dutch government NederlandsEnglishWorking together on digital autonomyThe DAWO community is an open community in which government, industry and society jointly build a digitally autonomous workplace for the Dutch government. DAWO brings pu",
+      "authorName": "fjfaase",
+      "upvotes": 233,
+      "commentsCount": 93
+    },
+    {
+      "id": "c1e9e6a61d3d1c56",
+      "title_vi": "Bộ vi xử lý Pentium II 600MHz cùng card đồ họa Voodoo 3 chạy giả lập trên 86Box với máy tính Mac Mini M6",
+      "title_en": "Pentium II at 600Mhz with Voodoo 3 Emulated on 86Box with M6 Mac Mini",
+      "summary_vi": [
+        "Công cụ giả lập phần cứng máy tính cổ 86Box đòi hỏi khắt khe về hiệu năng đơn luồng để xử lý chính xác thời gian CPU, tập lệnh chipset và các thiết bị phần cứng cũ nhằm đảm bảo phần mềm thời kỳ đó hoạt động ổn định.",
+        "Bản dựng 86Box mới trên chip Apple Silicon tích hợp trình biên dịch tức thời ARM64 dành cho đồ họa Voodoo, cho phép hệ thống mô phỏng mượt mà máy tính Pentium II tốc độ sáu trăm megahertz cùng các ứng dụng benchmark cổ điển.",
+        "Thành công này minh chứng cho sức mạnh xử lý đơn nhân vượt trội của kiến trúc Apple Silicon trong việc gánh các tác vụ giả lập phần cứng cấp độ thấp vốn phụ thuộc hoàn toàn vào hiệu năng của một luồng xử lý duy nhất."
+      ],
+      "summary_en": [
+        "The 86Box retro PC hardware emulator demands intensive single-threaded performance to accurately process CPU timing, chipset instructions, and legacy peripherals while ensuring period-accurate software behavior without performance guarantees.",
+        "A recent 86Box build on Apple Silicon integrates an ARM64 just-in-time recompiler for Voodoo graphics, enabling smooth emulation of a six hundred megahertz Pentium II machine running classic benchmarking tools and vintage applications.",
+        "This achievement highlights the exceptional single-core processing prowess of Apple Silicon architecture in handling low-level hardware emulation workloads that heavily rely on the performance of a single execution thread."
+      ],
+      "originalTitle": "Pentium II at 600Mhz with Voodoo 3 Emulated on 86Box with M6 Mac Mini",
+      "url": "https://nyaa.sh/reviews/mac-mini-m6-emulation",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Emulation",
+        "Apple Silicon",
+        "Hardware",
+        "Retro Computing",
+        "Performance"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-25T07:27:45.000Z",
+      "contentSnippet": "86Box emulates an old PC at the hardware level. CPU timing, chipset behaviour, ISA and PCI buses, graphics chipsets, sound devices, and disk controllers all matter to getting period software to behave properly. That does not guarantee identical performance to the original hardware, as the Cinebench ",
+      "authorName": "hugh4life",
+      "upvotes": 73,
+      "commentsCount": 26
+    },
+    {
+      "id": "5b99ba2e157ec4e5",
+      "title_vi": "Lỗ hổng CVE-2025-13032: Xâm nhập và phá vỡ vùng cô lập của phần mềm diệt virus Avast Phần 2",
+      "title_en": "CVE-2025-13032: Entering and Breaking the Avast Antivirus Sandbox Part 2",
+      "summary_vi": [
+        "Bài viết nghiên cứu chuyên sâu phần thứ hai và cũng là phần cuối cùng, trình bày chi tiết quá trình khai thác thành công lỗ hổng bảo mật trầm trọng trên hệ điều hành Windows 11 mới nhất.",
+        "Kỹ thuật khai thác tận dụng lỗi truy cập kép trong trình điều khiển nhân để tạo ra khả năng đọc ghi bộ nhớ hạt nhân tùy ý thông qua việc làm hỏng đối tượng I/O Ring.",
+        "Nghiên cứu này mang lại bài học quan trọng về cách thức giảm thiểu rủi ro bảo mật trong lập trình trình điều khiển và cơ chế bảo vệ phân vùng bộ nhớ của hệ thống."
+      ],
+      "summary_en": [
+        "This in-depth research article presents the second and final part, detailing the successful exploitation of a critical security vulnerability on the latest Windows 11 operating system.",
+        "The exploitation technique leverages a double-fetch vulnerability in the kernel driver to achieve arbitrary kernel read and write capabilities by corrupting the I/O Ring object.",
+        "This study provides crucial insights into minimizing security risks in driver programming and strengthening memory isolation mechanisms within modern operating systems."
+      ],
+      "originalTitle": "CVE-2025-13032: Entering and Breaking the Avast Antivirus Sandbox Part 2",
+      "url": "https://www.safateam.com/intelligence-hub/research/technical-articles/cve-2025-13032-entering-and-breaking-the-avast-antivirus-sandbox-part-2",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Kernel Exploit",
+        "Windows Security",
+        "Vulnerability",
+        "Driver"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-09-25T07:03:46.000Z",
+      "contentSnippet": "All postsCVE-2025-13032: Entering and Breaking the Avast Antivirus Sandbox Part 2This post is the second and final part of our Avast Antivirus research, detailing the full exploitation of CVE-2025-13032 on an up-to-date Windows 11 system. Starting from the double-fetch vulnerability introduced in Pa",
+      "authorName": "safateam",
+      "upvotes": 54,
+      "commentsCount": 14
+    },
+    {
+      "id": "e965fb7cb0ca60ea",
+      "title_vi": "Giám đốc Trí tuệ Nhân tạo của Meta gây chú ý với phong cách thời trang tối giản tại sự kiện công nghệ",
+      "title_en": "Meta Chief AI Officer Draws Attention With Minimalist Fashion Style at Tech Event",
+      "summary_vi": [
+        "Tại hội nghị thường niên dành cho nhà phát triển Meta Connect, giám đốc trí tuệ nhân tạo Alexandr Wang đã thu hút sự chú ý lớn từ cộng đồng mạng khi diện chiếc áo phông độc đáo kết hợp cùng dép rằn ri.",
+        "Trang phục được đồn đại là chiếc áo phông cao cấp trị giá hàng trăm đô la mang phong cách thời trang giàu ngầm, phản ánh xu hướng ăn mặc thoải mái nhưng đắt đỏ của các nhân vật tầm cỡ trong ngành công nghệ.",
+        "Sự quan tâm của dư luận đối với ngoại hình của các lãnh đạo công nghệ lớn cho thấy đời sống cá nhân và phong cách sống của họ luôn là tâm điểm chú ý, ảnh hưởng mạnh mẽ đến văn hóa đại chúng."
+      ],
+      "summary_en": [
+        "At the annual Meta Connect developer conference, Chief AI Officer Alexandr Wang drew significant attention from the online community by wearing a unique t-shirt paired with camouflage clogs.",
+        "The outfit, rumored to be a high-end luxury t-shirt worth hundreds of dollars, reflects the quiet luxury fashion trend often adopted by prominent figures in the technology industry.",
+        "Public interest in the appearance of major tech leaders demonstrates that their personal lives and lifestyles remain focal points, strongly influencing modern pop culture and industry trends."
+      ],
+      "originalTitle": "Tỷ phú AI Alexandr Wang gây sốt với chiếc áo 'giàu ngầm'",
+      "url": "https://vnexpress.net/ty-phu-ai-alexandr-wang-gay-sot-voi-chiec-ao-giau-ngam-5124658.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Meta",
+        "AI",
+        "Tech Trends",
+        "Leadership"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-25T04:58:22.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/25/screenshot-1790312289-5197-1790312302.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=VP8I46zt4ejVfT8_yUK3sg",
+      "contentSnippet": "Áo phông lạ mắt của Alexandr Wang, Giám đốc AI của Meta, được cho là áo Hermès trị giá 800 USD.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "2bee89eb63bc3507",
+      "title_vi": "Microsoft âm thầm khai tử thương hiệu máy tính cá nhân hỗ trợ trí tuệ nhân tạo",
+      "title_en": "Microsoft is killing off the Copilot Plus PC brand",
+      "summary_vi": [
+        "Tập đoàn Microsoft và Qualcomm dường như đang âm thầm từ bỏ thương hiệu máy tính tích hợp trí tuệ nhân tạo chuyên dụng sau hơn hai năm triển khai chiến dịch quảng bá rộng rãi trên thị trường toàn cầu.",
+        "Các dòng máy tính xách tay và máy tính bảng mới ra mắt dù sở hữu phần cứng mạnh mẽ đạt chuẩn kỹ thuật nhưng đã không còn được nhà sản xuất sử dụng tên gọi quen thuộc trước đây trong các tài liệu thương mại.",
+        "Động thái này cho thấy sự thay đổi chiến lược trong cách đặt tên sản phẩm phần cứng tích hợp công nghệ trí tuệ nhân tạo, tác động đáng kể đến cách thức định vị phân khúc thiết bị thông minh của các hãng lớn."
+      ],
+      "summary_en": [
+        "Microsoft and Qualcomm appear to be quietly abandoning their specialized artificial intelligence personal computer branding strategy after more than two years of widespread promotional campaigns across global markets.",
+        "The newly released laptops and tablets equipped with powerful hardware meeting technical standards are no longer using the previously familiar nomenclature in commercial documentation by the hardware manufacturer.",
+        "This strategic shift indicates a change in how major technology companies brand artificial intelligence integrated hardware products, significantly impacting the market positioning of next generation smart devices."
+      ],
+      "originalTitle": "Microsoft is killing off the ‘Copilot Plus PC’ brand",
+      "url": "https://www.theverge.com/tech/1000495/microsoft-is-killing-off-the-copilot-plus-pc-brand",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Microsoft",
+        "Qualcomm",
+        "AI PC",
+        "Hardware",
+        "Surface"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-25T01:25:53.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/lcimg_d86deab3_6099_437b_b86a_4f36ef6f8ffb.webp?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Microsoft CEO Satya Nadella introducing the company’s Copilot Plus PC initiative. | Image: Allison Johnson Remember when Microsoft wanted everyone to know that \"Copilot Plus PCs\" were the ones to get, because those were the PCs that that'd have enough built-in AI muscle to get things done? Two and a",
+      "authorName": "Sean Hollister",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "4794aacb641cc52d",
+      "title_vi": "Công nghệ nâng chuẩn màu sắc và độ sáng trên dòng TV thông minh LG",
+      "title_en": "LG Enhances Color Accuracy and Brightness Standards in New Smart TVs",
+      "summary_vi": [
+        "Hãng công nghệ LG chính thức giới thiệu các dòng TV Micro RGB evo và Mini RGB evo tích hợp công nghệ hiển thị tiên tiến nhằm nâng cao chất lượng màu sắc và độ sáng.",
+        "Hệ thống phần cứng kết hợp bộ xử lý AI Alpha 11 thế hệ thứ ba cùng kiến trúc Dual AI Engine giúp tối ưu hóa thuật toán xử lý hình ảnh và âm thanh theo thời gian thực.",
+        "Bước đột phá này mang lại độ chính xác cao trong việc tái tạo không gian màu rộng, phục vụ tốt các tiêu chuẩn khắt khe trong ngành công nghiệp sáng tạo nội dung số."
+      ],
+      "summary_en": [
+        "LG has officially introduced the Micro RGB evo and Mini RGB evo television series integrating advanced display technologies to enhance color accuracy and brightness performance.",
+        "The hardware system combines the third-generation Alpha 11 AI processor with a dual AI engine architecture to optimize real-time image and audio processing algorithms.",
+        "This technological breakthrough delivers high precision in reproducing wide color gamuts, effectively meeting strict standards across the digital content creation industry."
+      ],
+      "originalTitle": "Công nghệ nâng chuẩn màu sắc, độ sáng trên TV LG",
+      "url": "https://vnexpress.net/cong-nghe-nang-chuan-mau-sac-do-sang-tren-tv-lg-5124278.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "AI",
+        "Hardware",
+        "Display Tech",
+        "LG",
+        "Processor"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-25T01:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/24/image2-1790242672-6112-1790242764.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=OF701t3jpdKuwz8e-Grg2w",
+      "contentSnippet": "TV LG Micro RGB evo và Mini RGB evo tích hợp công nghệ RGB mở rộng độ chuẩn màu, Micro Dimming Ultra tăng chất lượng hiển thị.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "98250f9291e2c6ed",
+      "title_vi": "Chip âm thanh thế hệ mới của Qualcomm mang lại trải nghiệm tai nghe Wi-Fi không gián đoạn",
+      "title_en": "Qualcomm’s new ‘Elite’ sound chip might finally deliver the Wi-Fi earbud dream",
+      "summary_vi": [
+        "Công ty công nghệ Qualcomm vừa công bố dòng chip âm thanh tiên tiến tích hợp công nghệ kết nối không dây thế hệ mới trực tiếp vào phần cứng để cải thiện trải nghiệm nghe nhạc.",
+        "Giải pháp kỹ thuật này sử dụng chuẩn mạng Wi-Fi công suất cực thấp tích hợp sẵn trong chip, cho phép thiết bị âm thanh cá nhân kết nối trực tiếp với mạng gia đình và hệ thống đám mây.",
+        "Sự đổi mới này giải quyết triệt để các giới hạn băng thông của chuẩn Bluetooth truyền thống, mở ra hướng đi mới cho các nhà phát triển phần mềm tối ưu hóa truyền tải âm thanh không mất dữ liệu."
+      ],
+      "summary_en": [
+        "Qualcomm recently announced an advanced audio chip lineup featuring integrated next-generation wireless connectivity technology directly into the hardware to significantly enhance the overall listening experience.",
+        "This engineering solution utilizes an ultra-low power Wi-Fi standard embedded within the chip, enabling personal audio devices to connect directly to home networks and cloud computing infrastructures.",
+        "This hardware innovation effectively overcomes the bandwidth limitations of traditional Bluetooth standards, opening new horizons for software developers to optimize lossless audio streaming protocols."
+      ],
+      "originalTitle": "Qualcomm’s new ‘Elite’ sound chip might finally deliver the Wi-Fi earbud dream",
+      "url": "https://www.theverge.com/tech/1000443/qualcomms-new-elite-sound-chip-might-finally-deliver-the-wi-fi-earbud-dream",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Qualcomm",
+        "Wi-Fi 6E",
+        "Hardware",
+        "Audio",
+        "Mobile"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-24T23:42:39.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/vlcsnap-2026-09-24-16h29m15s548.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "What if your wireless earbuds - or audio glasses - could stream high-quality lossless audio that doesn't cut out when you leave your phone on the bedside charger or buried in the couch? Qualcomm's new Snapdragon Sound Elite Gen 2 is its first to integrate \"micro-power Wi-Fi 6E\" right into the chip, ",
+      "authorName": "Sean Hollister",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "2e32638d8651dfba",
+      "title_vi": "Dynamic Island trên dòng điện thoại thông minh cao cấp mới hoạt động thế nào",
+      "title_en": "How the Dynamic Island on the New Flagship Smartphone Works",
+      "summary_vi": [
+        "Thiết kế phần cứng mặt trước của dòng điện thoại cao cấp thế hệ mới tiếp tục nhận được nhiều sự quan tâm từ cộng đồng công nghệ nhờ những thay đổi đáng kể về kích thước và cách bố trí cảm biến.",
+        "Hệ thống phần cứng bao gồm việc tích hợp camera hồng ngoại ẩn trực tiếp bên dưới lớp hiển thị màn hình, giúp giảm thiểu đáng kể diện tích chiếm dụng của cụm Dynamic Island so với các phiên bản tiền nhiệm.",
+        "Sự thay đổi về mặt kiến trúc phần cứng này mang lại trải nghiệm hiển thị liền mạch hơn nhưng đồng thời cũng đặt ra những thách thức mới cho các nhà sản xuất phụ kiện bảo vệ màn hình thiết bị."
+      ],
+      "summary_en": [
+        "The front hardware design of the next-generation flagship smartphone continues to attract significant attention from the technology community due to notable changes in size and sensor arrangement.",
+        "The hardware system integrates an infrared camera directly beneath the display layer, which successfully minimizes the footprint of the Dynamic Island compared to previous generations.",
+        "This hardware architectural shift delivers a more seamless display experience while simultaneously presenting new engineering challenges for manufacturers of screen protection accessories."
+      ],
+      "originalTitle": "Dynamic Island trên iPhone 18 Pro Max hoạt động thế nào",
+      "url": "https://vnexpress.net/dynamic-island-tren-iphone-18-pro-max-hoat-dong-the-nao-5124301.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "Hardware",
+        "Mobile",
+        "Display",
+        "Sensors"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-24T23:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/24/top-1790237884.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=D8qQi7lf06UJte1WAr2fFw",
+      "contentSnippet": "Dynamic Island trên iPhone 18 Pro Max nhỏ hơn 35% nhờ camera hồng ngoại ẩn dưới màn hình nhưng cũng khiến máy kén miếng dán bảo vệ màn hình hơn.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "ddaee3eb60daa557",
       "title_vi": "#Hướng dẫn đầy đủ cài đặt Codex CLI trên Windows: Node.js, npm.ps1 và biến môi trường",
@@ -1159,6 +1672,42 @@
       "commentsCount": 0
     },
     {
+      "id": "24368867cfcf9709",
+      "title_vi": "23 lần bị từ chối và nhiều lời mời làm việc: Bài học rút ra từ hành trình tìm kiếm việc làm kỹ sư phần mềm trong 2 tháng",
+      "title_en": "23 Rejections, Multiple Offers: What I Learned From My 2-Month SWE Job Search",
+      "summary_vi": [
+        "Bài viết chia sẻ toàn bộ trải nghiệm và kinh nghiệm thực tế từ quá trình phỏng vấn tìm việc làm kỹ sư phần mềm cao cấp trong khoảng thời gian vỏn vẹn chưa đầy hai tháng ngắn ngủi.",
+        "Tác giả đã gửi tổng cộng 72 bộ hồ sơ ứng tuyển, trải qua 23 lần bị từ chối nhưng cuối cùng vẫn xuất sắc nhận được nhiều lời mời làm việc hấp dẫn từ các công ty.",
+        "Những chia sẻ này mang lại góc nhìn thực tế, giúp các lập trình viên chuẩn bị tốt hơn về mặt tâm lý và chiến lược để chinh phục các cơ hội nghề nghiệp trong ngành."
+      ],
+      "summary_en": [
+        "The article shares personal experiences and practical insights gained from a rigorous senior software engineer job search process spanning just under two months.",
+        "The author submitted a total of seventy-two job applications, faced twenty-three rejections, and ultimately secured multiple lucrative employment offers from prospective employers.",
+        "These valuable takeaways provide a realistic perspective to help developers better prepare their mindset and strategies for conquering career opportunities in the tech industry."
+      ],
+      "originalTitle": "23 Rejections, Multiple Offers: What I Learned From My 2-Month SWE Job Search",
+      "url": "https://dev.to/javz/23-rejections-multiple-offers-what-i-learned-from-my-2-month-swe-job-search-5hi4",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Software Engineering",
+        "Career Advice",
+        "Job Search",
+        "Interview",
+        "SWE"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-24T00:01:13.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fc1im7c3q3g9cgx8oar49.png",
+      "contentSnippet": "Feels like it's been more than a minute since my last post. A lot has happened in my life over the...",
+      "authorName": "Julien Avezou",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3245143%2Ff6cf9acd-541d-4ad4-a846-2788da803c99.png",
+      "upvotes": 40,
+      "commentsCount": 25
+    },
+    {
       "id": "e68a9b7de2f889c8",
       "title_vi": "Trợ lý ảo Muse sắp tích hợp lên dòng kính thông minh của Meta",
       "title_en": "Muse is coming to Meta smart glasses",
@@ -1708,6 +2257,40 @@
       "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/23/avatar1790147889329-17901478895761813664595.jpg",
       "contentSnippet": "CORTIS mới đây gây chú ý khi sử dụng iPhone đời cũ để chụp ảnh. Trào lưu này cũng đang được một bộ phận Gen Z Hàn Quốc và Việt Nam hưởng ứng.",
       "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a790f380977c0a75",
+      "title_vi": "macOS 27.2 beta 2 thay đổi giao diện thanh âm lượng khi bấm phím",
+      "title_en": "macOS 27.2 beta 2 updates the hardware volume OSD interface for keystrokes",
+      "summary_vi": [
+        "Apple vừa chính thức phát hành phiên bản macOS 27.2 beta 2 dành cho cộng đồng lập trình viên và người thử nghiệm tính năng sớm trên các dòng máy tính Mac.",
+        "Bản cập nhật này mang đến một thay đổi nhỏ nhưng rất trực quan ở giao diện đồ họa hiển thị thanh điều chỉnh âm lượng mỗi khi người dùng thao tác phím cứng.",
+        "Sự cải tiến này tối ưu hóa trải nghiệm người dùng trên hệ điều hành, thể hiện sự chú ý đến từng chi tiết nhỏ trong thiết kế giao diện phần mềm của nhà phát triển."
+      ],
+      "summary_en": [
+        "Apple has officially released the macOS 27.2 beta 2 update targeted at developers and early testers for compatible Mac computer lineups.",
+        "This software iteration introduces a subtle yet noticeable visual redesign for the volume control heads-up display triggered by hardware media keys.",
+        "Such interface refinement enhances overall desktop user experience, demonstrating meticulous attention to minute UI design details within the operating system ecosystem."
+      ],
+      "originalTitle": "macOS 27.2 beta 2 đổi giao diện thanh âm lượng khi bấm phím",
+      "url": "https://tinhte.vn/thread/macos-27-2-beta-2-doi-giao-dien-thanh-am-luong-khi-bam-phim.4179087/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "macOS",
+        "Apple",
+        "UI",
+        "Software Update",
+        "Operating System"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-23T08:42:22.000Z",
+      "contentSnippet": "macOS 27.2 beta 2 đổi giao diện thanh âm lượng khi bấm phím Apple vừa tung bản macOS Golden Gate 27.2 beta 2 cho lập trình viên, và mình thấy có một thay đổi nhỏ nhưng khá ưng bụng. Khi bấm phím...",
+      "authorName": "Anh Tú.",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -7574,550 +8157,6 @@
       "authorName": "Sean Hollister",
       "upvotes": 31,
       "commentsCount": 9
-    },
-    {
-      "id": "511d9669e38912e4",
-      "title_vi": "Bản cập nhật camera lớn của iPhone 18 Pro chỉ là những lợi ích nhỏ",
-      "title_en": "The iPhone 18 Pro’s big camera update is all about the small gains",
-      "summary_vi": [
-        "Phân tích chuyên sâu về hệ thống camera cải tiến trên iPhone 18 Pro với khẩu độ biến thiên và khả năng xử lý thuật toán hình ảnh mới.",
-        "Đánh giá những nâng cấp thực tế về chất lượng ảnh chụp thiếu sáng và khả năng quay video chuyên nghiệp so với thế hệ trước.",
-        "Minh chứng cho chiến lược tối ưu hóa phần mềm và thuật toán nhiếp ảnh tính toán (computational photography) của Apple."
-      ],
-      "summary_en": [
-        "In-depth analysis of the iPhone 18 Pro camera enhancements featuring variable aperture and refined computational photography algorithms.",
-        "Evaluates real-world improvements in low-light capture and professional video rendering compared to previous generations.",
-        "Demonstrates Apple strategy of combining precise hardware increments with tight software image signal processing."
-      ],
-      "originalTitle": "The iPhone 18 Pro’s big camera update is all about the small gains",
-      "url": "https://www.theverge.com/tech/995945/iphone-18-pro-max-review-camera-aperture",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Mobile",
-        "Hardware"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T12:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268735_iPhone_18_Pro_AKrales_0335.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Phân tích chuyên sâu về hệ thống camera cải tiến trên iPhone 18 Pro với khẩu độ biến thiên và khả năng xử lý thuật toán hình ảnh mới. Đánh giá những nâng cấp thực tế về chất lượng ảnh chụp thiếu sáng và khả năng quay video chuyên nghiệp.",
-      "authorName": "Allison Johnson",
-      "upvotes": 20,
-      "commentsCount": 10
-    },
-    {
-      "id": "bc5b2a01e81eec58",
-      "title_vi": "500 AI PC, một bài toán và khoản tiết kiệm mà nhiều doanh nghiệp Việt Nam chưa nghĩ tới",
-      "title_en": "500 AI PC, a problem and savings that many Vietnamese businesses have not thought of",
-      "summary_vi": [
-        "AI đang chuyển từ công cụ trả lời câu hỏi thành một “lực lượng lao động số” có khả năng thực hiện công việc.",
-        "Theo đại diện AMD, sự dịch chuyển này sẽ thay đổi cách doanh nghiệp tổ chức nhân sự, lập ngân sách và xây dựng hạ tầng.",
-        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "AI is shifting from a question-answering tool to a “digital workforce” capable of doing work.",
-        "According to AMD representatives, this shift will change the way businesses organize personnel, budget and build infrastructure.",
-        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
-      ],
-      "originalTitle": "500 AI PC, một bài toán và khoản tiết kiệm mà nhiều doanh nghiệp Việt Nam chưa nghĩ tới",
-      "url": "https://genk.vn/500-ai-pc-mot-bai-toan-va-khoan-tiet-kiem-ma-nhieu-doanh-nghiep-viet-nam-chua-nghi-toi-165260916180011172.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 86,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T11:45:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/16/avatar1789556321599-1789556335935108840343.png",
-      "contentSnippet": "AI đang chuyển từ công cụ trả lời câu hỏi thành một “lực lượng lao động số” có khả năng thực hiện công việc. Theo đại diện AMD, sự dịch chuyển này sẽ thay đổi cách doanh nghiệp tổ chức nhân sự, lập ngân sách và xây dựng hạ tầng.",
-      "authorName": "GenK",
-      "upvotes": 29,
-      "commentsCount": 1
-    },
-    {
-      "id": "a641edc097b21920",
-      "title_vi": "Nvidia công bố hỗ trợ lập trình GPU nguyên bản với ngôn ngữ Rust qua CUDA-Rust",
-      "title_en": "Nvidia announces native GPU programming in Rust",
-      "summary_vi": [
-        "Nvidia phát hành bộ công cụ CUDA-Rust chính thức, cho phép viết các kernel tính toán GPU trực tiếp bằng Rust thay vì chỉ dùng C++/CUDA.",
-        "Kết hợp sức mạnh tính toán song song khủng khiếp của GPU với hệ thống kiểm tra an toàn bộ nhớ tĩnh chặt chẽ của Rust.",
-        "Giúp các kỹ sư hệ thống AI và đồ họa giảm thiểu triệt để lỗi tràn bộ nhớ (buffer overflow) và race condition trong nhân xử lý GPU."
-      ],
-      "summary_en": [
-        "Nvidia launches official CUDA-Rust support, allowing developers to author high-performance GPU compute kernels natively in Rust.",
-        "Combines massive parallel throughput with Rust compile-time memory safety and type invariants.",
-        "Prevents dangerous memory corruptions, race conditions, and out-of-bounds pointer errors across low-level AI kernel development."
-      ],
-      "originalTitle": "Nvidia announces native GPU programming in Rust",
-      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Nvidia",
-        "Rust",
-        "CUDA",
-        "GPU"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T11:15:53.000Z",
-      "contentSnippet": "Nvidia phát hành bộ công cụ CUDA-Rust chính thức, cho phép viết các kernel tính toán GPU trực tiếp bằng Rust thay vì chỉ dùng C++/CUDA.",
-      "authorName": "nonmaskable",
-      "upvotes": 341,
-      "commentsCount": 136
-    },
-    {
-      "id": "b6b83728020856fe",
-      "title_vi": "Cách chúng tôi chế tạo rô-bốt đồng hành trên máy tính để bàn với Gemma 4 và Raspberry Pi",
-      "title_en": "How we built a desktop companion robot with Gemma 4 and Raspberry Pi",
-      "summary_vi": [
-        "Câu chuyện hậu trường về cách chúng tôi xây dựng DinoDesk AI—một robot đồng hành LEGO Dino ưu tiên quyền riêng tư, được hỗ trợ bởi kiến ​​trúc lai Local Gemma 4 và Cloud Gemini.",
-        "Tập trung vào cấu trúc mạng nơ-ron, quy trình huấn luyện mô hình ngôn ngữ lớn (LLM), cơ chế tối ưu suy luận và kiểm soát an toàn thuật toán.",
-        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "The behind-the-scenes story of how we built DinoDesk AI—a privacy-first, LEGO dino companion robot powered by a hybrid Local Gemma 4 and Cloud Gemini architecture.",
-        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
-        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
-      ],
-      "originalTitle": "How we built a desktop companion robot with Gemma 4 and Raspberry Pi",
-      "url": "https://dev.to/googleai/how-we-built-a-desktop-companion-robot-with-gemma-4-and-raspberry-pi-2oke",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 89,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T10:15:52.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fbebechien.github.io%2Fcozy-corner-future%2Fimages%2Fhow-we-built-a-desktop-companion-robot.png",
-      "contentSnippet": "The behind-the-scenes story of how we built DinoDesk AI—a privacy-first, LEGO dino companion robot powered by a hybrid Local Gemma 4 and Cloud Gemini architecture.",
-      "authorName": "bebechien",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3714120%2F58c2015b-b06c-4f0e-9cb0-1014430d9773.png",
-      "upvotes": 26,
-      "commentsCount": 4
-    },
-    {
-      "id": "a14252e5f070a2f0",
-      "title_vi": "DeepSeek và truyền thông Trung Quốc hoài nghi động cơ 'giảm tốc AI'",
-      "title_en": "DeepSeek and Chinese media are skeptical of the 'AI deceleration' engine",
-      "summary_vi": [
-        "Chuyên gia và truyền thông Trung Quốc đồng loạt đặt câu hỏi về động cơ của việc kêu gọi kìm hãm sự phát triển AI của Anthropic.",
-        "Ngày 12/9, qua thư ngỏ dài 3.800 từ trên blog, CEO Anthropic Dario Amodei nói những tháng gần đây ông đã phân tích và \"tin chắc\" việc phát triển AI cần chậm lại, và vụ tác nhân xâm nhập nền tảng Hugging Face hồi tháng 7 càng khiến ông lo ngại hơn.",
-        "Amodei cũng đánh giá nếu Trung Quốc dẫn đầu về AI sẽ gây \"mối nguy hiểm nghiêm trọng\" đối với Mỹ và thế giới."
-      ],
-      "summary_en": [
-        "Chinese experts and media simultaneously questioned the motive of Anthropic's call to restrain AI development.",
-        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
-        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
-      ],
-      "originalTitle": "DeepSeek và truyền thông Trung Quốc hoài nghi động cơ 'giảm tốc AI'",
-      "url": "https://vnexpress.net/deepseek-va-truyen-thong-trung-quoc-hoai-nghi-dong-co-giam-toc-ai-5120774.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "DeepSeek",
-        "Claude"
-      ],
-      "hotScore": 93,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-16T09:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/16/chatgpt-image-thg-1789527469-7436-1789527516.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=gO1bboWM_vLylGWd9T_cPA",
-      "contentSnippet": "Chuyên gia và truyền thông Trung Quốc đồng loạt đặt câu hỏi về động cơ của việc kêu gọi kìm hãm sự phát triển AI của Anthropic.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 27,
-      "commentsCount": 1
-    },
-    {
-      "id": "37d820190945e238",
-      "title_vi": "HP ra mắt mini PC OmniDesk, dùng chip Wildcat Lake, giá từ 799 USD",
-      "title_en": "HP launches OmniDesk mini PC, using Wildcat Lake chip, priced from 799 USD",
-      "summary_vi": [
-        "HP ra mắt mini PC OmniDesk, dùng chip Wildcat Lake, giá từ 799 USD HP vừa âm thầm trình làng OmniDesk, mẫu mini PC giá rẻ mới nhắm vào phân khúc cạnh tranh với Mac mini của Apple.",
-        "Chiến lược đổi mới công nghệ cốt lõi, mô hình kiến tạo sản phẩm số và khả năng thương mại hóa các giải pháp kỹ thuật đột phá.",
-        "Mở ra tiềm năng ứng dụng thực tế sâu rộng, tạo động lực thúc đẩy hệ sinh thái công nghệ và chuyển đổi số toàn diện."
-      ],
-      "summary_en": [
-        "HP launches OmniDesk mini PC, using Wildcat Lake chip, priced from 799 USD HP has just quietly launched OmniDesk, a new low-cost mini PC model aimed at the competitive segment with Apple's Mac mini.",
-        "Highlights disruptive technical innovation, product commercialization strategies, and scalable digital transformation architectures.",
-        "Expands real-world application potential, driving ecosystem collaboration and long-term tech innovation growth."
-      ],
-      "originalTitle": "HP ra mắt mini PC OmniDesk, dùng chip Wildcat Lake, giá từ 799 USD",
-      "url": "https://tinhte.vn/thread/hp-ra-mat-mini-pc-omnidesk-dung-chip-wildcat-lake-gia-tu-799-usd.4177303/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 90,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T08:41:19.000Z",
-      "contentSnippet": "HP ra mắt mini PC OmniDesk, dùng chip Wildcat Lake, giá từ 799 USD HP vừa âm thầm trình làng OmniDesk, mẫu mini PC giá rẻ mới nhắm vào phân khúc cạnh tranh với Mac mini của Apple. Máy có.",
-      "authorName": "Pnghuy",
-      "upvotes": 28,
-      "commentsCount": 8
-    },
-    {
-      "id": "3dbdaebeb9aa26dd",
-      "title_vi": "Tmux cho developer: làm việc hiệu quả hơn trên terminal",
-      "title_en": "Tmux for developers: work more efficiently in the terminal",
-      "summary_vi": [
-        "Hướng dẫn khai thác sức mạnh của Tmux (Terminal Multiplexer) nhằm tối ưu hóa không gian làm việc dòng lệnh.",
-        "Làm chủ các khái niệm cơ bản về sessions, windows và panes giúp quản lý đồng thời nhiều tiến trình phát triển.",
-        "Duy trì phiên làm việc liên tục trên máy chủ từ xa ngay cả khi bị gián đoạn kết nối mạng."
-      ],
-      "summary_en": [
-        "Comprehensive guide to leveraging Tmux (Terminal Multiplexer) for maximizing command-line developer productivity.",
-        "Masters sessions, windows, and panes for running concurrent builds, servers, and monitoring tools seamlessly.",
-        "Preserves long-running terminal sessions on remote servers against accidental network disconnections."
-      ],
-      "originalTitle": "Tmux cho developer: làm việc hiệu quả hơn trên terminal",
-      "url": "https://viblo.asia/p/tmux-cho-developer-lam-viec-hieu-qua-hon-tren-terminal-yZJZlPp2Vjm",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Tmux"
-      ],
-      "hotScore": 89,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T08:33:53.000Z",
-      "contentSnippet": "SSH vào server, chạy một process dài, rồi terminal disconnect — process chết. Tmux giải quyết vấn đề này và nhiều hơn thế. Cài đặt 3 Khái niệm cơ.",
-      "authorName": "EME GUG",
-      "upvotes": 16,
-      "commentsCount": 3
-    },
-    {
-      "id": "ade8aea6d7b3f5bf",
-      "title_vi": "\"Hồi sinh\" người chết bằng AI: Ngành công nghiệp Trung Quốc vừa tăng ga đã phải đạp phanh gấp",
-      "title_en": "\"Reviving\" the dead with AI: Chinese industry just accelerated and had to slam on the brakes",
-      "summary_vi": [
-        "Từ tháng 7, các nền tảng chatbot lớn nhất Trung Quốc đồng loạt đóng tính năng cho phép người dùng tự xây dựng người bạn, người yêu và cả người thân đã qua đời bằng AI.",
-        "Sự kiện này mở ra câu hỏi đạo đức mà mọi công ty AI cảm xúc sẽ phải đối mặt.",
-        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "Since July, China's largest chatbot platforms have simultaneously closed features that allow users to build their own friends, lovers and even deceased relatives using AI.",
-        "This event opens up ethical questions that every emotional AI company will have to face.",
-        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
-      ],
-      "originalTitle": "\"Hồi sinh\" người chết bằng AI: Ngành công nghiệp Trung Quốc vừa tăng ga đã phải đạp phanh gấp",
-      "url": "https://genk.vn/hoi-sinh-nguoi-chet-bang-ai-nganh-cong-nghiep-trung-quoc-vua-tang-ga-da-phai-dap-phanh-gap-165260916152425156.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 91,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T08:24:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/16/avatar1789547049810-1789547050385128023041.jpg",
-      "contentSnippet": "Từ tháng 7, các nền tảng chatbot lớn nhất Trung Quốc đồng loạt đóng tính năng cho phép người dùng tự xây dựng người bạn, người yêu và cả người thân đã qua đời bằng AI. Sự kiện này mở ra câu hỏi đạo đức mà mọi công ty AI cảm xúc sẽ phải đối mặt.",
-      "authorName": "GenK",
-      "upvotes": 19,
-      "commentsCount": 4
-    },
-    {
-      "id": "a28f05f6e66be7ee",
-      "title_vi": "Yếu tố xếp hạng Google SEO 2026 đón đầu xu hướng AI",
-      "title_en": "Google SEO 2026 ranking factors welcome AI trends",
-      "summary_vi": [
-        "Phân tích các yếu tố xếp hạng mới của thuật toán Google Tìm kiếm năm 2026 trong kỷ nguyên tìm kiếm AI.",
-        "Chuyển đổi trọng tâm từ việc xây dựng liên kết cơ học sang trải nghiệm người dùng thực chất và chiều sâu nội dung.",
-        "Đề xuất chiến lược tối ưu hóa cấu trúc website đáp ứng tốt cả người đọc thực tế và các công cụ thu thập dữ liệu AI."
-      ],
-      "summary_en": [
-        "Analysis of evolving Google Search ranking signals in 2026 shaped by generative AI answers and search intent.",
-        "Shifts focus from repetitive link building toward genuine user experience signals and technical content depth.",
-        "Outlines technical SEO recommendations that cater effectively to both human readers and AI search crawlers."
-      ],
-      "originalTitle": "Yếu tố xếp hạng Google SEO 2026 đón đầu xu hướng AI",
-      "url": "https://viblo.asia/p/yeu-to-xep-hang-google-seo-2026-don-dau-xu-huong-ai-oW4oeAN7Lml",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T08:04:03.000Z",
-      "contentSnippet": "Cuộc chơi tối ưu hóa công cụ tìm kiếm đã hoàn toàn thay đổi. Những thủ thuật thao túng từ khóa riêng lẻ hoặc xây dựng liên kết ồ ạt không còn giữ vị.",
-      "authorName": "Phan Tâm",
-      "upvotes": 12,
-      "commentsCount": 2
-    },
-    {
-      "id": "9c48295812d338db",
-      "title_vi": "MediaTek ra mắt Dimensity 9600 Pro 2nm: Quyết đấu sòng phẳng với Qualcomm",
-      "title_en": "MediaTek launches Dimensity 9600 Pro 2nm: A fair fight with Qualcomm",
-      "summary_vi": [
-        "MediaTek chính thức công bố vi xử lý hàng đầu Dimensity 9600 Pro sản xuất trên tiến trình 2nm tiên tiến của TSMC.",
-        "Nâng cấp vượt bậc về kiến trúc CPU toàn lõi lớn, GPU hỗ trợ dò tia phần cứng và bộ xử lý AI thế hệ mới.",
-        "Mở rộng khả năng xử lý các mô hình ngôn ngữ lớn cục bộ ngay trên các thiết bị điện thoại thông minh cao cấp."
-      ],
-      "summary_en": [
-        "MediaTek unveils its flagship Dimensity 9600 Pro SoC manufactured on TSMC bleeding-edge 2nm foundry node.",
-        "Delivers massive architectural improvements across all-big-core CPU layouts, ray tracing GPUs, and eighth-gen NPUs.",
-        "Expands on-device generative AI execution capabilities directly on next-generation premium mobile smartphones."
-      ],
-      "originalTitle": "MediaTek ra mắt Dimensity 9600 Pro 2nm: Quyết đấu sòng phẳng với Qualcomm",
-      "url": "https://tinhte.vn/thread/mediatek-ra-mat-dimensity-9600-pro-2nm-quyet-dau-song-phang-voi-qualcomm.4177343/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechTrends",
-        "Innovation"
-      ],
-      "hotScore": 94,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T07:00:05.000Z",
-      "contentSnippet": "MediaTek ra mắt Dimensity 9600 Pro 2nm: Quyết đấu sòng phẳng với Qualcomm MediaTek vừa chính thức giới thiệu con chip Dimensity 9600 Pro dùng tiến trình 2nm hiện đại nhất của TSMC, đi cùng.",
-      "authorName": "Anh Tú.",
-      "upvotes": 19,
-      "commentsCount": 1
-    },
-    {
-      "id": "f0c7be03b0290b81",
-      "title_vi": "Galaxy Z Fold8: Trải nghiệm biến smartphone màn hình gập thành khung tranh và màn hình phụ thông minh",
-      "title_en": "Galaxy Z Fold8: Transforming the Foldable Flagship into an Ambient Smart Display Desk Companion",
-      "summary_vi": [
-        "Khám phá trải nghiệm biến chiếc smartphone màn hình gập Galaxy Z Fold8 thành khung tranh và màn hình phụ mini trên bàn làm việc công nghệ.",
-        "Tận dụng cơ chế bản lề Flex Mode cố định đa góc độ, màn hình Dynamic AMOLED tần số quét 120Hz và chế độ Standby Always-On Display thông minh.",
-        "Mở rộng khả năng tương tác đa nhiệm, hỗ trợ lập trình viên theo dõi dashboard và thông báo hệ thống mà không cần bật thêm màn hình lớn."
-      ],
-      "summary_en": [
-        "Explores transforming the Galaxy Z Fold8 foldable flagship into an ambient smart display and secondary monitor on developer desks.",
-        "Leverages multi-angle Flex Mode hinging, a 120Hz Dynamic AMOLED panel, and intelligent Always-On ambient display capabilities.",
-        "Enhances multi-tasking desk ergonomics, enabling engineers to monitor build pipelines and system telemetry without extra hardware monitors."
-      ],
-      "originalTitle": "Consumer Reports xếp Galaxy Z Fold8 Ultra đứng đầu hạng mục điện thoại gập",
-      "url": "https://genk.vn/consumer-reports-xep-galaxy-z-fold8-ultra-dung-dau-hang-muc-dien-thoai-gap-165260916122256865.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "GalaxyFold",
-        "Samsung",
-        "Mobile",
-        "UIUX"
-      ],
-      "hotScore": 84,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T06:15:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/16/avatar1789536161356-17895361629921182150040.jpg",
-      "contentSnippet": "Mẫu điện thoại gập cao cấp nhất của Samsung nhận điểm tuyệt đối ở mọi hạng mục màn hình và chụp ảnh trong bảng xếp hạng mới nhất của Consumer Reports, trong khi Galaxy S26 Ultra tiếp tục giữ vị trí số 1 ở bảng điện thoại thông minh chung.",
-      "authorName": "GenK",
-      "upvotes": 23,
-      "commentsCount": 4
-    },
-    {
-      "id": "3d8b9a7bfd08b132",
-      "title_vi": "“Mr Big Short” nghi ngờ: AI chẳng có gì phải giảm tốc, lời cảnh báo nguy hiểm có thể chỉ là màn kịch trước IPO",
-      "title_en": "“Mr Big Short” doubts: AI has nothing to slow down, the dangerous warning may just be a pre-IPO show",
-      "summary_vi": [
-        "Theo ông Michael Burry, những lời cảnh báo nguy hiểm về AI của các công ty đang phát triển chúng có thể chỉ là lớp vỏ ngụy trang cho những ý đồ thực sự của các công ty này đằng sau.",
-        "Tập trung vào cấu trúc mạng nơ-ron, quy trình huấn luyện mô hình ngôn ngữ lớn (LLM), cơ chế tối ưu suy luận và kiểm soát an toàn thuật toán.",
-        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "According to Mr. Michael Burry, the dangerous warnings about AI from the companies developing them may just be a disguise for the real intentions of these companies behind.",
-        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
-        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
-      ],
-      "originalTitle": "“Mr Big Short” nghi ngờ: AI chẳng có gì phải giảm tốc, lời cảnh báo nguy hiểm có thể chỉ là màn kịch trước IPO",
-      "url": "https://genk.vn/mr-big-short-nghi-ngo-ai-chang-co-gi-phai-giam-toc-loi-canh-bao-nguy-hiem-co-the-chi-la-man-kich-truoc-ipo-165260916113202381.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 91,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T06:14:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/16/avatar1789533104064-1789533104732999025993.png",
-      "contentSnippet": "Theo ông Michael Burry, những lời cảnh báo nguy hiểm về AI của các công ty đang phát triển chúng có thể chỉ là lớp vỏ ngụy trang cho những ý đồ thực sự của các công ty này đằng sau.",
-      "authorName": "GenK",
-      "upvotes": 17,
-      "commentsCount": 1
-    },
-    {
-      "id": "efa55e39917b6af7",
-      "title_vi": "Ý tưởng về iPhone Duo bắt đầu từ 15 năm trước",
-      "title_en": "The idea of ​​iPhone Duo started 15 years ago",
-      "summary_vi": [
-        "Ý tưởng phát triển iPhone màn hình gập được cho là bắt nguồn từ ngày 30/9/2011, khi Apple nộp đơn xin cấp bằng sáng chế cho \"thiết bị điện tử linh hoạt\".",
-        "Đột phá về trải nghiệm giao diện người dùng (UI/UX), tối ưu hóa thời gian kết xuất (render performance) và năng lực tương thích đa nền tảng.",
-        "Thúc đẩy cộng đồng lập trình viên Mobile và Web áp dụng các tiêu chuẩn công nghệ mới nhằm tối ưu hóa trải nghiệm khách hàng."
-      ],
-      "summary_en": [
-        "The idea of ​​developing a folding screen iPhone is said to have originated on September 30, 2011, when Apple applied for a patent for a \"flexible electronic device\".",
-        "Highlights breakthroughs in UI/UX rendering performance, responsive cross-platform frameworks, and modern client hardware optimization.",
-        "Encourages mobile and frontend engineers to adopt next-generation standards for high-performance user experiences."
-      ],
-      "originalTitle": "Ý tưởng về iPhone Duo bắt đầu từ 15 năm trước",
-      "url": "https://vnexpress.net/y-tuong-ve-iphone-duo-bat-dau-tu-15-nam-truoc-5120685.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 93,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T06:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/15/dscf0045-1789479247-3654-1789479308.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=thSM_36TJBCJJFl9edtLVg",
-      "contentSnippet": "Ý tưởng phát triển iPhone màn hình gập được cho là bắt nguồn từ ngày 30/9/2011, khi Apple nộp đơn xin cấp bằng sáng chế cho \"thiết bị điện tử linh hoạt\".",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 24,
-      "commentsCount": 6
-    },
-    {
-      "id": "6dd41a5350446024",
-      "title_vi": "Thông báo quan trọng đến những ai đang muốn mua iPhone 18 Pro Max",
-      "title_en": "Important announcement for those who want to buy iPhone 18 Pro Max",
-      "summary_vi": [
-        "Theo The Guardian và Forbes, hàng trăm website lừa đảo đã được dựng lên xoay quanh thế hệ iPhone mới.",
-        "Các trang này thường mô phỏng giao diện của Apple hoặc những hệ thống bán lẻ quen thuộc, sau đó đưa ra mức giá hấp dẫn, chương trình đặt trước hoặc cam kết giao máy sớm hơn thời điểm chính thức.",
-        "Đây là hình thức lừa đảo không mới, nhưng có xu hướng bùng lên mỗi khi một sản phẩm công nghệ được quan tâm mạnh."
-      ],
-      "summary_en": [
-        "iPhone 18 Pro Max is receiving great attention from users right before it goes on sale in Vietnam.",
-        "Highlights breakthroughs in UI/UX rendering performance, responsive cross-platform frameworks, and modern client hardware optimization.",
-        "Encourages mobile and frontend engineers to adopt next-generation standards for high-performance user experiences."
-      ],
-      "originalTitle": "Thông báo quan trọng đến những ai đang muốn mua iPhone 18 Pro Max",
-      "url": "https://genk.vn/thong-bao-quan-trong-den-nhung-ai-dang-muon-mua-iphone-18-pro-max-165260916022728334.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T02:27:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/15/avatar1789500284480-17895002848212083410632.jpg",
-      "contentSnippet": "iPhone 18 Pro Max đang nhận được sự quan tâm lớn từ người dùng ngay trước thời điểm lên kệ tại Việt Nam.",
-      "authorName": "GenK",
-      "upvotes": 27,
-      "commentsCount": 8
-    },
-    {
-      "id": "a7565059b22e4fb4",
-      "title_vi": "Cloudflare: Luôn có thể được khám phá trong tìm kiếm trong khi không cho phép huấn luyện AI",
-      "title_en": "Cloudflare: Stay discoverable in search while disallowing AI training",
-      "summary_vi": [
-        "Cuộc thảo luận thịnh hành nhất với 16 điểm và 5 bình luận.",
-        "Tập trung vào cấu trúc mạng nơ-ron, quy trình huấn luyện mô hình ngôn ngữ lớn (LLM), cơ chế tối ưu suy luận và kiểm soát an toàn thuật toán.",
-        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "Top trending discussion with 16 points and 5 comments.",
-        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
-        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
-      ],
-      "originalTitle": "Cloudflare: Stay discoverable in search while disallowing AI training",
-      "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T02:25:18.000Z",
-      "contentSnippet": "Top trending discussion with 16 points and 5 comments.",
-      "authorName": "djfergus",
-      "upvotes": 16,
-      "commentsCount": 5
-    },
-    {
-      "id": "82889dfda5aad1c0",
-      "title_vi": "Trung Quốc đang đối phó thế nào với nguy cơ AI vượt kiểm soát?",
-      "title_en": "How is China dealing with the risk of AI going out of control?",
-      "summary_vi": [
-        "Trung Quốc đưa nguy cơ AI mất kiểm soát vào khung an toàn quốc gia, yêu cầu con người giữ quyền quyết định cuối cùng và tăng giám sát các tác nhân AI.",
-        "Tập trung vào cấu trúc mạng nơ-ron, quy trình huấn luyện mô hình ngôn ngữ lớn (LLM), cơ chế tối ưu suy luận và kiểm soát an toàn thuật toán.",
-        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "China includes the risk of AI losing control in its national safety framework, requiring humans to retain final decision-making authority and increasing supervision of AI agents.",
-        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
-        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
-      ],
-      "originalTitle": "Trung Quốc đang đối phó thế nào với nguy cơ AI vượt kiểm soát?",
-      "url": "https://genk.vn/trung-quoc-dang-doi-pho-the-nao-voi-nguy-co-ai-vuot-kiem-soat-16526091608115956.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 97,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T02:15:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/16/avatar1789521085700-17895210866092009926176.jpg",
-      "contentSnippet": "Trung Quốc đưa nguy cơ AI mất kiểm soát vào khung an toàn quốc gia, yêu cầu con người giữ quyền quyết định cuối cùng và tăng giám sát các tác nhân AI.",
-      "authorName": "GenK",
-      "upvotes": 13,
-      "commentsCount": 5
-    },
-    {
-      "id": "fb71c922e3d74c6d",
-      "title_vi": "Galaxy Z Fold8: Trải nghiệm biến smartphone màn hình gập thành khung tranh và màn hình phụ thông minh",
-      "title_en": "Galaxy Z Fold8: Transforming the Foldable Flagship into an Ambient Smart Display Desk Companion",
-      "summary_vi": [
-        "Khám phá trải nghiệm biến chiếc smartphone màn hình gập Galaxy Z Fold8 thành khung tranh và màn hình phụ mini trên bàn làm việc công nghệ.",
-        "Tận dụng cơ chế bản lề Flex Mode cố định đa góc độ, màn hình Dynamic AMOLED tần số quét 120Hz và chế độ Standby Always-On Display thông minh.",
-        "Mở rộng khả năng tương tác đa nhiệm, hỗ trợ lập trình viên theo dõi dashboard và thông báo hệ thống mà không cần bật thêm màn hình lớn."
-      ],
-      "summary_en": [
-        "Explores transforming the Galaxy Z Fold8 foldable flagship into an ambient smart display and secondary monitor on developer desks.",
-        "Leverages multi-angle Flex Mode hinging, a 120Hz Dynamic AMOLED panel, and intelligent Always-On ambient display capabilities.",
-        "Enhances multi-tasking desk ergonomics, enabling engineers to monitor build pipelines and system telemetry without extra hardware monitors."
-      ],
-      "originalTitle": "Jensen Huang đã nghe điện thoại của ông Trump bằng Galaxy Z Fold8",
-      "url": "https://tinhte.vn/thread/jensen-huang-da-nghe-dien-thoai-cua-ong-trump-bang-galaxy-z-fold8.4177350/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "GalaxyFold",
-        "Samsung",
-        "Mobile",
-        "UIUX"
-      ],
-      "hotScore": 94,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T02:05:18.000Z",
-      "contentSnippet": "Jensen Huang đã nghe điện thoại của ông Trump bằng Galaxy Z Fold8 Tại sự kiện All-In Summit 2026 ở Los Angeles, người ta vừa bắt gặp CEO Nvidia Jensen Huang đang nghe cuộc gọi từ ông Donald.",
-      "authorName": "Anh Tú.",
-      "upvotes": 33,
-      "commentsCount": 5
     }
   ]
 }
