@@ -1,7 +1,41 @@
 {
-  "lastUpdated": "2026-09-25T16:13:40.128Z",
+  "lastUpdated": "2026-09-25T20:55:26.887Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "a56769b3de778e81",
+      "title_vi": "Go Zero to Hero - Bài 26: Closures - Sức mạnh của hàm bậc cao",
+      "title_en": "Go Zero to Hero - Part 26: Closures and the Power of Higher-Order Functions",
+      "summary_vi": [
+        "Bài viết khám phá sâu về khái niệm closures và hàm bậc cao trong ngôn ngữ lập trình Golang, giúp lập trình viên hiểu rõ cách vận hành của các hàm ẩn danh và cơ chế lưu trữ ngữ cảnh thực thi cực kỳ hiệu quả.",
+        "Tác giả cung cấp các ví dụ mã nguồn thực tế minh họa cách closures ghi nhớ trạng thái biến bên ngoài phạm vi của chúng, tạo ra các mô hình thiết kế linh hoạt như bộ đếm dữ liệu và xử lý bất đồng bộ.",
+        "Kiến thức này đóng vai trò thiết yếu giúp các lập trình viên Golang tối ưu hóa mã nguồn, cải thiện khả năng bảo trì và nâng cao tư duy lập trình hàm trong các ứng dụng phân tán hiện đại."
+      ],
+      "summary_en": [
+        "The article explores closures and higher-order functions in the Golang programming language, helping developers thoroughly understand the execution mechanisms of anonymous functions and context preservation.",
+        "The author provides practical code examples demonstrating how closures capture and remember variable states outside their scope, enabling flexible design patterns for data counters and asynchronous processing.",
+        "This essential knowledge empowers Golang developers to optimize source code, improve maintainability, and enhance functional programming paradigms within modern distributed software applications."
+      ],
+      "originalTitle": "Go Zero to Hero - Bài 26: Closures - Sức mạnh của hàm bậc cao",
+      "url": "https://viblo.asia/p/go-zero-to-hero-bai-26-closures-suc-manh-cua-ham-bac-cao-wd43EllqLX9",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Golang",
+        "Closures",
+        "Functional Programming",
+        "Backend",
+        "Software Architecture"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-26T00:06:44.000Z",
+      "contentSnippet": "Trong Golang, cú pháp tuy tối giản nhưng lại hỗ trợ đầy đủ các mô hình lập trình nâng cao. Một trong những vũ khí sắc bén nhất của các Gopher kỳ cựu c...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "8549b012b0ecfd3e",
       "title_vi": "Cảnh báo rủi ro Type Guard âm thầm lệch khỏi kiểu dữ liệu TypeScript",
@@ -101,6 +135,178 @@
       "publishedAt": "2026-09-25T20:47:13.000Z",
       "contentSnippet": "Most software bugs are not really coding mistakes. They are misunderstandings. The developer built exactly what they thought the ticket meant, the tes...",
       "authorName": "Marcus Keenton",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "325d3ee537dadcef",
+      "title_vi": "Ollaya: Công cụ chạy mô hình quyết định mã nguồn mở theo phong cách Jev giống như Ollama",
+      "title_en": "Ollaya: Ollama for open-source, Jev-style decision models",
+      "summary_vi": [
+        "Công cụ mới mang tên Ollaya ra mắt nhằm cung cấp khả năng chạy các mô hình quyết định mã nguồn mở trên phần cứng cục bộ tương tự như cách hoạt động của Ollama.",
+        "Hệ thống cho phép xử lý các truy vấn văn bản hoặc JSON có cấu trúc chỉ trong vài mili giây thông qua một lần chuyển tiếp mà không cần tạo mã thông báo tuần tự.",
+        "Giải pháp này đem lại hiệu suất cao với độ trễ cực thấp trên các cỗ máy sử dụng card đồ họa mạnh mẽ, hỗ trợ lập trình viên tối ưu hóa quy trình tự động hóa."
+      ],
+      "summary_en": [
+        "A new tool named Ollaya has been launched to provide capabilities for running open-source decision models on local hardware in a similar fashion to Ollama.",
+        "The system enables processing of structured text or JSON queries within milliseconds through a single forward pass without requiring sequential token generation.",
+        "This solution delivers high performance with ultra-low latency on powerful GPU setups, helping developers optimize their automation workflows efficiently."
+      ],
+      "originalTitle": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "url": "https://ollaya.dev/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Open Source",
+        "Machine Learning",
+        "Decision Models",
+        "Hardware"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-25T18:33:50.000Z",
+      "contentSnippet": "Ask typed questions about any text or JSON and get calibrated answers in milliseconds. Private, open source, on your own hardware. DownloadBrowse models ollaya · zsh$ollaya run laya --preset triage \\\"I was charged twice this month and want a refund.\"Answers returned by the modelQuestionAnswerProbabi",
+      "authorName": "Ardakilic",
+      "upvotes": 169,
+      "commentsCount": 47
+    },
+    {
+      "id": "1cd84880b7200e24",
+      "title_vi": "Dòng TV OLED đầu tiên của Roku giảm giá tới 400 USD tại Amazon",
+      "title_en": "Roku’s first OLED TVs are up to $400 off, starting at $699",
+      "summary_vi": [
+        "Hãng Roku vừa chính thức tung ra thị trường dòng TV OLED đầu tiên của mình với mức giá khởi điểm vô cùng hấp dẫn cho các kích thước màn hình lớn tích hợp nhiều công nghệ hiển thị tiên tiến.",
+        "Các mẫu TV mới trang bị tấm nền OLED tần số quét 120Hz, hỗ trợ bốn cổng kết nối HDMI 2.1, chuẩn Dolby Vision, HDR 10 Plus cùng chế độ độ trễ thấp tự động và công nghệ biến thiên tần số quét phục vụ game thủ.",
+        "Việc áp dụng các mã giảm giá trực tuyến giúp người dùng tiếp cận dòng sản phẩm màn hình cao cấp này với chi phí tiết kiệm hơn đáng kể, đồng thời mở rộng hệ sinh thái phần mềm tích hợp sẵn của hãng."
+      ],
+      "summary_en": [
+        "Roku recently launched its first-ever OLED television lineup featuring impressive starting prices for large screen models equipped with advanced display and entertainment technologies.",
+        "The new television models boast a 120Hz refresh rate OLED panel, four HDMI 2.1 ports, Dolby Vision and HDR 10 Plus support, alongside auto low latency mode and variable refresh rate capabilities for gaming.",
+        "Applying online promotional discount codes allows users to access these high-end display products at significantly lower costs while further expanding the company's integrated software ecosystem."
+      ],
+      "originalTitle": "Roku’s first OLED TVs are up to $400 off, starting at $699",
+      "url": "https://www.theverge.com/gadgets/1000859/roku-pro-series-oled-nothing-phone-4a-pro-deal-sale",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "OLED",
+        "Smart TV",
+        "Hardware",
+        "Roku",
+        "Consumer Tech"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-25T18:18:57.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Roku-Pro-Series-2026-oled-roundup.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Roku’s new OLED TVs are already marked down. | Image: The Verge Roku recently launched its first-ever OLED TVs. The $999 starting price was already impressive for the 55-inch Pro Series model that has a 120Hz refresh rate OLED panel (with four HDMI 2.1 ports and support for Dolby Vision and HDR 10 P",
+      "authorName": "Brad Bourque",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f43edf4211ac9ef1",
+      "title_vi": "Điện thoại không có đèn báo hiệu khi chụp ảnh như kính thông minh",
+      "title_en": "Phones don’t have lights",
+      "summary_vi": [
+        "Mark Zuckerberg đưa ra lập luận bảo vệ dòng kính thông minh Ray-Ban Meta khi cho rằng thiết bị này thể hiện rõ ràng hơn smartphone trong việc phát tín hiệu khi người dùng đang chụp ảnh hoặc quay phim.",
+        "Lãnh đạo Meta nhấn mạnh hệ thống đèn LED tích hợp trên kính sẽ tự động bật sáng để cảnh báo mọi người xung quanh, trong khi các dòng điện thoại di động thông thường hoàn toàn thiếu đi cơ chế cảnh báo trực quan này.",
+        "Tranh cãi xoay quanh quyền riêng tư và phần cứng thiết bị đeo thông minh đặt ra thách thức lớn cho các kỹ sư trong việc cân bằng giữa trải nghiệm tiện lợi và vấn đề minh bạch dữ liệu cá nhân."
+      ],
+      "summary_en": [
+        "Mark Zuckerberg defends the Ray-Ban Meta smart glasses by arguing that they provide clearer visual cues for photography compared to traditional smartphones during everyday usage.",
+        "The Meta executive highlights that the integrated LED indicator light automatically activates to signal surrounding individuals whenever a photo is captured, whereas standard mobile phones lack this direct visual mechanism.",
+        "Ongoing debates regarding user privacy and wearable hardware design present significant challenges for engineers striving to balance seamless convenience with absolute transparency regarding personal data."
+      ],
+      "originalTitle": "Phones don’t have lights",
+      "url": "https://www.theverge.com/podcast/1000751/vergecast-meta-connect-muse-googlebooks",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Smart Glasses",
+        "Meta",
+        "Privacy",
+        "Mobile Hardware",
+        "AI Assistants"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-25T17:42:59.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/VRG_VST_0925_Site.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Mark Zuckerberg has a new defense of the Ray-Ban Meta glasses: They're actually doing more to signal they're taking a photo than phones do. He's brought this up in at least two recent interviews, noting that the glasses have a light that comes on to signal when a photo is being taken, while phones d",
+      "authorName": "Jacob Kastrenakes",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "2f1cb0ea1ba12a23",
+      "title_vi": "Các ứng dụng chụp ảnh này mang lại khả năng kiểm soát khẩu độ trên điện thoại thông minh tốt hơn",
+      "title_en": "These camera apps give you more control over the iPhone 18 Pro's aperture",
+      "summary_vi": [
+        "Ứng dụng camera mặc định trên thiết bị di động cao cấp mới gặp phải hạn chế khi chỉ hỗ trợ bốn mức khẩu độ cố định trong chế độ thủ công và tự động.",
+        "Bộ công cụ phát triển phần mềm cho phép các ứng dụng camera của bên thứ ba khai thác tối đa phần cứng để cung cấp quyền điều chỉnh khẩu độ linh hoạt và chi tiết hơn.",
+        "Giải pháp này mở ra cơ hội cho các nhà phát triển tối ưu hóa khả năng điều khiển thiết bị phần cứng, mang lại trải nghiệm nhiếp ảnh chuyên nghiệp hơn cho người dùng cuối."
+      ],
+      "summary_en": [
+        "The default native camera application on the new high-end mobile device faces limitations by supporting only four fixed aperture settings in both manual and auto modes.",
+        "The software development kit allows third-party camera applications to fully leverage the underlying hardware, providing much more flexible and granular aperture adjustments.",
+        "This software approach creates opportunities for developers to optimize hardware control capabilities, delivering a significantly more professional photography experience for end users."
+      ],
+      "originalTitle": "These camera apps give you more control over the iPhone 18 Pro’s aperture",
+      "url": "https://www.theverge.com/tech/1000729/moment-pro-blackmagic-camera-ii-ios-app-iphone-18-pro-max-aperature-camera",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "iOS",
+        "Mobile Apps",
+        "Camera SDK",
+        "Hardware Control"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-25T17:23:30.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/moment.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "One of the questionable limitations of the iPhone 18 Pro's new main camera with a variable aperture is that you're limited to just four settings in the native iOS' camera app in manual mode: f/1.48, f/1.8, f/2.8, and f/4. Those same limitations are also in place when the app is adjusting the iris it",
+      "authorName": "Andrew Liszewski",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f849471054291e40",
+      "title_vi": "Lý do trí tuệ nhân tạo chưa thể giải mã hoàn toàn cờ vua",
+      "title_en": "Why Artificial Intelligence Cannot Completely Solve Chess Yet",
+      "summary_vi": [
+        "Trí tuệ nhân tạo dù đã đánh bại nhiều kiện tướng hàng đầu nhưng vẫn chưa thể tìm ra phương án chiến thắng tuyệt đối cho mọi ván cờ vua do giới hạn tính toán.",
+        "Số lượng ván cờ có thể xảy ra đạt tới con số Shannon khổng lồ là mười mũ một trăm hai mươi, vượt xa tổng số nguyên tử trong vũ trụ quan sát được hiện nay.",
+        "Thực tế này cho thấy các mô hình AI phát triển theo hướng mở rộng không gian nước đi sáng tạo thay vì tìm kiếm một lời giải duy nhất cho toàn bộ hệ thống."
+      ],
+      "summary_en": [
+        "Artificial intelligence has defeated top grandmasters but still cannot find an absolute winning strategy for every chess game due to computational limits.",
+        "The number of possible chess games reaches a massive Shannon number of ten to the power of one hundred twenty, far exceeding observable atoms in the universe.",
+        "This reality shows that AI models evolve by expanding creative move spaces rather than searching for a single definitive solution for the entire system."
+      ],
+      "originalTitle": "Lý do AI chưa thể 'giải mã' hoàn toàn cờ vua",
+      "url": "https://vnexpress.net/ly-do-ai-chua-the-giai-ma-hoan-toan-co-vua-5124874.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Chess",
+        "Algorithms",
+        "Machine Learning"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-25T17:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/25/VNEChess-1790339746-6806-1790339800.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ONyOdH2AgxrGkyp9f6ialw",
+      "contentSnippet": "Số lượng nước đi khả thi khổng lồ của cờ vua trở thành bức tường thành mà AI hiện nay chưa thể vượt qua.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -7986,198 +8192,6 @@
       "authorName": "Andrew Webster",
       "upvotes": 19,
       "commentsCount": 5
-    },
-    {
-      "id": "46aa3a71d1463843",
-      "title_vi": "Vấn đề rác thải điện tử của trung tâm dữ liệu AI là rất lớn - và ngày càng lớn hơn",
-      "title_en": "The AI data center e-waste problem is huge — and getting bigger",
-      "summary_vi": [
-        "Một báo cáo mới cảnh báo rằng chất thải điện tử từ sự bùng nổ AI đã bị đánh giá thấp rất nhiều.",
-        "Đến năm 2050, nó có thể trở thành lượng rác đủ để lấp đầy 23 triệu container vận chuyển - gần đủ container 40 feet để đi vòng quanh thế giới sáu lần nếu xếp thành một hàng.",
-        "Đó là ước tính về chất thải điện tử của AI cao hơn đáng kể so với."
-      ],
-      "summary_en": [
-        "E-waste from the AI boom has been vastly underestimated, a new report warns.",
-        "By 2050, it could become enough trash to fill 23 million shipping containers - roughly enough 40-foot containers to circle the world six times if lined up in a row.",
-        "It's a significantly higher estimate of AI's e-waste than previous studies have found because the authors of the new report factor in all the infrastructure needed to support servers in data centers."
-      ],
-      "originalTitle": "The AI data center e-waste problem is huge — and getting bigger",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 97,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T20:40:46.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_C.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "E-waste from the AI boom has been vastly underestimated, a new report warns. By 2050, it could become enough trash to fill 23 million shipping containers - roughly enough 40-foot containers to circle the world six times if lined up in a row. It's a significantly higher estimate of AI's e-waste than",
-      "authorName": "Justine Calma",
-      "upvotes": 38,
-      "commentsCount": 7
-    },
-    {
-      "id": "77652abbb9b4b703",
-      "title_vi": "Go Zero to Hero - Bài 16: Cấu trúc dữ liệu Mảng (Array) và những hạn chế",
-      "title_en": "Go Zero to Hero - Lesson 16: Array data structure and limitations",
-      "summary_vi": [
-        "Trong Go, Array là một tập hợp các phần tử có cùng kiểu dữ liệu và kích thước được cố định ngay từ lúc khởi tạo.",
-        "Mảng (Array) trong Go là gì?",
-        "Cung cấp bài học thực chiến giá trị cho cộng đồng lập trình viên trong việc nâng cao hiệu năng, độ tin cậy và khả năng bảo trì của phần mềm."
-      ],
-      "summary_en": [
-        "In Go, Array is a collection of elements with the same data type and size that is fixed from the moment of initialization.",
-        "What is an array in Go?",
-        "Provides valuable production lessons for developers aiming to improve performance, reliability, and code maintainability."
-      ],
-      "originalTitle": "Go Zero to Hero - Bài 16: Cấu trúc dữ liệu Mảng (Array) và những hạn chế",
-      "url": "https://viblo.asia/p/go-zero-to-hero-bai-16-cau-truc-du-lieu-mang-array-va-nhung-han-che-1QLxnEEg4Aw",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Go"
-      ],
-      "hotScore": 84,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T20:33:52.000Z",
-      "contentSnippet": "Trong Go, Array là một tập hợp các phần tử có cùng kiểu dữ liệu và kích thước được cố định ngay từ lúc khởi tạo. 1. Mảng (Array) trong Go là gì?.",
-      "authorName": "Cô Gái IT",
-      "upvotes": 12,
-      "commentsCount": 6
-    },
-    {
-      "id": "2e9000f3d853383e",
-      "title_vi": "Không chỉ Proton: Làm quen với các lớp tương thích SteamOS mới của Valve",
-      "title_en": "Not just Proton: Getting to know Valve's new SteamOS compatibility layers",
-      "summary_vi": [
-        "Kể từ khi phát hành Steam Deck, người hâm mộ Valve đã rất quen thuộc với ý tưởng về lớp tương thích Proton cho phép các trò chơi được viết cho Windows có thể chạy tốt trên SteamOS dựa trên Linux (mặc dù những nỗ lực của Valve trong lĩnh vực này còn xa hơn thế).",
-        "Tuy nhiên, để có thêm nhiều trò chơi chạy trên Steam Frame do SteamOS hỗ trợ, Valve đang dựa vào hai lớp tương thích bổ sung mới đối với kiến ​​trúc Steam.",
-        "Đầu tiên, FEX, là cổng fex-emu của Valve, một dự án nguồn mở mô phỏng các hướng dẫn của bộ xử lý x86 trên chipset Arm."
-      ],
-      "summary_en": [
-        "Since the release of the Steam Deck, Valve fans have gotten very familiar with the idea of the Proton compatibility layer that allows games written for Windows to run capably on the Linux-based SteamOS (though Valve’s efforts in this realm date back further than that).",
-        "To get more games running on the SteamOS-powered Steam Frame, though, Valve is relying on two additional compatibility layers that are new to the Steam architecture.",
-        "The first, FEX, is Valve’s port of fex-emu, an open source project that emulates x86 processor instructions on an Arm chipset."
-      ],
-      "originalTitle": "Not just Proton: Getting to know Valve's new SteamOS compatibility layers",
-      "url": "https://arstechnica.com/gaming/2026/09/not-just-proton-getting-to-know-valves-new-steamos-compatibility-layers/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Software",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 98,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-16T20:23:16.000Z",
-      "contentSnippet": "New system-level tools bring Arm chipsets, Android APKs into the Steam ecosystem.",
-      "authorName": "\n                    Kyle Orland\n                ",
-      "upvotes": 39,
-      "commentsCount": 3
-    },
-    {
-      "id": "ca40c53413560e71",
-      "title_vi": "Xây Dựng Agent Runtime Xác Định Với Kỹ Thuật Context Pruning",
-      "title_en": "Building Deterministic Agent Runtime With Context Pruning Technique",
-      "summary_vi": [
-        "Kỹ thuật xây dựng Agent Runtime có tính xác định (deterministic) bằng phương pháp mô phỏng công cụ (mock tools).",
-        "Đảm bảo hành vi của agent có thể kiểm thử hồi quy và tái hiện nhất quán trong mọi điều kiện môi trường.",
-        "Cung cấp phương pháp luận giúp các kỹ sư xây dựng hệ thống tác nhân AI đáng tin cậy cho môi trường production."
-      ],
-      "summary_en": [
-        "Architectural pattern for building deterministic AI agent runtimes through comprehensive tool mocking techniques.",
-        "Ensures agent behavioral trajectories remain fully testable, predictable, and reproducible in automated CI/CD.",
-        "Delivers an engineering blueprint for transitioning generative agents into robust, deterministic software services."
-      ],
-      "originalTitle": "Xây Dựng Agent Runtime Xác Định Với Kỹ Thuật Context Pruning",
-      "url": "https://viblo.asia/p/xay-dung-agent-runtime-xac-dinh-voi-ky-thuat-context-pruning-XRJ8RdQMVGq",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 97,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T19:30:00.000Z",
-      "contentSnippet": "Một agent LLM thường chạy rất mượt trong các bài demo ngắn chừng năm lượt gọi. Bạn đưa ra một prompt gọn gàng, nối hai mock tools, bảo nó tra cứu mã.",
-      "authorName": "Minh Le Duc",
-      "upvotes": 23,
-      "commentsCount": 2
-    },
-    {
-      "id": "498c9033f65b5d79",
-      "title_vi": "Mô Hình Hóa Chính Xác Kiến Trúc Lõi Tính Toán Ma Trận AMD Matrix Cores",
-      "title_en": "Accurate Models of AMD Matrix Cores",
-      "summary_vi": [
-        "Nghiên cứu mô hình hóa phần cứng chuyên sâu về vi kiến trúc lõi tính toán ma trận (Matrix Cores) trên các dòng chip tăng tốc đồ họa của AMD.",
-        "Phân tích chu kỳ xung nhịp, băng thông bộ nhớ đệm và hiệu suất thực thi các phép nhân ma trận trọng số trong huấn luyện mô hình ngôn ngữ lớn.",
-        "Cung cấp công cụ mô phỏng chuẩn xác giúp các kỹ sư tối ưu hóa kernel GPU và trình biên dịch cho các hệ thống máy học hiệu năng cao."
-      ],
-      "summary_en": [
-        "In-depth microarchitectural modeling study examining AMD Matrix Core hardware units for high-performance tensor acceleration.",
-        "Analyzes instruction pipelines, clock cycles, cache bandwidth, and matrix multiplication throughput in large model training.",
-        "Delivers precise simulation tools enabling GPU kernel engineers to optimize compilers for high-performance AI computing."
-      ],
-      "originalTitle": "Accurate Models of AMD Matrix Cores",
-      "url": "https://arxiv.org/abs/2609.14845",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-16T18:56:05.000Z",
-      "contentSnippet": "Hacker News top story: \"Accurate Models of AMD Matrix Cores\". Score: 4 points, 0 comments. Category: Tech discussion, programming, open-source.",
-      "authorName": "matt_d",
-      "upvotes": 4,
-      "commentsCount": 0
-    },
-    {
-      "id": "4b99a853d3afdbe8",
-      "title_vi": "Huấn luyện mô hình AI 4B tối ưu kế hoạch truy vấn SQL nhanh hơn 81% so với PostgreSQL",
-      "title_en": "Training a 4B Model to Produce 81% Faster SQL Query Plans Than PostgreSQL",
-      "summary_vi": [
-        "Nghiên cứu ứng dụng mô hình học máy chuyên biệt 4 tỷ tham số (4B) nhằm giải quyết bài toán tối ưu hóa chi phí kế hoạch thực thi câu lệnh SQL.",
-        "Đạt bước đột phá với tốc độ sinh execution plan nhanh hơn 81% so với bộ tối ưu hóa truyền thống (Cost-based Query Optimizer) của PostgreSQL.",
-        "Chứng minh tiềm năng tích hợp trực tiếp các mô hình AI nhỏ gọn vào lõi hệ quản trị cơ sở dữ liệu để tăng tốc xử lý truy vấn lớn trong thời gian thực."
-      ],
-      "summary_en": [
-        "Pioneers a specialized 4-billion parameter AI model designed to optimize SQL execution plan generation and query cost estimation.",
-        "Achieves an 81% speedup in producing optimal execution plans compared to the native cost-based query optimizer in PostgreSQL.",
-        "Demonstrates the viability of embedding lightweight foundation models directly into database engines for real-time latency reduction."
-      ],
-      "originalTitle": "Training a 4B model to produce 81% faster query plans than Postgres",
-      "url": "https://rohanbansal.com/qorl",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "PostgreSQL",
-        "SQL",
-        "Database",
-        "MachineLearning"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-16T18:50:00.000Z",
-      "contentSnippet": "Hacker News top story: \"Training a 4B model to produce 81% faster query plans than Postgres\". Score: 282 points, 51 comments. Category: Tech discussion, programming, open-source.",
-      "authorName": "polyphilz",
-      "upvotes": 282,
-      "commentsCount": 51
     }
   ]
 }
