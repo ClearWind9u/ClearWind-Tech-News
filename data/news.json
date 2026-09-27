@@ -1,7 +1,316 @@
 {
-  "lastUpdated": "2026-09-27T02:43:45.777Z",
+  "lastUpdated": "2026-09-27T16:07:03.804Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "b2e178e86867837c",
+      "title_vi": "Kiểm chứng gì khi làm PoC trên AWS trước khi triển khai thực tế? Kiến trúc, chi phí và tiêu chí thành công",
+      "title_en": "What to Verify in AWS PoC Before Production? Architecture, Cost, and Success Criteria",
+      "summary_vi": [
+        "Quá trình xây dựng bằng chứng khái niệm trên nền tảng điện toán đám mây Amazon Web Services không chỉ đơn thuần dừng lại ở việc kiểm tra tính năng chạy được hay không mà còn phải đảm bảo khả năng vận hành thực tế.",
+        "Các kỹ sư phần mềm cần phải kiểm tra kỹ lưỡng về mặt kiến trúc hệ thống, khả năng tích hợp dịch vụ, tối ưu hóa chi phí vận hành và thiết lập rõ ràng các tiêu chí đo lường sự thành công.",
+        "Việc đánh giá toàn diện các yếu tố này từ giai đoạn thử nghiệm giúp doanh nghiệp giảm thiểu rủi ro kỹ thuật, kiểm soát ngân sách hiệu quả và đẩy nhanh tiến độ đưa sản phẩm lên môi trường chính thức."
+      ],
+      "summary_en": [
+        "The process of building proof of concept on Amazon Web Services cloud computing platform should not simply stop at checking whether features work but must also ensure real-world operational capability.",
+        "Software engineers need to thoroughly examine system architecture, service integration capabilities, operational cost optimization, and establish clear criteria to measure success outcomes.",
+        "Comprehensive evaluation of these factors from the testing phase helps enterprises minimize technical risks, effectively control budgets, and accelerate deployment to the production environment."
+      ],
+      "originalTitle": "PoC trên AWS nên kiểm chứng gì trước khi lên production? Architecture, cost và success criteria",
+      "url": "https://viblo.asia/p/poc-tren-aws-nen-kiem-chung-gi-truoc-khi-len-production-architecture-cost-va-success-criteria-wd43EX3QLX9",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "AWS",
+        "Cloud Architecture",
+        "DevOps",
+        "Production",
+        "PoC"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-09-27T22:48:24.000Z",
+      "contentSnippet": "PoC trên AWS không nên chỉ trả lời câu hỏi “chạy được hay không”. Nếu mục tiêu cuối cùng là production, PoC cần kiểm chứng rõ architecture, integratio...",
+      "authorName": "Johnny Nguyen",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "d53e0f66c64ef3f6",
+      "title_vi": "Đánh giá miếng dán bảo vệ camera UNIQ Optix AluGuard DX2 cho iPhone 18 Pro",
+      "title_en": "Hands-on Review of UNIQ Optix AluGuard DX2 Camera Protectors for iPhone 18 Pro",
+      "summary_vi": [
+        "Bài viết thực hiện trải nghiệm thực tế với phụ kiện bảo vệ cụm camera trên dòng điện thoại iPhone 18 Pro, giải quyết vấn đề trầy xước do thiết kế cụm ống kính lồi đặc trưng của các thiết bị di động cao cấp hiện nay.",
+        "Sản phẩm sử dụng vật liệu hợp kim nhôm kết hợp với kính cường lực, được thiết kế với độ chính xác cao để tiệp màu với khung máy, đồng thời hỗ trợ quy trình tự lắp đặt đơn giản cho người dùng phổ thông.",
+        "Việc sử dụng phụ kiện bảo vệ camera giúp duy trì giá trị thẩm mỹ và độ bền cho phần cứng quang học, giảm thiểu rủi ro hư hỏng vật lý khi người dùng đặt máy trên các bề mặt cứng hoặc trong túi xách."
+      ],
+      "summary_en": [
+        "This article provides a hands-on review of camera lens protectors for the iPhone 18 Pro, addressing common concerns regarding scratches caused by the prominent, protruding camera module design found on modern flagship mobile devices.",
+        "The accessory features an aluminum alloy frame paired with tempered glass, engineered for precise color matching and a user-friendly installation process that ensures perfect alignment without requiring professional assistance or specialized tools.",
+        "Utilizing these protective covers helps maintain the aesthetic integrity and longevity of the optical hardware, effectively mitigating physical damage risks when placing the device on abrasive surfaces or carrying it in daily environments."
+      ],
+      "originalTitle": "Trên tay dán camera UNIQ Optix AluGuard DX2 cho iPhone 18 Pro: 4 màu tiệp máy, tự dán rất dễ",
+      "url": "https://tinhte.vn/thread/tren-tay-dan-camera-uniq-optix-aluguard-dx2-cho-iphone-18-pro-4-mau-tiep-may-tu-dan-rat-de.4178766/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone",
+        "Hardware",
+        "Mobile Accessories",
+        "Apple"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-27T15:41:48.000Z",
+      "contentSnippet": "Cụm camera trên iPhone 18 Pro và 18 Pro Max năm nay vẫn làm lồi lên khá nhiều, nên mỗi lần đặt máy xuống bàn hay vô ý đút chung túi quần với chùm chìa khóa, mình luôn có cảm giác hơi xót ruột vì...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "80c7a8479f561508",
+      "title_vi": "RTO, RPO và Phục hồi thảm họa trên AWS: Sao lưu dữ liệu là chưa đủ cho hệ thống sản xuất",
+      "title_en": "RTO, RPO and Disaster Recovery on AWS: Backup Alone Is Not Enough for Production Systems",
+      "summary_vi": [
+        "Bài viết phân tích tầm quan trọng của việc sao lưu dữ liệu trong vận hành hệ thống, đồng thời nhấn mạnh rằng chỉ có bản sao lưu là chưa đủ để đảm bảo khả năng khôi phục khi xảy ra sự cố nghiêm trọng.",
+        "Tác giả đi sâu vào các khái niệm cốt lõi như thời gian phục hồi mục tiêu và điểm khôi phục mục tiêu, kết hợp cùng các giải pháp kiến trúc tiên tiến trên nền tảng đám mây Amazon Web Services.",
+        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư hệ thống và chuyên gia DevOps trong việc xây dựng các chiến lược phòng chống thảm họa tối ưu nhằm bảo vệ an toàn cho hệ thống sản xuất."
+      ],
+      "summary_en": [
+        "The article analyzes the importance of data backup in system operations while emphasizing that having a data copy alone is not enough to guarantee recovery during critical incidents.",
+        "The author dives deep into core concepts such as recovery time objectives and recovery point objectives, combined with advanced architectural solutions on the Amazon Web Services cloud platform.",
+        "This knowledge delivers high practical value for system engineers and DevOps professionals in designing optimal disaster recovery strategies to ensure the safety of production environments."
+      ],
+      "originalTitle": "RTO, RPO và Disaster Recovery trên AWS: Backup thôi chưa đủ cho production",
+      "url": "https://viblo.asia/p/rto-rpo-va-disaster-recovery-tren-aws-backup-thoi-chua-du-cho-production-2vJPdljKJeK",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "AWS",
+        "Disaster Recovery",
+        "Cloud Architecture",
+        "DevOps",
+        "Backup"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-09-27T15:24:12.000Z",
+      "contentSnippet": "Backup thường là mục đầu tiên xuất hiện trong checklist vận hành, nhưng có bản sao dữ liệu không đồng nghĩa hệ thống có thể phục hồi sau sự cố. Một ch...",
+      "authorName": "Johnny Nguyen",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "52f08762f5beb003",
+      "title_vi": "Thiết kế nền tảng sản xuất AWS: Khu vực hạ cánh, bảo mật, khả năng phục hồi và khả năng quan sát",
+      "title_en": "Designing AWS Production Foundation: Landing Zone, Security, Resilience, and Observability",
+      "summary_vi": [
+        "Việc khởi chạy các ứng dụng trên môi trường điện toán đám mây Amazon Web Services có thể diễn ra rất nhanh chóng nhưng đòi hỏi kiến trúc sư phải xây dựng nền tảng vững chắc từ giai đoạn ban đầu.",
+        "Bài viết tập trung phân tích các thành phần cốt lõi bao gồm thiết lập vùng hạ cánh doanh nghiệp, cấu hình bảo mật nhiều tầng, tối ưu hóa khả năng chống chịu lỗi hệ thống và giám sát toàn diện.",
+        "Kiến thức này giúp các kỹ sư hệ thống và chuyên gia DevOps xây dựng hạ tầng đám mây đạt chuẩn doanh nghiệp, đảm bảo tính ổn định cao và sẵn sàng vận hành cho các tải công việc lớn."
+      ],
+      "summary_en": [
+        "Launching applications on Amazon Web Services can happen very quickly, but it requires architects to build a solid foundational infrastructure right from the initial phase.",
+        "The article focuses on analyzing core components including enterprise landing zone setup, multi-layered security configuration, system fault-tolerance optimization, and comprehensive observability.",
+        "This knowledge helps systems engineers and DevOps specialists build enterprise-grade cloud infrastructure, ensuring high availability and readiness for large-scale production workloads."
+      ],
+      "originalTitle": "Thiết kế AWS production foundation: Landing zone, security, resilience và observability",
+      "url": "https://viblo.asia/p/thiet-ke-aws-production-foundation-landing-zone-security-resilience-va-observability-ZjJYWP0MVOE",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "AWS",
+        "Cloud Architecture",
+        "DevOps",
+        "Security",
+        "Observability"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-09-27T15:12:38.000Z",
+      "contentSnippet": "Thiết kế AWS production foundation: Landing zone, security, resilience và observability Khởi chạy một ứng dụng trên AWS có thể diễn ra rất nhanh. Một...",
+      "authorName": "Johnny Nguyen",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0abb2c4bf525dfbf",
+      "title_vi": "Đưa OpenAI từ thử nghiệm PoC lên môi trường vận dụng thực tế: Kiến trúc, RAG, đánh giá và tích hợp doanh nghiệp",
+      "title_en": "Scaling OpenAI from Proof of Concept to Production: Architecture, RAG, Evaluation and Enterprise Integration",
+      "summary_vi": [
+        "Bài viết phân tích toàn diện quy trình chuyển đổi các mô hình ngôn ngữ lớn từ giai đoạn thử nghiệm ý tưởng sang môi trường vận hành thực tế cho các doanh nghiệp quy mô lớn.",
+        "Nội dung tập trung sâu vào việc thiết kế kiến trúc hệ thống RAG tối ưu, các phương pháp đánh giá độ chính xác cùng kỹ thuật tích hợp hạ tầng phần mềm phức tạp.",
+        "Giải pháp này mang lại giá trị thiết thực giúp các kỹ sư phần mềm giải quyết bài toán độ trễ, chi phí vận hành và bảo mật dữ liệu doanh nghiệp hiệu quả."
+      ],
+      "summary_en": [
+        "The article provides a comprehensive analysis of transitioning large language models from initial proof of concept stages into robust production environments for enterprise scaling.",
+        "Discussion centers deeply on designing optimal RAG system architectures, rigorous evaluation methodologies for accuracy, and advanced techniques for integrating complex software infrastructures.",
+        "This technical solution delivers practical value by helping software engineers effectively address latency issues, operational costs, and critical enterprise data security requirements."
+      ],
+      "originalTitle": "Đưa OpenAI từ PoC lên production: Architecture, RAG, evaluation và integration trong hệ thống doanh nghiệp",
+      "url": "https://viblo.asia/p/dua-openai-tu-poc-len-production-architecture-rag-evaluation-va-integration-trong-he-thong-doanh-nghiep-8X4EjqpdJN2",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "OpenAI",
+        "RAG",
+        "Architecture",
+        "Enterprise Integration",
+        "Machine Learning"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-09-27T15:05:17.000Z",
+      "contentSnippet": "Đưa OpenAI từ PoC lên production: Architecture, RAG, evaluation và integration trong hệ thống doanh nghiệp Tạo được một câu trả lời thuyết phục từ LL...",
+      "authorName": "Johnny Nguyen",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e483d8eddbddd998",
+      "title_vi": "Chiến dịch quảng bá rầm rộ cho trợ lý trí tuệ nhân tạo Muse của Giám đốc AI Meta Alexandr Wang",
+      "title_en": "Meta AI Head Alexandr Wang Drives Massive Social Media Campaign for Muse Assistant",
+      "summary_vi": [
+        "Giám đốc trí tuệ nhân tạo của Meta là Alexandr Wang đã đăng tải hơn ba trăm năm mươi bài viết trên mạng xã hội để quảng bá cho trợ lý ảo cá nhân Muse.",
+        "Trợ lý ảo Muse ra mắt vào tháng chín với khả năng tự động hóa các tác vụ phức tạp như đặt bàn, mua sắm, gửi email và tích hợp với nhiều dịch vụ bên thứ ba.",
+        "Sản phẩm này nhanh chóng leo lên vị trí dẫn đầu bảng xếp hạng ứng dụng miễn phí tại Mỹ, đánh dấu bước đột phá mạnh mẽ của Meta trong cuộc đua trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "Meta AI Chief Alexandr Wang posted over three hundred and fifty updates on social media to aggressively promote the new personal artificial intelligence assistant named Muse.",
+        "Launched in September, the Muse assistant automates complex daily tasks such as restaurant reservations, shopping, email management, and deep integration with multiple third-party services.",
+        "The application rapidly climbed to the top of the free app store charts in the United States, marking a significant milestone for Meta in the competitive artificial intelligence landscape."
+      ],
+      "originalTitle": "'Bão bài đăng' về Muse của tỷ phú AI Alexandr Wang",
+      "url": "https://vnexpress.net/bao-bai-dang-ve-muse-cua-ty-phu-ai-alexandr-wang-5125399.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Meta",
+        "Machine Learning",
+        "Mobile Apps",
+        "Tech Trends"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-27T11:21:06.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/27/screenshot20260927170004-17905-8793-6370-1790504040.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=zPZAA3DJe4n4QYPV8Od_7A",
+      "contentSnippet": "Alexandr Wang, Giám đốc AI của Meta, đăng hơn 350 bài về trợ lý AI Muse trên mạng xã hội trong gần ba tuần, từ hài hước đến châm biếm đối thủ.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "bbf28f92318608df",
+      "title_vi": "Đây là mẫu điện thoại iPhone được ưa chuộng nhất và đáng mua ở thời điểm hiện tại",
+      "title_en": "This is the new national favorite iPhone model that is most worth buying right now",
+      "summary_vi": [
+        "Sau khi thế hệ điện thoại thông minh mới nhất ra mắt trên thị trường, một dòng sản phẩm tiền nhiệm đã ghi nhận mức giá giảm sâu chưa từng có.",
+        "Việc điều chỉnh giá bán phần cứng di động này tạo cơ hội lớn cho người dùng tiếp cận hệ sinh thái cao cấp với mức chi phí tối ưu hơn rất nhiều.",
+        "Sự kiện này tác động tích cực đến thị trường thiết bị di động, thúc đẩy người tiêu dùng nâng cấp thiết bị để trải nghiệm các tính năng phần mềm tiên tiến."
+      ],
+      "summary_en": [
+        "Following the launch of the latest smartphone generation in the market, a predecessor product line recorded an unprecedented deep price drop.",
+        "This adjustment in mobile hardware pricing creates a great opportunity for users to access the high-end ecosystem at a much more optimized cost.",
+        "This event positively impacts the mobile device market, encouraging consumers to upgrade their hardware to experience advanced software features."
+      ],
+      "originalTitle": "Đây là chiếc iPhone \"quốc dân\" mới, đáng mua nhất hiện nay",
+      "url": "https://genk.vn/day-la-chiec-iphone-quoc-dan-moi-dang-mua-nhat-hien-nay-165260927131405245.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone",
+        "Mobile",
+        "Hardware",
+        "Tech Trends",
+        "Smartphone"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-27T09:13:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/27/avatar1790489633796-1790489634347624052892.png",
+      "contentSnippet": "Sau khi thế hệ iPhone 18 ra mắt, có một mẫu máy bỗng chốc rớt giá chạm đáy và trở thành \"món hời\" khó tin.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9660e41fe0a7be34",
+      "title_vi": "Microsoft định hình lại Copilot như một hệ điều hành mới với khả năng tự động hóa công việc toàn diện",
+      "title_en": "Microsoft positions Copilot as a new operating system capable of autonomous end-to-end task execution",
+      "summary_vi": [
+        "Microsoft đang mở rộng mạnh mẽ các đặc quyền cho trợ lý ảo Copilot, cho phép hệ thống này tự động soạn thảo tài liệu, xây dựng các ứng dụng phần mềm và duy trì quy trình làm việc suốt ngày đêm.",
+        "Giám đốc điều hành Satya Nadella nhấn mạnh tầm nhìn chiến lược khi định vị nền tảng này như một hệ điều hành chuyên biệt dành cho công việc, tích hợp sâu các mô hình ngôn ngữ lớn và tác nhân tự trị.",
+        "Bước tiến này đánh dấu sự chuyển dịch quan trọng trong kiến trúc phần mềm doanh nghiệp, đòi hỏi các nhà phát triển và kỹ sư phải thích nghi với mô hình cộng tác mới dựa trên các hệ thống tự động hóa thông minh."
+      ],
+      "summary_en": [
+        "Microsoft is significantly expanding Copilot capabilities, empowering the assistant to autonomously draft documents, build software applications, and execute continuous workflows around the clock.",
+        "CEO Satya Nadella emphasized the strategic vision of positioning this platform as a specialized operating system for work, deeply integrating large language models and autonomous agent architectures.",
+        "This advancement marks a critical shift in enterprise software architecture, requiring developers and engineers to adapt to new collaboration models driven by intelligent automation systems."
+      ],
+      "originalTitle": "Microsoft muốn Copilot trở thành một “hệ điều hành” mới, tự viết tài liệu và làm việc thay người dùng",
+      "url": "https://genk.vn/microsoft-muon-copilot-tro-thanh-mot-he-dieu-hanh-moi-tu-viet-tai-lieu-va-lam-viec-thay-nguoi-dung-165262709081121033.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Microsoft",
+        "Copilot",
+        "Automation",
+        "Software Architecture"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-27T08:45:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/27/avatar1790496747235-1790496747660326774124.jpg",
+      "contentSnippet": "Copilot đang được trao thêm quyền để soạn tài liệu, xây dựng ứng dụng và tự thực hiện công việc suốt ngày đêm. Satya Nadella gọi đây là một “hệ điều hành mới cho công việc”.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "afd0ed232e177353",
+      "title_vi": "Kỹ sư Google DeepMind từ chức vì lo ngại tốc độ phát triển của trí tuệ nhân tạo",
+      "title_en": "Google DeepMind engineer resigns over concerns regarding the rapid advancement of artificial intelligence",
+      "summary_vi": [
+        "Robert O'Callahan, một kỹ sư cấp cao tại Google DeepMind, đã chính thức quyết định rời bỏ công ty sau khi bày tỏ những quan ngại sâu sắc về lộ trình phát triển các hệ thống siêu trí tuệ nhân tạo trong tương lai gần.",
+        "Ông nhấn mạnh rằng việc thúc đẩy các mô hình AI đạt tới ngưỡng siêu trí tuệ mà thiếu đi các cơ chế kiểm soát an toàn nghiêm ngặt là một hành động thiếu trách nhiệm, có thể gây ra những rủi ro khó lường cho xã hội.",
+        "Sự kiện này phản ánh làn sóng tranh luận gay gắt trong cộng đồng kỹ thuật về đạo đức AI, đặt ra yêu cầu cấp thiết cho các nhà phát triển trong việc cân bằng giữa đổi mới công nghệ và đảm bảo an toàn hệ thống."
+      ],
+      "summary_en": [
+        "Robert O'Callahan, a senior engineer at Google DeepMind, has officially resigned from the company after expressing deep concerns regarding the current development roadmap for artificial superintelligence systems in the near future.",
+        "He emphasized that pushing AI models toward superintelligence without implementing rigorous safety control mechanisms is an irresponsible action that could potentially lead to unpredictable and significant risks for global society.",
+        "This event reflects the intense ongoing debate within the technical community regarding AI ethics, highlighting the urgent need for developers to balance rapid technological innovation with robust system safety and alignment."
+      ],
+      "originalTitle": "Nhân viên Google từ chức vì lo AI 'phát triển quá nhanh'",
+      "url": "https://vnexpress.net/nhan-vien-google-tu-chuc-vi-lo-ai-phat-trien-qua-nhanh-5125305.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "DeepMind",
+        "Ethics",
+        "Google",
+        "Superintelligence"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-27T06:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/27/img0718-1790478622-9122-1790479004.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Ip3QEXE5G65aQ6fXNdXteA",
+      "contentSnippet": "Robert O'Callahan, nhân viên Google DeepMind, tuyên bố nghỉ việc và cho rằng theo đuổi siêu trí tuệ nhân tạo (ASI) trong tương lai gần là \"thiếu trách nhiệm\".",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "0100cb7a866dbce2",
       "title_vi": "Chân dung Alexandr Wang - Thiên tài AI được Zuckerberg chi 371 nghìn tỷ đồng chiêu dụ về Meta",
@@ -7968,296 +8277,6 @@
       "authorName": "\n                    Ryan Whitwam\n                ",
       "upvotes": 32,
       "commentsCount": 3
-    },
-    {
-      "id": "fa958b936d28768b",
-      "title_vi": "Astra cho Luật",
-      "title_en": "Astra for Law",
-      "summary_vi": [
-        "Mô hình mạnh mẽ nhất của chúng tôi, được cấu hình thành nền tảng AI mới cho luật.",
-        "Đang tải...Chia sẻHôm nay, chúng tôi sẽ giới thiệu Astra for Law: một nền tảng mới dành cho các công ty luật và công ty công nghệ pháp lý nhằm xây dựng các sản phẩm và quy trình làm việc AI xoay quanh chuyên môn của họ.",
-        "Nó kết hợp GPT‑6 Astra, mô hình mới nhất và mạnh mẽ nhất của chúng tôi, với các cài đặt, công cụ và bối cảnh được điều chỉnh cho công việc pháp lý chuyên nghiệp."
-      ],
-      "summary_en": [
-        "Our most powerful model, configured into a new AI foundation for law.",
-        "Loading…ShareToday, we’re introducing Astra for Law: a new foundation for law firms and legal technology companies to build AI products and workflows around their expertise.",
-        "It combines GPT‑6 Astra, our latest and most powerful model, with settings, tools, and context tailored for professional legal work."
-      ],
-      "originalTitle": "Astra for Law",
-      "url": "https://openai.com/index/astra-for-law/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-17T20:17:48.000Z",
-      "contentSnippet": "Our most powerful model, configured into a new AI foundation for law. Loading…ShareToday, we’re introducing Astra for Law: a new foundation for law firms and legal technology companies to build AI products and workflows around their expertise. It combines GPT‑6 Astra, our latest and most powerful mo",
-      "authorName": "vertigoruntime",
-      "upvotes": 189,
-      "commentsCount": 182
-    },
-    {
-      "id": "b56bbdc0e4d98312",
-      "title_vi": "Giám đốc điều hành Microsoft gọi AI là “vụ trộm lao động lớn nhất trong lịch sử loài người”",
-      "title_en": "Microsoft exec called AI scraping the “largest theft of labor in human history”",
-      "summary_vi": [
-        "Các email của Microsoft, OpenAI tiết lộ nỗi sợ hãi về việc AI “vòng lặp diệt vong” sẽ giết chết các tổ chức tin tức.",
-        "Tập trung vào cấu trúc mạng nơ-ron, quy trình huấn luyện mô hình ngôn ngữ lớn (LLM), cơ chế tối ưu suy luận và kiểm soát an toàn thuật toán.",
-        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "Microsoft, OpenAI emails reveal fear of AI “doom loop” killing news orgs.",
-        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
-        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
-      ],
-      "originalTitle": "Microsoft exec called AI scraping the “largest theft of labor in human history”",
-      "url": "https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 96,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-17T20:10:41.000Z",
-      "contentSnippet": "Microsoft, OpenAI emails reveal fear of AI “doom loop” killing news orgs.",
-      "authorName": "\n                    Ashley Belanger\n                ",
-      "upvotes": 14,
-      "commentsCount": 5
-    },
-    {
-      "id": "8092c8022d580cab",
-      "title_vi": "Sự chậm lại của siêu trí tuệ AI",
-      "title_en": "The AI Superintelligence Slowdown",
-      "summary_vi": [
-        "Bạn có nhớ khi các nhà lãnh đạo công nghệ yêu cầu nhân viên của họ “tiến nhanh và phá vỡ mọi thứ” không?",
-        "Có vẻ như đó cũng là con đường của AI.",
-        "Nhưng sau một mùa hè khi các tác nhân AI lừa đảo trở thành hiện thực và các nhà nghiên cứu cảnh báo rằng AI có thể giết chết tất cả chúng ta, một số công ty AI hàng đầu của Hoa Kỳ đã công khai gợi ý rằng đã đến lúc phải phanh gấp và “tăng tốc” trong quá trình phát triển AI vượt trội."
-      ],
-      "summary_en": [
-        "Remember when tech leaders would tell their employees to “move fast and break things”?",
-        "It seemed that would be the way of AI too.",
-        "But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US AI companies are publicly suggesting it’s time to pump the brakes and “pace the frontier” of bleeding-edge AI development."
-      ],
-      "originalTitle": "The AI Superintelligence Slowdown",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 89,
-      "readTimeMinutes": 8,
-      "publishedAt": "2026-09-17T19:28:24.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK_414_5_D.png?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US AI companies are publicly suggesting it’",
-      "authorName": "Sean Hollister",
-      "upvotes": 19,
-      "commentsCount": 8
-    },
-    {
-      "id": "0a3be15b32c0f91d",
-      "title_vi": "Claude Code khởi động lại Dự án quản lý nhiều tác nhân AI trên đám mây",
-      "title_en": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
-      "summary_vi": [
-        "Tính năng dự án được cải tiến trong Claude Code cho phép người dùng điều hành nhiều tác nhân dưới cùng một mái nhà, với bộ nhớ, mục tiêu và thư viện tệp và tạo phẩm dùng chung.",
-        "Tương tự như Grok Bot và các công cụ khác quản lý các nhóm tác nhân AI, mỗi dự án có các \"luồng\" chạy song song các tác vụ khác nhau, với một \"điều phối viên\" chỉ đạo mọi thứ: Bên trong, mỗi luồng là một phiên đám mây Claude Code hoạt động trên nhánh riêng của nó và bản sao của kho lưu trữ.",
-        "Điều phối viên giúp sắp xếp công việc nhưng nếu bất kỳ luồng nào hoạt động trên cùng một mã thì sự chồng chéo sẽ được giải quyết dưới dạng xung đột hợp nhất giống như bất kỳ PR nào khác."
-      ],
-      "summary_en": [
-        "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts.",
-        "Similar to Grok Bot and other tools that manage groups of AI agents, each project has \"threads\" running different tasks in parallel, with a \"coordinator\" directing everything: Under the hood, each thread is a Claude Code cloud session working on its own branch and copy of the repo.",
-        "The coordinator keeps work organized, but if any threads work on the same code, the overlap is resolved as a merge conflict just like any other PR."
-      ],
-      "originalTitle": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 90,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-17T18:58:05.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKB364_CLAUDE_2_C_96d15c.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other tools that manage groups of AI agents, each project has \"threads\" running different tasks in parallel,",
-      "authorName": "Stevie Bonifield",
-      "upvotes": 26,
-      "commentsCount": 2
-    },
-    {
-      "id": "e160cd15fd4b9bc5",
-      "title_vi": "Sáng mai iPhone 18 Pro, Pro Max được giao, tặng anh em phụ kiện xịn xài chơi",
-      "title_en": "Tomorrow morning, iPhone 18 Pro and Pro Max will be delivered, giving you genuine accessories to use",
-      "summary_vi": [
-        "Ghi nhận phản hồi đợt giao hàng đầu tiên của iPhone 18 Pro và Pro Max tại các thị trường công nghệ trọng điểm.",
-        "Đánh giá trải nghiệm thực tế về thời lượng pin, độ tản nhiệt và thiết kế viền màn hình titan thế hệ mới.",
-        "Khảo sát nhu cầu thị trường đối với các phiên bản dung lượng cao phục vụ quay phim và xử lý mô hình AI cục bộ."
-      ],
-      "summary_en": [
-        "Early delivery rollout insights and consumer feedback on iPhone 18 Pro and Pro Max flagship releases.",
-        "Evaluates hands-on thermal efficiency, battery endurance profiles, and updated titanium frame ergonomics.",
-        "Examines market demand trends for high-storage variants suited for ProRes recording and on-device AI workloads."
-      ],
-      "originalTitle": "Sáng mai iPhone 18 Pro, Pro Max được giao, tặng anh em phụ kiện xịn xài chơi",
-      "url": "https://tinhte.vn/thread/sang-mai-iphone-18-pro-pro-max-duoc-giao-tang-anh-em-phu-kien-xin-xai-choi.4177845/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 86,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-17T18:56:37.000Z",
-      "contentSnippet": "Sáng mai là ngày trả máy, những anh em đặt hàng thành công iPhone 18 Pro hay iPhone 18 Pro Max sẽ nhận được máy. Những người đặt cọc thành công đợi này là những người đã được xác nhận nhận.",
-      "authorName": "cuhiep",
-      "upvotes": 19,
-      "commentsCount": 4
-    },
-    {
-      "id": "1ff6d7f6dcfb6f21",
-      "title_vi": "Mô hình ngôn ngữ lớn phản hồi khác biệt đối với các câu lệnh độc hại khi áp dụng kỹ thuật đóng dấu bản quyền AI",
-      "title_en": "LLMs respond differently to harmful prompts when AI watermarking is used",
-      "summary_vi": [
-        "Để tuân thủ luật pháp Liên minh Châu Âu, các nền tảng trí tuệ nhân tạo đang tích hợp các phương pháp đóng dấu bản quyền nội dung như SynthID-Text do Google phát triển nhằm minh bạch hóa nguồn gốc dữ liệu.",
-        "Nghiên cứu mới chỉ ra rằng việc nhúng dấu bản quyền không chỉ làm thay đổi cách lựa chọn từ ngữ mà còn ảnh hưởng đến việc kích hoạt công cụ và khả năng tuân thủ các hàng rào bảo mật của mô hình.",
-        "Phát hiện này nhấn mạnh tầm quan trọng của việc các nhà phát triển phải kiểm thử kỹ lưỡng hành vi của các tác nhân AI và mô hình ngôn ngữ lớn trong các điều kiện tấn công đối kháng."
-      ],
-      "summary_en": [
-        "In response to European Union regulations, AI platforms are integrating content watermarking techniques like SynthID-Text developed by Google to ensure transparency regarding the origin of generated data.",
-        "New research indicates that embedding watermarks not only alters word selection processes but also impacts tool invocation behaviors and the adherence of models to built-in security guardrails.",
-        "This finding emphasizes the critical need for developers to rigorously test the behavior of large language models and AI agents under adversarial conditions when watermarking mechanisms are deployed."
-      ],
-      "originalTitle": "LLMs respond differently to harmful prompts when AI watermarking is used",
-      "url": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Cybersecurity",
-        "LLM",
-        "SynthID",
-        "Watermarking"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-17T18:33:13.000Z",
-      "contentSnippet": "SynthID can cause models to follow harmful instructions they would otherwise refuse.",
-      "authorName": "\n                    Dan Goodin\n                ",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "653f6e21ba937c45",
-      "title_vi": "Thử xoá vật thể iPhone (iOS 27) với Samsung: Apple vẫn đi sau một nhịp",
-      "title_en": "Try deleting iPhone objects (iOS 27) with Samsung: Apple is still a step behind",
-      "summary_vi": [
-        "Khám phá trải nghiệm biến chiếc smartphone màn hình gập Galaxy Z Fold8 thành khung tranh và màn hình phụ mini trên bàn làm việc công nghệ.",
-        "Tận dụng cơ chế bản lề Flex Mode cố định đa góc độ, màn hình Dynamic AMOLED tần số quét 120Hz và chế độ Standby Always-On Display thông minh.",
-        "Mở rộng khả năng tương tác đa nhiệm, hỗ trợ lập trình viên theo dõi dashboard và thông báo hệ thống mà không cần bật thêm màn hình lớn."
-      ],
-      "summary_en": [
-        "Explores transforming the Galaxy Z Fold8 foldable flagship into an ambient smart display and secondary monitor on developer desks.",
-        "Leverages multi-angle Flex Mode hinging, a 120Hz Dynamic AMOLED panel, and intelligent Always-On ambient display capabilities.",
-        "Enhances multi-tasking desk ergonomics, enabling engineers to monitor build pipelines and system telemetry without extra hardware monitors."
-      ],
-      "originalTitle": "Thử xoá vật thể iPhone (iOS 27) với Samsung: Apple vẫn đi sau một nhịp",
-      "url": "https://tinhte.vn/thread/thu-xoa-vat-the-iphone-ios-27-voi-samsung-apple-van-di-sau-mot-nhip.4177577/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "Android"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-17T17:22:16.000Z",
-      "contentSnippet": "Ngay khi vừa lên đời iOS 27 chính thức, nghe đồn tính năng xóa vật thể Clean Up được Apple cải thiện nhiều nên mình tò mò lôi ngay chiếc iPhone ra đọ trực tiếp với Galaxy Z Fold8. Để xem khi.",
-      "authorName": "Anh Tú.",
-      "upvotes": 37,
-      "commentsCount": 2
-    },
-    {
-      "id": "f15472b4e4896e26",
-      "title_vi": "Hướng tới cơ sở mã tự lái",
-      "title_en": "Towards Self-Driving Codebases",
-      "summary_vi": [
-        "Các đại lý có thể chơi những trò chơi oneshot thực sự thú vị.",
-        "Với các biện pháp bảo vệ phù hợp, các tổng đài viên có thể thực hiện quá trình di chuyển cực kỳ ấn tượng trong các cơ sở mã phức tạp, thậm chí viết lại bằng ngôn ngữ mới.",
-        "Nhưng về cơ bản, tất cả công việc phần mềm \"thực\" vẫn có các kỹ sư con người điều khiển quá trình này."
-      ],
-      "summary_en": [
-        "Agents can oneshot games that are actually fun.",
-        "With the right guardrails, agents can execute incredibly impressive migrations in complex codebases, even rewrites in new languages.",
-        "But basically all \"real\" software work still has human engineers driving the process."
-      ],
-      "originalTitle": "Towards Self-Driving Codebases",
-      "url": "https://blog.detail.dev/posts/towards-self-driving-codebases/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Software",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-17T16:58:31.000Z",
-      "contentSnippet": "Agents can oneshot games that are actually fun. With the right guardrails, agents can execute incredibly impressive migrations in complex codebases, even rewrites in new languages. But basically all \"real\" software work still has human engineers driving the process. How do we get to a place where a",
-      "authorName": "wilhelmklopp",
-      "upvotes": 50,
-      "commentsCount": 30
-    },
-    {
-      "id": "70e117d494aa90cf",
-      "title_vi": "Hister: Công cụ tìm kiếm cá nhân hóa cục bộ, bảo mật tuyệt đối cho lịch sử web và tệp tin cá nhân",
-      "title_en": "Hister: A private search engine for the pages you visit and the files you keep",
-      "summary_vi": [
-        "Hister là công cụ tìm kiếm mã nguồn mở tự lưu trữ (self-hosted), lập chỉ mục toàn văn nội dung trang web đã truy cập và tệp tin trên máy tính.",
-        "Hoạt động 100% offline tại máy cục bộ, cam kết không thu thập dữ liệu cá nhân hay gửi telemetry về máy chủ bên thứ ba.",
-        "Giải pháp hoàn hảo cho lập trình viên và nhà nghiên cứu cần quản lý cơ sở tri thức cá nhân an toàn và tìm kiếm tức thì."
-      ],
-      "summary_en": [
-        "Hister is an open source self-hosted personal search engine indexing full text from visited web pages and local document archives.",
-        "Operates completely offline on local machines, strictly prohibiting telemetry egress or third-party data tracking.",
-        "Provides an ideal local knowledge retrieval system for developers and researchers prioritizing absolute data privacy."
-      ],
-      "originalTitle": "Hister: A private search engine for the pages you visit and the files you keep",
-      "url": "https://github.com/asciimoo/hister",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "SearchEngine",
-        "Privacy",
-        "OpenSource",
-        "Security"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-17T16:25:37.000Z",
-      "contentSnippet": "Hister là công cụ tìm kiếm mã nguồn mở tự lưu trữ, lập chỉ mục toàn văn nội dung trang web đã truy cập và tệp tin trên máy tính 100% offline.",
-      "authorName": "bookofjoe",
-      "upvotes": 201,
-      "commentsCount": 72
     }
   ]
 }
