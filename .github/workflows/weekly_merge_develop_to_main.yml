@@ -39,17 +39,20 @@ jobs:
       - name: Install Dependencies
         run: npm ci || npm install
 
-      - name: Verify Production Build Before Merge
-        run: npm run build
+      - name: Verify Production Build on develop
+        run: |
+          echo "Ensuring develop branch is checked out for verification..."
+          git checkout -B develop origin/develop
+          npm run build
 
       - name: Merge develop into main & Push
         run: |
           echo "Checking out main branch..."
-          git checkout main
+          git checkout -B main origin/main
           git pull origin main
 
           echo "Merging develop into main..."
-          git merge --no-ff develop -m "🚀 release(weekly): automated sync develop -> main [skip ci]"
+          git merge --no-ff origin/develop -m "🚀 release(weekly): automated sync develop -> main [skip ci]"
 
           echo "Pushing merged changes to main..."
           git push origin main
