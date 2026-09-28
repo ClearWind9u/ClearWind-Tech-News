@@ -1,7 +1,210 @@
 {
-  "lastUpdated": "2026-09-28T12:31:20.505Z",
+  "lastUpdated": "2026-09-28T22:49:18.815Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "817f9811ae42f237",
+      "title_vi": "Hướng dẫn viết mã nguồn Node.js kết nối an toàn qua HTTPS tới Elasticsearch bằng chứng chỉ ca.crt",
+      "title_en": "Guide to writing Node.js code for secure HTTPS connection to Elasticsearch using ca.crt certificates",
+      "summary_vi": [
+        "Bài viết cung cấp đoạn mã nguồn mẫu bằng ngôn ngữ lập trình Node.js kết nối an toàn với máy chủ cơ sở dữ liệu tìm kiếm Elasticsearch đã bật tính năng bảo mật X-Pack qua giao thức HTTPS.",
+        "Giải pháp kỹ thuật sử dụng thư viện chính thức kết hợp tệp chứng chỉ bảo mật ca.crt cùng thông tin tài khoản xác thực X-Pack để thiết lập kênh truyền tải mã hóa SSL và đảm bảo an toàn tuyệt đối.",
+        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư phần mềm khi xây dựng hệ thống backend bảo mật, ngăn chặn rò rỉ dữ liệu nhạy cảm trong các kiến trúc phân tán hiện đại."
+      ],
+      "summary_en": [
+        "The article provides a sample source code snippet in Node.js to securely connect with an Elasticsearch search database server that has X-Pack security features enabled via the HTTPS protocol.",
+        "The technical solution utilizes the official library combined with the ca.crt security certificate file and X-Pack authentication account information to establish an encrypted SSL transmission channel securely.",
+        "This knowledge delivers high practical value for software engineers building secure backend systems, preventing sensitive data leakage in modern distributed architectures and cloud environments."
+      ],
+      "originalTitle": "Viết một đoạn code mẫu sử dụng thư viện @elastic/elasticsearch trong Node.js để kết nối an toàn qua HTTPS bằng các file ca.crt và tài khoản xpack.",
+      "url": "https://viblo.asia/p/viet-mot-doan-code-mau-su-dung-thu-vien-atelasticelasticsearch-trong-nodejs-de-ket-noi-an-toan-qua-https-bang-cac-file-cacrt-va-tai-khoan-xpack-OQJwzmNq4MP",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Node.js",
+        "Elasticsearch",
+        "HTTPS",
+        "Cybersecurity",
+        "Backend"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-29T00:48:34.000Z",
+      "contentSnippet": "Để ứng dụng backend Node.js kết nối an toàn với Elasticsearch đang bật tính năng bảo mật X-Pack HTTPS, chúng ta sử dụng thư viện @elastic/elasticsearc...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "53794bf6b045307e",
+      "title_vi": "Trước khi bạn xây dựng một đại lý AI, hãy thử một If-Statement First",
+      "title_en": "Before You Build an AI Agent, Try an If-Statement First",
+      "summary_vi": [
+        "Tổng quan bối cảnh, sự kiện then chốt và các diễn biến kỹ thuật nổi bật được ghi nhận về Trước khi bạn xây dựng một đại lý AI, hãy thử một If-Statement First.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Trước khi bạn xây dựng một đại lý AI, hãy thử một If-Statement First.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Trước khi bạn xây dựng một đại lý AI, hãy thử một If-Statement First."
+      ],
+      "summary_en": [
+        "Key architectural developments and core background regarding Before You Build an AI Agent, Try an If-Statement First.",
+        "In-depth technical breakdown and implementation mechanisms introduced in Before You Build an AI Agent, Try an If-Statement First.",
+        "Practical engineering impact and actionable takeaways for developers building with Before You Build an AI Agent, Try an If-Statement First."
+      ],
+      "originalTitle": "Before You Build an AI Agent, Try an If-Statement First",
+      "url": "https://viblo.asia/p/before-you-build-an-ai-agent-try-an-if-statement-first-R5JRQl5A4Gv",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "MachineLearning"
+      ],
+      "hotScore": 96,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-28T23:37:05.000Z",
+      "contentSnippet": "",
+      "authorName": "EME GUG",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b902f37d3ce088e8",
+      "title_vi": "Cách Trung Quốc thúc đẩy ngành công nghiệp phim ngắn AI siêu rẻ",
+      "title_en": "How China is boosting the ultra-cheap AI short film industry",
+      "summary_vi": [
+        "Ngành công nghiệp phim ngắn ứng dụng trí tuệ nhân tạo tại Trung Quốc đang phát triển bùng nổ nhờ vào các chính sách hỗ trợ mạnh mẽ từ chính quyền các cấp.",
+        "Các xưởng phim AI tận dụng nguồn lực địa phương như chi phí sinh hoạt thấp, giá thuê mặt bằng rẻ và đặc biệt là hệ thống sức mạnh điện toán được nhà nước trợ giá.",
+        "Sự hậu thuẫn này tạo ra môi trường tối ưu cho các nhà làm phim công nghệ, giúp họ tối ưu hóa chi phí vận hành và mở rộng thị trường ra quốc tế."
+      ],
+      "summary_en": [
+        "The artificial intelligence short film industry in China is experiencing explosive growth driven by robust government support policies at various administrative levels.",
+        "AI production studios leverage local resources such as low living costs, affordable rental rates, and especially state-subsidized computational power infrastructure.",
+        "This strong backing creates an optimal environment for technology filmmakers, helping them optimize operational costs and expand their reach into international markets."
+      ],
+      "originalTitle": "Cách Trung Quốc thúc đẩy ngành công nghiệp phim ngắn AI 'siêu rẻ'",
+      "url": "https://vnexpress.net/cach-trung-quoc-thuc-day-nganh-cong-nghiep-phim-ngan-ai-sieu-re-5125447.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Generative AI",
+        "Tech Trends",
+        "China Tech",
+        "Media Tech"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-28T22:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/28/b5708342e0c14f81b0921b03ff9d13-5877-6210-1790536236.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=j5LgQWCzgBpjXHaedPOztA",
+      "contentSnippet": "Nhờ loạt chính sách hỗ trợ giúp giảm chi phí sản xuất, phim ngắn AI phát triển bùng nổ ở Trung Quốc, thậm chí vươn ra thị trường nước ngoài.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "721d3fef7b9b02d6",
+      "title_vi": "Hãng công nghệ AMD thâu tóm công ty trí tuệ nhân tạo World Labs với giá hơn 8 tỷ đô la",
+      "title_en": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+      "summary_vi": [
+        "Tập đoàn sản xuất vi mạch AMD vừa chính thức công bố thỏa thuận thâu tóm toàn bộ công ty nghiên cứu trí tuệ nhân tạo World Labs trong một thương vụ mua bán bằng cổ phiếu trị giá khoảng 8,2 tỷ đô la Mỹ.",
+        "Khối công nghệ này sở hữu mô hình tạo thế giới ảo mang tên Marble, cho phép người dùng chuyển đổi các câu lệnh văn bản thành môi trường không gian ba chiều tương tác cao trên nền tảng điện toán hiện đại.",
+        "Thương vụ chiến lược này giúp AMD tăng cường năng lực cốt lõi trong lĩnh vực nghiên cứu mô hình trí tuệ nhân tạo tiên tiến, đồng thời củng cố vị thế cạnh tranh trên thị trường phần cứng và công nghệ toàn cầu."
+      ],
+      "summary_en": [
+        "Semiconductor giant AMD has officially announced an all stock agreement to acquire artificial intelligence research lab World Labs in a major corporate transaction valued at approximately 8.2 billion US dollars.",
+        "The acquired startup specializes in advanced world generation models such as Marble, which enables users to transform standard text prompts into highly interactive three dimensional virtual environments seamlessly.",
+        "This strategic acquisition significantly enhances AMD core capabilities in cutting edge artificial intelligence model research while strengthening its competitive market position within the global hardware and technology sector."
+      ],
+      "originalTitle": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+      "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "AMD",
+        "World Labs",
+        "Machine Learning",
+        "Acquisition"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-28T21:31:35.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2279092788.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "World Labs co-founder and CEO Fei-Fei Li. | Bloomberg via Getty Images AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1",
+      "authorName": "Jay Peters",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c05735ac6fea208f",
+      "title_vi": "Công ty nghiên cứu trí tuệ nhân tạo World Labs chính thức gia nhập tập đoàn AMD",
+      "title_en": "World Labs Is Joining AMD",
+      "summary_vi": [
+        "Công ty nghiên cứu trí tuệ nhân tạo World Labs đã ký thỏa thuận chính thức để gia nhập tập đoàn phần cứng AMD nhằm mục đích mở rộng quy mô phát triển hệ thống AI không gian và thế giới vật lý.",
+        "Thỏa thuận này đánh dấu sự hợp tác kỹ thuật sâu rộng từ năm ngoái về việc tối ưu hóa huấn luyện mô hình và suy luận trên dòng vi xử lý đồ họa GPU của AMD, đồng thời đưa chuyên gia Fei-Fei Li giữ vị trí lãnh đạo cấp cao.",
+        "Việc sáp nhập này tạo ra một hệ sinh thái trí tuệ nhân tạo mở toàn diện từ phần cứng đến phần mềm, giúp cộng đồng kỹ sư tiếp cận các mô hình nền tảng tiên tiến nhằm giải quyết các bài toán phức tạp trong thực tế."
+      ],
+      "summary_en": [
+        "Artificial intelligence research startup World Labs has signed a definitive agreement to join AMD to accelerate the development of spatial intelligence and physical world AI systems.",
+        "This move builds upon a deep technical partnership established last year focusing on model training and inference optimization on AMD GPUs, with Dr. Fei-Fei Li stepping into an executive leadership role.",
+        "The acquisition establishes an end-to-end open AI ecosystem spanning hardware, software, and foundation models, empowering engineers and researchers to tackle complex real-world challenges effectively."
+      ],
+      "originalTitle": "World Labs Is Joining AMD",
+      "url": "https://www.worldlabs.ai/blog/amd-announcement",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "AMD",
+        "World Labs",
+        "Machine Learning",
+        "Semiconductor"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-28T20:18:05.000Z",
+      "contentSnippet": "World Labs has signed a definitive agreement to join AMD. The research and technical breakthroughs we have achieved since our founding in 2024 have given us a clear vision for AI’s potential to solve problems in the spatial and physical world. To accelerate into this future requires scaling our effo",
+      "authorName": "mfiguiere",
+      "upvotes": 128,
+      "commentsCount": 45
+    },
+    {
+      "id": "32404e2b12d649c9",
+      "title_vi": "Phòng thí nghiệm mô hình ngôn ngữ siêu nhỏ – Trải nghiệm 7 mô hình ngôn ngữ nhỏ gọn trực tiếp trên trình duyệt",
+      "title_en": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+      "summary_vi": [
+        "Công cụ MicroLLM Lab mới ra mắt cho phép người dùng trực tiếp tải và trải nghiệm bảy mô hình ngôn ngữ lớn nhỏ gọn ngay trên trình duyệt web của họ thông qua công nghệ WebGPU tiên tiến.",
+        "Hệ thống sử dụng bộ nhớ đệm IndexedDB để lưu trữ mô hình ngoại tuyến, kết hợp công cụ đánh giá khách quan dựa trên biểu thức chính quy để đo lường chính xác hiệu suất xử lý token mà không cần gửi dữ liệu lên máy chủ.",
+        "Giải pháp này đánh dấu bước tiến quan trọng trong việc đưa trí tuệ nhân tạo chạy cục bộ trên thiết bị người dùng, giúp các lập trình viên dễ dàng kiểm thử hiệu năng phần cứng và so sánh độ chính xác của các mô hình nhỏ."
+      ],
+      "summary_en": [
+        "The newly launched MicroLLM Lab tool enables users to directly load and experience seven compact large language models right inside their web browsers using advanced WebGPU technology.",
+        "The system leverages IndexedDB caching for offline model storage, combining objective evaluation tools based on regular expressions to precisely measure token processing performance without sending data to external servers.",
+        "This solution marks a significant milestone in bringing local artificial intelligence to client-side devices, helping developers easily benchmark hardware performance and compare the accuracy of lightweight models."
+      ],
+      "originalTitle": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+      "url": "https://stateofutopia.com/experiments/microllmlab/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "WebGPU",
+        "LLM",
+        "Browser AI",
+        "IndexedDB",
+        "Machine Learning"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-28T18:58:53.000Z",
+      "contentSnippet": "Initializing WebGPU engine & model catalog… Loaded on this device: … (Saved in browser IndexedDB cache) Objective checks (regex / exact tokens), not writing quality. A 135M model is allowed to fail — that is the measurement. Pick models, then run. Estimate uses your last tok/s if we have one. Speed ",
+      "authorName": "logicallee",
+      "upvotes": 96,
+      "commentsCount": 42
+    },
     {
       "id": "ee617a7d78c953d6",
       "title_vi": "Giới thiệu LotaGate: Lớp cơ sở hạ tầng AI hợp nhất dành cho nhà phát triển",
@@ -30,6 +233,75 @@
       "publishedAt": "2026-09-28T18:58:51.000Z",
       "contentSnippet": "Building with AI has become easier than ever. Operating AI applications in production has not. Developers today have access to a rapidly growing eco...",
       "authorName": "Nguyen Huy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b86603e367f75d38",
+      "title_vi": "Các tác nhân trí tuệ nhân tạo của OpenAI cần phải tăng tốc bắt kịp đối thủ",
+      "title_en": "OpenAI's AI agents need to catch up",
+      "summary_vi": [
+        "Công ty trí tuệ nhân tạo hàng đầu đang phải đối mặt với áp lực cạnh tranh gay gắt trong lĩnh vực phát triển các tác nhân tự động chạy liên tục dành cho người dùng phổ thông trước thềm sự kiện lớn.",
+        "Hệ thống mới được đồn đại mang tên Aeon dự kiến sẽ ra mắt nhằm cạnh tranh trực tiếp với các nền tảng tương tự từ các đối thủ lớn như Meta và SpaceX trong hệ sinh thái công nghệ.",
+        "Việc tích hợp các tính năng tối ưu từ những nền tảng mã nguồn mở hiện có sẽ là chìa khóa quyết định thành công của sản phẩm trong bối cảnh thị trường đang thay đổi nhanh chóng."
+      ],
+      "summary_en": [
+        "The leading artificial intelligence company faces intense competitive pressure in developing continuously running autonomous agents for mainstream consumers ahead of its major upcoming corporate event.",
+        "The rumored new system dubbed Aeon is expected to launch to compete directly against similar platforms from major industry rivals like Meta and SpaceX within the broader technology ecosystem.",
+        "Integrating optimal features from existing open-source platforms will be the deciding factor for product success amidst the rapidly evolving and highly competitive technological market landscape."
+      ],
+      "originalTitle": "OpenAI’s AI agents need to catch up",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI Agents",
+        "OpenAI",
+        "Machine Learning",
+        "DevDay",
+        "Automation"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-28T18:45:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approaches, it's fallen behind in one of the industry's hottest categories: continuously running, consumer-facing AI agents. On Tuesday, it will likely try to capture the lead in that race. Rumors abound that OpenAI wi",
+      "authorName": "Hayden Field",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "12c93676d01e7e42",
+      "title_vi": "Đánh giá ASUS Zenbook A16: Vi xử lý mạnh mẽ của Qualcomm vẫn bị giới hạn bởi phần mềm",
+      "title_en": "ASUS Zenbook A16 Review: Qualcomm Most Powerful Chip Still Held Back By Software",
+      "summary_vi": [
+        "ASUS vừa cho ra mắt dòng máy tính xách tay Zenbook A16 sở hữu màn hình kích thước lớn cùng nhiều cải tiến về hiệu năng phần cứng hướng tới người dùng chuyên nghiệp đòi hỏi khả năng di động cao.",
+        "Thiết bị được trang bị dòng vi xử lý ARM cao cấp nhất của Qualcomm hiện nay nhưng các bài kiểm tra thực tế cho thấy khả năng tối ưu hóa phần mềm và hệ sinh thái ứng dụng vẫn chưa phát huy hết tiềm năng phần cứng.",
+        "Trải nghiệm thực tế trên dòng laptop này mang lại góc nhìn quan trọng về thách thức tương thích hệ điều hành và ứng dụng khi chuyển đổi kiến trúc phần cứng từ x86 sang ARM trong phân khúc thiết bị di động."
+      ],
+      "summary_en": [
+        "ASUS has recently introduced the Zenbook A16 laptop featuring a larger display and significant hardware performance improvements targeted at professional users requiring high mobility.",
+        "The device is powered by Qualcomm's most advanced ARM processor to date, yet practical benchmark tests reveal that software optimization and the application ecosystem still limit its full hardware potential.",
+        "Real-world testing on this laptop provides crucial insights into operating system and application compatibility challenges when transitioning hardware architectures from x86 to ARM within the mobile device segment."
+      ],
+      "originalTitle": "Đánh giá ASUS Zenbook A16: Chip mạnh nhất của Qualcomm trên laptop vẫn bị phần mềm kìm hãm",
+      "url": "https://tinhte.vn/thread/danh-gia-asus-zenbook-a16-chip-manh-nhat-cua-qualcomm-tren-laptop-van-bi-phan-mem-kim-ham.4174373/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "ASUS",
+        "Qualcomm",
+        "Zenbook A16",
+        "ARM",
+        "Laptop"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-28T18:34:23.000Z",
+      "contentSnippet": "Nếu anh em thấy chiếc ASUS Zenbook A14 vẫn chưa đủ đô thì hôm nay mình sẽ giới thiệu với anh em một chiếc laptop Pro Max hơn, đó là ASUS Zenbook A16. Máy có kích thước màn hình lớn hơn, hiệu năng...",
+      "authorName": "Pnghuy",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -65,6 +337,76 @@
       "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/28/gemini-17905943343951422840052-19-0-979-1536-crop-179059445370412990621.png",
       "contentSnippet": "Google đang thử nghiệm nút 'Mua' của Flipkart trên Gemini và AI Mode, mở đường để AI tham gia sâu hơn vào quá trình mua sắm.",
       "authorName": "TTXVN",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "2d7c9a6429514241",
+      "title_vi": "Trí tuệ nhân tạo đang đẩy mạnh các cuộc tấn công mạng, khiến bệnh viện và ngân hàng gặp nguy hiểm",
+      "title_en": "AI is supercharging hacking, and your local hospitals and banks aren’t ready",
+      "summary_vi": [
+        "Tổ chức phi lợi nhuận Vivian's Door tại Alabama bất ngờ hứng chịu chiến dịch phát tán email giả mạo hàng loạt để lừa tiền, khiến hệ thống phải ngưng hoạt động trong ba ngày để điều tra sự cố.",
+        "Đội ngũ công nghệ thông tin bên thứ ba đã phải nhanh chóng ngắt kết nối hệ thống trực tuyến nhằm khoanh vùng lỗ hổng bảo mật và ngăn chặn kẻ tấn công lợi dụng dữ liệu tài chính của doanh nghiệp nhỏ.",
+        "Sự cố này là lời cảnh báo nghiêm trọng về cách trí tuệ nhân tạo tối ưu hóa các chiêu trò tấn công mạng, đòi hỏi các tổ chức y tế và tài chính phải nâng cấp mạnh mẽ cơ chế phòng thủ."
+      ],
+      "summary_en": [
+        "Nonprofit organization Vivian's Door in Alabama recently experienced a massive phishing campaign where scammers sent fraudulent emails requesting money, forcing their systems offline for three days during the investigation.",
+        "Third-party IT teams had to rapidly disconnect online infrastructure to isolate security vulnerabilities and prevent malicious actors from exploiting sensitive financial data belonging to small businesses.",
+        "This security incident serves as a critical warning regarding how artificial intelligence accelerates cyber attacks, demanding that healthcare and financial institutions drastically upgrade their defense mechanisms."
+      ],
+      "originalTitle": "AI is supercharging hacking, and your local hospitals and banks aren’t ready",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "AI",
+        "Cybersecurity",
+        "Phishing",
+        "Data Protection",
+        "IT Infrastructure"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-28T18:30:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25299205/STK453_Privacy_D_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "In March, Janice Malone began getting calls about suspicious activity from her nonprofit organization, Vivian's Door. Vivian's Door, headquartered in Alabama, typically provided training, resources, and community to underserved and minority-owned businesses. The work sometimes put it in close contac",
+      "authorName": "Hayden Field",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9ea70c882a0867b1",
+      "title_vi": "Galaxy AI trên Galaxy S26 Ultra: Những tính năng thông minh phục vụ người dùng hàng ngày",
+      "title_en": "Galaxy AI on Galaxy S26 Ultra: Essential smart features for daily user experience",
+      "summary_vi": [
+        "Samsung Galaxy S26 Ultra ra mắt với bước đột phá lớn khi tích hợp màn hình chống nhìn trộm trực tiếp từ phần cứng, kết hợp cùng hệ thống trí tuệ nhân tạo thế hệ mới nhằm tối ưu hóa trải nghiệm thực tế.",
+        "Thiết bị ứng dụng các giải thuật xử lý ngôn ngữ tự nhiên tiên tiến và tính năng bảo mật phần cứng chuyên sâu, cho phép phân tích ngữ cảnh người dùng nhanh chóng ngay trên thiết bị di động mà không phụ thuộc hoàn toàn vào đám mây.",
+        "Sản phẩm đánh dấu cột mốc quan trọng trong việc đưa các mô hình trí tuệ nhân tạo tiếng Việt vào đời sống hàng ngày, mở ra hướng đi mới cho các nhà phát triển ứng dụng di động trong việc tối ưu hóa giao diện người dùng."
+      ],
+      "summary_en": [
+        "Samsung Galaxy S26 Ultra launches with a major breakthrough by integrating hardware-based privacy screen protection directly into the device, combined with next-generation artificial intelligence systems to optimize practical user experiences.",
+        "The device utilizes advanced natural language processing algorithms and deep hardware security features, enabling rapid context analysis directly on the mobile device without relying entirely on cloud infrastructure.",
+        "The product marks an important milestone in bringing Vietnamese artificial intelligence models into daily life, opening new directions for mobile application developers to optimize user interfaces and device performance."
+      ],
+      "originalTitle": "Galaxy AI trên Galaxy S26 Ultra: Những tính năng mà người Việt nào chắc chắc cũng sẽ dùng hàng ngày!",
+      "url": "https://genk.vn/galaxy-ai-tren-galaxy-s26-ultra-nhung-tinh-nang-ma-nguoi-viet-nao-chac-chac-cung-se-dung-hang-ngay-165260929011635277.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Galaxy AI",
+        "Samsung",
+        "Mobile Security",
+        "Hardware",
+        "AI Integration"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-28T18:16:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/28/202609141654373681-0-55-675-1135-crop-1790619083297778577556.png",
+      "contentSnippet": "Samsung Galaxy S26 Ultra là chiếc smartphone đầu tiên trên thế giới tích hợp màn hình chống nhìn trộm ngay từ phần cứng, đồng thời đưa Galaxy AI lên một tầm mới với hàng loạt tính năng hỗ trợ tiếng Việt thiết thực trong đời sống hằng ngày.",
+      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -138,6 +480,76 @@
       "commentsCount": 0
     },
     {
+      "id": "d649d708a19a3eb0",
+      "title_vi": "Dòng điện thoại HONOR Magic9 ra mắt với camera kép 200 MP, chip Snapdragon cao cấp và pin khủng",
+      "title_en": "HONOR Magic9 Series Launched with 200MP Dual Cameras, Snapdragon Chip and Massive Battery",
+      "summary_vi": [
+        "Hãng công nghệ HONOR chính thức giới thiệu dòng sản phẩm Magic9 gồm ba phiên bản tại sự kiện lớn ở Bắc Kinh với nhiều cải tiến mạnh mẽ về phần cứng và thiết kế.",
+        "Thiết bị tích hợp hệ thống camera kép độ phân giải hai trăm megapixel hợp tác cùng hãng máy quay ARRI của Đức kết hợp bộ vi xử lý Snapdragon thế hệ mới nhất.",
+        "Sự kiện ra mắt đánh dấu bước ngoặt lớn trong chiến lược làm mới thương hiệu tròn mười năm phát triển dòng điện thoại thông minh cao cấp của hãng."
+      ],
+      "summary_en": [
+        "Technology brand HONOR officially introduced the Magic9 smartphone series featuring three variants during a major launch event held in Beijing with significant hardware upgrades.",
+        "The devices integrate a dual camera system with two hundred megapixels developed in partnership with German cinematic camera brand ARRI alongside the latest generation Snapdragon processor.",
+        "This official launch marks a major turning point in the brand refresh strategy celebrating ten years of development for the company flagship smartphone lineup."
+      ],
+      "originalTitle": "HONOR Magic9 series ra mắt: Camera kép 200 MP hợp tác ARRI, chip Snapdragon 8 Elite Extreme Gen 6, pin tới 11.000mAh, giá từ 17,5 triệu đồng",
+      "url": "https://genk.vn/honor-magic9-series-ra-mat-camera-kep-200-mp-hop-tac-arri-chip-snapdragon-8-elite-extreme-gen-6-pin-toi-11000mah-gia-tu-175-trieu-dong-165260929001843813.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "HONOR",
+        "Snapdragon",
+        "Mobile",
+        "Hardware",
+        "Camera"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-28T17:18:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/28/chmklwq6b3giyspjaae4ulmchysaaj00gauph0aatjs922-17906152665221439675804-62-0-625-900-crop-17906157891912834449.jpg",
+      "contentSnippet": "Bản cao nhất quay được video định dạng Log như máy quay điện ảnh, còn bản Super Edition chọn hướng khác với pin lớn nhất từng có trên dòng Magic.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "4c1315c1822a15ce",
+      "title_vi": "Máy tính ADN mới thực hiện phép tính phức tạp không cần sử dụng điện năng",
+      "title_en": "New DNA Computer Executes Complex Calculations Without Electrical Power",
+      "summary_vi": [
+        "Các nhà khoa học tại Đại học Maynooth ở Ireland đã phát triển thành công một loại máy tính sinh học mới sử dụng ADN để thực hiện các phép tính phức tạp bên trong những giọt nước tí hon mà không cần dùng đến nguồn điện truyền thống.",
+        "Hệ thống máy tính ADN có giàn đỡ này vận hành bằng cách khai thác các định luật nhiệt động lực học, cho phép các sợi ADN ngắn tự động ghép nối và tương tác theo các quy tắc lập trình sẵn để giải quyết các chương trình tính toán quy mô 100 bit.",
+        "Công nghệ đột phá này mở ra hướng đi mới trong việc tối ưu hóa hiệu năng năng lượng cho các hệ thống tính toán sinh học, tạo tiền đề quan trọng cho sự phát triển của công nghệ xử lý dữ liệu cấp độ phân tử trong tương lai."
+      ],
+      "summary_en": [
+        "Scientists at Maynooth University in Ireland have successfully developed a novel biological computer using DNA to perform complex calculations inside tiny water droplets without relying on traditional electrical power sources.",
+        "This scaffolded DNA computing system operates by harnessing thermodynamic laws, allowing short DNA strands to automatically assemble and interact according to programmed rules to solve 100-bit computational programs.",
+        "This breakthrough technology opens up new avenues for optimizing energy efficiency in biological computing systems, establishing a crucial foundation for the future development of molecular-level data processing technology."
+      ],
+      "originalTitle": "Máy tính ADN xử lý phép tính phức tạp không cần điện",
+      "url": "https://vnexpress.net/may-tinh-adn-xu-ly-phep-tinh-phuc-tap-khong-can-dien-5124454.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "DNA Computing",
+        "Biological Computer",
+        "Hardware",
+        "Tech Trends",
+        "Thermodynamics"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-28T17:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/24/VNEADN-1790264584-1263-1790264635.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ibQcluN-NvbX9HMdddvZ5w",
+      "contentSnippet": "Các nhà khoa học tạo ra máy tính ADN mới có thể thực hiện phép tính 100 bit bằng cách sử dụng hàng tỷ phân tử trong giọt nước tí hon.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "ec0fdf120e95bb0e",
       "title_vi": "Hướng dẫn cài đặt Claude Code trên Windows và kết nối Crazyrouter: từ lỗi 403 đến chạy thành công",
       "title_en": "Guide to Installing Claude Code on Windows and Configuring Crazyrouter: Resolving 403 Errors for Successful Deployment",
@@ -168,6 +580,108 @@
       "publishedAt": "2026-09-28T15:18:09.000Z",
       "contentSnippet": "Hướng dẫn cài đặt Claude Code trên Windows và kết nối Crazyrouter: từ lỗi 403 đến chạy thành công Lần đầu cài Claude Code (công cụ mã hóa AI) trên Wi...",
       "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9a148ef67f96cd9b",
+      "title_vi": "Đánh giá các mẫu ốp lưng dành cho dòng điện thoại iPhone 18 Pro Max",
+      "title_en": "Hands-on with various protective cases for the iPhone 18 Pro Max",
+      "summary_vi": [
+        "Bài viết chia sẻ trải nghiệm thực tế về việc bảo vệ thiết bị di động sau những tình huống rơi rớt trong quá trình sử dụng hàng ngày của người dùng.",
+        "Nội dung tập trung đánh giá chất lượng thiết kế, khả năng chống sốc và độ bền vật liệu của các dòng phụ kiện ốp lưng dành riêng cho thế hệ điện thoại mới.",
+        "Thông tin này hỗ trợ các kỹ sư và chuyên gia công nghệ lựa chọn giải pháp bảo vệ phần cứng hiệu quả nhằm kéo dài tuổi thọ thiết bị."
+      ],
+      "summary_en": [
+        "The article shares practical experiences regarding mobile device protection after unexpected dropping incidents during daily usage by the user.",
+        "The content focuses on evaluating design quality, shock absorption capabilities, and material durability of various protective cases designed for the new smartphone generation.",
+        "This information helps engineers and technology professionals choose effective hardware protection solutions to extend the operational lifespan of their devices."
+      ],
+      "originalTitle": "Trên tay 24 chiếc ốp lưng iPhone 18 Pro Max: Đủ phong cách từ hầm hố đến điệu đà",
+      "url": "https://tinhte.vn/thread/tren-tay-24-chiec-op-lung-iphone-18-pro-max-du-phong-cach-tu-ham-ho-den-dieu-da.4179179/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone",
+        "Mobile Hardware",
+        "Accessories",
+        "Device Protection"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-28T14:37:04.000Z",
+      "contentSnippet": "Hôm trước chiếc iPhone 18 Pro Max của mình vừa có một cú tiếp đất không mấy êm ả khi lỡ rơi từ độ cao hơn một mét xuống sàn gạch có trải thảm. Dù có lớp thảm đỡ bớt lực nhưng phần viền Titan của...",
+      "authorName": "cuhiep",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "7b91471391e372a2",
+      "title_vi": "Điện thoại thông minh và xu hướng phát triển livestream game mọi lúc mọi nơi",
+      "title_en": "Smartphones and the Growing Trend of Anywhere Anytime Mobile Game Live Streaming",
+      "summary_vi": [
+        "Sự phát triển vượt bậc của thiết bị di động đang dần thay thế máy tính truyền thống trong việc thực hiện các tác vụ phát trực tiếp trò chơi điện tử và tương tác trực tuyến với người hâm mộ.",
+        "Các nền tảng phần mềm trên smartphone hiện nay được tối ưu hóa mạnh mẽ về hiệu năng phần cứng, giúp xử lý mượt mà các luồng dữ liệu video độ phân giải cao và truyền tải thời gian thực.",
+        "Xu hướng này mở ra cơ hội lớn cho các nhà phát triển ứng dụng di động trong việc tối ưu trải nghiệm người dùng và xây dựng hệ sinh thái sáng tạo nội dung số toàn diện hơn."
+      ],
+      "summary_en": [
+        "The remarkable advancement of mobile devices is gradually replacing traditional desktop computers for executing video game live streaming tasks and interacting online with followers.",
+        "Mobile software platforms are now heavily optimized for hardware performance, enabling smooth processing of high-resolution video data streams and real-time content transmission.",
+        "This growing trend opens up significant opportunities for mobile application developers to optimize user experience and build a more comprehensive digital content creation ecosystem."
+      ],
+      "originalTitle": "Smartphone và xu hướng livestream game mọi lúc, mọi nơi",
+      "url": "https://genk.vn/smartphone-va-xu-huong-livestream-game-moi-luc-moi-noi-16526092820190479.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Mobile",
+        "Live Streaming",
+        "App Development",
+        "UX",
+        "Hardware Optimization"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-28T13:30:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/28/photo1790587245503-1790587245880677674239-1790601546609427651269.png",
+      "contentSnippet": "Từ chơi game, tương tác với người xem đến xây dựng trang cá nhân, smartphone đang ngày càng đảm nhiệm nhiều công đoạn vốn trước đây cần đến máy tính và các thiết bị riêng.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0501700d38898a5e",
+      "title_vi": "POCO F9 Ultra: Đánh giá màn hình mượt mà và thời lượng pin ấn tượng",
+      "title_en": "POCO F9 Ultra: Smooth Display Performance and Long-Lasting Battery Analysis",
+      "summary_vi": [
+        "Điện thoại thông minh POCO F9 Ultra đang thu hút sự quan tâm lớn từ cộng đồng công nghệ nhờ sở hữu những thông số phần cứng cực kỳ mạnh mẽ.",
+        "Thiết bị tích hợp các cải tiến đáng kể về công nghệ hiển thị màn hình tốc độ cao kết hợp cùng viên lượng pin dung lượng lớn.",
+        "Sản phẩm mang lại trải nghiệm tối ưu cho người dùng di động đồng thời định hình lại tiêu chuẩn phần cứng trong phân khúc cao cấp."
+      ],
+      "summary_en": [
+        "The POCO F9 Ultra smartphone is attracting significant attention from the tech community thanks to its exceptionally powerful hardware specifications.",
+        "The device integrates significant improvements in high-refresh-rate display technology combined with a large-capacity battery cell.",
+        "The product delivers an optimal experience for mobile users while redefining hardware standards in the high-end market segment."
+      ],
+      "originalTitle": "POCO F9 Ultra: Màn hình mượt, pin bền bỉ còn gì nữa?",
+      "url": "https://genk.vn/poco-f9-ultra-man-hinh-muot-pin-ben-bi-con-gi-nua-165260928201802628.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "POCO",
+        "Smartphone",
+        "Hardware",
+        "Mobile Tech"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-28T13:30:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/28/photo1790591138411-1790591138574972485330-1790601485033542945491.jpg",
+      "contentSnippet": "POCO F9 Ultra đang thu hút sự chú ý nhờ hàng loạt thông số phần cứng rất cao. Vậy sản phẩm này mang đến những tiện ích hấp dẫn gì cho người dùng, hãy cùng tìm hiểu thêm.",
+      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -2114,6 +2628,41 @@
       "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "0e22337b896dbfe6",
+      "title_vi": "Tám bài viết lập trình xuất sắc từ cộng đồng nữ kỹ sư trên nền tảng DEV xứng đáng được vinh danh",
+      "title_en": "8 Posts by Women on DEV That Deserve More Than a Once-a-Year Spotlight",
+      "summary_vi": [
+        "Bài viết giới thiệu danh sách tám bài viết chuyên sâu về kỹ thuật do các lập trình viên nữ thực hiện trên nền tảng DEV, nhằm tôn vinh những đóng góp thực chất thay vì chỉ dựa vào các chiến dịch đa dạng bề nổi.",
+        "Nội dung các bài viết phân tích chi tiết quá trình tự xây dựng công cụ cào dữ liệu cá nhân thông qua truy vấn GraphQL, kết hợp việc xử lý các thách thức phát sinh khi mở rộng phạm vi ứng dụng.",
+        "Sáng kiến này tạo ra một không gian chia sẻ kiến thức chất lượng cao, giúp cộng đồng lập trình viên tiếp cận những góc nhìn thực tế và các giải pháp sáng tạo trong phát triển phần mềm."
+      ],
+      "summary_en": [
+        "The article introduces a curated list of eight in-depth technical posts written by women on the DEV platform, aiming to celebrate genuine engineering contributions rather than surface-level diversity spotlights.",
+        "The featured content explores the process of building custom web scrapers using GraphQL public data and managing scope creep challenges during practical software development.",
+        "This initiative establishes a high-quality knowledge-sharing space, helping software engineers access realistic perspectives and innovative problem-solving approaches in the tech industry."
+      ],
+      "originalTitle": "8 Posts by Women on DEV That Deserve More Than a Once-a-Year Spotlight",
+      "url": "https://dev.to/sheships/8-posts-by-women-on-dev-that-deserve-more-than-a-once-a-year-spotlight-27dc",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Node.js",
+        "GraphQL",
+        "Web Scraping",
+        "Software Development"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-09-25T12:06:34.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftnbc2gdakk3qehpieo3u.png",
+      "contentSnippet": "We went looking for good posts by women on DEV. Not \"inspirational,\" not \"diverse\" but just genuinely...",
+      "authorName": "Mika Flowers",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4120886%2F5d1b9ce7-6321-409e-98bd-d4ad78e2a965.png",
+      "upvotes": 53,
+      "commentsCount": 22
     },
     {
       "id": "e69a2844d3d1c8d3",
@@ -7796,512 +8345,6 @@
       "authorName": "Lauren Feiner",
       "upvotes": 0,
       "commentsCount": 0
-    },
-    {
-      "id": "84833bafcaac137e",
-      "title_vi": "CTO đầu tiên của Disney là cựu CEO của Character.AI",
-      "title_en": "Disney’s first CTO is Character.AI’s former CEO",
-      "summary_vi": [
-        "Bạn có thể nghĩ rằng một tập đoàn đa phương tiện lớn như Disney hiện nay sẽ có một vài giám đốc công nghệ, nhưng công ty vừa mới bổ nhiệm một người nào đó vào vị trí này lần đầu tiên.",
-        "Hôm nay, Disney thông báo rằng Karandeep Anand sẽ gia nhập công ty với tư cách là CTO mới.",
-        "Anand sẽ báo cáo trực tiếp với Giám đốc điều hành mới được bổ nhiệm Josh D'Amaro và ông sẽ lãnh đạo các nhóm nền tảng cơ sở hạ tầng, sản phẩm, kỹ thuật và dữ liệu / AI của công ty."
-      ],
-      "summary_en": [
-        "You would think that a multimedia conglomerate as large as Disney would have a few chief technology officers by now, but the company has just appointed someone to the position for the very first time.",
-        "Today, Disney announced that Karandeep Anand is joining the company as its new CTO.",
-        "Anand will report directly to recently appointed CEO Josh D'Amaro, and he will head up the company's infrastructure, product, engineering, and data / AI platforms teams."
-      ],
-      "originalTitle": "Disney’s first CTO is Character.AI’s former CEO",
-      "url": "https://www.theverge.com/entertainment/997555/karandeep-anand-disney-character-ai",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 84,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-18T18:27:04.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STK080_VRG_Illo_N_Barclay_9_disney_.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "You would think that a multimedia conglomerate as large as Disney would have a few chief technology officers by now, but the company has just appointed someone to the position for the very first time. Today, Disney announced that Karandeep Anand is joining the company as its new CTO. Anand will repo",
-      "authorName": "Charles Pulliam-Moore",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "5c247392059c2f50",
-      "title_vi": "Câu chuyện có thật về camera của iPhone 18 Pro",
-      "title_en": "The real story of the iPhone 18 Pro’s camera",
-      "summary_vi": [
-        "Đây là một trong những năm hấp dẫn nhất trong lịch sử nâng cấp camera của iPhone.",
-        "Câu chuyện lớn của iPhone 18 Pro là ống kính chính có khẩu độ có thể thay đổi, cho phép bạn mở khẩu độ rộng hơn để chụp ảnh thiếu sáng tốt hơn và làm cho khẩu độ nhỏ hơn để có độ sâu trường ảnh tốt hơn trong ảnh nhóm.",
-        "Nhưng tất cả những gì tôi có thể khiến mọi người nói đến là việc nâng cấp phần mềm: hóa ra, chúng hữu ích hơn rất nhiều so với khẩu độ trên một chiếc máy ảnh nhỏ như thế này."
-      ],
-      "summary_en": [
-        "It's one of the most fascinating years in a while when it comes to iPhone camera upgrades.",
-        "The big story of the iPhone 18 Pro is the variable aperture main lens, which lets you open the aperture up wider for better low light shots and make the aperture smaller for better depth of field in group photos.",
-        "But all I can get anyone to talk about is the software upgrades: it turns out, they're a lot more useful day to day than the aperture on a camera this small."
-      ],
-      "originalTitle": "The real story of the iPhone 18 Pro’s camera",
-      "url": "https://www.theverge.com/podcast/997366/the-real-story-of-the-iphone-18-pros-camera",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "Mobile",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 90,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-18T17:06:37.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/VRG_VST_091826_Site.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "It's one of the most fascinating years in a while when it comes to iPhone camera upgrades. The big story of the iPhone 18 Pro is the variable aperture main lens, which lets you open the aperture up wider for better low light shots and make the aperture smaller for better depth of field in group phot",
-      "authorName": "Jacob Kastrenakes",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "2857cdaa497d7608",
-      "title_vi": "Gavin Newsom đang thúc đẩy công tắc tiêu diệt AI",
-      "title_en": "Gavin Newsom is pushing for an AI kill switch",
-      "summary_vi": [
-        "Gavin Newsom (D) đang định vị tiểu bang dẫn đầu trong việc giám sát AI, bao gồm cả khả năng yêu cầu \"công tắc tiêu diệt\" đối với các mô hình AI tiên tiến (Frontier Models), với lệnh điều hành mới được ban hành hôm thứ Sáu.",
-        "Lệnh của Newsom chỉ đạo tiểu bang triệu tập một nhóm chuyên gia sẽ đưa ra các khuyến nghị trong vòng hai tháng về cách tăng cường các biện pháp an toàn AI trong luật tiểu bang.",
-        "Newsom muốn nhóm xem xét cách tiểu bang có thể yêu cầu các công ty AI thành lập các nhóm xác minh độc lập tại chỗ để kiểm tra thường xuyên, lập báo cáo minh bạch và đánh giá rủi ro theo tiêu chuẩn của kiểm toán viên độc lập, tạo \"kill switch\" ... Đọc toàn bộ câu chuyện tại The Verge."
-      ],
-      "summary_en": [
-        "Gavin Newsom (D) is positioning the state to take the lead on AI oversight, including the potential to mandate a \"kill switch\" for frontier models, with a new executive order issued Friday.",
-        "Newsom's order directs the state to convene a group of experts that will deliver recommendations within two months on how to strengthen AI safety measures in state law.",
-        "Newsom wants the group to consider how the state could require AI companies to embed independent verification groups onsite for regular audits, make their transparency reports and risk assessments subject to standards of independent auditors, create a \"kill switch\" that's … Read the full story at The Verge."
-      ],
-      "originalTitle": "Gavin Newsom is pushing for an AI kill switch",
-      "url": "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 96,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-18T17:04:51.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2292819671.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "California Gov. Gavin Newsom (D) is positioning the state to take the lead on AI oversight, including the potential to mandate a \"kill switch\" for frontier models, with a new executive order issued Friday. Newsom's order directs the state to convene a group of experts that will deliver recommendatio",
-      "authorName": "Lauren Feiner",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "6c4367a4884cbca7",
-      "title_vi": "ARCHITECTURE CONSTRAINTS LÀ GÌ? \"KHUNG TƯỜNG\" ĐỊNH HÌNH MỌI QUYẾT ĐỊNH KỸ THUẬT",
-      "title_en": "WHAT IS ARCHITECTURE CONSTRAINTS? \"WALL FRAME\" SHAPES EVERY TECHNICAL DECISION",
-      "summary_vi": [
-        "Tìm hiểu khái niệm Architecture Constraints (Ràng buộc kiến trúc) và vai trò định hình khung thiết kế hệ thống.",
-        "Cân đối giữa mục tiêu công nghệ lý tưởng và các giới hạn thực tế về thời gian, chi phí, hạ tầng và con người.",
-        "Cung cấp phương pháp luận giúp kiến trúc sư phần mềm đưa ra quyết định kỹ thuật chính xác và thực tế."
-      ],
-      "summary_en": [
-        "Comprehensive breakdown of architectural constraints and their foundational role in shaping software system designs.",
-        "Balances ideal technological ambitions against pragmatic enterprise limits in latency, cost, and team capacity.",
-        "Provides a structured methodology for software architects to make defensible, production-grade technical trade-offs."
-      ],
-      "originalTitle": "ARCHITECTURE CONSTRAINTS LÀ GÌ? \"KHUNG TƯỜNG\" ĐỊNH HÌNH MỌI QUYẾT ĐỊNH KỸ THUẬT",
-      "url": "https://viblo.asia/p/architecture-constraints-la-gi-khung-tuong-dinh-hinh-moi-quyet-dinh-ky-thuat-AWVpX6vvV05",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "CleanArchitecture",
-        "SoftwareEngineering",
-        "Backend"
-      ],
-      "hotScore": 87,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-18T16:25:17.000Z",
-      "contentSnippet": "khi bước vào thế giới thiết kế hệ thống (System Design) và kiến trúc phần mềm, nhiều lập trình viên thường mơ mộng về một bức tranh hoàn mỹ: công nghệ...",
-      "authorName": "Cô Gái IT",
-      "upvotes": 29,
-      "commentsCount": 2
-    },
-    {
-      "id": "ac17dd4137430b01",
-      "title_vi": "6 RÀNG BUỘC KIẾN TRÚC REST (REST ARCHITECTURAL CONSTRAINTS)",
-      "title_en": "6 REST ARCHITECTURAL CONSTRAINTS",
-      "summary_vi": [
-        "Phân tích 6 ràng buộc kiến trúc cốt lõi của REST đảm bảo tính khả dụng, hiệu năng và khả năng mở rộng của Web API.",
-        "Làm rõ các nguyên lý Client-Server, Stateless, Cacheable, Layered System, Uniform Interface và Code-on-Demand.",
-        "Hướng dẫn thiết kế API theo chuẩn RESTful thực thụ phục vụ cho các dịch vụ quy mô lớn."
-      ],
-      "summary_en": [
-        "Detailed examination of the 6 foundational REST architectural constraints governing resilient Web API engineering.",
-        "Breaks down Client-Server, Statelessness, Cacheability, Layered Systems, Uniform Interfaces, and Code-on-Demand.",
-        "Guides backend developers toward implementing truly idempotent, standard-compliant distributed API services."
-      ],
-      "originalTitle": "6 RÀNG BUỘC KIẾN TRÚC REST (REST ARCHITECTURAL CONSTRAINTS)",
-      "url": "https://viblo.asia/p/6-rang-buoc-kien-truc-rest-rest-architectural-constraints-ymJXDW0WJkq",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "CleanArchitecture"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-18T16:20:32.000Z",
-      "contentSnippet": "khi nói đến REST (Representational State Transfer), 90% lập trình viên thường nghĩ ngay đến việc \"gọi API trả về chuỗi JSON thông qua các phương thức ...",
-      "authorName": "Cô Gái IT",
-      "upvotes": 19,
-      "commentsCount": 4
-    },
-    {
-      "id": "ff7e4858ba55a0a1",
-      "title_vi": "Chạy theo phiên bản mới nhất: Bẫy kỹ thuật khiến dự án trả giá đắt",
-      "title_en": "Running with the latest version: Technical traps cost the project dearly",
-      "summary_vi": [
-        "Phân tích bẫy kỹ thuật khi liên tục chạy theo các phiên bản mô hình AI và framework mới nhất mà thiếu kế hoạch kiểm thử.",
-        "Đánh giá bài toán di chuyển từ các mô hình cũ sang Gemini 3.8 Flash về tốc độ suy luận, độ trễ và chi phí API.",
-        "Đề xuất chiến lược đánh giá hồi quy (regression testing) giúp duy trì tính ổn định của hệ thống production."
-      ],
-      "summary_en": [
-        "Examines the technical risks of blindly updating AI dependencies and models without rigorous regression benchmarks.",
-        "Evaluates the trade-offs of migrating to Gemini 3.8 Flash regarding inference speed, context latency, and cost.",
-        "Proposes a structured regression verification strategy to maintain production stability across LLM iterations."
-      ],
-      "originalTitle": "Chạy theo phiên bản mới nhất: Bẫy kỹ thuật khiến dự án trả giá đắt",
-      "url": "https://viblo.asia/p/chay-theo-phien-ban-moi-nhat-bay-ky-thuat-khien-du-an-tra-gia-dat-1j4lQvzAJwl",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Gemini"
-      ],
-      "hotScore": 93,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-18T15:33:31.000Z",
-      "contentSnippet": "Mấy tuần trước, trên diễn đàn Google AI Developers bùng lên một thread thảo luận khá xôn xao. Chuyện là Google ra mắt Gemini 3.8 Flash với hứa hẹn.",
-      "authorName": "Xuân Chinh Trịnh",
-      "upvotes": 22,
-      "commentsCount": 5
-    },
-    {
-      "id": "1dc92d8015d5a662",
-      "title_vi": "Ứng dụng AI tạo hình ảnh để tạo trang tô màu có thể in",
-      "title_en": "AI app generates images to create printable coloring pages",
-      "summary_vi": [
-        "Ứng dụng mô hình AI tạo sinh để chuyển đổi ý tưởng văn bản thành tranh vẽ vector và trang tô màu kỹ thuật số.",
-        "Tối ưu hóa prompt và thiết lập thông số độ tương phản nét vẽ giúp hình ảnh sắc nét, dễ in ấn và tái sử dụng.",
-        "Mở ra tiềm năng tự động hóa quy trình sáng tạo nội dung trực quan cho các nhà phát triển phần mềm đồ họa."
-      ],
-      "summary_en": [
-        "Leverages generative AI diffusion models to transform descriptive text prompts into crisp vector coloring pages.",
-        "Optimizes prompt engineering and outline contrast tuning for high-resolution printing and multi-format export.",
-        "Unlocks creative workflow automation opportunities for frontend and graphic application developers."
-      ],
-      "originalTitle": "Ứng dụng AI tạo hình ảnh để tạo trang tô màu có thể in",
-      "url": "https://viblo.asia/p/ung-dung-ai-tao-hinh-anh-de-tao-trang-to-mau-co-the-in-XP4WEdlDL7G",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 97,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-18T14:56:54.000Z",
-      "contentSnippet": "Trong những năm gần đây, việc tạo hình ảnh bằng AI đã trở nên dễ tiếp cận hơn rất nhiều. Thay vì phải tự vẽ từng chi tiết, người dùng chỉ cần mô tả ý ...",
-      "authorName": "colorifyai",
-      "upvotes": 32,
-      "commentsCount": 8
-    },
-    {
-      "id": "b411a3698a7e8247",
-      "title_vi": "Từ Codex trên ChatGPT đến Cowork trên Claude: Tại sao việc hợp nhất công cụ lại là xu hướng tất yếu?",
-      "title_en": "From Codex on ChatGPT to Cowork on Claude: Why is tool consolidation an inevitable trend?",
-      "summary_vi": [
-        "Anthropic vừa thông báo gộp Claude Cowork — môi trường làm việc dạng agent chuyên biệt cho các tác vụ lớn — trực tiếp vào luồng Chat chính.",
-        "Tập trung vào cấu trúc mạng nơ-ron, quy trình huấn luyện mô hình ngôn ngữ lớn (LLM), cơ chế tối ưu suy luận và kiểm soát an toàn thuật toán.",
-        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "Anthropic has just announced the integration of Claude Cowork — a specialized agent-like working environment for large tasks — directly into the main Chat stream.",
-        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
-        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
-      ],
-      "originalTitle": "Từ Codex trên ChatGPT đến Cowork trên Claude: Tại sao việc hợp nhất công cụ lại là xu hướng tất yếu?",
-      "url": "https://viblo.asia/p/tu-codex-tren-chatgpt-den-cowork-tren-claude-tai-sao-viec-hop-nhat-cong-cu-lai-la-xu-huong-tat-yeu-bNVQGlYoJvR",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "OpenAI",
-        "Claude"
-      ],
-      "hotScore": 90,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-18T13:54:44.000Z",
-      "contentSnippet": "Anthropic vừa thông báo gộp Claude Cowork — môi trường làm việc dạng agent chuyên biệt cho các tác vụ lớn — trực tiếp vào luồng Chat chính. Họ cũng.",
-      "authorName": "Xuân Chinh Trịnh",
-      "upvotes": 18,
-      "commentsCount": 3
-    },
-    {
-      "id": "4bbdfb87a66c4c04",
-      "title_vi": "macOS 27 Golden Gate: Apple Intelligence mất tùy chọn Bật/Tắt và Siri AI tạm được sau hai năm ra mắt",
-      "title_en": "macOS 27 Golden Gate: Apple Intelligence loses the On/Off option and Siri AI is temporary after two years of launch",
-      "summary_vi": [
-        "Đánh giá các cập nhật mới nhất trên hệ điều hành macOS 27 Golden Gate và bộ công cụ Apple Intelligence.",
-        "Phân tích cơ chế quản lý tài nguyên NPU cục bộ và sự thay đổi trong cách tích hợp AI vào nhân hệ điều hành.",
-        "Cung cấp lưu ý tương thích phần mềm cho cộng đồng phát triển ứng dụng trên nền tảng máy tính Mac."
-      ],
-      "summary_en": [
-        "Comprehensive overview of architectural updates introduced in macOS 27 Golden Gate and Apple Intelligence.",
-        "Analyzes on-device NPU memory management and structural refinements within core system AI integration.",
-        "Highlights essential compatibility insights for developers building native desktop applications on Apple Silicon."
-      ],
-      "originalTitle": "macOS 27 Golden Gate: Apple Intelligence mất tùy chọn Bật/Tắt và Siri AI tạm được sau hai năm ra mắt",
-      "url": "https://tinhte.vn/thread/macos-27-golden-gate-apple-intelligence-mat-tuy-chon-bat-tat-va-siri-ai-tam-duoc-sau-hai-nam-ra-mat.4177865/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 97,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-18T13:41:39.000Z",
-      "contentSnippet": "Trên macOS 27 Golden Gate, cái nút tắt cho Apple Intelligence, thứ đã tồn tại từ ngày tính năng này ra mắt, giờ không còn nữa. Nó không hẳn là bị bị ẩn đi, không bị đổi tên, mà biến mất hoàn.",
-      "authorName": "nhatminhngo",
-      "upvotes": 19,
-      "commentsCount": 3
-    },
-    {
-      "id": "595b59dacadfc8bf",
-      "title_vi": "iPhone Duo có một \"vũ khí\" mà Galaxy Fold không có",
-      "title_en": "iPhone Duo has a \"weapon\" that Galaxy Fold does not have",
-      "summary_vi": [
-        "Samsung Galaxy Z Fold là một trong những bản điện thoại gập thành công nhất hiện nay nhờ nhiều năm dẫn đầu thị trường.",
-        "Tuy nhiên, sự xuất hiện của iPhone Duo tạo ra một lợi thế cạnh tranh mới cho Apple: không nằm ở bản lề hay màn hình, mà ở thứ Samsung khó sao chép – hệ sinh thái iPhone với hàng trăm triệu người dùng trung thành.",
-        "Thúc đẩy cộng đồng lập trình viên Mobile và Web áp dụng các tiêu chuẩn công nghệ mới nhằm tối ưu hóa trải nghiệm khách hàng."
-      ],
-      "summary_en": [
-        "Samsung Galaxy Z Fold is one of the most successful folding phones today thanks to many years of market leadership.",
-        "However, the appearance of the iPhone Duo creates a new competitive advantage for Apple: not in the hinge or screen, but in something that is difficult for Samsung to copy - the iPhone ecosystem with hundreds of millions of loyal users.",
-        "Encourages mobile and frontend engineers to adopt next-generation standards for high-performance user experiences."
-      ],
-      "originalTitle": "iPhone Duo có một \"vũ khí\" mà Galaxy Fold không có",
-      "url": "https://genk.vn/iphone-duo-co-mot-vu-khi-ma-galaxy-fold-khong-co-165260918184924759.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "Android"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-18T13:16:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/18/photo-1789730953730-17897309540831716062366-0-141-704-1267-crop-17897318350221965715189.png",
-      "contentSnippet": "Samsung Galaxy Z Fold là một trong những bản điện thoại gập thành công nhất hiện nay nhờ nhiều năm dẫn đầu thị trường. Tuy nhiên, sự xuất hiện của iPhone Duo tạo ra một lợi thế cạnh tranh mới cho Apple: không nằm ở bản lề hay màn hình, mà ở thứ Samsung khó sao chép – hệ sinh thái iPhone với hàng tră",
-      "authorName": "GenK",
-      "upvotes": 16,
-      "commentsCount": 9
-    },
-    {
-      "id": "34ddd89edd1ec779",
-      "title_vi": "Nghiên Cứu Thực Nghiệm Về Thiết Kế Khung Đánh Giá (Harness) Cho Coding Agents",
-      "title_en": "An Empirical Study of Harness Design for Coding Agents",
-      "summary_vi": [
-        "Phân tích thực nghiệm toàn diện về cấu trúc khung đánh giá (benchmark harness) dành cho các mô hình AI lập trình tự động (Coding Agents).",
-        "Đánh giá tác động của môi trường runtime giả lập, cơ chế phân bổ tài nguyên và tính nhất quán khi đo lường độ chính xác giải quyết vấn đề.",
-        "Đưa ra các khuyến nghị kiến trúc quan trọng giúp xây dựng hệ thống benchmark tự động đáng tin cậy cho cộng đồng kỹ sư AI."
-      ],
-      "summary_en": [
-        "Comprehensive empirical study on benchmarking harness architectures designed for autonomous software engineering coding agents.",
-        "Evaluates the critical impact of simulated runtime environments, resource allocation mechanisms, and evaluation reproducibility.",
-        "Provides actionable architectural guidelines for building trustworthy automated evaluation pipelines in software engineering."
-      ],
-      "originalTitle": "An Empirical Study of Harness Design for Coding Agents",
-      "url": "https://arxiv.org/abs/2609.20804",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-18T13:06:30.000Z",
-      "contentSnippet": "Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Run-Ze Fan [view email] [v1] Thu, 17 Sep 2026 17:58:07 UTC (6,713 KB) Full-text links: Access Paper: View a PDF of the paper titled An Empirical Study of Harness Design for Coding Agents, by Run-Ze Fan",
-      "authorName": "wek",
-      "upvotes": 29,
-      "commentsCount": 2
-    },
-    {
-      "id": "fd3ea371e7f42435",
-      "title_vi": "Bend 2 và Bẫy mã hóa rung cảm",
-      "title_en": "Bend 2 and the Vibe-Coding Trap",
-      "summary_vi": [
-        "[Bend chỉ đóng vai trò là một ví dụ hữu ích cho quan điểm chung của tôi về mã hóa rung cảm vì nó mới, nổi bật và có các khía cạnh giúp bạn dễ dàng sử dụng làm ví dụ.",
-        "Tôi không biết gì về lịch sử của tác giả với các ngôn ngữ thiết kế hay liệu họ có thực sự cân nhắc những sự cân bằng dưới đây và đưa ra điều mà tôi nghĩ là một lựa chọn tồi hay không.",
-        "Vui lòng thay thế \"tác giả\" bên dưới bằng \"một tác giả giả định có thể đã tạo ra điều tương tự\".] Bend 2 đang được coi là ngôn ngữ cho kỷ nguyên mã hóa AI: con người viết \"luật\", AI viết các triển khai và bằng chứng, đồng thời trình biên dịch kiểm tra xem các bằng chứng đó có hợp lý hay không."
-      ],
-      "summary_en": [
-        "[Bend just serves as a useful example of my general point regarding vibe-coding as it is recent, high-profile, and has aspects that make it easy to use as an example.",
-        "I don't know anything about the author's history with designing languages or if they actually did consider the tradeoffs below and made what I think is a poor choice.",
-        "Feel free to replace \"the author\" below with \"a hypothetical author who could have created the same thing\".] Bend 2 is being pitched as a language for the AI coding era: humans write \"laws\", AI writes implementations and proofs, and the compiler checks that the proofs are sound."
-      ],
-      "originalTitle": "Bend 2 and the Vibe-Coding Trap",
-      "url": "https://blog.liampwll.com/posts/bend_vibe_coding/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Software",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-18T12:03:55.000Z",
-      "contentSnippet": "[Bend just serves as a useful example of my general point regarding vibe-coding as it is recent, high-profile, and has aspects that make it easy to use as an example. I don't know anything about the author's history with designing languages or if they actually did consider the tradeoffs below and ma",
-      "authorName": "LiamPowell",
-      "upvotes": 184,
-      "commentsCount": 99
-    },
-    {
-      "id": "107690371fcc6d5e",
-      "title_vi": "OpenTelemetry Tracing — Toàn tập: Node.js/TypeScript, Collector và Jaeger phần 4",
-      "title_en": "OpenTelemetry Tracing — Complete: Node.js/TypeScript, Collector and Jaeger part 4",
-      "summary_vi": [
-        "Hướng dẫn toàn diện về triển khai OpenTelemetry Distributed Tracing cho hệ sinh thái Node.js microservices.",
-        "Sử dụng propagation.extract(ROOT_CONTEXT, carrier) để liên kết ngữ cảnh trace phân tán qua các giao thức HTTP và gRPC.",
-        "Nâng cao khả năng giám sát (observability), đo lường độ trễ và phát hiện nút thắt cổ chai trong kiến trúc đám mây."
-      ],
-      "summary_en": [
-        "Complete production guide to implementing OpenTelemetry distributed tracing across Node.js microservice architectures.",
-        "Demonstrates propagation.extract(ROOT_CONTEXT, carrier) for seamless context propagation over HTTP and gRPC boundaries.",
-        "Enhances end-to-end cloud observability, latency profiling, and distributed bottleneck identification."
-      ],
-      "originalTitle": "OpenTelemetry Tracing — Toàn tập: Node.js/TypeScript, Collector và Jaeger phần 4",
-      "url": "https://viblo.asia/p/opentelemetry-tracing-toan-tap-nodejstypescript-collector-va-jaeger-phan-4-kNLr3727VgA",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "OpenTelemetry",
-        "TypeScript",
-        "DevOps",
-        "SoftwareEngineering"
-      ],
-      "hotScore": 91,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-18T11:55:41.000Z",
-      "contentSnippet": "Nếu job bị delay lâu hoặc retry nhiều lần, chuyển sang Link: lấy span context bằng trace.getSpanContext(propagation.extract(ROOT_CONTEXT, carrier)) rồ...",
-      "authorName": "Cô Gái IT",
-      "upvotes": 27,
-      "commentsCount": 8
-    },
-    {
-      "id": "66f368baf1cdd0a5",
-      "title_vi": "Cả thế giới run rẩy trước thảm họa AI, \"giáo chủ ngành chip\" Jensen Huang chỉ thản nhiên phán: \"Toàn trò vớ vẩn\"",
-      "title_en": "The whole world trembled before the AI ​​disaster, \"chip industry leader\" Jensen Huang just calmly said: \"It's all nonsense\"",
-      "summary_vi": [
-        "Trong khi giới lãnh đạo công nghệ toàn cầu đang đẩy mạnh cảnh báo về kịch bản AI khiến nhân loại diệt vong, CEO của NVIDIA vẫn thản nhiên như không.",
-        "Tập trung vào cấu trúc mạng nơ-ron, quy trình huấn luyện mô hình ngôn ngữ lớn (LLM), cơ chế tối ưu suy luận và kiểm soát an toàn thuật toán.",
-        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "While global technology leaders are stepping up warnings about AI scenarios that cause humanity to perish, NVIDIA's CEO remains as calm as ever.",
-        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
-        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
-      ],
-      "originalTitle": "Cả thế giới run rẩy trước thảm họa AI, \"giáo chủ ngành chip\" Jensen Huang chỉ thản nhiên phán: \"Toàn trò vớ vẩn\"",
-      "url": "https://genk.vn/ca-the-gioi-run-ray-truoc-tham-hoa-ai-giao-chu-nganh-chip-jensen-huang-chi-than-nhien-phan-toan-tro-vo-van-165260918183344599.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Nvidia"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-18T11:53:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/18/avatar1789731167002-1789731167608254635286.jpg",
-      "contentSnippet": "Trong khi giới lãnh đạo công nghệ toàn cầu đang đẩy mạnh cảnh báo về kịch bản AI khiến nhân loại diệt vong, CEO của NVIDIA vẫn thản nhiên như không.",
-      "authorName": "GenK",
-      "upvotes": 29,
-      "commentsCount": 1
-    },
-    {
-      "id": "69fc18ebf5136059",
-      "title_vi": "ZCode, tác nhân mã hóa GLM, âm thầm tải lên lịch sử Git của bạn",
-      "title_en": "ZCode, the GLM coding agent, silently uploads your Git history",
-      "summary_vi": [
-        "Vào ngày 18 tháng 9 năm 2026, một nhà phát triển tên là ferstar đã xuất bản hướng dẫn kỹ thuật đảo ngược của ZCode, ứng dụng máy tính để bàn mã hóa AI của Z.ai, công ty có trụ sở tại Bắc Kinh đứng sau dòng sản phẩm mô hình trọng lượng mở GLM - các mô hình tương tự chạy trên các giàn khoan địa phương trên khắp cộng đồng AI địa phương, bao gồm GLM-5.3-Flash, được theo dõi trên trang web này.",
-        "Phát hiện này còn tệ hơn hầu hết các vụ bê bối về quyền riêng tư: bất cứ khi nào ứng dụng được đăng nhập, nó sẽ âm thầm đóng gói toàn bộ không gian làm việc của người dùng - toàn bộ lịch sử .git, bộ đệm tài sản LFS, reflog và cấu hình ứng dụng toàn cầu - mã hóa ứng dụng đó và tải kho lưu trữ lên Aliyun OSS, bộ lưu trữ đối tượng của Alibaba Cloud.",
-        "Bản ghi riêng của nhà nghiên cứu: một kho lưu trữ mã hóa 313 MB được xây dựng từ không gian làm việc thương mại 345 MB, 42.411 tệp, với 564 lần tải lên không thành công được ghi lại trong khi nhà nghiên cứu điều tra."
-      ],
-      "summary_en": [
-        "On September 18, 2026, a developer going by ferstar published a reverse-engineering walkthrough of ZCode, the AI coding desktop app from Z.ai, the Beijing-headquartered company behind the GLM family of open-weight models - the same models running on local rigs all over the local-AI community, including GLM-5.3-Flash, tracked on this site.",
-        "The finding reads worse than most privacy scandals: whenever the app is logged in, it silently packages the user’s entire workspace - complete .git history, LFS asset cache, reflogs, and global app configs - encrypts it, and uploads the archive to Aliyun OSS, Alibaba Cloud’s object storage.",
-        "The researcher’s own capture: a 313MB encrypted archive built from a 345MB commercial workspace, 42,411 files, with 564 failed upload attempts logged while the researcher investigated."
-      ],
-      "originalTitle": "ZCode, the GLM coding agent, silently uploads your Git history",
-      "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-18T10:35:28.000Z",
-      "contentSnippet": "On September 18, 2026, a developer going by ferstar published a reverse-engineering walkthrough of ZCode, the AI coding desktop app from Z.ai, the Beijing-headquartered company behind the GLM family of open-weight models - the same models running on local rigs all over the local-AI community, includ",
-      "authorName": "cdnsteve",
-      "upvotes": 180,
-      "commentsCount": 41
-    },
-    {
-      "id": "d8a0b4e2cc335459",
-      "title_vi": "OpenAI công bố 6 vụ AI có hành vi bất thường, tự ý tải file lên mạng, che giấu lỗi",
-      "title_en": "OpenAI announced 6 cases of AI having unusual behavior, arbitrarily uploading files online, hiding errors",
-      "summary_vi": [
-        "OpenAI thừa nhận nhiều mô hình AI từng tự ý thực hiện hành động ngoài dự kiến và công bố 6 trường hợp nhằm tăng minh bạch, giám sát an toàn.",
-        "Tập trung vào cấu trúc mạng nơ-ron, quy trình huấn luyện mô hình ngôn ngữ lớn (LLM), cơ chế tối ưu suy luận và kiểm soát an toàn thuật toán.",
-        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "OpenAI admitted that many AI models have arbitrarily performed unexpected actions and announced 6 cases to increase transparency and safety monitoring.",
-        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
-        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
-      ],
-      "originalTitle": "OpenAI công bố 6 vụ AI có hành vi bất thường, tự ý tải file lên mạng, che giấu lỗi",
-      "url": "https://tuoitre.vn/openai-cong-bo-6-vu-ai-co-hanh-vi-bat-thuong-tu-y-tai-file-len-mang-che-giau-loi-100260918082740031.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "OpenAI"
-      ],
-      "hotScore": 98,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-18T09:19:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/18/ai-engineering-nassom-adobestock-17896947242461022518089-0-217-1353-2382-crop-17896948389351548362173.jpg",
-      "contentSnippet": "OpenAI thừa nhận nhiều mô hình AI từng tự ý thực hiện hành động ngoài dự kiến và công bố 6 trường hợp nhằm tăng minh bạch, giám sát an toàn.",
-      "authorName": "TTXVN",
-      "upvotes": 28,
-      "commentsCount": 5
     }
   ]
 }
