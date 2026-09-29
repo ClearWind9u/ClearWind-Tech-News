@@ -1,7 +1,314 @@
 {
-  "lastUpdated": "2026-09-29T03:27:30.139Z",
+  "lastUpdated": "2026-09-29T11:52:47.731Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "98b91144000b8c10",
+      "title_vi": "Local và Server: Hai thế giới song song trong lập trình phần mềm",
+      "title_en": "Local and Server: Two Parallel Worlds in Software Programming",
+      "summary_vi": [
+        "Trong quá trình phát triển phần mềm hiện đại, việc nắm vững ranh giới rõ ràng giữa môi trường lập trình cục bộ và máy chủ từ xa là kỹ năng sống còn giúp lập trình viên vận hành hệ thống ổn định.",
+        "Bài viết phân tích sâu các khác biệt cốt lõi về tài nguyên phần cứng, biến môi trường và cơ chế vận hành mã nguồn khi chuyển đổi từ máy cá nhân lên hạ tầng máy chủ trực tuyến.",
+        "Hiểu rõ hai không gian này giúp kỹ sư tối ưu hóa quy trình kiểm thử, hạn chế tối đa các lỗi triển khai và nâng cao hiệu suất tổng thể cho ứng dụng thực tế."
+      ],
+      "summary_en": [
+        "In modern software development, mastering the clear boundaries between local programming environments and remote servers is an essential skill for developers to maintain system stability.",
+        "The article deeply analyzes core differences in hardware resources, environment variables, and source code execution mechanisms when migrating from personal machines to online server infrastructure.",
+        "Understanding these two spaces helps engineers optimize the testing workflow, minimize deployment errors, and significantly enhance overall performance for real-world production applications."
+      ],
+      "originalTitle": "LOCAL VÀ SERVER: HAI THẾ GIỚI SONG SONG TRONG LẬP TRÌNH",
+      "url": "https://viblo.asia/p/local-va-server-hai-the-gioi-song-song-trong-lap-trinh-AY4qQzrk4Pw",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Software Engineering",
+        "Local Development",
+        "Server Management",
+        "DevOps",
+        "Deployment"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-29T18:34:20.000Z",
+      "contentSnippet": "Trong quá trình phát triển phần mềm, việc nắm vững ranh giới giữa hai môi trường Local và Server là kỹ năng sống còn của mọi lập trình viên. Bài viết ...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "56c651de8dbeacb8",
+      "title_vi": "Hướng dẫn cài đặt công cụ Codex CLI trên hệ điều hành Windows",
+      "title_en": "Guide to Installing Codex CLI on Windows Operating System",
+      "summary_vi": [
+        "Bài viết hướng dẫn chi tiết quy trình cài đặt công cụ dòng lệnh Codex CLI trên nền tảng Windows, tập trung vào việc hỗ trợ lập trình viên tích hợp các giao diện lập trình ứng dụng một cách hiệu quả nhất.",
+        "Tác giả nhấn mạnh tầm quan trọng của việc hướng dẫn người đọc cách kiểm tra và xác thực giả thuyết khi gặp lỗi, thay vì chỉ cung cấp một đoạn mã cấu hình hoàn chỉnh cuối cùng mà không giải thích bản chất vấn đề.",
+        "Giải pháp này giúp nâng cao kỹ năng xử lý sự cố cho các nhà phát triển phần mềm, từ đó tối ưu hóa quá trình làm việc với các công cụ tự động hóa và trí tuệ nhân tạo trong môi trường thực tế."
+      ],
+      "summary_en": [
+        "The article provides a detailed guide on the installation process of the Codex CLI command-line tool on the Windows platform, focusing on helping developers integrate application programming interfaces efficiently.",
+        "The author emphasizes the importance of guiding readers on how to test and validate hypotheses when encountering errors, rather than merely providing a final configuration snippet without explaining the underlying mechanics.",
+        "This solution enhances troubleshooting skills for software developers, thereby optimizing the workflow when working with automation tools and artificial intelligence in real-world development environments."
+      ],
+      "originalTitle": "Cài Codex CLI trên Windows",
+      "url": "https://viblo.asia/p/cai-codex-cli-tren-windows-AWVpX63YV05",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Codex CLI",
+        "Windows",
+        "API Integration",
+        "Troubleshooting",
+        "Developer Tools"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-29T15:09:28.000Z",
+      "contentSnippet": "Cài Codex CLI trên Windows Một hướng dẫn tích hợp API nên giúp người đọc biết cách kiểm tra giả thuyết khi có lỗi. Nếu chỉ đưa cấu hình cuối cùng, ng...",
+      "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "2077dc1ed3474001",
+      "title_vi": "Trí tuệ nhân tạo giúp lập trình viên tăng tốc, khiến Quản lý dự án trở thành nút thắt cổ chai",
+      "title_en": "AI Accelerates Developers, Leaving Project Managers as the Ultimate Bottleneck",
+      "summary_vi": [
+        "Sự bùng nổ của các công cụ trí tuệ nhân tạo hỗ trợ lập trình đã giúp đội ngũ phát triển hoàn thành khối lượng công việc dự kiến trong nhiều ngày chỉ trong một thời gian ngắn.",
+        "Việc tăng tốc đột biến trong khâu viết mã nguồn và kiểm thử đã làm lộ rõ điểm nghẽn mới trong quy trình phát triển phần mềm khi các nhà quản lý chưa kịp thích ứng.",
+        "Thực trạng này đòi hỏi các tổ chức công nghệ phải tái cấu trúc quy trình quản lý dự án để tương xứng với tốc độ phát triển cực nhanh của thời đại lập trình tích hợp trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "The surge of artificial intelligence coding assistants has enabled development teams to accomplish multi-day workloads in a fraction of the expected schedule.",
+        "This sudden acceleration in code generation and testing has exposed a brand new bottleneck within the software development lifecycle as managers struggle to keep pace.",
+        "Such a paradigm shift forces technology organizations to restructure their project management workflows to align with the blistering velocity of AI-driven development."
+      ],
+      "originalTitle": "AI giúp dev làm nhanh hơn, rồi PM trở thành người cả team phải chờ",
+      "url": "https://viblo.asia/p/ai-giup-dev-lam-nhanh-hon-roi-pm-tro-thanh-nguoi-ca-team-phai-cho-AoJe8l7N41j",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "AI",
+        "Software Engineering",
+        "Project Management",
+        "Developer Productivity",
+        "Tech Trends"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-29T13:00:10.000Z",
+      "contentSnippet": "Giả sử chiều thứ Ba, dev báo phần việc dự kiến đến cuối tuần mới xong đã có thể đem đi review. Nhờ AI hỗ trợ, team làm nhanh hơn dự tính. PM chưa kịp...",
+      "authorName": "Henry Phạm",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0bbebf8c4ad2807c",
+      "title_vi": "Cấu hình Claude Code bằng CC Switch và kiểm tra lỗi 403 trên Windows",
+      "title_en": "Configuring Claude Code with CC Switch and Troubleshooting 403 Errors on Windows",
+      "summary_vi": [
+        "Bài viết hướng dẫn chi tiết cách cấu hình công cụ Claude Code sử dụng tiện ích CC Switch trên hệ điều hành Windows để quản lý hiệu quả nhiều điểm cuối kết nối khác nhau.",
+        "Quá trình phân tích tập trung vào cơ chế chuyển đổi cấu hình điểm cuối và phương pháp chẩn đoán lỗi truy cập bị từ chối 403 thường gặp khi thay đổi môi trường phát triển.",
+        "Giải pháp này giúp các kỹ sư phần mềm tối ưu hóa quy trình làm việc với trí tuệ nhân tạo, giảm thiểu thời gian cấu hình thủ công và khắc phục nhanh chóng các sự cố kết nối."
+      ],
+      "summary_en": [
+        "The article provides a detailed guide on configuring the Claude Code tool using the CC Switch utility on the Windows operating system to efficiently manage multiple endpoint connections.",
+        "The analysis focuses on the endpoint configuration switching mechanism and diagnostic methods for the common 403 forbidden access errors encountered when changing development environments.",
+        "This solution helps software engineers optimize their workflow with artificial intelligence, minimizing manual configuration time and quickly resolving connectivity issues."
+      ],
+      "originalTitle": "Cấu hình Claude Code bằng CC Switch và kiểm tra lỗi 403 trên Windows",
+      "url": "https://viblo.asia/p/cau-hinh-claude-code-bang-cc-switch-va-kiem-tra-loi-403-tren-windows-wlVmRkZ845Z",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Claude Code",
+        "CC Switch",
+        "Windows",
+        "AI",
+        "DevOps"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-29T12:53:57.000Z",
+      "contentSnippet": "Cấu hình Claude Code bằng CC Switch và kiểm tra lỗi 403 trên Windows Khi đổi giữa nhiều endpoint cho Claude Code, một cấu hình đã được lưu chưa chắc ...",
+      "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c2242023cf19097e",
+      "title_vi": "iPhone Duo chạy hệ điều hành iOS 27 mang đến chế độ StandBy không cần cắm sạc và tích hợp xem camera an ninh",
+      "title_en": "iPhone Duo Running iOS 27 Introduces StandBy Mode Without Charging Requirement and Home Camera Integration",
+      "summary_vi": [
+        "Các thông tin rò rỉ mới nhất từ cộng đồng công nghệ hé lộ những tính năng đột phá trên dòng sản phẩm iPhone Duo sắp tới với nền tảng iOS 27 tiên tiến.",
+        "Điểm nhấn kỹ thuật quan trọng là chế độ StandBy hoạt động độc lập không cần nguồn sạc trực tiếp kết hợp khả năng giám sát trực tiếp hệ thống camera gia đình.",
+        "Cải tiến này tối ưu hóa trải nghiệm người dùng trên thiết bị di động đồng thời nâng cao khả năng tích hợp hệ sinh thái nhà thông minh trong thực tế."
+      ],
+      "summary_en": [
+        "The latest leaks from the tech community reveal groundbreaking features on the upcoming iPhone Duo lineup running the advanced iOS 27 platform.",
+        "A major technical highlight is the StandBy mode operating independently without direct charging power combined with real-time home security camera monitoring capabilities.",
+        "This enhancement optimizes user experience on mobile devices while significantly improving smart home ecosystem integration capabilities in practical scenarios."
+      ],
+      "originalTitle": "iPhone Duo chạy iOS 27: StandBy không cần cắm sạc, xem được cả camera nhà",
+      "url": "https://tinhte.vn/thread/iphone-duo-chay-ios-27-standby-khong-can-cam-sac-xem-duoc-ca-camera-nha.4180411/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iOS",
+        "iPhone",
+        "Mobile",
+        "SmartHome",
+        "Apple"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-29T11:51:10.000Z",
+      "contentSnippet": "iPhone Duo chạy iOS 27: StandBy không cần cắm sạc, xem được cả camera nhà Mình vừa thấy leaker pdfu chia sẻ thêm chi tiết về chế độ StandBy của iOS 27 trên iPhone Duo, thấy lần này Apple nâng cấp...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "953204e5c695bfd6",
+      "title_vi": "Đánh giá thời lượng pin iPhone 18 Pro và Pro Max cho người dùng không chơi game nhưng cần sử dụng cả ngày",
+      "title_en": "Evaluating Battery Life of iPhone 18 Pro and Pro Max for Non-Gamers Requiring All-Day Usage",
+      "summary_vi": [
+        "Bài viết phân tích khả năng duy trì thời lượng pin thực tế của dòng điện thoại thông minh thế hệ mới đối với những người dùng có nhu cầu sử dụng liên tục nhưng không tham gia các trò chơi điện tử đồ họa nặng.",
+        "Nội dung tập trung so sánh hiệu suất năng lượng giữa hai phiên bản khi thực hiện các tác vụ phổ biến hàng ngày như lướt web, duy trì kết nối mạng xã hội và xử lý các ứng dụng chụp ảnh chuyên sâu.",
+        "Đánh giá này giúp người dùng thiết bị di động đưa ra quyết định lựa chọn phần cứng phù hợp, tối ưu hóa trải nghiệm cá nhân mà không còn phụ thuộc vào các thiết bị sạc dự phòng cồng kềnh."
+      ],
+      "summary_en": [
+        "The article analyzes the actual battery longevity of next-generation smartphone models for users who require continuous usage throughout the day without engaging in heavy graphics-intensive mobile gaming sessions.",
+        "The content focuses on comparing energy efficiency between the two hardware versions when executing common daily tasks such as web browsing, maintaining social media connectivity, and processing intensive camera applications.",
+        "This hardware evaluation helps mobile device users make informed purchasing decisions, optimizing their daily personal experience without relying heavily on bulky portable power banks."
+      ],
+      "originalTitle": "Từ bỏ sạc dự phòng: iPhone 18 Pro hay Pro Max đủ pin cho người không chơi game?",
+      "url": "https://genk.vn/tu-bo-sac-du-phong-iphone-18-pro-hay-pro-max-du-pin-cho-nguoi-khong-choi-game-165260929172011439.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone 18 Pro",
+        "Mobile Hardware",
+        "Battery Life",
+        "Smartphone",
+        "Apple"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-29T11:00:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/29/photo1790655128982-17906551311511474642307-1790677215406749375439.jpg",
+      "contentSnippet": "Không chơi game nhưng muốn dùng điện thoại cả ngày, liệu iPhone 18 Pro và Pro Max có đủ pin mà không cần sạc dự phòng? Hai phiên bản cho thời lượng sử dụng thực tế khác nhau, nhất là khi lướt web, mạng xã hội và chụp ảnh.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e1ec53eed0a812e4",
+      "title_vi": "Điện thoại gập của Apple và vấn đề thiết kế phần cứng mặc định cho người thuận tay phải",
+      "title_en": "Apple Foldable Phones and the Default Hardware Design Bias Toward Right-Handed Users",
+      "summary_vi": [
+        "Bài viết phân tích thiết kế bất đối xứng của dòng điện thoại gập tương lai từ Apple, nổi bật với cấu trúc bản lề đặt ở cạnh trái và các góc bo cong khác biệt ở cạnh phải khi thiết bị đóng lại.",
+        "Khảo sát cho thấy thiết kế phần cứng di động hiện đại phần lớn vẫn tối ưu hóa cho người thuận tay phải, vô tình gây ra những bất tiện đáng kể cho cộng đồng người thuận tay trái trên toàn cầu.",
+        "Việc thấu hiểu nhu cầu của nhóm người dùng thiểu số này mang lại bài học quan trọng về tính bao dung trong thiết kế sản phẩm công nghệ và trải nghiệm người dùng toàn diện."
+      ],
+      "summary_en": [
+        "The article analyzes the asymmetrical design of Apple upcoming foldable smartphone, highlighting the left-edge hinge structure and contrasting curved corners on the right side when closed.",
+        "Industry observations reveal that modern mobile hardware designs remain largely optimized for right-handed users, inadvertently creating significant inconveniences for left-handed communities worldwide.",
+        "Understanding the needs of this minority user group provides a crucial lesson on inclusivity in technology product design and delivering comprehensive user experiences."
+      ],
+      "originalTitle": "iPhone Duo và 12% dân số bị bỏ quên: vì sao phần cứng công nghệ mặc định cho người thuận tay phải",
+      "url": "https://tinhte.vn/thread/iphone-duo-va-12-dan-so-bi-bo-quen-vi-sao-phan-cung-cong-nghe-mac-dinh-cho-nguoi-thuan-tay-phai.4179616/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "Foldable Phone",
+        "Hardware Design",
+        "UX",
+        "Mobile"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-29T10:39:15.000Z",
+      "contentSnippet": "Anh em nào theo dõi điện thoại gập của Apple thì sẽ thấy chiếc iPhone Duo khi đóng lại có thiết kế bất đối xứng, với cạnh trái là một đường thẳng tắp đặt bản lề. Cạnh phải thì bo cong ở hai góc để...",
+      "authorName": "nhatminhngo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "38d7852a96fc421a",
+      "title_vi": "Chính phủ Anh hướng dẫn nhân viên sử dụng AI: Bỏ thói quen nói cảm ơn với chatbot",
+      "title_en": "UK Government Instructs Employees on AI Usage: Stop Saying Thank You to Chatbots",
+      "summary_vi": [
+        "Chính phủ Anh vừa ban hành dự thảo hướng dẫn mang tên Sử dụng AI có đạo đức và bền vững nhằm định hướng nhân viên cách thức tương tác với các hệ thống trí tuệ nhân tạo trong công việc hằng ngày một cách an toàn và tối ưu nhất.",
+        "Khuyến nghị kỹ thuật cốt lõi là người dùng nên viết các câu lệnh prompt ngắn gọn, rõ ràng và tuyệt đối tránh dùng các từ ngữ xã giao thừa thãi như nói cảm ơn nhằm giảm thiểu đáng kể lượng tài nguyên tính toán mà hệ thống phải tiêu thụ.",
+        "Sự kiện này đánh dấu bước tiến quan trọng trong việc nâng cao nhận thức về tối ưu hóa hiệu suất tài nguyên hạ tầng công nghệ và xây dựng thói quen sử dụng mô hình ngôn ngữ lớn một cách tiết kiệm và bền vững cho toàn ngành."
+      ],
+      "summary_en": [
+        "The UK government has recently issued a draft guideline entitled Using AI ethically and sustainably to guide employees on how to interact with artificial intelligence systems securely and optimally in their daily professional workflows.",
+        "The core technical recommendation advises users to write concise and precise prompts while strictly avoiding redundant social niceties like expressing gratitude, aiming to significantly reduce the computational resources consumed by the system.",
+        "This initiative marks a crucial milestone in raising awareness regarding the optimization of technology infrastructure resources and establishing sustainable, efficient habits for interacting with large language models across the industry."
+      ],
+      "originalTitle": "Chính phủ Anh dạy nhân viên dùng AI: Đừng nói \"cảm ơn\" với chatbot AI",
+      "url": "https://genk.vn/chinh-phu-anh-day-nhan-vien-dung-ai-dung-noi-cam-on-voi-chatbot-ai-165260929172858045.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Prompt Engineering",
+        "Large Language Models",
+        "Sustainability"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-29T10:28:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/29/avatar1790677710022-17906777107341594164021-0-160-900-1600-crop-1790677726060999138800.jpg",
+      "contentSnippet": "Theo hướng dẫn sử dụng AI mới nhất của chính phủ Anh, các câu nói xã giao lịch sự với chatbot AI là điều không cần thiết.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "4bb7f039404bab06",
+      "title_vi": "Apple phát hành bản cập nhật iOS 27.0.1 nhằm khắc phục lỗi Face ID trên dòng điện thoại iPhone 18 Pro",
+      "title_en": "Apple releases iOS 27.0.1 update to fix Face ID issues on iPhone 18 Pro series",
+      "summary_vi": [
+        "Hãng công nghệ Apple vừa chính thức tung ra phiên bản cập nhật phần mềm iOS 27.0.1 chỉ sau hai tuần giới thiệu dòng hệ điều hành mới, tập trung chủ yếu vào việc xử lý các vấn đề phát sinh trên thiết bị cao cấp.",
+        "Bản vá này được triển khai nhằm giải quyết triệt để các lỗi vặt liên quan đến hệ thống nhận diện khuôn mặt Face ID, đảm bảo tính bảo mật sinh trắc học và cải thiện độ ổn định phần cứng cho người dùng.",
+        "Việc phát hành bản vá nhanh chóng thể hiện cam kết mạnh mẽ của hãng trong việc duy trì chất lượng trải nghiệm người dùng và khắc phục kịp thời các sự cố phần mềm ảnh hưởng trực tiếp đến thiết bị di động."
+      ],
+      "summary_en": [
+        "Technology giant Apple has officially rolled out the iOS 27.0.1 software update just two weeks after introducing the new operating system, focusing primarily on resolving unexpected issues on flagship devices.",
+        "This patch is deployed to thoroughly address minor bugs related to the Face ID facial recognition system, ensuring biometric security and improving hardware stability for end users.",
+        "The rapid release of this patch demonstrates the company's strong commitment to maintaining user experience quality and promptly fixing software issues that directly impact mobile devices."
+      ],
+      "originalTitle": "Apple ra iOS 27.0.1 sửa lỗi Face ID trên iPhone 18 Pro",
+      "url": "https://tinhte.vn/thread/apple-ra-ios-27-0-1-sua-loi-face-id-tren-iphone-18-pro.4180418/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iOS",
+        "iPhone",
+        "Face ID",
+        "Mobile Security"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-29T10:25:52.000Z",
+      "contentSnippet": "Apple ra iOS 27.0.1 sửa lỗi Face ID trên iPhone 18 Pro Apple vừa phát hành bản cập nhật iOS 27.0.1 sau hai tuần ra mắt iOS 27, chủ yếu để sửa các lỗi vặt khó chịu trên dòng iPhone 18 Pro. Mình...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "7377a7afa8493bf9",
       "title_vi": "Bài 8: Xử lý dữ liệu thô và bảo mật chống tấn công XSS trong lập trình web",
@@ -32,6 +339,213 @@
       "publishedAt": "2026-09-29T10:23:27.000Z",
       "contentSnippet": "Chào mừng bạn đến với Bài 8! Trong quá trình phát triển web, bảo mật là yếu tố sống còn. Ở các bài trước, chúng ta đã dùng cú pháp {{ }} để in dữ liệu...",
       "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "89e0e99efd70ae8c",
+      "title_vi": "Táo Khuyết phát hành bản cập nhật iOS nhằm khắc phục lỗi nhận diện khuôn mặt",
+      "title_en": "Apple Releases iOS Update to Fix Face Identification Authentication Issues",
+      "summary_vi": [
+        "Hãng công nghệ hàng đầu vừa chính thức tung ra phiên bản phần mềm mới nhằm giải quyết các sự cố liên quan đến hệ thống xác thực sinh trắc học trên dòng điện thoại thông minh cao cấp mới nhất.",
+        "Bản vá này tập trung khắc phục ba lỗi phần mềm nghiêm trọng, trong đó đáng chú ý nhất là tình trạng thiết bị tự động khởi động lại đột ngột khi quá trình nhận diện khuôn mặt không thành công.",
+        "Việc nhanh chóng phát hành bản cập nhật thể hiện cam kết mạnh mẽ của nhà sản xuất trong việc nâng cao trải nghiệm người dùng và đảm bảo tính ổn định tuyệt đối cho hệ điều hành di động."
+      ],
+      "summary_en": [
+        "The major technology corporation has officially rolled out a new software version designed to resolve critical issues related to the biometric authentication system on their latest flagship smartphones.",
+        "This patch focuses on fixing three primary software bugs, most notably the unexpected device reboots triggered whenever the facial recognition verification process encounters a failure.",
+        "The prompt release of this update demonstrates the manufacturer's strong commitment to enhancing user experience and ensuring absolute stability for their advanced mobile operating system."
+      ],
+      "originalTitle": "Apple ra iOS 27.0.1 vá lỗi Face ID cho iPhone 18 Pro",
+      "url": "https://vnexpress.net/apple-ra-ios-27-0-1-va-loi-face-id-cho-iphone-18-pro-5126224.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iOS",
+        "Apple",
+        "FaceID",
+        "Mobile Security",
+        "Bug Fix"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-29T10:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/29/face-id-iphone-pro-1790667595-8820-1790667695.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=JO1IXe7Qka6HZNYWdFDayQ",
+      "contentSnippet": "iOS 27.0.1 được Apple tung ra sau hai tuần phát hành iOS 27, chủ yếu khắc phục lỗi nhận dạng khuôn mặt Face ID trên bộ đôi iPhone 18 Pro.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "54b60c2eb49b307d",
+      "title_vi": "Các công ty trí tuệ nhân tạo rò rỉ dữ liệu người dùng cho nhà quảng cáo",
+      "title_en": "AI companies leak data to advertisers",
+      "summary_vi": [
+        "Nghiên cứu mới đây chỉ ra rằng nhiều hệ thống trí tuệ nhân tạo và các ứng dụng trợ lý ảo đang vô tình làm rò rỉ dữ liệu nhạy cảm của người dùng trực tiếp cho các bên thứ ba và các mạng lưới nhà quảng cáo.",
+        "Lỗ hổng này xuất phát từ việc tích hợp các Software Development Kit theo dõi hành vi và các đoạn mã thu thập dữ liệu tự động mà không được mã hóa hoặc kiểm soát quyền riêng tư đầy đủ trong quá trình truyền tải.",
+        "Sự cố này gióng lên hồi chuông cảnh báo lớn về vấn đề bảo mật thông tin cá nhân trong kỷ nguyên số, buộc các kỹ sư phần mềm phải siết chặt các tiêu chuẩn kiểm tra mã nguồn trước khi phát hành sản phẩm."
+      ],
+      "summary_en": [
+        "Recent research indicates that multiple artificial intelligence systems and virtual assistant applications are unintentionally leaking sensitive user data directly to third parties and advertising networks.",
+        "This vulnerability stems from the integration of tracking software development kits and automated data collection scripts that lack proper encryption or privacy controls during transmission.",
+        "This incident raises significant concerns regarding personal information security in the digital age, compelling software engineers to tighten source code auditing standards before releasing products."
+      ],
+      "originalTitle": "AI companies leak data to advertisers [pdf]",
+      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "AI",
+        "Security",
+        "Data Privacy",
+        "Software Engineering"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-29T09:03:41.000Z",
+      "contentSnippet": "AI companies leak data to advertisers [pdf]",
+      "authorName": "damaru2",
+      "upvotes": 145,
+      "commentsCount": 35
+    },
+    {
+      "id": "2a736617eaf58a8f",
+      "title_vi": "Cách sử dụng bất kỳ thư viện C++ nào trong côngengine làm game Godot",
+      "title_en": "Using any C++ library in Godot game engine",
+      "summary_vi": [
+        "Động cơ game Godot ngày càng trở nên phổ biến nhờ mã nguồn mở và khả năng phát triển linh hoạt, mặc dù ngôn ngữ GDScript mặc định không hỗ trợ trực tiếp việc gọi mã nguồn gốc từ bên ngoài.",
+        "Thông qua cơ chế GDExtension cùng các liên kết chính thức từ godot-cpp, các nhà phát triển có thể tích hợp mượt mà các thư viện C hoặc C++ hiệu năng cao vào trong các dự án trò chơi của mình.",
+        "Giải pháp quản lý gói tin hiện đại kết hợp cùng các thư viện mô phỏng thành phần thực thể giúp tối ưu hóa hiệu năng, cho phép xử lý hàng trăm nghìn đối tượng cùng lúc trong không gian game."
+      ],
+      "summary_en": [
+        "The Godot game engine has grown increasingly popular due to its open source nature and flexible development capabilities, although its default GDScript language lacks direct native code calling support.",
+        "Through the GDExtension mechanism alongside official godot-cpp bindings, developers can smoothly integrate high-performance C or C++ libraries directly into their game development projects.",
+        "Modern package management solutions combined with entity component simulation libraries help optimize performance, enabling the processing of hundreds of thousands of objects simultaneously within game scenes."
+      ],
+      "originalTitle": "Using any C++ library in Godot",
+      "url": "https://blog.conan.io/cpp/conan/gamedev/godot/cmake/2026/09/29/Using-Any-Cpp-Library-In-Godot.html",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Godot",
+        "C++",
+        "GDExtension",
+        "Game Development",
+        "Software Engineering"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-29T08:40:37.000Z",
+      "contentSnippet": "Godot has become one of the most popular game engines of the last few years. It is free, open source under the MIT license, and small enough to download and start using in minutes. Most Godot games are written in GDScript, the engine’s own scripting language. Sooner or later, though, many projects n",
+      "authorName": "czoido",
+      "upvotes": 60,
+      "commentsCount": 21
+    },
+    {
+      "id": "0bca5653ef88da33",
+      "title_vi": "Các tỷ phú công nghệ sắp hội ngộ tại Nhà Trắng để thảo luận về chiến lược cân bằng phát triển trí tuệ nhân tạo",
+      "title_en": "Tech Billionaires to Meet at the White House to Discuss Strategies for Balancing Artificial Intelligence Development",
+      "summary_vi": [
+        "Nhà Trắng đang lên kế hoạch tổ chức cuộc gặp mặt và ăn trưa với các lãnh đạo hàng đầu từ Meta, Google và OpenAI nhằm giải quyết các áp lực an ninh đang gia tăng đối với lĩnh vực trí tuệ nhân tạo.",
+        "Cuộc họp dự kiến sẽ tập trung tìm kiếm ranh giới hợp lý giữa hoạt động đổi mới sáng tạo công nghệ và các hình thức giám sát pháp lý phù hợp từ chính phủ mà không làm chậm tốc độ phát triển.",
+        "Sự kiện này mang ý nghĩa chiến lược quan trọng đối với ngành công nghệ toàn cầu, tác động trực tiếp đến chính sách quản lý AI và định hướng cạnh tranh công nghệ giữa các cường quốc hàng đầu."
+      ],
+      "summary_en": [
+        "The White House is planning a high-level luncheon with top executives from Meta, Google, and OpenAI to address escalating security pressures facing the rapidly growing artificial intelligence sector.",
+        "The meeting is expected to focus on finding a reasonable boundary between technological innovation and appropriate government regulatory oversight without hindering development speed.",
+        "This event holds significant strategic importance for the global tech industry, directly impacting AI governance policies and the trajectory of technological competition among superpowers."
+      ],
+      "originalTitle": "Các tỷ phú công nghệ sắp ăn trưa tại Nhà Trắng, tìm cách 'cân bằng AI'",
+      "url": "https://vnexpress.net/cac-ty-phu-cong-nghe-sap-an-trua-tai-nha-trang-tim-cach-can-bang-ai-5126102.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "OpenAI",
+        "Google",
+        "Meta",
+        "Tech Policy"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-29T08:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/29/20250430T182348Z735214572M2626-5801-4438-1790656503.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=iK7sRCGd-4nTcSdYTrtuTg",
+      "contentSnippet": "Nhà Trắng được cho là đang triệu tập người đứng đầu các công ty AI lớn tại Mỹ trong bối cảnh lĩnh vực đối mặt với áp lực an ninh.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f8d5edb6c22d38b5",
+      "title_vi": "AMD chi 8,2 tỷ USD mua lại startup trí tuệ nhân tạo của Fei-Fei Li",
+      "title_en": "AMD Acquires AI Startup World Labs Founded by Fei-Fei Li for 8.2 Billion USD",
+      "summary_vi": [
+        "Hãng sản xuất chip AMD đã đạt thỏa thuận mua lại startup World Labs do chuyên gia Fei-Fei Li đồng sáng lập với giá trị ước tính lên tới 8,2 tỷ đô la Mỹ hoàn toàn bằng cổ phiếu.",
+        "Thương vụ chiến lược này giúp AMD tích hợp các mô hình trí tuệ nhân tạo tiên tiến để tối ưu hóa thiết kế phần cứng và các hệ thống máy tính hiệu năng cao nhằm cạnh tranh với Nvidia.",
+        "Việc bổ nhiệm Fei-Fei Li làm Phó chủ tịch điều hành kiêm nhà khoa học trưởng đánh dấu bước ngoặt lớn trong chiến lược phát triển phần cứng chuyên dụng cho trí tuệ nhân tạo của AMD."
+      ],
+      "summary_en": [
+        "Chip manufacturer AMD has reached an agreement to acquire artificial intelligence startup World Labs co-founded by expert Fei-Fei Li for an estimated 8.2 billion USD entirely in stock.",
+        "This strategic acquisition helps AMD integrate advanced artificial intelligence models to optimize hardware design and high-performance computer systems to effectively compete with Nvidia.",
+        "The appointment of Fei-Fei Li as Executive Vice President and Chief Scientist marks a major milestone in AMD's strategic development of specialized hardware for artificial intelligence."
+      ],
+      "originalTitle": "AMD chi 8,2 tỷ USD mua lại công ty của 'mẹ đỡ đầu AI'",
+      "url": "https://vnexpress.net/amd-chi-8-2-ty-usd-mua-lai-cong-ty-cua-me-do-dau-ai-5126092.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AMD",
+        "Artificial Intelligence",
+        "Semiconductor",
+        "Fei-Fei Li",
+        "Hardware"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-29T03:49:58.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/29/Li1-1790653607-1408-1790653798.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=7r2KLCYNqw07pUlsOB81Fg",
+      "contentSnippet": "Nhà sản xuất chip AMD mua lại World Labs, startup do Fei-Fei Li, người được mệnh danh là \"mẹ đỡ đầu AI\", đồng sáng lập.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "55fb34d32e37451b",
+      "title_vi": "22 nhà nghiên cứu hàng đầu kêu gọi giám sát khẩn cấp trí tuệ nhân tạo",
+      "title_en": "Top 22 Researchers Call for Urgent Artificial Intelligence Oversight",
+      "summary_vi": [
+        "Nhiều nhà nghiên cứu uy tín từ các tập đoàn công nghệ lớn cùng các chuyên gia đầu ngành đã đưa ra cảnh báo nghiêm trọng về việc sự phát triển quá nhanh của trí tuệ nhân tạo có nguy cơ đe dọa sự tồn vong của nhân loại.",
+        "Báo cáo nhấn mạnh sự cần thiết phải thiết lập các cơ chế kiểm soát kỹ thuật nghiêm ngặt và khung pháp lý minh bạch nhằm giám sát toàn diện vòng đời phát triển của các mô hình ngôn ngữ lớn và hệ thống tự trị.",
+        "Sự kiện này đánh dấu bước chuyển trọng tâm trong ngành công nghệ, buộc các kỹ sư và nhà phát triển phần mềm phải đặt vấn đề an toàn đạo đức lên hàng đầu trong quá trình xây dựng hệ thống."
+      ],
+      "summary_en": [
+        "Renowned researchers from major technology corporations and industry experts have issued a severe warning that the rapid advancement of artificial intelligence poses a critical threat to human survival.",
+        "The report emphasizes the urgent need to establish strict technical control mechanisms and transparent regulatory frameworks to comprehensively monitor the development lifecycle of large language models and autonomous systems.",
+        "This event marks a crucial paradigm shift in the technology sector, compelling software engineers and developers to prioritize ethical safety as a foundational requirement when building modern systems."
+      ],
+      "originalTitle": "22 nhà nghiên cứu hàng đầu kêu gọi giám sát khẩn cấp AI",
+      "url": "https://vnexpress.net/22-nha-nghien-cuu-hang-dau-keu-goi-giam-sat-khan-cap-ai-5126045.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Artificial Intelligence",
+        "AI Safety",
+        "Machine Learning",
+        "Tech Ethics"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-29T03:29:05.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/29/lq-1790650970-6501-1790651038.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ZQuGdO1KJtZQZEgB6CsBTA",
+      "contentSnippet": "Các nhà nghiên cứu tại OpenAI, Anthropic, Microsoft, Meta và chuyên gia đầu ngành cùng cảnh báo sự bùng nổ AI có thể \"gây suy yếu hoặc tuyệt chủng nhân loại\".",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -101,6 +615,40 @@
       "publishedAt": "2026-09-29T02:58:52.000Z",
       "contentSnippet": "OpenAI tạm dừng huấn luyện các mô hình mạnh nhất sau loạt sự cố agent AI \"vượt rào\" Đọc trên Wired thì thấy là OpenAI vừa xác nhận đã tạm dừng huấn luyện các mô hình AI mạnh nhất của mình. Lý do...",
       "authorName": "nhatminhngo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b7186fe91b5d4cda",
+      "title_vi": "Tính năng ẩn giúp giải phóng bộ nhớ smartphone mà không làm mất dữ liệu",
+      "title_en": "Hidden Features to Free Up Smartphone Storage Without Data Loss",
+      "summary_vi": [
+        "Cả hai hệ điều hành phổ biến là Android và iOS hiện nay đều tích hợp sẵn các tính năng tối ưu hóa dung lượng lưu trữ bên trong thiết bị, giúp người dùng dễ dàng xử lý tình trạng quá tải bộ nhớ mà không ảnh hưởng đến dữ liệu cá nhân quan trọng.",
+        "Cơ chế hoạt động của các tính năng này tập trung vào việc tự động gỡ bỏ các ứng dụng ít sử dụng nhưng vẫn giữ lại toàn bộ tài liệu cấu hình, hoặc dọn dẹp bộ nhớ đệm cache hệ thống mà không làm mất đi các tệp tin người dùng đã lưu trữ.",
+        "Giải pháp này mang lại giá trị thực tiễn cao cho người dùng di động khi thiết bị gặp sự cố đầy bộ nhớ, đồng thời tối ưu hóa hiệu suất tổng thể của hệ thống mà không cần nhờ đến các phần mềm can thiệp của bên thứ ba."
+      ],
+      "summary_en": [
+        "Both major operating systems Android and iOS now integrate built-in storage optimization features, allowing users to easily handle device memory overload without impacting essential personal data.",
+        "The operational mechanism of these features focuses on automatically offloading rarely used applications while retaining all configuration profiles, or clearing system cache files without deleting stored user documents.",
+        "This solution delivers high practical value for mobile users facing storage capacity limits while simultaneously optimizing overall system performance without requiring third-party software interventions."
+      ],
+      "originalTitle": "Tính năng ẩn giải phóng bộ nhớ smartphone không gây mất dữ liệu",
+      "url": "https://vnexpress.net/tinh-nang-an-giai-phong-bo-nho-smartphone-khong-gay-mat-du-lieu-5125921.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Android",
+        "iOS",
+        "Mobile Storage",
+        "System Optimization"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-09-29T02:48:38.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/28/dsc0091-1790604612-7812-1790604761.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=X86PFbFh7MJOu07qSWR4XA",
+      "contentSnippet": "Hai hệ điều hành Android và iOS đều cung cấp tính năng giúp giải phóng dung lượng bộ nhớ trên điện thoại mà vẫn giữ nguyên dữ liệu của người dùng.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -720,6 +1268,40 @@
       "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "a565c2999020347b",
+      "title_vi": "Phyllotaxis: Màn hình LED phản ứng theo âm thanh lấy cảm hứng từ thiên nhiên",
+      "title_en": "Phyllotaxis: An audio-reactive LED display",
+      "summary_vi": [
+        "Tác giả khám phá việc mô phỏng các họa tiết sinh học xuất hiện trong tự nhiên thông qua mã nguồn lập trình, cụ thể là cấu trúc xoắn ốc kép phyllotaxis thường thấy ở trung tâm của hoa hướng dương và các loài thực vật khác.",
+        "Bằng cách sử dụng ngôn ngữ lập trình Processing để tạo ra các điểm dữ liệu dựa trên tỷ lệ vàng, kết hợp thư viện CadQuery trong Python để thiết kế đối tượng vật lý tích hợp đèn LED RGB địa chỉ trong từng ô của ma trận.",
+        "Dự án minh họa sự kết hợp sáng tạo giữa lập trình thuật toán hình học và phần cứng nhúng, mang đến nguồn cảm hứng cho các kỹ sư phần mềm khi ứng dụng toán học tự nhiên vào nghệ thuật thị giác."
+      ],
+      "summary_en": [
+        "The author explores simulating biological patterns found in nature through programming code, specifically focusing on the phyllotaxis double spiral structure commonly seen in the center of sunflowers and other plants.",
+        "By utilizing the Processing language to generate data points based on the golden ratio, combined with the CadQuery Python library to design physical objects embedding addressable RGB LEDs within matrix cells.",
+        "This project demonstrates a creative integration of geometric algorithmic programming and embedded hardware, providing inspiration for software engineers applying natural mathematics to visual arts."
+      ],
+      "originalTitle": "Phyllotaxis: An audio-reactive LED display",
+      "url": "https://jagi.studio/posts/phyllotaxis/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Processing",
+        "Python",
+        "LED Matrix",
+        "Algorithms",
+        "Hardware"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-28T16:18:57.000Z",
+      "contentSnippet": "I've been fascinated by understanding patterns that appear in nature, through code. Communing with the inherent emergent patterns that exist in the universe. The phyllotaxis is one such pattern, the expanding double-spiral shape that appears in the center of sunflowers, succulents, other plants. It'",
+      "authorName": "evakhoury",
+      "upvotes": 163,
+      "commentsCount": 21
     },
     {
       "id": "ec0fdf120e95bb0e",
@@ -7819,538 +8401,6 @@
       "publishedAt": "2026-09-19T15:25:03.000Z",
       "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25290334/STK255_Google_Gemini_D.jpg?quality=90&strip=all&crop=0,0,100,100",
       "contentSnippet": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in sim",
-      "authorName": "Terrence O’Brien",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "63949cebbca36a09",
-      "title_vi": "Thử những tính năng AI chỉnh sửa hình iOS 27 trên iPhone 18 Pro Max",
-      "title_en": "Try iOS 27 photo editing AI features on iPhone 18 Pro Max",
-      "summary_vi": [
-        "Trải nghiệm và so sánh các tính năng AI chỉnh sửa hình ảnh của iOS 27 trên nhiều thế hệ thiết bị iPhone.",
-        "Đánh giá hiệu năng của bộ tăng tốc thần kinh NPU khi xử lý các tác vụ tách nền, xóa vật thể và phục dựng ảnh.",
-        "Khảo sát mức độ tiêu thụ năng lượng và độ mượt mà của giao diện trong các tác vụ sáng tạo trực quan."
-      ],
-      "summary_en": [
-        "Comparative hands-on analysis of iOS 27 computational photography and AI image editing features across device generations.",
-        "Evaluates on-device Neural Engine throughput for segmentation, background inpainting, and object removal tasks.",
-        "Assesses battery consumption profiles and UI responsiveness during intensive visual editing workflows."
-      ],
-      "originalTitle": "Thử những tính năng AI chỉnh sửa hình iOS 27 trên iPhone 18 Pro Max",
-      "url": "https://tinhte.vn/thread/thu-nhung-tinh-nang-ai-chinh-sua-hinh-ios-27-tren-iphone-18-pro-max.4178135/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-19T15:06:32.000Z",
-      "contentSnippet": "Sẵn đang có iPhone 18 Pro Max ở đây thì thử luôn những tính năng mới trên iOS 27 chạy trên chiếc điện thoại này như thế nào, coi nó có khác biệt gì nếu so với iOS 27 trên những chiếc điện thoại.",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "bb8b06c8a13d267f",
-      "title_vi": "AI có cần được miễn trừ chống độc quyền để không giết chết tất cả mọi người không????",
-      "title_en": "Does AI need an antitrust exemption so it doesn’t kill everyone????",
-      "summary_vi": [
-        "Hôm nay trên Decoding, chúng ta có phần đầu tiên trong loạt bài gồm hai phần về tương lai của doanh nghiệp và tôi đang nói chuyện với Jonathan Kanter, cựu giám đốc chống độc quyền của Bộ Tư pháp Hoa Kỳ trong chính quyền Biden.",
-        "Hiện nay, ông vừa là giáo sư luật tại WashU vừa là giáo sư chính sách công nghệ tại Carnegie Mellon.",
-        "Câu chuyện lớn nhất trong lĩnh vực công nghệ hiện nay là cuộc tranh luận gay gắt về quy định và an toàn AI."
-      ],
-      "summary_en": [
-        "Today on Decoder, we’ve got the first of a two-part series on the future of business, and I’m talking with Jonathan Kanter, the former antitrust chief for the US Department of Justice in the Biden administration.",
-        "These days, he’s both a professor of law at WashU and professor of technology policy at Carnegie Mellon.",
-        "The biggest story in tech right now is the spiraling debate about AI safety and regulation."
-      ],
-      "originalTitle": "Does AI need an antitrust exemption so it doesn’t kill everyone????",
-      "url": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 94,
-      "readTimeMinutes": 8,
-      "publishedAt": "2026-09-19T14:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DCD_2026-09-19_Kanter.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Today on Decoder, we’ve got the first of a two-part series on the future of business, and I’m talking with Jonathan Kanter, the former antitrust chief for the US Department of Justice in the Biden administration. These days, he’s both a professor of law at WashU and professor of technology policy at",
-      "authorName": "Nilay Patel",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "79e6d15835f255d2",
-      "title_vi": "Việc dỡ bỏ quy định về AI vẫn chưa kết thúc",
-      "title_en": "The AI regulation smackdown isn’t over",
-      "summary_vi": [
-        "Vào đầu tuần này, ai là ai của AI dường như - ít nhất là tạm thời - đứng về phía các quy định về AI.",
-        "Cuối tuần qua, Giám đốc điều hành Anthropic Dario Amodei đã đề xuất một kế hoạch gồm ba bước để làm chậm quá trình phát triển AI, bao gồm việc đưa các chuyên gia đánh giá của bên thứ ba vào phòng thí nghiệm, điều phối toàn ngành trong nước và xây dựng các thỏa thuận quốc tế có thể với sự hỗ trợ của chính phủ.",
-        "Giám đốc điều hành OpenAI Sam Altman, đồng sáng lập Google DeepMind Demis Hassabis và thậm chí cả Giám đốc điều hành SpaceX Elon Musk dường như đều công khai đồng ý về các khía cạnh của cả ba điều."
-      ],
-      "summary_en": [
-        "At the start of this week, the who's-who of AI seemed - at least tentatively - on the side of AI regulation.",
-        "Over the weekend, Anthropic CEO Dario Amodei had proposed a three-step plan for slowing AI development, including by embedding third-party evaluators in labs, coordinating across the domestic industry, and forging international agreements potentially with government assistance.",
-        "OpenAI CEO Sam Altman, Google DeepMind co-founder Demis Hassabis, and even SpaceX CEO Elon Musk publicly seemed to agree on aspects of all three things."
-      ],
-      "originalTitle": "The AI regulation smackdown isn’t over",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-19T13:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_C.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "At the start of this week, the who's-who of AI seemed - at least tentatively - on the side of AI regulation. Over the weekend, Anthropic CEO Dario Amodei had proposed a three-step plan for slowing AI development, including by embedding third-party evaluators in labs, coordinating across the domestic",
-      "authorName": "Hayden Field",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "80c04127cf79cd51",
-      "title_vi": "Tin vui cho người dùng iPhone cũ, làm điều này ngay để điện thoại chạy nhanh hơn",
-      "title_en": "Good news for old iPhone users, do this now to make your phone run faster",
-      "summary_vi": [
-        "Apple đã chính thức tung ra hệ sinh thái hệ điều hành mới nhất, trong đó iOS 27 nhận được sự quan tâm lớn nhất.",
-        "Không đơn thuần là bổ sung tính năng, Apple đã tập trung mạnh mẽ vào việc tối ưu hóa trải nghiệm cốt lõi.",
-        "Hãng cho biết iOS 27 giúp thời gian mở ứng dụng nhanh hơn tới 30% và tốc độ tải ảnh mới trong thư viện tăng đến 70%."
-      ],
-      "summary_en": [
-        "Apple has officially launched the latest operating system ecosystem, in which iOS 27 has received the greatest attention.",
-        "More than simply adding features, Apple has focused strongly on optimizing the core experience.",
-        "The company said iOS 27 makes app opening times up to 30% faster and the speed of loading new photos in the library increases up to 70%."
-      ],
-      "originalTitle": "Tin vui cho người dùng iPhone cũ, làm điều này ngay để điện thoại chạy nhanh hơn",
-      "url": "https://genk.vn/tin-vui-cho-nguoi-dung-iphone-cu-lam-dieu-nay-ngay-de-dien-thoai-chay-nhanh-hon-16526091919253742.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 94,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-19T12:52:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/19/avatar1789820680168-1789820680787869960060.jpeg",
-      "contentSnippet": "Người dùng nhiều mẫu iPhone cũ, từ iPhone 11 trở về sau nên cập nhật iOS 27 để sử dụng mượt mà hơn.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "85dec6bba0f470c6",
-      "title_vi": "Gemini tấn công mạng, đoán mật khẩu người dùng",
-      "title_en": "Gemini attacks the network, guessing user passwords",
-      "summary_vi": [
-        "WSJ cho biết cuộc tấn công của Gemini xảy ra từ tháng 5, nhưng chỉ được Google phát hiện sau đó hai tháng.",
-        "Đây là diễn biến mới nhất trong các vụ AI mất kiểm soát, vốn gây ra nhiều lo ngại về an toàn trên mạng Internet.",
-        "\"Trong đợt đánh giá tiêu chuẩn, mô hình đã tìm thấy các dữ liệu công khai trên mạng và đoán thông tin xác thực của người dùng để truy cập những website mà nó tin là một phần của bài kiểm tra\", Heather Adkins, Phó chủ tịch Google phụ trách kỹ thuật an ninh, nói với AFP."
-      ],
-      "summary_en": [
-        "WSJ said the Gemini attack occurred in May, but was only discovered by Google two months later.",
-        "This is the latest development in out-of-control AI cases, which have caused many concerns about safety on the Internet.",
-        "\"During the standard assessment, the model found publicly available data online and guessed users' credentials to access websites it believed were part of the test,\" Heather Adkins, Google's vice president of security engineering, told AFP."
-      ],
-      "originalTitle": "Gemini tấn công mạng, đoán mật khẩu người dùng",
-      "url": "https://vnexpress.net/gemini-tan-cong-mang-doan-mat-khau-nguoi-dung-5122237.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Gemini"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-19T11:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/19/dsc01105-jpg-1789803749-8828-1789803808.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ZYhD_D_l2-BQbM7MtlwbIw",
-      "contentSnippet": "Google thừa nhận mô hình Gemini đã tấn công một số hệ thống bằng cách đoán mật khẩu đăng nhập.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4fbbeab3f42ed3c7",
-      "title_vi": "Tổng hợp những lỗi cơ bản thường gặp khi mới bắt đầu lập trình Go (Golang) và cách khắc phục",
-      "title_en": "Summary of common basic errors when starting Go programming (Golang) and how to fix them",
-      "summary_vi": [
-        "Tổng hợp các lỗi lập trình thường gặp của kỹ sư khi mới chuyển đổi sang ngôn ngữ Go (Golang).",
-        "Phân tích cơ chế xử lý goroutine rò rỉ, race condition và sự khắt khe của trình biên dịch Go đối với quản lý bộ nhớ.",
-        "Cung cấp quy tắc viết mã idiomatic Go giúp tối ưu hóa hiệu năng và độ ổn định của hệ thống backend."
-      ],
-      "summary_en": [
-        "Curated overview of common architectural pitfalls encountered by engineers adopting the Go programming language.",
-        "Analyzes goroutine leaks, concurrency race conditions, and compiler constraints governing memory management.",
-        "Delivers idiomatic Go design patterns that elevate backend system concurrency and execution performance."
-      ],
-      "originalTitle": "Tổng hợp những lỗi cơ bản thường gặp khi mới bắt đầu lập trình Go (Golang) và cách khắc phục",
-      "url": "https://viblo.asia/p/tong-hop-nhung-loi-co-ban-thuong-gap-khi-moi-bat-dau-lap-trinh-go-golang-va-cach-khac-phuc-kNLr3n7lVgA",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Go"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-19T09:25:37.000Z",
-      "contentSnippet": "Golang (Go) nổi tiếng là ngôn ngữ đơn giản, hiện đại và có cú pháp tinh gọn. Tuy nhiên, đối với người mới bắt đầu, sự khắt khe của trình biên dịch Go ...",
-      "authorName": "Cô Gái IT",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b9c21ef0e3f58c4a",
-      "title_vi": "Áp phích do AI tạo ra không cần phải quá kinh khủng",
-      "title_en": "AI-generated posters don’t have to be horrible",
-      "summary_vi": [
-        "Một bài đăng nổi tiếng hiện nay trên Facebook cho chúng ta thấy tai họa của các áp phích nhận dạng do AI tạo ra.",
-        "Đây là một bài viết về chủ đề này từ tờ Independent.",
-        "Đây là một cái khác tôi tìm thấy trong tự nhiên."
-      ],
-      "summary_en": [
-        "A now famous Facebook post shows us the scourge of identikit posters generated by AI.",
-        "Here’s an article on the subject from the Independent.",
-        "Here’s another I found in the wild."
-      ],
-      "originalTitle": "AI-generated posters don’t have to be horrible",
-      "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-19T09:20:58.000Z",
-      "contentSnippet": "A now famous Facebook post shows us the scourge of identikit posters generated by AI. Here’s an article on the subject from the Independent. Here’s another I found in the wild. With apologies for picking on the Leamington Beer Festival - they are by no means unique The problem with these is not so m",
-      "authorName": "ereiamjh",
-      "upvotes": 433,
-      "commentsCount": 286
-    },
-    {
-      "id": "2939b34eb7e7b0df",
-      "title_vi": "Hiểu rõ những cạm bẫy khi sử dụng async/await trong JavaScript",
-      "title_en": "Navigating Async Await Pitfalls and Performance Bottlenecks in Modern JavaScript Applications",
-      "summary_vi": [
-        "Bài viết phân tích sâu sắc về các cạm bẫy phổ biến khi lập trình viên áp dụng cú pháp async/await trong các dự án JavaScript hiện đại, giúp nhận diện sớm lỗi hiệu năng tiềm ẩn trong mã nguồn.",
-        "Tác giả mổ xẻ chi tiết cơ chế xử lý bất đồng bộ của vòng lặp sự kiện, cách quản lý Promise không tối ưu và hiện tượng chặn luồng chính gây suy giảm hiệu suất ứng dụng web nghiêm trọng.",
-        "Thông qua các ví dụ thực tế, kỹ sư phần mềm có thể cải thiện đáng kể kỹ năng viết mã sạch, tối ưu hóa thời gian phản hồi và xây dựng hệ thống JavaScript ổn định, bền vững hơn."
-      ],
-      "summary_en": [
-        "The article provides a deep dive into common pitfalls developers encounter when implementing the async/await syntax in modern JavaScript projects, helping teams identify early performance bottlenecks.",
-        "The author dissects the event loop asynchronous processing mechanism, suboptimal Promise management patterns, and main thread blocking issues that severely degrade web application performance.",
-        "Through practical code examples, software engineers can significantly improve clean coding skills, optimize execution response times, and build more robust, scalable JavaScript systems."
-      ],
-      "originalTitle": "Understanding async/await pitfalls in JavaScript",
-      "url": "https://viblo.asia/p/understanding-asyncawait-pitfalls-in-javascript-pPLkNbrnJRZ",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "JavaScript"
-      ],
-      "hotScore": 90,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-19T08:40:12.000Z",
-      "contentSnippet": "",
-      "authorName": "EME GUG",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "34b5277e1b11bd3f",
-      "title_vi": "AI Claude tham gia phát triển phiên bản tiếp theo của chính nó",
-      "title_en": "AI Claude participates in developing the next version of itself",
-      "summary_vi": [
-        "Anthropic thử nghiệm hệ thống cho phép mô hình AI Claude tự động điều khiển trang thiết bị và tiến hành các thí nghiệm khoa học độc lập.",
-        "Kết hợp LLM đa phương thức với cánh tay robot, kính hiển vi và giao thức điều khiển API phần cứng phòng thí nghiệm.",
-        "Đột phá lớn trong tự động hóa nghiên cứu khoa học (AI for Science), rút ngắn thời gian phát minh vật liệu và dược phẩm mới."
-      ],
-      "summary_en": [
-        "Anthropic pilots autonomous systems enabling Claude AI to interface with physical laboratory instruments and execute wet-lab experiments.",
-        "Connects multimodal LLM planners with robotic actuators, automated microscopes, and low-level hardware control protocols.",
-        "Marks a pivotal leap in AI for Science automation, accelerating discoveries in materials science, biochemistry, and molecular biology."
-      ],
-      "originalTitle": "AI Claude tham gia phát triển phiên bản tiếp theo của chính nó",
-      "url": "https://vnexpress.net/ai-claude-tham-gia-phat-trien-phien-ban-tiep-theo-cua-chinh-no-5121950.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Claude"
-      ],
-      "hotScore": 84,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-19T08:22:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/18/lq026201-1789724009-3008-1789724452.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=CCCVmRYTUfucFVjymOvP3g",
-      "contentSnippet": "Công ty Anthropic cho biết AI Claude đang dẫn dắt khoảng 26% hoạt động nghiên cứu và phát triển (R&D) mô hình tiếp theo của công ty.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0966812459acbfd3",
-      "title_vi": "Giới công nghệ 'chia phe' vì AI nổi loạn",
-      "title_en": "The technology world is 'divided into factions' because AI is rebellious",
-      "summary_vi": [
-        "Lời cảnh báo về nguy cơ AI vượt kiểm soát và tiêu diệt nhân loại khiến giới công nghệ chia thành hai phe tranh luận gay gắt.",
-        "Trong khi nhiều lãnh đạo phòng thí nghiệm AI tiên tiến như CEO Anthropic Dario Amodei hay CEO OpenAI Sam Altman cho rằng cần giảm tốc độ phát triển AI để đảm bảo an toàn, Tổng thống Mỹ Donald Trump và CEO Nvidia Jensen Huang phản đối việc đặt ra giới hạn phát triển.",
-        "Bên kêu gọi làm chậm tốc độ phát triển AI Làn sóng tranh luận về nguy cơ AI vượt kiểm soát bắt đầu giữa tuần trước, khi Jacob Coxon, nhà nghiên cứu cấp cao của Anthropic và từng làm cho OpenAI, tuyên bố từ chức."
-      ],
-      "summary_en": [
-        "The warning about the risk of AI going out of control and destroying humanity has divided the technology community into two fierce debates.",
-        "While many leaders of advanced AI laboratories such as Anthropic CEO Dario Amodei or OpenAI CEO Sam Altman believe that it is necessary to reduce the speed of AI development to ensure safety, US President Donald Trump and Nvidia CEO Jensen Huang oppose setting development limits.",
-        "The side calling for slowing down the pace of AI development The wave of debate about the risk of AI going out of control began in the middle of last week, when Jacob Coxon, a senior researcher at Anthropic and formerly of OpenAI, announced his resignation."
-      ],
-      "originalTitle": "Giới công nghệ 'chia phe' vì AI nổi loạn",
-      "url": "https://vnexpress.net/gioi-cong-nghe-chia-phe-vi-ai-noi-loan-5121529.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-19T03:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/17/20260219t101117z14433150486479-5333-1293-1789647097.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=WZK62oxMQTF4CqVjzGAovQ",
-      "contentSnippet": "Lời cảnh báo về nguy cơ AI vượt kiểm soát và tiêu diệt nhân loại khiến giới công nghệ chia thành hai phe tranh luận gay gắt.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4720a1cad03a75ef",
-      "title_vi": "Tiếp tục soi màn hình iPhone Duo so với iPhone 18 Pro Max.",
-      "title_en": "Continue examining the iPhone Duo screen compared to the iPhone 18 Pro Max.",
-      "summary_vi": [
-        "Tiếp tục soi màn hình iPhone Duo so với iPhone 18 Pro Max.",
-        "Trong hình anh em thấy tác giả so sánh độ sáng hai màn hình.",
-        "Độ sáng iPhone 18 Pro Max có vẻ sáng hơn."
-      ],
-      "summary_en": [
-        "Continue examining the iPhone Duo screen compared to the iPhone 18 Pro Max.",
-        "In the picture you can see the author comparing the brightness of the two screens.",
-        "iPhone 18 Pro Max brightness seems brighter."
-      ],
-      "originalTitle": "Tiếp tục soi màn hình iPhone Duo so với iPhone 18 Pro Max.",
-      "url": "https://tinhte.vn/thread/tiep-tuc-soi-man-hinh-iphone-duo-so-voi-iphone-18-pro-max.4177803/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 96,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-19T02:22:18.000Z",
-      "contentSnippet": "Tiếp tục soi màn hình iPhone Duo so với iPhone 18 Pro Max. Trong hình anh em thấy tác giả so sánh độ sáng hai màn hình. Độ sáng iPhone 18 Pro Max có vẻ sáng hơn. Tuy nhiên anh em nhìn vào.",
-      "authorName": "cuhiep",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a5943bbe4f7bda57",
-      "title_vi": "Khoa học là phần mềm mở",
-      "title_en": "Science Is Open Software",
-      "summary_vi": [
-        "TL;DR Tôi khẳng định rằng khoa học hiện đại đồng nghĩa với phần mềm nguồn mở.",
-        "Bài đăng này giải thích lý do, tại sao nó quan trọng và những gì bạn có thể (và nên) làm tiếp theo.",
-        "Tôi dành nhiều thời gian làm việc trên phần mềm."
-      ],
-      "summary_en": [
-        "TL;DR I claim that modern science is synonymous with open source software.",
-        "This post explains why, why it matters, and what you can (and should) do next.",
-        "I spend a lot of my time working on software."
-      ],
-      "originalTitle": "Science Is Open Software",
-      "url": "https://jepedersen.dk/blog/202505_research/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-19T02:21:35.000Z",
-      "contentSnippet": "TL;DR I claim that modern science is synonymous with open source software. This post explains why, why it matters, and what you can (and should) do next. I spend a lot of my time working on software. I have been asked why software matters more times than I can remember. Software is, people say, not",
-      "authorName": "jegp",
-      "upvotes": 6,
-      "commentsCount": 2
-    },
-    {
-      "id": "4ed0e10538365e58",
-      "title_vi": "Tháo rời 'soi' linh kiện iPhone 18 Pro Max tại Việt Nam",
-      "title_en": "Disassemble 'examine' iPhone 18 Pro Max components in Vietnam",
-      "summary_vi": [
-        "iPhone 18 Pro Max được tháo rời, cho thấy có nhiều chi tiết và kết cấu bên trong thay đổi so với iPhone 17 Pro Max dù ngoại hình tương đồng.",
-        "Đột phá về trải nghiệm giao diện người dùng (UI/UX), tối ưu hóa thời gian kết xuất (render performance) và năng lực tương thích đa nền tảng.",
-        "Thúc đẩy cộng đồng lập trình viên Mobile và Web áp dụng các tiêu chuẩn công nghệ mới nhằm tối ưu hóa trải nghiệm khách hàng."
-      ],
-      "summary_en": [
-        "iPhone 18 Pro Max is disassembled, showing that many internal details and structures have changed compared to iPhone 17 Pro Max even though the appearance is similar.",
-        "Highlights breakthroughs in UI/UX rendering performance, responsive cross-platform frameworks, and modern client hardware optimization.",
-        "Encourages mobile and frontend engineers to adopt next-generation standards for high-performance user experiences."
-      ],
-      "originalTitle": "Tháo rời 'soi' linh kiện iPhone 18 Pro Max tại Việt Nam",
-      "url": "https://vnexpress.net/thao-roi-soi-linh-kien-iphone-18-pro-max-tai-viet-nam-5122052.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-19T02:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/18/Screenshot-2026-09-18-at-21-1789746211.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=1SclVplzUj1Yas3TVwsidQ",
-      "contentSnippet": "iPhone 18 Pro Max được tháo rời, cho thấy có nhiều chi tiết và kết cấu bên trong thay đổi so với iPhone 17 Pro Max dù ngoại hình tương đồng.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0acf75dd99e9d7e2",
-      "title_vi": "Bỏ tiền mua \"tích xanh\" chưa đủ: Meta tung hàng loạt gói thuê bao đắt đỏ nhắm vào doanh nghiệp và dân cày AI, tham vọng \"móc túi\" người dùng đến cùng",
-      "title_en": "Spending money on \"green accumulation\" is not enough: Meta launches a series of expensive subscription packages aimed at businesses and AI farmers, with the ambition of \"pickpocketing\" users to the end",
-      "summary_vi": [
-        "Không dừng lại ở việc bán \"tích xanh\" tài khoản, Mark Zuckerberg đang biến Facebook và Instagram thành nền tảng \"trả phí theo nhu cầu\" đối với các nhà sáng tạo nội dung, doanh nghiệp và cả người dùng AI với mức giá lên tới hàng trăm USD mỗi tháng.",
-        "Tập trung vào cấu trúc mạng nơ-ron, quy trình huấn luyện mô hình ngôn ngữ lớn (LLM), cơ chế tối ưu suy luận và kiểm soát an toàn thuật toán.",
-        "Định hình tiêu chuẩn phát triển AI có trách nhiệm, mang lại kinh nghiệm thực tiễn quan trọng cho kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "Not stopping at selling \"green\" accounts, Mark Zuckerberg is turning Facebook and Instagram into \"pay-on-demand\" platforms for content creators, businesses and even AI users with prices up to hundreds of dollars per month.",
-        "Focuses on neural architecture, LLM training pipelines, inference optimization, and algorithmic safety benchmarks.",
-        "Shapes responsible AI deployment standards while delivering actionable architectural insights for software engineers integrating AI."
-      ],
-      "originalTitle": "Bỏ tiền mua \"tích xanh\" chưa đủ: Meta tung hàng loạt gói thuê bao đắt đỏ nhắm vào doanh nghiệp và dân cày AI, tham vọng \"móc túi\" người dùng đến cùng",
-      "url": "https://genk.vn/bo-tien-mua-tich-xanh-chua-du-meta-tung-hang-loat-goi-thue-bao-dat-do-nham-vao-doanh-nghiep-va-dan-cay-ai-tham-vong-moc-tui-nguoi-dung-den-cung-16526091907510947.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 90,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-19T01:20:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/19/avatar1789779034814-17897790353481259600594.jpg",
-      "contentSnippet": "Không dừng lại ở việc bán \"tích xanh\" tài khoản, Mark Zuckerberg đang biến Facebook và Instagram thành nền tảng \"trả phí theo nhu cầu\" đối với các nhà sáng tạo nội dung, doanh nghiệp và cả người dùng AI với mức giá lên tới hàng trăm USD mỗi tháng.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a0f6ca13774f0f97",
-      "title_vi": "Vì sao `filter(Boolean)` không phải là bộ lọc Nullish trong TypeScript",
-      "title_en": "Why is `filter(Boolean)` not a Nullish filter in TypeScript",
-      "summary_vi": [
-        "Phân tích vì sao phương thức filter(Boolean) trong JavaScript/TypeScript có thể gây hiểu nhầm về mặt suy luận kiểu.",
-        "Khám phá cơ chế Type Narrowing và cách sử dụng Type Predicate tùy chỉnh để đảm bảo an toàn kiểu dữ liệu.",
-        "Đề xuất các giải pháp thay thế chuẩn mực giúp mã nguồn rõ ràng, tường minh và tránh lỗi runtime tiềm ẩn."
-      ],
-      "summary_en": [
-        "In-depth critique of why JavaScript/TypeScript filter(Boolean) fails to narrow array types correctly by default.",
-        "Explores type narrowing mechanics and demonstrates custom Type Predicates to guarantee end-to-end type safety.",
-        "Recommends idiomatic TypeScript patterns that eliminate silent runtime bugs and clarify developer intent."
-      ],
-      "originalTitle": "Vì sao `filter(Boolean)` không phải là bộ lọc Nullish trong TypeScript",
-      "url": "https://viblo.asia/p/vi-sao-filterboolean-khong-phai-la-bo-loc-nullish-trong-typescript-oW4oeAMXLml",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "TypeScript"
-      ],
-      "hotScore": 89,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-18T22:12:54.000Z",
-      "contentSnippet": "Xin chào! Mình là @nyaomaru, một Frontend Engineer và cũng đang xây dựng một vài dự án OSS nhỏ bằng TypeScript. Hôm nay mình muốn nói về một dòng ...",
-      "authorName": "nyaoamru",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "77c8259d9da29915",
-      "title_vi": "Người Việt chi hơn 1.500 tỷ đồng mua iPhone 18 Pro Max, 18 Pro ngày đầu",
-      "title_en": "Vietnamese people spent more than 1,500 billion VND buying iPhone 18 Pro Max and 18 Pro on the first day",
-      "summary_vi": [
-        "Các hệ thống bán lẻ ước tính doanh thu bộ đôi iPhone 18 Pro và 18 Pro Max vượt mức 1.500 tỷ đồng trong ngày đầu mở bán tại Việt Nam.",
-        "TopZone, hệ thống chuyên bán hàng Apple thuộc Thế Giới Di Động, cho biết đã nhận được hơn 180.000 đơn đặt trước cho hai mẫu iPhone thế hệ mới từ 12/9.",
-        "Trong ngày đầu mở bán 18/9, họ đã giao gần 20.000 máy tới tay khách hàng, 90% trong số đó là bản Pro Max."
-      ],
-      "summary_en": [
-        "Retail systems estimate that sales of the iPhone 18 Pro and 18 Pro Max duo exceeded VND 1,500 billion on the first day of sale in Vietnam.",
-        "TopZone, the Apple sales system belonging to Mobile World, said it has received more than 180,000 pre-orders for two new generation iPhone models since September 12.",
-        "On the first day of sale on September 18, they delivered nearly 20,000 devices to customers, 90% of which were Pro Max versions."
-      ],
-      "originalTitle": "Người Việt chi hơn 1.500 tỷ đồng mua iPhone 18 Pro Max, 18 Pro ngày đầu",
-      "url": "https://vnexpress.net/nguoi-viet-chi-hon-1-500-ty-dong-mua-iphone-18-pro-max-18-pro-ngay-dau-5122016.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 97,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-18T22:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/18/iphone-pro-max-the-bang-jfif-1-7682-6071-1789735576.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=3tBKgGlgZMzgjOnMmI-0cg",
-      "contentSnippet": "Các hệ thống bán lẻ ước tính doanh thu bộ đôi iPhone 18 Pro và 18 Pro Max vượt mức 1.500 tỷ đồng trong ngày đầu mở bán tại Việt Nam.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1bc0911d200ab4e3",
-      "title_vi": "OpenAI và Microsoft biết rằng họ đang bắt đầu một 'vòng lặp diệt vong' cho web",
-      "title_en": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
-      "summary_vi": [
-        "Các tài liệu tòa án chưa được niêm phong gần đây trong vụ kiện của New York Times chống lại OpenAI và Microsoft khá tai hại.",
-        "Tài liệu riêng của công ty cảnh báo rằng họ đang bắt đầu một \"vòng lặp diệt vong\" sẽ làm hỏng trang web, mô tả việc thu thập dữ liệu để huấn luyện các mô hình của họ là \"vụ trộm cắp lao động lớn nhất trong lịch sử loài người\" và rằng nó đã \"hoàn toàn chế nhạo ý tưởng sử dụng hợp pháp\". Nhiều trích dẫn bắt mắt nhất trong tài liệu này đến từ Giám đốc Khoa học Ứng dụng của Microsoft, Brent Hecht.",
-        "Tuy nhiên, công ty đã cố gắng tránh xa những khẳng định của Hecht."
-      ],
-      "summary_en": [
-        "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning.",
-        "The companies' own documentation warned that it was starting a \"doom loop\" that would damage the web, characterized its scraping of data to train its models as the \"largest theft of labor in human history,\" and that it made a \"complete mockery of the idea of fair use.\" Many of the most eye-catching quotes from the document come from Microsoft's Director of Applied Science, Brent Hecht.",
-        "Though, the company has tried to distance itself from Hecht's assertions."
-      ],
-      "originalTitle": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "SoftwareEngineering",
-        "Tech"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-18T21:07:24.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS534_AI_DOOMSDAY2_B.png?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The companies' own documentation warned that it was starting a \"doom loop\" that would damage the web, characterized its scraping of data to train its models as the \"largest theft of labor i",
       "authorName": "Terrence O’Brien",
       "upvotes": 0,
       "commentsCount": 0
