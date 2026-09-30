@@ -1,7 +1,6 @@
 ---
 name: data-integrity-guard
-description: >-
-  Quy chuẩn kỹ thuật bắt buộc nhằm đảm bảo tính toàn vẹn dữ liệu, chống ảo giác (Anti-Hallucination), loại bỏ việc lạm dụng toán tử OR (||) mơ hồ, và chuẩn hóa cơ chế trích xuất dữ liệu bằng Zod Schema và Nullish Coalescing (??).
+description: Quy chuẩn toàn vẹn dữ liệu, chống ảo giác, cấm toán tử || mơ hồ và chuẩn hóa Zod schema.
 ---
 
 # Data Integrity & Clean Logic Guard Skill

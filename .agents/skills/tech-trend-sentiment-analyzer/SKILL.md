@@ -1,7 +1,6 @@
 ---
 name: tech-trend-sentiment-analyzer
-description: >-
-  Cung cấp quy trình, thuật toán và prompt templates chuẩn để phân tích chuyên sâu nội dung bài viết công nghệ, khai phá bình luận cộng đồng lập trình viên (Hacker News, Dev.to, Tinhte), dự báo xu hướng IT và tính điểm nóng (Hotness Score) động.
+description: Thuật toán phân tích xu hướng IT, tâm lý cộng đồng kỹ sư và điểm nóng bài viết động.
 ---
 
 # Tech Trend & Sentiment Analyzer Skill

@@ -1,7 +1,6 @@
 ---
 name: gemini-news-summarizer
-description: >-
-  Cung cấp system prompt v2 (Strict Bilingual Mode), JSON schema và quy trình gọi Gemini Pro API để phân tích, tóm tắt song ngữ (VI & EN), kiểm duyệt liên quan IT (isITRelated), gán tags và tính điểm nóng (Hot Score) cho các bài báo công nghệ. Bao gồm 3-lớp guard kiểm tra chất lượng song ngữ sau khi parse.
+description: System prompt v2, JSON schema và quy trình gọi Gemini Pro tóm tắt song ngữ VI/EN chuẩn IT.
 ---
 
 # Gemini Pro News Summarizer Skill (v2 — Strict Bilingual Mode)

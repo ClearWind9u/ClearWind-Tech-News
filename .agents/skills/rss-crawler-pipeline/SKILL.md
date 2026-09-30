@@ -1,7 +1,6 @@
 ---
 name: rss-crawler-pipeline
-description: >-
-  Cung cấp danh mục nguồn RSS công nghệ chất lượng cao (ưu tiên Việt Nam 70% + Quốc tế 30%), cùng hướng dẫn parse RSS và trích xuất nội dung bài viết an toàn.
+description: Danh mục nguồn RSS công nghệ (70% VN, 30% Quốc tế) và quy trình cào tin an toàn.
 ---
 
 # RSS Crawler Pipeline Skill

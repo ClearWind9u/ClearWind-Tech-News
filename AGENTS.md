@@ -1,41 +1,31 @@
-# ClearWind Tech News - Development Guidelines & Architecture
+# ClearWind Tech News — Agent Guidelines & Invariants
 
-Chào mừng bạn đến với dự án **ClearWind Tech News (Báo Công nghệ & IT Tự động)**!
+Hệ thống quy chuẩn kỹ thuật và kiến trúc cốt lõi của dự án **ClearWind Tech News**. Mọi AI Agent tham gia phát triển bắt buộc tuân thủ 100%.
 
-## 1. Mục tiêu cốt lõi của dự án
-- **Hoàn toàn tự động 24/7**: Tự động lấy tin RSS, dùng **Gemini Pro** để tóm tắt & phân tích, cập nhật website không cần can thiệp thủ công.
-- **Chi phí vận hành 0đ (Free Tier 100%)**: Deploy trên Vercel / Cloudflare Pages, tự động hóa bằng GitHub Actions Cron.
-- **Tasteful Design**: Giao diện hiện đại (phong cách Linear / Daily.dev), Dark mode cao cấp, micro-interactions, responsive mobile/desktop.
-- **Song ngữ (Bilingual)**: Hỗ trợ tiếng Việt 🇻🇳 và tiếng Anh 🇺🇸 (ưu tiên 70% nguồn tin IT Việt Nam).
-- **Zero Login Friction**: Độc giả không cần đăng nhập, hỗ trợ Bookmark bài viết bằng `localStorage`.
+## 1. Tech Stack & Infrastructure (0đ Free Tier)
+- **Frontend**: Next.js 14+ (App Router), TypeScript, Tailwind CSS, Lucide React icons (`lucide-react`).
+- **Data Engine**: Node.js / TypeScript (`tsx`), `rss-parser`, Zod schema, `@google/generative-ai` (Gemini Pro).
+- **Storage Layer**: `data/news.json` (Git-as-Database) + MongoDB Atlas fallback (`lib/mongodb.ts`).
+- **Hosting & CI/CD**: Vercel SSG/ISR, GitHub Actions Cron (`update_news.yml`, `daily_link_audit.yml`, `weekly_merge_develop_to_main.yml`).
 
-## 2. Quy chuẩn kỹ thuật (Tech Stack)
-- **Frontend Framework**: Next.js 14+ (App Router), TypeScript, Tailwind CSS, Lucide React icons.
-- **Data Engine**: Node.js / TypeScript crawler, `rss-parser`, Zod schema validation, `@google/genai` (Gemini Pro).
-- **Data Storage**: `data/news.json` (Git-as-Database) - an toàn, bảo mật, version-controlled.
-- **Automation**: GitHub Actions workflow cron (`.github/workflows/update_news.yml`).
+## 2. Immutable Invariants (Quy Chuẩn Bất Biến)
+*Chi tiết tại `INVARIANTS.md` và skill `project-invariants-keeper`*:
+1. **Dark / Light Mode**: 100% component hỗ trợ 2 theme qua class `.dark`, không hardcode màu chết (`bg-slate-50 dark:bg-[#090A0F]`).
+2. **Song ngữ VI / EN**: Mọi text tĩnh lấy từ `t.<key>` trong `BilingualContext.tsx`. Tin quốc tế ở chế độ VI phải dịch chuẩn thuật ngữ IT (`title_vi`, `summary_vi`), không lọt tiếng Anh thô.
+3. **Thư viện Icon Lucide**: 100% dùng `lucide-react`. **CẤM TUYỆT ĐỐI** chèn raw emoji (`🇻🇳`, `🌐`, `🔥`, `⚡`, `✨`...) vào JSX làm icon.
+4. **Spotlight Search Duy Nhất**: Chỉ dùng thanh tìm kiếm `⌘K` trên Navbar. Không tạo thêm ô search trùng lặp dưới Feed.
+5. **Zero Login Friction**: Độc giả không cần đăng nhập. Bookmark, lịch sử, tracking sở thích lưu client-side tại `localStorage`.
+6. **Không hiển thị `pts`**: Điểm nóng (`hotScore`) hiển thị trực quan không kèm hậu tố `pts`.
+7. **Rà soát Link Hàng Ngày**: Job 03:00 sáng tự động gỡ bỏ link 404/deleted với Circuit Breaker 20%.
 
-## 3. Quy định xử lý dữ liệu và AI (Data Integrity & Clean Logic)
-- **Cấm lạm dụng toán tử `||` mơ hồ**: Tuyệt đối không viết chuỗi `a || b ? c : d`. Ưu tiên dùng Nullish Coalescing (`??`) và tách thành các hàm Extractor độc lập (`parsePublishedDate`, `cleanHtml`, `extractSafeThumbnail`).
-- **Phòng chống ảo giác (Zero Hallucination)**: Mọi URL, thời gian và tác giả phải được trích xuất từ RSS/API chính thức của tòa soạn báo.
-- **Dịch thuật IT chuyên sâu**: Toàn bộ tin quốc tế khi ở chế độ Tiếng Việt (`VI`) phải được dịch chuẩn xác theo thuật ngữ IT chuyên ngành (`title_vi` và `summary_vi`), không pha tạp tiếng Anh thô.
-- **Đồng bộ Bookmarks**: Badge số lượng đã lưu trên Navbar và danh sách trong Drawer phải luôn được đồng bộ và dọn dẹp các ID cũ (Stale IDs) thời gian thực.
-- **Kiểm tra Schema bắt buộc**: Mọi bản ghi dữ liệu trước khi lưu vào `data/news.json` hoặc đưa lên State/UI đều phải vượt qua Zod schema `NewsItemSchema.safeParse()`.
-- **Tránh trùng lặp tin tức (Deduplication)**: Dựa trên SHA-256 hash của URL bài viết gốc.
-- **Format thời gian**: Theo chuẩn ISO và hiển thị theo giờ Việt Nam (UTC+7 / GMT+7).
+## 3. Data Integrity & Code Quality
+- **Cấm lạm dụng toán tử `||`**: Ưu tiên Nullish Coalescing (`??`) và tách thành các extractor functions độc lập (`parsePublishedDate`, `cleanHtml`).
+- **Zero Hallucination**: URL, thời gian và tác giả phải lấy trực tiếp từ RSS/API chính thức của tòa soạn báo.
+- **Tóm tắt 3 điểm cốt lõi**: `summary_vi` và `summary_en` luôn là mảng đúng 3 điểm kỹ thuật có chiều sâu (Bối cảnh $\rightarrow$ Kiến trúc/Giải pháp $\rightarrow$ Giá trị thực tiễn).
+- **Zod Schema Validation**: Mọi dữ liệu phải qua `NewsItemSchema.safeParse()` trước khi lưu hoặc render.
+- **Deduplication**: Định danh bài viết bằng SHA-256 hash của URL gốc.
 
-## 4. Chiến lược Phân Nhánh & Release (Git Flow)
+## 4. Git Branching & Release Flow
 - **`develop` (Active Development)**: Nhánh làm việc chính thức cho mọi tính năng và coding hàng ngày. Toàn bộ code phát triển đều commit và push trực tiếp trên `develop`.
-- **`feature/<name>` (Major Features)**: Khi có tính năng lớn, rẽ nhánh từ `develop`, tạo PR merge vào `develop`, sau đó xóa nhánh feature.
-- **`main` (Production)**: Nhánh chạy production thực tế, tự động nhận bản merge từ `develop` định kỳ 1 tuần/lần qua GitHub Actions cronjob (`.github/workflows/weekly_merge_develop_to_main.yml`).
-
-## 5. Quy Chuẩn Bất Biến Phải Bảo Toàn (Project Invariants)
-*Xem chi tiết và cập nhật tại `INVARIANTS.md` và skill `project-invariants-keeper`*:
-- **Dark / Light Mode**: Mọi component phải hỗ trợ cả 2 theme (`.dark` class), không hardcode màu chết.
-- **Song ngữ VI/EN 100%**: Mọi nhãn chữ phải qua `t.<key>` trong `BilingualContext.tsx`, không hardcode text thô.
-- **Thư viện Icon Lucide**: 100% dùng `lucide-react`, **CẤM TUYỆT ĐỐI** chèn emoji thô vào JSX làm icon.
-- **Tìm kiếm Duy nhất**: Chỉ dùng Spotlight Search (`⌘K`) trên Navbar, không tạo thêm ô search trùng lặp dưới Feed.
-- **Zero Login Friction**: Độc giả dùng đầy đủ tính năng lưu tin, gợi ý tin không cần tài khoản (qua `localStorage`).
-- **Chi phí 0đ**: 100% Free Tier (Vercel, Git-as-DB, GitHub Actions cron).
-- **Rà soát Link Hàng Ngày**: Chạy job 03:00 sáng tự động gỡ bỏ link 404/deleted với chốt an toàn 20%.
-
+- **`feature/<name>`**: Rẽ nhánh từ `develop`, tạo PR merge vào `develop`, xóa nhánh sau khi merge.
+- **`main` (Production)**: Nhánh production thực tế, tự động nhận merge từ `develop` định kỳ hàng tuần qua `.github/workflows/weekly_merge_develop_to_main.yml`.

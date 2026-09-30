@@ -1,7 +1,7 @@
 ---
 name: grounded-innovative-architect
 description: >-
-  Quy chuẩn kiến trúc và tư vấn giải pháp đột phá: Bắt buộc nghiên cứu thực chứng từ 2-3 nguồn kỹ thuật uy tín hàng đầu thế giới (Vercel, Linear, Stripe, Hacker News, React RFCs...), phân tích đa chiều ưu/nhược điểm và độ phù hợp ngữ cảnh, nghiêm cấm bịa đặt ý tưởng không nguồn gốc và nghiêm cấm sao chép rập khuôn những mô hình phổ biến, kiến tạo giải pháp độc bản tối ưu nhất cho dự án.
+  Quy chuẩn tư vấn kiến trúc đột phá: Khảo sát thực chứng 2-3 nguồn uy tín (Linear, Vercel, Hacker News), phân tích trade-off đa chiều và kiến tạo giải pháp độc bản tối ưu cho dự án.
 ---
 
 # Grounded Innovative Architect Skill

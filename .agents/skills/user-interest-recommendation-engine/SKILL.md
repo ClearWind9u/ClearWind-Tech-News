@@ -1,7 +1,6 @@
 ---
 name: user-interest-recommendation-engine
-description: >-
-  Quy chuẩn kỹ thuật cho hệ thống theo dõi hành vi người đọc (User Behavior Tracking), tính toán vector sở thích công nghệ và thuật toán gợi ý tin tức cá nhân hóa (Personalization & Related Articles Engine) bảo mật client-side 100%.
+description: Thuật toán gợi ý tin cá nhân hóa client-side qua localStorage, bảo mật 100% không cần login.
 ---
 
 # User Interest & AI Recommendation Engine Skill

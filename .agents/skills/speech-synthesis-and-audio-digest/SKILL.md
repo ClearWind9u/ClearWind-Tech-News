@@ -1,7 +1,6 @@
 ---
 name: speech-synthesis-and-audio-digest
-description: >-
-  Chuẩn mực phân tích, chuẩn hóa văn bản kỹ thuật IT và tổng hợp giọng nói (Text-to-Speech / Web Speech API) song ngữ Việt - Anh, xử lý phiên âm thuật ngữ lập trình, nhịp điệu ngắt nghỉ tự nhiên và kiến trúc điều khiển audio client-side 0đ.
+description: Tổng hợp giọng nói Web Speech/TTS client-side 0đ và phiên âm thuật ngữ IT song ngữ.
 ---
 
 # Speech Synthesis & Audio Digest Guidelines (Chuẩn Mực Đọc Tin Tức IT Bằng Giọng Nói)

@@ -1,7 +1,6 @@
 ---
 name: bilingual-it-translator
-description: >-
-  Chuẩn mực biên dịch và chuyển đổi ngữ pháp song ngữ IT chuyên sâu (Việt <-> Anh), từ điển thuật ngữ công nghệ đối sánh, và quy tắc cấu trúc tóm tắt 3 điểm vàng chuẩn kỹ thuật phần mềm.
+description: Quy chuẩn biên dịch IT 2 chiều VI/EN, từ điển thuật ngữ đối sánh và cấu trúc 3 takeaways.
 ---
 
 # Bilingual IT Translation & Engineering Grammar Compiler Skill

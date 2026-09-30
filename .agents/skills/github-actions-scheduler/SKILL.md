@@ -1,28 +1,30 @@
 ---
 name: github-actions-scheduler
-description: >-
-  Hướng dẫn cấu hình và vận hành GitHub Actions cronjob tự động chạy script cào tin, gọi Gemini Pro và commit data lên repository hoàn toàn miễn phí.
+description: Cấu hình và vận hành GitHub Actions cronjobs tự động hóa cào tin, kiểm tra link và release.
 ---
 
 # GitHub Actions Scheduler Skill
 
-Hướng dẫn chi tiết thiết lập tự động hóa 24/7 bằng GitHub Actions.
+Hướng dẫn quản trị và vận hành hệ thống tự động hóa 24/7 trên GitHub Actions (100% Free Tier).
 
-## 1. Cấu hình Workflow (.github/workflows/update_news.yml)
+---
 
-Quy trình chuẩn:
-1. `schedule`: Chạy định kỳ (ví dụ mỗi 2 tiếng: `0 */2 * * *`).
-2. `workflow_dispatch`: Cho phép kích hoạt thủ công từ giao diện GitHub.
-3. Cấp quyền `contents: write` để bot có thể commit dữ liệu mới vào `data/news.json`.
-4. Cài đặt Node.js, chạy `npm run fetch-news` với biến môi trường `GEMINI_API_KEY`.
-5. Tự động kiểm tra `git diff`, nếu có tin mới thì `git commit` và `git push`.
+## 1. Danh Mục Workflows
 
-## 2. Thiết lập GitHub Secrets
+1. **`update_news.yml` (News Crawler 24/7)**:
+   - **Tần suất**: Chạy mỗi 2 tiếng (`0 */2 * * *`) hoặc kích hoạt thủ công (`workflow_dispatch`).
+   - **Nhiệm vụ**: Chạy `scripts/fetch_news.ts`, gọi Gemini Pro phân tích bài mới, tự động commit và push trực tiếp lên nhánh **`develop`**.
+2. **`daily_link_audit.yml` (Daily Dead Link Auditor)**:
+   - **Tần suất**: Chạy lúc 03:00 UTC (10:00 sáng VN) hàng ngày.
+   - **Nhiệm vụ**: Chạy `scripts/audit_dead_links.ts` quét HTTP HEAD loại bỏ bài viết 404/410 với chốt an toàn (Circuit Breaker) 20%.
+3. **`weekly_merge_develop_to_main.yml` (Weekly Production Release)**:
+   - **Tần suất**: Chạy lúc 00:00 UTC Chủ Nhật hàng tuần (`0 0 * * 0`).
+   - **Nhiệm vụ**: Kiểm tra `npm run build` trên `develop`, sau đó tự động merge `origin/develop` vào `main` để deploy bản Production.
 
-Để script gọi được Gemini Pro API:
-1. Vào repository trên GitHub -> **Settings** -> **Secrets and variables** -> **Actions**.
-2. Bấm **New repository secret**.
-3. Đặt Name: `GEMINI_API_KEY`, Secret: `<API_KEY_CỦA_BẠN>`.
+---
 
-## 3. Tự động kích hoạt Vercel Deploy
-Khi GitHub Actions push commit mới vào nhánh `main`, Vercel (hoặc Cloudflare Pages) sẽ tự động trigger bản build mới để cập nhật nội dung tức thì trên website.
+## 2. Thiết Lập GitHub Secrets
+Để pipeline hoạt động:
+- **`GEMINI_API_KEY`**: API Key từ Google AI Studio phục vụ tóm tắt bài viết.
+- **`MONGODB_URI`** (Tùy chọn): Kết nối MongoDB Atlas nếu dùng cloud database.
+- Cấp quyền **`Workflow permissions -> Read and write permissions`** trong Settings -> Actions -> General để bot có thể commit dữ liệu.
