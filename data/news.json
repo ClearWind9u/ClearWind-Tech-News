@@ -1,7 +1,281 @@
 {
-  "lastUpdated": "2026-09-30T11:39:40.310Z",
+  "lastUpdated": "2026-09-30T21:43:07.063Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "a98f82b6e40f71fc",
+      "title_vi": "Cấu hình proxy tĩnh dân cư HTTP và SOCKS5 cho Python requests, Playwright cùng Node.js",
+      "title_en": "Configuring Residential Static HTTP and SOCKS5 Proxies for Python Requests, Playwright and Node.js",
+      "summary_vi": [
+        "Bài viết hướng dẫn chi tiết cách cấu hình proxy tĩnh dân cư sử dụng giao thức HTTP và SOCKS5 cho các công cụ tự động hóa phổ biến như Python requests, Playwright và môi trường Node.js.",
+        "Nội dung cung cấp các đoạn mã nguồn thực tế giúp lập trình viên dễ dàng tích hợp proxy vào kịch bản cào dữ liệu, kiểm tra giao diện người dùng và quản lý tài khoản tự động một cách an toàn.",
+        "Giải pháp này giúp tối ưu hóa hiệu suất hoạt động của các script tự động hóa, giảm thiểu tỷ lệ bị chặn IP và nâng cao độ ổn định khi triển khai các hệ thống quy mô lớn."
+      ],
+      "summary_en": [
+        "The article provides a detailed guide on configuring residential static proxies using HTTP and SOCKS5 protocols for popular automation tools including Python requests, Playwright, and the Nodejs environment.",
+        "The content delivers practical source code snippets helping developers easily integrate proxies into web scraping scripts, user interface testing routines, and secure automated account management workflows.",
+        "This solution optimizes the performance of automation scripts, minimizes IP blocking rates, and enhances operational stability when deploying large scale data collection and testing systems."
+      ],
+      "originalTitle": "Cấu hình proxy tĩnh dân cư (HTTP/SOCKS5) cho Python requests, Playwright và Node.js",
+      "url": "https://viblo.asia/p/cau-hinh-proxy-tinh-dan-cu-httpsocks5-cho-python-requests-playwright-va-nodejs-k74a9OnZ4eO",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Python",
+        "Node.js",
+        "Playwright",
+        "Proxy",
+        "Automation"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-01T02:45:52.000Z",
+      "contentSnippet": "Khi viết tool tự động hóa (crawler nhỏ, script kiểm tra hiển thị, bot quản lý tài khoản của chính mình...), sớm muộn bạn cũng phải cho traffic đi qu...",
+      "authorName": "ProxyViet",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "3997beac3e39f08f",
+      "title_vi": "Mô hình ngôn ngữ lớn của bạn có đang kém đi? Xây dựng bộ phát hiện lệch dữ liệu cho tính năng trí tuệ nhân tạo",
+      "title_en": "Is Your LLM Quietly Getting Worse? Build a Tiny Drift Detector for Your AI Features",
+      "summary_vi": [
+        "Bài viết thảo luận về hiện tượng mô hình ngôn ngữ lớn âm thầm suy giảm chất lượng theo thời gian khi tích hợp vào các sản phẩm thực tế, đòi hỏi lập trình viên phải chủ động theo dõi hiệu suất hệ thống liên tục.",
+        "Tác giả hướng dẫn cách xây dựng một công cụ phát hiện lệch dữ liệu nhỏ gọn bằng mã nguồn Python, giúp phân tích sự thay đổi trong phân phối đầu ra của mô hình dựa trên các phương pháp thống kê cơ bản.",
+        "Giải pháp này mang lại giá trị thực tiễn cao cho các kỹ sư phát triển phần mềm ứng dụng trí tuệ nhân tạo, giúp phát hiện sớm các bất ổn kỹ thuật trước khi ảnh hưởng trực tiếp đến trải nghiệm của người dùng cuối."
+      ],
+      "summary_en": [
+        "The article discusses the phenomenon of large language models silently degrading in quality over time when integrated into production systems, requiring developers to proactively monitor system performance continuously.",
+        "The author provides a guide on building a lightweight drift detector using Python code, helping to analyze changes in model output distribution based on fundamental statistical methodologies.",
+        "This solution delivers high practical value for software engineers developing artificial intelligence applications, enabling early detection of technical anomalies before they directly impact end-user experience."
+      ],
+      "originalTitle": "Is Your LLM Quietly Getting Worse? Build a Tiny Drift Detector for Your AI Features",
+      "url": "https://viblo.asia/p/is-your-llm-quietly-getting-worse-build-a-tiny-drift-detector-for-your-ai-features-wlVmRkDP45Z",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "LLM",
+        "AI",
+        "Machine Learning",
+        "Python",
+        "Data Drift"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-01T00:56:39.000Z",
+      "contentSnippet": "",
+      "authorName": "EME GUG",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "81dae05df7893215",
+      "title_vi": "Giải phẫu kiến trúc EzyPlatform giúp hiểu đúng bộ khung xương để điều khiển trí tuệ nhân tạo chuẩn xác",
+      "title_en": "Dissecting the EzyPlatform Architecture to Properly Command Artificial Intelligence",
+      "summary_vi": [
+        "Bài viết chia sẻ kinh nghiệm thực chiến từ tác giả Lee trong series về vibe coding, tập trung khai thác hạ tầng trên máy chủ ảo chạy hệ điều hành Ubuntu phiên bản mới.",
+        "Nội dung đi sâu vào việc giải phẫu chi tiết cấu trúc kiến trúc của nền tảng EzyPlatform, giúp các nhà phát triển nắm vững hệ thống khung xương bên trong để tối ưu hóa việc ra lệnh cho trí tuệ nhân tạo.",
+        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư phần mềm muốn nâng cao hiệu suất lập trình thông qua việc kết hợp chặt chẽ giữa công cụ tự động hóa và kiến trúc hệ thống."
+      ],
+      "summary_en": [
+        "The article shares practical implementation experiences from author Lee in the vibe coding series, focusing on infrastructure deployment using a virtual private server running Ubuntu.",
+        "The content dives deep into dissecting the architectural structure of EzyPlatform, helping developers master the underlying framework to optimize prompt engineering and command artificial intelligence accurately.",
+        "This knowledge delivers high practical value for software engineers aiming to boost programming efficiency by tightly integrating automation tools with robust system architectures."
+      ],
+      "originalTitle": "[Vibe Coding Thực Chiến #04] Giải Phẫu Kiến Trúc EzyPlatform: Hiểu Đúng Bộ Khung Xương Để \"Chỉ Huy\" AI Chuẩn Đét!",
+      "url": "https://viblo.asia/p/vibe-coding-thuc-chien-04-giai-phau-kien-truc-ezyplatform-hieu-dung-bo-khung-xuong-de-chi-huy-ai-chuan-det-QyJKzlxw4Me",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Software Architecture",
+        "Artificial Intelligence",
+        "Vibe Coding",
+        "Ubuntu",
+        "Backend"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-30T23:34:50.000Z",
+      "contentSnippet": "Tác giả: Lee Series: Vibe Coding Thực Chiến Cùng EzyPlatform (#04) Hạ tầng thực nghiệm: VPS Ubuntu 22.04 LTS (157.66.47.xxx) | Domain: https://1576647...",
+      "authorName": "Duong Nguyen",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9314874e0d90f514",
+      "title_vi": "Kẻ tấn công đang khai thác lỗ hổng nghiêm trọng trong hệ thống email doanh nghiệp để đánh cắp dữ liệu",
+      "title_en": "Attackers have been exploiting critical Zimbra flaw to steal emails",
+      "summary_vi": [
+        "Microsoft cảnh báo các nhóm hacker đang tích cực khai thác một lỗ hổng bảo mật nghiêm trọng trong bộ phần mềm cộng tác doanh nghiệp phổ biến nhằm đánh cắp thông tin xác thực và dữ liệu hộp thư.",
+        "Lỗ hổng cho phép kẻ tấn công thực thi lệnh hệ điều hành từ xa mà không cần xác thực, dẫn đến việc triển khai các mã độc web shell JSP trên hàng trăm máy chủ bị xâm phạm toàn cầu.",
+        "Sự cố này gióng lên hồi chuông cảnh báo về tầm quan trọng của việc vá lỗi kịp thời và giám sát hạ tầng mạng liên tục để ngăn chặn các cuộc xâm nhập nâng cao từ sớm."
+      ],
+      "summary_en": [
+        "Microsoft warns that threat actors are actively exploiting a critical vulnerability in a popular enterprise collaboration software suite to steal authentication credentials and sensitive email backups.",
+        "The vulnerability allows remote attackers to execute operating system commands without authentication, leading to the deployment of malicious JSP web shells across hundreds of compromised servers worldwide.",
+        "This severe security incident highlights the critical importance of prompt patch management and continuous infrastructure monitoring to prevent advanced automated threat intrusions early."
+      ],
+      "originalTitle": "Attackers have been exploiting critical Zimbra flaw to steal emails",
+      "url": "https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/",
+      "sourceName": "Ars Technica",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Vulnerability",
+        "Zimbra",
+        "Remote Code Execution",
+        "Web Shell"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-30T20:44:48.000Z",
+      "contentSnippet": "A simple email gives the attackers the ability to remotely inject OS commands.",
+      "authorName": "\n                    Dan Goodin\n                ",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b18259a085cce775",
+      "title_vi": "Google công bố mô hình Gemini 4 tiên tiến với giới hạn quyền truy cập dành riêng cho chuyên gia an ninh mạng",
+      "title_en": "Google announces Gemini 4 and says it is so capable that only trusted cyber defenders can have it right now",
+      "summary_vi": [
+        "Google vừa chính thức giới thiệu mô hình trí tuệ nhân tạo thế hệ mới mang tên Gemini 4 Argon, mang lại hiệu suất vượt trội trong các quy trình công việc phức tạp từ kỹ thuật phần mềm đến tài chính.",
+        "Kiến trúc mô hình mới này được tối ưu hóa đặc biệt cho các tác vụ kỹ thuật phần mềm thực tế, công việc tri thức doanh nghiệp và các giải pháp phòng thủ an ninh mạng cao cấp.",
+        "Việc hạn chế quyền truy cập ban đầu đối với lực lượng chuyên gia an ninh mạng đáng tin cậy giúp Google kiểm soát rủi ro và tuân thủ các quy trình thử nghiệm an toàn của chính phủ."
+      ],
+      "summary_en": [
+        "Google has officially introduced its next-generation artificial intelligence model named Gemini 4 Argon, delivering exceptional performance across complex workflows ranging from software engineering to finance.",
+        "This new model architecture is specifically optimized for real-world software engineering tasks, enterprise knowledge work, and advanced cybersecurity defense solutions.",
+        "Restricting initial access to trusted cybersecurity experts allows Google to mitigate risks and comply with government safety pre-release testing processes."
+      ],
+      "originalTitle": "Google announces Gemini 4 and says it’s so capable that only ‘trusted cyber defenders’ can have it right now",
+      "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Gemini",
+        "Cybersecurity",
+        "Software Engineering",
+        "Google DeepMind"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-30T20:41:41.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK093_Google_02.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Google today revealed its next AI frontier model, which it's calling Gemini 4 Argon. The new model delivers \"frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,\" according to chief AI architect",
+      "authorName": "Jay Peters",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6381db252deeabb6",
+      "title_vi": "Google công bố mô hình trí tuệ nhân tạo thế hệ mới mang tên Gemini 4 Argon",
+      "title_en": "Google Announces Next-Generation Frontier AI Model Named Gemini 4 Argon",
+      "summary_vi": [
+        "Google DeepMind vừa chính thức giới thiệu mô hình trí tuệ nhân tạo tiên tiến thế hệ mới mang tên Gemini 4 Argon, hướng tới việc tối ưu hóa các quy trình làm việc cực kỳ phức tạp trong nhiều lĩnh vực công nghệ.",
+        "Mô hình mới này sở hữu khả năng suy luận sâu sắc cho các tác vụ dài hạn, hiện đang được thử nghiệm giới hạn bởi các chuyên gia an ninh mạng thông qua chương trình Fairwind Program chuyên biệt.",
+        "Sản phẩm được định giá cạnh tranh với mức hai đô la cho mỗi triệu token đầu vào và mười đô la cho token đầu ra, hứa hẹn tạo ra bước ngoặt lớn cho các nhà phát triển phần mềm."
+      ],
+      "summary_en": [
+        "Google DeepMind has officially unveiled its advanced next-generation frontier artificial intelligence model named Gemini 4 Argon, aiming to optimize complex workflows across multiple technical domains.",
+        "The new model features deep reasoning capabilities for long-horizon tasks and is currently undergoing limited testing by cybersecurity experts through the specialized Fairwind Program.",
+        "The product is competitively priced at two dollars per million input tokens and ten dollars for output tokens, promising a significant milestone for software developers and enterprises."
+      ],
+      "originalTitle": "Gemini 4 Argon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Google",
+        "Machine Learning",
+        "Cybersecurity",
+        "Software Engineering"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-30T20:04:37.000Z",
+      "contentSnippet": "Gemini 4 Argon: our next era of frontier intelligence Sep 30, 2026 Gemini 4 Argon delivers frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense. SVP, Google DeepMind and Chief AI Architect, Googl",
+      "authorName": "bradleyg223",
+      "upvotes": 600,
+      "commentsCount": 368
+    },
+    {
+      "id": "c91e76944f388c1d",
+      "title_vi": "Công nghệ chống chói từng được ứng dụng trên thiết bị di động",
+      "title_en": "Anti-Glare Display Technologies Once Used in Mobile Devices",
+      "summary_vi": [
+        "Các thương hiệu di động kỳ cựu như BlackBerry và Nokia từng tích hợp nhiều công nghệ màn hình đặc biệt nhằm tối ưu hóa khả năng hiển thị ngoài trời nắng gắt cho người dùng.",
+        "Những giải pháp này thường can thiệp trực tiếp vào phần cứng và tấm nền hiển thị để tăng cường độ tương phản thay vì chỉ đơn thuần tăng độ sáng đèn nền như hiện nay.",
+        "Việc nghiên cứu các giải pháp hiển thị lịch sử này mang lại bài học quan trọng cho kỹ sư phần cứng trong việc cân bằng giữa trải nghiệm người dùng và tiêu thụ năng lượng."
+      ],
+      "summary_en": [
+        "Legacy mobile brands like BlackBerry and Nokia once integrated specialized display technologies designed to optimize outdoor visibility under harsh sunlight for users.",
+        "These historical solutions typically intervened directly at the hardware and panel level to enhance contrast ratios rather than simply boosting backlight brightness like modern devices.",
+        "Studying these past display engineering solutions provides crucial lessons for hardware developers in balancing exceptional user experience with strict power consumption limits."
+      ],
+      "originalTitle": "Công nghệ chống chói loài người từng dùng trên smartphone",
+      "url": "https://tinhte.vn/thread/cong-nghe-chong-choi-loai-nguoi-tung-dung-tren-smartphone.4179872/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Mobile Devices",
+        "Display Technology",
+        "Hardware Engineering",
+        "BlackBerry",
+        "Nokia"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-30T18:40:41.000Z",
+      "contentSnippet": "BlackBerry và Nokia từng sử dụng các công nghệ màn hình đặc biệt để giúp người dùng có thể nhìn rõ nội dung ngoài nắng. Các hãng về sau cũng đưa ra nhiều giải pháp nhưng chủ yếu làm giảm chói thôi...",
+      "authorName": "cuhiep",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "10d5a5bf37ed064e",
+      "title_vi": "Mạng xã hội Reddit siết chặt quyền truy cập giao diện cũ nhằm ngăn chặn bot trí tuệ nhân tạo",
+      "title_en": "Reddit says it has to cut back access to Old Reddit because of AI bots",
+      "summary_vi": [
+        "Nền tảng mạng xã hội Reddit đang tiếp tục siết chặt các giới hạn quyền truy cập vào giao diện giao diện cũ nhằm mục đích ngăn chặn hiệu quả các hành vi thu thập dữ liệu trái phép và lưu lượng truy cập tự động từ bot.",
+        "Hệ thống yêu cầu người dùng phải đăng nhập tài khoản và phải có lịch sử hoạt động trên giao diện cổ điển trong vòng sáu tháng qua mới có thể tiếp tục duyệt nội dung trên nền tảng trong thời gian tới.",
+        "Biện pháp kỹ thuật này phản ánh xu hướng các công ty công nghệ lớn phải liên tục nâng cấp hàng rào bảo mật để bảo vệ tài sản dữ liệu trước làn sóng khai thác trí tuệ nhân tạo quy mô lớn hiện nay."
+      ],
+      "summary_en": [
+        "The social media platform Reddit is further limiting access permissions to its classic interface in order to effectively combat unauthorized data scraping activities and automated traffic originating from bots.",
+        "The system requires users to log into their accounts and maintain activity history on the classic interface within the past six months to continue browsing platform content in the near future.",
+        "This technical measure reflects a broader industry trend where major tech companies must continuously upgrade security barriers to protect valuable data assets against large-scale artificial intelligence harvesting."
+      ],
+      "originalTitle": "Reddit says it has to cut back access to ‘Old Reddit’ because of AI bots",
+      "url": "https://www.theverge.com/tech/1002788/old-reddit-ai-scraping",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Reddit",
+        "Web Security",
+        "AI Bots",
+        "Data Scraping",
+        "API Management"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-30T17:45:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK115_Reddit_04.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Reddit is further limiting who can use the \"Old Reddit\" experience as part of its efforts to combat scraping and automated traffic. Reddit recently started forcing users to log in to be able to use Old Reddit, but in the \"next few months,\" the company says that you'll have to be logged in and have u",
+      "authorName": "Jay Peters",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "4a4c6d3450d22d8b",
       "title_vi": "MongoDB không chỉ là cơ sở dữ liệu: Thiết kế lớp ngữ cảnh trí tuệ nhân tạo cho hồ dữ liệu và ứng dụng tạo sinh",
@@ -67,6 +341,110 @@
       "publishedAt": "2026-09-30T17:38:32.000Z",
       "contentSnippet": "trong các hệ thống Microservices có quy mô lớn, khi lượng truy cập (traffic) tăng phi mã, việc dùng chung một mô hình cơ sở dữ liệu truyền thống cho c...",
       "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0241e600b90d751e",
+      "title_vi": "Ra mắt Magnitude: Công cụ suy luận tự tối ưu hóa dành cho các hệ thống tác nhân trí tuệ nhân tạo",
+      "title_en": "Launch Magnitude: Self-optimizing inference engine for agents",
+      "summary_vi": [
+        "Dự án Magnitude thuộc chương trình YC S25 vừa ra mắt động cơ suy luận chuyên biệt nhằm tự động tối ưu hóa hiệu suất cho các tác nhân trí tuệ nhân tạo trong môi trường sản xuất.",
+        "Công nghệ này áp dụng các kỹ thuật tinh chỉnh và phân bổ tài nguyên động ở tầng suy luận, giúp giảm đáng kể độ trễ và chi phí tính toán cho các mô hình ngôn ngữ lớn.",
+        "Giải pháp mang lại giá trị thiết thực cho các nhà phát triển xây dựng hệ thống tự động hóa phức tạp, giúp tăng tốc độ phản hồi và nâng cao độ ổn định cho các ứng dụng thông minh."
+      ],
+      "summary_en": [
+        "Magnitude from YC S25 has officially launched a specialized inference engine designed to automatically optimize performance for artificial intelligence agents in production environments.",
+        "The technology applies advanced fine-tuning and dynamic resource allocation techniques at the inference layer, significantly reducing latency and computational costs for large language models.",
+        "This solution delivers practical value for developers building complex automation systems, helping to accelerate response times and enhance stability for intelligent applications."
+      ],
+      "originalTitle": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Inference Engine",
+        "AI Agents",
+        "YC S25",
+        "Performance Optimization"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-30T17:37:40.000Z",
+      "contentSnippet": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+      "authorName": "anerli",
+      "upvotes": 97,
+      "commentsCount": 43
+    },
+    {
+      "id": "6534f974cccd906f",
+      "title_vi": "Biến iPhone 18 Pro thành máy quay chuyên nghiệp: Final Cut Camera 2.4 ra mắt với loạt công cụ cao cấp từ iOS 27",
+      "title_en": "Turning iPhone 18 Pro into a professional cinema camera: Final Cut Camera 2.4 launches with advanced iOS 27 tools",
+      "summary_vi": [
+        "Ứng dụng Final Cut Camera phiên bản 2.4 chính thức ra mắt, mang đến khả năng tối ưu hóa phần cứng mạnh mẽ cho dòng điện thoại thông minh iPhone 18 Pro mới nhất trên nền tảng hệ điều hành tiên tiến.",
+        "Bản cập nhật tích hợp các tính năng cao cấp như tùy chỉnh khẩu độ linh hoạt và bộ công cụ xử lý hình ảnh hạng nặng, giúp nâng cấp thiết bị di động thành một phòng thu quay phim chuyên nghiệp thực thụ.",
+        "Sự kiện này đánh dấu bước tiến quan trọng trong việc thu hẹp khoảng cách giữa thiết bị quay phim cầm tay truyền thống và công nghệ di động, mở ra nhiều cơ hội sáng tạo nội dung chất lượng cao cho lập trình viên và nhà làm phim."
+      ],
+      "summary_en": [
+        "The Final Cut Camera application version 2.4 has officially launched, delivering powerful hardware optimization for the latest iPhone 18 Pro smartphone lineup running on the advanced operating system platform.",
+        "This update integrates premium features such as flexible aperture adjustments and heavy-duty image processing toolsets, effectively upgrading mobile devices into professional-grade portable film studios.",
+        "This milestone marks a significant step in bridging the gap between traditional handheld filming equipment and mobile technology, opening up extensive opportunities for high-quality content creation among developers and filmmakers."
+      ],
+      "originalTitle": "Biến iPhone 18 Pro thành máy quay chuyên nghiệp: Final Cut Camera 2.4 ra mắt với khả năng tùy chỉnh khẩu độ và loạt công cụ \"hạng nặng\" từ iOS 27",
+      "url": "https://genk.vn/bien-iphone-18-pro-thanh-may-quay-chuyen-nghiep-final-cut-camera-24-ra-mat-voi-kha-nang-tuy-chinh-khau-do-va-loat-cong-cu-hang-nang-tu-ios-27-165260930205930477.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iOS",
+        "iPhone",
+        "Mobile Development",
+        "Video Processing",
+        "Apple"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-30T14:00:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/30/apple-final-cut-camera-monitoring-tools-17907759445101359064643-0-125-1440-2429-crop-17907760008781727398334.jpg",
+      "contentSnippet": "Apple vừa chính thức tung ra bản cập nhật lớn phiên bản 2.4 cho Final Cut Camera - ứng dụng quay phim chuyên nghiệp dành cho hệ sinh thái iOS.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "19399b3e858c6b39",
+      "title_vi": "Trí tuệ nhân tạo không chỉ dừng lại ở chatbot: Cuộc cách mạng thầm lặng trong hạ tầng Internet mỗi ngày",
+      "title_en": "AI is Beyond Chatbots: The Silent Revolution Reshaping Internet Infrastructure Daily",
+      "summary_vi": [
+        "Trí tuệ nhân tạo đang vượt qua ranh giới của các ứng dụng chatbot quen thuộc để âm thầm thâm nhập sâu vào các lớp hạ tầng số cốt lõi, từ đó tạo ra những chuyển biến toàn diện trong cách thức vận hành của mạng Internet toàn cầu.",
+        "Công nghệ này đóng vai trò tối ưu hóa băng thông, tự động định tuyến gói tin mạng, phân tích lưu lượng thời gian thực và tự động hóa quy trình quản trị hệ thống phân tán quy mô lớn với độ chính xác cao.",
+        "Sự dịch chuyển này mang lại giá trị thực tiễn to lớn cho các kỹ sư hạ tầng và nhà phát triển, đòi hỏi tư duy thiết kế hệ thống mới để khai thác tối đa hiệu suất tính toán và độ bền vững của mạng lưới."
+      ],
+      "summary_en": [
+        "Artificial intelligence is moving far beyond familiar chatbot applications to quietly penetrate core digital infrastructure layers, driving comprehensive transformations in how the global internet operates every day.",
+        "This technology plays a vital role in bandwidth optimization, automated packet routing, real-time traffic analysis, and automating large-scale distributed systems management with high precision.",
+        "This shift delivers immense practical value for infrastructure engineers and software developers, requiring new system design thinking to maximize computational performance and network resilience."
+      ],
+      "originalTitle": "AI không chỉ để hỏi ChatGPT: Nó còn đang cách mạng hóa cách Internet vận hành mỗi ngày",
+      "url": "https://genk.vn/ai-khong-chi-de-hoi-chatgpt-no-con-dang-cach-mang-hoa-cach-internet-van-hanh-moi-ngay-165260930204944452.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Infrastructure",
+        "Networking",
+        "System Architecture",
+        "Automation"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-30T13:49:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/30/avatar1790776137139-1790776137660570446682.png",
+      "contentSnippet": "AI đang vượt ra ngoài những chatbot quen thuộc, âm thầm hiện diện trong hạ tầng số và góp phần thay đổi cách Internet vận hành mỗi ngày.",
+      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8081,371 +8459,6 @@
       "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/ss_7775b5046e2fcc717f180577f482b2a5e3cbf0dc.1920x1080.jpg?quality=90&strip=all&crop=0,0,100,100",
       "contentSnippet": "Microsoft is uniting its two Forza developers into a single studio today, as part of a massive restructuring of Xbox. Playground Games, which develops Forza Horizon, and Turn 10 Studios, creators of Forza Motorsport, are merging together to focus on Forza Horizon and Fable. \"Playground and Turn 10 w",
       "authorName": "Tom Warren",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4a72d192790984b4",
-      "title_vi": "Show HN: Drop – sandbox Linux không root có hỗ trợ gVisor",
-      "title_en": "Show HN: Drop – a rootless Linux sandbox with gVisor support",
-      "summary_vi": [
-        "Hiển thị HN: Drop – sandbox Linux không root có hỗ trợ gVisor.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Show HN: Drop – sandbox Linux không root có hỗ trợ gVisor.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Show HN: Drop – sandbox Linux không root có hỗ trợ gVisor."
-      ],
-      "summary_en": [
-        "Show HN: Drop – a rootless Linux sandbox with gVisor support.",
-        "In-depth technical breakdown and implementation mechanisms introduced in Show HN: Drop – a rootless Linux sandbox with gVisor support.",
-        "Practical engineering impact and actionable takeaways for developers building with Show HN: Drop – a rootless Linux sandbox with gVisor support."
-      ],
-      "originalTitle": "Show HN: Drop – a rootless Linux sandbox with gVisor support",
-      "url": "https://droprun.sh/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "DevOps",
-        "Cloud"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-22T13:52:47.000Z",
-      "contentSnippet": "Show HN: Drop – a rootless Linux sandbox with gVisor support",
-      "authorName": "mixedbit",
-      "upvotes": 71,
-      "commentsCount": 17
-    },
-    {
-      "id": "1bc897209ba05336",
-      "title_vi": "OpenAI GPT–6 Astra phá vỡ thông điệp Enigma đã phản đối giải pháp kể từ năm 2005",
-      "title_en": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
-      "summary_vi": [
-        "Vào ngày 15 tháng 9 năm 2026, Carter Leffer đã liên hệ với tôi để yêu cầu xác thực việc phá vỡ thông điệp Enigma của Quân đội Đức MVUEH ngày 10 tháng 7 năm 1941.",
-        "Tin nhắn được gửi bởi đài phát thanh có mã hiệu chiến thuật 2ny, đã được đài phát thanh của SS-Totenkopf Quartiermeister, Ib nhận được.",
-        "Ib nhận được tin nhắn lúc 17:30 ngày 10 tháng 7 năm 1941 và ghi lại tin nhắn là Nr."
-      ],
-      "summary_en": [
-        "On 15 September 2026, Carter Leffer contacted me to request validation of a break of the German Army Enigma message MVUEH of 10 July 1941.",
-        "The message, which was sent by a radio station with the tactical callsign 2ny, was received by the radio station of the SS-Totenkopf Quartiermeister, Ib.",
-        "Ib received the message at 17:30 on 10 July 1941 and logged the message as Nr."
-      ],
-      "originalTitle": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
-      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "OpenAI"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-22T13:52:15.000Z",
-      "contentSnippet": "On 15 September 2026, Carter Leffer contacted me to request validation of a break of the German Army Enigma message MVUEH of 10 July 1941. The message, which was sent by a radio station with the tactical callsign 2ny, was received by the radio station of the SS-Totenkopf Quartiermeister, Ib. Ib rece",
-      "authorName": "sohkamyung",
-      "upvotes": 215,
-      "commentsCount": 218
-    },
-    {
-      "id": "5ca3875d7f779981",
-      "title_vi": "Vì sao mỏng và nhẹ lại là bài toán khó nhất của điện thoại gập, được đo bằng 0,001 gram",
-      "title_en": "Why being thin and light is the most difficult problem of folding phones, measured in 0.001 grams",
-      "summary_vi": [
-        "Khám phá trải nghiệm biến chiếc smartphone màn hình gập Galaxy Z Fold8 thành khung tranh và màn hình phụ mini trên bàn làm việc công nghệ.",
-        "Tận dụng cơ chế bản lề Flex Mode cố định đa góc độ, màn hình Dynamic AMOLED tần số quét 120Hz và chế độ Standby Always-On Display thông minh.",
-        "Mở rộng khả năng tương tác đa nhiệm, hỗ trợ lập trình viên theo dõi dashboard và thông báo hệ thống mà không cần bật thêm màn hình lớn."
-      ],
-      "summary_en": [
-        "Explores transforming the Galaxy Z Fold8 foldable flagship into an ambient smart display and secondary monitor on developer desks.",
-        "Leverages multi-angle Flex Mode hinging, a 120Hz Dynamic AMOLED panel, and intelligent Always-On ambient display capabilities.",
-        "Enhances multi-tasking desk ergonomics, enabling engineers to monitor build pipelines and system telemetry without extra hardware monitors."
-      ],
-      "originalTitle": "Vì sao mỏng và nhẹ lại là bài toán khó nhất của điện thoại gập, được đo bằng 0,001 gram",
-      "url": "https://genk.vn/vi-sao-mong-va-nhe-lai-la-bai-toan-kho-nhat-cua-dien-thoai-gap-duoc-do-bang-0001-gram-165260922162540171.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Android"
-      ],
-      "hotScore": 94,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-22T13:00:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/22/ngang-17900690554741052402976.jpg",
-      "contentSnippet": "Galaxy Z Fold8 nặng 201 gram. Chiếc Galaxy Fold đầu tiên, ra mắt năm 2019, nặng 276 gram. Xóa khoảng cách 75 gram giữa hai con số ấy mất tám thế hệ, và phần lớn công sức dồn vào 14 gram cuối cùng.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "48aafb19b4b43142",
-      "title_vi": "Phiên bản SIMD Bất định hình v1.0 ra mắt",
-      "title_en": "Fearless SIMD v1.0 Released",
-      "summary_vi": [
-        "Thư viện Fearless SIMD phiên bản 1.0 chính thức ra mắt, loại bỏ hoàn toàn các khối mã không an toàn khi lập trình xử lý song song, đánh dấu chặng đường phát triển dài tám năm kể từ nguyên mẫu đầu tiên.",
-        "Công cụ cung cấp các giải pháp tối ưu hóa hiệu năng cao như tự động vector hóa, đa phiên bản, cùng các biến thể xử lý biên chính xác hoặc nhanh chóng tùy theo nhu cầu kiến trúc phần cứng.",
-        "Sự kiện này mang lại giá trị thiết thực cho các lập trình viên hệ thống, giúp khai thác tối đa sức mạnh phần cứng một cách an toàn và đóng góp nhiều cải tiến quan trọng cho Rust lẫn LLVM."
-      ],
-      "summary_en": [
-        "The fearless SIMD library version 1.0 has been officially released, completely eliminating unsafe blocks when writing parallel processing code and marking an eight-year development journey since its first prototype.",
-        "The tool provides high-performance optimization solutions such as autovectorization and multiversioning, along with precise or fast edge-case handling variants depending on hardware architecture requirements.",
-        "This release delivers practical value for systems programmers by maximizing hardware capabilities safely while contributing significant upstream improvements to both Rust and LLVM."
-      ],
-      "originalTitle": "Fearless SIMD v1.0",
-      "url": "https://linebender.org/blog/fearless-simd-1-0/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "SIMD",
-        "Rust",
-        "LLVM",
-        "Performance",
-        "Systems Programming"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-22T12:23:37.000Z",
-      "contentSnippet": "fearless_simd takes unsafe out of SIMD. It has come a long way since the original prototype 8 years ago. We are now confident that whatever it is you need, be it just autovectorization and multiversioning, or full-blown portable SIMD abstractions, or safe access to intrinsics and nothing more, Fearl",
-      "authorName": "verdagon",
-      "upvotes": 108,
-      "commentsCount": 17
-    },
-    {
-      "id": "e1f1dca4ae9c6918",
-      "title_vi": "Năm điều khiến trí tuệ nhân tạo Siri mới làm người dùng cảm thấy bực mình",
-      "title_en": "Five reasons why the new Siri artificial intelligence is frustrating users",
-      "summary_vi": [
-        "Phiên bản trợ lý ảo tích hợp trí tuệ nhân tạo mới ra mắt gần đây được quảng cáo sở hữu khả năng hiểu ngữ cảnh sâu rộng cùng tính năng tìm kiếm thông minh trong tin nhắn.",
-        "Hệ thống xử lý ngôn ngữ tự nhiên gặp nhiều hạn chế trong việc phân tích ý định phức tạp của người dùng khi truy xuất dữ liệu từ các ứng dụng cốt lõi.",
-        "Sự cố này đặt ra thách thức lớn cho các kỹ sư phần mềm trong việc tối ưu hóa mô hình ngôn ngữ lớn để vận hành mượt mà trên thiết bị di động."
-      ],
-      "summary_en": [
-        "The newly launched virtual assistant integrated with advanced artificial intelligence was advertised to possess deep contextual understanding and smart search features within messages.",
-        "The natural language processing system faces numerous limitations in analyzing complex user intents when retrieving data from core mobile applications efficiently.",
-        "This issue poses a significant challenge for software engineers aiming to optimize large language models for smooth execution directly on edge mobile hardware."
-      ],
-      "originalTitle": "5 điều khiến Siri AI mới làm người dùng bực mình",
-      "url": "https://tinhte.vn/thread/5-dieu-khien-siri-ai-moi-lam-nguoi-dung-buc-minh.4178652/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Siri",
-        "Mobile",
-        "NLP",
-        "iOS"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-22T10:37:25.000Z",
-      "contentSnippet": "5 điều khiến Siri AI mới làm người dùng bực mình Siri AI mới ra mắt cùng iOS 27 tháng này, được quảng cáo là hiểu ngữ cảnh sâu hơn, tìm được thông tin trong tin nhắn và ghi chú, thậm chí nhận...",
-      "authorName": "nhatminhngo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8a76be6a28f2ddc2",
-      "title_vi": "Phiên bản Mỹ của dòng điện thoại thông minh cao cấp vẫn tiếp tục sử dụng chip modem di động từ Qualcomm",
-      "title_en": "US Version of the Flagship Smartphone Continues to Use Qualcomm Mobile Modem Chipset",
-      "summary_vi": [
-        "Các chuyên gia phân tích phần cứng từ TechInsights đã tiến hành quy trình mổ bụng dòng điện thoại thông minh cao cấp mới nhất nhằm khám phá các linh kiện điện tử bên trong thiết bị.",
-        "Kết quả kiểm tra chi tiết cho thấy riêng phiên bản thương mại phân phối tại thị trường Mỹ vẫn tiếp tục tích hợp bộ vi xử lý modem mạng di động Snapdragon X80 do tập đoàn Qualcomm sản xuất.",
-        "Phát hiện này cung cấp những góc nhìn chuyên sâu về chiến lược chuỗi cung ứng linh kiện phần cứng cũng như lộ trình phát triển công nghệ kết nối không dây của các hãng sản xuất thiết bị di động lớn."
-      ],
-      "summary_en": [
-        "Hardware teardown experts from TechInsights have performed a detailed physical inspection of the latest flagship smartphone to examine the internal electronic components.",
-        "Detailed examination results indicate that exclusively the commercial variant distributed within the United States market continues to integrate the Snapdragon X80 mobile network modem processor manufactured by Qualcomm.",
-        "This discovery provides in-depth perspectives regarding hardware supply chain strategies as well as the wireless connectivity technology roadmap of major mobile device manufacturers."
-      ],
-      "originalTitle": "iPhone 18 Pro Max bản Mỹ hóa ra vẫn dùng modem Qualcomm X80",
-      "url": "https://tinhte.vn/thread/iphone-18-pro-max-ban-my-hoa-ra-van-dung-modem-qualcomm-x80.4178401/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Qualcomm",
-        "Modem",
-        "Hardware",
-        "Mobile",
-        "Smartphones"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-22T09:11:13.000Z",
-      "contentSnippet": "iPhone 18 Pro Max bản Mỹ hóa ra vẫn dùng modem Qualcomm X80 TechInsights vừa mổ bụng iPhone 18 Pro Max và phát hiện riêng bản bán tại thị trường Mỹ vẫn dùng modem Snapdragon X80 của Qualcomm....",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ea5c60e945ffb741",
-      "title_vi": "Khám phá máy đọc sách Boox chạy Android mở, hỗ trợ chia sẻ ghi chú và xem video ngắn",
-      "title_en": "Exploring Boox e-readers running open Android with note-sharing and short video capabilities",
-      "summary_vi": [
-        "Bài viết thảo luận về trải nghiệm sử dụng máy đọc sách Boox từ góc nhìn của một người không chuyên đọc sách, tập trung vào khả năng vận hành hệ điều hành Android mở để tối ưu hóa nhu cầu giải trí và công việc hàng ngày.",
-        "Thiết bị tích hợp hệ điều hành Android cho phép cài đặt các ứng dụng linh hoạt, khả năng đồng bộ ghi chú dễ dàng qua các nền tảng đám mây và tối ưu hóa màn hình mực điện tử để xem các nội dung đa phương tiện.",
-        "Việc ứng dụng các thiết bị đọc sách thông minh chạy hệ điều hành mở mở ra hướng đi mới cho các nhà phát triển phần mềm tối ưu hóa giao diện người dùng trên màn hình E-Ink, nâng cao trải nghiệm số cho người dùng."
-      ],
-      "summary_en": [
-        "The article discusses the user experience of Boox e-readers from a non-avid reader perspective, focusing on the operation of an open Android operating system to optimize daily entertainment and productivity needs.",
-        "The device integrates the Android operating system to allow flexible application installation, seamless note synchronization across cloud platforms, and optimization of electronic ink displays for viewing multimedia content.",
-        "The application of smart e-readers running open operating systems opens up new directions for software developers to optimize user interfaces on E-Ink displays, enhancing the digital user experience."
-      ],
-      "originalTitle": "Bàn chuyện máy đọc sách với Boox: Chạy Android mở, chia sẻ ghi chú và video ngắn",
-      "url": "https://tinhte.vn/thread/ban-chuyen-may-doc-sach-voi-boox-chay-android-mo-chia-se-ghi-chu-va-video-ngan.4177485/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Android",
-        "E-Ink",
-        "Mobile Devices",
-        "Software Integration",
-        "UI UX"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-22T08:46:37.000Z",
-      "contentSnippet": "Mình không phải là kiểu người mọt sách, suốt ngày ngồi ôm cuốn sách dày cộp để đọc. Nhiều khi mở một cuốn sách nhiều chữ ra đọc một hồi là mắt mình bắt đầu díp lại vì buồn ngủ. Nhưng dưới góc độ...",
-      "authorName": "cuhiep",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "dec84f4554b5013f",
-      "title_vi": "Trung Quốc lần đầu thử nghiệm pin mặt trời perovskite dưới lòng đại dương",
-      "title_en": "China Tests Perovskite Solar Cells Underwater for the First Time",
-      "summary_vi": [
-        "Các nhà khoa học Trung Quốc đã lần đầu tiên chứng minh thành công khả năng hoạt động của pin mặt trời perovskite ở độ sâu khoảng mười mét dưới lòng đại dương.",
-        "Hệ thống này đã thực hiện thành công việc sạc trực tiếp cho pin lithium-ion và cung cấp nguồn điện ổn định để vận hành hệ thống đèn LED dưới nước.",
-        "Thành tựu này mở ra hướng đi mới trong việc phát triển nguồn năng lượng tự chủ cho các thiết bị phần cứng, robot ngầm và cảm biến đại dương."
-      ],
-      "summary_en": [
-        "Chinese scientists have successfully demonstrated for the first time that perovskite solar cells can operate effectively at a depth of about ten meters underwater.",
-        "The system successfully charged lithium-ion batteries directly and provided a stable power source to operate LED lighting systems beneath the ocean surface.",
-        "This achievement paves the way for developing autonomous power sources for hardware devices, underwater robots, and deep-sea ocean sensors."
-      ],
-      "originalTitle": "Trung Quốc lần đầu thử nghiệm pin mặt trời ở độ sâu 10 mét ngoài khơi",
-      "url": "https://genk.vn/trung-quoc-lan-dau-thu-nghiem-pin-mat-troi-o-do-sau-10-met-ngoai-khoi-165260922152045727.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Solar Energy",
-        "Perovskite",
-        "Hardware",
-        "IoT",
-        "Underwater Robotics"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-22T08:20:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/22/avatar1790065228112-17900652301762014159826.webp",
-      "contentSnippet": "TPO - Các nhà khoa học Trung Quốc lần đầu chứng minh pin mặt trời perovskite có thể hoạt động ở độ sâu khoảng 10 mét dưới biển, sạc pin lithium-ion và cấp điện cho đèn LED, mở ra hướng phát triển nguồn năng lượng tự chủ cho robot, cảm biến và thiết bị hoạt động dưới nước.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0b72c0a9ba1d83e5",
-      "title_vi": "Điện thoại iPhone 20 Pro Max có thể được trang bị màn hình kích thước lên tới 7 inch",
-      "title_en": "Apple's Upcoming iPhone 20 Pro Max Might Feature a Massive 7 Inch Display",
-      "summary_vi": [
-        "Dòng điện thoại kỷ niệm 20 năm của hãng Apple được đồn đoán sẽ có sự thay đổi mang tính bước ngoặt về ngôn ngữ thiết kế phần cứng cùng kích thước màn hình lớn hơn.",
-        "Các thông tin rò rỉ từ chuỗi cung ứng cho thấy phiên bản cao cấp dự kiến sở hữu màn hình bảy inch với độ phân giải cao, duy trì mật độ điểm ảnh sắc nét.",
-        "Việc gia tăng kích thước vật lý mà vẫn tối ưu hóa không gian hiển thị tiếp tục khẳng định xu hướng phát triển công nghệ phần cứng thiết bị di động cao cấp."
-      ],
-      "summary_en": [
-        "Apple's upcoming anniversary smartphone series is rumored to feature major hardware design changes alongside significantly increased physical display dimensions.",
-        "Supply chain leaks indicate that the top tier model is expected to feature a seven inch screen with high resolution, maintaining a sharp pixel density.",
-        "Expanding physical dimensions while optimizing display space continues to highlight the ongoing development trend in high end mobile hardware technology."
-      ],
-      "originalTitle": "iPhone 20 Pro Max có thể trang bị màn hình 7 inch",
-      "url": "https://vnexpress.net/iphone-20-pro-max-co-the-trang-bi-man-hinh-7-inch-5123069.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Mobile Hardware",
-        "Display Technology"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-22T04:11:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/21/iphone-anniversary-1790002971-4748-1790002993.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=T8dIBvTdIEo1Z6MXQLeUkA",
-      "contentSnippet": "Mẫu iPhone kỷ niệm 20 năm được cho là sẽ thay đổi lớn về ngôn ngữ thiết kế, trong có kích thước màn hình có thể tăng lên 7 inch.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "29b678d32cdeb246",
-      "title_vi": "iPhone 18 Pro trang bị khẩu độ biến thiên, Apple đang thay đổi cách người dùng chụp ảnh như thế nào?",
-      "title_en": "iPhone 18 Pro Features Variable Aperture, How Apple is Changing Mobile Photography Standards",
-      "summary_vi": [
-        "Bài viết phân tích chiếc điện thoại iPhone 18 Pro không chỉ nâng cấp camera đơn thuần bằng megapixel mà còn tích hợp khẩu độ biến thiên vật lý, đưa đặc tính của máy ảnh chuyên dụng lên thiết bị di động.",
-        "Hệ thống camera chính 48 megapixel Fusion sở hữu sáu lá khẩu cắt bằng laser cho phép thay đổi bốn mức khẩu độ khác nhau, giúp thu nhận nhiều ánh sáng hơn và tạo hiệu ứng xóa phông quang học thực tế.",
-        "Công nghệ mới này mang lại giá trị thực tiễn lớn cho người dùng phổ thông nhờ khả năng tự động điều chỉnh thông minh, tối ưu hóa độ nhạy sáng ISO và giảm thời gian phơi sáng trong điều kiện thiếu sáng."
-      ],
-      "summary_en": [
-        "The article analyzes how the upcoming iPhone 18 Pro transcends simple megapixel upgrades by integrating a physical variable aperture, bringing professional camera characteristics directly into mobile devices.",
-        "The 48 megapixel Fusion main camera system features a six-blade laser-cut aperture mechanism allowing four distinct settings, which optimizes light intake and delivers authentic optical bokeh effects.",
-        "This hardware innovation provides substantial practical value for everyday users through intelligent automatic adjustments, optimizing ISO sensitivity levels and reducing shutter speeds in low light."
-      ],
-      "originalTitle": "iPhone 18 Pro có khẩu độ biến thiên, Apple đang khiến người dùng bớt cần máy ảnh số?",
-      "url": "https://genk.vn/iphone-18-pro-co-khau-do-bien-thien-apple-dang-khien-nguoi-dung-bot-can-may-anh-so-165260922072127467.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone 18 Pro",
-        "Mobile Photography",
-        "Hardware Engineering",
-        "Camera Tech"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-22T02:00:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/22/avatar1790036465257-17900364655511511901430.png",
-      "contentSnippet": "Sự cải tiến của camera trong iPhone 18 Pro đang khiến nhiều người tò mò về tương lai thị trường máy ảnh số.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9e792a3b465afa51",
-      "title_vi": "Đánh giá màu sắc của dòng điện thoại thông minh cao cấp mới ra mắt",
-      "title_en": "Color evaluation of the newly released flagship smartphone lineup",
-      "summary_vi": [
-        "Bài viết chia sẻ góc nhìn và cảm nhận cá nhân về các tùy chọn màu sắc khác nhau trên thế hệ điện thoại thông minh cao cấp mới ra mắt trong năm nay.",
-        "Tác giả lần lượt xếp hạng các phiên bản màu sắc từ đen, bạc silver, xanh Glacier cho đến màu Burgundy với những đánh giá chi tiết về thẩm mỹ.",
-        "Thông tin này phản ánh xu hướng thiết kế phần cứng và thị hiếu người dùng đối với các dòng thiết bị di động cao cấp trên thị trường hiện nay."
-      ],
-      "summary_en": [
-        "The article shares personal perspectives and impressions regarding the various color options available on this year's newly launched flagship smartphone generation.",
-        "The author sequentially ranks the color variants from black, silver, and Glacier blue to Burgundy with detailed aesthetic evaluations and preferences.",
-        "This information reflects hardware design trends and consumer tastes regarding high-end mobile devices currently available in the consumer electronics market."
-      ],
-      "originalTitle": "Trong số tất cả màu sắc của iPhone 18 Pro năm nay, màu đen là đẹp nhất",
-      "url": "https://tinhte.vn/thread/trong-so-tat-ca-mau-sac-cua-iphone-18-pro-nam-nay-mau-den-la-dep-nhat.4178133/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Smartphone",
-        "Hardware",
-        "Design",
-        "Mobile Devices"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-22T01:57:41.000Z",
-      "contentSnippet": "Trong số tất cả màu sắc của iPhone 18 Pro năm nay, màu đen là đẹp nhất Kế đến là màu bạc silver, rồi đến màu xanh Glacier và màu mình thấy chán nhất là màu Burgundy. Cơ mà lâu rồi không thấy ốp...",
-      "authorName": "Pnghuy",
       "upvotes": 0,
       "commentsCount": 0
     }
