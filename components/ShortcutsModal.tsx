@@ -15,24 +15,24 @@ export const ShortcutsModal: React.FC<ShortcutsModalProps> = ({ isOpen, onClose 
   if (!isOpen) return null;
 
   const shortcutsList = lang === 'vi' ? [
-    { key: 'J / K', desc: 'Lùi bài trước (J - Trái) / Tới bài sau (K - Phải)' },
-    { key: 'Space', desc: 'Nghe tóm tắt bài đang chọn (hoặc Bản tin sáng)' },
+    { key: 'J / K', desc: 'Bài tiếp theo (J) / Bài trước đó (K) (hoặc phím Mũi tên)' },
+    { key: 'Space', desc: 'Nghe / Tạm dừng đọc tóm tắt (TTS) hoặc Bản tin sáng' },
     { key: 'Enter', desc: 'Mở xem chi tiết bài viết đang chọn' },
-    { key: 'B', desc: 'Lưu bài đang chọn / Mở danh sách đã lưu' },
+    { key: 'B', desc: 'Lưu / Bỏ lưu bài viết (hoặc mở danh sách đã lưu)' },
     { key: 'O', desc: 'Mở bài gốc trên trang nguồn ở tab mới' },
     { key: 'P', desc: 'Bật / Tắt Bản tin sáng 3 phút (Radio Podcast)' },
     { key: 'Ctrl + K', desc: 'Mở thanh tìm kiếm tin tức Spotlight' },
     { key: 'V', desc: 'Chuyển đổi chế độ xem Lưới / Danh sách' },
     { key: 'L', desc: 'Đổi ngôn ngữ Tiếng Việt / English' },
-    { key: 'T', desc: 'Đổi chế độ Sáng / Tối' },
+    { key: 'T', desc: 'Đổi giao diện Sáng / Tối' },
     { key: '[ / ]', desc: 'Chuyển trang trước / trang sau' },
     { key: '?', desc: 'Bật / Tắt bảng phím tắt này' },
-    { key: 'Esc', desc: 'Đóng Modal / Bỏ chọn bài viết' },
+    { key: 'Esc', desc: 'Đóng Modal đọc bài / Bỏ chọn bài viết' },
   ] : [
-    { key: 'J / K', desc: 'Previous story (J - Left) / Next story (K - Right)' },
-    { key: 'Space', desc: 'Listen to focused article (or Daily Briefing)' },
-    { key: 'Enter', desc: 'Open focused article detail' },
-    { key: 'B', desc: 'Bookmark focused article / Open saved list' },
+    { key: 'J / K', desc: 'Next article (J) / Previous article (K) (or Arrow keys)' },
+    { key: 'Space', desc: 'Listen / Pause audio digest (TTS) or Daily Briefing' },
+    { key: 'Enter', desc: 'Open focused article detail modal' },
+    { key: 'B', desc: 'Bookmark / Unbookmark article (or open saved list)' },
     { key: 'O', desc: 'Open original article in a new tab' },
     { key: 'P', desc: 'Toggle 3-Min Daily Briefing (Radio Podcast)' },
     { key: 'Ctrl + K', desc: 'Open instant Spotlight search bar' },
@@ -41,7 +41,7 @@ export const ShortcutsModal: React.FC<ShortcutsModalProps> = ({ isOpen, onClose 
     { key: 'T', desc: 'Toggle Dark / Light theme' },
     { key: '[ / ]', desc: 'Previous / Next page' },
     { key: '?', desc: 'Toggle shortcuts cheat sheet' },
-    { key: 'Esc', desc: 'Close dialogs / Clear card focus' },
+    { key: 'Esc', desc: 'Close Reader Modal / Clear card focus' },
   ];
 
   return (

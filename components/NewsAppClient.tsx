@@ -671,6 +671,30 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
     return filteredArticles.slice(startIndex, endIndex);
   }, [filteredArticles, startIndex, endIndex]);
 
+  // Continuous Reader Navigation Pool (Modal Next/Prev)
+  const activeNavList = useMemo(() => {
+    if (!activeArticle) return filteredArticles;
+    const inFiltered = filteredArticles.some((a) => a.id === activeArticle.id);
+    return inFiltered ? filteredArticles : activeArticlesPool;
+  }, [activeArticle, filteredArticles, activeArticlesPool]);
+
+  const activeArticleIndex = useMemo(() => {
+    if (!activeArticle) return -1;
+    return activeNavList.findIndex((a) => a.id === activeArticle.id);
+  }, [activeArticle, activeNavList]);
+
+  const handleNextArticle = useCallback(() => {
+    if (activeArticleIndex >= 0 && activeArticleIndex < activeNavList.length - 1) {
+      handleOpenArticle(activeNavList[activeArticleIndex + 1], autoPlayAudio);
+    }
+  }, [activeArticleIndex, activeNavList, handleOpenArticle, autoPlayAudio]);
+
+  const handlePrevArticle = useCallback(() => {
+    if (activeArticleIndex > 0) {
+      handleOpenArticle(activeNavList[activeArticleIndex - 1], autoPlayAudio);
+    }
+  }, [activeArticleIndex, activeNavList, handleOpenArticle, autoPlayAudio]);
+
   const handlePageChange = useCallback((page: number) => {
     if (page < 1 || page > totalPages) return;
     startTransition(() => {
@@ -747,12 +771,12 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
       if (e.key === '?') {
         e.preventDefault();
         setIsShortcutsOpen((prev) => !prev);
-      } else if (e.key.toLowerCase() === 'j') {
-        e.preventDefault();
-        setFocusedCardIndex((prev) => (prev <= 0 ? 0 : prev - 1));
-      } else if (e.key.toLowerCase() === 'k') {
+      } else if (e.key.toLowerCase() === 'j' || e.key === 'ArrowDown') {
         e.preventDefault();
         setFocusedCardIndex((prev) => (prev === -1 ? 0 : prev < paginatedArticles.length - 1 ? prev + 1 : prev));
+      } else if (e.key.toLowerCase() === 'k' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        setFocusedCardIndex((prev) => (prev <= 0 ? 0 : prev - 1));
       } else if (e.key === ' ') {
         e.preventDefault();
         if (focusedCardIndex >= 0 && paginatedArticles[focusedCardIndex]) {
@@ -1341,6 +1365,12 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
         allArticles={activeArticlesPool}
         onSelectArticle={(art) => handleOpenArticle(art, false)}
         autoPlayAudio={autoPlayAudio}
+        currentIndex={activeArticleIndex}
+        totalArticles={activeNavList.length}
+        hasNext={activeArticleIndex >= 0 && activeArticleIndex < activeNavList.length - 1}
+        hasPrev={activeArticleIndex > 0}
+        onNext={handleNextArticle}
+        onPrev={handlePrevArticle}
       />
 
       <BookmarkDrawer

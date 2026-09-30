@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { NewsItem, getCategoryLabel } from '../types/news';
 import { useBilingual } from './BilingualContext';
 import { recordUserAction, getRelatedArticles } from '../lib/user_interest_tracker';
@@ -18,6 +18,8 @@ import {
   Pause,
   Square,
   Volume2,
+  ChevronLeft,
+  ChevronRight,
 } from 'lucide-react';
 import { useTextToSpeech } from '../lib/speech_synthesizer';
 
@@ -27,6 +29,12 @@ interface NewsDetailModalProps {
   allArticles?: NewsItem[];
   onSelectArticle?: (article: NewsItem) => void;
   autoPlayAudio?: boolean;
+  currentIndex?: number;
+  totalArticles?: number;
+  onNext?: () => void;
+  onPrev?: () => void;
+  hasNext?: boolean;
+  hasPrev?: boolean;
 }
 
 export const NewsDetailModal: React.FC<NewsDetailModalProps> = ({
@@ -35,11 +43,46 @@ export const NewsDetailModal: React.FC<NewsDetailModalProps> = ({
   allArticles = [],
   onSelectArticle,
   autoPlayAudio = false,
+  currentIndex = -1,
+  totalArticles = 0,
+  onNext,
+  onPrev,
+  hasNext = false,
+  hasPrev = false,
 }) => {
   const { lang, t, toggleBookmark, isBookmarked } = useBilingual();
   const [copied, setCopied] = useState(false);
   const [fontSize, setFontSize] = useState<'sm' | 'base' | 'lg'>('base');
   const tts = useTextToSpeech(lang);
+
+  // Touch Swipe Gesture State (Mobile)
+  const touchStartXRef = useRef<number | null>(null);
+  const touchStartYRef = useRef<number | null>(null);
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    touchStartXRef.current = e.touches[0].clientX;
+    touchStartYRef.current = e.touches[0].clientY;
+  };
+
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    if (touchStartXRef.current === null || touchStartYRef.current === null) return;
+    const deltaX = e.changedTouches[0].clientX - touchStartXRef.current;
+    const deltaY = e.changedTouches[0].clientY - touchStartYRef.current;
+    touchStartXRef.current = null;
+    touchStartYRef.current = null;
+
+    // Must be predominantly horizontal gesture exceeding 50px
+    if (Math.abs(deltaX) > 50 && Math.abs(deltaX) > Math.abs(deltaY) * 1.3) {
+      if (deltaX < 0 && hasNext && onNext) {
+        onNext(); // Swiped left -> Next
+      } else if (deltaX > 0 && hasPrev && onPrev) {
+        onPrev(); // Swiped right -> Previous
+      }
+    }
+  };
+
+  const currentTitle = article ? (lang === 'vi' ? article.title_vi : article.title_en) : '';
+  const currentSummary = article ? (lang === 'vi' ? article.summary_vi : article.summary_en) : [];
 
   // Stop audio synthesis when switching article or unmounting
   useEffect(() => {
@@ -47,6 +90,54 @@ export const NewsDetailModal: React.FC<NewsDetailModalProps> = ({
       tts.stop();
     };
   }, [article?.id]);
+
+  // Keyboard navigation shortcuts inside Modal (Linear & Readwise standard)
+  useEffect(() => {
+    if (!article) return;
+    const handleModalKeyDown = (e: KeyboardEvent) => {
+      if (['INPUT', 'TEXTAREA', 'SELECT'].includes((e.target as HTMLElement)?.tagName)) {
+        return;
+      }
+
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        tts.stop();
+        onClose();
+      } else if (e.key.toLowerCase() === 'j' || e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+        if (hasNext && onNext) {
+          e.preventDefault();
+          onNext();
+        }
+      } else if (e.key.toLowerCase() === 'k' || e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+        if (hasPrev && onPrev) {
+          e.preventDefault();
+          onPrev();
+        }
+      } else if (e.key.toLowerCase() === 'b') {
+        e.preventDefault();
+        toggleBookmark(article.id);
+        recordUserAction(article, 'bookmark');
+      } else if (e.key.toLowerCase() === 'o') {
+        e.preventDefault();
+        window.open(article.url, '_blank');
+        recordUserAction(article, 'read');
+      } else if (e.key === ' ') {
+        e.preventDefault();
+        if (tts.isPlaying) {
+          if (tts.isPaused) {
+            tts.resume();
+          } else {
+            tts.pause();
+          }
+        } else {
+          tts.speak(currentTitle, currentSummary, article.sourceName);
+        }
+      }
+    };
+
+    window.addEventListener('keydown', handleModalKeyDown);
+    return () => window.removeEventListener('keydown', handleModalKeyDown);
+  }, [article, hasNext, hasPrev, onNext, onPrev, tts, currentTitle, currentSummary, toggleBookmark, onClose]);
 
   // Auto-play audio digest if opened via quick Listen button on card
   useEffect(() => {
@@ -103,8 +194,6 @@ export const NewsDetailModal: React.FC<NewsDetailModalProps> = ({
     );
   };
 
-  const currentTitle = lang === 'vi' ? article.title_vi : article.title_en;
-  const currentSummary = lang === 'vi' ? article.summary_vi : article.summary_en;
   const categoryLabel = getCategoryLabel(article.category, lang);
 
   const formattedDate = new Date(article.publishedAt).toLocaleDateString(lang === 'vi' ? 'vi-VN' : 'en-US', {
@@ -116,12 +205,15 @@ export const NewsDetailModal: React.FC<NewsDetailModalProps> = ({
     minute: '2-digit',
   });
 
-
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-0 sm:p-6 md:p-10 bg-slate-900/60 dark:bg-[#080A0F]/85 backdrop-blur-md animate-fade-in">
       <div className="absolute inset-0" onClick={handleClose} />
 
-      <div className="relative w-full h-full sm:h-auto sm:max-w-2xl max-h-[100dvh] sm:max-h-[90vh] overflow-y-auto rounded-none sm:rounded-2xl bg-white dark:bg-[#11141E] p-4 sm:p-8 shadow-2xl border-0 sm:border border-slate-200 dark:border-white/10 z-10 transition-colors">
+      <div 
+        onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchEnd}
+        className="relative w-full h-full sm:h-auto sm:max-w-2xl max-h-[100dvh] sm:max-h-[90vh] overflow-y-auto rounded-none sm:rounded-2xl bg-white dark:bg-[#11141E] p-4 sm:p-8 shadow-2xl border-0 sm:border border-slate-200 dark:border-white/10 z-10 transition-colors"
+      >
         <div className="flex items-center justify-between gap-3 mb-4 pb-3 border-b border-slate-200 dark:border-white/10">
           <div className="flex items-center gap-2 flex-wrap">
             <span className="px-3 py-1 text-xs font-bold rounded-full bg-emerald-500/10 dark:bg-emerald-500/15 text-emerald-600 dark:text-emerald-300 border border-emerald-500/20 dark:border-emerald-500/30">
@@ -131,10 +223,40 @@ export const NewsDetailModal: React.FC<NewsDetailModalProps> = ({
             <span className="px-2.5 py-1 text-xs font-semibold rounded-full bg-slate-100 dark:bg-white/[0.06] text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-white/10">
               {article.sourceName}
             </span>
+
+            {currentIndex >= 0 && totalArticles > 0 && (
+              <span className="px-2 py-0.5 text-[11px] font-mono font-bold rounded-md bg-slate-100 dark:bg-white/[0.05] text-slate-600 dark:text-slate-300 border border-slate-200/80 dark:border-white/10">
+                {String(currentIndex + 1).padStart(2, '0')} / {String(totalArticles).padStart(2, '0')}
+              </span>
+            )}
           </div>
 
           <div className="flex items-center gap-2">
-            <div className="flex items-center bg-slate-100 dark:bg-white/[0.04] border border-slate-200 dark:border-white/10 rounded-lg p-0.5 text-xs">
+            {/* Quick Next / Prev buttons with Keyboard Shortcut Tooltip */}
+            {(hasPrev || hasNext || onPrev || onNext) && (
+              <div className="flex items-center bg-slate-100 dark:bg-white/[0.04] border border-slate-200 dark:border-white/10 rounded-lg p-0.5">
+                <button
+                  onClick={onPrev}
+                  disabled={!hasPrev}
+                  className="p-1.5 rounded text-slate-600 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-white dark:hover:bg-white/10 disabled:opacity-30 disabled:pointer-events-none transition-colors"
+                  title={`${lang === 'vi' ? 'Bài trước' : 'Previous article'} [K]`}
+                  aria-label="Previous article"
+                >
+                  <ChevronLeft className="w-4 h-4" />
+                </button>
+                <button
+                  onClick={onNext}
+                  disabled={!hasNext}
+                  className="p-1.5 rounded text-slate-600 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-white dark:hover:bg-white/10 disabled:opacity-30 disabled:pointer-events-none transition-colors"
+                  title={`${lang === 'vi' ? 'Bài tiếp theo' : 'Next article'} [J]`}
+                  aria-label="Next article"
+                >
+                  <ChevronRight className="w-4 h-4" />
+                </button>
+              </div>
+            )}
+
+            <div className="hidden sm:flex items-center bg-slate-100 dark:bg-white/[0.04] border border-slate-200 dark:border-white/10 rounded-lg p-0.5 text-xs">
               <button
                 onClick={() => setFontSize('sm')}
                 className={`px-2 py-0.5 rounded font-bold transition-colors ${fontSize === 'sm' ? 'bg-white dark:bg-white/15 text-slate-900 dark:text-white shadow-xs' : 'text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'}`}
@@ -161,6 +283,8 @@ export const NewsDetailModal: React.FC<NewsDetailModalProps> = ({
             <button
               onClick={handleClose}
               className="p-1.5 rounded-full text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-white/10 transition-colors"
+              title={`${lang === 'vi' ? 'Đóng' : 'Close'} [Esc]`}
+              aria-label="Close modal"
             >
               <X className="w-5 h-5" />
             </button>
@@ -326,9 +450,35 @@ export const NewsDetailModal: React.FC<NewsDetailModalProps> = ({
           </div>
         )}
 
-        <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 pt-5 border-t border-slate-200 dark:border-white/10">
-          {/* Touch-Friendly Action Buttons Row */}
-          <div className="flex items-center justify-between sm:justify-start gap-2 overflow-x-auto scrollbar-none py-1 sm:py-0">
+        <div className="flex flex-col gap-3 pt-5 border-t border-slate-200 dark:border-white/10">
+          {/* Quick Prev / Next navigation for Mobile Thumb Zone */}
+          {(hasPrev || hasNext) && (
+            <div className="flex sm:hidden items-center justify-between gap-2 p-1 bg-slate-50 dark:bg-white/[0.02] rounded-xl border border-slate-200/80 dark:border-white/10 text-xs font-semibold">
+              <button
+                onClick={onPrev}
+                disabled={!hasPrev}
+                className="flex-1 min-h-[40px] py-2 px-3 rounded-lg flex items-center justify-center gap-1 bg-white dark:bg-white/[0.06] text-slate-700 dark:text-slate-200 border border-slate-200/80 dark:border-white/10 disabled:opacity-30 disabled:pointer-events-none active:scale-95 transition-all"
+              >
+                <ChevronLeft className="w-4 h-4" />
+                <span>{lang === 'vi' ? 'Bài trước' : 'Previous'}</span>
+              </button>
+              <span className="text-[11px] font-mono text-slate-400 shrink-0 px-2">
+                {currentIndex >= 0 && totalArticles > 0 ? `${currentIndex + 1}/${totalArticles}` : '•'}
+              </span>
+              <button
+                onClick={onNext}
+                disabled={!hasNext}
+                className="flex-1 min-h-[40px] py-2 px-3 rounded-lg flex items-center justify-center gap-1 bg-white dark:bg-white/[0.06] text-slate-700 dark:text-slate-200 border border-slate-200/80 dark:border-white/10 disabled:opacity-30 disabled:pointer-events-none active:scale-95 transition-all"
+              >
+                <span>{lang === 'vi' ? 'Bài sau' : 'Next'}</span>
+                <ChevronRight className="w-4 h-4" />
+              </button>
+            </div>
+          )}
+
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+            {/* Touch-Friendly Action Buttons Row */}
+            <div className="flex items-center justify-between sm:justify-start gap-2 overflow-x-auto scrollbar-none py-1 sm:py-0">
             <button
               onClick={() => {
                 toggleBookmark(article.id);
@@ -380,5 +530,6 @@ export const NewsDetailModal: React.FC<NewsDetailModalProps> = ({
         </div>
       </div>
     </div>
-  );
+  </div>
+);
 };
