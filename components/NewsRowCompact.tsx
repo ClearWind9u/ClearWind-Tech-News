@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { NewsItem, getCategoryLabel, formatRelativeTime } from '../types/news';
 import { useBilingual } from './BilingualContext';
-import { Clock, Bookmark, Calendar, ArrowUpRight, Headphones, Layers, ListPlus, Check } from 'lucide-react';
+import { Clock, Bookmark, ArrowUpRight, Headphones, Layers, ListPlus, Check, Calendar } from 'lucide-react';
 import { MultiSourceInfo } from '../lib/trend_clustering';
 
 interface NewsRowCompactProps {

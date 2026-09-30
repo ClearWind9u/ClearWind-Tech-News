@@ -112,6 +112,14 @@ interface Translations {
   filteredPlaylist: string;
   audioQueueEmpty: string;
   clearAudioQueue: string;
+  dailyBriefingBadge: string;
+  dailyBriefingSubtitle: string;
+  playAll3Min: string;
+  briefingCollapse: string;
+  briefingExpand: string;
+  rankLead: string;
+  rankSpotlight: string;
+  rankBreakthrough: string;
 }
 
 const translationsDict: Record<Language, Translations> = {
@@ -220,6 +228,14 @@ const translationsDict: Record<Language, Translations> = {
     filteredPlaylist: 'Bản tin theo bộ lọc',
     audioQueueEmpty: 'Hàng đợi nghe đang trống',
     clearAudioQueue: 'Xóa hàng đợi',
+    dailyBriefingBadge: 'RADIO DIGEST 24H',
+    dailyBriefingSubtitle: '3 sự kiện công nghệ định hình 24 giờ qua',
+    playAll3Min: 'Nghe trọn bộ (3 phút)',
+    briefingCollapse: 'Thu gọn',
+    briefingExpand: 'Mở rộng bản tin 3 phút',
+    rankLead: '#1 Điểm nóng',
+    rankSpotlight: '#2 Tiêu điểm',
+    rankBreakthrough: '#3 Đột phá',
   },
   en: {
     appName: 'ClearWind Tech',
@@ -326,6 +342,14 @@ const translationsDict: Record<Language, Translations> = {
     filteredPlaylist: 'Filtered Briefing',
     audioQueueEmpty: 'Audio queue is empty',
     clearAudioQueue: 'Clear audio queue',
+    dailyBriefingBadge: 'RADIO DIGEST 24H',
+    dailyBriefingSubtitle: '3 tech stories shaping the last 24 hours',
+    playAll3Min: 'Play All (3 mins)',
+    briefingCollapse: 'Collapse',
+    briefingExpand: 'Expand 3-Min Briefing',
+    rankLead: '#1 Top Lead',
+    rankSpotlight: '#2 Spotlight',
+    rankBreakthrough: '#3 Breakthrough',
   },
 };
 

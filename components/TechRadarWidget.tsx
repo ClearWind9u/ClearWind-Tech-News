@@ -7,12 +7,12 @@ import {
   Activity,
   Flame,
   Layers,
-  Sparkles,
   ChevronDown,
   ChevronUp,
+  Grid,
+  Sparkles,
   X,
   Check,
-  Grid,
 } from 'lucide-react';
 
 interface TechRadarWidgetProps {

@@ -4,19 +4,19 @@ import React, { useState, useMemo, useEffect, useCallback, useRef, useTransition
 import {
   NewsDatabase,
   NewsItem,
+  ArchiveManifest,
   isArticleInTimeRange,
   isArticleOlderThanDays,
-  ArchiveManifest,
   ReadTimeFilterOption,
   HotFilterOption,
 } from '@/types/news';
 import { Navbar } from './Navbar';
-import { HeroBento } from './HeroBento';
+import { DailyBriefingWidget } from './DailyBriefingWidget';
 import { CategoryFilter } from './CategoryFilter';
 import { NewsCard } from './NewsCard';
 import { NewsRowCompact } from './NewsRowCompact';
 import { Footer } from './Footer';
-import { CardSkeleton, RowSkeleton, HeroSkeleton } from './NewsSkeleton';
+import { CardSkeleton, RowSkeleton } from './NewsSkeleton';
 import { useBilingual, SortOption } from './BilingualContext';
 import dynamic from 'next/dynamic';
 
@@ -859,12 +859,6 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
     toggleBookmark,
   ]);
 
-  const featuredArticles = useMemo(() => {
-    return [...activeArticlesPool]
-      .filter((a) => !isArticleOlderThanDays(a.publishedAt, 30))
-      .sort((a, b) => b.hotScore - a.hotScore)
-      .slice(0, 3);
-  }, [activeArticlesPool]);
 
   const handleMarkAllRead = () => {
     markAllAsRead(activeArticlesPool.map((a) => a.id));
@@ -904,7 +898,7 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
         />
 
         <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          {/* Hero Bento (Only display on first page when default latest tab is selected) */}
+          {/* Daily 3-Minute Morning Briefing Widget (Story 1) */}
           {currentPage === 1 &&
             sortOption === 'latest' &&
             selectedCategory === 'all' &&
@@ -913,17 +907,12 @@ export const NewsAppClient: React.FC<NewsAppClientProps> = ({
             !searchQuery &&
             !selectedTag &&
             timeFilter === 'all' && (
-              <div className="mb-10">
-                {isLoading ? (
-                  <HeroSkeleton />
-                ) : (
-                  <HeroBento
-                    articles={featuredArticles}
-                    onSelectArticle={(art) => handleOpenArticle(art, false)}
-                    onListen={(art) => handleOpenArticle(art, true)}
-                  />
-                )}
-              </div>
+              <DailyBriefingWidget
+                articles={activeArticlesPool}
+                onSelectArticle={(art) => handleOpenArticle(art, false)}
+                onListenArticle={(art) => handleOpenArticle(art, true)}
+                briefingPlayer={briefingPlayer}
+              />
             )}
 
           {/* Upgraded Category & Advanced Filters Navigation */}
