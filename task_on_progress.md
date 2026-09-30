@@ -5,8 +5,15 @@ Tài liệu lưu trữ trạng thái thực thi hiện tại, checkpoint bàn gi
 ---
 
 ## 1. Trạng Thái Hiện Tại
-- **Nhánh làm việc**: `feature/archive-and-search-optimization`
+- **Nhánh làm việc**: `develop`
 - **Nhiệm vụ vừa hoàn thành**:
+  16. [Xong] Rà soát và tối ưu hóa hệ thống Skills, Rules và Invariants (`.agents/`, `AGENTS.md`, `INVARIANTS.md`): Cắt giảm hơn 430 dòng dư thừa, chuẩn hóa frontmatter description 1 dòng súc tích giúp tiết kiệm tối đa tokens trong System Prompt, xóa bỏ các đặc tả phân vùng file vật lý đã outdate.
+  17. [Xong] Hoàn thiện Story 2: Continuous Reader Flow & Multi-Platform Navigation:
+      - Sửa lỗi chặn phím khi Modal mở, chuẩn hóa phím Vim (`J`: bài tiếp, `K`: bài trước, `B`: bookmark, `Space`: nghe TTS, `O`: mở bài gốc, `Esc`: đóng).
+      - Bổ sung thanh điều hướng và chỉ số vị trí bài viết (`Bài 08 / 36`) trên Header Modal.
+      - Tích hợp bộ nhận diện cử chỉ cảm ứng (Touch Swipe Engine: vuốt trái/phải để chuyển bài) trên Mobile.
+      - Bổ sung cụm nút điều hướng nhanh ở đáy màn hình (Mobile Thumb Zone $\ge 40\text{px}$).
+      - Tự động dừng TTS bài cũ và đồng bộ Deep Linking URL `?article=<newId>` khi lướt bài.
   1. [Xong] Gỡ bỏ dòng thời gian cập nhật ở Footer và toàn bộ badge điểm `pts` trên các card/modal (giao diện tối giản, sạch mắt theo Linear style).
   2. [Xong] Xây dựng User Interest Tracking Engine (`lib/user_interest_tracker.ts`) và thuật toán gợi ý tin cá nhân hóa ("Dành cho bạn" / "Có thể bạn quan tâm") tính điểm theo vector chuyên mục (45%) + tags (35%) + độ mới (20%), zero login friction qua `localStorage`.
   3. [Xong] Tạo skill `.agents/skills/user-interest-recommendation-engine/SKILL.md`.
