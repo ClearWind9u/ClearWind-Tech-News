@@ -1,7 +1,492 @@
 {
-  "lastUpdated": "2026-09-30T21:43:07.063Z",
+  "lastUpdated": "2026-10-01T22:11:20.419Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "d00f0bf2b256c55e",
+      "title_vi": "Hướng dẫn sử dụng Codex CLI cho người mới bắt đầu trên hệ điều hành Windows",
+      "title_en": "Beginner Guide to Codex CLI Setup and Usage on Windows Systems",
+      "summary_vi": [
+        "Bài viết cung cấp hướng dẫn thực tế dành cho người mới bắt đầu tiếp cận công cụ dòng lệnh Codex thông qua việc xây dựng một trang web nhỏ chạy trực tiếp trên trình duyệt.",
+        "Tác giả trình bày chi tiết các bước cài đặt môi trường bao gồm tải Node.js, cấu hình công cụ dòng lệnh và tích hợp các nút bấm tương tác để thử nghiệm tính năng.",
+        "Nội dung này mang lại giá trị thiết thực cho lập trình viên mới làm quen với các công cụ trợ lý lập trình dòng lệnh, giúp họ nhanh chóng nắm bắt quy trình làm việc hiệu quả."
+      ],
+      "summary_en": [
+        "The article provides a practical guide for beginners approaching the Codex command-line tool through building a small interactive website running directly in the browser.",
+        "The author details environment setup steps including downloading Node.js, configuring the command-line interface, and integrating interactive buttons for testing features.",
+        "This content offers practical value for developers new to command-line coding assistant tools, helping them quickly grasp an efficient and streamlined workflow."
+      ],
+      "originalTitle": "Codex CLI cho người mới: tải, cài đặt và bắt đầu trên Windows",
+      "url": "https://viblo.asia/p/codex-cli-cho-nguoi-moi-tai-cai-dat-va-bat-dau-tren-windows-XRJ8Rda9VGq",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Codex",
+        "CLI",
+        "Node.js",
+        "Windows",
+        "Web Development"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-01T23:54:07.000Z",
+      "contentSnippet": "Tôi chọn một trang web nhỏ làm bài tập đầu tiên với Codex: một file mở được trong trình duyệt và có nút bấm để thử. Tôi sắp xếp hướng dẫn từ tải Nod...",
+      "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "bca8fc3d10214ade",
+      "title_vi": "Sự suy tàn của ngành giáo dục lập trình web dưới áp lực trí tuệ nhân tạo",
+      "title_en": "The death of web development education",
+      "summary_vi": [
+        "Bài viết phân tích sự sụt giảm nghiêm trọng trong nhu cầu học tập và đào tạo lập trình web, khi các chuyên gia độc lập đối mặt với làn sóng suy thoái kinh doanh do sự bùng nổ của công nghệ trí tuệ nhân tạo tạo sinh.",
+        "Nhiều nhà sáng tạo nội dung và tác giả viết sách kỹ thuật lâu năm chứng kiến doanh thu sụt giảm mạnh, trong khi các lập trình viên đang dần chuyển sang sử dụng chatbot để giải đáp thắc mắc thay vì mua tài liệu giáo dục chất lượng cao.",
+        "Sự thay đổi này đặt ra thách thức lớn cho cộng đồng giáo dục công nghệ, đồng thời phản ánh xu hướng chuyển dịch cách tiếp cận kiến thức lập trình trong kỷ nguyên tự động hóa hiện đại."
+      ],
+      "summary_en": [
+        "The article analyzes a severe decline in demand for web development education, as independent experts face business downturns driven by the rapid growth and adoption of generative artificial intelligence technologies.",
+        "Many long-time content creators and technical authors have witnessed sharp drops in revenue, while developers are shifting toward chatbots for quick answers instead of purchasing high-quality educational materials and books.",
+        "This shift poses major challenges for the tech education community, reflecting a broader evolution in how developers acquire programming knowledge during the current era of automation and intelligent tools."
+      ],
+      "originalTitle": "The death of web development education",
+      "url": "https://molily.de/web-dev-education/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Web Development",
+        "Generative AI",
+        "Tech Education",
+        "Software Engineering"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-01T21:07:37.000Z",
+      "contentSnippet": "In a personal blog post, Baldur Bjarnason describes how he worked in various fields and positions: as an author, publisher, consultant, developer, educator, as well as radio and TV producer. None of these jobs were economically viable in the long term. Adding insult to injury, the respective communi",
+      "authorName": "ibobev",
+      "upvotes": 52,
+      "commentsCount": 39
+    },
+    {
+      "id": "9b136a20e472933b",
+      "title_vi": "Ô tô thông minh là gì? Ai đang lắng nghe dữ liệu của bạn trên xe hơi",
+      "title_en": "Car Is a Smartphone on Wheels. Here's Who's Listening",
+      "summary_vi": [
+        "Bài viết nghiên cứu cách thức các dòng xe hơi kết nối Internet hiện đại và ứng dụng di động đi kèm liên tục thu thập, truyền tải dữ liệu cá nhân của người dùng đến các máy chủ bên thứ ba mà không có sự kiểm soát chặt chẽ.",
+        "Nhóm nghiên cứu đã tiến hành kiểm tra thực tế trên 21 mẫu xe hơi tại thị trường Mỹ kết hợp cùng 30 ứng dụng di động thông qua thiết bị Raspberry Pi cấu hình điểm truy cập riêng để chặn và ghi lại toàn bộ lưu lượng mạng Wi-Fi.",
+        "Phát hiện này gióng lên hồi chuông cảnh báo về các lỗ hổng bảo mật nghiêm trọng trong hệ sinh thái xe hơi kết nối, đòi hỏi các kỹ sư an ninh mạng và nhà phát triển phần mềm phải siết chặt quy chuẩn bảo vệ quyền riêng tư người dùng."
+      ],
+      "summary_en": [
+        "The article investigates how modern connected vehicles and their companion mobile apps continuously collect and transmit private consumer data to various third-party servers without adequate user control or transparency.",
+        "Researchers conducted controlled experiments on 21 vehicles from the U.S. market along with 30 mobile apps, utilizing a customized Raspberry Pi access point running tcpdump to intercept and log all transmitted Wi-Fi network traffic.",
+        "These findings raise critical security concerns within the connected vehicle ecosystem, demanding stronger privacy safeguards and regulatory compliance from cybersecurity engineers and automotive software developers alike."
+      ],
+      "originalTitle": "Car Is a Smartphone on Wheels. Here's Who's Listening",
+      "url": "https://automatictransmission.khoury.northeastern.edu/index.html",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "IoT",
+        "Privacy",
+        "Mobile Apps",
+        "Network Analysis"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-01T20:23:27.000Z",
+      "contentSnippet": "This diagram shows the data flows to and from a vehicle and its companion mobile app. Both devices send data, including private consumer data, to different 1st and 3rd party servers using Wi-Fi and cellular service. Solid arrows represent flows that were intercepted through our experiments. Once the",
+      "authorName": "rafaelc",
+      "upvotes": 96,
+      "commentsCount": 80
+    },
+    {
+      "id": "6740c72e272a106e",
+      "title_vi": "Tính năng Tầm nhìn Hướng dẫn mới của Google giúp bạn đọc các chữ in nhỏ dễ dàng",
+      "title_en": "Google’s new Guided Vision feature can help you read the fine print",
+      "summary_vi": [
+        "Google chính thức ra mắt tính năng Tầm nhìn Hướng dẫn trên ứng dụng Gemini Live dành cho các thiết bị Android tương thích, mang đến khả năng mô tả bằng âm thanh theo thời gian thực cho bất kỳ vật thể nào được camera hướng tới.",
+        "Bằng cách chia sẻ camera trực tiếp trong môi trường Gemini Live, hệ thống trí tuệ nhân tạo sẽ hỗ trợ người dùng đọc văn bản nhỏ, mô tả không gian xung quanh, nhận diện đồ vật và cung cấp chi tiết cụ thể về các đối tượng.",
+        "Giải pháp này tương tự như tính năng nhận diện giọng nói trực tiếp mà Apple đã tích hợp trên iPhone và kính thực tế ảo, đóng vai trò trợ thủ đắc lực giúp người khiếm thị hoặc có thị lực kém tương tác với thế giới số."
+      ],
+      "summary_en": [
+        "Google officially launches the new Guided Vision feature within Gemini Live on compatible Android devices, delivering real-time audio descriptions for any object captured by the smartphone camera.",
+        "By sharing the live camera stream inside the Gemini Live environment, artificial intelligence assists users in reading fine text, describing surrounding environments, identifying objects, and detailing specific items.",
+        "This solution mirrors Apple's voice-over live recognition feature on iPhones and Vision Pro, serving as a powerful assistant to help visually impaired individuals interact seamlessly with the physical world."
+      ],
+      "originalTitle": "Google’s new Guided Vision feature can help you read the fine print",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Android",
+        "Gemini",
+        "Accessibility",
+        "Mobile"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-01T19:47:51.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK255_Google_Gemini_B_474198.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can have Google's AI help with things like reading small text, describing your surroun",
+      "authorName": "Stevie Bonifield",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9b9edebdd384270d",
+      "title_vi": "Phát hành Pi 1.0: Công cụ trợ lý AI tối giản và có thể mở rộng",
+      "title_en": "Pi 1.0 Release: A Hardened, Minimal, and Extensible Agent Harness",
+      "summary_vi": [
+        "Dự án Pi chính thức phát hành phiên bản 1.0 sau quá trình dài cải tiến dựa trên hàng trăm ngàn lượt phản hồi từ cộng đồng lập trình viên toàn cầu.",
+        "Phiên bản này tập trung vào tính tối giản, độ ổn định cao và khả năng tích hợp linh hoạt với các mô hình AI mới nhất từ những nhà cung cấp hàng đầu.",
+        "Công cụ mang lại bước tiến lớn cho các nhà phát triển trong việc xây dựng ứng dụng tác nhân AI nhờ cấu trúc bền vững và giảm thiểu độ phức tạp không cần thiết."
+      ],
+      "summary_en": [
+        "The Pi project officially released version 1.0 following a long improvement process based on hundreds of thousands of feedback submissions from the global developer community.",
+        "This version focuses on minimalism, high stability, and flexible integration capabilities with the latest AI models from leading providers in the technology industry.",
+        "The tool delivers a major advancement for developers building AI agent applications thanks to its robust architecture and reduction of unnecessary structural complexity."
+      ],
+      "originalTitle": "Pi 1.0",
+      "url": "https://earendil.com/posts/pi-1-0/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Agents",
+        "Software Engineering",
+        "Open Source",
+        "Developer Tools"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-01T19:33:05.000Z",
+      "contentSnippet": "Today we are proudly shipping Pi 1.0: a hardened, minimal, extensible agent harness that you can make your own. Hundreds of thousands of people around the world use Pi every week. Many of you submit issues and pull requests. Over the course of many months, we have used that feedback to improve, hard",
+      "authorName": "sergiotapia",
+      "upvotes": 470,
+      "commentsCount": 161
+    },
+    {
+      "id": "7721aa0681a92a30",
+      "title_vi": "Trang tin công nghệ Android Central vẫn tiếp tục hoạt động dù đã sa thải toàn bộ nhân sự",
+      "title_en": "Android Central will continue despite laying off its staff",
+      "summary_vi": [
+        "Trang tin chuyên về hệ sinh thái Android là Android Central vừa thực hiện đợt cắt giảm nhân sự quy mô lớn, khiến hầu hết các biên tập viên kỳ cựu phải rời bỏ vị trí công việc của mình ngay lập tức.",
+        "Mặc dù đội ngũ nhân viên cốt lõi đã bị sa thải, công ty mẹ Future xác nhận rằng nền tảng này vẫn sẽ tiếp tục duy trì việc xuất bản nội dung mới thông qua các quy trình vận hành tự động hóa hoặc nhân sự thay thế.",
+        "Sự kiện này phản ánh xu hướng cắt giảm chi phí vận hành tại các trang tin công nghệ lớn, đặt ra dấu hỏi về chất lượng nội dung chuyên sâu và tính xác thực của thông tin trong bối cảnh ngành truyền thông số đang biến động."
+      ],
+      "summary_en": [
+        "The Android-focused publication Android Central has undergone a massive workforce reduction, resulting in the departure of its primary editorial staff and managing editors who were responsible for daily content production and site operations.",
+        "Despite the significant loss of human capital, the parent company Future has officially confirmed that the website will remain operational and continue to publish new articles, likely shifting toward a different content management strategy.",
+        "This development highlights the ongoing instability within digital tech media outlets, raising concerns about the future of specialized journalism and the potential impact of automated or outsourced content models on the broader tech ecosystem."
+      ],
+      "originalTitle": "Android Central ‘will continue’ despite laying off its staff",
+      "url": "https://www.theverge.com/tech/1003735/android-central-layoffs",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Android",
+        "Media",
+        "TechNews",
+        "Layoffs",
+        "DigitalPublishing"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-01T19:20:29.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-01-at-12.18.47-PM.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Android Central, a blog focused on the Android ecosystem, laid off its staff yesterday, but owner Future confirms to The Verge that the site will continue publishing. Yesterday, four of the six staffers on Android Central's staff page posted publicly about the layoffs, including Shruti Shekar, Derre",
+      "authorName": "Jay Peters",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f9473ba1b72da33e",
+      "title_vi": "Thiết bị chơi game cầm tay thế hệ mới: Vi xử lý AMD Gainsborough có phải là mảnh ghép mà Valve đang tìm kiếm?",
+      "title_en": "Steam Deck 2: Is AMD Gainsborough the chip Valve’s been waiting for?",
+      "summary_vi": [
+        "Dòng máy chơi game cầm tay nổi tiếng của Valve đã ra mắt được bốn năm rưỡi và cộng đồng người dùng đang rất mong chờ phiên bản tiếp theo với những cải tiến mạnh mẽ về mặt hiệu năng.",
+        "Các trình điều khiển mới nhất của AMD vừa rò rỉ mã định danh của một bộ vi xử lý chưa từng xuất hiện trước đây mang tên Gainsborough, gợi nhớ đến cách đặt tên theo nhân vật trong trò chơi Final Fantasy.",
+        "Sự xuất hiện của dòng chip mới này có thể mang lại bước nhảy vọt về hiệu suất và khả năng tiết kiệm năng lượng mà hãng sản xuất phần cứng này luôn yêu cầu trước khi ra mắt sản phẩm kế nhiệm."
+      ],
+      "summary_en": [
+        "The popular handheld gaming console has been on the market for over four years, and the community is eagerly anticipating the next generation with significant performance improvements.",
+        "The latest AMD drivers have recently leaked the codename of a previously unknown processor named Gainsborough, continuing the naming convention inspired by iconic video game characters.",
+        "The potential emergence of this new silicon could deliver the generational leap in performance and power efficiency that the hardware manufacturer requires before releasing a successor."
+      ],
+      "originalTitle": "Steam Deck 2: Is AMD Gainsborough the chip Valve’s been waiting for?",
+      "url": "https://www.theverge.com/games/1003593/steam-deck-2-is-amd-gainsborough-the-chip-valves-been-waiting-for",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Hardware",
+        "APU",
+        "AMD",
+        "Gaming",
+        "Semiconductor"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-01T18:52:58.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/53420776536_b9dede69df_k.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "The Steam Deck LCD’s “Aerith” APU. | Photo by Fritzchens Fritz The Steam Deck is four and a half years old, and handheld gamers are eagerly awaiting a Steam Deck 2 - but Valve has consistently said it needs a new chip with a \"generational leap\" in performance and efficiency before building the seque",
+      "authorName": "Sean Hollister",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "d4606327912a54d0",
+      "title_vi": "Thẩm phán bác bỏ các vụ kiện chống độc quyền đối với tính năng Tổng quan Trí tuệ Nhân tạo của Google",
+      "title_en": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
+      "summary_vi": [
+        "Một thẩm phán liên bang tại Mỹ đã quyết định bác bỏ các vụ kiện chống độc quyền do Chegg và công ty mẹ của Rolling Stone là Penske Media Corporation đệ trình chống lại gã khổng lồ tìm kiếm Google.",
+        "Nguyên đơn cáo buộc rằng tính năng tìm kiếm tích hợp trí tuệ nhân tạo của Google đã ép buộc các nhà xuất bản phải cung cấp nội dung miễn phí hoặc đối mặt với nguy cơ biến mất hoàn toàn khỏi trang kết quả tìm kiếm.",
+        "Phán quyết này tạo ra một cột mốc quan trọng trong việc định hình các tranh chấp pháp lý liên quan đến quyền sở hữu trí tuệ và cách các tập đoàn công nghệ lớn ứng dụng mô hình trí tuệ nhân tạo tạo sinh."
+      ],
+      "summary_en": [
+        "A federal judge in the United States has officially dismissed a pair of antitrust lawsuits filed against search giant Google by Chegg and Rolling Stone parent company Penske Media Corporation.",
+        "The plaintiffs accused Google of leveraging its search monopoly and AI-powered features to coerce publishers into supplying their content for free or risk disappearing entirely from search engine results.",
+        "This significant judicial ruling sets a major precedent for ongoing legal disputes surrounding intellectual property rights and how major technology conglomerates implement generative artificial intelligence."
+      ],
+      "originalTitle": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
+      "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Google",
+        "AI Overviews",
+        "Antitrust",
+        "Artificial Intelligence",
+        "Search Engine"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-01T17:12:21.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK093_GOOGLE_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "A federal judge has dismissed a pair of antitrust lawsuits filed by Chegg and Rolling Stone parent company Penske Media Corporation, which accused Google of driving away web traffic with its AI-powered search features, as reported earlier by Reuters. US District Judge Amit Mehta takes Google's side ",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "8718c95119e41fe9",
+      "title_vi": "Sony mang công nghệ nâng cấp đồ họa AI lên dòng máy chơi game PS5 thông thường",
+      "title_en": "Sony brings AI graphics upscaling to the regular PS5",
+      "summary_vi": [
+        "Hãng công nghệ Nhật Bản vừa công bố giải pháp nâng cấp đồ họa sử dụng trí tuệ nhân tạo mang tên Quick Spectral Super Resolution nhằm hỗ trợ dòng máy chơi game PlayStation 5 tiêu chuẩn hiện nay.",
+        "Giải pháp kiến trúc này là thành quả hợp tác kỹ thuật trong dự án Amethyst giữa Sony và AMD, tuy nhiên do thiết bị thiếu phần cứng chuyên dụng cho học máy nên hiệu năng đạt được sẽ dừng lại ở độ phân giải 1440p.",
+        "Bước tiến này giúp tối ưu hóa phần cứng thế hệ cũ mà không cần người dùng phải nâng cấp lên phiên bản Pro, đồng thời mở ra hướng đi mới trong việc tối ưu hóa thuật toán đồ họa trên thiết bị phần cứng giới hạn."
+      ],
+      "summary_en": [
+        "The Japanese technology giant has just announced an artificial intelligence-powered graphics upscaling solution named Quick Spectral Super Resolution to support the standard PlayStation 5 gaming console.",
+        "This architectural solution is the result of technical collaboration in the Amethyst project between Sony and AMD, though lacking dedicated machine learning hardware means the performance will target 1440p resolution.",
+        "This advancement helps optimize older hardware generations without requiring users to upgrade to the Pro version while opening new pathways for optimizing graphics algorithms on constrained hardware devices."
+      ],
+      "originalTitle": "Sony brings AI graphics upscaling to the regular PS5",
+      "url": "https://www.theverge.com/games/1003549/sony-ps5-quick-spectral-super-resolution-qssr",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Gaming",
+        "Hardware",
+        "Upscaling",
+        "AMD"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-01T16:53:39.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25072873/110923_new_Playstation_5_Slim_ADiBenedetto_0010.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Sony is launching a new AI upscaling technology specifically for the regular PS5. The new tech, called Quick Spectral Super Resolution (QSSR), is a \"new performance tier of AI upscaling\" that's a result of Sony's Project Amethyst work with AMD, according to a blog post. Sony says that PlayStation Sp",
+      "authorName": "Jay Peters",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "dbf402057fae66af",
+      "title_vi": "Phim ngắn AI tại Trung Quốc: Khi bùng nổ số lượng không đi kèm với hiệu quả tài chính",
+      "title_en": "AI Short Films in China: When High Volume Does Not Translate to Financial Success",
+      "summary_vi": [
+        "Thị trường phim ngắn ứng dụng trí tuệ nhân tạo tại Trung Quốc đang chứng kiến sự bùng nổ mạnh mẽ về số lượng tác phẩm phát hành trên các nền tảng mạng xã hội nhưng lại đối mặt với bài toán doanh thu nan giải.",
+        "Báo cáo từ các nền tảng trực tuyến cho thấy hàng trăm nghìn bộ phim AI được sản xuất mỗi tháng nhờ chi phí thấp, nhưng tỷ lệ đạt ngưỡng hòa vốn tài chính lại cực kỳ thấp do cạnh tranh quá khốc liệt.",
+        "Thực trạng này đưa ra bài học quan trọng cho các nhà phát triển và nhà sáng tạo nội dung rằng công nghệ tự động hóa chỉ tối ưu hóa quy trình sản xuất chứ không thể đảm bảo chất lượng thương mại."
+      ],
+      "summary_en": [
+        "The market for artificial intelligence-generated short films in China is experiencing a massive surge in content volume across social media platforms while struggling significantly with monetization challenges.",
+        "Industry reports indicate that hundreds of thousands of AI films are produced monthly due to low costs, yet only a tiny fraction achieve break-even financial thresholds amid intense market competition.",
+        "This current reality offers a crucial lesson for developers and content creators that automation technology merely optimizes production pipelines rather than guaranteeing commercial quality and returns."
+      ],
+      "originalTitle": "Phim ngắn AI ở Trung Quốc: “Slop” nên “flop”, khán giả phát ngán vì những gương mặt y hệt nhau",
+      "url": "https://genk.vn/phim-ngan-ai-o-trung-quoc-slop-nen-flop-khan-gia-phat-ngan-vi-nhung-guong-mat-y-het-nhau-165261001193554383.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Generative AI",
+        "Content Creation",
+        "Machine Learning",
+        "Tech Trends"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-01T13:06:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/1/avatar1790858098115-17908580983511751979850.jpg",
+      "contentSnippet": "Dù bùng nổ về sản lượng nhờ chi phí rẻ, phim ngắn AI vẫn rơi vào cuộc đua sinh tồn khốc liệt khi tỷ lệ hòa vốn thấp không tưởng.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a17ce0c7d20ef024",
+      "title_vi": "Robot hình người tự nhảy vào lò nung thép để tiêu hủy",
+      "title_en": "Humanoid Robots Jump Into Steel Furnace for Disposal",
+      "summary_vi": [
+        "Công ty trí tuệ nhân tạo Figure AI vừa thực hiện việc tiêu hủy toàn bộ đội robot hình người thế hệ cũ của họ bằng cách đưa chúng đến một xưởng đúc thép tại Phần Lan và cho tự nhảy vào lò hồ quang điện.",
+        "Quyết định này được đưa ra sau mười một tháng triển khai thành công tại nhà máy sản xuất của hãng ô tô BMW, nơi các robot đã hoàn thành hơn một ngàn hai trăm giờ vận hành và lắp ráp hàng chục ngàn bộ phận cơ khí.",
+        "Động thái hủy diệt phần cứng độc quyền này giúp bảo vệ tài sản trí tuệ và các bộ phận tùy chỉnh khi công ty chuẩn bị mở rộng quy mô sản xuất cho dòng robot thế hệ mới hiệu quả và tối ưu hơn."
+      ],
+      "summary_en": [
+        "Artificial intelligence company Figure AI has disposed of its entire fleet of older generation humanoid robots by bringing them to a steel foundry in Finland and having them jump into an electric arc furnace.",
+        "This decision followed eleven months of successful deployment at a manufacturing plant where the robots completed over twelve hundred hours of operation and assembled tens of thousands of mechanical parts.",
+        "This hardware destruction move protects proprietary assets and custom components as the company prepares to scale up production for a new generation of more efficient and optimized humanoid robots."
+      ],
+      "originalTitle": "Robot hình người tự nhảy vào lò nung thép",
+      "url": "https://vnexpress.net/robot-hinh-nguoi-tu-nhay-vao-lo-nung-thep-5127204.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Humanoid Robots",
+        "Hardware",
+        "Automation",
+        "Robotics"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-01T12:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/01/VNERobot-1790843301-3891-1790843359.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=d0TLlIqrELyfrqMwiWXldA",
+      "contentSnippet": "Đội robot của Figure AI lần lượt nhảy xuống lò hồ quang điện trong một xưởng đúc ở Phần Lan để \"tự hủy\".",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "d7543646a56f3802",
+      "title_vi": "Mô hình AI tự thiết kế và cải tiến chip bán dẫn",
+      "title_en": "AI Model for Automated Semiconductor Chip Design and Optimization",
+      "summary_vi": [
+        "OpenAI phối hợp cùng Synopsys công bố thỏa thuận phát triển mô hình GPT-Synopsys chuyên dụng, có khả năng vận hành trực tiếp các công cụ thiết kế chip chuyên nghiệp nhằm giúp kỹ sư rút ngắn đáng kể quy trình sản xuất.",
+        "Mô hình tiên tiến này tích hợp phần mềm tự động hóa thiết kế điện tử cùng nền tảng đám mây, cho phép các tác nhân AI tự động cấu hình, thực thi, phân tích kết quả và lặp lại tối ưu hóa PPA.",
+        "Giải pháp đột phá này giúp giảm thiểu thời gian thiết kế thủ công đầy phức tạp, mang lại hiệu suất vượt trội cho ngành công nghiệp bán dẫn và tăng tốc độ đưa sản phẩm tiên tiến ra thị trường."
+      ],
+      "summary_en": [
+        "OpenAI and Synopsys have announced a collaborative agreement to develop a specialized GPT-Synopsys model capable of directly operating professional chip design tools to help engineers significantly shorten production cycles.",
+        "This advanced model integrates electronic design automation software with cloud platforms, enabling AI agents to automatically configure, execute, analyze results, and iteratively optimize power, performance, and area metrics.",
+        "This breakthrough solution minimizes complex manual design time, delivering superior efficiency for the semiconductor industry and accelerating the time-to-market for cutting-edge hardware products."
+      ],
+      "originalTitle": "Mô hình AI tự thiết kế và cải tiến chip bán dẫn",
+      "url": "https://vnexpress.net/mo-hinh-ai-tu-thiet-ke-va-cai-tien-chip-ban-dan-5127088.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Semiconductor",
+        "GPT-Synopsys",
+        "Automation",
+        "Cloud Computing"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-01T11:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/01/2024-02-09T051613Z-372912161-R-7889-7736-1790830052.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=1XwuDjvrp4ze5y7goJ4fNg",
+      "contentSnippet": "Mô hình GPT-Synopsys, do OpenAI hợp tác phát triển với Synopsys, có thể tự chạy phần mềm, ra quyết định chỉnh sửa và tối ưu hóa thiết kế chip.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b1978460c3756ad2",
+      "title_vi": "Mỹ mở cuộc điều tra đối với Anthropic và OpenAI về nguy cơ lừa dối người dùng",
+      "title_en": "US Investigates Anthropic and OpenAI Over Potential User Deception Regarding AI Risks",
+      "summary_vi": [
+        "Ủy ban Thương mại Liên bang Mỹ đang tiến hành các cuộc điều tra quan trọng nhắm vào hai công ty trí tuệ nhân tạo hàng đầu là Anthropic và OpenAI.",
+        "Cơ quan chức năng tập trung làm rõ việc các doanh nghiệp này có đưa ra thông tin sai lệch hoặc che giấu về những tác hại tiềm ẩn của mô hình ngôn ngữ lớn.",
+        "Sự kiện này đánh dấu bước chuyển mình mạnh mẽ trong việc quản lý và kiểm soát trách nhiệm pháp lý của các hãng công nghệ lớn đối với sản phẩm trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "The US Federal Trade Commission is conducting critical investigations targeting leading artificial intelligence companies Anthropic and OpenAI.",
+        "Regulatory authorities are focusing on whether these enterprises provided misleading information or concealed potential harms associated with large language models.",
+        "This event marks a significant shift in regulating and enforcing legal accountability for major technology firms regarding their artificial intelligence products."
+      ],
+      "originalTitle": "Mỹ điều tra Anthropic và OpenAI",
+      "url": "https://vnexpress.net/my-dieu-tra-anthropic-va-openai-5127061.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "OpenAI",
+        "Anthropic",
+        "Regulation",
+        "Security"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-01T09:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/01/wm1-dsc00354-jpg-1790843966-7846-1790843977.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=5PfEDOLTv-ADzTPVf27XqA",
+      "contentSnippet": "Ủy ban Thương mại Liên bang Mỹ (FTC) đang điều tra Anthropic và OpenAI nhằm xác định cả hai có lừa dối người dùng về tác hại tiềm tàng của AI hay không.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c8680b9d2b675eae",
+      "title_vi": "Google ra mắt Gemini 4 Argon là mô hình trí tuệ nhân tạo mạnh nhất phục vụ lập trình và an ninh mạng",
+      "title_en": "Google Launches Gemini 4 Argon As Its Most Powerful AI Model For Coding And Cybersecurity",
+      "summary_vi": [
+        "Google vừa chính thức công bố mô hình trí tuệ nhân tạo Gemini 4 Argon nhằm bước vào kỷ nguyên tiếp theo của công nghệ tiên tiến và cạnh tranh trực tiếp với các đối thủ lớn trên thị trường.",
+        "Hệ thống đạt hiệu năng vượt trội trong các tác vụ lập trình phức tạp, pháp lý, tài chính và ghi nhận điểm số ấn tượng trong bài kiểm tra tìm vá lỗ hổng bảo mật CWE-bench.",
+        "Sự ra đời của mô hình này đánh dấu bước tiến quan trọng trong việc hỗ trợ kỹ sư phần mềm xử lý các tác vụ kỹ thuật thực tế dài hạn và nâng cao phòng thủ an ninh mạng."
+      ],
+      "summary_en": [
+        "Google has officially announced the Gemini 4 Argon artificial intelligence model to enter the next era of advanced technology and compete directly with major industry rivals.",
+        "The system achieves superior performance in complex programming, legal, and financial tasks while recording impressive scores in the CWE-bench security vulnerability testing.",
+        "The introduction of this model marks a significant milestone in helping software engineers handle long-term practical technical tasks and enhance cybersecurity defense."
+      ],
+      "originalTitle": "Google ra Gemini 4 Argon mạnh nhất của công ty",
+      "url": "https://vnexpress.net/google-ra-gemini-4-argon-manh-nhat-cua-cong-ty-5126995.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Gemini 4 Argon",
+        "Google AI",
+        "Cybersecurity",
+        "Software Engineering",
+        "Machine Learning"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-01T07:47:13.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/01/4cv7yhvkl5es5foikimlm5yi6e-179-4736-9224-1790826291.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=nXW90FKy9jLRsCpdAbSYTA",
+      "contentSnippet": "Google công bố Gemini 4 Argon hướng đến \"kỷ nguyên tiếp theo của trí tuệ tiên tiến\", cạnh tranh với các mô hình hàng đầu từ OpenAI, Anthropic.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "a98f82b6e40f71fc",
       "title_vi": "Cấu hình proxy tĩnh dân cư HTTP và SOCKS5 cho Python requests, Playwright cùng Node.js",
@@ -1550,6 +2035,42 @@
       "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "89bf9d819a8fda1b",
+      "title_vi": "Tôi đã xây dựng Trợ lý AI đầu tiên với AWS AgentCore và phần khó nhất không phải là Trợ lý AI",
+      "title_en": "I Built My First AI Agent With AWS AgentCore, and the Hardest Part Wasn't the AI",
+      "summary_vi": [
+        "Tác giả chia sẻ trải nghiệm thực tế khi phát triển một trợ lý ảo chăm sóc khách hàng thông minh trong chương trình học bổng điện toán đám mây và trí tuệ nhân tạo của Amazon.",
+        "Hệ thống phức tạp đòi hỏi phải tích hợp nhiều thành phần hạ tầng khác nhau như cổng giao tiếp, môi trường thực thi mã nguồn, cơ sở tri thức và hệ thống quản lý danh tính bảo mật.",
+        "Bài học cốt lõi rút ra là việc quản lý độ phức tạp của kiến trúc hạ tầng đám mây thử thách hơn nhiều so với việc cấu hình các mô hình ngôn ngữ lớn ban đầu."
+      ],
+      "summary_en": [
+        "The author shares practical experience developing an intelligent customer support virtual assistant as part of a specialized cloud computing and artificial intelligence scholarship program by Amazon.",
+        "The complex system required integrating multiple distinct infrastructure components including API gateways, code execution environments, knowledge bases, and secure identity management mechanisms.",
+        "The core lesson learned is that managing cloud infrastructure architectural complexity presents a significantly greater challenge than configuring the initial large language models."
+      ],
+      "originalTitle": "I Built My First AI Agent With AWS AgentCore, and the Hardest Part Wasn't the AI",
+      "url": "https://dev.to/hemapriya_kanagala/i-built-my-first-ai-agent-with-aws-agentcore-and-the-hardest-part-wasnt-the-ai-54lf",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI Agents",
+        "AWS",
+        "Cloud Architecture",
+        "Amazon Bedrock",
+        "Serverless"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-29T15:44:51.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwbozh88bo65t4of3wlnc.jpeg",
+      "contentSnippet": "TL;DR I recently completed another project from Udacity's Future AWS Agent Engineer Nanodegree...",
+      "authorName": "Hemapriya Kanagala",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3307586%2F2dffaf97-946d-44a6-8a39-07d94a72e07d.png",
+      "upvotes": 96,
+      "commentsCount": 53
     },
     {
       "id": "696ba7edd48fc3b3",
@@ -7976,489 +8497,6 @@
       "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/qualcomm-snapdragon-8-elite-gen-6-and-extreme.jpg?quality=90&strip=all&crop=0,0,100,100",
       "contentSnippet": "The 8 Elite Extreme Gen 6 and 8 Elite Gen 6 share most of their specs in common. | Image: Qualcomm Qualcomm has announced the Snapdragon 8 Elite Gen 6, this year joined by the 8 Elite Extreme Gen 6 too. The company describes both new phone chips as flagships, and the spec differences are relatively ",
       "authorName": "Dominic Preston",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "5e8b60d2c8d4e6ee",
-      "title_vi": "Microsoft triệt phá nền tảng lừa đảo ứng dụng trí tuệ nhân tạo làm tổn hại mười hai nghìn tài khoản",
-      "title_en": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
-      "summary_vi": [
-        "Microsoft vừa dẫn đầu chiến dịch phối hợp toàn ngành nhằm triệt phá EvilTokens, một nền tảng lừa đảo có thu phí hoạt động qua Telegram chuyên tấn công hệ thống email doanh nghiệp.",
-        "Nền tảng này tích hợp chatbot trí tuệ nhân tạo để phân tích hộp thư đến, xác định mục tiêu có giá trị cao và tự động soạn thảo email mạo danh nhằm đánh lừa nhân viên chuyển tiền.",
-        "Sự kiện này gióng lên hồi chuông cảnh báo về việc kẻ gian lợi dụng công nghệ trí tuệ nhân tạo tạo ra các chiến dịch tấn công tinh vi, đòi hỏi doanh nghiệp phải nâng cao giải pháp phòng thủ."
-      ],
-      "summary_en": [
-        "Microsoft led an industry-wide campaign to dismantle EvilTokens, a subscription-based scam platform operating via Telegram that specifically targets corporate email systems.",
-        "The platform integrates artificial intelligence chatbots to analyze inboxes, identify high-value targets, and automatically draft impersonation emails to trick employees into transferring funds.",
-        "This event raises severe alarms regarding malicious actors leveraging generative artificial intelligence for sophisticated attacks, urging enterprises to enhance defensive measures."
-      ],
-      "originalTitle": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
-      "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Artificial Intelligence",
-        "Microsoft",
-        "Telegram",
-        "Fraud Prevention"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-22T19:45:47.000Z",
-      "contentSnippet": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
-      "authorName": "\n                    Dan Goodin\n                ",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a35f05eefb1995c1",
-      "title_vi": "Từ Kho Mã Nguồn Đến Kỹ Năng Nhận Thức: Mổ Xẻ Framework Repo-to-Skill Của BAAI",
-      "title_en": "From Source Code to Cognitive Skills: Dissecting BAAI's Repo-to-Skill Framework",
-      "summary_vi": [
-        "|Tại sao các AI agent tự hành thất bại trên codebase phức tạp do thiếu tri thức vận hành, và cách framework Repo-to-Skill chưng cất repository thành.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Từ Kho Mã Nguồn Đến Kỹ Năng Nhận Thức: Mổ Xẻ Framework Repo-to-Skill Của BAAI.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Từ Kho Mã Nguồn Đến Kỹ Năng Nhận Thức: Mổ Xẻ Framework Repo-to-Skill Của BAAI."
-      ],
-      "summary_en": [
-        "|Why autonomous AI agents fail on complex codebases due to lack of operational knowledge, and how the Repo-to-Skill framework distills the resulting repository.",
-        "In-depth technical breakdown and implementation mechanisms introduced in From Source Code to Cognitive Skills: Dissecting BAAI's Repo-to-Skill Framework.",
-        "Practical engineering impact and actionable takeaways for developers building with From Source Code to Cognitive Skills: Dissecting BAAI's Repo-to-Skill Framework."
-      ],
-      "originalTitle": "Từ Kho Mã Nguồn Đến Kỹ Năng Nhận Thức: Mổ Xẻ Framework Repo-to-Skill Của BAAI",
-      "url": "https://viblo.asia/p/tu-kho-ma-nguon-den-ky-nang-nhan-thuc-mo-xe-framework-repo-to-skill-cua-baai-kNLr3nebVgA",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 90,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-22T19:30:00.000Z",
-      "contentSnippet": "|Tại sao các AI agent tự hành thất bại trên codebase phức tạp do thiếu tri thức vận hành, và cách framework Repo-to-Skill chưng cất repository thành c...",
-      "authorName": "Minh Le Duc",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "608eb672ebb7d160",
-      "title_vi": "Mô hình Trí tuệ Nhân tạo hệ mặt trời GPT-6 Sol và Luna",
-      "title_en": "GPT-6 Sol and Luna AI Models",
-      "summary_vi": [
-        "Sau khi giới thiệu siêu trí tuệ nhân tạo GPT-6 Astra, công ty tiếp tục mở rộng hệ sinh thái với hai phiên bản mới là Sol và Luna nhằm đáp ứng nhu cầu đa dạng về chi phí và quy mô ứng dụng.",
-        "Các mô hình này được huấn luyện bằng phương pháp tương tự Astra, mang lại hiệu suất vượt trội trong lập trình, xử lý ngôn ngữ, sử dụng máy tính với chi phí vận hành tối ưu hơn nhờ cải tiến bộ nhớ đệm.",
-        "Việc giảm giá API tới năm mươi phần trăm so với thế hệ trước giúp các doanh nghiệp dễ dàng tích hợp công nghệ trí tuệ nhân tạo tiên tiến vào quy trình làm việc hàng ngày với ngân sách tiết kiệm."
-      ],
-      "summary_en": [
-        "Following the introduction of the flagship GPT-6 Astra, the company is expanding its ecosystem with two new models, Sol and Luna, designed to meet diverse cost scales and application requirements.",
-        "These models are trained using methods similar to Astra, delivering exceptional performance in programming, language processing, and computer use with optimized operational costs through enhanced caching mechanisms.",
-        "Reducing API prices by fifty percent compared to previous generation pricing makes it significantly easier for enterprises to integrate advanced artificial intelligence into everyday workflows on a budget."
-      ],
-      "originalTitle": "GPT-6 Sol and Luna",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "GPT-6",
-        "Machine Learning",
-        "API",
-        "Cloud Computing"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-22T18:00:34.000Z",
-      "contentSnippet": "More ways to bring frontier intelligence into the work you do every day. ShareEarlier this month, we introduced GPT‑6 Astra, the most intelligent and aligned model in the world. While the most demanding and important projects still call for Astra’s full depth, work happens at different scales, rhyth",
-      "authorName": "OfficialTurkey",
-      "upvotes": 1215,
-      "commentsCount": 619
-    },
-    {
-      "id": "f13a0b36ef371677",
-      "title_vi": "Top 10 phần mềm nâng cấp video bằng trí tuệ nhân tạo năm 2026: Quy trình làm việc và đánh đổi kỹ thuật",
-      "title_en": "Top 10 AI Video Upscalers in 2026: Workflow and Technical Trade-offs",
-      "summary_vi": [
-        "Bài viết cung cấp bức tranh toàn cảnh về mười công cụ nâng cấp chất lượng video sử dụng trí tuệ nhân tạo hàng đầu trong năm hai nghìn không trăm hai mươi sáu, giúp người dùng lựa chọn giải pháp phù hợp dựa trên nhu cầu thực tế của từng dự án.",
-        "Phân tích chuyên sâu tập trung vào các yếu tố kỹ thuật cốt lõi bao gồm cấu trúc quy trình xử lý dữ liệu, mức độ tiêu thụ tài nguyên phần cứng và các sự đánh đổi giữa tốc độ kết xuất khung hình với độ chi tiết của hình ảnh.",
-        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư xử lý hình ảnh và nhà phát triển hệ thống đa phương tiện, giúp tối ưu hóa hiệu suất vận hành các mô hình học sâu trên hạ tầng phần cứng hiện đại."
-      ],
-      "summary_en": [
-        "The article provides a comprehensive overview of the top ten artificial intelligence video upscaling tools in the year twenty twenty-six, helping users select the right solution based on the practical requirements of each project.",
-        "Deep technical analysis focuses on core factors including data processing workflow architectures, hardware resource consumption levels, and trade-offs between frame rendering speed and image detail fidelity.",
-        "This knowledge delivers high practical value for visual processing engineers and multimedia system developers, helping to optimize the operational performance of deep learning models on modern hardware infrastructure."
-      ],
-      "originalTitle": "Top 10 AI Video Upscalers in 2026: Workflow and Technical Trade-offs",
-      "url": "https://viblo.asia/p/top-10-ai-video-upscalers-in-2026-workflow-and-technical-trade-offs-kNLr3nyEVgA",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Video Upscaling",
-        "Machine Learning",
-        "Deep Learning",
-        "Workflow Optimization"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-09-22T17:10:06.000Z",
-      "contentSnippet": "A resolution number does not tell you whether an AI video upscaler is right for your footage. The useful question is what kind of workflow you need: a...",
-      "authorName": "Carol Luo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "3c010cb7530998ee",
-      "title_vi": "HNSW và B-tree: So sánh hai cấu trúc chỉ mục cho hai bài toán tìm kiếm khác nhau",
-      "title_en": "HNSW and B-tree: Comparing Two Index Structures for Different Search Problems",
-      "summary_vi": [
-        "Bài viết phân tích sự khác biệt cốt lõi giữa cấu trúc chỉ mục HNSW chuyên dụng cho cơ sở dữ liệu vector và B-tree truyền thống khi xử lý các bài toán tìm kiếm dữ liệu hiện đại trong kỷ nguyên trí tuệ nhân tạo.",
-        "Hồ sơ kỹ thuật chỉ ra cách HNSW tối ưu hóa việc tìm kiếm láng giềng gần nhất xấp xỉ trong không gian chiều cao, trong khi B-tree thống trị các truy vấn chính xác và phạm vi dữ liệu có cấu trúc rõ ràng.",
-        "Hiểu rõ bản chất toán học và cơ chế hoạt động của từng loại chỉ mục giúp kỹ sư phần mềm lựa chọn đúng công nghệ lưu trữ, tối ưu hóa hiệu năng hệ thống AI và giảm thiểu chi phí phần cứng."
-      ],
-      "summary_en": [
-        "The article analyzes the core differences between HNSW index structures specialized for vector databases and traditional B-trees when handling modern data retrieval problems in the artificial intelligence era.",
-        "Technical profiles indicate how HNSW optimizes approximate nearest neighbor search in high-dimensional spaces, whereas B-tree dominates exact matches and range queries for structured data.",
-        "Understanding the mathematical nature and operational mechanisms of each index type helps software engineers choose the right storage technology, optimize AI system performance, and minimize hardware costs."
-      ],
-      "originalTitle": "HNSW và B-tree/B+ tree: Cùng là index, nhưng giải quyết hai bài toán khác nhau",
-      "url": "https://viblo.asia/p/hnsw-va-b-treeb-tree-cung-la-index-nhung-giai-quyet-hai-bai-toan-khac-nhau-Nj4vgarqJ6r",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "HNSW",
-        "B-tree",
-        "Vector Database",
-        "Data Structures",
-        "AI Search"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-09-22T17:06:29.000Z",
-      "contentSnippet": "Khi nói đến “tăng tốc tìm kiếm dữ liệu”, người mới tìm hiểu vector database hoặc AI search rất dễ đặt HNSW cạnh những cấu trúc index quen thuộc như B-...",
-      "authorName": "Đỗ Thảo Giang",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9631ff059f77bd8d",
-      "title_vi": "Cách thiết lập quy trình CI/CD đơn giản với GitHub Actions cho lập trình viên",
-      "title_en": "How to set up a simple CI/CD pipeline with GitHub Actions for developers",
-      "summary_vi": [
-        "Bài viết chia sẻ hướng dẫn chi tiết cách thiết lập một quy trình tự động hóa tích hợp và triển khai liên tục hoàn toàn miễn phí cho các dự án phần mềm cá nhân sử dụng công cụ GitHub Actions phổ biến hiện nay.",
-        "Tác giả đi sâu vào việc cấu hình các tệp tin YAML, thiết lập luồng công việc kích hoạt khi có mã nguồn được đẩy lên kho lưu trữ và cách tích hợp các bước kiểm thử tự động một cách hiệu quả.",
-        "Giải pháp này giúp các lập trình viên tối ưu hóa đáng kể thời gian triển khai mã nguồn, giảm thiểu sai sót do thao tác thủ công và nâng cao chất lượng sản phẩm trong suốt quá trình phát triển phần mềm."
-      ],
-      "summary_en": [
-        "This article provides a detailed guide on how to set up a completely free continuous integration and deployment automation pipeline for personal software projects using the popular GitHub Actions tool.",
-        "The author dives deep into configuring YAML files, establishing trigger workflows when source code is pushed to the repository, and effectively integrating automated testing steps into the pipeline.",
-        "This solution helps developers significantly optimize code deployment time, minimize errors caused by manual operations, and enhance product quality throughout the entire software development lifecycle."
-      ],
-      "originalTitle": "Cách mình setup CI/CD đơn giản với GitHub Actions",
-      "url": "https://viblo.asia/p/cach-minh-setup-cicd-don-gian-voi-github-actions-pPLkNbzZJRZ",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "CI/CD",
-        "GitHub Actions",
-        "DevOps",
-        "Automation",
-        "Software Engineering"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-22T16:39:53.000Z",
-      "contentSnippet": "",
-      "authorName": "EME GUG",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0dd3bed5c7dd1c27",
-      "title_vi": "Ra mắt mô hình trí tuệ nhân tạo Claude Opus 5.5 với hiệu suất vượt trội và chi phí vận hành tối ưu",
-      "title_en": "Claude Opus 5.5 Launched with Superior Performance and Optimized Operational Costs",
-      "summary_vi": [
-        "Công ty vừa chính thức giới thiệu Claude Opus 5.5, mẫu mô hình mới nhất thuộc dòng sản phẩm Claude 5.5, mang đến bước nhảy vọt về hiệu năng toàn diện trong công việc.",
-        "Mô hình đạt hiệu suất cao với chi phí vận hành thấp hơn bốn mươi phần trăm so với phiên bản tiền nhiệm, đồng thời vượt qua các bài kiểm tra hành vi tự động khắt khe nhất về độ an toàn.",
-        "Sự cải tiến này giúp lập trình viên hoàn thành các dự án di chuyển mã nguồn khổng lồ hoặc tối ưu hóa ứng dụng web phức tạp một cách nhanh chóng và chính xác hơn."
-      ],
-      "summary_en": [
-        "The company has officially introduced Claude Opus 5.5, the latest model in the Claude 5.5 product family, delivering a comprehensive leap forward in overall work performance.",
-        "The model achieves high efficiency with a forty percent lower operating cost than its predecessor while passing the most rigorous automated behavioral tests for safety alignment.",
-        "These improvements enable developers to complete massive codebase migrations or optimize complex web applications much more quickly and accurately than ever before."
-      ],
-      "originalTitle": "Claude Opus 5.5",
-      "url": "https://www.anthropic.com/claude-opus-5-5",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Software Engineering",
-        "AI Safety"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-22T16:29:05.000Z",
-      "contentSnippet": "We’re introducing Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5. Claude Opus 5.5 is our first release since we called for pacing the frontier. It was tested before release by external eva",
-      "authorName": "km144",
-      "upvotes": 1239,
-      "commentsCount": 833
-    },
-    {
-      "id": "ff80b14a824b1de5",
-      "title_vi": "Hướng dẫn bật xác thực đa yếu tố cho tài khoản gốc trên nền tảng AWS",
-      "title_en": "Guide to Enabling Multi-Factor Authentication for AWS Root Accounts",
-      "summary_vi": [
-        "Bài viết hướng dẫn chi tiết quy trình kích hoạt xác thực đa yếu tố nhằm bảo vệ tài khoản gốc có quyền lực tối cao trên hệ thống điện toán đám mây Amazon Web Services khỏi các nguy cơ xâm nhập trái phép.",
-        "Tài khoản quản trị gốc nắm giữ toàn bộ quyền kiểm soát tài nguyên hạ tầng, do đó việc thiết lập lớp bảo mật bổ sung bằng thiết bị phần cứng hoặc ứng dụng di động là yêu cầu bắt buộc trong tiêu chuẩn an toàn thông tin.",
-        "Giải pháp này giúp các kỹ sư hệ thống và quản trị viên đám mây giảm thiểu tối đa rủi ro lộ lọt thông tin xác thực, tuân thủ các quy định bảo mật khắt khe khi vận hành hệ thống sản xuất thực tế."
-      ],
-      "summary_en": [
-        "The article provides a detailed guide on enabling multi-factor authentication to protect the highest-privilege root account on the Amazon Web Services cloud computing platform against unauthorized intrusion risks.",
-        "The root administrative account holds total control over infrastructure resources, making the establishment of an additional security layer using hardware devices or mobile applications a mandatory requirement in information security standards.",
-        "This solution helps system engineers and cloud administrators minimize the risk of credential leakage, strictly complying with stringent security regulations when operating production environments in real-world scenarios."
-      ],
-      "originalTitle": "[02] Hướng dẫn Enable TFA/MFA cho tài khoản Root trên AWS",
-      "url": "https://viblo.asia/p/02-huong-dan-enable-tfamfa-cho-tai-khoan-root-tren-aws-ymJXDW5EJkq",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "AWS",
-        "CloudSecurity",
-        "MFA",
-        "DevOps",
-        "IdentityManagement"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-22T16:02:43.000Z",
-      "contentSnippet": "Hướng dẫn Enable TFA/MFA cho tài khoản Root trên AWS 1. Mục đích Tài khoản AWS Root User là tài khoản có quyền cao nhất trong một AWS Account. Nếu t...",
-      "authorName": "Lê Anh",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0ef2891f94cf7b43",
-      "title_vi": "Góc setup làm việc mới với Galaxy Z Fold8: Gọn gàng, xài DeX mượt nhưng chưa thay được laptop",
-      "title_en": "Galaxy Z Fold8: Transforming the Foldable Flagship into an Ambient Smart Display Desk Companion",
-      "summary_vi": [
-        "Khám phá trải nghiệm biến chiếc smartphone màn hình gập Galaxy Z Fold8 thành khung tranh và màn hình phụ mini trên bàn làm việc công nghệ.",
-        "Tận dụng cơ chế bản lề Flex Mode cố định đa góc độ, màn hình Dynamic AMOLED tần số quét 120Hz và chế độ Standby Always-On Display thông minh.",
-        "Mở rộng khả năng tương tác đa nhiệm, hỗ trợ lập trình viên theo dõi dashboard và thông báo hệ thống mà không cần bật thêm màn hình lớn."
-      ],
-      "summary_en": [
-        "Explores transforming the Galaxy Z Fold8 foldable flagship into an ambient smart display and secondary monitor on developer desks.",
-        "Leverages multi-angle Flex Mode hinging, a 120Hz Dynamic AMOLED panel, and intelligent Always-On ambient display capabilities.",
-        "Enhances multi-tasking desk ergonomics, enabling engineers to monitor build pipelines and system telemetry without extra hardware monitors."
-      ],
-      "originalTitle": "Góc setup làm việc mới với Galaxy Z Fold8: Gọn gàng, xài DeX mượt nhưng chưa thay được laptop",
-      "url": "https://tinhte.vn/thread/goc-setup-lam-viec-moi-voi-galaxy-z-fold8-gon-gang-xai-dex-muot-nhung-chua-thay-duoc-laptop.4178873/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Android"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-22T15:43:53.000Z",
-      "contentSnippet": "Mấy hôm nay mình vừa dọn lại một góc bàn làm việc nho nhỏ, lấy chiếc Galaxy Z Fold8 làm trung tâm kết hợp với vài món phụ kiện quen thuộc để đổi gió. Trước giờ mình vẫn dùng laptop làm máy chính,...",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a81b180ef3fd1e33",
-      "title_vi": "Cách thức hoạt động của Meta's Muse, được tiết lộ bởi hệ thống tập tin 6,8 GB mà nó gửi cho tôi",
-      "title_en": "How Meta's Muse works, revealed by the 6.8 GB filesystem it sent me",
-      "summary_vi": [
-        "Tôi đã yêu cầu Muse lưu trữ các tệp mà nó có thể xem và gửi chúng tới Google Drive của tôi.",
-        "Bản tải xuống có dung lượng nén khoảng 2,7 GB và giải nén 6,8 GB.",
-        "Nó dường như chứa hệ thống tệp gốc của môi trường Linux được gán cho phiên của tôi, bao gồm các tệp hệ thống Ubuntu, tài liệu nội bộ của Muse, mã tích hợp, mẫu ứng dụng, tệp bộ nhớ và nhật ký tác nhân."
-      ],
-      "summary_en": [
-        "I asked Muse to archive the files it could see and send them to my Google Drive.",
-        "The download was about 2.7 GB compressed and 6.8 GB unpacked.",
-        "It appeared to contain the root filesystem of the Linux environment assigned to my session, including Ubuntu system files, Muse’s internal documentation, integration code, app templates, memory files, and agent logs."
-      ],
-      "originalTitle": "How Meta's Muse works, revealed by the 6.8 GB filesystem it sent me",
-      "url": "https://mouse.dev/blog/muse-runtime-export/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "DevOps",
-        "Cloud"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-22T15:25:12.000Z",
-      "contentSnippet": "I asked Muse to archive the files it could see and send them to my Google Drive. It did. The download was about 2.7 GB compressed and 6.8 GB unpacked. It appeared to contain the root filesystem of the Linux environment assigned to my session, including Ubuntu system files, Muse’s internal documentat",
-      "authorName": "Aeroi",
-      "upvotes": 50,
-      "commentsCount": 28
-    },
-    {
-      "id": "55ab8bc4060712ff",
-      "title_vi": "Cầm iPhone 18 Pro Max so Galaxy S26 Ultra: Nặng hơn nhiều và nút bấm hơi thừa thãi",
-      "title_en": "Holding iPhone 18 Pro Max compared to Galaxy S26 Ultra: Much heavier and the buttons are a bit redundant",
-      "summary_vi": [
-        "Trên tay mình đây là hai chiếc máy đầu bảng mới nhất của Apple và Samsung hiện tại: iPhone 18 Pro Max và Galaxy S26 Ultra.",
-        "Sau một thời gian cầm cả hai chiếc máy này song song, mình có vài chia sẻ.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Cầm iPhone 18 Pro Max so Galaxy S26 Ultra: Nặng hơn nhiều và nút bấm hơi thừa thãi."
-      ],
-      "summary_en": [
-        "In my hand, these are the two latest flagship devices from Apple and Samsung currently: iPhone 18 Pro Max and Galaxy S26 Ultra.",
-        "After holding both of these devices side by side for a while, I have a few things to share.",
-        "Practical engineering impact and actionable takeaways for developers building with Holding iPhone 18 Pro Max compared to Galaxy S26 Ultra: Much heavier and the buttons are a bit redundant."
-      ],
-      "originalTitle": "Cầm iPhone 18 Pro Max so Galaxy S26 Ultra: Nặng hơn nhiều và nút bấm hơi thừa thãi",
-      "url": "https://tinhte.vn/thread/cam-iphone-18-pro-max-so-galaxy-s26-ultra-nang-hon-nhieu-va-nut-bam-hoi-thua-thai.4178521/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "Android"
-      ],
-      "hotScore": 93,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-22T15:10:56.000Z",
-      "contentSnippet": "Trên tay mình đây là hai chiếc máy đầu bảng mới nhất của Apple và Samsung hiện tại: iPhone 18 Pro Max và Galaxy S26 Ultra. Sau một thời gian cầm cả hai chiếc máy này song song, mình có vài chia sẻ...",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a0609f3fcb2c725c",
-      "title_vi": "Trên tay bộ 3 củ sạc Belkin chân gập: Nhỏ gọn và xài tốt cho cả iPhone 18 series",
-      "title_en": "On hand, a set of 3 Belkin folding chargers: Compact and good for all iPhone 18 series",
-      "summary_vi": [
-        "Cứ mỗi đợt người dùng chuẩn bị đổi iPhone 18 Pro hoặc nâng cấp các món đồ công nghệ trong hệ sinh thái Apple, câu chuyện muôn thuở lại quay về việc chọn một củ sạc phù hợp.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Trên tay bộ 3 củ sạc Belkin chân gập: Nhỏ gọn và xài tốt cho cả iPhone 18 series.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Trên tay bộ 3 củ sạc Belkin chân gập: Nhỏ gọn và xài tốt cho cả iPhone 18 series."
-      ],
-      "summary_en": [
-        "Every time users prepare to exchange iPhone 18 Pro or upgrade technology items in the Apple ecosystem, the eternal story returns to choosing a suitable charger.",
-        "In-depth technical breakdown and implementation mechanisms introduced in On hand, a set of 3 Belkin folding chargers: Compact and good for all iPhone 18 series.",
-        "Practical engineering impact and actionable takeaways for developers building with On hand, a set of 3 Belkin folding chargers: Compact and good for all iPhone 18 series."
-      ],
-      "originalTitle": "Trên tay bộ 3 củ sạc Belkin chân gập: Nhỏ gọn và xài tốt cho cả iPhone 18 series",
-      "url": "https://tinhte.vn/thread/tren-tay-bo-3-cu-sac-belkin-chan-gap-nho-gon-va-xai-tot-cho-ca-iphone-18-series.4171244/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 97,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-22T14:39:17.000Z",
-      "contentSnippet": "Cứ mỗi đợt người dùng chuẩn bị đổi iPhone 18 Pro hoặc nâng cấp các món đồ công nghệ trong hệ sinh thái Apple, câu chuyện muôn thuở lại quay về việc chọn một củ sạc phù hợp. Trên thị trường hiện...",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9bf1740baad9a32b",
-      "title_vi": "Apple thêm 'quảng cáo' liên tục vào iOS và khiến người dùng phát điên",
-      "title_en": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
-      "summary_vi": [
-        "Chào mừng đến với câu lạc bộ Tech Radar!",
-        "Xin chào, Hành trình trở thành thành viên của bạn bắt đầu từ đây.",
-        "Tiếp tục khám phá và kiếm được nhiều tiền hơn khi là thành viên."
-      ],
-      "summary_en": [
-        "Welcome to Tech Radar club !",
-        "Hi , Your membership journey starts here.",
-        "Keep exploring and earning more as a member."
-      ],
-      "originalTitle": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
-      "url": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-22T14:30:12.000Z",
-      "contentSnippet": "Welcome to Tech Radar club ! Hi , Your membership journey starts here. Keep exploring and earning more as a member. News, deals, reviews, guides and more… News, deals, reviews, guides and more on the newest computing gadgets Your membership perks Start exploring exclusive deals, expert advice and mo",
-      "authorName": "MC995",
-      "upvotes": 208,
-      "commentsCount": 128
-    },
-    {
-      "id": "9c8702c7238a9661",
-      "title_vi": "Sắp đóng cổng đăng ký Sea x OpenAI Codex Hackathon - cuộc thi dành cho cộng đồng AI Việt",
-      "title_en": "The Sea x OpenAI Codex Hackathon registration portal is about to close - a contest for the Vietnamese AI community",
-      "summary_vi": [
-        "Chỉ còn 4 ngày nữa, cổng đăng ký tham gia cuộc thi “Sea x OpenAI Codex Hackathon” sẽ đóng lại.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Sắp đóng cổng đăng ký Sea x OpenAI Codex Hackathon - cuộc thi dành cho cộng đồng AI Việt.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Sắp đóng cổng đăng ký Sea x OpenAI Codex Hackathon - cuộc thi dành cho cộng đồng AI Việt."
-      ],
-      "summary_en": [
-        "With only 4 days left, the registration portal to participate in the \"Sea x OpenAI Codex Hackathon\" will close.",
-        "In-depth technical breakdown and implementation mechanisms introduced in The Sea x OpenAI Codex Hackathon registration portal is about to close - a contest for the Vietnamese AI community.",
-        "Practical engineering impact and actionable takeaways for developers building with The Sea x OpenAI Codex Hackathon registration portal is about to close - a contest for the Vietnamese AI community."
-      ],
-      "originalTitle": "Sắp đóng cổng đăng ký Sea x OpenAI Codex Hackathon - cuộc thi dành cho cộng đồng AI Việt",
-      "url": "https://genk.vn/sap-dong-cong-dang-ky-sea-x-openai-codex-hackathon-cuoc-thi-danh-cho-cong-dong-ai-viet-165260922212942633.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "OpenAI"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-22T14:30:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/22/photo1790074244080-17900742443151592739044-1790087384617955997464.png",
-      "contentSnippet": "Chỉ còn 4 ngày nữa, cổng đăng ký tham gia cuộc thi “Sea x OpenAI Codex Hackathon” sẽ đóng lại.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9f4068a1c14321fe",
-      "title_vi": "Xbox đang hợp nhất các nhà phát triển Forza của mình thành một studio duy nhất",
-      "title_en": "Xbox is merging its Forza developers into a single studio",
-      "summary_vi": [
-        "Hôm nay, Microsoft sẽ hợp nhất hai nhà phát triển Forza của mình thành một studio duy nhất, như một phần của quá trình tái cơ cấu lớn Xbox.",
-        "Playground Games, công ty phát triển Forza Horizon và Turn 10 Studios, những người tạo ra Forza Motorsport, đang hợp nhất với nhau để tập trung vào Forza Horizon và Fable.",
-        "Giám đốc nội dung Xbox, Matt Booty giải thích trong một bản ghi nhớ: “Playground và Turn 10 sẽ kết hợp với nhau thành một studio tập trung vào nhượng quyền Forza và Fable”."
-      ],
-      "summary_en": [
-        "Microsoft is uniting its two Forza developers into a single studio today, as part of a massive restructuring of Xbox.",
-        "Playground Games, which develops Forza Horizon, and Turn 10 Studios, creators of Forza Motorsport, are merging together to focus on Forza Horizon and Fable.",
-        "\"Playground and Turn 10 will come together as one studio focused on the Forza and Fable franchises,\" explains Xbox chief content officer Matt Booty in a memo."
-      ],
-      "originalTitle": "Xbox is merging its Forza developers into a single studio",
-      "url": "https://www.theverge.com/news/998592/xbox-is-merging-its-forza-developers-into-a-single-studio",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechTrends",
-        "Innovation"
-      ],
-      "hotScore": 93,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-22T14:01:17.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/ss_7775b5046e2fcc717f180577f482b2a5e3cbf0dc.1920x1080.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Microsoft is uniting its two Forza developers into a single studio today, as part of a massive restructuring of Xbox. Playground Games, which develops Forza Horizon, and Turn 10 Studios, creators of Forza Motorsport, are merging together to focus on Forza Horizon and Fable. \"Playground and Turn 10 w",
-      "authorName": "Tom Warren",
       "upvotes": 0,
       "commentsCount": 0
     }
