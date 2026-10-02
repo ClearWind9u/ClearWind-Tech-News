@@ -1,7 +1,350 @@
 {
-  "lastUpdated": "2026-10-02T03:18:39.812Z",
+  "lastUpdated": "2026-10-02T11:39:24.509Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "802bbd21aefe02a2",
+      "title_vi": "Lộ Trình Học Backend Java Toàn Diện Từ Con Số 0 Cho Người Mới Bắt Đầu",
+      "title_en": "Comprehensive Zero to Hero Java Backend Learning Roadmap for Beginners",
+      "summary_vi": [
+        "Bài viết mở đầu cho chuỗi series hướng dẫn lập trình Java Backend toàn diện giúp người mới tiếp cận kiến thức từ những bước cơ bản nhất cho đến khi thành thạo kỹ năng chuyên môn.",
+        "Tài liệu cung cấp lộ trình chi tiết bao gồm tổng cộng tám mươi sáu bài học cấu trúc chặt chẽ giúp học viên nắm vững nền tảng ngôn ngữ và các công nghệ cốt lõi trong phát triển phần mềm.",
+        "Chương trình đào tạo này mang lại giá trị thực tiễn cao giúp xây dựng nền tảng vững chắc cho các lập trình viên muốn theo đuổi sự nghiệp phát triển hệ thống backend chuyên nghiệp."
+      ],
+      "summary_en": [
+        "This article introduces a comprehensive Java Backend programming series designed to help beginners acquire technical knowledge smoothly from fundamental concepts up to advanced proficiency.",
+        "The document provides a detailed roadmap comprising eighty-six strictly structured lessons that help learners master programming language foundations and core software development technologies.",
+        "This training curriculum delivers high practical value by building a solid foundation for developers aiming to pursue professional backend systems development careers."
+      ],
+      "originalTitle": "[Java Backend Zero to Hello] Lộ Trình Học Backend Java Toàn Diện Từ Con Số 0",
+      "url": "https://viblo.asia/p/java-backend-zero-to-hello-lo-trinh-hoc-backend-java-toan-dien-tu-con-so-0-ym400lzA491",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Java",
+        "Backend",
+        "Software Engineering",
+        "Programming",
+        "Learning Roadmap"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-02T18:09:26.000Z",
+      "contentSnippet": "Bài viết thuộc series Java Backend Zero to Hello Phần: Lộ Trình Tổng Quan | Bài 1/86 LỘ TRÌNH HỌC BACKEND JAVA CHO NGƯỜI MỚI Tài liệu này được t...",
+      "authorName": "Xuân Chinh Trịnh",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "82c48d0057c8a9c4",
+      "title_vi": "Phát triển Backend Java từ con số không: Giai đoạn 1 tổng quan và mục tiêu Java Core cơ bản",
+      "title_en": "Java Backend Zero to Hello Phase 1: Java Core Fundamentals Overview and Objectives",
+      "summary_vi": [
+        "Bài viết mở đầu chuỗi hướng dẫn lập trình phụ trợ Java chi tiết, tập trung vào giai đoạn một nhằm xây dựng nền tảng kiến thức cốt lõi vững chắc cho người mới bắt đầu học lập trình.",
+        "Lộ trình được thiết kế kéo dài từ bốn đến sáu tuần, cung cấp các kiến thức căn bản về ngôn ngữ Java, cấu trúc dữ liệu, giải thuật và các kỹ thuật lập trình hướng đối tượng.",
+        "Chương trình này mang lại giá trị thiết thực giúp học viên nắm vững kỹ năng lập trình nền tảng, tạo bước đệm quan trọng trước khi tiếp cận các công nghệ web và khung làm việc phức tạp hơn."
+      ],
+      "summary_en": [
+        "The article introduces a comprehensive Java backend programming series, focusing on the first phase designed to build a solid foundational knowledge base for absolute beginners.",
+        "The structured curriculum spans four to six weeks, covering essential language syntax, data structures, algorithms, and core object-oriented programming principles in Java.",
+        "This program provides practical value by helping learners master fundamental coding skills, creating a crucial stepping stone before advancing to complex web frameworks."
+      ],
+      "originalTitle": "[Java Backend Zero to Hello] PHASE 1: JAVA CORE CƠ BẢN - Tổng Quan & Mục Tiêu",
+      "url": "https://viblo.asia/p/java-backend-zero-to-hello-phase-1-java-core-co-ban-tong-quan-muc-tieu-AY4qQzvr4Pw",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Java",
+        "Backend",
+        "Java Core",
+        "Software Engineering"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-02T18:09:22.000Z",
+      "contentSnippet": "Bài viết thuộc series Java Backend Zero to Hello Phần: Phase 1: Java Core Cơ Bản | Bài 2/86 PHASE 1: JAVA CORE CƠ BẢN Thời gian: 4-6 tuần | Mục ...",
+      "authorName": "Xuân Chinh Trịnh",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "425129474452a435",
+      "title_vi": "Xây Dựng Dự Án Thực Tế Cuối Khóa Trong Lộ Trình Lập Trình Java Backend Từ Cơ Bản Đến Nâng Cao",
+      "title_en": "Building Real-World Capstone Projects in the Java Backend Zero to Hero Programming Roadmap",
+      "summary_vi": [
+        "Khóa học lập trình Java Backend tiến đến giai đoạn cuối cùng với việc triển khai các dự án thực tế nhằm tổng hợp toàn bộ kiến thức nền tảng và nâng cao đã học trong suốt lộ trình.",
+        "Học viên sẽ áp dụng các mô hình kiến trúc phần mềm hiện đại, xây dựng cơ sở dữ liệu tối ưu, phát triển các dịch vụ API RESTful bảo mật và tích hợp hệ thống xác thực người dùng.",
+        "Dự án cuối khóa đóng vai trò như bước đệm quan trọng giúp lập trình viên trẻ làm quen với quy trình phát triển phần mềm chuẩn doanh nghiệp và tự tin ứng tuyển vị trí backend."
+      ],
+      "summary_en": [
+        "The Java Backend programming course reaches its final phase with the deployment of practical projects to consolidate all fundamental and advanced knowledge acquired throughout the roadmap.",
+        "Students will apply modern software architectural patterns, build optimized databases, develop secure RESTful API services, and integrate robust user authentication systems.",
+        "The capstone project serves as a crucial stepping stone helping young developers familiarize themselves with enterprise-grade software development workflows and confidently apply for backend positions."
+      ],
+      "originalTitle": "[Java Backend Zero to Hello] [Phase 8] PHASE 8: PROJECT THỰC TẾ CUỐI KHÓA",
+      "url": "https://viblo.asia/p/java-backend-zero-to-hello-phase-8-phase-8-project-thuc-te-cuoi-khoa-bNVQGlx0JvR",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Java",
+        "Backend",
+        "Spring Boot",
+        "Software Engineering",
+        "API"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-02T18:09:20.000Z",
+      "contentSnippet": "Series: Java Backend Zero to Hello Phân đoạn: Phase 8: Project thực tế Nội dung: PHASE 8: PROJECT THỰC TẾ CUỐI KHÓA Khóa học lập trình Backend Jav...",
+      "authorName": "Xuân Chinh Trịnh",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "d3586115220a39fd",
+      "title_vi": "Giới thiệu ngôn ngữ Java và hướng dẫn cài đặt môi trường phát triển cho lập trình viên backend",
+      "title_en": "Introduction to Java and Development Environment Setup Guide for Backend Developers",
+      "summary_vi": [
+        "Bài viết mở đầu chuỗi series học lập trình backend với Java cốt lõi, tập trung vào việc giới thiệu tổng quan về ngôn ngữ lập trình Java và tầm quan trọng của nó trong hệ sinh thái phần mềm doanh nghiệp hiện đại.",
+        "Nội dung cung cấp hướng dẫn chi tiết từng bước cách cài đặt bộ công cụ phát triển Java Development Kit cùng các môi trường lập trình tích hợp phổ biến nhằm tối ưu hóa quá trình viết mã nguồn.",
+        "Kiến thức nền tảng này đóng vai trò quyết định giúp các kỹ sư phần mềm mới bắt đầu xây dựng nền móng vững chắc trước khi tiến tới phát triển các hệ thống phân tán và ứng dụng web quy mô lớn."
+      ],
+      "summary_en": [
+        "The article initiates a core Java backend programming series, focusing on providing a comprehensive overview of the Java programming language and its vital role in modern enterprise software ecosystems.",
+        "It offers detailed step-by-step instructions on installing the Java Development Kit and configuring popular integrated development environments to optimize the source code writing workflow effectively.",
+        "This foundational knowledge plays a crucial role in helping beginner software engineers build a solid base before advancing to develop distributed systems and large-scale web applications."
+      ],
+      "originalTitle": "[Java Backend Zero to Hello] BÀI 1.1: GIỚI THIỆU JAVA & CÀI ĐẶT MÔI TRƯỜNG",
+      "url": "https://viblo.asia/p/java-backend-zero-to-hello-bai-11-gioi-thieu-java-cai-dat-moi-truong-3RL1BonqVao",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Java",
+        "Backend",
+        "JDK",
+        "Programming",
+        "Software Development"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-02T18:09:18.000Z",
+      "contentSnippet": "Bài viết thuộc series Java Backend Zero to Hello Phần: Phase 1: Java Core Cơ Bản | Bài 3/86 BÀI 1.1: GIỚI THIỆU JAVA & CÀI ĐẶT MÔI TRƯỜNG Mục ti...",
+      "authorName": "Xuân Chinh Trịnh",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e4025181e668c7f5",
+      "title_vi": "Xây Dựng Nền Tảng Lập Trình Java Backend: Biến, Kiểu Dữ Liệu và Toán Tử",
+      "title_en": "Building Java Backend Fundamentals: Variables, Data Types, and Operators",
+      "summary_vi": [
+        "Bài viết này mở ra hành trình học lập trình Java backend từ cơ bản đến nâng cao, tập trung vào những khái niệm nền tảng quan trọng nhất dành cho các lập trình viên mới bắt đầu.",
+        "Nội dung đi sâu vào việc giải thích cách khai báo biến, phân loại các kiểu dữ liệu nguyên thủy cùng tham chiếu, kết hợp việc sử dụng thành thạo các toán tử logic và toán học.",
+        "Kiến thức này giúp học viên xây dựng tư duy lập trình chặt chẽ, tối ưu hóa mã nguồn và tạo tiền đề vững chắc để phát triển các ứng dụng doanh nghiệp quy mô lớn."
+      ],
+      "summary_en": [
+        "This article begins the foundational journey of learning Java backend development from scratch, focusing on the most essential core concepts for beginner developers.",
+        "The content delves deeply into explaining variable declarations, primitive versus reference data types, alongside the proficient use of logical and mathematical operators.",
+        "This knowledge helps students build rigorous programming logic, optimize source code, and establish a solid foundation for developing large-scale enterprise applications."
+      ],
+      "originalTitle": "[Java Backend Zero to Hello] BÀI 1.2: BIẾN, KIỂU DỮ LIỆU, TOÁN TỬ",
+      "url": "https://viblo.asia/p/java-backend-zero-to-hello-bai-12-bien-kieu-du-lieu-toan-tu-k74a9Ox64eO",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Java",
+        "Backend",
+        "Programming",
+        "Core Java",
+        "Data Types"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-02T18:09:14.000Z",
+      "contentSnippet": "Bài viết thuộc series Java Backend Zero to Hello Phần: Phase 1: Java Core Cơ Bản | Bài 4/86 BÀI 1.2: BIẾN, KIỂU DỮ LIỆU, TOÁN TỬ Mục tiêu - Hiểu...",
+      "authorName": "Xuân Chinh Trịnh",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "91ba4a5e0a022401",
+      "title_vi": "Thiết bị phát trực tuyến Fire TV Stick 4K mới của Amazon chính thức loại bỏ hệ điều hành Android để chuyển sang nền tảng Vega OS độc quyền và chặn hoàn toàn tính năng cài đặt ứng dụng ngoài với mức giá năm mươi chín phẩy chín mươi chín đô la",
+      "title_en": "Amazon New Fire TV Stick 4K Drops Android For Vega OS And Blocks Sideloading At Fifty Nine Dollars And Ninety Nine Cents",
+      "summary_vi": [
+        "Amazon đã chính thức phát hành dòng thiết bị giải trí cầm tay thế hệ mới từ cuối tháng chín với mức giá sáu mươi đô la nhưng đánh dấu bước chuyển đổi chiến lược lớn về nền tảng phần mềm bên dưới.",
+        "Hệ điều hành Android quen thuộc đã bị loại bỏ hoàn toàn để nhường chỗ cho Vega OS do tự tay hãng phát triển nhằm kiểm soát chặt chẽ hơn hệ sinh thái phần cứng cũng như phần mềm.",
+        "Việc đóng cửa hệ thống và không cho phép cài đặt ứng dụng từ nguồn ngoài đang tạo ra những tranh luận lớn trong cộng đồng kỹ thuật về quyền tự chủ của người dùng thiết bị thông minh."
+      ],
+      "summary_en": [
+        "Amazon officially released its next generation streaming device in late September priced at sixty dollars marking a major strategic shift in underlying software platform architecture.",
+        "The familiar Android operating system has been completely removed to make way for the proprietary Vega OS developed internally to ensure tighter control over the hardware ecosystem.",
+        "Closing down the system and preventing external application sideloading is sparking intense technical debates within the developer community regarding user autonomy on smart devices."
+      ],
+      "originalTitle": "Fire TV Stick 4K mới của Amazon bỏ Android, chuyển sang Vega OS và không còn sideload, giá 59,99 USD",
+      "url": "https://tinhte.vn/thread/fire-tv-stick-4k-moi-cua-amazon-bo-android-chuyen-sang-vega-os-va-khong-con-sideload-gia-59-99-usd.4180983/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Amazon",
+        "Vega OS",
+        "Android",
+        "Streaming",
+        "Operating System"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-02T11:17:00.000Z",
+      "contentSnippet": "Fire TV Stick 4K mới của Amazon bỏ Android, chuyển sang Vega OS và không còn sideload, giá 59,99 USD Amazon vừa bán Fire TV Stick 4K thế hệ mới từ ngày 30/9 với giá 59,99 USD nhưng nếu anh em...",
+      "authorName": "nhatminhngo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "2d1f34016da884c8",
+      "title_vi": "HP mở rộng thị trường máy tính trí tuệ nhân tạo tại Thành phố Hồ Chí Minh thông qua mô hình cửa hàng trải nghiệm",
+      "title_en": "HP Expands AI PC Market in Ho Chi Minh City Through Experiential Retail Store Model",
+      "summary_vi": [
+        "Ngày một tháng mười năm hai nghìn không trăm hai mươi sáu, hãng công nghệ HP cùng hệ thống Điện máy Xanh đã chính thức khai trương không gian trải nghiệm công nghệ thế hệ mới tại Thành phố Hồ Chí Minh.",
+        "Không gian này tập trung trưng bày các dòng máy tính cá nhân tích hợp trí tuệ nhân tạo tiên tiến, cho phép người dùng trực tiếp thao tác và kiểm tra hiệu năng xử lý tác vụ thông minh ngay trên thiết bị.",
+        "Chiến lược bán lẻ này giúp phổ biến các dòng phần cứng chuyên dụng cho trí tuệ nhân tạo, tạo tiền đề để người tiêu dùng tiếp cận gần hơn với các giải pháp công nghệ máy tính hiện đại trong thực tế."
+      ],
+      "summary_en": [
+        "On October first, twenty twenty-six, tech giant HP and Dien May Xanh officially launched a next-generation technology experiential space in Ho Chi Minh City.",
+        "This space focuses on showcasing advanced artificial intelligence-integrated personal computers, allowing users to directly interact with and test intelligent processing performance on the device.",
+        "This retail strategy helps popularize specialized hardware for artificial intelligence, creating a foundation for consumers to access modern computer technology solutions in practice."
+      ],
+      "originalTitle": "Muốn bán AI PC, HP chọn cách để khách tự cầm, tự thử: HP Flagship Store thứ hai ra mắt tại thành phố Hồ Chí Minh",
+      "url": "https://genk.vn/muon-ban-ai-pc-hp-chon-cach-de-khach-tu-cam-tu-thu-hp-flagship-store-thu-hai-ra-mat-tai-thanh-pho-ho-chi-minh-165261002175601232.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "AI PC",
+        "HP",
+        "Hardware",
+        "Retail Tech",
+        "AI"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-02T11:00:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/2/r6m25000-1790937764630750033854-32-0-1157-1800-crop-17909377693311402204269.jpg",
+      "contentSnippet": "Trong bối cảnh AI len vào công việc hằng ngày, HP và DMX đặt cược vào không gian shop-in-shop để người dùng trải nghiệm máy trước khi quyết định mua.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "95a6bd13263d5a64",
+      "title_vi": "Đánh giá sức mạnh đỉnh cao của Mac Studio M5 Max với ổ cứng siêu tốc và hiệu năng đồ họa ấn tượng",
+      "title_en": "Unleashing the Extreme Performance of Mac Studio M5 Max with Lightning Fast SSD and Powerful Graphics",
+      "summary_vi": [
+        "Máy trạm Mac Studio M5 Max mới ra mắt đã thu hút sự chú ý mạnh mẽ từ giới công nghệ nhờ tốc độ ổ cứng SSD cực kỳ ấn tượng cùng khả năng xử lý tác vụ đồ họa và trí tuệ nhân tạo vượt trội.",
+        "Thiết bị tích hợp kiến trúc phần cứng tối ưu cho phép xử lý mượt mà các công việc dựng hình phức tạp, hiệu ứng hình ảnh nặng và khả năng chơi game đồ họa cao cấp như Cyberpunk 2077 ở độ phân giải lớn.",
+        "Hiệu năng mạnh mẽ trong một thiết kế nhỏ gọn mang lại giải pháp làm việc tối ưu cho các nhà sáng tạo nội dung chuyên nghiệp, kỹ sư phần mềm và những người dùng đòi hỏi cấu hình phần cứng đỉnh cao."
+      ],
+      "summary_en": [
+        "The newly released Mac Studio M5 Max workstation has drawn intense technological attention with its remarkably fast SSD speeds alongside superior graphics processing and artificial intelligence capabilities.",
+        "The device integrates optimized hardware architecture enabling seamless handling of complex rendering tasks, heavy visual effects, and high-end gaming experiences like Cyberpunk 2077 at maximum resolutions.",
+        "Powerful performance housed in a compact form factor delivers an optimal workflow solution for professional content creators, software engineers, and users demanding top-tier hardware configurations."
+      ],
+      "originalTitle": "\"Chóng mặt\" trước sức mạnh của Mac Studio M5 Max: SSD thần tốc, từ sáng tạo nội dung đến gaming đều đỉnh",
+      "url": "https://genk.vn/chong-mat-truoc-suc-manh-cua-mac-studio-m5-max-ssd-than-toc-tu-sang-tao-noi-dung-den-gaming-deu-dinh-165261002171223277.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Mac Studio",
+        "M5 Max",
+        "SSD",
+        "Hardware",
+        "AI"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-02T10:30:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/2/avatar1790933681577-17909336818552017631221.jpg",
+      "contentSnippet": "Mac Studio M5 Max không chỉ gây choáng với tốc độ SSD, mà còn thể hiện hiệu năng mạnh mẽ trong dựng hình, xử lý hiệu ứng và AI. Khả năng chơi Cyberpunk 2077 ở 2K với Path Tracing càng cho thấy sức mạnh đáng nể bên trong thiết kế nhỏ gọn này.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "898455275a240f08",
+      "title_vi": "Dòng đồng hồ thông minh HUAWEI WATCH GT 7 ra mắt tại Việt Nam tích hợp trí tuệ nhân tạo thể thao và pin 21 ngày",
+      "title_en": "HUAWEI WATCH GT 7 Series Launched in Vietnam Featuring Sports AI and 21-Day Battery Life",
+      "summary_vi": [
+        "Thương hiệu Huawei chính thức giới thiệu dòng thiết bị đeo thông minh thế hệ mới tại thị trường Việt Nam với nhiều cải tiến toàn diện về cảm biến sức khỏe và chế độ tập luyện ngoài trời tiên tiến.",
+        "Sản phẩm tích hợp các thuật toán trí tuệ nhân tạo thông minh nhằm phân tích sâu dữ liệu vận động của cơ thể, kết hợp công nghệ tối ưu hóa năng lượng giúp duy trì thời gian sử dụng pin lên đến hai mươi mốt ngày.",
+        "Việc ứng dụng các giải pháp phần cứng kết hợp mô hình xử lý dữ liệu di động mang lại trải nghiệm theo dõi sinh học chuẩn xác, thúc đẩy sự phát triển của hệ sinh thái thiết bị đeo thông minh."
+      ],
+      "summary_en": [
+        "Huawei officially introduced its next-generation smart wearable series in the Vietnamese market featuring comprehensive improvements in health sensors and advanced outdoor workout modes.",
+        "The product integrates smart artificial intelligence algorithms to deeply analyze body movement data combined with energy optimization technology to maintain a battery life of up to twenty-one days.",
+        "The application of hardware solutions combined with mobile data processing models delivers accurate biological tracking experiences, driving the growth of the smart wearable device ecosystem."
+      ],
+      "originalTitle": "HUAWEI WATCH GT 7 Series ra mắt tại Việt Nam: Hiểu cơ thể sâu hơn, thêm AI cho thể thao, pin tới 21 ngày giá từ 5,5 triệu",
+      "url": "https://genk.vn/huawei-watch-gt-7-series-ra-mat-tai-viet-nam-hieu-co-the-sau-hon-them-ai-cho-the-thao-pin-toi-21-ngay-gia-tu-55-trieu-165261002165947599.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Huawei",
+        "Smartwatch",
+        "AI",
+        "Mobile",
+        "Wearables"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-02T09:59:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/2/avatar1790935109766-1790935110077661764714.jpg",
+      "contentSnippet": "HUAWEI WATCH GT 7 Series chính thức được giới thiệu tại Việt Nam với hàng loạt nâng cấp về sức khỏe, thể thao ngoài trời và tiện ích hằng ngày. Thế hệ mới vẫn giữ thời lượng pin tối đa 21 ngày, nhưng đi xa hơn ở khả năng phân tích dữ liệu để giúp người dùng hiểu cơ thể và tập luyện chủ động hơn.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e925a640346da263",
+      "title_vi": "Nền tảng tạo nhạc trí tuệ nhân tạo Suno ra mắt tính năng tổng hợp giọng nói mới",
+      "title_en": "AI music maker Suno now generates spoken words",
+      "summary_vi": [
+        "Nền tảng tạo nhạc trí tuệ nhân tạo nổi tiếng Suno vừa chính thức mở rộng dịch vụ của mình bằng cách ra mắt một tính năng mới cho phép tổng hợp giọng nói dựa trên các kịch bản hoặc mô tả văn bản.",
+        "Công nghệ này tích hợp mô hình âm thanh tiên tiến, hỗ trợ người dùng tạo đồng thời giọng đọc thuyết minh cùng với nhạc nền đi kèm trên cả nền tảng web và thiết bị di động đang trong giai đoạn thử nghiệm công khai.",
+        "Bước tiến chiến lược này đánh dấu sự mở rộng đáng kể của công ty sang các hình thức biểu đạt nghệ thuật số khác, mang lại công cụ sáng tạo nội dung mạnh mẽ và toàn diện hơn cho các nhà phát triển và nhà sáng tạo."
+      ],
+      "summary_en": [
+        "The popular artificial intelligence music platform Suno has officially expanded its services by launching a new feature that generates spoken voices based on text scripts or prompt descriptions.",
+        "This technology integrates advanced audio models, allowing users to simultaneously generate voiceovers and accompanying background music across both web and mobile platforms during its public beta phase.",
+        "This strategic move marks a significant expansion into other forms of digital artistic expression, providing powerful and comprehensive content creation tools for developers and digital creators."
+      ],
+      "originalTitle": "AI music maker Suno now generates spoken words",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Audio Generation",
+        "Machine Learning",
+        "Suno",
+        "Media Tech"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-02T09:42:19.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Suno-AI-voices.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Suno is branching out from the world of AI music, launching a new feature that generates spoken voices based on scripts or prompted descriptions. Speech is now available in public beta across Suno's web and mobile platforms, and allows you to simultaneously generate voiceovers and background music t",
+      "authorName": "Jess Weatherbed",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "4be74a5eb804db68",
       "title_vi": "Sau Úc, phát hiện tác nhân trí tuệ nhân tạo tìm cách xâm nhập hệ thống chính phủ Canada",
@@ -72,6 +415,41 @@
       "commentsCount": 0
     },
     {
+      "id": "642bcf284e93595e",
+      "title_vi": "Một số mẫu điện thoại cao cấp gặp lỗi âm thanh lạ khi sử dụng",
+      "title_en": "Several flagship smartphones encounter unusual audio glitches during usage",
+      "summary_vi": [
+        "Nhiều người dùng phản ánh các thiết bị điện thoại cao cấp thế hệ mới xuất hiện tiếng lách tách và lụp bụp khó chịu khi họ sử dụng các ứng dụng phát âm thanh trong quá trình trải nghiệm thực tế.",
+        "Tình trạng lỗi âm thanh này xảy ra trong nhiều tác vụ như gọi điện, nghe nhạc và nhận thông báo, trong khi các bản vá phần mềm cập nhật gần đây vẫn chưa thể khắc phục hoàn toàn sự cố phần cứng.",
+        "Vấn đề này đặt ra thách thức lớn cho các kỹ sư phần cứng và nhà phát triển hệ điều hành trong việc kiểm soát chất lượng thiết bị di động trước khi tung ra thị trường toàn cầu."
+      ],
+      "summary_en": [
+        "Many users report that new generation flagship smartphones produce annoying crackling and popping sounds when they use audio playback applications during their actual user experience.",
+        "This audio glitch occurs across multiple tasks such as making calls, listening to music, and receiving notifications, while recent software update patches have not yet completely resolved the hardware issue.",
+        "This problem poses a major challenge for hardware engineers and operating system developers in controlling mobile device quality before releasing products to the global market."
+      ],
+      "originalTitle": "Một số iPhone 18 Pro gặp lỗi âm thanh",
+      "url": "https://vnexpress.net/mot-so-iphone-18-pro-gap-loi-am-thanh-5127432.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Smartphone",
+        "iOS",
+        "Hardware Error",
+        "Audio Bug",
+        "Mobile Development"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-02T07:35:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/02/wm1DSCF03811789549437178954950-2877-5195-1790907419.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=UWkQyFNB9j2hsE0NejeKYw",
+      "contentSnippet": "Nhiều người dùng phản ánh iPhone 18 Pro và 18 Pro Max của họ xuất hiện tiếng \"lách tách\", \"lụp bụp\" khi sử dụng các ứng dụng phát âm thanh.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "08998be1d2deaf5a",
       "title_vi": "Tính xác suất công bằng từ tỷ lệ cược bằng Python cùng dữ liệu mở và API miễn phí",
       "title_en": "Calculating Fair Probabilities from Odds Using Python with Open Data and Free APIs",
@@ -102,6 +480,41 @@
       "publishedAt": "2026-10-02T06:30:08.000Z",
       "contentSnippet": "Mọi tỷ lệ cược đều chứa sẵn một khoản phí. Nếu cộng xác suất ngầm định của mọi kết quả trong một thị trường, tổng sẽ lớn hơn 100%; phần dư chính là bi...",
       "authorName": "Edward Glush",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9a166c6267b147be",
+      "title_vi": "Apple cho phép chọn trước màu sắc và cấu hình iPhone Duo trước thềm mở bán",
+      "title_en": "Apple Introduces Order Preparation Feature for iPhone Duo Prior to Official Launch",
+      "summary_vi": [
+        "Apple lần đầu tiên triển khai chương trình chuẩn bị đơn hàng nhằm hỗ trợ người dùng thiết lập sẵn màu sắc và dung lượng cho dòng điện thoại iPhone Duo.",
+        "Tính năng mới này giúp tối ưu hóa quy trình giao dịch trực tuyến, giảm thiểu tình trạng nghẽn mạng và tăng cao tỷ lệ đặt mua thành công trong ngày đầu mở bán.",
+        "Việc cải tiến trải nghiệm mua sắm số hóa này thể hiện chiến lược quản lý chuỗi cung ứng thông minh của Apple nhằm đáp ứng nhu cầu khổng lồ từ thị trường di động toàn cầu."
+      ],
+      "summary_en": [
+        "Apple has introduced a pioneering order preparation program designed to help users pre-select color options and storage capacities for the upcoming iPhone Duo lineup.",
+        "This new digital feature optimizes the online transaction workflow, minimizes server congestion, and significantly increases successful purchase rates during official launch days.",
+        "Such digital shopping experience enhancements demonstrate Apple's smart supply chain management strategy aimed at meeting massive global demands within the mobile market."
+      ],
+      "originalTitle": "Apple cho chọn sẵn màu, cấu hình iPhone Duo trước ngày đặt mua",
+      "url": "https://vnexpress.net/apple-cho-chon-san-mau-cau-hinh-iphone-duo-truoc-ngay-dat-mua-5127359.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "Mobile",
+        "E-commerce",
+        "Hardware"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-02T02:58:23.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/01/dscf0070-1790865025-9800-1790865062.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=qItHqtPosDeBmp6h55QDtQ",
+      "contentSnippet": "Apple lần đầu triển khai chương trình \"Chuẩn bị đơn hàng\" để người dùng chọn sẵn màu, dung lượng iPhone Duo, giúp tăng cơ hội đặt mua khi ngày mở bán diễn ra.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8090,412 +8503,6 @@
       "publishedAt": "2026-09-23T09:00:00.000Z",
       "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/23/avatar1790147889329-17901478895761813664595.jpg",
       "contentSnippet": "CORTIS mới đây gây chú ý khi sử dụng iPhone đời cũ để chụp ảnh. Trào lưu này cũng đang được một bộ phận Gen Z Hàn Quốc và Việt Nam hưởng ứng.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a790f380977c0a75",
-      "title_vi": "macOS 27.2 beta 2 thay đổi giao diện thanh âm lượng khi bấm phím",
-      "title_en": "macOS 27.2 beta 2 updates the hardware volume OSD interface for keystrokes",
-      "summary_vi": [
-        "Apple vừa chính thức phát hành phiên bản macOS 27.2 beta 2 dành cho cộng đồng lập trình viên và người thử nghiệm tính năng sớm trên các dòng máy tính Mac.",
-        "Bản cập nhật này mang đến một thay đổi nhỏ nhưng rất trực quan ở giao diện đồ họa hiển thị thanh điều chỉnh âm lượng mỗi khi người dùng thao tác phím cứng.",
-        "Sự cải tiến này tối ưu hóa trải nghiệm người dùng trên hệ điều hành, thể hiện sự chú ý đến từng chi tiết nhỏ trong thiết kế giao diện phần mềm của nhà phát triển."
-      ],
-      "summary_en": [
-        "Apple has officially released the macOS 27.2 beta 2 update targeted at developers and early testers for compatible Mac computer lineups.",
-        "This software iteration introduces a subtle yet noticeable visual redesign for the volume control heads-up display triggered by hardware media keys.",
-        "Such interface refinement enhances overall desktop user experience, demonstrating meticulous attention to minute UI design details within the operating system ecosystem."
-      ],
-      "originalTitle": "macOS 27.2 beta 2 đổi giao diện thanh âm lượng khi bấm phím",
-      "url": "https://tinhte.vn/thread/macos-27-2-beta-2-doi-giao-dien-thanh-am-luong-khi-bam-phim.4179087/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "macOS",
-        "Apple",
-        "UI",
-        "Software Update",
-        "Operating System"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-23T08:42:22.000Z",
-      "contentSnippet": "macOS 27.2 beta 2 đổi giao diện thanh âm lượng khi bấm phím Apple vừa tung bản macOS Golden Gate 27.2 beta 2 cho lập trình viên, và mình thấy có một thay đổi nhỏ nhưng khá ưng bụng. Khi bấm phím...",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "bdd677658e6ba62d",
-      "title_vi": "Makefile cho lập trình viên: Công cụ tự động hóa không chỉ dành riêng cho C và C++",
-      "title_en": "Makefile for Developers: Powerful Automation Beyond C and C++",
-      "summary_vi": [
-        "Bài viết khám phá cách sử dụng công cụ Makefile trong lập trình hiện đại nhằm mục đích tự động hóa các tác vụ lặp đi lặp lại không chỉ giới hạn trong ngôn ngữ C hoặc C++ truyền thống.",
-        "Nội dung tập trung phân tích cơ chế quản lý dependency thông minh, tối ưu hóa quy trình chạy lệnh build, kiểm thử mã nguồn và triển khai ứng dụng cho nhiều nền tảng công nghệ khác nhau.",
-        "Giá trị thực tiễn mang lại giúp các kỹ sư phần mềm chuẩn hóa môi trường làm việc, tiết kiệm thời gian thao tác dòng lệnh và nâng cao năng suất phát triển dự án hiệu quả."
-      ],
-      "summary_en": [
-        "The article explores how developers utilize Makefile in modern programming to automate repetitive tasks beyond the traditional scope of C and C++ languages.",
-        "It focuses on analyzing intelligent dependency management mechanisms, optimizing command execution workflows for code building, automated testing, and multi-platform deployment.",
-        "The practical value helps software engineers standardize development environments, reduce command-line operation time, and significantly boost overall project productivity."
-      ],
-      "originalTitle": "Makefile cho developer: không chỉ dành cho C/C++",
-      "url": "https://viblo.asia/p/makefile-cho-developer-khong-chi-danh-cho-cc-7Z4DEg3pJnX",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Makefile",
-        "Automation",
-        "DevOps",
-        "Productivity",
-        "Build Tools"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-23T08:01:59.000Z",
-      "contentSnippet": "",
-      "authorName": "EME GUG",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1e1acb635cb7d4f6",
-      "title_vi": "Anthropic ra mắt mô hình Claude Opus 5.5 nhanh hơn, tiết kiệm chi phí và tối ưu hóa lập trình",
-      "title_en": "Anthropic Launches Claude Opus 5.5: Faster, Cheaper, and Better at Coding",
-      "summary_vi": [
-        "Công ty trí tuệ nhân tạo Anthropic vừa chính thức giới thiệu mô hình Claude Opus 5.5, đánh dấu bước khởi đầu cho thế hệ sản phẩm mới với nhiều cải tiến quan trọng về hiệu năng và trải nghiệm người dùng.",
-        "Phiên bản mới mang lại những bước tiến vượt bậc về tốc độ xử lý, giảm thiểu đáng kể chi phí vận hành cho các nhà phát triển đồng thời nâng cao độ chính xác khi tạo mã nguồn phức tạp.",
-        "Sự kiện này tạo ra tác động lớn đến cộng đồng kỹ sư phần mềm, giúp tối ưu hóa quy trình phát triển ứng dụng và đẩy nhanh tốc độ tích hợp trí tuệ nhân tạo vào các hệ thống doanh nghiệp."
-      ],
-      "summary_en": [
-        "Artificial intelligence company Anthropic has officially introduced the Claude Opus 5.5 model, marking the beginning of a new product generation with significant performance and user experience enhancements.",
-        "The new version delivers breakthrough processing speeds, significantly reduces operational costs for developers, and improves accuracy when generating complex source code.",
-        "This release creates a substantial impact on the software engineering community, helping to optimize application development workflows and accelerate AI integration in enterprise systems."
-      ],
-      "originalTitle": "Anthropic vừa ra mắt Claude Opus 5.5: Nhanh hơn, rẻ hơn mà code ngon hơn",
-      "url": "https://tinhte.vn/thread/anthropic-vua-ra-mat-claude-opus-5-5-nhanh-hon-re-hon-ma-code-ngon-hon.4179060/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Anthropic",
-        "Claude",
-        "AI",
-        "Machine Learning",
-        "Software Engineering"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-23T07:44:57.000Z",
-      "contentSnippet": "Anthropic vừa ra mắt Claude Opus 5.5: Nhanh hơn, rẻ hơn mà code ngon hơn Anthropic vừa chính thức ra mắt Claude Opus 5.5, mở đầu cho thế hệ 5.5 mới. Điểm mình thấy đáng giá nhất là chi phí vận...",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "598585f107ae9e1b",
-      "title_vi": "Xây dựng hệ thống Jev chỉ với 25 dòng mã Python",
-      "title_en": "Jev in 25 Lines of Python",
-      "summary_vi": [
-        "Cộng đồng công nghệ đang bàn luận sôi nổi về xu hướng trí tuệ nhân tạo mới mang tên Jev, được xem như bước tiến tiếp theo của các mô hình ngôn ngữ lớn.",
-        "Bài viết minh họa cách triển khai mô hình GGUF thông qua thư viện llama-cpp-python và NumPy, xử lý trực tiếp các trọng số logits để phân loại nội dung email chỉ trong một đoạn mã ngắn gọn.",
-        "Giải pháp này cung cấp cho lập trình viên cái nhìn thực tế về cách thao tác trực tiếp với đầu ra của mô hình ngôn ngữ lớn mà không cần phụ thuộc vào các framework cồng kềnh."
-      ],
-      "summary_en": [
-        "The tech community has been intensively discussing a new artificial intelligence trend called Jev, which is widely regarded as the next frontier for large language models.",
-        "The article demonstrates how to implement a GGUF model using the llama-cpp-python library and NumPy, directly processing logits to classify email contents within a concise code snippet.",
-        "This approach provides developers with a practical perspective on manipulating large language model outputs directly without relying on bloated and complex software frameworks."
-      ],
-      "originalTitle": "Jev in 25 Lines of Python",
-      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Python",
-        "LLM",
-        "Machine Learning",
-        "GGUF",
-        "AI"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-23T07:26:23.000Z",
-      "contentSnippet": "Everyone and their mom is talking about Jev. Jev this, Jev that. Everyone on Twitter is all over Jev, how it's the next frontier of large language models and the AI paradigm. We don’t really think so. So here's Jev in 25 lines of Python. # /// script # requires-python = \">=3.12\" # dependencies = [\"h",
-      "authorName": "bashbjorn",
-      "upvotes": 176,
-      "commentsCount": 51
-    },
-    {
-      "id": "cb0c41eb4a541ac1",
-      "title_vi": "iPhone 18 Pro Max trên tay tự nhiên thấy nhớ iPhone 16 Pro Max ghê",
-      "title_en": "With the iPhone 18 Pro Max in hand, I suddenly miss the iPhone 16 Pro Max so much",
-      "summary_vi": [
-        "Mấy hôm nay lướt mạng thấy có rất nhiều bài đánh giá iPhone 18 Pro Max, mỗi người một cảm nhận khác nhau.",
-        "Nhưng với riêng mình, khoảnh khắc đầu tiên khi cầm chiếc máy này trên tay lại đem đến một.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến iPhone 18 Pro Max trên tay tự nhiên thấy nhớ iPhone 16 Pro Max ghê."
-      ],
-      "summary_en": [
-        "These days, when surfing the internet, I see a lot of iPhone 18 Pro Max reviews, each person has a different feeling.",
-        "But for me, the first moment when I held this device in my hand brought something to me.",
-        "Practical engineering impact and actionable takeaways for developers building with With the iPhone 18 Pro Max in hand, I suddenly miss the iPhone 16 Pro Max so much."
-      ],
-      "originalTitle": "iPhone 18 Pro Max trên tay tự nhiên thấy nhớ iPhone 16 Pro Max ghê",
-      "url": "https://tinhte.vn/thread/iphone-18-pro-max-tren-tay-tu-nhien-thay-nho-iphone-16-pro-max-ghe.4178524/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 97,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-23T06:45:31.000Z",
-      "contentSnippet": "Mấy hôm nay lướt mạng thấy có rất nhiều bài đánh giá iPhone 18 Pro Max, mỗi người một cảm nhận khác nhau. Nhưng với riêng mình, khoảnh khắc đầu tiên khi cầm chiếc máy này trên tay lại đem đến một...",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a3736ec0cd638155",
-      "title_vi": "Hơn 5.000 hộ kinh doanh tại Đà Nẵng được hỗ trợ website và ứng dụng trí tuệ nhân tạo",
-      "title_en": "Over 5000 Business Households in Da Nang Supported with Websites and Artificial Intelligence Applications",
-      "summary_vi": [
-        "Trung tâm Internet Việt Nam phối hợp với các cơ quan tại Đà Nẵng triển khai chương trình hỗ trợ tên miền biz.vn cùng hệ thống website miễn phí cho hơn năm nghìn hộ kinh doanh trong giai đoạn chuyển đổi số.",
-        "Giải pháp kỹ thuật kết hợp hạ tầng tên miền quốc gia với cơ sở dữ liệu bản đồ số và công cụ trí tuệ nhân tạo giúp các cơ sở kinh doanh tự động cập nhật nội dung số.",
-        "Mô hình này giải quyết triệt để nút thắt về kỹ thuật quản trị web cho người dân, tạo tiền đề nhân rộng toàn quốc nhằm thúc đẩy mạnh mẽ kinh tế số và hiện diện trực tuyến."
-      ],
-      "summary_en": [
-        "The Vietnam Internet Network Information Center collaborated with local authorities in Da Nang to deploy the biz.vn domain program and free website systems for over five thousand business households during digital transformation.",
-        "The technical solution combines national domain infrastructure with digital map databases and artificial intelligence tools to help business establishments automatically update digital content seamlessly.",
-        "This model thoroughly resolves technical bottlenecks in web management for citizens, serving as a scalable nationwide prerequisite to strongly promote the digital economy and online presence."
-      ],
-      "originalTitle": "Hơn 5.000 hộ kinh doanh được hỗ trợ website",
-      "url": "https://vnexpress.net/hon-5-000-ho-kinh-doanh-duoc-ho-tro-website-5123726.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Web Development",
-        "AI",
-        "Digital Transformation",
-        "Domain Name",
-        "E-commerce"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-23T05:25:13.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/23/hkdn-1790138745-5088-1790138838.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=sWI9yKTZ--MVxWdw5rxrFg",
-      "contentSnippet": "Hơn 5.000 hộ kinh doanh được hỗ trợ website với tên miền \"biz.vn\", trong mô hình kết hợp dữ liệu, bản đồ số và AI để đơn giản hóa chuyển đổi số.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "39793621af932b55",
-      "title_vi": "Vibe Coding Thực Chiến: Kỹ thuật viết câu lệnh cho lập trình viên để tận dụng tối đa trí tuệ nhân tạo",
-      "title_en": "Practical Vibe Coding: Prompt Engineering for Developers to Leverage AI Effectively",
-      "summary_vi": [
-        "Bài viết chia sẻ kinh nghiệm thực chiến về phương pháp viết câu lệnh tối ưu dành cho các lập trình viên khi làm việc với trí tuệ nhân tạo nhằm nâng cao hiệu suất.",
-        "Tác giả sử dụng hạ tầng thực nghiệm trên máy chủ ảo chạy hệ điều hành Ubuntu để kiểm chứng các mô hình và phương thức giao tiếp hiệu quả với công cụ lập trình.",
-        "Nội dung mang lại giá trị thực tiễn giúp lập trình viên kiểm soát tốt hơn các đoạn mã do trí tuệ nhân tạo sinh ra và tránh được những sai sót thường gặp."
-      ],
-      "summary_en": [
-        "The article shares practical experience on optimal prompt engineering methods for developers working with artificial intelligence to significantly improve coding productivity.",
-        "The author utilizes an experimental setup on an Ubuntu virtual private server to verify various AI models and effective communication strategies for software development.",
-        "The content delivers practical value by helping developers maintain better control over AI-generated code and avoid common pitfalls during the development process."
-      ],
-      "originalTitle": "[Vibe Coding Thực Chiến #03] Prompt Engineering Cho Dân Dev: Giao Việc Cho AI Thế Nào Để Không Nhận Về \"Một Đống Rác\"?",
-      "url": "https://viblo.asia/p/vibe-coding-thuc-chien-03-prompt-engineering-cho-dan-dev-giao-viec-cho-ai-the-nao-de-khong-nhan-ve-mot-dong-rac-wd43EXqqLX9",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "AI",
-        "Prompt Engineering",
-        "Software Development",
-        "Vibe Coding"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-09-23T04:39:50.000Z",
-      "contentSnippet": "Tác giả: Lee Series: Vibe Coding Thực Chiến Cùng EzyPlatform (#03) Hạ tầng thực nghiệm: VPS Ubuntu 22.04 LTS (157.66.47.xxx) | Domain: https://1576647...",
-      "authorName": "Duong Nguyen",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "2fbb0f47c2d89c95",
-      "title_vi": "Google mở bán đặt trước dòng máy tính xách tay mới tích hợp sâu trợ lý ảo thông minh nhằm thúc đẩy hệ sinh thái phần cứng AI",
-      "title_en": "Google Opens Pre-orders for New AI-Integrated Laptops to Drive Next-Gen Hardware Ecosystem",
-      "summary_vi": [
-        "Google chính thức mở chương trình đặt trước dòng máy tính xách tay mới với mức giá khởi điểm từ 899 đô la Mỹ nhằm đưa trợ lý ảo thông minh tiếp cận sâu hơn với người dùng phổ thông.",
-        "Thiết bị phần cứng mới được tối ưu hóa cấu hình để chạy các mô hình ngôn ngữ lớn và xử lý tác vụ trí tuệ nhân tạo trực tiếp trên thiết bị với hiệu suất cao.",
-        "Chiến lược này đánh dấu bước chuyển dịch mạnh mẽ của các ông lớn công nghệ trong việc ép thị trường nâng cấp phần cứng để đáp ứng nhu cầu tính toán của kỷ nguyên AI."
-      ],
-      "summary_en": [
-        "Google has officially opened pre-orders for its new laptop lineup starting at 899 US dollars to bring advanced intelligent virtual assistants closer to everyday users.",
-        "The new hardware device is optimized with specialized configurations to run large language models and process artificial intelligence tasks locally with high performance.",
-        "This strategy marks a major shift among tech giants in pushing the market to upgrade hardware infrastructure to meet the heavy computing demands of the AI era."
-      ],
-      "originalTitle": "Googlebook mở đặt trước giá từ 899 đô, Google muốn anh em mua laptop mới chỉ vì Gemini",
-      "url": "https://tinhte.vn/thread/googlebook-mo-dat-truoc-gia-tu-899-do-google-muon-anh-em-mua-laptop-moi-chi-vi-gemini.4178927/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Google",
-        "Gemini",
-        "AI Hardware",
-        "Laptops",
-        "Artificial Intelligence"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-23T02:22:31.000Z",
-      "contentSnippet": "Googlebook mở đặt trước giá từ 899 đô, Google muốn anh em mua laptop mới chỉ vì Gemini Sau lần giới thiệu hồi tháng 5, Google vừa mở đặt trước Googlebook với giá khởi điểm 899 đô, và đây có thể...",
-      "authorName": "nhatminhngo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b92efa4b9b0e0732",
-      "title_vi": "Tổng giám đốc Google Việt Nam: Trí tuệ nhân tạo là công cụ, không thay thế nhà sáng tạo nội dung",
-      "title_en": "Google Vietnam Managing Director: Artificial Intelligence is a tool, not a replacement for creators",
-      "summary_vi": [
-        "Sự kiện YouTube Festival lần đầu tiên tổ chức tại Việt Nam đã công bố nhiều số liệu ấn tượng về mức độ tương tác và sự phát triển mạnh mẽ của cộng đồng nhà sáng tạo nội dung số trong nước.",
-        "Lãnh đạo Google khẳng định công nghệ trí tuệ nhân tạo đóng vai trò là công cụ hỗ trợ nâng cao hiệu suất làm việc, trong khi nội dung nguyên bản và tính sáng tạo của con người vẫn giữ giá trị cốt lõi.",
-        "Xu hướng phát triển này mở ra nhiều cơ hội mới cho các nhà phát triển và nhà sáng tạo tham gia sâu hơn vào nền kinh tế số, tối ưu hóa trải nghiệm người dùng trên các nền tảng video trực tuyến."
-      ],
-      "summary_en": [
-        "The first YouTube Festival held in Vietnam announced impressive metrics regarding user engagement and the strong growth of the domestic digital content creator community.",
-        "Google leadership affirmed that artificial intelligence technology serves as a tool to enhance work efficiency, while original content and human creativity remain the core value.",
-        "This development trend opens up new opportunities for developers and creators to participate more deeply in the digital economy, optimizing user experiences on online video platforms."
-      ],
-      "originalTitle": "Tổng giám đốc Google Việt Nam: 'AI là công cụ, không thay thế nhà sáng tạo'",
-      "url": "https://vnexpress.net/tong-giam-doc-google-viet-nam-ai-la-cong-cu-khong-thay-the-nha-sang-tao-5122913.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "AI",
-        "Google",
-        "YouTube",
-        "Digital Economy",
-        "Content Creators"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-23T02:20:27.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/21/wm1-wm1-lq-01191-1789977449-8121-1789977548.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=0tSrwuxCvPKW98XeXBZG6g",
-      "contentSnippet": "Marc Woo, Tổng giám đốc Google Việt Nam, cho rằng video ngắn và dài sẽ song hành, còn AI giúp nâng hiệu suất chứ không thay thế nội dung nguyên bản.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b61e5c6bce7672a1",
-      "title_vi": "Qualcomm ra mắt dòng vi xử lý di động mới đạt mốc xung nhịp kỷ lục 5 GHz",
-      "title_en": "Qualcomm Launches New Mobile Processors Reaching Record-Breaking 5 GHz Clock Speed",
-      "summary_vi": [
-        "Tại sự kiện công nghệ lớn, nhà sản xuất bán dẫn Qualcomm chính thức công bố hai hệ thống trên vi xử lý cao cấp mới hướng tới phân khúc thiết bị di động hàng đầu.",
-        "Cả hai dòng chip mới được phát triển trên tiến trình sản xuất tiên tiến, tích hợp các lõi xử lý trung tâm đột phá với khả năng vận hành đạt mức xung nhịp cực đại năm GHz.",
-        "Bước tiến về hiệu năng phần cứng này định hình lại tiêu chuẩn sức mạnh tính toán cho thiết bị di động, tối ưu hóa các tác vụ xử lý trí tuệ nhân tạo nặng."
-      ],
-      "summary_en": [
-        "At a major tech summit, semiconductor giant Qualcomm officially announced two flagship system-on-chips designed specifically for next-generation high-end mobile devices.",
-        "Both new processor lineups are built on advanced manufacturing nodes, integrating breakthrough central processing cores capable of operating at a peak clock speed of five gigahertz.",
-        "This hardware performance milestone redefines computational power standards for mobile devices, significantly optimizing heavy artificial intelligence workloads and complex applications."
-      ],
-      "originalTitle": "Qualcomm ra mắt Snapdragon 8 Elite Gen 6 và bản Extreme, CPU di động đầu tiên đạt 5 GHz",
-      "url": "https://tinhte.vn/thread/qualcomm-ra-mat-snapdragon-8-elite-gen-6-va-ban-extreme-cpu-di-dong-dau-tien-dat-5-ghz.4178924/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Qualcomm",
-        "Snapdragon",
-        "Mobile",
-        "Semiconductor",
-        "CPU"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-23T02:18:11.000Z",
-      "contentSnippet": "Tại Snapdragon Summit 2026, Qualcomm công bố cùng lúc hai SoC flagship là Snapdragon 8 Elite Gen 6 (mã SM8950) và Snapdragon 8 Elite Extreme Gen 6 (mã SM8975). Cả hai được sản xuất trên tiến trình...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e196788ac4eba8bd",
-      "title_vi": "Apple tiết lộ món đồ giá rẻ đã truyền cảm hứng cho dòng điện thoại thông minh cao cấp giá hơn 100 triệu đồng",
-      "title_en": "Apple reveals how an inexpensive item inspired their ultra-premium smartphone priced over one hundred million dong",
-      "summary_vi": [
-        "Quá trình nghiên cứu và phát triển dòng điện thoại thông minh cao cấp của Apple đôi khi bắt nguồn từ những món đồ vật dụng rất khiêm tốn trong đời sống hàng ngày thay vì các thiết bị công nghệ đắt tiền.",
-        "Đội ngũ kỹ sư thiết kế phần cứng đã áp dụng các nguyên lý vật liệu học cơ bản để tạo ra cấu trúc khung vỏ bền bỉ và tối ưu hóa trải nghiệm cầm nắm cho dòng sản phẩm có giá trị vô cùng lớn.",
-        "Câu chuyện sáng tạo này mang lại góc nhìn thú vị cho cộng đồng công nghệ về cách tư duy thiết kế sản phẩm phần cứng kết hợp giữa tính thẩm mỹ tối giản và công nghệ chế tác tiên tiến."
-      ],
-      "summary_en": [
-        "The research and development process for Apple's high-end smartphone lineup sometimes originates from modest everyday items rather than expensive technological devices.",
-        "Hardware design engineers applied fundamental material science principles to create a durable frame structure and optimize the ergonomic feel for this exceptionally valuable product line.",
-        "This creative story provides the tech community with a fascinating perspective on hardware design thinking that combines minimalist aesthetics with advanced manufacturing technology."
-      ],
-      "originalTitle": "Apple tiết lộ món đồ vài chục nghìn đã truyền cảm hứng cho iPhone Duo giá tới hơn 100 triệu đồng",
-      "url": "https://genk.vn/apple-tiet-lo-mon-do-vai-chuc-nghin-da-truyen-cam-hung-cho-iphone-duo-gia-toi-hon-100-trieu-dong-165262209220532459.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "Smartphone",
-        "Hardware Design",
-        "Mobile Technology"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-23T02:14:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/22/avatar1790101525985-1790101526551382958453.jpg",
-      "contentSnippet": "Để tìm cảm hứng cho mẫu iPhone đắt nhất của mình, Apple cho biết họ không bắt đầu từ một thiết bị công nghệ xa xỉ.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "37c3896a7f3a4279",
-      "title_vi": "Qualcomm ra mắt Snapdragon 8 Elite Gen 6: Lần đầu tiên dòng chip Elite không còn giữ vị thế mạnh nhất",
-      "title_en": "Qualcomm Officially Launches Snapdragon 8 Elite Gen 6: For the First Time, Elite Brand Is No Longer the Most Powerful",
-      "summary_vi": [
-        "Qualcomm vừa chính thức giới thiệu bộ vi xử lý di động Snapdragon 8 Elite Gen 6, đánh dấu một bước chuyển dịch chiến lược quan trọng trong dòng sản phẩm chip cao cấp dành cho thiết bị di động hàng đầu.",
-        "Điểm nhấn công nghệ của thế hệ vi xử lý này là sự thay đổi trong cấu trúc phân khúc, khi lần đầu tiên cái tên Elite không còn đại diện cho mức hiệu năng xử lý phần cứng mạnh mẽ nhất của hãng.",
-        "Sự thay đổi này tác động lớn đến thị trường thiết bị di động cao cấp, buộc các nhà phát triển phần mềm và kỹ sư tối ưu hóa ứng dụng phải thích ứng với các tiêu chuẩn kiến trúc chip mới mẻ."
-      ],
-      "summary_en": [
-        "Qualcomm has officially introduced the Snapdragon 8 Elite Gen 6 mobile processor, marking a significant strategic shift in their high-end hardware lineup designed for flagship mobile devices.",
-        "The core technological highlight of this generation is a structural segmentation shift, representing the first time the Elite branding no longer represents the absolute peak of the company's hardware performance.",
-        "This strategic evolution heavily impacts the premium mobile market, requiring software developers and hardware engineers to adapt their application optimization strategies to these new architectural standards."
-      ],
-      "originalTitle": "Qualcomm chính thức ra mắt Snapdragon 8 Elite Gen 6: Lần đầu tiên, chip mang tên “Elite” không còn là mạnh nhất",
-      "url": "https://genk.vn/qualcomm-chinh-thuc-ra-mat-snapdragon-8-elite-gen-6-lan-dau-tien-chip-mang-ten-elite-khong-con-la-manh-nhat-165260923052106181.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Qualcomm",
-        "Snapdragon",
-        "Semiconductor",
-        "Mobile",
-        "Hardware"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-23T00:30:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/22/img1227-17901155938121819602679-256-0-1536-2048-crop-1790115608877387319384.jpg",
-      "contentSnippet": "Chúng ta đã quen với việc mỗi thế hệ Snapdragon 8 Elite đại diện cho chip di động mạnh nhất của Qualcomm. Tuy nhiên, đến Gen 6, hãng lại mang đến một bất ngờ chưa từng có.",
       "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
