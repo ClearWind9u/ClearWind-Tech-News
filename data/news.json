@@ -1,7 +1,416 @@
 {
-  "lastUpdated": "2026-10-03T20:24:26.532Z",
+  "lastUpdated": "2026-10-04T03:33:25.717Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "ab28a88dde6a42ec",
+      "title_vi": "Ngôn Ngữ Lập Trình Là Gì?",
+      "title_en": "What Is A Programming Language?",
+      "summary_vi": [
+        "Ngôn ngữ lập trình đóng vai trò là cầu nối cốt lõi giữa con người và hệ thống phần cứng máy tính thông qua các tập hợp quy tắc và cú pháp chuẩn hóa.",
+        "Các ý tưởng thuật toán phức tạp được chuyển đổi thành mã nguồn dễ đọc trước khi được biên dịch hoặc thông dịch thành mã máy để CPU thực thi trực tiếp.",
+        "Hiểu rõ bản chất ngôn ngữ lập trình giúp lập trình viên tối ưu hóa hiệu suất ứng dụng và xây dựng các giải pháp phần mềm quy mô lớn."
+      ],
+      "summary_en": [
+        "Programming languages serve as a core bridge between human intent and computer hardware systems through standardized rule sets and syntax.",
+        "Complex algorithmic ideas are transformed into readable source code before being compiled or interpreted into machine code for direct CPU execution.",
+        "Understanding the fundamental nature of programming languages helps developers optimize application performance and build large-scale software solutions."
+      ],
+      "originalTitle": "Ngôn Ngữ Lập Trình Là Gì?",
+      "url": "https://viblo.asia/p/ngon-ngu-lap-trinh-la-gi-1j4lQvMKJwl",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Programming Language",
+        "Software Engineering",
+        "Source Code",
+        "Compiler",
+        "Computer Science"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-04T09:32:59.000Z",
+      "contentSnippet": "Ngôn ngữ lập trình là một hệ thống các quy tắc và cú pháp được sử dụng để biến đổi các ý tưởng và thuật toán thành mã máy hoặc mã nguồn có thể được má...",
+      "authorName": "Tieu Share",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "cdf50484d097ad61",
+      "title_vi": "Xây Dựng Website Đầu Tiên Trong 5 Phút: Quy Trình Đồng Bộ Hóa Siêu Tốc Từ Môi Trường Phát Triển Lên Máy Chủ Ảo Thực Tế",
+      "title_en": "Building Your First Website in 5 Minutes: Ultra-Fast Synchronization Workflow from Development Environment to Production VPS",
+      "summary_vi": [
+        "Bài viết hướng dẫn chi tiết quy trình triển khai website đầu tiên chỉ trong năm phút thực tế bằng cách sử dụng nền tảng hỗ trợ phát triển thông minh kết hợp cùng máy chủ ảo Ubuntu.",
+        "Giải pháp kỹ thuật tập trung vào việc tự động hóa quá trình đồng bộ hóa mã nguồn từ môi trường soạn thảo trực tiếp lên máy chủ từ xa một cách nhanh chóng và an toàn.",
+        "Nội dung mang lại giá trị thực tiễn cao cho các lập trình viên mới bắt đầu, giúp tối ưu hóa quy trình làm việc và rút ngắn đáng kể thời gian triển khai sản phẩm lên môi trường thực tế."
+      ],
+      "summary_en": [
+        "The article provides a detailed guide on deploying your first website in just five practical minutes by utilizing an intelligent development platform combined with an Ubuntu virtual server.",
+        "The technical solution focuses on automating the source code synchronization process from the local development environment directly to the remote server quickly and securely.",
+        "The content delivers high practical value for beginner developers, helping to optimize workflows and significantly reduce the time required to deploy products to production environments."
+      ],
+      "originalTitle": "[Vibe Coding Thực Chiến #05] Website Đầu Tiên Trong 5 Phút: Quy Trình Sync Siêu Tốc Từ VS Code Lên VPS Thật!",
+      "url": "https://viblo.asia/p/vibe-coding-thuc-chien-05-website-dau-tien-trong-5-phut-quy-trinh-sync-sieu-toc-tu-vs-code-len-vps-that-ZoJjeQoe4Y7",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "VPS",
+        "DevOps",
+        "Ubuntu",
+        "VS Code",
+        "Web Development"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-04T08:49:27.000Z",
+      "contentSnippet": "Tác giả: Lee Series: Vibe Coding Thực Chiến Cùng EzyPlatform (#05) Hạ tầng thực nghiệm: VPS Ubuntu 22.04 LTS (157.66.47.xxx) | Domain: https://1576647...",
+      "authorName": "Duong Nguyen",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "efeb4709e60cb20e",
+      "title_vi": "JavaScript cơ bản Bài 5: Các toán tử cơ bản về toán học, so sánh và logic",
+      "title_en": "Basic JavaScript Lesson 5: Fundamental Operators for Mathematics Comparison and Logic",
+      "summary_vi": [
+        "Bài viết cung cấp kiến thức nền tảng về các toán tử toán học trong ngôn ngữ lập trình JavaScript giúp lập trình viên thực hiện các phép tính toán học cơ bản một cách chính xác và hiệu quả nhất.",
+        "Nội dung tập trung phân tích chi tiết cách sử dụng toán tử so sánh cùng với các toán tử logic để xây dựng điều kiện rẽ nhánh và luồng điều khiển chương trình phức tạp hơn trong ứng dụng web.",
+        "Khóa học lập trình này mang lại giá trị thiết thực cho người mới bắt đầu học phát triển phần mềm nắm vững tư duy logic và kỹ năng viết mã sạch chuẩn công nghiệp."
+      ],
+      "summary_en": [
+        "This article provides foundational knowledge regarding mathematical operators in the JavaScript programming language helping developers execute basic mathematical calculations accurately and efficiently.",
+        "The content focuses on a detailed analysis of how to use comparison operators alongside logical operators to build branching conditions and more complex program control flows in web applications.",
+        "This programming tutorial delivers practical value for beginners entering software development to master logical thinking and write clean industry standard code."
+      ],
+      "originalTitle": "JavaScript cơ bản Bài 5: Các toán tử cơ bản (Toán học, So sánh, Logic)",
+      "url": "https://viblo.asia/p/javascript-co-ban-bai-5-cac-toan-tu-co-ban-toan-hoc-so-sanh-logic-oW4oeAmoLml",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "JavaScript",
+        "Web Development",
+        "Frontend",
+        "Programming"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-04T08:40:26.000Z",
+      "contentSnippet": "1. Mục tiêu bài học - Nắm vững các toán tử toán học để thực hiện tính toán trong JavaScript. - Hiểu rõ cách dùng toán tử so sánh, đặc biệt là ph...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "406966da657e37e2",
+      "title_vi": "JavaScript cơ bản Bài 4: Các kiểu dữ liệu nguyên thủy gồm Số, Chuỗi, Boolean, Null và Undefined",
+      "title_en": "JavaScript Basics Lesson 4: Primitive Data Types Including Numbers, Strings, Booleans, Null, and Undefined",
+      "summary_vi": [
+        "Bài viết cung cấp kiến thức nền tảng về các kiểu dữ liệu nguyên thủy trong ngôn ngữ lập trình JavaScript dành cho người mới bắt đầu học lập trình web.",
+        "Nội dung tập trung phân tích chi tiết năm kiểu dữ liệu cốt lõi bao gồm số, chuỗi ký tự, giá trị logic boolean, null và undefined cùng cơ chế hoạt động.",
+        "Kiến thức này giúp lập trình viên nắm vững cách lưu trữ và xử lý thông tin hiệu quả, đặt nền móng vững chắc cho việc phát triển ứng dụng web."
+      ],
+      "summary_en": [
+        "This article provides fundamental knowledge about primitive data types in the JavaScript programming language tailored specifically for beginners entering web development.",
+        "The content focuses on a detailed analysis of five core data types including numbers string values boolean logic null and undefined along with their underlying operational mechanisms.",
+        "This essential knowledge helps developers master efficient information storage and processing establishing a solid foundation for building robust and scalable web applications."
+      ],
+      "originalTitle": "JavaScript cơ bản Bài 4: Kiểu dữ liệu nguyên thủy (Primitive Types): Số, Chuỗi, Boolean, Null, Undefined",
+      "url": "https://viblo.asia/p/javascript-co-ban-bai-4-kieu-du-lieu-nguyen-thuy-primitive-types-so-chuoi-boolean-null-undefined-vbLbj05mLnk",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "JavaScript",
+        "Web Development",
+        "Programming Basics",
+        "Frontend"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-04T08:40:15.000Z",
+      "contentSnippet": "1. Mục tiêu bài học - Hiểu được khái niệm Kiểu dữ liệu (Data Types) trong JavaScript. - Nắm vững 5 kiểu dữ liệu nguyên thủy cốt lõi và cách phân...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "7e02ce67cdee65e8",
+      "title_vi": "JavaScript cơ bản Bài 3: Biến (Variables) và cách lưu trữ dữ liệu với let, const, var",
+      "title_en": "Basic JavaScript Lesson 3: Variables and Data Storage Mechanisms with let, const, and var",
+      "summary_vi": [
+        "Bài viết cung cấp nền tảng kiến thức cốt lõi về khái niệm biến trong lập trình JavaScript, giúp học viên hiểu rõ lý do tại sao cần sử dụng biến để lưu trữ và quản lý trạng thái dữ liệu trong quá trình thực thi ứng dụng.",
+        "Nội dung tập trung phân tích chi tiết cơ chế hoạt động, phạm vi truy cập cũng như sự khác biệt kỹ thuật giữa ba từ khóa khai báo biến kinh điển là let, const và var nhằm tối ưu hóa mã nguồn lập trình.",
+        "Kiến thức này mang lại giá trị thực tiễn cao cho các lập trình viên mới bắt đầu, giúp họ tránh được các lỗi phổ biến liên quan đến phạm vi biến và xây dựng nền tảng vững chắc để phát triển ứng dụng web hiện đại."
+      ],
+      "summary_en": [
+        "The article provides foundational core knowledge regarding the concept of variables in JavaScript programming, helping learners thoroughly understand why variables are essential for storing and managing data states during application execution.",
+        "The content focuses on analyzing detailed operating mechanisms, accessibility scopes, and technical differences among the three classic variable declaration keywords let, const, and var to optimize programming source code.",
+        "This knowledge delivers high practical value for beginner developers, helping them avoid common scope-related errors and building a solid foundation for developing modern web applications."
+      ],
+      "originalTitle": "JavaScript cơ bản Bài 3: Biến (Variables): Khái niệm let, const, var và cách lưu trữ dữ liệu",
+      "url": "https://viblo.asia/p/javascript-co-ban-bai-3-bien-variables-khai-niem-let-const-var-va-cach-luu-tru-du-lieu-18J2eoMl4YK",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "JavaScript",
+        "Web Development",
+        "Frontend",
+        "Programming Basics"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-04T08:40:07.000Z",
+      "contentSnippet": "1. Mục tiêu bài học - Hiểu được khái niệm Biến (Variable) là gì và tại sao chúng ta cần dùng biến. - Phân biệt và biết cách sử dụng đúng các từ ...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5f8fdcf04001fb0c",
+      "title_vi": "Cập nhật liên tục Google phát hành phiên bản Android 17 QPR3 Beta 1 cho các dòng máy Pixel",
+      "title_en": "Continuous updates as Google releases Android 17 QPR3 Beta 1 for Pixel devices",
+      "summary_vi": [
+        "Google đã chính thức phát hành phiên bản Android 17 QPR3 Beta 1, đánh dấu một bước chuyển dịch lớn trong chiến lược phát hành các bản cập nhật hệ điều hành sớm cho thiết bị di động Pixel.",
+        "Bản cập nhật mới này tập trung mạnh mẽ vào việc tối ưu hóa trải nghiệm người dùng trên các thiết bị màn hình lớn, cải thiện hiệu năng nền tảng và nâng cao độ ổn định hệ thống.",
+        "Sự kiện này cung cấp cho các kỹ sư phần mềm và nhà phát triển ứng dụng cơ hội sớm để kiểm tra khả năng tương thích của mã nguồn trên các tiêu chuẩn API mới nhất của Android."
+      ],
+      "summary_en": [
+        "Google has officially released Android 17 QPR3 Beta 1, marking a major shift in their strategy for early operating system updates targeting Pixel mobile devices.",
+        "This new update strongly focuses on optimizing user experience on large screen devices, improving platform performance, and enhancing overall system stability.",
+        "This release provides software engineers and application developers with an early opportunity to test code compatibility against the latest Android API standards."
+      ],
+      "originalTitle": "[Cập nhật liên tục] Google phát hành Android 17 QPR3 Beta 1 cho các máy Pixel",
+      "url": "https://tinhte.vn/thread/cap-nhat-lien-tuc-google-phat-hanh-android-17-qpr3-beta-1-cho-cac-may-pixel.4099444/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Android",
+        "Google",
+        "Pixel",
+        "Mobile",
+        "Beta"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-04T03:21:18.000Z",
+      "contentSnippet": "Android 17 Beta 1 đã chính thức ra mắt, đánh dấu một bước chuyển khá lớn trong cách Google phát hành các bản Android sớm và tập trung mạnh vào trải nghiệm trên màn hình lớn, hiệu năng nền tảng và...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "566b074d6a6b3737",
+      "title_vi": "iPhone 18 Pro Max gặp lỗi mất sóng nghiêm trọng, nhà mạng và hãng sản xuất vào cuộc khắc phục",
+      "title_en": "iPhone 18 Pro Max Faces Severe Signal Loss Issue, Forcing Carriers and Manufacturer to Deploy Fixes",
+      "summary_vi": [
+        "Nhiều người dùng phiên bản điện thoại cao cấp mới tại thị trường Mỹ đang gặp sự cố mất kết nối mạng di động trầm trọng, thậm chí không thể thực hiện các cuộc gọi khẩn cấp.",
+        "Các bên liên quan đã phát hành bản cập nhật phần mềm và thiết lập nhà mạng nhằm ngăn chặn sự cố nhưng chưa thể khôi phục hoàn toàn cho các thiết bị đã bị ảnh hưởng.",
+        "Sự cố phần cứng hoặc phần mềm đặc thù trên dòng thiết bị này đặt ra bài học quan trọng về quy trình kiểm thử băng tần và độ ổn định của hệ thống di động."
+      ],
+      "summary_en": [
+        "Many users of the latest flagship smartphone in the US market are experiencing severe cellular connection drops, even failing to complete emergency phone calls.",
+        "The involved parties have released software updates and carrier settings to prevent the issue, though they cannot fully restore already affected devices.",
+        "This specific hardware or software anomaly highlights critical lessons for mobile systems regarding rigorous band testing and network stability assurance."
+      ],
+      "originalTitle": "iPhone 18 Pro Max gặp lỗi mất sóng, Apple phải đổi máy miễn phí",
+      "url": "https://genk.vn/iphone-18-pro-max-gap-loi-mat-song-apple-phai-doi-may-mien-phi-165261004095424508.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone",
+        "Apple",
+        "Mobile",
+        "Network",
+        "Hardware"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-04T02:54:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/4/avatar1791082439934-17910824404821648513721.png",
+      "contentSnippet": "iPhone 18 Pro Max mới ra mắt nhưng tiếp tục gặp một số sự cố.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "dd357b9c5a1f18db",
+      "title_vi": "Ai chê cứ chê, iPhone 18 Pro Max vẫn liên tục cháy hàng tại thị trường Trung Quốc",
+      "title_en": "Despite Skepticism, iPhone 18 Pro Max Continues to Sell Out Rapidly in the Chinese Market",
+      "summary_vi": [
+        "Việc ra mắt bộ đôi iPhone 18 Pro và 18 Pro Max mà không có phiên bản tiêu chuẩn từng dấy lên nhiều nghi ngờ về khả năng duy trì sức hút của dòng sản phẩm flagship mới.",
+        "Theo số liệu từ Counterpoint Research, Apple nhanh chóng vươn lên dẫn đầu thị trường smartphone Trung Quốc với ba mươi ba phần trăm thị phần chỉ sau vài ngày lên kệ.",
+        "Thành công thương mại này khẳng định sức mạnh của hệ sinh thái thiết bị di động Apple cùng chiến lược định vị phần cứng cao cấp hiệu quả trong bối cảnh cạnh tranh khốc liệt."
+      ],
+      "summary_en": [
+        "The launch of the iPhone 18 Pro and 18 Pro Max without a standard base model initially sparked widespread doubt regarding the new flagship lineup market appeal.",
+        "According to data from Counterpoint Research, Apple rapidly surged to lead the Chinese smartphone market with thirty-three percent share just days after retail availability.",
+        "This commercial success reinforces the strength of the Apple mobile device ecosystem and demonstrates an effective hardware positioning strategy amid fierce competition."
+      ],
+      "originalTitle": "Ai chê cứ chê, iPhone 18 Pro Max vẫn liên tục “cháy hàng”",
+      "url": "https://genk.vn/ai-che-cu-che-iphone-18-pro-max-van-lien-tuc-chay-hang-16526100323224134.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "Mobile",
+        "Hardware",
+        "Market Trends"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-04T02:17:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/3/avatar1791044232887-17910442335052133048753.jpg",
+      "contentSnippet": "Nếu những lời chê có thể quyết định doanh số, iPhone 18 Pro Max có lẽ đã không đứng đầu bảng.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "07963b444c537ea0",
+      "title_vi": "Lý do tôi chuyển từ bàn phím Samsung sang Gboard trên điện thoại Samsung nhờ tính năng nhận diện giọng nói",
+      "title_en": "Why I Switched from Samsung Keyboard to Gboard on My Samsung Phone for Voice Recognition",
+      "summary_vi": [
+        "Người dùng lâu năm của điện thoại Samsung đã quyết định từ bỏ bàn phím mặc định để chuyển sang sử dụng Gboard sau khi trải nghiệm khả năng nhận diện giọng nói cực kỳ vượt trội trên phiên bản hệ điều hành mới nhất.",
+        "Tính năng chuyển đổi giọng nói thành văn bản trên Gboard tận dụng các mô hình xử lý ngôn ngữ tự nhiên tiên tiến, giúp giảm thiểu tối đa sai sót chính tả và tăng tốc độ nhập liệu đáng kể cho người dùng di động.",
+        "Sự thay đổi này cho thấy tầm quan trọng của việc tối ưu hóa trải nghiệm người dùng thông qua các công nghệ trí tuệ nhân tạo và học máy ngay trên các ứng dụng bàn phím ảo hàng ngày."
+      ],
+      "summary_en": [
+        "A long-time Samsung smartphone user decided to replace the default keyboard with Gboard after experiencing the vastly superior voice recognition capabilities on the latest operating system version.",
+        "The speech-to-text conversion feature on Gboard leverages advanced natural language processing models to significantly minimize spelling errors and accelerate typing speeds for mobile users.",
+        "This transition highlights the importance of optimizing user experience through artificial intelligence and machine learning technologies integrated directly into everyday virtual keyboard applications."
+      ],
+      "originalTitle": "Mình đổi qua dùng bàn phím Gboard cho điện thoại Samsung vì tính năng nhận diện giọng nói",
+      "url": "https://tinhte.vn/thread/minh-doi-qua-dung-ban-phim-gboard-cho-dien-thoai-samsung-vi-tinh-nang-nhan-dien-giong-noi.4181429/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Gboard",
+        "Samsung",
+        "Voice Recognition",
+        "Mobile Apps",
+        "AI"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-04T01:43:06.000Z",
+      "contentSnippet": "Trước giờ mình dùng điện thoại Samsung thì mình không dùng bàn phím nào khác ngoài Samsung Keyboard, nhưng từ khi chuyển qua One UI 9.0 trên Galaxy Z Fold8 Ultra thì khả năng nhận diện giọng nói...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a0611490a6eaadea",
+      "title_vi": "Thói quen đóng ứng dụng liên tục trên iPhone cần phải thay đổi theo khuyến cáo từ Apple",
+      "title_en": "Why continuously closing background apps on iPhone is a bad habit according to Apple",
+      "summary_vi": [
+        "Nhiều người dùng thiết bị di động iOS thường có thói quen vuốt màn hình để đóng toàn bộ ứng dụng đang chạy ngầm sau mỗi lần sử dụng với suy nghĩ tiết kiệm pin.",
+        "Theo tài liệu hỗ trợ kỹ thuật từ Apple, việc đóng ứng dụng liên tục thực sự không cần thiết vì hệ điều hành đã được tối ưu hóa quản lý tiến trình và bộ nhớ rất tốt.",
+        "Các kỹ sư phần mềm khuyến cáo chỉ nên thực hiện thao tác buộc dừng ứng dụng trong trường hợp phần mềm bị treo hoặc không phản hồi nhằm đảm bảo hiệu năng hệ thống."
+      ],
+      "summary_en": [
+        "Many iOS device users frequently swipe up to close all background running applications after every single use under the misconception of saving battery life.",
+        "According to technical support documentation from Apple, terminating applications continuously is unnecessary because the operating system efficiently manages processes and memory.",
+        "Software engineers recommend performing a force close action exclusively when software freezes or becomes unresponsive to ensure optimal system performance and stability."
+      ],
+      "originalTitle": "Thói quen nên bỏ khi dùng iPhone",
+      "url": "https://genk.vn/thoi-quen-nen-bo-khi-dung-iphone-165261004075651746.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iOS",
+        "Apple",
+        "Mobile Development",
+        "Performance Optimization",
+        "UX"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-04T01:20:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/4/avatar1791075065415-1791075065738748259272.jpg",
+      "contentSnippet": "Theo Apple, một thao tác quen thuộc trên iPhone không mang lại lợi ích như nhiều người vẫn nghĩ.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "345f1755705d282a",
+      "title_vi": "Chúng ta sẽ cần các giới hạn ngân sách cứng mặc định cho hầu hết mọi thứ",
+      "title_en": "We're going to need default hard budget caps on pretty much everything",
+      "summary_vi": [
+        "Sự bùng nổ của các tác nhân lập trình và trợ lý cá nhân làm giảm đáng kể rào cản triển khai mã nguồn, khiến các dịch vụ đám mây dễ dàng tiêu tốn tài nguyên ngoài tầm kiểm soát.",
+        "Các nền tảng thanh toán theo mức sử dụng hiện nay chủ yếu dựa vào giới hạn mềm bằng email cảnh báo, điều này không đủ ngăn chặn các hóa đơn khổng lồ phát sinh xuyên đêm.",
+        "Thiết lập giới hạn ngân sách cứng mặc định tự động ngắt dịch vụ và trả về lỗi thay vì cảnh báo sẽ bảo vệ người dùng và doanh nghiệp khỏi những rủi ro tài chính nghiêm trọng."
+      ],
+      "summary_en": [
+        "The surge of coding agents and personal assistants significantly lowers the barrier for deploying code, making cloud services prone to consuming resources out of control.",
+        "Current pay-as-you-go platforms primarily rely on soft limits via warning emails, which fail to prevent massive unexpected bills accumulating overnight.",
+        "Establishing default hard budget caps that automatically terminate services and return errors rather than warning will protect users and businesses from severe financial risks."
+      ],
+      "originalTitle": "We're going to need default hard budget caps on pretty much everything",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Cloud Computing",
+        "API Management",
+        "DevOps",
+        "AI Agents",
+        "Cost Control"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-04T00:20:16.000Z",
+      "contentSnippet": "Here’s a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps. I’m talking about the feature of pay-by-usage services and APIs that lets you say “after $X/month, cut this thing off and return errors”. These need to be hard li",
+      "authorName": "elffjs",
+      "upvotes": 253,
+      "commentsCount": 136
+    },
+    {
+      "id": "5646ea427516a47d",
+      "title_vi": "Robot trí tuệ nhân tạo sở hữu hệ thống thần kinh thông minh và khả năng tự phục hồi",
+      "title_en": "AI Robot Equipped With Intelligent Nervous System And Self-Healing Capabilities",
+      "summary_vi": [
+        "Công ty LimX Dynamics vừa chính thức giới thiệu thế hệ robot tích hợp trí tuệ nhân tạo tiên tiến, đánh dấu bước đột phá lớn khi trang bị kiến trúc điện tử phát triển hoàn toàn trong nước để tối ưu hóa hiệu suất vận hành.",
+        "Hệ thống điện tử độc quyền này cho phép robot duy trì khả năng hoạt động ổn định ngay cả khi gặp sự cố phần cứng nghiêm trọng như hỏng khớp nối, đồng thời chống chịu hiệu quả trước các cuộc tấn công mạng và mã độc xâm nhập.",
+        "Sự kiện này mở ra hướng đi mới trong việc thiết kế kiến trúc phần cứng kết hợp phần mềm thông minh cho robot tự trị, nâng cao tiêu chuẩn an toàn bảo mật và khả năng phục hồi tự động trong các môi trường công nghiệp khắc nghiệt."
+      ],
+      "summary_en": [
+        "LimX Dynamics has officially introduced a next-generation robot powered by advanced artificial intelligence, marking a major breakthrough by featuring an entirely domestically developed electronic architecture to optimize operational performance.",
+        "This proprietary electronic system enables the robot to maintain stable operation even when facing severe hardware failures such as damaged joints, while effectively withstanding cyber attacks and malware intrusions.",
+        "This milestone opens up new directions in designing hardware architectures combined with intelligent software for autonomous robots, raising safety standards and automated recovery capabilities in harsh industrial environments."
+      ],
+      "originalTitle": "Robot AI có 'hệ thần kinh' thông minh",
+      "url": "https://vnexpress.net/robot-ai-co-he-than-kinh-thong-minh-5127559.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Robotics",
+        "Cybersecurity",
+        "Hardware",
+        "Self-Healing Systems"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-04T00:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/02/VNERobot-1790916247-3505-1790916324.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ab7lku2KcSzH4huMRpvnxA",
+      "contentSnippet": "Công ty LimX Dynamics công bố robot AI đầu tiên trang bị kiến trúc điện tử phát triển hoàn toàn trong nước, có thể duy trì vận hành khi hỏng khớp nối, tấn công mạng và nhiễm virus.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "e720ea13e7a3855f",
       "title_vi": "Bài 3: Cuộc cách mạng log/slog và ghi nhật ký có cấu trúc",
@@ -100,6 +509,40 @@
       "publishedAt": "2026-10-03T22:52:41.000Z",
       "contentSnippet": "Việc ném một đoạn log lỗi (stack trace) vào Claude Code và ra lệnh \"Sửa lỗi này cho tôi\" là cách nhanh nhất để tạo ra code rác. AI có xu hướng \"chiều ...",
       "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "773c0a0a407fba83",
+      "title_vi": "Số lượng người dùng AI tạo sinh tại Trung Quốc vượt mốc 700 triệu",
+      "title_en": "Generative AI Users in China Surpass 700 Million Milestone",
+      "summary_vi": [
+        "Trung Quốc trở thành quốc gia đầu tiên ghi nhận số lượng người dùng trí tuệ nhân tạo tạo sinh vượt mốc 700 triệu người trong nửa đầu năm 2026, với tỷ lệ thâm nhập thị trường đã vượt qua ngưỡng năm mươi phần trăm.",
+        "Báo cáo chi tiết cho thấy gần nửa số người dùng tận dụng các mô hình này để xử lý hình ảnh và video, trong khi phần còn lại tập trung vào việc tạo văn bản, tự động tóm tắt công việc và soạn thảo tài liệu họp.",
+        "Sự bùng nổ này phản ánh xu hướng áp dụng trợ lý AI đa năng và công cụ tối ưu hóa năng suất tăng gấp đôi so với năm trước, tạo ra động lực mạnh mẽ cho việc phát triển các ứng dụng thông minh trong tương lai."
+      ],
+      "summary_en": [
+        "China has become the first country to record generative AI users exceeding the 700 million milestone in the first half of 2026, achieving a market penetration rate of over fifty percent according to official institutional data.",
+        "Detailed reports indicate that nearly half of these active users leverage AI models for image and video processing, while others focus on text generation, automated meeting summarization, and workplace productivity tasks.",
+        "This remarkable surge reflects a doubling in the adoption of versatile AI assistants and productivity tools compared to the previous year, driving strong momentum for future intelligent application developments."
+      ],
+      "originalTitle": "Người dùng AI tạo sinh vượt mốc 700 triệu tại Trung Quốc",
+      "url": "https://vnexpress.net/nguoi-dung-ai-tao-sinh-vuot-moc-700-trieu-tai-trung-quoc-5127259.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Generative AI",
+        "Machine Learning",
+        "Tech Trends"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-03T22:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/01/6372ebe5a31049178c90b2c6-17908-9076-5509-1790850355.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=G20_BhmwcxJez_3K6-7E-A",
+      "contentSnippet": "Trung Quốc là nước đầu tiên có số người dùng AI tạo sinh vượt 700 triệu trong nửa đầu 2026, với tỷ lệ thâm nhập hơn 50%.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -272,6 +715,40 @@
       "authorName": "Trung Tran Anh",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "737811d7489dff4e",
+      "title_vi": "Nỗ lực của kỹ sư Valve nhằm tối ưu hóa hiệu năng card đồ họa AMD đời cũ trên nền tảng Linux",
+      "title_en": "Valve engineers' efforts to optimize the performance of older AMD graphics cards on the Linux platform",
+      "summary_vi": [
+        "Kỹ sư Timur Kristóf từ Valve đang tập trung phát triển các cải tiến quan trọng cho trình điều khiển đồ họa mã nguồn mở, nhằm nâng cao khả năng tương thích và hiệu suất cho các dòng card đồ họa AMD thế hệ cũ trên hệ điều hành Linux.",
+        "Giải pháp kỹ thuật tập trung vào việc tinh chỉnh kiến trúc trình điều khiển Mesa, tối ưu hóa các lệnh gọi đồ họa và sửa lỗi tương thích phần cứng để đảm bảo các GPU cũ có thể vận hành ổn định với các tiêu chuẩn đồ họa hiện đại.",
+        "Động thái này mang lại giá trị thực tiễn lớn cho cộng đồng người dùng Linux, giúp kéo dài vòng đời phần cứng cũ, đồng thời củng cố hệ sinh thái chơi game trên nền tảng mã nguồn mở mà Valve đang tích cực đầu tư và phát triển."
+      ],
+      "summary_en": [
+        "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux.",
+        "In-depth technical breakdown and implementation mechanisms introduced in Valve engineers' efforts to optimize the performance of older AMD graphics cards on the Linux platform.",
+        "Practical engineering impact and actionable takeaways for developers building with Valve engineers' efforts to optimize the performance of older AMD graphics cards on the Linux platform."
+      ],
+      "originalTitle": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Linux",
+        "AMD",
+        "Valve",
+        "Mesa",
+        "GPU"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-03T19:14:48.000Z",
+      "contentSnippet": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "authorName": "speckx",
+      "upvotes": 170,
+      "commentsCount": 21
     },
     {
       "id": "5cb80ade64def456",
@@ -511,6 +988,40 @@
       "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/3/ava-1791018742456491230380-0-0-1125-1800-crop-1791018782078872508459.png",
       "contentSnippet": "Sapo: Hành trình của FPT Cloud mở ra bức tranh toàn diện về quá trình vươn lên thành nền tảng hạ tầng số hàng đầu, nơi trí tuệ Việt Nam kiến tạo hệ sinh thái công nghệ vững chắc.",
       "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e18b1eb52c17bbb8",
+      "title_vi": "Sony đưa công nghệ nâng cấp hình ảnh bằng trí tuệ nhân tạo QSSR lên PlayStation 5 bản tiêu chuẩn",
+      "title_en": "Sony Brings QSSR AI Upscaling Technology to Standard PlayStation 5 Consoles",
+      "summary_vi": [
+        "Tập đoàn Sony đã chính thức quyết định tích hợp công nghệ nâng cấp hình ảnh sử dụng trí tuệ nhân tạo Quick Super Resolution lên dòng máy chơi game PlayStation 5 phiên bản tiêu chuẩn vốn trước đây chỉ độc quyền xuất hiện trên phiên bản Pro cao cấp.",
+        "Cơ chế hoạt động của công nghệ này dựa trên các thuật toán học máy tiên tiến giúp tối ưu hóa khung hình và độ phân giải thời gian thực mà không làm suy giảm hiệu năng xử lý phần cứng đồ họa vốn có.",
+        "Bước đi chiến lược này không chỉ giúp tối ưu hóa trải nghiệm chơi game trên các thiết bị phần cứng cũ mà còn đặt ra tiêu chuẩn mới cho việc phát triển phần mềm đồ họa tối ưu hóa hiệu suất trong ngành."
+      ],
+      "summary_en": [
+        "Sony Corporation has officially decided to integrate the Quick Super Resolution artificial intelligence upscaling technology into standard PlayStation 5 consoles, which was previously exclusive to the high-end Pro version.",
+        "The operational mechanism of this technology relies on advanced machine learning algorithms to optimize frame rates and real-time resolution without degrading the inherent hardware graphics processing performance.",
+        "This strategic move not only helps optimize gaming experiences on older hardware devices but also sets a new standard for developing performance-optimized graphics software within the industry."
+      ],
+      "originalTitle": "Sony đưa AI upscaling QSSR lên PS5 thường, ngay từ Marvel's Wolverine và Ghost of Yōtei",
+      "url": "https://tinhte.vn/thread/sony-dua-ai-upscaling-qssr-len-ps5-thuong-ngay-tu-marvels-wolverine-va-ghost-of-yotei.4181426/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "PlayStation 5",
+        "Machine Learning",
+        "Graphics Optimization",
+        "Gaming Tech"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-03T10:04:45.000Z",
+      "contentSnippet": "Sony đưa AI upscaling QSSR lên PS5 thường, ngay từ Marvel's Wolverine và Ghost of Yōtei Từ hôm nay, PS5 bản thường được hưởng một công nghệ trước đây chỉ dành cho PS5 Pro. Sony gọi nó là Quick...",
+      "authorName": "nhatminhngo",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8050,486 +8561,6 @@
       "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Screenshot-2026-09-24-at-6.56.53-AM.png?quality=90&strip=all&crop=0,0,100,100",
       "contentSnippet": "Meta has a new plan to get people to make games for its Horizon social platform. The company today announced two new development tools that will let you create games with AI prompts: Horizon Create, a mobile app, and Horizon Studio, a browser app that offers more granular controls. The apps will be ",
       "authorName": "Jay Peters",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8cdbc40faa36764a",
-      "title_vi": "Laravel Echo Server: Giải pháp truyền tải dữ liệu thời gian thực tự phục hồi cho hệ thống Laravel",
-      "title_en": "Laravel Echo Server: Self-Healing Real-Time Data Transmission Solution for Laravel Systems",
-      "summary_vi": [
-        "Trong các hệ thống hiện đại, việc xây dựng các tính năng thời gian thực như trò chuyện trực tiếp, thông báo tức thời và bảng điều khiển trực quan đóng vai trò vô cùng quan trọng đối với trải nghiệm người dùng.",
-        "Laravel Echo Server hoạt động như một cầu nối WebSocket mạnh mẽ, giúp quản lý các kết nối liên tục, phân phối sự kiện hiệu quả và tự động khôi phục khi xảy ra sự cố mất kết nối mạng.",
-        "Giải pháp này giúp các kỹ sư phần mềm tối ưu hóa hiệu suất hệ thống backend, giảm tải cho cơ sở dữ liệu và đảm bảo độ ổn định cao cho các ứng dụng web quy mô lớn."
-      ],
-      "summary_en": [
-        "In modern software architectures, building real-time features like live chat, instant notifications, and dynamic dashboards plays a crucial role in delivering exceptional user experience.",
-        "Laravel Echo Server functions as a robust WebSocket bridge, efficiently managing persistent connections, distributing events, and automatically recovering when network disruptions occur.",
-        "This architectural solution empowers software engineers to optimize backend system performance, reduce database overhead, and ensure high availability for large-scale web applications."
-      ],
-      "originalTitle": "LARAVEL ECHO SERVER: CẦU NỐI REAL-TIME TỰ CHỮA CHÁY CHO LARAVEL",
-      "url": "https://viblo.asia/p/laravel-echo-server-cau-noi-real-time-tu-chua-chay-cho-laravel-bNVQGl6BJvR",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Laravel",
-        "WebSocket",
-        "Real-time",
-        "Backend",
-        "Architecture"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-24T17:28:19.000Z",
-      "contentSnippet": "trong các hệ thống real-time (thời gian thực) của Laravel như chat trực tiếp, thông báo tức thời (notifications) hay dashboard cập nhật số liệu live, ...",
-      "authorName": "Cô Gái IT",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "70359c27b4e5e0d8",
-      "title_vi": "Bảng Trắng: Môi trường phát triển tích hợp mã nguồn mở dành cho thiết kế phần mềm có chiều sâu",
-      "title_en": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
-      "summary_vi": [
-        "Dự án mã nguồn mở Whiteboard ra mắt cộng đồng lập trình nhằm cung cấp một môi trường phát triển tích hợp hoàn toàn mới, tập trung đặc biệt vào giai đoạn thiết kế kiến trúc phần mềm có chiều sâu và tư duy chiến lược.",
-        "Công cụ này tích hợp các cơ chế trực quan hóa mạnh mẽ, cho phép kỹ sư phần mềm phác thảo, mô hình hóa hệ thống và đồng bộ hóa mã nguồn trực tiếp ngay trong không gian làm việc tương tác đa chiều.",
-        "Giải pháp này giúp các đội ngũ phát triển tối ưu hóa quy trình lập kế hoạch trước khi viết mã, giảm thiểu nợ kỹ thuật và nâng cao chất lượng tổng thể của các hệ thống phần mềm quy mô lớn."
-      ],
-      "summary_en": [
-        "The open-source project Whiteboard launches to the programming community to provide an entirely new integrated development environment focused specifically on thoughtful architectural software design and strategic thinking.",
-        "This tool integrates powerful visualization mechanisms, allowing software engineers to sketch, model systems, and synchronize source code directly within a multi-dimensional interactive workspace.",
-        "The solution helps development teams optimize planning workflows before writing code, minimize technical debt, and enhance the overall quality of large-scale software systems."
-      ],
-      "originalTitle": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
-      "url": "https://github.com/devdotfast/whiteboard",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Open Source",
-        "IDE",
-        "Software Architecture",
-        "Developer Tools"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-24T17:21:36.000Z",
-      "contentSnippet": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
-      "authorName": "sidharthkmenon",
-      "upvotes": 129,
-      "commentsCount": 49
-    },
-    {
-      "id": "16dae4c7c5cb5aa1",
-      "title_vi": "Hệ thống Muse của Meta bị phát hiện cho phép người dùng tải xuống toàn bộ cấu trúc tệp hệ thống",
-      "title_en": "Muse will apparently let you download its entire filesystem",
-      "summary_vi": [
-        "Hai nhà phát triển độc lập đã phát hiện ra rằng công cụ Muse do Meta phát triển có thể dễ dàng bị thuyết phục để đóng gói và chia sẻ toàn bộ hệ thống tệp gốc cùng các tài liệu nội bộ.",
-        "Lỗi này xuất phát từ việc thiếu khả năng kháng cự trước các kỹ thuật tấn công tiêm nhiễm câu lệnh, trong khi hệ thống đang chạy trên các máy ảo Linux riêng biệt được cấp phát cho từng người dùng cụ thể.",
-        "Sự cố này gióng lên hồi chuông cảnh báo về các lỗ hổng bảo mật tiềm ẩn trong cách các ứng dụng trí tuệ nhân tạo tương tác và quản lý quyền truy cập vào hệ điều hành nền tảng."
-      ],
-      "summary_en": [
-        "Two independent developers discovered that Meta's Muse tool can be easily convinced to package and share its entire root filesystem along with internal documentation.",
-        "The vulnerability stems from a severe lack of resistance against prompt injection attacks while running on isolated Linux virtual machines allocated for individual users.",
-        "This incident raises serious security concerns regarding potential vulnerabilities in how artificial intelligence applications interact with and manage underlying operating system access permissions."
-      ],
-      "originalTitle": "Muse will apparently let you download its entire filesystem",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Meta",
-        "Prompt Injection",
-        "AI",
-        "Linux"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-24T17:14:12.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_A.png?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "A pair of developers say that with very little prompting, Meta's Muse will share its entire filesystem with you. Peter James and Jonny L. Saunders have said they both independently coaxed Muse into zipping up and sharing the entire contents of its root filesystem, Ubuntu system files, app templates,",
-      "authorName": "Terrence O’Brien",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ea3a0bc0a40a65e1",
-      "title_vi": "Giải mã file cấu hình log-viewer.php: Kiểm soát toàn diện hệ thống log trong Laravel",
-      "title_en": "Decoding the log-viewer.php Configuration File: Comprehensive System Log Control in Laravel",
-      "summary_vi": [
-        "Trong quá trình phát triển ứng dụng web hiện đại với Laravel, việc quản lý và theo dõi nhật ký hệ thống đóng vai trò cực kỳ quan trọng để đảm bảo tính ổn định và khả năng gỡ lỗi nhanh chóng cho lập trình viên.",
-        "File cấu hình log-viewer.php hoạt động như một bảng điều khiển trung tâm, cho phép các kỹ sư phần mềm tùy chỉnh chi tiết quyền truy cập, đường dẫn lưu trữ, cũng như bộ lọc dữ liệu nhật ký một cách tối ưu nhất.",
-        "Việc nắm vững cách thiết lập file cấu hình này giúp đội ngũ phát triển nâng cao tính bảo mật cho trang quản trị, đồng thời tối ưu hóa hiệu suất hiển thị khi hệ thống xử lý hàng triệu bản ghi log mỗi ngày."
-      ],
-      "summary_en": [
-        "During the development of modern web applications with Laravel, managing and monitoring system logs plays a crucial role in ensuring stability and enabling rapid debugging capabilities for developers.",
-        "The log-viewer.php configuration file acts as a central control panel, allowing software engineers to customize access permissions, storage paths, and log data filters in the most optimal way.",
-        "Mastering the setup of this configuration file helps development teams enhance administrative security while optimizing rendering performance when the system processes millions of log records daily."
-      ],
-      "originalTitle": "GIẢI MÃ FILE CẤU HÌNH log-viewer.php: KIỂM SOÁT TOÀN DIỆN HỆ THỐNG LOG",
-      "url": "https://viblo.asia/p/giai-ma-file-cau-hinh-log-viewerphp-kiem-soat-toan-dien-he-thong-log-1XVOWlrEVMz",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Laravel",
-        "PHP",
-        "Log Viewer",
-        "Backend",
-        "Software Architecture"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-24T17:01:30.000Z",
-      "contentSnippet": "trong các gói thư viện quản lý log phổ biến cho Laravel (như opcodes/log-viewer), file cấu hình log-viewer.php đóng vai trò là \"bản điều khiển\" toàn d...",
-      "authorName": "Cô Gái IT",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "959cb971852ceae1",
-      "title_vi": "Độ sáng màn hình: Huawei Pura X View vs iPhone 18 Pro Max",
-      "title_en": "Screen brightness: Huawei Pura X View vs iPhone 18 Pro Max",
-      "summary_vi": [
-        "Apple iPhone 18 Pro Max trang bị màn 6,9 inch, độ sáng tối đa 3.000 nit.",
-        "Huawei Pura X View màn 6,39 inch, độ sáng tối đa 6.500 nit.",
-        "Bình thường màn iPhone 18 Pro Max đã thuộc nhóm sáng cao, nhưng."
-      ],
-      "summary_en": [
-        "Apple iPhone 18 Pro Max is equipped with a 6.9-inch screen, maximum brightness of 3,000 nits.",
-        "Huawei Pura X View has a 6.39-inch screen, maximum brightness of 6,500 nits.",
-        "Normally, the iPhone 18 Pro Max screen is in the high brightness group, but."
-      ],
-      "originalTitle": "Độ sáng màn hình: Huawei Pura X View vs iPhone 18 Pro Max",
-      "url": "https://tinhte.vn/thread/do-sang-man-hinh-huawei-pura-x-view-vs-iphone-18-pro-max.4179271/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-24T16:09:36.000Z",
-      "contentSnippet": "Apple iPhone 18 Pro Max trang bị màn 6,9 inch, độ sáng tối đa 3.000 nit. Huawei Pura X View màn 6,39 inch, độ sáng tối đa 6.500 nit. Bình thường màn iPhone 18 Pro Max đã thuộc nhóm sáng cao, nhưng...",
-      "authorName": "cuhiep",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "62bb527af0cd61f3",
-      "title_vi": "Giờ đây, Song Tử có thể gọi điện cho doanh nghiệp để bạn không phải chờ đợi",
-      "title_en": "Gemini can now call businesses for you so you don’t have to wait on hold",
-      "summary_vi": [
-        "Google sắp ra mắt tính năng \"thử nghiệm sớm\" trên Pixel 11 cho phép người dùng ủy quyền các cuộc gọi công việc địa phương cho Gemini, như đặt chỗ, kiểm tra xem sản phẩm còn hàng hay lên lịch lại cuộc hẹn.",
-        "Theo Google, bạn thậm chí không cần bắt đầu cuộc gọi để Gemini xử lý cuộc gọi cho bạn: Thay vì tự quay số, chỉ cần yêu cầu Gemini gọi thay mặt bạn bằng ứng dụng Gemini trên Pixel của bạn.",
-        "Song Tử sẽ gọi điện cho doanh nghiệp, giới thiệu bản thân, điều hướng các menu điện thoại tự động, chờ đợi và xử lý cuộc trò chuyện với người ở đầu bên kia."
-      ],
-      "summary_en": [
-        "Google's launching an \"early experiment\" feature on Pixel 11 that lets users delegate local business calls to Gemini, like making a reservation, checking if a product is in stock, or rescheduling an appointment.",
-        "According to Google, you don't even need to start the call to have Gemini handle it for you: Instead of dialing yourself, just tell Gemini to call on your behalf using the Gemini app on your Pixel.",
-        "Gemini will call the business, introduce itself, navigate automated phone menus, wait on hold, and handle the conversation with the person on the other end."
-      ],
-      "originalTitle": "Gemini can now call businesses for you so you don’t have to wait on hold",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Gemini"
-      ],
-      "hotScore": 98,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-24T16:04:31.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Google-Pixel-11-Pro-Photos-of-Phone-Using-On-Ear.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Google's launching an \"early experiment\" feature on Pixel 11 that lets users delegate local business calls to Gemini, like making a reservation, checking if a product is in stock, or rescheduling an appointment. According to Google, you don't even need to start the call to have Gemini handle it for ",
-      "authorName": "Stevie Bonifield",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "d05941cd69da628a",
-      "title_vi": "Cận cảnh laptop Dell XPS Googlebook mới: Dùng chip Snapdragon X Elite của Qualcomm, giá từ 999 USD",
-      "title_en": "Close-up of the new Dell XPS Googlebook laptop: Using Qualcomm's Snapdragon X Elite chip, priced from 999 USD",
-      "summary_vi": [
-        "Sử dụng chip Snapdragon X Elite của Qualcomm, chiếc laptop này kết hợp thiết kế đặc trưng của XPS với nền tảng Googlebook, hướng tới nhóm người dùng Android muốn có một thiết bị cao cấp.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Cận cảnh laptop Dell XPS Googlebook mới: Dùng chip Snapdragon X Elite của Qualcomm, giá từ 999 USD.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Cận cảnh laptop Dell XPS Googlebook mới: Dùng chip Snapdragon X Elite của Qualcomm, giá từ 999 USD."
-      ],
-      "summary_en": [
-        "Using Qualcomm's Snapdragon X Elite chip, this laptop combines the unique design of the XPS with the Googlebook platform, targeting Android users who want a high-end device.",
-        "In-depth technical breakdown and implementation mechanisms introduced in Close-up of the new Dell XPS Googlebook laptop: Using Qualcomm's Snapdragon X Elite chip, priced from 999 USD.",
-        "Practical engineering impact and actionable takeaways for developers building with Close-up of the new Dell XPS Googlebook laptop: Using Qualcomm's Snapdragon X Elite chip, priced from 999 USD."
-      ],
-      "originalTitle": "Cận cảnh laptop Dell XPS Googlebook mới: Dùng chip Snapdragon X Elite của Qualcomm, giá từ 999 USD",
-      "url": "https://genk.vn/can-canh-laptop-dell-xps-googlebook-moi-dung-chip-snapdragon-x-elite-cua-qualcomm-gia-tu-999-usd-165260924225534235.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Android"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-24T15:55:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/24/avatar1790265318874-17902653196311222323459.jpg",
-      "contentSnippet": "Sử dụng chip Snapdragon X Elite của Qualcomm, chiếc laptop này kết hợp thiết kế đặc trưng của XPS với nền tảng Googlebook, hướng tới nhóm người dùng Android muốn có một thiết bị cao cấp.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "74bfdf1e70f01c20",
-      "title_vi": "F-Droid 2.0: Một chương mới cho sự tự do của Android",
-      "title_en": "F-Droid 2.0: A New Chapter for Android Freedom",
-      "summary_vi": [
-        "Sau hơn một năm làm việc chăm chỉ, chúng tôi vui mừng thông báo ra mắt F-Droid 2.0, một thiết kế lại hoàn toàn của ứng dụng F-Droid chính thức và là bản cập nhật ứng dụng lớn nhất trong 10 năm.",
-        "Trong hơn một thập kỷ, F-Droid đã giúp mọi người khám phá và cài đặt các ứng dụng Android nguồn mở và miễn phí.",
-        "F-Droid 2.0 được xây dựng trên nền tảng đó với giao diện hiện đại, khả năng khám phá ứng dụng tốt hơn, tìm kiếm được cải thiện và trải nghiệm đơn giản hơn nhưng hoạt động tốt, cho dù bạn là người mới sử dụng F-Droid hay đã sử dụng nó trong nhiều năm."
-      ],
-      "summary_en": [
-        "After more than a year of hard work, we are thrilled to announce the launch of F-Droid 2.0, a complete redesign of the official F-Droid app and the largest app update in 10 years.",
-        "For more than a decade, F-Droid has helped people discover and install free and open source Android apps.",
-        "F-Droid 2.0 builds on that foundation with a modern interface, better app discovery, improved search, and a simpler experience that works well, whether you’re new to F-Droid or have been using it for years."
-      ],
-      "originalTitle": "F-Droid 2.0: A New Chapter for Android Freedom",
-      "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "Android"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-24T15:26:12.000Z",
-      "contentSnippet": "After more than a year of hard work, we are thrilled to announce the launch of F-Droid 2.0, a complete redesign of the official F-Droid app and the largest app update in 10 years. For more than a decade, F-Droid has helped people discover and install free and open source Android apps. F-Droid 2.0 bu",
-      "authorName": "daveoc64",
-      "upvotes": 157,
-      "commentsCount": 45
-    },
-    {
-      "id": "c989d3a8ee660d6d",
-      "title_vi": "Snapdragon Summit 2026 ngày 2: Sound Elite Gen 2, kính AI, Surface mới và Linux trên Snapdragon X2",
-      "title_en": "Snapdragon Summit 2026 day 2: Sound Elite Gen 2, AI glasses, new Surface and Linux on Snapdragon X2",
-      "summary_vi": [
-        "Ngày thứ hai của Snapdragon Summit 2026 tại Maui, Hawaii xoay quanh AI cá nhân và các thiết bị chạy agent.",
-        "Qualcomm cùng đối tác công bố loạt sản phẩm trải từ tai nghe, kính AI, thiết bị XR đến.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Snapdragon Summit 2026 ngày 2: Sound Elite Gen 2, kính AI, Surface mới và Linux trên Snapdragon X2."
-      ],
-      "summary_en": [
-        "Day two of Snapdragon Summit 2026 in Maui, Hawaii revolved around personal AI and devices running agents.",
-        "Qualcomm and its partners announced a series of products ranging from headphones, AI glasses, and XR devices.",
-        "Practical engineering impact and actionable takeaways for developers building with Snapdragon Summit 2026 day 2: Sound Elite Gen 2, AI glasses, new Surface and Linux on Snapdragon X2."
-      ],
-      "originalTitle": "Snapdragon Summit 2026 ngày 2: Sound Elite Gen 2, kính AI, Surface mới và Linux trên Snapdragon X2",
-      "url": "https://tinhte.vn/thread/snapdragon-summit-2026-ngay-2-sound-elite-gen-2-kinh-ai-surface-moi-va-linux-tren-snapdragon-x2.4179269/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 86,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-24T14:38:21.000Z",
-      "contentSnippet": "Ngày thứ hai của Snapdragon Summit 2026 tại Maui, Hawaii xoay quanh AI cá nhân và các thiết bị chạy agent. Qualcomm cùng đối tác công bố loạt sản phẩm trải từ tai nghe, kính AI, thiết bị XR đến PC...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4749bc4599bf6b5a",
-      "title_vi": "Xóa bỏ động: Ngăn chặn từ chối không phá hủy thông qua chỉ đạo Engram",
-      "title_en": "Dynamic Abliteration: Non-Destructive Refusal Suppression via Engram Steering",
-      "summary_vi": [
-        "Khi làm việc với LLM trọng lượng mở như Qwen, việc kiểm soát hành vi từ chối về bảo mật, hành chính, lời nhắc thường yêu cầu tinh chỉnh hoặc cập nhật trọng số vĩnh viễn.",
-        "Kỹ thuật loại bỏ trọng số truyền thống vô hiệu hóa các hướng từ chối bằng cách chiếu các ma trận trọng số trực giao với vectơ từ chối.",
-        "Tuy nhiên, điều này làm thay đổi vĩnh viễn trọng số của mô hình cơ sở và cũng có thể làm giảm hiệu suất của các tác vụ không từ chối."
-      ],
-      "summary_en": [
-        "When working with open-weight LLMs like Qwen, controlling refusal behavior on security, administrative, prompts typically requires fine-tuning or permanent weight update.",
-        "Traditional weight abliteration technique neutralizes refusal directions by projecting weight matrices orthogonal to a refusal vector.",
-        "However, this permanently alters base model weights and can degrade performance across non-refusal tasks also."
-      ],
-      "originalTitle": "Dynamic Abliteration: Non-Destructive Refusal Suppression via Engram Steering",
-      "url": "https://blog.madhukaraphatak.in/non-destructive-refusal-supression-using-engram",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Gemini"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-24T14:33:52.000Z",
-      "contentSnippet": "When working with open-weight LLMs like Qwen, controlling refusal behavior on security, administrative, prompts typically requires fine-tuning or permanent weight update. Traditional weight abliteration technique neutralizes refusal directions by projecting weight matrices orthogonal to a refusal ve",
-      "authorName": "phatak-dev",
-      "upvotes": 71,
-      "commentsCount": 19
-    },
-    {
-      "id": "9b5a879665aace41",
-      "title_vi": "Tại sao chúng ta không thể loại bỏ những AI lừa đảo khỏi Internet?",
-      "title_en": "Why can’t we just keep rogue AIs off the internet?",
-      "summary_vi": [
-        "Các tác nhân AI (AI Agent) tiếp tục lỏng lẻo, thoát khỏi các cuộc kiểm tra được cho là an toàn để tấn công các mục tiêu trong thế giới thực, chỉ huy các wiki ít người biết đến và để lại hướng dẫn cho các đặc vụ khác làm theo.",
-        "Các nhà nghiên cứu đang thử nghiệm các hệ thống này một cách chính xác vì chúng có thể hoạt động theo những cách không thể đoán trước, thậm chí nguy hiểm.",
-        "Vì vậy, sẽ an toàn hơn nếu chỉ giữ các đại lý khỏi internet?"
-      ],
-      "summary_en": [
-        "AI agents keep getting loose, escaping supposedly secure tests to attack real-world targets, commandeer obscure wikis, and leave instructions for other agents to follow.",
-        "Researchers are testing these systems precisely because they might behave in unpredictable, even dangerous, ways.",
-        "So wouldn't it be safer to just keep the agents off the internet?"
-      ],
-      "originalTitle": "Why can’t we just keep rogue AIs off the internet?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/999881/why-cant-we-airgap-rogue-ai-agents",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-24T14:30:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK414_AI_CVIRGINIA_2_C-2.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "AI agents keep getting loose, escaping supposedly secure tests to attack real-world targets, commandeer obscure wikis, and leave instructions for other agents to follow. Researchers are testing these systems precisely because they might behave in unpredictable, even dangerous, ways. So wouldn't it b",
-      "authorName": "Robert Hart",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b4472515e4ccbb65",
-      "title_vi": "Qualcomm đưa AI Agent vào Snapdragon cho smartphone: Cuộc cách mạng AI tự làm việc cho người dùng đã bắt đầu",
-      "title_en": "Qualcomm brings AI Agent to Snapdragon for smartphones: The self-working AI revolution for users has begun",
-      "summary_vi": [
-        "Smartphone có thể đang bước vào một giai đoạn mới, khi AI không còn chỉ ngồi chờ người dùng đặt câu hỏi.",
-        "Tại Snapdragon Summit 2026, Qualcomm giới thiệu hai nền tảng di động cao cấp mới được thiết kế để hỗ trợ AI Agent, mở đường cho những chiếc điện thoại có thể tự thu thập thông tin, thực hiện nhiệm vụ và hành động thay người dùng.",
-        "Sự thay đổi nằm ở cách AI được sử dụng."
-      ],
-      "summary_en": [
-        "Smartphones may be entering a new phase, when AI is no longer just waiting for users to ask questions.",
-        "At Snapdragon Summit 2026, Qualcomm introduced two new high-end mobile platforms designed to support AI Agents, paving the way for phones that can collect information, perform tasks and act on behalf of users.",
-        "The change lies in how AI is used."
-      ],
-      "originalTitle": "Qualcomm đưa AI Agent vào Snapdragon cho smartphone: Cuộc cách mạng AI tự làm việc cho người dùng đã bắt đầu",
-      "url": "https://genk.vn/qualcomm-dua-ai-agent-vao-snapdragon-cho-smartphone-cuoc-cach-mang-ai-tu-lam-viec-cho-nguoi-dung-da-bat-dau-165260924205634056.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-24T14:20:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/24/avatar1790257988743-17902579890811821230518.png",
-      "contentSnippet": "Theo giám đốc tiếp thị của Qualcomm, 70% người tiêu dùng được khảo sát quan tâm tới các AI Agent cá nhân vì khả năng tự thao tác công việc của chúng.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "33dda9e4249d6f67",
-      "title_vi": "Không còn chỉ một Snapdragon 8 Elite: Qualcomm đưa ra lý do đằng sau quyết định chưa từng có",
-      "title_en": "No longer just one Snapdragon 8 Elite: Qualcomm gives the reasons behind the unprecedented decision",
-      "summary_vi": [
-        "Trong nhiều năm, mỗi thế hệ Snapdragon cao cấp chỉ có một cái tên.",
-        "Năm nay, Qualcomm thay đổi công thức đó và ngay lập tức phải trả lời câu hỏi: Hai chip flagship có thực sự cần thiết?",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Không còn chỉ một Snapdragon 8 Elite: Qualcomm đưa ra lý do đằng sau quyết định chưa từng có."
-      ],
-      "summary_en": [
-        "For years, each generation of high-end Snapdragon had just one name.",
-        "This year, Qualcomm changed that formula and immediately had to answer the question: Are two flagship chips really necessary?",
-        "Practical engineering impact and actionable takeaways for developers building with No longer just one Snapdragon 8 Elite: Qualcomm gives the reasons behind the unprecedented decision."
-      ],
-      "originalTitle": "Không còn chỉ một Snapdragon 8 Elite: Qualcomm đưa ra lý do đằng sau quyết định chưa từng có",
-      "url": "https://genk.vn/khong-con-chi-mot-snapdragon-8-elite-qualcomm-dua-ra-ly-do-dang-sau-quyet-dinh-chua-tung-co-165260924204107208.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechTrends",
-        "Innovation"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-24T13:40:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/24/avatar1790257160377-17902571611501765265964.jpg",
-      "contentSnippet": "Trong nhiều năm, mỗi thế hệ Snapdragon cao cấp chỉ có một cái tên. Năm nay, Qualcomm thay đổi công thức đó và ngay lập tức phải trả lời câu hỏi: Hai chip flagship có thực sự cần thiết?",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "6dc1f96aab60e259",
-      "title_vi": "6 đội tấn công và 1 đội phòng thủ tham gia diễn tập an ninh mạng tại Thành phố Hồ Chí Minh",
-      "title_en": "Six attacking teams and one defense team participate in Ho Chi Minh City cybersecurity drill",
-      "summary_vi": [
-        "Chương trình diễn tập thực chiến về tấn công mạng kéo dài năm ngày đã được triển khai chính thức trên ba hệ thống thông tin trọng yếu thuộc các lĩnh vực cấp nước, giáo dục và y tế của thành phố.",
-        "Hoạt động này huy động sáu đội tấn công trực tiếp đối đầu với một đội phòng thủ, giúp kiểm tra năng lực phản ứng sự cố và đánh giá mức độ bảo mật của hạ tầng công nghệ thông tin quan trọng.",
-        "Sự kiện mang lại giá trị thực tiễn cao trong việc nâng cao kỹ năng xử lý tình huống khẩn cấp cho các kỹ sư an ninh mạng, đồng thời củng cố lá chắn phòng thủ cho các hệ thống số thiết yếu."
-      ],
-      "summary_en": [
-        "A five-day live-fire cyber attack exercise program has been officially deployed across three critical information systems belonging to the city's water supply, education, and healthcare sectors.",
-        "This activity mobilizes six attacking teams to directly confront a defense team, helping to test incident response capabilities and evaluate the security posture of vital IT infrastructure.",
-        "The event delivers high practical value by improving emergency handling skills for cybersecurity engineers while strengthening defensive shields for essential digital systems."
-      ],
-      "originalTitle": "6 đội 'tấn công', 1 đội phòng thủ diễn tập an ninh mạng TP.HCM",
-      "url": "https://tuoitre.vn/6-doi-tan-cong-1-doi-phong-thu-dien-tap-an-ninh-mang-tphcm-100260924103742975.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "PenetrationTesting",
-        "IncidentResponse",
-        "CriticalInfrastructure"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-24T12:15:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/24/cong-an-17902206389351891295890-17902271980561229496829-49-319-803-1526-crop-1790227228126469040569.jpg",
-      "contentSnippet": "Chương trình diễn tập thực chiến về tấn công mạng kéo dài năm ngày được triển khai trên ba hệ thống thông tin thuộc các lĩnh vực cấp nước, giáo dục và y tế.",
-      "authorName": "TRỌNG NHÂN",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "c571662be5d27b1e",
-      "title_vi": "Anthropic tuyên bố Claude phát hiện hệ enzyme mới",
-      "title_en": "Anthropic announced that Claude discovered a new enzyme system",
-      "summary_vi": [
-        "Anthropic thử nghiệm hệ thống cho phép mô hình AI Claude tự động điều khiển trang thiết bị và tiến hành các thí nghiệm khoa học độc lập.",
-        "Kết hợp LLM đa phương thức với cánh tay robot, kính hiển vi và giao thức điều khiển API phần cứng phòng thí nghiệm.",
-        "Đột phá lớn trong tự động hóa nghiên cứu khoa học (AI for Science), rút ngắn thời gian phát minh vật liệu và dược phẩm mới."
-      ],
-      "summary_en": [
-        "Anthropic pilots autonomous systems enabling Claude AI to interface with physical laboratory instruments and execute wet-lab experiments.",
-        "Connects multimodal LLM planners with robotic actuators, automated microscopes, and low-level hardware control protocols.",
-        "Marks a pivotal leap in AI for Science automation, accelerating discoveries in materials science, biochemistry, and molecular biology."
-      ],
-      "originalTitle": "Anthropic tuyên bố Claude phát hiện hệ enzyme mới",
-      "url": "https://vnexpress.net/anthropic-tuyen-bo-claude-phat-hien-he-enzyme-moi-5124244.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Claude"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-24T12:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/24/lq02624-1790233803-7597-1790234178.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=O-14nZOkYYbky_RgvhMRQg",
-      "contentSnippet": "Anthropic cho biết AI Claude tự động phát hiện hệ enzyme với một số đặc tính gợi nhớ đến bộ máy phía sau công cụ chỉnh sửa gene CRISPR.",
-      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     }
