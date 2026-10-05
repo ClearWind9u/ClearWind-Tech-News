@@ -1,7 +1,418 @@
 {
-  "lastUpdated": "2026-10-04T16:13:19.831Z",
+  "lastUpdated": "2026-10-05T03:13:45.398Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "1623e8ff7323266c",
+      "title_vi": "Cựu Phó Thống đốc New Jersey sử dụng trí tuệ nhân tạo để thanh minh và những xu hướng công nghệ nổi bật trên Hacker News",
+      "title_en": "Former New Jersey Lt Gov Uses AI to Prove Innocence and Notable Tech Trends from Hacker News",
+      "summary_vi": [
+        "Cựu Phó Thống đốc New Jersey đang tận dụng các công nghệ trí tuệ nhân tạo tiên tiến nhằm tạo ra các lập luận pháp lý chứng minh sự vô tội của bản thân trong một vụ án nhạy cảm.",
+        "Sự kiện này làm nổi bật khả năng lạm dụng các mô hình ngôn ngữ lớn để tạo nội dung deepfake hoặc thao túng thông tin, đặt ra thách thức lớn về xác thực dữ liệu kỹ thuật số.",
+        "Cộng đồng lập trình viên và chuyên gia an ninh mạng trên Hacker News đang thảo luận sôi nổi về các giải pháp kỹ thuật nhằm phát hiện và ngăn chặn nội dung do AI tạo ra trái phép."
+      ],
+      "summary_en": [
+        "The former Lieutenant Governor of New Jersey is leveraging advanced artificial intelligence technologies to generate legal arguments proving his innocence in a sensitive case.",
+        "This event highlights the potential misuse of large language models for generating deepfakes or manipulating information, posing significant challenges to digital data verification.",
+        "Developers and cybersecurity experts on Hacker News are actively discussing technical solutions to detect and prevent unauthorized AI-generated content."
+      ],
+      "originalTitle": "AI Buổi Sáng (05/10/2026): Tiêu điểm NJ’s former Lt Gov is using AI to say he’s innocent of sexua và những bước chuyển từ Hacker News",
+      "url": "https://viblo.asia/p/ai-buoi-sang-05102026-tieu-diem-njs-former-lt-gov-is-using-ai-to-say-hes-innocent-of-sexua-va-nhung-buoc-chuyen-tu-hacker-news-OQJwzmky4MP",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Deepfake",
+        "Cybersecurity",
+        "Machine Learning",
+        "Tech Trends"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-05T08:27:09.000Z",
+      "contentSnippet": "AI Buổi Sáng (05/10/2026): Tiêu điểm NJ’s former Lt Gov is using AI to say he’s innocent of sexua và những bước chuyển từ Hacker News Trong phiên bu...",
+      "authorName": "Xuân Chinh Trịnh",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f00c68cf38c8a3e9",
+      "title_vi": "Microservices Series: API Gateway – Người gác cổng vĩ đại trong kiến trúc hệ thống",
+      "title_en": "Microservices Series: API Gateway – The Great Gatekeeper of System Architecture",
+      "summary_vi": [
+        "Bài viết tiếp nối chuỗi chuyên đề về Microservices, tập trung giải thích vai trò thiết yếu của API Gateway trong việc quản lý luồng truy cập và bảo vệ các dịch vụ nội bộ khỏi những sự cố không mong muốn từ bên ngoài.",
+        "Tác giả phân tích cơ chế hoạt động của API Gateway như một điểm truy cập tập trung, thực hiện các nhiệm vụ quan trọng như định tuyến yêu cầu, xác thực người dùng, giới hạn tốc độ và cân bằng tải cho toàn bộ hệ thống.",
+        "Thông qua việc triển khai API Gateway, các kỹ sư phần mềm có thể tối ưu hóa khả năng quản trị, tăng cường tính bảo mật và đơn giản hóa giao tiếp giữa các dịch vụ trong môi trường kiến trúc phân tán phức tạp."
+      ],
+      "summary_en": [
+        "This article continues the Microservices series, focusing on the essential role of the API Gateway in managing traffic flow and shielding internal services from unexpected external issues and potential system failures during operation.",
+        "The author analyzes the operational mechanism of the API Gateway as a centralized entry point, performing critical tasks such as request routing, user authentication, rate limiting, and load balancing for the entire system.",
+        "By implementing an API Gateway, software engineers can optimize management capabilities, enhance security posture, and simplify communication between various services within a complex distributed architecture environment for better overall system reliability."
+      ],
+      "originalTitle": "[Microservices Series] Bài 7: API Gateway – \"Người gác cổng vĩ đại\" che chắn mớ hỗn độn",
+      "url": "https://viblo.asia/p/microservices-series-bai-7-api-gateway-nguoi-gac-cong-vi-dai-che-chan-mo-hon-don-PoL7ex8e4vk",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Microservices",
+        "API Gateway",
+        "System Architecture",
+        "Backend",
+        "Software Design"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-05T06:51:19.000Z",
+      "contentSnippet": "Chào anh em! Ở bài 6, chúng ta đã trang bị Circuit Breaker để bảo vệ các service không bị \"cắn xé\" lẫn nhau khi có sự cố nội bộ. Nhưng đó là chuyện tr...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5579842ce9945b75",
+      "title_vi": "Thông báo quan trọng về lộ trình kết thúc cập nhật phần mềm cho các dòng điện thoại thông minh Samsung Galaxy cũ",
+      "title_en": "Important update regarding the software support lifecycle termination schedule for older Samsung Galaxy smartphone models",
+      "summary_vi": [
+        "Nhiều mẫu điện thoại thông minh Galaxy đang bước vào giai đoạn cuối của vòng đời hỗ trợ phần mềm, trong đó các dòng máy màn hình gập và cao cấp thế hệ cũ lần lượt kết thúc chu kỳ cập nhật hệ điều hành Android theo lộ trình của hãng sản xuất.",
+        "Bộ đôi thiết bị màn hình gập Galaxy Z Fold3 và Z Flip3 đã hoàn tất chu kỳ nâng cấp hệ điều hành và tiếp tục nhận các bản vá bảo mật đến tháng 8 năm 2026, trong khi dòng máy cao cấp Galaxy S22 sẽ duy trì vá lỗi bảo mật cho đến tháng 2 năm 2027.",
+        "Việc chấm dứt hỗ trợ cập nhật phần mềm hệ thống đòi hỏi các kỹ sư phát triển và người dùng phải chủ động đánh giá lại các rủi ro bảo mật thiết bị di động, từ đó đưa ra chiến lược nâng cấp phần cứng hoặc quản trị rủi ro an ninh mạng phù hợp."
+      ],
+      "summary_en": [
+        "Several Galaxy smartphone models are entering the final stage of their software support lifecycle, as older foldable and flagship devices gradually conclude their scheduled Android OS update cycles according to the manufacturer's roadmap.",
+        "The foldable device duo Galaxy Z Fold3 and Z Flip3 have completed their operating system upgrade cycle and will continue receiving security patches until August 2026, while the flagship Galaxy S22 series will maintain security updates through February 2027.",
+        "The termination of system software update support requires software engineers and users to proactively reassess mobile device security risks, thereby establishing appropriate hardware upgrade strategies or cybersecurity risk management plans."
+      ],
+      "originalTitle": "Thông báo đến người dùng điện thoại Samsung Galaxy cũ",
+      "url": "https://genk.vn/thong-bao-den-nguoi-dung-dien-thoai-samsung-galaxy-cu-165261005081359793.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Samsung",
+        "Android",
+        "Mobile Security",
+        "Smartphone",
+        "Firmware"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-05T01:59:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/5/avatar1791162821524-17911628224851993856020.jpg",
+      "contentSnippet": "Người dùng những mẫu điện thoại Samsung Galaxy cũ cần lưu ý những thay đổi mới từ Samsung.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "8370e3eaf6028e8d",
+      "title_vi": "Các tay đua Công thức 1 thất vọng vì lỗi phần mềm trong chặng đua tại Bahrain",
+      "title_en": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+      "summary_vi": [
+        "Các tay đua hàng đầu giải đua Công thức 1 đang bày tỏ sự thất vọng sâu sắc đối với các sự cố lỗi phần mềm bộ nguồn đã làm gián đoạn nghiêm trọng chặng đua mở màn tại Bahrain.",
+        "Lỗi hệ thống điện tử này ảnh hưởng trực tiếp đến hiệu suất vận hành của xe, làm nổi bật những thách thức lớn trong việc tích hợp các hệ thống điều khiển điện tử phức tạp trên xe đua hiện đại.",
+        "Sự cố kỹ thuật này tiếp tục châm ngòi cho những tranh cãi về độ tin cậy của công nghệ hybrid, buộc các kỹ sư phải đánh giá lại toàn bộ kiến trúc phần mềm điều khiển trong tương lai."
+      ],
+      "summary_en": [
+        "Leading Formula 1 drivers are expressing deep frustration regarding power unit software glitches that severely disrupted the start of the opening race in Bahrain.",
+        "These electronic system failures directly impact vehicle performance, highlighting significant challenges in integrating complex electronic control systems in modern racing cars.",
+        "This technical malfunction continues to spark debates over hybrid technology reliability, forcing software engineers to reevaluate control software architectures in the future."
+      ],
+      "originalTitle": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+      "url": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Software Glitch",
+        "Embedded Systems",
+        "Automotive Tech",
+        "Electronic Control"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-05T01:54:08.000Z",
+      "contentSnippet": "Leading F1 drivers are despairing at power unit software glitches that derailed the start of the Bahrain GP in Malaysia, with Lando Norris calling the electronic glitches \"horrible\" and further proof that F1 should move away from hybrids.",
+      "authorName": "llm_nerd",
+      "upvotes": 74,
+      "commentsCount": 30
+    },
+    {
+      "id": "46073cd7dc8537dd",
+      "title_vi": "Elon Musk xác nhận đang thảo luận với TSMC về dự án chip Terafab cho Tesla, SpaceX và xAI",
+      "title_en": "Elon Musk Confirms Discussions with TSMC Regarding the Terafab Chip Project for Tesla, SpaceX, and xAI",
+      "summary_vi": [
+        "Elon Musk chính thức xác nhận việc đang tiến hành các cuộc thảo luận chiến lược với đối tác sản xuất chất bán dẫn hàng đầu TSMC để triển khai dự án Terafab, nhằm tự chủ nguồn cung chip chuyên dụng cho hệ sinh thái công nghệ của mình.",
+        "Dự án Terafab này được thiết kế nhằm đáp ứng nhu cầu tính toán khổng lồ và đặc thù cho các hệ thống trí tuệ nhân tạo, xe tự hành cũng như cơ sở hạ tầng hàng không vũ trụ của các tập đoàn lớn như Tesla, SpaceX và xAI.",
+        "Sáng kiến này đánh dấu một bước tiến quan trọng trong ngành công nghiệp bán dẫn toàn cầu, phản ánh xu hướng các hãng công nghệ lớn tự thiết kế vi mạch để tối ưu hóa hiệu năng xử lý và giảm thiểu phụ thuộc vào chuỗi cung ứng bên ngoài."
+      ],
+      "summary_en": [
+        "Elon Musk has officially confirmed strategic discussions with leading semiconductor manufacturer TSMC to advance the Terafab project, aiming to secure dedicated chip supply chains for his technology ecosystem.",
+        "The Terafab initiative is designed to address the massive and specialized computational demands of artificial intelligence systems, autonomous vehicles, and aerospace infrastructures across Tesla, SpaceX, and xAI.",
+        "This strategic move represents a significant milestone in the global semiconductor industry, reflecting a broader trend where tech giants design proprietary silicon to optimize processing performance and reduce supply chain vulnerabilities."
+      ],
+      "originalTitle": "Elon Musk xác nhận đang thảo luận với TSMC về Terafab, dự án chip riêng cho Tesla, SpaceX và xAI",
+      "url": "https://tinhte.vn/thread/elon-musk-xac-nhan-dang-thao-luan-voi-tsmc-ve-terafab-du-an-chip-rieng-cho-tesla-spacex-va-xai.4181473/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Semiconductor",
+        "TSMC",
+        "Tesla",
+        "xAI",
+        "Hardware"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-05T01:41:23.000Z",
+      "contentSnippet": "Elon Musk xác nhận đang thảo luận với TSMC về Terafab, dự án chip riêng cho Tesla, SpaceX và xAI lon Musk xác nhận đang thảo luận với TSMC về việc hợp tác trong dự án Terafab. Ông viết trên X...",
+      "authorName": "nhatminhngo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b425339a8d8424fa",
+      "title_vi": "Cựu nhân viên Apple chia sẻ sai lầm phổ biến khi sạc pin iPhone và cách khắc phục",
+      "title_en": "Former Apple employee highlights common mistakes when charging iPhones and how to fix them",
+      "summary_vi": [
+        "Pin điện thoại thông minh là linh kiện hao mòn tự nhiên theo thời gian, chịu tác động trực tiếp từ nhiệt độ môi trường, thói quen sạc và tình trạng vật lý của thiết bị di động trong quá trình sử dụng hàng ngày.",
+        "Tyler Morgan, cựu nhân viên tại Apple Store, khuyến cáo người dùng không cần thiết phải sạc đầy thiết bị lên mức một trăm phần trăm mà nên duy trì khoảng tám mươi phần trăm để kéo dài tuổi thọ pin.",
+        "Giải pháp sử dụng tính năng sạc pin được tối ưu hóa tích hợp sẵn trong hệ điều hành giúp thiết bị tự động học hỏi thói quen người dùng, mang lại giá trị thiết thực trong việc bảo vệ linh kiện phần cứng lâu dài."
+      ],
+      "summary_en": [
+        "Smartphone batteries are natural consumable components that degrade over time, directly impacted by ambient temperatures, charging habits, and the overall physical condition of mobile devices during daily use.",
+        "Tyler Morgan, a former Apple Store employee, advises users that charging devices to one hundred percent is unnecessary, recommending a maintenance level of around eighty percent to maximize long-term battery health.",
+        "Leveraging the built-in optimized battery charging feature within the operating system allows devices to intelligently learn user routines, delivering practical value for long-term hardware component protection."
+      ],
+      "originalTitle": "Cựu nhân viên Apple chỉ ra sai lầm của nhiều người khi dùng iPhone",
+      "url": "https://genk.vn/cuu-nhan-vien-apple-chi-ra-sai-lam-cua-nhieu-nguoi-khi-dung-iphone-165261005081316827.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone",
+        "Apple",
+        "Battery Health",
+        "Mobile Hardware",
+        "iOS"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-05T01:40:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/5/avatar1791162777902-17911627796841794526253.jpg",
+      "contentSnippet": "Cựu nhân viên Apple cho rằng nhiều người dùng iPhone đang mắc cùng một sai lầm khi sử dụng máy.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b51e5d00a1f5cfeb",
+      "title_vi": "Lộ diện mẫu điện thoại thông minh với thiết kế hoàn toàn mới và màn hình siêu lớn",
+      "title_en": "New Smartphone Model Revealed with Completely New Design and Ultra Large Display",
+      "summary_vi": [
+        "Thế hệ điện thoại thông minh kỷ niệm hai mươi năm ra mắt đang thu hút sự chú ý lớn từ cộng đồng công nghệ nhờ những tin đồn rò rỉ về thiết kế màn hình lớn hơn đáng kể so với các phiên bản hiện tại.",
+        "Thiết bị này dự kiến sẽ tích hợp công nghệ màn hình với mặt kính cong hoàn toàn mới, đòi hỏi các kỹ sư phần cứng phải áp dụng nhiều giải pháp chế tạo tiên tiến để tối ưu hóa không gian hiển thị và độ bền.",
+        "Sự thay đổi mang tính cách mạng này hứa hẹn sẽ tạo ra áp lực cạnh tranh mạnh mẽ trong ngành công nghiệp thiết bị di động, đồng thời thúc đẩy các nhà phát triển tối ưu hóa giao diện ứng dụng cho các form factor mới."
+      ],
+      "summary_en": [
+        "The twentieth anniversary smartphone generation is attracting massive attention from the tech community due to leaked rumors regarding a significantly larger display design compared to current models.",
+        "This device is expected to integrate display technology with a completely new curved glass surface, requiring hardware engineers to apply advanced manufacturing solutions to optimize display space and durability.",
+        "This revolutionary change promises to create intense competitive pressure in the mobile device industry while driving developers to optimize application interfaces for novel form factors."
+      ],
+      "originalTitle": "Lộ diện mẫu iPhone với thiết kế hoàn toàn mới, màn hình siêu lớn",
+      "url": "https://genk.vn/lo-dien-mau-iphone-voi-thiet-ke-hoan-toan-moi-man-hinh-sieu-lon-16526100508120873.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Smartphone",
+        "Mobile Design",
+        "Hardware Engineering",
+        "Display Technology"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-05T01:21:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/5/avatar1791162708727-17911627093842089749657.png",
+      "contentSnippet": "Thế hệ iPhone kỷ niệm 20 năm được đồn đoán sẽ có màn hình lớn hơn đáng kể, đi cùng thiết kế kính cong hoàn toàn mới, hứa hẹn tạo khác biệt rõ rệt so với những mẫu iPhone hiện nay.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "575fc3874131df88",
+      "title_vi": "Google thử nghiệm chip trí tuệ nhân tạo trong không gian",
+      "title_en": "Google is testing artificial intelligence chips in space",
+      "summary_vi": [
+        "Tập đoàn công nghệ Google vừa phóng thành công một vệ tinh mang theo bốn bộ vi xử lý tensor chuyên dụng lên quỹ đạo thấp nhằm mục đích thử nghiệm khả năng vận hành của phần cứng trí tuệ nhân tạo.",
+        "Môi trường không gian với bức xạ mạnh mẽ và nhiệt độ khắc nghiệt sẽ kiểm tra độ bền thực tế của các chip xử lý đồ họa và tensor khi phải hoạt động liên tục mà không có sự can thiệp trực tiếp từ kỹ sư.",
+        "Thành công của dự án này sẽ mở ra kỷ nguyên mới cho việc ứng dụng siêu máy tính và trí tuệ nhân tạo trực tiếp trên vệ tinh, giúp tối ưu hóa việc truyền tải dữ liệu và phân tích hình ảnh vệ tinh theo thời gian thực."
+      ],
+      "summary_en": [
+        "Google has successfully launched a satellite carrying four specialized tensor processing units into low Earth orbit to thoroughly test the operational capabilities of artificial intelligence hardware in harsh environments.",
+        "The extreme space environment featuring intense radiation and severe temperature fluctuations will rigorously examine the actual durability and performance of processors operating continuously without direct engineering maintenance.",
+        "The success of this ambitious project will pioneer a new era for deploying supercomputing and artificial intelligence directly on satellites, optimizing data transmission and real-time satellite imagery analysis."
+      ],
+      "originalTitle": "Google thử nghiệm chip AI trong không gian",
+      "url": "https://genk.vn/google-thu-nghiem-chip-ai-trong-khong-gian-165261005080614182.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "TPU",
+        "Hardware",
+        "Space Tech",
+        "Google"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-05T01:06:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/5/avatar1791162353090-1791162354768193183585.png",
+      "contentSnippet": "VTV.vn - Google đã phóng vệ tinh mang 4 chip TPU lên quỹ đạo thấp để thử nghiệm khả năng hoạt động của chip AI trong môi trường khắc nghiệt của không gian.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0a53e14a6d15e4db",
+      "title_vi": "Chạy mô hình ngôn ngữ lớn chuyên gia hỗn hợp trên một cạc đồ họa đơn: Hướng dẫn thực tế về giảm tải chuyên gia với llama.cpp",
+      "title_en": "Running 100B+ MoE LLMs on a Single RTX 4090: A Practical Guide to Expert Offloading with llama.cpp",
+      "summary_vi": [
+        "Bài viết cung cấp hướng dẫn chi tiết cách vận hành các mô hình ngôn ngữ lớn hỗn hợp vượt mốc một trăm tỷ tham số trên một cạc đồ họa duy nhất nhờ công cụ llama.cpp.",
+        "Kỹ thuật giảm tải chuyên gia cho phép phân bổ thông minh các tham số mô hình giữa bộ nhớ đồ họa và bộ nhớ hệ thống nhằm tối ưu hóa hiệu suất phần cứng.",
+        "Giải pháp này mở ra cơ hội lớn cho các kỹ sư trí tuệ nhân tạo thử nghiệm các mô hình quy mô lớn ngay trên máy tính cá nhân mà không cần đầu tư cụm máy chủ tốn kém."
+      ],
+      "summary_en": [
+        "This article provides a comprehensive guide on operating large mixture of experts language models exceeding one hundred billion parameters on a single graphics card using llama.cpp.",
+        "The expert offloading technique enables smart allocation of model parameters between video memory and system memory to optimize hardware performance for local deployments.",
+        "This solution opens up significant opportunities for artificial intelligence engineers to experiment with large scale models directly on personal computers without expensive server clusters."
+      ],
+      "originalTitle": "Running 100B+ MoE LLMs on a Single RTX 4090: A Practical Guide to Expert Offloading with llama.cpp",
+      "url": "https://viblo.asia/p/running-100b-moe-llms-on-a-single-rtx-4090-a-practical-guide-to-expert-offloading-with-llamacpp-K9Vy82AaLQR",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "LLM",
+        "llama.cpp",
+        "Hardware",
+        "Optimization"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-05T00:34:45.000Z",
+      "contentSnippet": "",
+      "authorName": "EME GUG",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ed9ccdeea5216f6e",
+      "title_vi": "Vibe Coding Thực Chiến: Dùng Trí Tuệ Nhân Tạo Thiết Kế Giao Diện Sang Trọng Và Tái Sử Dụng Thành Phần",
+      "title_en": "Practical Vibe Coding: Using Artificial Intelligence to Design Luxury User Interfaces and Reusable Page Fragments",
+      "summary_vi": [
+        "Bài viết thuộc chuỗi Vibe Coding thực chiến cùng EzyPlatform hướng dẫn kỹ thuật tận dụng trí tuệ nhân tạo để thiết kế giao diện người dùng dựa trên bản tóm tắt thương hiệu chi tiết.",
+        "Hạ tầng thực nghiệm được triển khai trên máy chủ ảo riêng chạy hệ điều hành Ubuntu kết hợp với các cấu hình giao diện thích ứng thông minh và chế độ tối sang trọng.",
+        "Giải pháp giúp lập trình viên tối ưu hóa quy trình phát triển web hiện đại thông qua việc tái sử dụng hiệu quả các thành phần giao diện được tạo tự động bởi trợ lý thông minh."
+      ],
+      "summary_en": [
+        "This practical guide from the Vibe Coding series with EzyPlatform demonstrates the technical approach of leveraging artificial intelligence to design user interfaces based on detailed brand briefs.",
+        "The experimental infrastructure is deployed on a virtual private server running Ubuntu Linux, integrating responsive layout configurations and a sophisticated dark mode aesthetic.",
+        "The solution helps developers optimize modern web development workflows through the efficient reuse of user interface fragments automatically generated by intelligent assistants."
+      ],
+      "originalTitle": "[Vibe Coding Thực Chiến #06] Dùng AI Thiết Kế Giao Diện: Brand Brief, Responsive, Dark Mode Sang Trọng Và Tái Sử Dụng Page Fragments!",
+      "url": "https://viblo.asia/p/vibe-coding-thuc-chien-06-dung-ai-thiet-ke-giao-dien-brand-brief-responsive-dark-mode-sang-trong-va-tai-su-dung-page-fragments-wlVmRk7Z45Z",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "AI",
+        "UI/UX",
+        "Web Development",
+        "Frontend",
+        "EzyPlatform"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-05T00:17:31.000Z",
+      "contentSnippet": "Tác giả: Lee Series: Vibe Coding Thực Chiến Cùng EzyPlatform (#06) Hạ tầng thực nghiệm: VPS Ubuntu 22.04 LTS (157.66.47.xxx) | Domain: https://1576647...",
+      "authorName": "Duong Nguyen",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "59ab8e7a7ae67a28",
+      "title_vi": "iPhone Duo hỗ trợ thay thế lớp phủ chống lóa màn hình với chi phí từ 19 USD",
+      "title_en": "iPhone Duo features replaceable anti-reflective nano-texture screen coating starting at 19 USD",
+      "summary_vi": [
+        "Apple vừa giới thiệu giải pháp mới cho phép bóc tách và thay thế lớp bảo vệ nano texture trên màn hình gập của dòng điện thoại iPhone Duo nhằm khắc phục triệt để vấn đề nếp gấp.",
+        "Công nghệ vật liệu tiên tiến này áp dụng lớp phủ chuyên dụng có khả năng chịu lực uốn cong cao, giúp bảo vệ tấm nền hiển thị khỏi các vết trầy xước trong quá trình sử dụng.",
+        "Việc cung cấp dịch vụ thay thế linh kiện với giá thành hợp lý giúp gia tăng độ bền thiết bị, mở ra hướng đi mới cho thiết kế phần cứng các dòng điện thoại màn hình gập."
+      ],
+      "summary_en": [
+        "Apple has introduced a new solution allowing the removal and replacement of the protective nano-texture layer on the foldable iPhone Duo screen to thoroughly fix crease issues.",
+        "This advanced material technology applies a specialized coating capable of high bending stress resistance, protecting the display panel from scratches during daily usage.",
+        "Providing affordable replacement services increases device durability and establishes a new hardware design paradigm for future foldable mobile devices in the technology industry."
+      ],
+      "originalTitle": "iPhone Duo có thể thay lớp phủ chống lóa với giá từ 19 USD",
+      "url": "https://vnexpress.net/iphone-duo-co-the-thay-lop-phu-chong-loa-voi-gia-tu-19-usd-5128083.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone Duo",
+        "Mobile Hardware",
+        "Foldable Screen"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/04/wm1-wm1-dscf0112-1791070010-7502-1791070420.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=akuKsGdQOAe6cS9X6sagiw",
+      "contentSnippet": "Apple cho biết lớp bảo vệ nano texture trên màn hình gập của iPhone Duo có thể được bóc ra và thay mới, giúp xử lý vấn đề nếu xuất hiện nếp gấp và trầy xước.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "189336d5ea598124",
+      "title_vi": "Apple siết chặt quyền truy cập dữ liệu trên macOS nhằm đối phó rủi ro bảo mật từ AI",
+      "title_en": "Apple Tightens Data Access Controls on macOS to Mitigate AI Security Risks",
+      "summary_vi": [
+        "Apple vừa thông báo kế hoạch thay đổi cơ chế bảo mật trên hệ điều hành macOS nhằm kiểm soát chặt chẽ hơn các ứng dụng trí tuệ nhân tạo yêu cầu quyền truy cập toàn bộ dữ liệu máy tính của người dùng.",
+        "Tính năng Truẹy cập toàn diện ổ đĩa vốn được thiết kế cho các dịch vụ sao lưu đám mây đang bị lạm dụng bởi một số bên, khiến các tác nhân trí tuệ nhân tạo tự chủ đe dọa trực tiếp đến an toàn thông tin cá nhân.",
+        "Hãng sẽ bổ sung các lớp kiểm soát xác thực mới yêu cầu người dùng phải thực hiện hành động xác nhận cực kỳ rõ ràng, giúp nâng cao tính bảo mật và định hình lại cách các công cụ tự động hóa tương tác với hệ thống."
+      ],
+      "summary_en": [
+        "Apple has recently announced plans to modify security mechanisms on the macOS operating system to more strictly control artificial intelligence applications requesting full disk access to user computers.",
+        "The Full Disk Access feature, originally designed for cloud backup services, is being abused by third parties, making autonomous artificial intelligence agents a direct threat to personal information security.",
+        "The company will introduce new authentication control layers requiring users to perform extremely explicit confirmation actions, enhancing security and reshaping how automation tools interact with the system."
+      ],
+      "originalTitle": "Apple siết quyền truy cập dữ liệu trên macOS vì AI",
+      "url": "https://vnexpress.net/apple-siet-quyen-truy-cap-du-lieu-tren-macos-vi-ai-5128081.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Apple",
+        "macOS",
+        "Cybersecurity",
+        "AI",
+        "Data Privacy"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-04T22:34:03.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/03/screen-shot-at-1791034189-7900-1791034251.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=0q_WmTdEIxG4XpbMQ5M6EA",
+      "contentSnippet": "Apple cho biết sẽ thay đổi cơ chế bảo mật trên macOS nhằm kiểm soát chặt chẽ hơn khi các ứng dụng AI yêu cầu truy cập toàn bộ dữ liệu máy tính Mac.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "4e14d35cef7e0bde",
       "title_vi": "Cơ chế Circuit Breaker trong kiến trúc Microservices",
@@ -100,6 +511,41 @@
       "publishedAt": "2026-10-04T17:02:26.000Z",
       "contentSnippet": "",
       "authorName": "Hoàng Việt",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5a1ea27ad999afed",
+      "title_vi": "Cựu Phó Thống đốc New Jersey sử dụng trí tuệ nhân tạo để chứng minh bản thân vô tội trong bê bối quấy rối tình dục",
+      "title_en": "NJ's former Lt Gov is using AI to say he’s innocent of sexual harassment",
+      "summary_vi": [
+        "Cựu Phó Thống đốc bang New Jersey đã phải từ chức sau khi một cuộc điều tra chính thức xác định ông vi phạm nghiêm trọng các quy tắc đạo đức và quấy rối nhân viên cấp dưới.",
+        "Trong một cuộc phỏng vấn truyền thông gần đây, ông đã áp dụng một chiến thuật kỳ lạ khi tuyên bố sử dụng nhiều nền tảng trí tuệ nhân tạo khác nhau để phân tích lại toàn bộ báo cáo điều tra.",
+        "Sự việc này làm nổi bật một xu hướng mới đáng báo động khi các cá nhân vướng vào bê bối cố gắng lợi dụng công nghệ trí tuệ nhân tạo để thao túng thông tin và biện minh cho hành vi sai trái của mình."
+      ],
+      "summary_en": [
+        "The former lieutenant governor of New Jersey was forced to resign following a formal investigation that confirmed he repeatedly violated ethics rules and sexually harassed a staff member.",
+        "During a recent media interview, he adopted a peculiar tactic by claiming he utilized multiple artificial intelligence platforms to reanalyze and dispute the official investigation report.",
+        "This incident highlights a concerning emerging trend where individuals involved in scandals attempt to leverage artificial intelligence technology to manipulate information and justify misconduct."
+      ],
+      "originalTitle": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Artificial Intelligence",
+        "Ethics",
+        "Machine Learning",
+        "Technology Trends"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-04T16:16:04.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2244569411.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Well, if AI said it, it must be true. | Bloomberg via Getty Images New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has been making t",
+      "authorName": "Terrence O’Brien",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -716,6 +1162,40 @@
       "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/02/VNERobot-1790916247-3505-1790916324.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ab7lku2KcSzH4huMRpvnxA",
       "contentSnippet": "Công ty LimX Dynamics công bố robot AI đầu tiên trang bị kiến trúc điện tử phát triển hoàn toàn trong nước, có thể duy trì vận hành khi hỏng khớp nối, tấn công mạng và nhiễm virus.",
       "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "10bbda1eb3e46934",
+      "title_vi": "Meta mở mã nguồn dự án Muse Gadgets cho phép nhà phát triển tự chế tạo thiết bị chạy trí tuệ nhân tạo",
+      "title_en": "Meta Open-Sources Muse Gadgets Enabling Developers to Build Custom AI Agent Hardware",
+      "summary_vi": [
+        "Tập đoàn Meta vừa chính thức mở mã nguồn dự án Muse Gadgets cùng thiết bị phần cứng bổ trợ Muse Home Link nhằm hỗ trợ các nhà phát triển tự chế tạo các thiết bị phần cứng chuyên dụng chạy trợ lý ảo thông minh.",
+        "Giải pháp này cung cấp các tài nguyên phần cứng mã nguồn mở và giao thức kết nối linh hoạt, cho phép tích hợp trực tiếp các mô hình ngôn ngữ lớn và các tác nhân tự trị vào các thiết bị phần cứng thông minh trong gia đình.",
+        "Động thái này tạo ra bước đột phá lớn trong hệ sinh thái phần cứng trí tuệ nhân tạo, giúp các lập trình viên dễ dàng thử nghiệm và phát triển các sản phẩm phần cứng tích hợp trí tuệ nhân tạo với chi phí tối ưu."
+      ],
+      "summary_en": [
+        "Meta has officially open-sourced the Muse Gadgets project alongside the Muse Home Link hardware dongle to empower developers in building custom physical devices powered by advanced artificial intelligence agents.",
+        "This initiative provides open-source hardware blueprints and flexible communication protocols, enabling the seamless integration of large language models and autonomous software agents into everyday smart home appliances.",
+        "This move marks a significant breakthrough in the artificial intelligence hardware ecosystem, allowing software engineers to easily experiment and develop smart agent-driven devices with optimized deployment costs."
+      ],
+      "originalTitle": "Meta mở mã nguồn Muse Gadgets cho người dùng tự chế thiết bị chạy AI agent Muse, kèm dongle Muse...",
+      "url": "https://tinhte.vn/thread/meta-mo-ma-nguon-muse-gadgets-cho-nguoi-dung-tu-che-thiet-bi-chay-ai-agent-muse-kem-dongle-muse.4181472/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Open Source",
+        "Hardware",
+        "Meta",
+        "IoT"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-03T23:51:59.000Z",
+      "contentSnippet": "Meta mở mã nguồn Muse Gadgets cho người dùng tự chế thiết bị chạy AI agent Muse, kèm dongle Muse Home Link Meta vừa mở một dự án tên Muse Gadgets, cho các nhà phát triển tự làm phần cứng chạy...",
+      "authorName": "nhatminhngo",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8094,487 +8574,6 @@
       "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/LR6B5897.jpeg?quality=90&strip=all&crop=0,0,100,100",
       "contentSnippet": "I used Google’s Nest Doorbell (left), Aqara’s HomeKit-compatible G400 (center), and the Ring Pro 4K (right) to test the new AI features of Gemini for Home, Apple Intelligence for Home, and Amazon’s Ring. | Photo by Jennifer Pattison Tuohy / The Verge A few years back, I was at a beachside Easter egg",
       "authorName": "Jennifer Pattison Tuohy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e10b3dbe25d3c1c4",
-      "title_vi": "Tập đoàn VNPT và Qualcomm Technologies mở rộng hợp tác chiến lược, thúc đẩy đổi mới công nghệ AI biên",
-      "title_en": "VNPT and Qualcomm Technologies expand strategic partnership to drive edge AI innovation",
-      "summary_vi": [
-        "Tập đoàn VNPT chính thức công bố mở rộng hợp tác chiến lược với Qualcomm Technologies tại Hoa Kỳ nhằm đẩy mạnh các giải pháp công nghệ tiên tiến trong kỷ nguyên số.",
-        "Sự hợp tác tập trung vào việc nghiên cứu và phát triển các hệ thống trí tuệ nhân tạo biên, tối ưu hóa hiệu suất xử lý dữ liệu trực tiếp trên thiết bị đầu cuối.",
-        "Sáng kiến này mang lại động lực mới cho thị trường viễn thông và công nghệ trong nước, tạo nền tảng vững chắc để triển khai các ứng dụng thông minh quy mô lớn."
-      ],
-      "summary_en": [
-        "VNPT Group officially announced the expansion of its strategic partnership with Qualcomm Technologies in the United States to accelerate advanced technology solutions for the digital era.",
-        "The collaboration focuses on researching and developing edge artificial intelligence systems, optimizing data processing performance directly on end-user devices and hardware.",
-        "This initiative brings fresh momentum to the domestic telecommunications and technology markets, establishing a solid foundation for deploying large-scale intelligent applications."
-      ],
-      "originalTitle": "VNPT và Qualcomm Technologies mở rộng hợp tác chiến lược, thúc đẩy đổi mới AI biên",
-      "url": "https://genk.vn/vnpt-va-qualcomm-technologies-mo-rong-hop-tac-chien-luoc-thuc-day-doi-moi-ai-bien-165260925193018625.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Qualcomm",
-        "VNPT",
-        "Edge Computing",
-        "Telecommunications"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-25T12:30:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/25/photo1790313257312-1790313257694447981062-1790339422523405659676.jpg",
-      "contentSnippet": "Ngày 23/9/2026, tại New York, Hoa Kỳ (theo giờ địa phương), Tập đoàn VNPT công bố mở rộng hợp tác chiến lược với Qualcomm Technologies, Inc.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0e22337b896dbfe6",
-      "title_vi": "Tám bài viết lập trình xuất sắc từ cộng đồng nữ kỹ sư trên nền tảng DEV xứng đáng được vinh danh",
-      "title_en": "8 Posts by Women on DEV That Deserve More Than a Once-a-Year Spotlight",
-      "summary_vi": [
-        "Bài viết giới thiệu danh sách tám bài viết chuyên sâu về kỹ thuật do các lập trình viên nữ thực hiện trên nền tảng DEV, nhằm tôn vinh những đóng góp thực chất thay vì chỉ dựa vào các chiến dịch đa dạng bề nổi.",
-        "Nội dung các bài viết phân tích chi tiết quá trình tự xây dựng công cụ cào dữ liệu cá nhân thông qua truy vấn GraphQL, kết hợp việc xử lý các thách thức phát sinh khi mở rộng phạm vi ứng dụng.",
-        "Sáng kiến này tạo ra một không gian chia sẻ kiến thức chất lượng cao, giúp cộng đồng lập trình viên tiếp cận những góc nhìn thực tế và các giải pháp sáng tạo trong phát triển phần mềm."
-      ],
-      "summary_en": [
-        "The article introduces a curated list of eight in-depth technical posts written by women on the DEV platform, aiming to celebrate genuine engineering contributions rather than surface-level diversity spotlights.",
-        "The featured content explores the process of building custom web scrapers using GraphQL public data and managing scope creep challenges during practical software development.",
-        "This initiative establishes a high-quality knowledge-sharing space, helping software engineers access realistic perspectives and innovative problem-solving approaches in the tech industry."
-      ],
-      "originalTitle": "8 Posts by Women on DEV That Deserve More Than a Once-a-Year Spotlight",
-      "url": "https://dev.to/sheships/8-posts-by-women-on-dev-that-deserve-more-than-a-once-a-year-spotlight-27dc",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Node.js",
-        "GraphQL",
-        "Web Scraping",
-        "Software Development"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-25T12:06:34.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftnbc2gdakk3qehpieo3u.png",
-      "contentSnippet": "We went looking for good posts by women on DEV. Not \"inspirational,\" not \"diverse\" but just genuinely...",
-      "authorName": "Mika Flowers",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4120886%2F5d1b9ce7-6321-409e-98bd-d4ad78e2a965.png",
-      "upvotes": 53,
-      "commentsCount": 22
-    },
-    {
-      "id": "e69a2844d3d1c8d3",
-      "title_vi": "Xử lý song song SIMD độc lập nền tảng trong ngôn ngữ lập trình Go",
-      "title_en": "Platform-Independent SIMD in Go",
-      "summary_vi": [
-        "Các phiên bản Go gần đây đã tích hợp các giao diện lập trình thử nghiệm cho phép thực hiện các phép toán song song SIMD trên nhiều kiến trúc phần cứng khác nhau mà không cần phải viết mã hợp ngữ phức tạp như trước.",
-        "Công nghệ này giải quyết sự khác biệt lớn về cách biểu diễn vector và kích thước phần cứng giữa các nền tảng thông qua gói archsimd chuyên dụng nhằm tối ưu hóa hiệu năng tính toán cho các tác vụ nặng.",
-        "Sự cải tiến này giúp các lập trình viên dễ dàng khai thác tối đa sức mạnh phần cứng hiện đại cho các ứng dụng trí tuệ nhân tạo, xử lý dữ liệu lớn và bảo mật mà vẫn đảm bảo tính độc lập nền tảng."
-      ],
-      "summary_en": [
-        "Recent versions of Go have integrated experimental application programming interfaces that allow developers to execute parallel SIMD operations across various hardware architectures without writing complex assembly code.",
-        "This technology addresses significant differences in vector representation and hardware sizes across platforms through a dedicated archsimd package designed to optimize computational performance for heavy tasks.",
-        "These improvements enable developers to fully harness modern hardware power for artificial intelligence, big data processing, and security applications while maintaining platform independence."
-      ],
-      "originalTitle": "Platform-Independent SIMD in Go",
-      "url": "https://go.dev/blog/simd-experiment",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Go",
-        "SIMD",
-        "Performance",
-        "Architecture",
-        "Software Engineering"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-25T11:47:06.000Z",
-      "contentSnippet": "David Chase and Junyang Shao 24 September 2026 Go 1.26 and 1.27 include experimental APIs for Single Instruction Multiple Data (SIMD) operations. SIMD is a native feature of many modern CPUs that allows software to perform uniform operations across vectors of data very quickly, such as adding 8 pair",
-      "authorName": "yurivish",
-      "upvotes": 171,
-      "commentsCount": 50
-    },
-    {
-      "id": "a532c9f304306719",
-      "title_vi": "Qualcomm hé lộ khả năng khai tử dòng chip di động Snapdragon 8s vì gây nhầm lẫn",
-      "title_en": "Qualcomm Hints at Discontinuing Snapdragon 8s Mobile Chipset Due to Market Confusion",
-      "summary_vi": [
-        "Qualcomm đang cân nhắc lại chiến lược đặt tên cho dòng vi xử lý di động cao cấp khi liên tục thay đổi từ hệ thống ba chữ số sang các dòng Elite và mới đây nhất là Elite Extreme.",
-        "Trong sự kiện công nghệ gần đây, đại diện hãng thừa nhận cách gọi Snapdragon 8s đã tạo ra sự bối rối đáng kể cho người dùng và thị trường thiết bị di động toàn cầu.",
-        "Sự thay đổi chiến lược này phản ánh nỗ lực của nhà sản xuất bán dẫn nhằm tối ưu hóa danh mục sản phẩm, giúp lập trình viên và người tiêu dùng dễ dàng phân định hiệu năng."
-      ],
-      "summary_en": [
-        "Qualcomm is reconsidering its branding strategy for high-end mobile processors, transitioning from traditional three-digit naming schemes to the newer Elite and Elite Extreme lineups.",
-        "During a recent technology summit, company executives acknowledged that the Snapdragon 8s nomenclature has caused significant confusion among consumers and the global mobile market.",
-        "This strategic shift reflects the semiconductor manufacturer's efforts to optimize its product portfolio, helping developers and consumers easily differentiate hardware performance tiers."
-      ],
-      "originalTitle": "Qualcomm nói về tương lai Snapdragon 8s: Cái tên này có thể sẽ biến mất",
-      "url": "https://genk.vn/qualcomm-noi-ve-tuong-lai-snapdragon-8s-cai-ten-nay-co-the-se-bien-mat-165260925172724487.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Qualcomm",
-        "Snapdragon",
-        "Mobile",
-        "Hardware",
-        "Semiconductor"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-25T10:27:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/25/avatar1790331953762-1790331954115291845698.jpg",
-      "contentSnippet": "Sau Snapdragon 8s Gen 3 và 8s Gen 4, Qualcomm đang cân nhắc về việc có tiếp tục dùng chữ “s” hay không.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ce4b83f3cdfc70cc",
-      "title_vi": "ChatGPT trên Siri chưa đạt kỳ vọng của OpenAI do trải nghiệm người dùng rườm rà",
-      "title_en": "ChatGPT Integration on Siri Falls Short of OpenAI Expectations Due to Complex User Experience",
-      "summary_vi": [
-        "Việc tích hợp mô hình trí tuệ nhân tạo ChatGPT lên trợ lý ảo Siri của Apple đang gặp nhiều khó khăn và không đạt được mức độ sử dụng kỳ vọng từ phía nhà phát triển OpenAI.",
-        "Thông tin từ các hồ sơ pháp lý liên quan đến xAI đã vô tình hé lộ những bất cập trong cơ chế vận hành và trải nghiệm tương tác giữa người dùng với hệ thống tích hợp sâu này.",
-        "Sự việc này đặt ra bài toán lớn cho các kỹ sư phần mềm trong việc tối ưu hóa giao diện lập trình ứng dụng di động để giảm bớt các bước thao tác rườm rà cho người cuối cùng."
-      ],
-      "summary_en": [
-        "The integration of the ChatGPT artificial intelligence model into Apple's Siri virtual assistant is facing significant hurdles and failing to meet the usage expectations of developer OpenAI.",
-        "Information from legal documents regarding xAI has inadvertently revealed shortcomings in the operational mechanics and interactive user experience of this deeply integrated system.",
-        "This event poses a major challenge for software engineers in optimizing mobile application programming interfaces to reduce cumbersome operational steps for end users."
-      ],
-      "originalTitle": "ChatGPT trên Siri không ngon như OpenAI kỳ vọng, người dùng lười xài vì rườm rà",
-      "url": "https://tinhte.vn/thread/chatgpt-tren-siri-khong-ngon-nhu-openai-ky-vong-nguoi-dung-luoi-xai-vi-ruom-ra.4179317/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "ChatGPT",
-        "Siri",
-        "Apple",
-        "OpenAI",
-        "Mobile AI"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-25T09:58:00.000Z",
-      "contentSnippet": "ChatGPT trên Siri không ngon như OpenAI kỳ vọng, người dùng lười xài vì rườm rà Đọc hồ sơ vụ kiện với xAI mới thấy việc đưa ChatGPT lên Siri hóa ra lại là nỗi thất vọng của OpenAI. Hãng thừa nhận...",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "80dce34688f36666",
-      "title_vi": "Táo Khuyết tạm dừng phát triển thiết bị đeo tích hợp trí tuệ nhân tạo có gắn camera",
-      "title_en": "Apple Temporarily Suspends Development of AI Wearable Device with Integrated Camera",
-      "summary_vi": [
-        "Tập đoàn công nghệ Apple vừa quyết định tạm hoãn quá trình nghiên cứu và phát triển dòng sản phẩm thiết bị đeo thông minh tích hợp trí tuệ nhân tạo có gắn camera sau một thời gian thử nghiệm thực tế.",
-        "Quyết định này xuất phát từ những thách thức về kiến trúc phần cứng, mức tiêu thụ năng lượng của các mô hình học máy trên thiết bị di động và bài toán tối ưu hóa thời lượng pin cho phần cứng nhỏ gọn.",
-        "Sự kiện này phản ánh xu hướng thận trọng hơn của các ông lớn công nghệ trong việc thương mại hóa phần cứng AI, đồng thời đặt ra yêu cầu mới về tối ưu hóa thuật toán thị giác máy tính cho các thiết bị đeo thế hệ mới."
-      ],
-      "summary_en": [
-        "Technology giant Apple has recently decided to temporarily postpone research and development on a new line of smart wearable devices integrated with artificial intelligence and cameras after a period of practical testing.",
-        "This decision stems from significant hardware architecture challenges, high power consumption rates of machine learning models on mobile devices, and the complex task of optimizing battery life for compact form factors.",
-        "This event reflects a more cautious approach by tech giants toward commercializing AI hardware while setting new requirements for optimizing computer vision algorithms for next-generation wearable devices."
-      ],
-      "originalTitle": "Apple tạm dừng làm thiết bị đeo AI gắn camera rồi anh em",
-      "url": "https://tinhte.vn/thread/apple-tam-dung-lam-thiet-bi-deo-ai-gan-camera-roi-anh-em.4179061/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Apple",
-        "AI",
-        "Wearables",
-        "Hardware",
-        "Mobile"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-25T09:09:12.000Z",
-      "contentSnippet": "Apple tạm dừng làm thiết bị đeo AI gắn camera rồi anh em Nghe tin Bloomberg bảo Apple vừa hoãn phát triển chiếc thiết bị đeo AI có camera làm mình thấy cũng khá hợp lý. Trước đó họ thử nghiệm một...",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "743ccaaf08c763d3",
-      "title_vi": "Chính phủ Hà Lan xây dựng giải pháp thay thế Microsoft dựa trên NixOS",
-      "title_en": "Dutch governments builds alternative for Microsoft based on NixOS",
-      "summary_vi": [
-        "Cộng đồng DAWO tại Hà Lan đang phát triển một không gian làm việc số hoàn toàn độc lập nhằm giảm sự phụ thuộc vào các tập đoàn công nghệ lớn và bảo vệ giá trị công cộng.",
-        "Hệ thống sử dụng nền tảng NixOS cùng các khối xây dựng mã nguồn mở có khả năng tái tạo cao, cho phép kiểm tra chi tiết và thay thế từng thành phần phần mềm một cách linh hoạt.",
-        "Dự án này mang lại bước đột phá lớn trong việc bảo mật dữ liệu chính phủ, tăng cường khả năng xác thực hạ tầng đám mây và thúc đẩy sự hợp tác minh bạch trong ngành."
-      ],
-      "summary_en": [
-        "The DAWO community in the Netherlands is developing a completely independent digital workspace to reduce reliance on major tech corporations and safeguard public values.",
-        "The system utilizes the NixOS platform along with highly reproducible open source building blocks, allowing for detailed inspection and flexible replacement of software components.",
-        "This project delivers a major breakthrough in securing government data, enhancing cloud infrastructure verification, and promoting transparent industry collaboration."
-      ],
-      "originalTitle": "Dutch governments builds alternative for Microsoft based on NixOS",
-      "url": "https://www.dawo.community/en/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "NixOS",
-        "Open Source",
-        "Cloud Infrastructure",
-        "Government IT",
-        "Digital Autonomy"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-25T08:06:49.000Z",
-      "contentSnippet": "Working together on a digitally autonomous workplace for the Dutch government NederlandsEnglishWorking together on digital autonomyThe DAWO community is an open community in which government, industry and society jointly build a digitally autonomous workplace for the Dutch government. DAWO brings pu",
-      "authorName": "fjfaase",
-      "upvotes": 233,
-      "commentsCount": 93
-    },
-    {
-      "id": "c1e9e6a61d3d1c56",
-      "title_vi": "Bộ vi xử lý Pentium II 600MHz cùng card đồ họa Voodoo 3 chạy giả lập trên 86Box với máy tính Mac Mini M6",
-      "title_en": "Pentium II at 600Mhz with Voodoo 3 Emulated on 86Box with M6 Mac Mini",
-      "summary_vi": [
-        "Công cụ giả lập phần cứng máy tính cổ 86Box đòi hỏi khắt khe về hiệu năng đơn luồng để xử lý chính xác thời gian CPU, tập lệnh chipset và các thiết bị phần cứng cũ nhằm đảm bảo phần mềm thời kỳ đó hoạt động ổn định.",
-        "Bản dựng 86Box mới trên chip Apple Silicon tích hợp trình biên dịch tức thời ARM64 dành cho đồ họa Voodoo, cho phép hệ thống mô phỏng mượt mà máy tính Pentium II tốc độ sáu trăm megahertz cùng các ứng dụng benchmark cổ điển.",
-        "Thành công này minh chứng cho sức mạnh xử lý đơn nhân vượt trội của kiến trúc Apple Silicon trong việc gánh các tác vụ giả lập phần cứng cấp độ thấp vốn phụ thuộc hoàn toàn vào hiệu năng của một luồng xử lý duy nhất."
-      ],
-      "summary_en": [
-        "The 86Box retro PC hardware emulator demands intensive single-threaded performance to accurately process CPU timing, chipset instructions, and legacy peripherals while ensuring period-accurate software behavior without performance guarantees.",
-        "A recent 86Box build on Apple Silicon integrates an ARM64 just-in-time recompiler for Voodoo graphics, enabling smooth emulation of a six hundred megahertz Pentium II machine running classic benchmarking tools and vintage applications.",
-        "This achievement highlights the exceptional single-core processing prowess of Apple Silicon architecture in handling low-level hardware emulation workloads that heavily rely on the performance of a single execution thread."
-      ],
-      "originalTitle": "Pentium II at 600Mhz with Voodoo 3 Emulated on 86Box with M6 Mac Mini",
-      "url": "https://nyaa.sh/reviews/mac-mini-m6-emulation",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Emulation",
-        "Apple Silicon",
-        "Hardware",
-        "Retro Computing",
-        "Performance"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-25T07:27:45.000Z",
-      "contentSnippet": "86Box emulates an old PC at the hardware level. CPU timing, chipset behaviour, ISA and PCI buses, graphics chipsets, sound devices, and disk controllers all matter to getting period software to behave properly. That does not guarantee identical performance to the original hardware, as the Cinebench ",
-      "authorName": "hugh4life",
-      "upvotes": 73,
-      "commentsCount": 26
-    },
-    {
-      "id": "5b99ba2e157ec4e5",
-      "title_vi": "Lỗ hổng CVE-2025-13032: Xâm nhập và phá vỡ vùng cô lập của phần mềm diệt virus Avast Phần 2",
-      "title_en": "CVE-2025-13032: Entering and Breaking the Avast Antivirus Sandbox Part 2",
-      "summary_vi": [
-        "Bài viết nghiên cứu chuyên sâu phần thứ hai và cũng là phần cuối cùng, trình bày chi tiết quá trình khai thác thành công lỗ hổng bảo mật trầm trọng trên hệ điều hành Windows 11 mới nhất.",
-        "Kỹ thuật khai thác tận dụng lỗi truy cập kép trong trình điều khiển nhân để tạo ra khả năng đọc ghi bộ nhớ hạt nhân tùy ý thông qua việc làm hỏng đối tượng I/O Ring.",
-        "Nghiên cứu này mang lại bài học quan trọng về cách thức giảm thiểu rủi ro bảo mật trong lập trình trình điều khiển và cơ chế bảo vệ phân vùng bộ nhớ của hệ thống."
-      ],
-      "summary_en": [
-        "This in-depth research article presents the second and final part, detailing the successful exploitation of a critical security vulnerability on the latest Windows 11 operating system.",
-        "The exploitation technique leverages a double-fetch vulnerability in the kernel driver to achieve arbitrary kernel read and write capabilities by corrupting the I/O Ring object.",
-        "This study provides crucial insights into minimizing security risks in driver programming and strengthening memory isolation mechanisms within modern operating systems."
-      ],
-      "originalTitle": "CVE-2025-13032: Entering and Breaking the Avast Antivirus Sandbox Part 2",
-      "url": "https://www.safateam.com/intelligence-hub/research/technical-articles/cve-2025-13032-entering-and-breaking-the-avast-antivirus-sandbox-part-2",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Kernel Exploit",
-        "Windows Security",
-        "Vulnerability",
-        "Driver"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-09-25T07:03:46.000Z",
-      "contentSnippet": "All postsCVE-2025-13032: Entering and Breaking the Avast Antivirus Sandbox Part 2This post is the second and final part of our Avast Antivirus research, detailing the full exploitation of CVE-2025-13032 on an up-to-date Windows 11 system. Starting from the double-fetch vulnerability introduced in Pa",
-      "authorName": "safateam",
-      "upvotes": 54,
-      "commentsCount": 14
-    },
-    {
-      "id": "9d68bb5e72456384",
-      "title_vi": "Trên tay Snap Specs: Kính thực tế tăng cường hoạt động độc lập với hai bộ vi xử lý Snapdragon chạy song song và hệ thống tản nhiệt bằng titan",
-      "title_en": "Hands-on with Snap Specs: Standalone Augmented Reality Glasses Featuring Dual Parallel Snapdragon Processors and Titanium Thermal Architecture",
-      "summary_vi": [
-        "Bài viết mang đến những trải nghiệm thực tế đầu tiên về mẫu kính thực tế tăng cường độc lập Snap Specs, thiết bị sở hữu những bước tiến đột phá về phần cứng di động và mang lại cảm giác sử dụng hoàn toàn khác biệt so với các dòng kính thông minh truyền thống trên thị trường hiện nay.",
-        "Điểm nhấn kiến trúc phần cứng nằm ở việc tích hợp đồng thời hai bộ vi xử lý Snapdragon chạy song song nhằm tối ưu hóa hiệu năng xử lý đồ họa không gian, kết hợp cùng hệ thống tản nhiệt chất liệu titan tiên tiến giúp duy trì hiệu năng ổn định trong thời gian dài.",
-        "Thiết bị mở ra tiềm năng lớn cho hệ sinh thái phát triển ứng dụng thực tế ảo và thực tế tăng cường độc lập, giảm bớt sự phụ thuộc vào các thiết bị ngoại vi và đặt ra những tiêu chuẩn kỹ thuật mới cho thiết kế phần cứng đeo thông minh."
-      ],
-      "summary_en": [
-        "The article provides first-hand impressions of the standalone Snap Specs augmented reality headset, showcasing breakthrough advancements in mobile hardware and offering a distinctly unique user experience compared to traditional smart glasses currently available on the market.",
-        "The hardware architectural highlight lies in the integration of dual parallel Snapdragon processors designed to optimize spatial graphics processing performance, paired with an advanced titanium thermal cooling system to maintain sustained operational stability.",
-        "This device unlocks significant potential for the standalone augmented reality application development ecosystem, reducing reliance on external peripheral devices and establishing new engineering standards for smart wearable hardware design."
-      ],
-      "originalTitle": "Trên tay Snap Specs: Kính AR hoạt động độc lập, 2 chip Snapdragon chạy song song, tản nhiệt titanium",
-      "url": "https://tinhte.vn/thread/tren-tay-snap-specs-kinh-ar-hoat-dong-doc-lap-2-chip-snapdragon-chay-song-song-tan-nhiet-titanium.4179501/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "AR",
-        "Snapdragon",
-        "Mobile Hardware",
-        "Wearables",
-        "Titanium"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-25T05:49:27.000Z",
-      "contentSnippet": "Mình vừa có cơ hội trải nghiệm chiếc kính AR độc lập Snap Specs này và phải thừa nhận là nó mang lại một cảm giác rất khác biệt so với những chiếc kính thông minh thông thường. Cầm chiếc kính trên...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e965fb7cb0ca60ea",
-      "title_vi": "Giám đốc Trí tuệ Nhân tạo của Meta gây chú ý với phong cách thời trang tối giản tại sự kiện công nghệ",
-      "title_en": "Meta Chief AI Officer Draws Attention With Minimalist Fashion Style at Tech Event",
-      "summary_vi": [
-        "Tại hội nghị thường niên dành cho nhà phát triển Meta Connect, giám đốc trí tuệ nhân tạo Alexandr Wang đã thu hút sự chú ý lớn từ cộng đồng mạng khi diện chiếc áo phông độc đáo kết hợp cùng dép rằn ri.",
-        "Trang phục được đồn đại là chiếc áo phông cao cấp trị giá hàng trăm đô la mang phong cách thời trang giàu ngầm, phản ánh xu hướng ăn mặc thoải mái nhưng đắt đỏ của các nhân vật tầm cỡ trong ngành công nghệ.",
-        "Sự quan tâm của dư luận đối với ngoại hình của các lãnh đạo công nghệ lớn cho thấy đời sống cá nhân và phong cách sống của họ luôn là tâm điểm chú ý, ảnh hưởng mạnh mẽ đến văn hóa đại chúng."
-      ],
-      "summary_en": [
-        "At the annual Meta Connect developer conference, Chief AI Officer Alexandr Wang drew significant attention from the online community by wearing a unique t-shirt paired with camouflage clogs.",
-        "The outfit, rumored to be a high-end luxury t-shirt worth hundreds of dollars, reflects the quiet luxury fashion trend often adopted by prominent figures in the technology industry.",
-        "Public interest in the appearance of major tech leaders demonstrates that their personal lives and lifestyles remain focal points, strongly influencing modern pop culture and industry trends."
-      ],
-      "originalTitle": "Tỷ phú AI Alexandr Wang gây sốt với chiếc áo 'giàu ngầm'",
-      "url": "https://vnexpress.net/ty-phu-ai-alexandr-wang-gay-sot-voi-chiec-ao-giau-ngam-5124658.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Meta",
-        "AI",
-        "Tech Trends",
-        "Leadership"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-25T04:58:22.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/25/screenshot-1790312289-5197-1790312302.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=VP8I46zt4ejVfT8_yUK3sg",
-      "contentSnippet": "Áo phông lạ mắt của Alexandr Wang, Giám đốc AI của Meta, được cho là áo Hermès trị giá 800 USD.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "3562ff4b1e12416a",
-      "title_vi": "Chế độ lập kế hoạch trong phát triển phần mềm bằng trí tuệ nhân tạo đã lỗi thời",
-      "title_en": "Plan mode is dead",
-      "summary_vi": [
-        "Tác giả chia sẻ trải nghiệm xây dựng một ứng dụng lập trình máy tính dựa trên quy trình lập kế hoạch cho trí tuệ nhân tạo, nhưng nhận ra phương pháp này không còn mang lại hiệu quả cao trong thực tế phát triển phần mềm hiện đại.",
-        "Sự tiến bộ vượt bậc của các mô hình ngôn ngữ lớn giúp tạo ra hàng nghìn dòng mã chỉ trong vài phút, khiến các công cụ lập kế hoạch truyền thống trở nên kém chính xác và không đáp ứng kịp tốc độ thay đổi của hệ thống.",
-        "Các kỹ sư phần mềm cần tìm kiếm những mô hình trừu tượng mới tốt hơn để duy trì mô hình tư duy hệ thống mạch lạc khi trí tuệ nhân tạo tự động hóa hoàn toàn các tác vụ lập trình song song quy mô lớn."
-      ],
-      "summary_en": [
-        "The author shares their experience of building a desktop coding application centered around AI planning, only to realize that traditional planning modes are no longer effective in modern software development workflows.",
-        "Rapid advancements in large language models enable the generation of thousands of lines of code within minutes, rendering conventional planning interfaces obsolete and unable to match the speed of code modification.",
-        "Software engineers must discover better abstraction models to maintain a coherent mental model of system architecture as artificial intelligence automates large scale parallel programming tasks with increasing frequency."
-      ],
-      "originalTitle": "Plan mode is dead",
-      "url": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Software Engineering",
-        "AI Agents",
-        "Coding Assistants",
-        "Tech Startups"
-      ],
-      "hotScore": 84,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-25T03:59:11.000Z",
-      "contentSnippet": "Earlier this year, I believed planning was going to become the most important part of building software with AI. My belief in this idea was so strong that I built and launched an entire desktop coding app around it. Nuanced was motivated by the observation that AI had radically increased the speed a",
-      "authorName": "jmvldz",
-      "upvotes": 337,
-      "commentsCount": 313
-    },
-    {
-      "id": "2bee89eb63bc3507",
-      "title_vi": "Microsoft âm thầm khai tử thương hiệu máy tính cá nhân hỗ trợ trí tuệ nhân tạo",
-      "title_en": "Microsoft is killing off the Copilot Plus PC brand",
-      "summary_vi": [
-        "Tập đoàn Microsoft và Qualcomm dường như đang âm thầm từ bỏ thương hiệu máy tính tích hợp trí tuệ nhân tạo chuyên dụng sau hơn hai năm triển khai chiến dịch quảng bá rộng rãi trên thị trường toàn cầu.",
-        "Các dòng máy tính xách tay và máy tính bảng mới ra mắt dù sở hữu phần cứng mạnh mẽ đạt chuẩn kỹ thuật nhưng đã không còn được nhà sản xuất sử dụng tên gọi quen thuộc trước đây trong các tài liệu thương mại.",
-        "Động thái này cho thấy sự thay đổi chiến lược trong cách đặt tên sản phẩm phần cứng tích hợp công nghệ trí tuệ nhân tạo, tác động đáng kể đến cách thức định vị phân khúc thiết bị thông minh của các hãng lớn."
-      ],
-      "summary_en": [
-        "Microsoft and Qualcomm appear to be quietly abandoning their specialized artificial intelligence personal computer branding strategy after more than two years of widespread promotional campaigns across global markets.",
-        "The newly released laptops and tablets equipped with powerful hardware meeting technical standards are no longer using the previously familiar nomenclature in commercial documentation by the hardware manufacturer.",
-        "This strategic shift indicates a change in how major technology companies brand artificial intelligence integrated hardware products, significantly impacting the market positioning of next generation smart devices."
-      ],
-      "originalTitle": "Microsoft is killing off the ‘Copilot Plus PC’ brand",
-      "url": "https://www.theverge.com/tech/1000495/microsoft-is-killing-off-the-copilot-plus-pc-brand",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Microsoft",
-        "Qualcomm",
-        "AI PC",
-        "Hardware",
-        "Surface"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-25T01:25:53.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/lcimg_d86deab3_6099_437b_b86a_4f36ef6f8ffb.webp?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Microsoft CEO Satya Nadella introducing the company’s Copilot Plus PC initiative. | Image: Allison Johnson Remember when Microsoft wanted everyone to know that \"Copilot Plus PCs\" were the ones to get, because those were the PCs that that'd have enough built-in AI muscle to get things done? Two and a",
-      "authorName": "Sean Hollister",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4794aacb641cc52d",
-      "title_vi": "Công nghệ nâng chuẩn màu sắc và độ sáng trên dòng TV thông minh LG",
-      "title_en": "LG Enhances Color Accuracy and Brightness Standards in New Smart TVs",
-      "summary_vi": [
-        "Hãng công nghệ LG chính thức giới thiệu các dòng TV Micro RGB evo và Mini RGB evo tích hợp công nghệ hiển thị tiên tiến nhằm nâng cao chất lượng màu sắc và độ sáng.",
-        "Hệ thống phần cứng kết hợp bộ xử lý AI Alpha 11 thế hệ thứ ba cùng kiến trúc Dual AI Engine giúp tối ưu hóa thuật toán xử lý hình ảnh và âm thanh theo thời gian thực.",
-        "Bước đột phá này mang lại độ chính xác cao trong việc tái tạo không gian màu rộng, phục vụ tốt các tiêu chuẩn khắt khe trong ngành công nghiệp sáng tạo nội dung số."
-      ],
-      "summary_en": [
-        "LG has officially introduced the Micro RGB evo and Mini RGB evo television series integrating advanced display technologies to enhance color accuracy and brightness performance.",
-        "The hardware system combines the third-generation Alpha 11 AI processor with a dual AI engine architecture to optimize real-time image and audio processing algorithms.",
-        "This technological breakthrough delivers high precision in reproducing wide color gamuts, effectively meeting strict standards across the digital content creation industry."
-      ],
-      "originalTitle": "Công nghệ nâng chuẩn màu sắc, độ sáng trên TV LG",
-      "url": "https://vnexpress.net/cong-nghe-nang-chuan-mau-sac-do-sang-tren-tv-lg-5124278.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "AI",
-        "Hardware",
-        "Display Tech",
-        "LG",
-        "Processor"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-25T01:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/24/image2-1790242672-6112-1790242764.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=OF701t3jpdKuwz8e-Grg2w",
-      "contentSnippet": "TV LG Micro RGB evo và Mini RGB evo tích hợp công nghệ RGB mở rộng độ chuẩn màu, Micro Dimming Ultra tăng chất lượng hiển thị.",
-      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     }
