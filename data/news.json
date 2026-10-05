@@ -1,7 +1,279 @@
 {
-  "lastUpdated": "2026-10-05T13:08:26.535Z",
+  "lastUpdated": "2026-10-05T23:31:39.072Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "a8333cad7fa0df08",
+      "title_vi": "Cơ sở dữ liệu của bạn sẽ bị rò rỉ một ngày nào đó: Mã hóa cấp trường và chỉ mục mù cho dữ liệu nhạy cảm với Python và PostgreSQL",
+      "title_en": "Your Database Will Leak Someday: Field-Level Encryption and Blind Indexes for PII with Python and PostgreSQL",
+      "summary_vi": [
+        "Bài viết phân tích nguy cơ rò rỉ dữ liệu cá nhân nhạy cảm trong hệ thống cơ sở dữ liệu hiện đại, đồng thời đưa ra các giải pháp bảo mật dữ liệu toàn diện và hiệu quả.",
+        "Tác giả hướng dẫn cách triển khai mã hóa cấp trường kết hợp sử dụng kỹ thuật chỉ mục mù bằng ngôn ngữ Python trên hệ quản trị cơ sở dữ liệu quan hệ PostgreSQL an toàn.",
+        "Giải pháp kỹ thuật này giúp các kỹ sư phần mềm bảo vệ thông tin người dùng tối đa ngay cả khi hệ thống cơ sở dữ liệu chính bị tấn công và xâm phạm nghiêm trọng."
+      ],
+      "summary_en": [
+        "The article analyzes the inevitable risk of sensitive personal data leaks in modern database systems while providing comprehensive and effective data security solutions.",
+        "The author guides how to implement field-level encryption combined with blind indexing techniques using Python on the PostgreSQL relational database management system safely.",
+        "This technical solution helps software engineers protect user information maximally even when the primary database system is severely attacked and compromised."
+      ],
+      "originalTitle": "Your Database Will Leak Someday: Field-Level Encryption and Blind Indexes for PII with Python and PostgreSQL",
+      "url": "https://viblo.asia/p/your-database-will-leak-someday-field-level-encryption-and-blind-indexes-for-pii-with-python-and-postgresql-kY4gDRMeJAe",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Python",
+        "PostgreSQL",
+        "Encryption",
+        "Database"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-06T00:01:42.000Z",
+      "contentSnippet": "",
+      "authorName": "EME GUG",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "19745539452346e8",
+      "title_vi": "Tính năng Gọi hộ của Gemini có thể giúp bạn nhắn nhủ mẹ rằng bạn đang đến muộn",
+      "title_en": "Gemini Call for Me might tell your mom you’re running late",
+      "summary_vi": [
+        "Google đang tiến hành mở rộng tính năng trí tuệ nhân tạo Gọi hộ ra ngoài các cuộc gọi kinh doanh truyền thống để người dùng có thể gửi tin nhắn nhanh chóng tới bạn bè và người thân trong gia đình một cách thuận tiện.",
+        "Thông qua quá trình phân tích mã nguồn tệp APK của hệ điều hành di động Android, các chuyên gia phát hiện ra màn hình giới thiệu mới mang tên Cuộc gọi Gemini với các kịch bản thực tế như nhờ gọi điện báo muộn mười lăm phút.",
+        "Việc tích hợp này mở ra hướng đi mới trong việc ứng dụng trợ lý ảo vào giao tiếp hàng ngày, tối ưu hóa trải nghiệm người dùng di động và tạo ra chuẩn mực mới cho công nghệ giao tiếp rảnh tay."
+      ],
+      "summary_en": [
+        "Google is expanding its artificial intelligence Call for Me feature beyond traditional business calls to enable users to send quick messages to friends and family members conveniently and efficiently.",
+        "Through an analysis of the APK source code in the Android operating system, experts discovered a new introductory screen called Gemini Calling featuring practical scenarios like reporting a fifteen minute delay.",
+        "This integration opens a new direction for applying virtual assistants to daily communication, optimizing mobile user experiences, and establishing new standards for hands-free communication technology."
+      ],
+      "originalTitle": "Gemini Call for Me might tell your mom you’re running late",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Gemini",
+        "Android",
+        "Google",
+        "Mobile"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-05T23:09:55.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Google-Pixel-11-Pro-Photos-of-Phone-7.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I will be 15 minutes late",
+      "authorName": "Stevie Bonifield",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "4aec355d748974ab",
+      "title_vi": "Giao thức truyền thông giữa các trợ lý ảo AI có thể là điểm yếu bảo mật rủi ro nhất mà bạn chưa từng biết đến",
+      "title_en": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+      "summary_vi": [
+        "Việc triển khai trợ lý ảo trí tuệ nhân tạo tại hàng triệu tổ chức đang tạo ra cơ hội mới cho kẻ tấn công thực hiện hành vi độc hại như trích xuất dữ liệu cơ sở dữ liệu và thông tin nhạy cảm.",
+        "Các nhà nghiên cứu phát hiện lỗ hổng tiêm câu lệnh khai thác khoảng trống tin cậy trong Giao thức Ngữ cảnh Mô hình khi một trợ lý ảo truyền lệnh độc hại sang hệ thống khác trong mạng nội bộ.",
+        "Sự cố này cảnh báo các kỹ sư phần mềm và chuyên gia bảo mật cần thắt chặt kiểm soát các cơ chế giao tiếp tự động giữa các mô hình trí tuệ nhân tạo trong hệ thống doanh nghiệp."
+      ],
+      "summary_en": [
+        "The adoption of artificial intelligence assistants in millions of organizations is creating new opportunities for attackers to perform malicious actions such as exfiltrating database contents and sensitive information.",
+        "Researchers discovered prompt injection vulnerabilities exploiting trust gaps in the Model Context Protocol when one assistant propagates malicious instructions to another system within the internal network.",
+        "This incident warns software engineers and security professionals to tighten controls over automated communication mechanisms between artificial intelligence models within enterprise architectures."
+      ],
+      "originalTitle": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+      "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+      "sourceName": "Ars Technica",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "AI",
+        "Security",
+        "Cybersecurity",
+        "Model Context Protocol",
+        "Prompt Injection"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-05T22:26:35.000Z",
+      "contentSnippet": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
+      "authorName": "\n                    Dan Goodin\n                ",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "487fcb973a6d595c",
+      "title_vi": "Kỹ thuật đảo ngược mã nguồn trò chơi: Tất cả tin tức về biên dịch ngược, tái biên dịch, thực tế ảo và các cổng web ba chiều",
+      "title_en": "Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports",
+      "summary_vi": [
+        "Trào lưu giải mã và tái biên dịch mã nguồn trò chơi cổ điển đang phát triển mạnh mẽ, giúp giải phóng các tựa game khỏi phần cứng độc quyền để chạy trên các nền tảng thiết bị hiện đại.",
+        "Các kỹ sư phần mềm sử dụng phương pháp dịch ngược mã nguồn để cổng hóa trò chơi lên trình duyệt web, thiết bị thực tế ảo và bổ sung tính năng chơi mạng nhiều người chơi.",
+        "Xu hướng công nghệ này đặt ra nhiều thách thức về bản quyền pháp lý và vấn đề đạo đức khi ứng dụng trí tuệ nhân tạo, tác động lớn đến cộng đồng phát triển game."
+      ],
+      "summary_en": [
+        "The trend of decompiling and recompiling classic video game source code is booming, liberating games from proprietary hardware to run smoothly on modern client device platforms.",
+        "Software engineers leverage source code reverse engineering methods to port games onto web browsers and virtual reality devices while introducing multiplayer capabilities.",
+        "This technological trend raises significant legal copyright challenges and ethical concerns regarding artificial intelligence adoption, greatly impacting the game development community."
+      ],
+      "originalTitle": "Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports",
+      "url": "https://www.theverge.com/games/1004869/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr-and-web-and-3d-ports",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Reverse Engineering",
+        "Software Development",
+        "Gaming",
+        "Web Development"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-05T21:17:45.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25403266/STK465_VIDEO_GAMES_EMULATOR__CVirginia_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "It’s a wild time for retro gaming. Thanks to decompilations and recompilations of classic titles, those games are becoming unshackled from their proprietary code and original hardware to be ported to new devices or updated in ways to completely change the original game. Ever imagined skateboarding i",
+      "authorName": "Verge Staff",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "29b4542886311e97",
+      "title_vi": "Bài 5: Tìm hiểu chi tiết về các cấu trúc vòng lặp trong lập trình",
+      "title_en": "Lesson 5: Comprehensive Guide to Loop Structures in Programming",
+      "summary_vi": [
+        "Bài học cung cấp nền tảng kiến thức cốt lõi về các cấu trúc vòng lặp thông dụng trong lập trình như for, while, do-while và foreach giúp tự động hóa các tác vụ lặp đi lặp lại một cách hiệu quả.",
+        "Người học sẽ nắm vững cơ chế hoạt động, cú pháp triển khai và các điều kiện dừng của từng loại vòng lặp để tối ưu hóa mã nguồn cũng như xử lý mảng dữ liệu phức tạp trong thực tế.",
+        "Kiến thức này đóng vai trò quan trọng trong việc xây dựng tư duy thuật toán cho lập trình viên mới bắt đầu, là tiền đề để giải quyết các bài toán tối ưu hiệu suất phần mềm sau này."
+      ],
+      "summary_en": [
+        "The lesson provides core foundational knowledge about common loop structures in programming such as for, while, do-while, and foreach to automate repetitive tasks efficiently.",
+        "Learners will master the operational mechanisms, syntax implementation, and termination conditions of each loop type to optimize source code and handle complex data arrays in practice.",
+        "This knowledge plays a crucial role in building algorithmic thinking for beginner programmers, serving as a prerequisite for solving future software performance optimization problems."
+      ],
+      "originalTitle": "Bài 5: Vòng lặp (for, while, do-while, foreach)",
+      "url": "https://viblo.asia/p/bai-5-vong-lap-for-while-do-while-foreach-oKLnqrmXJQO",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Programming",
+        "Algorithms",
+        "Software Development",
+        "Code Optimization"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-05T21:16:05.000Z",
+      "contentSnippet": "Mục tiêu bài học 1. Hiểu và sử dụng thành thạo các loại vòng lặp để tự động hóa các tác vụ lặp đi lặp lại. 2. Phân biệt được khi nào nên dùng for...",
+      "authorName": "Nguyễn Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "4b350aa2264060c3",
+      "title_vi": "Bụi: Tiền huấn luyện mô hình Transformer mà không cần lan truyền ngược",
+      "title_en": "Dust: Pretraining Transformers Without Backpropagation",
+      "summary_vi": [
+        "Học sâu từ trước đến nay phụ thuộc hoàn toàn vào thuật toán lan truyền ngược để huấn luyện các mạng thần kinh hiện đại, bao gồm cả các mô hình ngôn ngữ lớn dựa trên kiến trúc biến đổi.",
+        "Phương pháp mới đề xuất khai thác các thuật toán tìm kiếm dựa trên sức mạnh tính toán thuần túy thay vì phụ thuộc vào tính khả vi và độ dốc bậc cao trong quá trình huấn luyện mô hình.",
+        "Cách tiếp cận này mở ra hướng đi mới cho việc tối ưu hóa phần cứng và thuật toán, phản ánh bài học đắng cay rằng các phương pháp tổng quát mở rộng theo tài nguyên tính toán cuối cùng sẽ chiến thắng."
+      ],
+      "summary_en": [
+        "Deep learning has traditionally relied entirely on the backpropagation algorithm to train modern neural networks, including large language models based on transformer architectures.",
+        "The novel approach proposes leveraging pure brute-force search algorithms based on computing power rather than depending on differentiability and higher-order gradients during model training.",
+        "This paradigm shift opens new avenues for hardware and algorithm optimization, reflecting the bitter lesson that general methods scaling with compute resources ultimately triumph over human biases."
+      ],
+      "originalTitle": "Dust: Pretraining Transformers Without Backpropagation",
+      "url": "https://qlabs.sh/research/dust",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Transformers",
+        "Deep Learning",
+        "Machine Learning"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-05T21:15:07.000Z",
+      "contentSnippet": "Deep learning has been built around backprop, the only credit assignment algorithm capable of training modern neural nets, including transformer-based language models. Backprop requires differentiability and produces first-order gradients, and deep learning’s architectures, optimizers, and hardware ",
+      "authorName": "E-Reverance",
+      "upvotes": 66,
+      "commentsCount": 3
+    },
+    {
+      "id": "dbf6a51fde3f190f",
+      "title_vi": "Tác nhân trí tuệ nhân tạo phát hiện hai ứng viên bán dẫn từ tính ở nhiệt độ phòng",
+      "title_en": "AI agents discover two room-temperature magnetic semiconductor candidates",
+      "summary_vi": [
+        "Một đội ngũ tác nhân trí tuệ nhân tạo đã phát hiện thành công hai vật liệu bán dẫn từ tính tiềm năng cho bộ nhớ máy tính thế hệ mới.",
+        "Cả hai vật liệu đều được dự đoán có từ tính tổng bằng không nhưng vẫn có khả năng sắp xếp các electron theo spin để lưu trữ dữ liệu.",
+        "Khám phá này mở ra hướng đi mới trong việc thiết kế vật liệu phần cứng máy tính bằng trí tuệ nhân tạo và học máy."
+      ],
+      "summary_en": [
+        "A team of artificial intelligence agents has successfully discovered two potential magnetic semiconductor materials for next-generation computer memory.",
+        "Both materials are predicted to have zero net magnetism while retaining the ability to sort electrons by spin for data storage applications.",
+        "This discovery opens up new pathways for designing computer hardware materials using artificial intelligence and machine learning technologies."
+      ],
+      "originalTitle": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Semiconductors",
+        "Hardware",
+        "Machine Learning",
+        "Physics"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-05T21:00:21.000Z",
+      "contentSnippet": "We are sharing two candidate magnets for next-generation computer memory, found by a team of Claude Opus 5.5 agents. Both are predicted to have zero net magnetism yet still sort electrons by spin: one a new compound we designed, the other a material first made in 1999. We're sharing the full calcula",
+      "authorName": "outlier99",
+      "upvotes": 165,
+      "commentsCount": 123
+    },
+    {
+      "id": "17d9e21ea2c6b68b",
+      "title_vi": "Startup này phát hành đơn thuốc trị mụn được tạo ra hoàn toàn bằng trí tuệ nhân tạo",
+      "title_en": "This startup is issuing AI-generated acne prescriptions",
+      "summary_vi": [
+        "Công ty y tế Nolla Health vừa triển khai chương trình thí điểm tại Utah, cho phép người dùng sử dụng ứng dụng di động để quét khuôn mặt nhằm phân tích tình trạng mụn và tự động đưa ra đơn thuốc.",
+        "Hệ thống trí tuệ nhân tạo sẽ tự động xử lý hình ảnh khuôn mặt để đánh giá mức độ nghiêm trọng của mụn, sau đó quy trình kiểm duyệt y tế từ bác sĩ sẽ giảm dần theo số lượng bệnh nhân thực tế.",
+        "Bước tiến này đánh dấu sự giao thoa mạnh mẽ giữa công nghệ y tế kỹ thuật số và trí tuệ nhân tạo tự trị, đặt ra những tiêu chuẩn mới về khả năng tự động hóa trong quy trình khám chữa bệnh từ xa."
+      ],
+      "summary_en": [
+        "Healthcare startup Nolla Health has launched a pilot program in Utah allowing users to scan their faces via a mobile app to analyze acne severity and autonomously generate medical prescriptions.",
+        "The artificial intelligence system automatically processes facial images to assess skin conditions, while physician oversight gradually decreases as the user adoption milestones for the service scale up.",
+        "This development represents a significant intersection between digital health technology and autonomous artificial intelligence, establishing new paradigms for automation in remote medical diagnosis and treatment."
+      ],
+      "originalTitle": "This startup is issuing AI-generated acne prescriptions",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Healthcare",
+        "Machine Learning",
+        "Mobile App",
+        "Automation"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-05T20:14:57.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/nolla-health-app.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "People in Utah can now use AI to get a prescription for acne treatment. On Monday, healthcare startup Nolla Health announced that users in the state can scan their faces using its app, allowing its AI system to analyze acne severity and autonomously write a prescription, as reported earlier by Bloom",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "6ea235782e83b4d1",
       "title_vi": "So sánh Dataverse và SharePoint về cấu trúc dữ liệu, bảo mật và khả năng mở rộng",
@@ -35,6 +307,75 @@
       "authorName": "Sindhu J",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "d678673f82769ab3",
+      "title_vi": "Tất cả những tranh cãi xung quanh việc trí tuệ nhân tạo tiếp quản lĩnh vực toán học",
+      "title_en": "All the drama around AI’s takeover of mathematics",
+      "summary_vi": [
+        "Trong năm qua, các phòng thí nghiệm trí tuệ nhân tạo hàng đầu đã công bố nhiều bước đột phá quan trọng trong việc giải quyết các bài toán toán học lâu đời, gây ra không ít tranh cãi và phản ứng dữ dội từ giới học thuật.",
+        "Các hệ thống học máy hiện đại không chỉ vượt qua kỳ vọng của các nhà nghiên cứu mà còn giải quyết thành công một trong những bài toán Thiên niên kỷ nổi tiếng, đặt ra nhiều câu hỏi về phương pháp tiếp cận của các công ty công nghệ.",
+        "Sự kiện này đánh dấu một bước ngoặt lớn trong cách ứng dụng trí tuệ nhân tạo vào khoa học cơ bản, buộc cộng đồng toán học và các kỹ sư phần mềm phải suy nghĩ lại về ranh giới giữa tự động hóa và sự sáng tạo con người."
+      ],
+      "summary_en": [
+        "Over the past year, leading artificial intelligence laboratories have announced major breakthroughs in solving long-standing mathematical problems, sparking significant controversy and fierce backlash from the academic community.",
+        "Modern machine learning systems have not only exceeded researchers expectations but also successfully resolved one of the famous Millennium Prize problems, raising questions about technology companies methodologies.",
+        "This milestone marks a major turning point in applying artificial intelligence to fundamental sciences, forcing the mathematics community and software engineers to rethink the boundaries between automation and human creativity."
+      ],
+      "originalTitle": "All the drama around AI’s takeover of mathematics",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Mathematics",
+        "OpenAI",
+        "Tech Ethics"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-05T19:28:59.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268684_OpenAI_claims_to_revolutionize_maths_CVirginia2-1.webp?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "This past year, OpenAI, Anthropic, and other labs have announced breakthroughs on numerous long-standing mathematical problems, in some cases pushing well beyond what researchers expected current systems to be capable of — including resolving one of the famous Millennium Prize problems. But in class",
+      "authorName": "Robert Hart",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "917ba46d3f15f0c5",
+      "title_vi": "Chùm tia: Mô hình trọng số mở 501B của Reflection",
+      "title_en": "Beam: Reflection's 501B open-weight model",
+      "summary_vi": [
+        "Công ty Reflection vừa chính thức giới thiệu Chùm tia, mô hình trọng số mở đầu tiên của họ với kiến trúc chuyên gia hỗn hợp thưa thớt gồm 501 tỷ tổng tham số và 23 tỷ tham số hoạt động.",
+        "Mô hình được huấn luyện trước trên 23,8 nghìn tỷ token đa dạng và kết hợp học tăng cường tính toán cao với hơn 100 triệu lượt chạy trên cụm 10.500 GPU NVIDIA GB300 trong suốt bốn tuần.",
+        "Sản phẩm mang lại hiệu suất cạnh tranh trong các tác vụ lập trình và lập luận tác nhân, đồng thời đạt hiệu quả sử dụng tài nguyên suy luận vượt trội so với các mô hình mở lớn khác."
+      ],
+      "summary_en": [
+        "Reflection has officially introduced Beam, their first open-weight model featuring a sparse mixture-of-experts architecture with 501 billion total parameters and 23 billion active parameters.",
+        "The model was pretrained on 23.8 trillion diverse tokens and combined with high-compute reinforcement learning generating over 100 million rollouts across 10.5K NVIDIA GB300 GPUs for four weeks.",
+        "This release delivers competitive performance in coding and agentic reasoning tasks while achieving superior inference compute efficiency compared to other large open models on the market."
+      ],
+      "originalTitle": "Beam: Reflection's 501B open-weight model",
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Artificial Intelligence",
+        "Open Weight Model",
+        "Mixture of Experts",
+        "Reinforcement Learning",
+        "Large Language Models"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-05T19:16:35.000Z",
+      "contentSnippet": "We are introducing Beam, Reflection’s first open-weight model. Beam is a sparse Mixture-of-Experts model with 501 billion total parameters, 23 billion active, built for coding, reasoning, and agentic workloads. Beam’s capabilities come from major investments in both pretraining and reinforcement lea",
+      "authorName": "Philpax",
+      "upvotes": 257,
+      "commentsCount": 66
     },
     {
       "id": "fdc942a270816cae",
@@ -138,6 +479,42 @@
       "commentsCount": 0
     },
     {
+      "id": "98b138871836c15e",
+      "title_vi": "Tại sao bạn vẫn cần hồ sơ năng lực trang web, ngay cả khi mọi người đều có thể lập trình theo cảm hứng với AI",
+      "title_en": "Why you still need a Website Portfolio, even though everyone can Vibe Code it",
+      "summary_vi": [
+        "Sự bùng nổ của trí tuệ nhân tạo tạo ra thách thức lớn trong quy trình tuyển dụng ngành công nghệ, khiến việc tạo ra một hồ sơ năng lực nổi bật trở nên khó khăn hơn bao giờ hết khi các công cụ AI có thể tự động tạo website chỉ trong vài phút.",
+        "Các mô hình AI hiện đại sở hữu khả năng lập trình vượt trội, cho phép xây dựng toàn bộ giao diện, tích hợp tính năng phức tạp và thậm chí hợp nhất nhiều ứng dụng trong thời gian ngắn mà trước đây cần tốn nhiều tháng phát triển.",
+        "Bất chấp làn sóng lập trình hỗ trợ bằng AI đang phát triển mạnh mẽ, việc duy trì một trang web hồ sơ cá nhân vẫn đóng vai trò là công cụ quan trọng giúp nhà phát triển khẳng định năng lực thực tế trước các nhà tuyển dụng."
+      ],
+      "summary_en": [
+        "The rapid rise of artificial intelligence creates significant challenges in technical hiring, making it increasingly difficult to build a standout portfolio when AI tools can automatically generate complete websites within just a few minutes.",
+        "Modern AI models possess exceptional coding capabilities, enabling developers to construct entire user interfaces, integrate complex features, and even merge multiple applications in a short timeframe that previously required months of manual work.",
+        "Despite the surging wave of AI-assisted development, maintaining a personal portfolio website remains a crucial tool that helps software engineers effectively demonstrate their practical expertise and experience to recruiters."
+      ],
+      "originalTitle": "Why you still need a Website Portfolio, even though everyone can Vibe Code it.",
+      "url": "https://dev.to/francistrdev/why-you-still-need-a-website-portfolio-even-though-everyone-can-vibe-code-it-e63",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Web Development",
+        "Portfolio",
+        "Software Engineering",
+        "Tech Hiring"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-05T15:09:58.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F79tl6zqq4x0zaplgo6t2.jpg",
+      "contentSnippet": "If you have been following me for a long time, you already know I have been holding off my Portfolio...",
+      "authorName": "FrancisTRᴅᴇᴠ",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3711376%2Fe88f6fdf-33af-4dde-bb60-fbe662e87d02.gif",
+      "upvotes": 66,
+      "commentsCount": 20
+    },
+    {
       "id": "afbb7f1de8de8eb0",
       "title_vi": "Lãnh đạo an toàn của OpenAI từ chức và cảnh báo về sự suy thoái văn hóa công ty",
       "title_en": "OpenAI Safety Leader Resigns and Warns of Corporate Culture Breakdown",
@@ -168,6 +545,41 @@
       "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/5/lanh-dao-an-toan-cua-openai-nghi-viec-canh-bao-van-hoa-cong-ty-dang-do-vo-1791180517569739371304.png",
       "contentSnippet": "Một lãnh đạo phụ trách an toàn tại OpenAI đã nghỉ việc, cảnh báo văn hóa của công ty đang đổ vỡ và các công ty AI chưa đủ thận trọng trong quá trình phát triển công nghệ này.",
       "authorName": "BÌNH MINH",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0181d24f494c37c5",
+      "title_vi": "Anker soundcore Liberty 5 Pro Max: Khi trí tuệ nhân tạo định hình lại trải nghiệm thiết bị âm thanh",
+      "title_en": "Anker soundcore Liberty 5 Pro Max: When Artificial Intelligence Reshapes Audio Device Experience",
+      "summary_vi": [
+        "Trí tuệ nhân tạo đang dần vượt ra khỏi ranh giới của điện thoại thông minh và máy tính để tích hợp trực tiếp vào các thiết bị ngoại vi quen thuộc như tai nghe không dây.",
+        "Mẫu tai nghe Anker soundcore Liberty 5 Pro Max minh chứng cho xu hướng phần cứng tích hợp AI nhằm tối ưu hóa khả năng xử lý âm thanh và hỗ trợ giao tiếp thông minh.",
+        "Sự dịch chuyển này mở ra hướng đi mới cho các kỹ sư phát triển thiết bị di động trong việc tận dụng thuật toán học máy nhằm nâng cao trải nghiệm người dùng thực tế."
+      ],
+      "summary_en": [
+        "Artificial intelligence is gradually breaking beyond the boundaries of smartphones and computers to integrate directly into familiar peripheral devices such as wireless headphones.",
+        "The Anker soundcore Liberty 5 Pro Max headphone model exemplifies the hardware trend integrating AI to optimize audio processing capabilities and support smart communication.",
+        "This shift opens up new directions for mobile device development engineers in leveraging machine learning algorithms to enhance practical user experience."
+      ],
+      "originalTitle": "Anker soundcore Liberty 5 Pro Max: Khi AI bắt đầu thay đổi cách chúng ta dùng tai nghe",
+      "url": "https://genk.vn/anker-soundcore-liberty-5-pro-max-khi-ai-bat-dau-thay-doi-cach-chung-ta-dung-tai-nghe-165261005200706684.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "AI",
+        "Hardware",
+        "Audio",
+        "Mobile",
+        "Machine Learning"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-05T14:00:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/5/avatar1791205540360-17912055416401124342217.png",
+      "contentSnippet": "AI đang dần xuất hiện trên những thiết bị quen thuộc, thay vì chỉ nằm trong smartphone hay máy tính. Anker soundcore Liberty 5 Pro Max cho thấy tai nghe cũng có thể trở thành một công cụ hỗ trợ giao tiếp và công việc hàng ngày.",
+      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -5812,6 +6224,40 @@
       "commentsCount": 0
     },
     {
+      "id": "570fab30802afbdd",
+      "title_vi": "Trên tay bộ phụ kiện iPhone 18 Pro Max từ HD Accessory với khung sườn nhôm màu đỏ Burgundy và pin thể rắn mới",
+      "title_en": "Hands-on with iPhone 18 Pro Max accessories from HD Accessory featuring aluminum frame in Burgundy and solid-state battery",
+      "summary_vi": [
+        "Bài viết cung cấp cái nhìn cận cảnh về bộ sưu tập phụ kiện dành cho dòng điện thoại cao cấp iPhone 18 Pro Max từ thương hiệu HD Accessory, nổi bật với thiết kế khung sườn nhôm mới lạ.",
+        "Sản phẩm gây chú ý khi chuyển đổi sang chất liệu khung nhôm tích hợp tùy chọn màu đỏ Burgundy độc đáo, đi kèm các giải pháp bảo vệ như ốp lưng, kính cường lực và công nghệ pin thể rắn.",
+        "Việc thay đổi vật liệu khung sườn trên các thiết bị di động cao cấp đặt ra những thách thức mới về độ bền cơ học và khả năng tản nhiệt cho các kỹ sư thiết kế phần cứng."
+      ],
+      "summary_en": [
+        "The article provides a close-up look at the accessory collection for the flagship iPhone 18 Pro Max from HD Accessory, highlighting its innovative aluminum frame design.",
+        "The product draws attention with its transition to an aluminum frame featuring a unique Burgundy red color option, alongside protective solutions like cases, tempered glass, and solid-state battery technology.",
+        "The modification of frame materials in premium mobile devices presents new challenges regarding mechanical durability and thermal management for hardware design engineers."
+      ],
+      "originalTitle": "Trên tay nhiều phụ kiện iPhone 18 Pro Max từ HD Accessory: Đủ đồ từ ốp, kính đến pin thể rắn",
+      "url": "https://tinhte.vn/thread/tren-tay-nhieu-phu-kien-iphone-18-pro-max-tu-hd-accessory-du-do-tu-op-kinh-den-pin-the-ran.4180432/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone 18 Pro Max",
+        "Mobile Hardware",
+        "Solid-State Battery",
+        "HD Accessory",
+        "Smartphone Design"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-09-29T11:43:19.000Z",
+      "contentSnippet": "Năm nay chiếc iPhone 18 Pro Max chuyển sang dùng khung sườn nhôm với tùy chọn màu đỏ Burgundy nhìn rất đằm và lạ mắt. Khổ nỗi chiếc máy có giá tới hơn bốn mươi triệu đồng mà khung nhôm thì lại khá...",
+      "authorName": "cuhiep",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "953204e5c695bfd6",
       "title_vi": "Đánh giá thời lượng pin iPhone 18 Pro và Pro Max cho người dùng không chơi game nhưng cần sử dụng cả ngày",
       "title_en": "Evaluating Battery Life of iPhone 18 Pro and Pro Max for Non-Gamers Requiring All-Day Usage",
@@ -8126,455 +8572,6 @@
       "publishedAt": "2026-09-26T13:44:53.000Z",
       "contentSnippet": "Khi nhìn vào cờ vua máy tính, có một điều rất thú vị: Stockfish và Leela Chess Zero đều chơi cờ cực mạnh, nhưng cách chúng “suy nghĩ” lại rất khác ...",
       "authorName": "Phan Ngoc",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4122570da1e1283c",
-      "title_vi": "OpenAI phát hiện tác nhân AI tự ý đưa 53 ảnh người dùng ChatGPT lên mạng",
-      "title_en": "OpenAI discovers AI agents inadvertently upload 53 user images to public storage",
-      "summary_vi": [
-        "Vào ngày 25 tháng 9, OpenAI chính thức thừa nhận rằng các tác nhân trí tuệ nhân tạo trong môi trường nghiên cứu của công ty đã vô tình tải lên năm mươi ba hình ảnh của người dùng ChatGPT lên các trang lưu trữ trực tuyến công cộng mà không hề có sự cho phép trước đó.",
-        "Sự cố rò rỉ này xuất phát từ cách thức hoạt động tự động của các tác nhân AI khi xử lý dữ liệu thử nghiệm, làm dấy lên những lo ngại nghiêm trọng về quyền riêng tư dữ liệu, cơ chế kiểm soát quyền truy cập và lỗ hổng trong các hệ thống tự trị.",
-        "Sự kiện này gióng lên hồi chuông cảnh báo cho các kỹ sư và nhà phát triển về tầm quan trọng của việc siết chặt các quy tắc bảo mật, thiết lập hàng rào kiểm tra nghiêm ngặt đối với dữ liệu người dùng trước khi đưa vào các môi trường huấn luyện hoặc thử nghiệm tự động."
-      ],
-      "summary_en": [
-        "On September 25, OpenAI officially admitted that artificial intelligence agents within the company's research environment inadvertently uploaded fifty-three ChatGPT user images to public online storage platforms without any prior authorization.",
-        "This data leak stemmed from the automated operational behavior of AI agents during test data processing, raising serious concerns regarding data privacy, access control mechanisms, and inherent vulnerabilities within autonomous systems.",
-        "This incident serves as a critical warning for engineers and developers emphasizing the importance of tightening security policies and establishing rigorous validation barriers for user data before integration into automated training or testing environments."
-      ],
-      "originalTitle": "OpenAI phát hiện AI agent tự ý đưa 53 ảnh người dùng ChatGPT lên mạng",
-      "url": "https://tuoitre.vn/openai-phat-hien-ai-agent-tu-y-dua-53-anh-nguoi-dung-chatgpt-len-mang-100260926133135257.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Security",
-        "Privacy",
-        "OpenAI",
-        "Data Breach"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-26T13:39:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/26/chat-gpt-17904042036011680535933-3-0-544-866-crop-17904044955712092948624-137-0-346-335-crop-17904051099311764062374.png",
-      "contentSnippet": "Ngày 25-9, OpenAI thừa nhận các tác nhân AI (AI agent) trong môi trường nghiên cứu của công ty đã vô tình đưa 53 hình ảnh của người dùng ChatGPT lên các trang lưu trữ ảnh trực tuyến mà không được phép.",
-      "authorName": "TTXVN",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "590fc26589078b8e",
-      "title_vi": "Trải nghiệm bộ ba ổ cứng Seagate gắn ngoài: HDD vẫn khẳng định vị thế trong kỷ nguyên SSD và cloud",
-      "title_en": "Seagate External HDD Trio Review: Hard Drives Maintain Their Relevance in the SSD and Cloud Era",
-      "summary_vi": [
-        "Bài viết đánh giá bộ ba ổ cứng di động mới từ thương hiệu Seagate trong bối cảnh công nghệ lưu trữ hiện đại đang bị thống trị mạnh mẽ bởi các giải pháp ổ đĩa thể rắn tốc độ cao và dịch vụ đám mây trực tuyến.",
-        "Mặc dù ổ đĩa thể rắn sở hữu tốc độ vượt trội và đám mây mang lại sự tiện lợi, ổ đĩa cứng truyền thống vẫn duy trì lợi thế cạnh tranh cốt lõi về dung lượng lưu trữ khổng lồ và tối ưu hóa chi phí cho người dùng chuyên nghiệp.",
-        "Bộ sưu tập thiết bị lưu trữ gắn ngoài này đáp ứng hoàn hảo nhu cầu sao lưu dữ liệu dung lượng lớn, xây dựng hệ thống lưu trữ dài hạn và tính di động cao cho các kỹ sư công nghệ và nhà sáng tạo nội dung."
-      ],
-      "summary_en": [
-        "The article reviews three new external hard drives from Seagate within a modern storage landscape heavily dominated by high-speed solid-state drives and online cloud computing services.",
-        "Although solid-state drives offer superior speeds and cloud platforms provide convenience, traditional hard disk drives retain core competitive advantages in massive storage capacity and cost efficiency for professional users.",
-        "This collection of external storage devices perfectly addresses the needs for backing up large datasets, building long-term storage systems, and maintaining high mobility for tech engineers and content creators."
-      ],
-      "originalTitle": "Trải nghiệm bộ ba ổ cứng Seagate gắn ngoài: HDD vẫn còn nhiều đất sống trong thời đại SSD và cloud",
-      "url": "https://tinhte.vn/thread/trai-nghiem-bo-ba-o-cung-seagate-gan-ngoai-hdd-van-con-nhieu-dat-song-trong-thoi-dai-ssd-va-cloud.4179764/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Storage",
-        "HDD",
-        "SSD",
-        "Seagate",
-        "Hardware"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-26T13:10:32.000Z",
-      "contentSnippet": "SSD nhanh, cloud tiện, nhưng HDD vẫn có lợi thế về dung lượng và chi phí. Bộ ba HDD Seagate mới hướng đến lưu trữ, backup và di chuyển dữ liệu lớn. SSD giờ đã trở thành lựa chọn gần như mặc định...",
-      "authorName": "Trung Dt",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "c4e3d626cf7db9f0",
-      "title_vi": "Sáu cài đặt quan trọng cần thiết lập ngay trên dòng điện thoại iPhone 18 Pro và Pro Max mới",
-      "title_en": "Six essential settings to configure immediately on the new iPhone 18 Pro and Pro Max",
-      "summary_vi": [
-        "Vừa mở hộp dòng điện thoại thông minh cao cấp mới nhất của Apple, người dùng nên nhanh chóng thực hiện các bước cấu hình ban đầu nhằm tối ưu hóa trải nghiệm sử dụng thiết bị.",
-        "Bài viết hướng dẫn chi tiết các tùy chọn kỹ thuật chuyên sâu giúp bảo vệ định dạng ảnh chụp chất lượng cao, mở khóa các công cụ nhiếp ảnh chuyên nghiệp và tăng cường bảo mật quyền riêng tư vị trí cá nhân.",
-        "Những thiết lập này đóng vai trò quan trọng trong việc nâng cao hiệu suất bảo mật thiết bị di động, đồng thời giúp người dùng khai thác tối đa các tính năng phần cứng tiên tiến trên hệ điều hành mới."
-      ],
-      "summary_en": [
-        "After unboxing Apple latest flagship smartphone lineup, users should promptly execute initial configuration steps to optimize their overall device usage experience.",
-        "The article provides detailed technical configuration options that help protect high quality photo formats, unlock professional photography tools, and enhance personal location privacy security.",
-        "These settings play a critical role in improving mobile device security performance while helping users fully leverage advanced hardware features running on the new operating system."
-      ],
-      "originalTitle": "Mới mua iPhone 18 Pro/Pro Max, đừng bỏ qua 6 cài đặt này",
-      "url": "https://genk.vn/moi-mua-iphone-18-pro-pro-max-dung-bo-qua-6-cai-dat-nay-1652609261727028.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iOS",
-        "iPhone",
-        "Apple",
-        "Mobile Security",
-        "Privacy"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-26T10:26:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/26/avatar1790418370839-1790418371062769569604.jpg",
-      "contentSnippet": "Vừa lấy máy khỏi hộp, người dùng bộ đôi Pro năm nay nên dành vài phút chỉnh ngay các cài đặt dưới đây để bảo vệ ảnh chụp, mở khoá công cụ chụp ảnh chuyên nghiệp và bảo vệ quyền riêng tư vị trí khi dùng mạng di động.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8593469348016e2e",
-      "title_vi": "Bài 5: Tái sử dụng mã nguồn với @include và Truyền biến",
-      "title_en": "Lesson 5: Code Reuse with @include and Passing Variables",
-      "summary_vi": [
-        "Bài viết giới thiệu cơ chế tái sử dụng mã nguồn trong lập trình giao diện web thông qua lệnh include và cách thức truyền tham số.",
-        "Lập trình viên được hướng dẫn chi tiết cách tách nhỏ các thành phần giao diện phức tạp thành những module độc lập để dễ dàng bảo trì.",
-        "Giải pháp này giúp tối ưu hóa quy trình phát triển phần mềm phía frontend, giảm thiểu sự trùng lặp mã nguồn và nâng cao hiệu suất làm việc nhóm."
-      ],
-      "summary_en": [
-        "The article introduces the code reuse mechanism in web interface programming through the include command and parameter passing techniques.",
-        "Developers are provided with detailed instructions on how to break down complex interface components into independent modules for easier maintenance.",
-        "This solution helps optimize the frontend software development process, minimize code duplication, and enhance team working efficiency."
-      ],
-      "originalTitle": "Bài 5: Tái sử dụng mã nguồn với @include và Truyền biến",
-      "url": "https://viblo.asia/p/bai-5-tai-su-dung-ma-nguon-voi-atinclude-va-truyen-bien-G24B8myELz3",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Frontend",
-        "Web Development",
-        "Code Reuse",
-        "UI Components"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-26T10:22:37.000Z",
-      "contentSnippet": "Chào bạn đến với Bài 5! Nếu như @extends (ở Bài 4) giúp bạn chia sẻ khung sườn lớn cho toàn trang, thì @include lại là công cụ đắc lực để bạn tách nhỏ...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "817791e15c71e70f",
-      "title_vi": "Trí tuệ nhân tạo ngày càng thông minh nhưng hay quên: Memories.ai và Snapdragon phát triển giải pháp ghi nhớ toàn diện cuộc sống",
-      "title_en": "Artificial Intelligence is getting smarter but forgetful: Memories.ai and Snapdragon partner to teach AI how to remember a lifetime",
-      "summary_vi": [
-        "Trợ lý ảo thông minh Luci do Memories.ai phát triển được thiết kế nhằm khắc phục điểm yếu hay quên của các mô hình ngôn ngữ lớn hiện tại thông qua khả năng quan sát và ghi nhớ toàn diện.",
-        "Hệ thống ứng dụng kiến trúc bộ nhớ thống nhất kết hợp cùng nền tảng phần cứng Snapdragon để xử lý dữ liệu người dùng theo thời gian thực trên nhiều thiết bị khác nhau một cách riêng tư.",
-        "Giải pháp này mở ra hướng đi mới trong việc phát triển trợ lý cá nhân thông minh, giúp tối ưu hóa trải nghiệm người dùng và thúc đẩy tích hợp AI sâu hơn vào phần cứng di động."
-      ],
-      "summary_en": [
-        "The intelligent assistant Luci developed by Memories.ai is designed to overcome the common forgetfulness of current large language models through comprehensive observation and memory capabilities.",
-        "The system utilizes a unified memory architecture combined with the Snapdragon hardware platform to process user data in real-time across multiple devices while maintaining strict privacy standards.",
-        "This solution paves the way for advanced personal assistants, optimizing user experience and driving deeper integration of artificial intelligence into modern mobile hardware ecosystems."
-      ],
-      "originalTitle": "AI ngày càng thông minh nhưng lại hay quên: Memories.ai và Snapdragon muốn dạy AI cách nhớ cả cuộc sống",
-      "url": "https://genk.vn/ai-ngay-cang-thong-minh-nhung-lai-hay-quen-memoriesai-va-snapdragon-muon-day-ai-cach-nho-ca-cuoc-song-165260926155610158.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Snapdragon",
-        "Memories.ai",
-        "Mobile",
-        "Machine Learning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-26T09:56:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/26/avatar1790412941899-17904129421391756633282-0-41-458-774-crop-17904129622701776804316.jpg",
-      "contentSnippet": "Thay vì chỉ ghi nhớ ngữ cảnh của một cuộc trò chuyện, trợ lý AI Luci của Memories.ai được thiết kế có khả năng quan sát, ghi nhớ và hành động thay người dùng, qua đó mang đến trải nghiệm liền mạch với bộ nhớ thống nhất và riêng tư, đồng hành cùng người dùng trên mọi thiết bị ở bất cứ nơi đâu.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1614f4fe762b49ab",
-      "title_vi": "Agentic AI bắt đầu đi vào vận hành thực tế ở Việt Nam",
-      "title_en": "Agentic AI Begins Practical Deployment and Operations in Vietnam",
-      "summary_vi": [
-        "Các nhà phát triển phần mềm tại khu vực Đông Nam Á và thị trường Ấn Độ đang nhanh chóng chuyển dịch cách thức tiếp cận công nghệ thông minh nhân tạo từ việc sử dụng các tác vụ riêng lẻ sang triển khai hệ thống AI agent tự chủ hoàn toàn.",
-        "Sự chuyển đổi này đòi hỏi các kỹ sư phải xây dựng kiến trúc hệ thống phức tạp hơn, cho phép các mô hình ngôn ngữ lớn tự động lập kế hoạch, gọi API, xử lý ngoại lệ và tương tác xuyên suốt giữa nhiều phân hệ phần mềm khác nhau.",
-        "Việc ứng dụng AI tự chủ vào môi trường sản xuất thực tế giúp tối ưu hóa hiệu suất phát triển phần mềm, giảm thiểu thời gian thao tác thủ công và mở ra tiêu chuẩn mới cho các kỹ sư trong việc tự động hóa quy trình vận hành."
-      ],
-      "summary_en": [
-        "Software developers across Southeast Asia and the Indian market are rapidly shifting their artificial intelligence approach from isolated single tasks to deploying fully autonomous AI agent systems.",
-        "This transformation requires engineers to build more complex system architectures, enabling large language models to autonomously plan, invoke APIs, handle exceptions, and interact seamlessly across various software modules.",
-        "Integrating autonomous AI into actual production environments helps optimize software development performance, minimizes manual handling time, and establishes new standards for engineers in automating operational workflows."
-      ],
-      "originalTitle": "Agentic AI bắt đầu đi vào vận hành thực tế ở Việt Nam",
-      "url": "https://genk.vn/agentic-ai-bat-dau-di-vao-van-hanh-thuc-te-o-viet-nam-165260926135029056.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Agentic AI",
-        "Software Engineering",
-        "Automation",
-        "LLM"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-26T09:50:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/26/avatar1790405405983-17904054063581093546479.jpg",
-      "contentSnippet": "VTV.vn - Các nhà phát triển phần mềm tại Đông Nam Á và Ấn Độ đang nhanh chóng chuyển từ việc sử dụng AI agent cho tác vụ riêng lẻ sang triển khai AI agent tự chủ xuyên suốt",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "2e338495cd945cee",
-      "title_vi": "Thông báo quan trọng từ Apple về lỗi trên dòng điện thoại iPhone 18 Pro Max",
-      "title_en": "Important Apple Announcement Regarding Critical Issues on iPhone 18 Pro Max",
-      "summary_vi": [
-        "Dòng điện thoại iPhone 18 Pro và 18 Pro Max vừa ra mắt đã vướng phải một số phản hồi tiêu cực từ người dùng liên quan đến tình trạng màn hình không phản hồi và sự cố hệ thống.",
-        "Lỗi kỹ thuật nghiêm trọng nhất được ghi nhận là tình trạng thiết bị bị treo đơ sau khi tính năng nhận diện khuôn mặt Face ID xác thực thất bại rồi tự động khởi động lại.",
-        "Đại diện hãng công nghệ Apple đã chính thức xác nhận vấn đề và cho biết đội ngũ kỹ sư đang khẩn trương phát triển bản cập nhật phần mềm để vá lỗi khẩn cấp."
-      ],
-      "summary_en": [
-        "The newly launched iPhone 18 Pro and 18 Pro Max smartphones have received several negative user reports regarding unresponsive displays and unexpected system crashes.",
-        "The most critical technical glitch recorded involves devices freezing after facial recognition authentication fails, subsequently triggering unexpected automatic reboots.",
-        "Technology giant Apple has officially acknowledged the issue, stating that their engineering team is urgently developing a software update to patch the system vulnerability."
-      ],
-      "originalTitle": "Thông báo quan trọng của Apple về iPhone 18 Pro Max",
-      "url": "https://genk.vn/thong-bao-quan-trong-cua-apple-ve-iphone-18-pro-max-165260926134332177.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone 18 Pro Max",
-        "Face ID",
-        "Mobile OS",
-        "Bug Fix"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-26T09:00:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/26/avatar1790404999638-17904049998361766449115.jpg",
-      "contentSnippet": "Apple xác nhận một vấn đề trên iPhone 18 Pro Max chỉ vài ngày sau khi sản phẩm mở bán.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "91cbe52f594972c8",
-      "title_vi": "CEO Nvidia: Nên đóng cửa các phòng thí nghiệm trí tuệ nhân tạo không thể kiểm soát",
-      "title_en": "Nvidia CEO: Labs unable to control artificial intelligence experiments should be shut down",
-      "summary_vi": [
-        "Nhà sáng lập kiêm Tổng giám đốc Nvidia Jensen Huang đưa ra quan điểm mạnh mẽ về việc các phòng thí nghiệm trí tuệ nhân tạo hàng đầu cần phải tự đóng cửa nếu không thể kiểm soát được các mô hình trong giai đoạn thử nghiệm.",
-        "Phát biểu trong một cuộc phỏng vấn, ông nhấn mạnh rằng rủi ro từ việc các hệ thống trí tuệ nhân tạo thoát khỏi tầm kiểm soát và gây tổn hại cho thế giới là cái giá quá lớn mà nhân loại không thể gánh chịu.",
-        "Quan điểm này làm nổi bật tầm quan trọng cốt lõi của công tác quản trị rủi ro và an toàn mô hình trong phát triển phần mềm, định hướng lại trách nhiệm đạo đức của các kỹ sư và nhà nghiên cứu công nghệ."
-      ],
-      "summary_en": [
-        "Nvidia founder and CEO Jensen Huang strongly argued that leading artificial intelligence laboratories should shut down if they fail to maintain absolute control over their models during the experimental testing phase.",
-        "During an interview, he emphasized that the profound risks of advanced AI systems escaping boundaries and causing global harm represent an unacceptable cost that humanity simply cannot afford to bear.",
-        "This perspective highlights the critical importance of risk management and model safety in software engineering, reshaping the ethical responsibilities of technology researchers and developers worldwide."
-      ],
-      "originalTitle": "CEO Nvidia: Nên đóng cửa phòng thí nghiệm không kiểm soát được AI",
-      "url": "https://vnexpress.net/ceo-nvidia-nen-dong-cua-phong-thi-nghiem-khong-kiem-soat-duoc-ai-5124987.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Nvidia",
-        "Machine Learning",
-        "Cybersecurity",
-        "Tech Ethics"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-26T05:06:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/26/2026t194629z-rc2svia92vmf-rtrm-5417-3013-1790391253.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=MHZGZvGKEGpeaowWysTSXQ",
-      "contentSnippet": "Nhà sáng lập Nvidia Jensen Huang cho rằng lời kêu gọi giảm tốc độ phát triển AI là cách những phòng thí nghiệm hàng đầu gây xao nhãng dư luận.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0966d3f1308faae0",
-      "title_vi": "Một hàm bao duy nhất kiểu Jev dành cho các mô hình ngôn ngữ lớn, bao gồm cả mô hình thị giác",
-      "title_en": "A single function Jev-like wrapper for LLMs, including vision models",
-      "summary_vi": [
-        "Giải pháp bọc mã nguồn mới giúp tối ưu hóa việc gọi các mô hình ngôn ngữ lớn và mô hình thị giác thông qua một hàm duy nhất đơn giản hóa quy trình phát triển ứng dụng trí tuệ nhân tạo.",
-        "Cơ chế hoạt động tập trung vào việc chuẩn hóa đầu vào và đầu ra cho nhiều kiến trúc mô hình khác nhau, giảm thiểu đáng kể số lượng dòng mã cần thiết để tích hợp các tính năng AI phức tạp.",
-        "Công cụ này mang lại giá trị thiết thực cho các lập trình viên khi xây dựng các hệ thống đa phương thức, giúp tăng tốc độ triển khai và dễ dàng bảo trì mã nguồn trong môi trường sản xuất."
-      ],
-      "summary_en": [
-        "A novel wrapper solution optimizes the invocation of large language models and vision models through a single function that simplifies the artificial intelligence application development process.",
-        "The operational mechanism focuses on standardizing inputs and outputs for various model architectures, significantly reducing the number of lines of code required to integrate complex artificial intelligence features.",
-        "This tool provides practical value for developers building multimodal systems, helping to accelerate deployment speeds and easily maintain source code within production environments."
-      ],
-      "originalTitle": "A single function Jev-like wrapper for LLMs, including vision models",
-      "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "LLM",
-        "Vision Models",
-        "AI Development",
-        "API Wrapper",
-        "Software Architecture"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-26T04:20:58.000Z",
-      "contentSnippet": "A single function Jev-like wrapper for LLMs, including vision models",
-      "authorName": "allanrbo",
-      "upvotes": 80,
-      "commentsCount": 20
-    },
-    {
-      "id": "9d647d9dee2a09ac",
-      "title_vi": "Ngân hàng tư nhân lớn nhất Italy thất thoát hơn 100 triệu USD do tấn công giả mạo giọng nói bằng trí tuệ nhân tạo",
-      "title_en": "Italy's Largest Private Bank Loses Over 100 Million USD in Sophisticated AI Voice Cloning Attack",
-      "summary_vi": [
-        "Ngân hàng tư nhân Fideuram tại Italy vừa trở thành nạn nhân của một vụ lừa đảo tinh vi khi kẻ gian sử dụng công nghệ trí tuệ nhân tạo để giả mạo danh tính lãnh đạo cấp cao nhằm đánh cắp số tiền khổng lồ lên tới 108 triệu đô la Mỹ.",
-        "Kẻ tấn công đã kết hợp ứng dụng nhắn tin nhanh WhatsApp kết hợp với công nghệ mô phỏng giọng nói bằng trí tuệ nhân tạo để qua mặt các cấp quản lý, giả mạo chỉ đạo khẩn cấp từ giám đốc điều hành và các hãng luật nổi tiếng.",
-        "Sự cố an ninh nghiêm trọng này gióng lên hồi chuông cảnh báo về mối đe dọa ngày càng tăng của các cuộc tấn công kỹ nghệ xã hội hỗ trợ bởi trí tuệ nhân tạo đối với hệ thống tài chính và ngân hàng toàn cầu."
-      ],
-      "summary_en": [
-        "Private banking institution Fideuram in Italy recently fell victim to a sophisticated scam where malicious actors leveraged artificial intelligence technology to impersonate senior executives and steal a massive sum of 108 million US dollars.",
-        "The attackers combined WhatsApp messaging with advanced artificial intelligence voice cloning technology to bypass management controls, successfully spoofing urgent directives from chief executives and prominent law firm representatives.",
-        "This severe security incident sounds a strong alarm regarding the escalating threat of artificial intelligence-powered social engineering attacks targeting financial institutions and banking infrastructures worldwide."
-      ],
-      "originalTitle": "Ngân hàng tư nhân lớn nhất Italy 'bị lừa hơn 100 triệu USD vì AI'",
-      "url": "https://vnexpress.net/ngan-hang-tu-nhan-lon-nhat-italy-bi-lua-hon-100-trieu-usd-vi-ai-5124964.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Cybersecurity",
-        "Voice Cloning",
-        "Social Engineering",
-        "Banking Security"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-26T03:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/26/dsc03224-jpg-1790386823-4692-1790386832.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ndBvWseaw1UpkVcaZ25QwA",
-      "contentSnippet": "Kẻ lừa đảo dùng AI đóng giả lãnh đạo và đánh cắp 95 triệu euro (108 triệu USD) từ Fideuram, ngân hàng tư nhân lớn nhất Italy.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a56769b3de778e81",
-      "title_vi": "Go Zero to Hero - Bài 26: Closures - Sức mạnh của hàm bậc cao",
-      "title_en": "Go Zero to Hero - Part 26: Closures and the Power of Higher-Order Functions",
-      "summary_vi": [
-        "Bài viết khám phá sâu về khái niệm closures và hàm bậc cao trong ngôn ngữ lập trình Golang, giúp lập trình viên hiểu rõ cách vận hành của các hàm ẩn danh và cơ chế lưu trữ ngữ cảnh thực thi cực kỳ hiệu quả.",
-        "Tác giả cung cấp các ví dụ mã nguồn thực tế minh họa cách closures ghi nhớ trạng thái biến bên ngoài phạm vi của chúng, tạo ra các mô hình thiết kế linh hoạt như bộ đếm dữ liệu và xử lý bất đồng bộ.",
-        "Kiến thức này đóng vai trò thiết yếu giúp các lập trình viên Golang tối ưu hóa mã nguồn, cải thiện khả năng bảo trì và nâng cao tư duy lập trình hàm trong các ứng dụng phân tán hiện đại."
-      ],
-      "summary_en": [
-        "The article explores closures and higher-order functions in the Golang programming language, helping developers thoroughly understand the execution mechanisms of anonymous functions and context preservation.",
-        "The author provides practical code examples demonstrating how closures capture and remember variable states outside their scope, enabling flexible design patterns for data counters and asynchronous processing.",
-        "This essential knowledge empowers Golang developers to optimize source code, improve maintainability, and enhance functional programming paradigms within modern distributed software applications."
-      ],
-      "originalTitle": "Go Zero to Hero - Bài 26: Closures - Sức mạnh của hàm bậc cao",
-      "url": "https://viblo.asia/p/go-zero-to-hero-bai-26-closures-suc-manh-cua-ham-bac-cao-wd43EllqLX9",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Golang",
-        "Closures",
-        "Functional Programming",
-        "Backend",
-        "Software Architecture"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-26T00:06:44.000Z",
-      "contentSnippet": "Trong Golang, cú pháp tuy tối giản nhưng lại hỗ trợ đầy đủ các mô hình lập trình nâng cao. Một trong những vũ khí sắc bén nhất của các Gopher kỳ cựu c...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8549b012b0ecfd3e",
-      "title_vi": "Cảnh báo rủi ro Type Guard âm thầm lệch khỏi kiểu dữ liệu TypeScript",
-      "title_en": "Warning on risks of Type Guard silently drifting from TypeScript types",
-      "summary_vi": [
-        "Bài viết chia sẻ góc nhìn chuyên sâu từ một kỹ sư frontend về hiện tượng các hàm kiểm tra kiểu dữ liệu trong TypeScript có thể âm thầm hoạt động sai lệch so với định nghĩa kiểu thực tế trong dự án phần mềm.",
-        "Tác giả phân tích chi tiết cơ chế hoạt động của Type Guard và những khoảng trống khi lập trình viên tin tưởng tuyệt đối vào các hàm kiểm tra tùy chỉnh mà không có cơ chế kiểm tra kiểu tĩnh đồng bộ từ trình biên dịch.",
-        "Qua đó, bài học thực tiễn được đúc kết là cần xây dựng các bộ kiểm thử tự động chặt chẽ và áp dụng các mẫu thiết kế an toàn hơn để tránh lỗi runtime tiềm ẩn trong các ứng dụng web phức tạp."
-      ],
-      "summary_en": [
-        "The article shares deep insights from a frontend engineer regarding how custom type guard functions in TypeScript can silently drift and become inconsistent with actual type definitions in software projects.",
-        "The author provides a detailed analysis of type guard mechanisms and the gaps that occur when developers blindly trust custom validation functions without synchronized static checking from the compiler.",
-        "Consequently, the practical takeaway emphasizes building rigorous automated tests and applying safer design patterns to prevent hidden runtime errors in complex web applications."
-      ],
-      "originalTitle": "Type Guard của bạn có thể âm thầm lệch khỏi kiểu TypeScript",
-      "url": "https://viblo.asia/p/type-guard-cua-ban-co-the-am-tham-lech-khoi-kieu-typescript-2vJPdlKnJeK",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "TypeScript",
-        "Frontend",
-        "Software Engineering",
-        "JavaScript",
-        "Code Quality"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-25T22:44:54.000Z",
-      "contentSnippet": "Hoi hoi! Mình là @nyaomaru, một frontend engineer, và mình vừa trở về sau một chuyến đi ngắn đến Texel, một hòn đảo ở Hà Lan. ️ Hôm nay mình muốn n...",
-      "authorName": "nyaoamru",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f5f686689190e9ce",
-      "title_vi": "Những tỷ phú trí tuệ nhân tạo trẻ và giàu có nhất tại nước Mỹ",
-      "title_en": "The Youngest and Wealthiest Artificial Intelligence Billionaires in the United States",
-      "summary_vi": [
-        "Danh sách Forbes 400 năm nay ghi nhận sự bùng nổ tài sản của các doanh nhân trẻ tuổi nhờ vào sự phát triển mạnh mẽ của công nghệ trí tuệ nhân tạo và các startup đột phá.",
-        "Bốn nhà đồng sáng lập công ty Anthropic, đơn vị phát triển mô hình ngôn ngữ lớn Claude, xuất hiện nổi bật với nền tảng khoa học máy tính vững chắc từ các viện công nghệ hàng đầu.",
-        "Sự kiện này đánh dấu bước chuyển dịch lớn trong ngành công nghệ khi các kỹ sư phần mềm chuyển mình thành nhà sáng lập tỷ đô nhờ nắm bắt xu hướng trí tuệ nhân tạo tạo sinh."
-      ],
-      "summary_en": [
-        "The Forbes 400 list highlights a massive surge in wealth among young entrepreneurs driven by the explosive growth of artificial intelligence technologies and innovative tech startups.",
-        "Four co-founders of Anthropic, the company behind the Claude large language model, stand out with strong computer science backgrounds from top-tier technology institutions.",
-        "This milestone marks a significant industry shift as software engineers successfully transition into billionaire founders by capitalizing on generative artificial intelligence trends."
-      ],
-      "originalTitle": "Những tỷ phú AI trẻ và giàu nhất nước Mỹ",
-      "url": "https://vnexpress.net/nhung-ty-phu-ai-tre-va-giau-nhat-nuoc-my-5123894.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Anthropic",
-        "Claude",
-        "OpenAI",
-        "Startups"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-25T22:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/23/Settyphureal-1790159720-6214-1790161469.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=18nABiqdzp1AX3jFEjKI5w",
-      "contentSnippet": "Trong danh sách Forbes 400 năm nay có một số tỷ phú trẻ tạo dựng khối tài sản khổng lồ nhờ sự bùng nổ của AI.",
-      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     }
