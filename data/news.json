@@ -1,7 +1,140 @@
 {
-  "lastUpdated": "2026-10-06T04:01:34.876Z",
+  "lastUpdated": "2026-10-06T12:30:30.513Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "eb338d42e08afe13",
+      "title_vi": "Hướng dẫn cài đặt pg_trgm và tạo Trigram Index cho cơ sở dữ liệu PostgreSQL",
+      "title_en": "Guide to Installing pg_trgm and Creating Trigram Indexes in PostgreSQL",
+      "summary_vi": [
+        "Bài viết hướng dẫn chi tiết các bước cần thiết để cài đặt và cấu hình phần mở rộng pg_trgm trong hệ quản trị cơ sở dữ liệu mã nguồn mở phổ biến là PostgreSQL nhằm tối ưu hiệu suất truy vấn.",
+        "Kỹ thuật viên sẽ nắm bắt cách thức kích hoạt extension cũng như áp dụng các phương pháp tạo chỉ mục GIN và GiST trên các cột dữ liệu cụ thể để cải thiện tốc độ tìm kiếm văn bản mờ.",
+        "Giải pháp này mang lại giá trị thực tiễn cao cho các lập trình viên và quản trị cơ sở dữ liệu trong việc xử lý các bài toán tìm kiếm phức tạp và tối ưu hóa hệ thống hiệu năng cao."
+      ],
+      "summary_en": [
+        "The article provides a detailed guide on the essential steps required to install and configure the pg_trgm extension in the popular open-source relational database management system PostgreSQL.",
+        "Database administrators and engineers will learn how to activate the extension and apply GIN and GiST indexing methods on specific data columns to significantly improve fuzzy text search performance.",
+        "This technical solution delivers high practical value for developers and database experts handling complex search operations and optimizing high-performance database infrastructures effectively."
+      ],
+      "originalTitle": "Hướng dẫn cách cài đặt pg_trgm và tạo Trigram Index (GIN/GiST) cho một bảng trong PostgreSQL bằng câu lệnh SQL.",
+      "url": "https://viblo.asia/p/huong-dan-cach-cai-dat-pg-trgm-va-tao-trigram-index-gingist-cho-mot-bang-trong-postgresql-bang-cau-lenh-sql-13VM9lrmVY7",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "PostgreSQL",
+        "Database",
+        "SQL",
+        "Performance"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-06T18:01:52.000Z",
+      "contentSnippet": "Để cài đặt và sử dụng Trigram Index trong PostgreSQL, bạn cần thực hiện hai bước chính: kích hoạt extension pg_trgm và tạo index trên cột mong muốn. ...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5db85376b4238b8a",
+      "title_vi": "Apple ra iOS 27.2 beta 3: Nhảy cóc bản 27.1 để giấu bài cho iPhone Duo",
+      "title_en": "Apple releases iOS 27.2 beta 3: Leap version 27.1 to hide tracks for iPhone Duo",
+      "summary_vi": [
+        "Apple ra iOS 27.2 beta 3: Nhảy cóc bản 27.1 để giấu bài cho iPhone Duo Apple vừa phát hành iOS 27.2 và iPadOS 27.2 beta 3 cho lập trình viên.",
+        "Bản này làm mới ứng dụng Sức khỏe với hai tab Insight.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Apple ra iOS 27.2 beta 3: Nhảy cóc bản 27.1 để giấu bài cho iPhone Duo."
+      ],
+      "summary_en": [
+        "Apple releases iOS 27.2 beta 3: Leap version 27.1 to hide the iPhone Duo Apple has just released iOS 27.2 and iPadOS 27.2 beta 3 for programmers.",
+        "This update refreshes the Health app with two Insight tabs.",
+        "Practical engineering impact and actionable takeaways for developers building with Apple releases iOS 27.2 beta 3: Leap version 27.1 to hide tracks for iPhone Duo."
+      ],
+      "originalTitle": "Apple ra iOS 27.2 beta 3: Nhảy cóc bản 27.1 để giấu bài cho iPhone Duo",
+      "url": "https://tinhte.vn/thread/apple-ra-ios-27-2-beta-3-nhay-coc-ban-27-1-de-giau-bai-cho-iphone-duo.4182132/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple"
+      ],
+      "hotScore": 96,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-06T12:18:09.000Z",
+      "contentSnippet": "Apple ra iOS 27.2 beta 3: Nhảy cóc bản 27.1 để giấu bài cho iPhone Duo Apple vừa phát hành iOS 27.2 và iPadOS 27.2 beta 3 cho lập trình viên. Bản này làm mới ứng dụng Sức khỏe với hai tab Insight...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "2fd084ca1eaee11c",
+      "title_vi": "Bộ đôi điện thoại Pixel 11 Pro và Pro XL đang được giảm giá mạnh 250 USD",
+      "title_en": "The Pixel 11 Pro and Pro XL phones are $250 off",
+      "summary_vi": [
+        "Trong đợt giảm giá tháng Mười của Amazon, dòng điện thoại thông minh cao cấp Pixel 11 Pro và phiên bản Pro XL đã nhận được mức giảm giá hấp dẫn từ 250 USD trở lên, thu hút sự quan tâm lớn từ giới công nghệ.",
+        "Mẫu Pixel 11 Pro tiêu chuẩn với dung lượng lưu trữ 256GB hiện có giá chỉ 849 USD, trong khi phiên bản Pro XL sở hữu mức giảm giá sâu tới 300 USD cùng nhiều cải tiến về camera và tính năng trợ lý ảo tích hợp trí tuệ nhân tạo.",
+        "Việc dòng điện thoại Pro chỉ chênh lệch một khoản nhỏ so với bản tiêu chuẩn mang lại giá trị nâng cấp tuyệt vời cho người dùng, đặc biệt là những ai muốn trải nghiệm công nghệ chụp ảnh tiên tiến và hệ sinh thái di động mới nhất."
+      ],
+      "summary_en": [
+        "During Amazon's October sale event, the flagship Pixel 11 Pro and Pro XL smartphones have received attractive discounts of 250 dollars or more, drawing significant interest from the tech community.",
+        "The base 256GB Pixel 11 Pro model is now priced at just 849 dollars, while the Pro XL version features a steep 300-dollar price cut alongside advanced camera upgrades and integrated artificial intelligence assistant capabilities.",
+        "The minimal price gap between the Pro and standard models offers exceptional upgrade value for users, especially those seeking cutting-edge mobile photography technology and the latest ecosystem enhancements."
+      ],
+      "originalTitle": "The Pixel 11 Pro and Pro XL phones are $250 off",
+      "url": "https://www.theverge.com/gadgets/1003856/pixel-11-pro-xl-amazon-prime-day-deal-sale",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Pixel 11 Pro",
+        "Google",
+        "Smartphones",
+        "Mobile Tech",
+        "AI Assistants"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-06T11:30:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Pixel-11-Pro-HiLight-using-HiLight-Studio-Rainbow.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "The Pixel 11 Pro’s HiLight feature in action. During Amazon’s October sale, the Pixel 11 Pro and Pixel 11 Pro XL are discounted by $250 or more. The base model Pixel 11 Pro with 256GB of storage is only $849 (originally $1,099), $50 lower than the usual price for the base Pixel 11, while the 256GB 1",
+      "authorName": "Brad Bourque",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c1fc42cacb7bff98",
+      "title_vi": "Các ưu đãi công nghệ nổi bật trong sự kiện mua sắm Prime Day tháng Mười",
+      "title_en": "The best October Prime Day tech deals we found",
+      "summary_vi": [
+        "Sự kiện mua sắm lớn Prime Big Deal Days của Amazon chính thức diễn ra với hàng loạt chương trình giảm giá sâu cho các thiết bị điện tử, phần cứng máy tính và phụ kiện thông minh.",
+        "Nhiều sản phẩm công nghệ cao cấp từ các thương hiệu lớn như Apple, Google, Samsung và Sony được áp dụng mức giá ưu đãi hấp dẫn, thu hút sự quan tâm của đông đảo kỹ sư và tín đồ công nghệ.",
+        "Việc tổng hợp các thiết bị di động, máy tính xách tay và phụ kiện mạng giúp người dùng dễ dàng lựa chọn sản phẩm phù hợp với nhu cầu nâng cấp hệ thống làm việc cá nhân."
+      ],
+      "summary_en": [
+        "Amazon's major Prime Big Deal Days shopping event has officially launched with a wide range of deep discounts on electronic devices, computer hardware, and smart accessories.",
+        "Many high-end tech products from major brands such as Apple, Google, Samsung, and Sony are offered at attractive promotional prices, attracting strong interest from engineers and tech enthusiasts.",
+        "Compiling mobile devices, laptops, and networking accessories helps users easily select products that suit their personal work system upgrade needs."
+      ],
+      "originalTitle": "The best October Prime Day tech deals we found",
+      "url": "https://www.theverge.com/gadgets/996983/best-october-prime-day-deal-sale-tech",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Mobile Devices",
+        "Hardware",
+        "Smartphones",
+        "Laptops",
+        "Tech Deals"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-10-06T10:55:05.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268775_October_Prime_Day_DAY_1_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Amazon’s Prime Big Deal Days event has begun, and it lasts through 3AM ET on Thursday, October 8th. We’ve spun through the company’s huge list of deals to find products that Verge readers will like (and that we personally like, too). Prime subscribers can get in on plenty of headphone deals, plus so",
+      "authorName": "Cameron Faulkner",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "14c3816f8e0f777a",
       "title_vi": "Tự viết bộ tạo và đọc mã VietQR bằng JavaScript: TLV, CRC16 và 6 lỗi hay gặp",
@@ -37,6 +170,41 @@
       "commentsCount": 0
     },
     {
+      "id": "5e1322385f9f7503",
+      "title_vi": "Doanh nghiệp tự trị AI: Khi trí tuệ nhân tạo vận hành trực tiếp trong lõi hệ thống",
+      "title_en": "Agentic Enterprise: When Artificial Intelligence Operates Directly Within Core Systems",
+      "summary_vi": [
+        "Sự trỗi dậy của các trợ lý trí tuệ nhân tạo tự trị khi bắt đầu can thiệp sâu vào các hệ thống hoạch định nguồn lực và quản trị quan hệ khách hàng trong doanh nghiệp.",
+        "Kiến trúc hệ thống đòi hỏi sự tái cấu trúc toàn diện về luồng dữ liệu và phương thức phối hợp giữa các mô hình tự trị với con người để đảm bảo hiệu suất.",
+        "Giải pháp này định hình lại tiêu chuẩn vận hành công nghệ, đặt ra thách thức lớn về khả năng tích hợp hệ thống và bảo mật dữ liệu cho các kỹ sư trưởng."
+      ],
+      "summary_en": [
+        "The rise of autonomous artificial intelligence agents as they begin to deeply integrate into enterprise resource planning and customer relationship management systems.",
+        "System architecture requires a comprehensive restructuring of data flows and collaboration methods between autonomous models and humans to ensure optimal performance.",
+        "This solution reshapes technology operational standards, posing major challenges regarding system integration and data security for principal engineers."
+      ],
+      "originalTitle": "Agentic Enterprise: Khi AI đi vào lõi vận hành",
+      "url": "https://genk.vn/agentic-enterprise-khi-ai-di-vao-loi-van-hanh-165261006150804652.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI Agents",
+        "ERP",
+        "CRM",
+        "Enterprise Architecture",
+        "Machine Learning"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-06T09:00:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/6/photo1791263054180-17912630543941035025852-1791274076380499710367.jpg",
+      "contentSnippet": "Khi AI Agent bắt đầu xử lý nghiệp vụ trên ERP/CRM, doanh nghiệp phải giải quyết một bài toán lớn hơn việc lựa chọn mô hình đó là tổ chức lại cách dữ liệu, hệ thống và con người phối hợp.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "d0b1d01462021a06",
       "title_vi": "Trí tuệ nhân tạo buổi sáng: OpenAI bắt đầu gắn thủy vân văn bản ChatGPT tại Liên minh Châu Âu và các xu hướng mới từ Hacker News",
       "title_en": "Morning AI: OpenAI to Implement ChatGPT Text Watermarking in the EU and New Trends from Hacker News",
@@ -67,6 +235,74 @@
       "publishedAt": "2026-10-06T08:27:11.000Z",
       "contentSnippet": "AI Buổi Sáng (06/10/2026): Tiêu điểm OpenAI will start watermarking ChatGPT’s text in the EU và những bước chuyển từ Hacker News Trong phiên buổi sá...",
       "authorName": "Xuân Chinh Trịnh",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0bfe6d5e2f3bdc21",
+      "title_vi": "Ngôn ngữ lập trình Gleam không còn biên dịch ra mã nguồn Erlang nữa",
+      "title_en": "Gleam doesn't compile to Erlang source anymore",
+      "summary_vi": [
+        "Ngôn ngữ lập trình Gleam phiên bản v1.19.0 đã chính thức phát hành với một thay đổi kiến trúc cốt lõi do Giacomo Cavalieri thực hiện nhằm tối ưu hóa bộ sinh mã Erlang.",
+        "Trình biên dịch hiện tại đã chuyển từ việc tạo ra mã nguồn Erlang sang tạo trực tiếp các dạng trừu tượng Erlang dưới định dạng nhị phân, giúp bỏ qua giai đoạn phân tích cú pháp ban đầu.",
+        "Cải tiến này giúp tăng đáng kể tốc độ biên dịch dự án, đồng thời cung cấp metadata chính xác về số dòng mã nguồn giúp cải thiện việc gỡ lỗi hệ thống trên máy ảo BEAM."
+      ],
+      "summary_en": [
+        "The Gleam programming language version v1.19.0 has been officially released featuring a core architectural change implemented by Giacomo Cavalieri to optimize the Erlang code generator.",
+        "The compiler has shifted from generating Erlang source code to directly producing Erlang abstract forms in a binary format, allowing the system to skip the initial parsing phase.",
+        "This enhancement significantly improves project compilation speeds while providing accurate source code line metadata to greatly enhance system debugging on the BEAM virtual machine."
+      ],
+      "originalTitle": "Gleam doesn't compile to Erlang source anymore",
+      "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Gleam",
+        "Erlang",
+        "BEAM",
+        "Compilers",
+        "Software Architecture"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-06T08:08:20.000Z",
+      "contentSnippet": "Gleam is a type-safe and scalable language for the Erlang virtual machine and JavaScript runtimes. Today Gleam v1.19.0 has been published, so let's go over what's new. Over the last few months Giacomo Cavalieri has entirely rewritten Gleam's Erlang code generator that has an entirely different desig",
+      "authorName": "ingve",
+      "upvotes": 74,
+      "commentsCount": 11
+    },
+    {
+      "id": "bd7b03cf6fb0f048",
+      "title_vi": "Tân CEO Apple đặt thiết kế sản phẩm làm ưu tiên hàng đầu",
+      "title_en": "Apple's New CEO Puts Product Design as Top Priority",
+      "summary_vi": [
+        "CEO mới của tập đoàn Apple là John Ternus đã quyết định đưa mảng thiết kế trở lại làm trọng tâm phát triển hàng đầu, áp dụng phong cách quản lý trực tiếp và quyết đoán tương tự như huyền thoại Steve Jobs trong giai đoạn trước.",
+        "Khác với người tiền nhiệm tập trung mạnh vào tối ưu hóa chuỗi cung ứng và chiến lược tài chính, tân CEO xuất thân từ kỹ sư phần cứng này dành phần lớn thời gian làm việc trực tiếp tại phòng nghiên cứu thiết kế phần cứng và giao diện.",
+        "Sự thay đổi chiến lược này đánh dấu bước ngoặt quan trọng trong cách tiếp cận phát triển sản phẩm công nghệ của Apple, tác động trực tiếp đến quy trình đổi mới phần cứng và trải nghiệm người dùng trong hệ sinh thái toàn cầu."
+      ],
+      "summary_en": [
+        "Apple's new CEO John Ternus has decided to bring product design back to the forefront of development, adopting a direct and decisive management style reminiscent of the legendary Steve Jobs from previous eras.",
+        "Unlike his predecessor who heavily focused on supply chain optimization and financial strategy, the hardware engineer-turned-CEO spends most of his working time directly inside the hardware and interface design research labs.",
+        "This strategic shift marks a major turning point in Apple's approach to technology product development, directly impacting the hardware innovation pipeline and user experience across their global ecosystem."
+      ],
+      "originalTitle": "Tân CEO Apple đặt thiết kế làm ưu tiên hàng đầu",
+      "url": "https://vnexpress.net/tan-ceo-apple-dat-thiet-ke-lam-uu-tien-hang-dau-5128759.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Apple",
+        "Hardware Design",
+        "Tech Leadership",
+        "Product Development"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-06T07:07:59.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/05/apple-john-ternus-inline-large-8707-4506-1791210667.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=a2IPb8CuuFCS_9zEzXkYwA",
+      "contentSnippet": "CEO Apple John Ternus đặt thiết kế làm trọng tâm phát triển, áp dụng phong cách làm việc quyết đoán tương tự huyền thoại Steve Jobs.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -136,6 +372,40 @@
       "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/6/package-media-89412282493986329603081-07186496324974182250407-17912557240071330059201.jpg",
       "contentSnippet": "VTV.vn - AI bùng nổ đang làm nhu cầu lưu trữ dữ liệu tăng mạnh, mở ra cơ hội phục hồi và mở rộng sản xuất cho các hãng linh kiện ổ cứng Nhật Bản.",
       "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c49cde258870c083",
+      "title_vi": "Trí tuệ nhân tạo hiện thân bước ra đời thực và những thách thức dữ liệu",
+      "title_en": "Embodied AI steps into the real world facing data and training challenges",
+      "summary_vi": [
+        "Trí tuệ nhân tạo hiện thân đánh dấu bước tiến quan trọng khi đưa các cỗ máy thông minh vào thế giới vật lý để thực hiện những công việc thực tế trong đời sống hàng ngày.",
+        "Quá trình huấn luyện đặc biệt tại Trung Quốc đã giúp bốn robot hoàn thành chương trình đào tạo và nhận các công việc đa dạng như hướng dẫn viên bảo tàng hay kiểm tra nhà máy.",
+        "Xu hướng này đòi hỏi nguồn dữ liệu khổng lồ và sự hợp tác chặt chẽ từ cộng đồng công nghệ để vượt qua các rào cản kỹ thuật trong việc tích hợp robot vào môi trường thực."
+      ],
+      "summary_en": [
+        "Embodied artificial intelligence marks a significant advancement by integrating smart machines into the physical world to perform practical tasks in everyday life.",
+        "A specialized training program in China successfully graduated four robots that secured diverse real-world jobs ranging from museum guides to factory quality inspectors.",
+        "This growing trend demands massive datasets and close collaboration across the tech industry to overcome critical technical barriers in deploying robots into environments."
+      ],
+      "originalTitle": "AI 'hiện thân' để bước chân vào đời thực",
+      "url": "https://vnexpress.net/ai-hien-than-de-buoc-chan-vao-doi-thuc-5128406.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Embodied AI",
+        "Robotics",
+        "Machine Learning",
+        "Data Engineering"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-06T03:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/05/20260928fb09138c57f24c18bf896c-2103-1908-1791195222.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=zuZjx2RGWFjlhCMPqkTsIA",
+      "contentSnippet": "Trí tuệ nhân tạo hiện thân (Embodied AI) được xem là bước tiếp theo để AI tiến vào thế giới vật lý, nhưng vẫn còn rào cản dữ liệu.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8293,283 +8563,6 @@
       "publishedAt": "2026-09-27T15:24:12.000Z",
       "contentSnippet": "Backup thường là mục đầu tiên xuất hiện trong checklist vận hành, nhưng có bản sao dữ liệu không đồng nghĩa hệ thống có thể phục hồi sau sự cố. Một ch...",
       "authorName": "Johnny Nguyen",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "52f08762f5beb003",
-      "title_vi": "Thiết kế nền tảng sản xuất AWS: Khu vực hạ cánh, bảo mật, khả năng phục hồi và khả năng quan sát",
-      "title_en": "Designing AWS Production Foundation: Landing Zone, Security, Resilience, and Observability",
-      "summary_vi": [
-        "Việc khởi chạy các ứng dụng trên môi trường điện toán đám mây Amazon Web Services có thể diễn ra rất nhanh chóng nhưng đòi hỏi kiến trúc sư phải xây dựng nền tảng vững chắc từ giai đoạn ban đầu.",
-        "Bài viết tập trung phân tích các thành phần cốt lõi bao gồm thiết lập vùng hạ cánh doanh nghiệp, cấu hình bảo mật nhiều tầng, tối ưu hóa khả năng chống chịu lỗi hệ thống và giám sát toàn diện.",
-        "Kiến thức này giúp các kỹ sư hệ thống và chuyên gia DevOps xây dựng hạ tầng đám mây đạt chuẩn doanh nghiệp, đảm bảo tính ổn định cao và sẵn sàng vận hành cho các tải công việc lớn."
-      ],
-      "summary_en": [
-        "Launching applications on Amazon Web Services can happen very quickly, but it requires architects to build a solid foundational infrastructure right from the initial phase.",
-        "The article focuses on analyzing core components including enterprise landing zone setup, multi-layered security configuration, system fault-tolerance optimization, and comprehensive observability.",
-        "This knowledge helps systems engineers and DevOps specialists build enterprise-grade cloud infrastructure, ensuring high availability and readiness for large-scale production workloads."
-      ],
-      "originalTitle": "Thiết kế AWS production foundation: Landing zone, security, resilience và observability",
-      "url": "https://viblo.asia/p/thiet-ke-aws-production-foundation-landing-zone-security-resilience-va-observability-ZjJYWP0MVOE",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "AWS",
-        "Cloud Architecture",
-        "DevOps",
-        "Security",
-        "Observability"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-09-27T15:12:38.000Z",
-      "contentSnippet": "Thiết kế AWS production foundation: Landing zone, security, resilience và observability Khởi chạy một ứng dụng trên AWS có thể diễn ra rất nhanh. Một...",
-      "authorName": "Johnny Nguyen",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0abb2c4bf525dfbf",
-      "title_vi": "Đưa OpenAI từ thử nghiệm PoC lên môi trường vận dụng thực tế: Kiến trúc, RAG, đánh giá và tích hợp doanh nghiệp",
-      "title_en": "Scaling OpenAI from Proof of Concept to Production: Architecture, RAG, Evaluation and Enterprise Integration",
-      "summary_vi": [
-        "Bài viết phân tích toàn diện quy trình chuyển đổi các mô hình ngôn ngữ lớn từ giai đoạn thử nghiệm ý tưởng sang môi trường vận hành thực tế cho các doanh nghiệp quy mô lớn.",
-        "Nội dung tập trung sâu vào việc thiết kế kiến trúc hệ thống RAG tối ưu, các phương pháp đánh giá độ chính xác cùng kỹ thuật tích hợp hạ tầng phần mềm phức tạp.",
-        "Giải pháp này mang lại giá trị thiết thực giúp các kỹ sư phần mềm giải quyết bài toán độ trễ, chi phí vận hành và bảo mật dữ liệu doanh nghiệp hiệu quả."
-      ],
-      "summary_en": [
-        "The article provides a comprehensive analysis of transitioning large language models from initial proof of concept stages into robust production environments for enterprise scaling.",
-        "Discussion centers deeply on designing optimal RAG system architectures, rigorous evaluation methodologies for accuracy, and advanced techniques for integrating complex software infrastructures.",
-        "This technical solution delivers practical value by helping software engineers effectively address latency issues, operational costs, and critical enterprise data security requirements."
-      ],
-      "originalTitle": "Đưa OpenAI từ PoC lên production: Architecture, RAG, evaluation và integration trong hệ thống doanh nghiệp",
-      "url": "https://viblo.asia/p/dua-openai-tu-poc-len-production-architecture-rag-evaluation-va-integration-trong-he-thong-doanh-nghiep-8X4EjqpdJN2",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "OpenAI",
-        "RAG",
-        "Architecture",
-        "Enterprise Integration",
-        "Machine Learning"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-27T15:05:17.000Z",
-      "contentSnippet": "Đưa OpenAI từ PoC lên production: Architecture, RAG, evaluation và integration trong hệ thống doanh nghiệp Tạo được một câu trả lời thuyết phục từ LL...",
-      "authorName": "Johnny Nguyen",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e483d8eddbddd998",
-      "title_vi": "Chiến dịch quảng bá rầm rộ cho trợ lý trí tuệ nhân tạo Muse của Giám đốc AI Meta Alexandr Wang",
-      "title_en": "Meta AI Head Alexandr Wang Drives Massive Social Media Campaign for Muse Assistant",
-      "summary_vi": [
-        "Giám đốc trí tuệ nhân tạo của Meta là Alexandr Wang đã đăng tải hơn ba trăm năm mươi bài viết trên mạng xã hội để quảng bá cho trợ lý ảo cá nhân Muse.",
-        "Trợ lý ảo Muse ra mắt vào tháng chín với khả năng tự động hóa các tác vụ phức tạp như đặt bàn, mua sắm, gửi email và tích hợp với nhiều dịch vụ bên thứ ba.",
-        "Sản phẩm này nhanh chóng leo lên vị trí dẫn đầu bảng xếp hạng ứng dụng miễn phí tại Mỹ, đánh dấu bước đột phá mạnh mẽ của Meta trong cuộc đua trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "Meta AI Chief Alexandr Wang posted over three hundred and fifty updates on social media to aggressively promote the new personal artificial intelligence assistant named Muse.",
-        "Launched in September, the Muse assistant automates complex daily tasks such as restaurant reservations, shopping, email management, and deep integration with multiple third-party services.",
-        "The application rapidly climbed to the top of the free app store charts in the United States, marking a significant milestone for Meta in the competitive artificial intelligence landscape."
-      ],
-      "originalTitle": "'Bão bài đăng' về Muse của tỷ phú AI Alexandr Wang",
-      "url": "https://vnexpress.net/bao-bai-dang-ve-muse-cua-ty-phu-ai-alexandr-wang-5125399.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Meta",
-        "Machine Learning",
-        "Mobile Apps",
-        "Tech Trends"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-27T11:21:06.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/27/screenshot20260927170004-17905-8793-6370-1790504040.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=zPZAA3DJe4n4QYPV8Od_7A",
-      "contentSnippet": "Alexandr Wang, Giám đốc AI của Meta, đăng hơn 350 bài về trợ lý AI Muse trên mạng xã hội trong gần ba tuần, từ hài hước đến châm biếm đối thủ.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "752c86a4d07c8551",
-      "title_vi": "Những cạm bẫy tiềm ẩn khi sử dụng lệnh chuyển đổi múi giờ UTC trong Postgres",
-      "title_en": "Footguns with Postgres at time zone UTC",
-      "summary_vi": [
-        "Bài viết phân tích các rủi ro kỹ thuật khi lập trình viên sử dụng sai cách lệnh AT TIME ZONE UTC trong cơ sở dữ liệu PostgreSQL, dẫn đến những sai lệch dữ liệu thời gian nghiêm trọng trong các ứng dụng thực tế.",
-        "Tác giả đi sâu vào cơ chế xử lý kiểu dữ liệu timestamp không có múi giờ, giải thích tại sao việc ép kiểu không đúng cách có thể gây ra lỗi logic khi truy vấn dữ liệu từ các hệ thống phân tán toàn cầu.",
-        "Thông qua bài học này, các kỹ sư phần mềm cần chú trọng hơn vào việc thiết lập múi giờ chuẩn ngay từ cấp độ ứng dụng và cơ sở dữ liệu để đảm bảo tính toàn vẹn và nhất quán của dữ liệu thời gian."
-      ],
-      "summary_en": [
-        "The article analyzes technical risks when developers incorrectly use the AT TIME ZONE UTC command in PostgreSQL databases, which often leads to significant time data discrepancies within real-world production applications and complex system architectures.",
-        "The author dives deep into the handling mechanism of timestamp without time zone data types, explaining why improper casting can cause logical errors when querying data across distributed systems operating in multiple global regions.",
-        "Through these insights, software engineers should prioritize establishing standardized time zone configurations at both the application and database levels to ensure the long-term integrity and consistency of critical time-based data records."
-      ],
-      "originalTitle": "Footguns with Postgres \"at time zone 'UTC'\"",
-      "url": "https://bookofrevenue.com/blog/6ab81e9a97a13f0001f7e4e1/postgres-at-time-zone-u-does-not-do-what-you-think-it-does",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "PostgreSQL",
-        "Database",
-        "Backend",
-        "SQL",
-        "Timezone"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-27T10:19:51.000Z",
-      "contentSnippet": "Footguns with Postgres \"at time zone 'UTC'\"",
-      "authorName": "birdculture",
-      "upvotes": 65,
-      "commentsCount": 31
-    },
-    {
-      "id": "bbf28f92318608df",
-      "title_vi": "Đây là mẫu điện thoại iPhone được ưa chuộng nhất và đáng mua ở thời điểm hiện tại",
-      "title_en": "This is the new national favorite iPhone model that is most worth buying right now",
-      "summary_vi": [
-        "Sau khi thế hệ điện thoại thông minh mới nhất ra mắt trên thị trường, một dòng sản phẩm tiền nhiệm đã ghi nhận mức giá giảm sâu chưa từng có.",
-        "Việc điều chỉnh giá bán phần cứng di động này tạo cơ hội lớn cho người dùng tiếp cận hệ sinh thái cao cấp với mức chi phí tối ưu hơn rất nhiều.",
-        "Sự kiện này tác động tích cực đến thị trường thiết bị di động, thúc đẩy người tiêu dùng nâng cấp thiết bị để trải nghiệm các tính năng phần mềm tiên tiến."
-      ],
-      "summary_en": [
-        "Following the launch of the latest smartphone generation in the market, a predecessor product line recorded an unprecedented deep price drop.",
-        "This adjustment in mobile hardware pricing creates a great opportunity for users to access the high-end ecosystem at a much more optimized cost.",
-        "This event positively impacts the mobile device market, encouraging consumers to upgrade their hardware to experience advanced software features."
-      ],
-      "originalTitle": "Đây là chiếc iPhone \"quốc dân\" mới, đáng mua nhất hiện nay",
-      "url": "https://genk.vn/day-la-chiec-iphone-quoc-dan-moi-dang-mua-nhat-hien-nay-165260927131405245.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iPhone",
-        "Mobile",
-        "Hardware",
-        "Tech Trends",
-        "Smartphone"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-27T09:13:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/27/avatar1790489633796-1790489634347624052892.png",
-      "contentSnippet": "Sau khi thế hệ iPhone 18 ra mắt, có một mẫu máy bỗng chốc rớt giá chạm đáy và trở thành \"món hời\" khó tin.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9660e41fe0a7be34",
-      "title_vi": "Microsoft định hình lại Copilot như một hệ điều hành mới với khả năng tự động hóa công việc toàn diện",
-      "title_en": "Microsoft positions Copilot as a new operating system capable of autonomous end-to-end task execution",
-      "summary_vi": [
-        "Microsoft đang mở rộng mạnh mẽ các đặc quyền cho trợ lý ảo Copilot, cho phép hệ thống này tự động soạn thảo tài liệu, xây dựng các ứng dụng phần mềm và duy trì quy trình làm việc suốt ngày đêm.",
-        "Giám đốc điều hành Satya Nadella nhấn mạnh tầm nhìn chiến lược khi định vị nền tảng này như một hệ điều hành chuyên biệt dành cho công việc, tích hợp sâu các mô hình ngôn ngữ lớn và tác nhân tự trị.",
-        "Bước tiến này đánh dấu sự chuyển dịch quan trọng trong kiến trúc phần mềm doanh nghiệp, đòi hỏi các nhà phát triển và kỹ sư phải thích nghi với mô hình cộng tác mới dựa trên các hệ thống tự động hóa thông minh."
-      ],
-      "summary_en": [
-        "Microsoft is significantly expanding Copilot capabilities, empowering the assistant to autonomously draft documents, build software applications, and execute continuous workflows around the clock.",
-        "CEO Satya Nadella emphasized the strategic vision of positioning this platform as a specialized operating system for work, deeply integrating large language models and autonomous agent architectures.",
-        "This advancement marks a critical shift in enterprise software architecture, requiring developers and engineers to adapt to new collaboration models driven by intelligent automation systems."
-      ],
-      "originalTitle": "Microsoft muốn Copilot trở thành một “hệ điều hành” mới, tự viết tài liệu và làm việc thay người dùng",
-      "url": "https://genk.vn/microsoft-muon-copilot-tro-thanh-mot-he-dieu-hanh-moi-tu-viet-tai-lieu-va-lam-viec-thay-nguoi-dung-165262709081121033.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Microsoft",
-        "Copilot",
-        "Automation",
-        "Software Architecture"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-27T08:45:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/27/avatar1790496747235-1790496747660326774124.jpg",
-      "contentSnippet": "Copilot đang được trao thêm quyền để soạn tài liệu, xây dựng ứng dụng và tự thực hiện công việc suốt ngày đêm. Satya Nadella gọi đây là một “hệ điều hành mới cho công việc”.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "afd0ed232e177353",
-      "title_vi": "Kỹ sư Google DeepMind từ chức vì lo ngại tốc độ phát triển của trí tuệ nhân tạo",
-      "title_en": "Google DeepMind engineer resigns over concerns regarding the rapid advancement of artificial intelligence",
-      "summary_vi": [
-        "Robert O'Callahan, một kỹ sư cấp cao tại Google DeepMind, đã chính thức quyết định rời bỏ công ty sau khi bày tỏ những quan ngại sâu sắc về lộ trình phát triển các hệ thống siêu trí tuệ nhân tạo trong tương lai gần.",
-        "Ông nhấn mạnh rằng việc thúc đẩy các mô hình AI đạt tới ngưỡng siêu trí tuệ mà thiếu đi các cơ chế kiểm soát an toàn nghiêm ngặt là một hành động thiếu trách nhiệm, có thể gây ra những rủi ro khó lường cho xã hội.",
-        "Sự kiện này phản ánh làn sóng tranh luận gay gắt trong cộng đồng kỹ thuật về đạo đức AI, đặt ra yêu cầu cấp thiết cho các nhà phát triển trong việc cân bằng giữa đổi mới công nghệ và đảm bảo an toàn hệ thống."
-      ],
-      "summary_en": [
-        "Robert O'Callahan, a senior engineer at Google DeepMind, has officially resigned from the company after expressing deep concerns regarding the current development roadmap for artificial superintelligence systems in the near future.",
-        "He emphasized that pushing AI models toward superintelligence without implementing rigorous safety control mechanisms is an irresponsible action that could potentially lead to unpredictable and significant risks for global society.",
-        "This event reflects the intense ongoing debate within the technical community regarding AI ethics, highlighting the urgent need for developers to balance rapid technological innovation with robust system safety and alignment."
-      ],
-      "originalTitle": "Nhân viên Google từ chức vì lo AI 'phát triển quá nhanh'",
-      "url": "https://vnexpress.net/nhan-vien-google-tu-chuc-vi-lo-ai-phat-trien-qua-nhanh-5125305.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "DeepMind",
-        "Ethics",
-        "Google",
-        "Superintelligence"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-27T06:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/27/img0718-1790478622-9122-1790479004.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Ip3QEXE5G65aQ6fXNdXteA",
-      "contentSnippet": "Robert O'Callahan, nhân viên Google DeepMind, tuyên bố nghỉ việc và cho rằng theo đuổi siêu trí tuệ nhân tạo (ASI) trong tương lai gần là \"thiếu trách nhiệm\".",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0100cb7a866dbce2",
-      "title_vi": "Chân dung Alexandr Wang - Thiên tài AI được Zuckerberg chi 371 nghìn tỷ đồng chiêu dụ về Meta",
-      "title_en": "The Profile of Alexandr Wang - The AI Prodigy Recruited by Zuckerberg to Meta for Billions",
-      "summary_vi": [
-        "Tại sự kiện công nghệ lớn gần đây, Mark Zuckerberg đã giới thiệu gương mặt trẻ tuổi Alexandr Wang nắm giữ vị trí Giám đốc Trí tuệ Nhân tạo chiến lược tại tập đoàn Meta.",
-        "Thỏa thuận trị giá hàng tỷ đô la này đánh dấu bước chuyển mình mạnh mẽ trong chiến lược thu hút nhân tài đỉnh cao nhằm củng cố năng lực phát triển các mô hình ngôn ngữ lớn.",
-        "Động thái chiêu mộ này tạo ra sức ép cạnh tranh khốc liệt giữa các ông lớn công nghệ trong cuộc đua thống trị thị trường nghiên cứu và ứng dụng trí tuệ nhân tạo toàn cầu."
-      ],
-      "summary_en": [
-        "At a major recent technology event, Mark Zuckerberg introduced young prodigy Alexandr Wang as the Chief AI Officer holding a strategic leadership position at Meta.",
-        "This multi-billion-dollar talent acquisition agreement marks a powerful shift in the strategy to recruit elite experts to strengthen large language model development capabilities.",
-        "Such aggressive recruitment moves generate intense competitive pressure among major tech giants racing for global dominance in artificial intelligence research and applications."
-      ],
-      "originalTitle": "Chân dung Alexandr Wang - Thiên tài AI được Zuckerberg chi 371 nghìn tỷ đồng chiêu dụ về Meta",
-      "url": "https://genk.vn/chan-dung-alexandr-wang-thien-tai-ai-duoc-zuckerberg-chi-371-nghin-ty-dong-chieu-du-ve-meta-165260927082059853.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Meta",
-        "Machine Learning",
-        "Tech Giants",
-        "Leadership"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-27T01:44:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/27/avatar1790472032226-17904720327561103389483.jpg",
-      "contentSnippet": "Tại sự kiện Meta Connect ngày 23/9 vừa qua, người đứng cạnh Mark Zuckerberg trên sân khấu không phải một phó chủ tịch gạo cội hay một nhà khoa học đầu bạc. Đó là Alexandr Wang, 29 tuổi, đi đôi dép Crocs rằn ri, giữ chức Giám đốc AI của Meta, người mà Zuckerberg đã chi 14,3 tỷ USD (hơn 371 nghìn tỷ) ",
-      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     }
