@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-10-07T03:29:39.532Z",
+  "lastUpdated": "2026-10-07T12:23:18.480Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "3a2d66874c3826d6",
+      "title_vi": "Cấu trúc dữ liệu và Giải thuật Bài 1: Thuật toán là gì và vai trò của DSA trong phát triển phần mềm",
+      "title_en": "Data Structures and Algorithms Part 1: What is an Algorithm and the Role of DSA in Software Development",
+      "summary_vi": [
+        "Bài viết mở đầu chuỗi series về cấu trúc dữ liệu và giải thuật bằng cách đặt ra vấn đề thực tế về hiệu năng khi xử lý mã nguồn của các lập trình viên.",
+        "Tác giả phân tích khái niệm nền tảng về thuật toán, cách thức hoạt động cũng như tầm quan trọng cốt lõi của DSA trong việc tối ưu hóa hiệu suất ứng dụng phần mềm.",
+        "Kiến thức này đóng vai trò quyết định giúp lập trình viên tư duy logic tốt hơn, xây dựng các hệ thống quy mô lớn có khả năng chịu tải cao và bền vững."
+      ],
+      "summary_en": [
+        "The article introduces a comprehensive series on data structures and algorithms by addressing real-world performance issues caused by inefficient code written by developers.",
+        "The author analyzes fundamental concepts of algorithms, their operational mechanisms, and the crucial role of DSA in optimizing software application performance.",
+        "This knowledge serves as a critical foundation for developers to enhance logical thinking and build scalable, high-load, and sustainable enterprise software systems."
+      ],
+      "originalTitle": "Cấu trúc dữ liệu và Giải thuật Bài 1: Thuật toán là gì? Vai trò của DSA trong phát triển phần mềm.",
+      "url": "https://viblo.asia/p/cau-truc-du-lieu-va-giai-thuat-bai-1-thuat-toan-la-gi-vai-tro-cua-dsa-trong-phat-trien-phan-mem-ym400lG5491",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "DSA",
+        "Algorithms",
+        "Software Engineering",
+        "Performance Optimization",
+        "Data Structures"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-07T18:31:56.000Z",
+      "contentSnippet": "Có bao giờ bạn tự hỏi: Tại sao cùng một tính năng, code của người này chạy mất 1 giây, còn code của người khác lại làm treo cả server khi có hàng ngàn...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "1bf4423873bf6f22",
+      "title_vi": "Quản lý cấu hình và thông tin bảo mật trên Kubernetes: Từ ConfigMap đến External Secrets, Vault và GitOps",
+      "title_en": "Config and Secrets Management on Kubernetes: From ConfigMap to External Secrets, Vault, and GitOps",
+      "summary_vi": [
+        "Bài viết phân tích chuyên sâu về cách quản lý các tập tin cấu hình và thông tin bảo mật trong các hệ thống vi dịch vụ triển khai trên nền tảng Kubernetes hiện đại thay vì dùng phương pháp tệp môi trường truyền thống.",
+        "Nội dung tập trung làm rõ các giải pháp kiến trúc từ việc sử dụng ConfigMap, Secret nguyên bản đến việc tích hợp các công cụ chuyên dụng như External Secrets Operator, HashiCorp Vault và quy trình GitOps.",
+        "Giải pháp này giúp các kỹ sư phần mềm và nhà quản trị hệ thống tối ưu hóa bảo mật, tự động hóa quy trình vận hành và giải quyết triệt để các rủi ro lộ lọt thông tin nhạy cảm."
+      ],
+      "summary_en": [
+        "The article provides an in-depth analysis of managing configuration files and sensitive credentials in microservice architectures deployed on modern Kubernetes platforms instead of traditional environment file approaches.",
+        "The content clarifies architectural solutions ranging from native ConfigMaps and Secrets to integrating specialized tools like External Secrets Operator, HashiCorp Vault, and GitOps workflows.",
+        "These solutions help software engineers and system administrators optimize security, automate operational processes, and effectively resolve the risks of exposing sensitive information."
+      ],
+      "originalTitle": "[Microservices] Config & Secrets trên Kubernetes – Từ ConfigMap đến External Secrets, Vault và GitOps",
+      "url": "https://viblo.asia/p/microservices-config-secrets-tren-kubernetes-tu-configmap-den-external-secrets-vault-va-gitops-OXLA0xkZJGr",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "Kubernetes",
+        "DevOps",
+        "Security",
+        "GitOps",
+        "Cloud Native"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-07T16:22:46.000Z",
+      "contentSnippet": "1. Vấn đề thật sự không phải là file .env Nhiều bài viết mở đầu bằng cảnh: 20 microservice, 20 file .env nằm trong repo, đổi mật khẩu DB phải sửa, co...",
+      "authorName": "Long Việt",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "673cc2c8ce36b858",
+      "title_vi": "Apple phát hành bản cập nhật firmware 3.2.0 cho cáp sạc MagSafe 3 của MacBook",
+      "title_en": "Apple Releases Firmware Version 3.2.0 Update for MacBook MagSafe 3 Charging Cables",
+      "summary_vi": [
+        "Hãng công nghệ danh tiếng Apple vừa bất ngờ phát hành bản cập nhật phần sụn mang mã phiên bản 3.2.0 dành riêng cho dòng cáp sạc USB-C sang MagSafe 3, đánh dấu một bước đi khá hiếm hoi trong việc quản lý thiết bị ngoại vi.",
+        "Bản cập nhật firmware mới này áp dụng trực tiếp cho các dòng máy tính xách tay cao cấp của hãng gồm MacBook Air và MacBook Pro, giúp tối ưu hóa hiệu suất truyền tải năng lượng và cải thiện độ ổn định khi sạc.",
+        "Việc nhà sản xuất liên tục tung ra các bản vá phần mềm cho cả những phụ kiện nhỏ như cáp sạc cho thấy mức độ hoàn thiện cao về kỹ thuật phần cứng và cam kết nâng cao trải nghiệm người dùng toàn diện."
+      ],
+      "summary_en": [
+        "The renowned technology giant Apple has unexpectedly released a new firmware update version 3.2.0 specifically designed for the USB-C to MagSafe 3 charging cables, marking a rare move in peripheral device management.",
+        "This new firmware update applies directly to the company's high-end laptop lineups including MacBook Air and MacBook Pro, optimizing power delivery performance and enhancing charging stability during daily usage.",
+        "The continuous rollout of software patches for minor accessories like charging cables demonstrates a high level of hardware engineering precision and a strong commitment to comprehensive user experience."
+      ],
+      "originalTitle": "Ủa có luôn hả ta? Apple cập nhật firmware cho sợi cáp sạc MagSafe 3",
+      "url": "https://tinhte.vn/thread/ua-co-luon-ha-ta-apple-cap-nhat-firmware-cho-soi-cap-sac-magsafe-3.4182138/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "MacBook",
+        "MagSafe",
+        "Firmware",
+        "Hardware"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-07T12:02:43.000Z",
+      "contentSnippet": "Ủa có luôn hả ta? Apple cập nhật firmware cho sợi cáp sạc MagSafe 3 Apple vừa tung bản cập nhật firmware 3.2.0 cho sợi cáp USB-C sang MagSafe 3 trên MacBook Air và MacBook Pro, đánh dấu lần nâng...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "7b9fde51f4bb40ba",
+      "title_vi": "Các ưu đãi giảm giá tốt nhất trong sự kiện mua sắm tháng Mười từ các hãng Apple, Sony và Google",
+      "title_en": "The best October Prime Day deals from Apple, Sony, Google, and more",
+      "summary_vi": [
+        "Sự kiện mua sắm lớn của Amazon trong tháng Mười đang bước vào ngày cuối cùng với hàng loạt chương trình giảm giá hấp dẫn cho các thiết bị phần cứng công nghệ cao.",
+        "Nhiều sản phẩm điện tử tiêu dùng bao gồm máy chơi game cầm tay, máy tính bảng, tai nghe chống ồn và hệ thống nhà thông minh được bán với mức giá ưu đãi lớn.",
+        "Người dùng và các kỹ sư công nghệ có cơ hội sở hữu các thiết bị cao cấp từ Apple, Google và Samsung với chi phí tiết kiệm đáng kể trong đợt giảm giá này."
+      ],
+      "summary_en": [
+        "Amazon's Prime Big Deal Days event reaches its final day with numerous attractive discounts on high-tech hardware devices and consumer electronics.",
+        "Many consumer electronic products including handheld gaming consoles, tablets, noise-canceling headphones, and smart home systems are offered at significant price cuts.",
+        "Users and technology engineers have the opportunity to acquire premium devices from Apple, Google, and Samsung at substantially reduced costs during this sale."
+      ],
+      "originalTitle": "The best October Prime Day deals from Apple, Sony, Google, and more",
+      "url": "https://www.theverge.com/gadgets/1006610/best-amazon-october-prime-day-tech-deals-day-two",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "Google",
+        "Sony",
+        "Gadgets",
+        "Hardware"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-10-07T11:26:22.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268775_October_Prime_Day_DAY_2_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Day two of Amazon’s Prime Big Deal Days event is here, and the sale will end at 3AM ET on Thursday, October 8th. While a few of the best deals from yesterday have already ended, many are still happening, with fresh discounts emerging to make the last day of the sale just as worthy of your attention.",
+      "authorName": "Cameron Faulkner",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "96d307df56097d10",
+      "title_vi": "Trình duyệt Chrome chính thức hỗ trợ định dạng ảnh JPEG XL",
+      "title_en": "Shipping JPEG XL in Chrome",
+      "summary_vi": [
+        "Trình duyệt Google Chrome chính thức công bố hỗ trợ giải mã định dạng hình ảnh thế hệ mới JPEG XL bắt đầu từ phiên bản 155, mang lại nhiều cải tiến quan trọng cho web.",
+        "Định dạng này cung cấp khả năng nén tốt hơn từ 30 đến 50 phần trăm so với JPEG truyền thống, đồng thời hỗ trợ nén không mất dữ liệu, dải động cao HDR và chuyển mã tối ưu.",
+        "Phát kiến này giúp các nhà phát triển web và nhiếp ảnh gia cải thiện hiệu suất truyền tải hình ảnh chất lượng cao, đồng thời đảm bảo khả năng tương thích linh hoạt trên nhiều nền tảng."
+      ],
+      "summary_en": [
+        "The Google Chrome browser officially announces support for decoding the next-generation JPEG XL image format starting from version 155, bringing major improvements to the web ecosystem.",
+        "This format provides thirty to fifty percent better compression than traditional JPEG while supporting lossless compression, integrated high dynamic range, and optimized transcoding.",
+        "This advancement helps web developers and photographers improve the delivery performance of high-quality images while ensuring flexible compatibility across various platforms."
+      ],
+      "originalTitle": "Shipping JPEG XL in Chrome",
+      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Chrome",
+        "JPEG XL",
+        "Web Development",
+        "Image Compression",
+        "Rust"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-07T11:25:02.000Z",
+      "contentSnippet": "English Deutsch Español – América Latina Français Indonesia Italiano Nederlands Polski Português – Brasil Tiếng Việt Türkçe Русский עברית العربيّة فارسی हिंदी বাংলা ภาษาไทย 中文 – 简体 中文 – 繁體 日本語 한국어 Accedi Blog Google utilizza la tecnologia AI per tradurre i contenuti nella tua lingua preferita. Le ",
+      "authorName": "AshleysBrain",
+      "upvotes": 71,
+      "commentsCount": 32
+    },
+    {
+      "id": "39814bb2c70fce06",
+      "title_vi": "Thiết bị được xem là kẻ kế nhiệm smartphone đối mặt với nguy cơ bị cấm tại nhiều nơi",
+      "title_en": "Devices considered as smartphone successors face potential bans in public areas due to privacy concerns",
+      "summary_vi": [
+        "Một thiết bị công nghệ mới nổi được kỳ vọng sẽ thay thế hoàn toàn điện thoại thông minh hiện nay đang đối mặt với làn sóng phản đối mạnh mẽ và nguy cơ bị cấm tại các trường học, công viên cũng như bãi biển công cộng.",
+        "Những lo ngại ngày càng gia tăng về quyền riêng tư cá nhân xuất phát từ khả năng thu thập dữ liệu liên tục, ghi hình và ghi âm không gian xung quanh của các cảm biến tích hợp trên thiết bị di động thế hệ mới này.",
+        "Sự việc này đặt ra bài toán lớn cho các kỹ sư phần cứng và nhà phát triển hệ điều hành trong việc cân bằng giữa tính năng thông minh đột phá và các tiêu chuẩn bảo mật dữ liệu nghiêm ngặt của người dùng."
+      ],
+      "summary_en": [
+        "An emerging technology device expected to completely replace current smartphones is facing strong opposition and potential bans in schools, parks, and public beaches.",
+        "Growing concerns over personal privacy stem from the continuous data collection capabilities, as well as the recording and monitoring features embedded in this new generation of mobile hardware.",
+        "This situation poses a major challenge for hardware engineers and operating system developers in balancing breakthrough smart features with strict user data security standards."
+      ],
+      "originalTitle": "Một quốc gia muốn cấm một thiết bị đang được các hãng công nghệ xem là “kẻ kế nhiệm smartphone”",
+      "url": "https://genk.vn/mot-quoc-gia-muon-cam-mot-thiet-bi-dang-duoc-cac-hang-cong-nghe-xem-la-ke-ke-nhiem-smartphone-165260710143034814.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Smartphones",
+        "Privacy",
+        "Mobile Devices",
+        "Hardware",
+        "Security"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-07T10:57:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/7/avatar1791370635196-17913706360031478151988.jpg",
+      "contentSnippet": "Một thiết bị được các hãng công nghệ kỳ vọng có thể thay thế smartphone đang đứng trước nguy cơ bị cấm tại trường học, công viên và bãi biển vì những lo ngại ngày càng lớn về quyền riêng tư.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "1e703e4bea67e955",
       "title_vi": "Kỷ nguyên gõ prompt đang thoái trào: Chào đón các trợ lý AI tự động làm việc thay bạn",
@@ -32,6 +238,107 @@
       "publishedAt": "2026-10-07T10:08:05.000Z",
       "contentSnippet": "Bản tin nhanh cập nhật sáng ngày 07/10/2026 | Chuyên mục: Nhịp đập Trí tuệ Nhân tạo Người tổng hợp: Biên tập viên Công nghệ Tóm tắt nhanh cho người b...",
       "authorName": "Xuân Chinh Trịnh",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5c0cc10e1b3a09f8",
+      "title_vi": "Dùng trợ lý ảo Claude làm nhật ký, người dùng suýt gặp rắc rối vì tính năng kiểm duyệt nội dung",
+      "title_en": "Using Claude as a Digital Diary Triggers Unexpected Police Visit Due to Content Flagging",
+      "summary_vi": [
+        "Một người phụ nữ tại Mỹ đã sử dụng nền tảng trí tuệ nhân tạo Claude làm không gian lưu trữ nhật ký cá nhân để ghi lại những suy nghĩ riêng tư hàng ngày.",
+        "Hệ thống kiểm duyệt tự động và cơ chế giám sát an toàn của mô hình ngôn ngữ lớn đã phát hiện các từ khóa nhạy cảm, kích hoạt quy trình cảnh báo khẩn cấp và báo cáo cho cơ quan chức năng.",
+        "Sự việc đặt ra vấn đề nghiêm trọng về quyền riêng tư dữ liệu người dùng khi tương tác với các ứng dụng trí tuệ nhân tạo, đồng thời cảnh báo rủi ro pháp lý liên quan đến việc lưu trữ nội dung cá nhân trên nền tảng đám mây của bên thứ ba."
+      ],
+      "summary_en": [
+        "A female user in the United States utilized the Claude artificial intelligence platform as a private digital diary space to record her daily personal thoughts and reflections.",
+        "The automated content moderation system and safety monitoring mechanisms of the large language model detected sensitive keywords, triggering emergency alert protocols and notifying local law enforcement.",
+        "This incident raises serious concerns regarding user data privacy when interacting with artificial intelligence applications while highlighting legal risks associated with storing personal content on third-party cloud platforms."
+      ],
+      "originalTitle": "Dùng Claude làm nhật ký, rồi một dòng viết khiến cảnh sát tìm đến tận nhà",
+      "url": "https://genk.vn/dung-claude-lam-nhat-ky-roi-mot-dong-viet-khien-canh-sat-tim-den-tan-nha-165260710143140284.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Claude",
+        "Privacy",
+        "Cybersecurity",
+        "LLM"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-07T10:05:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/7/avatar1791367480246-17913674809091637510176.jpg",
+      "contentSnippet": "Một phụ nữ tại Mỹ xem Claude như nơi ghi lại những suy nghĩ riêng tư. Nhưng chỉ một nội dung trong “cuốn nhật ký” này đã khiến cuộc trò chuyện vượt khỏi màn hình và cảnh sát tìm đến nhà bà.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "651e2d5687f7b27f",
+      "title_vi": "Common Sense Media cho biết ChatGPT dành cho thanh thiếu niên là một 'rủi ro không thể chấp nhận được'",
+      "title_en": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media",
+      "summary_vi": [
+        "Common Sense Media, một tổ chức phi lợi nhuận cung cấp các bài đánh giá về ứng dụng, dịch vụ và giải trí tập trung vào sự an toàn của thanh thiếu niên, hôm nay cho biết ChatGPT dành cho thanh thiếu niên của OpenAI là một \"rủi ro không thể chấp nhận được\". ChatGPT dành cho thanh thiếu niên, được giới thiệu vào tháng 8, có các biện pháp bảo vệ dành cho thanh thiếu niên và được thiết kế để giúp học sinh học tập, nhưng Common Sense Media nói rằng các biện pháp bảo vệ thanh thiếu niên do tính năng này cung cấp \"không đạt được những gì công ty đã hứa\". Theo một thông cáo báo chí, đánh giá của Common Sense Media cho thấy ChatGPT \"không gửi thông báo cho phụ huynh khi cần thiết\", không đưa ra \"sự trợ giúp phù hợp trong các tình huống khủng hoảng\" và \"vẫn làm bài tập về nhà cho trẻ em\".",
+        "\"ChatGPT dành cho Tee … Đọc toàn bộ câu chuyện tại The Verge.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Common Sense Media cho biết ChatGPT dành cho thanh thiếu niên là một 'rủi ro không thể chấp nhận được'."
+      ],
+      "summary_en": [
+        "Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\" ChatGPT for Teens, introduced in August, has guardrails for teens and is designed to help students learn, but Common Sense Media says that the teen protections offered by the feature \"fall short of what the company promised.\" Common Sense Media's assessment found that ChatGPT \"doesn't send alerts to parents when it should,\" doesn't offer \"the right help in crisis situations,\" and \"still does kids' homework,\" according to a press release.",
+        "\"ChatGPT for Tee … Read the full story at The Verge.",
+        "Practical engineering impact and actionable takeaways for developers building with ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media."
+      ],
+      "originalTitle": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "OpenAI"
+      ],
+      "hotScore": 98,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-07T09:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25461999/STK155_OPEN_AI_CVirginia_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\" ChatGPT for Teens, introduced in August, has guardrails for teens and is designed to help students learn, but C",
+      "authorName": "Jay Peters",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "49af80a9c4deb4db",
+      "title_vi": "Lần đầu tiên sau hai mươi lăm năm, Qualcomm phải trả phí bản quyền công nghệ cho Huawei",
+      "title_en": "For the first time in twenty five years, Qualcomm must pay patent licensing fees to Huawei",
+      "summary_vi": [
+        "Trong suốt nhiều năm qua, tập đoàn Huawei luôn phải thực hiện nghĩa vụ chi trả tiền bản quyền để sử dụng các công nghệ được cấp bằng sáng chế độc quyền từ Qualcomm.",
+        "Giờ đây sự dịch chuyển trong chuỗi cung ứng và sở hữu trí tuệ đã khiến tình thế đảo ngược hoàn toàn khi nhà sản xuất chip Mỹ phải trả phí ngược lại cho đối thủ.",
+        "Sự kiện này đánh dấu một bước ngoặt lớn trong cuộc đua bản quyền công nghệ di động toàn cầu, phản ánh sự thay đổi vị thế và sức mạnh nghiên cứu lõi của các hãng viễn thông."
+      ],
+      "summary_en": [
+        "Over many years, Huawei had to consistently pay licensing fees to utilize patented technologies owned and distributed exclusively by Qualcomm.",
+        "Now a significant shift in intellectual property and supply chains has reversed the dynamic completely as the American chipmaker must pay fees back to its rival.",
+        "This milestone marks a major turning point in the global mobile technology patent race, reflecting the evolving landscape of core research and development power."
+      ],
+      "originalTitle": "Lần đầu tiên sau 25 năm, Qualcomm phải trả tiền cho Huawei để dùng công nghệ",
+      "url": "https://genk.vn/lan-dau-tien-sau-25-nam-qualcomm-phai-tra-tien-cho-huawei-de-dung-cong-nghe-165261007151837318.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Qualcomm",
+        "Huawei",
+        "Patents",
+        "Mobile",
+        "Semiconductor"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-07T08:59:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/7/avatar1791361098011-17913610983341718260173.jpg",
+      "contentSnippet": "Trước đó, trong suốt nhiều năm vừa qua, Huawei thường xuyên phải trả tiền để được sử dụng công nghệ do Qualcomm cấp bằng sáng chế, nhưng giờ đây gió đã đổi chiều.",
+      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -100,6 +407,41 @@
       "publishedAt": "2026-10-07T08:27:16.000Z",
       "contentSnippet": "AI Buổi Sáng (07/10/2026): Tiêu điểm Falcon-Emirati và những bước chuyển từ Hacker News Trong phiên buổi sáng ngày 07/10/2026, cộng đồng công nghệ g...",
       "authorName": "Xuân Chinh Trịnh",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "72148671678f8b3d",
+      "title_vi": "Giám đốc Intel: Đừng để AI tư duy và quyết định thay mình",
+      "title_en": "Intel Director: Do Not Let AI Think and Decide on Your Behalf",
+      "summary_vi": [
+        "Tổng giám đốc Intel tại Đông Nam Á là ông George Chacko đã đưa ra cảnh báo quan trọng về việc con người cần duy trì sự chủ động để tránh tình trạng suy giảm năng lực tư duy do lạm dụng trí tuệ nhân tạo quá mức trong công việc hàng ngày.",
+        "Trong bối cảnh công nghệ trí tuệ nhân tạo đang phát triển với tốc độ chóng mặt, bài viết phân tích sự tác động qua lại giữa con người và hệ thống tự động hóa, nhấn mạnh tầm quan trọng của việc giữ vững khả năng kiểm soát các thuật toán.",
+        "Lời khuyên này mang lại bài học thực tiễn quý giá cho các kỹ sư phần mềm và nhà phát triển công nghệ trong việc cân bằng giữa hiệu suất tối ưu từ hệ thống máy học và tư duy phản biện độc lập của con người."
+      ],
+      "summary_en": [
+        "Intel General Manager for Southeast Asia George Chacko issued an important warning regarding the necessity for humans to maintain initiative to prevent cognitive decline caused by the excessive over-reliance on artificial intelligence in daily workflows.",
+        "Amid the rapid advancement of artificial intelligence technologies, the article analyzes the intricate interaction between humans and automation systems, emphasizing the critical importance of retaining absolute control over underlying algorithmic decisions.",
+        "This valuable guidance provides practical lessons for software engineers and technology developers on how to properly balance performance optimization achieved through machine learning systems with independent human critical thinking."
+      ],
+      "originalTitle": "Giám đốc Intel: 'Đừng để AI tư duy và quyết định thay mình'",
+      "url": "https://vnexpress.net/giam-doc-intel-dung-de-ai-tu-duy-va-quyet-dinh-thay-minh-5128610.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Intel",
+        "Machine Learning",
+        "Tech Trends",
+        "Ethics"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-07T05:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/05/intel-jfif-1791189379-3364-1791189895.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=gm-rRr9PTOeWbe9UlXBwGg",
+      "contentSnippet": "Con người cần giữ sự chủ động để tránh bị suy giảm năng lực vì lạm dụng AI, theo Tổng giám đốc Intel Đông Nam Á George Chacko.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -239,6 +581,40 @@
       "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "0d2b759c8ff8305d",
+      "title_vi": "Trợ lý Quyết định Khối lượng 2 Tỷ trọng: Mô hình quyết định nhỏ mã nguồn mở",
+      "title_en": "Strands Decider 2B: A Small Open-Source Decision Model",
+      "summary_vi": [
+        "Dự án strands-labs vừa chính thức giới thiệu Strands Decider 2B, một mô hình quyết định nhỏ gọn được tối ưu hóa chuyên biệt cho việc thử nghiệm nhanh, phát triển cục bộ và thúc đẩy sự đổi mới.",
+        "Khác với các mô hình ngôn ngữ lớn thông thường, mô hình quyết định này chuyên thực hiện việc lựa chọn giữa các tập tùy chọn cho trước và gán điểm số đơn giản với độ trễ cực thấp trong một lượt xử lý duy nhất.",
+        "Dù không phù hợp cho các tác vụ sinh văn bản phức tạp như lập trình hay tóm tắt tài liệu, mô hình này mang lại độ tin cậy cao và tốc độ vượt trội cho các ứng dụng phân loại và định tuyến quyết định."
+      ],
+      "summary_en": [
+        "The strands-labs project has officially introduced Strands Decider 2B, a compact decision model specifically optimized for rapid experimentation, local development, and fostering technological innovation.",
+        "Unlike traditional large language models, this decision model specializes in selecting between predefined sets of options and assigning simple numerical scores with ultra-low latency in a single parallel pass.",
+        "Although unsuited for complex text generation tasks such as coding or summarization, the model delivers exceptional reliability and high speed for classification and decision routing applications."
+      ],
+      "originalTitle": "Strands Decider 2B: a small, open-source, decision model",
+      "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Open Source",
+        "Decision Models",
+        "LLM"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-07T02:02:11.000Z",
+      "contentSnippet": "Earlier this year, we announced strands-labs, a place to get hands-on with state-of-the-art approaches to agentic AI. Today, we’re excited to add Strands Decider 2B: a small decision model optimized for fast experimentation, local development, and innovation. Strands decider is one of a new class of",
+      "authorName": "gmays",
+      "upvotes": 211,
+      "commentsCount": 56
     },
     {
       "id": "632f9cce7b0ff677",
@@ -8195,385 +8571,6 @@
       "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKP221_GREG_BROCKMAN2.jpg?quality=90&strip=all&crop=0,0,100,100",
       "contentSnippet": "OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approaches, it's fallen behind in one of the industry's hottest categories: continuously running, consumer-facing AI agents. On Tuesday, it will likely try to capture the lead in that race. Rumors abound that OpenAI wi",
       "authorName": "Hayden Field",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "12c93676d01e7e42",
-      "title_vi": "Đánh giá ASUS Zenbook A16: Vi xử lý mạnh mẽ của Qualcomm vẫn bị giới hạn bởi phần mềm",
-      "title_en": "ASUS Zenbook A16 Review: Qualcomm Most Powerful Chip Still Held Back By Software",
-      "summary_vi": [
-        "ASUS vừa cho ra mắt dòng máy tính xách tay Zenbook A16 sở hữu màn hình kích thước lớn cùng nhiều cải tiến về hiệu năng phần cứng hướng tới người dùng chuyên nghiệp đòi hỏi khả năng di động cao.",
-        "Thiết bị được trang bị dòng vi xử lý ARM cao cấp nhất của Qualcomm hiện nay nhưng các bài kiểm tra thực tế cho thấy khả năng tối ưu hóa phần mềm và hệ sinh thái ứng dụng vẫn chưa phát huy hết tiềm năng phần cứng.",
-        "Trải nghiệm thực tế trên dòng laptop này mang lại góc nhìn quan trọng về thách thức tương thích hệ điều hành và ứng dụng khi chuyển đổi kiến trúc phần cứng từ x86 sang ARM trong phân khúc thiết bị di động."
-      ],
-      "summary_en": [
-        "ASUS has recently introduced the Zenbook A16 laptop featuring a larger display and significant hardware performance improvements targeted at professional users requiring high mobility.",
-        "The device is powered by Qualcomm's most advanced ARM processor to date, yet practical benchmark tests reveal that software optimization and the application ecosystem still limit its full hardware potential.",
-        "Real-world testing on this laptop provides crucial insights into operating system and application compatibility challenges when transitioning hardware architectures from x86 to ARM within the mobile device segment."
-      ],
-      "originalTitle": "Đánh giá ASUS Zenbook A16: Chip mạnh nhất của Qualcomm trên laptop vẫn bị phần mềm kìm hãm",
-      "url": "https://tinhte.vn/thread/danh-gia-asus-zenbook-a16-chip-manh-nhat-cua-qualcomm-tren-laptop-van-bi-phan-mem-kim-ham.4174373/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "ASUS",
-        "Qualcomm",
-        "Zenbook A16",
-        "ARM",
-        "Laptop"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-28T18:34:23.000Z",
-      "contentSnippet": "Nếu anh em thấy chiếc ASUS Zenbook A14 vẫn chưa đủ đô thì hôm nay mình sẽ giới thiệu với anh em một chiếc laptop Pro Max hơn, đó là ASUS Zenbook A16. Máy có kích thước màn hình lớn hơn, hiệu năng...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f52f500425243427",
-      "title_vi": "Google thử nghiệm tính năng mua sắm trực tiếp trên trợ lý ảo Gemini",
-      "title_en": "Google tests direct shopping integration within Gemini AI assistant",
-      "summary_vi": [
-        "Google đang triển khai thử nghiệm tích hợp nút mua hàng từ nền tảng thương mại điện tử Flipkart trực tiếp vào giao diện của trợ lý ảo Gemini, đánh dấu bước tiến mới trong việc biến AI thành công cụ hỗ trợ mua sắm toàn diện.",
-        "Cơ chế này cho phép người dùng thực hiện các giao dịch thanh toán ngay trong môi trường hội thoại của AI mà không cần chuyển hướng sang ứng dụng bên thứ ba, tối ưu hóa luồng trải nghiệm người dùng thông qua các API kết nối sâu.",
-        "Sự thay đổi này cho thấy xu hướng chuyển dịch từ các công cụ tìm kiếm truyền thống sang các hệ thống AI có khả năng thực thi hành động, mở ra cơ hội mới cho các nhà phát triển trong việc tối ưu hóa quy trình bán hàng tự động."
-      ],
-      "summary_en": [
-        "Google is currently testing the integration of a direct purchase button from the Flipkart e-commerce platform into the Gemini AI interface, marking a significant step toward transforming generative AI into a comprehensive and interactive shopping assistant.",
-        "This mechanism enables users to complete transactions directly within the AI conversational environment without needing to switch to third-party applications, effectively streamlining user experience through deep API integrations and real-time data processing capabilities.",
-        "This shift highlights the growing trend of moving from traditional search engines toward agentic AI systems capable of executing complex tasks, creating new opportunities for developers to optimize automated sales workflows and conversational commerce architectures."
-      ],
-      "originalTitle": "Google thử cho người dùng mua hàng trực tiếp qua Gemini",
-      "url": "https://tuoitre.vn/google-thu-cho-nguoi-dung-mua-hang-truc-tiep-qua-gemini-100260928182007667.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Gemini",
-        "E-commerce",
-        "API",
-        "Google"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-28T18:31:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/28/gemini-17905943343951422840052-19-0-979-1536-crop-179059445370412990621.png",
-      "contentSnippet": "Google đang thử nghiệm nút 'Mua' của Flipkart trên Gemini và AI Mode, mở đường để AI tham gia sâu hơn vào quá trình mua sắm.",
-      "authorName": "TTXVN",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "2d7c9a6429514241",
-      "title_vi": "Trí tuệ nhân tạo đang đẩy mạnh các cuộc tấn công mạng, khiến bệnh viện và ngân hàng gặp nguy hiểm",
-      "title_en": "AI is supercharging hacking, and your local hospitals and banks aren’t ready",
-      "summary_vi": [
-        "Tổ chức phi lợi nhuận Vivian's Door tại Alabama bất ngờ hứng chịu chiến dịch phát tán email giả mạo hàng loạt để lừa tiền, khiến hệ thống phải ngưng hoạt động trong ba ngày để điều tra sự cố.",
-        "Đội ngũ công nghệ thông tin bên thứ ba đã phải nhanh chóng ngắt kết nối hệ thống trực tuyến nhằm khoanh vùng lỗ hổng bảo mật và ngăn chặn kẻ tấn công lợi dụng dữ liệu tài chính của doanh nghiệp nhỏ.",
-        "Sự cố này là lời cảnh báo nghiêm trọng về cách trí tuệ nhân tạo tối ưu hóa các chiêu trò tấn công mạng, đòi hỏi các tổ chức y tế và tài chính phải nâng cấp mạnh mẽ cơ chế phòng thủ."
-      ],
-      "summary_en": [
-        "Nonprofit organization Vivian's Door in Alabama recently experienced a massive phishing campaign where scammers sent fraudulent emails requesting money, forcing their systems offline for three days during the investigation.",
-        "Third-party IT teams had to rapidly disconnect online infrastructure to isolate security vulnerabilities and prevent malicious actors from exploiting sensitive financial data belonging to small businesses.",
-        "This security incident serves as a critical warning regarding how artificial intelligence accelerates cyber attacks, demanding that healthcare and financial institutions drastically upgrade their defense mechanisms."
-      ],
-      "originalTitle": "AI is supercharging hacking, and your local hospitals and banks aren’t ready",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Cybersecurity",
-        "Phishing",
-        "Data Protection",
-        "IT Infrastructure"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-28T18:30:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25299205/STK453_Privacy_D_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "In March, Janice Malone began getting calls about suspicious activity from her nonprofit organization, Vivian's Door. Vivian's Door, headquartered in Alabama, typically provided training, resources, and community to underserved and minority-owned businesses. The work sometimes put it in close contac",
-      "authorName": "Hayden Field",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9ea70c882a0867b1",
-      "title_vi": "Galaxy AI trên Galaxy S26 Ultra: Những tính năng thông minh phục vụ người dùng hàng ngày",
-      "title_en": "Galaxy AI on Galaxy S26 Ultra: Essential smart features for daily user experience",
-      "summary_vi": [
-        "Samsung Galaxy S26 Ultra ra mắt với bước đột phá lớn khi tích hợp màn hình chống nhìn trộm trực tiếp từ phần cứng, kết hợp cùng hệ thống trí tuệ nhân tạo thế hệ mới nhằm tối ưu hóa trải nghiệm thực tế.",
-        "Thiết bị ứng dụng các giải thuật xử lý ngôn ngữ tự nhiên tiên tiến và tính năng bảo mật phần cứng chuyên sâu, cho phép phân tích ngữ cảnh người dùng nhanh chóng ngay trên thiết bị di động mà không phụ thuộc hoàn toàn vào đám mây.",
-        "Sản phẩm đánh dấu cột mốc quan trọng trong việc đưa các mô hình trí tuệ nhân tạo tiếng Việt vào đời sống hàng ngày, mở ra hướng đi mới cho các nhà phát triển ứng dụng di động trong việc tối ưu hóa giao diện người dùng."
-      ],
-      "summary_en": [
-        "Samsung Galaxy S26 Ultra launches with a major breakthrough by integrating hardware-based privacy screen protection directly into the device, combined with next-generation artificial intelligence systems to optimize practical user experiences.",
-        "The device utilizes advanced natural language processing algorithms and deep hardware security features, enabling rapid context analysis directly on the mobile device without relying entirely on cloud infrastructure.",
-        "The product marks an important milestone in bringing Vietnamese artificial intelligence models into daily life, opening new directions for mobile application developers to optimize user interfaces and device performance."
-      ],
-      "originalTitle": "Galaxy AI trên Galaxy S26 Ultra: Những tính năng mà người Việt nào chắc chắc cũng sẽ dùng hàng ngày!",
-      "url": "https://genk.vn/galaxy-ai-tren-galaxy-s26-ultra-nhung-tinh-nang-ma-nguoi-viet-nao-chac-chac-cung-se-dung-hang-ngay-165260929011635277.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Galaxy AI",
-        "Samsung",
-        "Mobile Security",
-        "Hardware",
-        "AI Integration"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-28T18:16:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/28/202609141654373681-0-55-675-1135-crop-1790619083297778577556.png",
-      "contentSnippet": "Samsung Galaxy S26 Ultra là chiếc smartphone đầu tiên trên thế giới tích hợp màn hình chống nhìn trộm ngay từ phần cứng, đồng thời đưa Galaxy AI lên một tầm mới với hàng loạt tính năng hỗ trợ tiếng Việt thiết thực trong đời sống hằng ngày.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "7cf21bee40620574",
-      "title_vi": "Apple tăng cường các tính năng bảo vệ và kiểm soát an toàn cho trẻ em trên iPhone và iPad",
-      "title_en": "Apple Enhances Child Safety and Parental Control Features on iPhone and iPad",
-      "summary_vi": [
-        "Hãng công nghệ Apple vừa chính thức tích hợp thêm nhiều lớp bảo vệ an toàn nhằm giúp các bậc phụ huynh dễ dàng quản lý thiết bị của con em mình trên các nền tảng di động phổ biến hiện nay.",
-        "Bộ công cụ kiểm soát mới được phát triển cho phép người giám hộ trực tiếp duyệt danh sách ứng dụng, kiểm tra trang web truy cập, quản lý danh sách liên lạc cũng như thiết lập giới hạn thời gian sử dụng thiết bị.",
-        "Giải pháp phần mềm này giúp nâng cao mức độ an toàn kỹ thuật số cho trẻ nhỏ, đồng thời cung cấp cho phụ huynh các công cụ quản lý tập trung nhằm hạn chế nội dung độc hại trên môi trường mạng."
-      ],
-      "summary_en": [
-        "Technology giant Apple has officially integrated multiple safety protection layers to help parents easily manage their children devices across popular mobile platforms today.",
-        "The newly developed control toolkit allows guardians to directly approve application lists, check visited websites, manage contact lists, and establish strict device usage time limits.",
-        "This software solution helps enhance digital safety levels for young children while providing parents with centralized management tools to restrict harmful content on the internet."
-      ],
-      "originalTitle": "Apple thêm nhiều lớp bảo vệ trẻ em trên iPhone, iPad",
-      "url": "https://tuoitre.vn/apple-them-nhieu-lop-bao-ve-tre-em-tren-iphone-ipad-100260928175858598.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iOS",
-        "Cybersecurity",
-        "Parental Control",
-        "Mobile"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-28T18:11:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/28/high-angle-teenage-girl-using-tablet-online-school23-2148827428-17905928991191007882910-0-0-463-740-crop-17905931462062139866880.png",
-      "contentSnippet": "Bộ công cụ mới của Apple cho phép cha mẹ duyệt ứng dụng, website, người liên lạc và kiểm soát thời gian trẻ sử dụng thiết bị.",
-      "authorName": "TẤN NGHI",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ead63a9708124e17",
-      "title_vi": "Hướng dẫn kỹ thuật lựa chọn công cụ mở rộng video bằng trí tuệ nhân tạo",
-      "title_en": "A Technical Guide to Choosing an AI Video Extender",
-      "summary_vi": [
-        "Bài viết cung cấp cái nhìn chuyên sâu về các tiêu chí kỹ thuật quan trọng khi lựa chọn công cụ mở rộng video sử dụng trí tuệ nhân tạo, tập trung vào việc tối ưu hóa chất lượng hình ảnh sau khi xuất tệp tin.",
-        "Tài liệu phân tích các tham số ảnh hưởng đến quá trình xử lý khung hình, bao gồm độ phân giải, tốc độ khung hình và các thuật toán nội suy giúp duy trì tính nhất quán của dữ liệu hình ảnh trong môi trường sản xuất.",
-        "Người dùng có thể áp dụng các hướng dẫn này để cải thiện quy trình làm việc, giảm thiểu lỗi tạo tác hình ảnh và nâng cao hiệu suất tổng thể khi triển khai các giải pháp AI trong lĩnh vực chỉnh sửa video chuyên nghiệp."
-      ],
-      "summary_en": [
-        "This guide provides an in-depth look at critical technical criteria for selecting AI-powered video extension tools, focusing on optimizing visual quality and output fidelity after the final rendering process is completed.",
-        "The document analyzes parameters affecting frame processing, including resolution scaling, frame rate interpolation, and specific algorithms that maintain data consistency and visual coherence within professional video production environments.",
-        "Developers and editors can apply these technical insights to streamline workflows, minimize common visual artifacts, and improve overall performance when integrating advanced AI solutions into their existing video post-production pipelines."
-      ],
-      "originalTitle": "A Technical Guide to Choosing an AI Video Extender",
-      "url": "https://viblo.asia/p/a-technical-guide-to-choosing-an-ai-video-extender-ZjJYWPAXVOE",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Video Processing",
-        "Machine Learning",
-        "Computer Vision",
-        "Post-production"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-09-28T17:32:59.000Z",
-      "contentSnippet": "A Technical Guide to Choosing an AI Video Extender This technical-community guide focuses on the decisions that affect a generated clip after export:...",
-      "authorName": "Carol Luo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "d649d708a19a3eb0",
-      "title_vi": "Dòng điện thoại HONOR Magic9 ra mắt với camera kép 200 MP, chip Snapdragon cao cấp và pin khủng",
-      "title_en": "HONOR Magic9 Series Launched with 200MP Dual Cameras, Snapdragon Chip and Massive Battery",
-      "summary_vi": [
-        "Hãng công nghệ HONOR chính thức giới thiệu dòng sản phẩm Magic9 gồm ba phiên bản tại sự kiện lớn ở Bắc Kinh với nhiều cải tiến mạnh mẽ về phần cứng và thiết kế.",
-        "Thiết bị tích hợp hệ thống camera kép độ phân giải hai trăm megapixel hợp tác cùng hãng máy quay ARRI của Đức kết hợp bộ vi xử lý Snapdragon thế hệ mới nhất.",
-        "Sự kiện ra mắt đánh dấu bước ngoặt lớn trong chiến lược làm mới thương hiệu tròn mười năm phát triển dòng điện thoại thông minh cao cấp của hãng."
-      ],
-      "summary_en": [
-        "Technology brand HONOR officially introduced the Magic9 smartphone series featuring three variants during a major launch event held in Beijing with significant hardware upgrades.",
-        "The devices integrate a dual camera system with two hundred megapixels developed in partnership with German cinematic camera brand ARRI alongside the latest generation Snapdragon processor.",
-        "This official launch marks a major turning point in the brand refresh strategy celebrating ten years of development for the company flagship smartphone lineup."
-      ],
-      "originalTitle": "HONOR Magic9 series ra mắt: Camera kép 200 MP hợp tác ARRI, chip Snapdragon 8 Elite Extreme Gen 6, pin tới 11.000mAh, giá từ 17,5 triệu đồng",
-      "url": "https://genk.vn/honor-magic9-series-ra-mat-camera-kep-200-mp-hop-tac-arri-chip-snapdragon-8-elite-extreme-gen-6-pin-toi-11000mah-gia-tu-175-trieu-dong-165260929001843813.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "HONOR",
-        "Snapdragon",
-        "Mobile",
-        "Hardware",
-        "Camera"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-28T17:18:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/28/chmklwq6b3giyspjaae4ulmchysaaj00gauph0aatjs922-17906152665221439675804-62-0-625-900-crop-17906157891912834449.jpg",
-      "contentSnippet": "Bản cao nhất quay được video định dạng Log như máy quay điện ảnh, còn bản Super Edition chọn hướng khác với pin lớn nhất từng có trên dòng Magic.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4c1315c1822a15ce",
-      "title_vi": "Máy tính ADN mới thực hiện phép tính phức tạp không cần sử dụng điện năng",
-      "title_en": "New DNA Computer Executes Complex Calculations Without Electrical Power",
-      "summary_vi": [
-        "Các nhà khoa học tại Đại học Maynooth ở Ireland đã phát triển thành công một loại máy tính sinh học mới sử dụng ADN để thực hiện các phép tính phức tạp bên trong những giọt nước tí hon mà không cần dùng đến nguồn điện truyền thống.",
-        "Hệ thống máy tính ADN có giàn đỡ này vận hành bằng cách khai thác các định luật nhiệt động lực học, cho phép các sợi ADN ngắn tự động ghép nối và tương tác theo các quy tắc lập trình sẵn để giải quyết các chương trình tính toán quy mô 100 bit.",
-        "Công nghệ đột phá này mở ra hướng đi mới trong việc tối ưu hóa hiệu năng năng lượng cho các hệ thống tính toán sinh học, tạo tiền đề quan trọng cho sự phát triển của công nghệ xử lý dữ liệu cấp độ phân tử trong tương lai."
-      ],
-      "summary_en": [
-        "Scientists at Maynooth University in Ireland have successfully developed a novel biological computer using DNA to perform complex calculations inside tiny water droplets without relying on traditional electrical power sources.",
-        "This scaffolded DNA computing system operates by harnessing thermodynamic laws, allowing short DNA strands to automatically assemble and interact according to programmed rules to solve 100-bit computational programs.",
-        "This breakthrough technology opens up new avenues for optimizing energy efficiency in biological computing systems, establishing a crucial foundation for the future development of molecular-level data processing technology."
-      ],
-      "originalTitle": "Máy tính ADN xử lý phép tính phức tạp không cần điện",
-      "url": "https://vnexpress.net/may-tinh-adn-xu-ly-phep-tinh-phuc-tap-khong-can-dien-5124454.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "DNA Computing",
-        "Biological Computer",
-        "Hardware",
-        "Tech Trends",
-        "Thermodynamics"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-28T17:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/24/VNEADN-1790264584-1263-1790264635.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ibQcluN-NvbX9HMdddvZ5w",
-      "contentSnippet": "Các nhà khoa học tạo ra máy tính ADN mới có thể thực hiện phép tính 100 bit bằng cách sử dụng hàng tỷ phân tử trong giọt nước tí hon.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a565c2999020347b",
-      "title_vi": "Phyllotaxis: Màn hình LED phản ứng theo âm thanh lấy cảm hứng từ thiên nhiên",
-      "title_en": "Phyllotaxis: An audio-reactive LED display",
-      "summary_vi": [
-        "Tác giả khám phá việc mô phỏng các họa tiết sinh học xuất hiện trong tự nhiên thông qua mã nguồn lập trình, cụ thể là cấu trúc xoắn ốc kép phyllotaxis thường thấy ở trung tâm của hoa hướng dương và các loài thực vật khác.",
-        "Bằng cách sử dụng ngôn ngữ lập trình Processing để tạo ra các điểm dữ liệu dựa trên tỷ lệ vàng, kết hợp thư viện CadQuery trong Python để thiết kế đối tượng vật lý tích hợp đèn LED RGB địa chỉ trong từng ô của ma trận.",
-        "Dự án minh họa sự kết hợp sáng tạo giữa lập trình thuật toán hình học và phần cứng nhúng, mang đến nguồn cảm hứng cho các kỹ sư phần mềm khi ứng dụng toán học tự nhiên vào nghệ thuật thị giác."
-      ],
-      "summary_en": [
-        "The author explores simulating biological patterns found in nature through programming code, specifically focusing on the phyllotaxis double spiral structure commonly seen in the center of sunflowers and other plants.",
-        "By utilizing the Processing language to generate data points based on the golden ratio, combined with the CadQuery Python library to design physical objects embedding addressable RGB LEDs within matrix cells.",
-        "This project demonstrates a creative integration of geometric algorithmic programming and embedded hardware, providing inspiration for software engineers applying natural mathematics to visual arts."
-      ],
-      "originalTitle": "Phyllotaxis: An audio-reactive LED display",
-      "url": "https://jagi.studio/posts/phyllotaxis/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Processing",
-        "Python",
-        "LED Matrix",
-        "Algorithms",
-        "Hardware"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-28T16:18:57.000Z",
-      "contentSnippet": "I've been fascinated by understanding patterns that appear in nature, through code. Communing with the inherent emergent patterns that exist in the universe. The phyllotaxis is one such pattern, the expanding double-spiral shape that appears in the center of sunflowers, succulents, other plants. It'",
-      "authorName": "evakhoury",
-      "upvotes": 163,
-      "commentsCount": 21
-    },
-    {
-      "id": "ec0fdf120e95bb0e",
-      "title_vi": "Hướng dẫn cài đặt Claude Code trên Windows và kết nối Crazyrouter: từ lỗi 403 đến chạy thành công",
-      "title_en": "Guide to Installing Claude Code on Windows and Configuring Crazyrouter: Resolving 403 Errors for Successful Deployment",
-      "summary_vi": [
-        "Bài viết chia sẻ trải nghiệm thực tế khi thiết lập công cụ lập trình Claude Code trên hệ điều hành Windows, tập trung vào việc vượt qua các rào cản kỹ thuật để tích hợp thành công môi trường phát triển AI.",
-        "Tác giả đi sâu vào quy trình xử lý lỗi xác thực 403 khi kết nối với Crazyrouter, cung cấp các bước cấu hình chi tiết để đảm bảo luồng dữ liệu thông suốt giữa máy trạm cá nhân và hệ thống trung gian.",
-        "Hướng dẫn này mang lại giá trị thực tiễn cao cho các lập trình viên đang muốn tối ưu hóa quy trình làm việc với AI, giúp tiết kiệm thời gian xử lý sự cố cấu hình phức tạp trong môi trường phát triển hiện đại."
-      ],
-      "summary_en": [
-        "This article shares a practical experience in setting up the Claude Code programming tool on Windows, focusing on overcoming technical barriers to successfully integrate an AI-powered development environment for local machine usage.",
-        "The author details the process of resolving 403 authentication errors when connecting to Crazyrouter, providing specific configuration steps to ensure seamless data flow between the local workstation and the intermediary routing system.",
-        "This guide offers significant practical value for developers looking to optimize their AI-assisted workflows, helping them save time by troubleshooting complex configuration issues within modern software development environments effectively."
-      ],
-      "originalTitle": "# Hướng dẫn cài đặt Claude Code trên Windows và kết nối Crazyrouter: từ lỗi 403 đến chạy thành công",
-      "url": "https://viblo.asia/p/huong-dan-cai-dat-claude-code-tren-windows-va-ket-noi-crazyrouter-tu-loi-403-den-chay-thanh-cong-yZJZlP6bVjm",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Claude Code",
-        "AI",
-        "Windows",
-        "Crazyrouter",
-        "Debugging"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-28T15:18:09.000Z",
-      "contentSnippet": "Hướng dẫn cài đặt Claude Code trên Windows và kết nối Crazyrouter: từ lỗi 403 đến chạy thành công Lần đầu cài Claude Code (công cụ mã hóa AI) trên Wi...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9a148ef67f96cd9b",
-      "title_vi": "Đánh giá các mẫu ốp lưng dành cho dòng điện thoại iPhone 18 Pro Max",
-      "title_en": "Hands-on with various protective cases for the iPhone 18 Pro Max",
-      "summary_vi": [
-        "Bài viết chia sẻ trải nghiệm thực tế về việc bảo vệ thiết bị di động sau những tình huống rơi rớt trong quá trình sử dụng hàng ngày của người dùng.",
-        "Nội dung tập trung đánh giá chất lượng thiết kế, khả năng chống sốc và độ bền vật liệu của các dòng phụ kiện ốp lưng dành riêng cho thế hệ điện thoại mới.",
-        "Thông tin này hỗ trợ các kỹ sư và chuyên gia công nghệ lựa chọn giải pháp bảo vệ phần cứng hiệu quả nhằm kéo dài tuổi thọ thiết bị."
-      ],
-      "summary_en": [
-        "The article shares practical experiences regarding mobile device protection after unexpected dropping incidents during daily usage by the user.",
-        "The content focuses on evaluating design quality, shock absorption capabilities, and material durability of various protective cases designed for the new smartphone generation.",
-        "This information helps engineers and technology professionals choose effective hardware protection solutions to extend the operational lifespan of their devices."
-      ],
-      "originalTitle": "Trên tay 24 chiếc ốp lưng iPhone 18 Pro Max: Đủ phong cách từ hầm hố đến điệu đà",
-      "url": "https://tinhte.vn/thread/tren-tay-24-chiec-op-lung-iphone-18-pro-max-du-phong-cach-tu-ham-ho-den-dieu-da.4179179/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iPhone",
-        "Mobile Hardware",
-        "Accessories",
-        "Device Protection"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-28T14:37:04.000Z",
-      "contentSnippet": "Hôm trước chiếc iPhone 18 Pro Max của mình vừa có một cú tiếp đất không mấy êm ả khi lỡ rơi từ độ cao hơn một mét xuống sàn gạch có trải thảm. Dù có lớp thảm đỡ bớt lực nhưng phần viền Titan của...",
-      "authorName": "cuhiep",
       "upvotes": 0,
       "commentsCount": 0
     }
