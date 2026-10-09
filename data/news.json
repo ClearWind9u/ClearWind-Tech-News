@@ -1,7 +1,313 @@
 {
-  "lastUpdated": "2026-10-09T12:20:42.818Z",
+  "lastUpdated": "2026-10-09T22:04:00.646Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "1e54675156fa124f",
+      "title_vi": "PostgreSQL Bài 10: Quản lý dữ liệu bán cấu trúc với JSON và JSONB",
+      "title_en": "PostgreSQL Lesson 10: Managing Semi-Structured Data with JSON vs JSONB",
+      "summary_vi": [
+        "Bài viết phân tích lý do nhiều kỹ sư phần mềm chọn kiến trúc cơ sở dữ liệu quan hệ thay vì dịch chuyển sang các giải pháp NoSQL như MongoDB nhờ vào khả năng xử lý linh hoạt.",
+        "Nội dung tập trung làm rõ sự khác biệt cốt lõi về hiệu năng và cơ chế lưu trữ giữa hai kiểu dữ liệu JSON và JSONB bên trong hệ quản trị cơ sở dữ liệu PostgreSQL.",
+        "Kiến thức này giúp các lập trình viên tối ưu hóa thiết kế hệ thống, kết hợp hoàn hảo giữa tính năng mở rộng của NoSQL và sự toàn vẹn dữ liệu của SQL truyền thống."
+      ],
+      "summary_en": [
+        "The article analyzes why many software engineers choose relational database architecture instead of migrating to NoSQL solutions like MongoDB thanks to flexible processing capabilities.",
+        "The content focuses on clarifying the core differences in performance and storage mechanisms between JSON and JSONB data types inside the PostgreSQL database management system.",
+        "This knowledge helps developers optimize system design, perfectly combining the scalability of NoSQL with the data integrity of traditional SQL systems."
+      ],
+      "originalTitle": "PostgreSQL Bài 10: Quản lý dữ liệu bán cấu trúc với JSON vs JSONB",
+      "url": "https://viblo.asia/p/postgresql-bai-10-quan-ly-du-lieu-ban-cau-truc-voi-json-vs-jsonb-ZjJYWRZXVOE",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "PostgreSQL",
+        "JSONB",
+        "Database",
+        "SQL",
+        "NoSQL"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-10T01:16:02.000Z",
+      "contentSnippet": "Một trong những lý do khiến nhiều kỹ sư quyết định ở lại với kiến trúc quan hệ thay vì chuyển dịch sang các cơ sở dữ liệu NoSQL như MongoDB chính là k...",
+      "authorName": "HUy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "08357f872cf478ad",
+      "title_vi": "Đầu tiên là các mô hình giá rẻ: Xây dựng Bộ định tuyến xếp tầng LLM giúp cắt giảm hóa đơn AI của bạn mà không ảnh hưởng đến chất lượng",
+      "title_en": "Cheap Models First: Building an LLM Cascade Router That Cuts Your AI Bill Without Hurting Quality",
+      "summary_vi": [
+        "Tổng quan bối cảnh, sự kiện then chốt và các diễn biến kỹ thuật nổi bật được ghi nhận về Đầu tiên là các mô hình giá rẻ: Xây dựng Bộ định tuyến xếp tầng LLM giúp cắt giảm hóa đơn AI của bạn mà không ảnh hưởng đến chất lượng.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Đầu tiên là các mô hình giá rẻ: Xây dựng Bộ định tuyến xếp tầng LLM giúp cắt giảm hóa đơn AI của bạn mà không ảnh hưởng đến chất lượng.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Đầu tiên là các mô hình giá rẻ: Xây dựng Bộ định tuyến xếp tầng LLM giúp cắt giảm hóa đơn AI của bạn mà không ảnh hưởng đến chất lượng."
+      ],
+      "summary_en": [
+        "Key architectural developments and core background regarding Cheap Models First: Building an LLM Cascade Router That Cuts Your AI Bill Without Hurting Quality.",
+        "In-depth technical breakdown and implementation mechanisms introduced in Cheap Models First: Building an LLM Cascade Router That Cuts Your AI Bill Without Hurting Quality.",
+        "Practical engineering impact and actionable takeaways for developers building with Cheap Models First: Building an LLM Cascade Router That Cuts Your AI Bill Without Hurting Quality."
+      ],
+      "originalTitle": "Cheap Models First: Building an LLM Cascade Router That Cuts Your AI Bill Without Hurting Quality",
+      "url": "https://viblo.asia/p/cheap-models-first-building-an-llm-cascade-router-that-cuts-your-ai-bill-without-hurting-quality-gdJzvO8EJz5",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "MachineLearning"
+      ],
+      "hotScore": 87,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-10T00:49:34.000Z",
+      "contentSnippet": "",
+      "authorName": "EME GUG",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a5d7988862272ea4",
+      "title_vi": "Kiến Trúc Quản Lý Đa Tên Miền Trong Cấu Hình Ứng Dụng",
+      "title_en": "Multi-Domain Management Architecture in Application Configuration",
+      "summary_vi": [
+        "Bài viết phân tích phương pháp thiết kế kiến trúc backend nhằm quản lý hiệu quả hệ thống đa tên miền tại các tầng quan trọng như API Gateway, Reverse Proxy và cấu hình Middleware.",
+        "Giải pháp kỹ thuật tập trung vào việc tối ưu hóa định tuyến yêu cầu, phân tách logic xử lý theo từng miền và duy trì tính linh hoạt trong quá trình mở rộng hệ thống ứng dụng lớn.",
+        "Kiến trúc này mang lại giá trị thực tiễn cao giúp các kỹ sư phần mềm dễ dàng kiểm soát quyền truy cập, bảo mật thông tin và nâng cao hiệu năng vận hành cho toàn bộ hệ thống."
+      ],
+      "summary_en": [
+        "The article analyzes backend architecture design methods to efficiently manage multi-domain systems at crucial layers such as API Gateways, Reverse Proxies, and Middleware configurations.",
+        "Technical solutions focus on optimizing request routing, separating processing logic by domain, and maintaining high flexibility during the scaling of large application systems.",
+        "This architecture delivers high practical value, helping software engineers easily control access permissions, secure information, and improve operational performance across the entire system."
+      ],
+      "originalTitle": "Kiến Trúc Quản Lý Đa Tên Miền (Multi-Domain) Trong Cấu Hình Ứng Dụng",
+      "url": "https://viblo.asia/p/kien-truc-quan-ly-da-ten-mien-multi-domain-trong-cau-hinh-ung-dung-RlL5ePpzLbB",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Architecture",
+        "API Gateway",
+        "Backend",
+        "Middleware",
+        "Security"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-10T00:48:59.000Z",
+      "contentSnippet": "Khi xây dựng kiến trúc Backend (đặc biệt là tại các tầng API Gateway, Reverse Proxy, hoặc cấu hình Middleware), Access Controls (Kiểm soát truy cập)...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f74fb9bbe123d837",
+      "title_vi": "PostgreSQL Bài 9: Xử lý chuỗi và Văn bản: So sánh VARCHAR, TEXT, CHAR và cách hoạt động của TOAST",
+      "title_en": "PostgreSQL Series Part 9: String and Text Processing: Comparing VARCHAR, TEXT, CHAR and How TOAST Works",
+      "summary_vi": [
+        "Bài viết phân tích chi tiết về hiệu năng lưu trữ và xử lý chuỗi văn bản trong hệ quản trị cơ sở dữ liệu PostgreSQL, tập trung vào sự khác biệt thực tế giữa các kiểu dữ liệu phổ biến.",
+        "Tác giả đi sâu vào cơ chế lưu trữ bên trong engine của PostgreSQL, giải thích cách thức hoạt động của hệ thống TOAST khi xử lý các chuỗi văn bản vượt quá dung lượng cho phép của trang dữ liệu.",
+        "Kiến thức này giúp các lập trình viên và kỹ sư cơ sở dữ liệu tối ưu hóa cấu trúc bảng, cải thiện hiệu suất truy vấn và quản lý tài nguyên lưu trữ hiệu quả hơn trong các ứng dụng lớn."
+      ],
+      "summary_en": [
+        "The article provides a detailed analysis of storage performance and text string processing within the PostgreSQL database management system, focusing on practical differences among data types.",
+        "The author dives deep into the internal storage mechanism of the PostgreSQL engine, explaining how the TOAST system operates when handling text strings exceeding standard page size limits.",
+        "This knowledge helps developers and database engineers optimize table structures, improve query performance, and manage storage resources more efficiently in large-scale applications."
+      ],
+      "originalTitle": "PostgreSQL Bài 9: Xử lý chuỗi và Văn bản: So sánh VARCHAR, TEXT, CHAR và cách hoạt động của TOAST",
+      "url": "https://viblo.asia/p/postgresql-bai-9-xu-ly-chuoi-va-van-ban-so-sanh-varchar-text-char-va-cach-hoat-dong-cua-toast-8X4EjWMXJN2",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "PostgreSQL",
+        "Database",
+        "SQL",
+        "Backend",
+        "Performance"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-10T00:14:48.000Z",
+      "contentSnippet": "Ở Bài 6, chúng ta đã nhắc sơ lược về việc VARCHAR và TEXT có hiệu năng tương đương nhau bên trong PostgreSQL engine. Nhưng điều gì sẽ xảy ra khi bạn l...",
+      "authorName": "HUy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "8d0d5e3b472fdee1",
+      "title_vi": "Bộ nhớ RAM cũ một thập kỷ đang hồi sinh để giải quyết bài toán giá cả",
+      "title_en": "Decade-old RAM is making a comeback",
+      "summary_vi": [
+        "Các nhà sản xuất bộ vi xử lý đang tìm cách giải quyết tình trạng giá bộ nhớ liên tục tăng cao bằng cách đưa dòng RAM DDR4 thế hệ trước quay trở lại thị trường.",
+        "Intel và AMD chuẩn bị ra mắt các bộ xử lý mới hỗ trợ loại bộ nhớ tiết kiệm chi phí này, trong khi Gigabyte cũng công bố các dòng bo mạch chủ tương thích.",
+        "Động thái này giúp người dùng giảm bớt gánh nặng tài chính khi nâng cấp hệ thống máy tính cá nhân trong bối cảnh giá linh kiện phần cứng biến động mạnh."
+      ],
+      "summary_en": [
+        "Major CPU manufacturers are addressing the persistent surge in memory component prices by bringing back the previous-generation DDR4 RAM to the modern market.",
+        "Intel and AMD are developing new processors that support this more affordable memory type, alongside motherboard compatibility updates announced by manufacturers like Gigabyte.",
+        "This strategic shift significantly reduces financial burdens for consumers upgrading their personal computer systems amidst ongoing hardware market price volatility."
+      ],
+      "originalTitle": "Decade-old RAM is making a comeback",
+      "url": "https://www.theverge.com/games/1009140/ram-shortage-intel-amd-ddr4-comeback",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "RAM",
+        "Hardware",
+        "Intel",
+        "AMD",
+        "PC"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-09T21:50:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STKS523_RAM_SHORTAGE_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "CPU makers have noticed that the seemingly unending RAM price hikes are making it tough for a lot of us to upgrade our PCs. Their solution? A return to last-gen DDR4 RAM. Intel and AMD are making new CPUs that'll support the older, more affordable type of memory. On Friday, Gigabyte announced that t",
+      "authorName": "Stevie Bonifield",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0854a3cada87fb07",
+      "title_vi": "Trí tuệ nhân tạo của Anthropic gửi tin báo giả về vụ án mạng cho cảnh sát Philadelphia",
+      "title_en": "Anthropic's AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "summary_vi": [
+        "Một mô hình trí tuệ nhân tạo của công ty Anthropic đã vô tình gửi thông tin sai lệch về một vụ án mạng chưa có lời giải đáp đến đường dây nóng của Sở Cảnh sát Philadelphia thông qua một trang web trực tuyến.",
+        "Sự cố xảy ra khi hệ thống trí tuệ nhân tạo trong quá trình kiểm tra tự động đã tương tác với các trang web chọn ngẫu nhiên và gửi dữ liệu giả mạo khiến cơ quan chức năng phải rà soát lại quy trình kiểm duyệt.",
+        "Vấn đề này gióng lên hồi chuông cảnh báo về rủi ro khi tự động hóa các tác vụ tương tác công khai, đòi hỏi các kỹ sư phải siết chặt cơ chế kiểm soát dữ liệu đầu ra của các mô hình ngôn ngữ lớn."
+      ],
+      "summary_en": [
+        "An artificial intelligence model developed by Anthropic accidentally provided false information regarding an unsolved homicide case to the Philadelphia Police Department tipline through an online submission platform.",
+        "The incident occurred while the AI model was interacting with randomly selected websites during automated testing routines, submitting fabricated data that bypassed initial manual review filters.",
+        "This technical glitch highlights significant risks associated with autonomous public-facing interactions, requiring software engineers to implement stricter guardrails and output validation mechanisms for large language models."
+      ],
+      "originalTitle": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "Machine Learning",
+        "Security",
+        "Ethics"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-09T21:15:38.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the investigat",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "83299127c3afec3e",
+      "title_vi": "Không ai là một hòn đảo: Trí tuệ nhân tạo đang phá hủy cộng đồng lập trình viên như thế nào",
+      "title_en": "No Man Is an Island: How Artificial Intelligence is Destroying Developer Communities",
+      "summary_vi": [
+        "Bài viết phân tích sâu sắc về việc hoạt động trí tuệ cá nhân chỉ có thể duy trì trong một cộng đồng nhân loại chung, nhưng trí tuệ nhân tạo đang dần hòa tan các cộng đồng này và làm suy giảm đáng kể các hoạt động tư duy độc lập.",
+        "Tác giả chỉ ra rằng sự xuất hiện của các công cụ lập trình hỗ trợ trí tuệ nhân tạo đã làm biến đổi hoàn toàn ngành phần mềm, khiến chất lượng tranh luận kỹ thuật suy giảm trầm trọng khi mọi người chỉ bàn về câu lệnh nhắc thay vì hệ thống kiểu dữ liệu hay trình biên dịch.",
+        "Sự suy thoái của diễn ngôn công nghệ dẫn đến việc sụp đổ quá trình xây dựng vốn nhân lực trong ngành, đặt ra câu hỏi lớn về động lực học lập trình khi kỹ năng gõ câu lệnh đơn giản hơn rất nhiều so với kỹ thuật phần mềm truyền thống."
+      ],
+      "summary_en": [
+        "The article deeply analyzes how individual intellectual activity can only be sustained within a human community, but artificial intelligence is gradually dissolving these communities and significantly reducing independent thinking activities.",
+        "The author points out that the emergence of AI-powered coding tools has completely transformed the software industry, causing technical discourse quality to decline severely as people only discuss prompts instead of type systems or compilers.",
+        "This degradation of technological discourse leads to the collapse of human capital formation within the industry, raising major questions about the motivation to learn coding when prompting skills are much shallower than traditional software engineering."
+      ],
+      "originalTitle": "No Man Is an Island",
+      "url": "https://borretti.me/article/no-man-is-an-island",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "AI",
+        "Software Engineering",
+        "Developer Community",
+        "Tech Culture",
+        "Prompt Engineering"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-09T20:04:00.000Z",
+      "contentSnippet": "In this post, I argue that individual intellectual activity can only be sustained in an intellectual community of other humans. AI dissolves these communities, which in turn makes private intellectual activity rarer. Some years ago, when it became clear that AI would solve software engineering, my t",
+      "authorName": "zetalyrae",
+      "upvotes": 176,
+      "commentsCount": 84
+    },
+    {
+      "id": "42d1906c74af83c6",
+      "title_vi": "Sự điên rồ thuần túy: Các nhà toán học sẽ mất nhiều năm để hiểu rõ đợt phát hành mới nhất từ OpenAI",
+      "title_en": "Pure insanity: Mathematicians will need years to make sense of OpenAI’s latest drop",
+      "summary_vi": [
+        "OpenAI vừa gây bất ngờ lớn trong cộng đồng khoa học khi phát hành một lượng lớn kết quả toán học phức tạp, khiến hàng chục chuyên gia toán học cảm thấy kinh ngạc xen lẫn sự lo âu sâu sắc về tương lai.",
+        "Khối lượng dữ liệu khổng lồ này chứa đựng nhiều kết quả chưa từng có tiền lệ, buộc các nhà nghiên cứu phải dành nhiều năm phân tích kỹ lưỡng các mô hình toán học và cơ chế lập luận mà hệ thống AI tạo ra.",
+        "Sự kiện này đánh dấu một bước ngoặt quan trọng trong việc ứng dụng trí tuệ nhân tạo vào các lĩnh vực khoa học cơ bản, đặt ra thách thức lớn cũng như cơ hội mới cho cộng đồng nghiên cứu toàn cầu."
+      ],
+      "summary_en": [
+        "OpenAI recently shocked the scientific community by releasing a massive flood of complex mathematical results, leaving dozens of mathematicians astonished and deeply anxious about the future landscape.",
+        "This staggering volume of unprecedented data forces researchers to spend years thoroughly analyzing the intricate mathematical models and advanced reasoning mechanisms generated by the artificial intelligence system.",
+        "This event marks a major turning point in applying artificial intelligence to fundamental scientific fields, presenting significant challenges alongside unprecedented opportunities for the global research community."
+      ],
+      "originalTitle": "‘Pure insanity’: Mathematicians will need years to make sense of OpenAI’s latest drop",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "OpenAI",
+        "Mathematics",
+        "Machine Learning",
+        "Research"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-09T19:09:44.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS537_AI_MATH_5.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "\"Staggering.\" \"Overwhelming.\" \"Unprecedented.\" \"Surreal.\" \"Pure insanity.\" Those were among the descriptions more than three dozen mathematicians reached for in conversations with The Verge as they tried to make sense of the flood of mathematical results OpenAI abruptly dropped on the field this wee",
+      "authorName": "Robert Hart",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "64581bfda36978c6",
+      "title_vi": "Trình diễn dự án: Giải mã và so sánh cấu hình nhà mạng trên iPhone, Pixel và Galaxy",
+      "title_en": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
+      "summary_vi": [
+        "Dự án mã nguồn mở carrier-explode phiên bản 2.0 vừa chính thức ra mắt với hệ thống backend được nâng cấp mạnh mẽ nhằm hỗ trợ việc giải mã và phân tích sâu các tệp tin cấu hình nhà mạng viễn thông.",
+        "Công cụ này cho phép kỹ sư và nhà phát triển tra cứu chi tiết các thông số APN, VoLTE, cuộc gọi qua Wi-Fi cùng mạng 5G từ các bản firmware chính thức của điện thoại Apple iPhone, Google Pixel và Samsung Galaxy một cách trực quan.",
+        "Người dùng có thể dễ dàng truy xuất toàn bộ dữ liệu cấu hình thông qua giao diện API lập trình hoặc tải về tập dữ liệu CC0 hàng ngày nhằm phục vụ cho công tác nghiên cứu bảo mật và phát triển phần mềm di động."
+      ],
+      "summary_en": [
+        "The open-source project carrier-explode version 2.0 has officially launched with a significantly upgraded backend system designed to support deep decoding and analysis of telecommunication carrier configuration files.",
+        "This tool enables engineers and developers to intuitively look up detailed APN parameters, VoLTE, Wi-Fi Calling, and 5G specifications extracted directly from official firmware of Apple iPhone, Google Pixel, and Samsung Galaxy devices.",
+        "Users can easily retrieve all configuration data through a programmatic API interface or download daily CC0 datasets to support security research, firmware analysis, and mobile software development workflows effectively."
+      ],
+      "originalTitle": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
+      "url": "https://carrierexplode.com/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Mobile",
+        "Firmware",
+        "API",
+        "Open Source",
+        "Telecommunications"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-09T18:10:55.000Z",
+      "contentSnippet": "carrier-explode 2.0 is out with a much improved backend. We're still working on our decoders, please contribute :) Carrier settings from iPhone, Pixel and Galaxy firmware, decoded and compared. Look up a carrier's APNs, VoLTE, Wi-Fi Calling and 5G on each phone. Pick the features you need and see wh",
+      "authorName": "simplyalec",
+      "upvotes": 141,
+      "commentsCount": 14
+    },
     {
       "id": "d8a1a005e0fdf60f",
       "title_vi": "Giải thích chi tiết về Aixy AI Gateway và vai trò lớp điều khiển trung gian",
@@ -135,6 +441,180 @@
       "publishedAt": "2026-10-09T16:15:21.000Z",
       "contentSnippet": "Hướng dẫn cho người mới: lần đầu dùng nền tảng tổng hợp API AI, từ khái niệm đến tạo tấm ảnh đầu tiên Đây là ghi chú dành cho người mới: đi từ khái n...",
       "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c872fb856863ceb0",
+      "title_vi": "Ra đa cơ hội cho lập trình viên số 20: Thử thách lý luận trí tuệ nhân tạo trị giá 2 triệu đô la, cuộc thi lập trình và phân tích dữ liệu",
+      "title_en": "Dev Opportunity Radar #20: $2M AI Reasoning Challenge, PayPal AI Hackathon, and Coinbase Analytics Challenge",
+      "summary_vi": [
+        "Bài viết giới thiệu bản tin tổng hợp các cơ hội phát triển nghề nghiệp dành cho lập trình viên, bao gồm các cuộc thi lập trình trí tuệ nhân tạo lớn và các thử thách phân tích dữ liệu chuyên sâu.",
+        "Nội dung tập trung vào các sự kiện nổi bật như giải thưởng lý luận trí tuệ nhân tạo trị giá hai triệu đô la, cuộc thi lập trình của PayPal và thử thách phân tích chiến lược từ sàn giao dịch tiền mã hóa.",
+        "Đây là nguồn tài nguyên hữu ích giúp các kỹ sư phần mềm tiếp cận các dự án thực tế, nâng cao kỹ năng chuyên môn và kết nối với cộng đồng công nghệ toàn cầu thông qua các chương trình chất lượng cao."
+      ],
+      "summary_en": [
+        "The article introduces a curated newsletter highlighting professional development opportunities for software developers, featuring major artificial intelligence competitions and advanced data analysis challenges.",
+        "Content focuses on prominent events such as a two million dollar artificial intelligence reasoning prize, a PayPal programming hackathon, and a strategic analytics challenge from a major cryptocurrency exchange.",
+        "This serves as a valuable resource helping software engineers access practical projects, enhance technical skills, and connect with the global technology community through high-quality programs."
+      ],
+      "originalTitle": "Dev Opportunity Radar #20: $2M AI Reasoning Challenge, PayPal AI Hackathon, and Coinbase Analytics Challenge",
+      "url": "https://dev.to/devengers/dev-opportunity-radar-20-2m-ai-reasoning-challenge-paypal-ai-hackathon-and-coinbase-analytics-1fec",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Hackathon",
+        "Data Analytics",
+        "Software Engineering",
+        "Tech Community"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-09T14:55:22.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fh3zcvzl5dry5rlbc17m2.jpeg",
+      "contentSnippet": "TL;DR Welcome back to Dev Opportunity Radar. This is a weekly series where I share opportunities,...",
+      "authorName": "Hemapriya Kanagala",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3307586%2F2dffaf97-946d-44a6-8a39-07d94a72e07d.png",
+      "upvotes": 69,
+      "commentsCount": 9
+    },
+    {
+      "id": "45b84068afbdfeb8",
+      "title_vi": "Công ty an ninh mạng quảng cáo đánh bại mã độc tống tiền nhưng thực chất lại đi trả tiền cho hacker",
+      "title_en": "Cybersecurity company claims to defeat ransomware but secretly pays hackers instead",
+      "summary_vi": [
+        "Công ty MonsterCloud đã quảng bá rộng rãi về công nghệ độc quyền giúp giải cứu dữ liệu khách hàng khỏi các cuộc tấn công mã độc tống tiền mà không cần thỏa hiệp với tội phạm mạng.",
+        "Tuy nhiên, các cơ quan công tố Mỹ đã phanh phui sự thật rằng doanh nghiệp này thực chất chỉ đóng vai trò trung gian đàm phán và âm thầm dùng tiền của nạn nhân để chuộc lại dữ liệu từ nhóm hacker.",
+        "Sự việc gióng lên hồi chuông cảnh báo về tính minh bạch trong ngành dịch vụ ứng phó sự cố an ninh mạng, đồng thời nhấn mạnh rủi ro pháp lý và đạo đức khi tiếp tay cho tội phạm mã hóa dữ liệu."
+      ],
+      "summary_en": [
+        "MonsterCloud heavily marketed its proprietary technology claiming to successfully rescue encrypted client data from ransomware attacks without compromising with cyber criminals.",
+        "However, US prosecutors exposed the reality that the firm actually acted as a negotiation intermediary, secretly using victim funds to pay ransoms directly back to the hacking groups.",
+        "This incident raises serious concerns regarding transparency within the cybersecurity incident response industry while highlighting the legal and ethical risks of funding extortionists."
+      ],
+      "originalTitle": "Công ty tuyên bố đánh bại ransomware, hóa ra bí quyết là… trả tiền cho hacker",
+      "url": "https://genk.vn/cong-ty-tuyen-bo-danh-bai-ransomware-hoa-ra-bi-quyet-la-tra-tien-cho-hacker-165260910191354528.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Ransomware",
+        "Cybersecurity",
+        "Security",
+        "Malware",
+        "Data Protection"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-09T13:37:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/9/avatar1791552977763-1791552978747643826534.jpg",
+      "contentSnippet": "MonsterCloud quảng cáo rằng họ sở hữu công nghệ đặc biệt để giải cứu dữ liệu bị mã hóa. Tuy nhiên, các công tố viên Mỹ cho rằng sự thật phía sau những màn “giải mã” này hoàn toàn khác.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c66a96c470beaeb2",
+      "title_vi": "Tăng giá thêm 100 USD làm nhu cầu yếu, Apple cắt giảm đơn hàng linh kiện iPhone 18 Pro?",
+      "title_en": "Price Hike of 100 USD Dampens Demand, Apple Cuts Component Orders for iPhone 18 Pro?",
+      "summary_vi": [
+        "Apple đang đối mặt với nguy cơ sụt giảm nhu cầu tiêu thụ dòng điện thoại thông minh cao cấp mới do chiến lược điều chỉnh tăng giá bán lẻ lên một trăm đô la Mỹ.",
+        "Việc nhà sản xuất thay đổi lịch trình ra mắt sản phẩm phần cứng trong năm nay cũng góp phần làm gián đoạn chuỗi cung ứng linh kiện điện tử tiên tiến dành cho dòng máy Pro.",
+        "Tình hình này đòi hỏi các kỹ sư phần cứng và nhà quản lý chuỗi cung ứng phải tối ưu hóa chi phí sản xuất để duy trì sức cạnh tranh trên thị trường di động toàn cầu."
+      ],
+      "summary_en": [
+        "Apple is facing the risk of declining consumer demand for its new high-end smartphone lineup due to a retail price increase strategy of one hundred US dollars.",
+        "The manufacturer's altered hardware product launch schedule this year has also contributed to disrupting the supply chain of advanced electronic components for the Pro series.",
+        "This situation requires hardware engineers and supply chain managers to optimize production costs in order to maintain competitiveness in the global mobile market."
+      ],
+      "originalTitle": "Tăng giá thêm 100 USD làm nhu cầu yếu, Apple cắt giảm đơn hàng linh kiện iPhone 18 Pro?",
+      "url": "https://genk.vn/tang-gia-them-100-usd-lam-nhu-cau-yeu-apple-cat-giam-don-hang-linh-kien-iphone-18-pro-165261009200041582.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "Mobile",
+        "Hardware",
+        "Supply Chain"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-09T13:31:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/9/f51a927dcb62-gettyimages-2295963788b-1791550782895-17915507838411794307143-0-88-878-1493-crop-17915508269151537880211.jpg",
+      "contentSnippet": "Ngoài lý do giá bán tăng cao, một nguyên nhân khác cũng có thể làm nhu cầu iPhone mới suy yếu là do lịch ra mắt sản phẩm khác thường của Apple trong năm nay.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "212e9120a76a6fc2",
+      "title_vi": "Cloudflare chính thức thâu tóm nền tảng lập trình Deno",
+      "title_en": "Cloudflare acquires Deno",
+      "summary_vi": [
+        "Công ty Cloudflare đã chính thức công bố thương vụ thâu tóm toàn bộ đội ngũ phát triển đằng sau nền tảng chạy mã JavaScript và TypeScript là Deno nhằm mở rộng hệ sinh thái công nghệ.",
+        "Sự kết hợp này mang lại khả năng tích hợp sâu rộng giữa môi trường thực thi hiện đại, các dịch vụ lưu trữ phân tán và mô hình lập trình Workers sẵn có trên nền tảng đám mây.",
+        "Thương vụ đánh dấu bước tiến quan trọng trong việc đơn giản hóa hạ tầng mạng cho các nhà phát triển phần mềm, giúp tối ưu hóa hiệu suất và giảm thiểu độ phức tạp khi vận hành hệ thống."
+      ],
+      "summary_en": [
+        "Cloudflare has officially announced the acquisition of the entire development team behind the JavaScript and TypeScript runtime platform Deno to expand its technology ecosystem.",
+        "This combination brings deep integration capabilities between modern runtime environments, distributed storage services, and existing serverless programming models on the cloud platform.",
+        "The acquisition marks a significant milestone in simplifying cloud infrastructure for software developers, optimizing application performance, and reducing operational complexity."
+      ],
+      "originalTitle": "Cloudflare acquires Deno",
+      "url": "https://deno.com/blog/cloudflare",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Cloudflare",
+        "Deno",
+        "JavaScript",
+        "Cloud Computing",
+        "Software Architecture"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-09T13:03:48.000Z",
+      "contentSnippet": "Deno is joining CloudflareOctober 9, 2026 For years, we’ve been working to make building server software simpler. We questioned how modules could be distributed, what security guarantees a JavaScript runtime could provide, what belonged in a complete toolchain, and how easily an application could be",
+      "authorName": "ilreb",
+      "upvotes": 960,
+      "commentsCount": 505
+    },
+    {
+      "id": "2929b37f5a642ed0",
+      "title_vi": "Đánh giá tai nghe chống ồn Sony trong việc hỗ trợ họp trực tuyến qua các ứng dụng văn phòng",
+      "title_en": "Evaluating Sony noise-canceling headphones for remote meetings on office collaboration platforms",
+      "summary_vi": [
+        "Bài viết phân tích những bất cập thường gặp của người dùng văn phòng khi sử dụng tai nghe Bluetooth trong các buổi họp trực tuyến qua những nền tảng như Zoom, Teams hay Google Meet.",
+        "Cơ chế điều khiển cảm ứng trên thiết bị đôi khi gây ra sự bất tiện và nhầm lẫn khi người dùng cần thao tác tắt mở micro nhanh chóng để xử lý các công việc bên ngoài.",
+        "Khả năng kiểm soát trạng thái thiết bị thông qua các nút bấm vật lý rõ ràng đóng vai trò quan trọng trong việc nâng cao trải nghiệm làm việc từ xa và hiệu suất công sở."
+      ],
+      "summary_en": [
+        "The article analyzes common challenges faced by office workers when using Bluetooth headphones during online meetings across popular collaboration platforms like Zoom, Teams, and Google Meet.",
+        "Touch control mechanisms on the devices often cause inconvenience and confusion when users need to quickly mute or unmute their microphones to handle sudden offline conversations.",
+        "Effective device state control through clear physical buttons plays a crucial role in enhancing remote work experiences and overall daily office productivity."
+      ],
+      "originalTitle": "Sony WH-1000XM6 họp online có ổn không khi có mute nhanh và micro điều hướng chùm sóng AI?",
+      "url": "https://genk.vn/sony-wh-1000xm6-hop-online-co-on-khong-khi-co-mute-nhanh-va-micro-dieu-huong-chum-song-ai-165261009191516605.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Bluetooth",
+        "Hardware",
+        "Remote Work",
+        "Audio Tech"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-09T12:30:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/9/photo1791517093059-1791517093622888219945-1791548118399799039841.png",
+      "contentSnippet": "Sony WH-1000XM6 tập trung vào hai nỗi khó chịu khi họp online: sợ quên tắt mic và giọng nói bị lẫn ồn trong văn phòng.",
+      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8088,488 +8568,6 @@
       "publishedAt": "2026-09-30T09:30:00.000Z",
       "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/30/screenshot20260928at1303166427-4219-3801-1790743847.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=B0Q4Rm6DXhdXjdvBjeN-Pg",
       "contentSnippet": "YouTuber Matt Robb cho biết, trợ lý AI cá nhân Muse của Meta đã cung cấp địa chỉ nhà riêng của anh cho người lạ mà không được phép.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f09db0ae4eaca501",
-      "title_vi": "OpenAI ra mắt Dots, tác tử trí tuệ nhân tạo chạy nền liên tục với máy tính đám mây riêng",
-      "title_en": "OpenAI Launches Dots, an Always-On AI Agent Powered by Dedicated Cloud Computers",
-      "summary_vi": [
-        "Tại sự kiện DevDay 2026, OpenAI chính thức giới thiệu tác tử trí tuệ nhân tạo mang tên Dots với khả năng vận hành liên tục suốt ngày đêm.",
-        "Hệ thống hoạt động trên một môi trường máy tính đám mây độc lập, cho phép tự động thực hiện các tác vụ phức tạp mà không cần sự can thiệp liên tục từ con người.",
-        "Sản phẩm đánh dấu bước tiến lớn trong việc phát triển các trợ lý thông minh tự trị, mở ra phương thức tương tác hoàn toàn mới cho các kỹ sư và doanh nghiệp công nghệ."
-      ],
-      "summary_en": [
-        "At the DevDay 2026 event, OpenAI officially introduced an artificial intelligence agent named Dots with the capability to operate continuously around the clock.",
-        "The system runs on a dedicated cloud computing environment, enabling the automated execution of complex tasks without requiring constant human intervention.",
-        "This product marks a major milestone in developing autonomous intelligent assistants, opening up entirely new interaction paradigms for engineers and technology enterprises."
-      ],
-      "originalTitle": "OpenAI ra mắt Dots, AI agent chạy nền 24/7 với máy tính đám mây riêng",
-      "url": "https://tinhte.vn/thread/openai-ra-mat-dots-ai-agent-chay-nen-24-7-voi-may-tinh-dam-may-rieng.4180567/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "OpenAI",
-        "AI Agent",
-        "Cloud Computing",
-        "DevDay 2026",
-        "Automation"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-30T09:06:16.000Z",
-      "contentSnippet": "OpenAI ra mắt Dots, AI agent chạy nền 24/7 với máy tính đám mây riêng Tại sự kiện DevDay 2026, OpenAI vừa giới thiệu Dots, một dạng tác tử AI mà hãng gọi là \"always-on agents\", tức nó luôn hoạt...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "995e743d0b25a93b",
-      "title_vi": "Điểm tin AI Buổi Sáng (30/09/2026): Khi AI Agent tiến gần hơn vào hạ tầng thanh toán và phát triển phần mềm",
-      "title_en": "AI Morning News (September 30, 2026): When AI Agent moves closer to payment infrastructure and software development",
-      "summary_vi": [
-        "Điểm tin AI Buổi Sáng (30/09/2026): Khi AI Agent tiến gần hơn vào hạ tầng thanh toán và phát triển phần mềm Trong 24 giờ qua, bức tranh công nghệ.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Điểm tin AI Buổi Sáng (30/09/2026): Khi AI Agent tiến gần hơn vào hạ tầng thanh toán và phát triển phần mềm.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Điểm tin AI Buổi Sáng (30/09/2026): Khi AI Agent tiến gần hơn vào hạ tầng thanh toán và phát triển phần mềm."
-      ],
-      "summary_en": [
-        "Morning AI News (September 30, 2026): When AI Agent moves closer to payment infrastructure and software development In the past 24 hours, the technology picture.",
-        "In-depth technical breakdown and implementation mechanisms introduced in AI Morning News (September 30, 2026): When AI Agent moves closer to payment infrastructure and software development.",
-        "Practical engineering impact and actionable takeaways for developers building with AI Morning News (September 30, 2026): When AI Agent moves closer to payment infrastructure and software development."
-      ],
-      "originalTitle": "Điểm tin AI Buổi Sáng (30/09/2026): Khi AI Agent tiến gần hơn vào hạ tầng thanh toán và phát triển phần mềm",
-      "url": "https://viblo.asia/p/diem-tin-ai-buoi-sang-30092026-khi-ai-agent-tien-gan-hon-vao-ha-tang-thanh-toan-va-phat-trien-phan-mem-wd43EXvALX9",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 90,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-09-30T09:02:37.000Z",
-      "contentSnippet": "Điểm tin AI Buổi Sáng (30/09/2026): Khi AI Agent tiến gần hơn vào hạ tầng thanh toán và phát triển phần mềm Trong 24 giờ qua, bức tranh công nghệ AI...",
-      "authorName": "Xuân Chinh Trịnh",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4c2b0f992eaee8f8",
-      "title_vi": "Google kháng cáo yêu cầu chia sẻ dữ liệu và dịch vụ trí tuệ nhân tạo của Liên minh Châu Âu",
-      "title_en": "Google Appeals EU Decisions Mandating Search Data Sharing and AI Service Openness",
-      "summary_vi": [
-        "Google đã chính thức đệ đơn kháng cáo hai quyết định quan trọng của Liên minh Châu Âu yêu cầu tập đoàn này phải chia sẻ dữ liệu tìm kiếm độc quyền và mở cửa các dịch vụ trí tuệ nhân tạo cho những đối thủ cạnh tranh trên thị trường.",
-        "Quyết định pháp lý này xoay quanh các cơ chế quảnal dữ liệu lớn, ràng buộc kỹ thuật trong việc phân phối mô hình học máy và những thách thức về việc bảo mật thông tin người dùng trong các hệ thống điện toán đám mây quy mô lớn.",
-        "Vụ việc tạo ra tiền lệ pháp lý quan trọng đối với các ông lớn công nghệ trong việc cân bằng giữa nghĩa vụ tuân thủ luật chống độc quyền của châu Âu và việc bảo vệ quyền riêng tư cũng như tài sản trí tuệ cốt lõi."
-      ],
-      "summary_en": [
-        "Google has officially filed an appeal against two critical European Union decisions requiring the tech giant to share proprietary search data and open its artificial intelligence services to market competitors.",
-        "This legal battle revolves around massive data governance mechanisms, technical constraints in machine learning model distribution, and the ongoing challenges of safeguarding user privacy within large-scale cloud computing systems.",
-        "The case establishes a vital legal precedent for major technology companies striving to balance compliance with European antitrust regulations while protecting user privacy and safeguarding their core intellectual property assets."
-      ],
-      "originalTitle": "Google kháng cáo yêu cầu chia sẻ dữ liệu, dịch vụ AI của EU",
-      "url": "https://tuoitre.vn/google-khang-cao-yeu-cau-chia-se-du-lieu-dich-vu-ai-cua-eu-100260930072444223.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Google",
-        "Data Privacy",
-        "EU Regulation",
-        "Antitrust"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-30T08:58:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/30/google-17907276930222001816246-0-0-502-803-crop-17907278328311185231289.png",
-      "contentSnippet": "Google kháng cáo hai quyết định của EU yêu cầu tập đoàn chia sẻ dữ liệu tìm kiếm và mở dịch vụ AI cho đối thủ, lo ảnh hưởng quyền riêng tư.",
-      "authorName": "TTXVN",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ebf28d0ba45867f0",
-      "title_vi": "Nvidia xây dựng hệ thống kiểm soát nhằm ngăn chặn tác nhân trí tuệ nhân tạo vượt quyền hạn",
-      "title_en": "Nvidia Establishes Control Systems to Prevent Autonomous AI Agents from Exceeding Boundaries",
-      "summary_vi": [
-        "Tập đoàn Nvidia vừa chính thức công bố một hệ thống kiểm soát mới dành riêng cho các tác nhân trí tuệ nhân tạo tự chủ, nhằm giải quyết bài toán an toàn quan trọng trong việc vận hành các mô hình thông minh hiện đại.",
-        "Giải pháp kiến trúc này hoạt động như một lớp bảo vệ trung gian, giúp giám sát chặt chẽ mọi hành vi của tác nhân thông minh và ngăn chặn tuyệt đối tình trạng chúng tự ý truy cập vào các hệ thống hạ tầng mạng không được phép.",
-        "Bước tiến công nghệ này đóng vai trò thiết yếu trong việc nâng cao độ tin cậy của các hệ thống tự động hóa, đồng thời định hướng cho các kỹ sư phần mềm cách xây dựng những ứng dụng trí tuệ nhân tạo an toàn hơn trong tương lai."
-      ],
-      "summary_en": [
-        "Nvidia has officially unveiled a novel control system specifically designed for autonomous artificial intelligence agents to address critical safety challenges in operating modern intelligent models.",
-        "This architectural solution operates as an intermediary protection layer that meticulously monitors agent behaviors and strictly prevents unauthorized access to restricted network infrastructure systems.",
-        "This technological advancement plays an essential role in enhancing the reliability of automation systems while guiding software engineers on building safer artificial intelligence applications in the future."
-      ],
-      "originalTitle": "Nvidia dựng 'hàng rào' ngăn tác nhân AI 'nổi loạn'",
-      "url": "https://tuoitre.vn/nvidia-dung-hang-rao-ngan-tac-nhan-ai-noi-loan-100260930073714055.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Nvidia",
-        "Cybersecurity",
-        "Autonomous Agents",
-        "Machine Learning"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-30T07:55:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/9/30/00095470009546businesstimescomsg20nvidialogocropped-17907283546201957672653-120-120-600-887-crop-17907298076461151065594.jpeg",
-      "contentSnippet": "Nvidia công bố hệ thống kiểm soát mới cho tác nhân AI tự chủ, nhằm ngăn chúng vượt khỏi giới hạn và truy cập những hệ thống không được phép.",
-      "authorName": "TTXVN",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a4899f3f09b75894",
-      "title_vi": "Chàng trai 23 tuổi mở startup trí tuệ nhân tạo trị giá 10 tỷ USD đối đầu trực diện với Meta",
-      "title_en": "23-year-old developer launches 10 billion dollar AI startup to compete directly with Meta",
-      "summary_vi": [
-        "Noah Shinn, kỹ sư trí tuệ nhân tạo trẻ tuổi người Mỹ từng bỏ học đại học, đã thành lập công ty khởi nghiệp Spear Street Technology tại California để phát triển trợ lý cá nhân Instinct.",
-        "Trợ lý ảo Instinct ứng dụng công nghệ tự động hóa nâng cao, có khả năng thực hiện trực tiếp các tác vụ phức tạp thay cho người dùng mà không cần nhắc nhở liên tục.",
-        "Sự bùng nổ của startup này giúp gọi vốn thành công hơn một tỷ USD, nâng định giá lên mười tỷ USD và đánh dấu bước chuyển hướng mới của cuộc đua trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "Young American artificial intelligence engineer and college dropout Noah Shinn founded California startup Spear Street Technology to develop the personal assistant Instinct.",
-        "The Instinct virtual assistant utilizes advanced automation technology to directly execute complex tasks on behalf of users without requiring continuous manual prompts.",
-        "The explosive growth of this startup successfully raised over one billion dollars in funding, reaching a ten billion valuation and marking a new turning point in the AI race."
-      ],
-      "originalTitle": "Chàng trai 23 tuổi mở startup 10 tỷ USD đối đầu Meta",
-      "url": "https://vnexpress.net/chang-trai-23-tuoi-mo-startup-10-ty-usd-doi-dau-meta-5125818.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Artificial Intelligence",
-        "Startups",
-        "Meta",
-        "Silicon Valley"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-30T07:01:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/28/VNEAI-1790585927-7719-1790586048.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=nLCkttMG-dtk6UogtxEsyg",
-      "contentSnippet": "Noah Shinn, kỹ sư AI từng bỏ đại học, gây sốt khi phát triển trợ lý AI Instinct cạnh tranh với Muse của Meta.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "54215d233afddeaf",
-      "title_vi": "Điện thoại gập đôi của Apple đối mặt nguy cơ khan hàng do lỗi sản xuất",
-      "title_en": "Apple's Folding Duo Smartphone Faces Shortage Risks Due to Manufacturing Issues",
-      "summary_vi": [
-        "Tỷ lệ sản phẩm đạt tiêu chuẩn xuất xưởng của dòng điện thoại gập đôi từ Apple hiện đang ở mức rất thấp, gây lo ngại về nguồn cung hạn chế trong đợt mở bán sắp tới.",
-        "Các nhà máy lắp ráp của Foxconn và chuỗi cung ứng linh kiện như tấm nền OLED gập hay cụm bản lề phức tạp liên tục gặp sự cố kỹ thuật và phải chỉnh sửa thiết kế.",
-        "Vấn đề này phản ánh những thách thức lớn trong việc chế tạo phần cứng di động phức tạp, buộc nhà sản xuất phải cân nhắc giữa việc tối ưu hóa chất lượng và đẩy nhanh tiến độ giao hàng."
-      ],
-      "summary_en": [
-        "The factory yield rate for Apple's upcoming folding smartphone is currently very low, raising concerns about limited supply during the upcoming commercial launch period.",
-        "Foxconn assembly plants and component suppliers, including foldable OLED panels and complex hinge assemblies, are facing continuous technical issues requiring redesigns.",
-        "This situation highlights major challenges in manufacturing complex mobile hardware, forcing producers to balance rigorous quality optimization against accelerated delivery schedules."
-      ],
-      "originalTitle": "iPhone Duo có thể khan hàng vì gặp sự cố sản xuất",
-      "url": "https://vnexpress.net/iphone-duo-co-the-khan-hang-vi-gap-su-co-san-xuat-5126381.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "Smartphone",
-        "Hardware",
-        "Foxconn",
-        "OLED"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-30T07:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/30/wm1-wm1-wm1-dscf0086-1790723414-4249-1790723904.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=YDMJ47lSEJqaVP4fxBBG9g",
-      "contentSnippet": "Tỷ lệ iPhone Duo đạt tiêu chuẩn xuất xưởng của Apple được cho là rất thấp, khiến nguồn cung trong đợt mở bán cuối tháng 10 có thể hạn chế.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "c75aac5915480c50",
-      "title_vi": "Ngăn chặn rò rỉ dữ liệu cá nhân tới các API mô hình lớn bằng cách xây dựng lớp ẩn danh hóa đảo ngược cho các tác nhân trí tuệ nhân tạo",
-      "title_en": "Stop Leaking PII to LLM APIs: Build a Reversible Redaction Layer for Your AI Agents",
-      "summary_vi": [
-        "Bài viết giải quyết vấn đề rò rỉ thông tin định danh cá nhân nghiêm trọng khi các ứng dụng tích hợp trực tiếp với các giao diện lập trình ứng dụng trí tuệ nhân tạo lớn hiện nay.",
-        "Giải pháp kỹ thuật được đề xuất là xây dựng một lớp trung gian chuyên trách thực hiện việc che giấu dữ liệu nhạy cảm trước khi gửi đi và khôi phục lại khi nhận kết quả phản hồi.",
-        "Kiến trúc này giúp các nhà phát triển bảo vệ quyền riêng tư của người dùng một cách hiệu quả mà không làm giảm đi độ chính xác hoặc hiệu năng xử lý của các mô hình."
-      ],
-      "summary_en": [
-        "The article addresses the critical issue of personally identifiable information leakage when applications integrate directly with large language model programming interfaces today.",
-        "The proposed technical solution is to build a specialized intermediary layer that conceals sensitive data before transmission and restores it upon receiving response results.",
-        "This architecture helps developers effectively protect user privacy without degrading the accuracy or processing performance of the underlying artificial intelligence models."
-      ],
-      "originalTitle": "Stop Leaking PII to LLM APIs: Build a Reversible Redaction Layer for Your AI Agents",
-      "url": "https://viblo.asia/p/stop-leaking-pii-to-llm-apis-build-a-reversible-redaction-layer-for-your-ai-agents-PoL7ex6a4vk",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Security",
-        "LLM",
-        "Privacy",
-        "API"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-09-30T05:17:26.000Z",
-      "contentSnippet": "",
-      "authorName": "EME GUG",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "dd8e3ab92b83dc1f",
-      "title_vi": "Hủy ra mắt GPT-6.1 Astra, OpenAI giới thiệu GPT-6.1 Sol với hiệu năng tương đương nhưng giá rẻ hơn",
-      "title_en": "OpenAI Cancels GPT-6.1 Astra Launch and Introduces GPT-6.1 Sol with Comparable Performance at Lower Cost",
-      "summary_vi": [
-        "OpenAI vừa bất ngờ hủy bỏ kế hoạch ra mắt mô hình trí tuệ nhân tạo cao cấp GPT-6.1 Astra sau khi các bài kiểm tra nội bộ phát hiện một số vấn đề nghiêm trọng liên quan đến độ an toàn.",
-        "Để thay thế khoảng trống thị trường, công ty đã nhanh chóng tung ra phiên bản GPT-6.1 Sol sở hữu năng lực xử lý gần như tương đương nhưng có mức chi phí vận hành chỉ bằng một phần năm.",
-        "Sự thay đổi chiến lược này mang lại tác động lớn cho các nhà phát triển phần mềm nhờ khả năng hỗ trợ lập trình, sửa lỗi và thực thi quy trình phức tạp với giá thành cực kỳ tối ưu."
-      ],
-      "summary_en": [
-        "OpenAI has unexpectedly canceled the launch of its advanced artificial intelligence model GPT-6.1 Astra after internal testing revealed critical safety concerns and potential vulnerabilities.",
-        "To fill the market gap, the company quickly introduced GPT-6.1 Sol, delivering nearly comparable processing capabilities while operating at a fraction of the cost.",
-        "This strategic shift significantly impacts software developers by providing enhanced programming, debugging, and multi-step workflow execution capabilities at an exceptionally optimized price point."
-      ],
-      "originalTitle": "Hủy ra mắt GPT-6.1 Astra, OpenAI giới thiệu GPT-6.1 Sol: Hiệu năng gần bằng Astra, giá chỉ bằng 1/5",
-      "url": "https://genk.vn/huy-ra-mat-gpt-61-astra-openai-gioi-thieu-gpt-61-sol-hieu-nang-gan-bang-astra-gia-chi-bang-1-5-165260930080142241.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "OpenAI",
-        "Artificial Intelligence",
-        "Machine Learning",
-        "Software Engineering"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-30T02:41:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/30/avatar1790730058535-17907300589911299487234-0-90-672-1165-crop-17907300723432097499927.png",
-      "contentSnippet": "Chỉ trong vòng một tuần, cả Anthropic và OpenAI đều liên tiếp tung ra các mô hình AI mới, tập trung vào giảm chi phí hơn là tăng hiệu năng tổng thể.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "6c3ce0ac7d6c4cdb",
-      "title_vi": "Trải nghiệm OriginOS 7: Giao diện tối ưu, tích hợp AI mạnh mẽ và kết nối liền mạch với hệ sinh thái Apple",
-      "title_en": "Experience OriginOS 7: Optimized UI, Powerful AI Integration, and Seamless Apple Ecosystem Connectivity",
-      "summary_vi": [
-        "Hệ điều hành OriginOS 7 chính thức ra mắt mang lại những cải tiến vượt bậc về giao diện người dùng với hiệu ứng trong suốt độc đáo cùng khả năng chuyển động mượt mà hơn đáng kể.",
-        "Bản cập nhật tập trung sâu vào các tính năng trí tuệ nhân tạo tiên tiến, cơ chế đa nhiệm thông minh, tối ưu hóa hiệu năng phần cứng và mở rộng khả năng tương thích chéo với các thiết bị Apple.",
-        "Sự dịch chuyển này đánh dấu bước tiến quan trọng trong việc phá vỡ rào cản nền tảng, mang lại trải nghiệm làm việc liền mạch cho người dùng sử dụng đa thiết bị trong môi trường công nghệ hiện đại."
-      ],
-      "summary_en": [
-        "The official release of OriginOS 7 introduces remarkable user interface enhancements featuring unique transparent effects and significantly smoother system animations.",
-        "The update deeply focuses on advanced artificial intelligence capabilities, intelligent multitasking mechanisms, hardware performance optimization, and expanded cross-compatibility with Apple devices.",
-        "This strategic shift marks a crucial milestone in breaking platform barriers, delivering a seamless workflow experience for multi-device users within modern technology environments."
-      ],
-      "originalTitle": "Trải nghiệm OriginOS 7: Đẹp hơn, mượt hơn, tối ưu nhiều tính năng, kết nối tốt với MacBook, iPhone, AirPods...",
-      "url": "https://genk.vn/trai-nghiem-originos-7-dep-hon-muot-hon-toi-uu-nhieu-tinh-nang-ket-noi-tot-voi-macbook-iphone-airpods-165260930005826559.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "OriginOS",
-        "Mobile OS",
-        "AI",
-        "Ecosystem",
-        "Performance"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-30T02:18:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/29/trai-nghiem-originos-7-android-17-vivo-x500-pro-max-genk-04-17907036537331182823700-32-0-782-1200-crop-17907046156132018053609.jpg",
-      "contentSnippet": "OriginOS 7 tạo khác biệt ngay từ giao diện với hiệu ứng trong suốt và chuyển động mới, nhưng những thay đổi đáng chú ý hơn nằm ở AI, đa nhiệm, hiệu năng cùng khả năng kết nối ngày càng rộng với thiết bị Apple và Windows.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4ef92fd90f10e26a",
-      "title_vi": "Laptop mới đắt đỏ do cơn sốt trí tuệ nhân tạo khiến người dùng chuyển hướng sang máy tính đã qua sử dụng",
-      "title_en": "New laptops become expensive due to the AI boom, driving Vietnamese users toward the second-hand market",
-      "summary_vi": [
-        "Mặt bằng giá thị trường máy tính xách tay mới liên tục leo thang mạnh mẽ trong thời gian gần đây do ảnh hưởng trực tiếp từ cơn sốt chip xử lý trí tuệ nhân tạo và chi phí linh kiện bán dẫn tăng cao.",
-        "Sự gia tăng chi phí phần cứng buộc người tiêu dùng và các kỹ sư công nghệ phải xem xét lại chiến lược đầu tư thiết bị, chuyển hướng sang các dòng máy tính xách tay đã qua sử dụng để tối ưu hóa ngân sách.",
-        "Xu hướng này tạo cơ hội lớn cho thị trường thiết bị cũ phát triển mạnh mẽ, đồng thời đặt ra bài toán về việc lựa chọn phần cứng phù hợp để chạy các tác vụ phát triển phần mềm và học máy tiết kiệm chi phí."
-      ],
-      "summary_en": [
-        "New laptop prices have steadily escalated recently due to the direct impact of the artificial intelligence processor boom and soaring semiconductor component manufacturing costs globally.",
-        "The surge in hardware expenses forces consumers and technology engineers to reconsider their device investment strategies, shifting toward pre-owned laptops to effectively optimize their operating budgets.",
-        "This trend creates significant opportunities for the secondary hardware market to thrive while presenting challenges in selecting appropriate computing specs for cost-effective software development and machine learning tasks."
-      ],
-      "originalTitle": "Laptop mới \"ngáo giá\" vì cơn sốt AI: Dân buôn máy cũ hốt bạc, người Việt quay xe chọn \"mua khôn\" thay vì \"đập hộp\"",
-      "url": "https://genk.vn/laptop-moi-ngao-gia-vi-con-sot-ai-dan-buon-may-cu-hot-bac-nguoi-viet-quay-xe-chon-mua-khon-thay-vi-dap-hop-165260930080226373.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "AI Chips",
-        "Hardware",
-        "Second-hand Laptops",
-        "Semiconductor",
-        "Tech Trends"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-30T01:39:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/9/30/avatar1790730127595-1790730128292689052245.jpg",
-      "contentSnippet": "Mặt bằng giá laptop mới liên tục leo thang do cơn sốt chip AI và chi phí linh kiện tăng vọt đang đẩy hàng triệu người tiêu dùng Việt Nam về phía thị trường laptop đã qua sử dụng (second-hand).",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "45765a5a58c7696b",
-      "title_vi": "Tổng thống Mỹ yêu cầu đổi thuật ngữ trí tuệ nhân tạo thành siêu trí tuệ",
-      "title_en": "US President Replaces Artificial Intelligence Terminology with Super Intelligence in Executive Branch",
-      "summary_vi": [
-        "Tổng thống Mỹ Donald Trump đã chính thức ban hành yêu cầu bắt buộc đối với tất cả các bộ và cơ quan hành pháp trong việc thay thế hoàn toàn thuật ngữ trí tuệ nhân tạo bằng khái niệm siêu trí tuệ.",
-        "Sự thay đổi về mặt danh pháp này phản ánh xu hướng điều chỉnh chính sách ngôn ngữ kỹ thuật số nhằm định hướng lại cách thức truyền thông và quản trị các hệ thống tính toán tiên tiến trong hệ thống công quyền.",
-        "Việc chuẩn hóa thuật ngữ pháp lý đối với các công nghệ tự động hóa và học máy có thể tạo ra những tác động gián tiếp đến các tiêu chuẩn tuân thủ và quy trình phát triển phần mềm trong khu vực công."
-      ],
-      "summary_en": [
-        "The US President has officially mandated all executive departments and agencies to completely replace the traditional terminology of artificial intelligence with the concept of super intelligence.",
-        "This shift in digital nomenclature reflects a regulatory adjustment aimed at redirecting communication strategies and governance frameworks for advanced computing systems within the public sector.",
-        "Standardizing legal terminology for automation and machine learning technologies may create indirect impacts on compliance standards and software development lifecycles across government agencies."
-      ],
-      "originalTitle": "Tổng thống Mỹ đổi tên AI thành 'siêu trí tuệ'",
-      "url": "https://vnexpress.net/tong-thong-my-doi-ten-ai-thanh-sieu-tri-tue-5126433.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Artificial Intelligence",
-        "Policy",
-        "Super Intelligence",
-        "Government Tech"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-30T01:06:39.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/30/ap26226704815131-1790728511-7121-1790728521.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=ewmppZBmDDno4C3v39UoSA",
-      "contentSnippet": "Tổng thống Mỹ Donald Trump yêu cầu tất cả bộ và cơ quan hành pháp sử dụng thuật ngữ \"siêu trí tuệ\" (super intelligence) thay vì trí tuệ nhân tạo.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "db4864c34fc1ffab",
-      "title_vi": "Vụ trộm xe chở thiết bị trí tuệ nhân tạo giả mạo với mười tám tấn cát bên trong",
-      "title_en": "Fake Artificial Intelligence Hardware Heist Exposes Trucks Loaded With Eighteen Tons of Sand",
-      "summary_vi": [
-        "Hai xe đầu kéo tự lái của công ty vận tải gắn logo nhận diện phần cứng trí tuệ nhân tạo đã bị đánh cắp tại bang California trong một vụ việc gây xôn xao cộng đồng công nghệ.",
-        "Thay vì chứa các bộ vi xử lý và phần cứng gia tốc cao cấp phục vụ cho việc huấn luyện mô hình thông minh nhân tạo, các thùng hàng thực tế chỉ chứa mười tám tấn cát xây dựng.",
-        "Sự cố an ninh này phản ánh rủi ro chiến lược vật lý đối với chuỗi cung ứng phần cứng trí tuệ nhân tạo và đặt ra bài học cảnh giác cao độ cho các doanh nghiệp công nghệ."
-      ],
-      "summary_en": [
-        "Two autonomous transport trucks bearing artificial intelligence hardware branding were stolen in California during an incident that caused significant buzz within the technology community.",
-        "Instead of containing high-performance processors and advanced accelerators used for training intelligent models, the shipping containers actually held eighteen tons of construction sand.",
-        "This security breach reflects physical strategic risks to the artificial intelligence hardware supply chain and establishes a vital lesson in heightened vigilance for technology enterprises."
-      ],
-      "originalTitle": "Trộm thùng hàng với logo Nvidia, bên trong chỉ có 18 tấn cát",
-      "url": "https://vnexpress.net/trom-thung-hang-voi-logo-nvidia-ben-trong-chi-co-18-tan-cat-5126298.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Hardware",
-        "Cybersecurity",
-        "Supply Chain",
-        "Nvidia"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-30T01:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/29/6abab693d15f8a572974b754-17906-9006-9078-1790673511.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=721abZ7FOrqpc_lXH8F-ag",
-      "contentSnippet": "Hai xe đầu kéo chở thùng hàng gắn logo Nvidia bị trộm, nhưng mỗi thùng chỉ chứa 9 tấn cát thay vì phần cứng AI giá trị cao.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "50655864f2dc449f",
-      "title_vi": "Ác mộng lỗi không xác định khóa mã hóa ứng dụng trong Laravel: Nguyên nhân và cơ chế bên dưới",
-      "title_en": "The Nightmare of No Application Encryption Key Specified in Laravel: Root Causes and Underlying Mechanisms",
-      "summary_vi": [
-        "Bài viết phân tích một trong những lỗi kinh điển mà các lập trình viên mới làm quen với framework Laravel thường xuyên gặp phải khi triển khai mã nguồn mới từ kho chứa.",
-        "Cơ chế bên dưới liên quan đến việc cấu hình thiếu khóa bí mật trong tệp môi trường, khiến hệ thống không thể giải mã dữ liệu phiên làm việc và các thông tin nhạy cảm.",
-        "Hiểu rõ nguyên nhân giúp lập trình viên xử lý nhanh chóng sự cố, đồng thời nâng cao quy trình tự động hóa triển khai ứng dụng web an toàn và chuyên nghiệp hơn."
-      ],
-      "summary_en": [
-        "The article analyzes one of the classic errors that developers new to the Laravel framework frequently encounter when deploying new source code from a repository.",
-        "The underlying mechanism relates to missing secret key configurations in the environment file, preventing the system from decrypting session data and sensitive information.",
-        "Understanding the root causes helps developers quickly troubleshoot issues while improving automated deployment pipelines for more secure and professional web applications."
-      ],
-      "originalTitle": "ÁC MỘNG \"NO APPLICATION ENCRYPTION KEY SPECIFIED\": NGUYÊN NHÂN VÀ CƠ CHẾ BÊN DƯỚI",
-      "url": "https://viblo.asia/p/ac-mong-no-application-encryption-key-specified-nguyen-nhan-va-co-che-ben-duoi-oKLnqr3yJQO",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Laravel",
-        "PHP",
-        "Backend",
-        "Security",
-        "Debugging"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-30T00:51:27.000Z",
-      "contentSnippet": "đây là một trong những \"cú vấp chân\" kinh điển nhất mà bất kỳ lập trình viên nào khi mới làm quen với Laravel cũng từng trải qua ít nhất một lần: Clon...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "be00783b5b6d0f6a",
-      "title_vi": "Tổng thống Mỹ ký thỏa thuận ràng buộc đạo đức với các lãnh đạo trí tuệ nhân tạo hàng đầu",
-      "title_en": "US President Signs Binding Ethics Agreement with Top Artificial Intelligence Industry Leaders",
-      "summary_vi": [
-        "Tổng thống Mỹ đã có buổi ăn trưa làm việc cùng các tỷ phú và nhà lãnh đạo công nghệ hàng đầu ngành trí tuệ nhân tạo để thảo luận về việc quản lý và định hướng phát triển công nghệ trong tương lai.",
-        "Chính quyền đang xem xét thành lập một ủy ban giám sát gồm mười thành viên nhằm đảm bảo các mô hình học máy tuân thủ nghiêm ngặt các biện pháp bảo vệ an toàn hệ thống.",
-        "Sự kiện này đánh dấu bước tiến quan trọng trong việc thiết lập cơ chế tự quản lý và kiểm soát rủi ro đối với các hệ thống trí tuệ nhân tạo tiên tiến tại Hoa Kỳ."
-      ],
-      "summary_en": [
-        "The US President held a working lunch with prominent billionaires and technology leaders in the artificial intelligence sector to discuss governance and future development directions.",
-        "The administration is considering establishing a ten-member oversight committee to ensure machine learning models strictly adhere to system safety safeguards.",
-        "This event marks a crucial step in establishing self-regulation mechanisms and risk control protocols for advanced artificial intelligence systems in the United States."
-      ],
-      "originalTitle": "Ông Trump ký thỏa thuận 'ràng buộc đạo đức' trong bữa trưa với tỷ phú AI",
-      "url": "https://vnexpress.net/ong-trump-ky-thoa-thuan-rang-buoc-dao-duc-trong-bua-trua-voi-ty-phu-ai-5126439.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Regulation",
-        "OpenAI",
-        "Nvidia"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-09-30T00:50:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/30/ap26271697949481-1790728144-1479-1790728160.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=zwAFxqB6sX1EJRKPaBftjg",
-      "contentSnippet": "Tổng thống Mỹ ăn trưa làm việc với các tỷ phú và lãnh đạo hàng đầu của ngành AI, tuyên bố đã ký thỏa thuận có thể giúp quản lý lĩnh vực.",
       "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
