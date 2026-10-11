@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-10-10T20:56:31.392Z",
+  "lastUpdated": "2026-10-11T11:52:29.451Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "4d21f4733b3f4185",
+      "title_vi": "Bộ công cụ phát triển Java JDK là gì và vai trò cốt lõi trong lập trình",
+      "title_en": "What is Java Development Kit JDK and Its Core Role in Programming",
+      "summary_vi": [
+        "Bộ công cụ phát triển Java JDK đóng vai trò là nền tảng thiết yếu cung cấp toàn diện môi trường lập trình để các kỹ sư phần mềm viết mã, biên dịch, gỡ lỗi và thực thi ứng dụng hiệu quả.",
+        "Bên trong gói cài đặt JDK tích hợp sẵn trình biên dịch javac, môi trường thực thi JRE cùng các thư viện tiêu chuẩn giúp chuyển đổi mã nguồn thành các bytecode chạy trên máy ảo Java.",
+        "Việc hiểu rõ cấu trúc và cách thức vận hành của JDK giúp lập trình viên tối ưu hóa hiệu năng ứng dụng, quản lý bộ nhớ tốt hơn và xây dựng các hệ thống phần mềm doanh nghiệp quy mô lớn."
+      ],
+      "summary_en": [
+        "The Java Development Kit serves as an essential foundation providing a comprehensive programming environment for software engineers to write, compile, debug, and execute applications efficiently.",
+        "Integrated within the JDK package are the javac compiler, the Java Runtime Environment, and standard libraries that transform source code into bytecodes running on the Java Virtual Machine.",
+        "Understanding the structure and operation of the JDK helps developers optimize application performance, manage memory better, and build large-scale enterprise software systems successfully."
+      ],
+      "originalTitle": "Java Development Kit (JDK) Là Gì?",
+      "url": "https://viblo.asia/p/java-development-kit-jdk-la-gi-OXLA0W9YJGr",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Java",
+        "JDK",
+        "JVM",
+        "Software Engineering",
+        "Programming"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-11T18:45:04.000Z",
+      "contentSnippet": "Java Development Kit (JDK) là bộ công cụ phát triển Java, cung cấp mọi thứ cần thiết cho lập trình viên để viết, biên dịch, gỡ lỗi và chạy các ứng dụn...",
+      "authorName": "Tieu Share",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "990011c01afd637d",
+      "title_vi": "Bài 11: Không để dữ liệu lộ thiên: Bảo mật Socket với SSL và TLS",
+      "title_en": "Lesson 11: Securing Data in Transit: Socket Security with SSL and TLS",
+      "summary_vi": [
+        "Bài viết phân tích các nguy cơ tiềm ẩn khi truyền tải dữ liệu qua mạng internet sử dụng các ứng dụng chat TCP thuần túy, truyền file hay game multiplayer mà không có lớp bảo vệ mã hóa.",
+        "Nội dung tập trung hướng dẫn lập trình viên cách tích hợp giao thức SSL và TLS vào lập trình socket nhằm mã hóa toàn bộ luồng dữ liệu, ngăn chặn tuyệt đối tình trạng nghe lén gói tin.",
+        "Kiến thức này mang lại giá trị thực tiễn cao giúp các kỹ sư phần mềm xây dựng hệ thống mạng an toàn, tuân thủ các tiêu chuẩn bảo mật hiện đại trong phát triển ứng dụng."
+      ],
+      "summary_en": [
+        "The article analyzes potential security risks when transmitting data across the network using plain TCP chat applications, file transfers, or multiplayer games without any encryption layers.",
+        "The content focuses on guiding developers on how to integrate SSL and TLS protocols into socket programming to encrypt entire data streams and completely prevent packet sniffing.",
+        "This knowledge provides high practical value, helping software engineers build secure network systems and comply with modern security standards in application development."
+      ],
+      "originalTitle": "Bài 11: Không để dữ liệu \"lộ thiên\": Bảo mật Socket với SSL/TLS",
+      "url": "https://viblo.asia/p/bai-11-khong-de-du-lieu-lo-thien-bao-mat-socket-voi-ssltls-OQJwzmON4MP",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "SSL/TLS",
+        "Network Programming",
+        "TCP/IP",
+        "Socket Security"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-11T12:16:20.000Z",
+      "contentSnippet": "Ở các bài học trước, từ ứng dụng chat TCP thuần túy cho đến truyền file hay game multiplayer, toàn bộ dữ liệu mà ứng dụng của bạn gửi qua mạng đều ở d...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "4406645e1d78788b",
+      "title_vi": "Bài 1: Dockerfile chuẩn cho ngôn ngữ lập trình Go với kỹ thuật xây dựng đa giai đoạn",
+      "title_en": "Part 1: Standard Dockerfile for Go using Multi-stage Build and Environment Separation",
+      "summary_vi": [
+        "Bài viết phân tích sai lầm phổ biến của lập trình viên mới khi xây dựng hình ảnh Docker cồng kềnh và thiếu tối ưu cho các ứng dụng viết bằng ngôn ngữ lập trình Go trong thực tế.",
+        "Tác giả hướng dẫn chi tiết cách áp dụng kỹ thuật xây dựng đa giai đoạn nhằm tách biệt rõ ràng giữa môi trường phát triển cục bộ và môi trường triển khai vận hành sản xuất.",
+        "Giải pháp này giúp tối ưu hóa đáng kể dung lượng tệp tin hình ảnh cuối cùng, nâng cao tính bảo mật và cải thiện hiệu suất vận hành cho các hệ thống phần mềm quy mô lớn."
+      ],
+      "summary_en": [
+        "The article analyzes common mistakes made by beginner developers when building bloated and unoptimized Docker images for applications written in the Go programming language in practice.",
+        "The author provides detailed instructions on applying multi-stage build techniques to clearly separate local development environments from production deployment operations.",
+        "This solution significantly optimizes the final image file size, enhances security, and improves operational performance for large-scale software systems."
+      ],
+      "originalTitle": "Bài 1: Dockerfile chuẩn cho Go (Multi-stage Build & Dev vs Prod)",
+      "url": "https://viblo.asia/p/bai-1-dockerfile-chuan-cho-go-multi-stage-build-dev-vs-prod-k74a9Op64eO",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "Docker",
+        "Golang",
+        "DevOps",
+        "CI/CD",
+        "Containerization"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-11T12:13:04.000Z",
+      "contentSnippet": "Khi bắt đầu đưa một ứng dụng Golang vào Docker, sai lầm phổ biến nhất của các lập trình viên mới là sử dụng một Dockerfile cồng kềnh cho mọi môi trườn...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a439fdc2654eaaf3",
+      "title_vi": "Học cách sử dụng trí tuệ nhân tạo cục bộ mang lại cảm giác phấn khích nhưng cũng đầy thử thách",
+      "title_en": "Learning to use local AI is exciting, overwhelming, and frustrating",
+      "summary_vi": [
+        "Tác giả bắt đầu hành trình khám phá khả năng chạy các mô hình trí tuệ nhân tạo mạnh mẽ trực tiếp trên phần cứng cục bộ thay vì phụ thuộc vào các dịch vụ đám mây công cộng.",
+        "Việc triển khai các mô hình ngôn ngữ lớn tại chỗ đặt ra bài toán về hiệu năng phần cứng, đặc biệt là nhu cầu đầu tư vào các dòng máy tính trang bị dung lượng bộ nhớ RAM lớn.",
+        "Xu hướng tự vận hành hệ thống trí tuệ nhân tạo cục bộ giúp người dùng bảo vệ dữ liệu cá nhân tốt hơn, mở ra tiềm năng ứng dụng thực tế phong phú cho cộng đồng công nghệ."
+      ],
+      "summary_en": [
+        "The author embarks on a journey to explore running powerful artificial intelligence models directly on local hardware instead of relying on public cloud services.",
+        "Deploying large language models locally raises hardware performance challenges, particularly the need to invest in computer systems equipped with massive RAM capacities.",
+        "The trend of operating local artificial intelligence systems helps users better protect personal data, opening up rich practical application potentials for the technology community."
+      ],
+      "originalTitle": "Learning to use local AI is exciting, overwhelming, and frustrating",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Local AI",
+        "Machine Learning",
+        "Hardware",
+        "Privacy"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-11T11:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/100926_Asus_TUF_A14_Hermes_local_AI_ADiBenedetto_0001.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Baby’s first local AI agent. | Photo: Antonio G. Di Benedetto / The Verge I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful mo",
+      "authorName": "Antonio G. Di Benedetto",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "462b9c7fd02ca4b3",
+      "title_vi": "Dòng điện thoại iPhone Duo tích hợp tính năng cá nhân hóa lời chào trực tiếp tại hệ thống Apple Store",
+      "title_en": "iPhone Duo introduces direct in-store personalization with custom welcome greetings at Apple Store locations",
+      "summary_vi": [
+        "Người mua sắm các dòng thiết bị di động trực tiếp tại hệ thống cửa hàng bán lẻ chính thức của hãng Apple sẽ được trải nghiệm tính năng cá nhân hóa hoàn toàn mới",
+        "Hệ thống phần mềm bên trong thiết bị sẽ tự động đồng bộ và hiển thị lời chào kèm theo tên riêng của người dùng ngay trong lần khởi động đầu tiên",
+        "Tính năng này đánh dấu bước tiến mới trong việc cải thiện trải nghiệm người dùng cuối trên thiết bị di động thông qua sự kết hợp chặt chẽ giữa phần mềm và dịch vụ bán lẻ"
+      ],
+      "summary_en": [
+        "Customers purchasing mobile devices directly at official Apple retail store locations can now experience a brand new personalization feature tailored to their needs",
+        "The internal device software automatically synchronizes and displays a custom welcome message containing the user name during the very first system boot process",
+        "This feature marks a significant step forward in enhancing end-user experience on mobile devices through tight integration between retail services and operating system software"
+      ],
+      "originalTitle": "iPhone Duo 'cá nhân hóa' cho người mua tại Apple Store",
+      "url": "https://vnexpress.net/iphone-duo-ca-nhan-hoa-cho-nguoi-mua-tai-apple-store-5130810.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "iOS",
+        "Mobile",
+        "Retail Tech"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-11T07:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/10/apple-store-tq-1791639601-4187-1791639653.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=8eZ00_OGdAMuyy7FBOl8Tw",
+      "contentSnippet": "Người mua iPhone Duo trực tiếp tại Apple Store có thể trải nghiệm tính năng cá nhân hóa khi điện thoại sẽ hiển thị lời chào kèm tên của họ ngay khi mở máy.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "2a491621020b062d",
+      "title_vi": "Hệ điều hành LineageOS phiên bản 24.0",
+      "title_en": "LineageOS 24.0 Release",
+      "summary_vi": [
+        "Dự án hệ điều hành mã nguồn mở LineageOS chuẩn bị kỷ niệm mười năm hoạt động bền bỉ, tiếp tục duy trì và kéo dài vòng đời cho vô số thiết bị di động thông qua sự đóng góp nhiệt huyết từ cộng đồng lập trình viên toàn cầu.",
+        "Phiên bản mới này được xây dựng dựa trên nền tảng mã nguồn Android mười bảy mới nhất, đạt được tiến độ phát triển nhanh chóng nhờ vào khả năng thích ứng linh hoạt trước những thay đổi cấu trúc mã nguồn phức tạp từ Google.",
+        "Cải tiến quy trình cài đặt thông qua các công cụ flash trực tiếp trên trình duyệt web, cùng việc nâng cấp toàn diện bộ ứng dụng cốt lõi lên chuẩn giao diện Material Design mang lại trải nghiệm mượt mà cho người dùng."
+      ],
+      "summary_en": [
+        "The open-source operating system project LineageOS is preparing to celebrate ten years of dedicated operation, continuing to maintain and extend the lifecycle of countless mobile devices through passionate contributions from the global developer community.",
+        "This new release is built upon the latest Android seventeenth platform codebase, achieving rapid development progress thanks to flexible adaptability against complex architectural code changes previously introduced by Google.",
+        "Installation processes are significantly streamlined via new web browser-based flashing tools, alongside comprehensive core application upgrades to Material Design standards delivering a smoother overall user experience."
+      ],
+      "originalTitle": "LineageOS 24.0",
+      "url": "https://lineageos.org/Changelog-32/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "LineageOS",
+        "Android",
+        "Open Source",
+        "Mobile",
+        "Custom ROM"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-11T06:18:59.000Z",
+      "contentSnippet": "We’re a bit sentimental about this release, as it precedes a really fun upcoming milestone. On December 24, 2026, LineageOS will celebrate 10 years. It’s a remarkable milestone for a project built by a passionate community of developers, maintainers, contributors, and users who have kept so many dev",
+      "authorName": "timschumi",
+      "upvotes": 144,
+      "commentsCount": 39
+    },
     {
       "id": "0ecfe6059f51af36",
       "title_vi": "PostgreSQL Bài 11: Các hàm và toán tử chuyên biệt trên JSONB trong môi trường sản xuất",
@@ -33,6 +239,76 @@
       "publishedAt": "2026-10-11T01:16:11.000Z",
       "contentSnippet": "Ở Bài 10, bạn đã nắm vững cách lưu trữ, đánh chỉ mục và sử dụng các toán tử trích xuất (->, ->>) hay toán tử bao hàm (@>). Tuy nhiên, trong môi trường...",
       "authorName": "HUy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0b3e5abbe1912b3b",
+      "title_vi": "Sức hút của CEO Anthropic trong việc xây dựng văn hóa startup trí tuệ nhân tạo",
+      "title_en": "The Appeal of Anthropic's CEO in Building an Artificial Intelligence Startup Culture",
+      "summary_vi": [
+        "Nhà đầu tư Matt Murphy từ quỹ Menlo Ventures đã chia sẻ những đánh giá chi tiết về phong cách lãnh đạo độc đáo của Dario Amodei tại sự kiện công nghệ diễn ra ở San Francisco.",
+        "Khác với các bậc thầy bán hàng thông thường, CEO Anthropic chinh phục các nhà nghiên cứu trí tuệ nhân tạo nhờ trí thông minh vượt trội và phong thái thiên tài gắn kết sâu sắc với sứ mệnh kỹ thuật.",
+        "Khả năng thu hút nhân tài và sự tận tâm với văn hóa doanh nghiệp của lãnh đạo đóng vai trò cốt lõi trong việc giúp các công ty khởi nghiệp AI đạt được thành công đột phá."
+      ],
+      "summary_en": [
+        "Investor Matt Murphy from Menlo Ventures shared detailed insights into the unique leadership style of Dario Amodei during a technology event held in San Francisco.",
+        "Unlike traditional sales leaders, Anthropic's CEO wins over artificial intelligence researchers through exceptional intelligence and a genius demeanor deeply tied to technical missions.",
+        "The ability to attract top engineering talent and unwavering dedication to corporate culture play a pivotal role in helping artificial intelligence startups achieve breakthrough success."
+      ],
+      "originalTitle": "Sức hút của CEO Anthropic",
+      "url": "https://vnexpress.net/suc-hut-cua-ceo-anthropic-5130048.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "Startups",
+        "Leadership",
+        "Tech Trends"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-11T01:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/08/anthropicceodarioam11748057576-9572-2250-1791454568.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FggmeccPX4FVO64btUVdKg",
+      "contentSnippet": "Nhà đầu tư Matt Murphy cho rằng CEO Anthropic Dario Amodei giúp startup AI thành công vượt trội nhờ sự tận tâm và \"phong thái thiên tài\".",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "47aa66d1b4eb0050",
+      "title_vi": "Satya Nadella cho rằng chúng ta nên mặc định tất cả các mô hình trí tuệ nhân tạo đều đã bị xâm phạm",
+      "title_en": "Satya Nadella says we should assume all AI models are compromised",
+      "summary_vi": [
+        "Trong một bài viết chi tiết trên mạng xã hội X, Giám đốc điều hành Microsoft đã nêu rõ những mối nguy hiểm nghiêm trọng do các mô hình trí tuệ nhân tạo tiên tiến gây ra đối với hệ thống an ninh hiện đại.",
+        "Ông nhấn mạnh sự cần thiết phải từ bỏ quan niệm xem trí tuệ nhân tạo là các hộp đen bí ẩn, đồng thời thúc đẩy các giải pháp kiến trúc minh bạch, khả năng cô lập mô hình và cung cấp bằng chứng rõ ràng.",
+        "Các khuyến nghị cốt lõi bao gồm việc công bố sự cố kịp thời, kiểm toán độc lập và xác thực dữ liệu nhằm nâng cao mức độ tin cậy và đảm bảo an toàn cho các ứng dụng công nghệ trong tương lai."
+      ],
+      "summary_en": [
+        "In a detailed post on X, the CEO of Microsoft outlined the severe dangers posed by advanced artificial intelligence models to modern security systems and enterprise infrastructure.",
+        "He emphasized the necessity of abandoning the notion of AI as mysterious black boxes while promoting transparent architectural solutions, model containment, and verifiable evidence trails.",
+        "Core recommendations include timely incident disclosure, independent audits, and data verification to enhance reliability and ensure safety for future technology applications across the industry."
+      ],
+      "originalTitle": "Satya Nadella says we should assume all AI models are ‘compromised’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Cybersecurity",
+        "Microsoft",
+        "Artificial Intelligence",
+        "Security"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-10T22:10:17.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK178_Satya_Nadella_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a \"set of nested black boxes\" whose advice and actions we simply accept or reject. He call",
+      "authorName": "Terrence O’Brien",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8288,287 +8564,6 @@
       "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-01-at-12.18.47-PM.jpg?quality=90&strip=all&crop=0,0,100,100",
       "contentSnippet": "Android Central, a blog focused on the Android ecosystem, laid off its staff yesterday, but owner Future confirms to The Verge that the site will continue publishing. Yesterday, four of the six staffers on Android Central's staff page posted publicly about the layoffs, including Shruti Shekar, Derre",
       "authorName": "Jay Peters",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f9473ba1b72da33e",
-      "title_vi": "Thiết bị chơi game cầm tay thế hệ mới: Vi xử lý AMD Gainsborough có phải là mảnh ghép mà Valve đang tìm kiếm?",
-      "title_en": "Steam Deck 2: Is AMD Gainsborough the chip Valve’s been waiting for?",
-      "summary_vi": [
-        "Dòng máy chơi game cầm tay nổi tiếng của Valve đã ra mắt được bốn năm rưỡi và cộng đồng người dùng đang rất mong chờ phiên bản tiếp theo với những cải tiến mạnh mẽ về mặt hiệu năng.",
-        "Các trình điều khiển mới nhất của AMD vừa rò rỉ mã định danh của một bộ vi xử lý chưa từng xuất hiện trước đây mang tên Gainsborough, gợi nhớ đến cách đặt tên theo nhân vật trong trò chơi Final Fantasy.",
-        "Sự xuất hiện của dòng chip mới này có thể mang lại bước nhảy vọt về hiệu suất và khả năng tiết kiệm năng lượng mà hãng sản xuất phần cứng này luôn yêu cầu trước khi ra mắt sản phẩm kế nhiệm."
-      ],
-      "summary_en": [
-        "The popular handheld gaming console has been on the market for over four years, and the community is eagerly anticipating the next generation with significant performance improvements.",
-        "The latest AMD drivers have recently leaked the codename of a previously unknown processor named Gainsborough, continuing the naming convention inspired by iconic video game characters.",
-        "The potential emergence of this new silicon could deliver the generational leap in performance and power efficiency that the hardware manufacturer requires before releasing a successor."
-      ],
-      "originalTitle": "Steam Deck 2: Is AMD Gainsborough the chip Valve’s been waiting for?",
-      "url": "https://www.theverge.com/games/1003593/steam-deck-2-is-amd-gainsborough-the-chip-valves-been-waiting-for",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Hardware",
-        "APU",
-        "AMD",
-        "Gaming",
-        "Semiconductor"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-01T18:52:58.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/53420776536_b9dede69df_k.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "The Steam Deck LCD’s “Aerith” APU. | Photo by Fritzchens Fritz The Steam Deck is four and a half years old, and handheld gamers are eagerly awaiting a Steam Deck 2 - but Valve has consistently said it needs a new chip with a \"generational leap\" in performance and efficiency before building the seque",
-      "authorName": "Sean Hollister",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0aab07c2bf7d0228",
-      "title_vi": "Tôi đã biến hồ sơ GitHub của mình thành một bảng điều khiển Cyberpunk với một thành phố được xây dựng từ các đóng góp mã nguồn",
-      "title_en": "I Turned My GitHub Profile Into a Cyberpunk Console With a City Built From My Contributions",
-      "summary_vi": [
-        "Một kỹ sư phần mềm đã tận dụng khoảng thời gian sáng tạo muộn màng ban đêm để thiết kế lại trang cá nhân trên nền tảng GitHub thành một giao diện console mang phong cách cyberpunk ấn tượng.",
-        "Giải pháp kỹ thuật dựa vào việc vượt qua các bộ lọc bảo mật nghiêm ngặt của hộp cát GitHub bằng cách sử dụng các tệp đồ họa vector có khả năng tương tác cao và tùy chỉnh.",
-        "Dự án thể hiện tư duy sáng tạo trong việc cá nhân hóa không gian phát triển mã nguồn, mang lại nguồn cảm hứng mới cho cộng đồng lập trình viên trong việc tối ưu hóa giao diện."
-      ],
-      "summary_en": [
-        "A software engineer leveraged late-night creative inspiration to completely redesign their GitHub profile into an impressive cyberpunk-styled console interface.",
-        "The technical solution relies on bypassing GitHub sandbox security restrictions using highly interactive and customizable vector graphics files.",
-        "This project demonstrates creative thinking in personalizing developer spaces, bringing fresh inspiration to the programming community for interface optimization."
-      ],
-      "originalTitle": "I Turned My GitHub Profile Into a Cyberpunk Console With a City Built From My Contributions",
-      "url": "https://dev.to/georgekobaidze/i-turned-my-github-profile-into-a-cyberpunk-console-with-a-city-built-from-my-contributions-h4c",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "GitHub",
-        "SVG",
-        "Cyberpunk",
-        "Frontend",
-        "Developer Tools"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-01T18:02:38.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fglxvqocyi6xnscs80y44.png",
-      "contentSnippet": "I just wanted a custom profile. I completely overcooked it. Don't feel like reading? Fair. But...",
-      "authorName": "Giorgi Kobaidze",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F55651%2F3ad144e9-ca91-4395-b73a-9a0a3d843af9.jpg",
-      "upvotes": 102,
-      "commentsCount": 47
-    },
-    {
-      "id": "d4606327912a54d0",
-      "title_vi": "Thẩm phán bác bỏ các vụ kiện chống độc quyền đối với tính năng Tổng quan Trí tuệ Nhân tạo của Google",
-      "title_en": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
-      "summary_vi": [
-        "Một thẩm phán liên bang tại Mỹ đã quyết định bác bỏ các vụ kiện chống độc quyền do Chegg và công ty mẹ của Rolling Stone là Penske Media Corporation đệ trình chống lại gã khổng lồ tìm kiếm Google.",
-        "Nguyên đơn cáo buộc rằng tính năng tìm kiếm tích hợp trí tuệ nhân tạo của Google đã ép buộc các nhà xuất bản phải cung cấp nội dung miễn phí hoặc đối mặt với nguy cơ biến mất hoàn toàn khỏi trang kết quả tìm kiếm.",
-        "Phán quyết này tạo ra một cột mốc quan trọng trong việc định hình các tranh chấp pháp lý liên quan đến quyền sở hữu trí tuệ và cách các tập đoàn công nghệ lớn ứng dụng mô hình trí tuệ nhân tạo tạo sinh."
-      ],
-      "summary_en": [
-        "A federal judge in the United States has officially dismissed a pair of antitrust lawsuits filed against search giant Google by Chegg and Rolling Stone parent company Penske Media Corporation.",
-        "The plaintiffs accused Google of leveraging its search monopoly and AI-powered features to coerce publishers into supplying their content for free or risk disappearing entirely from search engine results.",
-        "This significant judicial ruling sets a major precedent for ongoing legal disputes surrounding intellectual property rights and how major technology conglomerates implement generative artificial intelligence."
-      ],
-      "originalTitle": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
-      "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Google",
-        "AI Overviews",
-        "Antitrust",
-        "Artificial Intelligence",
-        "Search Engine"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-01T17:12:21.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK093_GOOGLE_A.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "A federal judge has dismissed a pair of antitrust lawsuits filed by Chegg and Rolling Stone parent company Penske Media Corporation, which accused Google of driving away web traffic with its AI-powered search features, as reported earlier by Reuters. US District Judge Amit Mehta takes Google's side ",
-      "authorName": "Emma Roth",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8718c95119e41fe9",
-      "title_vi": "Sony mang công nghệ nâng cấp đồ họa AI lên dòng máy chơi game PS5 thông thường",
-      "title_en": "Sony brings AI graphics upscaling to the regular PS5",
-      "summary_vi": [
-        "Hãng công nghệ Nhật Bản vừa công bố giải pháp nâng cấp đồ họa sử dụng trí tuệ nhân tạo mang tên Quick Spectral Super Resolution nhằm hỗ trợ dòng máy chơi game PlayStation 5 tiêu chuẩn hiện nay.",
-        "Giải pháp kiến trúc này là thành quả hợp tác kỹ thuật trong dự án Amethyst giữa Sony và AMD, tuy nhiên do thiết bị thiếu phần cứng chuyên dụng cho học máy nên hiệu năng đạt được sẽ dừng lại ở độ phân giải 1440p.",
-        "Bước tiến này giúp tối ưu hóa phần cứng thế hệ cũ mà không cần người dùng phải nâng cấp lên phiên bản Pro, đồng thời mở ra hướng đi mới trong việc tối ưu hóa thuật toán đồ họa trên thiết bị phần cứng giới hạn."
-      ],
-      "summary_en": [
-        "The Japanese technology giant has just announced an artificial intelligence-powered graphics upscaling solution named Quick Spectral Super Resolution to support the standard PlayStation 5 gaming console.",
-        "This architectural solution is the result of technical collaboration in the Amethyst project between Sony and AMD, though lacking dedicated machine learning hardware means the performance will target 1440p resolution.",
-        "This advancement helps optimize older hardware generations without requiring users to upgrade to the Pro version while opening new pathways for optimizing graphics algorithms on constrained hardware devices."
-      ],
-      "originalTitle": "Sony brings AI graphics upscaling to the regular PS5",
-      "url": "https://www.theverge.com/games/1003549/sony-ps5-quick-spectral-super-resolution-qssr",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Gaming",
-        "Hardware",
-        "Upscaling",
-        "AMD"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-01T16:53:39.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25072873/110923_new_Playstation_5_Slim_ADiBenedetto_0010.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Sony is launching a new AI upscaling technology specifically for the regular PS5. The new tech, called Quick Spectral Super Resolution (QSSR), is a \"new performance tier of AI upscaling\" that's a result of Sony's Project Amethyst work with AMD, according to a blog post. Sony says that PlayStation Sp",
-      "authorName": "Jay Peters",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "dbf402057fae66af",
-      "title_vi": "Phim ngắn AI tại Trung Quốc: Khi bùng nổ số lượng không đi kèm với hiệu quả tài chính",
-      "title_en": "AI Short Films in China: When High Volume Does Not Translate to Financial Success",
-      "summary_vi": [
-        "Thị trường phim ngắn ứng dụng trí tuệ nhân tạo tại Trung Quốc đang chứng kiến sự bùng nổ mạnh mẽ về số lượng tác phẩm phát hành trên các nền tảng mạng xã hội nhưng lại đối mặt với bài toán doanh thu nan giải.",
-        "Báo cáo từ các nền tảng trực tuyến cho thấy hàng trăm nghìn bộ phim AI được sản xuất mỗi tháng nhờ chi phí thấp, nhưng tỷ lệ đạt ngưỡng hòa vốn tài chính lại cực kỳ thấp do cạnh tranh quá khốc liệt.",
-        "Thực trạng này đưa ra bài học quan trọng cho các nhà phát triển và nhà sáng tạo nội dung rằng công nghệ tự động hóa chỉ tối ưu hóa quy trình sản xuất chứ không thể đảm bảo chất lượng thương mại."
-      ],
-      "summary_en": [
-        "The market for artificial intelligence-generated short films in China is experiencing a massive surge in content volume across social media platforms while struggling significantly with monetization challenges.",
-        "Industry reports indicate that hundreds of thousands of AI films are produced monthly due to low costs, yet only a tiny fraction achieve break-even financial thresholds amid intense market competition.",
-        "This current reality offers a crucial lesson for developers and content creators that automation technology merely optimizes production pipelines rather than guaranteeing commercial quality and returns."
-      ],
-      "originalTitle": "Phim ngắn AI ở Trung Quốc: “Slop” nên “flop”, khán giả phát ngán vì những gương mặt y hệt nhau",
-      "url": "https://genk.vn/phim-ngan-ai-o-trung-quoc-slop-nen-flop-khan-gia-phat-ngan-vi-nhung-guong-mat-y-het-nhau-165261001193554383.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Generative AI",
-        "Content Creation",
-        "Machine Learning",
-        "Tech Trends"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-01T13:06:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/1/avatar1790858098115-17908580983511751979850.jpg",
-      "contentSnippet": "Dù bùng nổ về sản lượng nhờ chi phí rẻ, phim ngắn AI vẫn rơi vào cuộc đua sinh tồn khốc liệt khi tỷ lệ hòa vốn thấp không tưởng.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a17ce0c7d20ef024",
-      "title_vi": "Robot hình người tự nhảy vào lò nung thép để tiêu hủy",
-      "title_en": "Humanoid Robots Jump Into Steel Furnace for Disposal",
-      "summary_vi": [
-        "Công ty trí tuệ nhân tạo Figure AI vừa thực hiện việc tiêu hủy toàn bộ đội robot hình người thế hệ cũ của họ bằng cách đưa chúng đến một xưởng đúc thép tại Phần Lan và cho tự nhảy vào lò hồ quang điện.",
-        "Quyết định này được đưa ra sau mười một tháng triển khai thành công tại nhà máy sản xuất của hãng ô tô BMW, nơi các robot đã hoàn thành hơn một ngàn hai trăm giờ vận hành và lắp ráp hàng chục ngàn bộ phận cơ khí.",
-        "Động thái hủy diệt phần cứng độc quyền này giúp bảo vệ tài sản trí tuệ và các bộ phận tùy chỉnh khi công ty chuẩn bị mở rộng quy mô sản xuất cho dòng robot thế hệ mới hiệu quả và tối ưu hơn."
-      ],
-      "summary_en": [
-        "Artificial intelligence company Figure AI has disposed of its entire fleet of older generation humanoid robots by bringing them to a steel foundry in Finland and having them jump into an electric arc furnace.",
-        "This decision followed eleven months of successful deployment at a manufacturing plant where the robots completed over twelve hundred hours of operation and assembled tens of thousands of mechanical parts.",
-        "This hardware destruction move protects proprietary assets and custom components as the company prepares to scale up production for a new generation of more efficient and optimized humanoid robots."
-      ],
-      "originalTitle": "Robot hình người tự nhảy vào lò nung thép",
-      "url": "https://vnexpress.net/robot-hinh-nguoi-tu-nhay-vao-lo-nung-thep-5127204.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Humanoid Robots",
-        "Hardware",
-        "Automation",
-        "Robotics"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-01T12:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/01/VNERobot-1790843301-3891-1790843359.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=d0TLlIqrELyfrqMwiWXldA",
-      "contentSnippet": "Đội robot của Figure AI lần lượt nhảy xuống lò hồ quang điện trong một xưởng đúc ở Phần Lan để \"tự hủy\".",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "d7543646a56f3802",
-      "title_vi": "Mô hình AI tự thiết kế và cải tiến chip bán dẫn",
-      "title_en": "AI Model for Automated Semiconductor Chip Design and Optimization",
-      "summary_vi": [
-        "OpenAI phối hợp cùng Synopsys công bố thỏa thuận phát triển mô hình GPT-Synopsys chuyên dụng, có khả năng vận hành trực tiếp các công cụ thiết kế chip chuyên nghiệp nhằm giúp kỹ sư rút ngắn đáng kể quy trình sản xuất.",
-        "Mô hình tiên tiến này tích hợp phần mềm tự động hóa thiết kế điện tử cùng nền tảng đám mây, cho phép các tác nhân AI tự động cấu hình, thực thi, phân tích kết quả và lặp lại tối ưu hóa PPA.",
-        "Giải pháp đột phá này giúp giảm thiểu thời gian thiết kế thủ công đầy phức tạp, mang lại hiệu suất vượt trội cho ngành công nghiệp bán dẫn và tăng tốc độ đưa sản phẩm tiên tiến ra thị trường."
-      ],
-      "summary_en": [
-        "OpenAI and Synopsys have announced a collaborative agreement to develop a specialized GPT-Synopsys model capable of directly operating professional chip design tools to help engineers significantly shorten production cycles.",
-        "This advanced model integrates electronic design automation software with cloud platforms, enabling AI agents to automatically configure, execute, analyze results, and iteratively optimize power, performance, and area metrics.",
-        "This breakthrough solution minimizes complex manual design time, delivering superior efficiency for the semiconductor industry and accelerating the time-to-market for cutting-edge hardware products."
-      ],
-      "originalTitle": "Mô hình AI tự thiết kế và cải tiến chip bán dẫn",
-      "url": "https://vnexpress.net/mo-hinh-ai-tu-thiet-ke-va-cai-tien-chip-ban-dan-5127088.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Semiconductor",
-        "GPT-Synopsys",
-        "Automation",
-        "Cloud Computing"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-01T11:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/01/2024-02-09T051613Z-372912161-R-7889-7736-1790830052.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=1XwuDjvrp4ze5y7goJ4fNg",
-      "contentSnippet": "Mô hình GPT-Synopsys, do OpenAI hợp tác phát triển với Synopsys, có thể tự chạy phần mềm, ra quyết định chỉnh sửa và tối ưu hóa thiết kế chip.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b1978460c3756ad2",
-      "title_vi": "Mỹ mở cuộc điều tra đối với Anthropic và OpenAI về nguy cơ lừa dối người dùng",
-      "title_en": "US Investigates Anthropic and OpenAI Over Potential User Deception Regarding AI Risks",
-      "summary_vi": [
-        "Ủy ban Thương mại Liên bang Mỹ đang tiến hành các cuộc điều tra quan trọng nhắm vào hai công ty trí tuệ nhân tạo hàng đầu là Anthropic và OpenAI.",
-        "Cơ quan chức năng tập trung làm rõ việc các doanh nghiệp này có đưa ra thông tin sai lệch hoặc che giấu về những tác hại tiềm ẩn của mô hình ngôn ngữ lớn.",
-        "Sự kiện này đánh dấu bước chuyển mình mạnh mẽ trong việc quản lý và kiểm soát trách nhiệm pháp lý của các hãng công nghệ lớn đối với sản phẩm trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "The US Federal Trade Commission is conducting critical investigations targeting leading artificial intelligence companies Anthropic and OpenAI.",
-        "Regulatory authorities are focusing on whether these enterprises provided misleading information or concealed potential harms associated with large language models.",
-        "This event marks a significant shift in regulating and enforcing legal accountability for major technology firms regarding their artificial intelligence products."
-      ],
-      "originalTitle": "Mỹ điều tra Anthropic và OpenAI",
-      "url": "https://vnexpress.net/my-dieu-tra-anthropic-va-openai-5127061.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "OpenAI",
-        "Anthropic",
-        "Regulation",
-        "Security"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-01T09:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/01/wm1-dsc00354-jpg-1790843966-7846-1790843977.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=5PfEDOLTv-ADzTPVf27XqA",
-      "contentSnippet": "Ủy ban Thương mại Liên bang Mỹ (FTC) đang điều tra Anthropic và OpenAI nhằm xác định cả hai có lừa dối người dùng về tác hại tiềm tàng của AI hay không.",
-      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     }
