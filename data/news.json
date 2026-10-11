@@ -1,7 +1,41 @@
 {
-  "lastUpdated": "2026-10-11T17:06:21.544Z",
+  "lastUpdated": "2026-10-11T21:18:03.404Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "13c7f215d98f0539",
+      "title_vi": "Giám sát Spring Boot trên VPS RAM thấp mà không cần Prometheus và Grafana",
+      "title_en": "Monitoring Spring Boot on Low-RAM VPS Without Prometheus and Grafana",
+      "summary_vi": [
+        "Việc triển khai hệ thống giám sát truyền thống với Prometheus và Grafana trên các máy chủ ảo có dung lượng bộ nhớ RAM hạn hẹp thường gây quá tải tài nguyên và phức tạp trong quản lý vận hành.",
+        "Bài viết đề xuất các giải pháp thay thế nhẹ nhàng hơn bằng cách tận dụng các tính năng sẵn có như Spring Boot Actuator kết hợp với các công cụ giám sát dòng lệnh hoặc cơ chế log tập trung.",
+        "Phương pháp này giúp các lập trình viên và quản trị hệ thống tối ưu hóa tài nguyên phần cứng tối đa, đảm bảo ứng dụng vận hành ổn định trên các máy chủ có chi phí thấp."
+      ],
+      "summary_en": [
+        "Deploying traditional monitoring stacks with Prometheus and Grafana on virtual private servers with limited memory capacity often causes resource exhaustion and operational management complexity.",
+        "The article proposes lightweight alternative solutions by leveraging built-in features like Spring Boot Actuator combined with command-line monitoring tools or centralized logging mechanisms.",
+        "This approach helps developers and system administrators maximize hardware resource optimization, ensuring applications run stably on low-cost servers without performance degradation."
+      ],
+      "originalTitle": "Giám sát Spring Boot trên VPS RAM thấp mà không cần Prometheus và Grafana",
+      "url": "https://viblo.asia/p/giam-sat-spring-boot-tren-vps-ram-thap-ma-khong-can-prometheus-va-grafana-XRJ8RWo9VGq",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "Spring Boot",
+        "VPS",
+        "DevOps",
+        "Monitoring",
+        "Java"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-12T00:22:42.000Z",
+      "contentSnippet": "Nếu bạn đang chạy một hoặc vài ứng dụng Spring Boot trên VPS có RAM 512 MB hoặc 1 GB, việc thiết lập hệ thống monitoring đôi khi còn phức tạp hơn chín...",
+      "authorName": "Ted K",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "049fecdd98e66ed9",
       "title_vi": "Bài 1: Khởi đầu với go-redis - Cài đặt và Kết nối đầu tiên",
@@ -204,6 +238,75 @@
       "authorName": "Tieu Share",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "10ff9df7a5585aaf",
+      "title_vi": "Thung lũng Silicon hưởng ứng đề xuất đổi tên trí tuệ nhân tạo thành siêu trí tuệ của Tổng thống Mỹ",
+      "title_en": "Silicon Valley is falling in line with Trump's attempt to rename AI",
+      "summary_vi": [
+        "Tổng thống Donald Trump đã đưa ra kế hoạch bất ngờ nhằm thay đổi thương hiệu của công nghệ trí tuệ nhân tạo thành siêu trí tuệ, tạo ra những luồng ý kiến trái chiều trong cộng đồng công nghệ quốc tế.",
+        "Nhiều tập đoàn công nghệ lớn và các nhân vật quyền lực tại Thung lũng Silicon bắt đầu tuân theo xu hướng này, đơn cử như việc Elon Musk cam kết sẽ đổi tên thương hiệu không gian liên quan thành siêu trí tuệ.",
+        "Sự thay đổi về danh pháp này tuy chưa phổ biến với đại đa số người dùng nhưng lại phản ánh tầm ảnh hưởng mạnh mẽ của chính sách chính trị đối với chiến lược định vị sản phẩm của các hãng công nghệ lớn."
+      ],
+      "summary_en": [
+        "President Donald Trump announced an unexpected plan to rebrand artificial intelligence as super intelligence, generating mixed reactions across the international technology community.",
+        "Several major tech corporations and powerful figures in Silicon Valley have begun aligning with this trend, such as Elon Musk promising to rename his space-related brand accordingly.",
+        "Although this nomenclature shift is not yet widely adopted by the general public, it reflects the strong influence of political policies on product positioning strategies of tech giants."
+      ],
+      "originalTitle": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Artificial Intelligence",
+        "Silicon Valley",
+        "Tech Trends",
+        "Elon Musk"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-11T18:33:56.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2297269621.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying to",
+      "authorName": "Terrence O’Brien",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "d49fdf3cc73e1b28",
+      "title_vi": "Hủy diệt hoàn toàn được tái tạo lại cho máy tính hiện đại",
+      "title_en": "Total Annihilation, rebuilt for modern computers",
+      "summary_vi": [
+        "Dự án mã nguồn mở Nanolathe đã tái thiết kế tựa game chiến thuật kinh điển Total Annihilation để chạy mượt mà trên các hệ điều hành hiện đại mà không cần cài đặt phức tạp.",
+        "Động cơ game mới tích hợp công nghệ kết xuất đồ họa GPU tiên tiến, hỗ trợ ánh sáng động, hiệu ứng phát sáng chi tiết cùng khả năng mở rộng địa hình chân thực.",
+        "Toàn bộ mã nguồn sử dụng giấy phép MIT, cung cấp nền tảng tài liệu sạch giúp các kỹ sư phần mềm dễ dàng nghiên cứu, tùy chỉnh và phát triển các bản mod mới."
+      ],
+      "summary_en": [
+        "The open-source Nanolathe project has redesigned the classic real-time strategy game Total Annihilation to run smoothly on modern operating systems without complex installations.",
+        "The new game engine integrates advanced GPU rendering technology supporting dynamic lighting, detailed glow effects, and realistic synthetic terrain enhancement capabilities.",
+        "The entire codebase is released under the MIT license, providing a clean documentation foundation for software engineers to easily study, customize, and build new mods."
+      ],
+      "originalTitle": "Total Annihilation, rebuilt for modern computers",
+      "url": "https://nanolathe.gg",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Open Source",
+        "Game Engine",
+        "Graphics Rendering",
+        "MIT License",
+        "RTS"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-11T18:04:47.000Z",
+      "contentSnippet": "Nanolathe / Open-source 2.5D RTS engine Play the classic through a modern, MIT-licensed engine you can study, modify and build on. Three original demo missions. No game folder or installation needed.Desktop Chrome, Edge or Safari, with a keyboard and mouse. Zoom in on your units and the action. The ",
+      "authorName": "jttnr",
+      "upvotes": 221,
+      "commentsCount": 92
     },
     {
       "id": "590fc26589078b8e",
@@ -8460,110 +8563,6 @@
       "publishedAt": "2026-10-02T09:02:23.000Z",
       "contentSnippet": "AI Buổi Sáng (02/10/2026): Tiêu điểm Introducing Olmo-core 3 và những bước chuyển từ Hacker News Trong phiên buổi sáng ngày 02/10/2026, cộng đồng cô...",
       "authorName": "Xuân Chinh Trịnh",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "642bcf284e93595e",
-      "title_vi": "Một số mẫu điện thoại cao cấp gặp lỗi âm thanh lạ khi sử dụng",
-      "title_en": "Several flagship smartphones encounter unusual audio glitches during usage",
-      "summary_vi": [
-        "Nhiều người dùng phản ánh các thiết bị điện thoại cao cấp thế hệ mới xuất hiện tiếng lách tách và lụp bụp khó chịu khi họ sử dụng các ứng dụng phát âm thanh trong quá trình trải nghiệm thực tế.",
-        "Tình trạng lỗi âm thanh này xảy ra trong nhiều tác vụ như gọi điện, nghe nhạc và nhận thông báo, trong khi các bản vá phần mềm cập nhật gần đây vẫn chưa thể khắc phục hoàn toàn sự cố phần cứng.",
-        "Vấn đề này đặt ra thách thức lớn cho các kỹ sư phần cứng và nhà phát triển hệ điều hành trong việc kiểm soát chất lượng thiết bị di động trước khi tung ra thị trường toàn cầu."
-      ],
-      "summary_en": [
-        "Many users report that new generation flagship smartphones produce annoying crackling and popping sounds when they use audio playback applications during their actual user experience.",
-        "This audio glitch occurs across multiple tasks such as making calls, listening to music, and receiving notifications, while recent software update patches have not yet completely resolved the hardware issue.",
-        "This problem poses a major challenge for hardware engineers and operating system developers in controlling mobile device quality before releasing products to the global market."
-      ],
-      "originalTitle": "Một số iPhone 18 Pro gặp lỗi âm thanh",
-      "url": "https://vnexpress.net/mot-so-iphone-18-pro-gap-loi-am-thanh-5127432.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Smartphone",
-        "iOS",
-        "Hardware Error",
-        "Audio Bug",
-        "Mobile Development"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-02T07:35:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/02/wm1DSCF03811789549437178954950-2877-5195-1790907419.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=UWkQyFNB9j2hsE0NejeKYw",
-      "contentSnippet": "Nhiều người dùng phản ánh iPhone 18 Pro và 18 Pro Max của họ xuất hiện tiếng \"lách tách\", \"lụp bụp\" khi sử dụng các ứng dụng phát âm thanh.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "08998be1d2deaf5a",
-      "title_vi": "Tính xác suất công bằng từ tỷ lệ cược bằng Python cùng dữ liệu mở và API miễn phí",
-      "title_en": "Calculating Fair Probabilities from Odds Using Python with Open Data and Free APIs",
-      "summary_vi": [
-        "Bài viết hướng dẫn lập trình viên sử dụng ngôn ngữ Python để xử lý và tính toán xác suất công bằng từ các tỷ lệ cược trên thị trường.",
-        "Giải pháp kỹ thuật áp dụng các thư viện phân tích dữ liệu tiêu chuẩn kết hợp với việc khai thác nguồn dữ liệu mở thông qua các giao diện lập trình ứng dụng không cần khóa xác thực.",
-        "Kiến thức này giúp các kỹ sư phần mềm xây dựng các mô hình dự báo tài chính và hệ thống phân tích dữ liệu thể thao một cách nhanh chóng và hiệu quả."
-      ],
-      "summary_en": [
-        "The article guides developers on using Python to process and calculate fair probabilities from market betting odds efficiently.",
-        "The technical solution applies standard data analysis libraries combined with open data extraction through keyless application programming interfaces.",
-        "This knowledge helps software engineers build financial forecasting models and sports data analytics systems quickly and effectively."
-      ],
-      "originalTitle": "Tính xác suất công bằng từ tỷ lệ cược bằng Python (kèm dữ liệu mở và API không cần khóa)",
-      "url": "https://viblo.asia/p/tinh-xac-suat-cong-bang-tu-ty-le-cuoc-bang-python-kem-du-lieu-mo-va-api-khong-can-khoa-wlVmRkBr45Z",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Python",
-        "Data Analysis",
-        "Open Data",
-        "API",
-        "Probability"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-02T06:30:08.000Z",
-      "contentSnippet": "Mọi tỷ lệ cược đều chứa sẵn một khoản phí. Nếu cộng xác suất ngầm định của mọi kết quả trong một thị trường, tổng sẽ lớn hơn 100%; phần dư chính là bi...",
-      "authorName": "Edward Glush",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9a166c6267b147be",
-      "title_vi": "Apple cho phép chọn trước màu sắc và cấu hình iPhone Duo trước thềm mở bán",
-      "title_en": "Apple Introduces Order Preparation Feature for iPhone Duo Prior to Official Launch",
-      "summary_vi": [
-        "Apple lần đầu tiên triển khai chương trình chuẩn bị đơn hàng nhằm hỗ trợ người dùng thiết lập sẵn màu sắc và dung lượng cho dòng điện thoại iPhone Duo.",
-        "Tính năng mới này giúp tối ưu hóa quy trình giao dịch trực tuyến, giảm thiểu tình trạng nghẽn mạng và tăng cao tỷ lệ đặt mua thành công trong ngày đầu mở bán.",
-        "Việc cải tiến trải nghiệm mua sắm số hóa này thể hiện chiến lược quản lý chuỗi cung ứng thông minh của Apple nhằm đáp ứng nhu cầu khổng lồ từ thị trường di động toàn cầu."
-      ],
-      "summary_en": [
-        "Apple has introduced a pioneering order preparation program designed to help users pre-select color options and storage capacities for the upcoming iPhone Duo lineup.",
-        "This new digital feature optimizes the online transaction workflow, minimizes server congestion, and significantly increases successful purchase rates during official launch days.",
-        "Such digital shopping experience enhancements demonstrate Apple's smart supply chain management strategy aimed at meeting massive global demands within the mobile market."
-      ],
-      "originalTitle": "Apple cho chọn sẵn màu, cấu hình iPhone Duo trước ngày đặt mua",
-      "url": "https://vnexpress.net/apple-cho-chon-san-mau-cau-hinh-iphone-duo-truoc-ngay-dat-mua-5127359.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Mobile",
-        "E-commerce",
-        "Hardware"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-02T02:58:23.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/01/dscf0070-1790865025-9800-1790865062.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=qItHqtPosDeBmp6h55QDtQ",
-      "contentSnippet": "Apple lần đầu triển khai chương trình \"Chuẩn bị đơn hàng\" để người dùng chọn sẵn màu, dung lượng iPhone Duo, giúp tăng cơ hội đặt mua khi ngày mở bán diễn ra.",
-      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     }
