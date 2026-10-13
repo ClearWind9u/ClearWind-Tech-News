@@ -1,7 +1,349 @@
 {
-  "lastUpdated": "2026-10-13T13:17:44.270Z",
+  "lastUpdated": "2026-10-13T22:08:54.427Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "872e5b0ff006580a",
+      "title_vi": "Định dạng số và cấu trúc dữ liệu nâng cao trong package fmt của Go",
+      "title_en": "Advanced Number Formatting and Data Structures in Go fmt Package",
+      "summary_vi": [
+        "Bài viết tiếp tục khai thác sâu hơn về gói thư viện chuẩn fmt trong ngôn ngữ lập trình Go, vượt qua các định dạng cơ bản để xử lý những cấu trúc dữ liệu phức tạp hơn.",
+        "Nội dung tập trung hướng dẫn cách sử dụng chi tiết các định dạng số nâng cao, cách căn chỉnh bố cục đầu ra và xử lý việc in ấn các kiểu dữ liệu phức tạp một cách tối ưu.",
+        "Kiến thức này giúp lập trình viên Go viết mã nguồn sạch hơn, cải thiện đáng kể khả năng kiểm soát định dạng dữ liệu nhật ký hệ thống và gỡ lỗi hiệu quả."
+      ],
+      "summary_en": [
+        "The article further explores the standard fmt library package in the Go programming language, moving beyond basic verbs to handle more complex data structures.",
+        "The content focuses on detailed instructions for advanced number formatting, layout alignment techniques, and optimizing the printing of complex data types.",
+        "This knowledge helps Go developers write cleaner source code, significantly improving control over system log data formatting and enhancing debugging efficiency."
+      ],
+      "originalTitle": "Bài 4: Định dạng Số và Cấu trúc dữ liệu nâng cao trong package fmt",
+      "url": "https://viblo.asia/p/bai-4-dinh-dang-so-va-cau-truc-du-lieu-nang-cao-trong-package-fmt-vbLbj0DQLnk",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Golang",
+        "Software Engineering",
+        "Programming",
+        "Backend"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-14T00:45:09.000Z",
+      "contentSnippet": "Ở Bài 2, chúng ta đã lướt qua các Verbs cơ bản như %s, %d, %f. Tuy nhiên, sức mạnh thực sự của package fmt nằm ở khả năng phân tách các cấu trúc dữ li...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a940c3061d0bda63",
+      "title_vi": "Khi AI Agent dùng sai dữ liệu: Tái đào tạo đội ngũ cho kỷ nguyên tác tử thông minh",
+      "title_en": "When AI Agents Use Wrong Data: Reskilling Teams for the Era of Intelligent Agents",
+      "summary_vi": [
+        "Phòng tài chính triển khai trợ lý trí tuệ nhân tạo tự động trích xuất dữ liệu từ hệ thống hoạch định nguồn lực doanh nghiệp nhưng bắt đầu phát sinh lỗi xử lý nghiêm trọng do nguồn dữ liệu đầu vào không đồng nhất.",
+        "Sự cố xuất phát từ việc các tác tử thông minh tự động hóa quy trình nghiệp vụ thiếu cơ chế kiểm soát chất lượng ngữ cảnh dữ liệu thời gian thực và quản trị vòng đời mô hình học máy.",
+        "Doanh nghiệp cần nhanh chóng thiết lập tiêu chuẩn kỹ thuật mới về quản trị dữ liệu lớn và tái đào tạo đội ngũ kỹ sư để vận hành hệ thống tự động hóa an toàn hơn."
+      ],
+      "summary_en": [
+        "The finance department deployed an artificial intelligence assistant to automatically extract data from enterprise resource planning systems but encountered severe processing errors due to inconsistent input data sources.",
+        "The incident stemmed from autonomous business process agents lacking proper quality control mechanisms for real-time data context and comprehensive machine learning model lifecycle management.",
+        "Enterprises urgently need to establish new technical standards for big data governance and reskill engineering teams to operate automated systems much more securely and reliably."
+      ],
+      "originalTitle": "Khi AI Agent dùng sai dữ liệu: Tái đào tạo đội ngũ cho kỷ nguyên tác tử thông minh",
+      "url": "https://viblo.asia/p/khi-ai-agent-dung-sai-du-lieu-tai-dao-tao-doi-ngu-cho-ky-nguyen-tac-tu-thong-minh-kNLr3epaVgA",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI Agent",
+        "Data Governance",
+        "ERP",
+        "Machine Learning",
+        "Automation"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-14T00:25:28.000Z",
+      "contentSnippet": "Tuần đầu tiên, AI agent của phòng tài chính chạy ngon lành: tự động kéo dữ liệu từ ERP, soạn báo cáo biến động, phát hiện bất thường. Tuần thứ hai, mộ...",
+      "authorName": "Arief Warazuhudien",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9edf11b8bf85b2a8",
+      "title_vi": "AI Agent có “nhớ” gì không? Thiết kế Context, State và Memory cho Production",
+      "title_en": "Do AI Agents Actually Remember? Designing Context, State, and Memory for Production",
+      "summary_vi": [
+        "Bài viết làm rõ bản chất thực sự của khả năng ghi nhớ trong các AI agent, phân biệt giữa cảm giác hội thoại tự nhiên và cơ chế lưu trữ dữ liệu kỹ thuật cần thiết để vận hành hệ thống ổn định trong môi trường thực tế.",
+        "Tác giả đi sâu vào kiến trúc hệ thống bằng cách phân tích sự khác biệt giữa ngữ cảnh, trạng thái và bộ nhớ dài hạn, đồng thời hướng dẫn cách thiết kế các thành phần này để đảm bảo tính nhất quán và hiệu suất cho ứng dụng AI.",
+        "Thông qua việc phân tích các thách thức khi triển khai, bài viết cung cấp lộ trình thực tế giúp các kỹ sư xây dựng hệ thống AI có khả năng duy trì mạch hội thoại phức tạp mà vẫn đảm bảo tính tin cậy và khả năng mở rộng."
+      ],
+      "summary_en": [
+        "The article clarifies the true nature of memory in AI agents, distinguishing between the illusion of natural conversation and the technical data storage mechanisms required to operate stable systems in real-world production environments.",
+        "The author explores system architecture by analyzing the differences between context, state, and long-term memory, while providing guidance on designing these components to ensure consistency and performance for complex AI applications.",
+        "By examining implementation challenges, the article provides a practical roadmap for engineers to build AI systems capable of maintaining complex conversational flows while ensuring high reliability and scalability for enterprise-grade deployments."
+      ],
+      "originalTitle": "AI Agent có “nhớ” gì không? Thiết kế Context, State và Memory cho Production",
+      "url": "https://viblo.asia/p/ai-agent-co-nho-gi-khong-thiet-ke-context-state-va-memory-cho-production-pPLkNQ88JRZ",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "LLM",
+        "System Architecture",
+        "Memory Management",
+        "Software Engineering"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-10-13T23:36:48.000Z",
+      "contentSnippet": "Một AI agent trả lời được theo mạch hội thoại rất dễ tạo cảm giác nó “nhớ” người dùng. Nhưng trong production, đây là một từ dễ gây hiểu nhầm. Model k...",
+      "authorName": "Johnny Nguyen",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "68c20fc1bf332d56",
+      "title_vi": "API đã thanh toán thành công nhưng dữ liệu bị thất lạc: Vấn đề lệch pha trong x402 và MCP",
+      "title_en": "API Payment Settled But Data Lost: The Drift Problem in x402 and MCP",
+      "summary_vi": [
+        "Nhiều lập trình viên đang thử nghiệm mô hình thu phí API thông qua giao thức x402 hoặc chuyển đổi các máy chủ MCP thành dịch vụ thương mại, tuy nhiên họ đang đối mặt với những thách thức nghiêm trọng về tính đồng bộ dữ liệu.",
+        "Vấn đề cốt lõi nằm ở hiện tượng lệch pha giữa trạng thái thanh toán thành công và khả năng truy xuất dữ liệu thực tế, khiến các giao dịch đã hoàn tất nhưng tài nguyên không thể được tìm thấy bởi hệ thống người dùng.",
+        "Sự cố này đặt ra bài toán quan trọng về thiết kế kiến trúc hệ thống phân tán, yêu cầu các kỹ sư phải xây dựng cơ chế kiểm tra tính toàn vẹn dữ liệu chặt chẽ hơn để đảm bảo trải nghiệm người dùng cuối."
+      ],
+      "summary_en": [
+        "Developers are increasingly experimenting with API monetization models using the x402 protocol or transforming MCP servers into commercial services, yet they are encountering significant challenges regarding data synchronization and transaction reliability.",
+        "The core issue lies in the drift between successful payment settlement states and the actual availability of retrieved data, causing completed transactions to result in missing resources within the end-user system architecture.",
+        "This incident highlights a critical challenge in distributed systems design, requiring engineers to implement more robust data integrity verification mechanisms to ensure consistent service delivery and reliable user experiences."
+      ],
+      "originalTitle": "API đã settle thành công nhưng không ai tìm thấy: vấn đề \"drift\" trong x402 và MCP",
+      "url": "https://viblo.asia/p/api-da-settle-thanh-cong-nhung-khong-ai-tim-thay-van-de-drift-trong-x402-va-mcp-wlVmRll045Z",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "API",
+        "MCP",
+        "x402",
+        "DistributedSystems",
+        "DataIntegrity"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T22:27:31.000Z",
+      "contentSnippet": "Bối cảnh Ngày càng nhiều lập trình viên thử nghiệm mô hình thu phí API bằng x402, hoặc biến MCP server của mình thành một dịch vụ có trả phí. Nhưng kh...",
+      "authorName": "Payload",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5f20b5b5926a522f",
+      "title_vi": "Apple ra mắt màn hình điều khiển nhà thông minh HomeView giá 299 USD",
+      "title_en": "Apple Launches HomeView Smart Home Control Display Priced at 299 USD",
+      "summary_vi": [
+        "Tập đoàn công nghệ Apple vừa chính thức giới thiệu thiết bị HomeView tích hợp màn hình cảm ứng tiên tiến, hệ thống loa chất lượng cao cùng trợ lý ảo Siri AI, đánh dấu bước tiến mới trong chiến lược phát triển hệ sinh thái thiết bị phần cứng nhà thông minh.",
+        "Bên cạnh màn hình điều khiển chính, hãng còn tung ra các bản cập nhật phần cứng quan trọng bao gồm dòng thiết bị giải trí AppleTV 4K, loa thông minh HomePod mini thế hệ thứ hai và hàng loạt cảm biến kết nối chuẩn Matter mới.",
+        "Sự kiện này mang lại hệ sinh thái thiết bị phần cứng và giao diện lập trình ứng dụng đồng bộ hơn cho các nhà phát triển phần mềm IoT, mở ra cơ hội xây dựng các giải pháp tự động hóa nhà thông minh tối ưu và bảo mật cao hơn."
+      ],
+      "summary_en": [
+        "Tech giant Apple has officially introduced the HomeView device featuring an advanced touchscreen display, high-quality speaker system, and Siri AI assistant, marking a significant step in their smart home hardware ecosystem strategy.",
+        "Alongside the main control display, the company also released major hardware updates including the AppleTV 4K entertainment device, the second-generation HomePod mini smart speaker, and a series of new Matter-standard connected sensors.",
+        "This release provides a more synchronized hardware ecosystem and application programming interface for IoT software developers, opening opportunities to build optimized and highly secure smart home automation solutions."
+      ],
+      "originalTitle": "Apple ra mắt màn hình điều khiển nhà thông minh HomeView giá 299 USD",
+      "url": "https://tuoitre.vn/apple-ra-mat-man-hinh-dieu-khien-nha-thong-minh-homeview-gia-299-usd-100261013221055395.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Apple",
+        "Smart Home",
+        "Siri",
+        "IoT",
+        "Hardware"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T22:18:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/13/thumb-screenshot-2026-10-13-at-211708-179190272014081942239-1791902791531562423086-125-169-1088-1710-crop-17919028851951402978527.png",
+      "contentSnippet": "Apple giới thiệu HomeView tích hợp màn hình cảm ứng, loa và Siri AI, cùng Apple TV 4K, HomePod mini 2 và loạt thiết bị nhà thông minh khác.",
+      "authorName": "THANH HIỆP⭐",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6ec803e44d1742cc",
+      "title_vi": "Nhân viên OpenAI bị bắt vì cài đặt thiết bị nghe lén tinh vi trong phòng họp",
+      "title_en": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+      "summary_vi": [
+        "Một kỹ sư tại OpenAI đã bị bắt giữ sau khi công ty phát hiện một thiết bị ghi âm tinh vi được giấu kín trong phòng họp điều hành, dẫn đến cáo buộc can thiệp trái phép vào các cuộc hội thoại nội bộ.",
+        "Công ty đã sử dụng chính các mô hình trí tuệ nhân tạo của mình để phân tích nguồn gốc thiết bị, từ đó xác định chính xác nhân viên Abdulrahman Alfozan là người đã trực tiếp lắp đặt thiết bị này vào cổng USB của tivi.",
+        "Sự việc này gióng lên hồi chuông cảnh báo về an ninh nội bộ tại các tập đoàn công nghệ lớn, nhấn mạnh tầm quan trọng của việc giám sát phần cứng và bảo mật vật lý trong môi trường làm việc nhạy cảm."
+      ],
+      "summary_en": [
+        "An OpenAI engineer was arrested after the company discovered a sophisticated recording device hidden in an executive conference room, leading to federal charges for attempting to intercept oral communications within the corporate office.",
+        "The company utilized its own AI models to analyze the device and trace its origin, successfully identifying that Abdulrahman Alfozan had planted the hardware into a television USB port just a few days prior.",
+        "This incident highlights critical vulnerabilities in physical security and internal surveillance within major tech firms, emphasizing the necessity for rigorous hardware monitoring protocols to protect sensitive corporate data and private communications."
+      ],
+      "originalTitle": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "OpenAI",
+        "PhysicalSecurity",
+        "Surveillance",
+        "CorporateEspionage"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T20:45:25.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK155_OPEN_AI_CVirginia__C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral commu",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "95aefa2303a28f89",
+      "title_vi": "Kỹ sư OpenAI bị bắt giữ do lắp thiết bị nghe lén trong phòng họp của ban điều hành",
+      "title_en": "OpenAI engineer arrested in bugging of executive conference room",
+      "summary_vi": [
+        "Một kỹ sư làm việc tại công ty trí tuệ nhân tạo OpenAI vừa chính thức bị cơ quan chức năng bắt giữ sau khi bị phát hiện cài đặt thiết bị nghe lén trái phép trong phòng họp của ban điều hành cấp cao.",
+        "Sự việc gây chấn động nội bộ này làm dấy lên những lo ngại nghiêm trọng về các lỗ hổng bảo mật vật lý, quy trình kiểm soát quyền truy cập hạ tầng và công tác bảo vệ thông tin mật liên quan đến các mô hình ngôn ngữ lớn.",
+        "Vụ án đặt ra bài học đắt giá cho các doanh nghiệp công nghệ trong việc thắt chặt an ninh nội bộ, kiểm toán hệ thống phòng họp kín và ngăn chặn nguy cơ rò rỉ sở hữu trí tuệ từ chính nguồn nhân lực bên trong."
+      ],
+      "summary_en": [
+        "An engineer working at artificial intelligence firm OpenAI has been officially arrested after being discovered illegally installing covert listening devices inside a high-level executive conference room.",
+        "This shocking internal security breach has raised severe concerns regarding physical security vulnerabilities, infrastructure access control protocols, and the protection of confidential information related to large language models.",
+        "The incident serves as a crucial lesson for technology enterprises regarding the tightening of internal security, auditing secure meeting rooms, and preventing intellectual property leakage from trusted internal resources."
+      ],
+      "originalTitle": "OpenAI engineer arrested in bugging of executive conference room",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "OpenAI",
+        "Cybersecurity",
+        "Security",
+        "Artificial Intelligence",
+        "Enterprise Security"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T20:23:55.000Z",
+      "contentSnippet": "OpenAI engineer arrested in bugging of executive conference room",
+      "authorName": "forthwall",
+      "upvotes": 114,
+      "commentsCount": 129
+    },
+    {
+      "id": "f1305662a1d2e7c4",
+      "title_vi": "Shopify mở rộng danh mục sản phẩm cho nhiều tác nhân AI hơn",
+      "title_en": "Shopify opens its catalog up to more AI agents",
+      "summary_vi": [
+        "Công ty thương mại điện tử Shopify vừa công bố bước tiến quan trọng trong chiến lược thương mại tự động hóa, cho phép các tác nhân trí tuệ nhân tạo duyệt và mua sắm trực tiếp từ hơn một tỷ sản phẩm trong danh mục của họ một cách dễ dàng.",
+        "Khác với các mốiε hợp tác độc quyền trước đó như việc tích hợp trợ lý Muse với Meta, tính năng mới này cho phép người dùng cấu hình bất kỳ tác nhân trí tuệ nhân tạo nào của bên thứ ba để thực hiện giao dịch thay thế mà không cần tích hợp phức tạp.",
+        "Động thái này đánh dấu sự chuyển dịch lớn trong kiến trúc thương mại điện tử hướng tới hệ sinh thái mở, giúp các nhà phát triển và kỹ sư tối ưu hóa trải nghiệm mua sắm tự động quy mô lớn thông qua các tác nhân thông minh."
+      ],
+      "summary_en": [
+        "Ecommerce platform Shopify announced a significant milestone in its agentic commerce strategy, enabling artificial intelligence agents to browse and purchase directly from over a billion products within their comprehensive catalog easily.",
+        "Unlike previous exclusive partnerships such as integrating the Muse assistant with Meta, this new feature allows users to configure any third-party artificial intelligence agent to execute transactions on their behalf without complex integrations.",
+        "This move marks a major architectural shift in ecommerce toward an open ecosystem, helping developers and engineers optimize large-scale automated shopping experiences through intelligent agent frameworks."
+      ],
+      "originalTitle": "Shopify opens its catalog up to more AI agents",
+      "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI Agents",
+        "Shopify",
+        "E-commerce",
+        "Automation",
+        "Meta"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T19:42:42.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2225304503.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "CANADA - 2025/07/20: In this photo illustration, the Shopify logo is seen displayed on a smartphone screen. (Photo Illustration by Thomas Fuller/SOPA Images/LightRocket via Getty Images) More AI agents will soon be able to browse and purchase from Shopify listings, marking an expansion of the compan",
+      "authorName": "Mia Sato",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "cfa5b40a60a7c0a1",
+      "title_vi": "Apple ra mắt loa thông minh mới tích hợp trí tuệ nhân tạo và chip xử lý nâng cấp",
+      "title_en": "Apple Launches New Smart Speaker Powered by Advanced Silicon and Artificial Intelligence",
+      "summary_vi": [
+        "Hãng công nghệ Apple vừa chính thức giới thiệu thế hệ loa thông minh tiếp theo của mình với nhiều cải tiến đáng kể về phần cứng lẫn khả năng xử lý thông minh.",
+        "Thiết bị mới này được trang bị vi xử lý dòng S hiệu năng cao, tích hợp trực tiếp trợ lý ảo hỗ trợ trí tuệ nhân tạo và tính năng hiệu ứng ánh sáng đồng bộ.",
+        "Sản phẩm hứa hẹn mang lại trải nghiệm âm thanh vòm sống động, mở rộng hệ sinh thái nhà thông minh và thúc đẩy sự phát triển của các thiết bị tích hợp AI."
+      ],
+      "summary_en": [
+        "Apple has officially introduced the next generation of its smart speaker featuring significant hardware upgrades and advanced intelligent processing capabilities.",
+        "This new device is powered by a high-performance custom silicon chip, integrating an artificial intelligence assistant and synchronized ambient lighting effects.",
+        "The product promises to deliver immersive spatial audio experiences, expanding the smart home ecosystem and driving the evolution of AI-integrated devices."
+      ],
+      "originalTitle": "Apple ra mắt HomePod mini 2: chip S10, Siri AI, hỗ trợ âm thanh vòm 4 loa, giá 149 USD",
+      "url": "https://tinhte.vn/thread/apple-ra-mat-homepod-mini-2-chip-s10-siri-ai-ho-tro-am-thanh-vom-4-loa-gia-149-usd.4183903/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "Artificial Intelligence",
+        "Smart Speaker",
+        "Hardware"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T19:01:38.000Z",
+      "contentSnippet": "HomePod mini 2 được nâng cấp chip Apple S10, hỗ trợ Siri AI, hiệu ứng ánh sáng Sound Glow và kết nối bốn loa với Apple TV 4K thế hệ mới. Apple vừa giới thiệu HomePod mini 2, thế hệ tiếp theo của...",
+      "authorName": "Trung Dt",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b5a0bcffb5b3a77b",
+      "title_vi": "Hệ máy Xbox chính thức đón nhận sự bùng nổ của việc chuyển đổi trò chơi ứng dụng trí tuệ nhân tạo",
+      "title_en": "Xbox is officially embracing the chaos of AI-powered game ports",
+      "summary_vi": [
+        "Ngành công nghiệp trò chơi cổ điển đang chứng kiến sự thay đổi mạnh mẽ nhờ các kỹ thuật biên dịch ngược và dịch mã nguồn cho phép chuyển đổi tựa game kinh điển sang thiết bị mới.",
+        "Microsoft đã thành lập nhóm nghiên cứu Xbox Labs nhằm khám phá làn sóng mô hình trí tuệ nhân tạo hỗ trợ lập trình viên chỉnh sửa và tái cấu trúc mã nguồn trò chơi vô cùng linh hoạt.",
+        "Bước đi chiến lược này mở ra tiềm năng lớn cho cộng đồng phát triển phần mềm và kỹ sư game trong việc ứng dụng công nghệ tự động hóa để sáng tạo nội dung giải trí độc đáo."
+      ],
+      "summary_en": [
+        "The retro gaming industry is experiencing massive changes due to decompilation and recompilation techniques allowing developers to port classic titles onto modern hardware devices seamlessly.",
+        "Microsoft has established a new Xbox Labs research group to explore how artificial intelligence models can help programmers modify and restructure game source code with exceptional flexibility.",
+        "This strategic move opens up enormous potential for the software development community and game engineers to leverage automation technologies for creating unique entertainment content."
+      ],
+      "originalTitle": "Xbox is officially embracing the chaos of AI-powered game ports",
+      "url": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "AI",
+        "Gaming",
+        "Software Engineering",
+        "Microsoft",
+        "Code Refactoring"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T19:00:48.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/xboxlabshed.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Retro gaming is going through a wild time at the moment, thanks to decompilations and recompilations that are letting gamers port classic titles to new devices, or merge code from two different games into a single new experience. Microsoft has witnessed skateboarding being modded into Call of Duty a",
+      "authorName": "Tom Warren",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "ff794cf04ec43f8b",
       "title_vi": "DeepSeek V4.1 Flash tiết kiệm chi phí hơn GPT-6 Astra: Tại sao xác định đúng nguyên nhân lỗi chưa đồng nghĩa với việc sửa lỗi thành công?",
@@ -37,6 +379,39 @@
       "commentsCount": 0
     },
     {
+      "id": "b87626977e8d5fae",
+      "title_vi": "Trải nghiệm bộ phần mềm thay thế Adobe: Mượt mà và cập nhật liên tục",
+      "title_en": "Exploring Adobe Software Alternatives: Smooth Performance and Continuous Updates",
+      "summary_vi": [
+        "Cộng đồng công nghệ đang xôn xao về bộ phần mềm mới được phát triển nhằm sao chép các tính năng quen thuộc của hệ sinh thái Adobe nổi tiếng.",
+        "Các ứng dụng thay thế như LightCraft cho Lightroom hay PhotoCraft cho Photoshop mang đến hiệu năng xử lý đồ họa mượt mà và giao diện tương đương.",
+        "Sự xuất hiện của những công cụ mã nguồn mở hoặc giải pháp thay thế này mang lại lựa chọn tiết kiệm chi phí đáng kể cho các lập trình viên và nhà thiết kế."
+      ],
+      "summary_en": [
+        "The technology community is buzzing about a newly developed software suite designed to clone the familiar features of the famous Adobe ecosystem.",
+        "Alternative applications such as LightCraft for Lightroom or PhotoCraft for Photoshop deliver smooth graphic processing performance and familiar interfaces.",
+        "The emergence of these open-source tools and alternative solutions provides a significantly cost-effective option for developers and designers alike."
+      ],
+      "originalTitle": "Thử dùng \"Lightroom Fake\" - LightCraft: mượt, đầy đủ, update liên tục",
+      "url": "https://tinhte.vn/thread/thu-dung-lightroom-fake-lightcraft-muot-day-du-update-lien-tuc.4183628/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Software",
+        "Adobe",
+        "LightCraft",
+        "Design Tools"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T16:31:06.000Z",
+      "contentSnippet": "Mấy nay thấy anh em rần rần về cái bộ phần mềm clone bộ Adobe, ví dụ như Adobe Lightroom thì app clone tên là LightCraft, Photoshop thì là PhotoCraft, AI thì là VectorCraft, Premiere thì là...",
+      "authorName": "Nhà Của Cáo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "359da823cc8abb68",
       "title_vi": "GPT-6 Astra là gì? Hướng dẫn tích hợp API và kiểm chứng kết quả trong ứng dụng",
       "title_en": "What is GPT-6 Astra? Instructions for integrating API and verifying results in the application",
@@ -64,6 +439,176 @@
       "publishedAt": "2026-10-13T16:17:14.000Z",
       "contentSnippet": "Từ dữ liệu đầu vào đến kết quả có thể kiểm tra trong ứng dụng. Khi tích hợp một mô hình ngôn ngữ vào ứng dụng, phần khó thường không nằm ở chỗ gọi đư...",
       "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "7a89d3ba2a72b6c4",
+      "title_vi": "Giới thiệu mô hình Gemini 4 Argon đột phá mới của Google dành cho kỹ sư và nhà nghiên cứu",
+      "title_en": "Google Announces Gemini 4 Argon Model for Advanced Engineering and Research",
+      "summary_vi": [
+        "Google vừa chính thức công bố mô hình trí tuệ nhân tạo thế hệ mới mang tên Argon, được thiết kế chuyên biệt để giải quyết các bài toán khoa học và kỹ thuật phức tạp nhất hiện nay.",
+        "Mô hình này hỗ trợ đắc lực cho việc tự động hóa mô phỏng vật lý từ video, tối ưu hóa mã nguồn Python, tăng tốc các gói hóa học lượng tử và xử lý các tác vụ phần mềm dài hạn.",
+        "Với khả năng bảo mật xuất sắc và hiệu năng vượt trội trong việc vá lỗ hổng bảo mật, Argon đang trở thành công cụ ưu tiên hàng đầu cho các nhà phát triển phần mềm chuyên nghiệp."
+      ],
+      "summary_en": [
+        "Google has officially announced the next-generation artificial intelligence model named Argon, specifically designed to solve the most complex scientific and engineering problems today.",
+        "This model strongly supports the automation of physical simulations from raw video, optimizing Python source code, accelerating quantum chemistry packages, and handling long-horizon software tasks.",
+        "Featuring exceptional security capabilities and outstanding performance in vulnerability remediation, Argon is rapidly becoming the preferred tool for professional software developers."
+      ],
+      "originalTitle": "Gemini 4 Argon",
+      "url": "https://deepmind.google/models/gemini/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Gemini",
+        "AI",
+        "Machine Learning",
+        "Software Engineering",
+        "Cybersecurity"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T16:03:16.000Z",
+      "contentSnippet": "Gemini 4 Argon Try in Gemini Try in Google AI Studio Try in Google Antigravity Gemini 4 Argon Our next era of frontier intelligence, built to solve your hardest problems Explore the latestSlide 1 of 4Solving frontier problems with expertsResearchers, engineers, and security specialists are pairing w",
+      "authorName": "737max",
+      "upvotes": 823,
+      "commentsCount": 653
+    },
+    {
+      "id": "9695a1a4ab2b53a7",
+      "title_vi": "Quả Táo ra mắt thiết bị giải mã truyền hình thế hệ mới: tích hợp trí tuệ nhân tạo, giá bán gần chín triệu đồng",
+      "title_en": "Apple launches new 4K TV streaming device with integrated AI and hardware upgrades",
+      "summary_vi": [
+        "Hãng công nghệ hàng đầu vừa chính thức công bố thế hệ thiết bị giải mã truyền hình độ nét cao mới với nhiều nâng cấp mạnh mẽ về phần cứng nhằm tối ưu hóa trải nghiệm giải trí tại gia cho người dùng.",
+        "Sản phẩm được trang bị vi xử lý dòng A thế hệ mới kết hợp cùng hệ thống micro tầm xa tiên tiến, cho phép tích hợp sâu các tính năng trợ lý ảo thông minh dựa trên trí tuệ nhân tạo vào thiết bị.",
+        "Bước tiến này khẳng định chiến lược mở rộng hệ sinh thái nhà thông minh và nền tảng điều khiển bằng giọng nói, mang lại giá trị tương tác liền mạch cho người dùng trong kỷ nguyên thiết bị kết nối."
+      ],
+      "summary_en": [
+        "The major technology corporation has officially announced a new generation of ultra high definition streaming devices with powerful hardware upgrades designed to optimize home entertainment experiences for users.",
+        "The product is equipped with a modern processor combined with an advanced long range microphone system, enabling deep integration of intelligent artificial intelligence virtual assistant features directly into the hardware.",
+        "This strategic step reinforces the expansion of the smart home ecosystem and voice control platforms, delivering seamless interactive value for users within the era of interconnected consumer electronics."
+      ],
+      "originalTitle": "Apple ra mắt Apple TV 4K: có Siri AI, giá 8,79 triệu, 13 tháng 11 bán ra tại Việt Nam",
+      "url": "https://tinhte.vn/thread/apple-ra-mat-apple-tv-4k-co-siri-ai-gia-8-79-trieu-13-thang-11-ban-ra-tai-viet-nam.4183906/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "Hardware",
+        "AI",
+        "SmartHome"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T15:54:00.000Z",
+      "contentSnippet": "Apple vừa chính thức công bố thế hệ Apple TV 4K mới với nhiều nâng cấp về phần cứng và trải nghiệm giải trí tại gia. Thiết bị trang bị vi xử lý A19, tích hợp hệ thống micro tầm xa hỗ trợ điều...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "56ee56e48ed29025",
+      "title_vi": "Thiết kế lại hệ thống quản lý mã nguồn tại Anthropic",
+      "title_en": "Redesigning source control at Anthropic",
+      "summary_vi": [
+        "Sự bùng nổ của trí tuệ nhân tạo trong việc tự động tạo ra mã nguồn đã biến cơ sở hạ tầng phát triển phần mềm thành nút thắt cổ chai lớn nhất của doanh nghiệp.",
+        "Để giải quyết vấn đề này, đội ngũ kỹ sư đã tự phát triển hệ thống quản lý phiên bản nội bộ mang tên Scion và hoàn tất việc di chuyển toàn bộ mã nguồn chỉ trong năm tháng.",
+        "Động thái này minh chứng cho sự chuyển dịch tất yếu trong ngành công nghệ khi các công cụ phát triển phải được thiết kế lại để đáp ứng năng suất khổng lồ từ hệ thống tự động hóa."
+      ],
+      "summary_en": [
+        "The exponential growth of artificial intelligence in autonomously generating source code has turned traditional software development infrastructure into a major operational bottleneck.",
+        "To overcome this scaling challenge, engineers successfully developed an in-house version control system named Scion and migrated their entire repository infrastructure within five months.",
+        "This architectural overhaul highlights an inevitable industry shift where developer tooling must be completely redesigned to support the unprecedented code output driven by automated systems."
+      ],
+      "originalTitle": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Version Control",
+        "Monorepo",
+        "DevOps",
+        "AI",
+        "Software Architecture"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-13T15:49:56.000Z",
+      "contentSnippet": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months. At Anthropic, coding is no longer the bottleneck to building systems or doing research. Claude is able to auton",
+      "authorName": "Philpax",
+      "upvotes": 410,
+      "commentsCount": 405
+    },
+    {
+      "id": "a72272d40bb60fe9",
+      "title_vi": "Loa thông minh HomePod mini 2 ra mắt tích hợp trợ lý AI và đèn nhấp nháy theo âm nhạc",
+      "title_en": "HomePod mini 2 Launches With Integrated AI Assistant and Music Reactive Lighting",
+      "summary_vi": [
+        "Apple vừa chính thức công bố dòng loa thông minh thế hệ mới mang tên HomePod mini 2 với năm màu sắc bắt mắt cùng hệ thống đèn LED phát sáng đồng bộ theo giai điệu bài hát.",
+        "Thiết bị phần cứng này được trang bị khả năng tương tác nâng cao nhờ trợ lý ảo tích hợp công nghệ trí tuệ nhân tạo thế hệ mới của hãng.",
+        "Sự ra mắt này tiếp tục củng cố hệ sinh thái nhà thông minh của Apple, mang lại trải nghiệm điều khiển bằng giọng nói và âm thanh chất lượng cao cho người dùng."
+      ],
+      "summary_en": [
+        "Apple has officially announced the new generation smart speaker named HomePod mini 2 featuring five vibrant colors and an LED lighting system that synchronizes with music rhythms.",
+        "This hardware device is equipped with advanced interaction capabilities powered by the company is newly integrated artificial intelligence virtual assistant technology.",
+        "This launch continues to strengthen Apple s smart home ecosystem, delivering high quality audio and voice control experiences for consumers worldwide."
+      ],
+      "originalTitle": "HomePod mini 2 ra mắt: Có đèn \"xập xình\" theo nhạc, giá 3,9 triệu nhưng cũng không bán chính hãng",
+      "url": "https://genk.vn/homepod-mini-2-ra-mat-co-den-xap-xinh-theo-nhac-gia-39-trieu-nhung-cung-khong-ban-chinh-hang-16526101320221147.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "HomePod",
+        "SmartSpeaker",
+        "AI",
+        "IoT"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T13:20:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/13/apple-homepod-mini-2-color-lineup-261013bigjpglarge-0-99-1102-1862-crop-17918976283761666306126.jpg",
+      "contentSnippet": "Loa thông minh mới chạy chip S10, nhận diện giọng nói của tối đa 6 người và ghép được thành dàn loa vòm 4 loa với Apple TV 4K.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "4de7e460f5c9379e",
+      "title_vi": "Táo Khuyết công bố thiết bị giải mã truyền hình thế hệ mới tích hợp trí tuệ nhân tạo và bộ vi xử lý mạnh mẽ",
+      "title_en": "Apple Announces New 4K Media Streaming Device Powered by Advanced Silicon and Integrated AI",
+      "summary_vi": [
+        "Hãng công nghệ hàng đầu vừa chính thức công bố thiết bị giải mã truyền hình thế hệ mới với nhiều nâng cấp mạnh mẽ về phần cứng và tính năng thông minh.",
+        "Sản phẩm được trang bị bộ vi xử lý cao cấp thế hệ mới cùng khả năng tích hợp trợ lý ảo thông minh hiển thị trực quan toàn màn hình và hỗ trợ kết nối hệ thống âm thanh vòm.",
+        "Thiết bị này đánh dấu bước tiến mới trong việc đưa trí tuệ nhân tạo vào hệ sinh thái giải trí gia đình, mang lại trải nghiệm tương tác liền mạch và hiệu năng xử lý đồ họa vượt trội cho người dùng."
+      ],
+      "summary_en": [
+        "The leading technology company has officially announced a new generation media streaming device featuring significant hardware upgrades and smart capabilities.",
+        "The product is equipped with an advanced next-generation processor alongside full-screen visual AI assistant integration and robust surround sound system connectivity.",
+        "This device marks a significant step forward in bringing artificial intelligence into the home entertainment ecosystem, delivering seamless interactive experiences and superior graphics processing performance for users."
+      ],
+      "originalTitle": "Apple ra mắt Apple TV 4K mới: Có Siri AI, dùng chip của iPhone 17, giá chính hãng 8,79 triệu đồng",
+      "url": "https://genk.vn/apple-ra-mat-apple-tv-4k-moi-co-siri-ai-dung-chip-cua-iphone-17-gia-chinh-hang-879-trieu-dong-165261013201649986.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "Artificial Intelligence",
+        "Hardware",
+        "Smart Home"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T13:15:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/13/apple-tv-4k-261013bigjpglarge-0-90-1102-1853-crop-17918972267851704324983.jpg",
+      "contentSnippet": "Thiết bị có 3 micro thu giọng từ xa để ra lệnh rảnh tay, đồng thời lần đầu hỗ trợ dàn loa vòm 4 loa HomePod.",
+      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8003,552 +8548,6 @@
       "authorName": "Terrence O’Brien",
       "upvotes": 0,
       "commentsCount": 0
-    },
-    {
-      "id": "828d0ee4051b6894",
-      "title_vi": "Hiệu năng AirDrop trên iPhone 15 Pro chạy phiên bản iOS mới không nhanh hơn và truyền tệp lớn chậm hơn khi có mạng",
-      "title_en": "iPhone 15 Pro AirDrop performance on latest iOS shows no speed gains and slower large file transfers with active internet connection",
-      "summary_vi": [
-        "Bài viết thử nghiệm thực tế tốc độ truyền dữ liệu không dây AirDrop trên thiết bị iPhone đời cũ sau khi nâng cấp hệ điều hành mới, nhằm đánh giá chất lượng kết nối trong điều kiện thực tế.",
-        "Kết quả kiểm tra cho thấy tốc độ truyền tải các tệp tin kích thước lớn không những không được cải thiện mà còn trở nên chậm hơn rõ rệt khi thiết bị được kết nối internet hoạt động.",
-        "Khám phá này mang lại góc nhìn thực tiễn quan trọng cho kỹ sư phát triển phần mềm và người dùng di động về sự suy giảm hiệu suất mạng cục bộ khi thiết bị duy trì kết nối trực tuyến."
-      ],
-      "summary_en": [
-        "The article evaluates practical wireless data transfer speeds using AirDrop on older iPhone models after updating to a new operating system version to measure connection quality.",
-        "Test results indicate that large file transmission speeds fail to improve and actually experience noticeable slowdowns when the mobile device maintains an active internet connection.",
-        "This finding provides crucial practical insights for software engineers and mobile users regarding local network performance degradation while devices stay online concurrently."
-      ],
-      "originalTitle": "AirDrop trên iPhone 15 Pro lên iOS 27.0.1 không nhanh hơn, file lớn còn chậm hơn khi có internet",
-      "url": "https://tinhte.vn/thread/airdrop-tren-iphone-15-pro-len-ios-27-0-1-khong-nhanh-hon-file-lon-con-cham-hon-khi-co-internet.4181468/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "AirDrop",
-        "iOS",
-        "iPhone",
-        "Mobile Performance",
-        "Apple"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-04T14:24:30.000Z",
-      "contentSnippet": "Hôm trước mình đã test nhanh tốc độ AirDrop của iOS 27 và macOS 27 với iPhone 18 Pro Max, kết quả khá ổn, nhất là khi iPhone không kết nối internet. Lúc đó mình có hẹn anh em sẽ test thêm máy cũ...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "2fe4368a234d4485",
-      "title_vi": "Các gian hàng robot và trí tuệ nhân tạo nổi bật tại triển lãm Đổi mới sáng tạo 2026",
-      "title_en": "Prominent Robot and Artificial Intelligence Booths at the 2026 Innovation Exhibition",
-      "summary_vi": [
-        "Sự kiện Ngày hội Đổi mới sáng tạo Quốc gia năm 2026 đã thu hút sự quan tâm lớn từ cộng đồng công nghệ khi quy tụ nhiều gian hàng trưng bày các dòng robot thông minh và hệ thống trí tuệ nhân tạo tiên tiến.",
-        "Các giải pháp tự động hóa toàn diện được giới thiệu tại triển lãm ứng dụng những mô hình học máy hiện đại, giúp tối ưu hóa quy trình vận hành và nâng cao hiệu suất xử lý dữ liệu thời gian thực cho doanh nghiệp.",
-        "Sự kiện này đánh dấu bước tiến quan trọng trong việc thúc đẩy hệ sinh thái công nghệ trong nước, mở ra nhiều cơ hội hợp tác chiến lược và ứng dụng các giải pháp phần mềm thông minh vào sản xuất thực tiễn."
-      ],
-      "summary_en": [
-        "The National Innovation Festival event in 2026 has attracted significant attention from the technology community by gathering numerous booths displaying intelligent robots and advanced artificial intelligence systems.",
-        "Comprehensive automation solutions introduced at the exhibition apply modern machine learning models, helping to optimize operational processes and enhance real-time data processing performance for businesses.",
-        "This event marks an important milestone in promoting the domestic technology ecosystem, opening up numerous opportunities for strategic cooperation and applying smart software solutions to practical production."
-      ],
-      "originalTitle": "Gian hàng nổi bật tại triển lãm Đổi mới sáng tạo 2026",
-      "url": "https://vnexpress.net/gian-hang-noi-bat-tai-trien-lam-doi-moi-sang-tao-2026-5128239.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Robotics",
-        "Automation",
-        "Machine Learning",
-        "Tech Trends"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-04T13:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/04/wm1-2aobor34wkf4dpnr7h37lkeuw8wriron7pkpz3yk26-1791108934-1791110619.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=iltfFooj2yroS_mkYi2CNA",
-      "contentSnippet": "Nhiều gian hàng robot, AI, giải pháp tự động hoá được trưng bày tại triển lãm trong Ngày hội Đổi mới sáng tạo Quốc gia 2026.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "89be4e220d9f6acb",
-      "title_vi": "Chạy mô hình ngôn ngữ lớn một trăm hai mươi lăm tỷ tham số trên phần cứng phổ thông với tốc độ cực cao",
-      "title_en": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
-      "summary_vi": [
-        "Cộng đồng trí tuệ nhân tạo đang chứng kiến cột mốc đột phá khi các mô hình ngôn ngữ lớn quy mô lớn với hàng trăm tỷ tham số bắt đầu có thể vận hành trực tiếp trên các dòng card đồ họa phổ thông dành cho người dùng cá nhân.",
-        "Bằng cách áp dụng các kỹ thuật lượng tử hóa tiên tiến kết hợp tối ưu hóa bộ nhớ đệm KV và băng thông bộ nhớ của dòng card đồ họa cao cấp, hệ thống đạt tốc độ xử lý ấn tượng vượt ngưỡng một trăm token mỗi giây.",
-        "Thành tựu này mở ra kỷ nguyên mới cho việc tự triển khai các trợ lý ảo thông minh mạnh mẽ ngay tại máy tính cá nhân, giúp giảm thiểu đáng kể chi phí hạ tầng đám mây cho các nhà phát triển và kỹ sư."
-      ],
-      "summary_en": [
-        "The artificial intelligence community is witnessing a breakthrough milestone as large language models with hundreds of billions of parameters can now operate directly on consumer-grade graphics cards.",
-        "By applying advanced quantization techniques combined with optimized KV caching and memory bandwidth of high-end consumer GPUs, the system achieves an impressive processing speed exceeding one hundred tokens per second.",
-        "This achievement opens a new era for self-hosting powerful intelligent assistants locally on personal computers, significantly reducing cloud infrastructure costs for developers and engineers."
-      ],
-      "originalTitle": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
-      "url": "https://github.com/Niko1221/Strata",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "LLM",
-        "GPU",
-        "RTX4090",
-        "MachineLearning"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-04T12:51:53.000Z",
-      "contentSnippet": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
-      "authorName": "snehesht",
-      "upvotes": 237,
-      "commentsCount": 117
-    },
-    {
-      "id": "ab28a88dde6a42ec",
-      "title_vi": "Ngôn Ngữ Lập Trình Là Gì?",
-      "title_en": "What Is A Programming Language?",
-      "summary_vi": [
-        "Ngôn ngữ lập trình đóng vai trò là cầu nối cốt lõi giữa con người và hệ thống phần cứng máy tính thông qua các tập hợp quy tắc và cú pháp chuẩn hóa.",
-        "Các ý tưởng thuật toán phức tạp được chuyển đổi thành mã nguồn dễ đọc trước khi được biên dịch hoặc thông dịch thành mã máy để CPU thực thi trực tiếp.",
-        "Hiểu rõ bản chất ngôn ngữ lập trình giúp lập trình viên tối ưu hóa hiệu suất ứng dụng và xây dựng các giải pháp phần mềm quy mô lớn."
-      ],
-      "summary_en": [
-        "Programming languages serve as a core bridge between human intent and computer hardware systems through standardized rule sets and syntax.",
-        "Complex algorithmic ideas are transformed into readable source code before being compiled or interpreted into machine code for direct CPU execution.",
-        "Understanding the fundamental nature of programming languages helps developers optimize application performance and build large-scale software solutions."
-      ],
-      "originalTitle": "Ngôn Ngữ Lập Trình Là Gì?",
-      "url": "https://viblo.asia/p/ngon-ngu-lap-trinh-la-gi-1j4lQvMKJwl",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Programming Language",
-        "Software Engineering",
-        "Source Code",
-        "Compiler",
-        "Computer Science"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-04T09:32:59.000Z",
-      "contentSnippet": "Ngôn ngữ lập trình là một hệ thống các quy tắc và cú pháp được sử dụng để biến đổi các ý tưởng và thuật toán thành mã máy hoặc mã nguồn có thể được má...",
-      "authorName": "Tieu Share",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1d9e0fedc80d5604",
-      "title_vi": "Công cụ tìm kiếm tích hợp trí tuệ nhân tạo cho mọi bức ảnh và khung hình video trên hệ điều hành macOS",
-      "title_en": "Show HN: AI search for every photo and every frame of video on macOS",
-      "summary_vi": [
-        "Một nhà phát triển đã giới thiệu dự án mới trên nền tảng Hacker News, cho phép người dùng thực hiện tìm kiếm bằng trí tuệ nhân tạo đối với toàn bộ hình ảnh và từng khung hình video cá nhân trên hệ điều hành macOS một cách nhanh chóng.",
-        "Giải pháp này ứng dụng các mô hình học máy cục bộ để xử lý và lập chỉ mục nội dung trực quan, tối ưu hóa hiệu suất phần cứng Apple Silicon nhằm đảm bảo quyền riêng tư và tốc độ truy vấn dữ liệu thời gian thực cho người dùng.",
-        "Công nghệ này mang lại giá trị thực tiễn cao trong việc quản lý tài sản số cá nhân, đồng thời mở ra hướng đi mới cho việc ứng dụng thị giác máy tính và tìm kiếm ngữ nghĩa trực tiếp trên các thiết bị máy tính để bàn."
-      ],
-      "summary_en": [
-        "A developer has introduced a new project on Hacker News enabling users to perform artificial intelligence-driven searches across all personal images and individual video frames on the macOS operating system seamlessly.",
-        "This solution utilizes local machine learning models to process and index visual content while optimizing Apple Silicon hardware performance to ensure data privacy and real-time query speed for end users.",
-        "The technology delivers high practical value in personal digital asset management while establishing a new direction for applying computer vision and semantic search directly on desktop computing devices."
-      ],
-      "originalTitle": "Show HN: AI search for every photo and every frame of video on macOS",
-      "url": "https://github.com/allenv0/SCM",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "macOS",
-        "Machine Learning",
-        "Computer Vision",
-        "Search Engine"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-04T09:24:52.000Z",
-      "contentSnippet": "Show HN: AI search for every photo and every frame of video on macOS",
-      "authorName": "allenleee",
-      "upvotes": 58,
-      "commentsCount": 36
-    },
-    {
-      "id": "cdf50484d097ad61",
-      "title_vi": "Xây Dựng Website Đầu Tiên Trong 5 Phút: Quy Trình Đồng Bộ Hóa Siêu Tốc Từ Môi Trường Phát Triển Lên Máy Chủ Ảo Thực Tế",
-      "title_en": "Building Your First Website in 5 Minutes: Ultra-Fast Synchronization Workflow from Development Environment to Production VPS",
-      "summary_vi": [
-        "Bài viết hướng dẫn chi tiết quy trình triển khai website đầu tiên chỉ trong năm phút thực tế bằng cách sử dụng nền tảng hỗ trợ phát triển thông minh kết hợp cùng máy chủ ảo Ubuntu.",
-        "Giải pháp kỹ thuật tập trung vào việc tự động hóa quá trình đồng bộ hóa mã nguồn từ môi trường soạn thảo trực tiếp lên máy chủ từ xa một cách nhanh chóng và an toàn.",
-        "Nội dung mang lại giá trị thực tiễn cao cho các lập trình viên mới bắt đầu, giúp tối ưu hóa quy trình làm việc và rút ngắn đáng kể thời gian triển khai sản phẩm lên môi trường thực tế."
-      ],
-      "summary_en": [
-        "The article provides a detailed guide on deploying your first website in just five practical minutes by utilizing an intelligent development platform combined with an Ubuntu virtual server.",
-        "The technical solution focuses on automating the source code synchronization process from the local development environment directly to the remote server quickly and securely.",
-        "The content delivers high practical value for beginner developers, helping to optimize workflows and significantly reduce the time required to deploy products to production environments."
-      ],
-      "originalTitle": "[Vibe Coding Thực Chiến #05] Website Đầu Tiên Trong 5 Phút: Quy Trình Sync Siêu Tốc Từ VS Code Lên VPS Thật!",
-      "url": "https://viblo.asia/p/vibe-coding-thuc-chien-05-website-dau-tien-trong-5-phut-quy-trinh-sync-sieu-toc-tu-vs-code-len-vps-that-ZoJjeQoe4Y7",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "VPS",
-        "DevOps",
-        "Ubuntu",
-        "VS Code",
-        "Web Development"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-04T08:49:27.000Z",
-      "contentSnippet": "Tác giả: Lee Series: Vibe Coding Thực Chiến Cùng EzyPlatform (#05) Hạ tầng thực nghiệm: VPS Ubuntu 22.04 LTS (157.66.47.xxx) | Domain: https://1576647...",
-      "authorName": "Duong Nguyen",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "efeb4709e60cb20e",
-      "title_vi": "JavaScript cơ bản Bài 5: Các toán tử cơ bản về toán học, so sánh và logic",
-      "title_en": "Basic JavaScript Lesson 5: Fundamental Operators for Mathematics Comparison and Logic",
-      "summary_vi": [
-        "Bài viết cung cấp kiến thức nền tảng về các toán tử toán học trong ngôn ngữ lập trình JavaScript giúp lập trình viên thực hiện các phép tính toán học cơ bản một cách chính xác và hiệu quả nhất.",
-        "Nội dung tập trung phân tích chi tiết cách sử dụng toán tử so sánh cùng với các toán tử logic để xây dựng điều kiện rẽ nhánh và luồng điều khiển chương trình phức tạp hơn trong ứng dụng web.",
-        "Khóa học lập trình này mang lại giá trị thiết thực cho người mới bắt đầu học phát triển phần mềm nắm vững tư duy logic và kỹ năng viết mã sạch chuẩn công nghiệp."
-      ],
-      "summary_en": [
-        "This article provides foundational knowledge regarding mathematical operators in the JavaScript programming language helping developers execute basic mathematical calculations accurately and efficiently.",
-        "The content focuses on a detailed analysis of how to use comparison operators alongside logical operators to build branching conditions and more complex program control flows in web applications.",
-        "This programming tutorial delivers practical value for beginners entering software development to master logical thinking and write clean industry standard code."
-      ],
-      "originalTitle": "JavaScript cơ bản Bài 5: Các toán tử cơ bản (Toán học, So sánh, Logic)",
-      "url": "https://viblo.asia/p/javascript-co-ban-bai-5-cac-toan-tu-co-ban-toan-hoc-so-sanh-logic-oW4oeAmoLml",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "JavaScript",
-        "Web Development",
-        "Frontend",
-        "Programming"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-04T08:40:26.000Z",
-      "contentSnippet": "1. Mục tiêu bài học - Nắm vững các toán tử toán học để thực hiện tính toán trong JavaScript. - Hiểu rõ cách dùng toán tử so sánh, đặc biệt là ph...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "406966da657e37e2",
-      "title_vi": "JavaScript cơ bản Bài 4: Các kiểu dữ liệu nguyên thủy gồm Số, Chuỗi, Boolean, Null và Undefined",
-      "title_en": "JavaScript Basics Lesson 4: Primitive Data Types Including Numbers, Strings, Booleans, Null, and Undefined",
-      "summary_vi": [
-        "Bài viết cung cấp kiến thức nền tảng về các kiểu dữ liệu nguyên thủy trong ngôn ngữ lập trình JavaScript dành cho người mới bắt đầu học lập trình web.",
-        "Nội dung tập trung phân tích chi tiết năm kiểu dữ liệu cốt lõi bao gồm số, chuỗi ký tự, giá trị logic boolean, null và undefined cùng cơ chế hoạt động.",
-        "Kiến thức này giúp lập trình viên nắm vững cách lưu trữ và xử lý thông tin hiệu quả, đặt nền móng vững chắc cho việc phát triển ứng dụng web."
-      ],
-      "summary_en": [
-        "This article provides fundamental knowledge about primitive data types in the JavaScript programming language tailored specifically for beginners entering web development.",
-        "The content focuses on a detailed analysis of five core data types including numbers string values boolean logic null and undefined along with their underlying operational mechanisms.",
-        "This essential knowledge helps developers master efficient information storage and processing establishing a solid foundation for building robust and scalable web applications."
-      ],
-      "originalTitle": "JavaScript cơ bản Bài 4: Kiểu dữ liệu nguyên thủy (Primitive Types): Số, Chuỗi, Boolean, Null, Undefined",
-      "url": "https://viblo.asia/p/javascript-co-ban-bai-4-kieu-du-lieu-nguyen-thuy-primitive-types-so-chuoi-boolean-null-undefined-vbLbj05mLnk",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "JavaScript",
-        "Web Development",
-        "Programming Basics",
-        "Frontend"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-04T08:40:15.000Z",
-      "contentSnippet": "1. Mục tiêu bài học - Hiểu được khái niệm Kiểu dữ liệu (Data Types) trong JavaScript. - Nắm vững 5 kiểu dữ liệu nguyên thủy cốt lõi và cách phân...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "7e02ce67cdee65e8",
-      "title_vi": "JavaScript cơ bản Bài 3: Biến (Variables) và cách lưu trữ dữ liệu với let, const, var",
-      "title_en": "Basic JavaScript Lesson 3: Variables and Data Storage Mechanisms with let, const, and var",
-      "summary_vi": [
-        "Bài viết cung cấp nền tảng kiến thức cốt lõi về khái niệm biến trong lập trình JavaScript, giúp học viên hiểu rõ lý do tại sao cần sử dụng biến để lưu trữ và quản lý trạng thái dữ liệu trong quá trình thực thi ứng dụng.",
-        "Nội dung tập trung phân tích chi tiết cơ chế hoạt động, phạm vi truy cập cũng như sự khác biệt kỹ thuật giữa ba từ khóa khai báo biến kinh điển là let, const và var nhằm tối ưu hóa mã nguồn lập trình.",
-        "Kiến thức này mang lại giá trị thực tiễn cao cho các lập trình viên mới bắt đầu, giúp họ tránh được các lỗi phổ biến liên quan đến phạm vi biến và xây dựng nền tảng vững chắc để phát triển ứng dụng web hiện đại."
-      ],
-      "summary_en": [
-        "The article provides foundational core knowledge regarding the concept of variables in JavaScript programming, helping learners thoroughly understand why variables are essential for storing and managing data states during application execution.",
-        "The content focuses on analyzing detailed operating mechanisms, accessibility scopes, and technical differences among the three classic variable declaration keywords let, const, and var to optimize programming source code.",
-        "This knowledge delivers high practical value for beginner developers, helping them avoid common scope-related errors and building a solid foundation for developing modern web applications."
-      ],
-      "originalTitle": "JavaScript cơ bản Bài 3: Biến (Variables): Khái niệm let, const, var và cách lưu trữ dữ liệu",
-      "url": "https://viblo.asia/p/javascript-co-ban-bai-3-bien-variables-khai-niem-let-const-var-va-cach-luu-tru-du-lieu-18J2eoMl4YK",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "JavaScript",
-        "Web Development",
-        "Frontend",
-        "Programming Basics"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-04T08:40:07.000Z",
-      "contentSnippet": "1. Mục tiêu bài học - Hiểu được khái niệm Biến (Variable) là gì và tại sao chúng ta cần dùng biến. - Phân biệt và biết cách sử dụng đúng các từ ...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "5f8fdcf04001fb0c",
-      "title_vi": "Cập nhật liên tục Google phát hành phiên bản Android 17 QPR3 Beta 1 cho các dòng máy Pixel",
-      "title_en": "Continuous updates as Google releases Android 17 QPR3 Beta 1 for Pixel devices",
-      "summary_vi": [
-        "Google đã chính thức phát hành phiên bản Android 17 QPR3 Beta 1, đánh dấu một bước chuyển dịch lớn trong chiến lược phát hành các bản cập nhật hệ điều hành sớm cho thiết bị di động Pixel.",
-        "Bản cập nhật mới này tập trung mạnh mẽ vào việc tối ưu hóa trải nghiệm người dùng trên các thiết bị màn hình lớn, cải thiện hiệu năng nền tảng và nâng cao độ ổn định hệ thống.",
-        "Sự kiện này cung cấp cho các kỹ sư phần mềm và nhà phát triển ứng dụng cơ hội sớm để kiểm tra khả năng tương thích của mã nguồn trên các tiêu chuẩn API mới nhất của Android."
-      ],
-      "summary_en": [
-        "Google has officially released Android 17 QPR3 Beta 1, marking a major shift in their strategy for early operating system updates targeting Pixel mobile devices.",
-        "This new update strongly focuses on optimizing user experience on large screen devices, improving platform performance, and enhancing overall system stability.",
-        "This release provides software engineers and application developers with an early opportunity to test code compatibility against the latest Android API standards."
-      ],
-      "originalTitle": "[Cập nhật liên tục] Google phát hành Android 17 QPR3 Beta 1 cho các máy Pixel",
-      "url": "https://tinhte.vn/thread/cap-nhat-lien-tuc-google-phat-hanh-android-17-qpr3-beta-1-cho-cac-may-pixel.4099444/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Android",
-        "Google",
-        "Pixel",
-        "Mobile",
-        "Beta"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-04T03:21:18.000Z",
-      "contentSnippet": "Android 17 Beta 1 đã chính thức ra mắt, đánh dấu một bước chuyển khá lớn trong cách Google phát hành các bản Android sớm và tập trung mạnh vào trải nghiệm trên màn hình lớn, hiệu năng nền tảng và...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "566b074d6a6b3737",
-      "title_vi": "iPhone 18 Pro Max gặp lỗi mất sóng nghiêm trọng, nhà mạng và hãng sản xuất vào cuộc khắc phục",
-      "title_en": "iPhone 18 Pro Max Faces Severe Signal Loss Issue, Forcing Carriers and Manufacturer to Deploy Fixes",
-      "summary_vi": [
-        "Nhiều người dùng phiên bản điện thoại cao cấp mới tại thị trường Mỹ đang gặp sự cố mất kết nối mạng di động trầm trọng, thậm chí không thể thực hiện các cuộc gọi khẩn cấp.",
-        "Các bên liên quan đã phát hành bản cập nhật phần mềm và thiết lập nhà mạng nhằm ngăn chặn sự cố nhưng chưa thể khôi phục hoàn toàn cho các thiết bị đã bị ảnh hưởng.",
-        "Sự cố phần cứng hoặc phần mềm đặc thù trên dòng thiết bị này đặt ra bài học quan trọng về quy trình kiểm thử băng tần và độ ổn định của hệ thống di động."
-      ],
-      "summary_en": [
-        "Many users of the latest flagship smartphone in the US market are experiencing severe cellular connection drops, even failing to complete emergency phone calls.",
-        "The involved parties have released software updates and carrier settings to prevent the issue, though they cannot fully restore already affected devices.",
-        "This specific hardware or software anomaly highlights critical lessons for mobile systems regarding rigorous band testing and network stability assurance."
-      ],
-      "originalTitle": "iPhone 18 Pro Max gặp lỗi mất sóng, Apple phải đổi máy miễn phí",
-      "url": "https://genk.vn/iphone-18-pro-max-gap-loi-mat-song-apple-phai-doi-may-mien-phi-165261004095424508.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iPhone",
-        "Apple",
-        "Mobile",
-        "Network",
-        "Hardware"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-04T02:54:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/4/avatar1791082439934-17910824404821648513721.png",
-      "contentSnippet": "iPhone 18 Pro Max mới ra mắt nhưng tiếp tục gặp một số sự cố.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "dd357b9c5a1f18db",
-      "title_vi": "Ai chê cứ chê, iPhone 18 Pro Max vẫn liên tục cháy hàng tại thị trường Trung Quốc",
-      "title_en": "Despite Skepticism, iPhone 18 Pro Max Continues to Sell Out Rapidly in the Chinese Market",
-      "summary_vi": [
-        "Việc ra mắt bộ đôi iPhone 18 Pro và 18 Pro Max mà không có phiên bản tiêu chuẩn từng dấy lên nhiều nghi ngờ về khả năng duy trì sức hút của dòng sản phẩm flagship mới.",
-        "Theo số liệu từ Counterpoint Research, Apple nhanh chóng vươn lên dẫn đầu thị trường smartphone Trung Quốc với ba mươi ba phần trăm thị phần chỉ sau vài ngày lên kệ.",
-        "Thành công thương mại này khẳng định sức mạnh của hệ sinh thái thiết bị di động Apple cùng chiến lược định vị phần cứng cao cấp hiệu quả trong bối cảnh cạnh tranh khốc liệt."
-      ],
-      "summary_en": [
-        "The launch of the iPhone 18 Pro and 18 Pro Max without a standard base model initially sparked widespread doubt regarding the new flagship lineup market appeal.",
-        "According to data from Counterpoint Research, Apple rapidly surged to lead the Chinese smartphone market with thirty-three percent share just days after retail availability.",
-        "This commercial success reinforces the strength of the Apple mobile device ecosystem and demonstrates an effective hardware positioning strategy amid fierce competition."
-      ],
-      "originalTitle": "Ai chê cứ chê, iPhone 18 Pro Max vẫn liên tục “cháy hàng”",
-      "url": "https://genk.vn/ai-che-cu-che-iphone-18-pro-max-van-lien-tuc-chay-hang-16526100323224134.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Mobile",
-        "Hardware",
-        "Market Trends"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-04T02:17:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/3/avatar1791044232887-17910442335052133048753.jpg",
-      "contentSnippet": "Nếu những lời chê có thể quyết định doanh số, iPhone 18 Pro Max có lẽ đã không đứng đầu bảng.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "99a754aef972430b",
-      "title_vi": "Nữ CEO đầu tiên dẫn dắt công ty bán dẫn vượt mốc giá trị 1.000 tỷ USD",
-      "title_en": "First Female CEO to Lead a Semiconductor Company Past the 1 Trillion Dollar Milestone",
-      "summary_vi": [
-        "Dưới sự điều hành chiến lược của CEO Lisa Su, tập đoàn công nghệ AMD đã chính thức vượt qua cột mốc giá trị thị trường một nghìn tỷ đô la Mỹ nhờ đà tăng trưởng mạnh mẽ.",
-        "Thành tựu này phản ánh nhu cầu khổng lồ về phần cứng và chip xử lý hiệu năng cao phục vụ cho cuộc cách mạng trí tuệ nhân tạo đang diễn ra trên toàn cầu.",
-        "Sự kiện không chỉ đánh dấu bước ngoặt tài chính quan trọng mà còn khẳng định vai trò lãnh đạo mang tính biểu tượng của phụ nữ trong ngành công nghiệp bán dẫn."
-      ],
-      "summary_en": [
-        "Under the strategic leadership of CEO Lisa Su, technology giant AMD has officially surpassed the one trillion dollar market capitalization milestone driven by explosive growth.",
-        "This achievement reflects the massive global demand for advanced hardware and high performance processors powering the ongoing artificial intelligence revolution worldwide.",
-        "The milestone marks a critical financial turning point while cementing the iconic leadership role of women within the highly competitive semiconductor industry."
-      ],
-      "originalTitle": "Nữ tướng công nghệ đầu tiên dẫn dắt công ty đạt 1.000 tỷ USD",
-      "url": "https://vnexpress.net/nu-tuong-cong-nghe-dau-tien-dan-dat-cong-ty-dat-1-000-ty-usd-5127886.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "AMD",
-        "Semiconductor",
-        "AI",
-        "Leadership",
-        "Tech Giants"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-04T02:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/03/lisa-su-1790997384-9576-1790997483.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=bBu3nwjTiU6t7p9nLfUZNA",
-      "contentSnippet": "Dưới sự dẫn dắt của CEO Lisa Su,AMD trở thành công ty đầu tiên do nữ giới lãnh đạo vượt mốc giá trị 1.000 tỷ USD.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "07963b444c537ea0",
-      "title_vi": "Lý do tôi chuyển từ bàn phím Samsung sang Gboard trên điện thoại Samsung nhờ tính năng nhận diện giọng nói",
-      "title_en": "Why I Switched from Samsung Keyboard to Gboard on My Samsung Phone for Voice Recognition",
-      "summary_vi": [
-        "Người dùng lâu năm của điện thoại Samsung đã quyết định từ bỏ bàn phím mặc định để chuyển sang sử dụng Gboard sau khi trải nghiệm khả năng nhận diện giọng nói cực kỳ vượt trội trên phiên bản hệ điều hành mới nhất.",
-        "Tính năng chuyển đổi giọng nói thành văn bản trên Gboard tận dụng các mô hình xử lý ngôn ngữ tự nhiên tiên tiến, giúp giảm thiểu tối đa sai sót chính tả và tăng tốc độ nhập liệu đáng kể cho người dùng di động.",
-        "Sự thay đổi này cho thấy tầm quan trọng của việc tối ưu hóa trải nghiệm người dùng thông qua các công nghệ trí tuệ nhân tạo và học máy ngay trên các ứng dụng bàn phím ảo hàng ngày."
-      ],
-      "summary_en": [
-        "A long-time Samsung smartphone user decided to replace the default keyboard with Gboard after experiencing the vastly superior voice recognition capabilities on the latest operating system version.",
-        "The speech-to-text conversion feature on Gboard leverages advanced natural language processing models to significantly minimize spelling errors and accelerate typing speeds for mobile users.",
-        "This transition highlights the importance of optimizing user experience through artificial intelligence and machine learning technologies integrated directly into everyday virtual keyboard applications."
-      ],
-      "originalTitle": "Mình đổi qua dùng bàn phím Gboard cho điện thoại Samsung vì tính năng nhận diện giọng nói",
-      "url": "https://tinhte.vn/thread/minh-doi-qua-dung-ban-phim-gboard-cho-dien-thoai-samsung-vi-tinh-nang-nhan-dien-giong-noi.4181429/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Gboard",
-        "Samsung",
-        "Voice Recognition",
-        "Mobile Apps",
-        "AI"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-04T01:43:06.000Z",
-      "contentSnippet": "Trước giờ mình dùng điện thoại Samsung thì mình không dùng bàn phím nào khác ngoài Samsung Keyboard, nhưng từ khi chuyển qua One UI 9.0 trên Galaxy Z Fold8 Ultra thì khả năng nhận diện giọng nói...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a0611490a6eaadea",
-      "title_vi": "Thói quen đóng ứng dụng liên tục trên iPhone cần phải thay đổi theo khuyến cáo từ Apple",
-      "title_en": "Why continuously closing background apps on iPhone is a bad habit according to Apple",
-      "summary_vi": [
-        "Nhiều người dùng thiết bị di động iOS thường có thói quen vuốt màn hình để đóng toàn bộ ứng dụng đang chạy ngầm sau mỗi lần sử dụng với suy nghĩ tiết kiệm pin.",
-        "Theo tài liệu hỗ trợ kỹ thuật từ Apple, việc đóng ứng dụng liên tục thực sự không cần thiết vì hệ điều hành đã được tối ưu hóa quản lý tiến trình và bộ nhớ rất tốt.",
-        "Các kỹ sư phần mềm khuyến cáo chỉ nên thực hiện thao tác buộc dừng ứng dụng trong trường hợp phần mềm bị treo hoặc không phản hồi nhằm đảm bảo hiệu năng hệ thống."
-      ],
-      "summary_en": [
-        "Many iOS device users frequently swipe up to close all background running applications after every single use under the misconception of saving battery life.",
-        "According to technical support documentation from Apple, terminating applications continuously is unnecessary because the operating system efficiently manages processes and memory.",
-        "Software engineers recommend performing a force close action exclusively when software freezes or becomes unresponsive to ensure optimal system performance and stability."
-      ],
-      "originalTitle": "Thói quen nên bỏ khi dùng iPhone",
-      "url": "https://genk.vn/thoi-quen-nen-bo-khi-dung-iphone-165261004075651746.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iOS",
-        "Apple",
-        "Mobile Development",
-        "Performance Optimization",
-        "UX"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-04T01:20:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/4/avatar1791075065415-1791075065738748259272.jpg",
-      "contentSnippet": "Theo Apple, một thao tác quen thuộc trên iPhone không mang lại lợi ích như nhiều người vẫn nghĩ.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "345f1755705d282a",
-      "title_vi": "Chúng ta sẽ cần các giới hạn ngân sách cứng mặc định cho hầu hết mọi thứ",
-      "title_en": "We're going to need default hard budget caps on pretty much everything",
-      "summary_vi": [
-        "Sự bùng nổ của các tác nhân lập trình và trợ lý cá nhân làm giảm đáng kể rào cản triển khai mã nguồn, khiến các dịch vụ đám mây dễ dàng tiêu tốn tài nguyên ngoài tầm kiểm soát.",
-        "Các nền tảng thanh toán theo mức sử dụng hiện nay chủ yếu dựa vào giới hạn mềm bằng email cảnh báo, điều này không đủ ngăn chặn các hóa đơn khổng lồ phát sinh xuyên đêm.",
-        "Thiết lập giới hạn ngân sách cứng mặc định tự động ngắt dịch vụ và trả về lỗi thay vì cảnh báo sẽ bảo vệ người dùng và doanh nghiệp khỏi những rủi ro tài chính nghiêm trọng."
-      ],
-      "summary_en": [
-        "The surge of coding agents and personal assistants significantly lowers the barrier for deploying code, making cloud services prone to consuming resources out of control.",
-        "Current pay-as-you-go platforms primarily rely on soft limits via warning emails, which fail to prevent massive unexpected bills accumulating overnight.",
-        "Establishing default hard budget caps that automatically terminate services and return errors rather than warning will protect users and businesses from severe financial risks."
-      ],
-      "originalTitle": "We're going to need default hard budget caps on pretty much everything",
-      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Cloud Computing",
-        "API Management",
-        "DevOps",
-        "AI Agents",
-        "Cost Control"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-04T00:20:16.000Z",
-      "contentSnippet": "Here’s a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps. I’m talking about the feature of pay-by-usage services and APIs that lets you say “after $X/month, cut this thing off and return errors”. These need to be hard li",
-      "authorName": "elffjs",
-      "upvotes": 253,
-      "commentsCount": 136
     }
   ]
 }
