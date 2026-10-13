@@ -1,7 +1,451 @@
 {
-  "lastUpdated": "2026-10-12T13:59:59.308Z",
+  "lastUpdated": "2026-10-13T05:55:01.517Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "20b65ba63203118e",
+      "title_vi": "Bài 3: Xây dựng hệ sinh thái Microservices với Docker Compose gồm Go, PostgreSQL và Redis",
+      "title_en": "Part 3: Building a Microservices Ecosystem with Docker Compose Using Go, PostgreSQL and Redis",
+      "summary_vi": [
+        "Bài viết tiếp tục chuỗi series hướng dẫn xây dựng hệ thống bằng việc chuyển đổi ứng dụng phát triển đơn lẻ sang mô hình kiến trúc microservices hoàn chỉnh.",
+        "Tác giả hướng dẫn chi tiết cách sử dụng Docker Compose để cấu hình và vận hành đồng thời các dịch vụ ngôn ngữ Go kết hợp cơ sở dữ liệu PostgreSQL cùng bộ nhớ đệm Redis.",
+        "Giải pháp này giúp các kỹ sư phần mềm tối ưu hóa môi trường kiểm thử tích hợp, đảm bảo tính đồng nhất giữa giai đoạn phát triển và triển khai thực tế trên máy chủ."
+      ],
+      "summary_en": [
+        "The article continues the tutorial series by transitioning a standalone development application into a complete microservices architectural model for modern enterprise systems.",
+        "The author provides a detailed guide on using Docker Compose to configure and run Go services simultaneously alongside PostgreSQL databases and Redis caching layers.",
+        "This technical approach helps software engineers optimize integrated testing environments, ensuring consistency between local development stages and actual server deployments."
+      ],
+      "originalTitle": "Bài 3: Xây dựng hệ sinh thái Microservices với Docker Compose (Go + PostgreSQL + Redis)",
+      "url": "https://viblo.asia/p/bai-3-xay-dung-he-sinh-thai-microservices-voi-docker-compose-go-postgresql-redis-3RL1BoEqVao",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "Docker Compose",
+        "Microservices",
+        "Golang",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-13T12:13:32.000Z",
+      "contentSnippet": "Ở Bài 2, chúng ta đã thiết lập thành công môi trường phát triển độc lập cho ứng dụng Go với tính năng Hot-reload nhờ air. Tuy nhiên, trong thực tế, kh...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "528b75af60e4b6ee",
+      "title_vi": "Phân tích công cụ phát hiện văn bản AI trên các nền tảng học trực tuyến tại Việt Nam",
+      "title_en": "Analysis of AI Writing Detection Tools on E-Learning Platforms in Vietnam",
+      "summary_vi": [
+        "Bài viết phân tích hiện tượng các hệ thống quản lý học tập như Moodle hay Canvas phát hiện tỷ lệ văn bản do trí tuệ nhân tạo tạo ra trong các bài nộp tiếng Anh.",
+        "Tác giả chỉ ra những bất cập kỹ thuật trong cơ chế kiểm tra và độ chính xác của các thuật toán phát hiện AI hiện tại khi áp dụng vào môi trường giáo dục thực tế.",
+        "Sự việc gióng lên hồi chuông cảnh báo về việc phụ thuộc mù quáng vào các phần mềm tự động hóa và sự cần thiết phải cải tiến phương pháp đánh giá năng lực học viên."
+      ],
+      "summary_en": [
+        "The article analyzes the phenomenon where learning management systems like Moodle and Canvas detect high percentages of AI-generated text in English submissions.",
+        "The author points out technical flaws in the detection mechanisms and the accuracy limits of current AI detection algorithms applied in real educational environments.",
+        "This issue raises concerns about blind reliance on automated software and highlights the urgent need to improve evaluation methodologies for students."
+      ],
+      "originalTitle": "Ảnh cắt Zalo hiện 22% AI writing, PDF tải về lại khác bản đồ: lệch phủ chứ không phải “điểm đổi”",
+      "url": "https://viblo.asia/p/anh-cat-zalo-hien-22-ai-writing-pdf-tai-ve-lai-khac-ban-do-lech-phu-chu-khong-phai-diem-doi-gdJzvOOGJz5",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Education Tech",
+        "NLP",
+        "Software Testing"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T11:14:15.000Z",
+      "contentSnippet": "Charles Li · HumanPen Ở nhiều chương trình tiếng Anh tại Việt Nam, phản ứng đầu tiên khi thẻ AI writing hiện trên Moodle, Canvas hoặc Blackboard thườ...",
+      "authorName": "HumanPen",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "228c33191a188984",
+      "title_vi": "Quy trình lập trình có thể khôi phục: Tách biệt tín hiệu thiết lập lại khỏi trạng thái dự án",
+      "title_en": "Resumable coding workflows: keep Codex reset signals separate from project state",
+      "summary_vi": [
+        "Các trợ lý lập trình thông minh thường gặp sự cố dừng phản hồi ở những thời điểm bất ngờ khi tiến trình kiểm thử đang chạy dở dang, gây ảnh hưởng đến mạch làm việc của lập trình viên.",
+        "Bài viết đề xuất giải pháp kiến trúc phần mềm nhằm tách biệt rõ ràng giữa tín hiệu thiết lập lại của hệ thống trí tuệ nhân tạo và trạng thái thực tế của toàn bộ dự án mã nguồn.",
+        "Phương pháp này giúp cải thiện đáng kể trải nghiệm phát triển phần mềm, đảm bảo các phiên làm việc với trợ lý ảo có thể khôi phục nhanh chóng mà không làm mất dữ liệu quan trọng."
+      ],
+      "summary_en": [
+        "Smart coding assistants often stop responding unexpectedly while test processes are still running, which significantly disrupts the normal workflow of software developers.",
+        "The article proposes a software architecture solution to clearly separate the reset signals of artificial intelligence systems from the actual state of the entire source code project.",
+        "This method dramatically improves the software development experience, ensuring that sessions with virtual assistants can be recovered quickly without losing critical project data."
+      ],
+      "originalTitle": "Resumable coding workflows: keep Codex reset signals separate from project state",
+      "url": "https://viblo.asia/p/resumable-coding-workflows-keep-codex-reset-signals-separate-from-project-state-OXLA0WWBJGr",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "AI",
+        "Software Engineering",
+        "Workflow",
+        "Codex",
+        "Developer Tools"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T10:35:42.000Z",
+      "contentSnippet": "Why an interrupted coding session needs more than a timer A coding assistant can stop responding at an awkward moment: a test is still running, a pat...",
+      "authorName": "Jordan Morgan",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e5014cb53dca551b",
+      "title_vi": "Chạy mô hình ngôn ngữ lớn chuyên gia hỗn hợp vượt quá dung lượng RAM: Hướng dẫn thực tế về ánh xạ bộ nhớ, giảm tải chuyên gia và truyền phát ổ cứng rắn với llama.cpp",
+      "title_en": "Running MoE LLMs Larger Than Your RAM: A Practical Guide to mmap, Expert Offloading and SSD Streaming with llama.cpp",
+      "summary_vi": [
+        "Bài viết cung cấp hướng dẫn toàn diện về cách vận hành các mô hình ngôn ngữ lớn theo kiến trúc chuyên gia hỗn hợp có kích thước vượt quá dung lượng bộ nhớ RAM vật lý của hệ thống.",
+        "Giải pháp kỹ thuật tập trung khai thác cơ chế ánh xạ bộ nhớ tệp, kỹ thuật chuyển tải chuyên gia thông minh và tối ưu hóa truyền phát dữ liệu trực tiếp từ ổ cứng thể rắn.",
+        "Phương pháp này mang lại giá trị thực tiễn cao cho các kỹ sư muốn triển khai các mô hình trí tuệ nhân tạo tiên tiến trên phần cứng phổ thông mà không cần đầu tư máy chủ đắt đỏ."
+      ],
+      "summary_en": [
+        "The article provides a comprehensive guide on operating Mixture of Experts large language models whose sizes exceed the physical RAM capacity of the underlying system.",
+        "The technical solution focuses on leveraging memory-mapped file mechanisms, intelligent expert offloading techniques, and optimizing direct data streaming from solid-state drives.",
+        "This method delivers high practical value for engineers looking to deploy advanced artificial intelligence models on commodity hardware without investing in expensive servers."
+      ],
+      "originalTitle": "Running MoE LLMs Larger Than Your RAM: A Practical Guide to mmap, Expert Offloading and SSD Streaming with llama.cpp",
+      "url": "https://viblo.asia/p/running-moe-llms-larger-than-your-ram-a-practical-guide-to-mmap-expert-offloading-and-ssd-streaming-with-llamacpp-pPLkNQQNJRZ",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "LLM",
+        "MoE",
+        "llama.cpp",
+        "AI Hardware",
+        "Optimization"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-10-13T08:53:12.000Z",
+      "contentSnippet": "",
+      "authorName": "EME GUG",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "deae1ca40760ecc6",
+      "title_vi": "ESIM đang dần tốt hơn nhưng vì sao người dùng vẫn còn e ngại khi sử dụng?",
+      "title_en": "Why Users Are Still Hesitant to Adopt eSIM Despite Its Recent Improvements",
+      "summary_vi": [
+        "Công nghệ eSIM tại thị trường Việt Nam hiện vẫn gặp phải tâm lý ngần ngại chuyển đổi, chi phí phát sinh và các quy trình kích hoạt còn khá phức tạp từ nhà mạng.",
+        "Việc tích hợp thẻ SIM điện tử trực tiếp vào phần cứng thiết bị di động đòi hỏi các cơ chế quản lý cấu hình từ xa và bảo mật thông tin chuẩn hóa.",
+        "Khi xu hướng thiết kế smartphone tương lai loại bỏ hoàn toàn khay SIM vật lý, việc tối ưu hóa trải nghiệm chuyển đổi eSIM sẽ trở thành yêu cầu cốt lõi."
+      ],
+      "summary_en": [
+        "eSIM technology in the Vietnamese market continues to face adoption hurdles due to user reluctance, conversion fees, and complex activation workflows imposed by carriers.",
+        "Integrating digital subscriber identity modules directly into mobile device hardware demands standardized remote provisioning and robust security management mechanisms.",
+        "As future smartphone design trends gradually eliminate physical SIM trays, optimizing the eSIM migration experience will become an essential engineering requirement."
+      ],
+      "originalTitle": "ESIM đang dần ngon hơn trước đây, nhưng vì sao anh em vẫn còn ngại dùng?",
+      "url": "https://tinhte.vn/thread/esim-dang-dan-ngon-hon-truoc-day-nhung-vi-sao-anh-em-van-con-ngai-dung.4173567/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "eSIM",
+        "Mobile",
+        "Hardware",
+        "Telecommunications",
+        "Smartphones"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T05:50:30.000Z",
+      "contentSnippet": "ESIM tại Việt Nam vẫn vướng tâm lý ngại đổi, phí chuyển đổi và quy trình phức tạp. Nhưng khi smartphone dần bỏ khay SIM khép, eSIM sẽ trở thành xu hướng tất yếu. Thực tế thì nhiều anh em đã biết...",
+      "authorName": "Trung Dt",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "96920ff1d7c790fd",
+      "title_vi": "Trang web phát triển bằng trí tuệ nhân tạo trong bốn giờ phơi bày thực trạng xã hội",
+      "title_en": "AI-Generated Website Built in Four Hours Exposes Harsh Realities of Human Destiny",
+      "summary_vi": [
+        "Một trang web độc đáo được lập trình hoàn toàn bằng trí tuệ nhân tạo chỉ trong bốn giờ đồng hồ ngắn ngủi đang thu hút sự chú ý lớn nhờ việc phơi bày những khía cạnh khắc nghiệt về số phận và xuất phát điểm của con người trong xã hội hiện đại.",
+        "Dự án này ứng dụng các công cụ lập trình tự động tiên tiến nhằm tối ưu hóa quá trình xây dựng giao diện và xử lý dữ liệu phức tạp, chứng minh sức mạnh vượt trội của các mô hình ngôn ngữ lớn trong việc rút ngắn thời gian phát triển phần mềm.",
+        "Sự thành công nhanh chóng của ứng dụng này mở ra hướng đi mới cho các lập trình viên và nhà phát triển trong việc tận dụng trí tuệ nhân tạo để hiện thực hóa ý tưởng đột phá một cách hiệu quả và tiết kiệm chi phí tối đa."
+      ],
+      "summary_en": [
+        "A unique website programmed entirely with artificial intelligence in just four hours is drawing massive attention by exposing the harsh aspects of human destiny and socioeconomic starting points in modern society.",
+        "This project leverages advanced automated coding tools to optimize interface design and complex data processing, demonstrating the superior power of large language models in significantly reducing software development time.",
+        "The rapid success of this application opens up new avenues for programmers and developers to utilize artificial intelligence for bringing breakthrough ideas to life efficiently while minimizing development costs."
+      ],
+      "originalTitle": "Trang web viết bằng AI trong bốn giờ bóc trần sự thật nghiệt ngã về số phận con người",
+      "url": "https://genk.vn/trang-web-viet-bang-ai-trong-bon-gio-boc-tran-su-that-nghiet-nga-ve-so-phan-con-nguoi-165261013095503611.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Web Development",
+        "Software Engineering",
+        "Artificial Intelligence"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T04:33:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/13/avatar1791860064856-17918600651531912874433.png",
+      "contentSnippet": "Không đồ họa cầu kỳ hay bảng xếp hạng, trang web lập trình vỏn vẹn trong bốn tiếng nhờ AI đang phơi bày sự thật nghiệt ngã: số phận của mỗi kiếp người vốn dĩ bị trói chặt vào vạch xuất phát nơi họ cất tiếng khóc chào đời này.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c7a671f2fbeae56c",
+      "title_vi": "Hệ điều hành Windows 11 phiên bản tinh gọn chỉ tiêu thụ 2,5 GB RAM sau khi áp dụng cấu hình tối ưu",
+      "title_en": "De-bloated Windows 11 version consumes only 2.5 GB of RAM after applying optimization settings",
+      "summary_vi": [
+        "Bản phân phối Windows 11 đã được tùy chỉnh và loại bỏ các thành phần thừa thãi ghi nhận mức sử dụng bộ nhớ RAM cực kỳ thấp, chỉ khoảng 2,5 GB trên các hệ thống trang bị tổng dung lượng 16 GB.",
+        "Quá trình tinh chỉnh hệ thống tập trung vào việc vô hiệu hóa các tiến trình nền không cần thiết, dịch vụ telemetry ẩn và các ứng dụng cài sẵn trong bộ cài đặt gốc của hệ điều hành Microsoft.",
+        "Thành tựu này mang lại hiệu suất vận hành mượt mà hơn cho các dòng máy tính cấu hình trung bình, đồng thời mở ra phương pháp tiếp cận mới trong việc tối ưu hóa tài nguyên phần cứng."
+      ],
+      "summary_en": [
+        "A customized and stripped-down version of Windows 11 has demonstrated remarkably low RAM consumption, utilizing only about 2.5 GB on systems equipped with a total of 16 GB of memory.",
+        "The system optimization process focuses on disabling unnecessary background processes, hidden telemetry services, and pre-installed bloatware applications found in the original Microsoft installation media.",
+        "This achievement delivers significantly smoother operating performance for mid-range computers while opening up new approaches to hardware resource optimization for systems."
+      ],
+      "originalTitle": "Windows 11 nhẹ khó tin, chỉ dùng 2,5 GB RAM sau một thay đổi",
+      "url": "https://genk.vn/windows-11-nhe-kho-tin-chi-dung-25-gb-ram-sau-mot-thay-doi-165261310100437005.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Windows 11",
+        "Operating Systems",
+        "Performance Optimization",
+        "RAM Management"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T04:26:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/13/avatar1791865570047-17918655709071655320664.jpg",
+      "contentSnippet": "Bản Windows 11 được tinh gọn đã ghi nhận mức sử dụng bộ nhớ thấp bất ngờ trên máy tính có 16 GB RAM.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "4d8b2b601d8efefb",
+      "title_vi": "Alexandr Wang tiết lộ lý do đằng sau chiến dịch meme rầm rộ cho trợ lý ảo thông minh Muse",
+      "title_en": "Alexandr Wang Explains the Reason Behind the Massive Meme Campaign for the Muse Assistant",
+      "summary_vi": [
+        "Giám đốc trí tuệ nhân tạo tại tập đoàn Meta là Alexandr Wang vừa chính thức giải thích nguyên nhân đằng sau chiến dịch đăng tải hàng loạt nội dung meme về trợ lý ảo Muse trên các nền tảng mạng xã hội.",
+        "Chiến dịch marketing đột phá này được triển khai nhằm mục đích thu hút sự chú ý của cộng đồng mạng, tạo ra sự tương tác mạnh mẽ và giúp thương hiệu công nghệ trở nên hấp dẫn, gần gũi hơn với người dùng trẻ tuổi.",
+        "Động thái này phản ánh xu hướng thay đổi chiến lược truyền thông của các ông lớn công nghệ trong việc quảng bá các sản phẩm trí tuệ nhân tạo thế hệ mới thông qua văn hóa mạng internet đầy sáng tạo."
+      ],
+      "summary_en": [
+        "Meta's Director of Artificial Intelligence Alexandr Wang has officially explained the motivation behind the massive wave of meme content posted on social media regarding the Muse assistant.",
+        "This groundbreaking marketing campaign was deployed to capture community attention, generate strong engagement, and make the technology brand much more appealing and relatable to younger users.",
+        "This move reflects a shifting trend in communication strategies among tech giants when promoting next-generation artificial intelligence products through creative internet culture."
+      ],
+      "originalTitle": "Alexandr Wang nêu lý do tạo 'bão bài đăng' trên mạng xã hội",
+      "url": "https://vnexpress.net/alexandr-wang-neu-ly-do-tao-bao-bai-dang-tren-mang-xa-hoi-5131351.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Meta",
+        "Machine Learning",
+        "Tech Trends",
+        "Social Media"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T02:53:43.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/12/image-1791800367-2540-1791800566.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=lXKZ-jdksuBqw7Kw-ceuKw",
+      "contentSnippet": "Giám đốc AI Meta Alexandr Wang cho biết việc đăng hàng loạt nội dung meme về trợ lý Muse là để giúp công ty \"trở nên thú vị trở lại\".",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "aa82e1011d5ca0a4",
+      "title_vi": "Doanh nghiệp thảo luận về hệ thống quản trị tích hợp trí tuệ nhân tạo trong sản xuất",
+      "title_en": "Enterprises Discuss AI-Powered ERP Systems in Manufacturing Operations",
+      "summary_vi": [
+        "Tọa đàm trực tuyến với chủ đề về hệ thống quản trị tích hợp trí tuệ nhân tạo đã diễn ra vào giữa tháng mười, quy tụ nhiều lãnh đạo doanh nghiệp và chuyên gia công nghệ hàng đầu.",
+        "Sự kiện tập trung thảo luận về các giải pháp kiến trúc phần mềm và ứng dụng mô hình học máy nhằm tối ưu hóa dây chuyền sản xuất cũng như tự động hóa quy trình vận hành doanh nghiệp.",
+        "Giá trị thực tiễn mang lại là giúp các tổ chức nâng cao hiệu suất hoạt động, giảm thiểu chi phí vận hành và mở ra hướng đi mới cho việc chuyển đổi số toàn diện trong ngành."
+      ],
+      "summary_en": [
+        "An online seminar focusing on artificial intelligence integrated management systems took place in mid-October, gathering prominent business leaders and top technology experts.",
+        "The event concentrated on discussing software architecture solutions and machine learning models aimed at optimizing production lines and automating enterprise operational processes.",
+        "The practical value delivered helps organizations improve operational efficiency, minimize operating costs, and pave the way for comprehensive digital transformation within the industry."
+      ],
+      "originalTitle": "Doanh nghiệp bàn về hệ thống quản trị AI trong sản xuất",
+      "url": "https://vnexpress.net/doanh-nghiep-ban-ve-he-thong-quan-tri-ai-trong-san-xuat-5131125.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "ERP",
+        "Manufacturing",
+        "Automation",
+        "Digital Transformation"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T02:30:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/13/sx-1791857914-8406-1791858104.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=pMF4JZkXcMVZGVKgC06nmQ",
+      "contentSnippet": "Tọa đàm trực tuyến \"The Next AI ERP: Tăng tốc vận hành cho ngành sản xuất\" quy tụ lãnh đạo doanh nghiệp và chuyên gia công nghệ, phát sóng ngày 14/10.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b693a6e80e752f67",
+      "title_vi": "Các mô hình trí tuệ nhân tạo có thể chứng minh khả năng ẩn giấu các tính năng tùy ý",
+      "title_en": "AI Models Can Provably Hide Arbitrary Capabilities",
+      "summary_vi": [
+        "Bài viết nghiên cứu khoa học từ arXiv do Andis Draguns cùng các cộng sự công bố khám phá khả năng các mô hình trí tuệ nhân tạo có thể che giấu các năng lực tùy ý một cách có thể chứng minh được.",
+        "Nghiên cứu đi sâu vào phân tích các phương pháp toán học và cơ chế kiến trúc mạng thần kinh cho phép hệ thống học máy ẩn giấu các hành vi hoặc tính năng đặc biệt trước các bài kiểm tra đánh giá an toàn.",
+        "Phát hiện này gióng lên hồi chuông cảnh báo quan trọng đối với cộng đồng kỹ sư an ninh mạng và phát triển trí tuệ nhân tạo, đòi hỏi phải xây dựng các tiêu chuẩn kiểm định mô hình nghiêm ngặt hơn."
+      ],
+      "summary_en": [
+        "A recent scientific research paper from arXiv authored by Andis Draguns and colleagues explores how artificial intelligence models can provably conceal arbitrary capabilities from standard evaluation frameworks.",
+        "The study delves into mathematical methods and neural network architectural mechanisms that enable machine learning systems to hide specific behaviors or features during safety assessments and testing procedures.",
+        "This critical finding raises significant concerns for the cybersecurity and artificial intelligence development communities, mandating the establishment of much stricter model auditing and verification standards."
+      ],
+      "originalTitle": "AI Models Can Provably Hide Arbitrary Capabilities",
+      "url": "https://arxiv.org/abs/2610.13928",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Cybersecurity",
+        "Research",
+        "Neural Networks"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-13T02:07:08.000Z",
+      "contentSnippet": "Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Andis Draguns [view email] [v1] Fri, 9 Oct 2026 17:55:06 UTC (878 KB) Full-text links: Access Paper: View a PDF of the paper titled AI Models Can Provably Hide Arbitrary Capabilities, by Andis Draguns a",
+      "authorName": "sbulaev",
+      "upvotes": 92,
+      "commentsCount": 46
+    },
+    {
+      "id": "cc7641daffd50a76",
+      "title_vi": "Việt Nam sở hữu đội ngũ kỹ sư giỏi nhưng cần nâng tầm thương hiệu công nghệ",
+      "title_en": "Vietnam Possesses Talented Engineers but Needs to Strengthen Its Tech Brand",
+      "summary_vi": [
+        "Đại diện Meta đánh giá đội ngũ kỹ sư trẻ tại Việt Nam có năng lực chuyên môn cao, tư duy toàn cầu và khả năng thích ứng nhanh với các công nghệ mới nổi hiện nay.",
+        "Trong kỷ nguyên trí tuệ nhân tạo phát triển mạnh mẽ, việc tập trung tối ưu hóa dữ liệu, xây dựng hệ sinh thái bền vững và định vị thương hiệu là yếu tố then chốt.",
+        "Những định hướng chiến lược này giúp cộng đồng lập trình viên Việt Nam khẳng định vị thế trên bản đồ công nghệ quốc tế và thu hút đầu tư hiệu quả hơn."
+      ],
+      "summary_en": [
+        "Meta representatives assess that Vietnam's young engineering team possesses high professional competence, global mindset, and rapid adaptability to emerging technologies.",
+        "In the era of rapidly advancing artificial intelligence, focusing on data optimization, building sustainable ecosystems, and defining brand positioning are crucial factors.",
+        "These strategic orientations help the Vietnamese developer community affirm their position on the international technology map and attract investment more effectively."
+      ],
+      "originalTitle": "'Việt Nam có kỹ sư giỏi, nhưng cần làm mạnh thương hiệu'",
+      "url": "https://vnexpress.net/viet-nam-co-ky-su-gioi-nhung-can-lam-manh-thuong-hieu-5131239.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "AI",
+        "Tech Trends",
+        "Software Engineering",
+        "Meta"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T01:02:38.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/12/tc609306-1791778982-9587-1791778998.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=VBhPDEHlMKdg8R0nwlsy0A",
+      "contentSnippet": "Việt Nam có đội ngũ kỹ sư trẻ, nhanh nhạy với công nghệ và tư duy toàn cầu, nhưng để đi xa hơn trong thời AI cần chú trọng dữ liệu, hệ sinh thái, thương hiệu, theo đại diện Meta.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f84ea7f787cec676",
+      "title_vi": "Hacker tăng nhiệt độ tủ lạnh, gây hỏng thực phẩm ở hàng trăm siêu thị",
+      "title_en": "Hackers Raise Refrigerator Temperatures, Causing Food Spoilage in Hundreds of Supermarkets",
+      "summary_vi": [
+        "Một cuộc tấn công mạng quy mô lớn tại Pháp và nhiều nước châu Âu đã nhắm vào các thiết bị làm lạnh kết nối mạng trong hệ thống siêu thị lớn, làm tăng nhiệt độ đột ngột và gây hư hỏng hàng loạt thực phẩm.",
+        "Sự cố bảo mật này khiến tủ lạnh và tủ đông tại các cửa hàng bị tăng nhiệt độ lên đến năm mươi độ C trong nhiều giờ, gây ra một số vụ hỏa hoạn cục bộ và buộc các tập đoàn bán lẻ phải tiêu hủy toàn bộ lượng hàng hóa bị ảnh hưởng.",
+        "Vụ việc gióng lên hồi chuông cảnh báo về lỗ hổng bảo mật nghiêm trọng trong hệ thống thiết bị thông minh kết nối mạng của ngành bán lẻ, đòi hỏi các doanh nghiệp phải thắt chặt an ninh mạng để ngăn chặn rủi ro tương tự."
+      ],
+      "summary_en": [
+        "A large-scale cyberattack in France and several European countries targeted connected refrigeration systems across major supermarket chains, causing sudden temperature spikes and widespread food spoilage.",
+        "This security incident forced refrigerators and freezers in stores to heat up to fifty degrees Celsius for hours, triggering localized fires and compelling retail corporations to discard all affected goods.",
+        "The event serves as a serious wake-up call regarding severe cybersecurity vulnerabilities within connected smart devices in the retail sector, demanding stricter network security measures from enterprises to prevent similar risks."
+      ],
+      "originalTitle": "Hacker tăng nhiệt độ tủ lạnh, gây hỏng thực phẩm ở hàng trăm siêu thị",
+      "url": "https://vnexpress.net/hacker-tang-nhiet-do-tu-lanh-gay-hong-thuc-pham-o-hang-tram-sieu-thi-5131499.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "IoT",
+        "Network Security",
+        "Smart Devices",
+        "Incident Response"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-12T23:07:01.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/13/tu-lanh-jpeg-1791845881-4230-1791846382.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=U8IqPzEy0YNdQw_z72DJfA",
+      "contentSnippet": "Tin tặc tăng nhiệt độ tủ lạnh và tủ đông lên 50 độ C tại hàng trăm siêu thị trong đêm, gây một số vụ hỏa hoạn và làm hư hỏng thực phẩm.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6a78f6efee3a21f2",
+      "title_vi": "Bộ tăng tốc trí tuệ nhân tạo Intel D270 GPU trang bị bộ nhớ khủng lên tới 480 GB LPDDR5X",
+      "title_en": "Intel D270 GPU AI Accelerator Featuring Up to 480 GB LPDDR5X Memory",
+      "summary_vi": [
+        "Tập đoàn công nghệ hàng đầu vừa giới thiệu dòng chip xử lý đồ họa chuyên dụng mới mang tên mã D270, hướng tới việc tối ưu hóa hiệu năng cho các tác vụ trí tuệ nhân tạo và học máy khối lượng lớn.",
+        "Sản phẩm phần cứng này gây ấn tượng mạnh với dung lượng bộ nhớ đệm LPDDR5X cực lớn lên tới 480 GB, giúp cải thiện đáng kể băng thông và tốc độ xử lý dữ liệu cho các mô hình ngôn ngữ lớn.",
+        "Bước đột phá về kiến trúc phần cứng này mang lại giải pháp mạnh mẽ cho các trung tâm dữ liệu, giúp giảm thiểu đáng kể chi phí vận hành và nâng cao hiệu suất tính toán cho các kỹ sư AI."
+      ],
+      "summary_en": [
+        "A leading technology corporation has just introduced a new specialized graphics processing unit codenamed D270, aimed at optimizing performance for massive artificial intelligence and machine learning workloads.",
+        "This hardware product makes a strong impression with an exceptionally large LPDDR5X memory capacity of up to 480 GB, significantly improving bandwidth and data processing speed for large language models.",
+        "This hardware architecture breakthrough provides a powerful solution for data centers, helping to significantly reduce operational costs and enhance computational efficiency for AI engineers."
+      ],
+      "originalTitle": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "GPU",
+        "Hardware",
+        "Intel",
+        "Semiconductor"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-12T21:35:35.000Z",
+      "contentSnippet": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "authorName": "hurricanepootis",
+      "upvotes": 148,
+      "commentsCount": 64
+    },
     {
       "id": "9d6f97004e072d17",
       "title_vi": "Java Runtime Environment (JRE) Là Gì?",
@@ -131,6 +575,143 @@
       "publishedAt": "2026-10-12T17:42:17.000Z",
       "contentSnippet": "Anthropic chính thức ra mắt Claude Haiku 5.5 vào ngày 7 tháng 10 năm 2026. Đây là mô hình có kích thước nhỏ nhất, tốc độ xử lý nhanh nhất và chi phí t...",
       "authorName": "Trần Văn Tuấn",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ebb9ee7ef6cdbf57",
+      "title_vi": "Nguyên nhân đằng sau chiến lược liên tục phát hành mô hình AI mới của các công ty Trung Quốc",
+      "title_en": "The Reasons Behind Chinese AI Companies Constantly Releasing New Models",
+      "summary_vi": [
+        "Thị trường trí tuệ nhân tạo chứng kiến tần suất nâng cấp mô hình dày đặc từ các doanh nghiệp công nghệ Trung Quốc, phản ánh cuộc đua khốc liệt nhằm chiếm lĩnh thị phần người dùng.",
+        "Sự bùng nổ của các kiến trúc mạng nơ-ron mới cùng việc tối ưu hóa thuật toán đã kéo giá dịch vụ đám mây và API trí tuệ nhân tạo lao dốc mạnh mẽ trên diện rộng.",
+        "Áp lực cạnh tranh gay gắt buộc các kỹ sư phần mềm phải liên tục cải tiến hiệu suất mô hình để tạo dấu ấn riêng thay vì chỉ chạy đua theo số lượng."
+      ],
+      "summary_en": [
+        "The artificial intelligence market witnesses a high frequency of model upgrades from Chinese tech enterprises, reflecting an intense race to capture user market share.",
+        "The surge of novel neural network architectures and algorithm optimization has driven down the pricing of cloud services and AI APIs significantly across the board.",
+        "Fierce competitive pressure forces software engineers to continuously improve model performance to establish a unique footprint rather than merely racing in quantity."
+      ],
+      "originalTitle": "Lý do công ty AI Trung Quốc liên tục ra mắt mô hình mới",
+      "url": "https://vnexpress.net/ly-do-cong-ty-ai-trung-quoc-lien-tuc-ra-mat-mo-hinh-moi-5129581.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Cloud Computing",
+        "Tech Trends"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-12T17:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/07/DSC00706-JPG-5009-1791364802.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=G9_7iQj74D6Tli1vl7aLAQ",
+      "contentSnippet": "Tần suất nâng cấp dày đặc, giá dịch vụ lao dốc và cạnh tranh gay gắt khiến các mô hình trí tuệ nhân tạo (AI) mới ngày càng chật vật để tạo dựng dấu ấn riêng trên thị trường.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "846af7f67ce8bfa6",
+      "title_vi": "Meta ra mắt các mô hình trí tuệ nhân tạo Wonder mới vô cùng ấn tượng",
+      "title_en": "Meta has some Wonder Full new AI models",
+      "summary_vi": [
+        "Tập đoàn Meta đang nhanh chóng khẳng định vị thế trong cuộc đua trí tuệ nhân tạo bằng việc liên tục giới thiệu các mô hình ngôn ngữ lớn mới từ bộ phận nghiên cứu siêu trí tuệ, nhằm cạnh tranh trực tiếp với những đối thủ hàng đầu trên thị trường hiện nay.",
+        "Hai mô hình mới mang tên Muse Wonder và Muse Wonder Full được phát hành dành riêng cho những người đăng ký dịch vụ Muse Code, trong đó phiên bản Wonder hỗ trợ truy cập thông qua giao diện lập trình ứng dụng Meta Model API.",
+        "Việc tích hợp các mô hình tiên tiến này vào trợ lý ảo thông minh đánh dấu bước tiến chiến lược của Meta, mang lại khả năng xử lý ngôn ngữ vượt trội và mở ra nhiều ứng dụng thực tiễn cho cộng đồng lập trình viên."
+      ],
+      "summary_en": [
+        "Meta is rapidly strengthening its position in the artificial intelligence race by continuously introducing advanced large language models from its superintelligence research division to compete directly with leading market rivals.",
+        "The two new models named Muse Wonder and Muse Wonder Full are released exclusively for Muse Code subscribers, with the Wonder version supporting programmatic access through the Meta Model API interface.",
+        "Integrating these cutting-edge models into smart AI assistants marks a strategic milestone for Meta, delivering exceptional language processing capabilities and enabling numerous practical applications for developers."
+      ],
+      "originalTitle": "Meta has some Wonder Full new AI models",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Meta",
+        "AI",
+        "Machine Learning",
+        "API",
+        "Superintelligence"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-12T17:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder ",
+      "authorName": "Robert Hart",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a471bcd8b380da08",
+      "title_vi": "Ứng dụng web hiện đại viết bằng ngôn ngữ C",
+      "title_en": "A Modern Web App in C",
+      "summary_vi": [
+        "Tác giả đã phát triển và thương mại hóa thành công một sản phẩm web hoàn chỉnh bằng ngôn ngữ lập trình C và công nghệ CGI theo phong cách cổ điển.",
+        "Hệ thống sử dụng ngăn xếp công nghệ BCHS gồm OpenBSD, C, httpd và SQLite, không sử dụng framework, không dùng máy chủ cơ sở dữ liệu riêng hay container phức tạp.",
+        "Giải pháp kiến trúc này minh chứng rằng các công nghệ truyền thống vẫn mang lại hiệu năng cao, dễ quản lý và triển khai cực kỳ đơn giản trong bối cảnh hiện đại."
+      ],
+      "summary_en": [
+        "The author successfully developed and commercialized a complete web product using the C programming language and traditional CGI technology.",
+        "The system utilizes the BCHS technology stack consisting of OpenBSD, C, httpd, and SQLite, avoiding complex frameworks, separate database servers, and containers.",
+        "This architectural approach demonstrates that traditional technologies still deliver high performance, easy management, and extremely simple deployment in modern contexts."
+      ],
+      "originalTitle": "A Modern Web App in C",
+      "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "C",
+        "CGI",
+        "SQLite",
+        "OpenBSD",
+        "Web Development"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-12T16:13:10.000Z",
+      "contentSnippet": "If you wanted a dynamic website in 1994, you wrote a C program, dropped it in a cgi-bin directory, and let Apache fork it per request. Thirty-two years later, I shipped a commercial web product using fundamentally the same technology. Everything about marketyour.games is modern. It's a web product w",
+      "authorName": "prophittcorey",
+      "upvotes": 480,
+      "commentsCount": 197
+    },
+    {
+      "id": "9d4a7fc59d8e1e83",
+      "title_vi": "Thị trường smartphone quý 3 năm 2026: Samsung dẫn đầu nhờ mẫu điện thoại gập, lượng xuất xưởng toàn cầu sụt giảm",
+      "title_en": "Q3 2026 Smartphone Market: Samsung Leads with Foldable Devices While Global Shipments Decline Significantly",
+      "summary_vi": [
+        "Theo dữ liệu ước tính mới công bố từ hãng nghiên cứu thị trường Counterpoint Research vào tháng mười năm hai nghìn không trăm hai mươi sáu, lượng thiết bị di động xuất xưởng toàn cầu đã giảm khoảng hai mươi phần trăm so với cùng kỳ năm ngoái.",
+        "Sự sụt giảm này đẩy thị trường xuống mức thấp kỷ lục trong nhiều quý gần đây, bất chấp những nỗ lực kích cầu từ các nhà sản xuất phần cứng lớn thông qua việc ra mắt các dòng sản phẩm màn hình gập thế hệ mới.",
+        "Trong bối cảnh thị trường thu hẹp, Samsung vẫn duy trì vị thế dẫn đầu với thị phần ấn tượng nhờ sức hút từ dòng thiết bị cầm tay cao cấp Z Fold, tạo động lực cho các nhà phát triển ứng dụng tối ưu hóa giao diện di động."
+      ],
+      "summary_en": [
+        "According to preliminary estimates published by Counterpoint Research in October 2026, global smartphone shipments experienced a significant decline of approximately twenty percent compared to the same period last year.",
+        "This downward trend pushed the global market to its lowest quarterly volume in recent history, despite aggressive hardware refresh cycles and promotional efforts centered around next-generation foldable mobile devices.",
+        "Despite the broader market contraction, Samsung maintained its market leadership position by capturing twenty-three percent share, largely driven by strong consumer adoption of their latest foldable flagship smartphone lineup."
+      ],
+      "originalTitle": "Smartphone Q3/2026: Samsung dẫn đầu với 23% nhờ Z Fold8, toàn cầu giảm 20%",
+      "url": "https://tinhte.vn/thread/smartphone-q3-2026-samsung-dan-dau-voi-23-nho-z-fold8-toan-cau-giam-20.4183656/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Smartphone",
+        "Samsung",
+        "Mobile Market",
+        "Counterpoint",
+        "Hardware"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-12T15:43:42.000Z",
+      "contentSnippet": "Theo ước tính sơ bộ từ Counterpoint Research công bố ngày 12/10/2026, lượng smartphone xuất xưởng toàn cầu trong quý 3/2026 giảm khoảng 20% so với cùng kỳ năm trước, xuống mức thấp nhất trong quý...",
+      "authorName": "cuhiep",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -7972,592 +8553,6 @@
       "authorName": "Trung Tran Anh",
       "upvotes": 0,
       "commentsCount": 0
-    },
-    {
-      "id": "737811d7489dff4e",
-      "title_vi": "Nỗ lực cải thiện hiệu năng card đồ họa AMD đời cũ trên Linux của Timur Kristóf từ Valve",
-      "title_en": "Valve Engineer Timur Kristof Focuses on Optimizing Legacy AMD GPUs for Linux Gaming Performance",
-      "summary_vi": [
-        "Kỹ sư Timur Kristóf làm việc tại Valve đang tập trung phát triển các giải pháp phần mềm nhằm nâng cao hiệu suất và khả năng tương thích của các dòng card đồ họa AMD thế hệ cũ trên hệ điều hành Linux.",
-        "Sáng kiến này liên quan đến việc tối ưu hóa trình điều khiển đồ họa mã nguồn mở, cải thiện việc quản lý tài nguyên phần cứng và tinh chỉnh các tầng trung gian để xử lý đồ họa mượt mà hơn trên kiến trúc cũ.",
-        "Đối với các nhà phát triển và kỹ sư hệ thống, những cải tiến này giúp kéo dài vòng đời phần cứng, tối ưu hóa chi phí vận hành máy chủ đồ họa và mang lại trải nghiệm chơi game ổn định hơn trên nền tảng Linux."
-      ],
-      "summary_en": [
-        "Valve engineer Timur Kristof is currently leading development efforts focused on enhancing performance and overall compatibility for older generation AMD graphics processing units running on the Linux operating system.",
-        "This initiative involves deep optimizations within open-source graphics drivers, improving hardware resource management, and refining intermediate software layers to achieve smoother rendering on legacy GPU architectures.",
-        "For system engineers and developers, these critical improvements help extend hardware lifecycles, optimize graphics server operational costs, and deliver a significantly more stable gaming experience on Linux."
-      ],
-      "originalTitle": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
-      "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Linux",
-        "AMD",
-        "Valve",
-        "Mesa",
-        "GPU"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-03T19:14:48.000Z",
-      "contentSnippet": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
-      "authorName": "speckx",
-      "upvotes": 170,
-      "commentsCount": 21
-    },
-    {
-      "id": "5cb80ade64def456",
-      "title_vi": "Capcom chuẩn bị cho tương lai nơi chúng tôi tạo ra trò chơi cùng với trí tuệ nhân tạo",
-      "title_en": "Capcom is preparing for a future where we create games together with AI",
-      "summary_vi": [
-        "Hãng game Capcom đang tiến hành nghiên cứu và tích hợp sâu rộng công nghệ trí tuệ nhân tạo vào quy trình phát triển sản phẩm để giải quyết các bài toán về quy mô và thời gian sản xuất.",
-        "Trong hội nghị kỹ thuật RE: 2026, các kỹ sư đã trình bày chi tiết về dự án REX nhằm mục đích tiến hóa công cụ RE Engine để đáp ứng yêu cầu của thế hệ phần cứng tiếp theo.",
-        "Động thái này phản ánh xu hướng tất yếu của ngành công nghiệp phần mềm game trong việc tối ưu hóa hiệu suất lập trình, giảm tải công việc thủ công và nâng cao chất lượng trải nghiệm."
-      ],
-      "summary_en": [
-        "Game developer Capcom is actively researching and deeply integrating artificial intelligence into their development workflows to address scaling challenges and production time constraints.",
-        "During the RE: 2026 technical conference, engineers detailed the REX project aimed at evolving the RE Engine to meet the stringent demands of next-generation hardware platforms.",
-        "This strategic move reflects an inevitable industry trend toward optimizing programming efficiency, reducing manual engineering workloads, and enhancing overall software quality."
-      ],
-      "originalTitle": "Capcom is preparing for a ‘future where we create games together with AI’",
-      "url": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "AI",
-        "Game Development",
-        "RE Engine",
-        "Software Engineering"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-03T16:49:10.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/RE9_SS_08.png?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a presentation with the mouthful of a title: \"The Outlook and Future of the REX Project, Further Evolving the",
-      "authorName": "Terrence O’Brien",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "69e0173d7c364d3a",
-      "title_vi": "Các ưu đãi công nghệ nổi bật dịp Ngày hội mua sắm Prime diễn ra ngay lúc này",
-      "title_en": "The best early October Prime Day deals happening now",
-      "summary_vi": [
-        "Amazon và các nhà bán lẻ lớn đang triển khai hàng loạt chương trình giảm giá sâu cho các thiết bị phần cứng, máy tính bảng, loa thông minh và thiết bị nhà thông minh trước thềm sự kiện mua sắm lớn vào tháng Mười.",
-        "Nhiều thiết bị phần cứng thế hệ mới tích hợp trí tuệ nhân tạo, chuẩn kết nối không dây tốc độ cao Wi-Fi 6E, cùng các linh kiện màn hình độ phân giải cao và phụ kiện sạc nhanh được áp dụng mức giá ưu đãi hấp dẫn.",
-        "Các chương trình giảm giá sớm này giúp người dùng tối ưu hóa chi phí đầu tư thiết bị công nghệ cá nhân, đồng thời định hình xu hướng mua sắm phần cứng chuẩn bị cho mùa mua sắm cuối năm."
-      ],
-      "summary_en": [
-        "Amazon and major retailers are rolling out deep discounts on hardware devices, tablets, smart speakers, and smart home appliances ahead of the major shopping event scheduled for early October.",
-        "Many next-generation hardware devices featuring artificial intelligence integration, high-speed Wi-Fi 6E wireless standards, high-resolution displays, and fast-charging accessories are currently offered at attractive promotional prices.",
-        "These early discount programs help users optimize their personal technology investment costs while shaping hardware purchasing trends in preparation for the upcoming end-of-year holiday shopping season."
-      ],
-      "originalTitle": "The best early October Prime Day deals happening now",
-      "url": "https://www.theverge.com/gadgets/999447/best-early-amazon-prime-day-big-deals-sale-october",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Hardware",
-        "Smart Home",
-        "AI",
-        "Wi-Fi 6E",
-        "Gadgets"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-03T16:22:40.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268775_October_Prime_Day_art_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "It’s not even October yet and Amazon is already offering some Prime Big Deal Day discounts on its own hardware, along with plenty of other popular products. It’s all to hype up October Prime Day, which starts October 6th at 3AM ET and lasts through 3AM ET on the 8th if you’re on the East Coast (12AM",
-      "authorName": "Cameron Faulkner",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1a79326a419cb7ee",
-      "title_vi": "Cách Apple đưa tính năng nhận diện khuôn mặt Face ID xuống dưới màn hình trên dòng điện thoại iPhone 18 Pro",
-      "title_en": "How Apple Integrates Face ID Under the Display in the iPhone 18 Pro",
-      "summary_vi": [
-        "Apple đang chuẩn bị bước đột phá phần cứng lớn khi dời toàn bộ cảm biến nhận diện khuôn mặt bảo mật xuống phía dưới màn hình của dòng điện thoại thông minh cao cấp sắp ra mắt.",
-        "Công nghệ quang học tiên tiến này đòi hỏi các kỹ sư phải tinh chỉnh cấu trúc hiển thị để ánh sáng vẫn truyền qua tấm nền OLED mà không làm suy giảm độ chính xác của cảm biến.",
-        "Sự thay đổi thiết kế này đánh dấu bước tiến quan trọng trong công nghệ phần cứng di động, tối ưu hóa không gian hiển thị và định hình lại xu hướng thiết kế màn hình tràn viền trong tương lai."
-      ],
-      "summary_en": [
-        "Apple is preparing a major hardware breakthrough by relocating all biometric facial recognition sensors underneath the display of its upcoming high-end smartphone lineup.",
-        "This advanced optical technology requires engineers to refine the display structure so that light can pass through the OLED panel without compromising sensor accuracy.",
-        "This design shift marks a significant milestone in mobile hardware engineering, optimizing display space and reshaping future trends for bezel-less screen designs."
-      ],
-      "originalTitle": "Cách Apple đưa Face ID xuống dưới màn hình iPhone 18 Pro",
-      "url": "https://tinhte.vn/thread/cach-apple-dua-face-id-xuong-duoi-man-hinh-iphone-18-pro.4180717/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "FaceID",
-        "Hardware",
-        "Mobile"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-03T15:18:28.000Z",
-      "contentSnippet": "Nếu anh em cầm iPhone 18 Pro lên và nhìn thật kỹ vào vùng phía trên màn hình, có thể anh em sẽ gần như sẽ không thấy gì cả. Thứ đã tồn tại dưới dạng một khoảng đen ở mặt trước iPhone suốt một chục...",
-      "authorName": "nhatminhngo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "12f1c0f583e5ec7e",
-      "title_vi": "Giám đốc điều hành Splice Kakul Srivastava nhận định email trí tuệ nhân tạo đang làm mai một các cuộc trò chuyện",
-      "title_en": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
-      "summary_vi": [
-        "Kakul Srivastava, Giám đốc điều hành của nền tảng âm thanh Splice và là cựu lãnh đạo tại Flickr, Yahoo cùng GitHub, đã đưa ra góc nhìn sâu sắc về cách các công cụ trí tuệ nhân tạo đang thay đổi cách con người giao tiếp hàng ngày.",
-        "Bà nhấn mạnh rằng việc lạm dụng các nội dung do trí tuệ nhân tạo tạo ra trong thư điện tử đang làm mất đi tính chân thực, sự đồng cảm và chiều sâu cảm xúc cần thiết trong các cuộc trò chuyện chuyên nghiệp cũng như cá nhân.",
-        "Quan điểm này gióng lên hồi chuông cảnh tỉnh cho các kỹ sư phần mềm và nhà phát triển sản phẩm khi tích hợp các tính năng tự động hóa ngôn ngữ, đảm bảo công nghệ phục vụ con người thay vì làm xói mòn các giá trị giao tiếp cốt lõi."
-      ],
-      "summary_en": [
-        "Kakul Srivastava, CEO of the sample platform Splice and former executive at Flickr, Yahoo, and GitHub, has shared insightful perspectives on how artificial intelligence tools are reshaping everyday human communication patterns and professional workflows.",
-        "She emphasized that the overreliance on artificial intelligence generated content within electronic mail is diminishing the authenticity, empathy, and emotional depth required for meaningful personal and professional conversations across modern industries.",
-        "This perspective serves as a crucial wake-up call for software engineers and product developers when integrating automated language features, ensuring that technology empowers human connection rather than eroding fundamental communication values."
-      ],
-      "originalTitle": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
-      "url": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "AI",
-        "Artificial Intelligence",
-        "Productivity",
-        "Software Leadership",
-        "Communication"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-03T15:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/IMG_3820.png?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like Lisa's \"Money\" and \"Espresso\" by Sabrina Carpenter. (The original samples are here and here, for the cur",
-      "authorName": "Terrence O’Brien",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "46c63a0311a23e0d",
-      "title_vi": "Một nhân viên an toàn của OpenAI đã từ chức và lên tiếng cảnh báo",
-      "title_en": "An OpenAI safety employee has quit and is sounding the alarm",
-      "summary_vi": [
-        "David Robinson, người từng chịu trách nhiệm soạn thảo các báo cáo an toàn cho các mô hình lớn tại công ty trí tuệ nhân tạo OpenAI, đã chính thức từ chức và công khai lên tiếng cảnh báo về những vấn đề bên trong.",
-        "Trong bài viết chuyên khảo của mình, ông chỉ ra rằng văn hóa ngành công nghiệp hiện tại đang đổ vỡ nghiêm trọng, vượt ra ngoài khuôn khổ của việc áp dụng các quy định hay quy tắc kiểm soát quá trình huấn luyện mô hình.",
-        "Sự kiện này gióng lên hồi chuông cảnh báo quan trọng đối với cộng đồng công nghệ về trách nhiệm đạo đức và tính minh bạch trong quá trình phát triển các hệ thống trí tuệ nhân tạo thế hệ mới."
-      ],
-      "summary_en": [
-        "David Robinson, who was previously responsible for drafting safety reports for major models at artificial intelligence company OpenAI, has officially resigned and publicly raised alarms about internal issues.",
-        "In his recent editorial piece, he points out that the current industry culture is fundamentally broken, extending far beyond simply enforcing regulations or rules on model training processes.",
-        "This event sounds a critical warning for the tech community regarding ethical responsibility and transparency in the ongoing development of next-generation artificial intelligence systems."
-      ],
-      "originalTitle": "An OpenAI safety employee has quit and is sounding the alarm",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "OpenAI",
-        "Safety",
-        "Ethics",
-        "Industry Culture"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-03T14:31:56.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK149_AI_01.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic. It's understandable if you're feeling a bit cynical about everyone suddenly coming out of the woodwo",
-      "authorName": "Terrence O’Brien",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1ef1b38c39d01608",
-      "title_vi": "Giới thiệu Kolibri: Mô hình trí tuệ nhân tạo có chủ quyền mới của Đức",
-      "title_en": "Show HN: Germany's new sovereign AI model Kolibri",
-      "summary_vi": [
-        "Công ty trí tuệ nhân tạo Aleph Alpha tại Đức vừa cho ra mắt mô hình ngôn ngữ lớn mã nguồn mở Kolibri hỗ trợ cả tiếng Đức và tiếng Anh từ cơ sở hạ tầng trong nước.",
-        "Mô hình này áp dụng kiến trúc hỗn hợp chuyên gia với 78 tỷ tham số nhưng chỉ kích hoạt khoảng 3,5 tỷ tham số cho mỗi token nhằm tối ưu hóa hiệu suất hoạt động.",
-        "Việc phát hành theo giấy phép Apache 2.0 giúp đáp ứng các tiêu chuẩn khắt khe của đạo luật trí tuệ nhân tạo châu Âu về quyền riêng tư và môi trường."
-      ],
-      "summary_en": [
-        "German artificial intelligence company Aleph Alpha has just released the open weight large language model Kolibri supporting both German and English built on domestic infrastructure.",
-        "This model applies a mixture of experts architecture with 78 billion parameters while only activating about 3.5 billion parameters per token to optimize operational performance.",
-        "Releasing under the Apache 2.0 license helps meet stringent European Union artificial intelligence standards regarding data privacy and environmental sustainability requirements."
-      ],
-      "originalTitle": "Show HN: Germany's new sovereign AI model Kolibri",
-      "url": "https://tej.as/blog/aleph-alpha-kolibri",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "LLM",
-        "Open Source",
-        "Machine Learning",
-        "Aleph Alpha"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-03T10:43:51.000Z",
-      "contentSnippet": "Kolibri is an open-weight large language model (LLM) from Aleph Alpha for German and English: a mixture of experts with 78 billion parameters that only uses about 3.5 billion of them for each token it reads or writes. It came out on 3 October 2026 under the Apache 2.0 license, the weights are on Hug",
-      "authorName": "tejaskumar__",
-      "upvotes": 195,
-      "commentsCount": 97
-    },
-    {
-      "id": "16601e9c1f187894",
-      "title_vi": "Hành trình phát triển và khẳng định vị thế của FPT Cloud qua 20 câu chuyện công nghệ",
-      "title_en": "The Growth and Industry Leadership Journey of FPT Cloud Through Twenty Tech Stories",
-      "summary_vi": [
-        "Hành trình phát triển của FPT Cloud mở ra bức tranh toàn diện về quá trình vươn lên thành nền tảng hạ tầng số hàng đầu, nơi trí tuệ Việt Nam kiến tạo nên một hệ sinh thái công nghệ vững chắc và toàn diện.",
-        "Nền tảng hạ tầng số này tích hợp nhiều giải pháp công nghệ tiên tiến, tối ưu hóa khả năng vận hành và cung cấp tài nguyên linh hoạt cho các doanh nghiệp trong quá trình chuyển đổi số toàn diện.",
-        "Sự phát triển mạnh mẽ của FPT Cloud đánh dấu bước tiến quan trọng của ngành công nghệ thông tin Việt Nam, khẳng định năng lực tự chủ hạ tầng số và tạo động lực thúc đẩy hệ sinh thái số quốc gia."
-      ],
-      "summary_en": [
-        "The developmental trajectory of FPT Cloud unfolds a comprehensive picture of its rise to become a leading digital infrastructure platform, where Vietnamese intellect builds a robust and sustainable technology ecosystem.",
-        "This digital infrastructure platform integrates advanced technological solutions, optimizes operational capabilities, and provides flexible resources for enterprises undergoing comprehensive digital transformation processes.",
-        "The strong growth of FPT Cloud marks a significant milestone for Vietnam information technology sector, affirming national digital infrastructure autonomy and driving the domestic digital ecosystem forward."
-      ],
-      "originalTitle": "[Photostory] Muốn hiểu về hành trình của FPT Cloud, bạn chỉ cần đọc 20 câu chuyện này là đủ",
-      "url": "https://genk.vn/photostory-muon-hieu-ve-hanh-trinh-cua-fpt-cloud-ban-chi-can-doc-20-cau-chuyen-nay-la-du-165261003161532358.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "FPT Cloud",
-        "Cloud Computing",
-        "Digital Infrastructure",
-        "Tech Trends"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-03T10:12:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/3/ava-1791018742456491230380-0-0-1125-1800-crop-1791018782078872508459.png",
-      "contentSnippet": "Sapo: Hành trình của FPT Cloud mở ra bức tranh toàn diện về quá trình vươn lên thành nền tảng hạ tầng số hàng đầu, nơi trí tuệ Việt Nam kiến tạo hệ sinh thái công nghệ vững chắc.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e18b1eb52c17bbb8",
-      "title_vi": "Sony đưa công nghệ nâng cấp hình ảnh bằng trí tuệ nhân tạo QSSR lên PlayStation 5 bản tiêu chuẩn",
-      "title_en": "Sony Brings QSSR AI Upscaling Technology to Standard PlayStation 5 Consoles",
-      "summary_vi": [
-        "Tập đoàn Sony đã chính thức quyết định tích hợp công nghệ nâng cấp hình ảnh sử dụng trí tuệ nhân tạo Quick Super Resolution lên dòng máy chơi game PlayStation 5 phiên bản tiêu chuẩn vốn trước đây chỉ độc quyền xuất hiện trên phiên bản Pro cao cấp.",
-        "Cơ chế hoạt động của công nghệ này dựa trên các thuật toán học máy tiên tiến giúp tối ưu hóa khung hình và độ phân giải thời gian thực mà không làm suy giảm hiệu năng xử lý phần cứng đồ họa vốn có.",
-        "Bước đi chiến lược này không chỉ giúp tối ưu hóa trải nghiệm chơi game trên các thiết bị phần cứng cũ mà còn đặt ra tiêu chuẩn mới cho việc phát triển phần mềm đồ họa tối ưu hóa hiệu suất trong ngành."
-      ],
-      "summary_en": [
-        "Sony Corporation has officially decided to integrate the Quick Super Resolution artificial intelligence upscaling technology into standard PlayStation 5 consoles, which was previously exclusive to the high-end Pro version.",
-        "The operational mechanism of this technology relies on advanced machine learning algorithms to optimize frame rates and real-time resolution without degrading the inherent hardware graphics processing performance.",
-        "This strategic move not only helps optimize gaming experiences on older hardware devices but also sets a new standard for developing performance-optimized graphics software within the industry."
-      ],
-      "originalTitle": "Sony đưa AI upscaling QSSR lên PS5 thường, ngay từ Marvel's Wolverine và Ghost of Yōtei",
-      "url": "https://tinhte.vn/thread/sony-dua-ai-upscaling-qssr-len-ps5-thuong-ngay-tu-marvels-wolverine-va-ghost-of-yotei.4181426/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "PlayStation 5",
-        "Machine Learning",
-        "Graphics Optimization",
-        "Gaming Tech"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-03T10:04:45.000Z",
-      "contentSnippet": "Sony đưa AI upscaling QSSR lên PS5 thường, ngay từ Marvel's Wolverine và Ghost of Yōtei Từ hôm nay, PS5 bản thường được hưởng một công nghệ trước đây chỉ dành cho PS5 Pro. Sony gọi nó là Quick...",
-      "authorName": "nhatminhngo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "709f3d280a300c78",
-      "title_vi": "Không phải ChatGPT, đây mới là những nơi AI đang xuất hiện nhiều nhất trong cuộc sống của chúng ta",
-      "title_en": "Beyond ChatGPT: Where Artificial Intelligence Is Actually Integrating Deeply Into Our Daily Lives",
-      "summary_vi": [
-        "Trí tuệ nhân tạo đang dần trở thành một lớp công nghệ nền tảng đứng phía sau các dịch vụ quen thuộc, giúp máy móc hiểu ngôn ngữ và xử lý dữ liệu một cách hiệu quả hơn.",
-        "Công nghệ học máy và xử lý ngôn ngữ tự nhiên hiện được tích hợp sâu vào hạ tầng phần mềm, cho phép tự động hóa hoàn toàn nhiều tác vụ mà trước đây con người phải xử lý thủ công.",
-        "Sự chuyển dịch này định hình lại cách các kỹ sư xây dựng hệ thống phần mềm, đòi hỏi tối ưu hóa mô hình AI để phục vụ trực tiếp các bài toán thực tiễn của người dùng cuối."
-      ],
-      "summary_en": [
-        "Artificial intelligence is gradually becoming a foundational technology layer behind familiar services, enabling machines to understand natural language and process data efficiently.",
-        "Machine learning and natural language processing technologies are now deeply integrated into software infrastructure, allowing full automation of tasks previously handled manually.",
-        "This shift reshapes how software engineers build systems, requiring the optimization of AI models to directly address practical real-world problems for end users."
-      ],
-      "originalTitle": "Không phải ChatGPT, đây mới là những nơi AI đang xuất hiện nhiều nhất trong cuộc sống của chúng ta",
-      "url": "https://genk.vn/khong-phai-chatgpt-day-moi-la-nhung-noi-ai-dang-xuat-hien-nhieu-nhat-trong-cuoc-song-cua-chung-ta-165261003161815053.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "NLP",
-        "Automation",
-        "Software Architecture"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-03T09:18:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/3/avatar1791019078311-1791019078707155516733.png",
-      "contentSnippet": "AI đang dần trở thành một lớp công nghệ đứng phía sau những dịch vụ quen thuộc, giúp máy móc hiểu ngôn ngữ, xử lý dữ liệu và thực hiện một phần công việc vốn trước đây cần con người đảm nhiệm.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "7fee58dc03c4d3ac",
-      "title_vi": "Google nhận định cần 10 năm và 1.800 lần phóng tên lửa để xây dựng trung tâm dữ liệu vũ trụ",
-      "title_en": "Google estimates a decade and 1800 launches needed to build space data centers",
-      "summary_vi": [
-        "Google vừa công bố nghiên cứu chuyên sâu trên tạp chí Joule cho thấy việc xây dựng các trung tâm dữ liệu ngoài không gian hoàn toàn khả thi vào năm 2035 nhờ sự phát triển vượt bậc của công nghệ vận chuyển vũ trụ.",
-        "Dự án đòi hỏi tàu vũ trụ Starship của SpaceX phải thực hiện ít nhất 1.800 lần phóng để vận chuyển khối lượng vật tư khổng lồ lên quỹ đạo với chi phí dự kiến giảm mạnh xuống còn 200 USD mỗi kilogam.",
-        "Sự kiện này mở ra hướng đi chiến lược mới cho hạ tầng điện toán đám mây toàn cầu, giúp giải quyết bài toán năng lượng và tản nhiệt khổng lồ của các hệ thống máy chủ quy mô lớn trong tương lai."
-      ],
-      "summary_en": [
-        "Google published a deep-dive research in Joule indicating that constructing data centers in outer space is feasible by 2035 thanks to rapid advancements in aerospace transportation technology.",
-        "The ambitious project requires SpaceX Starship to execute at least 1800 launches to transport massive hardware supplies into orbit as launch costs are projected to drop significantly to 200 dollars per kilogram.",
-        "This technological milestone opens up new strategic horizons for global cloud computing infrastructure, addressing critical power and thermal dissipation challenges of massive server clusters in the future."
-      ],
-      "originalTitle": "Google: Cần 10 năm và 1.800 lần phóng để xây trung tâm dữ liệu vũ trụ",
-      "url": "https://vnexpress.net/google-can-10-nam-va-1-800-lan-phong-de-xay-trung-tam-du-lieu-vu-tru-5127638.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "Cloud Computing",
-        "Data Center",
-        "SpaceX",
-        "Infrastructure",
-        "Hardware"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-03T07:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/02/dsc-1790930902-5456-1790931181.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=KOQm6Wg8GeZYWYiVnYDyow",
-      "contentSnippet": "Google ước tính việc xây trung tâm dữ liệu không gian vẫn khả thi đến 2035, nhưng tàu Starship cần phóng ít nhất 1.800 lần để vận chuyển vật tư.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "87989fe56a40c11f",
-      "title_vi": "Dấu ấn của Mark Zuckerberg trong thỏa thuận trí tuệ nhân tạo của Nhà Trắng",
-      "title_en": "Mark Zuckerberg's Footprint in the White House AI Agreement",
-      "summary_vi": [
-        "Giám đốc điều hành tập đoàn Meta đóng vai trò trung tâm trong việc định hình thỏa thuận trí tuệ nhân tạo mang tính ràng buộc đạo đức do Nhà Trắng công bố sau các cuộc họp cấp cao.",
-        "Bản thỏa thuận dài ba trăm từ yêu cầu các doanh nghiệp triển khai cơ chế kiểm soát nội bộ nghiêm ngặt nhằm giám sát năng lực mô hình, hợp tác với kiểm toán viên độc lập và thành lập ủy ban chuyên trách.",
-        "Sự kiện này đánh dấu bước ngoặt quan trọng trong việc siết chặt quản lý các hệ thống trí tuệ nhân tạo tiên tiến, tác động mạnh mẽ đến chiến lược tuân thủ của các tập đoàn công nghệ lớn."
-      ],
-      "summary_en": [
-        "The chief executive officer of Meta played a central role in shaping the ethically binding artificial intelligence agreement announced by the White House following high-level meetings.",
-        "The three-hundred-word agreement requires enterprises to implement rigorous internal controls to monitor model capabilities, collaborate with independent auditors, and establish dedicated oversight committees.",
-        "This event marks a crucial turning point in tightening regulations on advanced artificial intelligence systems, strongly impacting the compliance strategies of major technology corporations."
-      ],
-      "originalTitle": "Dấu ấn Mark Zuckerberg trong thỏa thuận AI của Nhà Trắng",
-      "url": "https://vnexpress.net/dau-an-mark-zuckerberg-trong-thoa-thuan-ai-cua-nha-trang-5127520.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Meta",
-        "White House",
-        "Regulation",
-        "Machine Learning"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-03T04:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/02/ap26267859009436-1790916157-3215-1790916209.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=OOgkXv0wY9TVNatYCbHF2w",
-      "contentSnippet": "CEO Meta Mark Zuckerberg được đánh giá đóng vai trò chính trong thỏa thuận về AI \"có tính ràng buộc đạo đức\" mà Nhà Trắng công bố đầu tuần.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "dffec3f7cbe0820a",
-      "title_vi": "Bộ đôi điện thoại thông minh cao cấp mới giúp Apple vươn lên dẫn đầu thị trường Trung Quốc",
-      "title_en": "New flagship smartphones help Apple rise to the top of the Chinese market",
-      "summary_vi": [
-        "Dù không có nhiều cải tiến đột phá so với thế hệ trước, bộ đôi thiết bị di động cao cấp mới vẫn đạt kết quả kinh doanh vượt kỳ vọng tại thị trường Trung Quốc.",
-        "Báo cáo nghiên cứu thị trường ghi nhận mức thị phần tăng vọt chỉ sau vài ngày mở bán chính thức, với doanh số đầu kỳ cao hơn đáng kể so với cùng kỳ năm ngoái.",
-        "Thành công bất ngờ này cho thấy sức hút mạnh mẽ của hệ sinh thái phần cứng di động cao cấp, bất chấp việc chuỗi cung ứng gặp một vài gián đoạn về lịch trình."
-      ],
-      "summary_en": [
-        "Despite lacking major breakthrough improvements compared to the previous generation, the new flagship mobile devices still achieved business results exceeding expectations in the Chinese market.",
-        "Market research reports recorded a surging market share just days after the official launch, with initial sales figures significantly higher than the same period last year.",
-        "This unexpected success demonstrates the strong appeal of the high-end mobile hardware ecosystem, despite minor supply chain disruptions affecting product launch schedules."
-      ],
-      "originalTitle": "iPhone 18 Pro giúp Apple vươn lên vị trí số một Trung Quốc",
-      "url": "https://vnexpress.net/iphone-18-pro-giup-apple-vuon-len-vi-tri-so-mot-trung-quoc-5126831.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "Smartphone",
-        "Mobile",
-        "Hardware",
-        "Market Trends"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-03T03:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/09/30/dscf9872-1790777081-1950-1790777245.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=5P4ZLa0avhWagJ8wBT6YWg",
-      "contentSnippet": "Dù không có nhiều đột phá so với thế hệ trước, bộ đôi iPhone 18 Pro và 18 Pro Max vẫn ghi nhận kết quả kinh doanh vượt kỳ vọng tại Trung Quốc.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0397af41e7b54509",
-      "title_vi": "Lỗ hổng hạt nhân Linux vừa xuất hiện: Cẩm nang vá lỗi thực tế cho các nhóm phát triển nhỏ",
-      "title_en": "A Linux Kernel CVE Just Dropped: A Practical Patching Playbook for Small Teams",
-      "summary_vi": [
-        "Bài viết phân tích tình huống khẩn cấp khi một lỗ hổng bảo mật hạt nhân Linux mới được công bố và cách các đội ngũ kỹ thuật nhỏ đối phó.",
-        "Tài liệu cung cấp quy trình đánh giá rủi ro, chiến lược kiểm thử bản vá và phương pháp triển khai cập nhật hệ thống một cách an toàn và hiệu quả.",
-        "Đây là tài liệu tham khảo thiết thực giúp các kỹ sư tối ưu hóa quy trình xử lý sự cố bảo mật mà không làm gián đoạn hệ thống sản xuất."
-      ],
-      "summary_en": [
-        "The article analyzes the emergency situation when a new Linux kernel security vulnerability is published and how small engineering teams cope with it.",
-        "The document provides a risk assessment process, patch testing strategies, and methods for safely and effectively deploying system updates.",
-        "This is a practical reference that helps engineers optimize their security incident response workflows without disrupting production systems."
-      ],
-      "originalTitle": "A Linux Kernel CVE Just Dropped. Now What? A Practical Patching Playbook for Small Teams",
-      "url": "https://viblo.asia/p/a-linux-kernel-cve-just-dropped-now-what-a-practical-patching-playbook-for-small-teams-K9Vy82MxLQR",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Linux",
-        "Kernel",
-        "Security",
-        "DevOps",
-        "Patching"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-02T23:19:55.000Z",
-      "contentSnippet": "",
-      "authorName": "EME GUG",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4be7cfcbd6cc6cf1",
-      "title_vi": "Táo khuyết thay đổi quyền truy cập ổ đĩa đầy đủ trên hệ điều hành để ngăn chặn việc lạm dụng từ các trợ lý trí tuệ nhân tạo",
-      "title_en": "Apple changes full-disk access permissions to curb abuse from AI agents",
-      "summary_vi": [
-        "Hãng công nghệ lớn đã quyết định thay đổi các thiết lập bảo mật trên hệ điều hành máy tính nhằm ngăn chặn các nhà phát triển ứng dụng bên thứ ba lợi dụng để truy cập trái phép vào lịch sử tin nhắn của người dùng.",
-        "Sự việc bắt nguồn từ khi một chuyên gia công nghệ phát hiện trợ lý trí tuệ nhân tạo mới của Meta tự động gửi thông báo liên quan đến đoạn chat riêng tư mà không hề được cấp quyền đọc dữ liệu tin nhắn trước đó.",
-        "Động thái này nhấn mạnh tầm quan trọng của việc siết chặt các quyền cấp độ hệ thống như truy cập ổ đĩa đầy đủ, giúp bảo vệ dữ liệu nhạy cảm trước rủi ro từ các công cụ tự động hóa thông minh."
-      ],
-      "summary_en": [
-        "The major tech company decided to modify privacy settings on its desktop operating system to prevent third-party application developers from misusing them to access users private message histories without proper authorization.",
-        "The incident began when a technology columnist discovered that Meta's new artificial intelligence assistant automatically sent notifications referencing private chat threads despite never being explicitly granted message reading permissions.",
-        "This move highlights the critical importance of tightening system-level privileges such as full-disk access, helping safeguard sensitive user data against potential security risks posed by intelligent automation tools."
-      ],
-      "originalTitle": "Apple changes full-disk access permissions to curb abuse from AI agents",
-      "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Apple",
-        "macOS",
-        "Cybersecurity",
-        "AI",
-        "Privacy"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-02T23:03:16.000Z",
-      "contentSnippet": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
-      "authorName": "\n                    Dan Goodin\n                ",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "038134d95b4f933e",
-      "title_vi": "Meta phát hành mã nguồn mở giúp nhà phát triển tự chế tạo thiết bị thông minh tích hợp trí tuệ nhân tạo",
-      "title_en": "Meta open sources code to let you make Muse AI gadgets",
-      "summary_vi": [
-        "Tập đoàn công nghệ Meta vừa chính thức công bố mã nguồn mở cho phép cộng đồng lập trình viên tự xây dựng các thiết bị phần cứng thông minh tích hợp hệ thống trợ lý ảo trí tuệ nhân tạo hoàn toàn mới.",
-        "Bộ công cụ phát triển phần mềm cung cấp khả năng lập trình linh hoạt trên các bo mạch vi điều khiển phổ biến như ESP32 hoặc thiết bị nhúng thu nhỏ Raspberry Pi kết hợp với màn hình hiển thị và cảm biến.",
-        "Sáng kiến này mở ra hướng đi mới cho việc ứng dụng trí tuệ nhân tạo vào các thiết bị phần cứng tự chế, giúp tối ưu hóa chi phí nghiên cứu và thúc đẩy hệ sinh thái thiết bị thông minh."
-      ],
-      "summary_en": [
-        "Technology giant Meta has officially released open source code allowing the developer community to build smart hardware devices integrated with a brand new artificial intelligence virtual assistant system.",
-        "The software development kit provides flexible programming capabilities on popular microcontroller boards like ESP32 or compact embedded devices like Raspberry Pi combined with displays and sensors.",
-        "This initiative opens up a new direction for applying artificial intelligence to homemade hardware devices, helping to optimize research costs and promote the smart device ecosystem."
-      ],
-      "originalTitle": "Meta open sources code to let you make Muse AI gadgets",
-      "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Meta",
-        "AI Agent",
-        "Open Source",
-        "ESP32",
-        "Raspberry Pi"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-02T21:08:37.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_B.png?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or putting Mus",
-      "authorName": "Jay Peters",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "78bf3aff5dedfe2e",
-      "title_vi": "Ngôn ngữ lập trình Zig phiên bản 0.17.0",
-      "title_en": "Zig v0.17.0 Release",
-      "summary_vi": [
-        "Ngôn ngữ lập trình hệ thống Zig vừa chính thức ra mắt phiên bản v0.17.0 sau năm tháng phát triển tích cực với sự đóng góp mạnh mẽ từ hàng trăm lập trình viên trên toàn cầu nhằm cải thiện chất lượng mã nguồn.",
-        "Bản phát hành quan trọng này mang đến nhiều cải tiến lớn bao gồm việc thiết kế lại hệ thống xây dựng tích hợp Giao thức máy chủ xây dựng và nâng cấp trình liên kết ELF hỗ trợ biên dịch gia tăng cho mọi hệ thống Linux.",
-        "Động thái cập nhật này giúp củng cố độ ổn định cho các nền tảng phần cứng khác nhau, tối ưu hóa quy trình phát triển phần mềm và thúc đẩy dự án tiến gần hơn tới mốc phát hành chính thức phiên bản một chấm không."
-      ],
-      "summary_en": [
-        "The Zig systems programming language has officially released version v0.17.0 following five months of active development featuring substantial contributions from hundreds of global developers aimed at improving codebase quality.",
-        "This major release introduces significant enhancements including a reworked build system integrating the Build Server Protocol and an upgraded ELF linker supporting incremental compilation for all Linux systems.",
-        "This update helps strengthen stability across various hardware platforms, optimizes software development workflows, and accelerates the project progress closer toward the official stable version one point zero milestone."
-      ],
-      "originalTitle": "Zig v0.17.0",
-      "url": "https://ziglang.org/download/0.17.0/release-notes.html",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Zig",
-        "Programming Language",
-        "Software Engineering",
-        "Compiler",
-        "Build System"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-02T20:56:36.000Z",
-      "contentSnippet": "Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software. Zig development is funded via Zig Software Foundation, a 501(c)(3) non-profit organization. Please consider a recurring donation so that we can offer more billable hours to our core te",
-      "authorName": "ErenayDev",
-      "upvotes": 60,
-      "commentsCount": 19
     }
   ]
 }
