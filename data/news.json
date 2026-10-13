@@ -1,7 +1,173 @@
 {
-  "lastUpdated": "2026-10-13T05:55:01.517Z",
+  "lastUpdated": "2026-10-13T13:17:44.270Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "ff794cf04ec43f8b",
+      "title_vi": "DeepSeek V4.1 Flash tiết kiệm chi phí hơn GPT-6 Astra: Tại sao xác định đúng nguyên nhân lỗi chưa đồng nghĩa với việc sửa lỗi thành công?",
+      "title_en": "DeepSeek V4.1 Flash vs GPT-6 Astra: Why Identifying Root Causes Does Not Guarantee Successful Bug Resolution",
+      "summary_vi": [
+        "Bài viết phân tích sự khác biệt giữa khả năng chẩn đoán lỗi tự động và quá trình thực thi sửa lỗi thực tế thông qua các ví dụ cụ thể từ thư viện kiểm thử pytest trong môi trường phát triển phần mềm chuyên nghiệp.",
+        "Tác giả đi sâu vào quy trình kỹ thuật từ việc xác định nguyên nhân gốc rễ, lựa chọn phạm vi thay đổi mã nguồn cho đến việc kiểm chứng bản vá để đảm bảo tính ổn định và hiệu suất của hệ thống phần mềm.",
+        "Thông qua việc so sánh hiệu quả chi phí giữa các mô hình AI hiện đại, bài viết rút ra bài học quan trọng về giới hạn của trí tuệ nhân tạo trong việc xử lý các logic nghiệp vụ phức tạp và bảo trì mã nguồn."
+      ],
+      "summary_en": [
+        "The article analyzes the distinction between automated bug diagnosis capabilities and the actual execution of software fixes, using specific examples from the pytest library within a professional software development environment.",
+        "The author explores the technical process from identifying root causes and selecting code modification scopes to verifying patches to ensure system stability and performance in complex software architectures.",
+        "By comparing cost-efficiency between modern AI models, the article highlights critical lessons regarding the limitations of artificial intelligence in handling complex business logic and long-term software maintenance tasks."
+      ],
+      "originalTitle": "DeepSeek V4.1 Flash tốn ít chi phí hơn GPT-6 Astra: Vì sao tìm đúng nguyên nhân chưa có nghĩa là sửa xong lỗi?",
+      "url": "https://viblo.asia/p/deepseek-v41-flash-ton-it-chi-phi-hon-gpt-6-astra-vi-sao-tim-dung-nguyen-nhan-chua-co-nghia-la-sua-xong-loi-ZjJYWRR0VOE",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "AI",
+        "Software Engineering",
+        "Debugging",
+        "pytest",
+        "DeepSeek"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T17:02:05.000Z",
+      "contentSnippet": "Từ hai lỗi thật của pytest, phân biệt khả năng tìm nguyên nhân, chọn phạm vi sửa và hoàn tất bản vá. Ảnh bìa tạo bằng gpt-image-2; đây là minh họa, k...",
+      "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "359da823cc8abb68",
+      "title_vi": "GPT-6 Astra là gì? Hướng dẫn tích hợp API và kiểm chứng kết quả trong ứng dụng",
+      "title_en": "What is GPT-6 Astra? Instructions for integrating API and verifying results in the application",
+      "summary_vi": [
+        "Từ dữ liệu đầu vào đến kết quả có thể kiểm tra trong ứng dụng.",
+        "Khi tích hợp một mô hình ngôn ngữ vào ứng dụng, phần khó thường không nằm ở chỗ gọi đư.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến GPT-6 Astra là gì? Hướng dẫn tích hợp API và kiểm chứng kết quả trong ứng dụng."
+      ],
+      "summary_en": [
+        "From input data to testable results in the application.",
+        "When integrating a language model into an application, the hard part is often not in calling it.",
+        "Practical engineering impact and actionable takeaways for developers building with What is GPT-6 Astra? Instructions for integrating API and verifying results in the application."
+      ],
+      "originalTitle": "GPT-6 Astra là gì? Hướng dẫn tích hợp API và kiểm chứng kết quả trong ứng dụng",
+      "url": "https://viblo.asia/p/gpt-6-astra-la-gi-huong-dan-tich-hop-api-va-kiem-chung-ket-qua-trong-ung-dung-G24B8WW5Lz3",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "MachineLearning"
+      ],
+      "hotScore": 96,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-13T16:17:14.000Z",
+      "contentSnippet": "Từ dữ liệu đầu vào đến kết quả có thể kiểm tra trong ứng dụng. Khi tích hợp một mô hình ngôn ngữ vào ứng dụng, phần khó thường không nằm ở chỗ gọi đư...",
+      "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "36531b8b5677585e",
+      "title_vi": "Apple ra mắt HomeView: Màn hình 7 inch tích hợp Siri AI, giá 299 đô, Việt Nam không bán",
+      "title_en": "Apple launches HomeView: 7-inch screen with integrated Siri AI, priced at $299, not sold in Vietnam",
+      "summary_vi": [
+        "Apple vừa giới thiệu HomeView, thiết bị màn hình 7 inch dành cho gia đình, gộp nghe nhạc, gọi FaceTime và điều khiển nhà thông minh vào một chỗ.",
+        "Máy mở đặt trước từ ngày 13/10 ở nhiều thị trường, giao hàng từ 13/11.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Apple ra mắt HomeView: Màn hình 7 inch tích hợp Siri AI, giá 299 đô, Việt Nam không bán."
+      ],
+      "summary_en": [
+        "Apple has just introduced HomeView, a 7-inch screen device for the home that combines music listening, FaceTime calling and smart home control into one place.",
+        "The device opens for pre-order from October 13 in many markets, shipping from November 13.",
+        "Practical engineering impact and actionable takeaways for developers building with Apple launches HomeView: 7-inch screen with integrated Siri AI, priced at $299, not sold in Vietnam."
+      ],
+      "originalTitle": "Apple ra mắt HomeView: Màn hình 7 inch tích hợp Siri AI, giá 299 đô, Việt Nam không bán",
+      "url": "https://genk.vn/apple-ra-mat-homeview-man-hinh-7-inch-tich-hop-siri-ai-gia-299-do-len-ke-tu-13-11-165261013201015951.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Apple"
+      ],
+      "hotScore": 98,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-13T13:09:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/13/apple-homeview-lineup-261013full-bleed-imagejpglarge-0-75-810-1371-crop-17918968629722016589577.jpg",
+      "contentSnippet": "Thiết bị đặt bàn hoặc treo tường nhận diện khuôn mặt để mở nội dung riêng cho tối đa 6 người trong nhà.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f535b56304559886",
+      "title_vi": "Apple TV 4K thế hệ thứ tư tích hợp micro hỗ trợ trí tuệ nhân tạo Siri",
+      "title_en": "The new Apple TV 4K has built-in microphones so you can talk to Siri AI",
+      "summary_vi": [
+        "Apple vừa chính thức công bố phiên bản Apple TV 4K thế hệ thứ tư tại sự kiện Welcome Home, mang đến những nâng cấp phần cứng đáng chú ý nhằm cải thiện trải nghiệm điều khiển thiết bị thông minh trong hệ sinh thái gia đình.",
+        "Thiết bị được trang bị hệ thống micro trường xa cho phép tương tác trực tiếp với trợ lý ảo Siri, đồng thời hỗ trợ tính năng rạp hát tại gia cho phép kết nối đồng bộ bốn loa HomePod hoặc HomePod Mini để tạo âm thanh vòm.",
+        "Với mức giá khởi điểm 299 USD, sản phẩm này đánh dấu bước tiến mới của Apple trong việc tích hợp sâu trí tuệ nhân tạo vào các thiết bị giải trí gia đình, tạo ra tiêu chuẩn mới cho trải nghiệm người dùng trong không gian kỹ thuật số."
+      ],
+      "summary_en": [
+        "Apple has officially announced the fourth-generation Apple TV 4K at the Welcome Home event, introducing significant hardware upgrades designed to enhance the control experience of smart devices within the company's home ecosystem.",
+        "The device features a far-field microphone array for hands-free interaction with the Siri AI assistant, alongside a new home theater capability that allows pairing up to four HomePod or HomePod Mini units for immersive surround sound.",
+        "Priced at 299 USD, this product represents a strategic move by Apple to integrate artificial intelligence deeper into home entertainment hardware, setting a new benchmark for user experience within the modern digital living space."
+      ],
+      "originalTitle": "The new Apple TV 4K has built-in microphones so you can talk to Siri AI",
+      "url": "https://www.theverge.com/tech/1009663/apple-tv-4k-siri-ai-microphones-4th-gen-announced",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Apple",
+        "Siri",
+        "AI",
+        "HomePod",
+        "Hardware"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-13T13:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Apple-TV-4K.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Apple TV 4K (4th gen) has the same look as the previous model but with some under-the-hood improvements. | Image: Apple Apple is introducing a refreshed Apple TV 4K today with a pair of interesting new hardware features: far-field microphones to talk to Siri hands-free and Find My built into the rem",
+      "authorName": "Jennifer Pattison Tuohy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "308ef7f0064991b3",
+      "title_vi": "Apple ra mắt loa thông minh HomePod Mini thế hệ thứ hai với chip xử lý mới hỗ trợ trí tuệ nhân tạo",
+      "title_en": "Apple announces the HomePod Mini 2, but it isn’t ready for Siri AI at launch",
+      "summary_vi": [
+        "Apple vừa chính thức công bố phiên bản kế nhiệm của dòng loa thông minh HomePod Mini với nhiều cải tiến về phần cứng, đặc biệt là việc tích hợp con chip mới có khả năng xử lý các tác vụ trí tuệ nhân tạo nâng cao trong tương lai.",
+        "Thiết bị được trang bị tính năng đồng bộ ánh sáng LED theo bìa album nhạc, khả năng thiết lập làm loa mặc định cho máy tính Mac và hỗ trợ kết nối bốn loa cùng lúc với Apple TV 4K để tạo hiệu ứng âm thanh vòm sống động.",
+        "Dù sở hữu phần cứng mạnh mẽ, các tính năng AI của trợ lý ảo Siri sẽ chưa khả dụng ngay khi sản phẩm lên kệ, đánh dấu một bước chuyển dịch chiến lược của Apple trong việc tích hợp sâu hơn các mô hình ngôn ngữ vào hệ sinh thái phần cứng."
+      ],
+      "summary_en": [
+        "Apple has officially announced the successor to its popular HomePod Mini smart speaker, featuring upgraded hardware and a new processor specifically designed to handle advanced artificial intelligence tasks and future software updates for the device.",
+        "The speaker introduces dynamic LED lighting that syncs with album artwork, native support as a default output for Mac computers, and the ability to pair four units with Apple TV 4K for an immersive surround sound experience.",
+        "Despite the hardware improvements, the promised AI-driven Siri features will not be available at launch, highlighting Apple's cautious approach to deploying complex machine learning models across its consumer hardware ecosystem and smart home product lineup."
+      ],
+      "originalTitle": "Apple announces the HomePod Mini 2, but it isn’t ready for Siri AI at launch",
+      "url": "https://www.theverge.com/tech/1009672/homepod-mini-2-announced-apple-siri-ai",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Apple",
+        "HomePod",
+        "AI",
+        "Siri",
+        "SmartHome"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T13:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Apple-HomePod-mini-2-color-lineup.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "The HomePod Mini 2. | Image: Apple Apple is announcing the long-awaited HomePod Mini 2 with a new chip that can power Siri AI - but support for those new AI features won't be available at launch. The speaker is also getting a new sound glow feature that syncs its LED lights with a song's album art, ",
+      "authorName": "Jennifer Pattison Tuohy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "20b65ba63203118e",
       "title_vi": "Bài 3: Xây dựng hệ sinh thái Microservices với Docker Compose gồm Go, PostgreSQL và Redis",
@@ -104,6 +270,74 @@
       "commentsCount": 0
     },
     {
+      "id": "e011cc3858c1d4e2",
+      "title_vi": "Phát hiện lỗi nghiêm trọng tồn tại 11 năm trong cơ chế kiểm soát quyền sở hữu của Rust",
+      "title_en": "11 year old unsoundness bugs found in Rust borrow checker",
+      "summary_vi": [
+        "Cộng đồng lập trình vừa phát hiện các lỗ hổng bảo mật nghiêm trọng liên quan đến tính không an toàn trong bộ kiểm soát quyền sở hữu của ngôn ngữ Rust, một thành phần cốt lõi đảm bảo quản lý bộ nhớ an toàn cho hệ thống.",
+        "Các lỗi này tồn tại suốt hơn một thập kỷ, cho phép thực thi mã không an toàn thông qua các kịch bản phức tạp liên quan đến vòng đời biến và tham chiếu, thách thức cam kết về độ tin cậy tuyệt đối của trình biên dịch Rust.",
+        "Sự kiện này nhấn mạnh tầm quan trọng của việc kiểm định mã nguồn chuyên sâu trong các ngôn ngữ lập trình hiện đại, đồng thời thúc đẩy đội ngũ phát triển Rust nhanh chóng đưa ra các bản vá lỗi nhằm củng cố tính toàn vẹn của hệ thống."
+      ],
+      "summary_en": [
+        "The programming community has identified critical unsoundness vulnerabilities within the Rust borrow checker, a fundamental component responsible for ensuring memory safety and preventing data races during the compilation process of the language.",
+        "These bugs have persisted for over a decade, potentially allowing unsafe code execution through complex scenarios involving variable lifetimes and references, challenging the long-standing reputation of the Rust compiler for absolute memory safety.",
+        "This discovery highlights the necessity of rigorous formal verification in modern programming languages and has prompted the Rust development team to prioritize patches to maintain the integrity and reliability of the language ecosystem."
+      ],
+      "originalTitle": "11 year old unsoundness bugs found in Rust borrow checker",
+      "url": "https://github.com/rust-lang/rust/issues/164250",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Rust",
+        "Programming",
+        "Cybersecurity",
+        "Compiler",
+        "MemorySafety"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T10:27:00.000Z",
+      "contentSnippet": "11 year old unsoundness bugs found in Rust borrow checker",
+      "authorName": "formerly_proven",
+      "upvotes": 269,
+      "commentsCount": 138
+    },
+    {
+      "id": "a5629ff3a2ef38f9",
+      "title_vi": "Sử dụng gói đăng ký OpenAI để tạo sách nói từ tài liệu",
+      "title_en": "Show HN: Use your OpenAI subscription to create audiobooks",
+      "summary_vi": [
+        "Dự án mới giới thiệu cách tận dụng gói đăng ký OpenAI hiện có để chuyển đổi các tài liệu văn bản thành sách nói chuyên nghiệp thông qua việc tích hợp trực tiếp vào môi trường làm việc Codex của người dùng.",
+        "Giải pháp sử dụng kiến trúc MCP server để kết nối PDF với trình chuyển đổi âm thanh, cho phép người dùng gửi tệp PDF trực tiếp vào AI chat để thực hiện quy trình xử lý giọng nói tự động từ Google hoặc OpenAI.",
+        "Công cụ này mang lại giá trị thực tiễn cao cho các lập trình viên muốn tối ưu hóa quy trình tiêu thụ nội dung, giúp chuyển đổi tài liệu kỹ thuật phức tạp thành định dạng âm thanh để nghe mọi lúc mọi nơi."
+      ],
+      "summary_en": [
+        "A new project introduces a method to leverage existing OpenAI subscriptions for converting text documents into professional audiobooks by integrating directly into the user's Codex development environment for seamless workflow automation.",
+        "The solution utilizes an MCP server architecture to connect PDF files with speech synthesis engines, allowing users to upload documents directly into an AI chat interface to trigger automated audio generation processes.",
+        "This tool provides significant practical value for developers looking to optimize content consumption, enabling the transformation of complex technical documentation into audio formats for convenient listening during daily routines."
+      ],
+      "originalTitle": "Show HN: Use your OpenAI subscription to create audiobooks",
+      "url": "https://pdftomp3.com/connect-ai/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "OpenAI",
+        "MCP",
+        "Automation",
+        "Audiobook"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-13T10:08:34.000Z",
+      "contentSnippet": "Use your subscription to process the documents. The speech generation is billed by Google or OpenAI. In Codex, open Settings → Plugins → Add MCP server. Choose Streamable HTTP and paste this server address. Save, then choose Authenticate and connect your PDF TO MP3 account. Attach a PDF in your AI c",
+      "authorName": "janpmz",
+      "upvotes": 72,
+      "commentsCount": 42
+    },
+    {
       "id": "e5014cb53dca551b",
       "title_vi": "Chạy mô hình ngôn ngữ lớn chuyên gia hỗn hợp vượt quá dung lượng RAM: Hướng dẫn thực tế về ánh xạ bộ nhớ, giảm tải chuyên gia và truyền phát ổ cứng rắn với llama.cpp",
       "title_en": "Running MoE LLMs Larger Than Your RAM: A Practical Guide to mmap, Expert Offloading and SSD Streaming with llama.cpp",
@@ -138,6 +372,41 @@
       "commentsCount": 0
     },
     {
+      "id": "29ef9548fbd9f6b4",
+      "title_vi": "Ngựa ô ngành bán dẫn thách thức vị thế thống trị của Nvidia",
+      "title_en": "The Semiconductor Dark Horse Challenging Nvidia's Market Dominance",
+      "summary_vi": [
+        "Cerebras Systems đang nổi lên như một đối thủ đáng gờm trong lĩnh vực bán dẫn AI, thu hút sự chú ý lớn từ giới đầu tư sau khi niêm yết thành công trên sàn chứng khoán Nasdaq với mức định giá gần 100 tỷ USD.",
+        "Thay vì cắt nhỏ tấm silicon, công ty này chế tạo bộ vi xử lý AI khổng lồ WSE-3 với diện tích bề mặt lên tới 46.225 mm², lớn gấp 57 lần so với các dòng GPU cao cấp nhất hiện nay của Nvidia.",
+        "Giải pháp chip đơn khối này giúp tối ưu hóa năng lực tính toán và bộ nhớ, cho phép các mô hình trí tuệ nhân tạo vận hành với tốc độ vượt trội, mở ra hướng đi mới cho hạ tầng phần cứng phục vụ AI."
+      ],
+      "summary_en": [
+        "Cerebras Systems is emerging as a formidable competitor in the AI semiconductor sector, attracting significant investor attention following a successful Nasdaq IPO that pushed the company's market valuation toward the 100 billion dollar mark.",
+        "Instead of dicing silicon wafers, the company manufactures the massive WSE-3 AI processor with a surface area of 46,225 square millimeters, which is approximately 57 times larger than Nvidia's most advanced flagship GPU models.",
+        "This monolithic chip architecture optimizes computational power and memory bandwidth, enabling AI models to execute at unprecedented speeds and establishing a new paradigm for high-performance hardware infrastructure in the artificial intelligence industry."
+      ],
+      "originalTitle": "'Ngựa ô' ngành bán dẫn thách thức thế độc tôn của Nvidia",
+      "url": "https://vnexpress.net/ngua-o-nganh-ban-dan-thach-thuc-the-doc-ton-cua-nvidia-5131419.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Semiconductors",
+        "AI",
+        "Hardware",
+        "Cerebras",
+        "Nvidia"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T07:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/12/VNEChip-1791799934-6053-1791800174.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=I4DyMYLkQC4YQ7iLry4uKg",
+      "contentSnippet": "Cerebras Systems đang được ví như \"cơn ác mộng của Nvidia\" với sản phẩm chủ lực là dòng chip lớn bằng chiếc đĩa có tốc độ xử lý siêu nhanh.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "deae1ca40760ecc6",
       "title_vi": "ESIM đang dần tốt hơn nhưng vì sao người dùng vẫn còn e ngại khi sử dụng?",
       "title_en": "Why Users Are Still Hesitant to Adopt eSIM Despite Its Recent Improvements",
@@ -168,6 +437,37 @@
       "publishedAt": "2026-10-13T05:50:30.000Z",
       "contentSnippet": "ESIM tại Việt Nam vẫn vướng tâm lý ngại đổi, phí chuyển đổi và quy trình phức tạp. Nhưng khi smartphone dần bỏ khay SIM khép, eSIM sẽ trở thành xu hướng tất yếu. Thực tế thì nhiều anh em đã biết...",
       "authorName": "Trung Dt",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "baca2c1964bce9eb",
+      "title_vi": "Tranh cãi iPhone 18 Pro mất dần sức hút",
+      "title_en": "The iPhone 18 Pro controversy is losing its appeal",
+      "summary_vi": [
+        "Sức mua iPhone 18 Pro và 18 Pro Max được cho là thấp hơn kỳ vọng nên Apple đã yêu cầu nhà cung cấp cắt giảm sản lượng linh kiện.",
+        "Nikkei Asia dẫn nguồn tin từ chuỗi cung ứng linh kiện rằng Apple đã điều chỉnh giảm đơn đặt hàng do sức mua dòng iPhone 18 Pro không như mong đợi.",
+        "Một nhà cung cấp nói Apple đã tỏ ra thận trọng ngay từ đầu tháng 9, trước khi sản phẩm chính thức được bán ra."
+      ],
+      "summary_en": [
+        "Purchasing power for iPhone 18 Pro and 18 Pro Max is said to be lower than expected, so Apple has asked suppliers to cut component production.",
+        "Nikkei Asia cited sources from the component supply chain that Apple has adjusted orders to reduce because the purchasing power of the iPhone 18 Pro series is not as expected.",
+        "A supplier said Apple had been cautious since early September, before the product was officially sold."
+      ],
+      "originalTitle": "Tranh cãi iPhone 18 Pro mất dần sức hút",
+      "url": "https://vnexpress.net/tranh-cai-iphone-18-pro-mat-dan-suc-hut-5131460.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T05:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/13/wm1-wm1-wm1-apple-store-tq-1791862-2258-2111-1791863184.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=URPfbUPcavPZLsEv0zl7xA",
+      "contentSnippet": "Sức mua iPhone 18 Pro và 18 Pro Max được cho là thấp hơn kỳ vọng nên Apple đã yêu cầu nhà cung cấp cắt giảm sản lượng linh kiện.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -271,6 +571,40 @@
       "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/12/image-1791800367-2540-1791800566.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=lXKZ-jdksuBqw7Kw-ceuKw",
       "contentSnippet": "Giám đốc AI Meta Alexandr Wang cho biết việc đăng hàng loạt nội dung meme về trợ lý Muse là để giúp công ty \"trở nên thú vị trở lại\".",
       "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "18dbc19f5c49c3c0",
+      "title_vi": "TCRM Delivery Connect: Giải pháp bảo mật cuộc gọi giao nhận của TriAnh Solutions",
+      "title_en": "TCRM Delivery Connect: TriAnh Solutions' Secure Delivery Call Masking Solution",
+      "summary_vi": [
+        "Sự bùng nổ của thương mại điện tử khiến việc bảo mật thông tin khách hàng trong quá trình giao nhận trở nên cấp thiết hơn bao giờ hết, đòi hỏi các doanh nghiệp phải áp dụng những công nghệ mới để bảo vệ dữ liệu cá nhân người dùng.",
+        "Giải pháp TCRM Delivery Connect sử dụng cơ chế ẩn danh hóa số điện thoại thông qua hệ thống tổng đài ảo, cho phép shipper và khách hàng liên lạc trực tiếp mà không cần tiết lộ số điện thoại thực tế của cả hai bên.",
+        "Công nghệ này giúp doanh nghiệp tối ưu hóa quy trình quản lý vận hành, giảm thiểu rủi ro rò rỉ dữ liệu khách hàng và nâng cao uy tín thương hiệu trong mắt người tiêu dùng thông qua việc tuân thủ các tiêu chuẩn bảo mật hiện đại."
+      ],
+      "summary_en": [
+        "The rapid growth of e-commerce makes protecting customer information during delivery processes critical, necessitating the adoption of advanced technologies by enterprises to safeguard sensitive user data from potential exposure and unauthorized access.",
+        "The TCRM Delivery Connect solution utilizes a virtual PBX-based phone number masking mechanism, enabling shippers and customers to communicate directly without revealing their actual phone numbers to either party during the delivery process.",
+        "This technology helps businesses optimize operational management workflows, minimize the risk of customer data breaches, and enhance brand reputation by strictly adhering to modern security standards and privacy regulations in the logistics sector."
+      ],
+      "originalTitle": "[QC] TCRM Delivery Connect: Giải pháp bảo mật cuộc gọi giao nhận của TriAnh Solutions",
+      "url": "https://tinhte.vn/thread/qc-tcrm-delivery-connect-giai-phap-bao-mat-cuoc-goi-giao-nhan-cua-trianh-solutions.4183716/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Data Privacy",
+        "Logistics Tech",
+        "VoIP",
+        "API"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-13T02:49:03.000Z",
+      "contentSnippet": "Đặt hàng online ngày càng phổ biến, tuy nhiên, việc sử dụng thông tin cá nhân trong quá trình giao nhận có thể khiến cả người dùng và doanh nghiệp gặp khó khăn trong quản lý dữ liệu, kiểm soát...",
+      "authorName": "TTKM",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -1538,6 +1872,42 @@
       "authorName": "albertzeyer",
       "upvotes": 286,
       "commentsCount": 466
+    },
+    {
+      "id": "30f63d31bb099100",
+      "title_vi": "Hacktoberfest 2026: Bùng nổ với hơn 3.000 dự án trí tuệ nhân tạo mã nguồn mở",
+      "title_en": "Hacktoberfest 2026: Over 3,000 Open-Source AI Projects Launched in One Weekend",
+      "summary_vi": [
+        "Sự kiện Hacktoberfest năm nay đánh dấu bước ngoặt quan trọng khi chuyển trọng tâm sang các mô hình trí tuệ nhân tạo mã nguồn mở, khuyến khích cộng đồng lập trình viên toàn cầu cùng tham gia xây dựng và tùy chỉnh các công cụ AI.",
+        "Chỉ trong tuần đầu tiên, hơn 500 sự kiện tại 60 quốc gia đã được tổ chức, ghi nhận hơn 3.000 dự án thực tế bao gồm các nền tảng quản lý bệnh viện và công cụ hỗ trợ người khiếm thị dựa trên mô hình ngôn ngữ lớn.",
+        "Sáng kiến này không chỉ thúc đẩy kỹ năng thực hành cho lập trình viên mà còn tạo ra hệ sinh thái AI mở, giúp các công nghệ tiên tiến trở nên dễ tiếp cận và có khả năng tùy biến cao cho nhiều mục đích sử dụng khác nhau."
+      ],
+      "summary_en": [
+        "This year's Hacktoberfest marks a significant shift by focusing on open-source artificial intelligence, encouraging the global developer community to collaborate on building, modifying, and deploying various AI tools and models for diverse practical applications.",
+        "Within the first week, over 500 events across 60 countries were organized, resulting in more than 3,000 projects, including hospital management platforms and accessibility tools for the visually impaired powered by open-weight AI models.",
+        "The initiative enhances technical skills for developers while fostering an open AI ecosystem, making advanced technologies more accessible and adaptable for real-world problem solving across various industries and local community needs."
+      ],
+      "originalTitle": "One Weekend: 3,000 Open-Source AI Projects",
+      "url": "https://dev.to/dailycontext/one-weekend-3000-open-source-ai-projects-3g65",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "OpenSource",
+        "Hacktoberfest",
+        "MachineLearning",
+        "SoftwareDevelopment"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-11T19:43:45.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0ez8hua8zoepb31imryi.jpg",
+      "contentSnippet": "Every October for the past twelve years, developers around the world have taken part in...",
+      "authorName": "Jess Lee",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F264%2Fb75f6edf-df7b-406e-a56b-43facafb352c.jpg",
+      "upvotes": 51,
+      "commentsCount": 6
     },
     {
       "id": "4d21f4733b3f4185",
@@ -8179,380 +8549,6 @@
       "authorName": "elffjs",
       "upvotes": 253,
       "commentsCount": 136
-    },
-    {
-      "id": "5646ea427516a47d",
-      "title_vi": "Robot trí tuệ nhân tạo sở hữu hệ thống thần kinh thông minh và khả năng tự phục hồi",
-      "title_en": "AI Robot Equipped With Intelligent Nervous System And Self-Healing Capabilities",
-      "summary_vi": [
-        "Công ty LimX Dynamics vừa chính thức giới thiệu thế hệ robot tích hợp trí tuệ nhân tạo tiên tiến, đánh dấu bước đột phá lớn khi trang bị kiến trúc điện tử phát triển hoàn toàn trong nước để tối ưu hóa hiệu suất vận hành.",
-        "Hệ thống điện tử độc quyền này cho phép robot duy trì khả năng hoạt động ổn định ngay cả khi gặp sự cố phần cứng nghiêm trọng như hỏng khớp nối, đồng thời chống chịu hiệu quả trước các cuộc tấn công mạng và mã độc xâm nhập.",
-        "Sự kiện này mở ra hướng đi mới trong việc thiết kế kiến trúc phần cứng kết hợp phần mềm thông minh cho robot tự trị, nâng cao tiêu chuẩn an toàn bảo mật và khả năng phục hồi tự động trong các môi trường công nghiệp khắc nghiệt."
-      ],
-      "summary_en": [
-        "LimX Dynamics has officially introduced a next-generation robot powered by advanced artificial intelligence, marking a major breakthrough by featuring an entirely domestically developed electronic architecture to optimize operational performance.",
-        "This proprietary electronic system enables the robot to maintain stable operation even when facing severe hardware failures such as damaged joints, while effectively withstanding cyber attacks and malware intrusions.",
-        "This milestone opens up new directions in designing hardware architectures combined with intelligent software for autonomous robots, raising safety standards and automated recovery capabilities in harsh industrial environments."
-      ],
-      "originalTitle": "Robot AI có 'hệ thần kinh' thông minh",
-      "url": "https://vnexpress.net/robot-ai-co-he-than-kinh-thong-minh-5127559.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Robotics",
-        "Cybersecurity",
-        "Hardware",
-        "Self-Healing Systems"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-04T00:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/02/VNERobot-1790916247-3505-1790916324.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ab7lku2KcSzH4huMRpvnxA",
-      "contentSnippet": "Công ty LimX Dynamics công bố robot AI đầu tiên trang bị kiến trúc điện tử phát triển hoàn toàn trong nước, có thể duy trì vận hành khi hỏng khớp nối, tấn công mạng và nhiễm virus.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "10bbda1eb3e46934",
-      "title_vi": "Meta mở mã nguồn dự án Muse Gadgets cho phép nhà phát triển tự chế tạo thiết bị chạy trí tuệ nhân tạo",
-      "title_en": "Meta Open-Sources Muse Gadgets Enabling Developers to Build Custom AI Agent Hardware",
-      "summary_vi": [
-        "Tập đoàn Meta vừa chính thức mở mã nguồn dự án Muse Gadgets cùng thiết bị phần cứng bổ trợ Muse Home Link nhằm hỗ trợ các nhà phát triển tự chế tạo các thiết bị phần cứng chuyên dụng chạy trợ lý ảo thông minh.",
-        "Giải pháp này cung cấp các tài nguyên phần cứng mã nguồn mở và giao thức kết nối linh hoạt, cho phép tích hợp trực tiếp các mô hình ngôn ngữ lớn và các tác nhân tự trị vào các thiết bị phần cứng thông minh trong gia đình.",
-        "Động thái này tạo ra bước đột phá lớn trong hệ sinh thái phần cứng trí tuệ nhân tạo, giúp các lập trình viên dễ dàng thử nghiệm và phát triển các sản phẩm phần cứng tích hợp trí tuệ nhân tạo với chi phí tối ưu."
-      ],
-      "summary_en": [
-        "Meta has officially open-sourced the Muse Gadgets project alongside the Muse Home Link hardware dongle to empower developers in building custom physical devices powered by advanced artificial intelligence agents.",
-        "This initiative provides open-source hardware blueprints and flexible communication protocols, enabling the seamless integration of large language models and autonomous software agents into everyday smart home appliances.",
-        "This move marks a significant breakthrough in the artificial intelligence hardware ecosystem, allowing software engineers to easily experiment and develop smart agent-driven devices with optimized deployment costs."
-      ],
-      "originalTitle": "Meta mở mã nguồn Muse Gadgets cho người dùng tự chế thiết bị chạy AI agent Muse, kèm dongle Muse...",
-      "url": "https://tinhte.vn/thread/meta-mo-ma-nguon-muse-gadgets-cho-nguoi-dung-tu-che-thiet-bi-chay-ai-agent-muse-kem-dongle-muse.4181472/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Open Source",
-        "Hardware",
-        "Meta",
-        "IoT"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-03T23:51:59.000Z",
-      "contentSnippet": "Meta mở mã nguồn Muse Gadgets cho người dùng tự chế thiết bị chạy AI agent Muse, kèm dongle Muse Home Link Meta vừa mở một dự án tên Muse Gadgets, cho các nhà phát triển tự làm phần cứng chạy...",
-      "authorName": "nhatminhngo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e720ea13e7a3855f",
-      "title_vi": "Bài 3: Cuộc cách mạng log/slog và ghi nhật ký có cấu trúc",
-      "title_en": "Part 3: The Log/Slog Revolution and Structured Logging",
-      "summary_vi": [
-        "Khi hệ thống phụ trợ phát triển từ một máy chủ đơn lẻ sang kiến trúc vi dịch vụ xử lý hàng ngàn yêu cầu mỗi giây, việc sử dụng các hàm in truyền thống gặp nhiều hạn chế.",
-        "Bài viết phân tích sâu về cách thức thư viện chuẩn log và slog cải thiện hiệu suất ghi nhật ký, giúp tối ưu hóa việc phân tích dữ liệu vận hành trong môi trường phân tán.",
-        "Giải pháp này mang lại giá trị thiết thực cho các kỹ sư phần mềm trong việc nâng cao khả năng gỡ lỗi, giám sát hệ thống và duy trì độ ổn định của ứng dụng."
-      ],
-      "summary_en": [
-        "As backend systems evolve from monolithic servers to microservices architectures handling thousands of requests per second, traditional printing methods face severe performance and parsing limitations.",
-        "The article provides an in-depth analysis of how standard logging libraries like log and slog improve logging efficiency and optimize operational data parsing in distributed environments.",
-        "This architectural solution delivers practical value for software engineers by enhancing debugging capabilities, system observability, and overall application reliability in production."
-      ],
-      "originalTitle": "Bài 3: Cuộc cách mạng log/slog và Structured Logging",
-      "url": "https://viblo.asia/p/bai-3-cuoc-cach-mang-logslog-va-structured-logging-oKLnqr9gJQO",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Backend",
-        "Go",
-        "Microservices",
-        "Logging",
-        "Software Architecture"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-03T23:03:24.000Z",
-      "contentSnippet": "Khi hệ thống backend của bạn phát triển từ một server đơn lẻ thành kiến trúc Microservices xử lý hàng ngàn request mỗi giây, việc sử dụng các hàm Prin...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "c2be3f4767871207",
-      "title_vi": "Kiểm Soát Chất Lượng Trí Tuệ Nhân Tạo: Quy Trình Danh Sách Kiểm Tra Trước Và Sau Khi Đánh Giá Mã Nguồn Dựa Trên Kế Hoạch Ban Đầu",
-      "title_en": "AI Quality Control: Pre and Post Code Review Checklist Processes Based on Original Planning",
-      "summary_vi": [
-        "Sự bùng nổ của các công cụ lập trình trí tuệ nhân tạo giúp tăng tốc độ sinh mã lên gấp nhiều lần, đồng thời đặt ra thách thức lớn về việc quản lý chất lượng và rủi ro kỹ thuật tiềm ẩn.",
-        "Bài viết đề xuất quy trình danh sách kiểm tra chi tiết được áp dụng trước và sau quá trình đánh giá mã nguồn nhằm đảm bảo mã do trí tuệ nhân tạo tạo ra tuân thủ chặt chẽ kiến trúc và kế hoạch ban đầu.",
-        "Giải pháp này mang lại giá trị thiết thực cho các kỹ sư phần mềm trong việc tối ưu hóa hiệu suất làm việc với công nghệ mới mà vẫn duy trì được tính bảo mật và sự ổn định vững chắc cho hệ thống."
-      ],
-      "summary_en": [
-        "The explosion of artificial intelligence coding tools dramatically accelerates code generation speeds while simultaneously introducing significant challenges regarding quality management and hidden technical risks.",
-        "The article proposes a detailed checklist process applied before and after code reviews to ensure that artificial intelligence generated code strictly adheres to the initial architecture and planning.",
-        "This solution delivers practical value for software engineers in optimizing productivity with new technologies while maintaining strong system security, reliability, and architectural stability."
-      ],
-      "originalTitle": "Kiểm Soát Chất Lượng AI: Quy Trình Checklist Trước Và Sau Khi Review Code Dựa Trên Kế Hoạch Ban Đầu",
-      "url": "https://viblo.asia/p/kiem-soat-chat-luong-ai-quy-trinh-checklist-truoc-va-sau-khi-review-code-dua-tren-ke-hoach-ban-dau-pPLkNbddJRZ",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "AI Code Generation",
-        "Code Review",
-        "Software Engineering",
-        "Quality Assurance"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-03T23:02:36.000Z",
-      "contentSnippet": "Khi sử dụng Claude Code hoặc các AI IDE, tốc độ sinh mã (code generation) có thể tăng gấp 10 lần. Tuy nhiên, tốc độ này đi kèm với một rủi ro chí mạng...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b4463f2bde110e6b",
-      "title_vi": "Quy trình 4 bước tìm nguyên nhân gốc rễ thay vì sửa mò trong Claude Code",
-      "title_en": "A 4-step root cause tracing process instead of blind debugging in Claude Code",
-      "summary_vi": [
-        "Việc ném trực tiếp các đoạn log lỗi vào công cụ Claude Code và yêu cầu sửa chữa ngay lập tức thường tạo ra lượng lớn mã nguồn rác do AI có xu hướng chiều lòng người dùng.",
-        "Bài viết đề xuất quy trình kỹ thuật bốn bước bao gồm việc cô lập lỗi, phân tích stack trace, rà soát logic thực thi và kiểm thử đơn vị trước khi tiến hành viết mã sửa lỗi.",
-        "Phương pháp này giúp lập trình viên kiểm soát tốt hơn chất lượng mã nguồn do AI tạo ra, hạn chế các lỗi phát sinh ngầm và nâng cao hiệu quả bảo trì phần mềm."
-      ],
-      "summary_en": [
-        "Dumping raw error logs directly into Claude Code and demanding immediate fixes often generates massive amounts of dirty code because AI tends to blindly please users.",
-        "The article proposes a rigorous four-step technical workflow involving error isolation, stack trace analysis, execution logic review, and unit testing before writing any patch.",
-        "This methodology helps developers maintain strict control over AI-generated code quality, minimizes hidden regression bugs, and significantly enhances long-term software maintainability."
-      ],
-      "originalTitle": "Quy trình 4 bước tìm nguyên nhân gốc rễ (Root cause tracing) thay vì sửa mò trong claude code",
-      "url": "https://viblo.asia/p/quy-trinh-4-buoc-tim-nguyen-nhan-goc-re-root-cause-tracing-thay-vi-sua-mo-trong-claude-code-AWVpX6aoV05",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "AI",
-        "Claude Code",
-        "Debugging",
-        "Software Engineering",
-        "Root Cause Analysis"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-03T22:52:41.000Z",
-      "contentSnippet": "Việc ném một đoạn log lỗi (stack trace) vào Claude Code và ra lệnh \"Sửa lỗi này cho tôi\" là cách nhanh nhất để tạo ra code rác. AI có xu hướng \"chiều ...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "773c0a0a407fba83",
-      "title_vi": "Số lượng người dùng AI tạo sinh tại Trung Quốc vượt mốc 700 triệu",
-      "title_en": "Generative AI Users in China Surpass 700 Million Milestone",
-      "summary_vi": [
-        "Trung Quốc trở thành quốc gia đầu tiên ghi nhận số lượng người dùng trí tuệ nhân tạo tạo sinh vượt mốc 700 triệu người trong nửa đầu năm 2026, với tỷ lệ thâm nhập thị trường đã vượt qua ngưỡng năm mươi phần trăm.",
-        "Báo cáo chi tiết cho thấy gần nửa số người dùng tận dụng các mô hình này để xử lý hình ảnh và video, trong khi phần còn lại tập trung vào việc tạo văn bản, tự động tóm tắt công việc và soạn thảo tài liệu họp.",
-        "Sự bùng nổ này phản ánh xu hướng áp dụng trợ lý AI đa năng và công cụ tối ưu hóa năng suất tăng gấp đôi so với năm trước, tạo ra động lực mạnh mẽ cho việc phát triển các ứng dụng thông minh trong tương lai."
-      ],
-      "summary_en": [
-        "China has become the first country to record generative AI users exceeding the 700 million milestone in the first half of 2026, achieving a market penetration rate of over fifty percent according to official institutional data.",
-        "Detailed reports indicate that nearly half of these active users leverage AI models for image and video processing, while others focus on text generation, automated meeting summarization, and workplace productivity tasks.",
-        "This remarkable surge reflects a doubling in the adoption of versatile AI assistants and productivity tools compared to the previous year, driving strong momentum for future intelligent application developments."
-      ],
-      "originalTitle": "Người dùng AI tạo sinh vượt mốc 700 triệu tại Trung Quốc",
-      "url": "https://vnexpress.net/nguoi-dung-ai-tao-sinh-vuot-moc-700-trieu-tai-trung-quoc-5127259.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Generative AI",
-        "Machine Learning",
-        "Tech Trends"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-03T22:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/01/6372ebe5a31049178c90b2c6-17908-9076-5509-1790850355.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=G20_BhmwcxJez_3K6-7E-A",
-      "contentSnippet": "Trung Quốc là nước đầu tiên có số người dùng AI tạo sinh vượt 700 triệu trong nửa đầu 2026, với tỷ lệ thâm nhập hơn 50%.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f2e470998ae6a24c",
-      "title_vi": "Kiến trúc dữ liệu: Tối ưu hóa điểm cuối API thông qua OpenAPI và gRPC cùng với giao diện web",
-      "title_en": "Data Architecture: Optimizing API Endpoints via OpenAPI and gRPC alongside Web Interfaces",
-      "summary_vi": [
-        "Bài viết tập trung phân định rõ ràng ranh giới giữa giao ước API dành cho các dịch vụ backend và giao diện hiển thị trực tiếp phía client thông qua các thành phần web tĩnh.",
-        "Giải pháp kiến trúc đề xuất cách tổ chức các tệp mã nguồn nhằm tối ưu hóa hiệu suất giao tiếp bằng cách kết hợp linh hoạt giữa giao thức OpenAPI hiện đại và gRPC hiệu năng cao.",
-        "Kiến thức này mang lại giá trị thực tiễn cao giúp các kỹ sư phần mềm xây dựng hệ thống phân tán mạch lạc, dễ bảo trì và mở rộng quy mô trong dự án thực tế."
-      ],
-      "summary_en": [
-        "The article focuses on clearly defining the boundaries between backend API contracts and client-facing display interfaces through static web components for better application structuring.",
-        "The architectural solution proposes organizing source files to optimize communication performance by flexibly combining modern OpenAPI specifications and high-performance gRPC protocols.",
-        "This knowledge provides high practical value helping software engineers build coherent distributed systems that are easy to maintain and scale in real-world production projects."
-      ],
-      "originalTitle": "Bài 03: Kiến trúc dữ liệu: Tối ưu /api (OpenAPI/gRPC) và /web (Static/Templates)",
-      "url": "https://viblo.asia/p/bai-03-kien-truc-du-lieu-toi-uu-api-openapigrpc-va-web-statictemplates-vbLbj0MlLnk",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "API",
-        "OpenAPI",
-        "gRPC",
-        "Software Architecture",
-        "Web Development"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-03T21:49:47.000Z",
-      "contentSnippet": "1. Mục tiêu bài học - Phân định ranh giới giữa giao ước API (API Contracts - /api) và giao diện hiển thị phía client (/web). - Tổ chức các file ...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a3209966d2943ada",
-      "title_vi": "Kiến trúc Microservices Bài 3: Nghệ thuật kết hợp đa ngôn ngữ lập trình với Laravel và Go",
-      "title_en": "Microservices Architecture Part 3: The Art of Polyglot Architecture with Laravel and Go",
-      "summary_vi": [
-        "Bài viết tiếp tục chuỗi series về kiến trúc Microservices, tập trung phân tích nghệ thuật lựa chọn ngôn ngữ lập trình phù hợp cho từng dịch vụ độc lập trong hệ thống.",
-        "Tác giả minh họa cách kết hợp sức mạnh của framework Laravel cho các nghiệp vụ web thông thường và ngôn ngữ Go với hiệu năng cao cho các dịch vụ xử lý tải lớn.",
-        "Giải pháp kiến trúc đa ngôn ngữ này giúp tối ưu hóa hiệu suất hệ thống, tận dụng điểm mạnh của từng công nghệ và nâng cao khả năng mở rộng phần mềm."
-      ],
-      "summary_en": [
-        "The article continues the microservices architecture series, focusing on the art of selecting the appropriate programming language for each independent service within the system.",
-        "The author illustrates how to combine the power of the Laravel framework for standard web workloads with Go for high-performance services handling heavy traffic loads.",
-        "This polyglot architecture solution helps optimize system performance, leverages the strengths of each technology, and enhances overall software scalability."
-      ],
-      "originalTitle": "[Microservices Series] Bài 3: Polyglot Architecture – Nghệ thuật \"chọn vũ khí\" (Khi Laravel và Go song kiếm hợp bích)",
-      "url": "https://viblo.asia/p/microservices-series-bai-3-polyglot-architecture-nghe-thuat-chon-vu-khi-khi-laravel-va-go-song-kiem-hop-bich-bA468oywLKv",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Microservices",
-        "Laravel",
-        "Go",
-        "Architecture",
-        "Polyglot"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-03T21:48:38.000Z",
-      "contentSnippet": "Chào anh em! Ở cuối bài 2, mình đã hứa sẽ chia sẻ về cách \"chọn vũ khí\" cho từng Service. Nếu trong kiến trúc Monolith, bạn bị \"trói buộc\" vào một ngô...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "5f5505abffe58e52",
-      "title_vi": "Thuật toán sắp xếp của bạn bị chậm do hàm so sánh: Phép biến đổi Schwartzian trong JavaScript, Python và Dart",
-      "title_en": "Your Sort Is Slow Because of Your Comparator: The Schwartzian Transform in JavaScript, Python and Dart",
-      "summary_vi": [
-        "Bài viết phân tích nguyên nhân khiến các thuật toán sắp xếp trong phần mềm trở nên chậm chạp do cách thức hoạt động kém tối ưu của các hàm so sánh tùy chỉnh.",
-        "Tác giả giới thiệu chi tiết về cơ chế hoạt động của phép biến đổi Schwartzian nhằm tối ưu hóa hiệu suất sắp xếp dữ liệu lớn trong các ngôn ngữ lập trình phổ biến.",
-        "Lập trình viên có thể áp dụng kỹ thuật này để giảm thiểu tối đa các phép tính toán lặp lại, từ đó nâng cao đáng kể tốc độ thực thi cho ứng dụng thực tế."
-      ],
-      "summary_en": [
-        "The article analyzes the root causes of performance bottlenecks in software sorting algorithms resulting from suboptimal custom comparator implementations.",
-        "The author details the underlying mechanism of the Schwartzian transform to effectively optimize large-scale data sorting performance across popular programming languages.",
-        "Developers can apply this advanced technique to minimize redundant repetitive calculations, thereby significantly enhancing execution speed for real-world applications."
-      ],
-      "originalTitle": "Your Sort Is Slow Because of Your Comparator: The Schwartzian Transform in JavaScript, Python and Dart",
-      "url": "https://viblo.asia/p/your-sort-is-slow-because-of-your-comparator-the-schwartzian-transform-in-javascript-python-and-dart-OXLA0xPvJGr",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Algorithms",
-        "JavaScript",
-        "Python",
-        "Dart",
-        "Performance"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-03T21:30:44.000Z",
-      "contentSnippet": "",
-      "authorName": "EME GUG",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "232fd6fb2703179b",
-      "title_vi": "Xử lý giới hạn tần suất OpenAI API trong môi trường vận hành thực tế: Chiến lược thử lại, hàng đợi và kiểm soát áp lực",
-      "title_en": "Managing OpenAI API Rate Limits in Production: Strategies for Retries, Queuing, and Backpressure",
-      "summary_vi": [
-        "Bài viết phân tích thách thức khi triển khai OpenAI API trong môi trường thực tế, nơi các yêu cầu đồng thời từ người dùng có thể vượt quá giới hạn cho phép, dẫn đến lỗi hệ thống và gián đoạn dịch vụ quan trọng.",
-        "Tác giả đề xuất các giải pháp kỹ thuật chuyên sâu như cơ chế thử lại thông minh với độ trễ tăng dần, sử dụng hàng đợi tin nhắn để điều phối lưu lượng và áp dụng kỹ thuật kiểm soát áp lực để bảo vệ hệ thống.",
-        "Thông qua việc tối ưu hóa kiến trúc xử lý, lập trình viên có thể xây dựng các ứng dụng AI ổn định, đảm bảo tính sẵn sàng cao và trải nghiệm người dùng mượt mà ngay cả khi đối mặt với lưu lượng truy cập lớn."
-      ],
-      "summary_en": [
-        "The article examines the challenges of deploying OpenAI APIs in production environments, where concurrent user requests often exceed rate limits, potentially causing system failures and critical service disruptions for enterprise-level applications.",
-        "The author proposes advanced technical solutions including intelligent exponential backoff retry mechanisms, message queuing for traffic orchestration, and backpressure techniques to effectively protect system stability under heavy load conditions.",
-        "By optimizing processing architecture, developers can build robust AI-powered applications that ensure high availability and seamless user experiences, even when facing significant spikes in incoming traffic and API demand."
-      ],
-      "originalTitle": "Xử lý OpenAI API Rate Limits trong Production: Retry, Queue và Backpressure",
-      "url": "https://viblo.asia/p/xu-ly-openai-api-rate-limits-trong-production-retry-queue-va-backpressure-AoJe8lY141j",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "OpenAI",
-        "API",
-        "Backpressure",
-        "System Design",
-        "Scalability"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-03T21:29:17.000Z",
-      "contentSnippet": "Một lời gọi OpenAI API thành công trong môi trường development chưa cho biết hệ thống sẽ phản ứng thế nào khi hàng trăm request đến cùng lúc, token us...",
-      "authorName": "Johnny Nguyen",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "74b49050c696a9ed",
-      "title_vi": "Một câu lệnh đơn lẻ có đủ để đo lường mức độ hiển thị nguồn trên ChatGPT thông qua thử nghiệm thực tế?",
-      "title_en": "Is a Single Prompt Enough to Measure Source Visibility on ChatGPT Through Empirical Testing?",
-      "summary_vi": [
-        "Bài viết đặt ra vấn đề cốt lõi về việc liệu chỉ sử dụng một câu lệnh duy nhất có đủ khả năng đánh giá chính xác mức độ xuất hiện của một thương hiệu hay trang web trên các hệ thống trí tuệ nhân tạo như ChatGPT hay không.",
-        "Thực nghiệm được triển khai với mười câu lệnh chạy lặp lại năm lần nhằm kiểm tra độ ổn định, sai số và sự biến động của kết quả trả về từ mô hình ngôn ngữ lớn trong việc trích dẫn các nguồn tin trực tuyến.",
-        "Kết quả nghiên cứu cung cấp góc nhìn thực tiễn cho các chuyên gia tối ưu hóa công cụ tìm kiếm và kỹ sư phát triển sản phẩm trong việc xây dựng phương pháp đo lường hiệu suất hiển thị đáng tin cậy trên các nền tảng AI."
-      ],
-      "summary_en": [
-        "The article addresses the core issue of whether using just a single prompt is sufficient to accurately evaluate the visibility of a brand or website on artificial intelligence systems like ChatGPT.",
-        "An empirical test was conducted using ten prompts run five times each to examine the stability, margin of error, and fluctuation of responses returned by large language models when citing online sources.",
-        "The research findings provide practical insights for search engine optimization experts and software engineers on establishing reliable methodologies for measuring visibility performance across AI platforms."
-      ],
-      "originalTitle": "Một prompt có đủ để đo source visibility trên ChatGPT? Thử nghiệm 10 prompt × 5 lần chạy",
-      "url": "https://viblo.asia/p/mot-prompt-co-du-de-do-source-visibility-tren-chatgpt-thu-nghiem-10-prompt-5-lan-chay-kNLr3n1bVgA",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "ChatGPT",
-        "SEO",
-        "LLM",
-        "Analytics"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-03T21:04:43.000Z",
-      "contentSnippet": "Một prompt có đủ để đo source visibility trên ChatGPT? Khi đo mức độ xuất hiện của một website hoặc thương hiệu trong các hệ thống AI, có một vấn đề ...",
-      "authorName": "Trung Tran Anh",
-      "upvotes": 0,
-      "commentsCount": 0
     }
   ]
 }
