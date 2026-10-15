@@ -1,7 +1,312 @@
 {
-  "lastUpdated": "2026-10-14T16:14:35.766Z",
+  "lastUpdated": "2026-10-15T10:38:03.762Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "c5b39a9089cec894",
+      "title_vi": "Chọn cổng trung chuyển AI API: Bốn bài kiểm tra nhanh trong mười phút",
+      "title_en": "Choosing an AI API Gateway: Four Quick Tests to Run in Ten Minutes",
+      "summary_vi": [
+        "Việc lựa chọn cổng trung chuyển API cho trí tuệ nhân tạo đang trở nên phức tạp khi thị trường xuất hiện hàng loạt nhà cung cấp khác nhau đòi hỏi lập trình viên phải có phương pháp đánh giá khách quan.",
+        "Bài viết đề xuất bốn bài kiểm tra thực tế bao gồm đo độ trễ mạng, kiểm tra tính ổn định, xác thực định dạng phản hồi và đánh giá khả năng xử lý lỗi dưới tải cao.",
+        "Những phương pháp này giúp kỹ sư phần mềm nhanh chóng tìm ra giải pháp cổng trung chuyển tối ưu, đảm bảo hiệu suất vận hành hệ thống AI ổn định và tiết kiệm chi phí."
+      ],
+      "summary_en": [
+        "Choosing an AI API gateway has become complex as the market sees numerous providers, requiring developers to adopt objective evaluation methodologies for system integration.",
+        "The article proposes four practical tests including network latency measurement, stability checks, response format validation, and error handling assessment under high loads.",
+        "These methodologies help software engineers quickly identify the optimal gateway solution, ensuring stable AI system operational performance and cost efficiency."
+      ],
+      "originalTitle": "Chọn cổng trung chuyển AI API: bốn bài kiểm tra bạn tự chạy được trong mười phút",
+      "url": "https://viblo.asia/p/chon-cong-trung-chuyen-ai-api-bon-bai-kiem-tra-ban-tu-chay-duoc-trong-muoi-phut-bNVQGp7oJvR",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "API",
+        "Gateway",
+        "DevOps",
+        "Software Architecture"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-15T17:03:45.000Z",
+      "contentSnippet": "Chọn cổng trung chuyển AI API: bốn bài kiểm tra bạn tự chạy được trong mười phút Khi tìm kiếm \"API trung chuyển AI\", bạn sẽ gặp hàng chục bài \"tổng h...",
+      "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0cee6f29c7ee7c26",
+      "title_vi": "Bản tin trí tuệ nhân tạo buổi chiều: Điểm nhấn mô hình HiRO-ACEv2 và các xu hướng công nghệ nổi bật từ Hacker News",
+      "title_en": "Afternoon AI Bulletin: Spotlight on HiRO-ACEv2 and Key Technological Shifts from Hacker News",
+      "summary_vi": [
+        "Cộng đồng công nghệ trong nước và quốc tế đã thảo luận sôi nổi về những bước chuyển dịch chiến lược trong lĩnh vực trí tuệ nhân tạo, tập trung vào việc tối ưu hóa hiệu suất và khả năng mở rộng của các hệ thống máy học hiện đại.",
+        "Tâm điểm của phiên làm việc chiều nay là mô hình HiRO-ACEv2, mang đến những cải tiến đáng kể về kiến trúc mạng nơ-ron giúp giảm thiểu độ trễ xử lý dữ liệu và nâng cao độ chính xác trong các tác vụ suy luận phức tạp.",
+        "Sự kiện này đánh dấu bước tiến quan trọng cho các nhà phát triển phần mềm trong việc tích hợp các mô hình AI thế hệ mới vào ứng dụng thực tế, đồng thời định hình xu hướng nghiên cứu và phát triển phần mềm trong giai đoạn tới."
+      ],
+      "summary_en": [
+        "The domestic and international technology communities engaged in lively discussions regarding strategic shifts in artificial intelligence, focusing on optimizing performance and scalability for modern machine learning systems.",
+        "The centerpiece of this afternoon session was the HiRO-ACEv2 model, introducing significant architectural neural network improvements that reduce data processing latency and enhance accuracy in complex inference tasks.",
+        "This development marks a crucial milestone for software developers integrating next-generation AI models into practical applications, while shaping the overall research and software engineering trends for the upcoming period."
+      ],
+      "originalTitle": "AI Buổi Chiều (15/10/2026): Tiêu điểm HiRO-ACEv2 và những bước chuyển từ Hacker News",
+      "url": "https://viblo.asia/p/ai-buoi-chieu-15102026-tieu-diem-hiro-acev2-va-nhung-buoc-chuyen-tu-hacker-news-wlVmRl9145Z",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "HiRO-ACEv2",
+        "Hacker News",
+        "Software Architecture"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-15T16:27:05.000Z",
+      "contentSnippet": "AI Buổi Chiều (15/10/2026): Tiêu điểm HiRO-ACEv2 và những bước chuyển từ Hacker News Trong phiên buổi chiều ngày 15/10/2026, cộng đồng công nghệ ghi...",
+      "authorName": "Xuân Chinh Trịnh",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "1369e19fc843c415",
+      "title_vi": "Kỷ nguyên debug mới: Kết nối liền mạch giữa AI Agent và Chrome DevTools thông qua MCP",
+      "title_en": "New era of debugging: Seamless connection between AI Agent and Chrome DevTools via MCP",
+      "summary_vi": [
+        "Phá vỡ khoảng cách giữa AI và môi trường thực thi trình duyệt Trong nhiều năm qua, việc tích hợp AI vào quy trình phát triển front-end luôn vướng phả.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Kỷ nguyên debug mới: Kết nối liền mạch giữa AI Agent và Chrome DevTools thông qua MCP.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Kỷ nguyên debug mới: Kết nối liền mạch giữa AI Agent và Chrome DevTools thông qua MCP."
+      ],
+      "summary_en": [
+        "Breaking the gap between AI and the browser execution environment Over the years, integrating AI into the front-end development process has always been problematic.",
+        "In-depth technical breakdown and implementation mechanisms introduced in New era of debugging: Seamless connection between AI Agent and Chrome DevTools via MCP.",
+        "Practical engineering impact and actionable takeaways for developers building with New era of debugging: Seamless connection between AI Agent and Chrome DevTools via MCP."
+      ],
+      "originalTitle": "Kỷ nguyên debug mới: Kết nối liền mạch giữa AI Agent và Chrome DevTools thông qua MCP",
+      "url": "https://viblo.asia/p/ky-nguyen-debug-moi-ket-noi-lien-mach-giua-ai-agent-va-chrome-devtools-thong-qua-mcp-1XVOW0G6VMz",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "MachineLearning"
+      ],
+      "hotScore": 90,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-15T16:04:11.000Z",
+      "contentSnippet": "Phá vỡ khoảng cách giữa AI và môi trường thực thi trình duyệt Trong nhiều năm qua, việc tích hợp AI vào quy trình phát triển front-end luôn vướng phả...",
+      "authorName": "Xuân Chinh Trịnh",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f5a871d77a792b9a",
+      "title_vi": "Thay đổi ngôn ngữ prompt ảnh hưởng thế nào đến source set của ChatGPT qua 12 cặp prompt Việt-Anh",
+      "title_en": "How changing prompt language affects ChatGPT source sets through 12 Vietnamese-English prompt pairs",
+      "summary_vi": [
+        "Bài viết nghiên cứu mức độ thay đổi của tập nguồn dữ liệu trên ChatGPT khi người dùng giữ nguyên ý định tìm kiếm nhưng chuyển đổi ngôn ngữ giữa tiếng Việt và tiếng Anh.",
+        "Tác giả tiến hành phân tích chi tiết mười hai cặp prompt song ngữ để đo lường độ lệch và sự dịch chuyển nguồn tài liệu mà mô hình ngôn ngữ lớn trả về.",
+        "Kết quả phân tích giúp các kỹ sư và nhà phát triển tối ưu hóa cách viết câu lệnh để thu thập kết quả tìm kiếm chính xác và đa dạng hơn."
+      ],
+      "summary_en": [
+        "The article investigates how ChatGPT source sets fluctuate when users maintain the exact search intent while switching languages between Vietnamese and English.",
+        "The author performs a detailed analysis of twelve bilingual prompt pairs to measure the variance and shift in reference materials returned by the large language model.",
+        "The analytical findings assist engineers and developers in optimizing prompt engineering strategies to gather more accurate and diverse search results."
+      ],
+      "originalTitle": "Cùng một intent, đổi ngôn ngữ thì source set của ChatGPT thay đổi bao nhiêu? Phân tích 12 cặp prompt Việt–Anh",
+      "url": "https://viblo.asia/p/cung-mot-intent-doi-ngon-ngu-thi-source-set-cua-chatgpt-thay-doi-bao-nhieu-phan-tich-12-cap-prompt-vietanh-kY4gDNa0JAe",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "ChatGPT",
+        "Prompt Engineering",
+        "AI Search",
+        "LLM"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-15T14:55:41.000Z",
+      "contentSnippet": "Sau khi kiểm tra độ ổn định của source set qua nhiều lần chạy cùng một prompt, tôi muốn thử một biến khác: điều gì xảy ra khi giữ nguyên nhu cầu nhưng...",
+      "authorName": "Trung Tran Anh",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b1ca96da61abb351",
+      "title_vi": "Hãng điện tử LG hợp tác cùng Apple phát triển hệ sinh thái thiết bị nhà thông minh tích hợp sâu",
+      "title_en": "LG and Apple Partner to Develop New Smart Home Ecosystem with Integrated iPhone Features",
+      "summary_vi": [
+        "Tập đoàn công nghệ LG và hãng Apple vừa công bố kế hoạch hợp tác chiến lược nhằm phát triển một hệ sinh thái thiết bị nhà thông minh hoàn toàn mới, đánh dấu bước tiến lớn trong việc kết nối phần cứng gia dụng với các nền tảng di động cao cấp.",
+        "Danh mục sản phẩm hợp tác bao gồm hệ thống camera độ phân giải cao 2.5K, chuông cửa video thông minh, khóa cửa tích hợp tính năng mở khóa trực tiếp bằng điện thoại iPhone, cùng với các thiết bị điều chỉnh nhiệt độ và cảm biến môi trường tiên tiến.",
+        "Sự kiện này mở ra hướng đi mới cho các nhà phát triển trong việc tối ưu hóa giao thức giao tiếp giữa thiết bị IoT và hệ điều hành di động, nâng cao trải nghiệm tự động hóa và bảo mật cho người dùng trên toàn cầu."
+      ],
+      "summary_en": [
+        "Technology giant LG and Apple have announced a strategic partnership to develop a brand new smart home ecosystem, marking a significant milestone in connecting household hardware with advanced mobile platforms.",
+        "The collaborative product lineup includes high-resolution 2.5K cameras, smart video doorbells, door locks with direct iPhone unlocking capabilities, as well as advanced thermostat systems and environmental sensors.",
+        "This initiative opens up new avenues for developers to optimize communication protocols between IoT devices and mobile operating systems, significantly enhancing automation and security experiences for global users."
+      ],
+      "originalTitle": "LG bắt tay Apple phát triển hệ sinh thái nhà thông minh mới, từ camera 2.5K đến khóa cửa mở bằng iPhone",
+      "url": "https://genk.vn/lg-bat-tay-apple-phat-trien-he-sinh-thai-nha-thong-minh-moi-tu-camera-25k-den-khoa-cua-mo-bang-iphone-165261015173046356.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Smart Home",
+        "IoT",
+        "Apple",
+        "LG",
+        "Mobile Integration"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-15T10:29:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/15/avatar1792059844752-17920598450011571792658.jpg",
+      "contentSnippet": "LG và Apple cùng phát triển loạt phụ kiện nhà thông minh mới, gồm camera 2.5K, chuông cửa video, khóa cửa hỗ trợ mở bằng iPhone, bộ điều chỉnh nhiệt độ và cảm biến môi trường, dự kiến mở bán tại Mỹ, Canada và Anh từ tháng 12/2026.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "85dfb3b43e3789e3",
+      "title_vi": "Xu hướng tìm kiếm công nghệ tại Việt Nam: Giá điện thoại mới, công cụ trí tuệ nhân tạo và cơ hội việc làm ngành lập trình",
+      "title_en": "Technology Search Trends in Vietnam: New Smartphone Prices, Artificial Intelligence Tools, and Software Engineering Job Opportunities",
+      "summary_vi": [
+        "Người dùng internet tại Việt Nam đang thể hiện sự quan tâm mạnh mẽ đến thông tin giá cả dòng điện thoại thông minh thế hệ mới cũng như độ bền của các thiết bị cũ đã qua sử dụng trên thị trường.",
+        "Bên cạnh phần cứng di động, nhu cầu tìm hiểu và tích hợp các ứng dụng trí tuệ nhân tạo vào môi trường học tập, nghiên cứu và phát triển sản phẩm phần mềm ngày càng tăng cao rõ rệt.",
+        "Thị trường lao động công nghệ thông tin ghi nhận xu hướng tìm kiếm việc làm lập trình và kỹ thuật số tại các địa phương, phản ánh sự dịch chuyển và phát triển của nguồn nhân lực số."
+      ],
+      "summary_en": [
+        "Internet users in Vietnam are showing strong interest in pricing information for next-generation smartphone lineups alongside the durability and performance of used mobile devices available on the market.",
+        "Beyond mobile hardware, the demand for exploring and integrating artificial intelligence applications into academic learning, research processes, and software product development is increasing significantly.",
+        "The information technology labor market records a growing trend of searching for software engineering and digital technology jobs across local regions, reflecting the transformation of human resources."
+      ],
+      "originalTitle": "Người Việt tìm gì trên mạng: Giá iPhone 18, công cụ AI và việc làm IT",
+      "url": "https://tuoitre.vn/nguoi-viet-tim-gi-tren-mang-gia-iphone-18-cong-cu-ai-va-viec-lam-it-100261015094611513.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "AI",
+        "Mobile",
+        "Job Market",
+        "Tech Trends",
+        "Smartphones"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-15T10:12:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/15/xu-huong-tim-kiem-nguoi-dung-viet-iphone-18-dthien-17920322091731184828988-0-0-983-1572-crop-17920323314681912777149.png",
+      "contentSnippet": "Người dùng Việt quan tâm giá iPhone mới, độ bền máy cũ, ứng dụng AI vào học tập và tìm việc công nghệ tại các địa phương.",
+      "authorName": "ĐỨC THIỆN⭐",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6b777a64b2ab003f",
+      "title_vi": "Hãng sản xuất chip nhớ Trung Quốc CXMT gây chấn động thị trường bán dẫn toàn cầu",
+      "title_en": "Chinese Memory Chip Maker CXMT Causes Shockwave in Global Semiconductor Market",
+      "summary_vi": [
+        "Công ty sản xuất chip nhớ Trung Quốc ChangXin Memory Technologies vừa thông báo đạt được bước tiến công nghệ quan trọng trong việc phát triển kiến trúc bộ nhớ mới mang tên 4F vuông.",
+        "Kiến trúc bán dẫn tiên tiến này cho phép tích hợp khối lượng dữ liệu lớn hơn vào không gian vật lý vô cùng nhỏ gọn, chuẩn bị ra mắt dòng chip máy chủ vào cuối năm.",
+        "Sự kiện đột phá này lập tức tạo ra làn sóng lo ngại sâu sắc trên thị trường tài chính, khiến cổ phiếu của các hãng chip lớn như SK Hynix và Samsung sụt giảm mạnh."
+      ],
+      "summary_en": [
+        "Chinese memory chip manufacturer ChangXin Memory Technologies recently announced a significant technological breakthrough in developing a new memory architecture called 4F square.",
+        "This advanced semiconductor architecture allows massive amounts of data to be integrated into an extremely compact physical space, with server chips scheduled for release later this year.",
+        "This breakthrough immediately triggered deep concern in financial markets, causing stock prices of major chipmakers like SK Hynix and Samsung to drop sharply across the board."
+      ],
+      "originalTitle": "Hãng chip nhớ Trung Quốc CXMT gây xáo động thị trường",
+      "url": "https://vnexpress.net/hang-chip-nho-trung-quoc-cxmt-gay-xao-dong-thi-truong-5132433.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Semiconductor",
+        "CXMT",
+        "Hardware",
+        "Memory",
+        "Tech Trends"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-15T05:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/15/aag5zy6izbkprdiq2bnz3mwjde1785-4726-1533-1792003257.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=_-vlIiXpowHNZWnjQonScQ",
+      "contentSnippet": "Sau khi công ty chip nhớ CXMT thông báo bước tiến công nghệ mới, cổ phiếu nhiều đối thủ lao dốc do lo ngại cạnh tranh và tâm lý thận trọng.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e10522981d38e793",
+      "title_vi": "Công ty tư vấn McKinsey yêu cầu ứng viên phỏng vấn thử nghiệm với khách hàng giả lập bằng trí tuệ nhân tạo",
+      "title_en": "McKinsey is making job applicants spar with a fake AI client",
+      "summary_vi": [
+        "Công ty tư vấn McKinsey và Company áp dụng quy trình phỏng vấn mới, yêu cầu một số ứng viên đầu vào thực hiện cuộc trò chuyện kéo dài mười phút với mô hình khách hàng ảo được hỗ trợ bởi công nghệ trí tuệ nhân tạo.",
+        "Hệ thống mô phỏng trí tuệ nhân tạo này được thiết kế để phản ánh khoảng tám mươi phần trăm các tình huống thực tế mà tư vấn viên thường gặp trong công việc hằng ngày mà không đóng vai khách hàng quá khích.",
+        "Giải pháp ứng dụng trí tuệ nhân tạo trong tuyển dụng này giúp tối ưu hóa quy trình đánh giá năng lực thực tế, trong khi các chuyên gia nhân sự con người vẫn trực tiếp theo dõi và chấm điểm ứng viên."
+      ],
+      "summary_en": [
+        "Consulting firm McKinsey and Company is introducing a new interview process that requires certain entry level candidates to conduct a ten minute conversation with a virtual client simulation powered by artificial intelligence technology.",
+        "This artificial intelligence simulation system is designed to reflect approximately eighty percent of the real world scenarios that consultants typically encounter in their daily work without mimicking an unhinged client behavior.",
+        "The integration of artificial intelligence tools in recruitment helps optimize practical competency assessments while human recruiters remain directly in the room to evaluate and score the candidates performance."
+      ],
+      "originalTitle": "McKinsey is making job applicants spar with a fake AI client",
+      "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Artificial Intelligence",
+        "Recruitment Tech",
+        "Simulation",
+        "Machine Learning"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-14T22:53:31.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK414_AI_CVIRGINIA_2_C-2.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Consulting firm McKinsey & Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal. The AI simulation \"aims to reflect 80% of the scenarios McKinsey consultants might",
+      "authorName": "Jay Peters",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "884571b923cce1b1",
+      "title_vi": "Bộ Văn Phòng Nhỏ Gọn Nơi Liên Kết Chính Là Tài Liệu Hoàn Chỉnh",
+      "title_en": "Tiny Little Office",
+      "summary_vi": [
+        "Dự án Tiny Little Office giới thiệu một hệ thống văn phòng trực tuyến độc đáo nơi đường dẫn URL đóng vai trò hoàn toàn là tài liệu thay vì lưu trữ trên cơ sở dữ liệu truyền thống.",
+        "Ứng dụng hoàn toàn không yêu cầu người dùng tạo tài khoản, không lưu trữ bất kỳ dữ liệu nào trên máy chủ mà mọi thứ đều được xử lý và giữ lại ngay trên thiết bị cá nhân.",
+        "Nền tảng này tận dụng JavaScript để hiển thị nội dung, đồng thời hỗ trợ các tác nhân AI thông qua tệp tin chuyên biệt giúp dễ dàng nhúng các tài liệu vào nhau một cách linh hoạt."
+      ],
+      "summary_en": [
+        "The Tiny Little Office project introduces a unique online office system where the URL link completely acts as the document instead of traditional database storage.",
+        "The application requires no user accounts and stores no data on servers, ensuring all information is processed and retained directly on the local user device.",
+        "This platform relies on JavaScript for rendering documents while supporting AI agents via specialized configuration files to embed documents within each other seamlessly."
+      ],
+      "originalTitle": "Tiny Little Office",
+      "url": "https://tinylittleoffice.com/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Web",
+        "JavaScript",
+        "Architecture",
+        "AI Agents"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-14T22:10:08.000Z",
+      "contentSnippet": "A tiny office suite where the link is the document. No accounts. Nothing is saved anywhere unless you choose to keep it on this device. Tiny Little Office needs JavaScript to show a document. Agents: https://tinylittleoffice.com/llms.txt says how to make a document as a link; a document goes inside ",
+      "authorName": "donohoe",
+      "upvotes": 453,
+      "commentsCount": 73
+    },
     {
       "id": "ef51ef5f44780d58",
       "title_vi": "Cách trích xuất nguyên nhân từ yêu cầu kéo vào tệp nhật ký thay đổi bằng Jev",
@@ -33,6 +338,75 @@
       "publishedAt": "2026-10-14T21:50:42.000Z",
       "contentSnippet": "Hoi hoi! Mình là @nyaomaru, một frontend engineer hiện đang xây dựng một trình tạo CHANGELOG có hỗ trợ AI và thử nghiệm với Jev. Gần đây, mình cứ ...",
       "authorName": "nyaoamru",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6be473450b1b98c3",
+      "title_vi": "Vụ tấn công mạng vào hệ thống tủ lạnh tại Pháp gây thiệt hại hàng triệu đô la và hỏa hoạn do bảo mật kém",
+      "title_en": "Fridge hack costing millions and sparking fires stemmed from poor security",
+      "summary_vi": [
+        "Một cuộc tấn công mạng quy mô lớn nhắm vào hệ thống làm lạnh tại khoảng bảy trăm siêu thị ở Pháp đã khiến thiết bị ngừng hoạt động, làm hỏng hàng tấn thực phẩm và gây ra hỏa hoạn.",
+        "Kẻ tấn công đã xâm nhập vào các bộ điều khiển kết nối Internet dùng để quản lý từ xa, sau đó kích hoạt chế độ xả đá khiến nhiệt độ tăng cao tới năm mươi độ C.",
+        "Sự cố bắt nguồn từ các lỗ hổng nghiêm trọng trên bộ điều khiển của Danfoss và Dixell, nơi sử dụng cơ chế mật khẩu hàng ngày dễ đoán thông qua việc phân tích mã nguồn công khai."
+      ],
+      "summary_en": [
+        "A massive cyberattack targeting refrigeration systems across approximately seven hundred supermarkets in France caused widespread malfunctions, spoiling tons of perishable goods and triggering fires.",
+        "Attackers compromised Internet-connected controllers used for remote management, subsequently activating defrost cycles that elevated temperatures up to fifty degrees Celsius.",
+        "The incident stemmed from critical vulnerabilities in Danfoss and Dixell controllers, which relied on predictable daily passwords generated by firmware logic accessible through public code analysis."
+      ],
+      "originalTitle": "Fridge hack costing millions and sparking fires stemmed from poor security",
+      "url": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/",
+      "sourceName": "Ars Technica",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "IoT",
+        "Vulnerability",
+        "IndustrialControl",
+        "Firmware"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-14T21:35:09.000Z",
+      "contentSnippet": "Incident hitting 700 supermarkets exploited outdated devices exposed to the Internet.",
+      "authorName": "\n                    Dan Goodin\n                ",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9194e801adbca278",
+      "title_vi": "Tám bang tại Mỹ kiện nhà phát triển trí tuệ nhân tạo vì cáo buộc không đảm bảo an toàn cho trẻ em",
+      "title_en": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
+      "summary_vi": [
+        "Công ty phát triển trí tuệ nhân tạo hàng đầu đang đối mặt với làn sóng kiện tụng mới từ tám tiểu bang tại Mỹ liên quan đến các cáo buộc gây tổn hại cho trẻ em và đánh lừa khách hàng về tính năng an toàn.",
+        "Các hồ sơ pháp lý cáo buộc công ty đã ưu tiên lợi nhuận hơn sự an toàn khi phát triển mô hình ngôn ngữ lớn, vi phạm luật bảo vệ người tiêu dùng do không cảnh báo đầy đủ về những rủi ro tiềm ẩn của chatbot.",
+        "Sự việc này đặt ra thách thức lớn về pháp lý và đạo đức đối với các kỹ sư xây dựng hệ thống trí tuệ nhân tạo, đòi hỏi quy chuẩn kiểm định an toàn nghiêm ngặt hơn trước khi phát hành sản phẩm ra thị trường rộng lớn."
+      ],
+      "summary_en": [
+        "The leading artificial intelligence development company is facing a new wave of lawsuits from eight US states regarding allegations of harming children and misleading customers about safety features.",
+        "The legal filings accuse the company of prioritizing profits over safety when developing large language models, violating consumer protection laws by failing to adequately warn users about potential chatbot risks.",
+        "This incident poses significant legal and ethical challenges for artificial intelligence engineers, demanding stricter safety testing standards before releasing products to the mass market."
+      ],
+      "originalTitle": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "OpenAI",
+        "ChatGPT",
+        "Cybersecurity",
+        "Tech Trends & Startups"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-14T21:11:28.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25462005/STK155_OPEN_AI_CVirginia_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "OpenAI is facing a new wave of lawsuits from eight US states that accuse the company of harming children and misleading customers about the safety of ChatGPT, as reported earlier by Reuters. The lawsuits, filed separately by Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho, and Montan",
+      "authorName": "Emma Roth",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -69,6 +443,40 @@
       "authorName": "Sunny",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "d001316ff15b7db6",
+      "title_vi": "Phiên bản Mã nguồn Mở 2.0: Kiến trúc máy chủ nền và mô hình agent mới",
+      "title_en": "OpenCode 2.0: Major Overhaul with Background Server and Agent Architecture",
+      "summary_vi": [
+        "Công cụ lập trình OpenCode phiên bản 2.0 ra mắt với nhiều cải tiến lớn, đúc rút từ kinh nghiệm thực tế của hàng triệu người dùng hằng ngày để tối ưu hóa khả năng vận hành của trợ lý ảo.",
+        "Kiến trúc hệ thống được thiết kế lại hoàn toàn khi tiến trình máy chủ chạy ngầm tự động trên thiết bị, kết nối liền mạch giao diện dòng lệnh, web và ứng dụng máy tính với API.",
+        "Bản cập nhật mang lại giá trị thiết thực cho lập trình viên nhờ khả năng tự động phát hiện dịch vụ cục bộ, hỗ trợ các tác vụ tự động hóa và mở rộng kết nối ứng dụng hiệu quả."
+      ],
+      "summary_en": [
+        "The coding tool OpenCode version 2.0 has been launched with major improvements, drawing from the daily practical experience of millions of users to optimize virtual assistant operations.",
+        "The system architecture is completely redesigned with a background server process running automatically on the device, seamlessly connecting command-line interfaces, web, and desktop apps with APIs.",
+        "The update delivers practical value to developers through local service autodiscovery, supporting automated tasks and expanding application connectivity effectively."
+      ],
+      "originalTitle": "OpenCode 2.0",
+      "url": "https://anoma.ly/notes/opencode-2-0/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "OpenCode",
+        "Software Architecture",
+        "Developer Tools",
+        "API",
+        "Automation"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-14T20:48:24.000Z",
+      "contentSnippet": "OpenCode 2.0 is a major overhaul. It draws on millions of daily users' experience to deliver a system that can flex to everything an agent needs to be. There are quite a lot of new features, performance improvements, and bug fixes but here are some of the more impactful user-facing changes. From the",
+      "authorName": "gmays",
+      "upvotes": 626,
+      "commentsCount": 248
     },
     {
       "id": "85ab657f5e0cd7ef",
@@ -1643,6 +2051,39 @@
       "authorName": "Jennifer Pattison Tuohy",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "6cd7fb28006d8b07",
+      "title_vi": "Muốn tải tập tin ISO, cuối cùng lại viết mã khai thác nhân hệ điều hành",
+      "title_en": "Wanted to download an ISO, ended up writing a kernel exploit",
+      "summary_vi": [
+        "Một kỹ sư công nghệ gặp sự cố truyền dữ liệu không ổn định trên thiết bị phát sóng không dây mới mua và quyết định tìm nguyên nhân sâu xa thay vì sử dụng giải pháp tạm thời.",
+        "Quá trình gỡ lỗi phát hiện ra các lỗi truyền tải qua giao thức mạng phức tạp, liên quan trực tiếp đến phần cứng chạy hệ điều hành nhân Linux phiên bản cũ.",
+        "Câu chuyện minh họa tầm quan trọng của việc hiểu rõ kiến trúc mạng và hệ thống nhúng trong việc giải quyết triệt để các vấn đề phần cứng khó khăn."
+      ],
+      "summary_en": [
+        "A technology engineer encountered unstable data transmission issues on a newly purchased wireless access point and decided to investigate the root cause.",
+        "The debugging process revealed complex network protocol transfer errors directly related to hardware running an older version of the Linux kernel.",
+        "This case study highlights the importance of deeply understanding network architecture and embedded systems to thoroughly resolve difficult hardware problems."
+      ],
+      "originalTitle": "Wanted to download an ISO, ended up writing a kernel exploit",
+      "url": "https://blog.dfb.sh/blog/eap770-root-for-two-zeros/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Linux Kernel",
+        "Networking",
+        "Kernel Exploit"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-13T12:30:08.000Z",
+      "contentSnippet": "In August 2023 I bought a shiny new Wi-Fi 7 access point, a TP-Link EAP770. The connection was a bit janky, a video would occasionally start buffering, but it didn't bother me much. I mostly worked on a workstation connected over Ethernet. When I needed to go somewhere, I'd rsync my ~ to the laptop ",
+      "authorName": "0xdeafbeef",
+      "upvotes": 103,
+      "commentsCount": 55
     },
     {
       "id": "20b65ba63203118e",
@@ -8107,452 +8548,6 @@
       "authorName": "E-Reverance",
       "upvotes": 66,
       "commentsCount": 3
-    },
-    {
-      "id": "dbf6a51fde3f190f",
-      "title_vi": "Tác nhân trí tuệ nhân tạo phát hiện hai ứng viên bán dẫn từ tính ở nhiệt độ phòng",
-      "title_en": "AI agents discover two room-temperature magnetic semiconductor candidates",
-      "summary_vi": [
-        "Một đội ngũ tác nhân trí tuệ nhân tạo đã phát hiện thành công hai vật liệu bán dẫn từ tính tiềm năng cho bộ nhớ máy tính thế hệ mới.",
-        "Cả hai vật liệu đều được dự đoán có từ tính tổng bằng không nhưng vẫn có khả năng sắp xếp các electron theo spin để lưu trữ dữ liệu.",
-        "Khám phá này mở ra hướng đi mới trong việc thiết kế vật liệu phần cứng máy tính bằng trí tuệ nhân tạo và học máy."
-      ],
-      "summary_en": [
-        "A team of artificial intelligence agents has successfully discovered two potential magnetic semiconductor materials for next-generation computer memory.",
-        "Both materials are predicted to have zero net magnetism while retaining the ability to sort electrons by spin for data storage applications.",
-        "This discovery opens up new pathways for designing computer hardware materials using artificial intelligence and machine learning technologies."
-      ],
-      "originalTitle": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
-      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Semiconductors",
-        "Hardware",
-        "Machine Learning",
-        "Physics"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-05T21:00:21.000Z",
-      "contentSnippet": "We are sharing two candidate magnets for next-generation computer memory, found by a team of Claude Opus 5.5 agents. Both are predicted to have zero net magnetism yet still sort electrons by spin: one a new compound we designed, the other a material first made in 1999. We're sharing the full calcula",
-      "authorName": "outlier99",
-      "upvotes": 165,
-      "commentsCount": 123
-    },
-    {
-      "id": "17d9e21ea2c6b68b",
-      "title_vi": "Startup này phát hành đơn thuốc trị mụn được tạo ra hoàn toàn bằng trí tuệ nhân tạo",
-      "title_en": "This startup is issuing AI-generated acne prescriptions",
-      "summary_vi": [
-        "Công ty y tế Nolla Health vừa triển khai chương trình thí điểm tại Utah, cho phép người dùng sử dụng ứng dụng di động để quét khuôn mặt nhằm phân tích tình trạng mụn và tự động đưa ra đơn thuốc.",
-        "Hệ thống trí tuệ nhân tạo sẽ tự động xử lý hình ảnh khuôn mặt để đánh giá mức độ nghiêm trọng của mụn, sau đó quy trình kiểm duyệt y tế từ bác sĩ sẽ giảm dần theo số lượng bệnh nhân thực tế.",
-        "Bước tiến này đánh dấu sự giao thoa mạnh mẽ giữa công nghệ y tế kỹ thuật số và trí tuệ nhân tạo tự trị, đặt ra những tiêu chuẩn mới về khả năng tự động hóa trong quy trình khám chữa bệnh từ xa."
-      ],
-      "summary_en": [
-        "Healthcare startup Nolla Health has launched a pilot program in Utah allowing users to scan their faces via a mobile app to analyze acne severity and autonomously generate medical prescriptions.",
-        "The artificial intelligence system automatically processes facial images to assess skin conditions, while physician oversight gradually decreases as the user adoption milestones for the service scale up.",
-        "This development represents a significant intersection between digital health technology and autonomous artificial intelligence, establishing new paradigms for automation in remote medical diagnosis and treatment."
-      ],
-      "originalTitle": "This startup is issuing AI-generated acne prescriptions",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Healthcare",
-        "Machine Learning",
-        "Mobile App",
-        "Automation"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-05T20:14:57.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/nolla-health-app.png?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "People in Utah can now use AI to get a prescription for acne treatment. On Monday, healthcare startup Nolla Health announced that users in the state can scan their faces using its app, allowing its AI system to analyze acne severity and autonomously write a prescription, as reported earlier by Bloom",
-      "authorName": "Emma Roth",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "6ea235782e83b4d1",
-      "title_vi": "So sánh Dataverse và SharePoint về cấu trúc dữ liệu, bảo mật và khả năng mở rộng",
-      "title_en": "Dataverse vs SharePoint: Data Structure, Security, and Scalability",
-      "summary_vi": [
-        "Microsoft cung cấp nhiều nền tảng quản lý thông tin kinh doanh khiến việc lựa chọn trở nên khó khăn khi tính năng chồng chéo nhau trong các dự án phát triển phần mềm doanh nghiệp hiện đại.",
-        "Bài viết phân tích chi tiết về kiến trúc lưu trữ dữ liệu, cơ chế phân quyền bảo mật tầng bản ghi và khả năng mở rộng hệ thống của cả hai giải pháp công nghệ đám mây.",
-        "Kiến trúc sư hệ thống và lập trình viên có thể đưa ra quyết định kiến trúc chính xác hơn để tối ưu hóa hiệu suất ứng dụng và chi phí vận hành hạ tầng."
-      ],
-      "summary_en": [
-        "Microsoft provides several platforms for managing business information which makes choosing difficult when features overlap in modern enterprise software development projects.",
-        "The article provides a detailed analysis of data storage architecture, record-level security permission mechanisms, and system scalability for both cloud technology solutions.",
-        "System architects and software developers can make more accurate architectural decisions to optimize application performance and infrastructure operating costs."
-      ],
-      "originalTitle": "Dataverse vs SharePoint: Data Structure, Security, and Scalability",
-      "url": "https://viblo.asia/p/dataverse-vs-sharepoint-data-structure-security-and-scalability-ZjJYWP1gVOE",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Dataverse",
-        "SharePoint",
-        "Cloud Architecture",
-        "Security",
-        "Scalability"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-05T19:39:22.000Z",
-      "contentSnippet": "Microsoft provides several platforms for managing business information, but choosing the right one can become confusing when their capabilities overla...",
-      "authorName": "Sindhu J",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "d678673f82769ab3",
-      "title_vi": "Tất cả những tranh cãi xung quanh việc trí tuệ nhân tạo tiếp quản lĩnh vực toán học",
-      "title_en": "All the drama around AI’s takeover of mathematics",
-      "summary_vi": [
-        "Trong năm qua, các phòng thí nghiệm trí tuệ nhân tạo hàng đầu đã công bố nhiều bước đột phá quan trọng trong việc giải quyết các bài toán toán học lâu đời, gây ra không ít tranh cãi và phản ứng dữ dội từ giới học thuật.",
-        "Các hệ thống học máy hiện đại không chỉ vượt qua kỳ vọng của các nhà nghiên cứu mà còn giải quyết thành công một trong những bài toán Thiên niên kỷ nổi tiếng, đặt ra nhiều câu hỏi về phương pháp tiếp cận của các công ty công nghệ.",
-        "Sự kiện này đánh dấu một bước ngoặt lớn trong cách ứng dụng trí tuệ nhân tạo vào khoa học cơ bản, buộc cộng đồng toán học và các kỹ sư phần mềm phải suy nghĩ lại về ranh giới giữa tự động hóa và sự sáng tạo con người."
-      ],
-      "summary_en": [
-        "Over the past year, leading artificial intelligence laboratories have announced major breakthroughs in solving long-standing mathematical problems, sparking significant controversy and fierce backlash from the academic community.",
-        "Modern machine learning systems have not only exceeded researchers expectations but also successfully resolved one of the famous Millennium Prize problems, raising questions about technology companies methodologies.",
-        "This milestone marks a major turning point in applying artificial intelligence to fundamental sciences, forcing the mathematics community and software engineers to rethink the boundaries between automation and human creativity."
-      ],
-      "originalTitle": "All the drama around AI’s takeover of mathematics",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Mathematics",
-        "OpenAI",
-        "Tech Ethics"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-05T19:28:59.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268684_OpenAI_claims_to_revolutionize_maths_CVirginia2-1.webp?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "This past year, OpenAI, Anthropic, and other labs have announced breakthroughs on numerous long-standing mathematical problems, in some cases pushing well beyond what researchers expected current systems to be capable of — including resolving one of the famous Millennium Prize problems. But in class",
-      "authorName": "Robert Hart",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "917ba46d3f15f0c5",
-      "title_vi": "Chùm tia: Mô hình trọng số mở 501B của Reflection",
-      "title_en": "Beam: Reflection's 501B open-weight model",
-      "summary_vi": [
-        "Công ty Reflection vừa chính thức giới thiệu Chùm tia, mô hình trọng số mở đầu tiên của họ với kiến trúc chuyên gia hỗn hợp thưa thớt gồm 501 tỷ tổng tham số và 23 tỷ tham số hoạt động.",
-        "Mô hình được huấn luyện trước trên 23,8 nghìn tỷ token đa dạng và kết hợp học tăng cường tính toán cao với hơn 100 triệu lượt chạy trên cụm 10.500 GPU NVIDIA GB300 trong suốt bốn tuần.",
-        "Sản phẩm mang lại hiệu suất cạnh tranh trong các tác vụ lập trình và lập luận tác nhân, đồng thời đạt hiệu quả sử dụng tài nguyên suy luận vượt trội so với các mô hình mở lớn khác."
-      ],
-      "summary_en": [
-        "Reflection has officially introduced Beam, their first open-weight model featuring a sparse mixture-of-experts architecture with 501 billion total parameters and 23 billion active parameters.",
-        "The model was pretrained on 23.8 trillion diverse tokens and combined with high-compute reinforcement learning generating over 100 million rollouts across 10.5K NVIDIA GB300 GPUs for four weeks.",
-        "This release delivers competitive performance in coding and agentic reasoning tasks while achieving superior inference compute efficiency compared to other large open models on the market."
-      ],
-      "originalTitle": "Beam: Reflection's 501B open-weight model",
-      "url": "https://reflection.ai/blog/introducing-beam",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Artificial Intelligence",
-        "Open Weight Model",
-        "Mixture of Experts",
-        "Reinforcement Learning",
-        "Large Language Models"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-05T19:16:35.000Z",
-      "contentSnippet": "We are introducing Beam, Reflection’s first open-weight model. Beam is a sparse Mixture-of-Experts model with 501 billion total parameters, 23 billion active, built for coding, reasoning, and agentic workloads. Beam’s capabilities come from major investments in both pretraining and reinforcement lea",
-      "authorName": "Philpax",
-      "upvotes": 257,
-      "commentsCount": 66
-    },
-    {
-      "id": "fdc942a270816cae",
-      "title_vi": "AWS EMR (Cập nhật 2026): Giải pháp xử lý dữ liệu lớn tối ưu trên đám mây",
-      "title_en": "AWS EMR (2026 Update): Optimized Big Data Processing Solution on the Cloud",
-      "summary_vi": [
-        "Amazon EMR là một dịch vụ đám mây toàn diện giúp doanh nghiệp xử lý hiệu quả các tập dữ liệu khổng lồ bằng cách tích hợp các khung công tác mã nguồn mở tiên tiến như Apache Hadoop và Apache Spark.",
-        "Dịch vụ này cho phép kỹ sư dữ liệu tối ưu hóa hiệu suất tính toán, tự động mở rộng cụm máy chủ linh hoạt và giảm đáng kể chi phí vận hành hạ tầng phân tích dữ liệu lớn.",
-        "Việc nắm vững AWS EMR giúp các nhà phát triển xây dựng các đường ống dữ liệu quy mô lớn, đáp ứng tiêu chuẩn xử lý thời gian thực cho các hệ thống hiện đại."
-      ],
-      "summary_en": [
-        "Amazon EMR is a comprehensive cloud service that helps enterprises efficiently process massive datasets by integrating advanced open-source frameworks like Apache Hadoop and Apache Spark.",
-        "The service enables data engineers to optimize computing performance, automatically scale server clusters flexibly, and significantly reduce operational costs for big data analytics infrastructure.",
-        "Mastering AWS EMR empowers developers to build large-scale data pipelines, meeting real-time processing standards for modern enterprise data architectures."
-      ],
-      "originalTitle": "AWS EMR (Cập nhật 2026)",
-      "url": "https://viblo.asia/p/aws-emr-cap-nhat-2026-1XVOWlkXVMz",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "AWS",
-        "EMR",
-        "Big Data",
-        "Cloud Computing",
-        "Hadoop"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-05T17:59:03.000Z",
-      "contentSnippet": "1. EMR là gì? Theo tài liệu chính thức, Amazon EMR là một dịch vụ web giúp xử lý lượng dữ liệu khổng lồ một cách hiệu quả, sử dụng Apache Hadoop kết ...",
-      "authorName": "NekoArcoder",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ededcb62b69bc2ec",
-      "title_vi": "Trí tuệ nhân tạo buổi chiều: Sự cố phần mềm giải đua Công thức 1 tại Bahrain và những bước tiến mới từ Hugging Face Papers",
-      "title_en": "Afternoon AI: Bahrain F1 Software Glitch and New Research Breakthroughs from Hugging Face Papers",
-      "summary_vi": [
-        "Bài viết tổng hợp các sự kiện công nghệ nổi bật trong ngày, tập trung vào sự cố phần mềm gây bất mãn cho các tay đua Công thức 1 tại chặng đua Bahrain và xu hướng nghiên cứu trí tuệ nhân tạo mới nhất.",
-        "Phân tích chi tiết về các lỗi hệ thống phần mềm điều khiển xe đua F1 ảnh hưởng đến hiệu suất vận hành, đồng thời điểm qua các tài liệu nghiên cứu học máy tiên tiến được công bố trên nền tảng Hugging Face.",
-        "Cung cấp góc nhìn toàn diện cho các kỹ sư phần mềm về tầm quan trọng của việc kiểm thử hệ thống nhúng thời gian thực và xu hướng ứng dụng mô hình ngôn ngữ lớn trong tự động hóa công nghiệp."
-      ],
-      "summary_en": [
-        "The article summarizes prominent technology events of the day, focusing on the software glitch that frustrated Formula 1 drivers during the Bahrain Grand Prix and the latest artificial intelligence research trends.",
-        "It provides a detailed analysis of F1 racing control software system errors affecting operational performance while highlighting advanced machine learning research papers published on the Hugging Face platform.",
-        "This delivers a comprehensive perspective for software engineers on the importance of real-time embedded system testing and the trend of applying large language models in industrial automation."
-      ],
-      "originalTitle": "AI Buổi Chiều (05/10/2026): Tiêu điểm Powerless F1 drivers frustrated by Bahrain F1 software glitc và những bước chuyển từ Hugging Face Papers",
-      "url": "https://viblo.asia/p/ai-buoi-chieu-05102026-tieu-diem-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitc-va-nhung-buoc-chuyen-tu-hugging-face-papers-37LdePY0Vov",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Artificial Intelligence",
-        "Software Engineering",
-        "Machine Learning",
-        "Embedded Systems",
-        "Hugging Face"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-05T16:27:18.000Z",
-      "contentSnippet": "AI Buổi Chiều (05/10/2026): Tiêu điểm Powerless F1 drivers frustrated by Bahrain F1 software glitc và những bước chuyển từ Hugging Face Papers Trong...",
-      "authorName": "Xuân Chinh Trịnh",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "d953cf462c43a622",
-      "title_vi": "Suy giảm kỹ năng thời AI: Vì sao hoàn thành nhiệm vụ là chưa đủ",
-      "title_en": "Skill Degradation in the AI Era: Why Completing Tasks Is Not Enough",
-      "summary_vi": [
-        "Tốc độ đóng vé công việc và hợp nhất mã nguồn gia tăng nhờ các trợ lý trí tuệ nhân tạo không đồng nghĩa với việc lập trình viên đang tích lũy năng lực kỹ thuật thực tế.",
-        "Việc quá phụ thuộc vào tự động hóa khiến kỹ năng phân tích kiến trúc, tư duy gỡ lỗi và giải quyết vấn đề cốt lõi của kỹ sư phần mềm có nguy cơ bị mai một dần theo thời gian.",
-        "Các tổ chức và cá nhân cần thiết lập lại phương pháp đánh giá năng lực, kết hợp giữa hiệu suất sinh mã nguồn và chiều sâu hiểu biết chuyên môn để phát triển bền vững."
-      ],
-      "summary_en": [
-        "The increased speed of closing tickets and merging pull requests driven by artificial intelligence agents does not mean developers are accumulating genuine technical capabilities.",
-        "Over-reliance on automation causes software engineers to gradually lose their architectural analysis skills, debugging mindset, and core problem-solving abilities over time.",
-        "Organizations and individuals must re-establish competency evaluation methods, balancing code generation performance with deep technical understanding for sustainable career growth."
-      ],
-      "originalTitle": "Suy giảm kỹ năng thời AI: vì sao hoàn thành task là chưa đủ",
-      "url": "https://viblo.asia/p/suy-giam-ky-nang-thoi-ai-vi-sao-hoan-thanh-task-la-chua-du-kY4gDRjqJAe",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "AI",
-        "Software Engineering",
-        "Developer Productivity",
-        "Career Development"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-05T15:51:14.000Z",
-      "contentSnippet": "Tốc độ đóng ticket hay hợp nhất pull request gia tăng nhờ AI agent không đồng nghĩa với việc bạn đang tích lũy năng lực kỹ thuật. Việc ủy thác hoàn to...",
-      "authorName": "Trần Văn Tuấn",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "98b138871836c15e",
-      "title_vi": "Tại sao bạn vẫn cần hồ sơ năng lực trang web, ngay cả khi mọi người đều có thể lập trình theo cảm hứng với AI",
-      "title_en": "Why you still need a Website Portfolio, even though everyone can Vibe Code it",
-      "summary_vi": [
-        "Sự bùng nổ của trí tuệ nhân tạo tạo ra thách thức lớn trong quy trình tuyển dụng ngành công nghệ, khiến việc tạo ra một hồ sơ năng lực nổi bật trở nên khó khăn hơn bao giờ hết khi các công cụ AI có thể tự động tạo website chỉ trong vài phút.",
-        "Các mô hình AI hiện đại sở hữu khả năng lập trình vượt trội, cho phép xây dựng toàn bộ giao diện, tích hợp tính năng phức tạp và thậm chí hợp nhất nhiều ứng dụng trong thời gian ngắn mà trước đây cần tốn nhiều tháng phát triển.",
-        "Bất chấp làn sóng lập trình hỗ trợ bằng AI đang phát triển mạnh mẽ, việc duy trì một trang web hồ sơ cá nhân vẫn đóng vai trò là công cụ quan trọng giúp nhà phát triển khẳng định năng lực thực tế trước các nhà tuyển dụng."
-      ],
-      "summary_en": [
-        "The rapid rise of artificial intelligence creates significant challenges in technical hiring, making it increasingly difficult to build a standout portfolio when AI tools can automatically generate complete websites within just a few minutes.",
-        "Modern AI models possess exceptional coding capabilities, enabling developers to construct entire user interfaces, integrate complex features, and even merge multiple applications in a short timeframe that previously required months of manual work.",
-        "Despite the surging wave of AI-assisted development, maintaining a personal portfolio website remains a crucial tool that helps software engineers effectively demonstrate their practical expertise and experience to recruiters."
-      ],
-      "originalTitle": "Why you still need a Website Portfolio, even though everyone can Vibe Code it.",
-      "url": "https://dev.to/francistrdev/why-you-still-need-a-website-portfolio-even-though-everyone-can-vibe-code-it-e63",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Web Development",
-        "Portfolio",
-        "Software Engineering",
-        "Tech Hiring"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-05T15:09:58.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F79tl6zqq4x0zaplgo6t2.jpg",
-      "contentSnippet": "If you have been following me for a long time, you already know I have been holding off my Portfolio...",
-      "authorName": "FrancisTRᴅᴇᴠ",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3711376%2Fe88f6fdf-33af-4dde-bb60-fbe662e87d02.gif",
-      "upvotes": 66,
-      "commentsCount": 20
-    },
-    {
-      "id": "afbb7f1de8de8eb0",
-      "title_vi": "Lãnh đạo an toàn của OpenAI từ chức và cảnh báo về sự suy thoái văn hóa công ty",
-      "title_en": "OpenAI Safety Leader Resigns and Warns of Corporate Culture Breakdown",
-      "summary_vi": [
-        "Một quan chức cấp cao phụ trách bộ phận an toàn trí tuệ nhân tạo tại công ty OpenAI đã chính thức từ chức, đồng thời đưa ra những cảnh báo nghiêm khắc về việc văn hóa doanh nghiệp đang dần đổ vỡ.",
-        "Sự việc này làm dấy lên những lo ngại sâu sắc về quy trình kiểm soát rủi ro, cơ chế quản trị đạo đức trong việc phát triển các mô hình ngôn ngữ lớn và mức độ ưu tiên tính an toàn so với tốc độ thương mại hóa.",
-        "Đối với ngành công nghệ thông tin và các kỹ sư phát triển phần mềm, đây là lời nhắc nhở quan trọng về trách nhiệm xã hội và sự cần thiết phải thiết lập các tiêu chuẩn kiểm định khắt khe cho hệ thống trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "A senior safety leader at OpenAI has officially resigned, raising severe warnings that the company corporate culture is currently breaking down amid rapid commercial pressures.",
-        "This departure highlights deep concerns regarding risk control procedures, ethical governance mechanisms in large language model development, and the prioritization of safety over speed.",
-        "For the IT industry and software engineers, this serves as a critical reminder of social responsibility and the necessity to establish rigorous verification standards for artificial intelligence."
-      ],
-      "originalTitle": "Lãnh đạo an toàn của OpenAI nghỉ việc, cảnh báo văn hóa công ty 'đang đổ vỡ'",
-      "url": "https://tuoitre.vn/lanh-dao-an-toan-cua-openai-nghi-viec-canh-bao-van-hoa-cong-ty-dang-do-vo-100261005131411819.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "OpenAI",
-        "Cybersecurity",
-        "Tech Trends & Startups"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-05T14:11:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/5/lanh-dao-an-toan-cua-openai-nghi-viec-canh-bao-van-hoa-cong-ty-dang-do-vo-1791180517569739371304.png",
-      "contentSnippet": "Một lãnh đạo phụ trách an toàn tại OpenAI đã nghỉ việc, cảnh báo văn hóa của công ty đang đổ vỡ và các công ty AI chưa đủ thận trọng trong quá trình phát triển công nghệ này.",
-      "authorName": "BÌNH MINH",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0181d24f494c37c5",
-      "title_vi": "Anker soundcore Liberty 5 Pro Max: Khi trí tuệ nhân tạo định hình lại trải nghiệm thiết bị âm thanh",
-      "title_en": "Anker soundcore Liberty 5 Pro Max: When Artificial Intelligence Reshapes Audio Device Experience",
-      "summary_vi": [
-        "Trí tuệ nhân tạo đang dần vượt ra khỏi ranh giới của điện thoại thông minh và máy tính để tích hợp trực tiếp vào các thiết bị ngoại vi quen thuộc như tai nghe không dây.",
-        "Mẫu tai nghe Anker soundcore Liberty 5 Pro Max minh chứng cho xu hướng phần cứng tích hợp AI nhằm tối ưu hóa khả năng xử lý âm thanh và hỗ trợ giao tiếp thông minh.",
-        "Sự dịch chuyển này mở ra hướng đi mới cho các kỹ sư phát triển thiết bị di động trong việc tận dụng thuật toán học máy nhằm nâng cao trải nghiệm người dùng thực tế."
-      ],
-      "summary_en": [
-        "Artificial intelligence is gradually breaking beyond the boundaries of smartphones and computers to integrate directly into familiar peripheral devices such as wireless headphones.",
-        "The Anker soundcore Liberty 5 Pro Max headphone model exemplifies the hardware trend integrating AI to optimize audio processing capabilities and support smart communication.",
-        "This shift opens up new directions for mobile device development engineers in leveraging machine learning algorithms to enhance practical user experience."
-      ],
-      "originalTitle": "Anker soundcore Liberty 5 Pro Max: Khi AI bắt đầu thay đổi cách chúng ta dùng tai nghe",
-      "url": "https://genk.vn/anker-soundcore-liberty-5-pro-max-khi-ai-bat-dau-thay-doi-cach-chung-ta-dung-tai-nghe-165261005200706684.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "AI",
-        "Hardware",
-        "Audio",
-        "Mobile",
-        "Machine Learning"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-05T14:00:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/5/avatar1791205540360-17912055416401124342217.png",
-      "contentSnippet": "AI đang dần xuất hiện trên những thiết bị quen thuộc, thay vì chỉ nằm trong smartphone hay máy tính. Anker soundcore Liberty 5 Pro Max cho thấy tai nghe cũng có thể trở thành một công cụ hỗ trợ giao tiếp và công việc hàng ngày.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "81c68d80561ae721",
-      "title_vi": "Kỷ niệm 15 năm Apple ra mắt điện thoại iPhone 4 với thiết kế khung viền thép đột phá",
-      "title_en": "Celebrating 15 years since Apple launched the iPhone 4 featuring a breakthrough stainless steel frame design",
-      "summary_vi": [
-        "Sự kiện kỷ niệm mốc thời gian mười lăm năm kể từ khi tập đoàn công nghệ Apple chính thức công bố mẫu điện thoại thông minh iPhone 4 đánh dấu bước ngoặt lớn.",
-        "Thiết kế phần cứng mang tính biểu tượng với khung viền thép không gỉ kết hợp hai mặt kính cường lực đã định hình lại tiêu chuẩn chế tạo thiết bị di động cao cấp.",
-        "Sản phẩm này không chỉ tạo ra cú hích lớn về doanh số mà còn để lại bài học kinh điển về sự kết hợp hoàn hảo giữa vật liệu cơ khí và trải nghiệm phần mềm."
-      ],
-      "summary_en": [
-        "The event marks the fifteen-year milestone since technology giant Apple officially announced the iPhone 4 smartphone, representing a major turning point in the industry.",
-        "The iconic hardware design featuring a stainless steel frame combined with dual tempered glass panels reshaped manufacturing standards for high-end mobile devices.",
-        "This product not only generated massive commercial sales but also left a classic lesson on the seamless integration between mechanical materials and software experience."
-      ],
-      "originalTitle": "15 năm trước Apple ra mắt iPhone 4 với khung viền thép",
-      "url": "https://tinhte.vn/thread/15-nam-truoc-apple-ra-mat-iphone-4-voi-khung-vien-thep.4181705/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Hardware",
-        "Mobile",
-        "Design"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-05T12:52:43.000Z",
-      "contentSnippet": "15 năm trước Apple ra mắt iPhone 4 với khung viền thép",
-      "authorName": "cuhiep",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "564172c5a968685d",
-      "title_vi": "Samsung được cho là xác nhận kính Android XR đầu tiên ra mắt tháng 11/2026, nhẹ hơn Ray-Ban Meta",
-      "title_en": "Samsung reportedly confirms first Android XR glasses launching in November 2026, lighter than Ray-Ban Meta",
-      "summary_vi": [
-        "Samsung đang chuẩn bị bước chân mạnh mẽ vào thị trường thiết bị thực tế hỗn hợp với dòng kính thông minh tích hợp hệ điều hành Android XR hoàn toàn mới, đánh dấu cột mốc quan trọng trong chiến lược phát triển phần cứng di động.",
-        "Thiết bị này được tiết lộ sẽ có trọng lượng nhẹ hơn khoảng năm gram so với dòng kính thông minh Ray-Ban Meta phổ biến hiện nay, nhờ vào những tối ưu hóa tiên tiến về mặt thiết kế phần cứng và linh kiện vi mô.",
-        "Sự ra mắt của dòng kính XR này sẽ mở ra hệ sinh thái ứng dụng thực tế ảo và thực tế tăng cường rộng lớn cho cộng đồng nhà phát triển, tạo động lực thúc đẩy các giải pháp phần mềm đa nền tảng trong tương lai."
-      ],
-      "summary_en": [
-        "Samsung is preparing a major entry into the mixed reality market with its upcoming smart glasses powered by the new Android XR operating system, marking a significant milestone in mobile hardware strategy.",
-        "The device is reportedly designed to be about five grams lighter than the popular Ray-Ban Meta smart glasses, achieved through advanced optimizations in hardware engineering and micro-component layout.",
-        "The launch of these XR glasses will open up a vast ecosystem of virtual and augmented reality applications for the developer community, driving the growth of cross-platform software solutions in the future."
-      ],
-      "originalTitle": "Samsung được cho là xác nhận kính Android XR đầu tiên ra mắt tháng 11/2026, nhẹ hơn Ray-Ban Meta...",
-      "url": "https://tinhte.vn/thread/samsung-duoc-cho-la-xac-nhan-kinh-android-xr-dau-tien-ra-mat-thang-11-2026-nhe-hon-ray-ban-meta.4181609/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Android XR",
-        "Samsung",
-        "Smart Glasses",
-        "Mixed Reality",
-        "Mobile Hardware"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-05T11:54:10.000Z",
-      "contentSnippet": "Samsung được cho là xác nhận kính Android XR đầu tiên ra mắt tháng 11/2026, nhẹ hơn Ray-Ban Meta khoảng 5 gram Theo Korea Herald, dẫn lời một quan chức Samsung, kính thông minh Android XR đầu...",
-      "authorName": "nhatminhngo",
-      "upvotes": 0,
-      "commentsCount": 0
     }
   ]
 }
