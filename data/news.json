@@ -1,7 +1,552 @@
 {
-  "lastUpdated": "2026-10-15T10:38:03.762Z",
+  "lastUpdated": "2026-10-16T02:25:50.595Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "63297ffc3b794f74",
+      "title_vi": "Tìm ra công thức dự báo thời điểm trí tuệ nhân tạo đưa ra câu trả lời nguy hiểm",
+      "title_en": "Discovering a mathematical formula to predict when artificial intelligence provides dangerous answers",
+      "summary_vi": [
+        "Các nhà khoa học Mỹ vừa phát triển thành công một công thức toán học đột phá nhằm dự báo chính xác thời điểm các hệ thống chatbot trí tuệ nhân tạo chuyển từ trạng thái phản hồi hữu ích sang cung cấp nội dung có khả năng gây hại.",
+        "Mô hình toán học này phân tích sâu sắc các mẫu dữ liệu đầu vào và trạng thái kích hoạt của mạng neural sâu, từ đó xác định ngưỡng giới hạn mà tại đó mô hình ngôn ngữ lớn bắt đầu sinh ra các câu trả lời độc hại hoặc sai lệch.",
+        "Phát hiện này đóng vai trò quan trọng trong việc nâng cao độ an toàn cho các ứng dụng AI tạo sinh, giúp các kỹ sư phần mềm thiết lập thêm các lớp kiểm soát và bộ lọc vững chắc trước khi triển khai sản phẩm."
+      ],
+      "summary_en": [
+        "American scientists have successfully developed a breakthrough mathematical formula to accurately predict when artificial intelligence chatbot systems transition from helpful responses to generating potentially harmful content.",
+        "This mathematical model deeply analyzes input data patterns and the activation states of deep neural networks, thereby identifying the threshold limits where large language models begin producing toxic or biased outputs.",
+        "This discovery plays a crucial role in enhancing safety for generative AI applications, helping software engineers establish robust control layers and filtering mechanisms before deploying production products."
+      ],
+      "originalTitle": "Tìm ra công thức dự báo thời điểm AI đưa ra câu trả lời nguy hiểm",
+      "url": "https://tuoitre.vn/tim-ra-cong-thuc-du-bao-thoi-diem-ai-dua-ra-cau-tra-loi-nguy-hiem-100261015130916002.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Cybersecurity",
+        "Large Language Models",
+        "AI Safety"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-16T07:28:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/15/kh-ai-cong-thuc-toan-getty-1792044207741812758616-0-46-450-766-crop-1792044215728511196065.jpg",
+      "contentSnippet": "Các nhà khoa học Mỹ phát triển công thức toán học có thể dự báo thời điểm một số chatbot trí tuệ nhân tạo (AI) chuyển từ phản hồi hữu ích sang nội dung có khả năng gây hại.",
+      "authorName": "ANH THƯ",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "bada4aa386d2a3d5",
+      "title_vi": "PostgreSQL Bài 35: Nhân bản logic, cơ chế phát hành và đăng ký cùng ứng dụng nâng cấp không gián đoạn",
+      "title_en": "PostgreSQL Article 35: Logical Replication, Publish/Subscribe Mechanism, and Zero-Downtime Upgrade Applications",
+      "summary_vi": [
+        "Bài viết khám phá cơ chế nhân bản logic trong PostgreSQL, một phương pháp tiên tiến cho phép quản lý và sao chép dữ liệu linh hoạt hơn so với phương pháp nhân bản vật lý truyền thống.",
+        "Tác giả phân tích chi tiết cách thức hoạt động của mô hình phát hành và đăng ký, giúp kỹ sư cơ sở dữ liệu kiểm soát chính xác các bảng cần đồng bộ trong hệ thống.",
+        "Giải pháp này mang lại giá trị thực tiễn cao khi hỗ trợ thực hiện các chiến lược nâng cấp phiên bản cơ sở dữ liệu mà không làm gián đoạn dịch vụ của người dùng cuối."
+      ],
+      "summary_en": [
+        "The article explores the logical replication mechanism in PostgreSQL, an advanced method that enables more flexible data management and duplication compared to traditional physical replication.",
+        "The author provides a detailed analysis of how the publish and subscribe model operates, empowering database engineers to precisely control which tables need synchronization within the system.",
+        "This solution delivers high practical value by supporting database version upgrade strategies without causing any interruption to the services experienced by end-users."
+      ],
+      "originalTitle": "PostgreSQL Bài 35: Logical Replication: Cơ chế Publish/Subscribe và ứng dụng nâng cấp Zero-Downtime",
+      "url": "https://viblo.asia/p/postgresql-bai-35-logical-replication-co-che-publishsubscribe-va-ung-dung-nang-cap-zero-downtime-y0VGwWv8VPA",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "PostgreSQL",
+        "Database",
+        "Replication",
+        "DevOps",
+        "Backend"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-16T07:24:08.000Z",
+      "contentSnippet": "Khác với Physical Replication (sao chép vật lý bit-by-bit toàn bộ cluster) ở Bài 34, Logical Replication (Sao chép logic) cho phép bạn kiểm soát chín...",
+      "authorName": "HUy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "fc97eed12518a01c",
+      "title_vi": "PostgreSQL Bài 34: Phát trực tuyến nhân bản và kiến trúc tính sẵn sàng cao với mô hình chính-phụ",
+      "title_en": "PostgreSQL Lesson 34: Streaming Replication and High Availability Architecture with Master-Slave Model",
+      "summary_vi": [
+        "Bài viết tiếp tục chuỗi series chuyên sâu về cơ sở dữ liệu PostgreSQL, tập trung khám phá cơ chế nhân bản dữ liệu phát trực tuyến và giải pháp xây dựng hệ thống tính sẵn sàng cao nhằm đảm bảo an toàn dữ liệu tuyệt đối.",
+        "Tác giả phân tích chi tiết cách thức hoạt động của mô hình chính-phụ thông qua việc truyền tải tập tin bản ghi nhật ký trước từ máy chủ chủ sang máy chủ tớ, giúp duy trì các bản sao dữ liệu đồng bộ theo thời gian thực.",
+        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư cơ sở dữ liệu và quản trị hệ thống trong việc thiết kế hạ tầng phần mềm chịu lỗi, giảm thiểu thời gian gián đoạn dịch vụ khi xảy ra sự cố phần cứng."
+      ],
+      "summary_en": [
+        "The article continues the in-depth PostgreSQL database series, focusing on exploring streaming replication mechanisms and high availability system solutions to ensure absolute data safety and continuity.",
+        "The author provides a detailed analysis of how the master-slave model operates through transmitting write-ahead log files from the primary server to the standby server, maintaining real-time synchronized data replicas.",
+        "This knowledge delivers high practical value for database engineers and system administrators in designing fault-tolerant software infrastructure and minimizing service downtime during hardware failures."
+      ],
+      "originalTitle": "PostgreSQL Bài 34: Streaming Replication và Kiến trúc High Availability (HA) với Master-Slave",
+      "url": "https://viblo.asia/p/postgresql-bai-34-streaming-replication-va-kien-truc-high-availability-ha-voi-master-slave-PoL7eOj14vk",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "PostgreSQL",
+        "Database",
+        "High Availability",
+        "Replication",
+        "DevOps"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-16T07:24:02.000Z",
+      "contentSnippet": "Ở Bài 33, chúng ta đã biết WAL (Write-Ahead Log) là \"chiếc hộp đen\" lưu trữ mọi thay đổi vật lý của cơ sở dữ liệu để cứu hộ khi máy chủ sập nguồn. Nếu...",
+      "authorName": "HUy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ef7fa71b4175ea4e",
+      "title_vi": "PostgreSQL Bài 33: Cơ chế WAL, Checkpoint và kiến trúc khôi phục thảm họa",
+      "title_en": "PostgreSQL Lesson 33: WAL Mechanism, Checkpoints, and Disaster Recovery Architecture",
+      "summary_vi": [
+        "Bài viết phân tích chi tiết về tính chất Durability trong ACID của cơ sở dữ liệu và vai trò cốt lõi của cơ chế Write-Ahead Logging trong PostgreSQL.",
+        "Tác giả đi sâu vào cách thức hoạt động của WAL, quy trình Checkpoint định kỳ và kiến trúc Crash Recovery giúp hệ thống phục hồi dữ liệu an toàn sau sự cố.",
+        "Kiến thức này giúp các kỹ sư phần mềm và quản trị cơ sở dữ liệu tối ưu hóa hiệu năng hệ thống, đảm bảo an toàn dữ liệu trong các ứng dụng lớn."
+      ],
+      "summary_en": [
+        "The article provides a detailed analysis of the Durability property in database ACID compliance and the core role of the Write-Ahead Logging mechanism in PostgreSQL.",
+        "The author dives deep into WAL operations, periodic checkpoint processes, and the crash recovery architecture that ensures safe data restoration after system failures.",
+        "This knowledge helps software engineers and database administrators optimize system performance and ensure data integrity across large-scale applications."
+      ],
+      "originalTitle": "PostgreSQL Bài 33: Cơ chế WAL (Write-Ahead Logging), Checkpoint và kiến trúc khôi phục thảm họa (Crash Recovery)",
+      "url": "https://viblo.asia/p/postgresql-bai-33-co-che-wal-write-ahead-logging-checkpoint-va-kien-truc-khoi-phuc-tham-hoa-crash-recovery-13VM9dw5VY7",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "PostgreSQL",
+        "Database",
+        "WAL",
+        "Crash Recovery",
+        "Backend"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-10-16T07:23:55.000Z",
+      "contentSnippet": "Trong bộ 4 tính chất kinh điển ACID của cơ sở dữ liệu, chữ D (Durability - Tính bền vững) là lời cam kết đanh thép nhất của hệ thống: \"Một khi tôi đã ...",
+      "authorName": "HUy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "12dccc7590ee156b",
+      "title_vi": "PostgreSQL Bài 32: Khóa chéo và Công cụ chẩn đoán quản lý khóa dữ liệu",
+      "title_en": "PostgreSQL Part 32: Deadlocks and Lock Monitoring Diagnostic Tools",
+      "summary_vi": [
+        "Bài viết tiếp tục chuỗi chuyên đề về cơ sở dữ liệu quan hệ, tập trung giải quyết vấn đề khóa chéo thường gặp trong các hệ thống xử lý giao dịch đồng thời cao.",
+        "Tác giả phân tích chi tiết cơ chế phát sinh khóa chéo giữa các luồng cập nhật dữ liệu và giới thiệu các công cụ chẩn đoán hiệu suất dòng lệnh để giám sát hệ thống.",
+        "Kiến thức này giúp các kỹ sư phần mềm tối ưu hóa mã nguồn truy vấn, phòng ngừa lỗi tắc nghẽn hệ thống và nâng cao độ ổn định cho các ứng dụng doanh nghiệp."
+      ],
+      "summary_en": [
+        "The article continues the relational database series, focusing on resolving deadlocks commonly encountered in high concurrency transaction processing systems.",
+        "The author provides a detailed analysis of deadlock generation mechanisms between data update threads and introduces command-line performance diagnostic tools for system monitoring.",
+        "This knowledge helps software engineers optimize query source code, prevent system bottlenecks, and improve stability for enterprise applications."
+      ],
+      "originalTitle": "PostgreSQL Bài 32: Deadlock (Khóa chéo) và Công cụ chẩn đoán (Lock Monitoring)",
+      "url": "https://viblo.asia/p/postgresql-bai-32-deadlock-khoa-cheo-va-cong-cu-chan-doan-lock-monitoring-lZL9XOkvJQK",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "PostgreSQL",
+        "Database",
+        "Deadlock",
+        "Performance",
+        "SQL"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-16T07:23:48.000Z",
+      "contentSnippet": "Ở Bài 31, bạn đã biết cách sử dụng các loại khóa (Table Locks, Row Locks) để bảo vệ toàn vẹn dữ liệu khỏi các luồng cập nhật đồng thời. Tuy nhiên, khó...",
+      "authorName": "HUy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "46d98e6be5b02c48",
+      "title_vi": "PostgreSQL Bài 31: Hệ thống khóa chuyên sâu: Table Locks, Row Locks, Advisory Locks",
+      "title_en": "PostgreSQL Lesson 31: In-depth locking system: Table Locks, Row Locks, Advisory Locks",
+      "summary_vi": [
+        "Mặc dù kiến trúc MVCC (đã học ở Bài 29) đảm bảo \"đọc không chặn ghi, ghi không chặn đọc\", PostgreSQL vẫn duy trì một hệ thống khóa (Locking System) đồ.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong PostgreSQL Bài 31: Hệ thống khóa chuyên sâu: Table Locks, Row Locks, Advisory Locks.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến PostgreSQL Bài 31: Hệ thống khóa chuyên sâu: Table Locks, Row Locks, Advisory Locks."
+      ],
+      "summary_en": [
+        "Although the MVCC architecture (learned in Lesson 29) ensures \"reads do not block writes, writes do not block reads\", PostgreSQL still maintains a locking system.",
+        "In-depth technical breakdown and implementation mechanisms introduced in PostgreSQL Lesson 31: In-depth locking system: Table Locks, Row Locks, Advisory Locks.",
+        "Practical engineering impact and actionable takeaways for developers building with PostgreSQL Lesson 31: In-depth locking system: Table Locks, Row Locks, Advisory Locks."
+      ],
+      "originalTitle": "PostgreSQL Bài 31: Hệ thống khóa chuyên sâu: Table Locks, Row Locks, Advisory Locks",
+      "url": "https://viblo.asia/p/postgresql-bai-31-he-thong-khoa-chuyen-sau-table-locks-row-locks-advisory-locks-oKLnqjbaJQO",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "PostgreSQL",
+        "CleanArchitecture"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-16T07:23:41.000Z",
+      "contentSnippet": "Mặc dù kiến trúc MVCC (đã học ở Bài 29) đảm bảo \"đọc không chặn ghi, ghi không chặn đọc\", PostgreSQL vẫn duy trì một hệ thống khóa (Locking System) đồ...",
+      "authorName": "HUy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6aa504bbdbdb4ed6",
+      "title_vi": "Bỏ 65 triệu đồng để mua iPhone Duo, hóa ra có lý do cả",
+      "title_en": "Spending 65 Million VND on the iPhone Duo Actually Makes Practical Sense",
+      "summary_vi": [
+        "Thiết bị di động mới với mức giá khởi điểm cao gần sáu mươi lăm triệu đồng đang thu hút sự chú ý lớn nhờ thiết kế màn hình gập độc đáo và các tính năng tối ưu hóa trải nghiệm thực tế cho người dùng phổ thông.",
+        "Điểm nhấn công nghệ cốt lõi là tính năng Duo Preview tận dụng tối đa màn hình phụ bên ngoài, cho phép đối tượng được chụp có thể quan sát trực tiếp góc máy và khung hình từ camera chính một cách dễ dàng.",
+        "Cải tiến phần cứng này giải quyết triệt để hạn chế truyền thống trên các dòng điện thoại thông minh, mang lại giá trị thực tiễn cao và thay đổi hoàn toàn cách tương tác giữa người chụp và người được chụp."
+      ],
+      "summary_en": [
+        "The new mobile device starting at nearly sixty-five million dong is attracting massive attention due to its unique foldable display design and features optimized for practical user experiences.",
+        "The core technological highlight is the Duo Preview feature that leverages the external secondary screen, allowing subjects to directly monitor camera angles and framing from the main shooter easily.",
+        "This hardware improvement fundamentally solves traditional limitations on standard smartphones, delivering high practical value and completely transforming the interaction between photographers and their subjects."
+      ],
+      "originalTitle": "Bỏ 65 triệu đồng để mua iPhone Duo, hóa ra có lý do cả",
+      "url": "https://genk.vn/bo-65-trieu-dong-de-mua-iphone-duo-hoa-ra-co-ly-do-ca-165261016082022402.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Mobile",
+        "Hardware",
+        "Camera",
+        "Foldable",
+        "UX"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-16T02:00:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/16/avatar1792113454944-1792113455292545152748.jpg",
+      "contentSnippet": "iPhone Duo, mẫu iPhone gập đầu tiên của Apple, sẽ bắt đầu nhận đặt trước tại Việt Nam từ 19h ngày 16/10, trước khi chính thức có hàng từ ngày 23/10.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f70eb61964b4d37f",
+      "title_vi": "Qualcomm thắng kiện Arm nhưng chỉ nhận được mức bồi thường tượng trưng hai đô la",
+      "title_en": "Qualcomm Wins Lawsuit Against Arm But Is Awarded Only Two Dollars in Damages",
+      "summary_vi": [
+        "Tòa án tại bang Delaware của Mỹ vừa đưa ra phán quyết chính thức trong vụ kiện tụng bản quyền công nghệ giữa hai tập đoàn bán dẫn lớn là Qualcomm và Arm.",
+        "Bồi thẩm đoàn xác định Qualcomm giành chiến thắng trong hai cáo buộc quan trọng liên quan đến vi phạm hợp đồng và quyền sở hữu trí tuệ kiến trúc chip di động.",
+        "Phán quyết này tạo ra tiền lệ pháp lý đáng chú ý trong ngành công nghiệp bán dẫn toàn cầu khi mức bồi thường tài chính thực tế chỉ mang tính biểu tượng."
+      ],
+      "summary_en": [
+        "A federal court in Delaware has finally reached a verdict in the high-profile intellectual property lawsuit between major semiconductor giants Qualcomm and Arm Holdings.",
+        "The jury determined that Qualcomm successfully proved two key allegations regarding breach of contract and intellectual property rights concerning mobile processor architectures.",
+        "This legal outcome establishes a notable precedent within the global semiconductor industry while resulting in a strictly symbolic financial compensation for the victorious party."
+      ],
+      "originalTitle": "Qualcomm thắng kiện Arm nhưng chỉ được bồi thường… 2 USD",
+      "url": "https://tinhte.vn/thread/qualcomm-thang-kien-arm-nhung-chi-duoc-boi-thuong-2-usd.4184476/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Qualcomm",
+        "Arm",
+        "Semiconductor",
+        "Lawsuit",
+        "Hardware"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-16T01:53:59.000Z",
+      "contentSnippet": "Qualcomm thắng kiện Arm nhưng chỉ được bồi thường… 2 USD Theo Reuters, bồi thẩm đoàn ở bang Delaware (Mỹ) vừa ra phán quyết trong vụ Qualcomm kiện Arm: Qualcomm thắng 2 cáo buộc và được bồi...",
+      "authorName": "cuhiep",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "4291db12e480ce3a",
+      "title_vi": "Rò rỉ thông số kỹ thuật và 25 tùy chọn kiểu dáng kính thực tế ảo Android XR của Samsung",
+      "title_en": "Samsung Android XR Glasses Specifications and 25 Design Options Leaked",
+      "summary_vi": [
+        "Những thông tin chi tiết đầu tiên về mẫu kính thực tế ảo Android XR sắp ra mắt của Samsung vừa chính thức bị rò rỉ, hé lộ chiến lược cạnh tranh mạnh mẽ trong phân khúc thiết bị đeo thông minh.",
+        "Báo cáo kỹ thuật cho thấy thiết bị tích hợp phần cứng tiên tiến cùng hệ điều hành tối ưu hóa chuyên biệt cho không gian thực tế hỗn hợp, mang lại hiệu suất xử lý đồ họa vượt trội.",
+        "Sản phẩm này đánh dấu bước tiến quan trọng của hệ sinh thái Android trong việc mở rộng sang các nền tảng phần cứng thế hệ mới, tạo động lực cho các nhà phát triển ứng dụng không gian."
+      ],
+      "summary_en": [
+        "The first detailed information about Samsung upcoming Android XR smart glasses has officially leaked, revealing an aggressive competitive strategy in the wearable device segment.",
+        "Technical reports indicate that the device integrates advanced hardware along with a specialized operating system optimized for mixed reality spaces, delivering superior graphics processing performance.",
+        "This product marks a significant milestone for the Android ecosystem in expanding into next-generation hardware platforms, creating strong incentives for spatial application developers."
+      ],
+      "originalTitle": "Rò rỉ thông số và 25 tùy chọn kiểu dáng kính Android XR của Samsung",
+      "url": "https://tinhte.vn/thread/ro-ri-thong-so-va-25-tuy-chon-kieu-dang-kinh-android-xr-cua-samsung.4184222/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Android XR",
+        "Samsung",
+        "Smart Glasses",
+        "Hardware",
+        "XR"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-16T01:43:11.000Z",
+      "contentSnippet": "Rò rỉ thông số và 25 tùy chọn kiểu dáng kính Android XR của Samsung Những thông tin chi tiết đầu tiên về mẫu kính Android XR sắp ra mắt của Samsung vừa được hé lộ, bao gồm thông số kỹ thuật phần...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "aa6e5bfabcc05330",
+      "title_vi": "Hàng nghìn điện thoại Android giá rẻ bị phát hiện cài sẵn mã độc",
+      "title_en": "Thousands of budget Android phones discovered with pre-installed malware",
+      "summary_vi": [
+        "Các nhà nghiên cứu bảo mật từ Bitdefender vừa phát hiện chiến dịch độc hại kéo dài suốt hai năm qua, nhắm vào hàng nghìn thiết bị điện thoại Android giá rẻ tại nhiều quốc gia trên toàn cầu.",
+        "Những thiết bị bị ảnh hưởng nghiêm trọng bao gồm các dòng máy như Doogee S200 X, Cubot KINGKONG X cùng nhiều sản phẩm giả mạo các thương hiệu nổi tiếng khác có cài sẵn mã độc hại từ trước.",
+        "Sự việc này gióng lên hồi chuông cảnh báo về rủi ro chuỗi cung ứng phần cứng di động, đòi hỏi các nhà phát triển và người dùng cần thắt chặt kiểm tra an ninh mạng thiết bị."
+      ],
+      "summary_en": [
+        "Security researchers from Bitdefender have recently uncovered a malicious campaign spanning the past two years, targeting thousands of budget Android devices across multiple countries globally.",
+        "The severely affected devices include models such as the Doogee S200 X, Cubot KINGKONG X, and various counterfeit products from well-known brands that came with pre-installed malicious code.",
+        "This incident raises serious alarms regarding mobile hardware supply chain risks, requiring developers and users to tighten device cybersecurity verification measures."
+      ],
+      "originalTitle": "Hàng nghìn điện thoại Android giá rẻ bị phát hiện cài sẵn mã độc",
+      "url": "https://genk.vn/hang-nghin-dien-thoai-android-gia-re-bi-phat-hien-cai-san-ma-doc-165261016081128685.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Android",
+        "Malware",
+        "Cybersecurity",
+        "Bitdefender",
+        "Mobile Security"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-16T01:20:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/16/avatar1792113043140-1792113044112222942515.png",
+      "contentSnippet": "Các chuyên gia bảo mật phát hiện hàng nghìn điện thoại Android giá rẻ bị cài sẵn mã độc trước khi đến tay người dùng.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "52713b2a747cbe8d",
+      "title_vi": "Khám phá hai tùy chọn màu sắc của điện thoại gập iPhone Duo trước ngày phát hành tại thị trường Việt Nam",
+      "title_en": "Exploring the Two Color Options of the iPhone Duo Foldable Phone Ahead of Its Official Release in Vietnam",
+      "summary_vi": [
+        "Dòng điện thoại gập iPhone Duo chuẩn bị được phát hành chính thức tại thị trường Việt Nam vào cuối tháng mười sau giai đoạn cho phép người dùng đặt trước sản phẩm từ giữa tháng",
+        "Thiết bị di động cao cấp này sở hữu mức giá khởi điểm đáng chú ý cùng hai phiên bản màu sắc độc đáo là Trắng Ánh Sao thanh lịch và Trời Đêm mang phong cách tối giản",
+        "Sự xuất hiện của dòng điện thoại gập này đánh dấu bước tiến quan trọng trong chiến lược phần cứng di động của Apple nhằm thu hút phân khúc người dùng cao cấp tại thị trường khu vực"
+      ],
+      "summary_en": [
+        "The new iPhone Duo foldable smartphone is officially scheduled for release in the Vietnamese market later this month following a pre-order period starting in mid-October",
+        "This high-end mobile device features a notable starting price along with two distinct color options including the elegant Star White and the minimalist Night Sky finish",
+        "The introduction of this foldable device marks a significant milestone in Apple's mobile hardware strategy aimed at capturing the luxury consumer segment in regional markets"
+      ],
+      "originalTitle": "Ngắm hai màu sắc của iPhone Duo trước ngày lên kệ",
+      "url": "https://genk.vn/ngam-hai-mau-sac-cua-iphone-duo-truoc-ngay-len-ke-165261016080958529.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "Foldable Phone",
+        "Mobile Hardware",
+        "Tech Trends"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-16T01:09:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/16/avatar1792112886625-17921128871091151050024.png",
+      "contentSnippet": "Trước giờ mở bán tại Việt Nam, hai phiên bản màu sắc của iPhone Duo trở thành yếu tố đáng cân nhắc với người dùng.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "586646a0cb1a1729",
+      "title_vi": "Sản lượng smartphone theo quý thấp nhất kể từ 2012 do khủng hoảng chip nhớ",
+      "title_en": "Quarterly smartphone shipments hit lowest level since 2012 amid memory chip crisis",
+      "summary_vi": [
+        "Số lượng smartphone xuất xưởng trên toàn cầu trong quý III năm 2026 đã giảm mạnh hai mươi phần trăm so với cùng kỳ năm trước, chạm mức thấp kỷ lục kể từ năm hai nghìn không trăm mười hai theo báo cáo mới nhất.",
+        "Khủng hoảng chip nhớ trầm trọng diễn ra khi các nhà sản xuất bán dẫn dồn toàn lực phát triển bộ nhớ băng thông cao phục vụ hạ tầng trí tuệ nhân tạo, khiến nguồn cung RAM cho thiết bị di động bị bóp nghẹt.",
+        "Tình trạng thiếu hụt linh kiện phần cứng nghiêm trọng này đã đẩy giá thành thiết bị tăng cao, làm gián đoạn chuỗi cung ứng toàn cầu và buộc các kỹ sư phần cứng phải tối ưu hóa hiệu năng trên nền tảng phần cứng hạn chế."
+      ],
+      "summary_en": [
+        "Global smartphone shipments in the third quarter of 2026 dropped sharply by twenty percent year over year, hitting a record low not seen since 2012 according to recent market research reports.",
+        "A severe memory chip crisis occurred as semiconductor manufacturers redirected their production resources toward high bandwidth memory for artificial intelligence infrastructure, severely constraining mobile RAM supplies.",
+        "This critical shortage of hardware components has significantly increased device costs, disrupted global supply chains, and forced hardware engineers to optimize system performance on highly constrained platforms."
+      ],
+      "originalTitle": "Sản lượng smartphone theo quý thấp nhất kể từ 2012",
+      "url": "https://vnexpress.net/san-luong-smartphone-theo-quy-thap-nhat-ke-tu-2012-5132504.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Smartphones",
+        "Semiconductors",
+        "Hardware",
+        "Supply Chain",
+        "AI Infrastructure"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/15/27-1792029158-5384-1792029200.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=6N5-0IbGO85aDcDjHz--bg",
+      "contentSnippet": "Số smartphone xuất xưởng quý III/2026 chạm mức thấp nhất trong 14 năm do thiếu hụt chip nhớ và chu kỳ sử dụng thiết bị của người dùng kéo dài.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b4e6b604d0b97688",
+      "title_vi": "Steam hiện có thể hiển thị thành tích trò chơi theo các 'bộ' riêng biệt",
+      "title_en": "Steam can now show game achievements in separate ‘sets’",
+      "summary_vi": [
+        "Valve đang giới thiệu một tính năng mới quan trọng dành cho các thành tích trên Steam được gọi là \"bộ thành tích\" cho phép các nhà phát triển liệt kê các nhóm thành tích khác nhau cho một trò chơi cơ bản và các DLC.",
+        "Valve cho biết: “Trong các trò chơi hỗ trợ bộ, bạn vẫn mở khóa thành tích bằng cách chơi trò chơi như bình thường”.",
+        "\"Nhưng khi bạn duyệt qua những gì bạn đã mở khóa sau đó, Steam sẽ chia danh sách dài các thành tích trò chơi thành các bộ do nhà phát triển tạo ra, giúp bạn dễ dàng xem những gì bạn đã hoàn thành và tìm các thành tích liên quan khác mà bạn có thể mở khóa tiếp theo.\" Các bộ thành tích có các thanh tiến trình riêng và nếu bạn hoàn thành một bộ, bạn sẽ nhận được một chiếc cúp \"hoàn thành bộ\" hiển thị… Đọc toàn bộ câu chuyện tại The Verge."
+      ],
+      "summary_en": [
+        "Valve is introducing a major new feature for Steam achievements called \"achievement sets\" that lets developers list different groups of achievements for a base game and DLCs.",
+        "\"In games that support sets, you still unlock achievements by playing the game as usual,\" Valve says.",
+        "\"But when you browse what you have unlocked afterward, Steam will break the long list of game achievements into the developer-created sets, making it easier to see what you have completed and to find other related achievements you can unlock next.\" Achievement sets have their own progress bars, and if you finish a set, you'll get a \"set complete\" trophy that's visible … Read the full story at The Verge."
+      ],
+      "originalTitle": "Steam can now show game achievements in separate ‘sets’",
+      "url": "https://www.theverge.com/games/1012541/valve-steam-achievement-sets",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "TechTrends",
+        "Innovation"
+      ],
+      "hotScore": 89,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-15T23:18:28.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK138_Stream_Kradtke_01.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Valve is introducing a major new feature for Steam achievements called \"achievement sets\" that lets developers list different groups of achievements for a base game and DLCs. \"In games that support sets, you still unlock achievements by playing the game as usual,\" Valve says. \"But when you browse wh",
+      "authorName": "Jay Peters",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e07170025272d6f1",
+      "title_vi": "Trợ lý ảo ChatGPT nay đã có thể đọc và tương tác trực tiếp với các tab trình duyệt Chrome của bạn",
+      "title_en": "ChatGPT can peek at your Chrome tabs now",
+      "summary_vi": [
+        "Tiện ích mở rộng của ChatGPT trên trình duyệt Google Chrome vừa được nâng cấp tính năng cho phép ứng dụng này truy cập và đọc nội dung các tab đang mở nhằm phục vụ người dùng tốt hơn.",
+        "Bằng cách gắn thẻ trình duyệt Chrome trong ứng dụng web hoặc ứng dụng máy tính, hệ thống có thể phân tích trực tiếp dữ liệu từ nhiều tab để so sánh sản phẩm hoặc xử lý tác vụ theo yêu cầu.",
+        "Tính năng mới này mang sức mạnh điều khiển máy tính của trí tuệ nhân tạo tiếp cận đông đảo người dùng phổ thông, đánh dấu bước tiến quan trọng trong việc tích hợp AI sâu hơn vào trình duyệt."
+      ],
+      "summary_en": [
+        "The ChatGPT extension for Google Chrome has received a major upgrade allowing the application to access and read the content of currently open browser tabs to better assist users.",
+        "By tagging the Chrome browser within the web or desktop app, the system can directly analyze data from multiple tabs to compare products or process tasks based on specific user requests.",
+        "This new capability brings computer use AI power to mainstream users, marking a significant milestone in integrating artificial intelligence deeper into everyday web browsing workflows."
+      ],
+      "originalTitle": "ChatGPT can peek at your Chrome tabs now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Chrome",
+        "OpenAI",
+        "Browser Extension",
+        "Automation"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-15T22:43:23.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-15-at-6.35.44-PM.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app",
+      "authorName": "Stevie Bonifield",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "179d1e00725540fe",
+      "title_vi": "Quảng cáo mục tiêu phát tán mã độc không cần nhấp chuột nhắm vào thiết bị di động",
+      "title_en": "Targeted ads delivered 0-click exploits to install mercenary malware",
+      "summary_vi": [
+        "Các nhà nghiên cứu phát hiện ra rằng mã độc đánh thuê đã được lồng ghép tinh vi vào các quảng cáo trực tuyến nhằm tấn công trực diện vào thiết bị di động của các cá nhân mục tiêu chỉ bằng thao tác tải trang web.",
+        "Chiến dịch mang tên AdFection này khai thác các lỗ hổng không cần tương tác trên cả hệ điều hành di động phổ biến là iOS và Android, lây nhiễm thành công cho hàng chục thiết bị của một tổ chức truyền thông lớn.",
+        "Sự cố an ninh mạng này gióng lên hồi chuông cảnh báo mạnh mẽ cho các cơ quan báo chí và tổ chức toàn cầu về các nguy cơ tiềm ẩn từ phương thức phân phối phần mềm gián điệp qua mạng lưới quảng cáo."
+      ],
+      "summary_en": [
+        "Researchers discovered that mercenary spyware was intricately embedded into online advertisements to directly attack the mobile devices of targeted individuals simply through loading a webpage.",
+        "This campaign named AdFection exploits zero-click vulnerabilities across popular mobile operating systems like iOS and Android, successfully infecting dozens of devices at a major media organization.",
+        "This cybersecurity incident serves as a strong warning signal for news agencies and global organizations regarding potential threats originating from spyware distribution via advertising networks."
+      ],
+      "originalTitle": "Targeted ads delivered 0-click exploits to install mercenary malware",
+      "url": "https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/",
+      "sourceName": "Ars Technica",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Zero-click",
+        "Malware",
+        "Mobile Security",
+        "Spyware"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-15T20:32:41.000Z",
+      "contentSnippet": "The incident is likely 1st confirmation of mercenary spyware delivered by targeted ads.",
+      "authorName": "\n                    Dan Goodin\n                ",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "499fcbd081b8b35b",
+      "title_vi": "Mô hình Trí tuệ Nhân tạo Mở Muse Spark Open",
+      "title_en": "Muse Spark Open",
+      "summary_vi": [
+        "Mô hình trí tuệ nhân tạo nguồn mở tiên tiến nhất hiện nay vừa chính thức ra mắt, mang lại khả năng tác tử mạnh mẽ lần đầu tiên trực tiếp trên hệ thống máy tính để bàn Apple M5 Ultra Mac Studios.",
+        "Hệ thống sở hữu kiến trúc đa phương thức bản địa với tổng cộng 816 tỷ tham số, trong đó có 42 tỷ tham số hoạt động, kết hợp cùng cửa sổ ngữ cảnh lên tới 1 triệu token nhằm tối ưu hóa hiệu suất lập trình.",
+        "Công nghệ đột phá này được hỗ trợ trên nhiều nền tảng suy luận và khung phần mềm lớn, tạo điều kiện thuận lợi cho các nhà phát triển tùy chỉnh và triển khai trên các thiết bị phần cứng đa dạng."
+      ],
+      "summary_en": [
+        "The most advanced open-weight artificial intelligence model to date has officially launched, bringing powerful agentic capabilities directly to desktop systems on Apple M5 Ultra Mac Studios for the first time.",
+        "The system features a natively multimodal architecture with 816 billion total parameters, including 42 billion active parameters, combined with a massive one-million token context window to optimize programming performance.",
+        "This breakthrough technology is supported across multiple major inference platforms and software frameworks, enabling developers to easily customize and deploy models on diverse hardware silicon architectures."
+      ],
+      "originalTitle": "Muse Spark Open",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Open Source",
+        "Machine Learning",
+        "Apple Silicon",
+        "LLM"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-15T17:47:39.000Z",
+      "contentSnippet": "Muse Spark Open is available today and brings leading agentic capabilities to your desktop for the first time on Apple M5 Ultra Mac Studios. Today, we’re releasing the weights for Muse Spark Open, the most capable US open-weight model to date. Muse Spark Open is a natively multimodal model with 816B",
+      "authorName": "bigwheels",
+      "upvotes": 634,
+      "commentsCount": 360
+    },
     {
       "id": "c5b39a9089cec894",
       "title_vi": "Chọn cổng trung chuyển AI API: Bốn bài kiểm tra nhanh trong mười phút",
@@ -8004,550 +8549,6 @@
       "authorName": "NguyenHuong",
       "upvotes": 0,
       "commentsCount": 0
-    },
-    {
-      "id": "5e1322385f9f7503",
-      "title_vi": "Doanh nghiệp tự trị AI: Khi trí tuệ nhân tạo vận hành trực tiếp trong lõi hệ thống",
-      "title_en": "Agentic Enterprise: When Artificial Intelligence Operates Directly Within Core Systems",
-      "summary_vi": [
-        "Sự trỗi dậy của các trợ lý trí tuệ nhân tạo tự trị khi bắt đầu can thiệp sâu vào các hệ thống hoạch định nguồn lực và quản trị quan hệ khách hàng trong doanh nghiệp.",
-        "Kiến trúc hệ thống đòi hỏi sự tái cấu trúc toàn diện về luồng dữ liệu và phương thức phối hợp giữa các mô hình tự trị với con người để đảm bảo hiệu suất.",
-        "Giải pháp này định hình lại tiêu chuẩn vận hành công nghệ, đặt ra thách thức lớn về khả năng tích hợp hệ thống và bảo mật dữ liệu cho các kỹ sư trưởng."
-      ],
-      "summary_en": [
-        "The rise of autonomous artificial intelligence agents as they begin to deeply integrate into enterprise resource planning and customer relationship management systems.",
-        "System architecture requires a comprehensive restructuring of data flows and collaboration methods between autonomous models and humans to ensure optimal performance.",
-        "This solution reshapes technology operational standards, posing major challenges regarding system integration and data security for principal engineers."
-      ],
-      "originalTitle": "Agentic Enterprise: Khi AI đi vào lõi vận hành",
-      "url": "https://genk.vn/agentic-enterprise-khi-ai-di-vao-loi-van-hanh-165261006150804652.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI Agents",
-        "ERP",
-        "CRM",
-        "Enterprise Architecture",
-        "Machine Learning"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-06T09:00:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/6/photo1791263054180-17912630543941035025852-1791274076380499710367.jpg",
-      "contentSnippet": "Khi AI Agent bắt đầu xử lý nghiệp vụ trên ERP/CRM, doanh nghiệp phải giải quyết một bài toán lớn hơn việc lựa chọn mô hình đó là tổ chức lại cách dữ liệu, hệ thống và con người phối hợp.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "d0b1d01462021a06",
-      "title_vi": "Trí tuệ nhân tạo buổi sáng: OpenAI bắt đầu gắn thủy vân văn bản ChatGPT tại Liên minh Châu Âu và các xu hướng mới từ Hacker News",
-      "title_en": "Morning AI: OpenAI to Implement ChatGPT Text Watermarking in the EU and New Trends from Hacker News",
-      "summary_vi": [
-        "OpenAI chính thức triển khai công nghệ gắn thủy vân kỹ thuật số cho các đoạn văn bản được tạo ra bởi mô hình ChatGPT tại thị trường Liên minh Châu Âu nhằm tuân thủ các quy định pháp lý.",
-        "Giải pháp kỹ thuật này sử dụng các kỹ thuật chèn dấu vết thống kê tinh vi vào phân phối xác suất từ vựng mà không làm giảm chất lượng nội dung hay trải nghiệm của người dùng cuối.",
-        "Động thái này đánh dấu bước chuyển trọng tâm của ngành công nghiệp trí tuệ nhân tạo từ việc phát triển mô hình thuần túy sang việc đảm bảo tính minh bạch và khả năng kiểm toán mã nguồn."
-      ],
-      "summary_en": [
-        "OpenAI officially implements digital watermarking technology for text generated by the ChatGPT model within the European Union market to comply with regulatory standards.",
-        "This technical solution utilizes sophisticated statistical trace insertion techniques into vocabulary probability distributions without degrading content quality or end-user experience.",
-        "This move marks a shift in focus for the artificial intelligence industry from pure model development to ensuring transparency and traceability of generated content."
-      ],
-      "originalTitle": "AI Buổi Sáng (06/10/2026): Tiêu điểm OpenAI will start watermarking ChatGPT’s text in the EU và những bước chuyển từ Hacker News",
-      "url": "https://viblo.asia/p/ai-buoi-sang-06102026-tieu-diem-openai-will-start-watermarking-chatgpts-text-in-the-eu-va-nhung-buoc-chuyen-tu-hacker-news-1XVOWl6EVMz",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "OpenAI",
-        "ChatGPT",
-        "Watermarking",
-        "Artificial Intelligence",
-        "EU Regulations"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-06T08:27:11.000Z",
-      "contentSnippet": "AI Buổi Sáng (06/10/2026): Tiêu điểm OpenAI will start watermarking ChatGPT’s text in the EU và những bước chuyển từ Hacker News Trong phiên buổi sá...",
-      "authorName": "Xuân Chinh Trịnh",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0bfe6d5e2f3bdc21",
-      "title_vi": "Ngôn ngữ lập trình Gleam không còn biên dịch ra mã nguồn Erlang nữa",
-      "title_en": "Gleam doesn't compile to Erlang source anymore",
-      "summary_vi": [
-        "Ngôn ngữ lập trình Gleam phiên bản v1.19.0 đã chính thức phát hành với một thay đổi kiến trúc cốt lõi do Giacomo Cavalieri thực hiện nhằm tối ưu hóa bộ sinh mã Erlang.",
-        "Trình biên dịch hiện tại đã chuyển từ việc tạo ra mã nguồn Erlang sang tạo trực tiếp các dạng trừu tượng Erlang dưới định dạng nhị phân, giúp bỏ qua giai đoạn phân tích cú pháp ban đầu.",
-        "Cải tiến này giúp tăng đáng kể tốc độ biên dịch dự án, đồng thời cung cấp metadata chính xác về số dòng mã nguồn giúp cải thiện việc gỡ lỗi hệ thống trên máy ảo BEAM."
-      ],
-      "summary_en": [
-        "The Gleam programming language version v1.19.0 has been officially released featuring a core architectural change implemented by Giacomo Cavalieri to optimize the Erlang code generator.",
-        "The compiler has shifted from generating Erlang source code to directly producing Erlang abstract forms in a binary format, allowing the system to skip the initial parsing phase.",
-        "This enhancement significantly improves project compilation speeds while providing accurate source code line metadata to greatly enhance system debugging on the BEAM virtual machine."
-      ],
-      "originalTitle": "Gleam doesn't compile to Erlang source anymore",
-      "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Gleam",
-        "Erlang",
-        "BEAM",
-        "Compilers",
-        "Software Architecture"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-06T08:08:20.000Z",
-      "contentSnippet": "Gleam is a type-safe and scalable language for the Erlang virtual machine and JavaScript runtimes. Today Gleam v1.19.0 has been published, so let's go over what's new. Over the last few months Giacomo Cavalieri has entirely rewritten Gleam's Erlang code generator that has an entirely different desig",
-      "authorName": "ingve",
-      "upvotes": 74,
-      "commentsCount": 11
-    },
-    {
-      "id": "bd7b03cf6fb0f048",
-      "title_vi": "Tân CEO Apple đặt thiết kế sản phẩm làm ưu tiên hàng đầu",
-      "title_en": "Apple's New CEO Puts Product Design as Top Priority",
-      "summary_vi": [
-        "CEO mới của tập đoàn Apple là John Ternus đã quyết định đưa mảng thiết kế trở lại làm trọng tâm phát triển hàng đầu, áp dụng phong cách quản lý trực tiếp và quyết đoán tương tự như huyền thoại Steve Jobs trong giai đoạn trước.",
-        "Khác với người tiền nhiệm tập trung mạnh vào tối ưu hóa chuỗi cung ứng và chiến lược tài chính, tân CEO xuất thân từ kỹ sư phần cứng này dành phần lớn thời gian làm việc trực tiếp tại phòng nghiên cứu thiết kế phần cứng và giao diện.",
-        "Sự thay đổi chiến lược này đánh dấu bước ngoặt quan trọng trong cách tiếp cận phát triển sản phẩm công nghệ của Apple, tác động trực tiếp đến quy trình đổi mới phần cứng và trải nghiệm người dùng trong hệ sinh thái toàn cầu."
-      ],
-      "summary_en": [
-        "Apple's new CEO John Ternus has decided to bring product design back to the forefront of development, adopting a direct and decisive management style reminiscent of the legendary Steve Jobs from previous eras.",
-        "Unlike his predecessor who heavily focused on supply chain optimization and financial strategy, the hardware engineer-turned-CEO spends most of his working time directly inside the hardware and interface design research labs.",
-        "This strategic shift marks a major turning point in Apple's approach to technology product development, directly impacting the hardware innovation pipeline and user experience across their global ecosystem."
-      ],
-      "originalTitle": "Tân CEO Apple đặt thiết kế làm ưu tiên hàng đầu",
-      "url": "https://vnexpress.net/tan-ceo-apple-dat-thiet-ke-lam-uu-tien-hang-dau-5128759.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Apple",
-        "Hardware Design",
-        "Tech Leadership",
-        "Product Development"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-06T07:07:59.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/05/apple-john-ternus-inline-large-8707-4506-1791210667.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=a2IPb8CuuFCS_9zEzXkYwA",
-      "contentSnippet": "CEO Apple John Ternus đặt thiết kế làm trọng tâm phát triển, áp dụng phong cách làm việc quyết đoán tương tự huyền thoại Steve Jobs.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "7d08650b3f35232a",
-      "title_vi": "Tích hợp tính năng tìm kiếm web cho trợ lý ảo trí tuệ nhân tạo với chi phí tiết kiệm thông qua SearXNG tự vận hành, bộ nhớ đệm và kiểm tra nguồn trích dẫn",
-      "title_en": "Giving Your LLM Agent Web Search Without Burning Money: Self-hosted SearXNG, Caching and Citation Checks",
-      "summary_vi": [
-        "Bài viết chia sẻ giải pháp tối ưu chi phí giúp các trợ lý ảo trí tuệ nhân tạo truy cập internet thông qua công cụ tìm kiếm mã nguồn mở tự lưu trữ.",
-        "Hệ thống ứng dụng cơ chế lưu trữ đệm thông minh kết hợp thuật toán kiểm tra nguồn trích dẫn nghiêm ngặt nhằm giảm tải cho máy chủ và tăng độ chính xác.",
-        "Giải pháp này mang lại hiệu quả kinh tế cao cho các nhà phát triển khi xây dựng ứng dụng trí tuệ nhân tạo có khả năng cập nhật thông tin thời gian thực."
-      ],
-      "summary_en": [
-        "The article shares a cost-effective solution enabling artificial intelligence assistants to access the internet through a self-hosted open-source search engine.",
-        "The system applies smart caching mechanisms combined with strict citation verification algorithms to reduce server load and enhance accuracy.",
-        "This approach delivers high economic efficiency for developers building artificial intelligence applications capable of real-time information retrieval."
-      ],
-      "originalTitle": "Giving Your LLM Agent Web Search Without Burning Money: Self-hosted SearXNG, Caching and Citation Checks",
-      "url": "https://viblo.asia/p/giving-your-llm-agent-web-search-without-burning-money-self-hosted-searxng-caching-and-citation-checks-37LdePjNVov",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "LLM",
-        "SearXNG",
-        "Caching",
-        "DevOps"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-06T06:32:50.000Z",
-      "contentSnippet": "",
-      "authorName": "EME GUG",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "68e5f7f6ad12b7cc",
-      "title_vi": "Sự bùng nổ của trí tuệ nhân tạo thúc đẩy cơ hội phục hồi cho các hãng sản xuất ổ đĩa cứng Nhật Bản",
-      "title_en": "AI Boom Drives Revival Opportunities for Japanese Hard Disk Drive Manufacturers",
-      "summary_vi": [
-        "Sự bùng nổ mạnh mẽ của công nghệ trí tuệ nhân tạo đang tạo ra nhu cầu lưu trữ dữ liệu khổng lồ, thúc đẩy các doanh nghiệp Nhật Bản nhanh chóng mở rộng dây chuyền sản xuất linh kiện ổ cứng.",
-        "Bên cạnh bộ xử lý đồ họa và bộ nhớ băng thông cao trong trung tâm dữ liệu, ổ đĩa cứng đóng vai trò cốt lõi trong việc lưu trữ tập dữ liệu huấn luyện và kết quả suy luận của mô hình.",
-        "Xu hướng này mang lại nguồn lợi ích kinh tế lớn cho các nhà cung cấp linh kiện chuyên dụng, đồng thời khẳng định tầm quan trọng của hạ tầng lưu trữ trong hệ sinh thái hạ tầng số hiện đại."
-      ],
-      "summary_en": [
-        "The explosive growth of artificial intelligence is generating massive data storage demands, prompting Japanese enterprises to rapidly expand their hard disk drive component production lines.",
-        "Alongside graphics processors and high-bandwidth memory in data centers, hard disk drives play a core role in storing training datasets and inference results for machine learning models.",
-        "This trend brings substantial economic benefits to specialized component suppliers while reinforcing the critical importance of storage infrastructure within the modern digital ecosystem."
-      ],
-      "originalTitle": "AI bùng nổ mang lại cơ hội “hồi sinh” cho các hãng ổ đĩa cứng Nhật Bản",
-      "url": "https://genk.vn/ai-bung-no-mang-lai-co-hoi-hoi-sinh-cho-cac-hang-o-dia-cung-nhat-ban-165261006100238474.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "AI",
-        "Hardware",
-        "Storage",
-        "Data Center",
-        "Semiconductor"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-06T03:02:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/6/package-media-89412282493986329603081-07186496324974182250407-17912557240071330059201.jpg",
-      "contentSnippet": "VTV.vn - AI bùng nổ đang làm nhu cầu lưu trữ dữ liệu tăng mạnh, mở ra cơ hội phục hồi và mở rộng sản xuất cho các hãng linh kiện ổ cứng Nhật Bản.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "c49cde258870c083",
-      "title_vi": "Trí tuệ nhân tạo hiện thân bước ra đời thực và những thách thức dữ liệu",
-      "title_en": "Embodied AI steps into the real world facing data and training challenges",
-      "summary_vi": [
-        "Trí tuệ nhân tạo hiện thân đánh dấu bước tiến quan trọng khi đưa các cỗ máy thông minh vào thế giới vật lý để thực hiện những công việc thực tế trong đời sống hàng ngày.",
-        "Quá trình huấn luyện đặc biệt tại Trung Quốc đã giúp bốn robot hoàn thành chương trình đào tạo và nhận các công việc đa dạng như hướng dẫn viên bảo tàng hay kiểm tra nhà máy.",
-        "Xu hướng này đòi hỏi nguồn dữ liệu khổng lồ và sự hợp tác chặt chẽ từ cộng đồng công nghệ để vượt qua các rào cản kỹ thuật trong việc tích hợp robot vào môi trường thực."
-      ],
-      "summary_en": [
-        "Embodied artificial intelligence marks a significant advancement by integrating smart machines into the physical world to perform practical tasks in everyday life.",
-        "A specialized training program in China successfully graduated four robots that secured diverse real-world jobs ranging from museum guides to factory quality inspectors.",
-        "This growing trend demands massive datasets and close collaboration across the tech industry to overcome critical technical barriers in deploying robots into environments."
-      ],
-      "originalTitle": "AI 'hiện thân' để bước chân vào đời thực",
-      "url": "https://vnexpress.net/ai-hien-than-de-buoc-chan-vao-doi-thuc-5128406.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Embodied AI",
-        "Robotics",
-        "Machine Learning",
-        "Data Engineering"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-06T03:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/05/20260928fb09138c57f24c18bf896c-2103-1908-1791195222.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=zuZjx2RGWFjlhCMPqkTsIA",
-      "contentSnippet": "Trí tuệ nhân tạo hiện thân (Embodied AI) được xem là bước tiếp theo để AI tiến vào thế giới vật lý, nhưng vẫn còn rào cản dữ liệu.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "d29be1f6d09e54c8",
-      "title_vi": "Cách bố trí giao diện và menu của iPhone màn hình gập tùy theo trạng thái mở hoặc gập",
-      "title_en": "Interface and menu layout strategies for foldable iPhone based on folded or unfolded states",
-      "summary_vi": [
-        "Bài viết phân tích chi tiết cách thức dòng điện thoại màn hình gập giả định iPhone Duo tối ưu hóa không gian hiển thị giao diện người dùng và hệ thống menu theo từng trạng thái thiết bị.",
-        "Khi máy ở trạng thái gập lại với kích thước màn hình nhỏ hơn, bố cục các thành phần như thanh điều hướng, tab chức năng và thanh trạng thái được tự động dịch chuyển và tái cấu trúc.",
-        "Việc thiết kế trải nghiệm người dùng thích ứng cho các thiết bị di động màn hình gập đặt ra tiêu chuẩn mới về khả năng linh hoạt giao diện, đòi hỏi các lập trình viên mobile tối ưu hóa code."
-      ],
-      "summary_en": [
-        "The article provides a detailed analysis of how the hypothetical foldable iPhone Duo optimizes user interface display space and menu systems according to different device states.",
-        "When the device is folded with a smaller screen size, the layout of interface elements such as navigation bars, functional tabs, and status bars is automatically shifted and restructured.",
-        "Designing adaptive user experiences for foldable mobile devices sets a new standard for interface flexibility, requiring mobile developers to properly optimize their codebase."
-      ],
-      "originalTitle": "Hai hình này là hai cách iPhone Duo đặt nội dung và menu, tùy máy đang gập hay mở.",
-      "url": "https://tinhte.vn/thread/hai-hinh-nay-la-hai-cach-iphone-duo-dat-noi-dung-va-menu-tuy-may-dang-gap-hay-mo.4181891/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iOS",
-        "UI/UX",
-        "Mobile",
-        "Foldable"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-06T02:45:22.000Z",
-      "contentSnippet": "Hai hình này là hai cách iPhone Duo đặt nội dung và menu, tùy máy đang gập hay mở. Hình 466 × 678 là màn ngoài, máy gập lại. Menu không còn nằm dưới. Tab, nút điều khiển và status chuyển sang một...",
-      "authorName": "cuhiep",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f6dfc69c2553b2ab",
-      "title_vi": "Tin buồn cho người dùng Gemini miễn phí khi Google siết chặt quyền truy cập mô hình AI",
-      "title_en": "Bad news for free Gemini users as Google tightens access to AI models",
-      "summary_vi": [
-        "Google vừa cập nhật tài liệu hỗ trợ kỹ thuật cho thấy người dùng tài khoản cá nhân miễn phí sẽ bị hạn chế đáng kể quyền truy cập vào các mô hình trí tuệ nhân tạo tiên tiến từ tháng mười năm hai nghìn không trăm hai mươi sáu.",
-        "Cụ thể, nhóm người dùng không đăng ký gói cước trả phí sẽ bị tước quyền sử dụng các mô hình hiệu năng cao bao gồm phiên bản Flash ba chấm sáu và phiên bản Pro ba chấm một ngay từ thời điểm đầu tháng mười.",
-        "Thay đổi chiến lược này buộc các nhà phát triển và người dùng phổ thông phải cân nhắc nâng cấp lên các gói dịch vụ trả phí để duy trì năng suất làm việc hoặc tìm kiếm các giải pháp mô hình mã nguồn mở thay thế."
-      ],
-      "summary_en": [
-        "Google has recently updated its technical support documentation indicating that free personal account users will face significant restrictions on accessing advanced artificial intelligence models starting in October 2026.",
-        "Specifically, users without a paid subscription plan will lose access to high-performance models including the 3.6 Flash and 3.1 Pro versions starting early in the month, altering their daily usage capabilities.",
-        "This strategic shift forces developers and general users to consider upgrading to paid service tiers to maintain workflow productivity or seek alternative open-source model solutions for their daily tasks."
-      ],
-      "originalTitle": "Tin buồn cho người dùng Gemini miễn phí",
-      "url": "https://genk.vn/tin-buon-cho-nguoi-dung-gemini-mien-phi-165261006081516351.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Gemini",
-        "Google AI",
-        "Artificial Intelligence",
-        "Machine Learning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-06T02:05:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/6/avatar1791249254542-1791249255082687657378-0-84-576-1006-crop-1791249290818242701951.jpeg",
-      "contentSnippet": "Kể từ ngày 9/10, người dùng Gemini miễn phí sẽ chỉ còn truy cập Flash-Lite, thay vì Flash và Pro như trước đây.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a8333cad7fa0df08",
-      "title_vi": "Cơ sở dữ liệu của bạn sẽ bị rò rỉ một ngày nào đó: Mã hóa cấp trường và chỉ mục mù cho dữ liệu nhạy cảm với Python và PostgreSQL",
-      "title_en": "Your Database Will Leak Someday: Field-Level Encryption and Blind Indexes for PII with Python and PostgreSQL",
-      "summary_vi": [
-        "Bài viết phân tích nguy cơ rò rỉ dữ liệu cá nhân nhạy cảm trong hệ thống cơ sở dữ liệu hiện đại, đồng thời đưa ra các giải pháp bảo mật dữ liệu toàn diện và hiệu quả.",
-        "Tác giả hướng dẫn cách triển khai mã hóa cấp trường kết hợp sử dụng kỹ thuật chỉ mục mù bằng ngôn ngữ Python trên hệ quản trị cơ sở dữ liệu quan hệ PostgreSQL an toàn.",
-        "Giải pháp kỹ thuật này giúp các kỹ sư phần mềm bảo vệ thông tin người dùng tối đa ngay cả khi hệ thống cơ sở dữ liệu chính bị tấn công và xâm phạm nghiêm trọng."
-      ],
-      "summary_en": [
-        "The article analyzes the inevitable risk of sensitive personal data leaks in modern database systems while providing comprehensive and effective data security solutions.",
-        "The author guides how to implement field-level encryption combined with blind indexing techniques using Python on the PostgreSQL relational database management system safely.",
-        "This technical solution helps software engineers protect user information maximally even when the primary database system is severely attacked and compromised."
-      ],
-      "originalTitle": "Your Database Will Leak Someday: Field-Level Encryption and Blind Indexes for PII with Python and PostgreSQL",
-      "url": "https://viblo.asia/p/your-database-will-leak-someday-field-level-encryption-and-blind-indexes-for-pii-with-python-and-postgresql-kY4gDRMeJAe",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Python",
-        "PostgreSQL",
-        "Encryption",
-        "Database"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-06T00:01:42.000Z",
-      "contentSnippet": "",
-      "authorName": "EME GUG",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "19745539452346e8",
-      "title_vi": "Tính năng Gọi hộ của Gemini có thể giúp bạn nhắn nhủ mẹ rằng bạn đang đến muộn",
-      "title_en": "Gemini Call for Me might tell your mom you’re running late",
-      "summary_vi": [
-        "Google đang tiến hành mở rộng tính năng trí tuệ nhân tạo Gọi hộ ra ngoài các cuộc gọi kinh doanh truyền thống để người dùng có thể gửi tin nhắn nhanh chóng tới bạn bè và người thân trong gia đình một cách thuận tiện.",
-        "Thông qua quá trình phân tích mã nguồn tệp APK của hệ điều hành di động Android, các chuyên gia phát hiện ra màn hình giới thiệu mới mang tên Cuộc gọi Gemini với các kịch bản thực tế như nhờ gọi điện báo muộn mười lăm phút.",
-        "Việc tích hợp này mở ra hướng đi mới trong việc ứng dụng trợ lý ảo vào giao tiếp hàng ngày, tối ưu hóa trải nghiệm người dùng di động và tạo ra chuẩn mực mới cho công nghệ giao tiếp rảnh tay."
-      ],
-      "summary_en": [
-        "Google is expanding its artificial intelligence Call for Me feature beyond traditional business calls to enable users to send quick messages to friends and family members conveniently and efficiently.",
-        "Through an analysis of the APK source code in the Android operating system, experts discovered a new introductory screen called Gemini Calling featuring practical scenarios like reporting a fifteen minute delay.",
-        "This integration opens a new direction for applying virtual assistants to daily communication, optimizing mobile user experiences, and establishing new standards for hands-free communication technology."
-      ],
-      "originalTitle": "Gemini Call for Me might tell your mom you’re running late",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Gemini",
-        "Android",
-        "Google",
-        "Mobile"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-05T23:09:55.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Google-Pixel-11-Pro-Photos-of-Phone-7.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I will be 15 minutes late",
-      "authorName": "Stevie Bonifield",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "3288015068afff41",
-      "title_vi": "Trang web huyền thoại vừa thực hiện đợt thiết kế lại lớn nhất trong nhiều thập kỷ qua",
-      "title_en": "Example.com just launched the biggest redesign in decades",
-      "summary_vi": [
-        "Trang web mẫu nổi tiếng do cơ quan quản lý Internet lập ra từ những năm cuối thập niên chín mươi vừa chính thức cập nhật giao diện trực quan và bổ sung thêm nhiều ngôn ngữ hỗ trợ mới.",
-        "Bản nâng cấp sử dụng hiệu ứng chuyển đổi độ mờ mượt mà thông qua thuộc tính CSS kết hợp cùng kỹ thuật bọc từng ký tự riêng biệt trong thẻ span để tạo độ trễ hoạt động tinh tế.",
-        "Sự thay đổi này mang lại trải nghiệm hiển thị hiện đại hơn cho cộng đồng nhà phát triển toàn cầu, đồng thời nhắc nhở lập trình viên không nên lạm dụng trang mẫu cho các mục đích kiểm thử."
-      ],
-      "summary_en": [
-        "The famous sample website established by internet management authorities in the late nineties has officially updated its visual interface and added support for multiple new languages.",
-        "The upgrade utilizes smooth opacity transition effects through CSS properties combined with a technique of wrapping individual characters in span tags to create subtle operational delays.",
-        "This change delivers a more modern viewing experience for the global developer community while reminding programmers not to rely on sample pages for actual system testing purposes."
-      ],
-      "originalTitle": "Example.com just launched the biggest redesign in decades",
-      "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "Web Development",
-        "CSS",
-        "UI/UX",
-        "JavaScript",
-        "Frontend"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-05T22:55:11.000Z",
-      "contentSnippet": "Fix Your Website PerformanceDeliver a great user experience with in-depth page speed insights and monitoring.Start Free TrialGo To Appexample.com is a reserved domain name set aside by the Internet Assigned Numbers Authority (IANA) for documentation purposes. It has been available as an example URL ",
-      "authorName": "jgx0",
-      "upvotes": 119,
-      "commentsCount": 72
-    },
-    {
-      "id": "4aec355d748974ab",
-      "title_vi": "Giao thức truyền thông giữa các trợ lý ảo AI có thể là điểm yếu bảo mật rủi ro nhất mà bạn chưa từng biết đến",
-      "title_en": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
-      "summary_vi": [
-        "Việc triển khai trợ lý ảo trí tuệ nhân tạo tại hàng triệu tổ chức đang tạo ra cơ hội mới cho kẻ tấn công thực hiện hành vi độc hại như trích xuất dữ liệu cơ sở dữ liệu và thông tin nhạy cảm.",
-        "Các nhà nghiên cứu phát hiện lỗ hổng tiêm câu lệnh khai thác khoảng trống tin cậy trong Giao thức Ngữ cảnh Mô hình khi một trợ lý ảo truyền lệnh độc hại sang hệ thống khác trong mạng nội bộ.",
-        "Sự cố này cảnh báo các kỹ sư phần mềm và chuyên gia bảo mật cần thắt chặt kiểm soát các cơ chế giao tiếp tự động giữa các mô hình trí tuệ nhân tạo trong hệ thống doanh nghiệp."
-      ],
-      "summary_en": [
-        "The adoption of artificial intelligence assistants in millions of organizations is creating new opportunities for attackers to perform malicious actions such as exfiltrating database contents and sensitive information.",
-        "Researchers discovered prompt injection vulnerabilities exploiting trust gaps in the Model Context Protocol when one assistant propagates malicious instructions to another system within the internal network.",
-        "This incident warns software engineers and security professionals to tighten controls over automated communication mechanisms between artificial intelligence models within enterprise architectures."
-      ],
-      "originalTitle": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
-      "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Security",
-        "Cybersecurity",
-        "Model Context Protocol",
-        "Prompt Injection"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-05T22:26:35.000Z",
-      "contentSnippet": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
-      "authorName": "\n                    Dan Goodin\n                ",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "487fcb973a6d595c",
-      "title_vi": "Kỹ thuật đảo ngược mã nguồn trò chơi: Tất cả tin tức về biên dịch ngược, tái biên dịch, thực tế ảo và các cổng web ba chiều",
-      "title_en": "Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports",
-      "summary_vi": [
-        "Trào lưu giải mã và tái biên dịch mã nguồn trò chơi cổ điển đang phát triển mạnh mẽ, giúp giải phóng các tựa game khỏi phần cứng độc quyền để chạy trên các nền tảng thiết bị hiện đại.",
-        "Các kỹ sư phần mềm sử dụng phương pháp dịch ngược mã nguồn để cổng hóa trò chơi lên trình duyệt web, thiết bị thực tế ảo và bổ sung tính năng chơi mạng nhiều người chơi.",
-        "Xu hướng công nghệ này đặt ra nhiều thách thức về bản quyền pháp lý và vấn đề đạo đức khi ứng dụng trí tuệ nhân tạo, tác động lớn đến cộng đồng phát triển game."
-      ],
-      "summary_en": [
-        "The trend of decompiling and recompiling classic video game source code is booming, liberating games from proprietary hardware to run smoothly on modern client device platforms.",
-        "Software engineers leverage source code reverse engineering methods to port games onto web browsers and virtual reality devices while introducing multiplayer capabilities.",
-        "This technological trend raises significant legal copyright challenges and ethical concerns regarding artificial intelligence adoption, greatly impacting the game development community."
-      ],
-      "originalTitle": "Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports",
-      "url": "https://www.theverge.com/games/1004869/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr-and-web-and-3d-ports",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Reverse Engineering",
-        "Software Development",
-        "Gaming",
-        "Web Development"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-05T21:17:45.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25403266/STK465_VIDEO_GAMES_EMULATOR__CVirginia_B.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "It’s a wild time for retro gaming. Thanks to decompilations and recompilations of classic titles, those games are becoming unshackled from their proprietary code and original hardware to be ported to new devices or updated in ways to completely change the original game. Ever imagined skateboarding i",
-      "authorName": "Verge Staff",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "29b4542886311e97",
-      "title_vi": "Bài 5: Tìm hiểu chi tiết về các cấu trúc vòng lặp trong lập trình",
-      "title_en": "Lesson 5: Comprehensive Guide to Loop Structures in Programming",
-      "summary_vi": [
-        "Bài học cung cấp nền tảng kiến thức cốt lõi về các cấu trúc vòng lặp thông dụng trong lập trình như for, while, do-while và foreach giúp tự động hóa các tác vụ lặp đi lặp lại một cách hiệu quả.",
-        "Người học sẽ nắm vững cơ chế hoạt động, cú pháp triển khai và các điều kiện dừng của từng loại vòng lặp để tối ưu hóa mã nguồn cũng như xử lý mảng dữ liệu phức tạp trong thực tế.",
-        "Kiến thức này đóng vai trò quan trọng trong việc xây dựng tư duy thuật toán cho lập trình viên mới bắt đầu, là tiền đề để giải quyết các bài toán tối ưu hiệu suất phần mềm sau này."
-      ],
-      "summary_en": [
-        "The lesson provides core foundational knowledge about common loop structures in programming such as for, while, do-while, and foreach to automate repetitive tasks efficiently.",
-        "Learners will master the operational mechanisms, syntax implementation, and termination conditions of each loop type to optimize source code and handle complex data arrays in practice.",
-        "This knowledge plays a crucial role in building algorithmic thinking for beginner programmers, serving as a prerequisite for solving future software performance optimization problems."
-      ],
-      "originalTitle": "Bài 5: Vòng lặp (for, while, do-while, foreach)",
-      "url": "https://viblo.asia/p/bai-5-vong-lap-for-while-do-while-foreach-oKLnqrmXJQO",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Programming",
-        "Algorithms",
-        "Software Development",
-        "Code Optimization"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-05T21:16:05.000Z",
-      "contentSnippet": "Mục tiêu bài học 1. Hiểu và sử dụng thành thạo các loại vòng lặp để tự động hóa các tác vụ lặp đi lặp lại. 2. Phân biệt được khi nào nên dùng for...",
-      "authorName": "Nguyễn Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4b350aa2264060c3",
-      "title_vi": "Bụi: Tiền huấn luyện mô hình Transformer mà không cần lan truyền ngược",
-      "title_en": "Dust: Pretraining Transformers Without Backpropagation",
-      "summary_vi": [
-        "Học sâu từ trước đến nay phụ thuộc hoàn toàn vào thuật toán lan truyền ngược để huấn luyện các mạng thần kinh hiện đại, bao gồm cả các mô hình ngôn ngữ lớn dựa trên kiến trúc biến đổi.",
-        "Phương pháp mới đề xuất khai thác các thuật toán tìm kiếm dựa trên sức mạnh tính toán thuần túy thay vì phụ thuộc vào tính khả vi và độ dốc bậc cao trong quá trình huấn luyện mô hình.",
-        "Cách tiếp cận này mở ra hướng đi mới cho việc tối ưu hóa phần cứng và thuật toán, phản ánh bài học đắng cay rằng các phương pháp tổng quát mở rộng theo tài nguyên tính toán cuối cùng sẽ chiến thắng."
-      ],
-      "summary_en": [
-        "Deep learning has traditionally relied entirely on the backpropagation algorithm to train modern neural networks, including large language models based on transformer architectures.",
-        "The novel approach proposes leveraging pure brute-force search algorithms based on computing power rather than depending on differentiability and higher-order gradients during model training.",
-        "This paradigm shift opens new avenues for hardware and algorithm optimization, reflecting the bitter lesson that general methods scaling with compute resources ultimately triumph over human biases."
-      ],
-      "originalTitle": "Dust: Pretraining Transformers Without Backpropagation",
-      "url": "https://qlabs.sh/research/dust",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Transformers",
-        "Deep Learning",
-        "Machine Learning"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-05T21:15:07.000Z",
-      "contentSnippet": "Deep learning has been built around backprop, the only credit assignment algorithm capable of training modern neural nets, including transformer-based language models. Backprop requires differentiability and produces first-order gradients, and deep learning’s architectures, optimizers, and hardware ",
-      "authorName": "E-Reverance",
-      "upvotes": 66,
-      "commentsCount": 3
     }
   ]
 }
