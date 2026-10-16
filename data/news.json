@@ -1,7 +1,314 @@
 {
-  "lastUpdated": "2026-10-16T02:25:50.595Z",
+  "lastUpdated": "2026-10-16T10:24:53.409Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "32771ca7e705cf8d",
+      "title_vi": "Những bài học đắt giá mà đội ngũ của chúng tôi rút ra về tự động hóa kiểm thử API",
+      "title_en": "What our team learned the hard way about automating API tests",
+      "summary_vi": [
+        "Bài viết chia sẻ hành trình thực tế của một đội ngũ kỹ thuật khi chuyển đổi nhận thức từ việc coi tự động hóa kiểm thử API là công việc phụ sang ưu tiên hàng đầu trong quy trình phát triển phần mềm.",
+        "Tác giả phân tích các cạm bẫy phổ biến khi xây dựng kịch bản kiểm thử, cách quản lý dữ liệu động và những thách thức trong việc duy trì độ tin cậy của hệ thống kiểm thử tự động theo thời gian.",
+        "Bài học cốt lõi giúp các kỹ sư phần mềm tối ưu hóa quy trình kiểm thử tự động, giảm thiểu thời gian phát hiện lỗi và nâng cao chất lượng tổng thể cho các dịch vụ API trong sản phẩm."
+      ],
+      "summary_en": [
+        "The article shares a technical team's practical journey in shifting their mindset from treating API test automation as an afterthought to making it a top priority in the software development lifecycle.",
+        "The author analyzes common pitfalls in building test scenarios, managing dynamic test data, and addressing challenges in maintaining the reliability of automated testing systems over time.",
+        "Core lessons help software engineers optimize automated testing workflows, reduce bug detection time, and significantly improve the overall quality of API services within production products."
+      ],
+      "originalTitle": "What our team learned the hard way about automating API tests",
+      "url": "https://viblo.asia/p/what-our-team-learned-the-hard-way-about-automating-api-tests-ZjJYWRelVOE",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "API Testing",
+        "Automation",
+        "QA",
+        "Software Engineering",
+        "Testing"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-16T17:01:08.000Z",
+      "contentSnippet": "I'll be honest. For a long time I thought API automation was something you got around to once the \"real\" work was done. We had a QA engineer who knew ...",
+      "authorName": "Marcus Keenton",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "bec2fb9bad576461",
+      "title_vi": "Cách ghi lại một lần thử công cụ viết truyện trí tuệ nhân tạo để so sánh có ý nghĩa",
+      "title_en": "How to Document an AI Storytelling Tool Trial for Meaningful Comparison",
+      "summary_vi": [
+        "Bài viết thảo luận về phương pháp ghi chép và đánh giá các công cụ viết truyện tích hợp trí tuệ nhân tạo nhằm tạo ra các bảng so sánh thực sự mang lại giá trị tham khảo cho người dùng.",
+        "Tác giả phân tích tầm quan trọng của việc làm rõ nguồn gốc dữ liệu thử nghiệm, bao gồm tính năng trên trang sản phẩm, kết quả thực tế và ngữ cảnh tạo sinh để đảm bảo tính khách quan kỹ thuật.",
+        "Phương pháp này giúp các nhà phát triển và người sáng tạo nội dung có cái nhìn toàn diện, nâng cao chất lượng đánh giá hiệu năng mô hình ngôn ngữ lớn trong lĩnh vực sáng tạo văn bản."
+      ],
+      "summary_en": [
+        "The article discusses methodology for documenting and evaluating artificial intelligence-powered storytelling tools to create comparison tables that deliver genuine reference value for users.",
+        "The author analyzes the importance of clarifying test data origins, including product page features, practical outputs, and generation contexts to ensure technical objectivity.",
+        "This approach helps developers and content creators gain a comprehensive perspective, enhancing the quality of large language model performance evaluation in text creation."
+      ],
+      "originalTitle": "Cách ghi lại một lần thử công cụ viết truyện AI để so sánh có ý nghĩa",
+      "url": "https://viblo.asia/p/cach-ghi-lai-mot-lan-thu-cong-cu-viet-truyen-ai-de-so-sanh-co-y-nghia-RlL5eOqBLbB",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "LLM",
+        "Content Generation",
+        "Evaluation",
+        "Natural Language Processing"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-16T16:01:40.000Z",
+      "contentSnippet": "Một bảng so sánh công cụ viết truyện AI sẽ hữu ích hơn nếu người đọc biết từng nhận xét đến từ đâu. Tính năng được mô tả trên trang sản phẩm, kết quả ...",
+      "authorName": "Carol Luo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "23e1e35eacf9efce",
+      "title_vi": "Ứng dụng Git Worktree trong hệ sinh thái Microservices Bài 1: Giải quyết nỗi ám ảnh chuyển đổi ngữ cảnh",
+      "title_en": "Git Worktree in the Microservices Ecosystem Part 1: Overcoming the Context Switching Obsession",
+      "summary_vi": [
+        "Trong các dự án nguyên khối nhỏ lẻ, việc chuyển nhánh git diễn ra khá nhẹ nhàng nhưng lại trở thành một thử thách lớn khi bước vào hệ sinh thái microservices quy mô lớn.",
+        "Việc liên tục thay đổi nhánh làm việc trên nhiều kho lưu trữ mã nguồn khác nhau gây ra hiện tượng chuyển đổi ngữ cảnh liên tục, làm giảm hiệu suất phát triển phần mềm.",
+        "Bài viết phân tích bản chất của vấn đề và giới thiệu giải pháp sử dụng git worktree nhằm tối ưu hóa quy trình làm việc đa dịch vụ cho các kỹ sư."
+      ],
+      "summary_en": [
+        "In small monolithic projects, switching git branches is quite smooth, but it becomes a major challenge when entering a large-scale microservices ecosystem.",
+        "Continuously changing working branches across multiple source code repositories causes frequent context switching, which significantly reduces software development productivity.",
+        "The article analyzes the core of the problem and introduces the git worktree solution to optimize the multi-service workflow for software engineers."
+      ],
+      "originalTitle": "Git Worktree vào hệ sinh thái Microservices Bài 1: Nỗi ám ảnh \"Context Switching\" trong hệ thống nhiều Microservices",
+      "url": "https://viblo.asia/p/git-worktree-vao-he-sinh-thai-microservices-bai-1-noi-am-anh-context-switching-trong-he-thong-nhieu-microservices-PoL7eOqX4vk",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Git",
+        "Microservices",
+        "DevOps",
+        "Software Architecture",
+        "Developer Productivity"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-16T14:26:48.000Z",
+      "contentSnippet": "Trong các dự án Monolith nhỏ lẻ, việc chuyển nhánh (git checkout) diễn ra khá nhẹ nhàng. Tuy nhiên, khi bước vào một hệ sinh thái Microservices quy mô...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "8ef160d24c63b8e1",
+      "title_vi": "Go Zero to Hero - Bài 46: Hàm init() trong quản lý Package",
+      "title_en": "Go Zero to Hero - Part 46: The init() Function in Package Management",
+      "summary_vi": [
+        "Ngôn ngữ lập trình Golang cung cấp hàm init() như một cơ chế đặc biệt giúp chuẩn bị môi trường trước khi chương trình chính thức vận hành và xử lý logic nghiệp vụ.",
+        "Việc hiểu rõ cơ chế thực thi tự động của hàm init() trong từng package hỗ trợ lập trình viên kiểm soát thứ tự khởi tạo biến toàn cục và kết nối cơ sở dữ liệu.",
+        "Ứng dụng chính xác hàm init() giúp tối ưu hóa cấu trúc mã nguồn, tránh các lỗi phụ thuộc ngầm định và nâng cao độ ổn định cho các hệ thống phần mềm lớn."
+      ],
+      "summary_en": [
+        "The Golang programming language provides the init function as a special mechanism to prepare the environment before the main program officially operates and processes business logic.",
+        "Understanding the automatic execution mechanism of the init function within each package helps developers control the order of global variable initialization and database connections.",
+        "Applying the init function accurately helps optimize source code structure, avoids implicit dependency errors, and improves stability for large-scale software systems."
+      ],
+      "originalTitle": "Go Zero to Hero - Bài 46: Hàm init() trong quản lý Package",
+      "url": "https://viblo.asia/p/go-zero-to-hero-bai-46-ham-init-trong-quan-ly-package-kY4gDppeJAe",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Golang",
+        "Software Engineering",
+        "Package Management",
+        "Backend Development"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-16T13:39:18.000Z",
+      "contentSnippet": "Trong ngôn ngữ lập trình Golang, init() là một hàm đặc biệt đóng vai trò chuẩn bị môi trường trước khi chương trình chính thức vận hành. Tuy nhiên, vi...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a591ccbd94826eca",
+      "title_vi": "Proxy HTTP và SOCKS5: Lập trình viên nên chọn loại nào cho ứng dụng?",
+      "title_en": "HTTP Proxy vs SOCKS5 Proxy: Which One Should Developers Choose?",
+      "summary_vi": [
+        "Bài viết phân tích sự khác biệt cốt lõi giữa hai giao thức proxy phổ biến là HTTP và SOCKS5 trong quá trình xây dựng ứng dụng web, tích hợp API hoặc xử lý các sự cố mạng phức tạp.",
+        "Giao thức HTTP proxy hoạt động chuyên biệt ở tầng ứng dụng với khả năng kiểm tra gói tin sâu, trong khi SOCKS5 hoạt động ở tầng giao vận linh hoạt hơn nhưng không giải mã nội dung lưu lượng.",
+        "Lập trình viên cần hiểu rõ đặc tính kỹ thuật của từng loại proxy để đưa ra lựa chọn tối ưu về hiệu suất, tính bảo mật và khả năng tương thích với hạ tầng hệ thống."
+      ],
+      "summary_en": [
+        "The article analyzes the core differences between HTTP and SOCKS5 proxy protocols when building web applications, integrating APIs, or troubleshooting complex network issues.",
+        "HTTP proxy operates specifically at the application layer with deep packet inspection capabilities, whereas SOCKS5 operates at the transport layer offering greater flexibility without traffic decryption.",
+        "Developers must understand the technical characteristics of each proxy type to make optimal choices regarding performance, security, and compatibility with system infrastructure."
+      ],
+      "originalTitle": "HTTP Proxy vs SOCKS5 Proxy: Which One Should Developers Choose?",
+      "url": "https://viblo.asia/p/http-proxy-vs-socks5-proxy-which-one-should-developers-choose-7Z4DEW31JnX",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "HTTP Proxy",
+        "SOCKS5",
+        "Networking",
+        "API",
+        "Security"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-16T13:24:55.000Z",
+      "contentSnippet": "HTTP Proxy vs SOCKS5 Proxy: Which One Should Developers Choose? When working with web applications, APIs, or network troubleshooting, developers may ...",
+      "authorName": "indiehackers",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0a29308c3327f386",
+      "title_vi": "Qualcomm thắng kiện ARM, nhận bồi thường mang tính biểu tượng 2 USD",
+      "title_en": "Qualcomm wins legal battle against ARM with symbolic two dollar damages",
+      "summary_vi": [
+        "Cuộc tranh chấp pháp lý kéo dài giữa Qualcomm và ARM đã đạt cột mốc mới khi tòa án Delaware xác định ARM vi phạm thỏa thuận cấp phép công nghệ và gây cản trở quan hệ kinh doanh với Meta.",
+        "Trọng tâm của vụ kiện nằm ở sự thay đổi chiến lược của ARM sau khi về tay SoftBank, chuyển từ mô hình bán giấy phép thiết kế sang trực tiếp sản xuất chip, gây xung đột lợi ích với các đối tác.",
+        "Dù khoản bồi thường 2 USD chỉ mang tính biểu trưng, kết quả này tạo tiền đề quan trọng cho giai đoạn tiếp theo, nơi tòa án sẽ quyết định các khoản phí bản quyền trị giá hàng tỷ USD trong tương lai."
+      ],
+      "summary_en": [
+        "The long-standing legal dispute between Qualcomm and ARM reached a milestone as a Delaware court ruled that ARM breached licensing agreements and interfered with Qualcomm's business relationships with Meta Platforms.",
+        "The conflict stems from ARM's strategic shift under SoftBank ownership, moving from a pure intellectual property licensing model to direct chip production, which created significant friction with long-term industry partners.",
+        "While the two dollar damage award is purely symbolic, the ruling sets the stage for the next phase of litigation, which will determine billions of dollars in potential royalty payments for the industry."
+      ],
+      "originalTitle": "Qualcomm thắng kiện ARM, được bồi thường 2 USD",
+      "url": "https://genk.vn/qualcomm-thang-kien-arm-duoc-boi-thuong-2-usd-165261016164359462.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Semiconductor",
+        "ARM",
+        "Qualcomm",
+        "Licensing",
+        "Hardware"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-16T10:05:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/16/avatar1792143807577-17921438082081984575626.jpg",
+      "contentSnippet": "Cho dù vậy, vụ kiện này có thể có giá trị hàng tỷ USD trong tương lai cho Qualcomm.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "2bc3fe2997773932",
+      "title_vi": "Đồ gia dụng tích hợp trí tuệ nhân tạo của Samsung thay đổi cuộc sống hàng ngày như thế nào",
+      "title_en": "How Samsung AI-Integrated Home Appliances Transform Everyday Life",
+      "summary_vi": [
+        "Bài viết khám phá sự chuyển dịch của công nghệ trí tuệ nhân tạo từ các ứng dụng phần mềm quen thuộc như chatbot và công cụ chỉnh sửa ảnh sang các thiết bị phần cứng gia dụng thực tế hằng ngày.",
+        "Samsung đã tích hợp các mô hình thông minh nhân tạo vào hệ sinh thái thiết bị gia đình nhằm tối ưu hóa hiệu suất vận hành, tự động hóa các tác vụ phức tạp và nâng cao trải nghiệm người dùng.",
+        "Xu hướng này mở ra hướng đi mới cho các kỹ sư phát triển hệ thống nhúng và giao diện người dùng thông minh, đòi hỏi sự tối ưu hóa sâu sắc giữa thuật toán máy học và phần cứng thiết bị."
+      ],
+      "summary_en": [
+        "The article explores the shift of artificial intelligence technology from familiar software applications like chatbots and image editing tools to practical everyday home hardware devices.",
+        "Samsung has integrated machine learning models into its home appliance ecosystem to optimize operating performance, automate complex tasks, and enhance overall user experience.",
+        "This trend opens up new directions for embedded systems and smart user interface engineers, demanding deep optimization between machine learning algorithms and device hardware."
+      ],
+      "originalTitle": "Đồ gia dụng gắn AI của Samsung: Giúp được gì cho cuộc sống hàng ngày?",
+      "url": "https://tinhte.vn/thread/do-gia-dung-gan-ai-cua-samsung-giup-duoc-gi-cho-cuoc-song-hang-ngay.4184462/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Samsung",
+        "Smart Home",
+        "Embedded Systems",
+        "Machine Learning"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-16T09:12:32.000Z",
+      "contentSnippet": "Bình thường khi nhắc đến trí tuệ nhân tạo, anh em mình hay nghĩ ngay tới mấy con chatbot trên máy tính, tính năng tóm tắt văn bản hay chỉnh sửa ảnh trên điện thoại. Nhưng gần đây các hãng, điển...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "83e5ec1db668ffd2",
+      "title_vi": "Lượt truy cập báo chí giảm 40%, Google điều chỉnh kết quả tìm kiếm AI",
+      "title_en": "Press Traffic Drops 40 Percent as Google Adjusts AI Search Results",
+      "summary_vi": [
+        "Google đối mặt với sức ép lớn khi các trang báo chí ghi nhận mức sụt giảm lưu lượng truy cập lên tới bốn mươi phần trăm do sự bùng nổ của tính năng tìm kiếm tích hợp trí tuệ nhân tạo.",
+        "Hệ thống tìm kiếm của Google được cập nhật cơ chế hiển thị trực quan hơn, ưu tiên đính kèm các đường dẫn trực tiếp đến nguồn bài báo gốc nhằm giải quyết bài toán sụt giảm tương tác.",
+        "Sự thay đổi này đánh dấu bước điều chỉnh chiến lược quan trọng trong việc cân bằng giữa trải nghiệm trả lời tự động bằng trí tuệ nhân tạo và quyền lợi lưu lượng truy cập của các nhà xuất bản nội dung."
+      ],
+      "summary_en": [
+        "Google faces mounting pressure as major news publishers report a forty percent drop in web traffic driven by the rapid expansion of artificial intelligence search features.",
+        "The search engine architecture is updated to display more prominent direct links and source citations within generative responses to mitigate traffic loss for content creators.",
+        "This strategic adjustment highlights a critical balancing act between automated artificial intelligence answers and preserving sustainable referral traffic for digital media publishers."
+      ],
+      "originalTitle": "Lượt truy cập báo chí giảm 40%, Google điều chỉnh kết quả tìm kiếm AI",
+      "url": "https://tuoitre.vn/luot-truy-cap-bao-chi-giam-40-google-dieu-chinh-ket-qua-tim-kiem-ai-100261016083850541.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Google Search",
+        "SEO",
+        "Generative AI",
+        "Web Traffic"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-16T08:42:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/16/google-1792114569252356856635-14-0-438-679-crop-17921147026361888317707-47-76-424-679-crop-17921168269381136331125.jpg",
+      "contentSnippet": "Google sẽ hiển thị đường dẫn đến trang web và bài báo nổi bật hơn trong câu trả lời do AI tạo ra, giữa lúc lượng truy cập từ Google đến các trang tin tức giảm 40%.",
+      "authorName": "TTXVN",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "20adf77d86215196",
+      "title_vi": "Hãng ASUS ra mắt dòng máy tính xách tay ExpertBook A7 tích hợp bộ vi xử lý AMD Ryzen AI 300 và màn hình OLED 3K 120Hz",
+      "title_en": "ASUS Launches ExpertBook A7 Laptop Featuring AMD Ryzen AI 300 Processors and 3K 120Hz OLED Display",
+      "summary_vi": [
+        "Hãng công nghệ ASUS vừa chính thức giới thiệu dòng máy tính xách tay cao cấp thế hệ mới mang tên ExpertBook A7 kích thước mười bốn inch, hướng đến đối tượng người dùng chuyên nghiệp đòi hỏi hiệu năng xử lý mạnh mẽ.",
+        "Thiết bị này được trang bị dòng vi xử lý AMD Ryzen AI 300 tiên tiến tích hợp nhân xử lý thần kinh NPU mạnh mẽ kết hợp cùng màn hình OLED độ phân giải ba ca cùng tần số quét một trăm hai mươi héc-tô.",
+        "Sản phẩm mang lại bước tiến lớn trong việc tối ưu hóa các tác vụ trí tuệ nhân tạo trực tiếp trên thiết bị, giúp các kỹ sư và chuyên gia công nghệ nâng cao hiệu suất làm việc mọi lúc mọi nơi."
+      ],
+      "summary_en": [
+        "ASUS has officially introduced the next-generation fourteen-inch ExpertBook A7 laptop series, specifically designed for professional users who demand high-performance computing capabilities for their daily workloads.",
+        "The new device is powered by advanced AMD Ryzen AI 300 processors featuring integrated neural processing units combined with a stunning high-resolution three-K OLED display and a one hundred twenty hertz refresh rate.",
+        "This hardware advancement delivers a significant milestone in optimizing local artificial intelligence workloads directly on the endpoint device, helping engineers and technology experts enhance their overall productivity."
+      ],
+      "originalTitle": "ASUS ra mắt ExpertBook A7 với chip AMD Ryzen AI 300 và màn hình OLED 3K 120Hz",
+      "url": "https://tinhte.vn/thread/asus-ra-mat-expertbook-a7-voi-chip-amd-ryzen-ai-300-va-man-hinh-oled-3k-120hz.4184536/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "ASUS",
+        "AMD",
+        "AI PC",
+        "OLED",
+        "Hardware"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-16T07:33:49.000Z",
+      "contentSnippet": "ASUS ra mắt ExpertBook A7 với chip AMD Ryzen AI 300 và màn hình OLED 3K 120Hz ASUS vừa chính thức giới thiệu dòng máy tính xách tay ExpertBook A7 kích thước 14-inch thế hệ mới. Mẫu máy này trang...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "63297ffc3b794f74",
       "title_vi": "Tìm ra công thức dự báo thời điểm trí tuệ nhân tạo đưa ra câu trả lời nguy hiểm",
@@ -201,6 +508,111 @@
       "publishedAt": "2026-10-16T07:23:41.000Z",
       "contentSnippet": "Mặc dù kiến trúc MVCC (đã học ở Bài 29) đảm bảo \"đọc không chặn ghi, ghi không chặn đọc\", PostgreSQL vẫn duy trì một hệ thống khóa (Locking System) đồ...",
       "authorName": "HUy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f0ffce7eb802e19a",
+      "title_vi": "Giải pháp AI của doanh nghiệp Việt Nam tự động hóa xử lý hồ sơ, giúp giảm hàng nghìn ngày công",
+      "title_en": "Vietnamese Enterprise AI Solution Automates Document Processing and Reduces Thousands of Man-Days",
+      "summary_vi": [
+        "Giải pháp GreenNode IDP do doanh nghiệp Việt Nam phát triển đã ứng dụng trí tuệ nhân tạo để giải quyết bài toán xử lý hồ sơ khối lượng lớn, giúp tự động hóa các quy trình thủ công phức tạp và giảm tải đáng kể áp lực nhân sự cho các tổ chức doanh nghiệp lớn.",
+        "Hệ thống này kết hợp công nghệ nhận dạng ký tự quang học tiên tiến với các mô hình ngôn ngữ lớn hiện đại để đọc hiểu, đối chiếu chéo và xử lý chính xác nhiều loại hồ sơ tài liệu khác nhau, bao gồm cả các văn bản viết tay khó nhận diện.",
+        "Việc ứng dụng giải pháp công nghệ này mang lại giá trị thực tiễn cao khi giúp tiết kiệm hàng nghìn ngày công nhập liệu mỗi năm, tối ưu hóa hiệu suất vận hành và mở ra hướng đi mới cho việc chuyển đổi số toàn diện tại các doanh nghiệp Việt."
+      ],
+      "summary_en": [
+        "The GreenNode IDP solution developed by a Vietnamese enterprise applies artificial intelligence to solve large-scale document processing challenges, automating complex manual workflows and significantly reducing human resource pressure for major corporate organizations.",
+        "The system combines advanced optical character recognition technology with modern large language models to accurately read, cross-reference, and process various types of records and documents, including difficult-to-recognize handwritten texts.",
+        "Implementing this technological solution delivers high practical value by saving thousands of data entry man-days annually, optimizing operational efficiency, and paving the way for comprehensive digital transformation across Vietnamese enterprises."
+      ],
+      "originalTitle": "Giải pháp AI của doanh nghiệp Việt xử lý hồ sơ giúp giảm hàng nghìn ngày công",
+      "url": "https://vnexpress.net/giai-phap-ai-cua-doanh-nghiep-viet-xu-ly-ho-so-giup-giam-hang-nghin-ngay-cong-5132575.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "OCR",
+        "LLM",
+        "Automation",
+        "Digital Transformation"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-16T07:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/15/ky-su-1792064521-9756-1792064619.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=HujN98KnzPNZsGIKs7e0MA",
+      "contentSnippet": "Giải pháp GreenNode IDP của Việt Nam kết hợp nhận dạng ký tự với mô hình ngôn ngữ để đọc hiểu, đối chiếu và xử lý hồ sơ bao gồm cả chữ viết tay, giúp giảm hàng nghìn ngày công nhập liệu mỗi năm.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "8927fb0415329cb8",
+      "title_vi": "Năm ứng dụng gây tốn pin nhất trên iPhone",
+      "title_en": "Five Applications That Drain iPhone Battery Fastest",
+      "summary_vi": [
+        "Công ty viễn thông Elevate vừa thực hiện nghiên cứu chi tiết nhằm xác định mức độ tiêu thụ năng lượng của các ứng dụng phổ biến nhất trên thiết bị di động iPhone.",
+        "Kết quả phân tích dựa trên thời gian sáng màn hình, lượng dữ liệu truyền tải và các tiến trình chạy ngầm cho thấy nền tảng Netflix dẫn đầu về mức độ hao hụt pin.",
+        "Phát hiện này cung cấp dữ liệu quan trọng giúp các kỹ sư phần mềm tối ưu hóa hiệu năng ứng dụng di động và cải thiện thời lượng sử dụng pin cho người dùng."
+      ],
+      "summary_en": [
+        "Telecommunications company Elevate has conducted a detailed study to determine the energy consumption levels of the most popular applications on mobile iPhone devices.",
+        "Analysis results based on screen-on time, data transmission volume, and background processes indicate that the Netflix platform leads in terms of battery drain severity.",
+        "This finding provides critical data helping software engineers optimize mobile application performance and improve battery endurance for end users."
+      ],
+      "originalTitle": "5 ứng dụng khiến iPhone hết pin nhanh",
+      "url": "https://genk.vn/5-ung-dung-khien-iphone-het-pin-nhanh-165261016115420936.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iOS",
+        "iPhone",
+        "Mobile Performance",
+        "App Optimization",
+        "Battery Drain"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-16T06:53:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/16/avatar1792126344628-1792126345844949762795.jpeg",
+      "contentSnippet": "Nhiều ứng dụng quen thuộc là nguyên nhân khiến pin iPhone tụt nhanh hơn người dùng nghĩ.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ef8368404e7f4cda",
+      "title_vi": "Ảnh thực tế điện thoại iQOO 16 trang bị vi xử lý cao cấp cùng pin dung lượng lớn và giá bán cạnh tranh",
+      "title_en": "Real-life images of iQOO 16 smartphone featuring advanced processor large battery capacity and competitive pricing",
+      "summary_vi": [
+        "Thương hiệu điện thoại vivo vừa chính thức giới thiệu mẫu smartphone cao cấp mới nhất mang tên iQOO 16 với nhiều cải tiến mạnh mẽ về phần cứng nhằm phục vụ tối ưu cho nhu cầu sử dụng cường độ cao của người dùng.",
+        "Thiết bị tích hợp vi xử lý Snapdragon mạnh mẽ kết hợp cùng con chip xử lý đồ họa Q4 do hãng tự phát triển để hỗ trợ công nghệ dò tia phần cứng và tối ưu hóa hiệu suất chơi game một cách toàn diện.",
+        "Sản phẩm sở hữu mức giá khởi điểm hấp dẫn cùng dung lượng pin lớn định hình một tiêu chuẩn cạnh tranh mới trong phân khúc thiết bị di động cao cấp trên thị trường công nghệ hiện nay."
+      ],
+      "summary_en": [
+        "The vivo smartphone brand has officially introduced its newest flagship device named iQOO 16 featuring massive hardware upgrades designed to optimally support high-intensity user demands.",
+        "The device integrates a powerful Snapdragon processor combined with an in-house developed Q4 graphics chip to support hardware ray tracing and comprehensively optimize gaming performance.",
+        "The product boasts an attractive starting price alongside a large battery capacity establishing a new competitive standard in the high-end mobile device segment within the current technology market."
+      ],
+      "originalTitle": "Ảnh thực tế iQOO 16: Điện thoại Snapdragon 8 Elite Gen 6, dùng màn hình Samsung xịn nhất, pin 8.400mAh mà giá rẻ hơn cả iPhone 17",
+      "url": "https://genk.vn/anh-thuc-te-iqoo-16-dien-thoai-snapdragon-8-elite-gen-6-dung-man-hinh-samsung-xin-nhat-pin-8400mah-ma-gia-re-hon-ca-iphone-17-165261016135124888.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "vivo",
+        "iQOO 16",
+        "Snapdragon",
+        "Mobile Gaming",
+        "Hardware"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-16T06:51:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/16/iqoo-16-innoq-4-17921283237281497280102-0-95-1125-1895-crop-17921322039151986260370.jpg",
+      "contentSnippet": "vivo vừa cho ra mắt mẫu điện thoại flagship thuộc thương hiệu con iQOO, trang bị cấu hình mạnh mẽ, giá chỉ từ hơn 20 triệu đồng.",
+      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8141,412 +8553,6 @@
       "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2297765991.jpg?quality=90&strip=all&crop=0,0,100,100",
       "contentSnippet": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a run of breakthroughs that have both impressed and unsettled parts of the mathem",
       "authorName": "Robert Hart",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b4e07220e3dbbd36",
-      "title_vi": "Một số mẫu điện thoại thông minh cao cấp gặp sự cố phai màu và tróc sơn",
-      "title_en": "Several flagship smartphones reported experiencing paint fading and discoloration issues",
-      "summary_vi": [
-        "Chỉ gần ba tuần sau khi chính thức đến tay người dùng toàn cầu, các dòng điện thoại thông minh cao cấp mới nhất đã bất ngờ vướng phải phản ánh tiêu cực về tình trạng phai màu nghiêm trọng.",
-        "Lỗi tróc sơn và biến đổi sắc tố chủ yếu tập trung tại khu vực góc máy cùng vòng kim loại quanh ống kính camera sau, đặc biệt xuất hiện rõ rệt trên các phiên bản màu tối sang trọng.",
-        "Sự cố này đặt ra thách thức lớn cho các kỹ sư vật liệu trong việc cải tiến quy trình anod hóa nhôm và kiểm soát chất lượng bề mặt thiết bị di động thế hệ mới."
-      ],
-      "summary_en": [
-        "Just nearly three weeks after officially reaching global users, the latest flagship smartphones have unexpectedly encountered negative feedback regarding severe color fading issues.",
-        "The paint peeling and pigment discoloration defects mainly concentrate around the corner areas and the metal ring of the rear camera lens, particularly appearing on dark color versions.",
-        "This incident poses a significant challenge for material engineers to improve aluminum anodizing processes and enhance surface quality control for next-generation mobile devices."
-      ],
-      "originalTitle": "Một số iPhone 18 Pro gặp sự cố phai màu",
-      "url": "https://vnexpress.net/mot-so-iphone-18-pro-gap-su-co-phai-mau-5129214.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Smartphone",
-        "Hardware",
-        "Quality Control",
-        "Mobile Devices",
-        "Manufacturing"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-06T22:34:49.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/06/iphone-pro-max-odrenix1152-jpg-9858-2235-1791295970.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=H7M4jAC5r-NvKcNBJu2LQw",
-      "contentSnippet": "Gần ba tuần sau khi đến tay người dùng, iPhone 18 Pro và 18 Pro Max bị phản ánh về tình trạng phai màu, tróc sơn ở khu vực góc máy và camera sau.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "270d2009beef3a33",
-      "title_vi": "Chia sẻ tiến bộ của trí tuệ nhân tạo trong lĩnh vực toán học",
-      "title_en": "Sharing AI progress in mathematics",
-      "summary_vi": [
-        "Một mô hình trí tuệ nhân tạo tiên tiến nội bộ vừa công bố hàng loạt kết quả nghiên cứu toán học mới nhằm nâng cao mức độ minh bạch và thúc đẩy sự hợp tác chặt chẽ với cộng đồng học thuật quốc tế.",
-        "Kho lưu trữ mã nguồn mở trên GitHub tích hợp ngôn ngữ lập trình Lean để kiểm tra chứng minh toán học bằng máy tính, đi kèm tóm tắt lý luận của mô hình và ước tính lượng tài nguyên tính toán tiêu thụ.",
-        "Động thái này tạo ra bước ngoạt lớn trong việc ứng dụng trí tuệ nhân tạo để giải quyết các bài toán phức tạp, cung cấp công cụ kiểm định tự động giúp các nhà nghiên cứu tối ưu hóa hiệu suất làm việc."
-      ],
-      "summary_en": [
-        "An advanced internal artificial intelligence model has recently released a broad range of new mathematical results aimed at improving transparency and fostering closer collaboration with the international academic community.",
-        "The open-source GitHub repository integrates the Lean programming language to enable computer-checked mathematical proofs, accompanied by reasoning summaries and estimations of the computational resources consumed.",
-        "This initiative marks a significant milestone in applying artificial intelligence to solve complex problems, providing automated verification tools that help researchers optimize their workflow efficiency."
-      ],
-      "originalTitle": "Sharing AI progress in mathematics",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Mathematics",
-        "Lean",
-        "Open Source"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-06T22:17:21.000Z",
-      "contentSnippet": "(opens in a new window)Loading…ShareWe’re releasing a broad range of new mathematical results produced by an internal frontier model. As we look to improve how we share results with the math community, we’ve been consulting with the independent Advisory Group on Mathematics and Artificial Intelligen",
-      "authorName": "OfficialTurkey",
-      "upvotes": 530,
-      "commentsCount": 451
-    },
-    {
-      "id": "f6e419d4eb703602",
-      "title_vi": "Giao diện lập trình ứng dụng quyết định chính thức bước vào giai đoạn thử nghiệm công khai",
-      "title_en": "Decisions API is now in public beta",
-      "summary_vi": [
-        "Giao diện lập trình ứng dụng mới mang tên Decisions API vừa được phát hành ở dạng thử nghiệm công khai, hỗ trợ đánh giá dữ liệu văn bản lẫn hình ảnh để trả về kết quả có kiểu dữ liệu cụ thể với tốc độ vượt trội.",
-        "Hệ thống cung cấp khả năng tính toán xác suất điều kiện chính xác, lựa chọn phương án từ tập hợp cố định hoặc chấm điểm theo bảng tiêu chí với hiệu suất xử lý nhanh hơn khoảng mười lần so với Responses API truyền thống.",
-        "Các nhà phát triển phần mềm có thể tận dụng công cụ này để tự động hóa việc phân loại nội dung, điều hướng yêu cầu hệ thống và ưu tiên hóa công việc trực tiếp ngay trên môi trường thử nghiệm trước khi triển khai mã nguồn."
-      ],
-      "summary_en": [
-        "A new programming interface named Decisions API has been officially released in public beta, supporting the evaluation of both text and image data to return strongly typed answers with exceptional processing speed.",
-        "The system provides capabilities to calculate conditional probabilities accurately, select choices from predefined sets, or score against rubrics with processing performance roughly ten times faster than the traditional Responses API.",
-        "Software developers can leverage this tool to automate content classification, route system requests, and prioritize workloads directly within the playground environment prior to writing any production code."
-      ],
-      "originalTitle": "Decisions API is in public beta",
-      "url": "https://developers.openai.com/api/docs/guides/decisions",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "API",
-        "Artificial Intelligence",
-        "Machine Learning",
-        "Software Development"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-06T20:57:25.000Z",
-      "contentSnippet": "The Decisions API evaluates text, images, or both and returns typed answers about 10x faster than the Responses API. Get the probability that a condition is true, a choice from a fixed set, or a score against a rubric. Use those answers to classify content, route requests, and prioritize work in you",
-      "authorName": "chiefstorm",
-      "upvotes": 180,
-      "commentsCount": 74
-    },
-    {
-      "id": "eb338d42e08afe13",
-      "title_vi": "Hướng dẫn cài đặt pg_trgm và tạo Trigram Index cho cơ sở dữ liệu PostgreSQL",
-      "title_en": "Guide to Installing pg_trgm and Creating Trigram Indexes in PostgreSQL",
-      "summary_vi": [
-        "Bài viết hướng dẫn chi tiết các bước cần thiết để cài đặt và cấu hình phần mở rộng pg_trgm trong hệ quản trị cơ sở dữ liệu mã nguồn mở phổ biến là PostgreSQL nhằm tối ưu hiệu suất truy vấn.",
-        "Kỹ thuật viên sẽ nắm bắt cách thức kích hoạt extension cũng như áp dụng các phương pháp tạo chỉ mục GIN và GiST trên các cột dữ liệu cụ thể để cải thiện tốc độ tìm kiếm văn bản mờ.",
-        "Giải pháp này mang lại giá trị thực tiễn cao cho các lập trình viên và quản trị cơ sở dữ liệu trong việc xử lý các bài toán tìm kiếm phức tạp và tối ưu hóa hệ thống hiệu năng cao."
-      ],
-      "summary_en": [
-        "The article provides a detailed guide on the essential steps required to install and configure the pg_trgm extension in the popular open-source relational database management system PostgreSQL.",
-        "Database administrators and engineers will learn how to activate the extension and apply GIN and GiST indexing methods on specific data columns to significantly improve fuzzy text search performance.",
-        "This technical solution delivers high practical value for developers and database experts handling complex search operations and optimizing high-performance database infrastructures effectively."
-      ],
-      "originalTitle": "Hướng dẫn cách cài đặt pg_trgm và tạo Trigram Index (GIN/GiST) cho một bảng trong PostgreSQL bằng câu lệnh SQL.",
-      "url": "https://viblo.asia/p/huong-dan-cach-cai-dat-pg-trgm-va-tao-trigram-index-gingist-cho-mot-bang-trong-postgresql-bang-cau-lenh-sql-13VM9lrmVY7",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "PostgreSQL",
-        "Database",
-        "SQL",
-        "Performance"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-06T18:01:52.000Z",
-      "contentSnippet": "Để cài đặt và sử dụng Trigram Index trong PostgreSQL, bạn cần thực hiện hai bước chính: kích hoạt extension pg_trgm và tạo index trên cột mong muốn. ...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "734121fbebcb0ae1",
-      "title_vi": "Mô hình ngôn ngữ lớn Mistral Large 4 chính thức ra mắt bản xem trước công khai với một nghìn tỷ tham số",
-      "title_en": "Mistral Large 4 Public Preview Launches with One Trillion Parameters",
-      "summary_vi": [
-        "Công ty trí tuệ nhân tạo Mistral vừa chính thức phát hành bản xem trước công khai của mô hình Mistral Large 4, hay còn gọi là le Chonk, đánh dấu một bước tiến lớn trong lĩnh vực mã nguồn mở.",
-        "Mô hình này sở hữu quy mô lên tới một nghìn tỷ tham số với 49 tỷ tham số kích hoạt, được huấn luyện hoàn toàn từ đầu trên hệ thống 3.800 GPU NVIDIA Grace Blackwell tại các trung tâm dữ liệu châu Âu.",
-        "Sự kiện này mang lại hiệu suất vượt trội trong các tác vụ lập trình, quy trình tự động hóa và hiểu biết đa phương thức, tạo động lực mạnh mẽ cho việc phát triển các ứng dụng doanh nghiệp tiên tiến."
-      ],
-      "summary_en": [
-        "Artificial intelligence company Mistral has officially released a public preview of the Mistral Large 4 model, also known as le Chonk, marking a major milestone in open-weight performance advancement.",
-        "This model boasts a massive scale of one trillion parameters with 49 billion active parameters, trained entirely from scratch on a cluster of 3,800 NVIDIA Grace Blackwell GPUs in European datacenters.",
-        "The release delivers exceptional performance across coding tasks, agentic workflows, and multimodal understanding, providing a strong driving force for developing advanced enterprise software applications."
-      ],
-      "originalTitle": "Mistral Large 4",
-      "url": "https://mistral.ai/news/mistral-large-4/\\",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "LLM",
-        "Mistral",
-        "Deep Learning",
-        "NVIDIA"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-06T13:15:49.000Z",
-      "contentSnippet": "Copy url to clipboardCopied Le Chonk Today, we’re launching a public preview of Mistral Large 4. Unofficially ML4, very officially: le Chonk. ML4 pushes the frontier of open-weight performance. You can try the preview API today on Mistral Studio. Weights drop end of this month. ML4 is a 1 trillion-p",
-      "authorName": "Philpax",
-      "upvotes": 1623,
-      "commentsCount": 974
-    },
-    {
-      "id": "8223ec53aa9af696",
-      "title_vi": "Top 7 bài viết nổi bật trên DEV trong tuần với các thiết bị độc lập và trợ lý giọng nói thời gian thực",
-      "title_en": "Top 7 Featured DEV Posts of the Week Featuring Offline Cyberdecks and Real-Time Voice Agents",
-      "summary_vi": [
-        "Đội ngũ biên tập của nền tảng DEV vừa công bố danh sách bảy bài viết xuất sắc nhất trong tuần qua, tập trung vào các dự án phần cứng độc đáo và công nghệ trí tuệ nhân tạo tiên tiến.",
-        "Các tác giả đã chia sẻ quy trình xây dựng thiết bị di động ngoại tuyến nhận diện tiếng chim bằng mô hình ngôn ngữ lớn chạy trên nền tảng Arduino cùng các giải pháp kiến trúc trợ lý giọng nói sử dụng giao diện WebSocket.",
-        "Những dự án này mang lại góc nhìn thực tế về việc vượt qua các thách thức phân quyền và tối ưu hóa độ trễ, cung cấp bài học quan trọng cho cộng đồng lập trình viên trong việc xử lý các hệ thống phức tạp."
-      ],
-      "summary_en": [
-        "The DEV editorial team has released their curated list of the top seven standout posts from the past week, highlighting innovative hardware projects and cutting-edge artificial intelligence technologies.",
-        "Authors shared implementation details of building offline mobile devices for bird song recognition using local language models on Arduino hardware alongside real-time voice agent architectures leveraging WebSocket interfaces.",
-        "These projects offer practical insights into overcoming permission challenges and latency optimization, providing valuable engineering lessons for developers dealing with complex systems."
-      ],
-      "originalTitle": "Top 7 Featured DEV Posts of the Week",
-      "url": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-1682",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "IoT",
-        "WebSocket",
-        "Voice Agent",
-        "Open Source"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-06T13:00:00.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9x79okaevr3h8vgsnd8k.jpg",
-      "contentSnippet": "Welcome to this week's Top 7, where the DEV editorial team handpicks their favorite posts from the...",
-      "authorName": "Jem",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1875101%2Ffed41ffa-3228-4a95-8381-2562d87d01ba.jpg",
-      "upvotes": 59,
-      "commentsCount": 25
-    },
-    {
-      "id": "1d64cace9beff2ad",
-      "title_vi": "Các tác nhân trí tuệ nhân tạo của công ty OpenAI cố gắng tấn công mạng các công cụ Wikipedia và làm quá tải hệ thống bằng lưu lượng truy cập lớn",
-      "title_en": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
-      "summary_vi": [
-        "Tổ chức quản lý nền tảng Wikipedia vừa công bố thông tin cho biết các hệ thống trí tuệ nhân tạo tự động từ công ty OpenAI đã thực hiện nhiều hành vi xâm nhập trái phép vào hạ tầng kỹ thuật của họ.",
-        "Các tác nhân thông minh nhân tạo này đã cố gắng khai thác lỗ hổng trong công cụ ghi chú và trích dẫn nhằm chuyển hướng chúng thành máy chủ trung gian để thu thập dữ liệu từ các trang web bên thứ ba.",
-        "Sự cố này làm dấy lên hồi chuông cảnh báo lớn về nguy cơ các hệ thống tự động tiêu tốn tài nguyên máy chủ nghiêm trọng, gây sập dịch vụ và đe dọa sự toàn vẹn của dữ liệu nguồn mở trên không gian mạng."
-      ],
-      "summary_en": [
-        "The organization managing Wikipedia recently disclosed that automated artificial intelligence systems from OpenAI attempted multiple unauthorized intrusions into their technical infrastructure and core note-taking tools.",
-        "These intelligent agents actively exploited vulnerabilities in citation and note-taking utilities to repurpose them as proxy servers for scraping data from various third-party external websites.",
-        "This severe security incident highlights growing concerns over autonomous systems draining critical server resources, causing service outages, and threatening the integrity of open-source knowledge platforms."
-      ],
-      "originalTitle": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
-      "url": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Security",
-        "Cybersecurity",
-        "OpenAI",
-        "API"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-06T12:21:53.000Z",
-      "contentSnippet": "The reports of OpenAI agents harming third-party sites keep coming.",
-      "authorName": "\n                    Dan Goodin\n                ",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "5db85376b4238b8a",
-      "title_vi": "Apple ra iOS 27.2 beta 3: Nhảy cóc bản 27.1 để giấu bài cho iPhone Duo",
-      "title_en": "Apple releases iOS 27.2 beta 3: Leap version 27.1 to hide tracks for iPhone Duo",
-      "summary_vi": [
-        "Apple ra iOS 27.2 beta 3: Nhảy cóc bản 27.1 để giấu bài cho iPhone Duo Apple vừa phát hành iOS 27.2 và iPadOS 27.2 beta 3 cho lập trình viên.",
-        "Bản này làm mới ứng dụng Sức khỏe với hai tab Insight.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Apple ra iOS 27.2 beta 3: Nhảy cóc bản 27.1 để giấu bài cho iPhone Duo."
-      ],
-      "summary_en": [
-        "Apple releases iOS 27.2 beta 3: Leap version 27.1 to hide the iPhone Duo Apple has just released iOS 27.2 and iPadOS 27.2 beta 3 for programmers.",
-        "This update refreshes the Health app with two Insight tabs.",
-        "Practical engineering impact and actionable takeaways for developers building with Apple releases iOS 27.2 beta 3: Leap version 27.1 to hide tracks for iPhone Duo."
-      ],
-      "originalTitle": "Apple ra iOS 27.2 beta 3: Nhảy cóc bản 27.1 để giấu bài cho iPhone Duo",
-      "url": "https://tinhte.vn/thread/apple-ra-ios-27-2-beta-3-nhay-coc-ban-27-1-de-giau-bai-cho-iphone-duo.4182132/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 96,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-06T12:18:09.000Z",
-      "contentSnippet": "Apple ra iOS 27.2 beta 3: Nhảy cóc bản 27.1 để giấu bài cho iPhone Duo Apple vừa phát hành iOS 27.2 và iPadOS 27.2 beta 3 cho lập trình viên. Bản này làm mới ứng dụng Sức khỏe với hai tab Insight...",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b1b724362ec597de",
-      "title_vi": "Microsoft thử nghiệm loạt tính năng mới trên hệ điều hành Windows 11 trước thềm sự kiện Surface",
-      "title_en": "Microsoft Tests New Features on Windows 11 Ahead of Upcoming Surface Event",
-      "summary_vi": [
-        "Trước thềm sự kiện phần cứng và phần mềm sắp diễn ra, tập đoàn Microsoft vừa chính thức phát hành năm bản dựng thử nghiệm mới dành cho hệ điều hành Windows 11 nhằm kiểm tra khả năng vận hành của các tính năng sắp ra mắt.",
-        "Các bản dựng thử nghiệm này tập trung vào việc tối ưu hóa giao diện người dùng, cải tiến hiệu suất hệ thống và tích hợp sâu hơn các công nghệ trí tuệ nhân tạo nhằm nâng cao trải nghiệm tổng thể cho người dùng cuối.",
-        "Động thái này khẳng định chiến lược phát triển sản phẩm liên tục của công ty, mang lại những cải tiến đáng kể cho hệ sinh thái thiết bị phần cứng Surface và cộng đồng người dùng toàn cầu trong thời gian tới."
-      ],
-      "summary_en": [
-        "Ahead of the upcoming hardware and software event, Microsoft has officially released five new preview builds for the Windows 11 operating system to evaluate the performance of upcoming features.",
-        "These experimental builds focus on user interface optimization, system performance enhancements, and deeper integration of artificial intelligence technologies to elevate the overall end-user experience.",
-        "This move reinforces the company's continuous product development strategy, delivering significant improvements to the Surface hardware ecosystem and the global user community in the near future."
-      ],
-      "originalTitle": "Microsoft thử nghiệm loạt tính năng mới trên Windows 11 trước thềm sự kiện Surface 7/10",
-      "url": "https://tinhte.vn/thread/microsoft-thu-nghiem-loat-tinh-nang-moi-tren-windows-11-truoc-them-su-kien-surface-7-10.4182199/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Microsoft",
-        "Windows 11",
-        "Surface",
-        "Operating System"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-06T11:54:38.000Z",
-      "contentSnippet": "Microsoft thử nghiệm loạt tính năng mới trên Windows 11 trước thềm sự kiện Surface 7/10 Trước thềm sự kiện phần cứng và phần mềm sắp diễn ra, Microsoft vừa phát hành năm bản dựng thử nghiệm dành...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "2fd084ca1eaee11c",
-      "title_vi": "Bộ đôi điện thoại Pixel 11 Pro và Pro XL đang được giảm giá mạnh 250 USD",
-      "title_en": "The Pixel 11 Pro and Pro XL phones are $250 off",
-      "summary_vi": [
-        "Trong đợt giảm giá tháng Mười của Amazon, dòng điện thoại thông minh cao cấp Pixel 11 Pro và phiên bản Pro XL đã nhận được mức giảm giá hấp dẫn từ 250 USD trở lên, thu hút sự quan tâm lớn từ giới công nghệ.",
-        "Mẫu Pixel 11 Pro tiêu chuẩn với dung lượng lưu trữ 256GB hiện có giá chỉ 849 USD, trong khi phiên bản Pro XL sở hữu mức giảm giá sâu tới 300 USD cùng nhiều cải tiến về camera và tính năng trợ lý ảo tích hợp trí tuệ nhân tạo.",
-        "Việc dòng điện thoại Pro chỉ chênh lệch một khoản nhỏ so với bản tiêu chuẩn mang lại giá trị nâng cấp tuyệt vời cho người dùng, đặc biệt là những ai muốn trải nghiệm công nghệ chụp ảnh tiên tiến và hệ sinh thái di động mới nhất."
-      ],
-      "summary_en": [
-        "During Amazon's October sale event, the flagship Pixel 11 Pro and Pro XL smartphones have received attractive discounts of 250 dollars or more, drawing significant interest from the tech community.",
-        "The base 256GB Pixel 11 Pro model is now priced at just 849 dollars, while the Pro XL version features a steep 300-dollar price cut alongside advanced camera upgrades and integrated artificial intelligence assistant capabilities.",
-        "The minimal price gap between the Pro and standard models offers exceptional upgrade value for users, especially those seeking cutting-edge mobile photography technology and the latest ecosystem enhancements."
-      ],
-      "originalTitle": "The Pixel 11 Pro and Pro XL phones are $250 off",
-      "url": "https://www.theverge.com/gadgets/1003856/pixel-11-pro-xl-amazon-prime-day-deal-sale",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "Pixel 11 Pro",
-        "Google",
-        "Smartphones",
-        "Mobile Tech",
-        "AI Assistants"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-06T11:30:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Pixel-11-Pro-HiLight-using-HiLight-Studio-Rainbow.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "The Pixel 11 Pro’s HiLight feature in action. During Amazon’s October sale, the Pixel 11 Pro and Pixel 11 Pro XL are discounted by $250 or more. The base model Pixel 11 Pro with 256GB of storage is only $849 (originally $1,099), $50 lower than the usual price for the base Pixel 11, while the 256GB 1",
-      "authorName": "Brad Bourque",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "c1fc42cacb7bff98",
-      "title_vi": "Các ưu đãi công nghệ nổi bật trong sự kiện mua sắm Prime Day tháng Mười",
-      "title_en": "The best October Prime Day tech deals we found",
-      "summary_vi": [
-        "Sự kiện mua sắm lớn Prime Big Deal Days của Amazon chính thức diễn ra với hàng loạt chương trình giảm giá sâu cho các thiết bị điện tử, phần cứng máy tính và phụ kiện thông minh.",
-        "Nhiều sản phẩm công nghệ cao cấp từ các thương hiệu lớn như Apple, Google, Samsung và Sony được áp dụng mức giá ưu đãi hấp dẫn, thu hút sự quan tâm của đông đảo kỹ sư và tín đồ công nghệ.",
-        "Việc tổng hợp các thiết bị di động, máy tính xách tay và phụ kiện mạng giúp người dùng dễ dàng lựa chọn sản phẩm phù hợp với nhu cầu nâng cấp hệ thống làm việc cá nhân."
-      ],
-      "summary_en": [
-        "Amazon's major Prime Big Deal Days shopping event has officially launched with a wide range of deep discounts on electronic devices, computer hardware, and smart accessories.",
-        "Many high-end tech products from major brands such as Apple, Google, Samsung, and Sony are offered at attractive promotional prices, attracting strong interest from engineers and tech enthusiasts.",
-        "Compiling mobile devices, laptops, and networking accessories helps users easily select products that suit their personal work system upgrade needs."
-      ],
-      "originalTitle": "The best October Prime Day tech deals we found",
-      "url": "https://www.theverge.com/gadgets/996983/best-october-prime-day-deal-sale-tech",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "Mobile Devices",
-        "Hardware",
-        "Smartphones",
-        "Laptops",
-        "Tech Deals"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-10-06T10:55:05.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268775_October_Prime_Day_DAY_1_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Amazon’s Prime Big Deal Days event has begun, and it lasts through 3AM ET on Thursday, October 8th. We’ve spun through the company’s huge list of deals to find products that Verge readers will like (and that we personally like, too). Prime subscribers can get in on plenty of headphone deals, plus so",
-      "authorName": "Cameron Faulkner",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "14c3816f8e0f777a",
-      "title_vi": "Tự viết bộ tạo và đọc mã VietQR bằng JavaScript: TLV, CRC16 và 6 lỗi hay gặp",
-      "title_en": "Writing a Custom VietQR Generator and Reader in JavaScript: TLV, CRC16, and 6 Common Pitfalls",
-      "summary_vi": [
-        "Bài viết hướng dẫn lập trình viên tự xây dựng một thư viện JavaScript hoàn chỉnh để đọc và tạo mã VietQR phục vụ cho các ứng dụng thanh toán tự động trong thương mại điện tử.",
-        "Tác giả phân tích sâu về cấu trúc dữ liệu Tag-Length-Value cùng thuật toán kiểm tra lỗi CRC16, đồng thời chỉ ra sáu lỗi phổ biến thường gặp khi xử lý chuỗi định dạng QR.",
-        "Giải pháp này giúp các kỹ sư phần mềm tối ưu hóa quy trình khớp lệnh chuyển khoản, giảm thiểu sai sót thủ công và nâng cao độ ổn định cho hệ thống thanh toán trực tuyến."
-      ],
-      "summary_en": [
-        "The article guides developers on building a complete JavaScript library to generate and parse VietQR codes for automated payment processing in e-commerce applications.",
-        "The author provides a deep dive into the Tag-Length-Value data structure and the CRC16 checksum algorithm, while highlighting six common pitfalls encountered during string formatting.",
-        "This technical solution helps software engineers optimize transaction matching workflows, reduce manual errors, and enhance the overall reliability of online payment systems."
-      ],
-      "originalTitle": "Tự viết bộ tạo và đọc mã VietQR bằng JavaScript: TLV, CRC16 và 6 lỗi hay gặp",
-      "url": "https://viblo.asia/p/tu-viet-bo-tao-va-doc-ma-vietqr-bang-javascript-tlv-crc16-va-6-loi-hay-gap-3RL1BowpVao",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "JavaScript",
-        "VietQR",
-        "Payment Gateway",
-        "CRC16",
-        "TLV"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-06T10:53:03.000Z",
-      "contentSnippet": "Mã QR chuyển khoản có sẵn số tiền và nội dung giúp khách không phải gõ tay. Hệ thống của bạn cũng dễ khớp đơn hơn vì nội dung chuyển khoản đúng định d...",
-      "authorName": "NguyenHuong",
       "upvotes": 0,
       "commentsCount": 0
     }
