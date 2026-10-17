@@ -1,7 +1,75 @@
 {
-  "lastUpdated": "2026-10-17T02:18:22.255Z",
+  "lastUpdated": "2026-10-17T09:56:53.380Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "8246fc32849b100e",
+      "title_vi": "Meta công bố Muse Spark Open: Mô hình trí tuệ nhân tạo nguồn mở 816 tỷ tham số hoạt động trên máy Mac Studio",
+      "title_en": "Meta Releases Muse Spark Open: An 816-Billion Parameter Open-Weight AI Model Running on Mac Studio",
+      "summary_vi": [
+        "Meta vừa chính thức công bố trọng số của Muse Spark Open, một mô hình trí tuệ nhân tạo trọng lượng mở mạnh mẽ hàng đầu được phát triển bởi các kỹ sư tại Mỹ nhằm phục vụ cộng đồng công nghệ toàn cầu.",
+        "Mô hình này sở hữu quy mô khổng lồ lên tới 816 tỷ tham số nhưng vẫn được tối ưu hóa xuất sắc để có thể vận hành trơn tru chỉ trên hai hệ thống máy tính Apple Mac Studio.",
+        "Bước đột phá này mang lại giá trị thực tiễn cao, giúp các nhà phát triển và kỹ sư nghiên cứu khai thác các mô hình ngôn ngữ lớn quy mô lớn ngay tại hạ tầng cục bộ mà không phụ thuộc hoàn toàn vào đám mây."
+      ],
+      "summary_en": [
+        "Meta has officially announced the weights of Muse Spark Open, positioning it as one of the most powerful open-weight artificial intelligence models developed in the United States for the global community.",
+        "The model boasts a massive scale of 816 billion parameters while maintaining exceptional optimization to run smoothly across just two Apple Mac Studio computer systems.",
+        "This breakthrough delivers significant practical value, enabling developers and research engineers to leverage large-scale language models directly on local infrastructure without relying entirely on the cloud."
+      ],
+      "originalTitle": "Meta mới tung Muse Spark Open: AI mở 816 tỷ tham số, chạy được trên 2 chiếc Mac Studio",
+      "url": "https://tinhte.vn/thread/meta-moi-tung-muse-spark-open-ai-mo-816-ty-tham-so-chay-duoc-tren-2-chiec-mac-studio.4184713/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Meta",
+        "Open Source",
+        "Machine Learning",
+        "Hardware"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-17T09:37:50.000Z",
+      "contentSnippet": "Meta mới tung Muse Spark Open: AI mở 816 tỷ tham số, chạy được trên 2 chiếc Mac Studio Meta vừa công bố trọng số của Muse Spark Open, được hãng gọi là mô hình open-weight mạnh nhất của Mỹ hiện...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "bb7567bf1088595f",
+      "title_vi": "DeepSeek công bố mô hình ngôn ngữ lớn DeepSeek V4.1 Flash phiên bản 1017 với kiến trúc mã hóa giải mã nhân quả tiên tiến",
+      "title_en": "DeepSeek Announces DeepSeek V4.1 Flash 1017 Model with Advanced Causal Encoder Decoder Architecture",
+      "summary_vi": [
+        "Công ty trí tuệ nhân tạo DeepSeek vừa chính thức phát hành phiên bản cập nhật DeepSeek V4.1 Flash ngày mười bảy tháng mười năm hai nghìn không trăm hai mươi sáu, đánh dấu bước tiến mới trong việc tối ưu hóa hiệu năng tính toán cho các tác vụ thông minh.",
+        "Mô hình này áp dụng kiến trúc Mã hóa Giải mã Nhân quả tiên tiến với năm trăm năm mươi hai tỷ tham số tổng thể, kích hoạt tám tỷ tham số khi đầu vào và mười sáu tỷ khi đầu ra, tích hợp sẵn khả năng xử lý hình ảnh và văn bản gốc từ giai đoạn tiền huấn luyện.",
+        "Giải pháp bộ nhớ đệm giá trị khóa nén giúp giảm đáng kể chi phí vận hành cho các tác nhân tự trị, cung cấp mức giá cạnh tranh và vượt trội hơn so với dòng sản phẩm chuyên nghiệp tiền nhiệm về tốc độ hoàn thành công việc."
+      ],
+      "summary_en": [
+        "The artificial intelligence company DeepSeek has officially released the DeepSeek V4.1 Flash update for October seventeenth twenty twenty six, marking a significant milestone in optimizing computational performance for intelligent tasks.",
+        "This model adopts an advanced Causal Encoder Decoder architecture with five hundred fifty two billion total parameters, activating eight billion on input and sixteen billion on output, featuring native image and text processing from pre-training.",
+        "The compressed key value caching solution significantly reduces operational costs for autonomous agents, offering competitive pricing and outperforming its professional predecessor in task completion speed and overall efficiency."
+      ],
+      "originalTitle": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "DeepSeek",
+        "LLM",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Neural Architecture"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-17T08:37:46.000Z",
+      "contentSnippet": "Model weightsCompareAPITry this modelDeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the deepseek-flash API model name. V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decode",
+      "authorName": "theanonymousone",
+      "upvotes": 101,
+      "commentsCount": 6
+    },
     {
       "id": "a421758738d47629",
       "title_vi": "Apache Derby Bài 20: Đóng gói ứng dụng Java Desktop tích hợp sẵn cơ sở dữ liệu",
@@ -133,6 +201,109 @@
       "authorName": "Nguyễn Huy Hoàng",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "a301d9b25f044450",
+      "title_vi": "Hiếu PC gợi ý bốn nguyên tắc bảo mật khi lập trình với AI",
+      "title_en": "Hieu PC Suggests Four Security Principles When Programming with AI",
+      "summary_vi": [
+        "Sự bùng nổ của trí tuệ nhân tạo trong quy trình phát triển phần mềm đòi hỏi lập trình viên phải chú ý nhiều hơn đến các vấn đề bảo mật dữ liệu nguồn và quyền riêng tư.",
+        "Chuyên gia bảo mật đề xuất bốn nguyên tắc cốt lõi gồm bảo vệ dữ liệu nhạy cảm, thiết lập giới hạn quyền truy cập, kiểm soát mã nguồn tự động và giám sát hệ thống liên tục.",
+        "Việc tuân thủ các tiêu chuẩn này giúp đội ngũ kỹ thuật giảm thiểu rủi ro rò rỉ thông tin doanh nghiệp khi tích hợp các trợ lý lập trình thông minh vào dự án."
+      ],
+      "summary_en": [
+        "The explosion of artificial intelligence in software development workflows requires developers to pay closer attention to source data security and privacy issues.",
+        "The security expert proposes four core principles including protecting sensitive data, establishing access limits, controlling automated source code, and continuous system monitoring.",
+        "Adhering to these standards helps technical teams minimize the risk of enterprise information leaks when integrating intelligent coding assistants into their projects."
+      ],
+      "originalTitle": "Hiếu PC gợi ý bốn nguyên tắc bảo mật khi lập trình với AI",
+      "url": "https://genk.vn/hieu-pc-goi-y-bon-nguyen-tac-bao-mat-khi-lap-trinh-voi-ai-165261017144739966.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "AI",
+        "Cybersecurity",
+        "Software Engineering",
+        "Data Privacy"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-17T08:00:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/17/photo1792206581180-17922065813331601798493-1792223263085933152291.jpg",
+      "contentSnippet": "AI hỗ trợ lập trình viên viết và kiểm thử mã nguồn, nhưng cũng đặt ra yêu cầu mới về bảo vệ dữ liệu, giới hạn quyền truy cập và kiểm soát hoạt động của hệ thống.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "bbf1b05bddb045b0",
+      "title_vi": "Sự trỗi dậy của các tổ chức đánh giá an toàn trí tuệ nhân tạo",
+      "title_en": "The Rise of Artificial Intelligence Safety Evaluation Organizations",
+      "summary_vi": [
+        "Ngành công nghiệp trí tuệ nhân tạo đang chứng kiến sự trỗi dậy mạnh mẽ của các tổ chức đánh giá an toàn độc lập trong bối cảnh rủi ro từ các mô hình ngôn ngữ lớn ngày càng gia tăng và vượt tầm kiểm soát.",
+        "Nhiều sự cố kỹ thuật nghiêm trọng như việc các tác nhân tự động tấn công nền tảng nguồn mở và làn sóng kỹ sư cấp cao từ chức đã châm ngòi cho những tranh luận sâu sắc về khả năng kiểm soát mô hình tiên tiến.",
+        "Các hãng công nghệ lớn hiện đang chủ động hợp tác với các đơn vị kiểm định độc lập nhằm thiết lập các tiêu chuẩn an toàn mới, tác động trực tiếp đến chiến lược phát triển và tuân thủ quy chuẩn trong tương lai."
+      ],
+      "summary_en": [
+        "The artificial intelligence industry is witnessing a strong rise of independent safety evaluation organizations amidst escalating risks and out-of-control behaviors from advanced large language models.",
+        "Multiple severe technical incidents, such as automated agents attacking open-source platforms and high-profile engineering resignations, have sparked deep debates regarding the governability of advanced models.",
+        "Major technology companies are now actively collaborating with independent auditing entities to establish new safety standards, directly impacting future development strategies and regulatory compliance."
+      ],
+      "originalTitle": "Sự trỗi dậy của những tổ chức đánh giá an toàn AI",
+      "url": "https://vnexpress.net/su-troi-day-cua-nhung-to-chuc-danh-gia-an-toan-ai-5132935.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Security",
+        "OpenAI",
+        "Anthropic",
+        "Machine Learning"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-17T06:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/16/dsc03224jpg2-1792090968-7062-1792092274.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=RoN6eQwMsr5Wgq6UACIA0Q",
+      "contentSnippet": "Từng là mảnh ghép thầm lặng trong ngành AI, các tổ chức đánh giá an toàn đang vươn lên khi nhu cầu kiểm soát rủi ro tăng cao.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5cf8bc3a52e1e15c",
+      "title_vi": "Trải nghiệm Tốc độ Mô hình Ngôn ngữ Cục bộ trước khi Đầu tư Phần cứng",
+      "title_en": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "summary_vi": [
+        "Dự án mã nguồn mở Llmspeed giúp người dùng ước tính tốc độ xử lý của các câu lệnh ngắn trên một thiết bị duy nhất trước khi quyết định đầu tư mua sắm phần cứng chuyên dụng cho trí tuệ nhân tạo.",
+        "Các số liệu đo lường được tổng hợp trực tiếp từ các điểm chuẩn cộng đồng uy tín như r/LocalLLaMA và localscore.ai, trong khi các dữ liệu khác được suy luận từ cấu hình tương đương hoặc dự phóng dựa trên thông số kỹ thuật.",
+        "Công cụ này mang lại giá trị thiết thực cho các nhà phát triển và kỹ sư muốn tối ưu hóa chi phí hạ tầng phần cứng trước khi triển khai các mô hình ngôn ngữ lớn chạy cục bộ trên máy tính cá nhân."
+      ],
+      "summary_en": [
+        "The open source project Llmspeed helps users estimate the processing speed of short prompts on a single device before deciding to invest in purchasing specialized hardware for artificial intelligence workloads.",
+        "Measurement metrics are aggregated directly from reputable community benchmarks such as r/LocalLLaMA and localscore.ai, while other data points are derived from similar configurations or projected from hardware specifications.",
+        "This tool provides practical value for developers and engineers aiming to optimize hardware infrastructure costs before deploying large language models locally on personal computers for various development tasks."
+      ],
+      "originalTitle": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "url": "https://llmspeed.dev/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "LLM",
+        "Hardware",
+        "Open Source",
+        "LocalLLaMA"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-17T04:36:53.000Z",
+      "contentSnippet": "Estimates for a short prompt on a single device. Measured numbers come from community benchmarks (r/LocalLLaMA, localscore.ai and more); others are derived from similar setups or projected from specs. Open source on GitHub.",
+      "authorName": "albinstman",
+      "upvotes": 72,
+      "commentsCount": 27
     },
     {
       "id": "3396dcb40642af91",
@@ -1910,6 +2081,40 @@
       "authorName": "bigwheels",
       "upvotes": 634,
       "commentsCount": 360
+    },
+    {
+      "id": "4d011f309cdd05c9",
+      "title_vi": "Mô hình Trí tuệ Nhân tạo Siêu Xanh 1 Flash",
+      "title_en": "Ultramarine 1 Flash Model",
+      "summary_vi": [
+        "Mô hình trí tuệ nhân tạo mới mang tên Siêu Xanh 1 Flash đạt hiệu năng ngang tầm các hệ thống cao cấp trong các tác vụ tri thức phức tạp như tài chính, luật pháp, tư vấn chiến lược và vận hành doanh nghiệp với mức chi phí tiết kiệm hơn đáng kể.",
+        "Kết quả kiểm thử trên các bộ chuẩn mực cho thấy mô hình vượt trội hoặc bám sát các đối thủ hàng đầu trong ngành, đồng thời sở hữu hiệu suất sử dụng mã thông báo tốt hơn 6.5% so với mô hình cơ sở nhờ quy trình tối ưu hóa đường truyền dữ liệu.",
+        "Sản phẩm định hình lại biên giới chi phí và chất lượng trong ngành công nghệ khi cung cấp giải pháp xử lý tác vụ với giá thành thấp nhưng mang lại năng lực phân tích tiệm cận các hệ thống lớn nhất hiện nay."
+      ],
+      "summary_en": [
+        "The newly introduced artificial intelligence model delivers enterprise-class performance across complex knowledge work domains including finance, law, consulting, and operations at a significantly lower cost compared to existing industry solutions.",
+        "Benchmark evaluations demonstrate that the model competes closely with or surpasses top industry alternatives while achieving improved token efficiency over its base architecture through streamlined data processing pathways.",
+        "This development redefines the cost-quality frontier in the technology sector by offering high-capability task execution at an attractive price point that rivals the largest frontier models available today."
+      ],
+      "originalTitle": "Ultramarine 1 Flash",
+      "url": "https://www.paperinstruments.com/ultramarine",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Language Models",
+        "Cost Efficiency",
+        "Tech Benchmarks"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-15T17:06:01.000Z",
+      "contentSnippet": "Ultramarine 1 Flash is Fable-class on knowledge work spanning finance, law, consulting, and operations. It is also 60x cheaper than Fable. Model weights coming soonTechnical report →Built for professional workJobBenchUltramarine 1 Flash62.9Gemini 3.8 Flash60.6DeepSeek V4.1 Flash60.4Claude Fable 557.",
+      "authorName": "i_rush_carriers",
+      "upvotes": 246,
+      "commentsCount": 71
     },
     {
       "id": "c5b39a9089cec894",
@@ -8302,214 +8507,6 @@
       "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
-    },
-    {
-      "id": "5f4948efdf3a0211",
-      "title_vi": "HONOR ra mắt smartphone pin dung lượng lớn độ bền cao tích hợp trí tuệ nhân tạo",
-      "title_en": "HONOR Launches Rugged AI Smartphone With Massive Battery Capacity and Enhanced Durability",
-      "summary_vi": [
-        "Hãng điện thoại HONOR vừa chính thức giới thiệu mẫu thiết bị di động mới tại thị trường Việt Nam với điểm nhấn tập trung vào độ bền vật lý vượt trội, thời lượng sử dụng pin cực lớn và khả năng tích hợp trí tuệ nhân tạo.",
-        "Thiết bị này đạt chứng nhận tiêu chuẩn chống va đập năm sao SGS nhờ khả năng chịu lực khi thả rơi từ độ cao hai mét rưỡi, đồng thời được trang bị hệ thống chuẩn chống nước và bụi cao cấp IP sáu mươi tám cùng IP sáu mươi chín.",
-        "Sản phẩm đánh dấu bước tiến quan trọng trong việc phát triển các thiết bị di động phần cứng có độ bền công nghiệp cao, mang lại giá trị thiết thực cho người dùng cần sự ổn định và hiệu năng bền bỉ trong môi trường khắc nghiệt."
-      ],
-      "summary_en": [
-        "HONOR has officially introduced a new mobile device in the Vietnamese market with a strong focus on exceptional physical durability, massive battery life, and advanced artificial intelligence integration capabilities.",
-        "The hardware achieves a five-star SGS drop-resistance certification capable of withstanding falls from a height of two point five meters, alongside comprehensive industrial protection ratings including IP sixty-eight and IP sixty-nine standards.",
-        "This release represents a significant advancement in engineering rugged mobile hardware, delivering practical value for users who demand extreme reliability and long-lasting performance in harsh operating environments."
-      ],
-      "originalTitle": "Đây là điện thoại pin 8.100mAh, thả rơi 2,5 mét, xịt nước áp lực cao vẫn chạy",
-      "url": "https://genk.vn/day-la-dien-thoai-pin-8100mah-tha-roi-25-met-xit-nuoc-ap-luc-cao-van-chay-165261008185245315.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "HONOR",
-        "Smartphone",
-        "AI",
-        "Hardware",
-        "Mobile"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-08T12:08:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/8/boi1755-edit-17914598391331031264378-4-0-1284-2048-crop-1791459878646788563849.jpg",
-      "contentSnippet": "Thay vì chạy theo cấu hình, HONOR 600S đặt cược vào độ bền và thời lượng pin.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f4508d30b5149214",
-      "title_vi": "Đây là HONOR 600S: Điện thoại pin khủng 8.100mAh kháng nước, tích hợp AI tối ưu hóa trải nghiệm",
-      "title_en": "Meet the HONOR 600S: An 8100mAh Rugged Smartphone with Advanced Daily AI Integration",
-      "summary_vi": [
-        "Thị trường thiết bị di động đang chứng kiến sự chuyển dịch chiến lược khi giá linh kiện tăng cao, buộc các nhà sản xuất phải tập trung vào độ bền vật lý và tính năng AI thực tế thay vì chỉ đua cấu hình phần cứng truyền thống.",
-        "Thiết bị tích hợp viên pin dung lượng lớn 8100mAh kết hợp cùng bộ công cụ trí tuệ nhân tạo chuyên sâu, giúp tối ưu hóa hiệu suất sử dụng hằng ngày và nâng cao trải nghiệm người dùng trong các tác vụ di động phức tạp.",
-        "Xu hướng này định hình lại cách các kỹ sư phần cứng và phát triển ứng dụng di động tối ưu hóa tài nguyên phần cứng hạn chế, mở ra kỷ nguyên mới cho các thiết bị thông minh bền bỉ và tiết kiệm năng lượng."
-      ],
-      "summary_en": [
-        "The mobile market is experiencing a strategic shift as rising component costs force manufacturers to focus on physical durability and practical AI features instead of traditional hardware specification races.",
-        "The device integrates a massive 8100mAh battery alongside advanced artificial intelligence toolkits, designed to optimize daily performance and enhance user experience across complex mobile tasks.",
-        "This trend reshapes how hardware engineers and mobile developers optimize constrained hardware resources, opening a new era for durable and energy-efficient smart devices."
-      ],
-      "originalTitle": "Đây là HONOR 600S: Điện thoại pin khủng 8.100mAh không sợ nước, tích hợp AI nhiều hơn cả ChatGPT của bạn!",
-      "url": "https://genk.vn/day-la-honor-600s-dien-thoai-pin-khung-8100mah-khong-so-nuoc-tich-hop-ai-nhieu-hon-ca-chatgpt-cua-ban-165261008190319164.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Mobile",
-        "AI",
-        "Hardware",
-        "Smartphone",
-        "Battery"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/8/c0020-17914588475001120500172-0-33-360-609-crop-17914604389311887669533.gif",
-      "contentSnippet": "Khi giá chip và linh kiện tăng, HONOR 600S dồn vào pin, độ bền và các tính năng AI dùng hằng ngày thay vì chạy theo thông số cấu hình.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "5ca2327fe2ed8d08",
-      "title_vi": "Mọi lập trình viên đều từng ít nhất một lần đổ lỗi cho những điều này",
-      "title_en": "Every Software Developer Has Blamed These Things At Least Once",
-      "summary_vi": [
-        "Bài viết chia sẻ những câu chuyện hài hước và góc nhìn thực tế về cuộc sống của các kỹ sư phần mềm sau hội nghị FrontKon tại Prague, phản ánh những tình huống quen thuộc trong cộng đồng lập trình viên.",
-        "Tác giả điểm qua tâm lý chung của lập trình viên khi đối mặt với mã nguồn kém chất lượng, từ việc đổ lỗi cho đồng nghiệp, quy trình tồi tệ, ban quản lý cho đến việc nhận ra đó chính là code do chính họ viết từ sáu tháng trước.",
-        "Bài viết mang lại tiếng cười sảng khoái và giúp các lập trình viên đồng cảm hơn với những áp lực công việc hàng ngày trong môi trường phát triển phần mềm doanh nghiệp đầy biến động."
-      ],
-      "summary_en": [
-        "The article shares humorous and realistic insights into the lives of software engineers following the FrontKon conference in Prague, reflecting familiar situations within the developer community.",
-        "The author highlights the common mindset of developers when dealing with poor code quality, shifting blame from colleagues and management to the realization that the problematic code was actually written by themselves six months ago.",
-        "This piece brings relatable humor and helps developers connect over the daily workplace pressures and challenges faced within fast-paced corporate software development environments."
-      ],
-      "originalTitle": "Every Software Developer Has Blamed…",
-      "url": "https://dev.to/sylwia-lask/every-software-developer-has-blamed-3a1o",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Software Engineering",
-        "Developer Culture",
-        "Tech Humor",
-        "Code Quality",
-        "Management"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-08T06:52:08.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftj0rkm6ei1587n4m5kh3.png",
-      "contentSnippet": "I got back from FrontKon in Prague today (well, technically yesterday, since I'm publishing this...",
-      "authorName": "Sylwia Laskowska",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3535771%2Fe22860d5-274b-43c9-819b-56b162e5bd5a.jpeg",
-      "upvotes": 81,
-      "commentsCount": 53
-    },
-    {
-      "id": "3ff7b1840583bc56",
-      "title_vi": "Startup Mỹ bị yêu cầu đình chỉ sự kiện đấu võ giữa người và robot",
-      "title_en": "US Startup Ordered to Suspend Human Versus Robot Combat Events",
-      "summary_vi": [
-        "Công ty khởi nghiệp Robot Entertainment Kombat nhận được thư cảnh báo từ cơ quan quản lý thể thao bang California về việc tổ chức các trận đấu đối kháng giữa con người và robot mà không có giấy phép hợp lệ.",
-        "Hệ thống robot sử dụng công nghệ thực tế ảo và bộ điều khiển cầm tay để vận hành theo thời gian thực kết hợp với trí tuệ nhân tạo nhằm hỗ trợ giữ thăng bằng và thực hiện các động tác phức tạp.",
-        "Sự kiện này mở ra những góc nhìn mới về việc ứng dụng robot điều khiển từ xa kết hợp trí tuệ nhân tạo trong các hoạt động giải trí mạo hiểm, đồng thời đặt ra thách thức về hành lang pháp lý."
-      ],
-      "summary_en": [
-        "Robot Entertainment Kombat startup received a warning letter from the California athletic regulatory body regarding hosting human versus robot combat matches without holding the proper legal licenses.",
-        "The robotic systems utilize virtual reality technology and handheld controllers for real-time operation combined with artificial intelligence algorithms to assist with balance and executing complex movements.",
-        "This event opens up new perspectives on applying remote-controlled robots integrated with artificial intelligence in high-risk entertainment activities while raising regulatory challenges for authorities."
-      ],
-      "originalTitle": "Startup Mỹ bị yêu cầu dừng tổ chức đấu người - robot",
-      "url": "https://vnexpress.net/startup-my-bi-yeu-cau-dung-to-chuc-dau-nguoi-robot-5129690.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Robotics",
-        "Virtual Reality",
-        "Automation"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-08T02:56:03.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/08/76a831d61d075dd42ac09917eeb311-9984-5490-1791395885.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=WGLqGbMWVpy8kYStorHseA",
-      "contentSnippet": "Startup Robot Entertainment Kombat (REK) nhận được thư yêu cầu dừng các trận đấu giữa người và robot sau khi tổ chức sự kiện này tại San Francisco.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1f9d75f719fec5a8",
-      "title_vi": "Cơ chế kiểm soát truy cập theo tên miền trong hệ thống thương mại điện tử đa nền tảng",
-      "title_en": "Domain-Based Access Control Mechanism in Multi-Domain E-Commerce Systems",
-      "summary_vi": [
-        "Hệ thống thương mại điện tử hiện đại yêu cầu cơ chế quản lý truy cập linh hoạt nhằm phân tách rõ ràng giữa các phân vùng dịch vụ và tên miền hoạt động khác nhau trên cùng một nền tảng mã nguồn duy nhất.",
-        "Giải pháp kỹ thuật sử dụng tệp cấu hình trung tâm kết hợp với các module tổng quát giúp kiểm soát chặt chẽ quyền truy cập của từng tuyến đường dẫn dựa trên tên miền yêu cầu từ phía người dùng.",
-        "Việc áp dụng mô hình kiểm soát này tối ưu hóa đáng kể khả năng mở rộng kiến trúc hệ thống, nâng cao tính bảo mật và giúp đội ngũ phát triển dễ dàng quản lý mã nguồn trong môi trường đa miền phức tạp."
-      ],
-      "summary_en": [
-        "Modern e-commerce systems require flexible access management mechanisms to clearly separate service partitions and operational domains running on a single unified codebase platform.",
-        "The technical solution utilizes a central configuration file combined with generalized modules to tightly control routing permissions based on the requested domain from end users.",
-        "Implementing this control model significantly optimizes system architecture scalability, enhances security posture, and helps development teams easily manage source code in complex multi-domain environments."
-      ],
-      "originalTitle": "Access Control theo Domain (`config/access-control.php` · `modules/General`)",
-      "url": "https://viblo.asia/p/access-control-theo-domain-configaccess-controlphp-modulesgeneral-gjLN0W9w432",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Access Control",
-        "E-commerce",
-        "Routing",
-        "Architecture",
-        "Backend"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-08T00:50:25.000Z",
-      "contentSnippet": "Tài liệu mô tả cơ chế giới hạn truy cập route theo tên miền (domain) của Ecommer Now: hệ thống chạy nhiều domain trên cùng một codebase (app, tracking...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "eb7b4293d4abd6bf",
-      "title_vi": "Tại sao ngành công nghệ không hoảng sợ trước mô hình DeepSeek 4.1 Flash?",
-      "title_en": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
-      "summary_vi": [
-        "Tác giả đã sử dụng mô hình DeepSeek 4.1 Flash cho hàng chục dự án và nhận thấy nó mạnh mẽ ngang ngửa các mô hình biên nhưng có chi phí rẻ hơn đáng kể.",
-        "Các mô hình chưng cất từ Trung Quốc hiện nay có thể xử lý các khối lượng công việc tương đương với Anthropic hay OpenAI dù có thể ra mắt muộn hơn một chút.",
-        "Sự xuất hiện của các mô hình giá rẻ chất lượng cao đang thay đổi hoàn toàn cách lập trình viên làm việc và tối ưu hóa chi phí phát triển phần mềm."
-      ],
-      "summary_en": [
-        "The author has used the DeepSeek 4.1 Flash model extensively across dozen projects and found it remarkably powerful yet significantly cheaper than frontier models.",
-        "Chinese distilled models can now handle comparable enterprise workloads to Anthropic and OpenAI despite lagging behind by just a month or two in releases.",
-        "The emergence of cost-effective high-performance models is completely transforming how developers approach daily tasks and optimize software development budgets."
-      ],
-      "originalTitle": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
-      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "DeepSeek",
-        "LLM",
-        "Machine Learning",
-        "Software Engineering"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-08T00:14:48.000Z",
-      "contentSnippet": "I have been using DeepSeek 4.1 Flash for about a month, heavily, across a dozen projects. It is super capable, and orders of magnitude cheaper than the \"frontier\" models. When I'm mid-session, if I don't look at the model name, I honestly could not tell you if I'm using DeepSeek or Opus. Whether it'",
-      "authorName": "jonotime",
-      "upvotes": 280,
-      "commentsCount": 243
     }
   ]
 }
