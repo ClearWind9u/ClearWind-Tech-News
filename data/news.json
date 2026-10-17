@@ -1,7 +1,41 @@
 {
-  "lastUpdated": "2026-10-17T14:43:29.938Z",
+  "lastUpdated": "2026-10-17T19:54:10.506Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "01cc68bd7a52cda5",
+      "title_vi": "Tiền đã về ví nhưng đơn hàng chưa xác nhận: Sáu bước kiểm tra phía người nhận khi AI agent tạo link thanh toán",
+      "title_en": "Funds Received But Order Unconfirmed: Six Receiver-Side Validation Steps When AI Agents Generate Payment Links",
+      "summary_vi": [
+        "Khi ứng dụng trí tuệ nhân tạo tự động tạo hóa đơn và liên kết thanh toán bằng tiền mã hóa ổn định, thách thức lớn nhất không chỉ là tạo thành công giao dịch mà là xác thực chính xác trạng thái thực tế của đơn hàng.",
+        "Hệ thống kỹ thuật cần triển khai quy trình kiểm tra sáu bước nghiêm ngặt bao gồm xác thực chữ ký số, kiểm tra mã định danh giao dịch trên chuỗi và đồng bộ hóa trạng thái cơ sở dữ liệu thời gian thực.",
+        "Giải pháp này giúp các kỹ sư phần mềm loại bỏ rủi ro lệch dữ liệu tài chính, ngăn chặn các cuộc tấn công phát lại giao dịch và đảm bảo độ tin cậy tuyệt đối cho các hệ thống thương mại tự động hóa."
+      ],
+      "summary_en": [
+        "When artificial intelligence applications automatically generate invoices and stablecoin payment links, the greatest challenge is not just creating the transaction successfully but accurately validating the actual order status.",
+        "Technical systems must implement a rigorous six-step validation workflow including digital signature verification, on-chain transaction identifier checks, and real-time database state synchronization.",
+        "This solution helps software engineers eliminate financial data discrepancy risks, prevent transaction replay attacks, and ensure absolute reliability for automated commerce systems."
+      ],
+      "originalTitle": "Tiền đã về ví nhưng đơn hàng chưa nên \"paid\": 6 bước kiểm tra phía người nhận khi AI agent tạo link thanh toán",
+      "url": "https://viblo.asia/p/tien-da-ve-vi-nhung-don-hang-chua-nen-paid-6-buoc-kiem-tra-phia-nguoi-nhan-khi-ai-agent-tao-link-thanh-toan-PoL7eO1X4vk",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "AI Agent",
+        "Stablecoin",
+        "Payment Gateway",
+        "Software Architecture",
+        "Blockchain Security"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-18T01:42:01.000Z",
+      "contentSnippet": "Bối cảnh Khi để AI agent tạo hoá đơn hoặc link thanh toán bằng stablecoin, phần khó thường không nằm ở bước tạo link, mà ở câu hỏi: \"Đơn này đã thực s...",
+      "authorName": "send",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "1f173e4f3bd903eb",
       "title_vi": "Kiểm tra trước khi bay Bài 4: Cổng chất lượng và phụ thuộc cục bộ với Linter, Unit Test cùng API SonarQube",
@@ -67,6 +101,76 @@
       "publishedAt": "2026-10-17T19:14:12.000Z",
       "contentSnippet": "Trong một thư viện hay công cụ chuyên nghiệp, nếu viết nối tiếp các câu lệnh if-else để kiểm tra từng điều kiện, code sẽ rất nhanh trở thành một mớ hỗ...",
       "authorName": "HUy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "cb9a74730732cb22",
+      "title_vi": "Trí tuệ nhân tạo chuẩn bị mở rộng ảnh hưởng sang các lĩnh vực khoa học cơ bản",
+      "title_en": "Artificial Intelligence is preparing to expand its influence into fundamental science fields",
+      "summary_vi": [
+        "Các nhà nghiên cứu tại Viện Công nghệ Massachusetts dự đoán trí tuệ nhân tạo sẽ tạo ra cuộc cách mạng lớn trong xác suất thống kê và lý thuyết kinh tế.",
+        "Mô hình học máy tiên tiến đang giải quyết các bài toán phức tạp từ vật lý lượng tử đến vũ trụ học sau chuỗi thành tựu toán học gần đây.",
+        "Xu hướng ứng dụng thuật toán AI vào nghiên cứu khoa học cơ bản mở ra cơ hội tối ưu hóa phương pháp tính toán cho các kỹ sư."
+      ],
+      "summary_en": [
+        "Researchers at the Massachusetts Institute of Technology predict that artificial intelligence will revolutionize probability statistics and economic theory.",
+        "Advanced machine learning models are solving complex problems ranging from quantum physics to cosmology following recent mathematical achievements.",
+        "The trend of applying AI algorithms to basic scientific research opens up opportunities to optimize computational methods for software engineers."
+      ],
+      "originalTitle": "Sau toán học, AI có thể chinh phục những đỉnh cao mới",
+      "url": "https://vnexpress.net/sau-toan-hoc-ai-co-the-chinh-phuc-nhung-dinh-cao-moi-5132856.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Quantum Physics",
+        "Data Science",
+        "Algorithms"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-17T17:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/15/2026-06-29T000000Z-2040865915-2774-3803-1792060772.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=wPnQ-03pnL1ef3fEiy-YIw",
+      "contentSnippet": "Các nhà nghiên cứu ở Viện Công nghệ Massacusetts dự đoán AI sẽ cách mạng hóa xác suất thống kê, lý thuyết kinh tế, vũ trụ học, vật lý lượng tử sau loạt thành tựu toán học gần đây.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6940f288c8fef0f6",
+      "title_vi": "Điện thoại gập đầu tiên của Apple vừa mở đặt trước đã cháy hàng tại Việt Nam",
+      "title_en": "Apple's first foldable phone sells out immediately upon preorder launch in Vietnam",
+      "summary_vi": [
+        "Từ tối ngày 16 tháng 10, người dùng tại thị trường Việt Nam bắt đầu đăng ký mua mẫu điện thoại gập đầu tiên của Apple thông qua hệ thống trực tuyến và các đại lý ủy quyền chính thức.",
+        "Nhiều đơn vị bán lẻ nhanh chóng thông báo hết sạch hàng trong đợt mở bán đầu tiên, khiến thời gian giao máy dự kiến bị kéo dài sang tận tháng 12 gây chú ý lớn.",
+        "Sự kiện này phản ánh sức hút mạnh mẽ của các thiết bị di động phân khúc cao cấp, đồng thời đặt ra thách thức về chuỗi cung ứng phần cứng cho các nhà phân tích công nghệ."
+      ],
+      "summary_en": [
+        "Starting from the evening of October 16, users in the Vietnamese market began registering to purchase Apple's first foldable phone through online stores and authorized retailers.",
+        "Many retail units quickly announced stock exhaustion during the initial launch wave, causing the expected delivery timeline to stretch into December and generating significant attention.",
+        "This event reflects the strong appeal of high-end mobile devices while presenting hardware supply chain challenges for technology analysts monitoring the ecosystem."
+      ],
+      "originalTitle": "iPhone Duo vừa mở đặt trước đã cháy hàng, khách Việt phải chờ đến tháng 12",
+      "url": "https://genk.vn/iphone-duo-vua-mo-dat-truoc-da-chay-hang-khach-viet-phai-cho-den-thang-12-165261016211556385.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "Foldable Phone",
+        "Mobile",
+        "Hardware",
+        "Supply Chain"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-17T14:35:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/16/avatar1792160045584-17921600459252022601314.jpeg",
+      "contentSnippet": "Ít phút sau khi mở đặt trước tại Việt Nam, iPhone Duo đã rơi vào tình trạng khan hàng tại nhiều hệ thống bán lẻ.",
+      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -1049,6 +1153,42 @@
       "authorName": "ahlCVA",
       "upvotes": 696,
       "commentsCount": 274
+    },
+    {
+      "id": "3eecc911c2e1c7d7",
+      "title_vi": "Radar cơ hội cho lập trình viên số 21: Khoản tài trợ 500 nghìn đô la từ Y Combinator, Tuần lễ xây dựng Bolt và Chương trình nghiên cứu an toàn AI",
+      "title_en": "Dev Opportunity Radar #21: $500K Y Combinator Funding, Bolt Builders Week, and AI Safety Research Residency",
+      "summary_vi": [
+        "Bài viết giới thiệu bản tin định kỳ tổng hợp các cơ hội nghề nghiệp, nguồn tài nguyên học tập và sự kiện công nghệ nổi bật dành riêng cho cộng đồng lập trình viên trên toàn cầu.",
+        "Nội dung tập trung vào các chương trình hỗ trợ khởi nghiệp giá trị cao như gói tài trợ năm trăm nghìn đô la từ tổ chức Y Combinator và các sự kiện phát triển phần mềm thực chiến.",
+        "Đây là nguồn tham khảo hữu ích giúp các kỹ sư phần mềm tiếp cận các học bổng nghiên cứu trí tuệ nhân tạo an toàn và công cụ lập lộ trình học tập trực tuyến hiệu quả."
+      ],
+      "summary_en": [
+        "The article introduces a recurring newsletter that compiles career opportunities, learning resources, and prominent technology events dedicated specifically to the global developer community.",
+        "The content focuses on high-value startup support programs such as the half-million-dollar funding package from Y Combinator and practical software development community events.",
+        "This serves as a useful reference helping software engineers access safe artificial intelligence research fellowships and effective online learning roadmap tools."
+      ],
+      "originalTitle": "Dev Opportunity Radar #21: $500K Y Combinator Funding, Bolt Builders Week, and AI Safety Research Residency",
+      "url": "https://dev.to/devengers/dev-opportunity-radar-21-500k-y-combinator-funding-bolt-builders-week-and-ai-safety-research-12b8",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Y Combinator",
+        "AI Safety",
+        "Software Engineering",
+        "Startups",
+        "Developer Resources"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-16T17:40:16.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fle5lxtrblynphqs20c45.jpeg",
+      "contentSnippet": "TL;DR Welcome back to Dev Opportunity Radar! This is a weekly series where I share opportunities,...",
+      "authorName": "Hemapriya Kanagala",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3307586%2F2dffaf97-946d-44a6-8a39-07d94a72e07d.png",
+      "upvotes": 72,
+      "commentsCount": 6
     },
     {
       "id": "32771ca7e705cf8d",
@@ -2586,6 +2726,40 @@
       "authorName": "Nhà Của Cáo",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "76aa8e6ab6d5fa05",
+      "title_vi": "Trình mô phỏng phần cứng máy tính Commodore 64 cho phép làm hỏng chip và chân cắm để kiểm tra kết quả",
+      "title_en": "The Commodore 64 hardware simulator: break chips and pins, see the results",
+      "summary_vi": [
+        "Công cụ mô phỏng phần cứng dòng máy tính huyền thoại Commodore 64 mới ra mắt mang đến trải nghiệm trực quan giúp người dùng dễ dàng thử nghiệm các kịch bản hỏng hóc linh kiện điện tử.",
+        "Hệ thống cho phép người dùng tác động trực tiếp bằng cách làm đứt các chân cắm hoặc làm hỏng các con chip ảo để quan sát các hiện tượng lỗi hiển thị trên màn hình thời gian thực.",
+        "Ứng dụng này đóng vai trò là tài nguyên giáo dục vô giá cho các kỹ sư phần cứng và nhà phát triển hệ thống nhúng trong việc chẩn đoán lỗi phần cứng cổ điển."
+      ],
+      "summary_en": [
+        "A newly released hardware simulation tool for the legendary Commodore 64 computer provides an intuitive experience allowing users to easily test electronic component failure scenarios.",
+        "The system allows users to directly interact by breaking pins or damaging virtual chips to observe real-time error manifestations and display anomalies on the screen.",
+        "This application serves as an invaluable educational resource for hardware engineers and embedded systems developers in diagnosing classic hardware faults effectively."
+      ],
+      "originalTitle": "The Commodore 64 hardware simulator: break chips and pins, see the results",
+      "url": "https://github.com/antirez/c64-hw-simulator",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Hardware",
+        "Simulator",
+        "Embedded Systems",
+        "Commodore 64",
+        "Retro Computing"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-15T07:18:14.000Z",
+      "contentSnippet": "The Commodore 64 hardware simulator: break chips and pins, see the results",
+      "authorName": "antirez",
+      "upvotes": 65,
+      "commentsCount": 11
     },
     {
       "id": "6b777a64b2ab003f",
@@ -8332,177 +8506,6 @@
       "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/09/wm1-wm1-lq-jpg-1791484487-6289-1791484797.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=fCD-E50GJzqM9aDUBEPMnQ",
       "contentSnippet": "Có ý tưởng nhưng không biết lập trình, nhiều bạn trẻ dùng AI để \"vibe coding\", giải những bài toán ở nơi nguồn lực công nghệ hạn chế, như giáo dục ở vùng sâu, hỗ trợ người khiếm thị.",
       "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1d98b2a84ed9d9f3",
-      "title_vi": "Hố đen AI hút tiền: Elon Musk muốn huy động 40 tỷ USD để SpaceX mua chip NVIDIA",
-      "title_en": "AI Cash Black Hole: Elon Musk Seeks $40 Billion Funding for SpaceX to Purchase NVIDIA Chips",
-      "summary_vi": [
-        "Hãng hàng không vũ trụ SpaceX của tỷ phú Elon Musk đang lên kế hoạch huy động khoảng 40 tỷ đô la Mỹ thông qua một thương vụ lớn do quỹ đầu tư Apollo Global Management dẫn dắt để mở rộng hạ tầng công nghệ.",
-        "Nguồn vốn khổng lồ này được định hướng chủ yếu để tài trợ cho việc mua sắm hệ thống phần cứng và chip xử lý trí tuệ nhân tạo hiệu năng cao từ tập đoàn bán dẫn hàng đầu thế giới NVIDIA.",
-        "Động thái này phản ánh nhu cầu cấp thiết về năng lực tính toán siêu lớn trong kỷ nguyên công nghệ hiện tại, tạo áp lực tài chính lớn nhưng cũng mở ra bước tiến quan trọng cho hạ tầng tính toán AI."
-      ],
-      "summary_en": [
-        "Aerospace company SpaceX, led by billionaire Elon Musk, is planning to raise approximately 40 billion US dollars through a major deal led by Apollo Global Management to expand technology infrastructure.",
-        "This massive capital is primarily targeted at funding the procurement of high-performance artificial intelligence processing hardware and chips from the world's leading semiconductor giant NVIDIA.",
-        "This move reflects the urgent demand for massive computing capacity in the current technological era, creating significant financial pressure while paving the way for advancements in AI computing infrastructure."
-      ],
-      "originalTitle": "\"Hố đen\" AI hút tiền: Elon Musk muốn huy động 40 tỷ USD để SpaceX mua chip NVIDIA",
-      "url": "https://genk.vn/ho-den-ai-hut-tien-elon-musk-muon-huy-dong-40-ty-usd-de-spacex-mua-chip-nvidia-165261009094443267.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "AI",
-        "NVIDIA",
-        "SpaceX",
-        "Hardware",
-        "Semiconductor"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-09T02:44:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/9/avatar1791513109224-1791513109438197106858.jpg",
-      "contentSnippet": "SpaceX của Elon Musk đang tìm cách huy động khoảng 40 tỷ USD trong một thương vụ do Apollo Global Management dẫn dắt, nhằm tài trợ cho việc mua chip NVIDIA.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8324ed178f46a943",
-      "title_vi": "Tính năng Trí tuệ Lai được tích hợp trực tiếp vào Copilot trên hệ điều hành Windows",
-      "title_en": "Hybrid Intelligence Feature Directly Integrated into Windows Copilot",
-      "summary_vi": [
-        "Microsoft đã tiến hành tích hợp tính năng Trí tuệ Lai tiên tiến trực tiếp vào trợ lý ảo Copilot trên hệ điều hành Windows dưới dạng một công tắc điều khiển hệ thống.",
-        "Cơ chế hoạt động cho phép người dùng chủ động cấp quyền kiểm soát sâu vào hệ thống cho trợ lý thông minh khi kích hoạt tính năng mới này.",
-        "Sự thay đổi này đánh dấu bước tiến quan trọng trong việc nâng cao trải nghiệm người dùng và khả năng tự động hóa trên nền tảng máy tính cá nhân."
-      ],
-      "summary_en": [
-        "Microsoft has integrated an advanced Hybrid Intelligence feature directly into the Copilot assistant on Windows as a system control switch.",
-        "The operational mechanism allows users to actively grant deep system control permissions to the intelligent assistant upon activating this new feature.",
-        "This enhancement marks a significant step forward in improving user experience and automation capabilities on personal computer platforms."
-      ],
-      "originalTitle": "Đây là tính năng Hybrid Intelligence được tích hợp thẳng vào Copilot trên Windows dưới dạng một...",
-      "url": "https://tinhte.vn/thread/day-la-tinh-nang-hybrid-intelligence-duoc-tich-hop-thang-vao-copilot-tren-windows-duoi-dang-mot.4182520/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Windows",
-        "Copilot",
-        "Hybrid Intelligence",
-        "Operating Systems"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-09T02:12:56.000Z",
-      "contentSnippet": "Đây là tính năng Hybrid Intelligence được tích hợp thẳng vào Copilot trên Windows dưới dạng một công tắc bật tắt quyền điều khiển hệ thống. Khi kích hoạt, người dùng sẽ cấp quyền cho Copilot truy...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "fe6b745f2de3c96e",
-      "title_vi": "So sánh Claude Haiku 5.5 và GPT-6.1 Sol: Chi phí siêu rẻ nhưng hiệu quả thực tế ra sao",
-      "title_en": "Claude Haiku 5.5 vs GPT-6.1 Sol: 20x Cheaper Pricing and Real Task Economics Analyzed",
-      "summary_vi": [
-        "Bài viết phân tích chi tiết mức giá của mô hình Claude Haiku 5.5 với đơn giá đầu vào và đầu ra cực thấp cho các phạm vi prompt dưới một trăm nghìn token.",
-        "Các thông số kỹ thuật cho thấy sự chênh lệch đáng kể về chi phí tính toán cho mỗi triệu token giữa các dòng mô hình ngôn ngữ lớn hàng đầu hiện nay trên thị trường.",
-        "Việc tối ưu hóa chi phí tác vụ mang lại giá trị thực tiễn lớn cho các kỹ sư phần mềm khi tích hợp trí tuệ nhân tạo vào hệ thống sản xuất quy mô lớn."
-      ],
-      "summary_en": [
-        "The article provides a detailed price analysis of the Claude Haiku model featuring extremely low input and output rates for prompt ranges under one hundred thousand tokens.",
-        "Technical parameters highlight significant differences in computational costs per million tokens among currently leading large language models in the competitive market.",
-        "Optimizing task-based expenditures delivers substantial practical value for software engineers integrating artificial intelligence into large-scale production systems."
-      ],
-      "originalTitle": "Claude Haiku 5.5 vs GPT-6.1 Sol: giá rẻ hơn 20 lần nhưng chi phí mỗi tác vụ thì",
-      "url": "https://viblo.asia/p/claude-haiku-55-vs-gpt-61-sol-gia-re-hon-20-lan-nhung-chi-phi-moi-tac-vu-thi-AoJe8jXD41j",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "LLM",
-        "Claude",
-        "GPT",
-        "Cost Optimization"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-09T01:29:10.000Z",
-      "contentSnippet": "Tóm tắt - Giá: với prompt trong phạm vi 100K token, đơn giá đầu vào và đầu ra của Claude Haiku 5.5 là 0,10 USD và 0,50 USD cho mỗi triệu token. GPT-6....",
-      "authorName": "Sunny",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "700222efd6e40b1c",
-      "title_vi": "Ba cải tiến dự kiến trên dòng điện thoại thông minh siêu mỏng thế hệ mới",
-      "title_en": "Three Expected Improvements on the Next-Generation Ultra-Thin Smartphone",
-      "summary_vi": [
-        "Nhằm thúc đẩy doanh số bán hàng trên thị trường di động cạnh tranh khốc liệt, tập đoàn Apple đang lên kế hoạch phát triển phiên bản điện thoại thông minh siêu mỏng mới với nhiều cải tiến đột phá.",
-        "Theo các nguồn tin rò rỉ từ chuỗi cung ứng uy tín, thiết bị này sẽ sở hữu độ mỏng ấn tượng chỉ 5,2 mm, đồng thời được tích hợp các giải pháp tối ưu hóa phần cứng để nâng cấp dung lượng pin và hệ thống camera.",
-        "Bước tiến về thiết kế phần cứng này không chỉ định hình lại xu hướng phát triển thiết bị di động dạng thanh mà còn đặt ra những tiêu chuẩn kỹ thuật mới cho việc tối ưu hóa không gian linh kiện bên trong."
-      ],
-      "summary_en": [
-        "In order to boost sales in the highly competitive mobile market, Apple is reportedly planning to develop a new ultra-thin smartphone version featuring several groundbreaking design enhancements.",
-        "According to leaked information from reliable supply chain sources, the device will achieve an impressive thickness of just 5.2 mm while integrating advanced hardware optimization solutions to upgrade battery capacity and camera systems.",
-        "This hardware design milestone not only reshapes the trend of bar-form mobile device development but also establishes new technical standards for optimizing internal component space and thermal management."
-      ],
-      "originalTitle": "Ba cải tiến dự kiến trên iPhone Air 2",
-      "url": "https://vnexpress.net/ba-cai-tien-du-kien-tren-iphone-air-2-5130103.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "Smartphone",
-        "Mobile Hardware",
-        "Hardware Design"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-09T00:43:57.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/08/dscf5585-1791466158-4440-1791466205.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=nBFGhbsSP94nl1EVtEiISA",
-      "contentSnippet": "Nhằm cải thiện doanh số, Apple được cho là sẽ tinh chỉnh iPhone Air 2 mỏng hơn, kèm hai nâng cấp về dung lượng pin và camera.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e300466383adb976",
-      "title_vi": "PostgreSQL Bài 2: Khám phá kiến trúc nội tại, mô hình Client-Server và bộ nhớ chia sẻ",
-      "title_en": "PostgreSQL Part 2: Deep Dive into Internal Architecture, Client-Server Model, and Shared Memory",
-      "summary_vi": [
-        "Bài viết tiếp nối chuỗi kiến thức về PostgreSQL, tập trung làm rõ cơ chế vận hành đa tiến trình cốt lõi giúp hệ quản trị cơ sở dữ liệu này duy trì hiệu suất ổn định trong các môi trường ứng dụng đòi hỏi khắt khe.",
-        "Tác giả phân tích chi tiết cách thức hoạt động của mô hình Client-Server, vai trò của các tiến trình Backend trong việc xử lý truy vấn và cơ chế quản lý bộ nhớ chia sẻ nhằm tối ưu hóa tài nguyên hệ thống hiệu quả.",
-        "Thông qua việc nắm vững kiến trúc nội tại, các kỹ sư có thể cấu hình thông số kỹ thuật chính xác hơn, từ đó giải quyết các bài toán về hiệu năng và xử lý sự cố phức tạp trong quá trình vận hành thực tế."
-      ],
-      "summary_en": [
-        "This article continues the PostgreSQL series, focusing on the core multi-process operational mechanism that allows this database management system to maintain stable performance in demanding application environments for modern enterprise software development.",
-        "The author provides a detailed analysis of the Client-Server model, the role of Backend processes in query execution, and the shared memory management mechanism designed to optimize system resource utilization effectively.",
-        "By mastering these internal architectural components, engineers can configure technical parameters more accurately, thereby solving performance bottlenecks and addressing complex troubleshooting challenges during real-world production database operations."
-      ],
-      "originalTitle": "PostgreSQL Bài 2: Kiến trúc bên trong PostgreSQL: Client-Server Model, Backend Processes và Shared Memory",
-      "url": "https://viblo.asia/p/postgresql-bai-2-kien-truc-ben-trong-postgresql-client-server-model-backend-processes-va-shared-memory-37LdeRQMVov",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "PostgreSQL",
-        "Database",
-        "Architecture",
-        "Backend",
-        "Performance"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-10-08T23:51:29.000Z",
-      "contentSnippet": "Ở Bài 1, chúng ta đã biết PostgreSQL vận hành theo kiến trúc đa tiến trình (process-based). Để tối ưu hóa truy vấn, cấu hình thông số chuẩn xác và deb...",
-      "authorName": "HUy Hoàng",
       "upvotes": 0,
       "commentsCount": 0
     }
