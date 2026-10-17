@@ -1,7 +1,246 @@
 {
-  "lastUpdated": "2026-10-17T09:56:53.380Z",
+  "lastUpdated": "2026-10-17T14:43:29.938Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "1f173e4f3bd903eb",
+      "title_vi": "Kiểm tra trước khi bay Bài 4: Cổng chất lượng và phụ thuộc cục bộ với Linter, Unit Test cùng API SonarQube",
+      "title_en": "Pre-flight Checks Part 4: Quality Gates and Local Dependencies with Linters, Unit Tests, and SonarQube API",
+      "summary_vi": [
+        "Bài viết tập trung phân tích các rủi ro tiềm ẩn ngay cả khi mã nguồn đã được đồng bộ hóa thành công trên hệ thống quản lý phiên bản Git.",
+        "Tác giả đi sâu vào giải pháp kỹ thuật tích hợp các công cụ kiểm tra tĩnh như Linter, thực thi kiểm thử đơn vị và kết nối API SonarQube để đảm bảo chất lượng.",
+        "Giải pháp này giúp đội ngũ phát triển phần mềm ngăn chặn sớm các lỗi cú pháp và vi phạm tiêu chuẩn lập trình ngay từ môi trường cục bộ."
+      ],
+      "summary_en": [
+        "The article focuses on analyzing potential risks that persist even after source code has been successfully synchronized on the version control system.",
+        "The author delves into technical solutions integrating static analysis tools like linters, executing unit tests, and connecting with the SonarQube API to ensure quality.",
+        "This solution helps software development teams proactively prevent syntax errors and coding standard violations directly from their local development environments."
+      ],
+      "originalTitle": "Pre-flight Checks Bài 4: Quality Gate & Local Dependencies (Linter, Unit Test & SonarQube API)",
+      "url": "https://viblo.asia/p/pre-flight-checks-bai-4-quality-gate-local-dependencies-linter-unit-test-sonarqube-api-kNLr3eAlVgA",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Software Engineering",
+        "SonarQube",
+        "Unit Test",
+        "Linter",
+        "DevOps"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-17T21:18:04.000Z",
+      "contentSnippet": "Dù Git đã sạch sẽ và đồng bộ, vẫn còn một rủi ro lớn: Code hợp lệ về mặt quản lý phiên bản nhưng lại chứa lỗi cú pháp, vi phạm chuẩn coding convention...",
+      "authorName": "HUy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c7a39873acab1194",
+      "title_vi": "Xây dựng công cụ kiểm tra trước khi chạy với CLI Engine và kiến trúc Pre-flight Runner",
+      "title_en": "Building Pre-flight Checks with CLI Engine and Pre-flight Runner Architecture",
+      "summary_vi": [
+        "Bài viết mở đầu chuỗi series về Pre-flight Checks, giải quyết vấn đề code chứa quá nhiều câu lệnh điều kiện lồng nhau khiến việc duy trì trở nên vô cùng phức tạp và khó khăn.",
+        "Tác giả đi sâu vào việc khởi tạo CLI Engine cùng thiết kế kiến trúc Pre-flight Runner, giúp tổ chức các bước kiểm tra hệ thống trước khi thực thi một tiến trình chính một cách module hóa.",
+        "Giải pháp này mang lại giá trị thực tiễn cao cho lập trình viên khi xây dựng các công cụ dòng lệnh chuyên nghiệp, nâng cao tính mở rộng và khả năng kiểm lỗi của mã nguồn."
+      ],
+      "summary_en": [
+        "The article initiates a series on Pre-flight Checks, addressing the issue of deeply nested conditional statements in code that make maintenance extremely complicated and difficult over time.",
+        "The author dives into initializing the CLI Engine and designing the Pre-flight Runner architecture, which helps organize system validation steps modularly before executing any primary process.",
+        "This solution delivers high practical value for developers building professional command-line tools, significantly enhancing code extensibility, maintainability, and robust error detection capabilities."
+      ],
+      "originalTitle": "Pre-flight Checks Bài 1: Khởi tạo CLI Engine & Kiến trúc Pre-flight Runner",
+      "url": "https://viblo.asia/p/pre-flight-checks-bai-1-khoi-tao-cli-engine-kien-truc-pre-flight-runner-AWVpXjkDV05",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "CLI",
+        "Architecture",
+        "Software Design",
+        "Backend",
+        "Clean Code"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-17T19:14:12.000Z",
+      "contentSnippet": "Trong một thư viện hay công cụ chuyên nghiệp, nếu viết nối tiếp các câu lệnh if-else để kiểm tra từng điều kiện, code sẽ rất nhanh trở thành một mớ hỗ...",
+      "authorName": "HUy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6fccc5f57fbe0772",
+      "title_vi": "Trải nghiệm dòng máy trạm di động chuyên dụng tích hợp phần cứng tối ưu cho trí tuệ nhân tạo",
+      "title_en": "Hands-on with Next-Generation Mobile Workstations Powered by Advanced AI Hardware Platforms",
+      "summary_vi": [
+        "Hãng sản xuất thiết bị phần cứng hàng đầu vừa chính thức giới thiệu dòng máy tính xách tay chuyên dụng mới tại thị trường trong nước với cấu hình phần cứng cực kỳ mạnh mẽ.",
+        "Thiết bị sở hữu dung lượng bộ nhớ truy cập ngẫu nhiên lên đến một trăm hai mươi tám gigabyte cùng card đồ họa tích hợp nền tảng xử lý trí tuệ nhân tạo thế hệ mới.",
+        "Sản phẩm mang lại giải pháp làm việc hiệu quả cho các kỹ sư phần mềm và nhà phát triển ứng dụng trí tuệ nhân tạo trực tiếp trên thiết bị di động cá nhân."
+      ],
+      "summary_en": [
+        "Leading hardware manufacturers recently officially introduced a new line of specialized laptops in the domestic market featuring extremely powerful hardware configurations.",
+        "The device possesses a random access memory capacity of up to one hundred and twenty-eight gigabytes along with a graphics card integrating a new generation artificial intelligence processing platform.",
+        "The product provides an efficient working solution for software engineers and artificial intelligence application developers directly on personal mobile devices."
+      ],
+      "originalTitle": "Đi coi ASUS ProArt P16 RTX Spark: laptop đồ họa có tới 128GB RAM để chạy AI",
+      "url": "https://tinhte.vn/thread/di-coi-asus-proart-p16-rtx-spark-laptop-do-hoa-co-toi-128gb-ram-de-chay-ai.4184890/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Hardware",
+        "AI",
+        "GPU",
+        "Workstation"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-17T14:07:48.000Z",
+      "contentSnippet": "Sáng nay mình có đi coi ASUS ra mắt ProArt P16 và ProArt P14 tại Việt Nam, hai mẫu laptop đồ họa đầu tiên dùng nền tảng NVIDIA RTX Spark. ASUS gọi đây là những chiếc laptop đầu tiên được thiết kế...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b437462ca3e1db12",
+      "title_vi": "Vụ cược đầy tham vọng và tốn kém của SpaceX nhằm thay thế các nhà mạng di động lớn",
+      "title_en": "SpaceX's ambitious, expensive gamble to replace AT&T, T-Mobile, and Verizon",
+      "summary_vi": [
+        "Công ty vũ trụ của Elon Musk đang tiến hành mua lại hàng loạt dải tần số băng tần thấp từ EchoStar nhằm xây dựng mạng di động mặt đất hoàn chỉnh kết hợp cùng hệ thống vệ tinh Starlink.",
+        "Kiến trúc mạng này đòi hỏi khoản đầu tư hạ tầng phần cứng khổng lồ để triển khai thêm hàng nghìn vệ tinh quỹ đạo tầm thấp cùng hệ thống trạm thu phát mặt đất nhằm đảm bảo vùng phủ sóng xuyên suốt.",
+        "Bước đi chiến lược này đe dọa trực tiếp đến thị phần và biên lợi nhuận của các nhà mạng viễn thông truyền thống lớn tại Mỹ, buộc toàn ngành phải tái định hình cuộc đua công nghệ mạng di động."
+      ],
+      "summary_en": [
+        "Elon Musk's aerospace company is aggressively acquiring low-band spectrum assets from EchoStar to build a comprehensive terrestrial mobile network integrated with the Starlink satellite constellation.",
+        "This network architecture demands massive hardware infrastructure investments to deploy thousands of additional low Earth orbit satellites and ground stations ensuring seamless widespread coverage.",
+        "This strategic move directly threatens the market share and profit margins of major traditional telecommunications carriers in the United States, forcing the industry to reshape wireless tech competition."
+      ],
+      "originalTitle": "SpaceX’s ambitious, expensive gamble to replace AT&T, T-Mobile, and Verizon",
+      "url": "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "SpaceX",
+        "Starlink",
+        "Telecom",
+        "5G",
+        "Satellite"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-10-17T14:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_SpaceX_Telecom.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Today, I’m talking with Walter Piecyk, a partner and analyst at LightShed Partners who covers tech, media, and telecom, about SpaceX’s recently announced plan to become a major wireless carrier. Last week, SpaceX agreed to buy a big chunk of low-band spectrum to expand the Starlink network, spectrum",
+      "authorName": "Nilay Patel",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b31543fcd7d1501b",
+      "title_vi": "Các trang web đang từ chối tiếp cận các tác nhân trí tuệ nhân tạo",
+      "title_en": "Websites are closing their doors to AI agents",
+      "summary_vi": [
+        "Các hệ thống tác nhân tự động thông minh đang trở thành xu hướng công nghệ nổi bật khi được quảng bá khả năng thực hiện các tác vụ trực tuyến phức tạp thay cho người dùng.",
+        "Nhiều nền tảng trực tuyến lớn bắt đầu triển khai các cơ chế kỹ thuật nhằm chặn quyền truy cập của các tác nhân này trừ khi tuân thủ thỏa thuận cấp phép dữ liệu.",
+        "Xu hướng này tạo ra những thách thức mới về kiến trúc tích hợp hệ thống và định hình lại cách các dịch vụ web tương tác với các công cụ tự động hóa."
+      ],
+      "summary_en": [
+        "Autonomous intelligent agents are emerging as a prominent technology trend by promising the capability to execute complex online tasks on behalf of users.",
+        "Multiple major online platforms are beginning to deploy technical mechanisms to block access from these agents unless they comply with data licensing agreements.",
+        "This trend creates new challenges for system integration architecture and reshapes how web services interact with automated tools."
+      ],
+      "originalTitle": "Websites are closing their doors to AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI Agents",
+        "Web Scraping",
+        "Data Licensing",
+        "Automation",
+        "API Security"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-17T13:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK414_AI_CVIRGINIA_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "03a5ed842371fe79",
+      "title_vi": "Trải nghiệm thực tế Grok Bot: Tự chọn mô hình AI, chạy trên môi trường Cursor và bài toán tối ưu chi phí so với thuê máy chủ ảo",
+      "title_en": "Hands-on with Grok Bot: Custom model selection, running on Cursor infrastructure, and cost comparison with dedicated AI virtual private servers",
+      "summary_vi": [
+        "Bài viết chia sẻ trải nghiệm thực tế khi sử dụng Grok Bot, không đơn thuần là một trợ lý ảo thông thường mà là một công cụ linh hoạt cho phép lập trình viên tự do lựa chọn mô hình trí tuệ nhân tạo phù hợp.",
+        "Tác giả phân tích chi tiết quy trình vận hành trực tiếp trên hạ tầng phát triển của Cursor, tận dụng các tiện ích lập trình hiện đại để tối ưu hóa hiệu suất làm việc thay vì phải tự cấu hình môi trường phức tạp.",
+        "Đánh giá và so sánh thực tế giữa giải pháp này với phương án tự thuê máy chủ ảo chạy các mô hình AI liên tục nhằm giúp kỹ sư tối ưu hóa chi phí và tài nguyên phần cứng."
+      ],
+      "summary_en": [
+        "The article shares practical experiences with Grok Bot, highlighting it not just as a standard chatbot but as a flexible tool enabling developers to freely select suitable artificial intelligence models.",
+        "The author analyzes the operational workflow directly within the Cursor development infrastructure, leveraging modern coding utilities to optimize work performance without complex environment configuration.",
+        "A comprehensive evaluation and comparison between this solution and renting dedicated virtual servers for continuous AI model execution to help engineers optimize costs and hardware resources."
+      ],
+      "originalTitle": "Vọc Grok Bot: tự chọn model, chạy trên hạ tầng Cursor, so với tự thuê VPS chạy AI 24/7",
+      "url": "https://tinhte.vn/thread/voc-grok-bot-tu-chon-model-chay-tren-ha-tang-cursor-so-voi-tu-thue-vps-chay-ai-24-7.4184777/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Cursor",
+        "Cloud",
+        "Software Engineering",
+        "DevOps"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-17T12:00:28.000Z",
+      "contentSnippet": "Nếu anh em nghĩ Grok Bot chỉ là con chatbot Grok được gắn thêm cái app mới thì chưa đầy đủ và chính xác lắm. Mình đang vọc Grok Bot, càng tìm hiểu thì mình càng thấy cái hay của nó không nằm ở bản...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "4110b70294c70551",
+      "title_vi": "Tuần lễ tuyệt vời dành cho tài liệu kỹ thuật công nghệ",
+      "title_en": "It’s a dream week for tech docs",
+      "summary_vi": [
+        "Bài viết tổng hợp các xu hướng công nghệ mới nhất từ cộng đồng phát triển phần mềm, tập trung vào việc cải thiện chất lượng tài liệu kỹ thuật và tài nguyên học tập cho lập trình viên.",
+        "Nội dung đề cập đến các cuộc thảo luận chuyên sâu về trí tuệ nhân tạo, sự phát triển của toán học ứng dụng và cách các nền tảng trực tuyến tối ưu hóa quy trình chia sẻ kiến thức.",
+        "Sự kiện này mang lại giá trị thiết thực giúp cộng đồng kỹ sư cập nhật nhanh chóng các tiêu chuẩn tài liệu mới, nâng cao hiệu suất làm việc và khả năng duy trì mã nguồn."
+      ],
+      "summary_en": [
+        "The article summarizes the latest technology trends from the software development community, focusing on improving the quality of technical documentation and learning resources for developers.",
+        "The content covers in-depth discussions on artificial intelligence, the evolution of applied mathematics, and how online platforms optimize knowledge sharing processes.",
+        "This overview provides practical value helping engineering communities quickly update new documentation standards, improve work efficiency, and enhance code maintainability."
+      ],
+      "originalTitle": "It’s a dream week for tech docs",
+      "url": "https://www.theverge.com/tech/1013367/best-tech-documentaries-musk-holmes-installer",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Tech Docs",
+        "AI",
+        "Software Development",
+        "Developer Tools"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-17T12:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Installer-148.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Hi, friends! Welcome to Installer No. 148, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, hope you're enjoying all your pumpkin-flavored everything, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about Marc",
+      "authorName": "David Pierce",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "8246fc32849b100e",
       "title_vi": "Meta công bố Muse Spark Open: Mô hình trí tuệ nhân tạo nguồn mở 816 tỷ tham số hoạt động trên máy Mac Studio",
@@ -8264,247 +8503,6 @@
       "publishedAt": "2026-10-08T23:51:29.000Z",
       "contentSnippet": "Ở Bài 1, chúng ta đã biết PostgreSQL vận hành theo kiến trúc đa tiến trình (process-based). Để tối ưu hóa truy vấn, cấu hình thông số chuẩn xác và deb...",
       "authorName": "HUy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e48e84ab77b87fd1",
-      "title_vi": "PostgreSQL Bài 1: Tổng quan về PostgreSQL: Lịch sử, triết lý thiết kế và điểm khác biệt với MySQL",
-      "title_en": "PostgreSQL Series Part 1: Overview of PostgreSQL: History, Design Philosophy, and Key Differences from MySQL",
-      "summary_vi": [
-        "Bài viết mở đầu chuỗi kiến thức chuyên sâu về PostgreSQL, hệ quản trị cơ sở dữ liệu quan hệ mã nguồn mở phổ biến nhất hiện nay, nhằm cung cấp cái nhìn tổng quan về lịch sử hình thành và sự phát triển bền vững của hệ thống này.",
-        "Tác giả đi sâu phân tích triết lý thiết kế hướng tới sự tuân thủ tiêu chuẩn SQL nghiêm ngặt, khả năng mở rộng mạnh mẽ và các cơ chế xử lý dữ liệu phức tạp, đồng thời so sánh trực diện với MySQL để làm rõ ưu thế kỹ thuật.",
-        "Nội dung mang lại giá trị thực tiễn cao cho các kỹ sư phần mềm khi lựa chọn công nghệ lưu trữ, giúp người đọc nắm vững nền tảng kiến trúc để tối ưu hóa hiệu năng và độ tin cậy cho các ứng dụng thực tế trong doanh nghiệp."
-      ],
-      "summary_en": [
-        "This article initiates an in-depth series on PostgreSQL, the most widely used open-source relational database management system, providing a comprehensive overview of its historical evolution and its enduring significance in the modern software development landscape.",
-        "The author examines the database's design philosophy, which emphasizes strict SQL standard compliance, robust scalability, and advanced data processing mechanisms, while offering a technical comparison with MySQL to highlight its distinct architectural advantages.",
-        "This content provides significant practical value for software engineers when selecting storage technologies, enabling readers to master architectural foundations to optimize performance and reliability for real-world enterprise-grade applications and complex data systems."
-      ],
-      "originalTitle": "PostgreSQL Bài 1: Tổng quan về PostgreSQL: Lịch sử, triết lý thiết kế và điểm khác biệt với MySQL",
-      "url": "https://viblo.asia/p/postgresql-bai-1-tong-quan-ve-postgresql-lich-su-triet-ly-thiet-ke-va-diem-khac-biet-voi-mysql-kY4gDN9ZJAe",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "PostgreSQL",
-        "MySQL",
-        "Database",
-        "SQL",
-        "Backend"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-10-08T22:45:37.000Z",
-      "contentSnippet": "Chào mừng bạn đến với bài đầu tiên trong series làm chủ PostgreSQL từ nền tảng đến chuyên sâu. Trong thế giới cơ sở dữ liệu quan hệ mã nguồn mở (Open...",
-      "authorName": "HUy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0856c1a27e7e11a7",
-      "title_vi": "Anthropic ra mắt dịch vụ quét lỗ hổng bảo mật miễn phí cho các dự án mã nguồn mở",
-      "title_en": "Anthropic launches free AI security scans for open-source projects",
-      "summary_vi": [
-        "Công ty Anthropic vừa chính thức giới thiệu dịch vụ OSS Scanner, một giải pháp mới nhằm hỗ trợ các dự án mã nguồn mở phát hiện sớm những lỗ hổng bảo mật tiềm ẩn thông qua sức mạnh của các mô hình ngôn ngữ lớn tiên tiến nhất hiện nay.",
-        "Cơ chế hoạt động của hệ thống dựa trên việc quét định kỳ và toàn diện các kho lưu trữ mã nguồn, tuy nhiên các báo cáo được tạo ra hoàn toàn tự động bởi AI mà không có sự kiểm duyệt hoặc phân loại thủ công từ con người.",
-        "Dịch vụ này mang lại lợi ích lớn cho cộng đồng lập trình viên nhờ tốc độ phản hồi nhanh chóng, nhưng cũng tiềm ẩn rủi ro về các kết quả sai lệch hoặc cảnh báo giả, đòi hỏi người dùng phải có sự kiểm chứng kỹ lưỡng trước khi áp dụng."
-      ],
-      "summary_en": [
-        "Anthropic has officially introduced OSS Scanner, a new service designed to help open-source projects identify potential security vulnerabilities by leveraging the capabilities of their most powerful AI models for automated and periodic code analysis.",
-        "The system operates by performing thorough, automated scans of source code repositories, although the generated reports are produced entirely by artificial intelligence without any human review, triage, or manual verification processes involved.",
-        "This initiative provides significant value to the developer community by enabling faster security feedback, yet it carries the risk of false positives or invalid reports, necessitating careful validation by maintainers before taking any remediation actions."
-      ],
-      "originalTitle": "Anthropic launches free AI security scans for open-source projects",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Open Source",
-        "Security",
-        "Vulnerability Scanning",
-        "Anthropic"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-08T21:53:51.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/STKB364_CLAUDE_2_C_96d15c.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get \"thorough, periodic security scans by our strongest models at no cost.\" That could mean open-source projects get alerted abou",
-      "authorName": "Stevie Bonifield",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0105171d2f47a0c3",
-      "title_vi": "AMD dự kiến đưa công nghệ FSR 4 dựa trên trí tuệ nhân tạo lên các thiết bị chơi game cầm tay vào cuối năm 2026",
-      "title_en": "AMD will bring FSR 4 to handhelds by the end of 2026",
-      "summary_vi": [
-        "AMD xác nhận kế hoạch tích hợp công nghệ nâng cấp khung hình FSR 4 dựa trên trí tuệ nhân tạo vào các thiết bị chơi game cầm tay, đánh dấu bước tiến quan trọng trong việc tối ưu hóa hiệu suất đồ họa trên nền tảng di động.",
-        "Công nghệ FSR 4 sử dụng các thuật toán học máy tiên tiến để cải thiện chất lượng hình ảnh và tốc độ khung hình, tuy nhiên khả năng tương thích với các thiết bị cũ hiện vẫn chưa được hãng công bố chi tiết cụ thể.",
-        "Việc triển khai này cho thấy sự cạnh tranh khốc liệt trong lĩnh vực phần cứng di động, buộc các nhà phát triển phải tập trung vào tối ưu hóa AI để nâng cao trải nghiệm người dùng trên các thiết bị có tài nguyên hạn chế."
-      ],
-      "summary_en": [
-        "AMD has confirmed plans to integrate its AI-powered FSR 4 frame generation technology into handheld gaming devices, marking a significant milestone in optimizing graphics performance for portable hardware platforms by the end of 2026.",
-        "The FSR 4 technology leverages advanced machine learning algorithms to enhance image quality and frame rates, although the specific compatibility with older existing handheld hardware remains uncertain and subject to further official clarification.",
-        "This development highlights the intense competition in the mobile hardware sector, forcing manufacturers to prioritize AI-driven optimizations to deliver superior gaming experiences on devices with constrained power and thermal envelopes."
-      ],
-      "originalTitle": "AMD will bring FSR 4 to handhelds by the end of 2026",
-      "url": "https://www.theverge.com/games/1008353/amd-will-bring-fsr-4-to-handhelds-by-the-end-of-2026",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AMD",
-        "FSR",
-        "AI",
-        "Gaming",
-        "Hardware"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-08T21:01:18.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/257996_ROG_Xbox_Ally_and_Xbox_Ally_X_AKrales_0127.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "It's already possible to get AMD's framerate-enhancing FSR 4 boost on handhelds as old as the Steam Deck - but in June, AMD reserved the right to disappoint handheld gamers by not officially bringing FSR 4 to older handhelds. Now, AMD consumer chip boss Jack Huynh says he will bring the tech to some",
-      "authorName": "Sean Hollister",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8e671fda16b4ef2f",
-      "title_vi": "Tiếng còi: Nhận diện giọng nói thành văn bản chỉ trong 16,9 MB",
-      "title_en": "Whistle: Speech to Text in 16.9 MB",
-      "summary_vi": [
-        "Dự án vừa phát hành một mô hình nhận diện giọng nói cực kỳ nhỏ gọn dành riêng cho các thiết bị di động, thiết bị đeo thông minh, robot và vi điều khiển.",
-        "Mô hình tích hợp bộ mã hóa và bộ giải mã tiên tiến, chạy trực tiếp trên CPU không có phụ thuộc, đạt thời gian phản hồi token đầu tiên chỉ 11 mili giây.",
-        "Giải pháp này giúp tối ưu hóa hiệu suất xử lý ngôn ngữ trên thiết bị biên, mở ra khả năng ứng dụng trí tuệ nhân tạo ngoại tuyến mạnh mẽ cho lập trình viên."
-      ],
-      "summary_en": [
-        "The project has released an ultra-compact speech recognition model specifically designed for mobile devices, wearables, robots, and microcontrollers.",
-        "The model integrates advanced encoder and decoder architectures running directly on CPU without dependencies, achieving a first token response time of just 11 milliseconds.",
-        "This solution optimizes edge processing performance, enabling powerful offline artificial intelligence capabilities for modern software developers."
-      ],
-      "originalTitle": "Whistle: Speech to Text in 16.9 MB",
-      "url": "https://cactuscompute.com/blog/whistle",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Speech Recognition",
-        "C++",
-        "Edge Computing",
-        "Machine Learning"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-08T16:59:39.000Z",
-      "contentSnippet": "Back to blogModelsResearchWhistle: Speech to Text in 16.9 MBAn open speech recognition model that runs on the same CPU engine as Needle. It transcribes seven languages, reaches the first token in 11 ms, and loads beside Needle so one binary turns a clip straight into tool calls. Today we release Whi",
-      "authorName": "gmays",
-      "upvotes": 415,
-      "commentsCount": 100
-    },
-    {
-      "id": "0bb8c59a49f4a68d",
-      "title_vi": "So sánh Samsung Galaxy Z Fold8 và Huawei Pura X View: Cùng trọng lượng 201g nhưng trải nghiệm khác biệt",
-      "title_en": "Comparing Samsung Galaxy Z Fold8 and Huawei Pura X View: Same 201g Weight with Distinct User Experiences",
-      "summary_vi": [
-        "Bài viết phân tích và đánh giá thực tế hai mẫu điện thoại màn hình gập cao cấp là Samsung Galaxy Z Fold8 và Huawei Pura X View đang nhận được sự quan tâm lớn từ cộng đồng công nghệ di động hiện nay.",
-        "Cả hai thiết bị đều đạt mức trọng lượng ấn tượng là 201 gram, tuy nhiên cách bố trí phần cứng, tối ưu hóa giao diện người dùng và thiết kế cơ khí bản lề lại tạo ra những trải nghiệm cầm nắm hoàn toàn khác biệt.",
-        "Việc phân tích chi tiết cấu hình phần cứng và thiết kế của các dòng smartphone gập thế hệ mới giúp người dùng đưa ra quyết định đầu tư chính xác, đồng thời định hướng xu hướng phát triển thiết bị di động tương lai."
-      ],
-      "summary_en": [
-        "The article provides a practical review and comparison of two premium foldable smartphones, the Samsung Galaxy Z Fold8 and Huawei Pura X View, which are currently drawing significant attention from the mobile tech community.",
-        "Both devices achieve an impressive weight of 201 grams, yet their hardware layout, user interface optimization, and mechanical hinge design deliver completely distinct handling and daily usage experiences.",
-        "Analyzing the detailed hardware specifications and design of these next-generation foldables helps users make informed purchasing decisions while shaping the future development trends of mobile computing devices."
-      ],
-      "originalTitle": "So sánh Galaxy Z Fold8 và Pura X View: Cùng nặng 201g nhưng trải nghiệm hoàn toàn khác nhau",
-      "url": "https://tinhte.vn/thread/so-sanh-galaxy-z-fold8-va-pura-x-view-cung-nang-201g-nhung-trai-nghiem-hoan-toan-khac-nhau.4182472/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Foldable Phone",
-        "Samsung",
-        "Huawei",
-        "Mobile Hardware",
-        "Smartphone"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-08T15:35:26.000Z",
-      "contentSnippet": "Mấy hôm nay nhiều anh em nhắn tin hỏi mình giữa Samsung Galaxy Z Fold8 và Huawei Pura X View thì nên xuống tiền cho chiếc máy nào. Cả hai chiếc máy này mình đều đã có dịp cầm trên tay và trải...",
-      "authorName": "cuhiep",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9308b568cf49ab3c",
-      "title_vi": "Hiếu PC cảnh báo những rủi ro an toàn thông tin trong kỷ nguyên trí tuệ nhân tạo",
-      "title_en": "Hieu PC Warns of Information Security Risks in the Era of Artificial Intelligence",
-      "summary_vi": [
-        "Tại hội thảo chuyên đề về an toàn thông tin trong kỷ nguyên trí tuệ nhân tạo, chuyên gia an ninh mạng Ngô Minh Hiếu chuẩn bị chia sẻ các mối đe dọa tiềm ẩn mà người dùng thường gặp phải khi tiếp cận với các công nghệ số mới.",
-        "Nội dung trọng tâm của buổi chia sẻ sẽ tập trung vào việc phân tích các phương thức tấn công tinh vi nhắm vào người dùng internet, các thiết bị kết nối vạn vật và hệ thống trí tuệ nhân tạo đang phát triển với tốc độ rất nhanh chóng.",
-        "Sự kiện mang lại giá trị thiết thực khi cung cấp cho cộng đồng công nghệ các kỹ năng nhận diện sớm mã độc, phòng tránh lừa đảo trực tuyến và xây dựng thói quen bảo mật vững chắc để bảo vệ dữ liệu cá nhân."
-      ],
-      "summary_en": [
-        "At a specialized seminar on information security in the era of artificial intelligence, cybersecurity expert Ngo Minh Hieu is preparing to share potential threats that users frequently encounter when accessing new digital technologies.",
-        "The core content of the sharing session will focus on analyzing sophisticated attack methods targeting internet users, Internet of Things devices, and artificial intelligence systems that are developing at a very rapid pace.",
-        "The event delivers practical value by providing the tech community with essential skills for early malware detection, preventing online fraud, and building robust security habits to protect personal data."
-      ],
-      "originalTitle": "[QC] Hiếu PC cảnh báo những rủi ro an toàn thông tin trong kỷ nguyên AI",
-      "url": "https://tinhte.vn/thread/qc-hieu-pc-canh-bao-nhung-rui-ro-an-toan-thong-tin-trong-ky-nguyen-ai.4182682/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Artificial Intelligence",
-        "Information Security",
-        "Data Protection",
-        "Security Risks"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-08T14:11:57.000Z",
-      "contentSnippet": "Tại hội thảo “An toàn thông tin trong kỷ nguyên AI”, chuyên gia Hiếu PC sẽ chia sẻ những rủi ro người dùng có thể gặp khi sử dụng AI, Internet và các thiết bị kết nối, cùng cách nhận diện và phòng...",
-      "authorName": "TTKM",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "40bced38c6a49362",
-      "title_vi": "Thành phố Hồ Chí Minh đề xuất cơ chế vốn đối ứng 1:1 đến 1:3 cho các dự án khởi nghiệp trí tuệ nhân tạo",
-      "title_en": "Ho Chi Minh City Proposes 1:1 to 1:3 Matching Capital Mechanism for Artificial Intelligence Startups",
-      "summary_vi": [
-        "Tại sự kiện Applied AI Lab Demo Day 2026 do Saigon AI Hub và Google AI Futures Fund tổ chức, lãnh đạo thành phố Hồ Chí Minh đã công bố các định hướng chiến lược quan trọng nhằm thúc đẩy hệ sinh thái trí tuệ nhân tạo.",
-        "Thành phố đề xuất cơ chế vốn đối ứng từ 1:1 đến 1:3 dành cho các quỹ đầu tư mạo hiểm công nghệ, đồng thời cam kết hỗ trợ toàn diện về hạ tầng tính toán, tài nguyên dữ liệu lớn cho các nhóm nghiên cứu chuyên sâu.",
-        "Chính sách này tạo động lực mạnh mẽ để thu hút nhân tài công nghệ, giảm bớt áp lực tài chính giai đoạn đầu cho các startup trí tuệ nhân tạo và thúc đẩy thương mại hóa các sản phẩm nghiên cứu khoa học."
-      ],
-      "summary_en": [
-        "At the Applied AI Lab Demo Day 2026 organized by Saigon AI Hub and Google AI Futures Fund, Ho Chi Minh City leaders announced key strategic directions to strongly promote the local artificial intelligence ecosystem.",
-        "The city proposed a matching capital mechanism ranging from 1:1 to 1:3 for technology venture capital funds, while committing comprehensive support regarding computing infrastructure and large datasets for specialized research teams.",
-        "This policy creates powerful momentum to attract tech talent, alleviate early financial pressure for artificial intelligence startups, and accelerate the commercialization of advanced scientific research products."
-      ],
-      "originalTitle": "Thành phố Hồ Chí Minh muốn làm \"đất tốt\" cho nhân tài AI, đề xuất cơ chế vốn đối ứng 1:1 đến 1:3 cho đầu tư mạo hiểm công nghệ",
-      "url": "https://genk.vn/thanh-pho-ho-chi-minh-muon-lam-dat-tot-cho-nhan-tai-ai-de-xuat-co-che-von-doi-ung-11-den-13-cho-dau-tu-mao-hiem-cong-nghe-165261008200524362.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Startup",
-        "Venture Capital",
-        "Tech Policy",
-        "Infrastructure"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-08T13:04:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/8/ts-truong-minh-huy-vu-pct-ubnd-tphcm-17914636553662000025253-85-0-1365-2048-crop-17914637360341409325113.jpg",
-      "contentSnippet": "Tại Applied AI Lab Demo Day 2026 do Saigon AI Hub (SAIH) và Quỹ Google AI Futures Fund tổ chức ngày 8/10, ông Trương Minh Huy Vũ, Phó Chủ tịch UBND thành phố Hồ Chí Minh, đã nêu một loạt hướng hỗ trợ của thành phố dành cho các nhóm nghiên cứu AI, từ dữ liệu, hạ tầng tính toán đến cơ chế vốn đối ứng ",
-      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     }
