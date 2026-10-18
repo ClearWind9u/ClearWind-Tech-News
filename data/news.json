@@ -1,7 +1,247 @@
 {
-  "lastUpdated": "2026-10-17T19:54:10.506Z",
+  "lastUpdated": "2026-10-18T19:54:20.850Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "e69c228fd9f0beed",
+      "title_vi": "Xây dựng tầng tìm kiếm và truy xuất cho tác tử AI: Bộ nhớ đệm, trích xuất sạch và kiểm soát chi phí bằng Python",
+      "title_en": "Building a Search and Fetch Layer for LLM Agents: Caching, Clean Extraction and Cost Control in Python",
+      "summary_vi": [
+        "Bài viết phân tích phương pháp xây dựng một tầng tìm kiếm và truy xuất dữ liệu chuyên dụng nhằm tối ưu hóa hiệu suất hoạt động cho các hệ thống tác tử trí tuệ nhân tạo lớn.",
+        "Giải pháp kỹ thuật tập trung tích hợp cơ chế bộ nhớ đệm thông minh, quy trình làm sạch dữ liệu trích xuất và chiến lược quản lý chi phí vận hành hiệu quả bằng ngôn ngữ Python.",
+        "Kiến trúc này mang lại giá trị thực tiễn cao giúp các kỹ sư phần mềm giảm thiểu độ trễ, tiết kiệm tài nguyên tính toán và nâng cao độ chính xác cho ứng dụng AI."
+      ],
+      "summary_en": [
+        "The article analyzes the methodology of building a dedicated search and data retrieval layer to optimize operational performance for large-scale artificial intelligence agent systems.",
+        "The technical solution focuses on integrating smart caching mechanisms, clean data extraction pipelines, and cost management strategies implemented efficiently using the Python programming language.",
+        "This architecture delivers high practical value by helping software engineers minimize latency, save computational resources, and enhance accuracy for modern artificial intelligence applications."
+      ],
+      "originalTitle": "Building a Search & Fetch Layer for LLM Agents: Caching, Clean Extraction and Cost Control in Python",
+      "url": "https://viblo.asia/p/building-a-search-fetch-layer-for-llm-agents-caching-clean-extraction-and-cost-control-in-python-K9Vy8Oo9LQR",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI Agents",
+        "Python",
+        "LLM",
+        "Caching",
+        "Software Architecture"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-19T00:41:29.000Z",
+      "contentSnippet": "",
+      "authorName": "EME GUG",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "dd69f87f3e722475",
+      "title_vi": "Agent AI đầu tiên chạy tốt rồi. Giờ làm gì? Lộ trình 12 tháng để đưa vào doanh nghiệp thực thụ",
+      "title_en": "First AI Agent Successfully Deployed: What Next? A 12-Month Roadmap for Enterprise Scale",
+      "summary_vi": [
+        "Sau khi hoàn tất giai đoạn thử nghiệm kéo dài chín mươi ngày với một tác tử trí tuệ nhân tạo hoạt động ổn định, các kỹ sư trưởng và đội ngũ phát triển phải đối mặt với áp lực mở rộng quy mô lớn.",
+        "Bài viết vạch ra một lộ trình chiến lược kéo dài mười hai tháng tập trung vào việc tái cấu trúc kiến trúc hệ thống, tối ưu hóa các mô hình ngôn ngữ lớn và thiết lập cơ chế giám sát thời gian thực.",
+        "Giải pháp này giúp các doanh nghiệp giảm thiểu rủi ro vận hành, đảm bảo tính bảo mật dữ liệu và chuyển đổi các ứng dụng thử nghiệm thành sản phẩm cốt lõi mang lại giá trị thực tiễn cao."
+      ],
+      "summary_en": [
+        "Following the successful completion of a ninety-day pilot phase with a stable artificial intelligence agent, lead engineers and development teams face immediate pressure to scale operations.",
+        "The article outlines a strategic twelve-month roadmap focusing on system architecture restructuring, large language model optimization, and the establishment of real-time monitoring mechanisms.",
+        "This approach helps enterprises minimize operational risks, ensure data security, and successfully transform experimental applications into core products that deliver substantial practical value."
+      ],
+      "originalTitle": "Agent AI đầu tiên chạy tốt rồi. Giờ làm gì? Lộ trình 12 tháng để đưa vào doanh nghiệp thực thụ",
+      "url": "https://viblo.asia/p/agent-ai-dau-tien-chay-tot-roi-gio-lam-gi-lo-trinh-12-thang-de-dua-vao-doanh-nghiep-thuc-thu-y0VGwWKzVPA",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI Agent",
+        "Enterprise AI",
+        "Machine Learning",
+        "Software Architecture",
+        "DevOps"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-19T00:26:20.000Z",
+      "contentSnippet": "Bạn vừa kết thúc một pilot 90 ngày. Một agent đang chạy. Kết quả có vẻ khả quan. Team của bạn hỏi câu không thể tránh: Khi nào scale? Đó là câu hỏi đ...",
+      "authorName": "Arief Warazuhudien",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f95f34b6dc0db201",
+      "title_vi": "Vibe Coding Thực Chiến: Tự Động Hóa Sau Bán Hàng Với Webhook, Telegram Và Email",
+      "title_en": "Practical Vibe Coding: Post-Sale Automation Using Webhooks, Telegram, and Instant Email",
+      "summary_vi": [
+        "Bài viết thuộc chuỗi Vibe Coding thực chiến giới thiệu phương pháp tự động hóa quy trình sau bán hàng thông qua việc tích hợp webhook trên nền tảng VPS Ubuntu.",
+        "Hệ thống kỹ thuật được xây dựng bằng cách kết nối webhook để tự động đẩy thông tin đơn hàng mới sang nhóm Telegram và gửi email xác nhận tức thì cho khách hàng.",
+        "Giải pháp này giúp các nhà phát triển tối ưu hóa thời gian xây dựng tính năng tự động hóa, nâng cao trải nghiệm người dùng và chuẩn hóa quy trình vận hành hệ thống."
+      ],
+      "summary_en": [
+        "This practical Vibe Coding article introduces post-sale automation workflows by integrating webhooks on an Ubuntu VPS server environment for real-time notification processing.",
+        "The technical architecture establishes seamless connections via webhooks to automatically forward newly placed order data directly to Telegram channels and dispatch instant confirmation emails.",
+        "This solution enables developers to significantly optimize feature development time for automation, elevate user experience, and successfully standardize backend operational workflows."
+      ],
+      "originalTitle": "[Vibe Coding Thực Chiến #10] Tự Động Hóa Sau Bán Hàng: Tích Hợp Webhook Bắn Đơn Sang Telegram & Gửi Email Tức Thì!",
+      "url": "https://viblo.asia/p/vibe-coding-thuc-chien-10-tu-dong-hoa-sau-ban-hang-tich-hop-webhook-ban-don-sang-telegram-gui-email-tuc-thi-Nj4vgOmdJ6r",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Automation",
+        "Webhook",
+        "Telegram API",
+        "DevOps",
+        "Ubuntu"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-19T00:25:48.000Z",
+      "contentSnippet": "Tác giả: Lee Series: Vibe Coding Thực Chiến Cùng EzyPlatform (#10) Hạ tầng thực nghiệm: VPS Ubuntu 22.04 LTS (157.66.47.xxx) | Domain Admin: https://1...",
+      "authorName": "Duong Nguyen",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "489a23c9b4aa060e",
+      "title_vi": "Ai là người đứng sau phần mềm",
+      "title_en": "Someone behind the software",
+      "summary_vi": [
+        "Sản phẩm phần mềm chất lượng thường mang đậm dấu ấn cá nhân và tư duy của những nhà phát triển tạo ra chúng, thay vì chỉ là kết quả từ một dây chuyền công nghiệp rập khuôn quy trình.",
+        "Mặc dù các đội ngũ phát triển có thể tiếp cận cùng một tập khách hàng và công nghệ, nhưng cách họ thấu hiểu vấn đề và phong cách xây dựng phần mềm sẽ tạo ra sự khác biệt lớn.",
+        "Trực giác trong kỹ thuật phần mềm không phải là cảm tính cá nhân mà được tích lũy qua kinh nghiệm thực tế, giúp các nhà sáng lập đưa ra những quyết định sáng suốt vượt qua dữ liệu thô."
+      ],
+      "summary_en": [
+        "Quality software products often carry the personal imprint and mindset of the developers who create them, rather than merely being the result of an automated industrial assembly line.",
+        "Although different development teams may access the same customers and technologies, their unique understanding of problems and building styles create significant divergence in final outputs.",
+        "Engineering intuition is not arbitrary personal preference but accumulates through practical experience, helping founders make sound judgments that transcend raw, faceless data."
+      ],
+      "originalTitle": "Someone behind the software",
+      "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Software Engineering",
+        "Product Development",
+        "Startup",
+        "Engineering Culture"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-18T16:32:00.000Z",
+      "contentSnippet": "I think good products carry something of the people who make them. Their experience, what they care about, and how they think things should work. You might not know who those people are, but you can feel their perspective in the product. The industry often talks about software as though it comes out",
+      "authorName": "tosh",
+      "upvotes": 143,
+      "commentsCount": 55
+    },
+    {
+      "id": "3a7eaf979be55568",
+      "title_vi": "Máy chơi game cầm tay chạy SteamOS tốc độ cao và thoải mái của Lenovo đang được giảm giá mạnh",
+      "title_en": "Lenovo’s fast, comfy SteamOS handheld is hundreds off",
+      "summary_vi": [
+        "Thiết bị chơi game cầm tay mới của Lenovo chạy hệ điều hành SteamOS đang nhận được mức giảm giá đáng kể tại các nhà bán lẻ lớn, thu hút sự chú ý của cộng đồng game thủ và người yêu công nghệ di động.",
+        "Sản phẩm được trang bị bộ vi xử lý Ryzen Z1 Extreme mạnh mẽ, màn hình IPS tám inch với tần số quét 120Hz, cùng dung lượng RAM 32GB và bộ nhớ lưu trữ 1TB vượt trội so với các đối thủ cùng phân khúc.",
+        "Mức giá ưu đãi này mang lại lựa chọn phần cứng giá trị cao cho người dùng muốn trải nghiệm hệ sinh thái chơi game di động tối ưu mà không phải đầu tư các dòng máy quá đắt đỏ trên thị trường hiện nay."
+      ],
+      "summary_en": [
+        "Lenovo's new handheld gaming device running the SteamOS operating system is receiving significant price cuts at major retailers, attracting the attention of gamers and mobile technology enthusiasts alike.",
+        "The product is equipped with a powerful Ryzen Z1 Extreme processor, an eight-inch IPS screen with a 120Hz refresh rate, alongside 32GB of RAM and 1TB of storage, outperforming competitors in the same segment.",
+        "This discounted price offers a high-value hardware choice for users seeking an optimized mobile gaming ecosystem experience without having to invest in overly expensive models currently available on the market."
+      ],
+      "originalTitle": "Lenovo’s fast, comfy SteamOS handheld is hundreds off",
+      "url": "https://www.theverge.com/gadgets/1013436/lenovo-legion-go-s-steamos-handheld-deal-sale",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Lenovo",
+        "SteamOS",
+        "Handheld",
+        "Gaming",
+        "Hardware"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-18T15:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/lenovo-legion-go-s-steamos-sean-hollister-331A1224.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "The Legion Go S with SteamOS is a pretty solid alternative to the $789 Steam Deck OLED. It runs identical software, but ships in a design with two-stage triggers, a bigger eight-inch IPS screen (1080p and up to 120Hz versus 800p and 90Hz in the Deck OLED), and it’s got double the RAM and storage (32",
+      "authorName": "Cameron Faulkner",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "704e28eac34b5c0d",
+      "title_vi": "Anthropic chi 1,5 tỉ USD dàn xếp vụ kiện bản quyền sách với sự tham gia của Han Kang",
+      "title_en": "Anthropic Settles Book Copyright Lawsuit for $1.5 Billion Including Works by Han Kang",
+      "summary_vi": [
+        "Công ty trí tuệ nhân tạo Anthropic đã chi khoản tiền khổng lồ lên tới 1,5 tỉ đô la Mỹ để dàn xếp vụ kiện bản quyền sách tại thị trường Mỹ, liên quan đến khoảng 500.000 đầu sách được sử dụng để huấn luyện mô hình ngôn ngữ lớn.",
+        "Vụ việc làm nổi bật những thách thức pháp lý nghiêm trọng trong việc sử dụng dữ liệu văn bản có bản quyền để đào tạo các hệ thống trí tuệ nhân tạo tạo sinh, đòi hỏi các kỹ sư phải xây dựng cơ chế lọc dữ liệu minh bạch hơn.",
+        "Thỏa thuận dàn xếp này tạo ra tiền lệ quan trọng cho ngành công nghiệp phần mềm và trí tuệ nhân tạo, buộc các doanh nghiệp công nghệ phải tuân thủ nghiêm ngặt hơn các quy định về quyền sở hữu trí tuệ khi phát triển sản phẩm."
+      ],
+      "summary_en": [
+        "Artificial intelligence company Anthropic has agreed to a massive 1.5 billion dollar settlement in a US book copyright lawsuit, involving approximately 500,000 titles used to train large language models.",
+        "The case highlights severe legal challenges regarding the use of copyrighted text data for training generative artificial intelligence systems, requiring engineers to build more transparent data filtering mechanisms.",
+        "This settlement establishes a critical precedent for the software and artificial intelligence industry, forcing technology enterprises to strictly comply with intellectual property regulations when developing products."
+      ],
+      "originalTitle": "Anthropic chi 1,5 tỉ USD dàn xếp vụ kiện bản quyền sách, có tác phẩm của Han Kang",
+      "url": "https://tuoitre.vn/anthropic-chi-15-ti-usd-dan-xep-vu-kien-ban-quyen-sach-co-tac-pham-cua-han-kang-100261018135931997.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Copyright",
+        "Anthropic",
+        "Large Language Models",
+        "Legal"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-18T14:07:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/18/anthropic-17923065647441171507897-13-0-452-702-crop-17923067515211150113613.png",
+      "contentSnippet": "Khoảng 500.000 đầu sách thuộc diện được bồi thường trong vụ kiện Anthropic tại Mỹ, trong đó có tác phẩm của nhà văn Hàn Quốc Han Kang.",
+      "authorName": "TTXVN",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "74d482e1afa76e1d",
+      "title_vi": "NVIDIA dịch chuyển chiến lược trọng tâm, không còn tập trung chủ yếu vào thị trường máy tính chơi game",
+      "title_en": "NVIDIA Shifts Strategic Focus Away from PC Gaming as New Markets Emerge",
+      "summary_vi": [
+        "Thị trường phần cứng chơi game cá nhân không còn là lĩnh vực cốt lõi định hình hướng đi chiến lược dài hạn của hãng sản xuất vi xử lý đồ họa hàng đầu thế giới trong giai đoạn hiện nay.",
+        "Mặc dù dòng sản phẩm cạc đồ họa GeForce vẫn duy trì doanh thu hàng tỷ đô la từ cộng đồng game thủ, các phân khúc công nghệ phần cứng khác đang chiếm ưu thế tuyệt đối trong cơ cấu doanh thu.",
+        "Sự dịch chuyển này phản ánh xu hướng phát triển phần cứng tập trung vào trí tuệ nhân tạo và hạ tầng trung tâm dữ liệu, tác động sâu sắc đến chuỗi cung ứng linh kiện toàn cầu."
+      ],
+      "summary_en": [
+        "The personal gaming hardware market is no longer the core domain defining the long-term strategic direction of the world's leading graphics processor manufacturer in the current industry landscape.",
+        "Although the GeForce graphics card product line continues to generate billions of dollars in revenue from the gaming community, other high-performance hardware segments now dominate the revenue structure.",
+        "This strategic shift reflects a broader industry trend toward artificial intelligence infrastructure and data center hardware, deeply impacting the global semiconductor supply chain."
+      ],
+      "originalTitle": "NVIDIA không còn là công ty PC gaming nữa, hãy quen dần với điều đó",
+      "url": "https://genk.vn/nvidia-khong-con-la-cong-ty-pc-gaming-nua-hay-quen-dan-voi-dieu-do-16526181015005697.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "NVIDIA",
+        "GPU",
+        "Semiconductor",
+        "Gaming",
+        "AI"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-18T10:10:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/18/avatar1792318125941-1792318127114964482636.jpg",
+      "contentSnippet": "GeForce chưa biến mất và NVIDIA vẫn kiếm được hàng tỷ USD từ game thủ. Tuy nhiên, PC gaming rõ ràng không còn là lĩnh vực quyết định hướng đi của hãng.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "01cc68bd7a52cda5",
       "title_vi": "Tiền đã về ví nhưng đơn hàng chưa xác nhận: Sáu bước kiểm tra phía người nhận khi AI agent tạo link thanh toán",
@@ -8265,247 +8505,6 @@
       "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK155_OPEN_AI_CVirginia_C-1.jpg?quality=90&strip=all&crop=0,0,100,100",
       "contentSnippet": "OpenAI is standing firm on its decision to fire three safety researchers after an investigation found they committed \"a significant breach of trust.\" In a post on X on Friday, the company said Jasmine Wang, Tomek Korbak and Mikita ⁠Balesni were dismissed for violating \"clear policies on handling sen",
       "authorName": "Robert Hart",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "bc6b384b7e775bd0",
-      "title_vi": "Kinh tế học trí tuệ nhân tạo: Khi tỷ lệ người dùng trả phí thấp, các công ty công nghệ chọn chiến lược kiếm tiền nào",
-      "title_en": "AI Economics: What monetization strategies do tech companies choose when only a small fraction of users pay",
-      "summary_vi": [
-        "Bài viết phân tích bài toán kinh tế học trong lĩnh vực trí tuệ nhân tạo khi tỷ lệ người dùng thực tế chịu trả tiền cho các ứng dụng tiêu dùng còn rất thấp, đặt ra thách thức lớn về doanh thu.",
-        "Nội dung đi sâu vào việc so sánh chiến lược phát triển sản phẩm và thu hút người dùng của các ứng dụng tiêu biểu từ những tập đoàn công nghệ lớn như Meta và OpenAI.",
-        "Phân tích này giúp các kỹ sư và nhà quản lý sản phẩm nhìn nhận rõ hơn về mô hình kinh doanh bền vững, tối ưu hóa chi phí vận hành hạ tầng và định hướng phát triển sản phẩm."
-      ],
-      "summary_en": [
-        "The article analyzes the economic challenges in the artificial intelligence sector as the percentage of users actually paying for consumer applications remains extremely low, raising revenue concerns.",
-        "The content dives into comparing product development and user acquisition strategies of prominent consumer applications launched by major technology corporations like Meta and OpenAI.",
-        "This analysis helps engineers and product managers better understand sustainable business models, infrastructure cost optimization, and long-term strategic product development directions."
-      ],
-      "originalTitle": "Kinh tế học AI: khi chỉ 2,2% người dùng trả tiền, các công ty AI lựa chọn giải pháp nào để kiếm tiền",
-      "url": "https://tinhte.vn/thread/kinh-te-hoc-ai-khi-chi-2-2-nguoi-dung-tra-tien-cac-cong-ty-ai-lua-chon-giai-phap-nao-de-kiem-tien.4180985/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Monetization",
-        "Meta",
-        "OpenAI",
-        "Tech Trends"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-09T09:13:16.000Z",
-      "contentSnippet": "Tuần này có hai sản phẩm AI tiêu dùng được nhắc nhiều nhất là Muse của Meta và Dots của OpenAI. Trong khi Muse vượt 5 triệu lượt tải nhờ một chiến dịch quảng cáo lớn còn Dots là sản phẩm...",
-      "authorName": "nhatminhngo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "051b2a01d3fe1603",
-      "title_vi": "Người dùng gói gia đình Microsoft 365 cuối cùng cũng có thể chia sẻ các tính năng trí tuệ nhân tạo",
-      "title_en": "Microsoft 365 Family subscribers will finally be able to share AI benefits",
-      "summary_vi": [
-        "Microsoft đã chính thức mở rộng quyền truy cập các tính năng trí tuệ nhân tạo cho tất cả người dùng trong cùng một gói đăng ký gia đình và cao cấp, khắc phục điểm hạn chế trước đây chỉ dành riêng cho tài khoản chính.",
-        "Cơ chế mới cho phép chủ tài khoản chia sẻ quyền sử dụng trợ lý ảo Copilot cùng dung lượng lưu trữ đám mây và các ứng dụng văn phòng cho tối đa năm thành viên khác trong cùng một nhóm đăng ký.",
-        "Sự thay đổi này giúp tối ưu hóa chi phí cho người dùng phổ thông, đồng thời thúc đẩy nhanh chóng tỷ lệ tiếp cận các công cụ tích hợp trí tuệ nhân tạo trong hệ sinh thái phần mềm văn phòng toàn cầu."
-      ],
-      "summary_en": [
-        "Microsoft has officially expanded access to artificial intelligence features for all users within the same family and premium subscription plans, resolving previous limitations that restricted these capabilities solely to primary accounts.",
-        "The new mechanism allows account owners to share Copilot virtual assistant usage rights alongside cloud storage capacity and office applications with up to five other members within the same subscription group.",
-        "This change helps optimize costs for standard users while rapidly accelerating the adoption rate of artificial intelligence integrated tools across the global office software ecosystem."
-      ],
-      "originalTitle": "Microsoft 365 Family subscribers will finally be able to share AI benefits",
-      "url": "https://www.theverge.com/news/1008581/microsoft-365-family-premium-shared-ai-features-storage-changes",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Microsoft",
-        "Copilot",
-        "Cloud Storage",
-        "Software"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-09T07:14:32.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/m365premium.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Microsoft bundled its AI-powered Office features into Microsoft 365 Personal and Family subscriptions last year, but it only allowed the primary account holder to access the AI benefits. Now, Microsoft is about to let Microsoft 365 Family and Premium subscribers share Copilot and AI usage features, ",
-      "authorName": "Tom Warren",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "efef1bad96ab0a13",
-      "title_vi": "PostgreSQL Bài 5: Phân quyền và Bảo mật với Role, User, Grant, Revoke và pg_hba.conf",
-      "title_en": "PostgreSQL Lesson 5: Authorization and Security with Roles, Users, Grants, Revokes, and pg_hba.conf",
-      "summary_vi": [
-        "Bài viết phân tích tầm quan trọng của việc quản lý phân quyền trong cơ sở dữ liệu PostgreSQL, nhấn mạnh rủi ro khi sử dụng tài khoản siêu người dùng cho các ứng dụng backend thực tế.",
-        "Nội dung tập trung hướng dẫn chi tiết cách cấu hình role, user, sử dụng các câu lệnh grant, revoke để phân quyền chi tiết cùng với cơ chế xác thực bảo mật qua tệp pg_hba.conf.",
-        "Kiến thức này giúp các kỹ sư phần mềm và quản trị cơ sở dữ liệu xây dựng hệ thống backend an toàn hơn, tuân thủ nguyên tắc đặc quyền tối thiểu để phòng ngừa tấn công."
-      ],
-      "summary_en": [
-        "The article analyzes the importance of authorization management in PostgreSQL databases, highlighting the security risks of using superuser accounts for production backend applications.",
-        "It provides detailed guidance on configuring roles, users, applying grant and revoke statements for granular access control, alongside authentication security mechanisms via pg_hba.conf.",
-        "This knowledge helps software engineers and database administrators build more secure backend systems, adhering to the principle of least privilege to prevent potential attacks."
-      ],
-      "originalTitle": "PostgreSQL Bài 5: Phân quyền và Bảo mật: Role, User, Grant, Revoke và xác thực qua file pg_hba.conf",
-      "url": "https://viblo.asia/p/postgresql-bai-5-phan-quyen-va-bao-mat-role-user-grant-revoke-va-xac-thuc-qua-file-pg-hbaconf-XRJ8RWZ5VGq",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "PostgreSQL",
-        "Database Security",
-        "Backend",
-        "DevOps",
-        "Authorization"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-09T07:12:27.000Z",
-      "contentSnippet": "Trong quản trị cơ sở dữ liệu thực tế, việc sử dụng tài khoản postgres (hoặc siêu người dùng SUPERUSER) cho ứng dụng backend kết nối trực tiếp là một l...",
-      "authorName": "HUy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "207cb63a0057faee",
-      "title_vi": "PostgreSQL Bài 4: Khởi tạo Cơ sở dữ liệu, Schema và Cấu trúc Danh mục của PostgreSQL",
-      "title_en": "PostgreSQL Part 4: Database Initialization, Schemas, and the PostgreSQL Catalog Structure",
-      "summary_vi": [
-        "Tiếp nối chuỗi bài viết thực hành về cơ sở dữ liệu mã nguồn mở phổ biến, bài viết tập trung hướng dẫn cách khởi tạo và quản lý hệ thống dữ liệu hiệu quả.",
-        "Nội dung đi sâu vào việc tìm hiểu cấu trúc schema, phân rã không gian tên và cách hệ thống quản trị lưu trữ các siêu dữ liệu trong danh mục hệ thống cốt lõi.",
-        "Kiến thức này giúp các nhà phát triển và kỹ sư cơ sở dữ liệu tối ưu hóa mô hình lưu trữ, đảm bảo tính bảo mật và hiệu năng khi xây dựng ứng dụng thực tế."
-      ],
-      "summary_en": [
-        "Following previous tutorials on setting up open source database environments, this installment focuses on effective database initialization and structural management.",
-        "The article dives deep into understanding schema architecture, namespace separation, and how the management system stores critical metadata within its core system catalogs.",
-        "This technical knowledge empowers developers and database engineers to optimize storage models, ensuring enhanced security and performance for production applications."
-      ],
-      "originalTitle": "PostgreSQL Bài 4: Khởi tạo Database, Schema và cấu trúc Catalog của PostgreSQL",
-      "url": "https://viblo.asia/p/postgresql-bai-4-khoi-tao-database-schema-va-cau-truc-catalog-cua-postgresql-1XVOW0O1VMz",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "PostgreSQL",
-        "Database",
-        "Schema",
-        "Backend",
-        "SQL"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-09T07:12:21.000Z",
-      "contentSnippet": "Ở Bài 3, bạn đã dựng thành công môi trường PostgreSQL bằng Docker. Khi bắt tay vào thiết kế ứng dụng thực tế, câu hỏi kiến trúc đầu tiên luôn là: Nên ...",
-      "authorName": "HUy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "50f3a4e4e0de51aa",
-      "title_vi": "Hệ thống Quản trị Cơ sở dữ liệu Phần 3: Thiết lập môi trường thực hành chuẩn với Docker, Docker Compose và kết nối qua công cụ dòng lệnh psql",
-      "title_en": "PostgreSQL Tutorial Part 3: Setting Up a Standard Practice Environment with Docker, Docker Compose and Psql Connection",
-      "summary_vi": [
-        "Bài viết hướng dẫn thiết lập một môi trường thực hành cơ sở dữ liệu chuyên nghiệp nhằm bảo vệ hệ điều hành máy chủ khỏi các xung đột phần mềm không cần thiết.",
-        "Giải pháp sử dụng bộ công cụ Docker và Docker Compose kết hợp để tự động hóa quá trình triển khai máy chủ cơ sở dữ liệu một cách nhanh chóng và an toàn.",
-        "Kiến thức này giúp các lập trình viên tối ưu hóa quy trình làm việc, dễ dàng quản lý các phiên bản phần mềm và nâng cao hiệu suất phát triển ứng dụng."
-      ],
-      "summary_en": [
-        "The article provides a comprehensive guide on establishing a professional database practice environment designed to protect the host operating system from software conflicts.",
-        "The solution utilizes Docker and Docker Compose tools together to automate the deployment process of database servers quickly and securely for developers.",
-        "This technical knowledge helps developers optimize their workflows, easily manage various software versions, and significantly enhance overall application development performance."
-      ],
-      "originalTitle": "PostgreSQL Bài 3: Thiết lập môi trường thực hành chuẩn với Docker, Docker Compose và kết nối qua psql",
-      "url": "https://viblo.asia/p/postgresql-bai-3-thiet-lap-moi-truong-thuc-hanh-chuan-voi-docker-docker-compose-va-ket-noi-qua-psql-R5JRQWNn4Gv",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "PostgreSQL",
-        "Docker",
-        "Docker Compose",
-        "Database",
-        "DevOps"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-09T07:11:55.000Z",
-      "contentSnippet": "Để học sâu và thực hành mọi tính năng mà không làm bẩn hệ điều hành host, Docker là công cụ tiêu chuẩn nhất. Bài này sẽ hướng dẫn thiết lập một môi tr...",
-      "authorName": "HUy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "13f8282dec80eb3a",
-      "title_vi": "Đánh giá OPPO A7 Pro 5G: Mẫu smartphone dòng A đầu tiên tối ưu hóa mạnh mẽ cho chụp ảnh selfie và độ bền",
-      "title_en": "Reviewing OPPO A7 Pro 5G: The First A-Series Smartphone Heavily Optimized for Selfie Photography and Durability",
-      "summary_vi": [
-        "Thương hiệu điện thoại nổi tiếng vừa chính thức giới thiệu mẫu smartphone tầm trung mới thuộc dòng A, thu hút sự chú ý lớn từ cộng đồng nhờ thiết kế trẻ trung và khả năng hoàn thiện phần cứng vượt trội so với thế hệ tiền nhiệm.",
-        "Thiết bị sở hữu cấu hình phần cứng tối ưu cùng nhiều tính năng phần mềm độc quyền hỗ trợ chụp ảnh tự sướng, kết hợp tiêu chuẩn độ bền cao giúp máy vận hành ổn định trong nhiều điều kiện sử dụng thực tế khác nhau.",
-        "Sản phẩm mang lại lựa chọn hấp dẫn cho người dùng phổ thông và giới trẻ yêu thích công nghệ di động, đồng thời tạo ra áp lực cạnh tranh lớn cho các đối thủ cùng phân khúc giá trên thị trường hiện nay."
-      ],
-      "summary_en": [
-        "The well-known smartphone brand has officially introduced a new mid-range mobile device belonging to its A-series, capturing significant attention from the community due to its youthful design and superior hardware craftsmanship compared to predecessors.",
-        "The device features optimized hardware configurations alongside various exclusive software features supporting selfie photography, combined with high durability standards ensuring stable operation under various practical usage conditions.",
-        "The product offers an attractive choice for mainstream users and young tech enthusiasts interested in mobile technology, while simultaneously creating intense competitive pressure for rival products in the same price segment."
-      ],
-      "originalTitle": "Đây là OPPO A7 Pro 5G: Smartphone dòng A đầu tiên khiến mình chủ động lật camera selfie khi đi chơi",
-      "url": "https://genk.vn/day-la-oppo-a7-pro-5g-smartphone-dong-a-dau-tien-khien-minh-chu-dong-lat-camera-selfie-khi-di-choi-165261008222001998.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "OPPO",
-        "Smartphone",
-        "Mobile",
-        "Hardware",
-        "5G"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-09T03:00:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/8/oppo-a7-pro-minh-duc-genk-20-1791472765758183449048-84-0-1334-2000-crop-1791472769756458300125.jpg",
-      "contentSnippet": "Dòng OPPO A tiếp nối những điểm làm nên sức hấp dẫn của dòng máy tầm trung này: Thiết kế trẻ trung, độ bền cao và trang bị nhiều những tính năng cho chụp ảnh 'tự sướng'",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "bf11020609c97863",
-      "title_vi": "Trào lưu 'vibe coding' hỗ trợ lập trình ứng dụng cho người yếu thế",
-      "title_en": "The 'vibe coding' trend empowers developers to build applications for vulnerable communities",
-      "summary_vi": [
-        "Nhiều bạn trẻ không có nền tảng lập trình chuyên sâu đã tận dụng các công cụ trí tuệ nhân tạo để áp dụng phương pháp vibe coding giải quyết các bài toán khó khăn tại những khu vực có nguồn lực công nghệ hạn chế.",
-        "Phương pháp này cho phép người dùng giao tiếp tự nhiên với hệ thống AI để sinh mã nguồn, từ đó nhanh chóng phát triển các giải pháp phần mềm thực tế phục vụ cho giáo dục vùng sâu và hỗ trợ người khiếm thị hiệu quả.",
-        "Xu hướng này mở ra hướng tiếp cận mới trong phát triển phần mềm, giúp hạ thấp rào cản kỹ thuật và tạo ra các tác động xã hội tích cực thông qua việc ứng dụng công nghệ trí tuệ nhân tạo vào đời sống."
-      ],
-      "summary_en": [
-        "Many young individuals without extensive programming backgrounds leverage artificial intelligence tools through vibe coding to address challenging technological limitations in resource-constrained environments.",
-        "This methodology enables users to naturally communicate with AI systems to generate source code, rapidly developing practical software solutions for remote education and assistance for the visually impaired.",
-        "This emerging trend redefines software development approaches, significantly lowering technical barriers and delivering profound social impacts by integrating artificial intelligence into community-driven initiatives."
-      ],
-      "originalTitle": "'Vibe coding' làm ứng dụng giúp người yếu thế",
-      "url": "https://vnexpress.net/vibe-coding-lam-ung-dung-giup-nguoi-yeu-the-5130073.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Software Engineering",
-        "Tech Trends",
-        "Social Impact",
-        "Programming"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-09T02:53:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/09/wm1-wm1-lq-jpg-1791484487-6289-1791484797.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=fCD-E50GJzqM9aDUBEPMnQ",
-      "contentSnippet": "Có ý tưởng nhưng không biết lập trình, nhiều bạn trẻ dùng AI để \"vibe coding\", giải những bài toán ở nơi nguồn lực công nghệ hạn chế, như giáo dục ở vùng sâu, hỗ trợ người khiếm thị.",
-      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     }
