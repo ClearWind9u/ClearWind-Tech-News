@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-10-21T10:54:32.976Z",
+  "lastUpdated": "2026-10-21T16:22:49.018Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "64f0dac2220e959a",
+      "title_vi": "Khóa phân tán và phương pháp giải quyết hiện tượng tranh chấp tài nguyên trong kiến trúc Microservices",
+      "title_en": "Distributed Locks and Race Condition Resolution Strategies in Microservices Architecture",
+      "summary_vi": [
+        "Bài viết phân tích sâu về bài toán tranh chấp tài nguyên xảy ra khi hệ thống phần mềm mở rộng quy mô sang mô hình nhiều máy chủ độc lập.",
+        "Nội dung tập trung làm rõ ba nguyên tắc cốt lõi để xây dựng cơ chế khóa phân tán an toàn nhằm đảm bảo tính toàn vẹn dữ liệu.",
+        "Kiến thức này mang lại giá trị thực tiễn cao giúp các kỹ sư phần mềm thiết kế và vận hành hệ thống phân tán ổn định."
+      ],
+      "summary_en": [
+        "The article provides an in-depth analysis of race conditions occurring when software systems scale across multiple independent servers.",
+        "The content focuses on clarifying three core principles for building secure distributed locking mechanisms to ensure data integrity.",
+        "This technical knowledge delivers high practical value helping software engineers design and operate stable distributed systems."
+      ],
+      "originalTitle": "Bài 10: Khóa phân tán (Distributed Lock) - Giải quyết Race Condition trong Microservices",
+      "url": "https://viblo.asia/p/bai-10-khoa-phan-tan-distributed-lock-giai-quyet-race-condition-trong-microservices-RlL5ePkgLbB",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Distributed Systems",
+        "Microservices",
+        "Race Condition",
+        "Backend Architecture"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-21T23:06:44.000Z",
+      "contentSnippet": "Mục tiêu bài học: - Hiểu rõ bài toán Race Condition khi scale ứng dụng lên nhiều server (Microservices). - Nắm vững 3 nguyên tắc sống còn của mộ...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c83700f9a3d58d74",
+      "title_vi": "Xóa thẻ HTML khỏi chuỗi trong JavaScript: đừng dùng regex, và cũng đừng dùng div",
+      "title_en": "Remove HTML tags from strings in JavaScript: don't use regex, and don't use divs either",
+      "summary_vi": [
+        "Thỉnh thoảng mình lại gặp một yêu cầu nghe rất đơn giản: lấy một đoạn HTML và trả về chữ thuần.",
+        "Ví dụ trang danh sách bài viết cần hiển thị đoạn trích.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Xóa thẻ HTML khỏi chuỗi trong JavaScript: đừng dùng regex, và cũng đừng dùng div."
+      ],
+      "summary_en": [
+        "Every now and then I come across a request that sounds very simple: take a piece of HTML and return plain text.",
+        "For example, the article list page needs to display excerpts.",
+        "Practical engineering impact and actionable takeaways for developers building with Remove HTML tags from strings in JavaScript: don't use regex, and don't use divs either."
+      ],
+      "originalTitle": "Xóa thẻ HTML khỏi chuỗi trong JavaScript: đừng dùng regex, và cũng đừng dùng div",
+      "url": "https://viblo.asia/p/xoa-the-html-khoi-chuoi-trong-javascript-dung-dung-regex-va-cung-dung-dung-div-OQJwzOE04MP",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "JavaScript"
+      ],
+      "hotScore": 90,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-21T23:01:34.000Z",
+      "contentSnippet": "Thỉnh thoảng mình lại gặp một yêu cầu nghe rất đơn giản: lấy một đoạn HTML và trả về chữ thuần. Ví dụ trang danh sách bài viết cần hiển thị đoạn trích...",
+      "authorName": "Kevin BK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "a9c73f7cd2de9698",
       "title_vi": "Cách xử lý lỗi trích xuất dữ liệu bằng trí tuệ nhân tạo trong các quy trình kinh doanh tự động",
@@ -71,6 +134,40 @@
       "commentsCount": 0
     },
     {
+      "id": "1fbc5e4e7f8c435b",
+      "title_vi": "PHP phát hành bản vá khẩn cấp khắc phục hai lỗ hổng nghiêm trọng cho phép thực thi mã từ xa",
+      "title_en": "PHP Foundation Releases Emergency Patches for Two Critical Remote Code Execution Vulnerabilities",
+      "summary_vi": [
+        "Tổ chức PHP Foundation vừa chính thức phát hành các bản vá bảo mật khẩn cấp nhằm xử lý dứt điểm hai lỗ hổng nghiêm trọng nằm sâu trong lõi hệ thống.",
+        "Cả hai lỗ hổng này đều nhận mức điểm đánh giá rủi ro tối đa theo thang đo chuẩn quốc tế với CVSS v4.0 đạt mức 9.2 trên toàn hệ thống.",
+        "Các nhà phát triển và quản trị hệ thống cần nhanh chóng cập nhật phiên bản mới nhất nhằm ngăn chặn triệt để nguy cơ kẻ tấn công thực thi mã từ xa."
+      ],
+      "summary_en": [
+        "The PHP Foundation has officially released emergency security patches to completely resolve two severe vulnerabilities located deep within the core system.",
+        "Both of these newly discovered security flaws have received a maximum risk assessment score on the international scale with a CVSS v4.0 rating of 9.2.",
+        "Software developers and system administrators must urgently update to the latest version to effectively prevent potential remote code execution attacks."
+      ],
+      "originalTitle": "PHP phát hành bản vá khẩn cấp cho 2 lỗ hổng critical cho phép thực thi mã từ xa",
+      "url": "https://tinhte.vn/thread/php-phat-hanh-ban-va-khan-cap-cho-2-lo-hong-critical-cho-phep-thuc-thi-ma-tu-xa.4185930/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "PHP",
+        "Security",
+        "Vulnerability",
+        "RCE",
+        "Patch"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-21T16:21:17.000Z",
+      "contentSnippet": "The PHP Foundation vừa phát hành bản vá bảo mật khẩn cấp vào lúc 14:00 UTC ngày 21 tháng 10 để khắc phục hai lỗ hổng nghiêm trọng trong lõi PHP, mỗi lỗ hổng được đánh giá CVSS v4.0 = 9.2. Hai lỗ...",
+      "authorName": "cuhiep",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "b207d254bf6cee36",
       "title_vi": "Đánh giá thực tế bốn mô hình trí tuệ nhân tạo lớn được sử dụng song song trong một tháng về tốc độ và chi phí",
       "title_en": "Practical evaluation of four major artificial intelligence models used in parallel for one month regarding speed and cost",
@@ -131,6 +228,420 @@
       "publishedAt": "2026-10-21T15:23:55.000Z",
       "contentSnippet": "Nói trước: app này do mình tự làm. Mình chơi Clash of Clans lâu năm, và việc mất thời gian nhất luôn là tìm một bố cục nhà hợp cấp Town Hall rồi đưa ...",
       "authorName": "Base Layouts",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b3bb7eb8417b3c05",
+      "title_vi": "Tính năng điều hướng trò chuyện Gemini chính thức có mặt trên Apple CarPlay",
+      "title_en": "Conversational Gemini navigation comes to Apple CarPlay",
+      "summary_vi": [
+        "Sau khi ra mắt trợ lý ảo trí tuệ nhân tạo Gemini trên Android Auto vào năm ngoái, Google tiếp tục mở rộng tính năng này sang hệ thống Apple CarPlay dành cho người dùng ô tô.",
+        "Trợ lý giọng nói tích hợp trong Google Maps cho phép tài xế đặt câu hỏi nhiều bước, nhận đề xuất địa điểm và chỉ đường rảnh tay mà không cần thao tác thủ công phức tạp.",
+        "Việc tích hợp trí tuệ nhân tạo hội thoại vào các nền tảng điều hướng xe hơi giúp nâng cao trải nghiệm người dùng, thúc đẩy xu hướng ứng dụng AI đàm thoại trong hệ sinh thái di động."
+      ],
+      "summary_en": [
+        "After introducing its artificial intelligence assistant Gemini on Android Auto last year, Google is now expanding this capability to Apple CarPlay users worldwide.",
+        "The voice assistant integrated into Google Maps allows drivers to ask multi-step questions, receive location recommendations, and get hands-free directions without manual intervention.",
+        "Integrating conversational artificial intelligence into automotive navigation platforms enhances user experience and accelerates the adoption of voice-driven AI across mobile ecosystems."
+      ],
+      "originalTitle": "Conversational Gemini navigation comes to Apple CarPlay",
+      "url": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Gemini",
+        "Apple CarPlay",
+        "Google Maps",
+        "Mobile"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-21T15:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK255_Google_Gemini_B_474198.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "After introducing its Gemini AI assistant to Android Auto last year, Google is now bringing it to Apple CarPlay users. The conversational Gemini in navigation is available today for US drivers, with \"rollout happening globally too,\" according to Google (we've asked for specific regional availability",
+      "authorName": "Jess Weatherbed",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "dd01504f29a730f2",
+      "title_vi": "Màn hình 5K của Samsung sở hữu khả năng chơi game vượt trội với mức giá hấp dẫn",
+      "title_en": "Samsung’s 5K monitor has good gaming chops and a great price",
+      "summary_vi": [
+        "Thị trường màn hình 5K hiện nay chủ yếu phục vụ người dùng Mac nhưng mẫu Odyssey G80HF của Samsung lại nổi bật nhờ khả năng chơi game ấn tượng cùng mức giá ưu đãi tại các nhà bán lẻ.",
+        "Thiết bị tích hợp tấm nền Fast IPS hỗ trợ hai chế độ hiển thị linh hoạt gồm độ phân giải 5K tần số quét 180Hz hoặc 1440p tần số quét 360Hz cùng thời gian phản hồi một mili-giây.",
+        "Sản phẩm mang lại giá trị thực tiễn cao cho các game thủ chuyên nghiệp khi kết hợp công nghệ đồng bộ khung hình tiên tiến cùng hệ thống cổng kết nối đa dạng và hiện đại."
+      ],
+      "summary_en": [
+        "The current 5K monitor market mainly targets Mac users but Samsung's Odyssey G80HF model stands out thanks to its impressive gaming capabilities and attractive discount prices at retailers.",
+        "The device integrates a Fast IPS panel supporting two flexible display modes including 5K resolution at 180Hz refresh rate or 1440p at 360Hz alongside a one-millisecond response time.",
+        "The product delivers high practical value for professional gamers by combining advanced frame synchronization technologies with a diverse and modern hardware connection port system."
+      ],
+      "originalTitle": "Samsung’s 5K monitor has good gaming chops and a great price",
+      "url": "https://www.theverge.com/gadgets/1015346/samsung-5k-monitor-gaming-gta-6-usbc-charger-deal-sale",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Samsung",
+        "Monitor",
+        "Gaming",
+        "Hardware",
+        "DisplayPort"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-21T14:47:14.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/samsung5k.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "There are quite a few 5K monitors out there. Many of them are designed to appeal to Mac users who are looking for cheaper Studio Display alternatives without giving up the pixel-dense 218ppi screen. However, if you’re interested in hearing about one with gaming chops, Samsung’s 27-inch Odyssey G80HF",
+      "authorName": "Cameron Faulkner",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "14557531695bff45",
+      "title_vi": "Apple cho biết nguồn cung dòng điện thoại thông minh mới tại các cửa hàng sẽ rất hạn chế",
+      "title_en": "Apple says it only has limited iPhone Duo units for in-store sales",
+      "summary_vi": [
+        "Hãng công nghệ hàng đầu Apple thông báo số lượng dòng điện thoại mới bán trực tiếp tại các cửa hàng vật lý sẽ ở mức rất hạn chế do tình trạng khan hiếm nguồn cung trầm trọng từ phía nhà sản xuất.",
+        "Các đợt đặt hàng trước trực tuyến đã nhanh chóng bán hết sạch chỉ trong thời gian ngắn, khiến hệ thống dự kiến thời gian giao hàng kéo dài sang tận năm sau đối với nhiều khách hàng trên toàn cầu.",
+        "Sự kiện này phản ánh rõ nét những thách thức về chuỗi cung ứng phần cứng di động toàn cầu, đồng thời tác động trực tiếp đến chiến lược phân phối thiết bị mới của các tập đoàn công nghệ lớn hiện nay."
+      ],
+      "summary_en": [
+        "Technology giant Apple announced that the physical in-store inventory for its newly launched smartphone lineup will be severely restricted due to significant manufacturing supply chain constraints worldwide.",
+        "Online preorders sold out rapidly within a very short timeframe, pushing delivery estimates deep into next year for numerous eager consumers across global markets and retail channels.",
+        "This event clearly highlights ongoing challenges within the global mobile hardware supply chain while directly impacting the retail distribution strategies of major technology corporations today."
+      ],
+      "originalTitle": "Apple says it only has ‘limited’ iPhone Duo units for in-store sales",
+      "url": "https://www.theverge.com/tech/1015372/apple-says-it-only-has-limited-iphone-duo-units-for-in-store-sales",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "Mobile Devices",
+        "Supply Chain",
+        "Hardware"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-21T14:22:59.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268762_iPhone_Duo_AKrales_1499.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Apple says it will have \"limited\" iPhone Duo models for sale in stores, according to a report from Reuters. The iPhone Duo launches on Friday, October 23rd, but online preorders quickly sold out, with some delivery estimates extending into next year. \"On Friday morning, our teams look forward ​to we",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "203093066e1251d7",
+      "title_vi": "Vá Lỗi Toàn Cầu: Phối hợp phản ứng quốc tế khi các tác nhân thông minh phát hiện lỗ hổng bảo mật",
+      "title_en": "Patch the Planet: Global response coordination as agents uncover vulnerabilities",
+      "summary_vi": [
+        "Liên minh các nhà phát triển và chuyên gia bảo mật đã phối hợp xử lý các lỗ hổng nghiêm trọng trong ngôn ngữ lập trình phổ biến, được phát hiện nhờ sự hỗ trợ của trí tuệ nhân tạo tiên tiến.",
+        "Các nhóm nghiên cứu đã áp dụng mô hình ngôn ngữ lớn để dò quét và tìm ra điểm yếu trước khi kẻ tấn công kịp khai thác, tạo ra khoảng thời gian vàng để vá lỗi và phát hành bản cập nhật bảo mật.",
+        "Sự kiện này nhấn mạnh tầm quan trọng của việc ứng dụng công nghệ tự động hóa trong an ninh mạng, đồng thời cảnh báo về nguy cơ kẻ xấu có thể lợi dụng công cụ tương tự để phát triển mã độc."
+      ],
+      "summary_en": [
+        "A coalition of developers and security experts coordinated to address critical vulnerabilities in a popular programming language, which were discovered with the assistance of advanced artificial intelligence models.",
+        "Research teams utilized large language models to scan and identify weaknesses before malicious actors could exploit them, establishing a crucial defense window to patch flaws and release security updates.",
+        "This event emphasizes the importance of applying automation technology in cybersecurity while warning about the risk that bad actors could leverage similar tools to develop offensive exploits rapidly."
+      ],
+      "originalTitle": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Artificial Intelligence",
+        "PHP",
+        "Vulnerability",
+        "Software Engineering"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-21T14:03:43.000Z",
+      "contentSnippet": "ShareOver the past two months, we led a coalition of maintainers, researchers, and security providers to address critical vulnerabilities in PHP, an open-source programming language used to run websites and web applications. Calif identified a critical flaw using GPT‑5.6 Sol as part of our Patch the",
+      "authorName": "nr378",
+      "upvotes": 112,
+      "commentsCount": 61
+    },
+    {
+      "id": "36efafe455c2b80c",
+      "title_vi": "Nỗi lo bảo mật tại Việt Nam khi Q-Day đến sớm",
+      "title_en": "Security Concerns in Vietnam as Q-Day Approaches Earlier Than Expected",
+      "summary_vi": [
+        "Dự báo về thời gian máy tính lượng tử có thể phá vỡ các hệ mật mã hiện nay đang dịch chuyển gần hơn, đặt ra thách thức lớn cho các tổ chức công nghệ tại Việt Nam.",
+        "Quá trình thay thế cơ sở hạ tầng mật mã hiện tại bằng các thuật toán kháng lượng tử có thể kéo dài nhiều năm và đòi hỏi sự chuẩn bị kỹ lưỡng về kiến trúc hệ thống.",
+        "Các kỹ sư bảo mật và lập trình viên cần nhanh chóng đánh giá rủi ro, cập nhật tiêu chuẩn mã hóa mới để bảo vệ dữ liệu nhạy cảm trước nguy cơ bị giải mã trong tương lai."
+      ],
+      "summary_en": [
+        "Forecasts regarding when quantum computers could break current cryptographic systems are moving closer, posing major challenges for technology organizations in Vietnam.",
+        "The process of replacing existing cryptographic infrastructure with post-quantum algorithms may take years and requires thorough preparation in system architecture.",
+        "Security engineers and developers need to quickly assess risks and update new encryption standards to protect sensitive data against future decryption threats."
+      ],
+      "originalTitle": "Nỗi lo bảo mật tại Việt Nam khi Q-Day đến sớm",
+      "url": "https://vnexpress.net/noi-lo-bao-mat-tai-viet-nam-khi-q-day-den-som-5135283.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Quantum Computing",
+        "Cryptography",
+        "Security Architecture"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-21T14:01:44.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/21/mpr07749-1792585754-3718-1792585760.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=_qPu1LdSVLE0Eyax8WxKYw",
+      "contentSnippet": "Dự báo về thời gian máy tính lượng tử có thể phá vỡ các hệ mật mã hiện nay đang dịch chuyển gần hơn, trong khi quá trình thay thế công nghệ bảo mật có thể kéo dài nhiều năm.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "8319ae945c7b5cb5",
+      "title_vi": "Hệ quản trị cơ sở dữ liệu DuckDB 2.0.0 LTS Cinnamon Teal chính thức ra mắt với nhiều tính năng nâng cao",
+      "title_en": "DuckDB 2.0.0 LTS Cinnamon Teal Officially Released with Advanced Database Features",
+      "summary_vi": [
+        "Nhóm phát triển hệ quản trị cơ sở dữ liệu phân tích DuckDB vừa chính thức công bố phiên bản 2.0.0 LTS mang tên mã Cinnamon Teal, đánh dấu đợt phát hành tính năng lớn nhất kể từ trước đến nay.",
+        "Bản cập nhật này mang đến hàng loạt cải tiến quan trọng bao gồm giao thức Quack, cơ chế I/O bất đồng bộ, kiểu dữ liệu VARIANT nguyên thủy, chế độ tác nhân cùng bộ phân tích SQL có thể mở rộng linh hoạt.",
+        "Sự kiện này cung cấp một nền tảng cơ sở dữ liệu ổn định dài hạn với hiệu suất vượt trội, giúp các kỹ sư phần mềm tối ưu hóa quy trình xử lý dữ liệu lớn trong các ứng dụng hiện đại."
+      ],
+      "summary_en": [
+        "The analytical database management team has officially announced the release of DuckDB version 2.0.0 LTS codenamed Cinnamon Teal, marking their largest feature rollout to date.",
+        "This major update introduces significant architectural enhancements including the Quack protocol, asynchronous I/O operations, a first-class VARIANT data type, agent mode, and an extensible SQL parser.",
+        "The release delivers a robust long-term support platform with superior performance, empowering software engineers to optimize large-scale data processing workflows in modern applications."
+      ],
+      "originalTitle": "DuckDB 2.0.0 LTS \"Cinnamon Teal\"",
+      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "DuckDB",
+        "Database",
+        "SQL",
+        "Open Source",
+        "Data Engineering"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-21T14:01:22.000Z",
+      "contentSnippet": "Search Shortcut cmd + k | ctrl + k Announcing DuckDB 2.0.0 LTS “Cinnamon Teal” 2026-10-21 14 min read The DuckDB team TL;DR: The DuckDB team is happy to announce that today we're releasing DuckDB version 2.0.0 LTS, codenamed “Cinnamon Teal” (Spatula cyanoptera). This is our biggest feature release s",
+      "authorName": "nnx",
+      "upvotes": 172,
+      "commentsCount": 16
+    },
+    {
+      "id": "3de261913e3c44e1",
+      "title_vi": "Phiên bản thư viện LiteLLM 1.107.0 trên kho PyPI bị cài cắm mã độc đánh cắp thông tin và cửa hậu",
+      "title_en": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "summary_vi": [
+        "Kho lưu trữ mã nguồn mở PyPI phát hiện phiên bản thư viện LiteLLM 1.107.0 đã bị kẻ xấu xâm nhập và đính kèm mã độc đánh cắp thông tin xác thực cùng cửa hậu cho phép thực thi mã từ xa.",
+        "Kẻ tấn công đã thêm một dòng lệnh cấu hình trong tệp pyproject.toml để tự động sao chép thư mục độc hại vào gói cài đặt mà không để lại bất kỳ dấu vết nào trên kho lưu trữ mã nguồn mở GitHub chính thức.",
+        "Sự cố nghiêm trọng này là lời cảnh báo lớn về tính bảo mật của chuỗi cung ứng phần mềm trong hệ sinh thái Python, yêu cầu các nhà phát triển phải lập tức kiểm tra và vá lỗi hệ thống của mình."
+      ],
+      "summary_en": [
+        "The open-source repository PyPI discovered that the LiteLLM library version 1.107.0 was compromised, containing a credential-stealing malware and a remote code execution backdoor affecting all platforms.",
+        "Attackers injected a custom configuration line in the pyproject.toml file to automatically copy a malicious folder into the installation package without leaving any traces in the official GitHub repository.",
+        "This severe security incident serves as a major warning regarding software supply chain security within the Python ecosystem, requiring developers to immediately audit and patch their systems."
+      ],
+      "originalTitle": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Python",
+        "Supply Chain Attack",
+        "PyPI",
+        "Malware"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-10-21T14:00:26.000Z",
+      "contentSnippet": "Back to Blog Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor Security Kunal Singh • Oct 21, 2026 • 6 min read On this page 6 sections On this page The LiteLLM 1.107.0 release on PyPI carries a credential stealer and a remote code execution backdoor. All seven wheels (L",
+      "authorName": "abhisek",
+      "upvotes": 93,
+      "commentsCount": 42
+    },
+    {
+      "id": "553fc6102cbe7954",
+      "title_vi": "Ngôn ngữ lập trình phiên bản PHP 8.2.35",
+      "title_en": "Programming Language Version PHP 8.2.35",
+      "summary_vi": [
+        "Nhóm phát triển ngôn ngữ lập trình mã nguồn mở vừa chính thức phát hành phiên bản cập nhật bảo trì nhằm khắc phục các lỗi tồn đọng và nâng cao hiệu năng vận hành cho hệ thống máy chủ web toàn cầu.",
+        "Bản cập nhật này tập trung xử lý các lỗ hổng bảo mật tiềm ẩn, tối ưu hóa quá trình quản lý bộ nhớ trong nhân thực thi và cải thiện độ ổn định tổng thể cho các ứng dụng web phức tạp hiện nay.",
+        "Các nhà phát triển phần mềm và kỹ sư vận hành hệ thống nên tiến hành kiểm tra khả năng tương thích mã nguồn để sớm cập nhật lên phiên bản mới nhằm đảm bảo an toàn tối đa cho hạ tầng."
+      ],
+      "summary_en": [
+        "The core development team of the open-source programming language has officially released a new maintenance update aimed at resolving accumulated bugs and enhancing operational performance for global web server systems.",
+        "This update focuses on addressing potential security vulnerabilities, optimizing memory management processes within the execution engine, and improving overall stability for complex modern web applications.",
+        "Software developers and system operations engineers should conduct source code compatibility testing to promptly upgrade to the new version to ensure maximum security for their infrastructure."
+      ],
+      "originalTitle": "PHP 8.2.35",
+      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "PHP",
+        "Backend",
+        "Security",
+        "Web Development",
+        "Programming"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-21T13:45:33.000Z",
+      "contentSnippet": "PHP 8.2.35",
+      "authorName": "tuyuri",
+      "upvotes": 584,
+      "commentsCount": 236
+    },
+    {
+      "id": "c958d6e76e754b1f",
+      "title_vi": "Điện thoại thông minh năm triệu đồng thiết kế đặc biệt dành riêng cho trẻ em không tích hợp mạng xã hội và trình duyệt web",
+      "title_en": "The Five Million Dong Anti-Distraction Smartphone For Kids Powered By Artificial Intelligence To Encourage Outdoor Activities",
+      "summary_vi": [
+        "Thị trường thiết bị di động vừa ghi nhận sự xuất hiện của dòng sản phẩm mới mang tên Freckle Phone với mức giá khoảng năm triệu đồng nhằm giải quyết tình trạng nghiện màn hình ở trẻ nhỏ.",
+        "Thiết bị này loại bỏ hoàn toàn các ứng dụng mạng xã hội phổ biến cùng trình duyệt web và kho ứng dụng truyền thống để tích hợp công nghệ trí tuệ nhân tạo nhằm định hướng người dùng nhí.",
+        "Giải pháp phần cứng và phần mềm kết hợp này tạo ra xu hướng phát triển thiết bị phần cứng lành mạnh hơn, mang lại giá trị thiết thực cho ngành công nghiệp sản xuất thiết bị di động hướng đến giáo dục."
+      ],
+      "summary_en": [
+        "The mobile market has just witnessed the introduction of a new device named Freckle Phone priced around five million dong to address screen addiction among young children.",
+        "This device completely removes popular social media applications alongside web browsers and traditional app stores to integrate artificial intelligence technology for guiding young users.",
+        "This combination of hardware and software solutions creates a trend for developing healthier hardware devices, bringing practical value to the mobile manufacturing industry focused on education."
+      ],
+      "originalTitle": "Chiếc điện thoại 5 triệu đồng “ngược đời” dành riêng cho trẻ em: Không TikTok, không trình duyệt, dùng AI để kéo trẻ ra ngoài chơi",
+      "url": "https://genk.vn/chiec-dien-thoai-5-trieu-dong-nguoc-doi-danh-rieng-cho-tre-em-khong-tiktok-khong-trinh-duyet-dung-ai-de-keo-tre-ra-ngoai-choi-165261021155222607.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Mobile",
+        "AI",
+        "Hardware",
+        "Smartphones"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-21T13:03:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/21/avatar1792572600951-17925726013461695543917-0-18-864-1400-crop-17925726315971816360127.jpg",
+      "contentSnippet": "Thay vì tìm cách giữ trẻ trước màn hình lâu hơn, Freckle Phone được thiết kế theo hướng ngược lại: loại bỏ mạng xã hội, trình duyệt và kho ứng dụng, đồng thời tận dụng AI để khuyến khích trẻ ra ngoài khám phá thế giới thực.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c345b89fbeac24e9",
+      "title_vi": "Chỉ tốn 5.000 USD, AI Agent làm cách nào để tấn công hơn 1.200 website?",
+      "title_en": "How an AI Agent compromised over 1200 websites with a budget of only 5000 USD",
+      "summary_vi": [
+        "Nhà nghiên cứu an ninh mạng Snorre Fagerland phát hiện nhiều phiên bản nền tảng AI mã nguồn mở Cairn bị định cấu hình sai và lợi dụng cho các hoạt động phạm tội mạng tinh vi.",
+        "Kẻ tấn công sử dụng các câu lệnh tiếng Trung dài chưa đầy một trăm ký tự để điều khiển tác nhân trí tuệ nhân tạo thực hiện các chiến dịch xâm nhập quy mô lớn.",
+        "Sự kiện này gióng lên hồi chuông cảnh báo về rủi ro bảo mật khi triển khai hệ thống tự động hóa và năng lực tấn công ngày càng tinh gọn nhưng nguy hiểm của AI."
+      ],
+      "summary_en": [
+        "Cybersecurity researcher Snorre Fagerland discovered multiple instances of the open-source AI platform Cairn misconfigured and exploited for sophisticated cybercrime activities.",
+        "Attackers utilized Chinese text prompts of under one hundred characters to direct artificial intelligence agents in executing large-scale and automated intrusion campaigns.",
+        "This incident raises serious security alarms regarding the deployment risks of automation systems and the increasingly lean yet dangerous attack capabilities of modern AI."
+      ],
+      "originalTitle": "Chỉ tốn 5.000 USD, AI Agent làm cách nào để tấn công hơn 1.200 website?",
+      "url": "https://genk.vn/chi-ton-5000-usd-ai-agent-lam-cach-nao-de-tan-cong-hon-1200-website-165261021193222026.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "AI Agent",
+        "Cybersecurity",
+        "Cairn",
+        "Vulnerability",
+        "Artificial Intelligence"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-21T12:47:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/21/avatar1792585909997-17925859105101538561063.png",
+      "contentSnippet": "Trong vòng chưa đầy một tháng, một hacker đã khiến hơn 100 công ty lớn tại Mỹ, Canada, Úc và Nhật Bản bị xâm nhập, mà hầu như không phải tự làm gì.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "7fde764fac89e0f3",
+      "title_vi": "Trung Quốc vẫn phụ thuộc chip ngoại: Các hãng lớn đặt mua ba mươi lăm tỷ USD bộ xử lý NVIDIA",
+      "title_en": "China Still Relies on Foreign Chips: Tech Giants Place Thirty Five Billion USD Orders for NVIDIA Processors",
+      "summary_vi": [
+        "Dù đã trải qua nhiều năm nỗ lực tự chủ ngành công nghiệp bán dẫn trong nước, các tập đoàn công nghệ hàng đầu tại Trung Quốc vẫn vừa tung ra những đơn hàng khổng lồ với số lượng lên đến hàng triệu chip xử lý từ hãng NVIDIA.",
+        "Các bộ xử lý được đặt mua trong đợt này không phải là dòng sản phẩm mạnh nhất do các lệnh hạn chế xuất khẩu, nhưng chúng vẫn đóng vai trò cốt lõi trong việc duy trì hạ tầng tính toán cho các hệ thống trí tuệ nhân tạo.",
+        "Sự kiện này phản ánh thực tế về khoảng cách công nghệ trong ngắn hạn, đồng thời tạo ra những tác động mạnh mẽ đến chuỗi cung ứng phần cứng toàn cầu cũng như chiến lược phát triển hạ tầng đám mây của các kỹ sư."
+      ],
+      "summary_en": [
+        "Despite years of dedicated efforts to achieve domestic semiconductor self-sufficiency, major technology conglomerates in China have recently placed massive orders for millions of processing chips from NVIDIA.",
+        "The processors ordered in this batch are not the absolute strongest product lines due to ongoing export restrictions, yet they remain fundamentally crucial for sustaining computational infrastructure powering artificial intelligence systems.",
+        "This event reflects the reality of short-term technological gaps while exerting profound impacts on the global hardware supply chain and influencing cloud infrastructure development strategies for engineers worldwide."
+      ],
+      "originalTitle": "Trung Quốc vẫn khát chip ngoại: ByteDance, Alibaba và Tencent đặt mua 35 tỷ USD chip NVIDIA",
+      "url": "https://genk.vn/trung-quoc-van-khat-chip-ngoai-bytedance-alibaba-va-tencent-dat-mua-35-ty-usd-chip-nvidia-165261021193031226.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "NVIDIA",
+        "Semiconductors",
+        "AI Infrastructure",
+        "China Tech",
+        "Hardware"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-21T12:30:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/21/avatar1792585765571-17925857681221507686926-63-0-1004-1506-crop-1792585816499968968594.png",
+      "contentSnippet": "Dù Trung Quốc có nhiều năm nỗ lực tự chủ chip bán dẫn, các đại gia công nghệ nước này vừa đặt đơn hàng khổng lồ hàng triệu chip NVIDIA, dù đây không phải là các bộ xử lý mạnh nhất.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "beeb6e46b31a709a",
+      "title_vi": "Mở hộp điện thoại gập iPhone Duo sắp bán tại thị trường Việt Nam",
+      "title_en": "Unboxing the upcoming foldable iPhone Duo heading to the Vietnamese market",
+      "summary_vi": [
+        "Điện thoại thông minh màn hình gập iPhone Duo chính thức xuất hiện với thiết kế hộp đựng hoàn toàn khác biệt và sử dụng mã định danh X/A chuyên biệt dành riêng cho thị trường Việt Nam.",
+        "Thiết bị tích hợp những công nghệ hiển thị tiên tiến cùng cơ chế bản lề tối ưu, đánh dấu bước tiến lớn trong kỹ thuật phần cứng di động cao cấp của Apple.",
+        "Sự kiện thương mại này mang đến lựa chọn mới mẻ cho người dùng, đồng thời tạo ra động lực thúc đẩy các nhà phát triển tối ưu hóa ứng dụng cho dòng thiết bị màn hình gập."
+      ],
+      "summary_en": [
+        "The foldable smartphone iPhone Duo has officially emerged featuring a distinctive packaging design and utilizing a specialized X/A product code designated specifically for the Vietnamese market.",
+        "The device integrates advanced display technologies alongside an optimized hinge mechanism, marking a significant milestone in Apple's high-end mobile hardware engineering capabilities.",
+        "This commercial release provides fresh choices for consumers while simultaneously driving developers to optimize applications specifically designed for foldable device form factors."
+      ],
+      "originalTitle": "Mở hộp điện thoại gập iPhone Duo sắp bán tại Việt Nam",
+      "url": "https://vnexpress.net/mo-hop-dien-thoai-gap-iphone-duo-sap-ban-tai-viet-nam-5135211.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone",
+        "Foldable",
+        "Mobile",
+        "Apple",
+        "Hardware"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-21T12:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/21/topp-1792579675.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=2G22WaLgRvDZVuVtWUmZGA",
+      "contentSnippet": "Smartphone màn hình gập iPhone Duo có thiết kế hộp đựng khác biệt, sử dụng mã X/A cho thị trường Việt Nam và tới tay người dùng từ ngày 23/10.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -7970,522 +8481,6 @@
       "publishedAt": "2026-10-12T20:03:14.000Z",
       "contentSnippet": "JRE là môi trường thực thi Java, cung cấp các thư viện và tài nguyên cần thiết để chạy các ứng dụng Java đã được biên dịch thành bytecode. Các thành p...",
       "authorName": "Tieu Share",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8b6bac876fea9627",
-      "title_vi": "Khám phá các cổng kết nối trung gian thay thế OpenRouter khi sử dụng Claude Code",
-      "title_en": "Exploring Alternative API Gateways to OpenRouter for Claude Code Integration",
-      "summary_vi": [
-        "Bài viết thảo luận về việc thực hiện các phép thử kỹ thuật nhằm tìm kiếm những dịch vụ trung gian phù hợp để kết nối với công cụ lập trình Claude Code trước khi tiến hành thay đổi cấu hình toàn bộ dự án phần mềm.",
-        "Quá trình đánh giá tập trung vào việc xác định các cổng giao tiếp API gateway nào thực sự hỗ trợ đầy đủ mô hình ngôn ngữ lớn Claude, đảm bảo tính ổn định và khả năng tương thích cao trong môi trường phát triển thực tế.",
-        "Nghiên cứu này mang lại giá trị thực tiễn cao cho các kỹ sư phần mềm khi muốn tối ưu hóa chi phí và linh hoạt lựa chọn nhà cung cấp dịch vụ hạ tầng trí tuệ nhân tạo mà không bị phụ thuộc vào một nền tảng duy nhất."
-      ],
-      "summary_en": [
-        "The article discusses conducting technical experiments to find suitable intermediary services for connecting with the Claude Code programming tool before modifying the configuration of entire software projects.",
-        "The evaluation process focuses on identifying which API gateways genuinely support the Claude large language models, ensuring stability and high compatibility in real-world development environments.",
-        "This research delivers high practical value for software engineers seeking to optimize costs and flexibly choose AI infrastructure providers without being locked into a single platform."
-      ],
-      "originalTitle": "Ngoài OpenRouter, có gateway nào dùng được với Claude Code?",
-      "url": "https://viblo.asia/p/ngoai-openrouter-co-gateway-nao-dung-duoc-voi-claude-code-Nj4vgOG2J6r",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Claude Code",
-        "OpenRouter",
-        "API Gateway",
-        "AI Development",
-        "LLM"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-12T18:26:08.000Z",
-      "contentSnippet": "Xây dựng một phép thử nhỏ trước khi đổi cấu hình của cả dự án. Khi chọn dịch vụ trung gian cho Claude Code, câu hỏi “có hỗ trợ Claude không?” vẫn chư...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "d0e7a69f7f4f602c",
-      "title_vi": "Top 10 mô hình trí tuệ nhân tạo: Chuyển đổi bảng xếp hạng thành các lựa chọn kiểm chứng được",
-      "title_en": "Top 10 Artificial Intelligence Models: Transforming Leaderboard Rankings into Verifiable Choices",
-      "summary_vi": [
-        "Bài viết phân tích danh sách mười mô hình trí tuệ nhân tạo hàng đầu hiện nay, giúp người dùng chuyển hóa các dữ liệu thô từ bảng xếp hạng thành tiêu chí đánh giá thực tế và khách quan hơn trong quá trình lựa chọn công nghệ.",
-        "Các số liệu và điểm chuẩn được thu thập từ nhiều nguồn uy tín để so sánh năng lực xử lý ngôn ngữ tự nhiên, khả năng suy luận logic cùng hiệu suất vận hành thực tế của từng kiến trúc mô hình ngôn ngữ lớn.",
-        "Nghiên cứu này mang lại giá trị thiết thực cho các kỹ sư phần mềm và nhà phát triển trong việc đưa ra quyết định tích hợp mô hình tối ưu, tiết kiệm chi phí tính toán và nâng cao chất lượng sản phẩm."
-      ],
-      "summary_en": [
-        "The article analyzes a curated list of the top ten artificial intelligence models today, helping users convert raw data from leaderboards into practical and objective evaluation criteria during technology selection processes.",
-        "Metrics and benchmarks were gathered from multiple reliable sources to compare natural language processing capabilities, logical reasoning abilities, and operational performance across different large language model architectures.",
-        "This research delivers practical value for software engineers and developers in making optimal integration decisions, reducing computational costs, and improving the overall quality of technology products."
-      ],
-      "originalTitle": "Top 10 mô hình AI: biến thứ hạng trong bảng xếp hạng thành lựa chọn kiểm chứng được",
-      "url": "https://viblo.asia/p/top-10-mo-hinh-ai-bien-thu-hang-trong-bang-xep-hang-thanh-lua-chon-kiem-chung-duoc-y0VGwWy0VPA",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "LLM",
-        "Machine Learning",
-        "Benchmarks",
-        "Software Architecture"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-12T17:56:43.000Z",
-      "contentSnippet": "Top 10 mô hình AI: biến thứ hạng trong bảng xếp hạng thành lựa chọn kiểm chứng được Ngày viết: 12/10/2026. Toàn bộ số liệu được thu thập trong cùng n...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "09a81d96778d59ac",
-      "title_vi": "Claude Haiku 5.5 ra mắt: tối ưu cho agent và tác vụ thời gian thực",
-      "title_en": "Claude Haiku 5.5 Launched: Optimized for Agents and Real-time Tasks",
-      "summary_vi": [
-        "Công ty Anthropic chính thức giới thiệu mô hình trí tuệ nhân tạo Claude Haiku 5.5 vào tháng mười năm hai nghìn không trăm hai mươi sáu, đánh dấu bước tiến quan trọng trong việc phát triển các hệ thống trợ lý ảo thông minh.",
-        "Mô hình mới này được thiết kế với kích thước nhỏ gọn, mang lại tốc độ xử lý dữ liệu cực nhanh cùng mức chi phí vận hành thấp, rất phù hợp cho các tác vụ tính toán thời gian thực đòi hỏi độ trễ cực thấp.",
-        "Sự kiện ra mắt này cung cấp cho các nhà phát triển phần mềm một công cụ mạnh mẽ để xây dựng các tác nhân tự động hóa hiệu quả cao, góp phần thúc đẩy ứng dụng trí tuệ nhân tạo trong các hệ thống doanh nghiệp hiện đại."
-      ],
-      "summary_en": [
-        "Anthropic officially introduced the Claude Haiku 5.5 artificial intelligence model in October 2026, marking a significant milestone in the development of intelligent virtual assistant systems.",
-        "This new model is engineered with a compact size, delivering ultra-fast data processing speeds alongside low operational costs, making it ideal for real-time computing tasks requiring minimal latency.",
-        "The launch provides software developers with a powerful tool to build highly efficient autonomous agents, thereby driving artificial intelligence adoption across modern enterprise systems."
-      ],
-      "originalTitle": "Claude Haiku 5.5 ra mắt: tối ưu cho agent và tác vụ thời gian thực",
-      "url": "https://viblo.asia/p/claude-haiku-55-ra-mat-toi-uu-cho-agent-va-tac-vu-thoi-gian-thuc-13VM9d3WVY7",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Anthropic",
-        "Claude Haiku",
-        "AI Agents",
-        "Machine Learning"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-12T17:42:17.000Z",
-      "contentSnippet": "Anthropic chính thức ra mắt Claude Haiku 5.5 vào ngày 7 tháng 10 năm 2026. Đây là mô hình có kích thước nhỏ nhất, tốc độ xử lý nhanh nhất và chi phí t...",
-      "authorName": "Trần Văn Tuấn",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "846af7f67ce8bfa6",
-      "title_vi": "Meta ra mắt các mô hình trí tuệ nhân tạo Wonder mới vô cùng ấn tượng",
-      "title_en": "Meta has some Wonder Full new AI models",
-      "summary_vi": [
-        "Tập đoàn Meta đang nhanh chóng khẳng định vị thế trong cuộc đua trí tuệ nhân tạo bằng việc liên tục giới thiệu các mô hình ngôn ngữ lớn mới từ bộ phận nghiên cứu siêu trí tuệ, nhằm cạnh tranh trực tiếp với những đối thủ hàng đầu trên thị trường hiện nay.",
-        "Hai mô hình mới mang tên Muse Wonder và Muse Wonder Full được phát hành dành riêng cho những người đăng ký dịch vụ Muse Code, trong đó phiên bản Wonder hỗ trợ truy cập thông qua giao diện lập trình ứng dụng Meta Model API.",
-        "Việc tích hợp các mô hình tiên tiến này vào trợ lý ảo thông minh đánh dấu bước tiến chiến lược của Meta, mang lại khả năng xử lý ngôn ngữ vượt trội và mở ra nhiều ứng dụng thực tiễn cho cộng đồng lập trình viên."
-      ],
-      "summary_en": [
-        "Meta is rapidly strengthening its position in the artificial intelligence race by continuously introducing advanced large language models from its superintelligence research division to compete directly with leading market rivals.",
-        "The two new models named Muse Wonder and Muse Wonder Full are released exclusively for Muse Code subscribers, with the Wonder version supporting programmatic access through the Meta Model API interface.",
-        "Integrating these cutting-edge models into smart AI assistants marks a strategic milestone for Meta, delivering exceptional language processing capabilities and enabling numerous practical applications for developers."
-      ],
-      "originalTitle": "Meta has some Wonder Full new AI models",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Meta",
-        "AI",
-        "Machine Learning",
-        "API",
-        "Superintelligence"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-12T17:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder ",
-      "authorName": "Robert Hart",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ebb9ee7ef6cdbf57",
-      "title_vi": "Nguyên nhân đằng sau chiến lược liên tục phát hành mô hình AI mới của các công ty Trung Quốc",
-      "title_en": "The Reasons Behind Chinese AI Companies Constantly Releasing New Models",
-      "summary_vi": [
-        "Thị trường trí tuệ nhân tạo chứng kiến tần suất nâng cấp mô hình dày đặc từ các doanh nghiệp công nghệ Trung Quốc, phản ánh cuộc đua khốc liệt nhằm chiếm lĩnh thị phần người dùng.",
-        "Sự bùng nổ của các kiến trúc mạng nơ-ron mới cùng việc tối ưu hóa thuật toán đã kéo giá dịch vụ đám mây và API trí tuệ nhân tạo lao dốc mạnh mẽ trên diện rộng.",
-        "Áp lực cạnh tranh gay gắt buộc các kỹ sư phần mềm phải liên tục cải tiến hiệu suất mô hình để tạo dấu ấn riêng thay vì chỉ chạy đua theo số lượng."
-      ],
-      "summary_en": [
-        "The artificial intelligence market witnesses a high frequency of model upgrades from Chinese tech enterprises, reflecting an intense race to capture user market share.",
-        "The surge of novel neural network architectures and algorithm optimization has driven down the pricing of cloud services and AI APIs significantly across the board.",
-        "Fierce competitive pressure forces software engineers to continuously improve model performance to establish a unique footprint rather than merely racing in quantity."
-      ],
-      "originalTitle": "Lý do công ty AI Trung Quốc liên tục ra mắt mô hình mới",
-      "url": "https://vnexpress.net/ly-do-cong-ty-ai-trung-quoc-lien-tuc-ra-mat-mo-hinh-moi-5129581.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Cloud Computing",
-        "Tech Trends"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-12T17:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/07/DSC00706-JPG-5009-1791364802.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=G9_7iQj74D6Tli1vl7aLAQ",
-      "contentSnippet": "Tần suất nâng cấp dày đặc, giá dịch vụ lao dốc và cạnh tranh gay gắt khiến các mô hình trí tuệ nhân tạo (AI) mới ngày càng chật vật để tạo dựng dấu ấn riêng trên thị trường.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9d4a7fc59d8e1e83",
-      "title_vi": "Thị trường smartphone quý 3 năm 2026: Samsung dẫn đầu nhờ mẫu điện thoại gập, lượng xuất xưởng toàn cầu sụt giảm",
-      "title_en": "Q3 2026 Smartphone Market: Samsung Leads with Foldable Devices While Global Shipments Decline Significantly",
-      "summary_vi": [
-        "Theo dữ liệu ước tính mới công bố từ hãng nghiên cứu thị trường Counterpoint Research vào tháng mười năm hai nghìn không trăm hai mươi sáu, lượng thiết bị di động xuất xưởng toàn cầu đã giảm khoảng hai mươi phần trăm so với cùng kỳ năm ngoái.",
-        "Sự sụt giảm này đẩy thị trường xuống mức thấp kỷ lục trong nhiều quý gần đây, bất chấp những nỗ lực kích cầu từ các nhà sản xuất phần cứng lớn thông qua việc ra mắt các dòng sản phẩm màn hình gập thế hệ mới.",
-        "Trong bối cảnh thị trường thu hẹp, Samsung vẫn duy trì vị thế dẫn đầu với thị phần ấn tượng nhờ sức hút từ dòng thiết bị cầm tay cao cấp Z Fold, tạo động lực cho các nhà phát triển ứng dụng tối ưu hóa giao diện di động."
-      ],
-      "summary_en": [
-        "According to preliminary estimates published by Counterpoint Research in October 2026, global smartphone shipments experienced a significant decline of approximately twenty percent compared to the same period last year.",
-        "This downward trend pushed the global market to its lowest quarterly volume in recent history, despite aggressive hardware refresh cycles and promotional efforts centered around next-generation foldable mobile devices.",
-        "Despite the broader market contraction, Samsung maintained its market leadership position by capturing twenty-three percent share, largely driven by strong consumer adoption of their latest foldable flagship smartphone lineup."
-      ],
-      "originalTitle": "Smartphone Q3/2026: Samsung dẫn đầu với 23% nhờ Z Fold8, toàn cầu giảm 20%",
-      "url": "https://tinhte.vn/thread/smartphone-q3-2026-samsung-dan-dau-voi-23-nho-z-fold8-toan-cau-giam-20.4183656/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Smartphone",
-        "Samsung",
-        "Mobile Market",
-        "Counterpoint",
-        "Hardware"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-12T15:43:42.000Z",
-      "contentSnippet": "Theo ước tính sơ bộ từ Counterpoint Research công bố ngày 12/10/2026, lượng smartphone xuất xưởng toàn cầu trong quý 3/2026 giảm khoảng 20% so với cùng kỳ năm trước, xuống mức thấp nhất trong quý...",
-      "authorName": "cuhiep",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "7fd0ea7f0e26e79b",
-      "title_vi": "Chiếc điện thoại thông minh mới ra mắt đánh dấu bước đột phá lớn nhất của thương hiệu trong nhiều năm qua",
-      "title_en": "The newly launched smartphone marks the brand's biggest breakthrough in years",
-      "summary_vi": [
-        "Sản phẩm điện thoại thông minh cao cấp mới nhất vừa chính thức ra mắt tại thị trường Trung Quốc, đánh dấu bước đi quan trọng sau khi hãng rút khỏi thị trường Bắc Mỹ và châu Âu vào mùa hè năm nay.",
-        "Thiết bị sở hữu cấu hình phần cứng cực kỳ mạnh mẽ với bộ vi xử lý Snapdragon tiên tiến, dung lượng RAM lớn kết hợp cùng viên pin silicon-carbon dung lượng khủng chín nghìn miliamp giờ và công nghệ sạc nhanh ấn tượng.",
-        "Sự ra mắt của dòng sản phẩm này thiết lập một chuẩn mực mới về thời lượng pin và hiệu năng xử lý trên thiết bị di động, tạo sức ép cạnh tranh mạnh mẽ đối với các nhà sản xuất điện thoại thông minh khác."
-      ],
-      "summary_en": [
-        "The latest flagship smartphone was officially launched in the Chinese market, marking a significant strategic move after the company withdrew from North American and European markets earlier this summer.",
-        "The device features robust hardware performance powered by an advanced Snapdragon processor, substantial RAM capacity paired with an enormous nine thousand milliamp-hour silicon-carbon battery and impressive fast charging technology.",
-        "The introduction of this product lineup establishes a new benchmark for battery life and processing performance in mobile devices, creating strong competitive pressure for other major smartphone manufacturers."
-      ],
-      "originalTitle": "The OnePlus 16 is the company’s most interesting phone in years",
-      "url": "https://www.theverge.com/tech/1009570/oneplus-16-specs-features-china",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "Smartphones",
-        "Hardware",
-        "Mobile",
-        "Battery Tech",
-        "Snapdragon"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-12T13:13:53.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/oneplus-16.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Today the OnePlus 16 launched in China, the company's first flagship phone since quitting both the US and European markets this summer. As luck would have it, it also looks like the company's best phone in some time. Like most OnePlus phones, the 16 is positioned around performance, with a Snapdrago",
-      "authorName": "Dominic Preston",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1f073325dc394b50",
-      "title_vi": "Chip trí tuệ nhân tạo mới của Microsoft giúp giảm sự phụ thuộc vào bộ xử lý đồ họa của Nvidia",
-      "title_en": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
-      "summary_vi": [
-        "Microsoft vừa công bố dòng chip trí tuệ nhân tạo thế hệ thứ ba mang tên Maia 300, được thiết kế để trở thành hệ thống suy luận cốt lõi cho toàn bộ các sản phẩm và dịch vụ đám mây của tập đoàn.",
-        "Vi xử lý mới này mang lại hiệu suất vượt trội, tối ưu hóa chi phí vận hành khối lượng công việc trí tuệ nhân tạo và xử lý hiệu quả các mô hình suy luận tiên tiến cùng các tác vụ tự trị.",
-        "Sản phẩm đánh dấu bước tiến chiến lược của Microsoft trong việc tự chủ phần cứng, mang lại khả năng tiết kiệm năng lượng đáng kể so với các hệ thống dựa trên bộ xử lý đồ họa truyền thống."
-      ],
-      "summary_en": [
-        "Microsoft has recently announced its third-generation artificial intelligence chip named Maia 300, which is engineered to serve as the primary inference system for all corporate cloud products and services.",
-        "This new processor delivers superior performance, optimizes the operational costs of artificial intelligence workloads, and effectively handles advanced reasoning models alongside autonomous agentic tasks.",
-        "The product marks a strategic milestone for Microsoft in hardware independence, delivering significant energy efficiency improvements compared to conventional graphics processing unit-based systems."
-      ],
-      "originalTitle": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
-      "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Semiconductors",
-        "Cloud Computing",
-        "Hardware",
-        "Microsoft"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-12T13:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Maia-300-prototype-chip-03.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Microsoft’s Maia 300 chip. | Image: Microsoft Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of running AI workloads in the cloud, it'",
-      "authorName": "Tom Warren",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "25b819ae69b189eb",
-      "title_vi": "Cơn sốt phim ngắn AI đầu độc sức khỏe người già và cái bẫy cảm xúc vô hình khiến con cháu giật mình",
-      "title_en": "The AI Short Film Craze Endangers Elderly Health and Sets Invisible Emotional Traps",
-      "summary_vi": [
-        "Những thước phim ngắn vài phút được tạo ra bởi trí tuệ nhân tạo đang âm thầm thao túng tâm lý người cao tuổi, khiến họ dán chặt mắt vào màn hình suốt nhiều giờ liền gây ảnh hưởng xấu.",
-        "Các mô hình sinh nội dung tự động tối ưu hóa trải nghiệm người dùng bằng thuật toán gây nghiện sâu, tận dụng các điểm yếu về mặt cảm xúc để giữ chân người xem lâu hơn trên các nền tảng số.",
-        "Sự bùng nổ của nội dung AI đòi hỏi các nhà phát triển và kỹ sư công nghệ phải có trách nhiệm đạo đức cao hơn trong việc thiết kế hệ thống gợi ý để bảo vệ sức khỏe cộng đồng."
-      ],
-      "summary_en": [
-        "Short films generated by artificial intelligence are silently manipulating the psychology of elderly people, causing them to glue their eyes to screens for hours and impacting health.",
-        "Automated content generation models optimize user experience through deep addictive algorithms, exploiting emotional weaknesses to retain viewers longer on digital platforms.",
-        "The explosion of AI content demands that developers and software engineers exercise higher ethical responsibilities when designing recommendation systems to protect public health."
-      ],
-      "originalTitle": "Cơn sốt phim ngắn AI đầu độc sức khỏe người già và cái bẫy cảm xúc vô hình khiến con cháu giật mình",
-      "url": "https://genk.vn/con-sot-phim-ngan-ai-dau-doc-suc-khoe-nguoi-gia-va-cai-bay-cam-xuc-vo-hinh-khien-con-chau-giat-minh-165261012104846236.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Generative AI",
-        "Algorithms",
-        "Ethics",
-        "Social Impact"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-12T12:52:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/12/avatar1791776881425-17917768826811292927533.jpg",
-      "contentSnippet": "Những thước phim ngắn vài phút đang âm thầm thao túng tâm lý người cao tuổi, khiến họ dán chặt mắt vào màn hình suốt nhiều giờ liền. Bác sĩ tâm thần đã gióng lên hồi chuông cảnh báo về hiểm họa khôn lường, đồng thời hé lộ phương cách tháo gỡ bất ngờ cho các gia đình hiện nay.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4c19e458f999c58b",
-      "title_vi": "Satya Nadella: Cần giả định mô hình trí tuệ nhân tạo đã bị xâm phạm và luôn giữ khả năng ngắt kết nối khẩn cấp",
-      "title_en": "Satya Nadella: Assume AI Models Are Compromised from the Start and Maintain Emergency Human Intervention",
-      "summary_vi": [
-        "Giám đốc điều hành Microsoft Satya Nadella vừa đăng tải bài viết quan trọng trên mạng xã hội X, nhấn mạnh tầm quan trọng của việc thắt chặt an ninh và kiểm soát các hệ thống trí tuệ nhân tạo quy mô lớn.",
-        "Ông đề xuất nguyên tắc bảo mật giả định rằng các mô hình trí tuệ nhân tạo đã bị xâm phạm ngay từ giai đoạn đầu, đồng thời yêu cầu luôn duy trì cơ chế kỹ thuật để con người có thể dừng hệ thống giữa chừng.",
-        "Khuyến nghị này đặt ra tiêu chuẩn kiến trúc an ninh mới cho các kỹ sư phát triển phần mềm, nhằm giảm thiểu rủi ro bảo mật và ngăn chặn sự cố mất kiểm soát trong các ứng dụng AI hiện đại."
-      ],
-      "summary_en": [
-        "Microsoft CEO Satya Nadella published a comprehensive post on X emphasizing the critical need for enhanced security measures and strict governance over large-scale artificial intelligence systems.",
-        "He proposed a fundamental security principle assuming that AI models are compromised from inception, while demanding robust technical mechanisms enabling humans to halt system execution at any time.",
-        "This strategic recommendation establishes a new security architectural standard for software engineers, aiming to mitigate potential vulnerabilities and prevent runaway failures in modern AI deployments."
-      ],
-      "originalTitle": "Satya Nadella: nên giả định các mô hình AI \"đã bị xâm phạm\" ngay từ đầu, con người phải dừng...",
-      "url": "https://tinhte.vn/thread/satya-nadella-nen-gia-dinh-cac-mo-hinh-ai-da-bi-xam-pham-ngay-tu-dau-con-nguoi-phai-dung.4183403/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Security",
-        "Microsoft",
-        "Machine Learning",
-        "DevSecOps"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-12T12:29:57.000Z",
-      "contentSnippet": "Satya Nadella: nên giả định các mô hình AI \"đã bị xâm phạm\" ngay từ đầu, con người phải dừng được AI giữa chừng CEO Microsoft Satya Nadella vừa đăng một bài viết dài trên X, cho rằng các biện...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "75d8ef5b48112d29",
-      "title_vi": "MoMo: Sự tin dùng được bồi đắp qua mỗi giao dịch",
-      "title_en": "MoMo: Building Trust and Reliability Through Every Digital Transaction",
-      "summary_vi": [
-        "Nền tảng tài chính số MoMo hiện đang phục vụ hơn ba mươi triệu người dùng tại thị trường Việt Nam, cung cấp hệ sinh thái thanh toán số toàn diện bao gồm chuyển tiền, thanh toán hóa đơn và các dịch vụ mua sắm thiết yếu ngay trên thiết bị di động cá nhân.",
-        "Từ nền tảng ban đầu là một ví điện tử thuần túy, hệ thống đang từng bước chuyển dịch thành trợ thủ tài chính tích hợp công nghệ trí tuệ nhân tạo tiên tiến, hỗ trợ người dùng tối ưu hóa việc quản lý chi tiêu và kết nối linh hoạt với mạng lưới đối tác rộng lớn.",
-        "Sự phát triển này đánh dấu bước tiến quan trọng của các ứng dụng tài chính di động trong việc ứng dụng công nghệ hiện đại nhằm nâng cao trải nghiệm người dùng, mở ra hướng đi mới cho việc vận hành kinh doanh và cung cấp dịch vụ số."
-      ],
-      "summary_en": [
-        "The digital financial platform MoMo currently serves over thirty million users in the Vietnamese market, providing a comprehensive digital payment ecosystem that includes money transfers, bill payments, and essential shopping services directly on personal mobile devices.",
-        "From its initial foundation as a pure electronic wallet, the system is gradually evolving into a financial assistant integrated with advanced artificial intelligence technology, helping users optimize expense management and flexibly connect with a vast network of partners.",
-        "This development marks a significant milestone for mobile financial applications in adopting modern technology to enhance user experiences, opening new directions for business operations and digital service delivery in the fintech industry."
-      ],
-      "originalTitle": "MoMo: Sự tin dùng được bồi đắp qua mỗi giao dịch",
-      "url": "https://genk.vn/momo-su-tin-dung-duoc-boi-dap-qua-moi-giao-dich-165261012185621808.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "MoMo",
-        "Fintech",
-        "AI",
-        "Mobile App",
-        "Digital Wallet"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-12T11:55:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/12/avatar1791806106278-1791806106707298119394.jpg",
-      "contentSnippet": "MoMo là nền tảng tài chính số Việt phục vụ hơn 30 triệu người dùng, đưa chuyển tiền, thanh toán hóa đơn, mua sắm và nhiều tiện ích thiết yếu lên điện thoại. Từ một ví điện tử, MoMo đang phát triển thành “Trợ thủ tài chính với AI”, hỗ trợ quản lý chi tiêu, tiếp cận các dịch vụ do đối tác cung cấp và ",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8669de96b92b8240",
-      "title_vi": "Game thủ có nguy cơ mất RTX 5090 do NVIDIA ưu tiên chip cho trí tuệ nhân tạo và chuyển hướng sang dòng RTX 5080 24 GB",
-      "title_en": "Gamers Face RTX 5090 Shortage as NVIDIA Shifts Chip Allocation to Artificial Intelligence and Promotes RTX 5080 24GB",
-      "summary_vi": [
-        "Thị trường phần cứng máy tính đang đối mặt với thông tin NVIDIA có thể ngừng sản xuất dòng card đồ họa mạnh mẽ nhất dành cho game thủ để tập trung nguồn lực sản xuất chip cho các trung tâm dữ liệu trí tuệ nhân tạo.",
-        "Việc phân bổ lại tấm bán dẫn và kiến trúc chip xử lý đồ họa cho thấy chiến lược ưu tiên mảng điện toán hiệu năng cao và AI sinh lời tốt hơn thay vì duy trì nguồn cung thiết bị chơi game cao cấp.",
-        "Sự thay đổi chiến lược này có thể làm thay đổi đáng kể thị trường linh kiện máy tính cao cấp, buộc các nhà phát triển và người dùng chuyên nghiệp phải tìm kiếm các giải pháp thay thế từ dòng sản phẩm khác."
-      ],
-      "summary_en": [
-        "The computer hardware market is facing reports that NVIDIA might discontinue its most powerful graphics card series for gamers to redirect chip manufacturing resources toward artificial intelligence data centers.",
-        "This reallocation of silicon and graphics processing architecture highlights a strategic shift favoring high-performance computing and lucrative AI sectors over maintaining high-end gaming hardware supplies.",
-        "This strategic shift could significantly alter the high-end hardware market, compelling developers and professional users to seek alternative solutions from newly positioned product lineups."
-      ],
-      "originalTitle": "Game thủ sắp mất RTX 5090? NVIDIA bị đồn gom chip mạnh nhất cho AI, đưa RTX 5080 24 GB lên thay",
-      "url": "https://genk.vn/game-thu-sap-mat-rtx-5090-nvidia-bi-don-gom-chip-manh-nhat-cho-ai-dua-rtx-5080-24-gb-len-thay-165261110174338464.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "NVIDIA",
-        "RTX 5090",
-        "AI Chips",
-        "Semiconductors",
-        "Hardware"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-12T11:43:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/12/avatar1791805383857-1791805385445813317932.jpg",
-      "contentSnippet": "Card đồ họa mạnh nhất dành cho game thủ có thể sắp biến mất khỏi dây chuyền sản xuất. Phần chip bên trong nó được cho là sẽ được chuyển sang những sản phẩm sinh lời tốt hơn.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b7a40a9ea7f0989b",
-      "title_vi": "Phần mềm hệ thống thông tin địa lý chính thức cấm đóng góp mã nguồn được tạo ra bởi trí tuệ nhân tạo",
-      "title_en": "QGIS bans AI assisted contributions",
-      "summary_vi": [
-        "Dự án phần mềm mã nguồn mở QGIS đã chính thức đưa ra quyết định cấm toàn bộ các đóng góp mã nguồn và tài liệu được hỗ trợ hoặc tạo ra bởi các công cụ trí tuệ nhân tạo nhằm đảm bảo chất lượng và bản quyền.",
-        "Lệnh cấm này đặt ra những thách thức lớn về quy trình kiểm duyệt mã nguồn, quản lý kho lưu trữ git và xác thực nguồn gốc đóng góp từ cộng đồng phát triển toàn cầu trong bối cảnh các công cụ AI đang bùng nổ.",
-        "Sự kiện này phản ánh cuộc tranh luận gay gắt trong cộng đồng lập trình mã nguồn mở về tính minh bạch, trách nhiệm pháp lý và rủi ro bảo mật tiềm ẩn khi sử dụng mã lệnh tự động sinh ra trong các dự án lớn."
-      ],
-      "summary_en": [
-        "The open-source GIS software project has officially implemented a strict ban on all source code and documentation contributions assisted or generated by artificial intelligence tools to maintain quality and copyright integrity.",
-        "This prohibition introduces significant challenges regarding source code review workflows, git repository management, and verifying the authenticity of contributions from the global developer community amid the AI boom.",
-        "This event reflects the intense debate within the open-source programming community regarding transparency, legal liability, and potential security risks associated with utilizing automatically generated code in large-scale projects."
-      ],
-      "originalTitle": "QGIS bans AI assisted contributions",
-      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "QGIS",
-        "AI",
-        "Open Source",
-        "Software Engineering",
-        "Compliance"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-12T11:22:24.000Z",
-      "contentSnippet": "QGIS bans AI assisted contributions",
-      "authorName": "bwnkl",
-      "upvotes": 217,
-      "commentsCount": 191
-    },
-    {
-      "id": "c1c4298eb8edc078",
-      "title_vi": "FPT hợp tác với NAVER Cloud mở rộng hoạt động AI Factory trên toàn cầu",
-      "title_en": "FPT Partners with NAVER Cloud to Globally Expand AI Factory Operations",
-      "summary_vi": [
-        "Tập đoàn công nghệ FPT chính thức ký kết thỏa thuận chiến lược quan trọng cùng NAVER Cloud, đánh dấu bước tiến lớn trong việc phát triển và triển khai hệ thống nhà máy trí tuệ nhân tạo trên phạm vi toàn cầu.",
-        "Sự hợp tác này tập trung tích hợp mô hình ngôn ngữ lớn tiên tiến HyperCLOVA X vào các giải pháp hạ tầng điện toán đám mây và trung tâm dữ liệu hiệu năng cao dành cho doanh nghiệp.",
-        "Thỏa thuận này mang lại động lực thúc đẩy mạnh mẽ cho hệ sinh thái công nghệ số, giúp tối ưu hóa chi phí vận hành và nâng cao năng lực cạnh tranh cho các giải pháp trí tuệ nhân tạo quy mô lớn."
-      ],
-      "summary_en": [
-        "Technology conglomerate FPT has officially signed a strategic agreement with NAVER Cloud, marking a major milestone in developing and deploying artificial intelligence factory systems globally.",
-        "The collaboration focuses on integrating the advanced HyperCLOVA X large language model into enterprise cloud computing infrastructure and high-performance data center solutions.",
-        "This agreement provides a strong driving force for the digital technology ecosystem, helping optimize operational costs and enhance competitive capabilities for large-scale artificial intelligence solutions."
-      ],
-      "originalTitle": "FPT hợp tác với NAVER Cloud mở rộng hoạt động AI Factory trên toàn cầu",
-      "url": "https://tinhte.vn/thread/fpt-hop-tac-voi-naver-cloud-mo-rong-hoat-dong-ai-factory-tren-toan-cau.4183597/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Cloud",
-        "LLM",
-        "HyperCLOVA",
-        "Enterprise"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-12T08:39:50.000Z",
-      "contentSnippet": "Hà Nội, ngày 12 tháng 10 năm 2026 – Tập đoàn FPT ký kết thỏa thuận hợp tác với NAVER Cloud, doanh nghiệp công nghệ Hàn Quốc phát triển mô hình ngôn ngữ lớn (LLM) HyperCLOVA X. Hai bên sẽ phối hợp...",
-      "authorName": "Le Dzung.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4240bb014eedb7c5",
-      "title_vi": "Bill Gates cảnh báo trí tuệ nhân tạo thúc đẩy làn sóng tấn công mạng nguy hiểm",
-      "title_en": "Bill Gates Warns Artificial Intelligence Drives Dangerous Wave of Cyberattacks",
-      "summary_vi": [
-        "Tỷ phú Bill Gates đưa ra cảnh báo nghiêm túc về việc tội phạm mạng có thể tận dụng các mô hình trí tuệ nhân tạo tiên tiến để phá vỡ hệ thống tài chính toàn cầu và tống tiền các doanh nghiệp lớn.",
-        "Các chuyên gia an ninh mạng đối mặt với thách thức lớn khi tội phạm sử dụng công nghệ học máy để tự động hóa các lỗ hổng, thực hiện các cuộc tấn công tinh vi nhắm vào thị trường chứng khoán và hệ thống cá cược.",
-        "Sự bùng nổ của các mô hình AI tạo sinh đòi hỏi các tổ chức phải nhanh chóng nâng cấp kiến trúc phòng thủ mạng, áp dụng các giải pháp giám sát thông minh để ngăn chặn kịp thời các mối đe dọa tiềm ẩn."
-      ],
-      "summary_en": [
-        "Billionaire Bill Gates issued a serious warning that cybercriminals could leverage advanced artificial intelligence models to disrupt global financial systems and extort large enterprises.",
-        "Cybersecurity professionals face significant challenges as bad actors utilize machine learning technology to automate vulnerabilities and execute sophisticated attacks targeting stock markets and betting systems.",
-        "The explosion of generative AI models requires organizations to rapidly upgrade their network defense architectures and implement intelligent monitoring solutions to preemptively block potential threats."
-      ],
-      "originalTitle": "Bill Gates: AI thúc đẩy làn sóng tấn công mạng",
-      "url": "https://vnexpress.net/bill-gates-ai-thuc-day-lan-song-tan-cong-mang-5131309.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Cybersecurity",
-        "Machine Learning",
-        "Security Architecture",
-        "Threat Intelligence"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-12T08:38:33.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/12/otmqa6q62nlrtpxadrdtp6xqmi-jpg-9092-1874-1791792793.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=U94yZ0DgklXB4oSBeBKgjg",
-      "contentSnippet": "Tỷ phú Bill Gates cảnh báo tội phạm mạng có thể dùng mô hình AI tiên tiến để phá vỡ hệ thống tài chính và tống tiền doanh nghiệp.",
-      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     }
