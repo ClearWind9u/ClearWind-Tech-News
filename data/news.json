@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T16:22:49.018Z",
+  "lastUpdated": "2026-10-21T21:04:21.434Z",
   "totalArticles": 250,
   "articles": [
     {
@@ -64,6 +64,75 @@
       "authorName": "Kevin BK",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "be87164232993d8e",
+      "title_vi": "PHP: Ba chữ cái đã làm tê liệt các trang web trên toàn cầu ngày hôm nay",
+      "title_en": "PHP: The three letters that shut down sites all over the internet today",
+      "summary_vi": [
+        "Hai lỗi bảo mật nghiêm trọng được phát hiện bằng trí tuệ nhân tạo đã gây ra sự cố lớn cho nhiều nền tảng trực tuyến phổ biến như Wikipedia và DeviantArt.",
+        "Các lỗ hổng chí mạng này nằm trong ngôn ngữ lập trình PHP, làm ảnh hưởng trầm trọng đến các trang web sử dụng WordPress và nhiều hệ thống chính phủ.",
+        "Cơ quan an ninh mạng từ nhiều quốc gia đã đưa ra khuyến nghị khẩn cấp yêu cầu các tổ chức tạm ngắt kết nối hệ thống nếu chưa thể cập nhật bản vá."
+      ],
+      "summary_en": [
+        "Two critical vulnerabilities discovered using artificial intelligence have caused major disruptions across multiple popular online platforms including Wikipedia and DeviantArt.",
+        "These severe flaws reside within the PHP programming language severely impacting websites built on WordPress as well as numerous government agency systems.",
+        "Cybersecurity agencies worldwide have issued urgent recommendations advising organizations to take their systems offline immediately if patches cannot be applied."
+      ],
+      "originalTitle": "PHP: The three letters that shut down sites all over the internet today",
+      "url": "https://www.theverge.com/tech/1015906/php2shell-vulnerability-october-2026",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "PHP",
+        "Cybersecurity",
+        "Vulnerability",
+        "WordPress",
+        "AI"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-21T20:36:56.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318433/akrales_220309_4977_0182.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Two bugs found with AI are behind major issues today for 4chan, DeviantArt, Wikipedia, and the blog where the bar around the corner posts pictures of people's dogs. The \"critical vulnerabilities\" were discovered in the PHP programming language, which underpins much of the internet, including any sit",
+      "authorName": "Terrence O’Brien",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6642c06a18b6d6d5",
+      "title_vi": "Lỗ hổng thực thi mã từ xa trên nền tảng quản lý mã nguồn - Vấn đề tràn số nguyên",
+      "title_en": "GitLab Remote Code Execution - Integer Overflow issue",
+      "summary_vi": [
+        "Nền tảng quản lý mã nguồn đã phát hành các phiên bản vá lỗi khẩn cấp nhằm khắc phục lỗ hổng bảo mật nghiêm trọng liên quan đến việc tràn số nguyên.",
+        "Lỗ hổng này có thể cho phép kẻ tấn công thực thi mã từ xa, đặt ra rủi ro lớn cho các hệ thống tự quản trị chưa được cập nhật kịp thời.",
+        "Quản trị viên hệ thống cần nhanh chóng nâng cấp lên các phiên bản mới nhất để đảm bảo an toàn dữ liệu và tuân thủ tiêu chuẩn bảo mật."
+      ],
+      "summary_en": [
+        "The source code management platform has released emergency patch versions to address a critical security vulnerability involving integer overflow.",
+        "This vulnerability could potentially allow attackers to execute remote code, posing significant risks to self-managed systems that remain unpatched.",
+        "System administrators must promptly upgrade to the latest versions to ensure data security and maintain compliance with industry standards."
+      ],
+      "originalTitle": "GitLab Remote Code Execution - Integer Overflow issue",
+      "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "GitLab",
+        "Cybersecurity",
+        "RCE",
+        "Vulnerability",
+        "DevOps"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-21T19:01:12.000Z",
+      "contentSnippet": "On October 21, 2026, we released versions 19.5.1, 19.4.3, 19.3.6, 19.2.9, 19.1.9, 19.0.10, 18.11.13 for GitLab Community Edition (CE) and Enterprise Edition (EE). These versions contain important bug and security fixes, and we strongly recommend that all self-managed GitLab installations be upgraded",
+      "authorName": "artooro",
+      "upvotes": 93,
+      "commentsCount": 22
     },
     {
       "id": "a9c73f7cd2de9698",
@@ -200,6 +269,40 @@
       "authorName": "crboluo",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "878b4c3862bfd356",
+      "title_vi": "Bản phát hành bảo mật PHP mới nhất và cách nâng cao tính an toàn cho hệ thống",
+      "title_en": "Today's PHP security release, and how we're strengthening security",
+      "summary_vi": [
+        "Dự án PHP vừa phát hành các phiên bản khẩn cấp nhằm vá hai lỗ hổng nghiêm trọng cho phép kẻ tấn công thực thi mã từ xa trên máy chủ chưa được xác thực, yêu cầu quản trị viên phải cập nhật ngay lập tức.",
+        "Các lỗ hổng này nằm sâu trong các thành phần cốt lõi là quản lý bộ nhớ và xử lý lỗi, khiến việc vá lỗi trở nên vô cùng khó khăn mà không làm gián đoạn hiệu suất hoặc khả năng tương thích ngược.",
+        "Sự kiện này nhấn mạnh tầm quan trọng của các cuộc kiểm toán bảo mật bên ngoài do Quỹ PHP phối hợp thực hiện, đồng thời kêu gọi sự hỗ trợ bền vững từ các tổ chức phụ thuộc vào ngôn ngữ này."
+      ],
+      "summary_en": [
+        "The PHP project has released urgent versions to patch two critical vulnerabilities allowing unauthenticated attackers to execute remote code on servers, requiring administrators to update immediately.",
+        "These vulnerabilities reside deep within the core components of memory management and error handling, making patching extremely difficult without disrupting performance or backward compatibility.",
+        "This event highlights the importance of external security audits coordinated by the PHP Foundation and calls for sustainable support from organizations depending on the language."
+      ],
+      "originalTitle": "Today's PHP security release, and how we're strengthening security",
+      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "PHP",
+        "Security",
+        "Vulnerabilities",
+        "Software Engineering",
+        "Core Development"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-21T15:48:56.000Z",
+      "contentSnippet": "Earlier today, the PHP project released PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. These releases fix two critical vulnerabilities that, under the right conditions, allow an unauthenticated attacker to execute code on servers running PHP. If you run PHP, it is imperative that you update now. The announ",
+      "authorName": "ejohnso49",
+      "upvotes": 487,
+      "commentsCount": 224
     },
     {
       "id": "1a03569dfeed53c6",
@@ -1787,6 +1890,39 @@
       "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "419d2135a8ae5715",
+      "title_vi": "Tại sao hệ điều hành Windows 11 vẫn chứa trình quản lý bộ nhớ của Windows 95 bên trong",
+      "title_en": "Why Windows 11 still ships with Windows 95's memory manager hidden inside it",
+      "summary_vi": [
+        "Hệ điều hành Windows 11 mới nhất hiện nay vẫn lưu trữ và tích hợp một thành phần trình quản lý bộ nhớ cũ từ phiên bản Windows 95 ra mắt từ nhiều thập kỷ trước mà ít ai ngờ tới.",
+        "Việc duy trì các đoạn mã nguồn cũ này liên quan trực tiếp đến khả năng tương thích ngược của hệ thống, giúp các ứng dụng 16-bit và 32-bit đời cũ tiếp tục vận hành ổn định trên kiến trúc phần cứng hiện đại.",
+        "Đối với các kỹ sư phần mềm và lập trình viên hệ thống, điều này cho thấy bài toán đánh đổi kinh điển giữa việc dọn dẹp mã nguồn sạch sẽ và đảm bảo tính tương thích tuyệt đối cho doanh nghiệp."
+      ],
+      "summary_en": [
+        "The latest Windows 11 operating system still stores and integrates an outdated memory manager component from the Windows 95 version released decades ago without many people realizing it.",
+        "Maintaining these legacy source code segments relates directly to system backward compatibility, helping older 16-bit and 32-bit applications continue operating smoothly on modern hardware architectures.",
+        "For software engineers and system programmers, this highlights the classic trade-off dilemma between cleaning up codebase architecture and ensuring absolute enterprise compatibility for legacy software."
+      ],
+      "originalTitle": "Why Windows 11 still ships with Windows 95's memory manager hidden inside it",
+      "url": "https://www.windowslatest.com/2026/10/19/why-windows-11-still-ships-with-windows-95s-memory-manager-hidden-inside-it/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Windows",
+        "Memory Management",
+        "Legacy Code",
+        "Operating Systems"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-20T00:14:03.000Z",
+      "contentSnippet": "Why Windows 11 still ships with Windows 95's memory manager hidden inside it",
+      "authorName": "khalidkhair",
+      "upvotes": 70,
+      "commentsCount": 40
     },
     {
       "id": "ef510253532071d3",
@@ -8349,140 +8485,6 @@
       "authorName": "sbulaev",
       "upvotes": 92,
       "commentsCount": 46
-    },
-    {
-      "id": "cc7641daffd50a76",
-      "title_vi": "Việt Nam sở hữu đội ngũ kỹ sư giỏi nhưng cần nâng tầm thương hiệu công nghệ",
-      "title_en": "Vietnam Possesses Talented Engineers but Needs to Strengthen Its Tech Brand",
-      "summary_vi": [
-        "Đại diện Meta đánh giá đội ngũ kỹ sư trẻ tại Việt Nam có năng lực chuyên môn cao, tư duy toàn cầu và khả năng thích ứng nhanh với các công nghệ mới nổi hiện nay.",
-        "Trong kỷ nguyên trí tuệ nhân tạo phát triển mạnh mẽ, việc tập trung tối ưu hóa dữ liệu, xây dựng hệ sinh thái bền vững và định vị thương hiệu là yếu tố then chốt.",
-        "Những định hướng chiến lược này giúp cộng đồng lập trình viên Việt Nam khẳng định vị thế trên bản đồ công nghệ quốc tế và thu hút đầu tư hiệu quả hơn."
-      ],
-      "summary_en": [
-        "Meta representatives assess that Vietnam's young engineering team possesses high professional competence, global mindset, and rapid adaptability to emerging technologies.",
-        "In the era of rapidly advancing artificial intelligence, focusing on data optimization, building sustainable ecosystems, and defining brand positioning are crucial factors.",
-        "These strategic orientations help the Vietnamese developer community affirm their position on the international technology map and attract investment more effectively."
-      ],
-      "originalTitle": "'Việt Nam có kỹ sư giỏi, nhưng cần làm mạnh thương hiệu'",
-      "url": "https://vnexpress.net/viet-nam-co-ky-su-gioi-nhung-can-lam-manh-thuong-hieu-5131239.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "AI",
-        "Tech Trends",
-        "Software Engineering",
-        "Meta"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-13T01:02:38.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/12/tc609306-1791778982-9587-1791778998.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=VBhPDEHlMKdg8R0nwlsy0A",
-      "contentSnippet": "Việt Nam có đội ngũ kỹ sư trẻ, nhanh nhạy với công nghệ và tư duy toàn cầu, nhưng để đi xa hơn trong thời AI cần chú trọng dữ liệu, hệ sinh thái, thương hiệu, theo đại diện Meta.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f84ea7f787cec676",
-      "title_vi": "Hacker tăng nhiệt độ tủ lạnh, gây hỏng thực phẩm ở hàng trăm siêu thị",
-      "title_en": "Hackers Raise Refrigerator Temperatures, Causing Food Spoilage in Hundreds of Supermarkets",
-      "summary_vi": [
-        "Một cuộc tấn công mạng quy mô lớn tại Pháp và nhiều nước châu Âu đã nhắm vào các thiết bị làm lạnh kết nối mạng trong hệ thống siêu thị lớn, làm tăng nhiệt độ đột ngột và gây hư hỏng hàng loạt thực phẩm.",
-        "Sự cố bảo mật này khiến tủ lạnh và tủ đông tại các cửa hàng bị tăng nhiệt độ lên đến năm mươi độ C trong nhiều giờ, gây ra một số vụ hỏa hoạn cục bộ và buộc các tập đoàn bán lẻ phải tiêu hủy toàn bộ lượng hàng hóa bị ảnh hưởng.",
-        "Vụ việc gióng lên hồi chuông cảnh báo về lỗ hổng bảo mật nghiêm trọng trong hệ thống thiết bị thông minh kết nối mạng của ngành bán lẻ, đòi hỏi các doanh nghiệp phải thắt chặt an ninh mạng để ngăn chặn rủi ro tương tự."
-      ],
-      "summary_en": [
-        "A large-scale cyberattack in France and several European countries targeted connected refrigeration systems across major supermarket chains, causing sudden temperature spikes and widespread food spoilage.",
-        "This security incident forced refrigerators and freezers in stores to heat up to fifty degrees Celsius for hours, triggering localized fires and compelling retail corporations to discard all affected goods.",
-        "The event serves as a serious wake-up call regarding severe cybersecurity vulnerabilities within connected smart devices in the retail sector, demanding stricter network security measures from enterprises to prevent similar risks."
-      ],
-      "originalTitle": "Hacker tăng nhiệt độ tủ lạnh, gây hỏng thực phẩm ở hàng trăm siêu thị",
-      "url": "https://vnexpress.net/hacker-tang-nhiet-do-tu-lanh-gay-hong-thuc-pham-o-hang-tram-sieu-thi-5131499.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "IoT",
-        "Network Security",
-        "Smart Devices",
-        "Incident Response"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-12T23:07:01.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/13/tu-lanh-jpeg-1791845881-4230-1791846382.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=U8IqPzEy0YNdQw_z72DJfA",
-      "contentSnippet": "Tin tặc tăng nhiệt độ tủ lạnh và tủ đông lên 50 độ C tại hàng trăm siêu thị trong đêm, gây một số vụ hỏa hoạn và làm hư hỏng thực phẩm.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "6a78f6efee3a21f2",
-      "title_vi": "Bộ tăng tốc trí tuệ nhân tạo Intel D270 GPU trang bị bộ nhớ khủng lên tới 480 GB LPDDR5X",
-      "title_en": "Intel D270 GPU AI Accelerator Featuring Up to 480 GB LPDDR5X Memory",
-      "summary_vi": [
-        "Tập đoàn công nghệ hàng đầu vừa giới thiệu dòng chip xử lý đồ họa chuyên dụng mới mang tên mã D270, hướng tới việc tối ưu hóa hiệu năng cho các tác vụ trí tuệ nhân tạo và học máy khối lượng lớn.",
-        "Sản phẩm phần cứng này gây ấn tượng mạnh với dung lượng bộ nhớ đệm LPDDR5X cực lớn lên tới 480 GB, giúp cải thiện đáng kể băng thông và tốc độ xử lý dữ liệu cho các mô hình ngôn ngữ lớn.",
-        "Bước đột phá về kiến trúc phần cứng này mang lại giải pháp mạnh mẽ cho các trung tâm dữ liệu, giúp giảm thiểu đáng kể chi phí vận hành và nâng cao hiệu suất tính toán cho các kỹ sư AI."
-      ],
-      "summary_en": [
-        "A leading technology corporation has just introduced a new specialized graphics processing unit codenamed D270, aimed at optimizing performance for massive artificial intelligence and machine learning workloads.",
-        "This hardware product makes a strong impression with an exceptionally large LPDDR5X memory capacity of up to 480 GB, significantly improving bandwidth and data processing speed for large language models.",
-        "This hardware architecture breakthrough provides a powerful solution for data centers, helping to significantly reduce operational costs and enhance computational efficiency for AI engineers."
-      ],
-      "originalTitle": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
-      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "GPU",
-        "Hardware",
-        "Intel",
-        "Semiconductor"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-12T21:35:35.000Z",
-      "contentSnippet": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
-      "authorName": "hurricanepootis",
-      "upvotes": 148,
-      "commentsCount": 64
-    },
-    {
-      "id": "9d6f97004e072d17",
-      "title_vi": "Java Runtime Environment (JRE) Là Gì?",
-      "title_en": "What is Java Runtime Environment (JRE)?",
-      "summary_vi": [
-        "JRE là môi trường thực thi Java, cung cấp các thư viện và tài nguyên cần thiết để chạy các ứng dụng Java đã được biên dịch thành bytecode.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Java Runtime Environment (JRE) Là Gì?.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Java Runtime Environment (JRE) Là Gì?."
-      ],
-      "summary_en": [
-        "JRE is the Java runtime environment, providing the libraries and resources needed to run Java applications that have been compiled into bytecode.",
-        "In-depth technical breakdown and implementation mechanisms introduced in What is Java Runtime Environment (JRE)?.",
-        "Practical engineering impact and actionable takeaways for developers building with What is Java Runtime Environment (JRE)?."
-      ],
-      "originalTitle": "Java Runtime Environment (JRE) Là Gì?",
-      "url": "https://viblo.asia/p/java-runtime-environment-jre-la-gi-gdJzvOPGJz5",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "SoftwareEngineering",
-        "Programming"
-      ],
-      "hotScore": 90,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-12T20:03:14.000Z",
-      "contentSnippet": "JRE là môi trường thực thi Java, cung cấp các thư viện và tài nguyên cần thiết để chạy các ứng dụng Java đã được biên dịch thành bytecode. Các thành p...",
-      "authorName": "Tieu Share",
-      "upvotes": 0,
-      "commentsCount": 0
     }
   ]
 }
