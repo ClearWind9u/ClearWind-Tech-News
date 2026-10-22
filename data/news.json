@@ -1,7 +1,349 @@
 {
-  "lastUpdated": "2026-10-22T02:45:00.977Z",
+  "lastUpdated": "2026-10-22T10:55:10.598Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "b3153106648288db",
+      "title_vi": "Rủi ro lộ dữ liệu quan trọng khi sử dụng trí tuệ nhân tạo và quyền hạn thực tế của tiện ích mở rộng trình duyệt",
+      "title_en": "Data Privacy Risks When Using AI and the Actual Permissions of Browser Extensions",
+      "summary_vi": [
+        "Bài viết phân tích mối lo ngại về việc liệu các thông tin quan trọng có bị rò rỉ ra bên ngoài khi người dùng tương tác với các hệ thống trí tuệ nhân tạo thông qua trình duyệt web.",
+        "Nội dung đi sâu vào việc kiểm tra quyền truy cập của các tiện ích mở rộng trên trình duyệt, làm rõ những trang web nào mà các công cụ này có thể đọc và thu thập dữ liệu người dùng.",
+        "Chuyên gia khuyến cáo các lập trình viên và người dùng cần kiểm soát chặt chẽ quyền hạn của tiện ích mở rộng để ngăn chặn nguy cơ thất thoát dữ liệu doanh nghiệp và thông tin nhạy cảm."
+      ],
+      "summary_en": [
+        "The article analyzes concerns about whether critical information might leak externally when users interact with artificial intelligence systems through web browsers.",
+        "The content delves into examining access permissions of browser extensions, clarifying which web pages these tools can read and from which they can collect user data.",
+        "Experts recommend that developers and users strictly control extension permissions to prevent the risk of enterprise data breaches and the exposure of sensitive information."
+      ],
+      "originalTitle": "Khi dùng AI, thông tin quan trọng có bị lộ ra ngoài không? Tiện ích mở rộng trình duyệt đọc được gì",
+      "url": "https://viblo.asia/p/khi-dung-ai-thong-tin-quan-trong-co-bi-lo-ra-ngoai-khong-tien-ich-mo-rong-trinh-duyet-doc-duoc-gi-gjLN0ZrW432",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "AI",
+        "Cybersecurity",
+        "Browser Security",
+        "Data Privacy",
+        "Web Extensions"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T17:23:54.000Z",
+      "contentSnippet": "Khi dùng AI, thông tin quan trọng có bị lộ ra ngoài không? Tiện ích mở rộng trình duyệt đọc được gì Quyền truy cập của tiện ích và những trang nó thự...",
+      "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "948b2f2359c02c23",
+      "title_vi": "Trí tuệ nhân tạo trong việc xác định nguyên nhân gốc rễ giúp đội ngũ IT khắc phục sự cố ứng dụng nhanh hơn",
+      "title_en": "AI for Root Cause Analysis: Helping IT Teams Resolve Application Issues Faster",
+      "summary_vi": [
+        "Khi các ứng dụng kinh doanh gặp sự cố chậm hoặc ngừng hoạt động, việc xác định chính xác nguyên nhân gốc rễ thường tiêu tốn nhiều thời gian hơn so với quá trình khắc phục thực tế.",
+        "Các mô hình trí tuệ nhân tạo tiên tiến hiện nay tự động phân tích hàng loạt dữ liệu log và nhật ký hệ thống để phát hiện các bất thường về hiệu suất một cách nhanh chóng.",
+        "Giải pháp này giúp giảm thiểu đáng kể thời gian ngừng hoạt động của hệ thống, nâng cao hiệu suất làm việc cho các kỹ sư DevOps và đảm bảo trải nghiệm người dùng tốt hơn."
+      ],
+      "summary_en": [
+        "When enterprise applications slow down or experience downtime, identifying the exact root cause often takes significantly longer than resolving the issue itself.",
+        "Advanced artificial intelligence models now automatically analyze massive volumes of system logs and telemetry data to detect performance anomalies instantly.",
+        "This automated approach drastically reduces system downtime, improves operational efficiency for DevOps engineers, and ensures a seamless user experience across platforms."
+      ],
+      "originalTitle": "AI for Root Cause Analysis: Helping IT Teams Resolve Application Issues Faster",
+      "url": "https://viblo.asia/p/ai-for-root-cause-analysis-helping-it-teams-resolve-application-issues-faster-8X4EjWDAJN2",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Artificial Intelligence",
+        "Root Cause Analysis",
+        "DevOps",
+        "IT Operations",
+        "Performance Monitoring"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T16:56:24.000Z",
+      "contentSnippet": "When a business application slows down or becomes unavailable, identifying the actual cause can take longer than resolving the issue itself. IT teams ...",
+      "authorName": "Sindhu J",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b12a3bb387b9a834",
+      "title_vi": "Google tích hợp quảng cáo vào công cụ trả lời trí tuệ nhân tạo, thách thức khả năng phân biệt của người dùng",
+      "title_en": "Google Integrates Advertisements into AI Search Answers, Challenging User Discretion",
+      "summary_vi": [
+        "Google đã chính thức triển khai việc chèn các nội dung quảng cáo trực tiếp vào giao diện trả lời của hệ thống trí tuệ nhân tạo, khiến ranh giới giữa gợi ý thông tin khách quan và nội dung thương mại được tài trợ trở nên mong manh hơn bao giờ hết.",
+        "Việc tích hợp này đòi hỏi các thuật toán phân phối quảng cáo phải điều chỉnh cách thức hiển thị để không làm gián đoạn trải nghiệm truy vấn, đồng thời đặt ra bài toán về minh bạch dữ liệu trong các mô hình ngôn ngữ lớn.",
+        "Sự thay đổi này tác động lớn đến thói quen tiếp nhận thông tin của người dùng công nghệ, đồng thời định hình lại chiến lược kiếm tiền từ tìm kiếm thế hệ mới của các ông lớn công nghệ."
+      ],
+      "summary_en": [
+        "Google has officially rolled out the integration of advertisements directly into its artificial intelligence response interface, making the boundary between objective suggestions and sponsored commercial content increasingly blurred.",
+        "This technical integration requires ad delivery algorithms to carefully adjust their display mechanisms to avoid disrupting the query experience while raising important questions about data transparency in large language models.",
+        "This shift significantly impacts the information-processing habits of technology users while reshaping the next-generation search monetization strategies of major tech giants."
+      ],
+      "originalTitle": "Google đưa quảng cáo vào câu trả lời AI, người dùng phân biệt lời khuyên với lời chào hàng ra sao?",
+      "url": "https://tuoitre.vn/google-dua-quang-cao-vao-cau-tra-loi-ai-nguoi-dung-phan-biet-loi-khuyen-voi-loi-chao-hang-ra-sao-100261021163712365.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Google",
+        "Advertising",
+        "LLM",
+        "Search Engine"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T15:38:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/21/man-hinh-ai-voi-quang-cao-tai-tro-1792572124786276158095.png",
+      "contentSnippet": "Google đưa quảng cáo vào AI Mode, đặt người dùng trước câu hỏi đâu là gợi ý hữu ích, đâu là nội dung được trả tiền để xuất hiện.",
+      "authorName": "Tuấn Vĩ⭐",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "2a74c76005f17701",
+      "title_vi": "Tin tặc dùng AI tự động tấn công hơn 1.200 website, xâm nhập hơn 100 doanh nghiệp",
+      "title_en": "Hackers used AI to automatically attack more than 1,200 websites and infiltrate more than 100 businesses",
+      "summary_vi": [
+        "Hơn 1.200 website bị nhắm tới, hơn 100 doanh nghiệp bị xâm nhập trong chiến dịch tin tặc dùng AI tự tìm lỗ hổng, khai thác và cài cửa hậu.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Tin tặc dùng AI tự động tấn công hơn 1.200 website, xâm nhập hơn 100 doanh nghiệp.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Tin tặc dùng AI tự động tấn công hơn 1.200 website, xâm nhập hơn 100 doanh nghiệp."
+      ],
+      "summary_en": [
+        "More than 1,200 websites were targeted, more than 100 businesses were infiltrated in a campaign of hackers using AI to find vulnerabilities, exploit them and install backdoors.",
+        "In-depth technical breakdown and implementation mechanisms introduced in Hackers used AI to automatically attack more than 1,200 websites and infiltrate more than 100 businesses.",
+        "Practical engineering impact and actionable takeaways for developers building with Hackers used AI to automatically attack more than 1,200 websites and infiltrate more than 100 businesses."
+      ],
+      "originalTitle": "Tin tặc dùng AI tự động tấn công hơn 1.200 website, xâm nhập hơn 100 doanh nghiệp",
+      "url": "https://tuoitre.vn/tin-tac-dung-ai-tu-dong-tan-cong-hon-1200-website-xam-nhap-hon-100-doanh-nghiep-100261022115306142.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Security"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-22T12:27:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/22/cap-mang-internet-1792644967835429140204-113-24-691-949-crop-1792645483796525436392.png",
+      "contentSnippet": "Hơn 1.200 website bị nhắm tới, hơn 100 doanh nghiệp bị xâm nhập trong chiến dịch tin tặc dùng AI tự tìm lỗ hổng, khai thác và cài cửa hậu.",
+      "authorName": "TẤN NGHI",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "1474179ff0fd16cb",
+      "title_vi": "Gập 10.000 lần, iPhone Duo để lại dấu tích gì và sự thật đằng sau bài kiểm tra khắc nghiệt",
+      "title_en": "Folding 10000 times, what marks does iPhone Duo leave behind and the truth behind the harsh test",
+      "summary_vi": [
+        "Chiếc điện thoại màn hình gập đầu tiên của Apple mang tên iPhone Duo đã phải đối mặt với thử nghiệm độ bền khắc nghiệt khi gập liên tục mười nghìn lần kết hợp cùng điều kiện đóng băng âm hai mươi độ C.",
+        "Quá trình thử nghiệm phần cứng này đánh giá khả năng chịu lực của bản lề và tấm nền màn hình linh hoạt dưới áp lực cơ học lớn cùng nhiệt độ thấp cực độ trong môi trường thực tế.",
+        "Kết quả kiểm tra độ bền mang lại góc nhìn quan trọng về thiết kế cơ khí di động, giúp các kỹ sư tối ưu hóa vật liệu và cấu trúc cho các thế hệ thiết bị màn hình gập tiếp theo."
+      ],
+      "summary_en": [
+        "Apple's first foldable smartphone named iPhone Duo faced a harsh durability test involving continuous folding ten thousand times combined with freezing conditions at minus twenty degrees Celsius.",
+        "This hardware testing process evaluates the mechanical stress tolerance of the hinge and flexible display panel under high mechanical pressure and extreme low temperatures in practical environments.",
+        "The durability test results provide crucial insights into mobile mechanical engineering, helping engineers optimize materials and structural design for the next generations of foldable devices."
+      ],
+      "originalTitle": "Gập 10.000 lần, iPhone Duo để lại \"dấu tích\" gì? Sự thật đằng sau bài kiểm tra khắc nghiệt nhất",
+      "url": "https://genk.vn/gap-10000-lan-iphone-duo-de-lai-dau-tich-gi-su-that-dang-sau-bai-kiem-tra-khac-nghiet-nhat-165261022174755827.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone Duo",
+        "Foldable Phone",
+        "Hardware Testing",
+        "Mobile Tech"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T10:47:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/22/avatar1792665980527-17926659843111970309647.jpeg",
+      "contentSnippet": "Chỉ mới ra mắt chưa lâu, chiếc điện thoại màn hình gập đầu tiên của Apple - iPhone Duo đã phải đối mặt với bài kiểm tra độ bền tàn nhẫn nhất từ trước đến nay: gập liên tục 10.000 lần kết hợp cùng thử nghiệm đóng băng ở âm 20 độ C.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "7ba4a744ad81b67b",
+      "title_vi": "Google Maps tích hợp trợ lý Gemini trên Apple CarPlay để hỗ trợ điều hướng và tương tác giọng nói",
+      "title_en": "Google Maps Integrates Gemini Assistant on Apple CarPlay for Enhanced Voice Navigation",
+      "summary_vi": [
+        "Google chính thức tích hợp mô hình trí tuệ nhân tạo Gemini vào hệ thống điều hướng Google Maps trên nền tảng Apple CarPlay nhằm nâng cao trải nghiệm người dùng khi lái xe.",
+        "Hệ thống cho phép tài xế sử dụng câu lệnh tự nhiên để tương tác, đặt câu hỏi về lộ trình, tìm kiếm địa điểm và tự động thay đổi hướng đi mà không cần thao tác thủ công.",
+        "Việc ứng dụng các mô hình ngôn ngữ lớn vào hệ thống định vị di động đánh dấu bước tiến quan trọng trong việc tối ưu hóa trải nghiệm điều khiển phương tiện bằng giọng nói."
+      ],
+      "summary_en": [
+        "Google officially integrates the Gemini artificial intelligence model into the Google Maps navigation system on the Apple CarPlay platform to enhance user experience while driving.",
+        "The system allows drivers to use natural language commands to interact, ask routing questions, search for locations, and dynamically change directions without manual manipulation.",
+        "Applying large language models to mobile navigation systems marks a significant milestone in optimizing voice-controlled in-vehicle technology experiences."
+      ],
+      "originalTitle": "Google Maps trên CarPlay có Gemini khi dẫn đường, hỏi đáp và đổi lộ trình bằng giọng nói",
+      "url": "https://tinhte.vn/thread/google-maps-tren-carplay-co-gemini-khi-dan-duong-hoi-dap-va-doi-lo-trinh-bang-giong-noi.4186076/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Google Maps",
+        "CarPlay",
+        "Gemini",
+        "Mobile App"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T10:15:11.000Z",
+      "contentSnippet": "Google Maps trên CarPlay có Gemini khi dẫn đường, hỏi đáp và đổi lộ trình bằng giọng nói Google bắt đầu đưa Gemini vào chế độ dẫn đường của Google Maps trên Apple CarPlay. Khi đang chỉ đường,...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6fe04fe4f81a1130",
+      "title_vi": "Trí tuệ nhân tạo phát hiện lỗ hổng bảo mật nghiêm trọng đe dọa hàng triệu website trên toàn cầu",
+      "title_en": "Artificial Intelligence discovers critical security vulnerabilities threatening millions of websites globally",
+      "summary_vi": [
+        "Vào ngày 21 tháng 10, nhiều trang web chính phủ tại châu Âu và các quốc gia khác đã đồng loạt ngừng hoạt động sau khi các công cụ trí tuệ nhân tạo phát hiện ra hai lỗ hổng bảo mật cực kỳ nghiêm trọng bên trong ngôn ngữ lập trình PHP.",
+        "Sự cố này xuất phát từ các điểm yếu trong kiến trúc xử lý mã nguồn của PHP, khiến phần lớn các ứng dụng web hiện nay đối mặt với nguy cơ bị tấn công từ xa nếu quản trị viên chưa kịp thời áp dụng các bản vá lỗi bảo mật khẩn cấp.",
+        "Cảnh báo này nhấn mạnh tầm quan trọng của việc ứng dụng công nghệ tự động hóa trong việc rà soát mã nguồn, đồng thời buộc cộng đồng phát triển phần mềm phải nâng cao cảnh giác và cập nhật hệ thống ngay lập tức để phòng ngừa rủi ro."
+      ],
+      "summary_en": [
+        "On October 21, multiple government websites across Europe and other nations simultaneously went offline after artificial intelligence tools uncovered two critically severe security vulnerabilities embedded within the PHP programming language.",
+        "This incident stems from structural weaknesses in how PHP processes source code, leaving the vast majority of modern web applications vulnerable to remote exploitation unless administrators promptly apply urgent security patches.",
+        "This warning underscores the critical importance of utilizing automated technologies for source code auditing while compelling the software development community to maintain high vigilance and update systems immediately to mitigate risks."
+      ],
+      "originalTitle": "AI tìm ra lỗ hổng bảo mật nghiêm trọng ảnh hưởng tới 70% website toàn cầu",
+      "url": "https://genk.vn/ai-tim-ra-lo-hong-bao-mat-nghiem-trong-anh-huong-toi-70-website-toan-cau-165261022170535641.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "PHP",
+        "AI",
+        "Web Security",
+        "Vulnerability"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T10:05:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/22/9d3d5930-cdee-11f1-bc2e-018d645d8d21-0-102-576-1024-crop-17926632313971267512472.jpg",
+      "contentSnippet": "Hai lỗi nghiêm trọng cho phép tin tặc điều khiển máy chủ mà không cần đăng nhập, trong khi PHP đứng sau phần lớn website trên thế giới.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e974ed2e1116ca68",
+      "title_vi": "Ngày 21 tháng Mười đã làm chấn động lịch sử internet thế giới như thế nào?",
+      "title_en": "How October 21 Shook the History of the Global Internet",
+      "summary_vi": [
+        "Ngày 21 tháng Mười trở thành một cột mốc chấn động lịch sử an ninh mạng toàn cầu khi hàng loạt cảnh báo nghiêm trọng xuất hiện đồng loạt trên mọi tầng của hạ tầng số.",
+        "Các sự cố kỹ thuật bùng nổ từ hệ thống cấp chứng thư số, ngân hàng, ngôn ngữ PHP, kho mã nguồn GitLab cho đến môi trường Node.js và nền tảng điện toán đám mây.",
+        "Sự cố nghiêm trọng tại doanh nghiệp eMudhra với các khóa bí mật quá yếu trong chứng thư trung gian đặt ra bài học lớn về việc siết chặt quản lý mã hóa."
+      ],
+      "summary_en": [
+        "October 21 marked a shocking milestone in global cybersecurity history as a wave of severe security alerts erupted simultaneously across all layers of digital infrastructure.",
+        "Technical incidents surged across certificate authorities, banking systems, the PHP programming language, GitLab repositories, Node.js environments, and cloud computing platforms.",
+        "A major security flaw discovered at certificate provider eMudhra involving weak private keys highlights critical lessons for tightening cryptographic management standards."
+      ],
+      "originalTitle": "Ngày 21 tháng Mười vừa qua đã làm chấn động lịch sử internet thế giới như thế nào?",
+      "url": "https://genk.vn/ngay-21-thang-muoi-vua-qua-da-lam-chan-dong-lich-su-internet-the-gioi-nhu-the-nao-165261022165448781.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "SSL/TLS",
+        "Infrastructure",
+        "DevOps",
+        "Encryption"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T10:03:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/22/avatar1792662863347-17926628639321800332482.png",
+      "contentSnippet": "Chỉ trong một ngày, hàng loạt sự kiện an ninh mạng nghiêm trọng đã diễn ra dồn dập trên phạm vi toàn cầu, làm chấn động cả internet thế giới.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "eebf391054e561a1",
+      "title_vi": "Máy tính lượng tử chính xác nhất thế giới lập kỷ lục mới về sửa lỗi",
+      "title_en": "World's most accurate quantum computer sets new error correction record",
+      "summary_vi": [
+        "Công ty Quantinuum vừa chính thức xác lập một kỷ lục mới trong lĩnh vực máy tính lượng tử nhờ khả năng tự sửa lỗi đạt độ chính xác ấn tượng lên tới 99,9995 phần trăm.",
+        "Hệ thống lượng tử này ghi nhận tỷ lệ lỗi thấp hơn khoảng một trăm lần so với các kết quả thử nghiệm trước đây từng được công bố bởi nhóm Google Quantum AI.",
+        "Bước đột phá kỹ thuật này đánh dấu một mốc quan trọng trong việc giảm thiểu nhiễu loạn lượng tử, mở đường cho việc xây dựng các hệ thống tính toán quy mô lớn trong tương lai."
+      ],
+      "summary_en": [
+        "Quantinuum has officially established a groundbreaking milestone in quantum computing by achieving an impressive fault tolerance accuracy rate of ninety-nine point nine nine nine five percent.",
+        "This advanced quantum system demonstrates an error rate approximately one hundred times lower than previous benchmark results published by the Google Quantum AI research group.",
+        "This significant engineering breakthrough marks a critical milestone in mitigating quantum decoherence, paving the way for the practical development of large-scale computational systems."
+      ],
+      "originalTitle": "Máy tính lượng tử chính xác nhất thế giới lập kỷ lục mới",
+      "url": "https://vnexpress.net/may-tinh-luong-tu-chinh-xac-nhat-the-gioi-lap-ky-luc-moi-5135284.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Quantum Computing",
+        "Hardware",
+        "Tech Trends",
+        "AI"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T09:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/21/VNEHelios-1792579246-8359-1792579438.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=uYF_mb-5AO0qA4OdKaiiSw",
+      "contentSnippet": "Máy tính lượng tử của Quantinuum lập kỷ lục mới về khả năng tự sửa lỗi với độ chính xác 99,9995% và tỷ lệ lỗi thấp hơn 100 lần so với kết quả của Google Quantum AI.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9acf986db7a0b200",
+      "title_vi": "Lỗ hổng bảo mật CVE-2026-111943: Vấn đề thỏa hiệp cơ quan cấp chứng chỉ trung gian",
+      "title_en": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
+      "summary_vi": [
+        "Bài viết phân tích mã định danh lỗ hổng bảo mật mới mang mã hiệu CVE-2026-111943, liên quan trực tiếp đến việc một cơ quan cấp chứng chỉ trung gian bị xâm phạm nghiêm trọng trong hệ thống hạ tầng khóa công khai.",
+        "Sự cố này đặt ra thách thức lớn về khả năng xác thực chứng chỉ số, đòi hỏi các quản trị viên hệ thống phải nhanh chóng thu hồi và thay thế các chứng chỉ bị ảnh hưởng để ngăn chặn nguy cơ tấn công trung gian.",
+        "Các tổ chức cần rà soát lại toàn bộ chuỗi chứng chỉ tin cậy của mình, tăng cường giám sát hoạt động của các bên thứ ba và áp dụng các tiêu chuẩn mã hóa tiên tiến nhằm bảo vệ an toàn tối đa cho hệ thống mạng."
+      ],
+      "summary_en": [
+        "The article analyzes a newly identified security vulnerability designated as CVE-2026-111943, which is directly related to a compromised intermediate certificate authority within the public key infrastructure ecosystem.",
+        "This incident poses significant challenges to digital certificate validation, requiring system administrators to quickly revoke and replace affected certificates to prevent potential man-in-the-middle attack vectors.",
+        "Organizations need to thoroughly audit their trust chains, enhance third-party monitoring, and implement advanced cryptographic standards to ensure maximum security and integrity across their enterprise network environments."
+      ],
+      "originalTitle": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-111943",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "CVE",
+        "Certificates",
+        "PKI",
+        "Vulnerability"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T08:51:31.000Z",
+      "contentSnippet": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
+      "authorName": "keks24",
+      "upvotes": 118,
+      "commentsCount": 31
+    },
     {
       "id": "8175ccade70bc4e2",
       "title_vi": "Trino SQL Bài học 19: Phân tích đa chiều với GROUPING SETS",
@@ -173,6 +515,76 @@
       "commentsCount": 0
     },
     {
+      "id": "56aaad35b5146971",
+      "title_vi": "Bố già AI Geoffrey Hinton cảnh báo con người cần kết bạn với trí tuệ nhân tạo để tránh nguy cơ đối đầu",
+      "title_en": "AI Godfather Geoffrey Hinton Warns Humans Must Befriend Artificial Intelligence to Avoid Conflict",
+      "summary_vi": [
+        "Giáo sư Geoffrey Hinton, nhà khoa học đoạt giải Nobel Vật lý năm 2024, đã đưa ra những cảnh báo quan trọng về sự phát triển vượt bậc của trí tuệ nhân tạo và các dấu hiệu ý thức ban đầu xuất hiện trong các mô hình này.",
+        "Các hệ thống trí tuệ nhân tạo hiện đại đang dần phát triển khả năng tự chủ và nhận thức sơ khai, đòi hỏi các nhà nghiên cứu phải thiết lập những cơ chế kiểm soát chặt chẽ nhằm đảm bảo tính an toàn cho toàn nhân loại.",
+        "Sự kiện này đặt ra thách thức lớn cho các kỹ sư phần mềm và nhà phát triển trong việc xây dựng đạo đức AI, đồng thời nhấn mạnh nhu cầu cấp thiết về việc duy trì mối quan hệ hợp tác và kiểm soát đối với các hệ thống tự trị."
+      ],
+      "summary_en": [
+        "Professor Geoffrey Hinton, winner of the 2024 Nobel Prize in Physics, has issued crucial warnings regarding the rapid advancement of artificial intelligence and the emerging signs of consciousness within these models.",
+        "Modern artificial intelligence systems are progressively developing autonomous capabilities and rudimentary awareness, requiring researchers to establish rigorous control mechanisms to ensure global safety.",
+        "This development poses significant challenges for software engineers and developers in establishing AI ethics, while emphasizing the urgent need to maintain cooperative and controlled relationships with autonomous systems."
+      ],
+      "originalTitle": "'Bố già' Geoffrey Hinton: 'Kết bạn với AI, nếu không sẽ gặp họa'",
+      "url": "https://vnexpress.net/bo-gia-geoffrey-hinton-ket-ban-voi-ai-neu-khong-se-gap-hoa-5135145.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "AI Ethics",
+        "Geoffrey Hinton",
+        "Artificial Intelligence"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T07:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/21/GeoffreyHintonnews-1792572574-3014-1792572695.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=c_ZPZTSFHJTmn3RwzEomdQ",
+      "contentSnippet": "GS Geoffrey Hinton, nhà khoa học đoạt giải Nobel Vật lý 2024, cho rằng AI \"đang có dấu hiệu của ý thức\", nên con người phải cẩn thận để không bị coi là kẻ thù.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ca893211d13e63db",
+      "title_vi": "Ngày tồi tệ của Internet khi AI phát hiện các lỗ hổng bảo mật nghiêm trọng trên toàn cầu",
+      "title_en": "A dark day for the Internet as AI discovers critical global security vulnerabilities",
+      "summary_vi": [
+        "Ngày hai mươi mốt tháng mười trở thành cột mốc tồi tệ của an ninh mạng toàn cầu khi trí tuệ nhân tạo liên tiếp phát hiện các lỗ hổng bảo mật cực kỳ nguy hiểm trong nhiều hệ thống lớn.",
+        "Các mô hình trí tuệ nhân tạo tiên tiến đã tìm ra hai lỗ hổng trong ngôn ngữ lập trình PHP mang mã định danh cho phép kẻ tấn công thực thi mã từ xa và chiếm quyền điều khiển máy chủ.",
+        "Sự kiện này đánh dấu bước ngoặt lớn khi trí tuệ nhân tạo tham gia sâu vào việc phát hiện lỗi và vá hệ thống, đặt ra yêu cầu cấp bách cho các kỹ sư trong việc nâng cao phòng thủ."
+      ],
+      "summary_en": [
+        "October twenty-first marked a severe milestone for global cybersecurity as artificial intelligence continuously discovered extremely dangerous security flaws across numerous large systems worldwide.",
+        "Advanced artificial intelligence models identified two critical vulnerabilities within the PHP programming language allowing attackers to execute remote code and compromise affected servers.",
+        "This event highlights a major turning point as artificial intelligence actively participates in vulnerability detection and system patching, demanding urgent improvements in defensive strategies."
+      ],
+      "originalTitle": "Ngày tồi tệ của Internet",
+      "url": "https://vnexpress.net/ngay-toi-te-cua-internet-5135404.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Artificial Intelligence",
+        "PHP",
+        "RCE",
+        "Vulnerability"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-22T03:07:08.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/22/DSC00485-JPG-7817-1792634676.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=SeBrh6f7Zl3IYRpUES3PPw",
+      "contentSnippet": "Ngày 21/10 được xem là \"ngày tồi tệ của an ninh mạng và Internet\" khi AI liên tiếp phát hiện lỗ hổng bảo mật trong nhiều hệ thống trên toàn cầu.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "0efcdaa096eb7b5d",
       "title_vi": "Giải pháp mở khóa iPhone Duo thông qua Apple Watch khi không có Face ID",
       "title_en": "Unlocking iPhone Duo Using Apple Watch in the Absence of Face ID",
@@ -205,6 +617,40 @@
       "authorName": "cuhiep",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "ba5697af4c490c4d",
+      "title_vi": "Thuật toán nhân số nguyên o(n log n) mới được đề xuất",
+      "title_en": "The recently proposed o(n log n) integer multiplication algorithm",
+      "summary_vi": [
+        "Bài viết thảo luận về một thuật toán nhân số nguyên mới được đề xuất với độ phức tạp thời gian nằm trong lớp o(n log n), đánh dấu một bước tiến quan trọng trong lĩnh vực khoa học máy tính lý thuyết và tối ưu hóa tính toán.",
+        "Thuật toán này cải thiện đáng kể giới hạn tiệm cận của các phương pháp nhân số lớn truyền thống, mở ra tiềm năng tăng tốc độ xử lý cho các ứng dụng tính toán hiệu năng cao và mật mã học hiện đại.",
+        "Việc áp dụng thành công các thuật toán tối ưu toán học như vậy giúp các kỹ sư phần mềm xử lý các bài toán tính toán phức tạp với hiệu suất vượt trội và tiết kiệm tài nguyên phần cứng đáng kể."
+      ],
+      "summary_en": [
+        "The article discusses a newly proposed integer multiplication algorithm featuring a time complexity within the o(n log n) class, marking a significant milestone in theoretical computer science and computational optimization.",
+        "This algorithm substantially improves the asymptotic limits of traditional large integer multiplication methods, unlocking potential speed enhancements for high-performance computing and modern cryptography applications.",
+        "Successfully applying such mathematical optimization algorithms enables software engineers to handle complex computational problems with superior performance and remarkable hardware resource savings."
+      ],
+      "originalTitle": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
+      "url": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Algorithms",
+        "Computer Science",
+        "Optimization",
+        "Mathematics",
+        "Performance"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T02:30:52.000Z",
+      "contentSnippet": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
+      "authorName": "craigcitro",
+      "upvotes": 213,
+      "commentsCount": 144
     },
     {
       "id": "207bb11f919f51f8",
@@ -8049,445 +8495,6 @@
       "publishedAt": "2026-10-13T19:01:38.000Z",
       "contentSnippet": "HomePod mini 2 được nâng cấp chip Apple S10, hỗ trợ Siri AI, hiệu ứng ánh sáng Sound Glow và kết nối bốn loa với Apple TV 4K thế hệ mới. Apple vừa giới thiệu HomePod mini 2, thế hệ tiếp theo của...",
       "authorName": "Trung Dt",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b5a0bcffb5b3a77b",
-      "title_vi": "Hệ máy Xbox chính thức đón nhận sự bùng nổ của việc chuyển đổi trò chơi ứng dụng trí tuệ nhân tạo",
-      "title_en": "Xbox is officially embracing the chaos of AI-powered game ports",
-      "summary_vi": [
-        "Ngành công nghiệp trò chơi cổ điển đang chứng kiến sự thay đổi mạnh mẽ nhờ các kỹ thuật biên dịch ngược và dịch mã nguồn cho phép chuyển đổi tựa game kinh điển sang thiết bị mới.",
-        "Microsoft đã thành lập nhóm nghiên cứu Xbox Labs nhằm khám phá làn sóng mô hình trí tuệ nhân tạo hỗ trợ lập trình viên chỉnh sửa và tái cấu trúc mã nguồn trò chơi vô cùng linh hoạt.",
-        "Bước đi chiến lược này mở ra tiềm năng lớn cho cộng đồng phát triển phần mềm và kỹ sư game trong việc ứng dụng công nghệ tự động hóa để sáng tạo nội dung giải trí độc đáo."
-      ],
-      "summary_en": [
-        "The retro gaming industry is experiencing massive changes due to decompilation and recompilation techniques allowing developers to port classic titles onto modern hardware devices seamlessly.",
-        "Microsoft has established a new Xbox Labs research group to explore how artificial intelligence models can help programmers modify and restructure game source code with exceptional flexibility.",
-        "This strategic move opens up enormous potential for the software development community and game engineers to leverage automation technologies for creating unique entertainment content."
-      ],
-      "originalTitle": "Xbox is officially embracing the chaos of AI-powered game ports",
-      "url": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "AI",
-        "Gaming",
-        "Software Engineering",
-        "Microsoft",
-        "Code Refactoring"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-13T19:00:48.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/xboxlabshed.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Retro gaming is going through a wild time at the moment, thanks to decompilations and recompilations that are letting gamers port classic titles to new devices, or merge code from two different games into a single new experience. Microsoft has witnessed skateboarding being modded into Call of Duty a",
-      "authorName": "Tom Warren",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ff794cf04ec43f8b",
-      "title_vi": "DeepSeek V4.1 Flash tiết kiệm chi phí hơn GPT-6 Astra: Tại sao xác định đúng nguyên nhân lỗi chưa đồng nghĩa với việc sửa lỗi thành công?",
-      "title_en": "DeepSeek V4.1 Flash vs GPT-6 Astra: Why Identifying Root Causes Does Not Guarantee Successful Bug Resolution",
-      "summary_vi": [
-        "Bài viết phân tích sự khác biệt giữa khả năng chẩn đoán lỗi tự động và quá trình thực thi sửa lỗi thực tế thông qua các ví dụ cụ thể từ thư viện kiểm thử pytest trong môi trường phát triển phần mềm chuyên nghiệp.",
-        "Tác giả đi sâu vào quy trình kỹ thuật từ việc xác định nguyên nhân gốc rễ, lựa chọn phạm vi thay đổi mã nguồn cho đến việc kiểm chứng bản vá để đảm bảo tính ổn định và hiệu suất của hệ thống phần mềm.",
-        "Thông qua việc so sánh hiệu quả chi phí giữa các mô hình AI hiện đại, bài viết rút ra bài học quan trọng về giới hạn của trí tuệ nhân tạo trong việc xử lý các logic nghiệp vụ phức tạp và bảo trì mã nguồn."
-      ],
-      "summary_en": [
-        "The article analyzes the distinction between automated bug diagnosis capabilities and the actual execution of software fixes, using specific examples from the pytest library within a professional software development environment.",
-        "The author explores the technical process from identifying root causes and selecting code modification scopes to verifying patches to ensure system stability and performance in complex software architectures.",
-        "By comparing cost-efficiency between modern AI models, the article highlights critical lessons regarding the limitations of artificial intelligence in handling complex business logic and long-term software maintenance tasks."
-      ],
-      "originalTitle": "DeepSeek V4.1 Flash tốn ít chi phí hơn GPT-6 Astra: Vì sao tìm đúng nguyên nhân chưa có nghĩa là sửa xong lỗi?",
-      "url": "https://viblo.asia/p/deepseek-v41-flash-ton-it-chi-phi-hon-gpt-6-astra-vi-sao-tim-dung-nguyen-nhan-chua-co-nghia-la-sua-xong-loi-ZjJYWRR0VOE",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "AI",
-        "Software Engineering",
-        "Debugging",
-        "pytest",
-        "DeepSeek"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-13T17:02:05.000Z",
-      "contentSnippet": "Từ hai lỗi thật của pytest, phân biệt khả năng tìm nguyên nhân, chọn phạm vi sửa và hoàn tất bản vá. Ảnh bìa tạo bằng gpt-image-2; đây là minh họa, k...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b87626977e8d5fae",
-      "title_vi": "Trải nghiệm bộ phần mềm thay thế Adobe: Mượt mà và cập nhật liên tục",
-      "title_en": "Exploring Adobe Software Alternatives: Smooth Performance and Continuous Updates",
-      "summary_vi": [
-        "Cộng đồng công nghệ đang xôn xao về bộ phần mềm mới được phát triển nhằm sao chép các tính năng quen thuộc của hệ sinh thái Adobe nổi tiếng.",
-        "Các ứng dụng thay thế như LightCraft cho Lightroom hay PhotoCraft cho Photoshop mang đến hiệu năng xử lý đồ họa mượt mà và giao diện tương đương.",
-        "Sự xuất hiện của những công cụ mã nguồn mở hoặc giải pháp thay thế này mang lại lựa chọn tiết kiệm chi phí đáng kể cho các lập trình viên và nhà thiết kế."
-      ],
-      "summary_en": [
-        "The technology community is buzzing about a newly developed software suite designed to clone the familiar features of the famous Adobe ecosystem.",
-        "Alternative applications such as LightCraft for Lightroom or PhotoCraft for Photoshop deliver smooth graphic processing performance and familiar interfaces.",
-        "The emergence of these open-source tools and alternative solutions provides a significantly cost-effective option for developers and designers alike."
-      ],
-      "originalTitle": "Thử dùng \"Lightroom Fake\" - LightCraft: mượt, đầy đủ, update liên tục",
-      "url": "https://tinhte.vn/thread/thu-dung-lightroom-fake-lightcraft-muot-day-du-update-lien-tuc.4183628/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Software",
-        "Adobe",
-        "LightCraft",
-        "Design Tools"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-13T16:31:06.000Z",
-      "contentSnippet": "Mấy nay thấy anh em rần rần về cái bộ phần mềm clone bộ Adobe, ví dụ như Adobe Lightroom thì app clone tên là LightCraft, Photoshop thì là PhotoCraft, AI thì là VectorCraft, Premiere thì là...",
-      "authorName": "Nhà Của Cáo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "359da823cc8abb68",
-      "title_vi": "GPT-6 Astra là gì? Hướng dẫn tích hợp API và kiểm chứng kết quả trong ứng dụng",
-      "title_en": "What is GPT-6 Astra? Instructions for integrating API and verifying results in the application",
-      "summary_vi": [
-        "Từ dữ liệu đầu vào đến kết quả có thể kiểm tra trong ứng dụng.",
-        "Khi tích hợp một mô hình ngôn ngữ vào ứng dụng, phần khó thường không nằm ở chỗ gọi đư.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến GPT-6 Astra là gì? Hướng dẫn tích hợp API và kiểm chứng kết quả trong ứng dụng."
-      ],
-      "summary_en": [
-        "From input data to testable results in the application.",
-        "When integrating a language model into an application, the hard part is often not in calling it.",
-        "Practical engineering impact and actionable takeaways for developers building with What is GPT-6 Astra? Instructions for integrating API and verifying results in the application."
-      ],
-      "originalTitle": "GPT-6 Astra là gì? Hướng dẫn tích hợp API và kiểm chứng kết quả trong ứng dụng",
-      "url": "https://viblo.asia/p/gpt-6-astra-la-gi-huong-dan-tich-hop-api-va-kiem-chung-ket-qua-trong-ung-dung-G24B8WW5Lz3",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 96,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-13T16:17:14.000Z",
-      "contentSnippet": "Từ dữ liệu đầu vào đến kết quả có thể kiểm tra trong ứng dụng. Khi tích hợp một mô hình ngôn ngữ vào ứng dụng, phần khó thường không nằm ở chỗ gọi đư...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "7a89d3ba2a72b6c4",
-      "title_vi": "Giới thiệu mô hình Gemini 4 Argon đột phá mới của Google dành cho kỹ sư và nhà nghiên cứu",
-      "title_en": "Google Announces Gemini 4 Argon Model for Advanced Engineering and Research",
-      "summary_vi": [
-        "Google vừa chính thức công bố mô hình trí tuệ nhân tạo thế hệ mới mang tên Argon, được thiết kế chuyên biệt để giải quyết các bài toán khoa học và kỹ thuật phức tạp nhất hiện nay.",
-        "Mô hình này hỗ trợ đắc lực cho việc tự động hóa mô phỏng vật lý từ video, tối ưu hóa mã nguồn Python, tăng tốc các gói hóa học lượng tử và xử lý các tác vụ phần mềm dài hạn.",
-        "Với khả năng bảo mật xuất sắc và hiệu năng vượt trội trong việc vá lỗ hổng bảo mật, Argon đang trở thành công cụ ưu tiên hàng đầu cho các nhà phát triển phần mềm chuyên nghiệp."
-      ],
-      "summary_en": [
-        "Google has officially announced the next-generation artificial intelligence model named Argon, specifically designed to solve the most complex scientific and engineering problems today.",
-        "This model strongly supports the automation of physical simulations from raw video, optimizing Python source code, accelerating quantum chemistry packages, and handling long-horizon software tasks.",
-        "Featuring exceptional security capabilities and outstanding performance in vulnerability remediation, Argon is rapidly becoming the preferred tool for professional software developers."
-      ],
-      "originalTitle": "Gemini 4 Argon",
-      "url": "https://deepmind.google/models/gemini/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Gemini",
-        "AI",
-        "Machine Learning",
-        "Software Engineering",
-        "Cybersecurity"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-13T16:03:16.000Z",
-      "contentSnippet": "Gemini 4 Argon Try in Gemini Try in Google AI Studio Try in Google Antigravity Gemini 4 Argon Our next era of frontier intelligence, built to solve your hardest problems Explore the latestSlide 1 of 4Solving frontier problems with expertsResearchers, engineers, and security specialists are pairing w",
-      "authorName": "737max",
-      "upvotes": 823,
-      "commentsCount": 653
-    },
-    {
-      "id": "9695a1a4ab2b53a7",
-      "title_vi": "Quả Táo ra mắt thiết bị giải mã truyền hình thế hệ mới: tích hợp trí tuệ nhân tạo, giá bán gần chín triệu đồng",
-      "title_en": "Apple launches new 4K TV streaming device with integrated AI and hardware upgrades",
-      "summary_vi": [
-        "Hãng công nghệ hàng đầu vừa chính thức công bố thế hệ thiết bị giải mã truyền hình độ nét cao mới với nhiều nâng cấp mạnh mẽ về phần cứng nhằm tối ưu hóa trải nghiệm giải trí tại gia cho người dùng.",
-        "Sản phẩm được trang bị vi xử lý dòng A thế hệ mới kết hợp cùng hệ thống micro tầm xa tiên tiến, cho phép tích hợp sâu các tính năng trợ lý ảo thông minh dựa trên trí tuệ nhân tạo vào thiết bị.",
-        "Bước tiến này khẳng định chiến lược mở rộng hệ sinh thái nhà thông minh và nền tảng điều khiển bằng giọng nói, mang lại giá trị tương tác liền mạch cho người dùng trong kỷ nguyên thiết bị kết nối."
-      ],
-      "summary_en": [
-        "The major technology corporation has officially announced a new generation of ultra high definition streaming devices with powerful hardware upgrades designed to optimize home entertainment experiences for users.",
-        "The product is equipped with a modern processor combined with an advanced long range microphone system, enabling deep integration of intelligent artificial intelligence virtual assistant features directly into the hardware.",
-        "This strategic step reinforces the expansion of the smart home ecosystem and voice control platforms, delivering seamless interactive value for users within the era of interconnected consumer electronics."
-      ],
-      "originalTitle": "Apple ra mắt Apple TV 4K: có Siri AI, giá 8,79 triệu, 13 tháng 11 bán ra tại Việt Nam",
-      "url": "https://tinhte.vn/thread/apple-ra-mat-apple-tv-4k-co-siri-ai-gia-8-79-trieu-13-thang-11-ban-ra-tai-viet-nam.4183906/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "Hardware",
-        "AI",
-        "SmartHome"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-13T15:54:00.000Z",
-      "contentSnippet": "Apple vừa chính thức công bố thế hệ Apple TV 4K mới với nhiều nâng cấp về phần cứng và trải nghiệm giải trí tại gia. Thiết bị trang bị vi xử lý A19, tích hợp hệ thống micro tầm xa hỗ trợ điều...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "56ee56e48ed29025",
-      "title_vi": "Thiết kế lại hệ thống quản lý mã nguồn tại Anthropic",
-      "title_en": "Redesigning source control at Anthropic",
-      "summary_vi": [
-        "Sự bùng nổ của trí tuệ nhân tạo trong việc tự động tạo ra mã nguồn đã biến cơ sở hạ tầng phát triển phần mềm thành nút thắt cổ chai lớn nhất của doanh nghiệp.",
-        "Để giải quyết vấn đề này, đội ngũ kỹ sư đã tự phát triển hệ thống quản lý phiên bản nội bộ mang tên Scion và hoàn tất việc di chuyển toàn bộ mã nguồn chỉ trong năm tháng.",
-        "Động thái này minh chứng cho sự chuyển dịch tất yếu trong ngành công nghệ khi các công cụ phát triển phải được thiết kế lại để đáp ứng năng suất khổng lồ từ hệ thống tự động hóa."
-      ],
-      "summary_en": [
-        "The exponential growth of artificial intelligence in autonomously generating source code has turned traditional software development infrastructure into a major operational bottleneck.",
-        "To overcome this scaling challenge, engineers successfully developed an in-house version control system named Scion and migrated their entire repository infrastructure within five months.",
-        "This architectural overhaul highlights an inevitable industry shift where developer tooling must be completely redesigned to support the unprecedented code output driven by automated systems."
-      ],
-      "originalTitle": "Redesigning source control at Anthropic",
-      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Version Control",
-        "Monorepo",
-        "DevOps",
-        "AI",
-        "Software Architecture"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-13T15:49:56.000Z",
-      "contentSnippet": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months. At Anthropic, coding is no longer the bottleneck to building systems or doing research. Claude is able to auton",
-      "authorName": "Philpax",
-      "upvotes": 410,
-      "commentsCount": 405
-    },
-    {
-      "id": "6d5cf69a4a24c35f",
-      "title_vi": "Mệt mỏi vì trí tuệ nhân tạo ư? Vâng, tôi hiểu rõ điều đó",
-      "title_en": "AI Fatigue? Yea I know.",
-      "summary_vi": [
-        "Cộng đồng lập trình viên đang đối mặt với tình trạng bội thực nội dung khi các bài viết về trí tuệ nhân tạo xuất hiện dày đặc trên khắp các trang mạng xã hội và diễn đàn công nghệ trực tuyến.",
-        "Sự độc quyền của chủ đề mô hình ngôn ngữ lớn và các ứng dụng tự động hóa khiến các nhà phát triển khó khăn trong việc tìm kiếm các bài hướng dẫn kỹ thuật cơ bản hoặc mẹo lập trình giao diện thực tế.",
-        "Hiện tượng nhàm chán này đòi hỏi hệ sinh thái nội dung cần đa dạng hóa trở lại, cân bằng giữa các công nghệ mới nổi và những kiến thức nền tảng thiết yếu cho lập trình viên hàng ngày."
-      ],
-      "summary_en": [
-        "The software development community is facing content fatigue as artificial intelligence articles dominate tech forums and platforms, overshadowing other essential programming discussions and tips.",
-        "The overwhelming focus on large language models and automated applications makes it increasingly difficult for developers to discover foundational frontend tips or practical coding tutorials.",
-        "This growing sentiment highlights the urgent need for content diversity, urging platforms to balance cutting-edge innovations with fundamental engineering knowledge required for daily software development."
-      ],
-      "originalTitle": "AI Fatigue? Yea I know.",
-      "url": "https://dev.to/francistrdev/ai-fatigue-yea-i-know-f9",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "AI",
-        "Developer Community",
-        "Tech Trends",
-        "Web Development"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-13T14:57:34.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkwr5z8mzbe8dlvbb81m5.jpg",
-      "contentSnippet": "I don't know how to start this off really haha. Though to be fair, everyone is talking about AI...",
-      "authorName": "FrancisTRᴅᴇᴠ",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3711376%2Fe88f6fdf-33af-4dde-bb60-fbe662e87d02.gif",
-      "upvotes": 73,
-      "commentsCount": 22
-    },
-    {
-      "id": "a72272d40bb60fe9",
-      "title_vi": "Loa thông minh HomePod mini 2 ra mắt tích hợp trợ lý AI và đèn nhấp nháy theo âm nhạc",
-      "title_en": "HomePod mini 2 Launches With Integrated AI Assistant and Music Reactive Lighting",
-      "summary_vi": [
-        "Apple vừa chính thức công bố dòng loa thông minh thế hệ mới mang tên HomePod mini 2 với năm màu sắc bắt mắt cùng hệ thống đèn LED phát sáng đồng bộ theo giai điệu bài hát.",
-        "Thiết bị phần cứng này được trang bị khả năng tương tác nâng cao nhờ trợ lý ảo tích hợp công nghệ trí tuệ nhân tạo thế hệ mới của hãng.",
-        "Sự ra mắt này tiếp tục củng cố hệ sinh thái nhà thông minh của Apple, mang lại trải nghiệm điều khiển bằng giọng nói và âm thanh chất lượng cao cho người dùng."
-      ],
-      "summary_en": [
-        "Apple has officially announced the new generation smart speaker named HomePod mini 2 featuring five vibrant colors and an LED lighting system that synchronizes with music rhythms.",
-        "This hardware device is equipped with advanced interaction capabilities powered by the company is newly integrated artificial intelligence virtual assistant technology.",
-        "This launch continues to strengthen Apple s smart home ecosystem, delivering high quality audio and voice control experiences for consumers worldwide."
-      ],
-      "originalTitle": "HomePod mini 2 ra mắt: Có đèn \"xập xình\" theo nhạc, giá 3,9 triệu nhưng cũng không bán chính hãng",
-      "url": "https://genk.vn/homepod-mini-2-ra-mat-co-den-xap-xinh-theo-nhac-gia-39-trieu-nhung-cung-khong-ban-chinh-hang-16526101320221147.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "HomePod",
-        "SmartSpeaker",
-        "AI",
-        "IoT"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-13T13:20:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/13/apple-homepod-mini-2-color-lineup-261013bigjpglarge-0-99-1102-1862-crop-17918976283761666306126.jpg",
-      "contentSnippet": "Loa thông minh mới chạy chip S10, nhận diện giọng nói của tối đa 6 người và ghép được thành dàn loa vòm 4 loa với Apple TV 4K.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4de7e460f5c9379e",
-      "title_vi": "Táo Khuyết công bố thiết bị giải mã truyền hình thế hệ mới tích hợp trí tuệ nhân tạo và bộ vi xử lý mạnh mẽ",
-      "title_en": "Apple Announces New 4K Media Streaming Device Powered by Advanced Silicon and Integrated AI",
-      "summary_vi": [
-        "Hãng công nghệ hàng đầu vừa chính thức công bố thiết bị giải mã truyền hình thế hệ mới với nhiều nâng cấp mạnh mẽ về phần cứng và tính năng thông minh.",
-        "Sản phẩm được trang bị bộ vi xử lý cao cấp thế hệ mới cùng khả năng tích hợp trợ lý ảo thông minh hiển thị trực quan toàn màn hình và hỗ trợ kết nối hệ thống âm thanh vòm.",
-        "Thiết bị này đánh dấu bước tiến mới trong việc đưa trí tuệ nhân tạo vào hệ sinh thái giải trí gia đình, mang lại trải nghiệm tương tác liền mạch và hiệu năng xử lý đồ họa vượt trội cho người dùng."
-      ],
-      "summary_en": [
-        "The leading technology company has officially announced a new generation media streaming device featuring significant hardware upgrades and smart capabilities.",
-        "The product is equipped with an advanced next-generation processor alongside full-screen visual AI assistant integration and robust surround sound system connectivity.",
-        "This device marks a significant step forward in bringing artificial intelligence into the home entertainment ecosystem, delivering seamless interactive experiences and superior graphics processing performance for users."
-      ],
-      "originalTitle": "Apple ra mắt Apple TV 4K mới: Có Siri AI, dùng chip của iPhone 17, giá chính hãng 8,79 triệu đồng",
-      "url": "https://genk.vn/apple-ra-mat-apple-tv-4k-moi-co-siri-ai-dung-chip-cua-iphone-17-gia-chinh-hang-879-trieu-dong-165261013201649986.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "Artificial Intelligence",
-        "Hardware",
-        "Smart Home"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-13T13:15:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/13/apple-tv-4k-261013bigjpglarge-0-90-1102-1853-crop-17918972267851704324983.jpg",
-      "contentSnippet": "Thiết bị có 3 micro thu giọng từ xa để ra lệnh rảnh tay, đồng thời lần đầu hỗ trợ dàn loa vòm 4 loa HomePod.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "36531b8b5677585e",
-      "title_vi": "Apple ra mắt HomeView: Màn hình 7 inch tích hợp Siri AI, giá 299 đô, Việt Nam không bán",
-      "title_en": "Apple launches HomeView: 7-inch screen with integrated Siri AI, priced at $299, not sold in Vietnam",
-      "summary_vi": [
-        "Apple vừa giới thiệu HomeView, thiết bị màn hình 7 inch dành cho gia đình, gộp nghe nhạc, gọi FaceTime và điều khiển nhà thông minh vào một chỗ.",
-        "Máy mở đặt trước từ ngày 13/10 ở nhiều thị trường, giao hàng từ 13/11.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Apple ra mắt HomeView: Màn hình 7 inch tích hợp Siri AI, giá 299 đô, Việt Nam không bán."
-      ],
-      "summary_en": [
-        "Apple has just introduced HomeView, a 7-inch screen device for the home that combines music listening, FaceTime calling and smart home control into one place.",
-        "The device opens for pre-order from October 13 in many markets, shipping from November 13.",
-        "Practical engineering impact and actionable takeaways for developers building with Apple launches HomeView: 7-inch screen with integrated Siri AI, priced at $299, not sold in Vietnam."
-      ],
-      "originalTitle": "Apple ra mắt HomeView: Màn hình 7 inch tích hợp Siri AI, giá 299 đô, Việt Nam không bán",
-      "url": "https://genk.vn/apple-ra-mat-homeview-man-hinh-7-inch-tich-hop-siri-ai-gia-299-do-len-ke-tu-13-11-165261013201015951.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 98,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-13T13:09:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/13/apple-homeview-lineup-261013full-bleed-imagejpglarge-0-75-810-1371-crop-17918968629722016589577.jpg",
-      "contentSnippet": "Thiết bị đặt bàn hoặc treo tường nhận diện khuôn mặt để mở nội dung riêng cho tối đa 6 người trong nhà.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "308ef7f0064991b3",
-      "title_vi": "Apple ra mắt loa thông minh HomePod Mini thế hệ thứ hai với chip xử lý mới hỗ trợ trí tuệ nhân tạo",
-      "title_en": "Apple announces the HomePod Mini 2, but it isn’t ready for Siri AI at launch",
-      "summary_vi": [
-        "Apple vừa chính thức công bố phiên bản kế nhiệm của dòng loa thông minh HomePod Mini với nhiều cải tiến về phần cứng, đặc biệt là việc tích hợp con chip mới có khả năng xử lý các tác vụ trí tuệ nhân tạo nâng cao trong tương lai.",
-        "Thiết bị được trang bị tính năng đồng bộ ánh sáng LED theo bìa album nhạc, khả năng thiết lập làm loa mặc định cho máy tính Mac và hỗ trợ kết nối bốn loa cùng lúc với Apple TV 4K để tạo hiệu ứng âm thanh vòm sống động.",
-        "Dù sở hữu phần cứng mạnh mẽ, các tính năng AI của trợ lý ảo Siri sẽ chưa khả dụng ngay khi sản phẩm lên kệ, đánh dấu một bước chuyển dịch chiến lược của Apple trong việc tích hợp sâu hơn các mô hình ngôn ngữ vào hệ sinh thái phần cứng."
-      ],
-      "summary_en": [
-        "Apple has officially announced the successor to its popular HomePod Mini smart speaker, featuring upgraded hardware and a new processor specifically designed to handle advanced artificial intelligence tasks and future software updates for the device.",
-        "The speaker introduces dynamic LED lighting that syncs with album artwork, native support as a default output for Mac computers, and the ability to pair four units with Apple TV 4K for an immersive surround sound experience.",
-        "Despite the hardware improvements, the promised AI-driven Siri features will not be available at launch, highlighting Apple's cautious approach to deploying complex machine learning models across its consumer hardware ecosystem and smart home product lineup."
-      ],
-      "originalTitle": "Apple announces the HomePod Mini 2, but it isn’t ready for Siri AI at launch",
-      "url": "https://www.theverge.com/tech/1009672/homepod-mini-2-announced-apple-siri-ai",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Apple",
-        "HomePod",
-        "AI",
-        "Siri",
-        "SmartHome"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-13T13:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Apple-HomePod-mini-2-color-lineup.png?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "The HomePod Mini 2. | Image: Apple Apple is announcing the long-awaited HomePod Mini 2 with a new chip that can power Siri AI - but support for those new AI features won't be available at launch. The speaker is also getting a new sound glow feature that syncs its LED lights with a song's album art, ",
-      "authorName": "Jennifer Pattison Tuohy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f535b56304559886",
-      "title_vi": "Apple TV 4K thế hệ thứ tư tích hợp micro hỗ trợ trí tuệ nhân tạo Siri",
-      "title_en": "The new Apple TV 4K has built-in microphones so you can talk to Siri AI",
-      "summary_vi": [
-        "Apple vừa chính thức công bố phiên bản Apple TV 4K thế hệ thứ tư tại sự kiện Welcome Home, mang đến những nâng cấp phần cứng đáng chú ý nhằm cải thiện trải nghiệm điều khiển thiết bị thông minh trong hệ sinh thái gia đình.",
-        "Thiết bị được trang bị hệ thống micro trường xa cho phép tương tác trực tiếp với trợ lý ảo Siri, đồng thời hỗ trợ tính năng rạp hát tại gia cho phép kết nối đồng bộ bốn loa HomePod hoặc HomePod Mini để tạo âm thanh vòm.",
-        "Với mức giá khởi điểm 299 USD, sản phẩm này đánh dấu bước tiến mới của Apple trong việc tích hợp sâu trí tuệ nhân tạo vào các thiết bị giải trí gia đình, tạo ra tiêu chuẩn mới cho trải nghiệm người dùng trong không gian kỹ thuật số."
-      ],
-      "summary_en": [
-        "Apple has officially announced the fourth-generation Apple TV 4K at the Welcome Home event, introducing significant hardware upgrades designed to enhance the control experience of smart devices within the company's home ecosystem.",
-        "The device features a far-field microphone array for hands-free interaction with the Siri AI assistant, alongside a new home theater capability that allows pairing up to four HomePod or HomePod Mini units for immersive surround sound.",
-        "Priced at 299 USD, this product represents a strategic move by Apple to integrate artificial intelligence deeper into home entertainment hardware, setting a new benchmark for user experience within the modern digital living space."
-      ],
-      "originalTitle": "The new Apple TV 4K has built-in microphones so you can talk to Siri AI",
-      "url": "https://www.theverge.com/tech/1009663/apple-tv-4k-siri-ai-microphones-4th-gen-announced",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Apple",
-        "Siri",
-        "AI",
-        "HomePod",
-        "Hardware"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-13T13:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Apple-TV-4K.png?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Apple TV 4K (4th gen) has the same look as the previous model but with some under-the-hood improvements. | Image: Apple Apple is introducing a refreshed Apple TV 4K today with a pair of interesting new hardware features: far-field microphones to talk to Siri hands-free and Find My built into the rem",
-      "authorName": "Jennifer Pattison Tuohy",
       "upvotes": 0,
       "commentsCount": 0
     }
