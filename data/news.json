@@ -1,7 +1,244 @@
 {
-  "lastUpdated": "2026-10-22T10:55:10.598Z",
+  "lastUpdated": "2026-10-22T21:02:22.234Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "e40545822581820e",
+      "title_vi": "CVE hạt nhân đang rò rỉ nhanh hơn bản vá của bạn: Chiến lược khởi động lại và cập nhật hạt nhân thực tế cho máy chủ Linux",
+      "title_en": "Kernel CVEs Are Leaking Faster Than You Patch: A Practical Kernel Update & Reboot Strategy for Linux Servers",
+      "summary_vi": [
+        "Tổng quan bối cảnh, sự kiện then chốt và các diễn biến kỹ thuật nổi bật được ghi nhận về CVE hạt nhân đang rò rỉ nhanh hơn bản vá của bạn: Chiến lược khởi động lại và cập nhật hạt nhân thực tế cho máy chủ Linux.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong CVE hạt nhân đang rò rỉ nhanh hơn bản vá của bạn: Chiến lược khởi động lại và cập nhật hạt nhân thực tế cho máy chủ Linux.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến CVE hạt nhân đang rò rỉ nhanh hơn bản vá của bạn: Chiến lược khởi động lại và cập nhật hạt nhân thực tế cho máy chủ Linux."
+      ],
+      "summary_en": [
+        "Key architectural developments and core background regarding Kernel CVEs Are Leaking Faster Than You Patch: A Practical Kernel Update & Reboot Strategy for Linux Servers.",
+        "In-depth technical breakdown and implementation mechanisms introduced in Kernel CVEs Are Leaking Faster Than You Patch: A Practical Kernel Update & Reboot Strategy for Linux Servers.",
+        "Practical engineering impact and actionable takeaways for developers building with Kernel CVEs Are Leaking Faster Than You Patch: A Practical Kernel Update & Reboot Strategy for Linux Servers."
+      ],
+      "originalTitle": "Kernel CVEs Are Leaking Faster Than You Patch: A Practical Kernel Update & Reboot Strategy for Linux Servers",
+      "url": "https://viblo.asia/p/kernel-cves-are-leaking-faster-than-you-patch-a-practical-kernel-update-reboot-strategy-for-linux-servers-3RL1BlOvVao",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "DevOps",
+        "Cloud"
+      ],
+      "hotScore": 84,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-22T23:37:20.000Z",
+      "contentSnippet": "",
+      "authorName": "EME GUG",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "beca94ff045b4163",
+      "title_vi": "So sánh GLM-5 và Gemini 3.8 Flash qua mười chín bài kiểm tra kỹ thuật",
+      "title_en": "Comparing GLM-5 and Gemini 3.8 Flash Through Nineteen Technical Tests",
+      "summary_vi": [
+        "Bài viết thực hiện một cuộc so sánh toàn diện giữa hai mô hình trí tuệ nhân tạo lớn là GLM-5 và Gemini 3.8 Flash thông qua một bộ mười chín bài kiểm tra năng lực kỹ thuật khắt khe.",
+        "Quá trình thử nghiệm đã phát hiện ra hai lỗi đặc biệt không có mã lỗi đi kèm, đặt ra nhiều thách thức mới trong việc chẩn đoán và khắc phục sự cố hệ thống mô hình ngôn ngữ lớn.",
+        "Kết quả đánh giá mang lại góc nhìn thực tiễn quan trọng cho các nhà phát triển trong việc lựa chọn và tối ưu hóa các giải pháp trí tuệ nhân tạo phù hợp với yêu cầu kiến trúc thực tế."
+      ],
+      "summary_en": [
+        "The article conducts a comprehensive comparison between two large language models, GLM-5 and Gemini 3.8 Flash, through a rigorous set of nineteen technical capability tests.",
+        "The testing process uncovered two specific errors without accompanying error codes, presenting new challenges in diagnosing and troubleshooting large language model system issues.",
+        "The evaluation results provide essential practical insights for developers in selecting and optimizing artificial intelligence solutions to match actual architectural requirements."
+      ],
+      "originalTitle": "GLM-5 vs Gemini 3.8 Flash: 19 bài test, hai lỗi không có mã lỗi",
+      "url": "https://viblo.asia/p/glm-5-vs-gemini-38-flash-19-bai-test-hai-loi-khong-co-ma-loi-R5JRQWnr4Gv",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "LLM",
+        "GLM-5",
+        "Gemini",
+        "Machine Learning"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T20:37:11.000Z",
+      "contentSnippet": "GLM-5 vs Gemini 3.8 Flash: 19 bài test, hai lỗi không có mã lỗi Ảnh bìa do AI tạo. Vấn đề: 17/19 nghe như một kết luận, nhưng nó chỉ là một con số ...",
+      "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "32b3170e24109d9a",
+      "title_vi": "Các chuyên gia luật nhận định AI của Meta vẫn có khả năng thu thập dữ liệu từ các trang tin tức",
+      "title_en": "Meta’s AI could still scrape news sites, legal experts say",
+      "summary_vi": [
+        "Meta đã thực hiện điều chỉnh các điều khoản kinh doanh nhằm loại bỏ những nội dung cho phép hệ thống trí tuệ nhân tạo tự do huấn luyện dữ liệu trực tiếp từ các trang tin tức.",
+        "Mặc dù có sự thay đổi về điều khoản, các chuyên gia pháp lý về công nghệ thông tin vẫn khẳng định các điều chỉnh này chưa đủ để giải quyết triệt để vấn đề.",
+        "Sự việc này làm dấy lên những tranh cãi lớn về quyền sở hữu trí tuệ và phương thức thu thập dữ liệu quy mô lớn của các mô hình học máy hiện nay."
+      ],
+      "summary_en": [
+        "Meta has adjusted its business terms to remove explicit language suggesting it could freely train artificial intelligence models directly on news websites.",
+        "Despite these recent modifications, legal experts in information technology argue that the changes remain insufficient to address core scraping concerns.",
+        "This situation continues to spark significant industry debate regarding intellectual property rights and large-scale data harvesting practices for machine learning."
+      ],
+      "originalTitle": "Meta’s AI could still scrape news sites, legal experts say",
+      "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Data Scraping",
+        "Legal",
+        "Meta"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T20:32:05.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_1_Meta.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to restrict the 'associated with your products or services' [lang",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "98516d3e7e04cfcd",
+      "title_vi": "Cơ quan cấp chứng chỉ số eMudhra từ bỏ mảng kinh doanh TLS sau sự cố lộ khóa riêng tư yếu",
+      "title_en": "Disgraced eMudhra drops out of TLS business after using weak certificate private keys",
+      "summary_vi": [
+        "Hãng cấp chứng chỉ số eMudhra tuyên bố rút lui hoàn toàn khỏi lĩnh vực kinh doanh chứng chỉ TLS sau khi vấp phải làn sóng chỉ trích mạnh mẽ từ cộng đồng an ninh mạng quốc tế.",
+        "Nguyên nhân cốt lõi xuất phát từ việc công ty này phát hành tám chứng chỉ trung gian có khóa mã hóa riêng tư quá yếu, cho phép kẻ xấu dễ dàng bẻ khóa chỉ trong vài mili giây.",
+        "Sự cố này gióng lên hồi chuông cảnh báo về tiêu chuẩn tuân thủ an toàn trong việc quản lý hạ tầng khóa công khai, ảnh hưởng trực tiếp đến độ tin cậy của nhiều trình duyệt và máy chủ."
+      ],
+      "summary_en": [
+        "Certificate authority eMudhra announced its complete withdrawal from the TLS business following intense backlash and scrutiny from the global cybersecurity community.",
+        "The core issue stemmed from the issuance of eight intermediate certificates containing encryption private keys so weak that attackers could easily crack them within milliseconds.",
+        "This severe security incident highlights critical compliance failures in public key infrastructure management, directly impacting the trustworthiness of major web browsers and servers."
+      ],
+      "originalTitle": "Disgraced eMudhra drops out of TLS business after using cert private key of 4",
+      "url": "https://arstechnica.com/security/2026/10/disgraced-emudhra-drops-out-of-tls-business-following-certificate-debacle/",
+      "sourceName": "Ars Technica",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "TLS",
+        "Certificate Authority",
+        "Encryption",
+        "PKI"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T20:17:52.000Z",
+      "contentSnippet": "Flubbed key signing \"ceremony\" allowed minting of web credentials for any site.",
+      "authorName": "\n                    Dan Goodin\n                ",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "95b144aeb6e41f39",
+      "title_vi": "Cảnh báo hai lỗ hổng PHP nghiêm trọng, website cần cập nhật sớm",
+      "title_en": "Critical Alert Issued for Two Severe PHP Vulnerabilities Requiring Immediate System Updates",
+      "summary_vi": [
+        "Cơ quan chức năng vừa phát đi cảnh báo khẩn cấp về hai lỗ hổng bảo mật nghiêm trọng trên ngôn ngữ lập trình PHP với điểm số đánh giá lên tới 9,2 trên 10.",
+        "Các chuyên gia an ninh mạng khuyến cáo các tổ chức và doanh nghiệp đang vận hành hệ thống trực tuyến cần nhanh chóng tiến hành rà soát toàn bộ mã nguồn và cập nhật các bản vá lỗi.",
+        "Việc chậm trễ trong việc vá lỗi có thể tạo cơ hội cho kẻ gian khai thác các điểm yếu này để thực hiện các cuộc tấn công chiếm quyền điều khiển hệ thống và đánh cắp dữ liệu."
+      ],
+      "summary_en": [
+        "Authorities have issued an urgent security warning regarding two critical vulnerabilities discovered in the PHP programming language, both rated with a severe CVSS score of 9.2 out of 10.",
+        "Cybersecurity experts strongly advise organizations and enterprises operating online systems to quickly conduct comprehensive source code reviews and apply the latest available patches.",
+        "Delays in patching these critical security flaws could provide malicious actors with opportunities to exploit system weaknesses, execute unauthorized commands, and compromise sensitive data."
+      ],
+      "originalTitle": "Cảnh báo hai lỗ hổng PHP nghiêm trọng, website cần cập nhật sớm",
+      "url": "https://tuoitre.vn/canh-bao-hai-lo-hong-php-nghiem-trong-website-can-cap-nhat-som-100261022190250432.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "PHP",
+        "Security",
+        "Vulnerability",
+        "Patch",
+        "Cybersecurity"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T20:07:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/22/lo-hong-php-17926742564841464748980-3-0-384-610-crop-1792675994218525422092.png",
+      "contentSnippet": "Hai lỗ hổng PHP với mức độ nghiêm trọng 9,2/10 đã có bản vá. Cơ quan chức năng khuyến nghị tổ chức, doanh nghiệp sớm rà soát hệ thống.",
+      "authorName": "NGUYÊN BẢO⭐",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "05516fa6d2dd5210",
+      "title_vi": "Chia sẻ dự án lập trình giao diện: Câu lệnh tương tác vi mô dành cho trí tuệ nhân tạo",
+      "title_en": "Show HN: UI micro interactions prompts for AI",
+      "summary_vi": [
+        "Dự án mới ra mắt trên nền tảng Hacker News giới thiệu tập hợp các câu lệnh chuyên biệt nhằm hỗ trợ trí tuệ nhân tạo tạo ra các hiệu ứng tương tác giao diện người dùng tinh tế.",
+        "Bộ công cụ tập trung vào việc tối ưu hóa các mẫu thiết kế chuyển động nhỏ, giúp lập trình viên và nhà thiết kế dễ dàng tích hợp trải nghiệm người dùng mượt mà hơn bằng các mô hình ngôn ngữ lớn.",
+        "Sáng kiến này mang lại giá trị thực tiễn cao cho cộng đồng phát triển phần mềm, giúp rút ngắn thời gian tạo mẫu giao diện động và nâng cao chất lượng trải nghiệm ứng dụng hiện đại."
+      ],
+      "summary_en": [
+        "A newly launched project on Hacker News introduces a specialized collection of prompts designed to assist artificial intelligence in generating subtle user interface micro-interaction effects.",
+        "The toolkit focuses on optimizing small motion design patterns, enabling developers and designers to easily integrate smoother user experiences using large language models.",
+        "This initiative delivers high practical value to the software development community by reducing prototyping time for dynamic interfaces and enhancing modern application experiences."
+      ],
+      "originalTitle": "Show HN: UI micro interactions prompts for AI",
+      "url": "https://www.typeui.sh/micro-interactions",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "UI/UX",
+        "AI",
+        "Frontend",
+        "Design Systems",
+        "Show HN"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T18:32:57.000Z",
+      "contentSnippet": "Show HN: UI micro interactions prompts for AI",
+      "authorName": "elwingo1",
+      "upvotes": 50,
+      "commentsCount": 20
+    },
+    {
+      "id": "6eb73169f84ce43f",
+      "title_vi": "Môi trường thực thi an toàn và bảo mật dành cho đội ngũ tác nhân trí tuệ nhân tạo tự động",
+      "title_en": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "summary_vi": [
+        "Dự án mới mang tên OpenShell được phát triển nhằm cung cấp một môi trường thực thi hoàn toàn an toàn và đảm bảo tính riêng tư cho các hệ thống nhiều tác nhân trí tuệ nhân tạo tự động hoạt động đồng thời.",
+        "Giải pháp này ứng dụng các kỹ thuật cách ly tiến tiến và cơ chế kiểm soát quyền truy cập chặt chẽ, giúp ngăn chặn rò rỉ dữ liệu nhạy cảm và bảo vệ hạ tầng máy chủ khỏi các hành vi thực thi mã độc hại tiềm ẩn.",
+        "Sự ra đời của công cụ này giải quyết bài toán cốt lõi về bảo mật trong kỷ nguyên tự động hóa AI, giúp các doanh nghiệp tự tin triển khai các mô hình tác nhân quy mô lớn mà vẫn kiểm soát được rủi ro."
+      ],
+      "summary_en": [
+        "A new project named OpenShell has been developed to provide a completely secure and private execution environment designed specifically for fleets of autonomous artificial intelligence agents operating concurrently.",
+        "This solution leverages advanced isolation techniques and strict access control mechanisms to prevent sensitive data leaks and protect server infrastructure from potentially malicious code execution behaviors.",
+        "The introduction of this tool addresses the core security challenge in the era of AI automation, enabling enterprises to confidently deploy large-scale agent models while effectively mitigating operational risks."
+      ],
+      "originalTitle": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI Agents",
+        "Security",
+        "Runtime",
+        "Automation",
+        "Cloud"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T17:44:06.000Z",
+      "contentSnippet": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "authorName": "niemandhier",
+      "upvotes": 172,
+      "commentsCount": 90
+    },
     {
       "id": "b3153106648288db",
       "title_vi": "Rủi ro lộ dữ liệu quan trọng khi sử dụng trí tuệ nhân tạo và quyền hạn thực tế của tiện ích mở rộng trình duyệt",
@@ -33,6 +270,40 @@
       "publishedAt": "2026-10-22T17:23:54.000Z",
       "contentSnippet": "Khi dùng AI, thông tin quan trọng có bị lộ ra ngoài không? Tiện ích mở rộng trình duyệt đọc được gì Quyền truy cập của tiện ích và những trang nó thự...",
       "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "291cee50143dda9c",
+      "title_vi": "Đánh giá chi tiết điện thoại màn hình gập iPhone Duo từ góc nhìn kỹ thuật",
+      "title_en": "HTX Studio Reviews iPhone Duo: The Engineering Trade-offs of Apple's First Foldable Phone",
+      "summary_vi": [
+        "Kênh YouTube HTX Studio vừa công bố video đánh giá chi tiết về iPhone Duo, chiếc điện thoại màn hình gập đầu tiên mang thương hiệu Apple với nhiều kỳ vọng lớn từ cộng đồng công nghệ.",
+        "Báo cáo tập trung phân tích cơ chế bản lề, độ bền màn hình và những đánh đổi kỹ thuật về thiết kế phần cứng khi Apple tham gia vào thị trường thiết bị gập cạnh tranh khốc liệt.",
+        "Đánh giá này cung cấp góc nhìn thực tiễn về xu hướng phát triển phần cứng di động cao cấp, giúp các kỹ sư hiểu rõ hơn về thách thức tối ưu hóa trải nghiệm người dùng."
+      ],
+      "summary_en": [
+        "HTX Studio YouTube channel recently published a detailed review video of the iPhone Duo, Apple's first foldable smartphone which has generated immense anticipation within the tech community.",
+        "The analysis focuses heavily on the hinge mechanism, screen durability, and hardware design trade-offs as Apple officially enters the highly competitive foldable device market segment.",
+        "This evaluation delivers practical insights into high-end mobile hardware trends, helping engineers better understand the ongoing challenges of optimizing user experience on novel form factors."
+      ],
+      "originalTitle": "Đánh giá iPhone Duo từ HTX Studio: gập rất tốt, nhưng phải đánh đổi không ít",
+      "url": "https://tinhte.vn/thread/danh-gia-iphone-duo-tu-htx-studio-gap-rat-tot-nhung-phai-danh-doi-khong-it.4186187/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone Duo",
+        "Foldable Phone",
+        "Mobile Hardware",
+        "Tech Review"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T17:21:56.000Z",
+      "contentSnippet": "Kênh YouTube HTX Studio vừa đăng video đánh giá chi tiết iPhone Duo, chiếc iPhone màn hình gập đầu tiên của Apple, với tiêu đề \"iPhone Duo Review: Folding Has a Price\" (tạm dịch: Gập lại thì phải...",
+      "authorName": "thanhtung6868",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -106,6 +377,106 @@
       "commentsCount": 0
     },
     {
+      "id": "045a2ef443d2dc19",
+      "title_vi": "Trình diễn kỹ thuật chạy toàn bộ hệ điều hành iOS 16.5 trực tiếp trên các thiết bị Android",
+      "title_en": "Show HN: Run full iOS 16.5 firmware on Android Devices",
+      "summary_vi": [
+        "Dự án mã nguồn mở mới nhất được chia sẻ trên nền tảng Hacker News cho phép chạy hoàn chỉnh phiên bản phần mềm iOS mười sáu chấm năm trực tiếp trên phần cứng của các dòng điện thoại thông minh chạy hệ điều hành Android.",
+        "Giải pháp kỹ thuật này tận dụng các lớp ảo hóa phần cứng nâng cao kết hợp cùng trình giả lập nhân hệ thống tùy chỉnh, giúp mô phỏng thành công toàn bộ môi trường thực thi độc quyền của hệ sinh thái Apple trên nền tảng phần cứng mã nguồn mở.",
+        "Sự kiện này mở ra những hướng đi mới đầy thú vị cho cộng đồng nghiên cứu bảo mật và phát triển hệ thống nhúng, giúp các kỹ sư dễ dàng thử nghiệm đa nền tảng mà không cần đầu tư quá nhiều thiết bị phần cứng vật lý tốn kém."
+      ],
+      "summary_en": [
+        "The latest open-source project shared on Hacker News enables running a complete version of iOS firmware version sixteen point five directly on the hardware of standard smartphones powered by the Android operating system.",
+        "This technical solution leverages advanced hardware virtualization layers combined with a customized system kernel emulator, successfully simulating the entire proprietary execution environment of the Apple ecosystem on open-source hardware.",
+        "This achievement opens up exciting new directions for the security research community and embedded systems developers, helping engineers easily conduct cross-platform testing without investing in expensive physical hardware devices."
+      ],
+      "originalTitle": "Show HN: Run full iOS 16.5 firmware on Android Devices",
+      "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Android",
+        "iOS",
+        "Virtualization",
+        "Firmware",
+        "Mobile Development"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T15:26:22.000Z",
+      "contentSnippet": "Show HN: Run full iOS 16.5 firmware on Android Devices",
+      "authorName": "aghuang",
+      "upvotes": 234,
+      "commentsCount": 78
+    },
+    {
+      "id": "e78de397623d01a1",
+      "title_vi": "PHP2Shell: 2 lỗ hổng bảo mật mới đang gây khủng hoảng diện rộng",
+      "title_en": "PHP2Shell: 2 new security vulnerabilities are causing widespread crisis",
+      "summary_vi": [
+        "Rộ lên trên mạng xã hội lan truyền một cảnh báo khẩn về hai lỗ hổng bảo mật nghiêm trọng trong PHP với điểm nguy hiểm 9,2 trên thang 10.",
+        "Đây không phải tin đồn thổi phồng: ngày 21/10, chính đội.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến PHP2Shell: 2 lỗ hổng bảo mật mới đang gây khủng hoảng diện rộng."
+      ],
+      "summary_en": [
+        "An urgent warning spread on social networks about two serious security vulnerabilities in PHP with a danger score of 9.2 on a scale of 10.",
+        "This is no hype: October 21, the team itself.",
+        "Practical engineering impact and actionable takeaways for developers building with PHP2Shell: 2 new security vulnerabilities are causing widespread crisis."
+      ],
+      "originalTitle": "PHP2Shell: 2 lỗ hổng bảo mật mới đang gây khủng hoảng diện rộng",
+      "url": "https://tinhte.vn/thread/php2shell-2-lo-hong-bao-mat-moi-dang-gay-khung-hoang-dien-rong.4186058/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "PHP",
+        "Security"
+      ],
+      "hotScore": 87,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-22T14:23:01.000Z",
+      "contentSnippet": "Rộ lên trên mạng xã hội lan truyền một cảnh báo khẩn về hai lỗ hổng bảo mật nghiêm trọng trong PHP với điểm nguy hiểm 9,2 trên thang 10. Đây không phải tin đồn thổi phồng: ngày 21/10, chính đội...",
+      "authorName": "Nhà Của Cáo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "38e441346532806c",
+      "title_vi": "Cuộc đua vá lỗ hổng PHP2Shell trước nguy cơ tấn công tự động bằng trí tuệ nhân tạo",
+      "title_en": "The Race to Patch PHP2Shell Vulnerabilities Amid Threats of AI-Driven Cyber Attacks",
+      "summary_vi": [
+        "Các tổ chức bảo mật phải chạy đua thời gian để khắc phục hai lỗ hổng mang tên PHP2Shell nhằm ngăn chặn nguy cơ kẻ xấu lợi dụng chúng trên diện rộng.",
+        "Lỗ hổng này cho phép kẻ tấn công thực thi mã lệnh trái phép trên các máy chủ web chưa được vá chỉ trong vài giây cực kỳ nguy hiểm.",
+        "Sự việc gióng lên hồi chuông cảnh báo về việc kẻ xấu có thể kết hợp mã lỗi với trí tuệ nhân tạo để tự động hóa và tăng tốc độ khai thác hệ thống."
+      ],
+      "summary_en": [
+        "Security organizations are racing against time to fix two vulnerabilities named PHP2Shell to prevent malicious actors from exploiting them on a large scale.",
+        "This vulnerability allows attackers to execute unauthorized code on unpatched web servers within seconds, posing extreme security risks to global infrastructure.",
+        "The incident sounds an alarm about how bad actors can combine exploit code with artificial intelligence to automate and accelerate system exploitation."
+      ],
+      "originalTitle": "Hậu trường cuộc đua ngăn chặn 'sự hỗn loạn trên Internet'",
+      "url": "https://vnexpress.net/hau-truong-cuoc-dua-ngan-chan-su-hon-loan-tren-internet-5135742.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "PHP2Shell",
+        "Artificial Intelligence",
+        "Vulnerability",
+        "Web Security"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T13:30:24.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/22/image1-1792673019-5348-1792673311.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=hcq17PZb5vqEZX1K-YSZuw",
+      "contentSnippet": "Dù đã phát hiện nhiều tháng trước, các tổ chức bảo mật vẫn phải chạy đua để vá hai lỗ hổng PHP2Shell trước khi bị kẻ xấu lợi dụng trên diện rộng.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "2a74c76005f17701",
       "title_vi": "Tin tặc dùng AI tự động tấn công hơn 1.200 website, xâm nhập hơn 100 doanh nghiệp",
       "title_en": "Hackers used AI to automatically attack more than 1,200 websites and infiltrate more than 100 businesses",
@@ -134,6 +505,41 @@
       "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/22/cap-mang-internet-1792644967835429140204-113-24-691-949-crop-1792645483796525436392.png",
       "contentSnippet": "Hơn 1.200 website bị nhắm tới, hơn 100 doanh nghiệp bị xâm nhập trong chiến dịch tin tặc dùng AI tự tìm lỗ hổng, khai thác và cài cửa hậu.",
       "authorName": "TẤN NGHI",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "8a198f2d36c79bf1",
+      "title_vi": "Schneider Electric, NVIDIA và HPE hợp tác phát triển tác nhân AI tự giám sát và xử lý sự cố trong nhà máy",
+      "title_en": "Schneider Electric, NVIDIA, and HPE Collaborate to Develop Self-Monitoring and Troubleshooting AI Agents for Smart Factories",
+      "summary_vi": [
+        "Schneider Electric đã bắt tay cùng NVIDIA và HPE để phát triển các tác nhân trí tuệ nhân tạo thế hệ mới nhằm tự động hóa quy trình giám sát và vận hành trong môi trường công nghiệp nhà máy.",
+        "Hệ thống ứng dụng mô hình học máy tiên tiến không chỉ phân tích luồng dữ liệu thời gian thực mà còn có khả năng phát hiện nhanh các bất thường và đề xuất giải pháp khắc phục sự cố chính xác.",
+        "Sự hợp tác này đánh dấu bước tiến quan trọng trong việc tối ưu hóa năng lượng công nghiệp, giảm thiểu thời gian gián đoạn sản xuất và nâng cao hiệu suất tự động hóa cho kỹ sư nhà máy."
+      ],
+      "summary_en": [
+        "Schneider Electric has partnered with NVIDIA and HPE to develop next-generation artificial intelligence agents aimed at automating monitoring and operational processes within industrial factory environments.",
+        "The system utilizes advanced machine learning models to not only analyze real-time data streams but also rapidly detect anomalies and suggest precise troubleshooting solutions for technical failures.",
+        "This collaboration marks a significant milestone in optimizing industrial energy consumption, minimizing production downtime, and enhancing automation efficiency for modern factory engineers."
+      ],
+      "originalTitle": "Schneider Electric, NVIDIA và HPE bắt tay phát triển tác nhân AI tự giám sát và xử lý sự cố trong nhà máy",
+      "url": "https://genk.vn/schneider-electric-nvidia-va-hpe-bat-tay-phat-trien-tac-nhan-ai-tu-giam-sat-va-xu-ly-su-co-trong-nha-may-165261022171910878.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI Agents",
+        "NVIDIA",
+        "HPE",
+        "Industrial IoT",
+        "Machine Learning"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T11:30:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/22/avatar1792664314883-17926643153691344621698-77-0-827-1200-crop-1792664326529212957737.png",
+      "contentSnippet": "Thay vì chỉ phân tích dữ liệu, các tác nhân AI mới có thể phát hiện bất thường, đề xuất biện pháp khắc phục và tối ưu hóa năng lượng ngay tại nhà máy.",
+      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8086,417 +8492,6 @@
       "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3535771%2Fe22860d5-274b-43c9-819b-56b162e5bd5a.jpeg",
       "upvotes": 78,
       "commentsCount": 28
-    },
-    {
-      "id": "79dfc74acfb84407",
-      "title_vi": "Nhân viên OpenAI bị bắt vì đặt thiết bị ghi âm trong phòng họp điều hành",
-      "title_en": "OpenAI Employee Arrested for Placing Recording Device in Executive Boardroom",
-      "summary_vi": [
-        "Một nhân viên của công ty trí tuệ nhân tạo OpenAI vừa bị Cục Điều tra Liên bang Mỹ bắt giữ sau khi cố tình gắn thiết bị nghe lén tinh vi bên trong phòng họp của ban điều hành cấp cao.",
-        "Thiết bị ghi âm được giấu kín đáo bên trong mẩu giấy vệ sinh với nội dung âm thanh thu thập được mã hóa nhằm đánh cắp các cuộc trao đổi nhạy cảm về công nghệ siêu trí tuệ nhân tạo.",
-        "Sự việc gióng lên hồi chuông cảnh báo về các lỗ hổng an ninh vật lý và nguy cơ gián điệp nội bộ tại các tập đoàn công nghệ lớn đang dẫn đầu cuộc đua phát triển trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "An employee at artificial intelligence leader OpenAI was arrested by the Federal Bureau of Investigation after deliberately planting a sophisticated listening device inside the executive boardroom.",
-        "The recording device was discreetly concealed inside a piece of toilet tissue with encrypted audio content intended to steal sensitive discussions regarding advanced artificial intelligence technology.",
-        "This incident raises serious concerns about physical security vulnerabilities and the growing threat of insider espionage within major technology corporations leading the artificial intelligence race."
-      ],
-      "originalTitle": "Nhân viên OpenAI bị bắt vì đặt ghi âm trong phòng họp",
-      "url": "https://vnexpress.net/nhan-vien-openai-bi-bat-vi-dat-ghi-am-trong-phong-hop-5132060.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "OpenAI",
-        "AI",
-        "Insider Threat",
-        "Security"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T05:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/14/108405226-picture2credit-17919-8824-8831-1791950849.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=llx63LbkGUJER9ydBB4dog",
-      "contentSnippet": "Một nhân viên OpenAI bị FBI bắt giữ sau khi gắn \"thiết bị ghi âm tinh vi\" bên trong phòng họp của ban điều hành công ty.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a16adf90fef2e304",
-      "title_vi": "Mô hình trí tuệ nhân tạo Gemini 4 Argon đã chính thức có mặt trên gói Google AI Pro",
-      "title_en": "Gemini 4 Argon Artificial Intelligence Model Now Available on Google AI Pro Plan",
-      "summary_vi": [
-        "Google chính thức triển khai mô hình trí tuệ nhân tạo thế hệ mới mang tên Gemini 4 Argon dành riêng cho người dùng đăng ký gói dịch vụ cao cấp Google AI Pro.",
-        "Bản cập nhật này mang lại những cải tiến vượt trội về khả năng xử lý ngôn ngữ tự nhiên, tốc độ phản hồi nhanh hơn và độ chính xác cao hơn trong các tác vụ phức tạp.",
-        "Sự kiện này đánh dấu bước tiến quan trọng trong chiến lược thương mại hóa các mô hình ngôn ngữ lớn của Google, giúp các nhà phát triển và kỹ sư tiếp cận công nghệ tiên tiến."
-      ],
-      "summary_en": [
-        "Google officially deploys the next-generation artificial intelligence model named Gemini 4 Argon exclusively for users subscribed to the premium Google AI Pro service plan.",
-        "This update brings remarkable improvements in natural language processing capabilities, faster response speeds, and higher accuracy across various complex computational tasks.",
-        "This milestone marks a significant step in Google's commercialization strategy for large language models, empowering developers and engineers to access cutting-edge technology."
-      ],
-      "originalTitle": "Model Gemini 4 Argon đã có cho anh em dùng gói Google AI Pro rồi nha, mời anh em thử",
-      "url": "https://tinhte.vn/thread/model-gemini-4-argon-da-co-cho-anh-em-dung-goi-google-ai-pro-roi-nha-moi-anh-em-thu.4183931/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Gemini 4 Argon",
-        "Google AI Pro",
-        "Artificial Intelligence",
-        "LLM",
-        "Machine Learning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T03:57:56.000Z",
-      "contentSnippet": "Model Gemini 4 Argon đã có cho anh em dùng gói Google AI Pro rồi nha, mời anh em thử",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "872e5b0ff006580a",
-      "title_vi": "Định dạng số và cấu trúc dữ liệu nâng cao trong package fmt của Go",
-      "title_en": "Advanced Number Formatting and Data Structures in Go fmt Package",
-      "summary_vi": [
-        "Bài viết tiếp tục khai thác sâu hơn về gói thư viện chuẩn fmt trong ngôn ngữ lập trình Go, vượt qua các định dạng cơ bản để xử lý những cấu trúc dữ liệu phức tạp hơn.",
-        "Nội dung tập trung hướng dẫn cách sử dụng chi tiết các định dạng số nâng cao, cách căn chỉnh bố cục đầu ra và xử lý việc in ấn các kiểu dữ liệu phức tạp một cách tối ưu.",
-        "Kiến thức này giúp lập trình viên Go viết mã nguồn sạch hơn, cải thiện đáng kể khả năng kiểm soát định dạng dữ liệu nhật ký hệ thống và gỡ lỗi hiệu quả."
-      ],
-      "summary_en": [
-        "The article further explores the standard fmt library package in the Go programming language, moving beyond basic verbs to handle more complex data structures.",
-        "The content focuses on detailed instructions for advanced number formatting, layout alignment techniques, and optimizing the printing of complex data types.",
-        "This knowledge helps Go developers write cleaner source code, significantly improving control over system log data formatting and enhancing debugging efficiency."
-      ],
-      "originalTitle": "Bài 4: Định dạng Số và Cấu trúc dữ liệu nâng cao trong package fmt",
-      "url": "https://viblo.asia/p/bai-4-dinh-dang-so-va-cau-truc-du-lieu-nang-cao-trong-package-fmt-vbLbj0DQLnk",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Golang",
-        "Software Engineering",
-        "Programming",
-        "Backend"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T00:45:09.000Z",
-      "contentSnippet": "Ở Bài 2, chúng ta đã lướt qua các Verbs cơ bản như %s, %d, %f. Tuy nhiên, sức mạnh thực sự của package fmt nằm ở khả năng phân tách các cấu trúc dữ li...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a940c3061d0bda63",
-      "title_vi": "Khi AI Agent dùng sai dữ liệu: Tái đào tạo đội ngũ cho kỷ nguyên tác tử thông minh",
-      "title_en": "When AI Agents Use Wrong Data: Reskilling Teams for the Era of Intelligent Agents",
-      "summary_vi": [
-        "Phòng tài chính triển khai trợ lý trí tuệ nhân tạo tự động trích xuất dữ liệu từ hệ thống hoạch định nguồn lực doanh nghiệp nhưng bắt đầu phát sinh lỗi xử lý nghiêm trọng do nguồn dữ liệu đầu vào không đồng nhất.",
-        "Sự cố xuất phát từ việc các tác tử thông minh tự động hóa quy trình nghiệp vụ thiếu cơ chế kiểm soát chất lượng ngữ cảnh dữ liệu thời gian thực và quản trị vòng đời mô hình học máy.",
-        "Doanh nghiệp cần nhanh chóng thiết lập tiêu chuẩn kỹ thuật mới về quản trị dữ liệu lớn và tái đào tạo đội ngũ kỹ sư để vận hành hệ thống tự động hóa an toàn hơn."
-      ],
-      "summary_en": [
-        "The finance department deployed an artificial intelligence assistant to automatically extract data from enterprise resource planning systems but encountered severe processing errors due to inconsistent input data sources.",
-        "The incident stemmed from autonomous business process agents lacking proper quality control mechanisms for real-time data context and comprehensive machine learning model lifecycle management.",
-        "Enterprises urgently need to establish new technical standards for big data governance and reskill engineering teams to operate automated systems much more securely and reliably."
-      ],
-      "originalTitle": "Khi AI Agent dùng sai dữ liệu: Tái đào tạo đội ngũ cho kỷ nguyên tác tử thông minh",
-      "url": "https://viblo.asia/p/khi-ai-agent-dung-sai-du-lieu-tai-dao-tao-doi-ngu-cho-ky-nguyen-tac-tu-thong-minh-kNLr3epaVgA",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI Agent",
-        "Data Governance",
-        "ERP",
-        "Machine Learning",
-        "Automation"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T00:25:28.000Z",
-      "contentSnippet": "Tuần đầu tiên, AI agent của phòng tài chính chạy ngon lành: tự động kéo dữ liệu từ ERP, soạn báo cáo biến động, phát hiện bất thường. Tuần thứ hai, mộ...",
-      "authorName": "Arief Warazuhudien",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9edf11b8bf85b2a8",
-      "title_vi": "AI Agent có “nhớ” gì không? Thiết kế Context, State và Memory cho Production",
-      "title_en": "Do AI Agents Actually Remember? Designing Context, State, and Memory for Production",
-      "summary_vi": [
-        "Bài viết làm rõ bản chất thực sự của khả năng ghi nhớ trong các AI agent, phân biệt giữa cảm giác hội thoại tự nhiên và cơ chế lưu trữ dữ liệu kỹ thuật cần thiết để vận hành hệ thống ổn định trong môi trường thực tế.",
-        "Tác giả đi sâu vào kiến trúc hệ thống bằng cách phân tích sự khác biệt giữa ngữ cảnh, trạng thái và bộ nhớ dài hạn, đồng thời hướng dẫn cách thiết kế các thành phần này để đảm bảo tính nhất quán và hiệu suất cho ứng dụng AI.",
-        "Thông qua việc phân tích các thách thức khi triển khai, bài viết cung cấp lộ trình thực tế giúp các kỹ sư xây dựng hệ thống AI có khả năng duy trì mạch hội thoại phức tạp mà vẫn đảm bảo tính tin cậy và khả năng mở rộng."
-      ],
-      "summary_en": [
-        "The article clarifies the true nature of memory in AI agents, distinguishing between the illusion of natural conversation and the technical data storage mechanisms required to operate stable systems in real-world production environments.",
-        "The author explores system architecture by analyzing the differences between context, state, and long-term memory, while providing guidance on designing these components to ensure consistency and performance for complex AI applications.",
-        "By examining implementation challenges, the article provides a practical roadmap for engineers to build AI systems capable of maintaining complex conversational flows while ensuring high reliability and scalability for enterprise-grade deployments."
-      ],
-      "originalTitle": "AI Agent có “nhớ” gì không? Thiết kế Context, State và Memory cho Production",
-      "url": "https://viblo.asia/p/ai-agent-co-nho-gi-khong-thiet-ke-context-state-va-memory-cho-production-pPLkNQ88JRZ",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "LLM",
-        "System Architecture",
-        "Memory Management",
-        "Software Engineering"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-10-13T23:36:48.000Z",
-      "contentSnippet": "Một AI agent trả lời được theo mạch hội thoại rất dễ tạo cảm giác nó “nhớ” người dùng. Nhưng trong production, đây là một từ dễ gây hiểu nhầm. Model k...",
-      "authorName": "Johnny Nguyen",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "68c20fc1bf332d56",
-      "title_vi": "API đã thanh toán thành công nhưng dữ liệu bị thất lạc: Vấn đề lệch pha trong x402 và MCP",
-      "title_en": "API Payment Settled But Data Lost: The Drift Problem in x402 and MCP",
-      "summary_vi": [
-        "Nhiều lập trình viên đang thử nghiệm mô hình thu phí API thông qua giao thức x402 hoặc chuyển đổi các máy chủ MCP thành dịch vụ thương mại, tuy nhiên họ đang đối mặt với những thách thức nghiêm trọng về tính đồng bộ dữ liệu.",
-        "Vấn đề cốt lõi nằm ở hiện tượng lệch pha giữa trạng thái thanh toán thành công và khả năng truy xuất dữ liệu thực tế, khiến các giao dịch đã hoàn tất nhưng tài nguyên không thể được tìm thấy bởi hệ thống người dùng.",
-        "Sự cố này đặt ra bài toán quan trọng về thiết kế kiến trúc hệ thống phân tán, yêu cầu các kỹ sư phải xây dựng cơ chế kiểm tra tính toàn vẹn dữ liệu chặt chẽ hơn để đảm bảo trải nghiệm người dùng cuối."
-      ],
-      "summary_en": [
-        "Developers are increasingly experimenting with API monetization models using the x402 protocol or transforming MCP servers into commercial services, yet they are encountering significant challenges regarding data synchronization and transaction reliability.",
-        "The core issue lies in the drift between successful payment settlement states and the actual availability of retrieved data, causing completed transactions to result in missing resources within the end-user system architecture.",
-        "This incident highlights a critical challenge in distributed systems design, requiring engineers to implement more robust data integrity verification mechanisms to ensure consistent service delivery and reliable user experiences."
-      ],
-      "originalTitle": "API đã settle thành công nhưng không ai tìm thấy: vấn đề \"drift\" trong x402 và MCP",
-      "url": "https://viblo.asia/p/api-da-settle-thanh-cong-nhung-khong-ai-tim-thay-van-de-drift-trong-x402-va-mcp-wlVmRll045Z",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "API",
-        "MCP",
-        "x402",
-        "DistributedSystems",
-        "DataIntegrity"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-13T22:27:31.000Z",
-      "contentSnippet": "Bối cảnh Ngày càng nhiều lập trình viên thử nghiệm mô hình thu phí API bằng x402, hoặc biến MCP server của mình thành một dịch vụ có trả phí. Nhưng kh...",
-      "authorName": "Payload",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "5f20b5b5926a522f",
-      "title_vi": "Apple ra mắt màn hình điều khiển nhà thông minh HomeView giá 299 USD",
-      "title_en": "Apple Launches HomeView Smart Home Control Display Priced at 299 USD",
-      "summary_vi": [
-        "Tập đoàn công nghệ Apple vừa chính thức giới thiệu thiết bị HomeView tích hợp màn hình cảm ứng tiên tiến, hệ thống loa chất lượng cao cùng trợ lý ảo Siri AI, đánh dấu bước tiến mới trong chiến lược phát triển hệ sinh thái thiết bị phần cứng nhà thông minh.",
-        "Bên cạnh màn hình điều khiển chính, hãng còn tung ra các bản cập nhật phần cứng quan trọng bao gồm dòng thiết bị giải trí AppleTV 4K, loa thông minh HomePod mini thế hệ thứ hai và hàng loạt cảm biến kết nối chuẩn Matter mới.",
-        "Sự kiện này mang lại hệ sinh thái thiết bị phần cứng và giao diện lập trình ứng dụng đồng bộ hơn cho các nhà phát triển phần mềm IoT, mở ra cơ hội xây dựng các giải pháp tự động hóa nhà thông minh tối ưu và bảo mật cao hơn."
-      ],
-      "summary_en": [
-        "Tech giant Apple has officially introduced the HomeView device featuring an advanced touchscreen display, high-quality speaker system, and Siri AI assistant, marking a significant step in their smart home hardware ecosystem strategy.",
-        "Alongside the main control display, the company also released major hardware updates including the AppleTV 4K entertainment device, the second-generation HomePod mini smart speaker, and a series of new Matter-standard connected sensors.",
-        "This release provides a more synchronized hardware ecosystem and application programming interface for IoT software developers, opening opportunities to build optimized and highly secure smart home automation solutions."
-      ],
-      "originalTitle": "Apple ra mắt màn hình điều khiển nhà thông minh HomeView giá 299 USD",
-      "url": "https://tuoitre.vn/apple-ra-mat-man-hinh-dieu-khien-nha-thong-minh-homeview-gia-299-usd-100261013221055395.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Apple",
-        "Smart Home",
-        "Siri",
-        "IoT",
-        "Hardware"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-13T22:18:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/13/thumb-screenshot-2026-10-13-at-211708-179190272014081942239-1791902791531562423086-125-169-1088-1710-crop-17919028851951402978527.png",
-      "contentSnippet": "Apple giới thiệu HomeView tích hợp màn hình cảm ứng, loa và Siri AI, cùng Apple TV 4K, HomePod mini 2 và loạt thiết bị nhà thông minh khác.",
-      "authorName": "THANH HIỆP⭐",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ef587ceb5f82a887",
-      "title_vi": "Cấu trúc phẳng giúp Nvidia giữ chân nhân viên giữa áp lực ngành bán dẫn cao",
-      "title_en": "Flat Organizational Structure Helps Nvidia Retain Talent Amid High Semiconductor Industry Pressure",
-      "summary_vi": [
-        "Công ty Nvidia duy trì tỷ lệ nghỉ việc toàn cầu ở mức cực kỳ thấp chỉ ba phẩy bảy phần trăm nhờ vào chế độ đãi ngộ hấp dẫn và văn hóa làm việc linh hoạt.",
-        "Bất chấp áp lực công việc khổng lồ trong lĩnh vực thiết kế chip và hệ thống AI cho các trung tâm dữ liệu đám mây toàn cầu, nhân viên vẫn gắn bó lâu dài.",
-        "Mô hình quản lý theo cấu trúc phẳng kết hợp việc lắng nghe ý kiến tích cực tạo ra môi trường làm việc lý tưởng cho các kỹ sư công nghệ cao."
-      ],
-      "summary_en": [
-        "Nvidia maintains an extremely low global turnover rate of three point seven percent thanks to attractive compensation packages and flexible work culture.",
-        "Despite intense workloads in chip design and AI systems for global cloud data centers, employees remain committed to long term careers.",
-        "The flat management model combined with active listening creates an ideal working environment for high tech engineering professionals."
-      ],
-      "originalTitle": "Cấu trúc phẳng khiến nhân viên Nvidia ít nghỉ việc",
-      "url": "https://vnexpress.net/cau-truc-phang-khien-nhan-vien-nvidia-it-nghi-viec-5131435.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Nvidia",
-        "AI",
-        "Semiconductor",
-        "Cloud Computing",
-        "Work Culture"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-13T22:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/13/wm1-wm1-nvidia-vnexpress-179185407-8781-1417-1791854236.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Q2GGYunc9GBX2xSMtn01zw",
-      "contentSnippet": "Dù chịu áp lực cao, nhân viên Nvidia ít nghỉ việc do nhận lương thưởng, đãi ngộ hấp dẫn, được làm việc linh hoạt và lắng nghe ý kiến.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "6ec803e44d1742cc",
-      "title_vi": "Nhân viên OpenAI bị bắt vì cài đặt thiết bị nghe lén tinh vi trong phòng họp",
-      "title_en": "OpenAI employee arrested for allegedly planting a bug in a conference room",
-      "summary_vi": [
-        "Một kỹ sư tại OpenAI đã bị bắt giữ sau khi công ty phát hiện một thiết bị ghi âm tinh vi được giấu kín trong phòng họp điều hành, dẫn đến cáo buộc can thiệp trái phép vào các cuộc hội thoại nội bộ.",
-        "Công ty đã sử dụng chính các mô hình trí tuệ nhân tạo của mình để phân tích nguồn gốc thiết bị, từ đó xác định chính xác nhân viên Abdulrahman Alfozan là người đã trực tiếp lắp đặt thiết bị này vào cổng USB của tivi.",
-        "Sự việc này gióng lên hồi chuông cảnh báo về an ninh nội bộ tại các tập đoàn công nghệ lớn, nhấn mạnh tầm quan trọng của việc giám sát phần cứng và bảo mật vật lý trong môi trường làm việc nhạy cảm."
-      ],
-      "summary_en": [
-        "An OpenAI engineer was arrested after the company discovered a sophisticated recording device hidden in an executive conference room, leading to federal charges for attempting to intercept oral communications within the corporate office.",
-        "The company utilized its own AI models to analyze the device and trace its origin, successfully identifying that Abdulrahman Alfozan had planted the hardware into a television USB port just a few days prior.",
-        "This incident highlights critical vulnerabilities in physical security and internal surveillance within major tech firms, emphasizing the necessity for rigorous hardware monitoring protocols to protect sensitive corporate data and private communications."
-      ],
-      "originalTitle": "OpenAI employee arrested for allegedly planting a bug in a conference room",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "OpenAI",
-        "PhysicalSecurity",
-        "Surveillance",
-        "CorporateEspionage"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-13T20:45:25.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK155_OPEN_AI_CVirginia__C.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral commu",
-      "authorName": "Emma Roth",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "95aefa2303a28f89",
-      "title_vi": "Kỹ sư OpenAI bị bắt giữ do lắp thiết bị nghe lén trong phòng họp của ban điều hành",
-      "title_en": "OpenAI engineer arrested in bugging of executive conference room",
-      "summary_vi": [
-        "Một kỹ sư làm việc tại công ty trí tuệ nhân tạo OpenAI vừa chính thức bị cơ quan chức năng bắt giữ sau khi bị phát hiện cài đặt thiết bị nghe lén trái phép trong phòng họp của ban điều hành cấp cao.",
-        "Sự việc gây chấn động nội bộ này làm dấy lên những lo ngại nghiêm trọng về các lỗ hổng bảo mật vật lý, quy trình kiểm soát quyền truy cập hạ tầng và công tác bảo vệ thông tin mật liên quan đến các mô hình ngôn ngữ lớn.",
-        "Vụ án đặt ra bài học đắt giá cho các doanh nghiệp công nghệ trong việc thắt chặt an ninh nội bộ, kiểm toán hệ thống phòng họp kín và ngăn chặn nguy cơ rò rỉ sở hữu trí tuệ từ chính nguồn nhân lực bên trong."
-      ],
-      "summary_en": [
-        "An engineer working at artificial intelligence firm OpenAI has been officially arrested after being discovered illegally installing covert listening devices inside a high-level executive conference room.",
-        "This shocking internal security breach has raised severe concerns regarding physical security vulnerabilities, infrastructure access control protocols, and the protection of confidential information related to large language models.",
-        "The incident serves as a crucial lesson for technology enterprises regarding the tightening of internal security, auditing secure meeting rooms, and preventing intellectual property leakage from trusted internal resources."
-      ],
-      "originalTitle": "OpenAI engineer arrested in bugging of executive conference room",
-      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "OpenAI",
-        "Cybersecurity",
-        "Security",
-        "Artificial Intelligence",
-        "Enterprise Security"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-13T20:23:55.000Z",
-      "contentSnippet": "OpenAI engineer arrested in bugging of executive conference room",
-      "authorName": "forthwall",
-      "upvotes": 114,
-      "commentsCount": 129
-    },
-    {
-      "id": "f1305662a1d2e7c4",
-      "title_vi": "Shopify mở rộng danh mục sản phẩm cho nhiều tác nhân AI hơn",
-      "title_en": "Shopify opens its catalog up to more AI agents",
-      "summary_vi": [
-        "Công ty thương mại điện tử Shopify vừa công bố bước tiến quan trọng trong chiến lược thương mại tự động hóa, cho phép các tác nhân trí tuệ nhân tạo duyệt và mua sắm trực tiếp từ hơn một tỷ sản phẩm trong danh mục của họ một cách dễ dàng.",
-        "Khác với các mốiε hợp tác độc quyền trước đó như việc tích hợp trợ lý Muse với Meta, tính năng mới này cho phép người dùng cấu hình bất kỳ tác nhân trí tuệ nhân tạo nào của bên thứ ba để thực hiện giao dịch thay thế mà không cần tích hợp phức tạp.",
-        "Động thái này đánh dấu sự chuyển dịch lớn trong kiến trúc thương mại điện tử hướng tới hệ sinh thái mở, giúp các nhà phát triển và kỹ sư tối ưu hóa trải nghiệm mua sắm tự động quy mô lớn thông qua các tác nhân thông minh."
-      ],
-      "summary_en": [
-        "Ecommerce platform Shopify announced a significant milestone in its agentic commerce strategy, enabling artificial intelligence agents to browse and purchase directly from over a billion products within their comprehensive catalog easily.",
-        "Unlike previous exclusive partnerships such as integrating the Muse assistant with Meta, this new feature allows users to configure any third-party artificial intelligence agent to execute transactions on their behalf without complex integrations.",
-        "This move marks a major architectural shift in ecommerce toward an open ecosystem, helping developers and engineers optimize large-scale automated shopping experiences through intelligent agent frameworks."
-      ],
-      "originalTitle": "Shopify opens its catalog up to more AI agents",
-      "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI Agents",
-        "Shopify",
-        "E-commerce",
-        "Automation",
-        "Meta"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-13T19:42:42.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2225304503.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "CANADA - 2025/07/20: In this photo illustration, the Shopify logo is seen displayed on a smartphone screen. (Photo Illustration by Thomas Fuller/SOPA Images/LightRocket via Getty Images) More AI agents will soon be able to browse and purchase from Shopify listings, marking an expansion of the compan",
-      "authorName": "Mia Sato",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "cfa5b40a60a7c0a1",
-      "title_vi": "Apple ra mắt loa thông minh mới tích hợp trí tuệ nhân tạo và chip xử lý nâng cấp",
-      "title_en": "Apple Launches New Smart Speaker Powered by Advanced Silicon and Artificial Intelligence",
-      "summary_vi": [
-        "Hãng công nghệ Apple vừa chính thức giới thiệu thế hệ loa thông minh tiếp theo của mình với nhiều cải tiến đáng kể về phần cứng lẫn khả năng xử lý thông minh.",
-        "Thiết bị mới này được trang bị vi xử lý dòng S hiệu năng cao, tích hợp trực tiếp trợ lý ảo hỗ trợ trí tuệ nhân tạo và tính năng hiệu ứng ánh sáng đồng bộ.",
-        "Sản phẩm hứa hẹn mang lại trải nghiệm âm thanh vòm sống động, mở rộng hệ sinh thái nhà thông minh và thúc đẩy sự phát triển của các thiết bị tích hợp AI."
-      ],
-      "summary_en": [
-        "Apple has officially introduced the next generation of its smart speaker featuring significant hardware upgrades and advanced intelligent processing capabilities.",
-        "This new device is powered by a high-performance custom silicon chip, integrating an artificial intelligence assistant and synchronized ambient lighting effects.",
-        "The product promises to deliver immersive spatial audio experiences, expanding the smart home ecosystem and driving the evolution of AI-integrated devices."
-      ],
-      "originalTitle": "Apple ra mắt HomePod mini 2: chip S10, Siri AI, hỗ trợ âm thanh vòm 4 loa, giá 149 USD",
-      "url": "https://tinhte.vn/thread/apple-ra-mat-homepod-mini-2-chip-s10-siri-ai-ho-tro-am-thanh-vom-4-loa-gia-149-usd.4183903/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "Artificial Intelligence",
-        "Smart Speaker",
-        "Hardware"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-13T19:01:38.000Z",
-      "contentSnippet": "HomePod mini 2 được nâng cấp chip Apple S10, hỗ trợ Siri AI, hiệu ứng ánh sáng Sound Glow và kết nối bốn loa với Apple TV 4K thế hệ mới. Apple vừa giới thiệu HomePod mini 2, thế hệ tiếp theo của...",
-      "authorName": "Trung Dt",
-      "upvotes": 0,
-      "commentsCount": 0
     }
   ]
 }
