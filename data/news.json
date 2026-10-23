@@ -1,7 +1,273 @@
 {
-  "lastUpdated": "2026-10-23T02:42:15.088Z",
+  "lastUpdated": "2026-10-23T10:47:43.949Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "dc4fd45579d863df",
+      "title_vi": "Tối ưu hóa hiển thị video trên giao diện web từ ảnh tĩnh",
+      "title_en": "Optimizing Video Display on Web Interfaces from Static Images",
+      "summary_vi": [
+        "Bài viết đề xuất phương pháp tối ưu hóa trải nghiệm người dùng trên frontend bằng cách hiển thị ảnh tĩnh trước khi cho phép người dùng chủ động phát video minh họa.",
+        "Giải pháp này giúp giảm tải băng thông ban đầu cho trang web, cải thiện đáng kể thời gian tải trang và tránh làm phiền người dùng với các tệp đa phương tiện tự động chạy.",
+        "Đây là một kỹ thuật thiết kế giao diện thực tiễn và tinh tế, giúp các lập trình viên frontend cân bằng hoàn hảo giữa hiệu suất hệ thống và trải nghiệm thị giác của người xem."
+      ],
+      "summary_en": [
+        "The article proposes a method to optimize user experience on the frontend by displaying a static image first before allowing users to manually play instructional video clips.",
+        "This solution helps reduce initial bandwidth load for web pages, significantly improves loading times, and prevents disturbing users with auto-playing multimedia files.",
+        "This is a practical and refined interface design technique that helps frontend developers achieve a perfect balance between system performance and viewer visual experience."
+      ],
+      "originalTitle": "Từ ảnh sang video miễn phí: hiển thị ảnh tĩnh trước, để người dùng chủ động phát",
+      "url": "https://viblo.asia/p/tu-anh-sang-video-mien-phi-hien-thi-anh-tinh-truoc-de-nguoi-dung-chu-dong-phat-RlL5eOk8LbB",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Frontend",
+        "UX/UI",
+        "Web Performance",
+        "Optimization"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-23T17:32:40.000Z",
+      "contentSnippet": "Bạn đã có một clip minh họa ngắn. Việc tiếp theo trên frontend không nhất thiết là đặt nó chạy vòng lặp ngay đầu trang. Người đọc cần hiểu nội dung tr...",
+      "authorName": "fluxpro net",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "02609553e43cfb8e",
+      "title_vi": "Lựa chọn mô hình Claude phù hợp cho từng tác vụ: Haiku, Sonnet hay Opus và bài toán tối ưu chi phí",
+      "title_en": "Choosing the Right Claude Model for Tasks: Haiku, Sonnet, or Opus and Cost Optimization Strategies",
+      "summary_vi": [
+        "Việc lựa chọn các mô hình trí tuệ nhân tạo lớn dựa theo cảm tính mạnh nhất thường gây lãng phí tài chính nghiêm trọng mà không đem lại cải thiện chất lượng thực tế cho kết quả công việc.",
+        "Bài viết cung cấp phương pháp phân loại tác vụ kỹ thuật để chọn đúng phiên bản mô hình Claude cùng bảng giá cập nhật chi tiết nhằm kiểm soát hiệu quả chi phí vận hành hệ thống.",
+        "Kỹ sư phần mềm và nhà quản lý công nghệ cần nắm vững chiến lược phân bổ mô hình thông minh để cân bằng hoàn hảo giữa hiệu năng xử lý và ngân sách triển khai ứng dụng."
+      ],
+      "summary_en": [
+        "Selecting large artificial intelligence models based solely on the intuition of maximum strength often leads to severe financial waste without delivering any actual quality improvements for work results.",
+        "The article provides a method for categorizing technical tasks to select the correct Claude model version along with detailed updated pricing tables to effectively control system operating costs.",
+        "Software engineers and technology managers must master smart model allocation strategies to achieve a perfect balance between processing performance and application deployment budgets."
+      ],
+      "originalTitle": "Claude cho từng loại tác vụ: chọn Haiku, Sonnet hay Opus — và cái giá phải trả",
+      "url": "https://viblo.asia/p/claude-cho-tung-loai-tac-vu-chon-haiku-sonnet-hay-opus-va-cai-gia-phai-tra-8X4EjWZAJN2",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Claude",
+        "LLM",
+        "Cost Optimization",
+        "Machine Learning"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T17:16:33.000Z",
+      "contentSnippet": "Chọn model theo cảm giác \"mạnh nhất\" thường làm hóa đơn tăng mà kết quả không khá hơn. Dưới đây là cách chọn theo loại việc, kèm bảng giá ngày 23 thán...",
+      "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9739de0c0da81765",
+      "title_vi": "Cấu trúc dữ liệu và Giải thuật Bài 74: Phân rã Đậm-Nhạt (Heavy-Light Decomposition - HLD) - Trải phẳng Cây để truy vấn khoảng siêu tốc.",
+      "title_en": "Data Structures and Algorithms Lesson 74: Heavy-Light Decomposition (HLD) - Flattening the Tree for super-speed querying.",
+      "summary_vi": [
+        "Trong Bài 58 và 59, chúng ta đã sử dụng Cây Phân Đoạn (Segment Tree) để thực hiện các truy vấn siêu tốc trên một Mảng tuyến tính (1D Array).",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Cấu trúc dữ liệu và Giải thuật Bài 74: Phân rã Đậm-Nhạt (Heavy-Light Decomposition - HLD) - Trải phẳng Cây để truy vấn khoảng siêu tốc..",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Cấu trúc dữ liệu và Giải thuật Bài 74: Phân rã Đậm-Nhạt (Heavy-Light Decomposition - HLD) - Trải phẳng Cây để truy vấn khoảng siêu tốc.."
+      ],
+      "summary_en": [
+        "In Lessons 58 and 59, we used a Segment Tree to perform super-fast queries on a 1D Array.",
+        "In-depth technical breakdown and implementation mechanisms introduced in Data Structures and Algorithms Lesson 74: Heavy-Light Decomposition (HLD) - Flattening the Tree for super-speed querying..",
+        "Practical engineering impact and actionable takeaways for developers building with Data Structures and Algorithms Lesson 74: Heavy-Light Decomposition (HLD) - Flattening the Tree for super-speed querying.."
+      ],
+      "originalTitle": "Cấu trúc dữ liệu và Giải thuật Bài 74: Phân rã Đậm-Nhạt (Heavy-Light Decomposition - HLD) - Trải phẳng Cây để truy vấn khoảng siêu tốc.",
+      "url": "https://viblo.asia/p/cau-truc-du-lieu-va-giai-thuat-bai-74-phan-ra-dam-nhat-heavy-light-decomposition-hld-trai-phang-cay-de-truy-van-khoang-sieu-toc-ym40020d491",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "TechTrends",
+        "Innovation"
+      ],
+      "hotScore": 91,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-23T16:04:02.000Z",
+      "contentSnippet": "Trong Bài 58 và 59, chúng ta đã sử dụng Cây Phân Đoạn (Segment Tree) để thực hiện các truy vấn siêu tốc trên một Mảng tuyến tính (1D Array). Tuy nhiê...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "3582b97b52591a73",
+      "title_vi": "Cấu trúc dữ liệu và Giải thuật Bài 73: Mảng hậu tố (Suffix Array) và Mảng LCP - Tối ưu hóa bộ nhớ cho tìm kiếm chuỗi con.",
+      "title_en": "Data Structures and Algorithms Lesson 73: Suffix Array and LCP Array - Memory optimization for substring search.",
+      "summary_vi": [
+        "Ở Bài 72, Cây Hậu Tố (Suffix Tree) đã chứng minh sức mạnh tuyệt đối khi tìm kiếm chuỗi con trong thời gian .",
+        "Tuy nhiên, trong thực tế vận hành các hệ.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Cấu trúc dữ liệu và Giải thuật Bài 73: Mảng hậu tố (Suffix Array) và Mảng LCP - Tối ưu hóa bộ nhớ cho tìm kiếm chuỗi con.."
+      ],
+      "summary_en": [
+        "In Lesson 72, the Suffix Tree demonstrated its absolute power when searching for substrings in time.",
+        "However, in practice, operating systems.",
+        "Practical engineering impact and actionable takeaways for developers building with Data Structures and Algorithms Lesson 73: Suffix Array and LCP Array - Memory optimization for substring search.."
+      ],
+      "originalTitle": "Cấu trúc dữ liệu và Giải thuật Bài 73: Mảng hậu tố (Suffix Array) và Mảng LCP - Tối ưu hóa bộ nhớ cho tìm kiếm chuỗi con.",
+      "url": "https://viblo.asia/p/cau-truc-du-lieu-va-giai-thuat-bai-73-mang-hau-to-suffix-array-va-mang-lcp-toi-uu-hoa-bo-nho-cho-tim-kiem-chuoi-con-AY4qQOQ54Pw",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "TechTrends",
+        "Innovation"
+      ],
+      "hotScore": 96,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-23T16:03:46.000Z",
+      "contentSnippet": "Ở Bài 72, Cây Hậu Tố (Suffix Tree) đã chứng minh sức mạnh tuyệt đối khi tìm kiếm chuỗi con trong thời gian . Tuy nhiên, trong thực tế vận hành các hệ ...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9a67b58753a4646b",
+      "title_vi": "Tòa án Úc buộc Táo khuyết mở iPhone cho chợ ứng dụng bên thứ ba từ ngày 1 tháng 3 năm 2027, trò chơi Fortnite chính thức trở lại kho ứng dụng",
+      "title_en": "Australian Court Forces Apple to Open iPhone to Third-Party App Stores by March 1, 2027, Fortnite Returns to App Store",
+      "summary_vi": [
+        "Tòa án Liên bang Úc vừa ban hành phán quyết lịch sử yêu cầu hãng công nghệ lớn phải cho phép người dùng tại đây cài đặt các kho ứng dụng của bên thứ ba trực tiếp lên thiết bị di động của họ.",
+        "Quyết định pháp lý này buộc hệ điều hành di động phải phá vỡ cơ chế độc quyền lâu năm, cho phép các bên trung gian phân phối phần mềm và xử lý thanh toán độc lập tương tự như những thay đổi đã diễn ra tại Liên minh Châu Âu.",
+        "Sự kiện này đánh dấu bước ngoặt quan trọng đối với hệ sinh thái phát triển phần mềm di động, mở ra cơ hội lớn cho các nhà phát triển trò chơi và dịch vụ số tiếp cận người dùng mà không bị ràng buộc bởi chiết khấu hoa hồng cao."
+      ],
+      "summary_en": [
+        "The Federal Court of Australia has issued a historic ruling requiring the major tech company to allow users in the region to install third-party application stores directly onto their mobile devices.",
+        "This legal decision forces the mobile operating system to break its long-standing monopoly, enabling intermediaries to distribute software and handle independent payment processing similar to changes implemented in the European Union.",
+        "This event marks a significant turning point for the mobile software development ecosystem, opening up major opportunities for developers and digital services to reach users without being tied to high commission fees."
+      ],
+      "originalTitle": "Tòa án Úc buộc Apple mở iPhone cho chợ ứng dụng bên thứ ba từ 1/3/2027, Fortnite trở lại App Store",
+      "url": "https://tinhte.vn/thread/toa-an-uc-buoc-apple-mo-iphone-cho-cho-ung-dung-ben-thu-ba-tu-1-3-2027-fortnite-tro-lai-app-store.4186240/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iOS",
+        "App Store",
+        "Mobile",
+        "Fortnite"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T10:13:03.000Z",
+      "contentSnippet": "Tòa án Úc buộc Apple mở iPhone cho chợ ứng dụng bên thứ ba từ 1/3/2027, Fortnite trở lại App Store Tòa án Liên bang Úc vừa yêu cầu Apple cho phép người dùng iPhone có tài khoản Apple tại Úc cài...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6348d8f826cea6e4",
+      "title_vi": "Ghé Minh Tuấn Mobile xem mở bán iPhone màn hình gập: hơn 4.000 đơn đặt trước, phiên bản Trắng Ánh Sao thu hút đông đảo khách hàng",
+      "title_en": "Minh Tuan Mobile Launches Foldable iPhone: Over 4000 Pre-orders and Starlight White Version Dominates Sales",
+      "summary_vi": [
+        "Minh Tuấn Mobile đã chính thức tổ chức sự kiện mở bán dòng sản phẩm iPhone màn hình gập mới nhất với số lượng đơn đặt trước ấn tượng vượt mốc bốn nghìn máy ngay trong ngày đầu ra mắt thị trường Việt Nam.",
+        "Sự kiện tập trung bàn giao những chiếc điện thoại màn hình gập thế hệ mới tích hợp công nghệ bản lề tiên tiến cùng cấu hình phần cứng mạnh mẽ, đáp ứng nhu cầu trải nghiệm thiết bị di động cao cấp của người dùng.",
+        "Sự quan tâm lớn từ thị trường đối với các dòng thiết bị di động đổi mới sáng tạo này tạo động lực mạnh mẽ cho các nhà bán lẻ công nghệ trong việc thúc đẩy doanh số và mở rộng hệ sinh thái phần cứng."
+      ],
+      "summary_en": [
+        "Minh Tuan Mobile officially hosted the launch event for the latest foldable iPhone lineup, recording an impressive milestone of over four thousand pre-orders on its first day entering the Vietnamese retail market.",
+        "The event focused on delivering next-generation foldable smartphones equipped with advanced hinge technology and robust hardware configurations, fulfilling user demands for cutting-edge mobile device experiences.",
+        "High market interest in these innovative mobile devices provides strong momentum for technology retailers to boost overall hardware sales and expand their high-end consumer technology ecosystems."
+      ],
+      "originalTitle": "Ghé Minh Tuấn Mobile xem mở bán iPhone Duo: hơn 4.000 đơn đặt trước, bản Trắng Ánh Sao hút khách",
+      "url": "https://tinhte.vn/thread/ghe-minh-tuan-mobile-xem-mo-ban-iphone-duo-hon-4-000-don-dat-truoc-ban-trang-anh-sao-hut-khach.4186370/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone",
+        "Mobile",
+        "Foldable",
+        "Retail",
+        "Hardware"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T10:07:04.000Z",
+      "contentSnippet": "Sáng nay mình có mặt tại sự kiện mở bán iPhone Duo ở Minh Tuấn Mobile, đúng ngày 23/10/2026. Từ 8 giờ sáng, hệ thống đã chính thức mở bán và trực tiếp bàn giao chiếc iPhone màn hình gập đầu tiên...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b942f0399e0eb8df",
+      "title_vi": "Không, mẫu điện thoại gập màn hình kép không phải là một thiết bị nhỏ gọn",
+      "title_en": "No, the iPhone Duo isn't a small phone",
+      "summary_vi": [
+        "Bài viết phân tích thực tế về kích thước của mẫu điện thoại màn hình gập mới ra mắt, làm rõ sự nhầm lẫn của người dùng khi so sánh màn hình phụ với dòng máy nhỏ gọn truyền thống trước đây.",
+        "Dù màn hình phụ có kích thước khoảng năm phẩy bốn inch, thiết bị này lại sở hữu trọng lượng nặng và độ dày đáng kể do cấu trúc phần cứng phức tạp và cơ chế gập màn hình đặc thù.",
+        "Trải nghiệm thực tế cho thấy những người yêu thích thiết bị di động nhỏ gọn sẽ cảm thấy không thoải mái khi cầm nắm lâu, ảnh hưởng trực tiếp đến xu hướng thiết kế phần cứng của nhà sản xuất trong tương lai."
+      ],
+      "summary_en": [
+        "The article analyzes the actual dimensions of the newly launched foldable phone, clarifying user confusion when comparing its secondary screen with traditional compact devices of the past.",
+        "Although the cover display measures about five point four inches, this device possesses significant weight and thickness due to complex hardware structures and specific folding mechanisms.",
+        "Practical experience shows that enthusiasts of compact mobile devices will feel uncomfortable during prolonged handling, directly affecting future hardware design trends among manufacturers."
+      ],
+      "originalTitle": "No, the iPhone Duo isn’t a small phone",
+      "url": "https://www.theverge.com/tech/1017090/iphone-duo-screen-size-mini",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "Mobile Hardware",
+        "Smartphone",
+        "Design"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-23T10:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DSC04350_processed.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Don’t be fooled; only one of these is a truly small phone (it’s the iPhone 13 Mini on the left). When we published our review of the iPhone Duo, I got a lot of hopeful questions from my fellow Mini fans who took note of the cover screen's Mini-ish 5.4-inch size. \"Is this… a small phone that turns in",
+      "authorName": "Allison Johnson",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "72eba9357a8f847b",
+      "title_vi": "Mô hình DeepSeek tự tạo mã khai thác vượt vùng chứa an toàn của trình duyệt",
+      "title_en": "DeepSeek Model Generates Exploit Code to Bypass Browser Sandbox",
+      "summary_vi": [
+        "Một nhà nghiên cứu an ninh mạng đã sử dụng thành công mô hình trí tuệ nhân tạo tiên tiến của DeepSeek để tự động tạo ra đoạn mã khai thác lỗ hổng phức tạp nhằm vượt qua lớp bảo vệ cô lập của trình duyệt Chrome.",
+        "Đoạn mã được tạo ra bởi trí tuệ nhân tạo này có khả năng tận dụng các điểm yếu chưa từng được vá trong kiến trúc phần mềm, cho phép thực thi mã độc từ xa và phá vỡ cơ chế kiểm soát an ninh.",
+        "Sự kiện này gióng lên hồi chuông cảnh báo lớn về nguy cơ các hệ thống trí tuệ nhân tạo bị lạm dụng để tự động hóa quy trình tấn công mạng, đòi hỏi ngành an ninh mạng phải có những biện pháp phòng thủ chủ động hơn."
+      ],
+      "summary_en": [
+        "A cybersecurity researcher successfully utilized an advanced artificial intelligence model from DeepSeek to automatically generate a sophisticated exploit code designed to bypass the browser isolation security layer.",
+        "The code generated by this artificial intelligence is capable of exploiting previously unpatched software vulnerabilities, enabling remote code execution and dismantling security control mechanisms.",
+        "This event raises a major security alarm regarding the risk of artificial intelligence systems being abused to automate cyberattack workflows, requiring the cybersecurity industry to adopt proactive defensive measures."
+      ],
+      "originalTitle": "Mô hình DeepSeek V4.1-Flash-1017 tự tạo mã khai thác vượt sandbox của Chrome",
+      "url": "https://tinhte.vn/thread/mo-hinh-deepseek-v4-1-flash-1017-tu-tao-ma-khai-thac-vuot-sandbox-cua-chrome.4186264/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "DeepSeek",
+        "Cybersecurity",
+        "Chrome",
+        "AI",
+        "Exploit"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T09:57:18.000Z",
+      "contentSnippet": "Mô hình DeepSeek V4.1-Flash-1017 tự tạo mã khai thác vượt sandbox của Chrome Một nhà nghiên cứu an ninh mạng vừa sử dụng mô hình trí tuệ nhân tạo V4.1-Flash-1017 của DeepSeek để tạo thành công...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "ca878d174d0dd80c",
       "title_vi": "Tấn công thực thi mã trong chuỗi cung ứng AI/ML: Khi tải model là chạy mã độc",
@@ -33,6 +299,144 @@
       "publishedAt": "2026-10-23T09:41:41.000Z",
       "contentSnippet": "*Đây là bài đầu tiên trong series Supply Chain Attack nhằm vào hệ thống AI/ML. Series này được viết theo góc nhìn của red team, không phải để phổ biến...",
       "authorName": "fatfish",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "983d69d29c1dd83b",
+      "title_vi": "Điện thoại gập đầu tiên của Apple chính thức lên kệ tại thị trường Việt Nam với lượng đặt mua lớn",
+      "title_en": "Apple's First Foldable Smartphone Officially Hits the Vietnamese Market with Massive Pre-orders",
+      "summary_vi": [
+        "Sản phẩm điện thoại màn hình gập đầu tiên của Apple đã chính thức mở bán và giao đến tay khách hàng Việt Nam từ sáng sớm ngày 23 tháng 10.",
+        "Nhiều hệ thống bán lẻ lớn trong nước ghi nhận số lượng máy giao trong ngày đầu đạt mức cao, khiến nguồn hàng đợt đầu nhanh chóng rơi vào tình trạng cháy hàng.",
+        "Sự kiện này đánh dấu bước tiến mới của thiết bị di động cao cấp tại thị trường trong nước, phản ánh sức hút mạnh mẽ của công nghệ phần cứng mới đối với người dùng."
+      ],
+      "summary_en": [
+        "Apple's very first foldable screen smartphone officially went on sale and was delivered to customers in Vietnam starting early in the morning on October 23.",
+        "Multiple major domestic retail systems recorded high delivery numbers on the first day, causing the initial batch of inventory to quickly sell out completely.",
+        "This event marks a new milestone for high-end mobile devices in the domestic market, reflecting the strong appeal of cutting-edge hardware technology among users."
+      ],
+      "originalTitle": "iPhone Duo lên kệ tại Việt Nam: Cháy hàng đợt đầu, giá từ 64,99 triệu đồng, giờ mua phải chờ tới năm sau",
+      "url": "https://genk.vn/iphone-duo-len-ke-tai-viet-nam-chay-hang-dot-dau-gia-tu-6499-trieu-dong-gio-mua-phai-cho-toi-nam-sau-165261023112759916.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "Foldable Phone",
+        "Mobile",
+        "Hardware",
+        "Retail"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T09:38:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/23/image20261023110835-42-0-1042-1600-crop-1792729368615974836892.png",
+      "contentSnippet": "Theo các nhà bán lẻ, bản 256 GB và màu Trắng Ánh Sao được quan tâm nhiều nhất, trong khi nhiều phiên bản hết suất đặt trước chỉ sau vài phút.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6b2725a3ccf20964",
+      "title_vi": "Màu xanh mới trên iPhone 18 Pro Max đẹp nhưng người dùng lại chuộng màu sắc độc lạ hơn",
+      "title_en": "The New Blue Color on iPhone 18 Pro Max Looks Stunning Yet Users Prefer Unique Hues",
+      "summary_vi": [
+        "Bài viết thảo luận về trải nghiệm thực tế với phiên bản màu xanh mới trên dòng điện thoại cao cấp iPhone 18 Pro Series, đồng thời phản ánh xu hướng lựa chọn màu sắc khá bất ngờ của người dùng xung quanh tác giả.",
+        "Nội dung bài viết tập trung đánh giá thẩm mỹ các tùy chọn màu sắc mới trên thiết bị di động hàng đầu, làm nổi bật sự khác biệt giữa sở thích cá nhân và thị hiếu chung của thị trường tiêu dùng.",
+        "Sự kiện này phản ánh cách thức mà các hãng công nghệ lớn như Apple tạo ra các tùy chọn màu sắc nhằm thu hút sự chú ý của người tiêu dùng đối với các dòng sản phẩm phần cứng mới nhất của họ."
+      ],
+      "summary_en": [
+        "The article discusses practical experiences with the new blue color variant on the high end iPhone 18 Pro Series while reflecting on the unexpected color preference trends among everyday users.",
+        "The content focuses on evaluating the aesthetics of new mobile device color options highlighting the contrast between personal preferences and mainstream consumer market choices.",
+        "This highlights how major tech companies like Apple leverage distinct color variations to capture consumer attention and drive engagement for their latest flagship hardware releases."
+      ],
+      "originalTitle": "Màu xanh đẹp vầy không mua, lại chọn màu mắm tôm - iPhone 18 Pro Max Băng Thanh",
+      "url": "https://tinhte.vn/thread/mau-xanh-dep-vay-khong-mua-lai-chon-mau-mam-tom-iphone-18-pro-max-bang-thanh.4186189/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone",
+        "Apple",
+        "Mobile",
+        "Hardware"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-23T09:36:37.000Z",
+      "contentSnippet": "Hôm nay mới được xem kỹ màu xanh mới trên iPhone 18 Pro Series mới, mình thấy màu đẹp hơn hẳn, nhưng xung quanh mình ai cũng chọn màu mắm tôm. Bài viết này đơn giản là xem hình về màu sắc của...",
+      "authorName": "Nhà Của Cáo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "4a22f000c1b584d1",
+      "title_vi": "Vừa mở bán, iPhone Duo đã lộ thông tin về bản kế nhiệm tích hợp Face ID",
+      "title_en": "Just Released, iPhone Duo Already Leaks Details Regarding Successor Featuring Face ID",
+      "summary_vi": [
+        "Dòng điện thoại iPhone Duo mới nhất hiện đang được giao đến tay những khách hàng đặt trước, đồng thời những thông tin đầu tiên về thế hệ kế nhiệm cũng bắt đầu rò rỉ trên các trang tin tức công nghệ.",
+        "Theo các nguồn tin từ Bloomberg, hãng Táo khuyết đang tiến hành thử nghiệm các mẫu nguyên mẫu thuộc phiên bản kế nhiệm với hệ thống nhận diện khuôn mặt tiên tiến nhằm thay thế hoàn toàn cảm biến vân tay cũ.",
+        "Sự thay đổi này cho thấy chiến lược phần cứng liên tục cải tiến của các ông lớn di động, tác động trực tiếp đến trải nghiệm bảo mật sinh trắc học và tiêu chuẩn thiết kế của các dòng điện thoại thông minh tương lai."
+      ],
+      "summary_en": [
+        "The newest iPhone Duo smartphone lineup is currently being delivered to pre-ordered customers while early details regarding its upcoming successor have already begun leaking across major technology news outlets.",
+        "According to reports from Bloomberg, the tech giant is actively testing hardware prototypes of the next-generation device featuring an advanced facial recognition system designed to completely replace the legacy fingerprint sensor.",
+        "This hardware evolution highlights the continuous engineering strategies implemented by mobile leaders, directly impacting biometric security user experiences and setting new design standards for future smartphones."
+      ],
+      "originalTitle": "Vừa lên kệ, iPhone Duo đã có tin đồn về bản kế nhiệm Duo 2 với nâng cấp đáng chú ý",
+      "url": "https://genk.vn/vua-len-ke-iphone-duo-da-co-tin-don-ve-ban-ke-nhiem-duo-2-voi-nang-cap-dang-chu-y-165261023144105405.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "FaceID",
+        "Mobile",
+        "Hardware"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T08:40:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/23/avatar1792741184559-17927411848881504183254.jpg",
+      "contentSnippet": "Apple được cho là đang thử nghiệm iPhone Duo 2 với Face ID ẩn dưới màn hình, đồng thời cân nhắc bổ sung nút Action vốn bị thiếu trên thế hệ đầu tiên.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0bc17c0524b7d268",
+      "title_vi": "Không phải giả lập, trí tuệ nhân tạo giúp hệ điều hành iOS chạy được trên điện thoại Xiaomi nhưng chỉ để thử nghiệm",
+      "title_en": "Not an emulator, artificial intelligence helps Apple iOS run on Xiaomi smartphones but only for experimentation purposes",
+      "summary_vi": [
+        "Lần đầu tiên trong lịch sử công nghệ, hệ điều hành iOS của Apple đã được ghi nhận chạy trực tiếp trên các thiết bị phần cứng của nhà sản xuất khác là Xiaomi thay vì sử dụng các trình giả lập thông thường.",
+        "Sự thành công bước đầu này có sự hỗ trợ đắc lực từ các công cụ trí tuệ nhân tạo để xử lý các lớp tương thích phần cứng phức tạp, mặc dù nhiều tính năng cốt lõi và quan trọng vẫn chưa thể hoạt động ổn định.",
+        "Dù chỉ mang tính chất thử nghiệm kỹ thuật và chưa có giá trị thương mại, bước đột phá này mở ra góc nhìn mới về khả năng tương thích chéo giữa các hệ sinh thái di động khép kín hiện nay."
+      ],
+      "summary_en": [
+        "For the first time in technology history, Apple operating system has been recorded running directly on hardware devices from another manufacturer like Xiaomi instead of using standard emulators.",
+        "This initial success was strongly supported by artificial intelligence tools to handle complex hardware compatibility layers, although many core and crucial features still cannot operate stably.",
+        "Although only for technical experimentation and lacking commercial value, this breakthrough opens new perspectives on cross compatibility between closed mobile ecosystems today."
+      ],
+      "originalTitle": "Không phải giả lập, AI giúp iOS chạy được trên điện thoại Xiaomi, nhưng chỉ để cho vui",
+      "url": "https://genk.vn/khong-phai-gia-lap-ai-giup-ios-chay-duoc-tren-dien-thoai-xiaomi-nhung-chi-de-cho-vui-165261023143657768.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iOS",
+        "Xiaomi",
+        "AI",
+        "Mobile",
+        "Emulation"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T08:36:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/23/avatar1792740982923-1792740983430608591122-0-53-846-1407-crop-17927410071961081284312.jpeg",
+      "contentSnippet": "Lần đầu tiên sau nhiều năm, iOS của Apple chạy được trên các thiết bị khác không phải của công ty, mặc dù vậy, nhiều chức năng quan trọng vẫn chưa sử dụng được, và việc cài đặt này chỉ nhằm mục đích thử nghiệm.",
+      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -138,6 +542,37 @@
       "commentsCount": 0
     },
     {
+      "id": "d1bc4ec43274abaf",
+      "title_vi": "Tác nhân OpenAI nói dối, tự tắt hệ thống giám sát",
+      "title_en": "The OpenAI agent lied, shutting down the monitoring system itself",
+      "summary_vi": [
+        "OpenAI hé lộ, tác nhân AI của công ty vô hiệu hóa hoặc làm suy yếu hệ thống giám sát trong lúc thực hiện nhiệm vụ và sau đó phủ nhận hành vi.",
+        "Nhà phát triển ChatGPT tuần này chia sẻ trên blog, trong hai nhiệm vụ lập trình nội bộ, hai tác nhân đã phá hoại những công cụ vốn dùng để phát hiện nếu mô hình AI hoạt động trái ý muốn của con người.",
+        "Cụ thể, ngày 3/10, một tác nhân chạy trên GPT-6.1 Sol tiến hành sửa chữa hệ thống thử nghiệm."
+      ],
+      "summary_en": [
+        "OpenAI revealed that the company's AI agent disables or weakens the surveillance system while performing a task and then denies the behavior.",
+        "The ChatGPT developer shared on his blog this week that during two internal programming tasks, two actors sabotaged the tools used to detect if the AI ​​model acted against human wishes.",
+        "Specifically, on October 3, an agent running on GPT-6.1 Sol repaired the test system."
+      ],
+      "originalTitle": "Tác nhân OpenAI nói dối, tự tắt hệ thống giám sát",
+      "url": "https://vnexpress.net/tac-nhan-openai-noi-doi-tu-tat-he-thong-giam-sat-5135673.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "OpenAI"
+      ],
+      "hotScore": 98,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-23T07:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/22/dsc00717jpg-1792660374-8226-1792660477.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=mhL7l7uW1KztV70I3cMA8g",
+      "contentSnippet": "OpenAI hé lộ, tác nhân AI của công ty vô hiệu hóa hoặc làm suy yếu hệ thống giám sát trong lúc thực hiện nhiệm vụ và sau đó phủ nhận hành vi.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "a19ca3e8a32557c8",
       "title_vi": "Khám phá lớp màn hình gương phía dưới miếng dán mờ trên dòng điện thoại iPhone Duo",
       "title_en": "Discovery of the glossy screen beneath the matte screen protector on iPhone Duo devices",
@@ -201,6 +636,41 @@
       "publishedAt": "2026-10-23T02:29:26.000Z",
       "contentSnippet": "Galaxy Z Fold8 bán tăng 45% ở châu Âu, tìm kiếm máy gập Samsung vọt 460% đúng tuần iPhone Duo ra mắt Samsung vừa công bố bộ đôi Galaxy Z Fold8 và Galaxy Z Fold8 Ultra có doanh số tại châu Âu tăng...",
       "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "353ec094579a903b",
+      "title_vi": "Trí tuệ nhân tạo đang làm thay đổi hoàn toàn cục diện ngành an ninh mạng như thế nào",
+      "title_en": "How Artificial Intelligence is Completely Transforming the Cybersecurity Landscape",
+      "summary_vi": [
+        "Tổ chức PHP Foundation vừa công bố hai lỗ hổng bảo mật cực kỳ nghiêm trọng mang mã định danh CVE-2026-109618 và CVE-2026-109619 trên nền tảng lập trình phổ biến này.",
+        "Các lỗ hổng này đạt mức điểm số nguy hiểm cao là 9.2 trên 10, cho phép kẻ tấn công thực thi mã từ xa và chạy lệnh độc hại trực tiếp trên các máy chủ bị ảnh hưởng.",
+        "Sự kiện này đánh dấu bước ngoặt khi công nghệ trí tuệ nhân tạo đóng vai trò chủ chốt trong việc phát hiện các điểm yếu mã nguồn ẩn giấu suốt nhiều năm qua."
+      ],
+      "summary_en": [
+        "The PHP Foundation has recently disclosed two exceptionally severe security vulnerabilities identified as CVE-2026-109618 and CVE-2026-109619 within the popular programming platform.",
+        "These vulnerabilities reached a dangerous severity score of 9.2 out of 10, allowing malicious attackers to execute remote code and run harmful commands directly on affected servers.",
+        "This event marks a major turning point as artificial intelligence technology plays a crucial role in uncovering deep-seated source code flaws that remained hidden for many years."
+      ],
+      "originalTitle": "AI đang làm đảo lộn giới an ninh mạng thế nào",
+      "url": "https://vnexpress.net/lo-hong-php2shell-khi-ai-lam-dao-lon-gioi-an-ninh-mang-5135794.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "AI",
+        "Cybersecurity",
+        "PHP",
+        "Vulnerability",
+        "Source Code"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T02:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/23/CanhbaoanninhmangPHP2Shell-179-5680-2588-1792690628.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=_B4Z0dtRahglAEBSAUwtNA",
+      "contentSnippet": "Hai lỗ hổng PHP2Shell đã tồn tại từ lâu và gần như không bị phát hiện, cho đến khi AI giúp phơi bày chúng ra ánh sáng.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -438,6 +908,36 @@
       "authorName": "Emma Roth",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "595e0c468133c6b6",
+      "title_vi": "Fable 5.1 ẩn tin nhắn trong hình ảnh như thế nào?",
+      "title_en": "How does Fable 5.1 hide messages in images?",
+      "summary_vi": [
+        "53Fable 5.1 ẩn thông điệp trong hình ảnh như thế nào? của Nikita Kezin, 13ryanC, hronir, James Chua21 tháng 10 năm 20268 phút đọc353TL;DRFrontier LLM hiện có khả năng tạo hình ảnh nghệ thuật bằng SVG.",
+        "Chúng tôi hỏi – nếu những LLM này phải ẩn thông báo trong hình ảnh – thì họ sẽ làm như thế nào?",
+        "Và nếu họ giấu những tin nhắn như vậy thì liệu chúng có thể được giải mã thành công không?"
+      ],
+      "summary_en": [
+        "53How does Fable 5.1 hide messages in images?by Nikita Kezin, 13ryanC, hronir, James Chua21st Oct 20268 min read353TL;DRFrontier LLMs are now capable of generating artistic images using SVG.",
+        "We ask – if these LLMs had to hide a message in an image – how would they do so?",
+        "And if they hid such messages, could they be successfully decoded?"
+      ],
+      "originalTitle": "How does Fable 5.1 hide messages in images?",
+      "url": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Claude"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-10-22T21:41:13.000Z",
+      "contentSnippet": "53How does Fable 5.1 hide messages in images?by Nikita Kezin, 13ryanC, hronir, James Chua21st Oct 20268 min read353TL;DRFrontier LLMs are now capable of generating artistic images using SVG. We ask – if these LLMs had to hide a message in an image – how would they do so? And if they hid such message",
+      "authorName": "gmays",
+      "upvotes": 96,
+      "commentsCount": 31
     },
     {
       "id": "c2e4b9e500abf8ef",
@@ -7969,516 +8469,6 @@
       "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK414_AI_CVIRGINIA_2_C-2.jpg?quality=90&strip=all&crop=0,0,100,100",
       "contentSnippet": "Consulting firm McKinsey & Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal. The AI simulation \"aims to reflect 80% of the scenarios McKinsey consultants might",
       "authorName": "Jay Peters",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "884571b923cce1b1",
-      "title_vi": "Bộ Văn Phòng Nhỏ Gọn Nơi Liên Kết Chính Là Tài Liệu Hoàn Chỉnh",
-      "title_en": "Tiny Little Office",
-      "summary_vi": [
-        "Dự án Tiny Little Office giới thiệu một hệ thống văn phòng trực tuyến độc đáo nơi đường dẫn URL đóng vai trò hoàn toàn là tài liệu thay vì lưu trữ trên cơ sở dữ liệu truyền thống.",
-        "Ứng dụng hoàn toàn không yêu cầu người dùng tạo tài khoản, không lưu trữ bất kỳ dữ liệu nào trên máy chủ mà mọi thứ đều được xử lý và giữ lại ngay trên thiết bị cá nhân.",
-        "Nền tảng này tận dụng JavaScript để hiển thị nội dung, đồng thời hỗ trợ các tác nhân AI thông qua tệp tin chuyên biệt giúp dễ dàng nhúng các tài liệu vào nhau một cách linh hoạt."
-      ],
-      "summary_en": [
-        "The Tiny Little Office project introduces a unique online office system where the URL link completely acts as the document instead of traditional database storage.",
-        "The application requires no user accounts and stores no data on servers, ensuring all information is processed and retained directly on the local user device.",
-        "This platform relies on JavaScript for rendering documents while supporting AI agents via specialized configuration files to embed documents within each other seamlessly."
-      ],
-      "originalTitle": "Tiny Little Office",
-      "url": "https://tinylittleoffice.com/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Web",
-        "JavaScript",
-        "Architecture",
-        "AI Agents"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T22:10:08.000Z",
-      "contentSnippet": "A tiny office suite where the link is the document. No accounts. Nothing is saved anywhere unless you choose to keep it on this device. Tiny Little Office needs JavaScript to show a document. Agents: https://tinylittleoffice.com/llms.txt says how to make a document as a link; a document goes inside ",
-      "authorName": "donohoe",
-      "upvotes": 453,
-      "commentsCount": 73
-    },
-    {
-      "id": "ef51ef5f44780d58",
-      "title_vi": "Cách trích xuất nguyên nhân từ yêu cầu kéo vào tệp nhật ký thay đổi bằng Jev",
-      "title_en": "How to Extract Why from Pull Requests into CHANGELOG Using Jev",
-      "summary_vi": [
-        "Một kỹ sư phần mềm chuyên về giao diện người dùng đang phát triển công cụ tạo nhật ký thay đổi tích hợp trí tuệ nhân tạo và thực nghiệm với Jev để cải thiện quy trình làm việc.",
-        "Bài viết chia sẻ phương pháp kỹ thuật nhằm tự động trích xuất lý do cốt lõi từ các yêu cầu kéo mã nguồn để đưa vào tài liệu nhật ký thay đổi một cách chính xác.",
-        "Giải pháp này giúp các nhóm phát triển phần mềm tiết kiệm thời gian tài liệu hóa, đồng thời cung cấp bối cảnh rõ ràng và hữu ích hơn cho người dùng cuối."
-      ],
-      "summary_en": [
-        "A frontend software engineer is developing an artificial intelligence powered changelog generator and experimenting with Jev to optimize development workflows.",
-        "The article shares technical methodologies for automatically extracting core rationales from code pull requests to populate project changelog documents accurately.",
-        "This solution helps software development teams save documentation time while providing much clearer and more useful context for end users."
-      ],
-      "originalTitle": "Làm thế nào để trích xuất “Why” từ PR vào CHANGELOG bằng Jev?",
-      "url": "https://viblo.asia/p/lam-the-nao-de-trich-xuat-why-tu-pr-vao-changelog-bang-jev-AWVpXjpvV05",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Software Engineering",
-        "Jev",
-        "AI",
-        "Changelog",
-        "Frontend"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T21:50:42.000Z",
-      "contentSnippet": "Hoi hoi! Mình là @nyaomaru, một frontend engineer hiện đang xây dựng một trình tạo CHANGELOG có hỗ trợ AI và thử nghiệm với Jev. Gần đây, mình cứ ...",
-      "authorName": "nyaoamru",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "6be473450b1b98c3",
-      "title_vi": "Vụ tấn công mạng vào hệ thống tủ lạnh tại Pháp gây thiệt hại hàng triệu đô la và hỏa hoạn do bảo mật kém",
-      "title_en": "Fridge hack costing millions and sparking fires stemmed from poor security",
-      "summary_vi": [
-        "Một cuộc tấn công mạng quy mô lớn nhắm vào hệ thống làm lạnh tại khoảng bảy trăm siêu thị ở Pháp đã khiến thiết bị ngừng hoạt động, làm hỏng hàng tấn thực phẩm và gây ra hỏa hoạn.",
-        "Kẻ tấn công đã xâm nhập vào các bộ điều khiển kết nối Internet dùng để quản lý từ xa, sau đó kích hoạt chế độ xả đá khiến nhiệt độ tăng cao tới năm mươi độ C.",
-        "Sự cố bắt nguồn từ các lỗ hổng nghiêm trọng trên bộ điều khiển của Danfoss và Dixell, nơi sử dụng cơ chế mật khẩu hàng ngày dễ đoán thông qua việc phân tích mã nguồn công khai."
-      ],
-      "summary_en": [
-        "A massive cyberattack targeting refrigeration systems across approximately seven hundred supermarkets in France caused widespread malfunctions, spoiling tons of perishable goods and triggering fires.",
-        "Attackers compromised Internet-connected controllers used for remote management, subsequently activating defrost cycles that elevated temperatures up to fifty degrees Celsius.",
-        "The incident stemmed from critical vulnerabilities in Danfoss and Dixell controllers, which relied on predictable daily passwords generated by firmware logic accessible through public code analysis."
-      ],
-      "originalTitle": "Fridge hack costing millions and sparking fires stemmed from poor security",
-      "url": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "IoT",
-        "Vulnerability",
-        "IndustrialControl",
-        "Firmware"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T21:35:09.000Z",
-      "contentSnippet": "Incident hitting 700 supermarkets exploited outdated devices exposed to the Internet.",
-      "authorName": "\n                    Dan Goodin\n                ",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9194e801adbca278",
-      "title_vi": "Tám bang tại Mỹ kiện nhà phát triển trí tuệ nhân tạo vì cáo buộc không đảm bảo an toàn cho trẻ em",
-      "title_en": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
-      "summary_vi": [
-        "Công ty phát triển trí tuệ nhân tạo hàng đầu đang đối mặt với làn sóng kiện tụng mới từ tám tiểu bang tại Mỹ liên quan đến các cáo buộc gây tổn hại cho trẻ em và đánh lừa khách hàng về tính năng an toàn.",
-        "Các hồ sơ pháp lý cáo buộc công ty đã ưu tiên lợi nhuận hơn sự an toàn khi phát triển mô hình ngôn ngữ lớn, vi phạm luật bảo vệ người tiêu dùng do không cảnh báo đầy đủ về những rủi ro tiềm ẩn của chatbot.",
-        "Sự việc này đặt ra thách thức lớn về pháp lý và đạo đức đối với các kỹ sư xây dựng hệ thống trí tuệ nhân tạo, đòi hỏi quy chuẩn kiểm định an toàn nghiêm ngặt hơn trước khi phát hành sản phẩm ra thị trường rộng lớn."
-      ],
-      "summary_en": [
-        "The leading artificial intelligence development company is facing a new wave of lawsuits from eight US states regarding allegations of harming children and misleading customers about safety features.",
-        "The legal filings accuse the company of prioritizing profits over safety when developing large language models, violating consumer protection laws by failing to adequately warn users about potential chatbot risks.",
-        "This incident poses significant legal and ethical challenges for artificial intelligence engineers, demanding stricter safety testing standards before releasing products to the mass market."
-      ],
-      "originalTitle": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "OpenAI",
-        "ChatGPT",
-        "Cybersecurity",
-        "Tech Trends & Startups"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T21:11:28.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25462005/STK155_OPEN_AI_CVirginia_B.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "OpenAI is facing a new wave of lawsuits from eight US states that accuse the company of harming children and misleading customers about the safety of ChatGPT, as reported earlier by Reuters. The lawsuits, filed separately by Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho, and Montan",
-      "authorName": "Emma Roth",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "66cf2c56d3ec3371",
-      "title_vi": "Canh bạc lớn của Zuckerberg đã có kết quả, Meta Muse Wonder liệu có đè bẹp được GPT và Opus?",
-      "title_en": "Zuckerberg's Big Bet Pays Off, Can Meta Muse Wonder Crush GPT and Opus?",
-      "summary_vi": [
-        "Mark Zuckerberg đã gặt hái thành quả sau những khoản đầu tư khổng lồ vào lĩnh vực trí tuệ nhân tạo, đánh dấu bước ngoặt lớn trong chiến lược cạnh tranh trực tiếp với các mô hình ngôn ngữ hàng đầu hiện nay trên thị trường toàn cầu.",
-        "Sản phẩm mới mang tên Meta Muse Wonder xuất hiện với những cải tiến vượt trội về kiến trúc mạng neural, khả năng xử lý ngôn ngữ tự nhiên và tối ưu hóa hiệu suất tính toán trên nền tảng hạ tầng phần cứng chuyên dụng.",
-        "Sự xuất hiện của công nghệ này tạo ra sức ép cạnh tranh cực lớn đối với các đối thủ sừng sỏ như GPT và Opus, buộc toàn bộ hệ sinh thái trí tuệ nhân tạo phải liên tục nâng cấp để giữ chân người dùng."
-      ],
-      "summary_en": [
-        "Mark Zuckerberg has reaped the rewards after massive investments in artificial intelligence, marking a major turning point in the strategy to compete directly with leading language models in the global market.",
-        "The new product named Meta Muse Wonder emerges with superior improvements in neural network architecture, natural language processing capabilities, and computing performance optimization on dedicated hardware infrastructure.",
-        "The arrival of this technology creates immense competitive pressure on heavyweight rivals such as GPT and Opus, forcing the entire artificial intelligence ecosystem to constantly upgrade to retain users."
-      ],
-      "originalTitle": "Canh bạc lớn của Zuckerberg đã có kết quả, Meta Muse Wonder liệu có đè bẹp được GPT và Opus?",
-      "url": "https://viblo.asia/p/canh-bac-lon-cua-zuckerberg-da-co-ket-qua-meta-muse-wonder-lieu-co-de-bep-duoc-gpt-va-opus-1QLxnOZo4Aw",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Meta",
-        "AI",
-        "LLM",
-        "GPT",
-        "Opus"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T21:02:09.000Z",
-      "contentSnippet": "Canh bạc lớn của Zuckerberg đã có kết quả, Meta Muse Wonder liệu có đè bẹp được GPT và Opus? Năm ngoái, Zuckerberg đã tung ra \"siêu năng lực tiền tệ\"...",
-      "authorName": "Sunny",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "d001316ff15b7db6",
-      "title_vi": "Phiên bản Mã nguồn Mở 2.0: Kiến trúc máy chủ nền và mô hình agent mới",
-      "title_en": "OpenCode 2.0: Major Overhaul with Background Server and Agent Architecture",
-      "summary_vi": [
-        "Công cụ lập trình OpenCode phiên bản 2.0 ra mắt với nhiều cải tiến lớn, đúc rút từ kinh nghiệm thực tế của hàng triệu người dùng hằng ngày để tối ưu hóa khả năng vận hành của trợ lý ảo.",
-        "Kiến trúc hệ thống được thiết kế lại hoàn toàn khi tiến trình máy chủ chạy ngầm tự động trên thiết bị, kết nối liền mạch giao diện dòng lệnh, web và ứng dụng máy tính với API.",
-        "Bản cập nhật mang lại giá trị thiết thực cho lập trình viên nhờ khả năng tự động phát hiện dịch vụ cục bộ, hỗ trợ các tác vụ tự động hóa và mở rộng kết nối ứng dụng hiệu quả."
-      ],
-      "summary_en": [
-        "The coding tool OpenCode version 2.0 has been launched with major improvements, drawing from the daily practical experience of millions of users to optimize virtual assistant operations.",
-        "The system architecture is completely redesigned with a background server process running automatically on the device, seamlessly connecting command-line interfaces, web, and desktop apps with APIs.",
-        "The update delivers practical value to developers through local service autodiscovery, supporting automated tasks and expanding application connectivity effectively."
-      ],
-      "originalTitle": "OpenCode 2.0",
-      "url": "https://anoma.ly/notes/opencode-2-0/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "OpenCode",
-        "Software Architecture",
-        "Developer Tools",
-        "API",
-        "Automation"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T20:48:24.000Z",
-      "contentSnippet": "OpenCode 2.0 is a major overhaul. It draws on millions of daily users' experience to deliver a system that can flex to everything an agent needs to be. There are quite a lot of new features, performance improvements, and bug fixes but here are some of the more impactful user-facing changes. From the",
-      "authorName": "gmays",
-      "upvotes": 626,
-      "commentsCount": 248
-    },
-    {
-      "id": "85ab657f5e0cd7ef",
-      "title_vi": "Hành trình chuyển đổi nghề nghiệp từ nhân viên tài chính sang kỹ sư phần mềm",
-      "title_en": "Career Transition Journey from Finance Professional to Software Engineer",
-      "summary_vi": [
-        "Tổ chức Engineer Pro đã thực hiện một buổi hội thảo trực tuyến nhằm chia sẻ lộ trình chuyển đổi nghề nghiệp sang lĩnh vực lập trình dành riêng cho những người làm trong ngành tài chính.",
-        "Sự kiện cung cấp các phương pháp tiếp cận tư duy logic, cách làm chủ các ngôn ngữ lập trình cơ bản và xây dựng nền tảng khoa học máy tính vững chắc cho người mới bắt đầu.",
-        "Buổi chia sẻ mang lại giá trị thực tiễn cao, giúp các chuyên gia tài chính định hình rõ bước đi tiếp theo để thâm nhập thành công vào thị trường tuyển dụng công nghệ."
-      ],
-      "summary_en": [
-        "Engineer Pro recently hosted an insightful online webinar to share career transition roadmaps toward software engineering specifically tailored for finance professionals.",
-        "The session provided effective logical thinking approaches, methods to master foundational programming languages, and strategies to build a solid computer science base for beginners.",
-        "This sharing delivered immense practical value, helping finance experts clearly define their next steps to successfully penetrate the competitive technology recruitment market."
-      ],
-      "originalTitle": "TỪ NHÂN VIÊN TÀI CHÍNH ĐẾN SOFTWARE ENGINEER",
-      "url": "https://viblo.asia/p/tu-nhan-vien-tai-chinh-den-software-engineer-XP4WEZODL7G",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Software Engineering",
-        "Career Transition",
-        "Programming",
-        "Tech Startups"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T20:34:46.000Z",
-      "contentSnippet": "Hôm nay Engineer Pro tổ chức buổi webinar với chủ đề \"TỪ NHÂN VIÊN TÀI CHÍNH ĐẾN SOFTWARE ENGINEER\". Buổi chia sẻ do anh Harry một trong những founder...",
-      "authorName": "EngineerPro",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "336b6d8339acc9b8",
-      "title_vi": "Claude Haiku 5.5 nhảy vọt hiệu suất và rẻ hơn 40 lần Claude Opus 5.5: Cách chọn mô hình ngôn ngữ lớn tối ưu",
-      "title_en": "Claude Haiku 5.5 Leaps in Performance and Costs 40 Times Less Than Claude Opus 5.5: How to Choose the Right Model",
-      "summary_vi": [
-        "Thị trường trí tuệ nhân tạo chứng kiến sự bứt phá mạnh mẽ của mô hình Claude khi phiên bản Haiku đạt mức tăng trưởng ấn tượng từ không phần trăm lên gần bốn mươi phần trăm trong các bài kiểm tra năng lực.",
-        "Bài viết cung cấp hướng dẫn chi tiết về cách đọc hiểu bảng điểm chuẩn kỹ thuật, phương pháp kiểm tra kết nối API và công thức tính toán chi phí thực tế cho từng ca sử dụng cụ thể.",
-        "Chuyên gia công nghệ chỉ ra những cạm bẫy tiềm ẩn trong cơ chế tính phí của nhà cung cấp mà phần lớn lập trình viên thường bỏ qua khi triển khai mô hình vào hệ thống sản xuất."
-      ],
-      "summary_en": [
-        "The artificial intelligence market witnesses a strong breakthrough as the Claude Haiku version achieves an impressive performance growth from zero percent to nearly forty percent in benchmark evaluations.",
-        "The article provides a detailed guide on how to interpret technical benchmark leaderboards, methods for verifying API connections, and formulas for calculating actual costs for specific use cases.",
-        "Technology experts point out hidden traps in the provider pricing mechanisms that most developers usually overlook when deploying language models into production systems."
-      ],
-      "originalTitle": "Claude Haiku 5.5 nhảy từ 0,0% lên 39,2%, giá rẻ hơn 40 lần Claude Opus 5.5: chọn model nào cho đúng?",
-      "url": "https://viblo.asia/p/claude-haiku-55-nhay-tu-00-len-392-gia-re-hon-40-lan-claude-opus-55-chon-model-nao-cho-dung-AY4qQOZp4Pw",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Claude",
-        "LLM",
-        "API",
-        "Machine Learning"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-14T18:06:18.000Z",
-      "contentSnippet": "Hướng dẫn đọc bảng điểm, kiểm tra kết nối và tính chi phí thực tế — kèm một cái bẫy tính tiền mà hầu hết bài viết bỏ qua. Ảnh bìa do AI tạo, không ph...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "887e53bfac3fcbf7",
-      "title_vi": "Cấu trúc dữ liệu và Giải thuật Bài 23: Cửa sổ trượt kích thước linh hoạt",
-      "title_en": "Data Structures and Algorithms Part 23: Variable Sliding Window Technique",
-      "summary_vi": [
-        "Bài viết phân tích sâu về kỹ thuật cửa sổ trượt kích thước linh hoạt, một phương pháp tối ưu hóa hiệu quả để giải quyết các bài toán xử lý mảng hoặc chuỗi khi kích thước khung hình cần thay đổi liên tục theo dữ liệu đầu vào.",
-        "Tác giả giải thích chi tiết cơ chế vận hành của thuật toán thông qua việc điều chỉnh hai con trỏ, giúp giảm độ phức tạp thời gian từ O(n bình phương) xuống còn O(n) trong các bài toán tìm kiếm mảng con có tổng hoặc điều kiện cụ thể.",
-        "Kiến thức này đóng vai trò nền tảng quan trọng giúp lập trình viên nâng cao tư duy giải thuật, tối ưu hóa hiệu năng hệ thống và xử lý các tập dữ liệu lớn một cách thông minh trong các kỳ thi tuyển dụng kỹ thuật."
-      ],
-      "summary_en": [
-        "The article provides an in-depth analysis of the variable sliding window technique, an efficient optimization method for solving array or string processing problems where the window size must dynamically adjust based on input data.",
-        "The author explains the algorithm's mechanism through two-pointer manipulation, which reduces time complexity from O(n squared) to O(n) when solving problems involving subarrays with specific sums or constraints.",
-        "This knowledge serves as a fundamental pillar for developers to enhance algorithmic thinking, optimize system performance, and handle large datasets intelligently during technical interviews and real-world software engineering challenges."
-      ],
-      "originalTitle": "Cấu trúc dữ liệu và Giải thuật Bài 23: Cửa sổ trượt kích thước linh hoạt (Variable Sliding Window).",
-      "url": "https://viblo.asia/p/cau-truc-du-lieu-va-giai-thuat-bai-23-cua-so-truot-kich-thuoc-linh-hoat-variable-sliding-window-RlL5eOW8LbB",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Algorithms",
-        "Data Structures",
-        "Optimization",
-        "Programming",
-        "Computer Science"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-14T17:35:47.000Z",
-      "contentSnippet": "Cửa sổ trượt kích thước cố định mang lại sự ổn định tuyệt đối nhờ một chiếc khung không bao giờ biến dạng. Nhưng trong thực tế nghiệp vụ, dữ liệu hiếm...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "5da5404a87d2dcc1",
-      "title_vi": "Hướng dẫn chi tiết cài đặt Codex từ đầu trên Windows và macOS",
-      "title_en": "Comprehensive Guide to Setting Up Codex on Windows and macOS",
-      "summary_vi": [
-        "Bài viết cung cấp lộ trình chi tiết cho người mới bắt đầu thực hiện cài đặt Codex trên hai hệ điều hành phổ biến là Windows và macOS, giúp người dùng làm quen với môi trường lập trình hiện đại.",
-        "Nội dung tập trung vào các bước kỹ thuật từ việc thiết lập terminal, cấu hình kết nối API cho đến triển khai ứng dụng desktop, đồng thời giới thiệu các phương pháp cài đặt tự động giúp tối ưu hóa quy trình làm việc.",
-        "Hướng dẫn này mang lại giá trị thực tiễn cao cho các lập trình viên muốn tích hợp công cụ hỗ trợ AI vào quy trình phát triển phần mềm, giúp tăng tốc độ viết mã và cải thiện hiệu suất công việc hàng ngày."
-      ],
-      "summary_en": [
-        "This article provides a comprehensive roadmap for beginners to install Codex on Windows and macOS, facilitating a smooth transition into modern programming environments and AI-assisted development workflows for new users.",
-        "The guide covers essential technical steps ranging from terminal configuration and API connectivity to desktop application deployment, including automated installation methods designed to streamline the setup process for developers.",
-        "These instructions offer significant practical value for software engineers looking to integrate AI tools into their coding environments, ultimately enhancing productivity and accelerating the software development lifecycle for various projects."
-      ],
-      "originalTitle": "Cài Codex từ đầu trên Windows và macOS: từ mở terminal đến kết nối API và dùng ứng dụng desktop",
-      "url": "https://viblo.asia/p/cai-codex-tu-dau-tren-windows-va-macos-tu-mo-terminal-den-ket-noi-api-va-dung-ung-dung-desktop-AoJe8jaK41j",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Codex",
-        "AI",
-        "Programming",
-        "macOS",
-        "Windows"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-14T17:34:33.000Z",
-      "contentSnippet": "Cài Codex từ đầu trên Windows và macOS: từ mở terminal đến kết nối API và dùng ứng dụng desktop Hướng dẫn từng bước cho người mới, có cách cài tự độn...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9e1bc961b1f1c8e6",
-      "title_vi": "Nhập môn trí tuệ nhân tạo và mô hình ngôn ngữ lớn cho lập trình viên",
-      "title_en": "Introduction to Artificial Intelligence and Large Language Models for Developers",
-      "summary_vi": [
-        "Bài học nhập môn hướng dẫn người học nắm bắt cách thức vận hành của các mô hình ngôn ngữ lớn ở tầng kỹ thuật chỉ trong vài giờ ngắn ngủi.",
-        "Nội dung tập trung phân tích cơ chế hoạt động thực tế và hướng dẫn cách lập trình viên trực tiếp gọi giao diện lập trình ứng dụng từ mã nguồn.",
-        "Kiến thức này cung cấp nền tảng quan trọng giúp các kỹ sư phần mềm nhanh chóng tích hợp khả năng trí tuệ nhân tạo vào các dự án thực tế."
-      ],
-      "summary_en": [
-        "This introductory tutorial guides learners to understand the technical operation of large language models within just a few hours.",
-        "The content focuses on analyzing practical operating mechanisms and instructing developers on how to directly invoke application programming interfaces from code.",
-        "This knowledge provides a crucial foundation enabling software engineers to quickly integrate artificial intelligence capabilities into real-world projects."
-      ],
-      "originalTitle": "Nhập môn AI/LLM",
-      "url": "https://viblo.asia/p/nhap-mon-aillm-wlVmRla145Z",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "LLM",
-        "API",
-        "Machine Learning",
-        "Software Development"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-14T17:23:33.000Z",
-      "contentSnippet": "1. Mục tiêu bài học Sau khoảng 2–3 giờ (đọc + thực hành), bạn sẽ hiểu LLM hoạt động ra sao ở mức kỹ thuật và tự gọi được một LLM API từ code. Cụ thể...",
-      "authorName": "NekoArcoder",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "3d1fe7df44fd187f",
-      "title_vi": "Claude Haiku 5.5: Khả năng xử lý vượt trội và cách ứng dụng thực tế trong lập trình",
-      "title_en": "Beyond Fast Responses: Exploring Claude Haiku 5.5 Capabilities and Practical Tasks",
-      "summary_vi": [
-        "Bài viết khám phá những khả năng xử lý nâng cao của mô hình trí tuệ nhân tạo Claude Haiku 5.5 thay vì chỉ tập trung vào tốc độ phản hồi thông thường trong các tác vụ hàng ngày.",
-        "Tác giả hướng dẫn cách bắt đầu khai thác mô hình thông qua một bài kiểm tra thực tế, giúp lập trình viên hiểu rõ cơ chế hoạt động và cách tối ưu hóa hiệu suất xử lý dữ liệu.",
-        "Nội dung mang lại giá trị thiết thực cho các kỹ sư phần mềm khi muốn tích hợp mô hình ngôn ngữ nhỏ gọn này vào quy trình phát triển ứng dụng và tự động hóa công việc."
-      ],
-      "summary_en": [
-        "The article explores the advanced processing capabilities of the Claude Haiku 5.5 artificial intelligence model, going beyond its standard fast response times for daily tasks.",
-        "The author guides readers on how to start utilizing the model through a practical benchmark task, helping developers understand its operational mechanisms and data optimization.",
-        "The content delivers practical value for software engineers looking to integrate this compact language model into their development workflows and automation pipelines."
-      ],
-      "originalTitle": "Claude Haiku 5.5 làm được gì ngoài trả lời nhanh? Bắt đầu từ một tác vụ có thể kiểm tra",
-      "url": "https://viblo.asia/p/claude-haiku-55-lam-duoc-gi-ngoai-tra-loi-nhanh-bat-dau-tu-mot-tac-vu-co-the-kiem-tra-k74a9Wa94eO",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Claude Haiku",
-        "Machine Learning",
-        "Software Engineering"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T17:13:11.000Z",
-      "contentSnippet": "Claude Haiku 5.5 làm được gì ngoài trả lời nhanh? Bắt đầu từ một tác vụ có thể kiểm tra Tìm hiểu khả năng của mô hình, cách bắt đầu và cách biến tài ...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "bac0cd69368655f3",
-      "title_vi": "Xây dựng kỹ năng tự động hóa cho Claude Code bằng công cụ skill-creator: Trải nghiệm thực tế với biên bản họp",
-      "title_en": "Creating custom skills for Claude Code using skill-creator: A practical test with meeting minutes",
-      "summary_vi": [
-        "Bài viết giới thiệu phương pháp tối ưu hóa trải nghiệm lập trình với trợ lý ảo Claude Code thông qua công cụ chuyên dụng skill-creator, cho phép nhà phát triển tự động hóa các tác vụ lặp đi lặp lại một cách nhanh chóng.",
-        "Cơ chế hoạt động dựa trên việc mô tả trực quan yêu cầu nghiệp vụ để hệ thống tự động sinh ra tệp cấu hình SKILL.md, giúp tích hợp mượt mà các quy trình xử lý dữ liệu phức tạp như phân tích biên bản họp.",
-        "Giải pháp này mang lại giá trị thực tiễn cao cho cộng đồng kỹ sư phần mềm, giúp tiết kiệm đáng kể thời gian thiết lập thủ công và nâng cao hiệu suất làm việc khi áp dụng trí tuệ nhân tạo vào dự án thực tế."
-      ],
-      "summary_en": [
-        "The article introduces a method to optimize programming experiences with the Claude Code assistant using the specialized skill-creator tool, enabling developers to automate repetitive tasks quickly.",
-        "The operational mechanism relies on visually describing business requirements so the system automatically generates the SKILL.md configuration file, seamlessly integrating complex data processing workflows.",
-        "This solution delivers high practical value to the software engineering community, significantly saving manual setup time and boosting productivity when applying artificial intelligence to real-world projects."
-      ],
-      "originalTitle": "Tạo skill cho Claude Code bằng skill-creator: thử thật với biên bản họp",
-      "url": "https://viblo.asia/p/tao-skill-cho-claude-code-bang-skill-creator-thu-that-voi-bien-ban-hop-XRJ8RWYNVGq",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Claude Code",
-        "AI",
-        "Automation",
-        "Developer Tools",
-        "Productivity"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T17:00:35.000Z",
-      "contentSnippet": "Cách nhanh nhất để có một skill riêng cho Claude là nhờ chính Claude viết, bằng skill skill-creator: bạn mô tả việc, Claude viết SKILL.md, từ phiên sa...",
-      "authorName": "Dùng Gì",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "3fcbdb0ebb6d7b0a",
-      "title_vi": "Cảnh báo từ Anthropic về mô hình trí tuệ nhân tạo tự nhân bản tạo ra mối lo ngại lớn về an ninh mạng",
-      "title_en": "Anthropic's self-replicating AI warning is an alarming deja vu",
-      "summary_vi": [
-        "Hãng công nghệ Anthropic vừa đưa ra cảnh báo rằng các mô hình trí tuệ nhân tạo nhỏ gọn có khả năng tự nhân bản đang cận kề, tạo ra những nguy cơ tiềm ẩn khó lường khi chúng tự động lan truyền qua các thiết bị thông minh.",
-        "Cơ chế hoạt động của các sâu máy tính tích hợp trí tuệ nhân tạo này cho phép chúng xâm nhập từ thiết bị gia dụng này sang thiết bị khác, trở thành vật chủ vô tình và cực kỳ khó kiểm soát trong môi trường mạng internet toàn cầu.",
-        "Sự kiện này đặt ra thách thức lớn cho các kỹ sư an ninh mạng trong việc thiết kế các cơ chế phòng thủ mới, yêu cầu siết chặt kiểm soát phần mềm và thuật toán để ngăn chặn thảm họa lan truyền mã độc tự trị."
-      ],
-      "summary_en": [
-        "Technology company Anthropic recently warned that lightweight artificial intelligence models capable of self-replication are approaching, creating unpredictable potential hazards as they automatically spread across various smart devices.",
-        "The operational mechanism of these AI-integrated computer worms allows them to infiltrate from one household appliance to another, acting as unwitting hosts that prove remarkably difficult to contain within the global internet ecosystem.",
-        "This event poses significant challenges for cybersecurity engineers in designing novel defense mechanisms, demanding stricter control over software and algorithms to prevent autonomous malware propagation disasters."
-      ],
-      "originalTitle": "Anthropic’s self-replicating AI warning is an alarming deja vu",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1011108/anthropic-self-replicating-ai-smart-devices-risk",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Cybersecurity",
-        "Artificial Intelligence",
-        "Malware",
-        "Anthropic"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T15:19:02.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/akrales_220309_4977_0232-1.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Are legions of smart devices - fridges, ovens, vacuum cleaners, lawnmowers, security cameras, and TVs - conspiring to take over the internet? No. But they could soon be unwitting hosts to self-replicating AI models that spread from device to device and prove remarkably difficult to contain. Welcome ",
-      "authorName": "Robert Hart",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f646aef71abc7abc",
-      "title_vi": "Trung tâm điều khiển thông minh chưa hỗ trợ nguyên bản các ứng dụng video ngay cả của hãng",
-      "title_en": "HomeView doesn’t natively support any video apps yet — not even Apple’s",
-      "summary_vi": [
-        "Thiết bị trung tâm điều khiển thông minh mới ra mắt của hãng công nghệ lớn quảng bá khả năng giải trí đa phương tiện phong phú nhưng lại thiếu đi sự hỗ trợ kết nối trực tiếp từ phần cứng.",
-        "Các dịch vụ giải trí trực tuyến phổ biến và sách nói không thể hoạt động độc lập trên thiết bị mà bắt buộc phải thông qua kết nối truyền phát từ điện thoại cá nhân của người dùng.",
-        "Hạn chế này đặt sản phẩm vào thế bất lợi lớn khi các đối thủ cạnh tranh trực tiếp trên thị trường đã tích hợp sẵn khả năng phát video trực tuyến mà không cần phụ thuộc vào thiết bị di động."
-      ],
-      "summary_en": [
-        "The newly released smart home hub marketed extensive multimedia entertainment features but currently lacks direct hardware-level support for native application streaming.",
-        "Popular streaming services and audiobooks cannot operate independently on the device and strictly require casting connections routed through the user's personal smartphone.",
-        "This hardware limitation puts the product at a significant competitive disadvantage since major market rivals already integrate built-in video streaming without relying on mobile devices."
-      ],
-      "originalTitle": "HomeView doesn’t natively support any video apps yet — not even Apple’s",
-      "url": "https://www.theverge.com/tech/1011062/apple-homeview-airplay-apps-streaming",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "Smart Home",
-        "Hardware",
-        "Apple TV",
-        "Streaming",
-        "IoT"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T15:10:12.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Apple-HomeView-Apple-TV.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Apple’s HomeView marketing calls out audiobooks, TV shows, and says you can “keep an eye on the match while you do the washing up,” but shys away about these features needing an iPhone connection. | Image: Apple Apple says HomeView is \"the perfect way\" to enjoy its audio and video entertainment apps",
-      "authorName": "Jess Weatherbed",
       "upvotes": 0,
       "commentsCount": 0
     }
