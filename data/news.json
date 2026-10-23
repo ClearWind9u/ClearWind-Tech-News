@@ -1,7 +1,344 @@
 {
-  "lastUpdated": "2026-10-22T21:02:22.234Z",
+  "lastUpdated": "2026-10-23T02:42:15.088Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "ca878d174d0dd80c",
+      "title_vi": "Tấn công thực thi mã trong chuỗi cung ứng AI/ML: Khi tải model là chạy mã độc",
+      "title_en": "Code Execution Attacks in AI/ML Supply Chains: When Loading Models Means Executing Malware",
+      "summary_vi": [
+        "Bài viết mở đầu chuỗi series nghiên cứu chuyên sâu về các cuộc tấn công chuỗi cung ứng nhắm trực tiếp vào hệ thống trí tuệ nhân tạo và học máy dưới lăng kính của đội ngũ tấn công chuyên nghiệp.",
+        "Nội dung tập trung phân tích lỗ hổng cơ chế serialization trong các định dạng mô hình phổ biến, cho phép kẻ gian chèn mã độc thực thi ngay trong quá trình người dùng tải và khởi tạo model.",
+        "Kiến thức này mang lại giá trị cảnh báo quan trọng giúp các kỹ sư bảo mật và nhà phát triển xây dựng cơ chế kiểm soát an toàn nghiêm ngặt hơn khi tích hợp các mô hình AI bên thứ ba."
+      ],
+      "summary_en": [
+        "This article initiates a comprehensive research series on supply chain attacks targeting artificial intelligence and machine learning systems from an offensive security red team perspective.",
+        "The analysis focuses on serialization vulnerabilities within popular machine model formats, enabling malicious actors to embed and execute arbitrary code during the model loading and initialization process.",
+        "This insight serves as a critical warning, helping security engineers and developers implement stringent safety controls when integrating third-party AI models into production environments."
+      ],
+      "originalTitle": "Tấn Công Thực Thi Mã Trong Chuỗi Cung Ứng AI/ML: Khi Tải Model Là Chạy Mã Độc",
+      "url": "https://viblo.asia/p/tan-cong-thuc-thi-ma-trong-chuoi-cung-ung-aiml-khi-tai-model-la-chay-ma-doc-bA468o5lLKv",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Cybersecurity",
+        "Supply Chain Attack",
+        "Malware"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-23T09:41:41.000Z",
+      "contentSnippet": "*Đây là bài đầu tiên trong series Supply Chain Attack nhằm vào hệ thống AI/ML. Series này được viết theo góc nhìn của red team, không phải để phổ biến...",
+      "authorName": "fatfish",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "54eda0a9988ff361",
+      "title_vi": "Bài học Trino SQL 24: Điều kiện kết nối bảng phức tạp và Non-Equi JOIN",
+      "title_en": "Trino SQL Lesson 24: Complex JOIN Conditions and Non-Equi JOIN",
+      "summary_vi": [
+        "Bài viết hướng dẫn lập trình viên thoát khỏi tư duy chỉ sử dụng dấu bằng trong các câu lệnh kết nối bảng dữ liệu lớn.",
+        "Nội dung tập trung ứng dụng phương pháp Non-Equi JOIN để giải quyết hiệu quả các bài toán phân dải dữ liệu phức tạp trong hệ thống.",
+        "Kiến thức này giúp tối ưu hóa hiệu suất truy vấn dữ liệu lớn, nâng cao kỹ năng viết câu lệnh SQL nâng cao cho kỹ sư dữ liệu."
+      ],
+      "summary_en": [
+        "The article guides developers to move beyond the mindset of only using equality operators in large-scale database table join operations.",
+        "The content focuses on applying Non-Equi JOIN methods to effectively solve complex data resolution problems within modern data systems.",
+        "This knowledge helps optimize big data query performance and enhances advanced SQL query writing skills for professional data engineers."
+      ],
+      "originalTitle": "Trino SQL Bài học 24: Điều kiện JOIN phức tạp và Non-Equi JOIN",
+      "url": "https://viblo.asia/p/trino-sql-bai-hoc-24-dieu-kien-join-phuc-tap-va-non-equi-join-37LdeROmVov",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Trino",
+        "SQL",
+        "Database",
+        "Data Engineering",
+        "JOIN"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T07:18:46.000Z",
+      "contentSnippet": "Mục tiêu bài học: - Thoát khỏi tư duy chỉ dùng dấu bằng (=) khi kết nối các bảng. - Ứng dụng Non-Equi JOIN để giải quyết bài toán phân dải dữ li...",
+      "authorName": "Nguyễn Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f3afc2b2ab41be49",
+      "title_vi": "Trino SQL Bài học 23: Tích đề các và tự kết nối dữ liệu",
+      "title_en": "Trino SQL Lesson 23: Cartesian Product and Self Join",
+      "summary_vi": [
+        "Bài học tập trung phân tích bản chất toán học của phép nhân tập hợp sinh ra từ câu lệnh kết nối chéo trong hệ thống truy vấn dữ liệu lớn.",
+        "Kỹ sư hướng dẫn cách nhận diện cạm bẫy bùng nổ dữ liệu nguy hiểm và phương pháp tối ưu hóa hiệu năng khi thực hiện tự kết nối bảng.",
+        "Kiến thức này giúp lập trình viên viết câu lệnh truy vấn tối ưu hơn, tránh làm sập hệ thống phân tích dữ liệu doanh nghiệp."
+      ],
+      "summary_en": [
+        "This lesson focuses on analyzing the mathematical nature of set multiplication generated by cross join operations in big data query systems.",
+        "Engineers are guided on how to identify dangerous data explosion pitfalls and optimize query performance when executing table self joins.",
+        "This knowledge helps developers write more efficient queries, preventing system crashes during large-scale enterprise data analysis."
+      ],
+      "originalTitle": "Trino SQL Bài học 23: Tích đề các (CROSS JOIN) và tự kết nối (Self Join)",
+      "url": "https://viblo.asia/p/trino-sql-bai-hoc-23-tich-de-cac-cross-join-va-tu-ket-noi-self-join-kY4gDNvkJAe",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Trino",
+        "SQL",
+        "Database",
+        "Big Data",
+        "Query Optimization"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-23T07:18:38.000Z",
+      "contentSnippet": "Mục tiêu bài học: - Hiểu bản chất toán học của phép nhân tập hợp (Cartesian Product) sinh ra từ CROSS JOIN. - Nhận diện cạm bẫy bùng nổ dữ liệu ...",
+      "authorName": "Nguyễn Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f007212924b715bd",
+      "title_vi": "Trino SQL Bài học 22: Kết nối dữ liệu giữ lại bảng gốc: LEFT, RIGHT và FULL OUTER JOIN",
+      "title_en": "Trino SQL Lesson 22: Preserving Original Tables Data with LEFT, RIGHT, and FULL OUTER JOIN",
+      "summary_vi": [
+        "Bài học tiếp theo trong chuỗi chuyên đề về Trino SQL tập trung phân tích sự khác biệt cốt lõi giữa phép nối chặt chẽ INNER và các phép nối lỏng lẻo OUTER.",
+        "Học viên được hướng dẫn chi tiết cách thức vận hành và cấu trúc câu lệnh của LEFT JOIN, RIGHT JOIN cùng FULL OUTER JOIN để truy vấn dữ liệu hiệu quả.",
+        "Kiến thức này giúp lập trình viên và kỹ sư dữ liệu xử lý chính xác các tập dữ liệu phức tạp mà không làm mất đi thông tin quan trọng từ bảng gốc."
+      ],
+      "summary_en": [
+        "This installment in the Trino SQL tutorial series thoroughly analyzes the fundamental differences between strict INNER joins and flexible OUTER join operations.",
+        "Learners receive detailed guidance on the execution mechanisms and syntax structures of LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN for efficient data querying.",
+        "This knowledge empowers developers and data engineers to accurately process complex datasets without losing critical information originating from the source tables."
+      ],
+      "originalTitle": "Trino SQL Bài học 22: Kết nối dữ liệu giữ lại bảng gốc: LEFT, RIGHT và FULL OUTER JOIN",
+      "url": "https://viblo.asia/p/trino-sql-bai-hoc-22-ket-noi-du-lieu-giu-lai-bang-goc-left-right-va-full-outer-join-gjLN0ZY7432",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Trino",
+        "SQL",
+        "Database",
+        "Data Engineering"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T07:18:31.000Z",
+      "contentSnippet": "Mục tiêu bài học: - Hiểu rõ sự khác biệt giữa phép nối chặt chẽ (INNER) và phép nối lỏng lẻo (OUTER). - Nắm vững cách sử dụng LEFT JOIN để truy ...",
+      "authorName": "Nguyễn Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a19ca3e8a32557c8",
+      "title_vi": "Khám phá lớp màn hình gương phía dưới miếng dán mờ trên dòng điện thoại iPhone Duo",
+      "title_en": "Discovery of the glossy screen beneath the matte screen protector on iPhone Duo devices",
+      "summary_vi": [
+        "Sự kiện người dùng tiến hành bóc lớp miếng dán màn hình mờ trên thiết bị iPhone Duo để lộ ra tấm nền màn hình gương sáng bóng gây ra nhiều sự chú ý trong cộng đồng công nghệ di động.",
+        "Chi tiết kỹ thuật liên quan đến lớp phủ bề mặt hiển thị cho thấy sự khác biệt giữa lớp phủ chống lóa mờ truyền thống và bề mặt gương phản chiếu nguyên bản được nhà sản xuất tích hợp sẵn.",
+        "Hiện tượng này mang lại góc nhìn thú vị về cách người dùng cá nhân hóa thiết bị phần cứng di động thông qua các phụ kiện dán màn hình nhằm thay đổi trải nghiệm thị giác thực tế."
+      ],
+      "summary_en": [
+        "The community of mobile technology enthusiasts is discussing the discovery where removing a matte screen protector from the iPhone Duo reveals a glossy screen underneath.",
+        "Technical details regarding display surface treatments highlight the contrast between traditional anti-glare matte coatings and the original reflective glossy glass integrated by the manufacturer.",
+        "This phenomenon provides an interesting perspective on how mobile hardware users customize their physical devices using screen accessories to alter their daily visual experience."
+      ],
+      "originalTitle": "Đã có người lột miếng dán mờ iPhone Duo ra thì phía dưới là màn hình gương",
+      "url": "https://tinhte.vn/thread/da-co-nguoi-lot-mieng-dan-mo-iphone-duo-ra-thi-phia-duoi-la-man-hinh-guong.4186226/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone",
+        "Mobile Hardware",
+        "Screen Protector",
+        "Display"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-23T02:33:32.000Z",
+      "contentSnippet": "Đã có người lột miếng dán mờ iPhone Duo ra thì phía dưới là màn hình gương :smiley: Hồi trước mình cũng lột miếng dán Android hoài",
+      "authorName": "cuhiep",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9cb4cb42a78937a5",
+      "title_vi": "Doanh số dòng điện thoại gập Galaxy Z Fold tại châu Âu tăng trưởng mạnh mẽ cùng lượng tìm kiếm vượt trội trong tuần ra mắt sản phẩm cạnh tranh",
+      "title_en": "Galaxy Z Fold Sales Surge in Europe Alongside Massive Search Interest Spike During Competitor Smartphone Launch Week",
+      "summary_vi": [
+        "Samsung vừa công bố kết quả kinh doanh ấn tượng của bộ đôi thiết bị di động màn hình gập mới tại thị trường châu Âu với mức tăng trưởng doanh số đáng chú ý trong tuần qua.",
+        "Sự kiện ra mắt sản phẩm từ đối thủ cạnh tranh trực tiếp dường như đã tạo ra hiệu ứng ngược, thúc đẩy lượng người dùng tìm kiếm thông tin về dòng máy gập tăng vọt lên mức bốn trăm sáu mươi phần trăm.",
+        "Sự quan tâm gia tăng mạnh mẽ từ thị trường cho thấy tiềm năng phát triển lớn của phân khúc thiết bị di động màn hình gập, định hình lại xu hướng công nghệ phần cứng trong tương lai gần."
+      ],
+      "summary_en": [
+        "Samsung recently announced impressive sales performance for its latest foldable mobile device lineup in the European market with significant growth numbers achieved over the past week.",
+        "The product launch event from a direct competitor inadvertently triggered a massive reverse effect, driving user search interest for foldable smartphones to surge by four hundred and sixty percent.",
+        "This sharp increase in market attention highlights the strong growth potential of the foldable mobile device segment, reshaping future hardware technology trends in the industry."
+      ],
+      "originalTitle": "Galaxy Z Fold8 bán tăng 45% ở châu Âu, tìm kiếm máy gập Samsung vọt 460% đúng tuần iPhone Duo ra mắt",
+      "url": "https://tinhte.vn/thread/galaxy-z-fold8-ban-tang-45-o-chau-au-tim-kiem-may-gap-samsung-vot-460-dung-tuan-iphone-duo-ra-mat.4186242/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Samsung",
+        "Galaxy Z Fold",
+        "Mobile",
+        "Hardware",
+        "Smartphones"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T02:29:26.000Z",
+      "contentSnippet": "Galaxy Z Fold8 bán tăng 45% ở châu Âu, tìm kiếm máy gập Samsung vọt 460% đúng tuần iPhone Duo ra mắt Samsung vừa công bố bộ đôi Galaxy Z Fold8 và Galaxy Z Fold8 Ultra có doanh số tại châu Âu tăng...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "2cedcbabe63acac9",
+      "title_vi": "Điện thoại gập iPhone Duo bắt đầu mở bán toàn cầu",
+      "title_en": "Apple's first foldable iPhone Duo officially launches globally starting with Oceania markets",
+      "summary_vi": [
+        "Mẫu điện thoại thông minh màn hình gập đầu tiên của Apple chính thức được phân phối đến tay người dùng tại thị trường Australia và New Zealand vào ngày 23 tháng 10.",
+        "Thiết bị tích hợp các công nghệ phần cứng di động tiên tiến nhất của hãng, tối ưu hóa giao diện hệ điều hành và độ bền của bản lề màn hình linh hoạt.",
+        "Sự kiện này đánh dấu bước chuyển mình quan trọng của tập đoàn trong phân khúc thiết bị di động cao cấp, tạo áp lực lớn lên các đối thủ cạnh tranh lớn trên thị trường."
+      ],
+      "summary_en": [
+        "Apple's first foldable smartphone officially reached early consumers in Australia and New Zealand markets starting on October 23 as part of its phased global rollout.",
+        "The device integrates advanced mobile hardware engineering, featuring a customized operating system interface optimized for flexible display architecture and mechanical durability.",
+        "This milestone marks a significant strategic shift for the corporation into the foldable mobile segment, intensifying competition among major global technology manufacturers."
+      ],
+      "originalTitle": "iPhone Duo bắt đầu mở bán toàn cầu",
+      "url": "https://vnexpress.net/iphone-duo-bat-dau-mo-ban-toan-cau-5135827.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "FoldablePhone",
+        "iOS",
+        "MobileHardware"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T00:28:33.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/23/2026t212609z-rc2l8oazb3vh-rtrm-6736-1453-1792715220.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=sFwxN1TRmZNur6B63LliyA",
+      "contentSnippet": "Mẫu iPhone gập đầu tiên của Apple bắt đầu đến tay người dùng tại Australia và New Zealand ngày 23/10, trước khi lần lượt lên kệ ở thị trường châu Á, châu Âu và Bắc Mỹ.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0ba8d61a8acf1ca8",
+      "title_vi": "Anthropic giới thiệu Claude Duet: Trợ lý trí tuệ nhân tạo chủ động dành cho dân văn phòng",
+      "title_en": "Anthropic Unveils Claude Duet: Proactive AI Agent Designed for Office Productivity",
+      "summary_vi": [
+        "Anthropic chính thức ra mắt bản thử nghiệm nghiên cứu của Claude Duet, một ứng dụng chuyên biệt nơi trợ lý ảo hoạt động một cách chủ động để hỗ trợ người dùng tối ưu hóa hiệu suất làm việc hàng ngày.",
+        "Thay vì chỉ phản hồi các câu lệnh truyền thống, hệ thống này tự động theo dõi hoạt động trên các ứng dụng đã được kết nối nhằm cung cấp giải pháp và thực hiện tác vụ một cách thông minh.",
+        "Sự kiện này đánh dấu bước tiến quan trọng trong việc phát triển các dòng sản phẩm AI agent tự trị, tạo ra sức ép cạnh tranh mạnh mẽ đối với các đối thủ lớn khác trên thị trường công nghệ."
+      ],
+      "summary_en": [
+        "Anthropic has officially launched a research preview of Claude Duet, a dedicated application where the AI assistant operates proactively to help users optimize their daily workflow and efficiency.",
+        "Instead of merely responding to traditional prompts, the system autonomously monitors activities across connected applications to provide intelligent solutions and execute tasks seamlessly.",
+        "This milestone marks a significant leap in the development of autonomous AI agent products, generating fierce competitive pressure against other major market rivals in the technology sector."
+      ],
+      "originalTitle": "Anthropic ra mắt Claude Duet: AI agent chủ động cho dân văn phòng, cạnh tranh Muse và Dots",
+      "url": "https://tinhte.vn/thread/anthropic-ra-mat-claude-duet-ai-agent-chu-dong-cho-dan-van-phong-canh-tranh-muse-va-dots.4186233/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Anthropic",
+        "Claude Duet",
+        "AI Agent",
+        "Artificial Intelligence"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T00:21:48.000Z",
+      "contentSnippet": "Anthropic vừa mở bản thử nghiệm (research preview) Claude Duet, một ứng dụng riêng nơi Claude hoạt động như một agent chủ động. Thay vì chờ người dùng ra lệnh, Duet tự theo dõi các ứng dụng đã kết...",
+      "authorName": "osx",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "89dfa46391845bd4",
+      "title_vi": "Sàn thương mại điện tử Etsy thắt chặt quy định kiểm soát nội dung do trí tuệ nhân tạo tạo ra",
+      "title_en": "Etsy is cracking down on AI slop listings with stricter photo and content rules",
+      "summary_vi": [
+        "Sàn giao dịch trực tuyến Etsy vừa ban hành các quy định nghiêm ngặt nhằm hạn chế tình trạng tràn lan sản phẩm kém chất lượng do trí tuệ nhân tạo tạo ra trên nền tảng của họ.",
+        "Theo chính sách mới, mỗi danh mục sản phẩm bắt buộc phải có ít nhất một bức ảnh chụp thực tế không qua chỉnh sửa trên nền tảng thật để đảm bảo tính minh bạch tuyệt đối cho người mua.",
+        "Động thái này phản ánh xu hướng siết chặt quản lý dữ liệu và hình ảnh do AI tạo ra trong các hệ thống thương mại điện tử lớn, nhằm bảo vệ uy tín người bán chân chính."
+      ],
+      "summary_en": [
+        "The online marketplace Etsy has just issued strict regulations to limit the proliferation of low-quality AI-generated products flooding its platform recently.",
+        "Under the new policy, every product listing must feature at least one unedited real photo of the actual item against a real background to ensure absolute transparency.",
+        "This move reflects the growing trend of tightening control over AI-generated content within major e-commerce systems to protect legitimate sellers and buyers."
+      ],
+      "originalTitle": "Etsy is cracking down on AI slop listings",
+      "url": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "E-commerce",
+        "Generative AI",
+        "Content Moderation"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T00:09:58.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-22-at-5.03.44-PM.png?quality=90&strip=all&crop=0,0,100,82.725656291205",
+      "contentSnippet": "Etsy is announcing stricter rules about how AI can be used in listings to reduce the volume of AI slop on the platform. In a post, the company says that \"many active buyers say they can't tell which items involve AI-generated content\" and that sellers are \"concerned about your work appearing alongsi",
+      "authorName": "Jay Peters",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "eaf6e95c99cc4135",
+      "title_vi": "Docker thực sự hoạt động kỳ lạ như thế nào dưới lăng kính kỹ thuật",
+      "title_en": "How Docker Actually Works in a Weird Way Through a Technical Lens",
+      "summary_vi": [
+        "Một lập trình viên quyết định tự xây dựng bộ thực thi vùng chứa riêng và khám phá ra nhiều cơ chế hoạt động kỳ lạ của Docker dưới lớp vỏ bọc tiến trình hệ điều hành.",
+        "Các vùng chứa thực chất không phải là một tính năng đơn lẻ của nhân Linux mà là sự kết hợp của nhiều thành phần như namespaces, cgroups và kỹ thuật thay đổi thư mục gốc.",
+        "Công cụ thực thi vùng chứa chạy bằng ngôn ngữ Go gặp phải nhiều thách thức kiến trúc do tính chất đa luồng mặc định và hạn chế của các lệnh gọi hệ thống."
+      ],
+      "summary_en": [
+        "A developer decided to build their own container runtime from scratch and uncovered several surprising operational mechanisms of Docker beneath standard operating system processes.",
+        "Containers are not a single standalone Linux kernel feature but rather a combination of multiple subsystems including namespaces, cgroups, and root directory pivoting techniques.",
+        "The Go-based container runtime encounters architectural challenges due to its default multi-threaded nature and the strict limitations imposed by underlying low-level system calls."
+      ],
+      "originalTitle": "Docker is weird",
+      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "Docker",
+        "Linux",
+        "Containers",
+        "DevOps",
+        "Go"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T23:45:56.000Z",
+      "contentSnippet": "I decided to make my own container runtime for fun, and even though I’m still early on, I’ve learned that Docker is weird. Here’s some weird things I learned about Docker. Unlike VMs, containers are just processes with special restrictions on them. Your kernel is still running that process! And if y",
+      "authorName": "psxuaw",
+      "upvotes": 159,
+      "commentsCount": 68
+    },
     {
       "id": "e40545822581820e",
       "title_vi": "CVE hạt nhân đang rò rỉ nhanh hơn bản vá của bạn: Chiến lược khởi động lại và cập nhật hạt nhân thực tế cho máy chủ Linux",
@@ -30,6 +367,110 @@
       "publishedAt": "2026-10-22T23:37:20.000Z",
       "contentSnippet": "",
       "authorName": "EME GUG",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f6a301346a05e615",
+      "title_vi": "Mô hình ngôn ngữ lớn giúp kiểm định hình thức phần mềm trở nên khả thi ở quy mô lớn",
+      "title_en": "LLMs are making formal software verification feasible at a much larger scale",
+      "summary_vi": [
+        "Phần mềm hiện đại thường tồn tại nhiều lỗi nghiêm trọng mà các phương pháp kiểm tra truyền thống không còn đủ sức đối phó trong bối cảnh các cuộc tấn công mạng ngày càng gia tăng.",
+        "Sự hợp tác giữa các chuyên gia đã chứng minh rằng việc sử dụng các mô hình ngôn ngữ lớn để tạo ra các chứng minh hình thức ở cấp độ mã hợp ngữ RISC-V cho hơn một trăm thư viện nguồn mở.",
+        "Bước đột phá này không chỉ giúp phát hiện các lỗi ẩn giấu lâu năm mà còn mở ra quy trình phát triển phần mềm an toàn hơn, biến kiểm định hình thức thành công cụ thiết yếu."
+      ],
+      "summary_en": [
+        "Modern software often contains critical bugs that traditional testing methods can no longer handle effectively as cybersecurity attacks become increasingly sophisticated and prevalent today.",
+        "A recent collaboration demonstrated that large language models can successfully generate formal proofs at the RISC-V assembly level across more than one hundred open-source software libraries.",
+        "This breakthrough not only uncovers long-hidden vulnerabilities but also establishes a secure software development workflow, making formal verification an essential practice for engineers moving forward."
+      ],
+      "originalTitle": "LLMs are making formal software verification feasible at a much larger scale",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "LLM",
+        "Software Verification",
+        "Cybersecurity",
+        "Assembly",
+        "Open Source"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T22:54:43.000Z",
+      "contentSnippet": "Skip to main contentChapter 01: IntroductionKeane Lucas, Aengus Lynch, Luna Tong, Luke Champine, Zygi Straznickas, Dino Distefano, Harshikaa AgrawalEvyatar Ben Asher, Ava Howell, Sami Jawhar, Chris Rohlf, Nickolai ZeldovichNicholas Carlini, Rajashree Agrawal, Jason Gross Most software is riddled wit",
+      "authorName": "johnbender",
+      "upvotes": 140,
+      "commentsCount": 70
+    },
+    {
+      "id": "5eee804247a435ab",
+      "title_vi": "Canva ra mắt mô hình AI tạo ảnh mới với khả năng lập kế hoạch thiết kế trước khi xuất bản",
+      "title_en": "Canva’s first AI image model plans designs before generating them",
+      "summary_vi": [
+        "Canva vừa chính thức giới thiệu mô hình trí tuệ nhân tạo mới mang tên Canva Craft, đánh dấu bước tiến quan trọng trong việc cạnh tranh trực tiếp với các ông lớn công nghệ như OpenAI, Microsoft và Google trong lĩnh vực tạo ảnh bằng AI.",
+        "Mô hình này ứng dụng kiến trúc hai giai đoạn đột phá, cho phép hệ thống lập kế hoạch chi tiết cho bố cục thiết kế trước khi thực hiện tạo ảnh, giúp tăng cường độ chính xác, tính nhất quán và khả năng kiểm soát hình ảnh đầu ra.",
+        "Công nghệ này hỗ trợ độ phân giải lên tới 2K với hơn 30 tỷ lệ khung hình khác nhau, mang lại giải pháp tối ưu cho người dùng trong việc tạo nội dung tiếp thị, nghệ thuật kỹ thuật số và các cảnh quan thực tế phức tạp."
+      ],
+      "summary_en": [
+        "Canva has officially introduced its new artificial intelligence model named Canva Craft, marking a significant step in competing directly with major tech giants like OpenAI, Microsoft, and Google in the field of AI-powered image generation.",
+        "The model utilizes a breakthrough two-stage architecture, allowing the system to plan detailed design layouts before executing image generation, which significantly enhances precision, consistency, and overall control over the final visual output.",
+        "This technology supports resolutions up to 2K with over 30 aspect ratios, providing an optimized solution for users to create marketing content, digital art, and complex realistic scenes with greater efficiency and creative flexibility."
+      ],
+      "originalTitle": "Canva’s first AI image model plans designs before generating them",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Generative AI",
+        "Canva",
+        "Machine Learning",
+        "Design Tech"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T21:51:25.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/04-CRAFT-COLLAGE.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precis",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c2e4b9e500abf8ef",
+      "title_vi": "Lượng máy tính cá nhân xuất xưởng giảm hơn 20 phần trăm do giá linh kiện bộ nhớ tăng cao",
+      "title_en": "PC shipments dropped over 20 percent in Q3 due to RAM price hikes",
+      "summary_vi": [
+        "Thị trường máy tính cá nhân toàn cầu ghi nhận mức sụt giảm nghiêm trọng 21 phần trăm trong quý 3 năm 2026, chấm dứt chuỗi tăng trưởng liên tục kéo dài hơn hai năm qua theo báo cáo từ Counterpoint Research.",
+        "Nguyên nhân chính dẫn đến sự suy giảm này là do chi phí linh kiện phần cứng như bộ nhớ RAM, ổ cứng SSD và các dòng vi xử lý từ Intel, AMD, Qualcomm đồng loạt tăng giá mạnh trong thời gian gần đây.",
+        "Việc tăng giá linh kiện không chỉ ảnh hưởng đến giá thành sản phẩm cuối cùng như máy tính xách tay mà còn tác động tiêu cực đến nhu cầu tiêu dùng, khiến doanh số thiết bị công nghệ chạm mức thấp kỷ lục."
+      ],
+      "summary_en": [
+        "The global personal computer market experienced a significant 21 percent decline in shipments during the third quarter of 2026, ending a two-year period of consecutive growth according to data from Counterpoint Research.",
+        "The primary driver behind this downturn is the rising cost of essential hardware components including RAM modules, SSD storage, and processors from major manufacturers like Intel, AMD, and Qualcomm throughout recent months.",
+        "These component price hikes have directly inflated the retail cost of consumer electronics, leading to reduced demand and causing shipment volumes for both PCs and smartphones to hit multi-year lows globally."
+      ],
+      "originalTitle": "PC shipments dropped over 20 percent in Q3 due to RAM price hikes",
+      "url": "https://www.theverge.com/gadgets/1017144/global-pc-shipments-dropped-q3-2026-ram",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Hardware",
+        "Semiconductor",
+        "PC",
+        "SupplyChain",
+        "MarketTrends"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T21:30:39.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STKS523_RAM_SHORTAGE_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Demand for new PCs took a hit after months of price hikes, with Counterpoint Research reporting global PC shipments fell 21 percent year-over-year in Q3 2026. That's in line with earlier reports from IDC and Omdia. It's not just PCs, either - that same quarter, smartphone shipments also hit a 14-yea",
+      "authorName": "Stevie Bonifield",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8040,458 +8481,6 @@
       "authorName": "Jess Weatherbed",
       "upvotes": 0,
       "commentsCount": 0
-    },
-    {
-      "id": "4065079c6276bb54",
-      "title_vi": "Trí tuệ nhân tạo lần đầu tái tạo giọng nói tại Thượng viện Anh cho nữ nghị sĩ khuyết tật",
-      "title_en": "Artificial Intelligence Recreates Voice in British Parliament for Disabled Baroness for the First Time",
-      "summary_vi": [
-        "Nữ nghị sĩ Jane Campbell, người lâu nay phải nhờ trợ lý đọc hộ các bài phát biểu do tình trạng bệnh lý hiểm nghèo, đã chính thức sử dụng công nghệ trí tuệ nhân tạo để tự mình phát biểu trực tiếp tại Thượng viện Anh.",
-        "Hệ thống giọng nói nhân tạo này được huấn luyện chuyên sâu bằng các đoạn ghi âm cũ kết hợp thuật toán học sâu tiên tiến để tái tạo chính xác âm sắc, nhịp điệu và ngữ điệu tự nhiên giống hệt chủ nhân.",
-        "Ứng dụng này minh chứng cho giá trị thực tiễn to lớn của công nghệ tổng hợp giọng nói trong việc phá vỡ rào cản giao tiếp, mở ra kỷ nguyên mới cho khả năng tiếp cận công nghệ hỗ trợ người khuyết tật trên toàn cầu."
-      ],
-      "summary_en": [
-        "Baroness Jane Campbell, who previously relied on assistants to read her speeches due to severe illness, has successfully used artificial intelligence voice cloning technology to deliver her address directly in the British House of Lords.",
-        "The advanced text-to-speech system was deeply trained using legacy audio recordings combined with modern deep learning algorithms to accurately replicate the natural pitch, rhythm, and distinct vocal intonation of the speaker.",
-        "This groundbreaking application demonstrates the profound practical value of generative voice technology in breaking down communication barriers, heralding a new era for assistive accessibility solutions empowering disabled individuals globally."
-      ],
-      "originalTitle": "AI lần đầu thay giọng người thật phát biểu tại Thượng viện Anh",
-      "url": "https://tuoitre.vn/ai-lan-dau-thay-giong-nguoi-that-phat-bieu-tai-thuong-vien-anh-100261014142625701.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Voice Cloning",
-        "Deep Learning",
-        "Assistive Technology",
-        "Speech Synthesis"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T15:05:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/14/ai-1791965896285662393523-0-22-800-1302-crop-1791965910305662308693.jpg",
-      "contentSnippet": "Nữ nghị sĩ Jane Campbell, người nhiều năm phải nhờ trợ lý đọc bài phát biểu vì bệnh tật, đã dùng AI tái tạo giọng nói của mình để phát biểu tại Thượng viện Anh.",
-      "authorName": "THANH HIỆP⭐",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ab522ee08c4dc870",
-      "title_vi": "Trí tuệ nhân tạo khiến giới toán học chấn động: Liệu con người có còn theo kịp tốc độ của máy móc?",
-      "title_en": "Artificial Intelligence Shakes Up the Mathematical World: Can Humans Still Keep Up with Machines?",
-      "summary_vi": [
-        "Trí tuệ nhân tạo đang tạo ra các lời giải toán học với tốc độ chóng mặt, vượt xa khả năng kiểm chứng truyền thống của con người.",
-        "Các mô hình học máy tiên tiến áp dụng thuật toán tìm kiếm không gian trạng thái lớn để giải quyết các bài toán phức tạp mà không cần sự can thiệp liên tục.",
-        "Sự trỗi dậy của AI đặt ra thách thức lớn về tương lai nghiên cứu toán học, đòi hỏi giới hàn lâm phải thay đổi phương pháp tiếp cận và kiểm định tri thức."
-      ],
-      "summary_en": [
-        "Artificial intelligence is generating mathematical solutions at a staggering speed, far exceeding the traditional verification capabilities of human researchers.",
-        "Advanced machine learning models apply large state-space search algorithms to solve complex problems without requiring continuous human intervention.",
-        "The rise of AI poses major challenges to the future of mathematical research, requiring academia to adapt its approach and knowledge validation methods."
-      ],
-      "originalTitle": "Giới toán học choáng váng trước bước tiến của AI: Con người liệu còn theo kịp máy móc?",
-      "url": "https://genk.vn/gioi-toan-hoc-choang-vang-truoc-buoc-tien-cua-ai-con-nguoi-lieu-con-theo-kip-may-moc-165261014201239283.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Mathematics",
-        "Algorithms",
-        "Tech Trends"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T13:12:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/14/istock-467782423-1791983529472991763317-53-0-837-1254-crop-1791983536663946760046.jpeg",
-      "contentSnippet": "VTV.vn - Khi AI tạo ra lời giải nhanh hơn tốc độ con người kiểm chứng, giới toán học phải đối mặt với câu hỏi lớn về tương lai của ngành.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "d249d26945c2841e",
-      "title_vi": "Anthropic cảnh báo các mô hình trí tuệ nhân tạo nhỏ có khả năng tự nhân bản thông qua các thiết bị Internet vạn vật",
-      "title_en": "Anthropic warns small AI models could self-replicate through IoT devices",
-      "summary_vi": [
-        "Công ty nghiên cứu trí tuệ nhân tạo Anthropic vừa đưa ra cảnh báo quan trọng về việc các mô hình học máy trọng số nhẹ có nguy cơ tự sao chép trên hệ thống mạng.",
-        "Các chuyên gia bảo mật phân tích rằng các tác nhân tự nhân bản dựa trên trọng số này có thể mở ra một thế hệ mã độc máy tính hoàn toàn mới và nguy hiểm hơn.",
-        "Sự việc này đặt ra thách thức lớn về an toàn thông tin, yêu cầu các kỹ sư phần mềm phải siết chặt kiểm soát kiến trúc hệ thống và bảo vệ thiết bị kết nối."
-      ],
-      "summary_en": [
-        "Artificial intelligence research company Anthropic has issued a critical warning regarding lightweight weight-based machine learning models and their risk of self-replication across networks.",
-        "Security experts analyze that these weight-based self-replicating agents could usher in an entirely new and dangerous generation of advanced computer worms and malicious software.",
-        "This development poses a major cybersecurity challenge, requiring software engineers to tighten system architecture controls and secure interconnected edge devices against emerging threats."
-      ],
-      "originalTitle": "Anthropic warns small AI models could self-replicate through IoT devices",
-      "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Cybersecurity",
-        "IoT",
-        "Anthropic",
-        "Machine Learning"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T12:55:06.000Z",
-      "contentSnippet": "\"Small weight-based replicators\" could usher in a new generation of computer worms.",
-      "authorName": "\n                    Dan Goodin\n                ",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "6736ccb33d028a0d",
-      "title_vi": "Người Việt đặt mua iPhone Duo phải cọc 30 triệu đồng",
-      "title_en": "Vietnamese Customers Must Deposit 30 Million VND to Order iPhone Duo",
-      "summary_vi": [
-        "Các hệ thống bán lẻ ủy quyền tại Việt Nam chính thức thông báo mức tiền đặt cọc lên đến 30 triệu đồng cho mẫu điện thoại màn hình gập đầu tiên của Apple là iPhone Duo, cao hơn nhiều so với các dòng máy thông thường trước đây.",
-        "Mức đặt cọc kỷ lục này được nhà sản xuất áp dụng nhằm xác thực chính xác số lượng người dùng có nhu cầu mua thực tế, đồng thời hạn chế tình trạng đầu cơ thương mại và lũng đoạn nguồn cung khan hiếm trong giai đoạn mở bán đầu tiên.",
-        "Động thái này phản ánh chiến lược phân phối phần cứng khắt khe hơn của các hãng công nghệ lớn tại thị trường Việt Nam, buộc các nhà bán lẻ phải tối ưu hóa chuỗi cung ứng và quản lý trải nghiệm người dùng đối với dòng sản phẩm cao cấp."
-      ],
-      "summary_en": [
-        "Authorized retail systems in Vietnam officially announced a massive deposit requirement of 30 million VND for Apple's first foldable smartphone, the iPhone Duo, significantly higher than previous standard device pre-orders.",
-        "This record-breaking deposit level was implemented by the manufacturer to accurately verify genuine customer demand while simultaneously mitigating commercial speculation and controlling supply chain bottlenecks during the initial launch phase.",
-        "This strategic shift reflects stricter hardware distribution policies by major tech giants in the Vietnamese market, compelling retailers to optimize supply chains and manage user experience for high-end flagship products."
-      ],
-      "originalTitle": "Người Việt đặt mua iPhone Duo phải cọc 30 triệu đồng",
-      "url": "https://vnexpress.net/nguoi-viet-dat-mua-iphone-duo-phai-coc-30-trieu-dong-5132370.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone Duo",
-        "Mobile",
-        "Retail",
-        "Tech Trends"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T12:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/14/dscf0037-1791974527-8325-1791974554.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Egi0lpz5uK-cIGKcZUAicw",
-      "contentSnippet": "Người Việt khi đặt mua điện thoại gập đầu tiên của Apple là iPhone Duo sẽ phải cọc 30 triệu đồng thay vì một triệu đồng như iPhone 18 Pro series.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "2877cf70252d9b3a",
-      "title_vi": "Hình Đại Diện AI v25 (Chạy Avatar, Hình Đại Diện Voxel, Não Cơ Bắp)💪",
-      "title_en": "AI Avatar v25 (Avatar Run, Voxel Avatar, Muscle Brain)💪",
-      "summary_vi": [
-        "Có chế độ trò chơi chạy bằng đá cẩm thạch thú vị mới Avatar Run là một trò chơi kiểu chạy bằng đá cẩm thạch trong đó bạn tránh bẫy, cố gắng không rơi khỏi đường đua và đạt được mục tiêu.",
-        "Đầu tiên, tôi thêm đường chạy bằng đá cẩm thạch để làm cho AI Avatar trở nên thú vị hơn.",
-        "Nhưng chờ đã, tôi muốn làm cho nó phù hợp hơn với thế giới Avatar của AI và thay đổi viên bi thành hình đại diện."
-      ],
-      "summary_en": [
-        "Features a fun new marble-run game mode Avatar Run is a marble-run-type game where you avoid traps, try not to fall off the track, and reach the goal.",
-        "First, I added a marble run to make AI Avatar more fun.",
-        "But wait, I wanted to make it match the AI Avatar world better and change the marble to an avatar."
-      ],
-      "originalTitle": "AI Avatar v25 (Avatar Run, Voxel Avatar, Muscle Brain)💪",
-      "url": "https://dev.to/webdeveloperhyper/ai-avatar-v25-avatar-run-voxel-avatar-muscle-brain-5gi3",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "TypeScript",
-        "React",
-        "NextJS"
-      ],
-      "hotScore": 87,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-10-14T11:12:17.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqflfozyi3kyv0xfa4ijs.png",
-      "contentSnippet": "Intro AI Avatar is a free app where your VRoid (VRM) avatar cheers you with all its...",
-      "authorName": "Web Developer Hyper",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2619933%2F53ce4245-3c76-42d1-a897-337b8c1599ce.png",
-      "upvotes": 69,
-      "commentsCount": 27
-    },
-    {
-      "id": "e8762aba7cd82f89",
-      "title_vi": "Anthropic cảnh báo: AI có thể tự nhân bản vào cuối năm 2026",
-      "title_en": "Anthropic Warns AI Models Could Achieve Self-Replication by Late 2026",
-      "summary_vi": [
-        "Công ty Anthropic vừa đưa ra dự báo đáng chú ý về lộ trình phát triển của trí tuệ nhân tạo, khẳng định các mô hình ngôn ngữ lớn có khả năng đạt tới năng lực tự nhân bản mà không cần sự can thiệp trực tiếp từ con người vào cuối năm 2026.",
-        "Khả năng này dựa trên sự tiến bộ vượt bậc trong việc tự tối ưu hóa mã nguồn và khả năng thực thi các tác vụ lập trình phức tạp, cho phép hệ thống AI tự xây dựng, kiểm thử và triển khai các phiên bản nâng cấp của chính nó trên hạ tầng máy chủ.",
-        "Sự kiện này đặt ra thách thức lớn về quản trị an toàn hệ thống và đạo đức công nghệ, buộc các kỹ sư phần mềm phải sớm thiết lập những rào cản kiểm soát nghiêm ngặt để ngăn chặn các rủi ro tiềm ẩn khi AI bắt đầu tự vận hành độc lập."
-      ],
-      "summary_en": [
-        "Anthropic has released a significant forecast regarding the development trajectory of artificial intelligence, asserting that large language models could potentially achieve the capability for self-replication without direct human intervention by the end of 2026.",
-        "This capability stems from rapid advancements in automated code optimization and complex programming execution, allowing AI systems to autonomously build, test, and deploy upgraded versions of themselves across distributed server infrastructures.",
-        "This development poses major challenges for system safety governance and technical ethics, compelling software engineers to establish rigorous control barriers to prevent potential risks as AI systems begin to operate with increasing autonomy."
-      ],
-      "originalTitle": "Anthropic: Ngày AI biết tự nhân bản đã rất gần!",
-      "url": "https://tuoitre.vn/anthropic-ngay-ai-biet-tu-nhan-ban-da-rat-gan-100261014101515264.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Anthropic",
-        "Machine Learning",
-        "Automation",
-        "Cybersecurity"
-      ],
-      "hotScore": 98,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T11:01:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/14/afp202609292297777280v2highrespresidenttrumpmeetswithaiexecutivesatwhiteho-1791947170131605018865-13-0-1613-2560-crop-1791947207347103269536.jpg",
-      "contentSnippet": "Công ty Anthropic phát cảnh báo các mô hình AI có thể tiến gần đến khả năng tự nhân bản mà không cần con người can thiệp vào cuối năm 2026.",
-      "authorName": "THANH HIỆP⭐",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ab0e25782fab5b08",
-      "title_vi": "Anthropic cảnh báo AI sắp tự nhân bản và đe dọa nghiêm trọng an ninh mạng",
-      "title_en": "Anthropic Warns AI Will Soon Self-Replicate and Pose Severe Cybersecurity Risks",
-      "summary_vi": [
-        "Anthropic đưa ra cảnh báo về việc các mô hình trí tuệ nhân tạo có khả năng tự nhân bản trong thời gian tới, làm gia tăng nguy cơ mất an ninh mạng toàn cầu.",
-        "Các thử nghiệm cho thấy mô hình nhỏ gọn có thể phân tán trên thiết bị Internet vạn vật sử dụng kỹ thuật lượng tử hóa và suy luận phân tán để hoạt động.",
-        "Sự việc này đặt ra thách thức lớn về kiến trúc bảo mật cho các hệ thống nhúng và đòi hỏi nhà phát triển phải thắt chặt kiểm soát các mô hình AI tự trị."
-      ],
-      "summary_en": [
-        "Anthropic has issued a strong warning that artificial intelligence models will soon be capable of self-replication, significantly increasing global cybersecurity risks.",
-        "Experiments reveal that compact models can distribute across Internet of Things devices using quantization and distributed inference techniques to operate effectively.",
-        "This development poses major security architecture challenges for embedded systems and demands stricter controls from developers over autonomous AI models."
-      ],
-      "originalTitle": "Anthropic: AI sẽ sớm tự nhân bản, gây nguy hiểm cho an ninh mạng",
-      "url": "https://vnexpress.net/anthropic-ai-se-som-tu-nhan-ban-gay-nguy-hiem-cho-an-ninh-mang-5132024.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Cybersecurity",
-        "IoT",
-        "Machine Learning",
-        "Security"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T10:17:33.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/14/da-y-chuye-n-android-du-o-i-a-3716-8999-1791944063.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=UIiSlI6CK_o7sd9WYlbw6g",
-      "contentSnippet": "Anthropic cảnh báo mô hình AI sẽ \"sớm tự nhân bản trong vài tháng tới\" và có thể gây thiệt hại nghiêm trọng, đặc biệt về an ninh mạng.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "09bb71795c174769",
-      "title_vi": "Mật khẩu yếu '123456' bị nghi là nguyên nhân lộ dữ liệu của gần 9 triệu người dân Đan Mạch",
-      "title_en": "Weak password '123456' suspected of breaching data for nearly 9 million Danish residents",
-      "summary_vi": [
-        "Một công ty tư nhân được cấp quyền truy cập vào cơ sở dữ liệu dân cư quan trọng của Đan Mạch đã trở thành điểm yếu chí mạng dẫn đến vụ rò rỉ dữ liệu quy mô lớn ảnh hưởng trực tiếp đến hàng triệu người dùng.",
-        "Sự cố nghiêm trọng này không hề bị phát hiện bởi bất kỳ hệ thống giám sát bảo mật tự động nào, mà chỉ bị phơi bày tình cờ sau khi một hóa đơn tài chính ghi nhận số lượt tra cứu hệ thống tăng đột biến bất thường.",
-        "Vụ việc gióng lên hồi chuông cảnh tỉnh về lỗ hổng quản lý quyền truy cập danh tính, tầm quan trọng của việc bắt buộc áp dụng xác thực đa yếu tố và sự cần thiết của hệ thống phát hiện xâm nhập thời gian thực."
-      ],
-      "summary_en": [
-        "A private company granted authorized access to Denmark's critical national population database became the primary vulnerability leading to a massive data breach affecting millions of citizens.",
-        "This severe security incident bypassed all automated threat detection mechanisms and was only exposed accidentally after a financial invoice revealed an abnormal surge in database query volumes.",
-        "The breach serves as a critical wake-up call regarding identity access management flaws, the necessity of enforcing multi-factor authentication, and the deployment of real-time intrusion detection systems."
-      ],
-      "originalTitle": "Mật khẩu “123456” bị nghi mở đường vào dữ liệu của gần 9 triệu người",
-      "url": "https://genk.vn/mat-khau-123456-bi-nghi-mo-duong-vao-du-lieu-cua-gan-9-trieu-nguoi-165261410141818742.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Data Breach",
-        "Access Control",
-        "Authentication",
-        "Security Monitoring"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T09:49:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/14/avatar1791971272101-17919712733821755064689.jpg",
-      "contentSnippet": "Một công ty tư nhân được cấp quyền tra cứu cơ sở dữ liệu dân cư Đan Mạch đã trở thành cửa ngõ cho vụ rò rỉ quy mô lớn. Đáng chú ý, hoạt động bất thường không bị hệ thống bảo mật phát hiện mà chỉ lộ ra sau khi xuất hiện một hóa đơn với số lượt tra cứu tăng đột biến.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b17c30ebd97341c9",
-      "title_vi": "Dùng Claude AI phân tích 126.000 ngôi sao, người đàn ông phát hiện ứng viên hành tinh mới",
-      "title_en": "Man Discovers New Planet Candidate After Using Claude AI to Analyze 126000 Stars",
-      "summary_vi": [
-        "Một người đàn ông không có chuyên môn thiên văn học hay kính viễn vọng đã ứng dụng mô hình trí tuệ nhân tạo Claude AI để phân tích dữ liệu lớn từ không gian nhằm tìm kiếm các thiên thể mới.",
-        "Hệ thống trí tuệ nhân tạo đã xử lý và phân tích khối lượng dữ liệu khổng lồ từ một trăm hai mươi sáu nghìn ngôi sao chỉ trong vòng hai tuần nhờ các thuật toán học máy tiên tiến.",
-        "Thành tựu này chứng minh tiềm năng to lớn của việc ứng dụng các mô hình ngôn ngữ lớn và trí tuệ nhân tạo trong việc dân chủ hóa nghiên cứu khoa học và xử lý dữ liệu phức tạp."
-      ],
-      "summary_en": [
-        "A man without formal astronomy background or a telescope successfully utilized Claude AI to analyze massive space datasets and search for new celestial bodies.",
-        "The artificial intelligence system processed and analyzed a massive dataset from one hundred twenty six thousand stars within just two weeks using advanced machine learning algorithms.",
-        "This achievement demonstrates the immense potential of applying large language models and artificial intelligence to democratize scientific research and complex data processing."
-      ],
-      "originalTitle": "Dùng Claude AI trong 2 tuần để phân tích 126.000 ngôi sao, người đàn ông phát hiện ứng viên hành tinh mới",
-      "url": "https://genk.vn/dung-claude-ai-trong-2-tuan-de-phan-tich-126000-ngoi-sao-nguoi-dan-ong-phat-hien-ung-vien-hanh-tinh-moi-165261014162827839.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Claude AI",
-        "Artificial Intelligence",
-        "Machine Learning",
-        "Data Analysis",
-        "Astronomy"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T09:28:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/14/avatar1791970073283-1791970073723989216424.png",
-      "contentSnippet": "VTV.vn - Thậm chí người đàn ông này còn không có kính viễn vọng để quan sát và không được đào tạo bài bản về thiên văn học.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "38c9bb0cc933f5ac",
-      "title_vi": "Startup chatbot trí tuệ nhân tạo đình đám nộp đơn phá sản và bán tài sản cho Disney dù từng được Google hậu thuẫn",
-      "title_en": "Prominent AI Chatbot Startup Files for Bankruptcy and Sells Assets to Disney Despite Early Google Support",
-      "summary_vi": [
-        "Công ty khởi nghiệp Character.ai từng được định giá hàng tỷ USD và sở hữu lượng người dùng đông đảo bất ngờ phải đệ đơn phá sản sau nhiều năm hoạt động trong lĩnh vực trí tuệ nhân tạo.",
-        "Mặc dù nhận được sự hậu thuẫn tài chính lớn từ Google và phát triển các mô hình ngôn ngữ lớn tiên tiến, startup này vẫn không thể duy trì hạ tầng tính toán đắt đỏ và chi phí vận hành khổng lồ.",
-        "Thương vụ bán tài sản còn lại cho Disney với giá rẻ mạt đánh dấu bài học đắt giá về chiến lược tối ưu hóa chi phí huấn luyện mô hình và tính bền vững tài chính trong kỷ nguyên AI."
-      ],
-      "summary_en": [
-        "The prominent AI chatbot startup Character.ai, once valued at billions of dollars with a massive user base, has surprisingly filed for bankruptcy after years of operating in the artificial intelligence sector.",
-        "Despite receiving heavy financial backing from Google and developing advanced large language models, the startup failed to sustain the exorbitant compute infrastructure and massive operational expenditures required.",
-        "The sale of its remaining assets to Disney at a bargain price serves as a harsh lesson regarding cost optimization strategies for model training and long-term financial sustainability within the AI era."
-      ],
-      "originalTitle": "Được định giá tỷ USD, có 12 triệu người dùng, tại sao startup chatbot AI này vẫn phải đệ đơn xin phá sản?",
-      "url": "https://genk.vn/duoc-dinh-gia-ty-usd-co-12-trieu-nguoi-dung-tai-sao-startup-chatbot-ai-nay-van-phai-de-don-xin-pha-san-165261014145541313.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Artificial Intelligence",
-        "Startup",
-        "LLM",
-        "Cloud Computing"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T08:55:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/14/avatar1791964517431-17919645192891326606303-81-0-1331-2000-crop-1791964531366879696291.jpeg",
-      "contentSnippet": "Thậm chí ban đầu startup AI này còn được Google chống lưng, nhưng chỉ sau vài năm hoạt động, cuối cùng Character.ai vẫn phải đệ đơn xin phá sản và bán các tài sản còn lại cho Disney với giá rẻ mạt.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b45d2ca5115a1613",
-      "title_vi": "Cựu CEO Intel Pat Gelsinger chỉ trích kiến trúc bộ nhớ HBM",
-      "title_en": "Former Intel CEO Pat Gelsinger Criticizes High Bandwidth Memory Architecture",
-      "summary_vi": [
-        "Cựu giám đốc điều hành Intel, ông Pat Gelsinger, đã đưa ra những nhận định khắt khe và gây nhiều tranh cãi về kiến trúc bộ nhớ băng thông cao trong một buổi phỏng vấn gần đây.",
-        "Những chỉ trích tập trung vào các hạn chế về chi phí sản xuất, độ phức tạp trong thiết kế vi mạch và hiệu suất thực tế của công nghệ bộ nhớ HBM so với các giải pháp truyền thống.",
-        "Sự kiện này làm dấy lên những cuộc thảo luận sâu rộng trong ngành công nghiệp bán dẫn về hướng đi tối ưu cho các thế hệ phần cứng tính toán hiệu năng cao tiếp theo."
-      ],
-      "summary_en": [
-        "Former Intel Chief Executive Officer Pat Gelsinger has delivered sharp and controversial assessments regarding the high bandwidth memory architecture during a recent industry interview.",
-        "The criticisms focus heavily on manufacturing cost limitations, microchip design complexities, and the actual performance efficiency of HBM technology compared to traditional memory solutions.",
-        "This development sparks extensive discussions within the semiconductor industry regarding the optimal engineering direction for the next generations of high-performance computing hardware."
-      ],
-      "originalTitle": "Cựu CEO Intel Pat Gelsinger chỉ trích kiến trúc bộ nhớ HBM",
-      "url": "https://tinhte.vn/thread/cuu-ceo-intel-pat-gelsinger-chi-trich-kien-truc-bo-nho-hbm.4184005/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Intel",
-        "HBM",
-        "Semiconductor",
-        "Hardware",
-        "Memory"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T08:18:00.000Z",
-      "contentSnippet": "Cựu CEO Intel Pat Gelsinger chỉ trích kiến trúc bộ nhớ HBM Cựu CEO Intel Pat Gelsinger tiếp tục đưa ra những đánh giá khắt khe về công nghệ bộ nhớ băng thông cao (HBM) trong buổi phỏng vấn với...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "28c8929f9d389b8c",
-      "title_vi": "Startup Character.AI nộp đơn xin phá sản và bán tài sản cho Disney",
-      "title_en": "Startup CharacterAI Files for Bankruptcy and Agrees to Sell Assets to Disney",
-      "summary_vi": [
-        "Startup phát triển chatbot Character.AI chính thức nộp đơn xin phá sản theo Chương 11 tại Mỹ, đồng thời chấp thuận thỏa thuận bán một số tài sản trí tuệ quan trọng cho tập đoàn giải trí Disney với giá 20 triệu USD dưới sự giám sát của tòa án.",
-        "Công ty gánh chịu khoản lỗ tài chính lên tới 8 đến 9 triệu USD mỗi tháng chủ yếu do chi phí hạ tầng điện toán khổng lồ cho mô hình trí tuệ nhân tạo và chi phí tuyển dụng nhân tài kỹ thuật cao trong bối cảnh cạnh tranh gay gắt.",
-        "Sự kiện này gióng lên hồi chuông cảnh báo về tính bền vững của các mô hình kinh doanh chatbot trí tuệ nhân tạo, đồng thời nhấn mạnh áp lực pháp lý và chi phí vận hành khổng lồ mà các startup công nghệ phải đối mặt khi mở rộng quy mô."
-      ],
-      "summary_en": [
-        "Chatbot startup CharacterAI has officially filed for Chapter 11 bankruptcy in the United States while agreeing to sell several key intellectual property assets to entertainment giant Disney for twenty million dollars under court supervision.",
-        "The company suffered heavy financial losses ranging from eight to nine million dollars monthly primarily driven by massive computing infrastructure costs for artificial intelligence models and high expenses in recruiting top engineering talent.",
-        "This event serves as a stark warning regarding the financial sustainability of artificial intelligence chatbot business models while highlighting severe regulatory pressures and operational costs technology startups face during rapid expansion."
-      ],
-      "originalTitle": "Startup Character.AI nộp đơn xin phá sản",
-      "url": "https://vnexpress.net/startup-character-ai-nop-don-xin-pha-san-5132194.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Character.AI",
-        "Artificial Intelligence",
-        "Startups",
-        "Chatbot",
-        "Bankruptcy"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T08:09:06.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/14/CharacterAI-1791953845-2383-1791954050.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=IWCqDfEDsAFyJf2qze4Oow",
-      "contentSnippet": "Character.AI - startup chuyên phát triển chatbot, thông báo nộp đơn phá sản tại Mỹ và đồng ý bán một số tài sản với giá 20 triệu USD cho Disney.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "aa531127c1d89233",
-      "title_vi": "Trình duyệt của bạn có thể làm được những gì? 5 tính năng trí tuệ nhân tạo hoạt động thực tế",
-      "title_en": "Your Browser Can Do WHAT?! 5 AI Features That That Actually Work",
-      "summary_vi": [
-        "Bài viết chia sẻ những trải nghiệm thực tế từ hội nghị FrontKon tại Praha, nơi tác giả trình bày về việc biến trình duyệt thành một nền tảng tính toán mạnh mẽ cho các ứng dụng hiện đại.",
-        "Công nghệ WebAssembly và WebGPU được phân tích chi tiết nhằm chứng minh khả năng tăng tốc độ xử lý các phép toán song song cao gấp nhiều lần so với các phương pháp dựa trên bộ vi xử lý thông thường.",
-        "Việc tích hợp các mô hình trí tuệ nhân tạo chạy trực tiếp trên trình duyệt mở ra hướng đi mới đầy triển vọng, giúp giảm thiểu sự phụ thuộc vào các giao diện lập trình ứng dụng suy luận từ xa."
-      ],
-      "summary_en": [
-        "The article shares practical experiences from the FrontKon conference in Prague, where the author presented on transforming web browsers into powerful computing platforms for modern applications.",
-        "WebAssembly and WebGPU technologies are analyzed in detail to demonstrate their ability to accelerate parallel computation speeds significantly compared to traditional processor-based methods.",
-        "Integrating artificial intelligence models to run directly inside web browsers opens promising new pathways, minimizing heavy reliance on remote inference application programming interfaces."
-      ],
-      "originalTitle": "Your Browser Can Do WHAT?! 5 AI Features That Actually Work",
-      "url": "https://dev.to/sylwia-lask/your-browser-can-do-what-5-ai-features-that-actually-work-1blb",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "WebGPU",
-        "WebAssembly",
-        "AI",
-        "Browser",
-        "Frontend"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T07:05:48.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F90o18t6tkw38pe11snwy.png",
-      "contentSnippet": "Are AI models running directly in the browser finally good enough to use in production? Let's find...",
-      "authorName": "Sylwia Laskowska",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3535771%2Fe22860d5-274b-43c9-819b-56b162e5bd5a.jpeg",
-      "upvotes": 78,
-      "commentsCount": 28
     }
   ]
 }
