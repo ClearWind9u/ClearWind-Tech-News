@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T16:14:04.139Z",
+  "lastUpdated": "2026-10-23T20:50:31.777Z",
   "totalArticles": 250,
   "articles": [
     {
@@ -101,6 +101,76 @@
       "commentsCount": 0
     },
     {
+      "id": "3be5f2059474b551",
+      "title_vi": "Các ứng dụng phát trực tuyến bị bỏ rơi buộc phải vô hiệu hóa để ngăn chặn đội quân thây ma",
+      "title_en": "Abandoned Popcorn Time apps had to be disabled to prevent a zombie army",
+      "summary_vi": [
+        "Ứng dụng phát trực tuyến lậu nổi tiếng một thời đã bị bỏ rơi nhiều năm nhưng vẫn được cài đặt trên hàng triệu thiết bị điện tử.",
+        "Trình cập nhật của một biến thể ứng dụng vẫn đang hoạt động, kết nối tới các tên miền không còn tồn tại qua giao thức HTTP không mã hóa cùng phiên bản trình duyệt lỗi thời.",
+        "Sự cố này đặt ra mối đe dọa an ninh mạng nghiêm trọng khi hàng triệu thiết bị có nguy cơ bị chiếm quyền điều khiển để trở thành một mạng lưới máy tính ma độc hại."
+      ],
+      "summary_en": [
+        "The once popular streaming application has been abandoned for years but remains installed on millions of electronic devices worldwide.",
+        "The updater of a software variant is still active, connecting to defunct domains via unencrypted HTTP protocols alongside outdated browser versions.",
+        "This incident poses a severe cybersecurity threat as millions of devices risk being hijacked to form a malicious botnet network."
+      ],
+      "originalTitle": "Abandoned Popcorn Time apps had to be disabled to prevent a zombie army",
+      "url": "https://www.theverge.com/tech/1017914/popcorn-time-piracy-botnet-avoided",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Malware",
+        "Vulnerability",
+        "Botnet",
+        "Software Maintenance"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T19:35:15.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/15706750/CE_tJ_AUIAA9JV-.0.0.1456496896.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Remember Popcorn Time, the app that served as an easy-to-use front end for streaming torrents of movies and TV shows? Development of the MPAA's least-favorite app of the 2010s has been abandoned for years, but the \"Netflix of Piracy\" software is still installed on millions of devices that are just w",
+      "authorName": "Stevie Bonifield",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "60b56cc3037dbda3",
+      "title_vi": "Công ty Block của Jack Dorsey ra mắt mô hình trí tuệ nhân tạo trò chuyện giống như một người bạn mới vụng về",
+      "title_en": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "summary_vi": [
+        "Công ty Block do Jack Dorsey sáng lập vừa chính thức công bố một mô hình trí tuệ nhân tạo tiên tiến mang tên Dessa được huấn luyện hoàn toàn từ các cuộc hội thoại thực tế của con người.",
+        "Mô hình này vận hành theo cơ chế xử lý âm thanh trực tiếp hai chiều toàn phần, cho phép thực hiện các đoạn giao tiếp bằng giọng nói có độ tự nhiên cao nhưng đôi khi vẫn xuất hiện những tình huống khá bất ngờ.",
+        "Sự kiện này đánh dấu một bước tiến quan trọng trong công nghệ xử lý giọng nói tự nhiên, mở ra tiềm năng ứng dụng các trợ lý ảo thông minh hơn cho cộng đồng phát triển phần mềm và công nghệ toàn cầu."
+      ],
+      "summary_en": [
+        "Block, the company founded by Jack Dorsey, has officially announced an advanced artificial intelligence model named Dessa trained entirely from scratch using real human conversations.",
+        "The model operates on a full-duplex speech-to-speech mechanism, enabling highly natural voice interactions although occasionally exhibiting uncanny or awkward conversational behaviors.",
+        "This release marks a significant milestone in natural speech processing technology, opening up new potential for developing smarter virtual assistants within the global tech community."
+      ],
+      "originalTitle": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Artificial Intelligence",
+        "Speech Processing",
+        "Conversational AI",
+        "Block",
+        "Machine Learning"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T19:32:39.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS536_AI_HALLUCINATION_B.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan",
+      "authorName": "Jay Peters",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "b1ecf9fa14f8f24e",
       "title_vi": "Nhiều website chính phủ hoạt động trở lại, khắc phục lỗ hổng PHP có thể mất nhiều năm",
       "title_en": "Many government websites are back up and running, fixing PHP vulnerabilities can take years",
@@ -197,6 +267,74 @@
       "authorName": "crboluo",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "bf44de9e544de4cb",
+      "title_vi": "Giới thiệu mô hình Kimi K3.1 Pro và K3.1 Pro Tốc độ cao với khả năng xử lý vượt trội",
+      "title_en": "Introducing Kimi K3.1 Pro and K3.1 Pro Highspeed with Advanced Capabilities",
+      "summary_vi": [
+        "Công ty vừa chính thức ra mắt dòng mô hình trí tuệ nhân tạo mới mang tên Kimi K3.1 Pro cùng phiên bản tốc độ cao, hỗ trợ cửa sổ ngữ cảnh lên tới một triệu token cho các tác vụ phức tạp.",
+        "Mô hình được tối ưu hóa toàn diện từ kiến trúc huấn luyện tăng cường, cơ sở hạ tầng sandbox cho đến suy luận ngữ cảnh dài, giúp đạt hiệu suất cao ngang ngửa các mô hình độc quyền mạnh nhất.",
+        "Sự kiện này đánh dấu bước tiến lớn trong việc cải thiện năng lực lập trình và nghiên cứu tài chính của các nhà phát triển, mở ra khả năng ứng dụng thực tế vô cùng rộng rãi cho cộng đồng công nghệ."
+      ],
+      "summary_en": [
+        "The company has officially launched a new artificial intelligence model series called Kimi K3.1 Pro along with a highspeed version, supporting a context window of up to one million tokens for complex tasks.",
+        "The model features comprehensive optimization across reinforcement learning frameworks, sandbox infrastructure, and long-context inference, achieving performance levels matching the strongest proprietary models currently available.",
+        "This release marks a significant milestone in improving programming and financial research capabilities for developers, opening up extensive practical application prospects for the broader technology community."
+      ],
+      "originalTitle": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "LLM",
+        "Kimi",
+        "Reinforcement Learning"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T16:59:08.000Z",
+      "contentSnippet": "Scroll to exploreIntroducing Kimi K3.1 ProWe're introducing Kimi K3.1 Pro, the first model in our new K3.1 series and our most capable 3T-class open-weight model to date, with a 1-million-token context window. It delivers substantial improvements across coding, 3D creation, financial research, and o",
+      "authorName": "Jowsey",
+      "upvotes": 490,
+      "commentsCount": 286
+    },
+    {
+      "id": "6309a052e042f22f",
+      "title_vi": "Hôm nay, chúng tôi đã xâm nhập thành công mục tiêu đặt ra ban đầu chính là chiếc điện thoại iPhone",
+      "title_en": "Today, we hacked what we'd set out to hack: the iPhone",
+      "summary_vi": [
+        "Bài viết thảo luận về một cột mốc quan trọng trong lĩnh vực bảo mật khi các nhà nghiên cứu tuyên bố đã hoàn thành việc xâm nhập thành công vào hệ điều hành của thiết bị iPhone.",
+        "Nội dung nhấn mạnh vào các lỗ hổng tiềm ẩn trong các ứng dụng nhắn tin phổ biến và hệ thống cốt lõi, gợi mở về những nguy cơ bị tấn công liên tục từ các mối đe dọa tinh vi.",
+        "Sự kiện này gióng lên hồi chuông cảnh báo cho các kỹ sư bảo mật và nhà phát triển trong việc nâng cao kiến trúc phòng thủ cũng như vá các lỗ hổng zero-day trên nền tảng di động."
+      ],
+      "summary_en": [
+        "The article discusses a major milestone in the security field as researchers announce the successful exploitation and breach of the iPhone operating system's security mechanisms.",
+        "The content highlights potential vulnerabilities within popular messaging applications and core systems, hinting at the risks posed by sophisticated and persistent threat actors.",
+        "This event serves as a critical warning for security engineers and developers to enhance defensive architectures and proactively patch zero-day vulnerabilities on mobile platforms."
+      ],
+      "originalTitle": "Today, we hacked what we'd set out to hack: the iPhone",
+      "url": "https://blog.calif.io/p/iphone",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "iPhone",
+        "Exploit",
+        "Mobile Security",
+        "Zero-Day"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T16:21:50.000Z",
+      "contentSnippet": "2/ But who cares about a third-party app when everyone uses iMessage, right? 4/ APT stands for Apple Persistent Threat 2754ShareDiscussion about this postCommentsRestacksRyan Merket3hGame over. Time to write a book and move to a remote island. ReplyShareRicardo6dEs increíble ya me gustaría tenerle e",
+      "authorName": "pavel_lishin",
+      "upvotes": 568,
+      "commentsCount": 390
     },
     {
       "id": "463e2aab06118a13",
@@ -2400,6 +2538,42 @@
       "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "357bd188ff256b0e",
+      "title_vi": "Đừng làm cầu nối trung gian giữa tôi và trí tuệ nhân tạo của bạn",
+      "title_en": "Don't Be a Proxy Between Me and Your AI",
+      "summary_vi": [
+        "Sự bùng nổ của các công cụ trò chuyện thông minh dẫn đến tình trạng nhiều lập trình viên sử dụng chúng làm lá chắn giao tiếp trong các buổi thảo luận kỹ thuật.",
+        "Hiện tượng lạm dụng câu trả lời tạo sẵn từ hệ thống trí tuệ nhân tạo khiến quá trình trao đổi kiến trúc phần mềm trở nên chậm trễ và thiếu tính xác thực.",
+        "Các kỹ sư trưởng và nhà phát triển phần mềm cần đưa ra kinh nghiệm thực chiến cá nhân thay vì sao chép các phản hồi chung chung từ máy móc."
+      ],
+      "summary_en": [
+        "The surge of intelligent chat tools leads to developers using them as communication shields during various technical discussions and architecture reviews.",
+        "The abuse of pre-generated answers from artificial intelligence systems makes software design exchanges slower and completely lacks authentic personal experience.",
+        "Principal engineers and software developers must provide their own practical engineering experience instead of copying generic responses from machines."
+      ],
+      "originalTitle": "Don't Be a Proxy Between Me and Your AI",
+      "url": "https://dev.to/adamthedeveloper/dont-be-a-proxy-between-me-and-your-ai-mcn",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "AI",
+        "Software Engineering",
+        "Communication",
+        "Productivity",
+        "Development"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-22T04:31:09.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fobwbf432qy2unuy63rod.jpg",
+      "contentSnippet": "I've had this conversation more times than I'd like to admit. I raise a technical question in a...",
+      "authorName": "Adam - The Developer ✨",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1002243%2F2c616028-c3f5-4013-87d5-2815b28aa1f3.jpeg",
+      "upvotes": 65,
+      "commentsCount": 39
     },
     {
       "id": "ca893211d13e63db",
@@ -8293,178 +8467,6 @@
       "publishedAt": "2026-10-16T01:43:11.000Z",
       "contentSnippet": "Rò rỉ thông số và 25 tùy chọn kiểu dáng kính Android XR của Samsung Những thông tin chi tiết đầu tiên về mẫu kính Android XR sắp ra mắt của Samsung vừa được hé lộ, bao gồm thông số kỹ thuật phần...",
       "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "aa6e5bfabcc05330",
-      "title_vi": "Hàng nghìn điện thoại Android giá rẻ bị phát hiện cài sẵn mã độc",
-      "title_en": "Thousands of budget Android phones discovered with pre-installed malware",
-      "summary_vi": [
-        "Các nhà nghiên cứu bảo mật từ Bitdefender vừa phát hiện chiến dịch độc hại kéo dài suốt hai năm qua, nhắm vào hàng nghìn thiết bị điện thoại Android giá rẻ tại nhiều quốc gia trên toàn cầu.",
-        "Những thiết bị bị ảnh hưởng nghiêm trọng bao gồm các dòng máy như Doogee S200 X, Cubot KINGKONG X cùng nhiều sản phẩm giả mạo các thương hiệu nổi tiếng khác có cài sẵn mã độc hại từ trước.",
-        "Sự việc này gióng lên hồi chuông cảnh báo về rủi ro chuỗi cung ứng phần cứng di động, đòi hỏi các nhà phát triển và người dùng cần thắt chặt kiểm tra an ninh mạng thiết bị."
-      ],
-      "summary_en": [
-        "Security researchers from Bitdefender have recently uncovered a malicious campaign spanning the past two years, targeting thousands of budget Android devices across multiple countries globally.",
-        "The severely affected devices include models such as the Doogee S200 X, Cubot KINGKONG X, and various counterfeit products from well-known brands that came with pre-installed malicious code.",
-        "This incident raises serious alarms regarding mobile hardware supply chain risks, requiring developers and users to tighten device cybersecurity verification measures."
-      ],
-      "originalTitle": "Hàng nghìn điện thoại Android giá rẻ bị phát hiện cài sẵn mã độc",
-      "url": "https://genk.vn/hang-nghin-dien-thoai-android-gia-re-bi-phat-hien-cai-san-ma-doc-165261016081128685.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Android",
-        "Malware",
-        "Cybersecurity",
-        "Bitdefender",
-        "Mobile Security"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-16T01:20:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/16/avatar1792113043140-1792113044112222942515.png",
-      "contentSnippet": "Các chuyên gia bảo mật phát hiện hàng nghìn điện thoại Android giá rẻ bị cài sẵn mã độc trước khi đến tay người dùng.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "52713b2a747cbe8d",
-      "title_vi": "Khám phá hai tùy chọn màu sắc của điện thoại gập iPhone Duo trước ngày phát hành tại thị trường Việt Nam",
-      "title_en": "Exploring the Two Color Options of the iPhone Duo Foldable Phone Ahead of Its Official Release in Vietnam",
-      "summary_vi": [
-        "Dòng điện thoại gập iPhone Duo chuẩn bị được phát hành chính thức tại thị trường Việt Nam vào cuối tháng mười sau giai đoạn cho phép người dùng đặt trước sản phẩm từ giữa tháng",
-        "Thiết bị di động cao cấp này sở hữu mức giá khởi điểm đáng chú ý cùng hai phiên bản màu sắc độc đáo là Trắng Ánh Sao thanh lịch và Trời Đêm mang phong cách tối giản",
-        "Sự xuất hiện của dòng điện thoại gập này đánh dấu bước tiến quan trọng trong chiến lược phần cứng di động của Apple nhằm thu hút phân khúc người dùng cao cấp tại thị trường khu vực"
-      ],
-      "summary_en": [
-        "The new iPhone Duo foldable smartphone is officially scheduled for release in the Vietnamese market later this month following a pre-order period starting in mid-October",
-        "This high-end mobile device features a notable starting price along with two distinct color options including the elegant Star White and the minimalist Night Sky finish",
-        "The introduction of this foldable device marks a significant milestone in Apple's mobile hardware strategy aimed at capturing the luxury consumer segment in regional markets"
-      ],
-      "originalTitle": "Ngắm hai màu sắc của iPhone Duo trước ngày lên kệ",
-      "url": "https://genk.vn/ngam-hai-mau-sac-cua-iphone-duo-truoc-ngay-len-ke-165261016080958529.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Foldable Phone",
-        "Mobile Hardware",
-        "Tech Trends"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-16T01:09:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/16/avatar1792112886625-17921128871091151050024.png",
-      "contentSnippet": "Trước giờ mở bán tại Việt Nam, hai phiên bản màu sắc của iPhone Duo trở thành yếu tố đáng cân nhắc với người dùng.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "6fae2bce32727890",
-      "title_vi": "Những gì tôi thực sự học được khi xây dựng phần mềm bằng trí tuệ nhân tạo",
-      "title_en": "What I Actually Learn When I Build With AI",
-      "summary_vi": [
-        "Trải nghiệm thực tế khi lập trình với sự hỗ trợ của trí tuệ nhân tạo cho thấy ranh giới mong manh giữa việc hoàn thành mã nguồn và việc thực sự thấu hiểu sâu sắc bản chất kỹ thuật bên dưới.",
-        "Việc để các công cụ lập trình tự động giải thích mã lệnh giúp tạo ra sản phẩm nhanh chóng nhưng thường dẫn đến ảo tưởng về năng lực khi lập trình viên không thực sự nắm vững cấu trúc hệ thống.",
-        "Lập trình viên cần cân bằng giữa tốc độ phát triển nhờ công nghệ thông minh và quá trình tự giải quyết vấn đề khó khăn để tích lũy kiến thức kỹ thuật vững chắc theo thời gian."
-      ],
-      "summary_en": [
-        "Practical programming experiences with artificial intelligence assistance reveal the fine line between completing source code and genuinely understanding the underlying technical nature deeply.",
-        "Using automated coding tools to explain instructions enables fast product delivery but often creates an illusion of capability when developers fail to grasp system structures thoroughly.",
-        "Software engineers must balance development speed driven by intelligent technology with the struggle of solving difficult problems independently to build solid technical knowledge over time."
-      ],
-      "originalTitle": "What I Actually Learn When I Build With AI",
-      "url": "https://dev.to/sizzlebop/what-i-actually-learn-when-i-build-with-ai-1074",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "AI",
-        "Software Engineering",
-        "Developer Productivity",
-        "Coding"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-16T01:06:09.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2atagf3xnyj2fwx6qtho.png",
-      "contentSnippet": "I've spent entire nights building something with AI, gotten a bunch of features working, and then...",
-      "authorName": "Jessica Doering",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F2676985%2Fa7882ab0-e15a-497b-9151-aeb4899fcc0f.png",
-      "upvotes": 58,
-      "commentsCount": 19
-    },
-    {
-      "id": "586646a0cb1a1729",
-      "title_vi": "Sản lượng smartphone theo quý thấp nhất kể từ 2012 do khủng hoảng chip nhớ",
-      "title_en": "Quarterly smartphone shipments hit lowest level since 2012 amid memory chip crisis",
-      "summary_vi": [
-        "Số lượng smartphone xuất xưởng trên toàn cầu trong quý III năm 2026 đã giảm mạnh hai mươi phần trăm so với cùng kỳ năm trước, chạm mức thấp kỷ lục kể từ năm hai nghìn không trăm mười hai theo báo cáo mới nhất.",
-        "Khủng hoảng chip nhớ trầm trọng diễn ra khi các nhà sản xuất bán dẫn dồn toàn lực phát triển bộ nhớ băng thông cao phục vụ hạ tầng trí tuệ nhân tạo, khiến nguồn cung RAM cho thiết bị di động bị bóp nghẹt.",
-        "Tình trạng thiếu hụt linh kiện phần cứng nghiêm trọng này đã đẩy giá thành thiết bị tăng cao, làm gián đoạn chuỗi cung ứng toàn cầu và buộc các kỹ sư phần cứng phải tối ưu hóa hiệu năng trên nền tảng phần cứng hạn chế."
-      ],
-      "summary_en": [
-        "Global smartphone shipments in the third quarter of 2026 dropped sharply by twenty percent year over year, hitting a record low not seen since 2012 according to recent market research reports.",
-        "A severe memory chip crisis occurred as semiconductor manufacturers redirected their production resources toward high bandwidth memory for artificial intelligence infrastructure, severely constraining mobile RAM supplies.",
-        "This critical shortage of hardware components has significantly increased device costs, disrupted global supply chains, and forced hardware engineers to optimize system performance on highly constrained platforms."
-      ],
-      "originalTitle": "Sản lượng smartphone theo quý thấp nhất kể từ 2012",
-      "url": "https://vnexpress.net/san-luong-smartphone-theo-quy-thap-nhat-ke-tu-2012-5132504.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Smartphones",
-        "Semiconductors",
-        "Hardware",
-        "Supply Chain",
-        "AI Infrastructure"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/15/27-1792029158-5384-1792029200.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=6N5-0IbGO85aDcDjHz--bg",
-      "contentSnippet": "Số smartphone xuất xưởng quý III/2026 chạm mức thấp nhất trong 14 năm do thiếu hụt chip nhớ và chu kỳ sử dụng thiết bị của người dùng kéo dài.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b4e6b604d0b97688",
-      "title_vi": "Steam hiện có thể hiển thị thành tích trò chơi theo các 'bộ' riêng biệt",
-      "title_en": "Steam can now show game achievements in separate ‘sets’",
-      "summary_vi": [
-        "Valve đang giới thiệu một tính năng mới quan trọng dành cho các thành tích trên Steam được gọi là \"bộ thành tích\" cho phép các nhà phát triển liệt kê các nhóm thành tích khác nhau cho một trò chơi cơ bản và các DLC.",
-        "Valve cho biết: “Trong các trò chơi hỗ trợ bộ, bạn vẫn mở khóa thành tích bằng cách chơi trò chơi như bình thường”.",
-        "\"Nhưng khi bạn duyệt qua những gì bạn đã mở khóa sau đó, Steam sẽ chia danh sách dài các thành tích trò chơi thành các bộ do nhà phát triển tạo ra, giúp bạn dễ dàng xem những gì bạn đã hoàn thành và tìm các thành tích liên quan khác mà bạn có thể mở khóa tiếp theo.\" Các bộ thành tích có các thanh tiến trình riêng và nếu bạn hoàn thành một bộ, bạn sẽ nhận được một chiếc cúp \"hoàn thành bộ\" hiển thị… Đọc toàn bộ câu chuyện tại The Verge."
-      ],
-      "summary_en": [
-        "Valve is introducing a major new feature for Steam achievements called \"achievement sets\" that lets developers list different groups of achievements for a base game and DLCs.",
-        "\"In games that support sets, you still unlock achievements by playing the game as usual,\" Valve says.",
-        "\"But when you browse what you have unlocked afterward, Steam will break the long list of game achievements into the developer-created sets, making it easier to see what you have completed and to find other related achievements you can unlock next.\" Achievement sets have their own progress bars, and if you finish a set, you'll get a \"set complete\" trophy that's visible … Read the full story at The Verge."
-      ],
-      "originalTitle": "Steam can now show game achievements in separate ‘sets’",
-      "url": "https://www.theverge.com/games/1012541/valve-steam-achievement-sets",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechTrends",
-        "Innovation"
-      ],
-      "hotScore": 89,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-15T23:18:28.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK138_Stream_Kradtke_01.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Valve is introducing a major new feature for Steam achievements called \"achievement sets\" that lets developers list different groups of achievements for a base game and DLCs. \"In games that support sets, you still unlock achievements by playing the game as usual,\" Valve says. \"But when you browse wh",
-      "authorName": "Jay Peters",
       "upvotes": 0,
       "commentsCount": 0
     }
