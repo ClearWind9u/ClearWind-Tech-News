@@ -1,7 +1,136 @@
 {
-  "lastUpdated": "2026-10-23T10:47:43.949Z",
+  "lastUpdated": "2026-10-23T16:14:04.139Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "ee5179b7327d6bbc",
+      "title_vi": "Bài 12: Testing & Mocking - Viết Unit Test cho mã nguồn dùng go-redis",
+      "title_en": "Lesson 12: Testing & Mocking - Writing Unit Tests for source code using go-redis",
+      "summary_vi": [
+        "Mục tiêu bài học: - Hiểu tầm quan trọng của Dependency Injection để làm cho mã nguồn có thể test được.",
+        "- Sử dụng alicebob/miniredis để giả lập.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Bài 12: Testing & Mocking - Viết Unit Test cho mã nguồn dùng go-redis."
+      ],
+      "summary_en": [
+        "Lesson Objectives: - Understand the importance of Dependency Injection to make source code testable.",
+        "- Use alicebob/miniredis for emulation.",
+        "Practical engineering impact and actionable takeaways for developers building with Lesson 12: Testing & Mocking - Writing Unit Tests for source code using go-redis."
+      ],
+      "originalTitle": "Bài 12: Testing & Mocking - Viết Unit Test cho mã nguồn dùng go-redis",
+      "url": "https://viblo.asia/p/bai-12-testing-mocking-viet-unit-test-cho-ma-nguon-dung-go-redis-8X4EjqZoJN2",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Redis"
+      ],
+      "hotScore": 94,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-23T23:07:08.000Z",
+      "contentSnippet": "Mục tiêu bài học: - Hiểu tầm quan trọng của Dependency Injection để làm cho mã nguồn có thể test được. - Sử dụng alicebob/miniredis để giả lập m...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "cacb79107d2137b1",
+      "title_vi": "Tại sao container Docker mất 10 giây để dừng: Giải thích về tiến trình PID 1, tín hiệu hệ thống và cách tắt ứng dụng an toàn",
+      "title_en": "Why Your Docker Container Takes 10 Seconds to Stop: PID 1, Signals and Graceful Shutdown Explained",
+      "summary_vi": [
+        "Bài viết phân tích nguyên nhân kỹ thuật khiến các container trong Docker thường mất đúng mười giây để dừng hẳn mỗi khi người dùng thực hiện lệnh tắt trên hệ thống.",
+        "Cơ chế hoạt động của tiến trình số một kết hợp cùng cách các hệ điều hành truyền phát tín hiệu chấm dứt tiến trình đóng vai trò quyết định trong việc tối ưu thời gian phản hồi.",
+        "Lập trình viên cần nắm vững cách xử lý tín hiệu ngắt kết nối và cấu hình đúng tệp tin khởi chạy để xây dựng quy trình đóng ứng dụng mượt mà, tránh mất mát dữ liệu."
+      ],
+      "summary_en": [
+        "The article analyzes the technical reasons why Docker containers typically take exactly ten seconds to completely stop whenever users execute shutdown commands.",
+        "The operational mechanism of process ID one combined with how operating systems propagate termination signals plays a decisive role in optimizing application response times.",
+        "Developers must understand how to handle disconnection signals and properly configure entrypoint files to build smooth shutdown workflows and prevent unexpected data loss."
+      ],
+      "originalTitle": "Why Your Docker Container Takes 10 Seconds to Stop: PID 1, Signals and Graceful Shutdown Explained",
+      "url": "https://viblo.asia/p/why-your-docker-container-takes-10-seconds-to-stop-pid-1-signals-and-graceful-shutdown-explained-R5JRQWXr4Gv",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "Docker",
+        "Containers",
+        "DevOps",
+        "Linux",
+        "Performance"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-23T23:05:07.000Z",
+      "contentSnippet": "",
+      "authorName": "EME GUG",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "921a14c8df9df242",
+      "title_vi": "Ngôn ngữ lập trình PHP đối mặt với hai lỗ hổng thực thi mã từ xa cực kỳ nguy hiểm với điểm số CVSS đạt mức 9.2",
+      "title_en": "PHP Programming Language Faces Two Critical Remote Code Execution Vulnerabilities With CVSS Score Reaching 9.2",
+      "summary_vi": [
+        "Cộng đồng phát triển phần mềm toàn cầu đang đối mặt với báo động đỏ khi ngôn ngữ lập trình phổ biến này công bố hai lỗ hổng thực thi mã từ xa đặc biệt nghiêm trọng có mã định danh chuẩn.",
+        "Các chuyên gia an ninh mạng cho biết những điểm yếu này đạt mức điểm CVSS lên tới 9.2, cho phép kẻ tấn công khai thác trực tiếp vào hệ thống nếu các nhà quản trị chưa thực hiện các bản vá lỗi.",
+        "Toàn bộ đội ngũ kỹ thuật và lập trình viên cần nhanh chóng kiểm tra phiên bản hiện tại, tiến hành nâng cấp hệ thống ngay lập tức để phòng ngừa các nguy cơ bị xâm nhập và chiếm quyền điều khiển."
+      ],
+      "summary_en": [
+        "The global software development community is facing a high alert as the popular programming language has disclosed two extremely critical remote code execution vulnerabilities with standard identifiers.",
+        "Cybersecurity experts indicate that these weaknesses reach a CVSS score of up to 9.2, allowing attackers to directly exploit systems if administrators have not yet applied the necessary security patches.",
+        "All engineering teams and developers must promptly verify their current versions and immediately perform system upgrades to prevent potential risks of unauthorized intrusion and full control takeover."
+      ],
+      "originalTitle": "PHP dính lỗ hổng CVE nghiêm trọng 9.2 — Bạn đã nâng cấp chưa?",
+      "url": "https://viblo.asia/p/php-dinh-lo-hong-cve-nghiem-trong-92-ban-da-nang-cap-chua-gjLN0Z1W432",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "PHP",
+        "RCE",
+        "Cybersecurity",
+        "Vulnerability",
+        "DevOps"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T20:43:14.000Z",
+      "contentSnippet": "Hôm qua, PHP đã công bố hai lỗ hổng thực thi mã từ xa (RCE) nghiêm trọng, được gắn mã CVE-2026-109618 và CVE-2026-109619, với điểm CVSS là 9.2. Theo t...",
+      "authorName": "Sunny",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b1ecf9fa14f8f24e",
+      "title_vi": "Nhiều website chính phủ hoạt động trở lại, khắc phục lỗ hổng PHP có thể mất nhiều năm",
+      "title_en": "Many government websites are back up and running, fixing PHP vulnerabilities can take years",
+      "summary_vi": [
+        "Ngày 22-10, nhiều website chính phủ hoạt động trở lại sau khi vá lỗ hổng PHP, nhưng nguy cơ tin tặc khai thác vẫn còn, và việc khắc phục có thể kéo dài nhiều năm.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Nhiều website chính phủ hoạt động trở lại, khắc phục lỗ hổng PHP có thể mất nhiều năm.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Nhiều website chính phủ hoạt động trở lại, khắc phục lỗ hổng PHP có thể mất nhiều năm."
+      ],
+      "summary_en": [
+        "On October 22, many government websites returned to work after patching PHP vulnerabilities, but the risk of hackers exploiting them remains, and the fix could take years.",
+        "In-depth technical breakdown and implementation mechanisms introduced in Many government websites are back up and running, fixing PHP vulnerabilities can take years.",
+        "Practical engineering impact and actionable takeaways for developers building with Many government websites are back up and running, fixing PHP vulnerabilities can take years."
+      ],
+      "originalTitle": "Nhiều website chính phủ hoạt động trở lại, khắc phục lỗ hổng PHP có thể mất nhiều năm",
+      "url": "https://tuoitre.vn/nhieu-website-chinh-phu-hoat-dong-tro-lai-khac-phuc-lo-hong-php-co-the-mat-nhieu-nam-1002610231814333.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "PHP"
+      ],
+      "hotScore": 96,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-23T18:31:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/23/lo-hong-php-1792753396817904420403-0-0-382-611-crop-1792753417574471019380.png",
+      "contentSnippet": "Ngày 22-10, nhiều website chính phủ hoạt động trở lại sau khi vá lỗ hổng PHP, nhưng nguy cơ tin tặc khai thác vẫn còn, và việc khắc phục có thể kéo dài nhiều năm.",
+      "authorName": "TTXVN",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "dc4fd45579d863df",
       "title_vi": "Tối ưu hóa hiển thị video trên giao diện web từ ảnh tĩnh",
@@ -70,6 +199,40 @@
       "commentsCount": 0
     },
     {
+      "id": "463e2aab06118a13",
+      "title_vi": "So sánh công nghệ màn hình giữa iPhone Duo và Samsung Galaxy Z Fold 8",
+      "title_en": "Display Technology Comparison: iPhone Duo versus Samsung Galaxy Z Fold 8",
+      "summary_vi": [
+        "Bài viết thực hiện so sánh trực tiếp giữa công nghệ màn hình nano-texture trên thiết bị iPhone Duo mới và màn hình tiêu chuẩn không chống chói của dòng điện thoại gập Samsung Galaxy Z Fold 8 trong điều kiện thực tế.",
+        "Phân tích tập trung vào khả năng giảm thiểu phản xạ ánh sáng của lớp phủ nano-texture cao cấp so với các tấm nền truyền thống, đồng thời đánh giá hiệu quả kỹ thuật trong việc xử lý nếp gấp màn hình trên thiết bị gập.",
+        "Kết quả so sánh cung cấp cái nhìn sâu sắc cho người dùng về sự khác biệt giữa các giải pháp hiển thị hiện đại, giúp định hình xu hướng phát triển phần cứng di động trong tương lai gần của các ông lớn công nghệ."
+      ],
+      "summary_en": [
+        "The article provides a direct comparison between the advanced nano-texture display technology featured on the new iPhone Duo and the standard non-anti-reflective screen panels found on the Samsung Galaxy Z Fold 8 foldable devices.",
+        "The analysis focuses on the light reflection reduction capabilities of premium nano-texture coatings versus traditional panels, while evaluating the engineering effectiveness in masking the physical crease on foldable display hardware architectures.",
+        "These findings offer valuable insights into the differences between modern display solutions, helping to shape the future trajectory of mobile hardware development and user experience standards for major global technology manufacturers."
+      ],
+      "originalTitle": "Màn hình iPhone Duo vs Samsung Galaxy Z Fold 8",
+      "url": "https://tinhte.vn/thread/man-hinh-iphone-duo-vs-samsung-galaxy-z-fold-8.4186430/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone",
+        "Samsung",
+        "Display",
+        "Hardware",
+        "Mobile"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-23T16:05:53.000Z",
+      "contentSnippet": "Màn hình nano-texture trên iPhone Duo nếu đặt cạnh màn hình không chống chói trên Samsung Galaxy Z Fold 8 sẽ như thế nào? Cơ bản là iPhone Duo chống chói cực tốt, giấu nếp gấp mình đánh giá là rất...",
+      "authorName": "Nhà Của Cáo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "9739de0c0da81765",
       "title_vi": "Cấu trúc dữ liệu và Giải thuật Bài 74: Phân rã Đậm-Nhạt (Heavy-Light Decomposition - HLD) - Trải phẳng Cây để truy vấn khoảng siêu tốc.",
       "title_en": "Data Structures and Algorithms Lesson 74: Heavy-Light Decomposition (HLD) - Flattening the Tree for super-speed querying.",
@@ -128,6 +291,348 @@
       "publishedAt": "2026-10-23T16:03:46.000Z",
       "contentSnippet": "Ở Bài 72, Cây Hậu Tố (Suffix Tree) đã chứng minh sức mạnh tuyệt đối khi tìm kiếm chuỗi con trong thời gian . Tuy nhiên, trong thực tế vận hành các hệ ...",
       "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5a3cf98b9f6c7667",
+      "title_vi": "Loạt khoảnh khắc kể lại hành trình phát triển của hệ thống điện toán đám mây FPT Cloud",
+      "title_en": "Moments recounting the development journey of the FPT Cloud computing platform",
+      "summary_vi": [
+        "Từ năm 2020, hệ thống điện toán đám mây FPT Cloud được xây dựng và phát triển bởi đội ngũ gồm hơn bốn trăm kỹ sư công nghệ người Việt Nam, đảm nhiệm toàn bộ các thành phần từ tầng hạ tầng lõi đến các tính năng trí tuệ nhân tạo và bảo mật.",
+        "Hành trình phát triển của nền tảng này được minh họa qua các mốc son công nghệ quan trọng, thể hiện năng lực tự chủ trong việc xây dựng các giải pháp hạ tầng số quy mô lớn và khả năng tích hợp các dịch vụ đám mây tiên tiến.",
+        "Sự kiện này đánh dấu mốc quan trọng khi nền tảng đã thành công đồng hành cùng hơn ba nghìn doanh nghiệp trong quá trình chuyển đổi số, cung cấp hạ tầng vững chắc giúp tối ưu hóa vận hành và thúc đẩy đổi mới sáng tạo."
+      ],
+      "summary_en": [
+        "Since 2020, the FPT Cloud computing system has been built and developed by a team of over four hundred Vietnamese software engineers, handling everything from core infrastructure layers to artificial intelligence and security features.",
+        "The development journey of this platform is illustrated through crucial technology milestones, demonstrating self-reliance capabilities in building large-scale digital infrastructure solutions and integrating advanced cloud services.",
+        "This milestone marks a significant achievement as the platform has successfully supported over three thousand enterprises in their digital transformation, providing solid infrastructure to optimize operations and drive innovation."
+      ],
+      "originalTitle": "Loạt khoảnh khắc kể lại hành trình của FPT Cloud",
+      "url": "https://genk.vn/loat-khoanh-khac-ke-lai-hanh-trinh-cua-fpt-cloud-165261023212317477.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "Cloud Computing",
+        "FPT Cloud",
+        "Infrastructure",
+        "Artificial Intelligence",
+        "Cybersecurity"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T15:22:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/23/ava-ngang-17927649867071971459183.png",
+      "contentSnippet": "Từ năm 2020, FPT Cloud được xây dựng bởi hơn 400 kỹ sư Việt Nam, từ tầng hạ tầng lõi đến AI và bảo mật. Bảy bức ảnh dưới đây kể lại hành trình ấy, cùng những con số về hơn 3.000 doanh nghiệp đồng hành.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "7aa6acbd35f79e1a",
+      "title_vi": "Meta trì hoãn cập nhật điều khoản kinh doanh sau phản ứng dữ dội về việc thu thập dữ liệu huấn luyện AI",
+      "title_en": "Meta delays new business terms after publisher pushback on AI scraping",
+      "summary_vi": [
+        "Meta vừa quyết định lùi thời hạn áp dụng các điều khoản kinh doanh mới sang ngày 20 tháng 11, sau khi vấp phải sự phản đối mạnh mẽ từ các nhà xuất bản tin tức về quyền thu thập dữ liệu để huấn luyện mô hình trí tuệ nhân tạo.",
+        "Các điều khoản gây tranh cãi ban đầu được thiết kế để cho phép Meta tự động quét nội dung từ các trang web sử dụng nền tảng của họ, nhằm mục đích khai thác dữ liệu thô phục vụ quá trình đào tạo các hệ thống học máy phức tạp.",
+        "Sự kiện này phản ánh cuộc xung đột gay gắt giữa các tập đoàn công nghệ lớn và đơn vị sở hữu nội dung về quyền sở hữu trí tuệ, đặt ra thách thức lớn cho việc xây dựng các bộ dữ liệu huấn luyện AI minh bạch và hợp pháp."
+      ],
+      "summary_en": [
+        "Meta has decided to postpone the implementation of its new business terms until November 20th, following significant backlash from news publishers regarding the company's authority to scrape website content for training its artificial intelligence models.",
+        "The controversial terms were originally intended to grant Meta broad permissions to automatically crawl and ingest data from sites utilizing their platforms, effectively repurposing proprietary content for the development of advanced machine learning systems.",
+        "This development highlights the ongoing tension between major tech corporations and content creators over intellectual property rights, posing critical challenges for the ethical sourcing of training datasets in the rapidly evolving AI industry."
+      ],
+      "originalTitle": "Meta delays new business terms after publisher pushback on AI scraping",
+      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Meta",
+        "Data Scraping",
+        "Machine Learning",
+        "Copyright"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T14:47:41.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23951350/STK043_VRG_Illo_N_Barclay_6_Meta.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ed519a5b6b618033",
+      "title_vi": "Đánh giá ốp lưng Skinarma Kyper cho thiết bị iPhone Duo và tính năng tối ưu màn hình của Apple",
+      "title_en": "Reviewing Skinarma Kyper Case for iPhone Duo and Apple Built-in Display Optimization Settings",
+      "summary_vi": [
+        "Bài viết giới thiệu dòng sản phẩm ốp lưng cao cấp Skinarma Kyper dành riêng cho dòng máy iPhone Duo với thiết kế bắt mắt và thu hút sự quan tâm lớn từ cộng đồng người dùng công nghệ di động.",
+        "Tác giả đề cập đến một tính năng cài đặt ẩn bên trong hệ điều hành iOS mà Apple đã chuẩn bị sẵn để xử lý tình huống ốp lưng che khuất một phần diện tích màn hình hiển thị.",
+        "Khám phá này giúp người dùng tối ưu hóa trải nghiệm thực tế khi sử dụng các loại phụ kiện bảo vệ độc đáo nhưng có thể ảnh hưởng đến khả năng hiển thị của thiết bị di động."
+      ],
+      "summary_en": [
+        "The article introduces the premium Skinarma Kyper case designed specifically for the iPhone Duo lineup featuring eye-catching aesthetics that attract significant attention from mobile technology enthusiasts.",
+        "The author highlights a hidden configuration setting within the iOS operating system that Apple specifically prepared to handle situations where protective cases obscure a portion of the display area.",
+        "This discovery helps users optimize their practical experience when utilizing unique protective accessories that might otherwise interfere with the visual interface and usability of mobile devices."
+      ],
+      "originalTitle": "Ốp Skinarma Kyper cho iPhone Duo quá đẹp",
+      "url": "https://tinhte.vn/thread/op-skinarma-kyper-cho-iphone-duo-qua-dep.4186465/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone",
+        "iOS",
+        "Mobile Accessories",
+        "Apple",
+        "UI Optimization"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-23T14:18:51.000Z",
+      "contentSnippet": "Mình mượn được 2 cái ốp Skinarma đẹp cho iPhone Duo giới thiệu với anh em nhận tiện nói anh em về việc Apple đã lường trước được ốp sẽ che một phần màn hình nên họ có hẳn một cái setting để hạn...",
+      "authorName": "cuhiep",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "71190edfb45fb74c",
+      "title_vi": "Thành phố Hồ Chí Minh vận hành khu đóng gói bán dẫn dùng chung tại Khu Công nghệ cao",
+      "title_en": "Ho Chi Minh City Operates Shared Semiconductor Packaging Facility at Hi-Tech Park",
+      "summary_vi": [
+        "Khu công nghệ cao thành phố Hồ Chí Minh vừa chính thức đưa vào vận hành phòng thí nghiệm SHTP ATP Lab nhằm phục vụ nhu cầu nghiên cứu và phát triển công nghệ bán dẫn.",
+        "Cơ sở hạ tầng này được thiết kế để các trường đại học, cao đẳng, viện nghiên cứu cùng doanh nghiệp công nghệ có thể khai thác chung cho các hoạt động thực hành và kiểm thử.",
+        "Sáng kiến này giúp giải quyết bài toán thiếu hụt trang thiết bị đắt đỏ, tạo động lực thúc đẩy hệ sinh thái phần cứng và đào tạo nguồn nhân lực chất lượng cao."
+      ],
+      "summary_en": [
+        "Ho Chi Minh City Hi-Tech Park has officially put the SHTP ATP Lab into operation to support semiconductor technology research and development demands.",
+        "This infrastructure is designed for universities, colleges, research institutes, and technology enterprises to jointly utilize for practical training and testing activities.",
+        "This initiative helps resolve the challenge of lacking expensive equipment, providing a strong impetus to drive the hardware ecosystem and high-quality workforce training."
+      ],
+      "originalTitle": "TP HCM vận hành khu đóng gói bán dẫn dùng chung",
+      "url": "https://vnexpress.net/tp-hcm-van-hanh-khu-dong-goi-ban-dan-dung-chung-5136052.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Semiconductor",
+        "Hardware",
+        "Infrastructure",
+        "R&D",
+        "Vietnam Tech"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T13:59:51.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/23/dsc01318-jpg-1792744084-5346-1792744385.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=nGKXaLz7yQOg7ZQSMiFWwA",
+      "contentSnippet": "SHTP ATP Lab đặt tại khu Công nghệ cao TP HCM, các trường đại học, cao đẳng, viện nghiên cứu, doanh nghiệp có thể cùng khai thác hạ tầng để thực hành.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b8c092cc31a1baa5",
+      "title_vi": "iPhone Duo: Mẹo tùy chỉnh hiển thị để tránh bị che khuất khi sử dụng ốp lưng",
+      "title_en": "iPhone Duo: Display Adjustment Tips to Prevent Content Clipping with Protective Cases",
+      "summary_vi": [
+        "Bài viết hướng dẫn người dùng thiết bị iPhone Duo thực hiện các thao tác điều chỉnh giao diện màn hình nhằm đảm bảo nội dung hiển thị không bị che khuất bởi các loại ốp lưng bảo vệ có viền dày hoặc thiết kế đặc thù.",
+        "Giải pháp kỹ thuật tập trung vào việc tinh chỉnh các thiết lập hiển thị trong hệ điều hành, cho phép người dùng thay đổi tỷ lệ khung hình hoặc vị trí các thành phần giao diện để tối ưu hóa không gian hiển thị thực tế trên thiết bị.",
+        "Việc áp dụng các mẹo này giúp nâng cao trải nghiệm người dùng, đảm bảo tính thẩm mỹ và khả năng tương tác chính xác với các nút điều khiển trên màn hình cảm ứng mà không cần phải thay đổi phụ kiện bảo vệ đắt tiền."
+      ],
+      "summary_en": [
+        "The article provides a guide for iPhone Duo users on how to adjust screen display settings to ensure that digital content remains fully visible and is not obstructed by thick or uniquely designed protective cases.",
+        "The technical solution focuses on tweaking operating system display settings, allowing users to modify aspect ratios or reposition interface elements to optimize the actual usable screen space on the device hardware.",
+        "Implementing these tips enhances the overall user experience, ensuring aesthetic consistency and precise interaction with on-screen touch controls without the need to replace expensive protective accessories for their mobile devices."
+      ],
+      "originalTitle": "iPhone Duo: Mẹo chỉnh màn hình để gắn ốp không mất nội dung",
+      "url": "https://tinhte.vn/thread/iphone-duo-meo-chinh-man-hinh-de-gan-op-khong-mat-noi-dung.4186435/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone",
+        "iOS",
+        "Mobile UX",
+        "Display Settings",
+        "Hardware Optimization"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-23T13:44:52.000Z",
+      "contentSnippet": "iPhone Duo: Mẹo chỉnh màn hình để gắn ốp không mất nội dung",
+      "authorName": "cuhiep",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "fdf2cba4ba9d1f3b",
+      "title_vi": "Ugreen ra mắt loạt phụ kiện mới cho iPhone 18 và iPhone Duo, có cả ốp lưng E-Ink độc đáo",
+      "title_en": "Ugreen launches a new series of accessories for iPhone 18 and iPhone Duo, including unique E-Ink cases",
+      "summary_vi": [
+        "Đây là sản phẩm đặc biệt nhất trong loạt phụ kiện mới của Ugreen.",
+        "Ốp tích hợp màn hình E-Ink màu 3,7 inch ở mặt lưng, hỗ trợ 6 màu, cho phép người dùng thay đổi hình ảnh hiển thị theo sở thích.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Ugreen ra mắt loạt phụ kiện mới cho iPhone 18 và iPhone Duo, có cả ốp lưng E-Ink độc đáo."
+      ],
+      "summary_en": [
+        "This is the most special product in Ugreen's new accessories series.",
+        "The case integrates a 3.7-inch color E-Ink screen on the back, supporting 6 colors, allowing users to change the displayed image according to their preferences.",
+        "Practical engineering impact and actionable takeaways for developers building with Ugreen launches a new series of accessories for iPhone 18 and iPhone Duo, including unique E-Ink cases."
+      ],
+      "originalTitle": "Ugreen ra mắt loạt phụ kiện mới cho iPhone 18 và iPhone Duo, có cả ốp lưng E-Ink độc đáo",
+      "url": "https://genk.vn/ugreen-ra-mat-loat-phu-kien-moi-cho-iphone-18-va-iphone-duo-co-ca-op-lung-e-ink-doc-dao-165261023165449132.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple"
+      ],
+      "hotScore": 94,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-23T13:09:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/23/avatar1792749167251-1792749176967117273322-49-0-1009-1536-crop-1792749198176542749342.jpg",
+      "contentSnippet": "Ugreen mang đến loạt sản phẩm mới cho iPhone 18 và iPhone Duo, từ ốp lưng, kính bảo vệ camera đến mẫu ốp tích hợp màn hình E-Ink ở mặt lưng.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "739b4beaf8c5887c",
+      "title_vi": "Microsoft phát hiện hacker Trung Quốc dùng tác nhân trí tuệ nhân tạo xâm nhập hàng nghìn tổ chức",
+      "title_en": "Microsoft Reveals Chinese Hackers Leveraged AI Agents to Compromise Thousands of Organizations",
+      "summary_vi": [
+        "Hãng công nghệ Microsoft vừa đưa ra cảnh báo về một nhóm tin tặc có liên quan đến nhà nước Trung Quốc đang sử dụng các khung làm việc trí tuệ nhân tạo mã nguồn mở nhằm tự động hóa quy trình tấn công mạng.",
+        "Kỹ thuật này cho phép kẻ gian khai thác lỗ hổng và xâm nhập thành công vào dịch vụ sao lưu đám mây ConnectWise, ảnh hưởng nghiêm trọng đến hơn hai nghìn hai trăm năm mươi tổ chức trên toàn cầu.",
+        "Sự kiện này đánh dấu bước chuyển biến nguy hiểm khi các nhóm tấn công mạng bắt đầu tận dụng khả năng tự trị của tác nhân thông minh để mở rộng quy mô và tốc độ xâm nhập hệ thống."
+      ],
+      "summary_en": [
+        "Microsoft recently issued a critical security warning regarding a state-sponsored Chinese hacker group utilizing open-source artificial intelligence agent frameworks to fully automate their malicious cyber attack campaigns.",
+        "This sophisticated attack technique enabled threat actors to successfully exploit vulnerabilities and breach ConnectWise cloud backup services, severely impacting over twenty-two hundred fifty organizations globally.",
+        "This incident marks a dangerous milestone as threat actors begin harnessing the autonomous capabilities of intelligent agents to scale their operations and dramatically accelerate system intrusion speeds."
+      ],
+      "originalTitle": "Microsoft: hacker Trung Quốc dùng AI agent xâm nhập ConnectWise, tấn công hơn 2.250 tổ chức",
+      "url": "https://tinhte.vn/thread/microsoft-hacker-trung-quoc-dung-ai-agent-xam-nhap-connectwise-tan-cong-hon-2-250-to-chuc.4186234/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "AI Agents",
+        "Microsoft",
+        "Cloud Security",
+        "Threat Intelligence"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T12:48:40.000Z",
+      "contentSnippet": "Microsoft cho biết một nhóm hacker có liên hệ với nhà nước Trung Quốc đã dùng một framework AI agent mã nguồn mở để tự động hóa các cuộc tấn công, trong đó có vụ xâm nhập dịch vụ sao lưu đám mây...",
+      "authorName": "TMC26",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "3d0c12692b6d847a",
+      "title_vi": "Oryza Systems mang góc nhìn giám sát thông minh đến sự kiện HPT D-DAY 2026",
+      "title_en": "Oryza Systems Brings Smart Surveillance Insights to HPT D-DAY 2026",
+      "summary_vi": [
+        "Tại sự kiện công nghệ HPT D-DAY diễn ra vào ngày 15 tháng 10 năm 2026, Công ty Cổ phần Công nghệ Oryza Systems đã giới thiệu những giải pháp giám sát thông minh tiên tiến.",
+        "Hệ thống ứng dụng trí tuệ nhân tạo để khai thác dữ liệu video thời gian thực, giúp doanh nghiệp nhận diện sự cố, đưa ra cảnh báo kịp thời và tối ưu hóa quy trình vận hành.",
+        "Công nghệ này mang lại giá trị thực tiễn cao cho việc nâng cao hiệu suất quản trị an ninh, mở ra hướng đi mới trong việc ứng dụng thị giác máy tính vào doanh nghiệp hiện đại."
+      ],
+      "summary_en": [
+        "At the HPT D-DAY technology event held on October 15, 2026, Oryza Systems Technology Joint Stock Company showcased advanced smart surveillance solutions.",
+        "The system leverages artificial intelligence to process real-time video data, enabling enterprises to detect anomalies, deliver timely alerts, and optimize operational workflows.",
+        "This technology delivers high practical value for enhancing security management efficiency, paving the way for advanced computer vision adoption in modern enterprises."
+      ],
+      "originalTitle": "Oryza Systems mang góc nhìn giám sát thông minh đến HPT D-DAY 2026",
+      "url": "https://genk.vn/oryza-systems-mang-goc-nhin-giam-sat-thong-minh-den-hpt-d-day-2026-165261023180140876.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Computer Vision",
+        "Smart Surveillance",
+        "Enterprise Solutions"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T12:30:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/23/photo1792740261131-17927402623031565164307-17927533071501980717541.jpg",
+      "contentSnippet": "Ngày 15/10/2026 tại HPT D-DAY 2026, Công ty Cổ phần Công nghệ Oryza Systems (Oryza Systems) đã mang đến góc nhìn về ứng dụng AI trong giám sát, giúp doanh nghiệp khai thác dữ liệu video để nhận diện, cảnh báo kịp thời và hỗ trợ vận hành hiệu quả.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e2243cf8564bc23d",
+      "title_vi": "Jensen Huang: Cảnh báo về ngày tận thế do trí tuệ nhân tạo chỉ là chiêu trò gây chú ý",
+      "title_en": "Jensen Huang: AI apocalypse warnings are just cheap attention-seeking tactics",
+      "summary_vi": [
+        "Tại hội nghị GTC diễn ra ở Berlin, CEO Nvidia Jensen Huang đã bác bỏ những lo ngại cực đoan về việc trí tuệ nhân tạo sẽ xóa sổ nhân loại, khẳng định đây chỉ là những phát ngôn thiếu căn cứ nhằm thu hút sự chú ý của dư luận.",
+        "Ông nhấn mạnh sự bùng nổ của các trung tâm dữ liệu AI đang tạo ra hàng triệu việc làm mới trong các lĩnh vực hạ tầng kỹ thuật, xây dựng và kỹ thuật mạng, đồng thời thúc đẩy sự phát triển mạnh mẽ của hệ sinh thái các công ty khởi nghiệp công nghệ.",
+        "Thay vì lo sợ viễn cảnh tiêu cực, ông kêu gọi cộng đồng công nghệ tiếp cận trí tuệ nhân tạo với tinh thần lạc quan có trách nhiệm, tập trung giải quyết các bài toán thực tế về an toàn và tối ưu hóa hiệu suất công việc trong tương lai."
+      ],
+      "summary_en": [
+        "At the GTC conference in Berlin, Nvidia CEO Jensen Huang dismissed extreme fears regarding AI wiping out humanity, asserting that such alarmist claims are merely baseless statements designed to capture public attention and generate sensationalist headlines.",
+        "He highlighted that the rapid expansion of AI data centers is creating millions of new jobs across infrastructure, construction, and network engineering, while simultaneously fueling the growth of a vibrant ecosystem for innovative technology startups.",
+        "Instead of fearing negative scenarios, he urged the tech community to approach artificial intelligence with responsible optimism, focusing on addressing practical challenges regarding safety and optimizing professional workflows in the evolving digital landscape."
+      ],
+      "originalTitle": "Jensen Huang: 'Tận thế AI là nỗ lực gây chú ý rẻ tiền'",
+      "url": "https://vnexpress.net/jensen-huang-tan-the-ai-la-no-luc-gay-chu-y-re-tien-5136003.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Nvidia",
+        "Data Centers",
+        "Tech Trends",
+        "Jensen Huang"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/23/ap26268019310901-1792733613-1285-1792733957.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FtyB49X0_RUai40hihPdqg",
+      "contentSnippet": "Jensen Huang, CEO Nvidia, cho rằng những cảnh báo về việc AI xóa sổ loài người không chính xác mà chỉ nhằm thu hút sự chú ý của dư luận.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f53e948d054a8a0d",
+      "title_vi": "Cùng công nghệ nano-texture, màn hình iPhone gập và iPad Pro khác nhau thế nào?",
+      "title_en": "How does the nano-texture display on foldable iPhone compare to the iPad Pro?",
+      "summary_vi": [
+        "Apple đã từng bước tích hợp công nghệ màn hình phủ kính nano-texture từ dòng máy tính bảng cao cấp sang các thiết bị di động màn hình gập mới nhất của hãng.",
+        "Bề mặt kính khắc nano giúp tản sáng hiệu quả, giảm hiện tượng chói lóa khi sử dụng dưới ánh đèn mạnh hoặc ngoài trời nắng gắt mà vẫn giữ nguyên độ chi tiết hiển thị.",
+        "Việc phổ biến công nghệ vật liệu hiển thị này trên các thiết bị cầm tay mang lại trải nghiệm thị giác tốt hơn, đặt ra tiêu chuẩn mới cho thiết kế phần cứng di động."
+      ],
+      "summary_en": [
+        "Apple has gradually integrated nano-texture glass display technology from high-end tablets into their latest generation of foldable mobile hardware devices.",
+        "The nano-etched glass surface effectively scatters light, reducing glare under strong artificial lighting or direct sunlight while preserving crisp visual details.",
+        "Standardizing this advanced display material technology across handheld devices delivers superior visual experiences, setting new benchmarks for mobile hardware engineering."
+      ],
+      "originalTitle": "Cùng là nano-texture, màn hình trên iPhone Duo khác gì iPad Pro?",
+      "url": "https://genk.vn/cung-la-nano-texture-man-hinh-tren-iphone-duo-khac-gi-ipad-pro-165261023180008898.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "iPad Pro",
+        "Display Technology",
+        "Hardware"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-23T11:59:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/23/avatar1792752977489-1792752979923378882057.jpg",
+      "contentSnippet": "Cùng mang tên nano-texture, màn hình iPhone Duo và iPad Pro lại được tạo ra theo hai cách khác nhau.",
+      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -7959,515 +8464,6 @@
       "publishedAt": "2026-10-15T23:18:28.000Z",
       "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK138_Stream_Kradtke_01.jpg?quality=90&strip=all&crop=0,0,100,100",
       "contentSnippet": "Valve is introducing a major new feature for Steam achievements called \"achievement sets\" that lets developers list different groups of achievements for a base game and DLCs. \"In games that support sets, you still unlock achievements by playing the game as usual,\" Valve says. \"But when you browse wh",
-      "authorName": "Jay Peters",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e07170025272d6f1",
-      "title_vi": "Trợ lý ảo ChatGPT nay đã có thể đọc và tương tác trực tiếp với các tab trình duyệt Chrome của bạn",
-      "title_en": "ChatGPT can peek at your Chrome tabs now",
-      "summary_vi": [
-        "Tiện ích mở rộng của ChatGPT trên trình duyệt Google Chrome vừa được nâng cấp tính năng cho phép ứng dụng này truy cập và đọc nội dung các tab đang mở nhằm phục vụ người dùng tốt hơn.",
-        "Bằng cách gắn thẻ trình duyệt Chrome trong ứng dụng web hoặc ứng dụng máy tính, hệ thống có thể phân tích trực tiếp dữ liệu từ nhiều tab để so sánh sản phẩm hoặc xử lý tác vụ theo yêu cầu.",
-        "Tính năng mới này mang sức mạnh điều khiển máy tính của trí tuệ nhân tạo tiếp cận đông đảo người dùng phổ thông, đánh dấu bước tiến quan trọng trong việc tích hợp AI sâu hơn vào trình duyệt."
-      ],
-      "summary_en": [
-        "The ChatGPT extension for Google Chrome has received a major upgrade allowing the application to access and read the content of currently open browser tabs to better assist users.",
-        "By tagging the Chrome browser within the web or desktop app, the system can directly analyze data from multiple tabs to compare products or process tasks based on specific user requests.",
-        "This new capability brings computer use AI power to mainstream users, marking a significant milestone in integrating artificial intelligence deeper into everyday web browsing workflows."
-      ],
-      "originalTitle": "ChatGPT can peek at your Chrome tabs now",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Chrome",
-        "OpenAI",
-        "Browser Extension",
-        "Automation"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-15T22:43:23.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-15-at-6.35.44-PM.png?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app",
-      "authorName": "Stevie Bonifield",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "179d1e00725540fe",
-      "title_vi": "Quảng cáo mục tiêu phát tán mã độc không cần nhấp chuột nhắm vào thiết bị di động",
-      "title_en": "Targeted ads delivered 0-click exploits to install mercenary malware",
-      "summary_vi": [
-        "Các nhà nghiên cứu phát hiện ra rằng mã độc đánh thuê đã được lồng ghép tinh vi vào các quảng cáo trực tuyến nhằm tấn công trực diện vào thiết bị di động của các cá nhân mục tiêu chỉ bằng thao tác tải trang web.",
-        "Chiến dịch mang tên AdFection này khai thác các lỗ hổng không cần tương tác trên cả hệ điều hành di động phổ biến là iOS và Android, lây nhiễm thành công cho hàng chục thiết bị của một tổ chức truyền thông lớn.",
-        "Sự cố an ninh mạng này gióng lên hồi chuông cảnh báo mạnh mẽ cho các cơ quan báo chí và tổ chức toàn cầu về các nguy cơ tiềm ẩn từ phương thức phân phối phần mềm gián điệp qua mạng lưới quảng cáo."
-      ],
-      "summary_en": [
-        "Researchers discovered that mercenary spyware was intricately embedded into online advertisements to directly attack the mobile devices of targeted individuals simply through loading a webpage.",
-        "This campaign named AdFection exploits zero-click vulnerabilities across popular mobile operating systems like iOS and Android, successfully infecting dozens of devices at a major media organization.",
-        "This cybersecurity incident serves as a strong warning signal for news agencies and global organizations regarding potential threats originating from spyware distribution via advertising networks."
-      ],
-      "originalTitle": "Targeted ads delivered 0-click exploits to install mercenary malware",
-      "url": "https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Zero-click",
-        "Malware",
-        "Mobile Security",
-        "Spyware"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-15T20:32:41.000Z",
-      "contentSnippet": "The incident is likely 1st confirmation of mercenary spyware delivered by targeted ads.",
-      "authorName": "\n                    Dan Goodin\n                ",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "d8398fb46a8661e8",
-      "title_vi": "Ngôn ngữ tự nhiên cũng có sự đánh đổi thiết kế: Tiếng Gruzia được định kiểu động, tiếng Anh được định kiểu tĩnh",
-      "title_en": "Natural Languages Have Design Trade-offs Too: Georgian Is Dynamically Typed, English Is Statically Typed",
-      "summary_vi": [
-        "Bài viết khám phá cách các mô hình trí tuệ nhân tạo xử lý các ngôn ngữ ít phổ biến thông qua việc so sánh cấu trúc ngữ pháp giữa tiếng Gruzia và tiếng Anh dưới lăng kính lập trình.",
-        "Tác giả phân tích các đặc điểm ngôn ngữ như việc tiếng Gruzia không phân biệt chữ hoa chữ thường hay không sử dụng mạo từ, tương tự như các khái niệm về kiểu dữ liệu động và tĩnh trong phát triển phần mềm.",
-        "Việc hiểu rõ các điểm đánh đổi trong cấu trúc ngôn ngữ tự nhiên giúp các kỹ sư cải thiện khả năng xử lý ngôn ngữ tự nhiên và xây dựng các thuật toán AI hiệu quả hơn."
-      ],
-      "summary_en": [
-        "The article explores how artificial intelligence models handle uncommon languages by comparing the grammatical structures of Georgian and English through the lens of programming paradigms.",
-        "The author analyzes linguistic features such as Georgian lacking uppercase letters and articles, drawing parallels to dynamic and static typing concepts found in modern software development.",
-        "Understanding these structural trade-offs in natural languages helps engineers improve natural language processing capabilities and build more effective artificial intelligence algorithms."
-      ],
-      "originalTitle": "Natural Languages Have Design Trade-offs Too: Georgian Is Dynamically Typed, English Is Statically Typed",
-      "url": "https://dev.to/georgekobaidze/natural-languages-have-design-trade-offs-too-georgian-is-dynamically-typed-english-is-statically-emi",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "NLP",
-        "Software Engineering",
-        "Machine Learning",
-        "Programming Paradigms"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-15T19:22:46.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fox7963esvydjbsiqboye.jpeg",
-      "contentSnippet": "Table of Contents How This Started Feature #1: Articles (or the Lack of Them) The...",
-      "authorName": "Giorgi Kobaidze",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F55651%2F3ad144e9-ca91-4395-b73a-9a0a3d843af9.jpg",
-      "upvotes": 97,
-      "commentsCount": 52
-    },
-    {
-      "id": "499fcbd081b8b35b",
-      "title_vi": "Mô hình Trí tuệ Nhân tạo Mở Muse Spark Open",
-      "title_en": "Muse Spark Open",
-      "summary_vi": [
-        "Mô hình trí tuệ nhân tạo nguồn mở tiên tiến nhất hiện nay vừa chính thức ra mắt, mang lại khả năng tác tử mạnh mẽ lần đầu tiên trực tiếp trên hệ thống máy tính để bàn Apple M5 Ultra Mac Studios.",
-        "Hệ thống sở hữu kiến trúc đa phương thức bản địa với tổng cộng 816 tỷ tham số, trong đó có 42 tỷ tham số hoạt động, kết hợp cùng cửa sổ ngữ cảnh lên tới 1 triệu token nhằm tối ưu hóa hiệu suất lập trình.",
-        "Công nghệ đột phá này được hỗ trợ trên nhiều nền tảng suy luận và khung phần mềm lớn, tạo điều kiện thuận lợi cho các nhà phát triển tùy chỉnh và triển khai trên các thiết bị phần cứng đa dạng."
-      ],
-      "summary_en": [
-        "The most advanced open-weight artificial intelligence model to date has officially launched, bringing powerful agentic capabilities directly to desktop systems on Apple M5 Ultra Mac Studios for the first time.",
-        "The system features a natively multimodal architecture with 816 billion total parameters, including 42 billion active parameters, combined with a massive one-million token context window to optimize programming performance.",
-        "This breakthrough technology is supported across multiple major inference platforms and software frameworks, enabling developers to easily customize and deploy models on diverse hardware silicon architectures."
-      ],
-      "originalTitle": "Muse Spark Open",
-      "url": "https://research.meta.ai/blog/muse-spark-open",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Open Source",
-        "Machine Learning",
-        "Apple Silicon",
-        "LLM"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-15T17:47:39.000Z",
-      "contentSnippet": "Muse Spark Open is available today and brings leading agentic capabilities to your desktop for the first time on Apple M5 Ultra Mac Studios. Today, we’re releasing the weights for Muse Spark Open, the most capable US open-weight model to date. Muse Spark Open is a natively multimodal model with 816B",
-      "authorName": "bigwheels",
-      "upvotes": 634,
-      "commentsCount": 360
-    },
-    {
-      "id": "4d011f309cdd05c9",
-      "title_vi": "Mô hình Trí tuệ Nhân tạo Siêu Xanh 1 Flash",
-      "title_en": "Ultramarine 1 Flash Model",
-      "summary_vi": [
-        "Mô hình trí tuệ nhân tạo mới mang tên Siêu Xanh 1 Flash đạt hiệu năng ngang tầm các hệ thống cao cấp trong các tác vụ tri thức phức tạp như tài chính, luật pháp, tư vấn chiến lược và vận hành doanh nghiệp với mức chi phí tiết kiệm hơn đáng kể.",
-        "Kết quả kiểm thử trên các bộ chuẩn mực cho thấy mô hình vượt trội hoặc bám sát các đối thủ hàng đầu trong ngành, đồng thời sở hữu hiệu suất sử dụng mã thông báo tốt hơn 6.5% so với mô hình cơ sở nhờ quy trình tối ưu hóa đường truyền dữ liệu.",
-        "Sản phẩm định hình lại biên giới chi phí và chất lượng trong ngành công nghệ khi cung cấp giải pháp xử lý tác vụ với giá thành thấp nhưng mang lại năng lực phân tích tiệm cận các hệ thống lớn nhất hiện nay."
-      ],
-      "summary_en": [
-        "The newly introduced artificial intelligence model delivers enterprise-class performance across complex knowledge work domains including finance, law, consulting, and operations at a significantly lower cost compared to existing industry solutions.",
-        "Benchmark evaluations demonstrate that the model competes closely with or surpasses top industry alternatives while achieving improved token efficiency over its base architecture through streamlined data processing pathways.",
-        "This development redefines the cost-quality frontier in the technology sector by offering high-capability task execution at an attractive price point that rivals the largest frontier models available today."
-      ],
-      "originalTitle": "Ultramarine 1 Flash",
-      "url": "https://www.paperinstruments.com/ultramarine",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Artificial Intelligence",
-        "Machine Learning",
-        "Language Models",
-        "Cost Efficiency",
-        "Tech Benchmarks"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-15T17:06:01.000Z",
-      "contentSnippet": "Ultramarine 1 Flash is Fable-class on knowledge work spanning finance, law, consulting, and operations. It is also 60x cheaper than Fable. Model weights coming soonTechnical report →Built for professional workJobBenchUltramarine 1 Flash62.9Gemini 3.8 Flash60.6DeepSeek V4.1 Flash60.4Claude Fable 557.",
-      "authorName": "i_rush_carriers",
-      "upvotes": 246,
-      "commentsCount": 71
-    },
-    {
-      "id": "c5b39a9089cec894",
-      "title_vi": "Chọn cổng trung chuyển AI API: Bốn bài kiểm tra nhanh trong mười phút",
-      "title_en": "Choosing an AI API Gateway: Four Quick Tests to Run in Ten Minutes",
-      "summary_vi": [
-        "Việc lựa chọn cổng trung chuyển API cho trí tuệ nhân tạo đang trở nên phức tạp khi thị trường xuất hiện hàng loạt nhà cung cấp khác nhau đòi hỏi lập trình viên phải có phương pháp đánh giá khách quan.",
-        "Bài viết đề xuất bốn bài kiểm tra thực tế bao gồm đo độ trễ mạng, kiểm tra tính ổn định, xác thực định dạng phản hồi và đánh giá khả năng xử lý lỗi dưới tải cao.",
-        "Những phương pháp này giúp kỹ sư phần mềm nhanh chóng tìm ra giải pháp cổng trung chuyển tối ưu, đảm bảo hiệu suất vận hành hệ thống AI ổn định và tiết kiệm chi phí."
-      ],
-      "summary_en": [
-        "Choosing an AI API gateway has become complex as the market sees numerous providers, requiring developers to adopt objective evaluation methodologies for system integration.",
-        "The article proposes four practical tests including network latency measurement, stability checks, response format validation, and error handling assessment under high loads.",
-        "These methodologies help software engineers quickly identify the optimal gateway solution, ensuring stable AI system operational performance and cost efficiency."
-      ],
-      "originalTitle": "Chọn cổng trung chuyển AI API: bốn bài kiểm tra bạn tự chạy được trong mười phút",
-      "url": "https://viblo.asia/p/chon-cong-trung-chuyen-ai-api-bon-bai-kiem-tra-ban-tu-chay-duoc-trong-muoi-phut-bNVQGp7oJvR",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "API",
-        "Gateway",
-        "DevOps",
-        "Software Architecture"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-15T17:03:45.000Z",
-      "contentSnippet": "Chọn cổng trung chuyển AI API: bốn bài kiểm tra bạn tự chạy được trong mười phút Khi tìm kiếm \"API trung chuyển AI\", bạn sẽ gặp hàng chục bài \"tổng h...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0cee6f29c7ee7c26",
-      "title_vi": "Bản tin trí tuệ nhân tạo buổi chiều: Điểm nhấn mô hình HiRO-ACEv2 và các xu hướng công nghệ nổi bật từ Hacker News",
-      "title_en": "Afternoon AI Bulletin: Spotlight on HiRO-ACEv2 and Key Technological Shifts from Hacker News",
-      "summary_vi": [
-        "Cộng đồng công nghệ trong nước và quốc tế đã thảo luận sôi nổi về những bước chuyển dịch chiến lược trong lĩnh vực trí tuệ nhân tạo, tập trung vào việc tối ưu hóa hiệu suất và khả năng mở rộng của các hệ thống máy học hiện đại.",
-        "Tâm điểm của phiên làm việc chiều nay là mô hình HiRO-ACEv2, mang đến những cải tiến đáng kể về kiến trúc mạng nơ-ron giúp giảm thiểu độ trễ xử lý dữ liệu và nâng cao độ chính xác trong các tác vụ suy luận phức tạp.",
-        "Sự kiện này đánh dấu bước tiến quan trọng cho các nhà phát triển phần mềm trong việc tích hợp các mô hình AI thế hệ mới vào ứng dụng thực tế, đồng thời định hình xu hướng nghiên cứu và phát triển phần mềm trong giai đoạn tới."
-      ],
-      "summary_en": [
-        "The domestic and international technology communities engaged in lively discussions regarding strategic shifts in artificial intelligence, focusing on optimizing performance and scalability for modern machine learning systems.",
-        "The centerpiece of this afternoon session was the HiRO-ACEv2 model, introducing significant architectural neural network improvements that reduce data processing latency and enhance accuracy in complex inference tasks.",
-        "This development marks a crucial milestone for software developers integrating next-generation AI models into practical applications, while shaping the overall research and software engineering trends for the upcoming period."
-      ],
-      "originalTitle": "AI Buổi Chiều (15/10/2026): Tiêu điểm HiRO-ACEv2 và những bước chuyển từ Hacker News",
-      "url": "https://viblo.asia/p/ai-buoi-chieu-15102026-tieu-diem-hiro-acev2-va-nhung-buoc-chuyen-tu-hacker-news-wlVmRl9145Z",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "HiRO-ACEv2",
-        "Hacker News",
-        "Software Architecture"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-15T16:27:05.000Z",
-      "contentSnippet": "AI Buổi Chiều (15/10/2026): Tiêu điểm HiRO-ACEv2 và những bước chuyển từ Hacker News Trong phiên buổi chiều ngày 15/10/2026, cộng đồng công nghệ ghi...",
-      "authorName": "Xuân Chinh Trịnh",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1369e19fc843c415",
-      "title_vi": "Kỷ nguyên debug mới: Kết nối liền mạch giữa AI Agent và Chrome DevTools thông qua MCP",
-      "title_en": "New era of debugging: Seamless connection between AI Agent and Chrome DevTools via MCP",
-      "summary_vi": [
-        "Phá vỡ khoảng cách giữa AI và môi trường thực thi trình duyệt Trong nhiều năm qua, việc tích hợp AI vào quy trình phát triển front-end luôn vướng phả.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Kỷ nguyên debug mới: Kết nối liền mạch giữa AI Agent và Chrome DevTools thông qua MCP.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Kỷ nguyên debug mới: Kết nối liền mạch giữa AI Agent và Chrome DevTools thông qua MCP."
-      ],
-      "summary_en": [
-        "Breaking the gap between AI and the browser execution environment Over the years, integrating AI into the front-end development process has always been problematic.",
-        "In-depth technical breakdown and implementation mechanisms introduced in New era of debugging: Seamless connection between AI Agent and Chrome DevTools via MCP.",
-        "Practical engineering impact and actionable takeaways for developers building with New era of debugging: Seamless connection between AI Agent and Chrome DevTools via MCP."
-      ],
-      "originalTitle": "Kỷ nguyên debug mới: Kết nối liền mạch giữa AI Agent và Chrome DevTools thông qua MCP",
-      "url": "https://viblo.asia/p/ky-nguyen-debug-moi-ket-noi-lien-mach-giua-ai-agent-va-chrome-devtools-thong-qua-mcp-1XVOW0G6VMz",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 90,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-15T16:04:11.000Z",
-      "contentSnippet": "Phá vỡ khoảng cách giữa AI và môi trường thực thi trình duyệt Trong nhiều năm qua, việc tích hợp AI vào quy trình phát triển front-end luôn vướng phả...",
-      "authorName": "Xuân Chinh Trịnh",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f5a871d77a792b9a",
-      "title_vi": "Thay đổi ngôn ngữ prompt ảnh hưởng thế nào đến source set của ChatGPT qua 12 cặp prompt Việt-Anh",
-      "title_en": "How changing prompt language affects ChatGPT source sets through 12 Vietnamese-English prompt pairs",
-      "summary_vi": [
-        "Bài viết nghiên cứu mức độ thay đổi của tập nguồn dữ liệu trên ChatGPT khi người dùng giữ nguyên ý định tìm kiếm nhưng chuyển đổi ngôn ngữ giữa tiếng Việt và tiếng Anh.",
-        "Tác giả tiến hành phân tích chi tiết mười hai cặp prompt song ngữ để đo lường độ lệch và sự dịch chuyển nguồn tài liệu mà mô hình ngôn ngữ lớn trả về.",
-        "Kết quả phân tích giúp các kỹ sư và nhà phát triển tối ưu hóa cách viết câu lệnh để thu thập kết quả tìm kiếm chính xác và đa dạng hơn."
-      ],
-      "summary_en": [
-        "The article investigates how ChatGPT source sets fluctuate when users maintain the exact search intent while switching languages between Vietnamese and English.",
-        "The author performs a detailed analysis of twelve bilingual prompt pairs to measure the variance and shift in reference materials returned by the large language model.",
-        "The analytical findings assist engineers and developers in optimizing prompt engineering strategies to gather more accurate and diverse search results."
-      ],
-      "originalTitle": "Cùng một intent, đổi ngôn ngữ thì source set của ChatGPT thay đổi bao nhiêu? Phân tích 12 cặp prompt Việt–Anh",
-      "url": "https://viblo.asia/p/cung-mot-intent-doi-ngon-ngu-thi-source-set-cua-chatgpt-thay-doi-bao-nhieu-phan-tich-12-cap-prompt-vietanh-kY4gDNa0JAe",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "ChatGPT",
-        "Prompt Engineering",
-        "AI Search",
-        "LLM"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-15T14:55:41.000Z",
-      "contentSnippet": "Sau khi kiểm tra độ ổn định của source set qua nhiều lần chạy cùng một prompt, tôi muốn thử một biến khác: điều gì xảy ra khi giữ nguyên nhu cầu nhưng...",
-      "authorName": "Trung Tran Anh",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b1ca96da61abb351",
-      "title_vi": "Hãng điện tử LG hợp tác cùng Apple phát triển hệ sinh thái thiết bị nhà thông minh tích hợp sâu",
-      "title_en": "LG and Apple Partner to Develop New Smart Home Ecosystem with Integrated iPhone Features",
-      "summary_vi": [
-        "Tập đoàn công nghệ LG và hãng Apple vừa công bố kế hoạch hợp tác chiến lược nhằm phát triển một hệ sinh thái thiết bị nhà thông minh hoàn toàn mới, đánh dấu bước tiến lớn trong việc kết nối phần cứng gia dụng với các nền tảng di động cao cấp.",
-        "Danh mục sản phẩm hợp tác bao gồm hệ thống camera độ phân giải cao 2.5K, chuông cửa video thông minh, khóa cửa tích hợp tính năng mở khóa trực tiếp bằng điện thoại iPhone, cùng với các thiết bị điều chỉnh nhiệt độ và cảm biến môi trường tiên tiến.",
-        "Sự kiện này mở ra hướng đi mới cho các nhà phát triển trong việc tối ưu hóa giao thức giao tiếp giữa thiết bị IoT và hệ điều hành di động, nâng cao trải nghiệm tự động hóa và bảo mật cho người dùng trên toàn cầu."
-      ],
-      "summary_en": [
-        "Technology giant LG and Apple have announced a strategic partnership to develop a brand new smart home ecosystem, marking a significant milestone in connecting household hardware with advanced mobile platforms.",
-        "The collaborative product lineup includes high-resolution 2.5K cameras, smart video doorbells, door locks with direct iPhone unlocking capabilities, as well as advanced thermostat systems and environmental sensors.",
-        "This initiative opens up new avenues for developers to optimize communication protocols between IoT devices and mobile operating systems, significantly enhancing automation and security experiences for global users."
-      ],
-      "originalTitle": "LG bắt tay Apple phát triển hệ sinh thái nhà thông minh mới, từ camera 2.5K đến khóa cửa mở bằng iPhone",
-      "url": "https://genk.vn/lg-bat-tay-apple-phat-trien-he-sinh-thai-nha-thong-minh-moi-tu-camera-25k-den-khoa-cua-mo-bang-iphone-165261015173046356.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Smart Home",
-        "IoT",
-        "Apple",
-        "LG",
-        "Mobile Integration"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-15T10:29:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/15/avatar1792059844752-17920598450011571792658.jpg",
-      "contentSnippet": "LG và Apple cùng phát triển loạt phụ kiện nhà thông minh mới, gồm camera 2.5K, chuông cửa video, khóa cửa hỗ trợ mở bằng iPhone, bộ điều chỉnh nhiệt độ và cảm biến môi trường, dự kiến mở bán tại Mỹ, Canada và Anh từ tháng 12/2026.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "85dfb3b43e3789e3",
-      "title_vi": "Xu hướng tìm kiếm công nghệ tại Việt Nam: Giá điện thoại mới, công cụ trí tuệ nhân tạo và cơ hội việc làm ngành lập trình",
-      "title_en": "Technology Search Trends in Vietnam: New Smartphone Prices, Artificial Intelligence Tools, and Software Engineering Job Opportunities",
-      "summary_vi": [
-        "Người dùng internet tại Việt Nam đang thể hiện sự quan tâm mạnh mẽ đến thông tin giá cả dòng điện thoại thông minh thế hệ mới cũng như độ bền của các thiết bị cũ đã qua sử dụng trên thị trường.",
-        "Bên cạnh phần cứng di động, nhu cầu tìm hiểu và tích hợp các ứng dụng trí tuệ nhân tạo vào môi trường học tập, nghiên cứu và phát triển sản phẩm phần mềm ngày càng tăng cao rõ rệt.",
-        "Thị trường lao động công nghệ thông tin ghi nhận xu hướng tìm kiếm việc làm lập trình và kỹ thuật số tại các địa phương, phản ánh sự dịch chuyển và phát triển của nguồn nhân lực số."
-      ],
-      "summary_en": [
-        "Internet users in Vietnam are showing strong interest in pricing information for next-generation smartphone lineups alongside the durability and performance of used mobile devices available on the market.",
-        "Beyond mobile hardware, the demand for exploring and integrating artificial intelligence applications into academic learning, research processes, and software product development is increasing significantly.",
-        "The information technology labor market records a growing trend of searching for software engineering and digital technology jobs across local regions, reflecting the transformation of human resources."
-      ],
-      "originalTitle": "Người Việt tìm gì trên mạng: Giá iPhone 18, công cụ AI và việc làm IT",
-      "url": "https://tuoitre.vn/nguoi-viet-tim-gi-tren-mang-gia-iphone-18-cong-cu-ai-va-viec-lam-it-100261015094611513.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "AI",
-        "Mobile",
-        "Job Market",
-        "Tech Trends",
-        "Smartphones"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-15T10:12:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/15/xu-huong-tim-kiem-nguoi-dung-viet-iphone-18-dthien-17920322091731184828988-0-0-983-1572-crop-17920323314681912777149.png",
-      "contentSnippet": "Người dùng Việt quan tâm giá iPhone mới, độ bền máy cũ, ứng dụng AI vào học tập và tìm việc công nghệ tại các địa phương.",
-      "authorName": "ĐỨC THIỆN⭐",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4d32b945ce375edf",
-      "title_vi": "Thử chụp chân dung và dưới mưa với iPhone 18 Pro Max",
-      "title_en": "Try taking portraits and in the rain with iPhone 18 Pro Max",
-      "summary_vi": [
-        "Thời gian mình được cầm máy không quá nhiều và trong thời gian vừa rồi ở Sài Gòn khá nhiều mưa, cho nên mình thử đem máy đi chụp dưới mưa một số ảnh, cùng một ít ảnh chân dung.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Thử chụp chân dung và dưới mưa với iPhone 18 Pro Max.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Thử chụp chân dung và dưới mưa với iPhone 18 Pro Max."
-      ],
-      "summary_en": [
-        "I didn't have much time to hold the camera and recently it was quite rainy in Saigon, so I tried taking the camera out in the rain to take some photos, along with a few portraits.",
-        "In-depth technical breakdown and implementation mechanisms introduced in Try taking portraits and in the rain with iPhone 18 Pro Max.",
-        "Practical engineering impact and actionable takeaways for developers building with Try taking portraits and in the rain with iPhone 18 Pro Max."
-      ],
-      "originalTitle": "Thử chụp chân dung và dưới mưa với iPhone 18 Pro Max",
-      "url": "https://tinhte.vn/thread/thu-chup-chan-dung-va-duoi-mua-voi-iphone-18-pro-max.4184449/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-15T10:05:35.000Z",
-      "contentSnippet": "Thời gian mình được cầm máy không quá nhiều và trong thời gian vừa rồi ở Sài Gòn khá nhiều mưa, cho nên mình thử đem máy đi chụp dưới mưa một số ảnh, cùng một ít ảnh chân dung. Ảnh mình chụp...",
-      "authorName": "Nhà Của Cáo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "76aa8e6ab6d5fa05",
-      "title_vi": "Trình mô phỏng phần cứng máy tính Commodore 64 cho phép làm hỏng chip và chân cắm để kiểm tra kết quả",
-      "title_en": "The Commodore 64 hardware simulator: break chips and pins, see the results",
-      "summary_vi": [
-        "Công cụ mô phỏng phần cứng dòng máy tính huyền thoại Commodore 64 mới ra mắt mang đến trải nghiệm trực quan giúp người dùng dễ dàng thử nghiệm các kịch bản hỏng hóc linh kiện điện tử.",
-        "Hệ thống cho phép người dùng tác động trực tiếp bằng cách làm đứt các chân cắm hoặc làm hỏng các con chip ảo để quan sát các hiện tượng lỗi hiển thị trên màn hình thời gian thực.",
-        "Ứng dụng này đóng vai trò là tài nguyên giáo dục vô giá cho các kỹ sư phần cứng và nhà phát triển hệ thống nhúng trong việc chẩn đoán lỗi phần cứng cổ điển."
-      ],
-      "summary_en": [
-        "A newly released hardware simulation tool for the legendary Commodore 64 computer provides an intuitive experience allowing users to easily test electronic component failure scenarios.",
-        "The system allows users to directly interact by breaking pins or damaging virtual chips to observe real-time error manifestations and display anomalies on the screen.",
-        "This application serves as an invaluable educational resource for hardware engineers and embedded systems developers in diagnosing classic hardware faults effectively."
-      ],
-      "originalTitle": "The Commodore 64 hardware simulator: break chips and pins, see the results",
-      "url": "https://github.com/antirez/c64-hw-simulator",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Hardware",
-        "Simulator",
-        "Embedded Systems",
-        "Commodore 64",
-        "Retro Computing"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-15T07:18:14.000Z",
-      "contentSnippet": "The Commodore 64 hardware simulator: break chips and pins, see the results",
-      "authorName": "antirez",
-      "upvotes": 65,
-      "commentsCount": 11
-    },
-    {
-      "id": "6b777a64b2ab003f",
-      "title_vi": "Hãng sản xuất chip nhớ Trung Quốc CXMT gây chấn động thị trường bán dẫn toàn cầu",
-      "title_en": "Chinese Memory Chip Maker CXMT Causes Shockwave in Global Semiconductor Market",
-      "summary_vi": [
-        "Công ty sản xuất chip nhớ Trung Quốc ChangXin Memory Technologies vừa thông báo đạt được bước tiến công nghệ quan trọng trong việc phát triển kiến trúc bộ nhớ mới mang tên 4F vuông.",
-        "Kiến trúc bán dẫn tiên tiến này cho phép tích hợp khối lượng dữ liệu lớn hơn vào không gian vật lý vô cùng nhỏ gọn, chuẩn bị ra mắt dòng chip máy chủ vào cuối năm.",
-        "Sự kiện đột phá này lập tức tạo ra làn sóng lo ngại sâu sắc trên thị trường tài chính, khiến cổ phiếu của các hãng chip lớn như SK Hynix và Samsung sụt giảm mạnh."
-      ],
-      "summary_en": [
-        "Chinese memory chip manufacturer ChangXin Memory Technologies recently announced a significant technological breakthrough in developing a new memory architecture called 4F square.",
-        "This advanced semiconductor architecture allows massive amounts of data to be integrated into an extremely compact physical space, with server chips scheduled for release later this year.",
-        "This breakthrough immediately triggered deep concern in financial markets, causing stock prices of major chipmakers like SK Hynix and Samsung to drop sharply across the board."
-      ],
-      "originalTitle": "Hãng chip nhớ Trung Quốc CXMT gây xáo động thị trường",
-      "url": "https://vnexpress.net/hang-chip-nho-trung-quoc-cxmt-gay-xao-dong-thi-truong-5132433.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Semiconductor",
-        "CXMT",
-        "Hardware",
-        "Memory",
-        "Tech Trends"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-15T05:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/15/aag5zy6izbkprdiq2bnz3mwjde1785-4726-1533-1792003257.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=_-vlIiXpowHNZWnjQonScQ",
-      "contentSnippet": "Sau khi công ty chip nhớ CXMT thông báo bước tiến công nghệ mới, cổ phiếu nhiều đối thủ lao dốc do lo ngại cạnh tranh và tâm lý thận trọng.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e10522981d38e793",
-      "title_vi": "Công ty tư vấn McKinsey yêu cầu ứng viên phỏng vấn thử nghiệm với khách hàng giả lập bằng trí tuệ nhân tạo",
-      "title_en": "McKinsey is making job applicants spar with a fake AI client",
-      "summary_vi": [
-        "Công ty tư vấn McKinsey và Company áp dụng quy trình phỏng vấn mới, yêu cầu một số ứng viên đầu vào thực hiện cuộc trò chuyện kéo dài mười phút với mô hình khách hàng ảo được hỗ trợ bởi công nghệ trí tuệ nhân tạo.",
-        "Hệ thống mô phỏng trí tuệ nhân tạo này được thiết kế để phản ánh khoảng tám mươi phần trăm các tình huống thực tế mà tư vấn viên thường gặp trong công việc hằng ngày mà không đóng vai khách hàng quá khích.",
-        "Giải pháp ứng dụng trí tuệ nhân tạo trong tuyển dụng này giúp tối ưu hóa quy trình đánh giá năng lực thực tế, trong khi các chuyên gia nhân sự con người vẫn trực tiếp theo dõi và chấm điểm ứng viên."
-      ],
-      "summary_en": [
-        "Consulting firm McKinsey and Company is introducing a new interview process that requires certain entry level candidates to conduct a ten minute conversation with a virtual client simulation powered by artificial intelligence technology.",
-        "This artificial intelligence simulation system is designed to reflect approximately eighty percent of the real world scenarios that consultants typically encounter in their daily work without mimicking an unhinged client behavior.",
-        "The integration of artificial intelligence tools in recruitment helps optimize practical competency assessments while human recruiters remain directly in the room to evaluate and score the candidates performance."
-      ],
-      "originalTitle": "McKinsey is making job applicants spar with a fake AI client",
-      "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Artificial Intelligence",
-        "Recruitment Tech",
-        "Simulation",
-        "Machine Learning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-14T22:53:31.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK414_AI_CVIRGINIA_2_C-2.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Consulting firm McKinsey & Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal. The AI simulation \"aims to reflect 80% of the scenarios McKinsey consultants might",
       "authorName": "Jay Peters",
       "upvotes": 0,
       "commentsCount": 0
