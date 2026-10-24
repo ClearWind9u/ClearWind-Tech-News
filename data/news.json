@@ -1,7 +1,211 @@
 {
-  "lastUpdated": "2026-10-24T10:03:07.669Z",
+  "lastUpdated": "2026-10-24T20:02:01.933Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "4628501ca0718826",
+      "title_vi": "Chuyện gì xảy ra khi cho nhân vật trí tuệ nhân tạo khả năng ghi nhớ",
+      "title_en": "What happens when you give an artificial intelligence character a memory system",
+      "summary_vi": [
+        "Bài viết giới thiệu nền tảng AgentVerse chuyên xây dựng các xã hội mô phỏng thu nhỏ gồm các nhân vật trí tuệ nhân tạo tiên tiến có khả năng ghi nhớ toàn diện lịch sử hoạt động.",
+        "Hệ thống cho phép các tác nhân thông minh tự động lập kế hoạch chi tiết, thực thi tác vụ hàng ngày và suy ngẫm sâu sắc về các sự kiện diễn ra xung quanh chúng.",
+        "Công nghệ này mở ra hướng đi mới trong việc nghiên cứu hành vi tập thể của các tác nhân tự trị, cung cấp giải pháp mô phỏng xã hội phức tạp cho các kỹ sư phần mềm."
+      ],
+      "summary_en": [
+        "The article introduces the AgentVerse platform specializing in building miniature simulated societies consisting of advanced artificial intelligence characters capable of comprehensive memory retention.",
+        "The system allows intelligent agents to automatically generate detailed plans, execute daily tasks, and engage in deep reflection regarding the events happening around them.",
+        "This technology opens up new directions in researching collective behaviors of autonomous agents, providing complex social simulation solutions for modern software engineers."
+      ],
+      "originalTitle": "Chuyện gì xảy ra khi bạn cho một nhân vật AI có trí nhớ?",
+      "url": "https://viblo.asia/p/chuyen-gi-xay-ra-khi-ban-cho-mot-nhan-vat-ai-co-tri-nho-kNLr3ePWVgA",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "AgentVerse",
+        "Machine Learning",
+        "Simulation",
+        "Artificial Intelligence"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T01:38:25.000Z",
+      "contentSnippet": "Giới thiệu AgentVerse: tạo những xã hội nhỏ gồm các nhân vật AI biết nhớ, biết lập kế hoạch và biết suy ngẫm. Xem họ sống một ngày của mình, rồi bước ...",
+      "authorName": "Tran Quoc Sang",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "8f6f258cb0b6175e",
+      "title_vi": "Hướng dẫn viết CLAUDE.md để trợ lý AI Claude Code hiểu đúng dự án phần mềm của bạn",
+      "title_en": "How to Write CLAUDE.md to Help Claude Code Understand Your Software Project Properly",
+      "summary_vi": [
+        "Bài viết chia sẻ kinh nghiệm thực tế của một lập trình viên khi sử dụng trợ lý mã nguồn nhân tạo Claude Code làm công cụ phát triển phần mềm chính hàng ngày trong các dự án web hiện tại.",
+        "Tác giả hướng dẫn chi tiết cách cấu hình và tối ưu hóa tệp tin CLAUDE.md để cung cấp đầy đủ ngữ cảnh dự án, giúp các tác nhân mã hóa hiểu sâu hơn về kiến trúc và quy ước mã nguồn.",
+        "Giải pháp này mang lại giá trị thiết thực giúp lập trình viên tiết kiệm thời gian, hạn chế lỗi cú pháp và nâng cao hiệu suất làm việc đáng kể khi tích hợp trí tuệ nhân tạo vào quy trình phát triển."
+      ],
+      "summary_en": [
+        "The article shares practical experience from a developer who uses the artificial intelligence coding assistant Claude Code as their primary daily software development tool in active web projects.",
+        "The author provides a detailed guide on how to configure and optimize the CLAUDE.md file to supply complete project context, helping coding agents deeply understand system architecture and coding conventions.",
+        "This solution delivers practical value by saving developers time, reducing syntax errors, and significantly improving productivity when integrating artificial intelligence into the software development workflow."
+      ],
+      "originalTitle": "Hướng dẫn viết CLAUDE.md để Claude Code hiểu đúng dự án của bạn",
+      "url": "https://viblo.asia/p/huong-dan-viet-claudemd-de-claude-code-hieu-dung-du-an-cua-ban-1QLxnORx4Aw",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Claude Code",
+        "Software Engineering",
+        "Developer Tools"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-24T23:58:37.000Z",
+      "contentSnippet": "Mình là Tony, hiện làm và vận hành các sản phẩm web, sử dụng Claude Code làm công cụ phát triển chính hằng ngày. Khi đưa coding agent vào một repo đã ...",
+      "authorName": "Toan Bui",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5d62c82c0a38fe99",
+      "title_vi": "Cơ sở dữ liệu Greenplum Bài học 15: Kỹ thuật nén dữ liệu và so sánh ZSTD, QuickLZ, Zlib trên bảng hướng cột",
+      "title_en": "Greenplum Database Lesson 15: Data Compression Techniques Comparing ZSTD, QuickLZ, and Zlib on Columnar Tables",
+      "summary_vi": [
+        "Bài viết tiếp tục chuỗi chuyên đề về mô hình lưu trữ hướng cột Append-Optimized Column-Oriented, tập trung khai thác sâu vào tầm quan trọng sống còn của kỹ thuật nén dữ liệu trong hệ quản trị cơ sở dữ liệu phân tán lớn.",
+        "Nội dung đi sâu phân tích cơ chế hoạt động, ưu nhược điểm và hiệu suất thực tế của ba thuật toán nén phổ biến là ZSTD, QuickLZ và Zlib khi được áp dụng trực tiếp lên các bảng dữ liệu hướng cột của hệ thống.",
+        "Kiến thức này mang lại giá trị thực tiễn cao giúp các kỹ sư dữ liệu và quản trị hệ thống tối ưu hóa dung lượng lưu trữ đĩa cứng, giảm thiểu băng thông mạng và cải thiện đáng kể hiệu suất truy vấn phân tích."
+      ],
+      "summary_en": [
+        "The article continues the series on the Append-Optimized Column-Oriented storage model, focusing deeply on the critical importance of data compression techniques within large distributed database management systems.",
+        "It provides a thorough analysis of the operational mechanisms, pros, and practical performance of three popular compression algorithms, namely ZSTD, QuickLZ, and Zlib, when applied directly to columnar tables.",
+        "This knowledge delivers high practical value by helping data engineers and system administrators optimize disk storage capacity, minimize network bandwidth, and significantly improve analytical query performance."
+      ],
+      "originalTitle": "Greenplum Database Bài học 15: Kỹ thuật nén dữ liệu (Compression): So sánh ZSTD, QuickLZ và Zlib trên bảng Columnar",
+      "url": "https://viblo.asia/p/greenplum-database-bai-hoc-15-ky-thuat-nen-du-lieu-compression-so-sanh-zstd-quicklz-va-zlib-tren-bang-columnar-lZL9XOzbJQK",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Greenplum",
+        "Database",
+        "Compression",
+        "ZSTD",
+        "Columnar"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-24T23:03:45.000Z",
+      "contentSnippet": "Ở Bài học 14, chúng ta đã mở cánh cửa đến với mô hình lưu trữ hướng cột (AOCO - Append-Optimized Column-Oriented). Một trong những lý do lớn nhất khiế...",
+      "authorName": "Nguyen Hoang",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "2607000fb07861d3",
+      "title_vi": "Cơ sở dữ liệu Greenplum Bài học 14: So sánh bảng hướng dòng và hướng cột để tối ưu hóa I/O cho truy vấn tổng hợp",
+      "title_en": "Greenplum Database Lesson 14: Row-Oriented vs Column-Oriented Tables for I/O Optimization in Aggregation Queries",
+      "summary_vi": [
+        "Bài viết tiếp tục chuỗi chuyên đề về cơ sở dữ liệu Greenplum, tập trung phân tích sâu về cơ chế lưu trữ dữ liệu giữa bảng hướng dòng truyền thống và bảng hướng cột nhằm giải quyết các bài toán tối ưu hóa hiệu năng hệ thống.",
+        "Tác giả đi sâu mổ xẻ nguyên lý hoạt động của kiến trúc bảng tối ưu hóa phụ lục kết hợp định dạng lưu trữ theo cột, giúp giảm thiểu đáng kể lưu lượng I/O ổ đĩa khi thực hiện các truy vấn tổng hợp dữ liệu lớn.",
+        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư dữ liệu và kiến trúc sư hệ thống trong việc thiết kế, lựa chọn phương án lưu trữ tối ưu nhằm nâng cao tốc độ xử lý cho các hệ thống phân tích dữ liệu lớn."
+      ],
+      "summary_en": [
+        "The article continues the Greenplum database series, focusing deeply on the data storage mechanisms between traditional row-oriented and column-oriented tables to solve system performance optimization problems.",
+        "The author dissects the operational principles of append-optimized architectures combined with columnar storage formats, helping to significantly reduce disk I/O traffic when executing large-scale data aggregation queries.",
+        "This knowledge provides high practical value for data engineers and system architects in designing and selecting optimal storage strategies to enhance processing speeds for big data analytical systems."
+      ],
+      "originalTitle": "Greenplum Database Bài học 14: Row-Oriented vs Column-Oriented (AOCO): Tối ưu hóa I/O cho các truy vấn tổng hợp (Aggregation)",
+      "url": "https://viblo.asia/p/greenplum-database-bai-hoc-14-row-oriented-vs-column-oriented-aoco-toi-uu-hoa-io-cho-cac-truy-van-tong-hop-aggregation-oKLnqjWNJQO",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Greenplum",
+        "Database",
+        "Big Data",
+        "SQL",
+        "Performance"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-24T23:03:39.000Z",
+      "contentSnippet": "Ở Bài học 13, chúng ta đã biết Append-Optimized (AO) Tables giúp giải quyết bài toán lưu trữ dữ liệu lịch sử khổng lồ nhờ cơ chế ghi tuần tự và nén dữ...",
+      "authorName": "Nguyen Hoang",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c7aa9b7dfeaf83bd",
+      "title_vi": "Bang Pennsylvania yêu cầu dán nhãn đối với các quảng cáo do trí tuệ nhân tạo tạo ra",
+      "title_en": "Pennsylvania will require labels on AI-generated ads",
+      "summary_vi": [
+        "Thống đốc bang Pennsylvania đã chính thức ký ban hành đạo luật mới nhằm quản lý chặt chẽ các nội dung quảng cáo được tạo ra bởi trí tuệ nhân tạo.",
+        "Đạo luật yêu cầu mọi hình thức quảng cáo từ hình ảnh tĩnh, video, âm thanh cho đến văn bản nếu có sự can thiệp đáng kể của AI đều phải gắn nhãn nhận diện rõ ràng.",
+        "Quy định này đánh dấu bước tiến pháp lý quan trọng tại Mỹ nhằm minh bạch hóa công nghệ AI và bảo vệ người tiêu dùng trước các thông tin sai lệch."
+      ],
+      "summary_en": [
+        "The Governor of Pennsylvania has officially signed a new law into strict regulation for advertising contents generated by artificial intelligence.",
+        "The legislation mandates that any advertising format including static images, videos, audio, and text with significant AI intervention must display clear identification labels.",
+        "This regulation marks a crucial legal milestone in the United States aimed at AI transparency and consumer protection against deceptive information."
+      ],
+      "originalTitle": "Pennsylvania will require labels on AI-generated ads",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Regulation",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Security"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-24T18:32:21.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK445_ADVERTISING_STK093_GOOGLE_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artifi",
+      "authorName": "Terrence O’Brien",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "252c1598a3e5277a",
+      "title_vi": "Hệ thống robot thông minh Dream-1 ra mắt với khoản đầu tư hạt giống chín mươi triệu đô la",
+      "title_en": "Dream-1 intelligent robot system launches with ninety million dollars in seed funding",
+      "summary_vi": [
+        "Công ty khởi nghiệp Dream Labs vừa chính thức thoát khỏi giai đoạn hoạt động bí mật và huy động thành công số vốn hạt giống khổng lồ lên tới chín mươi triệu đô la để phát triển hệ thống robot thông minh.",
+        "Sản phẩm chủ lực Dream-1 cho phép kết nối trực tiếp với giao diện lập trình ứng dụng mà không cần huấn luyện lại chuyên sâu, giải quyết triệt để bài toán thiếu hụt dữ liệu khởi đầu trong ngành công nghiệp robot.",
+        "Bước tiến công nghệ này mở ra kỷ nguyên mới cho trí tuệ nhân tạo tổng quát trong phần cứng, giúp các thiết bị tự động hóa thích ứng nhanh chóng với môi trường thực tế mà không đòi hỏi chuyên môn học máy."
+      ],
+      "summary_en": [
+        "Startup company Dream Labs has officially emerged from stealth mode and successfully raised a massive ninety million dollars in seed funding to develop advanced intelligent robot systems.",
+        "The flagship product Dream-1 allows direct connection through application programming interfaces without requiring intensive retraining, fundamentally solving the cold start data shortage problem in robotics.",
+        "This technological breakthrough opens a new era for general purpose artificial intelligence in hardware, helping automation devices rapidly adapt to real environments without demanding machine learning expertise."
+      ],
+      "originalTitle": "Dream-1",
+      "url": "https://dreamlabs.ai/research/dream-1/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Robotics",
+        "Startups",
+        "Machine Learning",
+        "API"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-24T18:23:24.000Z",
+      "contentSnippet": "00:00 / 01:59 Launch video Give Dream-1 a new bimanual robot with parallel grippers, connect it to our API, and it can start performing tasks out of the box. No fine-tuning, no demonstrations from that robot, and no machine learning expertise required. This is an important step toward general-purpos",
+      "authorName": "GaggiX",
+      "upvotes": 78,
+      "commentsCount": 43
+    },
     {
       "id": "665f36301bb973a3",
       "title_vi": "Zentro v0.10.0: IDE SQL Open Source (GPL-3.0), viết bằng Go + Wails",
@@ -31,6 +235,74 @@
       "authorName": "Alex Wyn",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "8ac95f5563e7d87b",
+      "title_vi": "Kênh JerryRigEverything thử nghiệm độ bền iPhone Duo với màn hình gập và cơ chế bản lề",
+      "title_en": "JerryRigEverything Tests Durability of Foldable iPhone Duo with Hinge Mechanism",
+      "summary_vi": [
+        "Kênh YouTube công nghệ nổi tiếng JerryRigEverything vừa công bố video thử nghiệm độ bền thực tế của chiếc điện thoại màn hình gập đầu tiên mang thương hiệu Apple, thu hút sự chú ý lớn từ cộng đồng mạng.",
+        "Kết quả kiểm tra cho thấy thiết bị gặp vấn đề nghiêm trọng với bụi kẹt trong cơ chế bản lề và màn hình bên trong đã bị phá hỏng hoàn toàn sau bài thử nghiệm bẻ ngược phần khung máy.",
+        "Sự cố này đặt ra thách thức lớn về kỹ thuật cơ khí và độ bền vật liệu cho các nhà sản xuất phần cứng khi phát triển thiết bị di động màn hình gập thế hệ mới trong tương lai."
+      ],
+      "summary_en": [
+        "The popular tech YouTube channel JerryRigEverything recently published a durability test video of Apple's first foldable smartphone, generating massive attention across the global technology community.",
+        "The test results revealed serious issues with dust particles getting trapped in the hinge mechanism while the internal flexible display was completely destroyed after being bent backward.",
+        "This failure highlights significant mechanical engineering and material durability challenges for hardware manufacturers when developing next-generation foldable mobile devices in the competitive market."
+      ],
+      "originalTitle": "JerryRigEverything thử độ bền iPhone Duo: bụi kẹt bản lề, bẻ ngược làm chết màn hình gập",
+      "url": "https://tinhte.vn/thread/jerryrigeverything-thu-do-ben-iphone-duo-bui-ket-ban-le-be-nguoc-lam-chet-man-hinh-gap.4186671/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "Foldable",
+        "Hardware",
+        "Mobile"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-24T16:23:10.000Z",
+      "contentSnippet": "Kênh YouTube JerryRigEverything của Zack Nelson vừa đăng video thử độ bền iPhone Duo, chiếc điện thoại gập đầu tiên của Apple. Kết quả: máy không vượt qua bài thử, màn hình gập bên trong hư hoàn...",
+      "authorName": "osx",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c852cf262baca51d",
+      "title_vi": "Roku chuyển kho mã nguồn nhà phát triển từ GitHub sang GitLab",
+      "title_en": "Roku developer repositories moved from GitHub to GitLab",
+      "summary_vi": [
+        "Công ty Roku đã thực hiện quá trình chuyển đổi toàn bộ kho lưu trữ mã nguồn dành cho nhà phát triển từ nền tảng GitHub sang GitLab nhằm tối ưu hóa quy trình làm việc.",
+        "Việc di cư hệ thống quản lý mã nguồn lớn đòi hỏi cấu hình lại các đường ống tự động hóa kiểm thử, quy trình tích hợp liên tục và phân quyền bảo mật cho hàng nghìn thành viên tham gia.",
+        "Sự kiện này phản ánh xu hướng dịch chuyển hạ tầng DevOps của các tập đoàn công nghệ lớn nhằm tìm kiếm giải pháp quản lý mã nguồn linh hoạt và phù hợp hơn với chiến lược phát triển nội bộ."
+      ],
+      "summary_en": [
+        "Roku has executed the migration of its entire developer source code repositories from the GitHub platform to GitLab in order to optimize their internal software development workflows.",
+        "Transitioning large-scale code management systems requires reconfiguration of automated test pipelines, continuous integration processes, and security permission structures for thousands of participating engineers.",
+        "This event reflects a broader industry trend among major tech corporations shifting their DevOps infrastructure to find more flexible source management solutions tailored to internal strategies."
+      ],
+      "originalTitle": "Roku developer repositories moved from GitHub to GitLab",
+      "url": "https://blog.roku.com/developer/gitlab-move",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "DevOps",
+        "GitLab",
+        "GitHub",
+        "Source Control",
+        "Roku"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-24T16:06:26.000Z",
+      "contentSnippet": "Roku developer repositories moved from GitHub to GitLab",
+      "authorName": "cxr",
+      "upvotes": 185,
+      "commentsCount": 124
     },
     {
       "id": "74ffec629939a73c",
@@ -101,6 +373,76 @@
       "commentsCount": 0
     },
     {
+      "id": "d31f8fa997636f36",
+      "title_vi": "Mẫu tivi OLED C6 của LG giảm giá mạnh trước thềm sự kiện mua sắm Black Friday",
+      "title_en": "LG’s brilliant C6 OLED TV is already $400 off ahead of Black Friday",
+      "summary_vi": [
+        "Hãng điện tử LG vừa khởi động chương trình khuyến mãi sớm cho dòng tivi OLED C6 trước dịp Black Friday, cho phép người dùng sở hữu các mẫu màn hình cao cấp với mức giá ưu đãi hấp dẫn tại nhiều hệ thống bán lẻ lớn.",
+        "Thiết bị được trang bị bộ vi xử lý AI Alpha 11 thế hệ thứ ba, hỗ trợ tần số quét lên tới 165Hz, tích hợp các chuẩn kết nối HDMI 2.1 cùng công nghệ đồng bộ hình ảnh G-Sync và FreeSync Premium dành cho game thủ chuyên nghiệp.",
+        "Bên cạnh những nâng cấp về phần cứng và khả năng xử lý hình ảnh, người dùng cần lưu ý các vấn đề liên quan đến quyền riêng tư và chính sách thu thập dữ liệu người dùng trên các dòng tivi thông minh hiện nay."
+      ],
+      "summary_en": [
+        "LG has officially launched an early Black Friday promotion for its C6 OLED television series, offering significant price reductions on various screen sizes through major retail partners before the traditional November shopping season begins.",
+        "The hardware features the advanced Alpha 11 AI Gen3 processor, supports a 165Hz refresh rate, and includes four HDMI 2.1 ports alongside AMD FreeSync Premium and Nvidia G-Sync compatibility for high-performance gaming and smooth visuals.",
+        "While the device offers impressive technical specifications and smart home integration, users should remain aware of ongoing industry discussions regarding data collection practices and privacy concerns associated with modern smart television operating systems."
+      ],
+      "originalTitle": "LG’s brilliant C6 OLED TV is already $400 off ahead of Black Friday",
+      "url": "https://www.theverge.com/gadgets/1017768/lg-c6-oled-tv-early-black-friday-2026-deal-sale",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "OLED",
+        "Hardware",
+        "Gaming",
+        "Privacy",
+        "SmartTV"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-24T15:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/TV-OLED55C6PUA-Brilliant-oled-pictures_features_900x600.avif?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "LG’s C6 OLED TV is on sale in multiple sizes starting at $999.99 ($300 off). | Image: LG Black Friday is still over a month away, but if you’re hoping to upgrade your TV, you don’t need to wait until November. LG has already kicked off its early Black Friday sale, letting you save on the LG C6 and v",
+      "authorName": "Sheena Vasani",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "79912674b2ceb123",
+      "title_vi": "Tôi hy vọng chiếc máy tính xách tay màn hình cảm ứng của Táo Khuyết sẽ học hỏi một số bài học từ chiếc máy tính xách tay của hãng Lenovo này",
+      "title_en": "I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop",
+      "summary_vi": [
+        "Tin đồn về việc dòng máy tính xách tay phổ biến của Táo Khuyết chuẩn bị ra mắt phiên bản tích hợp màn hình cảm ứng đang thu hút sự quan tâm lớn từ cộng đồng công nghệ toàn cầu trong tuần này.",
+        "Trải nghiệm thực tế trên dòng thiết bị chuyển đổi hai trong một sử dụng bộ vi xử lý nền tảng kiến trúc Arm kết hợp với bộ xử lý đồ họa tích hợp mạnh mẽ mang lại hiệu năng ấn tượng.",
+        "Sự kết hợp giữa thiết kế linh hoạt cùng công nghệ phần cứng tiên tiến này có thể định hình lại tiêu chuẩn thiết kế cho các thế hệ máy tính xách tay màn hình cảm ứng trong tương lai."
+      ],
+      "summary_en": [
+        "Rumors about the popular lineup of touchscreen laptops from the tech giant preparing for release are attracting significant attention from the global technology community this week.",
+        "Hands-on experience with the versatile two-in-one convertible device utilizing an Arm-based processor architecture combined with a powerful integrated graphics processing unit delivers impressive performance.",
+        "The combination of flexible design and advanced hardware technology could reshape design standards for future generations of touchscreen laptops across the entire industry."
+      ],
+      "originalTitle": "I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop",
+      "url": "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "MacBook",
+        "Lenovo",
+        "ARM",
+        "Hardware",
+        "Touchscreen"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-24T14:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268814_Nvidia_RTX_Spark_HP_Lenovo_Yoga_9n_ADiBenedetto_0001.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "The Lenovo Yoga 9n is a pricey workstation laptop, but being a 2-in-1 also makes it fun. | Photo: Antonio G. Di Benedetto / The Verge It looks like the long-rumored touchscreen MacBook might actually get announced next week, and after using the Lenovo Yoga 9n for our testing of Nvidia's RTX Spark pl",
+      "authorName": "Antonio G. Di Benedetto",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "fe83f887c4bdc87d",
       "title_vi": "Tính nhất quán và Hiệu năng: Bài toán truy vấn trong kiến trúc Microservices",
       "title_en": "Consistency vs. Performance: The Overlooked Query Design Problem in Microservices",
@@ -131,6 +473,40 @@
       "publishedAt": "2026-10-24T13:49:37.000Z",
       "contentSnippet": "1. Một API đơn giản, một vấn đề không đơn giản Hãy tưởng tượng bạn đang phát triển một hệ thống thương mại điện tử. Khi người dùng mở trang chi tiết ...",
       "authorName": "Hưng Phạm",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "73363ede06d374d6",
+      "title_vi": "Một số điện thoại gập iPhone Duo gặp lỗi nứt và sọc màn hình",
+      "title_en": "Several iPhone Duo foldable phones experiencing screen cracking and line defects",
+      "summary_vi": [
+        "Nhiều người dùng thiết bị di động đã báo cáo hiện tượng điện thoại gập iPhone Duo bị nứt hoặc xuất hiện các đường sọc trên màn hình mặc dù không chịu bất kỳ tác động lực mạnh nào từ bên ngoài.",
+        "Sự cố phần cứng nghiêm trọng này ảnh hưởng trực tiếp đến tấm nền hiển thị của màn hình gập, đi kèm với đó là một số lỗi phát sinh liên quan đến giao diện người dùng trong quá trình sử dụng hàng ngày.",
+        "Vấn đề này đặt ra thách thức lớn cho các kỹ sư phần cứng và nhà sản xuất trong việc cải tiến độ bền vật liệu màn hình gập, đồng thời cảnh báo về rủi ro chất lượng đối với dòng thiết bị di động thế hệ mới."
+      ],
+      "summary_en": [
+        "Multiple mobile device users have reported that their iPhone Duo foldable phones are experiencing screen cracking and vertical line defects without suffering any heavy external physical impacts.",
+        "This critical hardware issue directly impacts the flexible display panels of the foldable devices, accompanied by various user interface glitches encountered during standard daily operations.",
+        "This problem presents a significant challenge for hardware engineers and manufacturers to improve foldable display material durability, while highlighting quality risks for next-generation mobile devices."
+      ],
+      "originalTitle": "Một số iPhone Duo bị nứt, sọc màn hình",
+      "url": "https://vnexpress.net/mot-so-iphone-duo-bi-nut-soc-man-hinh-5136441.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone Duo",
+        "Foldable Phone",
+        "Hardware Failure",
+        "Mobile Display"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-24T10:49:41.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/24/screenshot-at-copy-1792837172-5532-1792837334.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=07lY7JJ9DXAo-Uhk2qx0Xw",
+      "contentSnippet": "Một số người dùng cho biết điện thoại gập iPhone Duo bị nứt hoặc xuất hiện sọc màn hình dù không tác động lực mạnh, trong khi số khác gặp sự cố giao diện.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8122,362 +8498,6 @@
       "publishedAt": "2026-10-16T17:01:08.000Z",
       "contentSnippet": "I'll be honest. For a long time I thought API automation was something you got around to once the \"real\" work was done. We had a QA engineer who knew ...",
       "authorName": "Marcus Keenton",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "bec2fb9bad576461",
-      "title_vi": "Cách ghi lại một lần thử công cụ viết truyện trí tuệ nhân tạo để so sánh có ý nghĩa",
-      "title_en": "How to Document an AI Storytelling Tool Trial for Meaningful Comparison",
-      "summary_vi": [
-        "Bài viết thảo luận về phương pháp ghi chép và đánh giá các công cụ viết truyện tích hợp trí tuệ nhân tạo nhằm tạo ra các bảng so sánh thực sự mang lại giá trị tham khảo cho người dùng.",
-        "Tác giả phân tích tầm quan trọng của việc làm rõ nguồn gốc dữ liệu thử nghiệm, bao gồm tính năng trên trang sản phẩm, kết quả thực tế và ngữ cảnh tạo sinh để đảm bảo tính khách quan kỹ thuật.",
-        "Phương pháp này giúp các nhà phát triển và người sáng tạo nội dung có cái nhìn toàn diện, nâng cao chất lượng đánh giá hiệu năng mô hình ngôn ngữ lớn trong lĩnh vực sáng tạo văn bản."
-      ],
-      "summary_en": [
-        "The article discusses methodology for documenting and evaluating artificial intelligence-powered storytelling tools to create comparison tables that deliver genuine reference value for users.",
-        "The author analyzes the importance of clarifying test data origins, including product page features, practical outputs, and generation contexts to ensure technical objectivity.",
-        "This approach helps developers and content creators gain a comprehensive perspective, enhancing the quality of large language model performance evaluation in text creation."
-      ],
-      "originalTitle": "Cách ghi lại một lần thử công cụ viết truyện AI để so sánh có ý nghĩa",
-      "url": "https://viblo.asia/p/cach-ghi-lai-mot-lan-thu-cong-cu-viet-truyen-ai-de-so-sanh-co-y-nghia-RlL5eOqBLbB",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "LLM",
-        "Content Generation",
-        "Evaluation",
-        "Natural Language Processing"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-16T16:01:40.000Z",
-      "contentSnippet": "Một bảng so sánh công cụ viết truyện AI sẽ hữu ích hơn nếu người đọc biết từng nhận xét đến từ đâu. Tính năng được mô tả trên trang sản phẩm, kết quả ...",
-      "authorName": "Carol Luo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "445b03009b3850bf",
-      "title_vi": "Cơn sốt iPhone gập tại Việt Nam: Nguồn cung khan hiếm khiến người dùng phải chờ đợi đến năm sau",
-      "title_en": "The Foldable iPhone Frenzy in Vietnam: Supply Shortages Force Customers to Wait Until Next Year",
-      "summary_vi": [
-        "Thị trường thiết bị di động tại Việt Nam đang chứng kiến sự quan tâm đặc biệt đối với mẫu điện thoại gập đầu tiên của Apple, dù mức giá khởi điểm lên tới gần 65 triệu đồng và số lượng máy về nước vô cùng hạn chế.",
-        "Thiết bị sử dụng công nghệ màn hình gập tiên tiến với cơ chế bản lề phức tạp, đòi hỏi quy trình sản xuất khắt khe khiến nguồn cung toàn cầu bị thắt chặt, dẫn đến tình trạng người dùng phải đặt cọc trước một nửa giá trị máy.",
-        "Sự khan hiếm này phản ánh thách thức trong việc thương mại hóa các thiết bị phần cứng cao cấp, đồng thời cho thấy xu hướng người dùng sẵn sàng chi trả mức giá cao cho những đổi mới đột phá trong thiết kế di động."
-      ],
-      "summary_en": [
-        "The mobile market in Vietnam is witnessing intense interest in Apple's first foldable smartphone, despite a premium starting price of nearly 65 million VND and extremely limited initial stock availability for local consumers.",
-        "The device features advanced foldable display technology and a complex hinge mechanism, requiring rigorous manufacturing standards that constrain global supply and force customers to pay a significant deposit to secure their pre-orders.",
-        "This scarcity highlights the challenges of scaling production for high-end hardware innovations while demonstrating that consumers are increasingly willing to pay a premium for breakthrough advancements in mobile device form factors."
-      ],
-      "originalTitle": "Cọc 30 triệu đồng, canh đúng 19h để bấm đặt, nhiều người Việt vẫn lỡ \"chuyến\" iPhone Duo đầu tiên: Đặt bây giờ thì phải đến Tết năm sau mới cầm được máy",
-      "url": "https://genk.vn/coc-30-trieu-dong-canh-dung-19h-de-bam-dat-nhieu-nguoi-viet-van-lo-chuyen-iphone-duo-dau-tien-dat-bay-gio-thi-phai-den-tet-nam-sau-moi-cam-duoc-may-165261016224525002.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Foldable",
-        "Hardware",
-        "Mobile"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-16T15:45:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/16/cleanshot2026-10-16at223950-81-159-595-981-crop-1792165349525935789871.jpg",
-      "contentSnippet": "Mẫu iPhone gập đầu tiên của Apple có giá từ 64,99 triệu đồng, người mua phải cọc trước gần một nửa số tiền, trong khi số máy về Việt Nam đợt đầu rất ít.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "bf25cd44780fc5b4",
-      "title_vi": "Bản sao WhatsApp giả xuất hiện trước phiên bản thật trên Play Store",
-      "title_en": "A fake WhatsApp clone is showing up before the real version on the Play Store",
-      "summary_vi": [
-        "Sau khi một bản sao Chrome được phát hiện trên Play Store vào đầu tuần này, một người dùng trên Reddit cho biết họ đang nhìn thấy một phiên bản WhatsApp giả mạo ở một vị trí \"được tài trợ\" phía trên phiên bản thật.",
-        "Theo báo cáo trước đó của Android Authority, bản lừa đảo WhatsApp đã đạt được hơn 500.000 lượt tải xuống và tại thời điểm viết bài, danh sách Cửa hàng Play của nó vẫn tồn tại.",
-        "Google đã không trả lời ngay lập tức yêu cầu bình luận."
-      ],
-      "summary_en": [
-        "After a Chrome clone was spotted on the Play Store earlier this week, a user on Reddit says they're seeing a fake version of WhatsApp in a \"sponsored\" slot above the real version.",
-        "As reported earlier by Android Authority, the WhatsApp dupe has racked up over 500,000 downloads and, at the time of writing, its Play Store listing is still live.",
-        "Google did not immediately respond to a request for comment."
-      ],
-      "originalTitle": "A fake WhatsApp clone is showing up before the real version on the Play Store",
-      "url": "https://www.theverge.com/tech/1012918/google-play-store-fake-whatsapp-android",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "Android"
-      ],
-      "hotScore": 94,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-16T15:02:23.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/acastro_STK460_googlePlay_04.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "After a Chrome clone was spotted on the Play Store earlier this week, a user on Reddit says they're seeing a fake version of WhatsApp in a \"sponsored\" slot above the real version. As reported earlier by Android Authority, the WhatsApp dupe has racked up over 500,000 downloads and, at the time of wri",
-      "authorName": "Stevie Bonifield",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "54ebdfe79863725a",
-      "title_vi": "Một tuần với RTX Spark: mọi điều chúng tôi học được khi sử dụng máy tính xách tay mới của Nvidia",
-      "title_en": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
-      "summary_vi": [
-        "SoC mới của Nvidia có sẵn trong máy tính xách tay Windows của sáu nhà sản xuất khác nhau.",
-        "Cho đến nay, chúng tôi đã thử nghiệm chung bốn trong số chúng.",
-        "Di Benedetto / The Verge Bộ xử lý RTX Spark N1X của Nvidia cuối cùng cũng đã xuất hiện và chúng tôi đã cùng nhau thử nghiệm một số lượng lớn máy tính xách tay mạnh mẽ trang bị \"siêu chip\" mới này. RTX Spark được thiết kế để trở thành SoC dựa trên Arm hiệu suất cao dành cho máy tính xách tay và máy tính để bàn nhỏ, cạnh tranh với những sản phẩm tốt nhất của Apple, Intel, AMD và Qualcomm."
-      ],
-      "summary_en": [
-        "Nvidia’s new SoC is available in Windows laptops from six different manufacturers.",
-        "We’ve collectively tested four of them so far.",
-        "Di Benedetto / The Verge Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm."
-      ],
-      "originalTitle": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
-      "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Nvidia",
-        "Apple"
-      ],
-      "hotScore": 87,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-16T15:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268814_Nvidia_RTX_Spark_laptops_Asus_HP_Lenovo_ADiBenedetto_0001.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Nvidia’s new SoC is available in Windows laptops from six different manufacturers. We’ve collectively tested four of them so far. | Photo: Antonio G. Di Benedetto / The Verge Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful lap",
-      "authorName": "Antonio G. Di Benedetto",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "641788091d231939",
-      "title_vi": "FPT và NVIDIA mở rộng gấp 10 lần bộ dữ liệu Nemotron-Personas-Vietnam, thúc đẩy làn sóng Agentic AI",
-      "title_en": "FPT and NVIDIA expand the Nemotron-Personas-Vietnam data set 10 times, driving the Agentic AI wave",
-      "summary_vi": [
-        "Ngày 16/10/2026 - FPT công bố mở rộng Nemotron-Personas-Vietnam, bộ dữ liệu mở gồm các chân dung người dùng tổng hợp được xây dựng dựa trên dữ liệu nhân khẩu học và lao động chính thức của Việt Nam.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong FPT và NVIDIA mở rộng gấp 10 lần bộ dữ liệu Nemotron-Personas-Vietnam, thúc đẩy làn sóng Agentic AI.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến FPT và NVIDIA mở rộng gấp 10 lần bộ dữ liệu Nemotron-Personas-Vietnam, thúc đẩy làn sóng Agentic AI."
-      ],
-      "summary_en": [
-        "October 16, 2026 - FPT announced the expansion of Nemotron-Personas-Vietnam, an open data set of synthetic user personas built on Vietnam's official demographic and labor data.",
-        "In-depth technical breakdown and implementation mechanisms introduced in FPT and NVIDIA expand the Nemotron-Personas-Vietnam data set 10 times, driving the Agentic AI wave.",
-        "Practical engineering impact and actionable takeaways for developers building with FPT and NVIDIA expand the Nemotron-Personas-Vietnam data set 10 times, driving the Agentic AI wave."
-      ],
-      "originalTitle": "FPT và NVIDIA mở rộng gấp 10 lần bộ dữ liệu Nemotron-Personas-Vietnam, thúc đẩy làn sóng Agentic AI",
-      "url": "https://genk.vn/fpt-va-nvidia-mo-rong-gap-10-lan-bo-du-lieu-nemotron-personas-vietnam-thuc-day-lan-song-agentic-ai-165261016215547252.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Nvidia"
-      ],
-      "hotScore": 98,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-16T15:00:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/16/photo1792148143002-1792148143256256571079-1792162550317165980447.png",
-      "contentSnippet": "Ngày 16/10/2026 - FPT công bố mở rộng Nemotron-Personas-Vietnam, bộ dữ liệu mở gồm các chân dung người dùng tổng hợp được xây dựng dựa trên dữ liệu nhân khẩu học và lao động chính thức của Việt Nam.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "23e1e35eacf9efce",
-      "title_vi": "Ứng dụng Git Worktree trong hệ sinh thái Microservices Bài 1: Giải quyết nỗi ám ảnh chuyển đổi ngữ cảnh",
-      "title_en": "Git Worktree in the Microservices Ecosystem Part 1: Overcoming the Context Switching Obsession",
-      "summary_vi": [
-        "Trong các dự án nguyên khối nhỏ lẻ, việc chuyển nhánh git diễn ra khá nhẹ nhàng nhưng lại trở thành một thử thách lớn khi bước vào hệ sinh thái microservices quy mô lớn.",
-        "Việc liên tục thay đổi nhánh làm việc trên nhiều kho lưu trữ mã nguồn khác nhau gây ra hiện tượng chuyển đổi ngữ cảnh liên tục, làm giảm hiệu suất phát triển phần mềm.",
-        "Bài viết phân tích bản chất của vấn đề và giới thiệu giải pháp sử dụng git worktree nhằm tối ưu hóa quy trình làm việc đa dịch vụ cho các kỹ sư."
-      ],
-      "summary_en": [
-        "In small monolithic projects, switching git branches is quite smooth, but it becomes a major challenge when entering a large-scale microservices ecosystem.",
-        "Continuously changing working branches across multiple source code repositories causes frequent context switching, which significantly reduces software development productivity.",
-        "The article analyzes the core of the problem and introduces the git worktree solution to optimize the multi-service workflow for software engineers."
-      ],
-      "originalTitle": "Git Worktree vào hệ sinh thái Microservices Bài 1: Nỗi ám ảnh \"Context Switching\" trong hệ thống nhiều Microservices",
-      "url": "https://viblo.asia/p/git-worktree-vao-he-sinh-thai-microservices-bai-1-noi-am-anh-context-switching-trong-he-thong-nhieu-microservices-PoL7eOqX4vk",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Git",
-        "Microservices",
-        "DevOps",
-        "Software Architecture",
-        "Developer Productivity"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-16T14:26:48.000Z",
-      "contentSnippet": "Trong các dự án Monolith nhỏ lẻ, việc chuyển nhánh (git checkout) diễn ra khá nhẹ nhàng. Tuy nhiên, khi bước vào một hệ sinh thái Microservices quy mô...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a80ac8068cf5aba1",
-      "title_vi": "Nghiên cứu Apple ML: Muse Spark Open với MLX trên Mac Studio",
-      "title_en": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
-      "summary_vi": [
-        "Suy luận LLM cục bộ và phân tán lớn với MLX và RDMA trên Mac Studio MLX trên Mac với Apple silicon cho phép các nhà nghiên cứu và nhà phát triển AI thử nghiệm cục bộ các mô hình và phương pháp mới nhất trong môi trường riêng tư.",
-        "Khung mảng nguồn mở tận dụng kiến ​​trúc bộ nhớ hợp nhất của silicon Apple, cho phép mọi người chạy các phương pháp suy luận và tinh chỉnh mới trên phần cứng của riêng họ cũng như khám phá các kỹ thuật AI khác.",
-        "Trong bài đăng trước, chúng tôi đã nêu bật những ưu điểm của kiến ​​trúc M5 và Bộ tăng tốc thần kinh GPU của nó."
-      ],
-      "summary_en": [
-        "Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio MLX on Mac with Apple silicon lets AI researchers and developers experiment locally with the latest models and methods in a private environment.",
-        "The open-source array framework leverages the unified memory architecture of Apple silicon, enabling anyone to run new inference and fine-tuning methods on their own hardware and explore other AI techniques.",
-        "In a previous post, we highlighted the advantages of the M5 architecture and its GPU Neural Accelerators."
-      ],
-      "originalTitle": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
-      "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-10-16T13:43:48.000Z",
-      "contentSnippet": "Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio MLX on Mac with Apple silicon lets AI researchers and developers experiment locally with the latest models and methods in a private environment. The open-source array framework leverages the unified memory architecture of Appl",
-      "authorName": "antipaul",
-      "upvotes": 53,
-      "commentsCount": 17
-    },
-    {
-      "id": "8ef160d24c63b8e1",
-      "title_vi": "Go Zero to Hero - Bài 46: Hàm init() trong quản lý Package",
-      "title_en": "Go Zero to Hero - Part 46: The init() Function in Package Management",
-      "summary_vi": [
-        "Ngôn ngữ lập trình Golang cung cấp hàm init() như một cơ chế đặc biệt giúp chuẩn bị môi trường trước khi chương trình chính thức vận hành và xử lý logic nghiệp vụ.",
-        "Việc hiểu rõ cơ chế thực thi tự động của hàm init() trong từng package hỗ trợ lập trình viên kiểm soát thứ tự khởi tạo biến toàn cục và kết nối cơ sở dữ liệu.",
-        "Ứng dụng chính xác hàm init() giúp tối ưu hóa cấu trúc mã nguồn, tránh các lỗi phụ thuộc ngầm định và nâng cao độ ổn định cho các hệ thống phần mềm lớn."
-      ],
-      "summary_en": [
-        "The Golang programming language provides the init function as a special mechanism to prepare the environment before the main program officially operates and processes business logic.",
-        "Understanding the automatic execution mechanism of the init function within each package helps developers control the order of global variable initialization and database connections.",
-        "Applying the init function accurately helps optimize source code structure, avoids implicit dependency errors, and improves stability for large-scale software systems."
-      ],
-      "originalTitle": "Go Zero to Hero - Bài 46: Hàm init() trong quản lý Package",
-      "url": "https://viblo.asia/p/go-zero-to-hero-bai-46-ham-init-trong-quan-ly-package-kY4gDppeJAe",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Golang",
-        "Software Engineering",
-        "Package Management",
-        "Backend Development"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-16T13:39:18.000Z",
-      "contentSnippet": "Trong ngôn ngữ lập trình Golang, init() là một hàm đặc biệt đóng vai trò chuẩn bị môi trường trước khi chương trình chính thức vận hành. Tuy nhiên, vi...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a591ccbd94826eca",
-      "title_vi": "Proxy HTTP và SOCKS5: Lập trình viên nên chọn loại nào cho ứng dụng?",
-      "title_en": "HTTP Proxy vs SOCKS5 Proxy: Which One Should Developers Choose?",
-      "summary_vi": [
-        "Bài viết phân tích sự khác biệt cốt lõi giữa hai giao thức proxy phổ biến là HTTP và SOCKS5 trong quá trình xây dựng ứng dụng web, tích hợp API hoặc xử lý các sự cố mạng phức tạp.",
-        "Giao thức HTTP proxy hoạt động chuyên biệt ở tầng ứng dụng với khả năng kiểm tra gói tin sâu, trong khi SOCKS5 hoạt động ở tầng giao vận linh hoạt hơn nhưng không giải mã nội dung lưu lượng.",
-        "Lập trình viên cần hiểu rõ đặc tính kỹ thuật của từng loại proxy để đưa ra lựa chọn tối ưu về hiệu suất, tính bảo mật và khả năng tương thích với hạ tầng hệ thống."
-      ],
-      "summary_en": [
-        "The article analyzes the core differences between HTTP and SOCKS5 proxy protocols when building web applications, integrating APIs, or troubleshooting complex network issues.",
-        "HTTP proxy operates specifically at the application layer with deep packet inspection capabilities, whereas SOCKS5 operates at the transport layer offering greater flexibility without traffic decryption.",
-        "Developers must understand the technical characteristics of each proxy type to make optimal choices regarding performance, security, and compatibility with system infrastructure."
-      ],
-      "originalTitle": "HTTP Proxy vs SOCKS5 Proxy: Which One Should Developers Choose?",
-      "url": "https://viblo.asia/p/http-proxy-vs-socks5-proxy-which-one-should-developers-choose-7Z4DEW31JnX",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "HTTP Proxy",
-        "SOCKS5",
-        "Networking",
-        "API",
-        "Security"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-16T13:24:55.000Z",
-      "contentSnippet": "HTTP Proxy vs SOCKS5 Proxy: Which One Should Developers Choose? When working with web applications, APIs, or network troubleshooting, developers may ...",
-      "authorName": "indiehackers",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "aee37d3c9276547a",
-      "title_vi": "Tôi yêu phần mềm kết xuất",
-      "title_en": "I Love Software Rendering",
-      "summary_vi": [
-        "Tôi thích kết xuất phần mềm.",
-        "Trải nghiệm DOS tốt nhất mà tôi có được trong một thời gian dài là Quake trong trình kết xuất phần mềm của nó ở độ phân giải 800×600, chạy ở tốc độ 60 khung hình/giây bị khóa trên Dell OptiPlex 380 của tôi.",
-        "Đó là một trong những thứ đẹp mắt nhất mà tôi từng thấy ở một trò chơi DOS."
-      ],
-      "summary_en": [
-        "I love software rendering.",
-        "The best DOS experience I’ve had in a long while was Quake in its software renderer at 800×600, running at a locked 60fps on my Dell OptiPlex 380.",
-        "It’s one of the best-looking things I’ve seen a DOS game do."
-      ],
-      "originalTitle": "I Love Software Rendering",
-      "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "SoftwareEngineering",
-        "Programming"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-10-16T12:52:08.000Z",
-      "contentSnippet": "I love software rendering. The best DOS experience I’ve had in a long while was Quake in its software renderer at 800×600, running at a locked 60fps on my Dell OptiPlex 380. It’s one of the best-looking things I’ve seen a DOS game do. That’s not how most people remember those games looking. In the 9",
-      "authorName": "speckx",
-      "upvotes": 169,
-      "commentsCount": 110
-    },
-    {
-      "id": "81a78ef4063622c6",
-      "title_vi": "iPhone Duo 'cháy hàng' đợt đầu sau 5 phút tại Việt Nam",
-      "title_en": "iPhone Duo 'sold out' for the first time after 5 minutes in Vietnam",
-      "summary_vi": [
-        "Sau 5 phút cho đặt trước, tất cả phiên bản của iPhone Duo không còn hàng để giao ngày đầu tiên 23/10 trên Apple Store Online.",
-        "iPhone Duo bắt đầu cho đặt hàng tại Việt Nam từ 19h ngày 16/10, cùng đợt đầu tiên với các thị trường lớn trên thế giới.",
-        "Sau khoảng 2 đến 3 phút, nhiều người vẫn chưa thể vào trang đặt hàng khi Apple Store Online liên tục hiện thông báo chờ đợi."
-      ],
-      "summary_en": [
-        "After 5 minutes of pre-ordering, all versions of iPhone Duo are no longer in stock for delivery on the first day of October 23 on the Apple Store Online.",
-        "iPhone Duo begins ordering in Vietnam from 7:00 p.m. on October 16, the same first batch as in major markets around the world.",
-        "After about 2 to 3 minutes, many people were still unable to access the order page when the Apple Store Online continuously displayed a waiting notice."
-      ],
-      "originalTitle": "iPhone Duo 'cháy hàng' đợt đầu sau 5 phút tại Việt Nam",
-      "url": "https://vnexpress.net/iphone-duo-chay-hang-dot-dau-sau-5-phut-tai-viet-nam-5133296.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 97,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-16T12:41:52.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/16/wm1-wm1-untitled-1792154205-7288-1792154229.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=VfEUYz409WGCw1Hzfb6Z6Q",
-      "contentSnippet": "Sau 5 phút cho đặt trước, tất cả phiên bản của iPhone Duo không còn hàng để giao ngày đầu tiên 23/10 trên Apple Store Online.",
-      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     }
