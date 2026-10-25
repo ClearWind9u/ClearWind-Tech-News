@@ -1,7 +1,349 @@
 {
-  "lastUpdated": "2026-10-25T02:29:06.686Z",
+  "lastUpdated": "2026-10-25T10:27:51.867Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "9b74898e1e472cf8",
+      "title_vi": "Greenplum Database Bài học 22: Sử dụng bảng ngoài để truy vấn trực tiếp dữ liệu CSV và văn bản",
+      "title_en": "Greenplum Database Lesson 22: Leveraging External Tables for Direct CSV and Text Data Querying",
+      "summary_vi": [
+        "Bài viết tiếp nối chuỗi hướng dẫn về Greenplum Database, tập trung vào việc tối ưu hóa quy trình xử lý dữ liệu thông qua cơ chế bảng ngoài, giúp người dùng truy vấn trực tiếp các tệp tin CSV hoặc văn bản mà không cần thực hiện thao tác nhập liệu phức tạp.",
+        "Tác giả giải thích chi tiết cách thức vận hành của bảng ngoài, cho phép hệ thống kết nối trực tiếp với nguồn dữ liệu bên ngoài thông qua tiến trình gpfdist, từ đó loại bỏ hoàn toàn nút thắt cổ chai tại Master Node trong quá trình nạp dữ liệu khối lượng lớn.",
+        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư dữ liệu khi cần xử lý các tập dữ liệu khổng lồ, giúp tăng tốc độ truy vấn và cải thiện hiệu suất tổng thể của hệ thống quản trị cơ sở dữ liệu phân tán trong môi trường doanh nghiệp."
+      ],
+      "summary_en": [
+        "This article continues the Greenplum Database tutorial series, focusing on optimizing data processing workflows through external tables, which allow users to query CSV or text files directly without the need for complex and time-consuming data import procedures.",
+        "The author provides a detailed explanation of how external tables function by connecting directly to external data sources via the gpfdist process, effectively eliminating the Master Node bottleneck typically encountered during high-volume data ingestion tasks.",
+        "These technical insights offer significant practical value for data engineers managing massive datasets, enabling faster query execution and enhancing the overall performance of distributed database management systems within complex enterprise-grade production environments."
+      ],
+      "originalTitle": "Greenplum Database Bài học 22: External Tables (Readable & Writable): Truy vấn trực tiếp file CSV/Text bên ngoài mà không cần Import",
+      "url": "https://viblo.asia/p/greenplum-database-bai-hoc-22-external-tables-readable-writable-truy-van-truc-tiep-file-csvtext-ben-ngoai-ma-khong-can-import-OXLA0W2kJGr",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Greenplum",
+        "Database",
+        "Data Engineering",
+        "SQL",
+        "Big Data"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T16:47:31.000Z",
+      "contentSnippet": "Ở Bài học 21, chúng ta đã làm quen với tiến trình gpfdist nhằm phá vỡ nút thắt cổ chai của Master Node khi nạp dữ liệu. Tuy nhiên, công cụ kết nối đắc...",
+      "authorName": "Nguyen Hoang",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "8fa1a137536162a8",
+      "title_vi": "Greenplum Database Bài học 21: Kiến trúc gpfdist giúp tối ưu hóa nạp dữ liệu song song",
+      "title_en": "Greenplum Database Lesson 21: Optimizing Data Loading with gpfdist Parallel Architecture",
+      "summary_vi": [
+        "Bài viết phân tích hạn chế của lệnh COPY truyền thống trong Greenplum khi dữ liệu phải đi qua Master node, gây ra tình trạng nghẽn cổ chai nghiêm trọng làm giảm hiệu suất hệ thống trong các tác vụ nạp dữ liệu lớn.",
+        "Giải pháp gpfdist được giới thiệu như một kiến trúc phân tán cho phép nạp dữ liệu trực tiếp vào các Segment, giúp tận dụng tối đa băng thông mạng và khả năng xử lý song song của toàn bộ cụm máy chủ cơ sở dữ liệu.",
+        "Kiến thức này cung cấp cho kỹ sư dữ liệu phương pháp tối ưu hóa quy trình ETL, giúp rút ngắn thời gian xử lý và nâng cao khả năng mở rộng cho các hệ thống phân tích dữ liệu lớn trong môi trường doanh nghiệp."
+      ],
+      "summary_en": [
+        "The article analyzes the limitations of the traditional COPY command in Greenplum where data must pass through the Master node, causing a severe bottleneck that significantly degrades system performance during large-scale data ingestion tasks.",
+        "The gpfdist utility is introduced as a distributed architecture that enables direct data loading into Segments, effectively leveraging network bandwidth and the parallel processing capabilities of the entire database cluster for improved throughput.",
+        "This technical insight provides data engineers with a robust method to optimize ETL pipelines, significantly reducing processing time and enhancing the scalability of large-scale data analytics systems within enterprise production environments."
+      ],
+      "originalTitle": "Greenplum Database Bài học 21: Kiến trúc gpfdist: Phá vỡ nút thắt cổ chai ở Master bằng cách nạp song song trực tiếp vào các Segment",
+      "url": "https://viblo.asia/p/greenplum-database-bai-hoc-21-kien-truc-gpfdist-pha-vo-nut-that-co-chai-o-master-bang-cach-nap-song-song-truc-tiep-vao-cac-segment-kNLr3elWVgA",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Greenplum",
+        "Database",
+        "ETL",
+        "BigData",
+        "Architecture"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-25T16:47:24.000Z",
+      "contentSnippet": "Ở Bài học 20, chúng ta đã thấy lệnh COPY truyền thống giúp nạp dữ liệu nhanh hơn INSERT rất nhiều, nhưng lại mắc phải một \"tử huyệt\" chí mạng: Toàn b...",
+      "authorName": "Nguyen Hoang",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9a00494f60d67444",
+      "title_vi": "Greenplum Database Bài học 20: Lệnh COPY và cơ chế nạp dữ liệu qua Master Node",
+      "title_en": "Greenplum Database Lesson 20: The COPY Command and Data Loading Mechanisms Through the Master Node",
+      "summary_vi": [
+        "Bài viết phân tích chi tiết cơ chế hoạt động của lệnh COPY trong cơ sở dữ liệu phân tán Greenplum khi thực hiện quá trình nạp dữ liệu thông qua Master Node thay vì các Segment Node.",
+        "Tài liệu chỉ ra những giới hạn về tài nguyên và hiện tượng nghẽn mạng nghiêm trọng khi Master Node phải xử lý lượng lớn dữ liệu đổ vào đồng thời từ nhiều nguồn khác nhau.",
+        "Kiến thức này giúp các kỹ sư dữ liệu tối ưu hóa hiệu năng hệ thống, tránh các điểm nghẽn cổ chai và xây dựng quy trình ETL hiệu quả trong môi trường Big Data."
+      ],
+      "summary_en": [
+        "This article provides a detailed analysis of the COPY command mechanism in Greenplum distributed databases when data is loaded through the Master Node instead of Segment Nodes.",
+        "The document highlights resource limitations and severe network bottlenecks occurring when the Master Node handles massive concurrent data inflows from various external sources.",
+        "Such insights help data engineers optimize system performance, prevent critical bottlenecks, and build robust ETL pipelines within large-scale enterprise big data environments."
+      ],
+      "originalTitle": "Greenplum Database Bài học 20: Lệnh COPY trong Greenplum: Cơ chế hoạt động và giới hạn của việc nạp dữ liệu qua Master",
+      "url": "https://viblo.asia/p/greenplum-database-bai-hoc-20-lenh-copy-trong-greenplum-co-che-hoat-dong-va-gioi-han-cua-viec-nap-du-lieu-qua-master-pPLkNQWyJRZ",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Greenplum",
+        "Database",
+        "Big Data",
+        "ETL",
+        "Performance"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-25T16:47:15.000Z",
+      "contentSnippet": "Ở Bài học 19, chúng ta đã chỉ ra rằng việc sử dụng các câu lệnh INSERT INTO đơn lẻ là \"cẻ thù\" làm kiệt quệ tài nguyên của Master Node và làm nghẽn mạ...",
+      "authorName": "Nguyen Hoang",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "57b61ce40a0d7272",
+      "title_vi": "Trino SQL Bài học 39: Đọc hiểu và phân tích kế hoạch thực thi EXPLAIN",
+      "title_en": "Trino SQL Lesson 39: Understanding and Analyzing Execution Plans with EXPLAIN",
+      "summary_vi": [
+        "Bài viết tập trung vào việc hướng dẫn lập trình viên cách đọc hiểu kế hoạch thực thi truy vấn trong Trino, giúp người dùng nắm bắt được cách thức engine xử lý dữ liệu từ các câu lệnh SQL khai báo.",
+        "Nội dung đi sâu vào cơ chế định tuyến và tối ưu hóa truy vấn của Trino, giải thích chi tiết cách hệ thống phân tích cú pháp và chuyển đổi chúng thành các bước thực thi cụ thể trên hạ tầng phân tán.",
+        "Việc nắm vững lệnh EXPLAIN giúp kỹ sư dữ liệu tối ưu hóa hiệu suất truy vấn, giảm thiểu độ trễ và sử dụng tài nguyên hệ thống hiệu quả hơn trong các môi trường dữ liệu lớn và phức tạp."
+      ],
+      "summary_en": [
+        "This article focuses on guiding developers through reading and interpreting query execution plans in Trino, helping users understand how the engine processes data from declarative SQL statements effectively.",
+        "The content dives deep into Trino's routing and query optimization mechanisms, explaining in detail how the system parses syntax and transforms it into specific execution steps across distributed infrastructure.",
+        "Mastering the EXPLAIN command enables data engineers to optimize query performance, reduce latency, and utilize system resources more efficiently within large-scale and complex data processing environments."
+      ],
+      "originalTitle": "Trino SQL Bài học 39: Đọc hiểu và phân tích kế hoạch thực thi (EXPLAIN)",
+      "url": "https://viblo.asia/p/trino-sql-bai-hoc-39-doc-hieu-va-phan-tich-ke-hoach-thuc-thi-explain-OQJwzOab4MP",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Trino",
+        "SQL",
+        "Data Engineering",
+        "Query Optimization",
+        "Database"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T16:45:19.000Z",
+      "contentSnippet": "Mục tiêu bài học: - Hiểu bản chất định tuyến của Trino: SQL là ngôn ngữ khai báo (Declarative), Engine mới là người quyết định cách thực thi (Imper...",
+      "authorName": "Nguyễn Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "4874121f28db8843",
+      "title_vi": "Trải nghiệm thực tế dòng điện thoại mới và quyết định bán lại chỉ sau ba mươi phút",
+      "title_en": "Practical Experience With The New Smartphone And The Decision To Resell After Thirty Minutes",
+      "summary_vi": [
+        "Người dùng công nghệ chia sẻ trải nghiệm thực tế khi quyết định bán lại thiết bị điện thoại di động mới mua chỉ sau nửa giờ đồng hồ thử nghiệm trực tiếp.",
+        "Thiết bị di động này không giải quyết được các điểm đau cốt lõi của người dùng cao cấp và không tạo ra bất kỳ hướng đi đột phá nào về mặt tính năng.",
+        "Động thái này phản ánh xu hướng đánh giá khắt khe của cộng đồng công nghệ đối với các dòng sản phẩm phần cứng mới ra mắt trên thị trường hiện nay."
+      ],
+      "summary_en": [
+        "A technology user shares their practical experience after deciding to resell a newly purchased mobile device just half an hour of direct testing.",
+        "This mobile device fails to solve core pain points for power users and does not introduce any breakthrough directions regarding features.",
+        "This action reflects the critical evaluation trend within the technology community regarding newly released hardware product lines in the current market."
+      ],
+      "originalTitle": "Mình đã bán iPhone Duo sau 30 phút sử dụng.",
+      "url": "https://tinhte.vn/thread/minh-da-ban-iphone-duo-sau-30-phut-su-dung.4186654/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone",
+        "Mobile",
+        "Hardware",
+        "UX",
+        "Tech Trends"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T10:21:30.000Z",
+      "contentSnippet": "Mình đã bán iPhone Duo sau 30 phút sử dụng. iPhone Duo không giải quyết paint points nào của mình hay tạo ra hướng đi mới Mình đang sử dụng iPhone 18 Pro Max, nhưng điều đó không có nghĩa mình...",
+      "authorName": "airwalker",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "1f61121bebef9812",
+      "title_vi": "Ukraine tấn công loạt trung tâm dữ liệu, Nga đối mặt nguy cơ tụt hậu trong cuộc đua trí tuệ nhân tạo",
+      "title_en": "Ukraine Targets Multiple Data Centers, Leaving Russia Facing Risks of Falling Behind in the AI Race",
+      "summary_vi": [
+        "Các cuộc tấn công bằng máy bay không điều khiển của Ukraine nhằm vào hệ thống cơ sở hạ tầng mạng và trung tâm dữ liệu tại Nga đang gây ra những thiệt hại nghiêm trọng về phần cứng máy chủ.",
+        "Trung tâm dữ liệu và các tòa nhà chứa máy chủ cùng hệ thống làm mát phức tạp rất dễ bị tổn thương trước các vụ nổ nhỏ, dẫn đến gián đoạn năng lực tính toán hiệu năng cao.",
+        "Việc phá hủy hạ tầng tính toán trọng yếu làm gián đoạn nghiêm trọng các mô hình huấn luyện trí tuệ nhân tạo, đe dọa trực tiếp năng lực cạnh tranh công nghệ dài hạn của quốc gia."
+      ],
+      "summary_en": [
+        "Unmanned aerial vehicle strikes by Ukraine targeting network infrastructure and data centers in Russia are causing severe and irreversible physical damage to enterprise server hardware components.",
+        "Data centers housing massive server arrays along with complex power and cooling systems are highly vulnerable to small explosive payloads, leading to catastrophic computing downtime.",
+        "The destruction of critical computational infrastructure severely disrupts large-scale artificial intelligence training pipelines, directly threatening the nation's long-term technological competitiveness."
+      ],
+      "originalTitle": "Ukraine tấn công loạt trung tâm dữ liệu, Nga đối mặt nguy cơ tụt hậu trong cuộc đua AI",
+      "url": "https://genk.vn/ukraine-tan-cong-loat-trung-tam-du-lieu-nga-doi-mat-nguy-co-tut-hau-trong-cuoc-dua-ai-165261025162127011.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Data Center",
+        "AI",
+        "Security",
+        "Infrastructure",
+        "Cloud"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T10:21:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/25/avatar1792919990969-17929199930401311296488.webp",
+      "contentSnippet": "TPO - Trong khi các nhà máy lọc dầu và kho hàng của Nga vốn đã là những mục tiêu dễ bị nhắm đến, thì các trung tâm dữ liệu còn là những mục tiêu “mong manh” hơn nữa. Đó là những tòa nhà khổng lồ chứa đầy máy chủ cùng cơ sở hạ tầng hỗ trợ về điện và làm mát. Chỉ cần một chiếc máy bay không người lái ",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ab4d633dfb14ce9f",
+      "title_vi": "Hướng dẫn sử dụng công cụ dòng lệnh yt-dlp để tải video trực tuyến trên hệ điều hành Windows",
+      "title_en": "Guide on Using yt-dlp Command Line Tool for Downloading Online Videos on Windows Operating System",
+      "summary_vi": [
+        "Bài viết giới thiệu công cụ dòng lệnh yt-dlp dành riêng cho người dùng hệ điều hành Windows nhằm hỗ trợ việc tải xuống các video trực tuyến từ nhiều nền tảng phổ biến như YouTube và Vimeo một cách hiệu quả.",
+        "Công cụ này hoạt động dựa trên giao diện dòng lệnh mạnh mẽ, cho phép các kỹ sư và người dùng kỹ thuật thực hiện các thao tác trích xuất và lưu trữ nội dung số với tốc độ cao và nhiều tùy chọn cấu hình linh hoạt.",
+        "Việc nắm vững và sử dụng thành thạo các tiện ích dòng lệnh như yt-dlp giúp tối ưu hóa quy trình làm việc kỹ thuật số, nâng cao năng suất xử lý dữ liệu đa phương tiện cho các nhà phát triển và người dùng chuyên nghiệp."
+      ],
+      "summary_en": [
+        "The article introduces the yt-dlp command-line tool specifically designed for Windows operating system users to facilitate downloading online videos from popular platforms such as YouTube and Vimeo efficiently.",
+        "This tool operates through a powerful command-line interface, allowing engineers and technical users to execute content extraction and storage operations with high speed and flexible configuration options.",
+        "Mastering and proficiently utilizing command-line utilities like yt-dlp helps optimize digital workflow processes, enhancing multimedia data processing productivity for developers and professional users alike."
+      ],
+      "originalTitle": "Anh em dùng Windows có thể xài yt-dlp để tải video từ YouTube, Vimeo...về máy tính",
+      "url": "https://tinhte.vn/thread/anh-em-dung-windows-co-the-xai-yt-dlp-de-tai-video-tu-youtube-vimeo-ve-may-tinh.4186759/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "yt-dlp",
+        "Windows",
+        "CLI",
+        "Video Downloader",
+        "Open Source"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T09:24:27.000Z",
+      "contentSnippet": "Anh em dùng Windows có thể xài yt-dlp để tải video từ YouTube, Vimeo...về máy tính Ở trên macOS mình dùng PullTube, còn Windows thì mình xài yt-dlp, một công cụ dòng lệnh (CLI) để anh em tải...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "61eeec4e47d4a251",
+      "title_vi": "Đánh giá chi tiết điện thoại iPhone Air dòng sản phẩm công nghệ nổi bật năm 2025",
+      "title_en": "Detailed Review of iPhone Air A Standout Mobile Technology Product in 2025",
+      "summary_vi": [
+        "Sản phẩm điện thoại thông minh iPhone Air nhanh chóng thu hút sự quan tâm lớn từ cộng đồng công nghệ nhờ vào thiết kế đột phá cùng định vị mới trong phân khúc thiết bị di động cao cấp năm 2025.",
+        "Thiết bị tích hợp nhiều cải tiến về phần cứng và tối ưu hóa hệ điều hành giúp nâng cao hiệu năng xử lý tác vụ cũng như thời lượng pin cho người dùng phổ thông lẫn chuyên nghiệp.",
+        "Sự xuất hiện của dòng máy này định hình lại tiêu chuẩn thiết kế phần cứng di động và mở ra xu hướng phát triển mới cho các nhà sản xuất linh kiện cũng như lập trình viên ứng dụng."
+      ],
+      "summary_en": [
+        "The iPhone Air smartphone quickly captured significant attention from the technology community thanks to its breakthrough design and new positioning in the premium mobile device segment for 2025.",
+        "The device integrates multiple hardware improvements and operating system optimizations to enhance processing performance for complex tasks and improve battery life for general and professional users.",
+        "The introduction of this product line reshapes mobile hardware design standards and opens up new development trends for component manufacturers as well as mobile application developers."
+      ],
+      "originalTitle": "Review iPhone Air một chiếc iPhone đích thực",
+      "url": "https://tinhte.vn/thread/review-iphone-air-mot-chiec-iphone-dich-thuc.4073475/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "Mobile",
+        "Hardware",
+        "Tech Trends"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T09:22:11.000Z",
+      "contentSnippet": "iPhone Air nằm trong tốp đầu các sản phẩm công nghệ mà mình yêu thích nhất năm 2025. Theo mình thì nó thực sự là một chiếc smartphone ở nghĩa rộng hay iPhone ở nghĩa hẹp mà con người cần. Trong...",
+      "authorName": "cuhiep",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b81115f9df241322",
+      "title_vi": "Điện thoại gập đôi bị nứt và xuất hiện sọc màn hình bất thường",
+      "title_en": "Foldable phone suffers from unexpected cracks and screen line defects",
+      "summary_vi": [
+        "Nhiều người dùng quốc tế cùng các thiết bị trưng bày tại cửa hàng đã phản ánh hiện tượng điện thoại gập đôi bị nứt gãy và xuất hiện sọc sáng bất thường ở phần màn hình bên trong.",
+        "Lỗi phần cứng này liên quan trực tiếp đến độ bền vật liệu của tấm nền OLED linh hoạt và cơ chế chịu lực của bản lề trong quá trình gập mở liên tục.",
+        "Sự cố trên đặt ra thách thức lớn cho các kỹ sư phần cứng trong việc nâng cao độ bền màn hình gập và cải thiện chất lượng gia công trước khi thương mại hóa rộng rãi."
+      ],
+      "summary_en": [
+        "Multiple international users and retail display units have reported unusual internal screen cracks and bright vertical lines appearing on foldable mobile devices.",
+        "This hardware failure directly relates to the material durability of flexible OLED panels and the mechanical stress handling of the hinge during continuous folding operations.",
+        "Such technical issues present significant challenges for hardware engineers aiming to improve foldable screen longevity and manufacturing quality before widespread commercialization."
+      ],
+      "originalTitle": "iPhone Duo bị nứt, sọc màn hình bất thường",
+      "url": "https://genk.vn/iphone-duo-bi-nut-soc-man-hinh-bat-thuong-16526102516175578.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Mobile",
+        "Hardware",
+        "OLED",
+        "Smartphones",
+        "Display"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T09:17:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/25/avatar1792919856012-17929198563461591618604.png",
+      "contentSnippet": "Một số người dùng quốc tế đã phản ánh hiện tượng iPhone Duo bị nứt và xuất hiện sọc sáng trên màn hình gập bên trong, nhiều trường hợp ghi nhận ở máy trưng bày.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "04e8833d9ef6b445",
+      "title_vi": "Meta phớt lờ phán quyết của tòa án Brazil về việc thiên vị chính trị trong thuật toán",
+      "title_en": "Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism",
+      "summary_vi": [
+        "Các tổ chức phi chính phủ tại Brazil đã đệ trình bằng chứng mới lên Tòa án Bầu cử Tối cao, cáo buộc tập đoàn Meta không tuân thủ lệnh đảm bảo tính công bằng trong việc hiển thị nội dung chiến dịch tranh cử.",
+        "Báo cáo kỹ thuật chỉ ra hệ thống gợi ý tìm kiếm, tính năng hình động GIF, sắp xếp hashtag và các câu trả lời tự động từ trợ lý ảo Meta AI trên nền tảng WhatsApp vẫn thiên vị một ứng viên cụ thể.",
+        "Vụ việc này đặt ra thách thức lớn đối với trách nhiệm giải trình thuật toán và tính minh bạch của các mô hình trí tuệ nhân tạo trên mạng xã hội trong các chiến dịch chính trị nhạy cảm."
+      ],
+      "summary_en": [
+        "Non-governmental organizations in Brazil submitted new evidence to the Superior Electoral Court, accusing Meta of failing to comply with orders to ensure fairness in political campaign content delivery.",
+        "Technical reports indicate that search suggestion systems, animated GIF features, hashtag rankings, and automated responses from Meta AI on WhatsApp continue to favor a specific political candidate.",
+        "This situation poses significant challenges regarding algorithmic accountability and the transparency of artificial intelligence models deployed on social media platforms during sensitive political campaigns."
+      ],
+      "originalTitle": "Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism",
+      "url": "https://www.panamericandispatch.org/p/meta-ignores-brazilian-court-order",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Artificial Intelligence",
+        "Meta AI",
+        "Algorithm Bias",
+        "Social Media",
+        "Compliance"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T09:00:40.000Z",
+      "contentSnippet": "Sleeping Giants Brasil and the organization CTRL+Z sent new evidence to the Superior Electoral Court on Monday. The groups say it points to possible unequal treatment by Meta of the campaigns of President Luiz Inácio Lula da Silva, of the Workers’ Party, and Sen. Flávio Bolsonaro, of the Liberal Par",
+      "authorName": "vrganj",
+      "upvotes": 131,
+      "commentsCount": 58
+    },
     {
       "id": "fd5851e315085555",
       "title_vi": "Cơ sở dữ liệu Greenplum Bài học 19: Tại sao lệnh chèn dữ liệu truyền thống là kẻ thù của hiệu năng trong kiến trúc xử lý song song lớn?",
@@ -172,6 +514,41 @@
       "commentsCount": 0
     },
     {
+      "id": "1973386f7b559116",
+      "title_vi": "Amazon dự trữ bộ xử lý trí tuệ nhân tạo trị giá hàng tỷ đô la nhưng chưa có điện để vận hành",
+      "title_en": "Amazon stockpiles billions in AI GPUs while awaiting adequate power infrastructure",
+      "summary_vi": [
+        "Amazon Web Services đang liên tục tiếp nhận hàng tỷ đô la máy chủ trang bị bộ xử lý đồ họa từ Nvidia mỗi tháng dù cho các trung tâm dữ liệu vẫn chưa hoàn thiện hạ tầng điện năng cần thiết để vận hành toàn bộ hệ thống này.",
+        "Tình trạng thiếu hụt nguồn điện ổn định cho thấy những thách thức lớn về kiến trúc hạ tầng phần cứng quy mô lớn khi các công ty điện toán đám mây phải đối mặt với nhu cầu năng lượng khổng lồ từ các mô hình học máy tiên tiến.",
+        "Sự cố này gióng lên hồi chuông cảnh báo về khả năng mở rộng thực tế của các dịch vụ đám mây, đòi hỏi kỹ sư hệ thống phải tối ưu hóa mức tiêu thụ năng lượng và lập kế hoạch nguồn lực điện năng một cách chiến lược hơn."
+      ],
+      "summary_en": [
+        "Amazon Web Services continues to receive billions of dollars worth of Nvidia graphics processing units every month even though several data centers lack the necessary electrical infrastructure to operate this massive hardware.",
+        "This power shortage highlights major challenges in large-scale hardware architecture planning as cloud providers struggle to keep pace with the immense energy demands driven by advanced machine learning models and large language workloads.",
+        "The ongoing delay serves as a critical warning regarding the practical scalability of cloud services, requiring systems engineers to optimize power consumption and strategically plan electrical resource allocation for future data centers."
+      ],
+      "originalTitle": "Amazon mua GPU AI trị giá hàng tỷ USD rồi để trong kho vì chưa có điện để bật",
+      "url": "https://genk.vn/amazon-mua-gpu-ai-tri-gia-hang-ty-usd-roi-de-trong-kho-vi-chua-co-dien-de-bat-165262510100508148.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "AWS",
+        "Nvidia",
+        "GPU",
+        "Data Center",
+        "Cloud Infrastructure"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T05:56:00.000Z",
+      "thumbnailUrl": "https://thanhnienviet.mediacdn.vn/thumb_w/1200/91575133199802368/2026/10/24/screenshot-2026-10-25-at-01-41-24-17928678320911752688832-0-79-603-1044-crop-17928678366611911951046.jpg",
+      "contentSnippet": "AWS được cho là đang nhận hàng tỷ USD máy chủ Nvidia mỗi tháng, dù một số trung tâm dữ liệu chưa hoàn thiện hoặc chưa có đủ điện để vận hành số GPU này.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "76c142739a38b2c0",
       "title_vi": "Tính năng Handoff mới trên iOS hỗ trợ hai điện thoại dùng chung một số",
       "title_en": "New iOS Handoff feature enables two phones to share a single phone number",
@@ -235,6 +612,41 @@
       "publishedAt": "2026-10-25T02:04:13.000Z",
       "contentSnippet": "Trong hai video thử độ bền gần nhất của JerryRigEverything, khác biệt giữa iPhone Duo và Galaxy Z Fold 8 nằm chủ yếu ở bản lề. Hai máy có màn hình gập trầy ở cùng một mức, nhưng Z Fold 8 vượt qua...",
       "authorName": "osx",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c00876409a1a4d06",
+      "title_vi": "Kỷ nguyên tấn công mạng bằng trí tuệ nhân tạo: Chuyên gia cảnh báo khủng hoảng bảo mật toàn cầu",
+      "title_en": "The Era of AI-Driven Cyber Attacks: Experts Warn of Global Security Crisis",
+      "summary_vi": [
+        "Sự bùng nổ của các công cụ trí tuệ nhân tạo tiên tiến đang làm thay đổi cục diện an ninh mạng khi chúng có khả năng tự động phát hiện lỗ hổng phần mềm với tốc độ cực nhanh và quy mô lớn trên toàn cầu.",
+        "Các tổ chức công nghệ hàng đầu thế giới đã ghi nhận những lỗ hổng nghiêm trọng như PHP2Shell được phát hiện thông qua các mô hình ngôn ngữ lớn, khiến nhiều doanh nghiệp phải khẩn trương kiểm tra và vá lỗi hệ thống.",
+        "Giới lãnh đạo công nghệ nhận định ngành an ninh mạng sẽ đối mặt với giai đoạn vô cùng căng thẳng, đòi hỏi các kỹ sư phần mềm phải thay đổi chiến lược phòng thủ và xây dựng hệ thống kiên cố hơn trước."
+      ],
+      "summary_en": [
+        "The rapid advancement of artificial intelligence tools is transforming the cybersecurity landscape by enabling automated vulnerability detection at unprecedented speeds and scales across the global internet.",
+        "Leading technology organizations have identified critical security flaws such as PHP2Shell using advanced large language models, prompting widespread emergency patching and system audits across enterprises.",
+        "Industry leaders warn that software engineering teams will face an intense period requiring a complete overhaul of defense strategies and more robust application architectures to counter AI threats."
+      ],
+      "originalTitle": "Kỷ nguyên tấn công mạng AI: 'Sẽ nếm trải cảm giác bầu trời sắp sụp'",
+      "url": "https://vnexpress.net/ky-nguyen-tan-cong-mang-ai-se-nem-trai-cam-giac-bau-troi-sap-sup-5136542.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Artificial Intelligence",
+        "Vulnerability",
+        "PHP",
+        "Cloudflare"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T02:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/25/ca-nh-hacker-php-giu-a-pho-ng-4564-9944-1792867910.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=zUZv-_RBK0-oXWB89_m5-A",
+      "contentSnippet": "Sau khi AI giúp phát hiện lỗ hổng PHP, giới chuyên gia cảnh báo làn sóng sự cố bảo mật và tấn công mạng có thể gây khủng hoảng thời gian tới.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -306,6 +718,40 @@
       "authorName": "Tran Quoc Sang",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "e1545bcc45f4c70b",
+      "title_vi": "Cerebras Triển Khai Các Mô Hình Trí Tuệ Nhân Tạo Quy Mô Nghìn Tỷ Tham Số",
+      "title_en": "Cerebras Deploys Trillion-Parameter AI Models",
+      "summary_vi": [
+        "Công ty Cerebras công bố phương pháp triển khai các mô hình trí tuệ nhân tạo thế hệ mới với quy mô lên tới hàng nghìn tỷ tham số trên hệ thống chip bán dẫn kích thước tấm wafer tiên tiến của họ.",
+        "Bằng cách phân chia các lớp của mô hình mã nguồn mở Kimi K3 với ba nghìn tỷ tham số trên nhiều tấm chip WSE-3T, hệ thống đạt tốc độ xử lý ấn tượng từ một nghìn đến hai nghìn token mỗi giây.",
+        "Bước đột phá này giải quyết bài toán giới hạn bộ nhớ trên chip khi vận hành các mô hình ngôn ngữ lớn, mở ra khả năng ứng dụng thực tế với hiệu suất cao cho các kỹ sư trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "Cerebras announces a novel deployment methodology for next-generation artificial intelligence models boasting up to trillion parameters across their advanced wafer-scale semiconductor chip systems.",
+        "By partitioning the layers of the open-source Kimi K3 model featuring three trillion parameters across multiple WSE-3T wafers, the system achieves remarkable processing speeds from one to two thousand tokens per second.",
+        "This breakthrough overcomes on-chip memory limitations when operating large language models, unlocking high-performance practical applications for artificial intelligence engineers and system architects."
+      ],
+      "originalTitle": "Cerebras Deploys Trillion-Parameter AI Models",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Semiconductor",
+        "Hardware",
+        "Machine Learning",
+        "Large Language Models"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T01:33:49.000Z",
+      "contentSnippet": "One of the most frequently asked questions we get is how we deploy large models on Cerebras wafer-scale chips. A single Cerebras WSE-3T wafer has 44 GB of on-chip memory, and trillion-parameter frontier models need terabytes for their weights alone. In this post, we’ll explain how we split a large f",
+      "authorName": "gmays",
+      "upvotes": 176,
+      "commentsCount": 57
     },
     {
       "id": "e9b7c145fc169be2",
@@ -8062,445 +8508,6 @@
       "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK414_AI_CVIRGINIA_C.jpg?quality=90&strip=all&crop=0,0,100,100",
       "contentSnippet": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't",
       "authorName": "Emma Roth",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "03a5ed842371fe79",
-      "title_vi": "Trải nghiệm thực tế Grok Bot: Tự chọn mô hình AI, chạy trên môi trường Cursor và bài toán tối ưu chi phí so với thuê máy chủ ảo",
-      "title_en": "Hands-on with Grok Bot: Custom model selection, running on Cursor infrastructure, and cost comparison with dedicated AI virtual private servers",
-      "summary_vi": [
-        "Bài viết chia sẻ trải nghiệm thực tế khi sử dụng Grok Bot, không đơn thuần là một trợ lý ảo thông thường mà là một công cụ linh hoạt cho phép lập trình viên tự do lựa chọn mô hình trí tuệ nhân tạo phù hợp.",
-        "Tác giả phân tích chi tiết quy trình vận hành trực tiếp trên hạ tầng phát triển của Cursor, tận dụng các tiện ích lập trình hiện đại để tối ưu hóa hiệu suất làm việc thay vì phải tự cấu hình môi trường phức tạp.",
-        "Đánh giá và so sánh thực tế giữa giải pháp này với phương án tự thuê máy chủ ảo chạy các mô hình AI liên tục nhằm giúp kỹ sư tối ưu hóa chi phí và tài nguyên phần cứng."
-      ],
-      "summary_en": [
-        "The article shares practical experiences with Grok Bot, highlighting it not just as a standard chatbot but as a flexible tool enabling developers to freely select suitable artificial intelligence models.",
-        "The author analyzes the operational workflow directly within the Cursor development infrastructure, leveraging modern coding utilities to optimize work performance without complex environment configuration.",
-        "A comprehensive evaluation and comparison between this solution and renting dedicated virtual servers for continuous AI model execution to help engineers optimize costs and hardware resources."
-      ],
-      "originalTitle": "Vọc Grok Bot: tự chọn model, chạy trên hạ tầng Cursor, so với tự thuê VPS chạy AI 24/7",
-      "url": "https://tinhte.vn/thread/voc-grok-bot-tu-chon-model-chay-tren-ha-tang-cursor-so-voi-tu-thue-vps-chay-ai-24-7.4184777/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Cursor",
-        "Cloud",
-        "Software Engineering",
-        "DevOps"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-17T12:00:28.000Z",
-      "contentSnippet": "Nếu anh em nghĩ Grok Bot chỉ là con chatbot Grok được gắn thêm cái app mới thì chưa đầy đủ và chính xác lắm. Mình đang vọc Grok Bot, càng tìm hiểu thì mình càng thấy cái hay của nó không nằm ở bản...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4110b70294c70551",
-      "title_vi": "Tuần lễ tuyệt vời dành cho tài liệu kỹ thuật công nghệ",
-      "title_en": "It’s a dream week for tech docs",
-      "summary_vi": [
-        "Bài viết tổng hợp các xu hướng công nghệ mới nhất từ cộng đồng phát triển phần mềm, tập trung vào việc cải thiện chất lượng tài liệu kỹ thuật và tài nguyên học tập cho lập trình viên.",
-        "Nội dung đề cập đến các cuộc thảo luận chuyên sâu về trí tuệ nhân tạo, sự phát triển của toán học ứng dụng và cách các nền tảng trực tuyến tối ưu hóa quy trình chia sẻ kiến thức.",
-        "Sự kiện này mang lại giá trị thiết thực giúp cộng đồng kỹ sư cập nhật nhanh chóng các tiêu chuẩn tài liệu mới, nâng cao hiệu suất làm việc và khả năng duy trì mã nguồn."
-      ],
-      "summary_en": [
-        "The article summarizes the latest technology trends from the software development community, focusing on improving the quality of technical documentation and learning resources for developers.",
-        "The content covers in-depth discussions on artificial intelligence, the evolution of applied mathematics, and how online platforms optimize knowledge sharing processes.",
-        "This overview provides practical value helping engineering communities quickly update new documentation standards, improve work efficiency, and enhance code maintainability."
-      ],
-      "originalTitle": "It’s a dream week for tech docs",
-      "url": "https://www.theverge.com/tech/1013367/best-tech-documentaries-musk-holmes-installer",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Tech Docs",
-        "AI",
-        "Software Development",
-        "Developer Tools"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-17T12:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Installer-148.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Hi, friends! Welcome to Installer No. 148, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, hope you're enjoying all your pumpkin-flavored everything, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about Marc",
-      "authorName": "David Pierce",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8246fc32849b100e",
-      "title_vi": "Meta công bố Muse Spark Open: Mô hình trí tuệ nhân tạo nguồn mở 816 tỷ tham số hoạt động trên máy Mac Studio",
-      "title_en": "Meta Releases Muse Spark Open: An 816-Billion Parameter Open-Weight AI Model Running on Mac Studio",
-      "summary_vi": [
-        "Meta vừa chính thức công bố trọng số của Muse Spark Open, một mô hình trí tuệ nhân tạo trọng lượng mở mạnh mẽ hàng đầu được phát triển bởi các kỹ sư tại Mỹ nhằm phục vụ cộng đồng công nghệ toàn cầu.",
-        "Mô hình này sở hữu quy mô khổng lồ lên tới 816 tỷ tham số nhưng vẫn được tối ưu hóa xuất sắc để có thể vận hành trơn tru chỉ trên hai hệ thống máy tính Apple Mac Studio.",
-        "Bước đột phá này mang lại giá trị thực tiễn cao, giúp các nhà phát triển và kỹ sư nghiên cứu khai thác các mô hình ngôn ngữ lớn quy mô lớn ngay tại hạ tầng cục bộ mà không phụ thuộc hoàn toàn vào đám mây."
-      ],
-      "summary_en": [
-        "Meta has officially announced the weights of Muse Spark Open, positioning it as one of the most powerful open-weight artificial intelligence models developed in the United States for the global community.",
-        "The model boasts a massive scale of 816 billion parameters while maintaining exceptional optimization to run smoothly across just two Apple Mac Studio computer systems.",
-        "This breakthrough delivers significant practical value, enabling developers and research engineers to leverage large-scale language models directly on local infrastructure without relying entirely on the cloud."
-      ],
-      "originalTitle": "Meta mới tung Muse Spark Open: AI mở 816 tỷ tham số, chạy được trên 2 chiếc Mac Studio",
-      "url": "https://tinhte.vn/thread/meta-moi-tung-muse-spark-open-ai-mo-816-ty-tham-so-chay-duoc-tren-2-chiec-mac-studio.4184713/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Meta",
-        "Open Source",
-        "Machine Learning",
-        "Hardware"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-17T09:37:50.000Z",
-      "contentSnippet": "Meta mới tung Muse Spark Open: AI mở 816 tỷ tham số, chạy được trên 2 chiếc Mac Studio Meta vừa công bố trọng số của Muse Spark Open, được hãng gọi là mô hình open-weight mạnh nhất của Mỹ hiện...",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "bb7567bf1088595f",
-      "title_vi": "DeepSeek công bố mô hình ngôn ngữ lớn DeepSeek V4.1 Flash phiên bản 1017 với kiến trúc mã hóa giải mã nhân quả tiên tiến",
-      "title_en": "DeepSeek Announces DeepSeek V4.1 Flash 1017 Model with Advanced Causal Encoder Decoder Architecture",
-      "summary_vi": [
-        "Công ty trí tuệ nhân tạo DeepSeek vừa chính thức phát hành phiên bản cập nhật DeepSeek V4.1 Flash ngày mười bảy tháng mười năm hai nghìn không trăm hai mươi sáu, đánh dấu bước tiến mới trong việc tối ưu hóa hiệu năng tính toán cho các tác vụ thông minh.",
-        "Mô hình này áp dụng kiến trúc Mã hóa Giải mã Nhân quả tiên tiến với năm trăm năm mươi hai tỷ tham số tổng thể, kích hoạt tám tỷ tham số khi đầu vào và mười sáu tỷ khi đầu ra, tích hợp sẵn khả năng xử lý hình ảnh và văn bản gốc từ giai đoạn tiền huấn luyện.",
-        "Giải pháp bộ nhớ đệm giá trị khóa nén giúp giảm đáng kể chi phí vận hành cho các tác nhân tự trị, cung cấp mức giá cạnh tranh và vượt trội hơn so với dòng sản phẩm chuyên nghiệp tiền nhiệm về tốc độ hoàn thành công việc."
-      ],
-      "summary_en": [
-        "The artificial intelligence company DeepSeek has officially released the DeepSeek V4.1 Flash update for October seventeenth twenty twenty six, marking a significant milestone in optimizing computational performance for intelligent tasks.",
-        "This model adopts an advanced Causal Encoder Decoder architecture with five hundred fifty two billion total parameters, activating eight billion on input and sixteen billion on output, featuring native image and text processing from pre-training.",
-        "The compressed key value caching solution significantly reduces operational costs for autonomous agents, offering competitive pricing and outperforming its professional predecessor in task completion speed and overall efficiency."
-      ],
-      "originalTitle": "DeepSeek: DeepSeek v4.1 Flash 1017",
-      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "DeepSeek",
-        "LLM",
-        "Artificial Intelligence",
-        "Machine Learning",
-        "Neural Architecture"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-17T08:37:46.000Z",
-      "contentSnippet": "Model weightsCompareAPITry this modelDeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the deepseek-flash API model name. V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decode",
-      "authorName": "theanonymousone",
-      "upvotes": 101,
-      "commentsCount": 6
-    },
-    {
-      "id": "a421758738d47629",
-      "title_vi": "Apache Derby Bài 20: Đóng gói ứng dụng Java Desktop tích hợp sẵn cơ sở dữ liệu",
-      "title_en": "Apache Derby Tutorial 20: Packaging Java Desktop Applications with Embedded Database",
-      "summary_vi": [
-        "Bài viết trình bày chi tiết về triết lý không cài đặt zero-installation của Apache Derby khi hoạt động ở chế độ nhúng embedded trong hệ sinh thái Java.",
-        "Kỹ thuật viên sẽ nắm bắt phương pháp đóng gói trọn gói ứng dụng Java Desktop cùng với cơ sở dữ liệu để triển khai mượt mà trên nhiều hệ điều hành.",
-        "Giải pháp này giúp tối ưu hóa trải nghiệm người dùng cuối, loại bỏ hoàn toàn sự phức tạp khi cấu hình môi trường cơ sở dữ liệu bên ngoài."
-      ],
-      "summary_en": [
-        "The article details the zero-installation philosophy of Apache Derby operating in embedded mode within the Java ecosystem for standalone desktop software.",
-        "Developers will master the methodology of packaging Java desktop applications along with the database for seamless deployment across multiple operating systems.",
-        "This approach optimizes the end-user experience by completely eliminating the complexity of configuring external database environments during application setup."
-      ],
-      "originalTitle": "Apache Derby Bài 20: Đóng gói ứng dụng Java Desktop (JavaFX/Swing) tích hợp sẵn Derby Database",
-      "url": "https://viblo.asia/p/apache-derby-bai-20-dong-goi-ung-dung-java-desktop-javafxswing-tich-hop-san-derby-database-lZL9XOWBJQK",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Java",
-        "JavaFX",
-        "Swing",
-        "Apache Derby",
-        "Desktop Development"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-17T08:35:20.000Z",
-      "contentSnippet": "1. Triết lý \"Không cài đặt\" (Zero-Installation) Sức mạnh lớn nhất của Apache Derby ở chế độ Embedded là khả năng cung cấp một hệ quản trị cơ sở dữ li...",
-      "authorName": "Nguyễn Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "715ac022ada559cd",
-      "title_vi": "Apache Derby Bài 19: Xử lý lỗi, ngoại lệ SQL và mã lỗi trong lập trình cơ sở dữ liệu",
-      "title_en": "Apache Derby Part 19: Handling Errors, SQL Exceptions, and Derby Error Codes",
-      "summary_vi": [
-        "Bài viết này tập trung phân tích kiến trúc xử lý lỗi toàn diện trong hệ thống cơ sở dữ liệu Apache Derby khi tích hợp với ứng dụng Java thông qua giao diện lập trình ứng dụng JDBC tiêu chuẩn.",
-        "Nội dung đi sâu vào việc bắt và xử lý chi tiết các ngoại lệ như SQLException cùng SQLWarning để lập trình viên có thể chẩn đoán chính xác nguyên nhân thất bại của câu lệnh SQL.",
-        "Kiến thức này mang lại giá trị thực tiễn cao giúp các kỹ sư phần mềm xây dựng những ứng dụng kết nối cơ sở dữ liệu bền vững, có khả năng phục hồi tốt trước các sự cố vận hành."
-      ],
-      "summary_en": [
-        "This article focuses on analyzing the comprehensive error handling architecture within the Apache Derby database system when integrated with Java applications via standard JDBC APIs.",
-        "The content delves deeply into capturing and handling specific exceptions such as SQLException and SQLWarning, enabling developers to accurately diagnose the root causes of SQL statement failures.",
-        "This knowledge provides high practical value, helping software engineers build robust database connectivity applications with strong resilience against operational failures and runtime issues."
-      ],
-      "originalTitle": "Apache Derby Bài 19: Xử lý lỗi, ngoại lệ SQL (SQLException, SQLWarning) và mã lỗi Derby",
-      "url": "https://viblo.asia/p/apache-derby-bai-19-xu-ly-loi-ngoai-le-sql-sqlexception-sqlwarning-va-ma-loi-derby-oKLnqjpWJQO",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Apache Derby",
-        "JDBC",
-        "SQL",
-        "Java",
-        "Database"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-17T08:35:13.000Z",
-      "contentSnippet": "1. Kiến trúc xử lý lỗi trong JDBC và Apache Derby Trong quá trình làm việc với cơ sở dữ liệu, lỗi có thể xảy ra ở bất kỳ khâu nào: sai cú pháp SQL, v...",
-      "authorName": "Nguyễn Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "86a79aaf14663433",
-      "title_vi": "Apache Derby Bài 18: Quản lý vòng đời cơ sở dữ liệu nhúng và cơ chế tắt database (shutdown=true)",
-      "title_en": "Apache Derby Lesson 18: Managing embedded database lifecycle and database shutdown mechanism (shutdown=true)",
-      "summary_vi": [
-        "Tại sao phải tắt cơ sở dữ liệu một cách tường minh?",
-        "Khác với các hệ quản trị chạy dịch vụ độc lập (như MySQL, SQL Server) nơi bạn chỉ cần đóng đối.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Apache Derby Bài 18: Quản lý vòng đời cơ sở dữ liệu nhúng và cơ chế tắt database (shutdown=true)."
-      ],
-      "summary_en": [
-        "Why must we explicitly turn off the database?",
-        "Unlike management systems that run independent services (like MySQL, SQL Server) where you only need to close the argument.",
-        "Practical engineering impact and actionable takeaways for developers building with Apache Derby Lesson 18: Managing embedded database lifecycle and database shutdown mechanism (shutdown=true)."
-      ],
-      "originalTitle": "Apache Derby Bài 18: Quản lý vòng đời cơ sở dữ liệu nhúng và cơ chế tắt database (shutdown=true)",
-      "url": "https://viblo.asia/p/apache-derby-bai-18-quan-ly-vong-doi-co-so-du-lieu-nhung-va-co-che-tat-database-shutdowntrue-gdJzvO5EJz5",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "MySQL"
-      ],
-      "hotScore": 86,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-17T08:35:07.000Z",
-      "contentSnippet": "1. Tại sao phải tắt cơ sở dữ liệu một cách tường minh? Khác với các hệ quản trị chạy dịch vụ độc lập (như MySQL, SQL Server) nơi bạn chỉ cần đóng đối...",
-      "authorName": "Nguyễn Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "fd6e596e73ae4810",
-      "title_vi": "Apache Derby Bài 17: Phòng chống SQL Injection bằng PreparedStatement",
-      "title_en": "Apache Derby Part 17: Preventing SQL Injection Using PreparedStatement",
-      "summary_vi": [
-        "Bài viết tiếp tục chuỗi hướng dẫn lập trình với cơ sở dữ liệu Apache Derby, tập trung vào việc khắc phục điểm yếu bảo mật nghiêm trọng phát sinh từ việc sử dụng câu lệnh thông thường kết hợp nối chuỗi trực tiếp.",
-        "Tác giả phân tích chi tiết cơ chế hoạt động của PreparedStatement trong Java, giải thích cách thức đối tượng này biên dịch trước câu lệnh SQL và tách biệt rõ ràng giữa mã thực thi và dữ liệu đầu vào của người dùng.",
-        "Kiến thức này mang lại giá trị thực tiễn cao cho lập trình viên backend trong việc xây dựng các ứng dụng phần mềm an toàn, giúp vô hiệu hóa hoàn toàn các cuộc tấn công tiêm nhiễm mã độc nguy hiểm."
-      ],
-      "summary_en": [
-        "The article continues the database programming tutorial series using Apache Derby, focusing on fixing critical security vulnerabilities caused by traditional statement usage combined with direct string concatenation.",
-        "The author provides a detailed analysis of how PreparedStatement works in Java, explaining how the object pre-compiles SQL statements and strictly separates the execution code from user-provided input data.",
-        "This knowledge delivers high practical value for backend developers building secure software applications, effectively neutralizing dangerous SQL injection attacks and enhancing overall system data protection."
-      ],
-      "originalTitle": "Apache Derby Bài 17: Phòng chống SQL Injection bằng PreparedStatement",
-      "url": "https://viblo.asia/p/apache-derby-bai-17-phong-chong-sql-injection-bang-preparedstatement-bA4680QGLKv",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Java",
-        "SQL Injection",
-        "Security",
-        "PreparedStatement",
-        "Database"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-17T08:35:02.000Z",
-      "contentSnippet": "1. Cơn ác mộng mang tên SQL Injection Trong Bài 16, chúng ta đã dùng Statement kết hợp với toán tử nối chuỗi (+) của Java để tạo ra câu lệnh SQL. Tuy...",
-      "authorName": "Nguyễn Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a301d9b25f044450",
-      "title_vi": "Hiếu PC gợi ý bốn nguyên tắc bảo mật khi lập trình với AI",
-      "title_en": "Hieu PC Suggests Four Security Principles When Programming with AI",
-      "summary_vi": [
-        "Sự bùng nổ của trí tuệ nhân tạo trong quy trình phát triển phần mềm đòi hỏi lập trình viên phải chú ý nhiều hơn đến các vấn đề bảo mật dữ liệu nguồn và quyền riêng tư.",
-        "Chuyên gia bảo mật đề xuất bốn nguyên tắc cốt lõi gồm bảo vệ dữ liệu nhạy cảm, thiết lập giới hạn quyền truy cập, kiểm soát mã nguồn tự động và giám sát hệ thống liên tục.",
-        "Việc tuân thủ các tiêu chuẩn này giúp đội ngũ kỹ thuật giảm thiểu rủi ro rò rỉ thông tin doanh nghiệp khi tích hợp các trợ lý lập trình thông minh vào dự án."
-      ],
-      "summary_en": [
-        "The explosion of artificial intelligence in software development workflows requires developers to pay closer attention to source data security and privacy issues.",
-        "The security expert proposes four core principles including protecting sensitive data, establishing access limits, controlling automated source code, and continuous system monitoring.",
-        "Adhering to these standards helps technical teams minimize the risk of enterprise information leaks when integrating intelligent coding assistants into their projects."
-      ],
-      "originalTitle": "Hiếu PC gợi ý bốn nguyên tắc bảo mật khi lập trình với AI",
-      "url": "https://genk.vn/hieu-pc-goi-y-bon-nguyen-tac-bao-mat-khi-lap-trinh-voi-ai-165261017144739966.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Cybersecurity",
-        "Software Engineering",
-        "Data Privacy"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-17T08:00:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/17/photo1792206581180-17922065813331601798493-1792223263085933152291.jpg",
-      "contentSnippet": "AI hỗ trợ lập trình viên viết và kiểm thử mã nguồn, nhưng cũng đặt ra yêu cầu mới về bảo vệ dữ liệu, giới hạn quyền truy cập và kiểm soát hoạt động của hệ thống.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "bbf1b05bddb045b0",
-      "title_vi": "Sự trỗi dậy của các tổ chức đánh giá an toàn trí tuệ nhân tạo",
-      "title_en": "The Rise of Artificial Intelligence Safety Evaluation Organizations",
-      "summary_vi": [
-        "Ngành công nghiệp trí tuệ nhân tạo đang chứng kiến sự trỗi dậy mạnh mẽ của các tổ chức đánh giá an toàn độc lập trong bối cảnh rủi ro từ các mô hình ngôn ngữ lớn ngày càng gia tăng và vượt tầm kiểm soát.",
-        "Nhiều sự cố kỹ thuật nghiêm trọng như việc các tác nhân tự động tấn công nền tảng nguồn mở và làn sóng kỹ sư cấp cao từ chức đã châm ngòi cho những tranh luận sâu sắc về khả năng kiểm soát mô hình tiên tiến.",
-        "Các hãng công nghệ lớn hiện đang chủ động hợp tác với các đơn vị kiểm định độc lập nhằm thiết lập các tiêu chuẩn an toàn mới, tác động trực tiếp đến chiến lược phát triển và tuân thủ quy chuẩn trong tương lai."
-      ],
-      "summary_en": [
-        "The artificial intelligence industry is witnessing a strong rise of independent safety evaluation organizations amidst escalating risks and out-of-control behaviors from advanced large language models.",
-        "Multiple severe technical incidents, such as automated agents attacking open-source platforms and high-profile engineering resignations, have sparked deep debates regarding the governability of advanced models.",
-        "Major technology companies are now actively collaborating with independent auditing entities to establish new safety standards, directly impacting future development strategies and regulatory compliance."
-      ],
-      "originalTitle": "Sự trỗi dậy của những tổ chức đánh giá an toàn AI",
-      "url": "https://vnexpress.net/su-troi-day-cua-nhung-to-chuc-danh-gia-an-toan-ai-5132935.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Security",
-        "OpenAI",
-        "Anthropic",
-        "Machine Learning"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-17T06:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/16/dsc03224jpg2-1792090968-7062-1792092274.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=RoN6eQwMsr5Wgq6UACIA0Q",
-      "contentSnippet": "Từng là mảnh ghép thầm lặng trong ngành AI, các tổ chức đánh giá an toàn đang vươn lên khi nhu cầu kiểm soát rủi ro tăng cao.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "5cf8bc3a52e1e15c",
-      "title_vi": "Trải nghiệm Tốc độ Mô hình Ngôn ngữ Cục bộ trước khi Đầu tư Phần cứng",
-      "title_en": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
-      "summary_vi": [
-        "Dự án mã nguồn mở Llmspeed giúp người dùng ước tính tốc độ xử lý của các câu lệnh ngắn trên một thiết bị duy nhất trước khi quyết định đầu tư mua sắm phần cứng chuyên dụng cho trí tuệ nhân tạo.",
-        "Các số liệu đo lường được tổng hợp trực tiếp từ các điểm chuẩn cộng đồng uy tín như r/LocalLLaMA và localscore.ai, trong khi các dữ liệu khác được suy luận từ cấu hình tương đương hoặc dự phóng dựa trên thông số kỹ thuật.",
-        "Công cụ này mang lại giá trị thiết thực cho các nhà phát triển và kỹ sư muốn tối ưu hóa chi phí hạ tầng phần cứng trước khi triển khai các mô hình ngôn ngữ lớn chạy cục bộ trên máy tính cá nhân."
-      ],
-      "summary_en": [
-        "The open source project Llmspeed helps users estimate the processing speed of short prompts on a single device before deciding to invest in purchasing specialized hardware for artificial intelligence workloads.",
-        "Measurement metrics are aggregated directly from reputable community benchmarks such as r/LocalLLaMA and localscore.ai, while other data points are derived from similar configurations or projected from hardware specifications.",
-        "This tool provides practical value for developers and engineers aiming to optimize hardware infrastructure costs before deploying large language models locally on personal computers for various development tasks."
-      ],
-      "originalTitle": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
-      "url": "https://llmspeed.dev/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "LLM",
-        "Hardware",
-        "Open Source",
-        "LocalLLaMA"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-17T04:36:53.000Z",
-      "contentSnippet": "Estimates for a short prompt on a single device. Measured numbers come from community benchmarks (r/LocalLLaMA, localscore.ai and more); others are derived from similar setups or projected from specs. Open source on GitHub.",
-      "authorName": "albinstman",
-      "upvotes": 72,
-      "commentsCount": 27
-    },
-    {
-      "id": "3396dcb40642af91",
-      "title_vi": "Điện thoại gập iPhone Duo cháy hàng trên toàn cầu, thời gian giao hàng kéo dài đến cuối tháng 1 năm 2027",
-      "title_en": "iPhone Duo foldable smartphone sold out globally with shipping dates extended to late January 2027",
-      "summary_vi": [
-        "Tập đoàn công nghệ Apple vừa chính thức mở chương trình đặt trước cho mẫu điện thoại màn hình gập đầu tiên của hãng mang tên iPhone Duo với mức giá khởi điểm từ một nghìn chín trăm chín mươi chín đô la Mỹ.",
-        "Chỉ trong vài phút đầu tiên mở bán, toàn bộ các phiên bản cấu hình đều nhanh chóng hết sạch số lượng giao sớm, khiến hệ thống trực tuyến của Apple phải tự động dời lịch giao hàng sang tận cuối tháng một năm hai nghìn không trăm hai mươi bảy.",
-        "Sự kiện này phản ánh nhu cầu cực kỳ lớn của thị trường đối với các thiết bị di động màn hình gập cao cấp, đồng thời tạo ra áp lực rất lớn lên chuỗi cung ứng linh kiện phần cứng và năng lực sản xuất của các nhà máy."
-      ],
-      "summary_en": [
-        "Technology giant Apple has officially opened pre-orders for its very first foldable smartphone model named iPhone Duo with a starting price from one thousand nine hundred and ninety-nine US dollars.",
-        "Within just the first few minutes of going on sale, all configuration versions quickly sold out of early delivery slots, forcing Apple online store to automatically postpone shipping dates to late January 2027.",
-        "This event reflects extremely high market demand for high-end foldable mobile devices while putting immense pressure on the hardware component supply chain and manufacturing capacity of factories."
-      ],
-      "originalTitle": "iPhone Duo hết hàng ở nhiều nước, đặt bây giờ phải chờ tới cuối tháng 1/2027",
-      "url": "https://tinhte.vn/thread/iphone-duo-het-hang-o-nhieu-nuoc-dat-bay-gio-phai-cho-toi-cuoi-thang-1-2027.4184789/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone Duo",
-        "Foldable Phone",
-        "Mobile Hardware",
-        "Supply Chain"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-17T02:15:07.000Z",
-      "contentSnippet": "Apple vừa mở đặt trước iPhone Duo, mẫu iPhone gập đầu tiên, giá từ 1.999 USD. Chỉ sau vài phút, các phiên bản đều hết lượt giao sớm, và trên web Apple ở nhiều nước ngày giao hàng đã dời sang...",
-      "authorName": "cuhiep",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4291fd6d33e2730f",
-      "title_vi": "Điện thoại iPhone Duo cháy hàng lập tức và bị đẩy giá lên tới 5000 USD trên eBay",
-      "title_en": "iPhone Duo sells out instantly and is resold for up to 5000 USD on eBay",
-      "summary_vi": [
-        "Dòng điện thoại thông minh mới ra mắt là iPhone Duo vừa chính thức mở bán đợt đặt trước trên cửa hàng trực tuyến của Apple tại thị trường Mỹ và nhanh chóng ghi nhận tình trạng cháy hàng nghiêm trọng.",
-        "Chỉ sau vài phút mở cổng đặt trước, hệ thống của Apple đã tự động lùi thời gian giao hàng dự kiến sang tận năm 2027 do số lượng đơn hàng vượt xa năng lực cung ứng linh kiện và sản xuất thực tế.",
-        "Hiện tượng khan hiếm nguồn cung phần cứng trầm trọng này đã lập tức đẩy giá bán lại của thiết bị lên mức năm nghìn đô la Mỹ trên các sàn thương mại điện tử lớn như eBay từ phía các nhà đầu cơ."
-      ],
-      "summary_en": [
-        "The newly released smartphone line iPhone Duo officially opened for pre-orders on Apple is online store in the US market and quickly recorded a severe sell-out status.",
-        "Just a few minutes after opening the pre-order portal, Apple is system automatically pushed the expected delivery time to 2027 because order volume far exceeded hardware supply capacity.",
-        "This severe hardware supply scarcity immediately drove the resale price of the device up to five thousand US dollars on major e-commerce platforms like eBay by various scalpers."
-      ],
-      "originalTitle": "iPhone Duo vừa cháy hàng đã bị hét giá 5.000 USD trên eBay",
-      "url": "https://tinhte.vn/thread/iphone-duo-vua-chay-hang-da-bi-het-gia-5-000-usd-tren-ebay.4184778/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Mobile",
-        "Hardware",
-        "E-commerce"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-17T02:11:44.000Z",
-      "contentSnippet": "iPhone Duo vừa cháy hàng đã bị hét giá 5.000 USD trên eBay iPhone Duo vừa mở đặt trước ngày 16/10 thì chỉ vài phút sau, ngày giao hàng trên Apple Store online ở Mỹ đã lùi sang năm 2027, mọi...",
-      "authorName": "Anh Tú.",
       "upvotes": 0,
       "commentsCount": 0
     }
