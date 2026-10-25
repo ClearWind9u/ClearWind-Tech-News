@@ -1,7 +1,75 @@
 {
-  "lastUpdated": "2026-10-25T10:27:51.867Z",
+  "lastUpdated": "2026-10-25T15:19:37.773Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "bb5ed346c78a288d",
+      "title_vi": "Cách tắt tính năng Reels trên Facebook cho người dùng iPhone và những giới hạn kỹ thuật cần biết",
+      "title_en": "How to Disable Facebook Reels on iPhone and Current Technical Limitations Explained",
+      "summary_vi": [
+        "Bài viết phân tích nhu cầu thực tế của người dùng iPhone trong việc tìm cách vô hiệu hóa tính năng thước phim ngắn trên ứng dụng mạng xã hội Facebook nhằm hạn chế tình trạng lãng phí thời gian.",
+        "Các phương pháp kỹ thuật hiện tại chỉ dừng lại ở mức can thiệp giao diện, thay đổi cài đặt trình duyệt hoặc sử dụng các phím tắt tự động hóa trên hệ điều hành iOS thay vì vô hiệu hóa tận gốc từ mã nguồn ứng dụng.",
+        "Giải pháp này mang lại giá trị thực tiễn giúp người dùng kiểm soát hành vi số tốt hơn, đồng thời phản ánh thách thức trong việc tùy biến trải nghiệm người dùng trên các nền tảng mạng xã hội khép kín hiện nay."
+      ],
+      "summary_en": [
+        "The article analyzes the practical need for iPhone users to find ways to disable short video features on the Facebook social media app to limit productivity loss.",
+        "Current technical methods are limited to interface intervention, browser settings adjustments, or automation shortcuts on iOS rather than completely disabling the feature from the app source code.",
+        "This solution provides practical value in helping users better control digital behavior while reflecting the challenges of customizing user experience on closed social media platforms today."
+      ],
+      "originalTitle": "Có tắt được Reels trên Facebook không? Những gì làm được trên iPhone và giới hạn của từng cách (2026)",
+      "url": "https://viblo.asia/p/co-tat-duoc-reels-tren-facebook-khong-nhung-gi-lam-duoc-tren-iphone-va-gioi-han-cua-tung-cach-2026-37LdeRyMVov",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iOS",
+        "Facebook",
+        "Mobile Apps",
+        "UI Design",
+        "Automation"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T19:15:33.000Z",
+      "contentSnippet": "Mình mở Facebook để xem nhóm lớp có thông báo gì, rồi lướt xuống một chút là gặp thước phim. Xem một cái, vuốt lên cái nữa, vậy là mất nửa tiếng. Mình...",
+      "authorName": "ayumu kitabayashi",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "83e0c745d4c8d595",
+      "title_vi": "So sánh chi tiết định dạng kỹ thuật Function Calling giữa Responses API và Chat Completions",
+      "title_en": "Detailed Technical Comparison of Function Calling Wire Formats Between Responses API and Chat Completions",
+      "summary_vi": [
+        "Bài viết cung cấp một góc nhìn kỹ thuật chuyên sâu về sự khác biệt cốt lõi trong giao thức truyền tải dữ liệu khi sử dụng tính năng gọi hàm giữa hai mô hình lập trình API phổ biến hiện nay.",
+        "Nội dung tập trung phân tích cấu trúc định dạng đường truyền ở cấp độ thấp bao gồm cách thức định nghĩa hàm, mã định danh cuộc gọi và quản lý thông điệp trong các yêu cầu gửi đến hệ thống.",
+        "Đánh giá này mang lại giá trị thực tiễn cao giúp các kỹ sư phần mềm tối ưu hóa kiến trúc tích hợp hệ thống trí tuệ nhân tạo và giảm thiểu lỗi tương thích khi nâng cấp ứng dụng."
+      ],
+      "summary_en": [
+        "The article provides an in-depth technical perspective on core protocol differences in data transmission when utilizing function calling features between two popular modern programming API paradigms.",
+        "The content focuses on analyzing low-level wire format structures including function definitions, call identifiers, and message management within requests sent to the underlying system.",
+        "This evaluation delivers high practical value helping software engineers optimize artificial intelligence system integration architectures and minimize compatibility errors during application upgrades."
+      ],
+      "originalTitle": "Function Calling: So sánh Responses API và Chat Completions",
+      "url": "https://viblo.asia/p/function-calling-so-sanh-responses-api-va-chat-completions-gjLN0ZR8432",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "API",
+        "Function Calling",
+        "Software Engineering",
+        "Wire Format"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T17:58:16.000Z",
+      "contentSnippet": "Bài viết này được dịch và biên tập từ bài gốc tiếng Anh trên blog của Modelflare. So sánh ở mức wire format giữa định nghĩa function, Call ID, messag...",
+      "authorName": "Castaly",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "9b74898e1e472cf8",
       "title_vi": "Greenplum Database Bài học 22: Sử dụng bảng ngoài để truy vấn trực tiếp dữ liệu CSV và văn bản",
@@ -135,6 +203,177 @@
       "publishedAt": "2026-10-25T16:45:19.000Z",
       "contentSnippet": "Mục tiêu bài học: - Hiểu bản chất định tuyến của Trino: SQL là ngôn ngữ khai báo (Declarative), Engine mới là người quyết định cách thực thi (Imper...",
       "authorName": "Nguyễn Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "395b824513093247",
+      "title_vi": "Điện thoại gập đôi của Táo Khuyết xuất hiện lỗi nứt màn hình tại khu vực bản lề tương tự sự cố dòng máy gập của Samsung năm hai nghìn không trăm mười chín",
+      "title_en": "Apple Duo foldable phone displays screen cracks at the hinge resembling the Galaxy Fold incident from twenty nineteen",
+      "summary_vi": [
+        "Mạng xã hội gần đây lan truyền nhiều hình ảnh cho thấy dòng điện thoại gập đôi của Apple gặp lỗi nứt màn hình nghiêm trọng dọc theo vị trí bản lề hiển thị.",
+        "Sự cố phần cứng này làm dấy lên những lo ngại về độ bền của vật liệu màn hình gập và cơ chế cơ khí chịu lực tại khu vực khớp nối.",
+        "Vấn đề này đặt ra thách thức lớn cho các kỹ sư phần cứng trong việc tối ưu hóa độ bền thiết bị di động màn hình gập thế hệ mới."
+      ],
+      "summary_en": [
+        "Social media networks recently circulated numerous images showing Apple's foldable smartphone experiencing severe internal screen cracking along the hinge mechanism.",
+        "This hardware failure raises significant concerns regarding the structural durability of foldable display materials and mechanical stress at the articulating joint.",
+        "The issue presents a major challenge for hardware engineers striving to optimize the physical longevity and durability of next generation mobile foldable devices."
+      ],
+      "originalTitle": "iPhone Duo nứt màn hình ở bản lề: liệu Apple có lặp lại vết xe Galaxy Fold 2019",
+      "url": "https://tinhte.vn/thread/iphone-duo-nut-man-hinh-o-ban-le-lieu-apple-co-lap-lai-vet-xe-galaxy-fold-2019.4186760/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "Foldable",
+        "Hardware",
+        "Mobile",
+        "Screen"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T15:12:05.000Z",
+      "contentSnippet": "Mấy nay lướt mạng xã hội thì mình thấy có rất nhiều hình iPhone Duo bị nứt một đường bên trong màn hình hiển thị. Mình nghi ngờ là vụ này sẽ nghiêm trọng cho Apple, vì Samsung đã từng trải qua...",
+      "authorName": "cuhiep",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ce57c1e9fed5e988",
+      "title_vi": "Lãnh đạo Intel: Công nghệ chip đã bắt kịp TSMC, quy mô sản xuất thì cần thời gian",
+      "title_en": "Intel Leadership: Chip Technology Has Caught Up with TSMC, Manufacturing Scale Takes Time",
+      "summary_vi": [
+        "Lãnh đạo tập đoàn công nghệ Intel khẳng định năng lực thiết kế và công nghệ chế tạo vi mạch của họ đã gần như bắt kịp đối thủ lớn TSMC trong ngành công nghiệp bán dẫn.",
+        "Khoảng cách biệt nhỏ về hiệu năng không còn là rào cản lớn đối với chiến lược phát triển kiến trúc chip tiên tiến và mở rộng dây chuyền sản xuất toàn cầu.",
+        "Tuy nhiên, việc đạt được quy mô sản xuất thương mại khổng lồ đòi hỏi thêm nhiều thời gian để tối ưu hóa chuỗi cung ứng và nâng cao năng lực nhà máy."
+      ],
+      "summary_en": [
+        "Intel leadership asserts that their semiconductor manufacturing technology and chip design capabilities have nearly caught up with major industry rival TSMC.",
+        "A minor performance gap is no longer a significant barrier for their strategy to advance cutting-edge chip architectures and expand global production lines.",
+        "However, achieving massive commercial manufacturing scale requires additional time to optimize the supply chain and enhance foundry operational capacities."
+      ],
+      "originalTitle": "Lãnh đạo Intel: Công nghệ chip đã bắt kịp TSMC, quy mô sản xuất thì cần thời gian",
+      "url": "https://tinhte.vn/thread/lanh-dao-intel-cong-nghe-chip-da-bat-kip-tsmc-quy-mo-san-xuat-thi-can-thoi-gian.4186656/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Intel",
+        "TSMC",
+        "Semiconductor",
+        "Chip Design",
+        "Manufacturing"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T13:38:26.000Z",
+      "contentSnippet": "Lãnh đạo Intel: Công nghệ chip đã bắt kịp TSMC, quy mô sản xuất thì cần thời gian Intel cho rằng việc đi sau TSMC vài phần trăm về hiệu năng không phải là vấn đề lớn đối với hãng. Trong một cuộc...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b411fbb2487aa2da",
+      "title_vi": "Diễn đàn mã nguồn mở r/opensource cấm các dự án sử dụng trí tuệ nhân tạo và người không nói tiếng Anh",
+      "title_en": "r/opensource just banned AI, non-English speakers, and more",
+      "summary_vi": [
+        "Diễn đàn mã nguồn mở r/opensource đã ban hành các quy định nộp bài mới gây tranh cãi lớn, trong đó chính thức cấm toàn bộ các dự án có liên quan hoặc được tạo ra bằng trí tuệ nhân tạo.",
+        "Quyết định này vấp phải làn sóng phản ứng dữ dội từ cộng đồng lập trình viên, dẫn đến việc hình thành một nhóm thảo luận thay thế mang tên r/trueopensource để tranh luận về vấn đề này.",
+        "Sự kiện này phản ánh cuộc tranh cãi sâu sắc trong cộng đồng phần mềm nguồn mở về vai trò thực sự của công cụ tự động hóa và rào cản ngôn ngữ đối với sự phát triển chung."
+      ],
+      "summary_en": [
+        "The r/opensource community has introduced controversial submission guidelines that officially ban any software projects involving artificial intelligence or generated by automated tools.",
+        "This restriction sparked intense backlash among developers in the comments section, directly prompting the creation of a rival discussion subreddit named r/trueopensource.",
+        "The situation highlights a deep ideological divide within the open-source software movement regarding the integration of automated assistance and linguistic inclusivity in development."
+      ],
+      "originalTitle": "r/opensource just banned AI, non-English speakers, and more",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Open Source",
+        "AI",
+        "Community",
+        "Software Development"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T13:25:32.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK115_Reddit_01.jpg.webp?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this",
+      "authorName": "Terrence O’Brien",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "4454f568f4b940bf",
+      "title_vi": "Điện thoại thông minh mỏng nhất giảm mạnh giá trị sau một năm ra mắt thị trường",
+      "title_en": "Thinnest Smartphone Experiences Significant Price Drop One Year After Market Launch",
+      "summary_vi": [
+        "Thị trường thiết bị di động tại Việt Nam ghi nhận sự sụt giảm mạnh về giá trị của dòng sản phẩm điện thoại thông minh mỏng nhất từ thương hiệu Apple, khiến mức giá hiện tại thấp hơn đáng kể so với các phiên bản tiêu chuẩn cùng dung lượng bộ nhớ.",
+        "Các thông số phần cứng và phân khúc thiết kế siêu mỏng từng tạo nên sức hút lớn ban đầu nay không giữ được giá trị, khi mức khấu hao sau một năm sử dụng đã đạt gần bốn mươi phần trăm, vượt gấp đôi tỷ lệ giảm giá của dòng máy tiêu chuẩn thế hệ mới.",
+        "Biến động này phản ánh rõ quy luật cung cầu khắt khe của thị trường phần cứng di động cao cấp, đồng thời đưa ra bài toán chiến lược quan trọng cho người dùng và các nhà bán lẻ trong việc tối ưu hóa chi phí đầu tư thiết bị."
+      ],
+      "summary_en": [
+        "The mobile device market in Vietnam records a sharp decline in the value of Apple's thinnest smartphone lineup, bringing current pricing significantly lower than standard equivalent storage versions.",
+        "The hardware specifications and ultra-slim design segment that initially generated massive market appeal failed to retain value, as depreciation after one year reached nearly forty percent, doubling the price drop rate of standard new generation models.",
+        "This market fluctuation clearly reflects strict supply and demand rules in the high-end mobile hardware sector, while presenting a crucial strategic lesson for users and retailers in optimizing device investment costs."
+      ],
+      "originalTitle": "Chiếc iPhone giảm hơn 12 triệu đồng sau 1 năm, rẻ hơn iPhone 17",
+      "url": "https://genk.vn/chiec-iphone-giam-hon-12-trieu-dong-sau-1-nam-re-hon-iphone-17-165261025161246932.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "Smartphone",
+        "Mobile Hardware",
+        "Market Trends"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T12:59:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/25/avatar1792919490785-17929194911971797369103.jpg",
+      "contentSnippet": "Ra mắt tại Việt Nam tháng 9/2025 với giá cao hơn iPhone 17 tới 7 triệu đồng, iPhone Air bản 256GB đã qua sử dụng hiện chỉ còn khoảng 19–20 triệu đồng, thấp hơn iPhone 17 cũ cùng dung lượng. Sau hơn một năm, chiếc iPhone mỏng nhất của Apple đã mất gần 40% giá trị, gấp đôi mức mất giá của iPhone 17.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ab1f7cff37722d46",
+      "title_vi": "Tính năng tìm kiếm tích hợp trí tuệ nhân tạo của Google đang đảo lộn ngành xuất bản trực tuyến",
+      "title_en": "Google's AI search changes upended online publishing",
+      "summary_vi": [
+        "Ngành xuất bản nội dung số từ lâu đã phụ thuộc vào công cụ tìm kiếm của Google để thu hút lượng độc giả truy cập trang web thông qua các kỹ thuật tối ưu hóa công cụ tìm kiếm.",
+        "Sự thay đổi trong cách hiển thị kết quả tìm kiếm tích hợp các mô hình trí tuệ nhân tạo đã làm giảm đáng kể lượng lượt nhấp chuột trực tiếp vào các bài viết báo chí.",
+        "Xu hướng này buộc các cơ quan báo chí và nhà phát triển web phải tái định hình chiến lược phân phối nội dung để thích ứng với kỷ nguyên tìm kiếm bằng trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "The digital publishing industry has relied heavily on Google search engines for a long time to drive reader traffic to their websites through search engine optimization techniques.",
+        "The shift in search result displays integrating artificial intelligence models has significantly reduced the direct click-through rates to original journalistic articles and websites.",
+        "This trend forces media outlets and web developers to reshape their content distribution strategies in order to adapt to the new era of artificial intelligence-driven search."
+      ],
+      "originalTitle": "Google’s AI search changes upended online publishing",
+      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Google",
+        "Search Engine",
+        "Web Publishing",
+        "Tech Trends"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T12:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK414_STK480_AI_DIS_MISINFO_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry",
+      "authorName": "Emma Roth",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -1361,6 +1600,40 @@
       "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/TV-OLED55C6PUA-Brilliant-oled-pictures_features_900x600.avif?quality=90&strip=all&crop=0,0,100,100",
       "contentSnippet": "LG’s C6 OLED TV is on sale in multiple sizes starting at $999.99 ($300 off). | Image: LG Black Friday is still over a month away, but if you’re hoping to upgrade your TV, you don’t need to wait until November. LG has already kicked off its early Black Friday sale, letting you save on the LG C6 and v",
       "authorName": "Sheena Vasani",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "681fa8f9295c091c",
+      "title_vi": "Tesla và NVIDIA đầu tư 2,8 tỷ USD vào nhà máy Samsung để phát triển chất nền chip AI",
+      "title_en": "Tesla and NVIDIA Invest 2.8 Billion USD in Samsung Facilities to Develop AI Chip Substrates",
+      "summary_vi": [
+        "Hai tập đoàn công nghệ lớn là Tesla và NVIDIA đã quyết định rót số vốn gần ba tỷ đô la Mỹ vào nhà máy Samsung nhằm thúc đẩy quá trình nghiên cứu và phát triển công nghệ chất nền chuyên dụng cho các dòng chip trí tuệ nhân tạo thế hệ mới.",
+        "Khoản đầu tư chiến lược này tập trung giải quyết bài toán tối ưu hóa vật liệu bán dẫn, cải thiện hiệu suất truyền dẫn tín hiệu và tản nhiệt cho các kiến trúc vi xử lý hiệu năng cao chuyên dụng phục vụ mô hình học máy phức tạp.",
+        "Động thái này đánh dấu bước ngoặt quan trọng trong chuỗi cung ứng phần cứng toàn cầu, giúp các kỹ sư hạ tầng và nhà phát triển AI tiếp cận nguồn cung chip mạnh mẽ hơn với chi phí tối ưu trong tương lai gần."
+      ],
+      "summary_en": [
+        "Major technology corporations Tesla and NVIDIA have decided to pour nearly three billion US dollars into Samsung facilities to accelerate the research and development of specialized substrate technology for next-generation artificial intelligence chips.",
+        "This strategic investment focuses on solving semiconductor material optimization challenges, improving signal transmission efficiency, and thermal management for high-performance processor architectures dedicated to complex machine learning models.",
+        "This move marks a crucial turning point in the global hardware supply chain, helping infrastructure engineers and AI developers access more robust chip supplies with optimized costs in the near future."
+      ],
+      "originalTitle": "Tesla và NVIDIA đầu tư 2,8 tỷ USD vào nhà máy Samsung để phát triển chất nền chip AI",
+      "url": "https://tinhte.vn/thread/tesla-va-nvidia-dau-tu-2-8-ty-usd-vao-nha-may-samsung-de-phat-trien-chat-nen-chip-ai.4186658/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Hardware",
+        "Semiconductor",
+        "NVIDIA",
+        "Tesla"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-24T14:23:55.000Z",
+      "contentSnippet": "Tesla và NVIDIA đầu tư 2,8 tỷ USD vào nhà máy Samsung để phát triển chất nền chip AI Tesla và NVIDIA đã hợp tác đầu tư gần 3 tỷ USD vào Samsung để phát triển công nghệ chất nền phục vụ cho chip...",
+      "authorName": "Pnghuy",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8233,281 +8506,6 @@
       "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/18/avatar1792318125941-1792318127114964482636.jpg",
       "contentSnippet": "GeForce chưa biến mất và NVIDIA vẫn kiếm được hàng tỷ USD từ game thủ. Tuy nhiên, PC gaming rõ ràng không còn là lĩnh vực quyết định hướng đi của hãng.",
       "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "01cc68bd7a52cda5",
-      "title_vi": "Tiền đã về ví nhưng đơn hàng chưa xác nhận: Sáu bước kiểm tra phía người nhận khi AI agent tạo link thanh toán",
-      "title_en": "Funds Received But Order Unconfirmed: Six Receiver-Side Validation Steps When AI Agents Generate Payment Links",
-      "summary_vi": [
-        "Khi ứng dụng trí tuệ nhân tạo tự động tạo hóa đơn và liên kết thanh toán bằng tiền mã hóa ổn định, thách thức lớn nhất không chỉ là tạo thành công giao dịch mà là xác thực chính xác trạng thái thực tế của đơn hàng.",
-        "Hệ thống kỹ thuật cần triển khai quy trình kiểm tra sáu bước nghiêm ngặt bao gồm xác thực chữ ký số, kiểm tra mã định danh giao dịch trên chuỗi và đồng bộ hóa trạng thái cơ sở dữ liệu thời gian thực.",
-        "Giải pháp này giúp các kỹ sư phần mềm loại bỏ rủi ro lệch dữ liệu tài chính, ngăn chặn các cuộc tấn công phát lại giao dịch và đảm bảo độ tin cậy tuyệt đối cho các hệ thống thương mại tự động hóa."
-      ],
-      "summary_en": [
-        "When artificial intelligence applications automatically generate invoices and stablecoin payment links, the greatest challenge is not just creating the transaction successfully but accurately validating the actual order status.",
-        "Technical systems must implement a rigorous six-step validation workflow including digital signature verification, on-chain transaction identifier checks, and real-time database state synchronization.",
-        "This solution helps software engineers eliminate financial data discrepancy risks, prevent transaction replay attacks, and ensure absolute reliability for automated commerce systems."
-      ],
-      "originalTitle": "Tiền đã về ví nhưng đơn hàng chưa nên \"paid\": 6 bước kiểm tra phía người nhận khi AI agent tạo link thanh toán",
-      "url": "https://viblo.asia/p/tien-da-ve-vi-nhung-don-hang-chua-nen-paid-6-buoc-kiem-tra-phia-nguoi-nhan-khi-ai-agent-tao-link-thanh-toan-PoL7eO1X4vk",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "AI Agent",
-        "Stablecoin",
-        "Payment Gateway",
-        "Software Architecture",
-        "Blockchain Security"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-18T01:42:01.000Z",
-      "contentSnippet": "Bối cảnh Khi để AI agent tạo hoá đơn hoặc link thanh toán bằng stablecoin, phần khó thường không nằm ở bước tạo link, mà ở câu hỏi: \"Đơn này đã thực s...",
-      "authorName": "send",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1f173e4f3bd903eb",
-      "title_vi": "Kiểm tra trước khi bay Bài 4: Cổng chất lượng và phụ thuộc cục bộ với Linter, Unit Test cùng API SonarQube",
-      "title_en": "Pre-flight Checks Part 4: Quality Gates and Local Dependencies with Linters, Unit Tests, and SonarQube API",
-      "summary_vi": [
-        "Bài viết tập trung phân tích các rủi ro tiềm ẩn ngay cả khi mã nguồn đã được đồng bộ hóa thành công trên hệ thống quản lý phiên bản Git.",
-        "Tác giả đi sâu vào giải pháp kỹ thuật tích hợp các công cụ kiểm tra tĩnh như Linter, thực thi kiểm thử đơn vị và kết nối API SonarQube để đảm bảo chất lượng.",
-        "Giải pháp này giúp đội ngũ phát triển phần mềm ngăn chặn sớm các lỗi cú pháp và vi phạm tiêu chuẩn lập trình ngay từ môi trường cục bộ."
-      ],
-      "summary_en": [
-        "The article focuses on analyzing potential risks that persist even after source code has been successfully synchronized on the version control system.",
-        "The author delves into technical solutions integrating static analysis tools like linters, executing unit tests, and connecting with the SonarQube API to ensure quality.",
-        "This solution helps software development teams proactively prevent syntax errors and coding standard violations directly from their local development environments."
-      ],
-      "originalTitle": "Pre-flight Checks Bài 4: Quality Gate & Local Dependencies (Linter, Unit Test & SonarQube API)",
-      "url": "https://viblo.asia/p/pre-flight-checks-bai-4-quality-gate-local-dependencies-linter-unit-test-sonarqube-api-kNLr3eAlVgA",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Software Engineering",
-        "SonarQube",
-        "Unit Test",
-        "Linter",
-        "DevOps"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-17T21:18:04.000Z",
-      "contentSnippet": "Dù Git đã sạch sẽ và đồng bộ, vẫn còn một rủi ro lớn: Code hợp lệ về mặt quản lý phiên bản nhưng lại chứa lỗi cú pháp, vi phạm chuẩn coding convention...",
-      "authorName": "HUy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "c7a39873acab1194",
-      "title_vi": "Xây dựng công cụ kiểm tra trước khi chạy với CLI Engine và kiến trúc Pre-flight Runner",
-      "title_en": "Building Pre-flight Checks with CLI Engine and Pre-flight Runner Architecture",
-      "summary_vi": [
-        "Bài viết mở đầu chuỗi series về Pre-flight Checks, giải quyết vấn đề code chứa quá nhiều câu lệnh điều kiện lồng nhau khiến việc duy trì trở nên vô cùng phức tạp và khó khăn.",
-        "Tác giả đi sâu vào việc khởi tạo CLI Engine cùng thiết kế kiến trúc Pre-flight Runner, giúp tổ chức các bước kiểm tra hệ thống trước khi thực thi một tiến trình chính một cách module hóa.",
-        "Giải pháp này mang lại giá trị thực tiễn cao cho lập trình viên khi xây dựng các công cụ dòng lệnh chuyên nghiệp, nâng cao tính mở rộng và khả năng kiểm lỗi của mã nguồn."
-      ],
-      "summary_en": [
-        "The article initiates a series on Pre-flight Checks, addressing the issue of deeply nested conditional statements in code that make maintenance extremely complicated and difficult over time.",
-        "The author dives into initializing the CLI Engine and designing the Pre-flight Runner architecture, which helps organize system validation steps modularly before executing any primary process.",
-        "This solution delivers high practical value for developers building professional command-line tools, significantly enhancing code extensibility, maintainability, and robust error detection capabilities."
-      ],
-      "originalTitle": "Pre-flight Checks Bài 1: Khởi tạo CLI Engine & Kiến trúc Pre-flight Runner",
-      "url": "https://viblo.asia/p/pre-flight-checks-bai-1-khoi-tao-cli-engine-kien-truc-pre-flight-runner-AWVpXjkDV05",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "CLI",
-        "Architecture",
-        "Software Design",
-        "Backend",
-        "Clean Code"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-17T19:14:12.000Z",
-      "contentSnippet": "Trong một thư viện hay công cụ chuyên nghiệp, nếu viết nối tiếp các câu lệnh if-else để kiểm tra từng điều kiện, code sẽ rất nhanh trở thành một mớ hỗ...",
-      "authorName": "HUy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "cb9a74730732cb22",
-      "title_vi": "Trí tuệ nhân tạo chuẩn bị mở rộng ảnh hưởng sang các lĩnh vực khoa học cơ bản",
-      "title_en": "Artificial Intelligence is preparing to expand its influence into fundamental science fields",
-      "summary_vi": [
-        "Các nhà nghiên cứu tại Viện Công nghệ Massachusetts dự đoán trí tuệ nhân tạo sẽ tạo ra cuộc cách mạng lớn trong xác suất thống kê và lý thuyết kinh tế.",
-        "Mô hình học máy tiên tiến đang giải quyết các bài toán phức tạp từ vật lý lượng tử đến vũ trụ học sau chuỗi thành tựu toán học gần đây.",
-        "Xu hướng ứng dụng thuật toán AI vào nghiên cứu khoa học cơ bản mở ra cơ hội tối ưu hóa phương pháp tính toán cho các kỹ sư."
-      ],
-      "summary_en": [
-        "Researchers at the Massachusetts Institute of Technology predict that artificial intelligence will revolutionize probability statistics and economic theory.",
-        "Advanced machine learning models are solving complex problems ranging from quantum physics to cosmology following recent mathematical achievements.",
-        "The trend of applying AI algorithms to basic scientific research opens up opportunities to optimize computational methods for software engineers."
-      ],
-      "originalTitle": "Sau toán học, AI có thể chinh phục những đỉnh cao mới",
-      "url": "https://vnexpress.net/sau-toan-hoc-ai-co-the-chinh-phuc-nhung-dinh-cao-moi-5132856.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Quantum Physics",
-        "Data Science",
-        "Algorithms"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-17T17:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/15/2026-06-29T000000Z-2040865915-2774-3803-1792060772.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=wPnQ-03pnL1ef3fEiy-YIw",
-      "contentSnippet": "Các nhà nghiên cứu ở Viện Công nghệ Massacusetts dự đoán AI sẽ cách mạng hóa xác suất thống kê, lý thuyết kinh tế, vũ trụ học, vật lý lượng tử sau loạt thành tựu toán học gần đây.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "6940f288c8fef0f6",
-      "title_vi": "Điện thoại gập đầu tiên của Apple vừa mở đặt trước đã cháy hàng tại Việt Nam",
-      "title_en": "Apple's first foldable phone sells out immediately upon preorder launch in Vietnam",
-      "summary_vi": [
-        "Từ tối ngày 16 tháng 10, người dùng tại thị trường Việt Nam bắt đầu đăng ký mua mẫu điện thoại gập đầu tiên của Apple thông qua hệ thống trực tuyến và các đại lý ủy quyền chính thức.",
-        "Nhiều đơn vị bán lẻ nhanh chóng thông báo hết sạch hàng trong đợt mở bán đầu tiên, khiến thời gian giao máy dự kiến bị kéo dài sang tận tháng 12 gây chú ý lớn.",
-        "Sự kiện này phản ánh sức hút mạnh mẽ của các thiết bị di động phân khúc cao cấp, đồng thời đặt ra thách thức về chuỗi cung ứng phần cứng cho các nhà phân tích công nghệ."
-      ],
-      "summary_en": [
-        "Starting from the evening of October 16, users in the Vietnamese market began registering to purchase Apple's first foldable phone through online stores and authorized retailers.",
-        "Many retail units quickly announced stock exhaustion during the initial launch wave, causing the expected delivery timeline to stretch into December and generating significant attention.",
-        "This event reflects the strong appeal of high-end mobile devices while presenting hardware supply chain challenges for technology analysts monitoring the ecosystem."
-      ],
-      "originalTitle": "iPhone Duo vừa mở đặt trước đã cháy hàng, khách Việt phải chờ đến tháng 12",
-      "url": "https://genk.vn/iphone-duo-vua-mo-dat-truoc-da-chay-hang-khach-viet-phai-cho-den-thang-12-165261016211556385.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "Foldable Phone",
-        "Mobile",
-        "Hardware",
-        "Supply Chain"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-17T14:35:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/16/avatar1792160045584-17921600459252022601314.jpeg",
-      "contentSnippet": "Ít phút sau khi mở đặt trước tại Việt Nam, iPhone Duo đã rơi vào tình trạng khan hàng tại nhiều hệ thống bán lẻ.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "6fccc5f57fbe0772",
-      "title_vi": "Trải nghiệm dòng máy trạm di động chuyên dụng tích hợp phần cứng tối ưu cho trí tuệ nhân tạo",
-      "title_en": "Hands-on with Next-Generation Mobile Workstations Powered by Advanced AI Hardware Platforms",
-      "summary_vi": [
-        "Hãng sản xuất thiết bị phần cứng hàng đầu vừa chính thức giới thiệu dòng máy tính xách tay chuyên dụng mới tại thị trường trong nước với cấu hình phần cứng cực kỳ mạnh mẽ.",
-        "Thiết bị sở hữu dung lượng bộ nhớ truy cập ngẫu nhiên lên đến một trăm hai mươi tám gigabyte cùng card đồ họa tích hợp nền tảng xử lý trí tuệ nhân tạo thế hệ mới.",
-        "Sản phẩm mang lại giải pháp làm việc hiệu quả cho các kỹ sư phần mềm và nhà phát triển ứng dụng trí tuệ nhân tạo trực tiếp trên thiết bị di động cá nhân."
-      ],
-      "summary_en": [
-        "Leading hardware manufacturers recently officially introduced a new line of specialized laptops in the domestic market featuring extremely powerful hardware configurations.",
-        "The device possesses a random access memory capacity of up to one hundred and twenty-eight gigabytes along with a graphics card integrating a new generation artificial intelligence processing platform.",
-        "The product provides an efficient working solution for software engineers and artificial intelligence application developers directly on personal mobile devices."
-      ],
-      "originalTitle": "Đi coi ASUS ProArt P16 RTX Spark: laptop đồ họa có tới 128GB RAM để chạy AI",
-      "url": "https://tinhte.vn/thread/di-coi-asus-proart-p16-rtx-spark-laptop-do-hoa-co-toi-128gb-ram-de-chay-ai.4184890/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Hardware",
-        "AI",
-        "GPU",
-        "Workstation"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-17T14:07:48.000Z",
-      "contentSnippet": "Sáng nay mình có đi coi ASUS ra mắt ProArt P16 và ProArt P14 tại Việt Nam, hai mẫu laptop đồ họa đầu tiên dùng nền tảng NVIDIA RTX Spark. ASUS gọi đây là những chiếc laptop đầu tiên được thiết kế...",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b437462ca3e1db12",
-      "title_vi": "Vụ cược đầy tham vọng và tốn kém của SpaceX nhằm thay thế các nhà mạng di động lớn",
-      "title_en": "SpaceX's ambitious, expensive gamble to replace AT&T, T-Mobile, and Verizon",
-      "summary_vi": [
-        "Công ty vũ trụ của Elon Musk đang tiến hành mua lại hàng loạt dải tần số băng tần thấp từ EchoStar nhằm xây dựng mạng di động mặt đất hoàn chỉnh kết hợp cùng hệ thống vệ tinh Starlink.",
-        "Kiến trúc mạng này đòi hỏi khoản đầu tư hạ tầng phần cứng khổng lồ để triển khai thêm hàng nghìn vệ tinh quỹ đạo tầm thấp cùng hệ thống trạm thu phát mặt đất nhằm đảm bảo vùng phủ sóng xuyên suốt.",
-        "Bước đi chiến lược này đe dọa trực tiếp đến thị phần và biên lợi nhuận của các nhà mạng viễn thông truyền thống lớn tại Mỹ, buộc toàn ngành phải tái định hình cuộc đua công nghệ mạng di động."
-      ],
-      "summary_en": [
-        "Elon Musk's aerospace company is aggressively acquiring low-band spectrum assets from EchoStar to build a comprehensive terrestrial mobile network integrated with the Starlink satellite constellation.",
-        "This network architecture demands massive hardware infrastructure investments to deploy thousands of additional low Earth orbit satellites and ground stations ensuring seamless widespread coverage.",
-        "This strategic move directly threatens the market share and profit margins of major traditional telecommunications carriers in the United States, forcing the industry to reshape wireless tech competition."
-      ],
-      "originalTitle": "SpaceX’s ambitious, expensive gamble to replace AT&T, T-Mobile, and Verizon",
-      "url": "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "SpaceX",
-        "Starlink",
-        "Telecom",
-        "5G",
-        "Satellite"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-10-17T14:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_SpaceX_Telecom.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Today, I’m talking with Walter Piecyk, a partner and analyst at LightShed Partners who covers tech, media, and telecom, about SpaceX’s recently announced plan to become a major wireless carrier. Last week, SpaceX agreed to buy a big chunk of low-band spectrum to expand the Starlink network, spectrum",
-      "authorName": "Nilay Patel",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b31543fcd7d1501b",
-      "title_vi": "Các trang web đang từ chối tiếp cận các tác nhân trí tuệ nhân tạo",
-      "title_en": "Websites are closing their doors to AI agents",
-      "summary_vi": [
-        "Các hệ thống tác nhân tự động thông minh đang trở thành xu hướng công nghệ nổi bật khi được quảng bá khả năng thực hiện các tác vụ trực tuyến phức tạp thay cho người dùng.",
-        "Nhiều nền tảng trực tuyến lớn bắt đầu triển khai các cơ chế kỹ thuật nhằm chặn quyền truy cập của các tác nhân này trừ khi tuân thủ thỏa thuận cấp phép dữ liệu.",
-        "Xu hướng này tạo ra những thách thức mới về kiến trúc tích hợp hệ thống và định hình lại cách các dịch vụ web tương tác với các công cụ tự động hóa."
-      ],
-      "summary_en": [
-        "Autonomous intelligent agents are emerging as a prominent technology trend by promising the capability to execute complex online tasks on behalf of users.",
-        "Multiple major online platforms are beginning to deploy technical mechanisms to block access from these agents unless they comply with data licensing agreements.",
-        "This trend creates new challenges for system integration architecture and reshapes how web services interact with automated tools."
-      ],
-      "originalTitle": "Websites are closing their doors to AI agents",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI Agents",
-        "Web Scraping",
-        "Data Licensing",
-        "Automation",
-        "API Security"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-17T13:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK414_AI_CVIRGINIA_C.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't",
-      "authorName": "Emma Roth",
       "upvotes": 0,
       "commentsCount": 0
     }
