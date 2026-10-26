@@ -1,7 +1,453 @@
 {
-  "lastUpdated": "2026-10-25T15:19:37.773Z",
+  "lastUpdated": "2026-10-26T02:28:38.782Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "7508159734e8405a",
+      "title_vi": "Trino SQL Bài học 44: Quản trị bảo mật và phân quyền truy cập với GRANT và REVOKE",
+      "title_en": "Trino SQL Lesson 44: Security Administration and Access Control with GRANT and REVOKE",
+      "summary_vi": [
+        "Bài học này tập trung tìm hiểu chi tiết về cơ chế ủy quyền và kiểm soát truy cập dữ liệu trong hệ thống phân tán Trino.",
+        "Học viên sẽ được hướng dẫn nắm vững cú pháp lệnh GRANT và REVOKE để cấp và thu hồi quyền hạn cho người dùng một cách an toàn.",
+        "Kiến thức này đóng vai trò cốt lõi trong việc xây dựng hệ thống dữ liệu doanh nghiệp tuân thủ các tiêu chuẩn bảo mật nghiêm ngặt."
+      ],
+      "summary_en": [
+        "This lesson focuses on exploring the authorization and data access control mechanisms within the distributed Trino query engine architecture.",
+        "Learners will be guided to master the syntax of GRANT and REVOKE commands to safely grant and revoke permissions for database users.",
+        "This knowledge plays a crucial role in building enterprise data systems that comply with stringent security and governance standards."
+      ],
+      "originalTitle": "Trino SQL Bài học 44: Quản trị bảo mật và phân quyền truy cập (GRANT, REVOKE)",
+      "url": "https://viblo.asia/p/trino-sql-bai-hoc-44-quan-tri-bao-mat-va-phan-quyen-truy-cap-grant-revoke-8X4EjWY2JN2",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Trino",
+        "SQL",
+        "Security",
+        "Access Control",
+        "Database Management"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-26T07:10:57.000Z",
+      "contentSnippet": "Mục tiêu bài học: - Hiểu cơ chế ủy quyền và kiểm soát truy cập (Access Control) trong kiến trúc của Trino. - Nắm vững cú pháp GRANT để cấp quyền...",
+      "authorName": "Nguyễn Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "d869636cc0a81a0d",
+      "title_vi": "Trino SQL Bài học 43: Trừu tượng hóa dữ liệu với View và Materialized View",
+      "title_en": "Trino SQL Lesson 43: Data Abstraction with Views and Materialized Views",
+      "summary_vi": [
+        "Bài học tập trung vào khái niệm trừu tượng hóa và cách đóng gói các câu lệnh SQL phức tạp nhằm tối ưu hóa quá trình quản lý cơ sở dữ liệu phân tán.",
+        "Học viên được hướng dẫn phân biệt bản chất vật lý và logic giữa View thông thường và Materialized View để áp dụng chiến lược lưu trữ dữ liệu hiệu quả.",
+        "Kiến thức này giúp các kỹ sư dữ liệu xây dựng các tầng trung gian vững chắc, cải thiện đáng kể hiệu suất truy vấn trên hệ thống dữ liệu lớn."
+      ],
+      "summary_en": [
+        "The lesson focuses on the concept of data abstraction and encapsulation of complex SQL queries to optimize distributed database management processes.",
+        "Learners are guided to distinguish the physical and logical nature between standard Views and Materialized Views to apply efficient storage strategies.",
+        "This knowledge helps data engineers build robust intermediate layers, significantly improving query performance on large-scale data systems."
+      ],
+      "originalTitle": "Trino SQL Bài học 43: Trừu tượng hóa dữ liệu với View và Materialized View",
+      "url": "https://viblo.asia/p/trino-sql-bai-hoc-43-truu-tuong-hoa-du-lieu-voi-view-va-materialized-view-G24B8WmzLz3",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Trino",
+        "SQL",
+        "Database",
+        "View",
+        "Data Engineering"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-26T07:10:50.000Z",
+      "contentSnippet": "Mục tiêu bài học: - Nắm vững khái niệm \"Trừu tượng hóa\" và \"Đóng gói\" logic SQL phức tạp. - Phân biệt rạch ròi bản chất vật lý giữa View (Khung ...",
+      "authorName": "Nguyễn Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9da78f01134db692",
+      "title_vi": "Trino SQL Bài học 42: Quản trị cấu trúc bảng chuyên sâu với DDL",
+      "title_en": "Trino SQL Lesson 42: Advanced Table Structure Management with DDL",
+      "summary_vi": [
+        "Bài học số 42 trong chuỗi hướng dẫn Trino SQL tập trung vào việc quản trị cấu trúc bảng chuyên sâu thông qua các lệnh DDL quan trọng như tạo, sửa và xóa bảng dữ liệu.",
+        "Học viên sẽ học cách thoát khỏi sự phụ thuộc vào câu lệnh tạo bảng tự động CTAS để tự tay thiết kế kiến trúc lưu trữ dữ liệu tối ưu từ con số không.",
+        "Kiến thức này giúp các kỹ sư dữ liệu làm chủ hoàn toàn mô hình cơ sở dữ liệu phân tán, nâng cao hiệu suất truy vấn và quản lý hạ tầng dữ liệu lớn."
+      ],
+      "summary_en": [
+        "Lesson 42 in the Trino SQL tutorial series focuses on advanced table structure management through critical DDL commands such as create, alter, and drop statements.",
+        "Learners will discover how to break free from the dependency on automated CTAS table generation to manually design optimal data storage architectures from scratch.",
+        "This knowledge empowers data engineers to fully master distributed database models, improve query performance, and effectively manage big data infrastructures."
+      ],
+      "originalTitle": "Trino SQL Bài học 42: Quản trị cấu trúc bảng chuyên sâu (DDL - CREATE, ALTER, DROP)",
+      "url": "https://viblo.asia/p/trino-sql-bai-hoc-42-quan-tri-cau-truc-bang-chuyen-sau-ddl-create-alter-drop-RlL5eODmLbB",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Trino",
+        "SQL",
+        "DDL",
+        "Database",
+        "Big Data"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-26T07:10:44.000Z",
+      "contentSnippet": "Mục tiêu bài học: - Thoát khỏi sự phụ thuộc vào dữ liệu có sẵn của CTAS để tự tay thiết kế kiến trúc bảng từ con số 0. - Làm chủ nhóm lệnh DDL (...",
+      "authorName": "Nguyễn Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "d7d705e0b1b516e8",
+      "title_vi": "Trino SQL Bài học 41: Khởi tạo bảng siêu tốc với cú pháp CTAS",
+      "title_en": "Trino SQL Lesson 41: High-Speed Table Initialization Using CTAS Syntax",
+      "summary_vi": [
+        "Bài học này tập trung giới thiệu về câu lệnh CTAS trong hệ thống Trino SQL giúp lập trình viên tự động hóa quá trình định nghĩa cấu trúc bảng dữ liệu một cách nhanh chóng.",
+        "Học viên được hướng dẫn chi tiết cách khai báo các thuộc tính vật lý của bảng mới trực tiếp từ kết quả của một câu lệnh truy vấn dữ liệu phức tạp trước đó.",
+        "Kiến thức này mang lại giá trị thực tiễn cao trong việc tối ưu hóa hiệu năng xử lý dữ liệu lớn, giúp kỹ sư dữ liệu tiết kiệm đáng kể thời gian xây dựng kiến trúc hệ thống."
+      ],
+      "summary_en": [
+        "This lesson focuses on introducing the CTAS statement in the Trino SQL system to help developers automate the process of defining data table structures quickly.",
+        "Students receive detailed guidance on declaring physical properties of the new table directly from the results of a previously complex data query statement.",
+        "This knowledge delivers high practical value in optimizing big data processing performance, helping data engineers significantly save time building system architecture."
+      ],
+      "originalTitle": "Trino SQL Bài học 41: Khởi tạo bảng siêu tốc với CTAS (Create Table As Select)",
+      "url": "https://viblo.asia/p/trino-sql-bai-hoc-41-khoi-tao-bang-sieu-toc-voi-ctas-create-table-as-select-7Z4DEWylJnX",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Trino",
+        "SQL",
+        "Big Data",
+        "Database",
+        "Data Engineering"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-26T07:10:36.000Z",
+      "contentSnippet": "Mục tiêu bài học: - Hiểu và vận dụng thành thạo cú pháp CTAS để tự động hóa quá trình định nghĩa cấu trúc bảng. - Khai báo các thuộc tính vật lý...",
+      "authorName": "Nguyễn Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "dcf306a5bc684d09",
+      "title_vi": "Trino SQL Bài học 40: Thao tác dữ liệu INSERT, UPDATE, DELETE trong Data Lake",
+      "title_en": "Trino SQL Lesson 40: Data Manipulation INSERT, UPDATE, DELETE in Data Lake",
+      "summary_vi": [
+        "Bài học tập trung phân tích sâu sắc các thao tác dữ liệu cơ bản như thêm mới, cập nhật và xóa bỏ bản ghi khi làm việc trực tiếp với hệ thống lưu trữ dữ liệu lớn trong nền tảng hiện đại.",
+        "Học viên được hướng dẫn chi tiết cách thức vận hành các câu lệnh này nhằm phá bỏ tư duy xử lý giao dịch truyền thống trên cơ sở dữ liệu quan hệ khi chuyển dịch sang hạ tầng phân tán.",
+        "Kiến thức này giúp các kỹ sư dữ liệu xây dựng và tối ưu hóa các quy trình xử lý luồng dữ liệu lớn một cách an toàn, hiệu quả và đảm bảo tính nhất quán cao nhất."
+      ],
+      "summary_en": [
+        "This lesson focuses on deeply analyzing core data manipulation operations including insertion, updating, and record deletion when working directly with large-scale storage systems in modern data platforms.",
+        "Learners receive detailed guidance on operating these commands to break away from traditional relational database transaction processing mindsets when transitioning to distributed infrastructures.",
+        "This knowledge helps data engineers build and optimize large-scale data processing pipelines securely, efficiently, and with the highest level of consistency guaranteed."
+      ],
+      "originalTitle": "Trino SQL Bài học 40: Thao tác dữ liệu (INSERT, UPDATE, DELETE) trong Data Lake",
+      "url": "https://viblo.asia/p/trino-sql-bai-hoc-40-thao-tac-du-lieu-insert-update-delete-trong-data-lake-yZJZlRz8Vjm",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Trino",
+        "SQL",
+        "Data Lake",
+        "Big Data",
+        "Data Engineering"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-26T07:10:30.000Z",
+      "contentSnippet": "Mục tiêu bài học: - Xóa bỏ tư duy thao tác dữ liệu (DML) của hệ quản trị CSDL truyền thống (OLTP) khi làm việc với Big Data. - Hiểu rõ sự phụ th...",
+      "authorName": "Nguyễn Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f7c7fd9408189556",
+      "title_vi": "Vấn đề cốt lõi của mẫu iPhone Duo không có Face Id chính là khả năng kết nối với kính thực tế ảo Vision Pro",
+      "title_en": "The Real Issue with the Face Id Missing Iphone Duo Is Its Incompatibility with Vision Pro",
+      "summary_vi": [
+        "Bài viết phân tích một hạn chế quan trọng trên dòng điện thoại iPhone Duo khi thiết bị này bị lược bỏ tính năng nhận diện khuôn mặt Face Id trong quá trình thiết kế phần cứng.",
+        "Việc thiếu vắng cảm biến sinh trắc học tiên tiến này không chỉ ảnh hưởng đến bảo mật thông thường mà còn làm đứt gãy trải nghiệm đồng bộ hóa trong hệ sinh thái phần cứng của hãng.",
+        "Tác động lớn nhất là người dùng sẽ không thể kết nối hoặc tận dụng tối đa các tính năng tương tác thực tế hỗn hợp khi sử dụng kèm với thiết bị kính thông minh cao cấp."
+      ],
+      "summary_en": [
+        "The article analyzes a critical limitation regarding the iPhone Duo lineup when the device lacks the advanced facial recognition feature during its hardware design process.",
+        "The absence of this sophisticated biometric sensor not only affects standard security measures but also disrupts the seamless synchronization experience within the vendor hardware ecosystem.",
+        "The most significant impact is that users will be unable to connect or fully leverage the mixed reality interactive features when pairing the device with premium smart headsets."
+      ],
+      "originalTitle": "Mọi người đều không chỉ ra được vấn đề thực sự với iPhone Duo thiếu Face ID: Bạn không thể sử...",
+      "url": "https://tinhte.vn/thread/moi-nguoi-deu-khong-chi-ra-duoc-van-de-thuc-su-voi-iphone-duo-thieu-face-id-ban-khong-the-su.4186968/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone",
+        "Face ID",
+        "Vision Pro",
+        "Apple",
+        "Hardware"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-26T02:27:48.000Z",
+      "contentSnippet": "Mọi người đều không chỉ ra được vấn đề thực sự với iPhone Duo thiếu Face ID: Bạn không thể sử dụng Vision Pro với nó.",
+      "authorName": "cuhiep",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "eb1b3c5e23e06b48",
+      "title_vi": "UGREEN mở đặt trước thiết bị HomeAgent HA100 tích hợp NAS và trí tuệ nhân tạo chạy cục bộ với giá 799 USD",
+      "title_en": "UGREEN Opens Pre-orders for HomeAgent HA100 Featuring Local AI and NAS Capabilities Priced at 799 USD",
+      "summary_vi": [
+        "Hãng UGREEN vừa chính thức mở chương trình đặt trước cho thiết bị lai HomeAgent HA100 với mức giá bảy trăm chín mươi chín đô la Mỹ, mang đến giải pháp lưu trữ và điện toán mới mẻ cho người dùng công nghệ.",
+        "Thiết bị này kết hợp linh hoạt giữa hệ thống lưu trữ mạng NAS, máy tính xử lý trí tuệ nhân tạo chạy cục bộ, đầu ghi camera giám sát thông minh và trung tâm điều khiển các thiết bị trong hệ sinh thái nhà thông minh.",
+        "Sản phẩm đánh dấu bước tiến quan trọng trong việc đưa năng lực tính toán trí tuệ nhân tạo cục bộ vào các thiết bị gia đình, giúp tối ưu hóa khả năng bảo mật dữ liệu và hiệu suất vận hành cho các kỹ sư và người dùng."
+      ],
+      "summary_en": [
+        "UGREEN has officially opened pre-orders for the HomeAgent HA100 hybrid device priced at seven hundred and ninety-nine US dollars, bringing a novel storage and computing solution to tech users.",
+        "This hardware seamlessly combines Network Attached Storage capabilities with a local artificial intelligence computing unit, an intelligent security camera recorder, and a centralized smart home control hub.",
+        "The product marks a significant milestone in bringing local artificial intelligence computing capabilities into household devices, helping to optimize data security and operational performance for engineers."
+      ],
+      "originalTitle": "UGREEN HomeAgent HA100 mở đặt trước 799 USD: NAS kiêm hub AI chạy local, còn beta",
+      "url": "https://tinhte.vn/thread/ugreen-homeagent-ha100-mo-dat-truoc-799-usd-nas-kiem-hub-ai-chay-local-con-beta.4186922/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "NAS",
+        "Local AI",
+        "Smart Home",
+        "Edge Computing",
+        "Hardware"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-26T02:26:46.000Z",
+      "contentSnippet": "UGREEN vừa mở đặt trước HomeAgent HA100, một thiết bị lai khá lạ: vừa là NAS, vừa là máy tính AI chạy local, vừa là đầu ghi camera giám sát, vừa là hub nhà thông minh. Giá đặt trước là 799 USD,...",
+      "authorName": "Nhà Của Cáo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "7b6d285585701fb4",
+      "title_vi": "Đánh giá thiết kế lệch lạc trên thiết bị gập đầu tiên của Apple khiến người dùng khó tính phải cân nhắc",
+      "title_en": "Analyzing the Asymmetrical Design Flaws on Apple's First Foldable Device That OCD Users Should Consider",
+      "summary_vi": [
+        "Bài viết chia sẻ những trải nghiệm thực tế đầu tiên về thiết bị màn hình gập mới ra mắt của Apple, tập trung phân tích các chi tiết thiết kế gây tranh cãi về độ cân xứng.",
+        "Tác giả chỉ ra hàng loạt điểm mất cân đối từ màn hình ngoài cho đến các thành phần bên trong, ảnh hưởng trực tiếp đến trải nghiệm thị giác của người dùng kỹ tính.",
+        "Những nhận định này mang đến góc nhìn đa chiều về chất lượng hoàn thiện phần cứng của các dòng sản phẩm công nghệ thế hệ mới trước khi quyết định đầu tư."
+      ],
+      "summary_en": [
+        "The article shares early hands-on experiences with Apple's newly released foldable device, focusing on an analysis of controversial symmetry design details.",
+        "The author points out numerous asymmetrical flaws ranging from the external display to internal components, directly impacting the visual experience of meticulous users.",
+        "These insights provide a multi-dimensional perspective on the hardware finishing quality of next-generation technology products before making an investment decision."
+      ],
+      "originalTitle": "iPhone Duo: nhìn đâu cũng thấy lệch, anh em bị OCD nên cân nhắc kỹ trước khi mua",
+      "url": "https://tinhte.vn/thread/iphone-duo-nhin-dau-cung-thay-lech-anh-em-bi-ocd-nen-can-nhac-ky-truoc-khi-mua.4186767/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "Foldable Phone",
+        "Hardware Design",
+        "Mobile Devices"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-26T02:26:36.000Z",
+      "contentSnippet": "Nếu anh em bị OCD thì mình nghĩ anh em không nên mua iPhone Duo. Sau mấy ngày cầm máy, mình thấy gần như mọi thứ trên chiếc điện thoại gập đầu tiên của Apple đều lệch: từ màn hình ngoài, màn hình...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "cef7617a2c40ef9a",
+      "title_vi": "Trang web thô sơ nhất nước Mỹ và lý do kiên định từ chối hiện đại hóa giao diện",
+      "title_en": "The ugliest website in America and why it deliberately resists modern UI redesigns",
+      "summary_vi": [
+        "Giữa kỷ nguyên công nghệ hiện đại bị thao túng bởi các thuật toán phức tạp và trí tuệ nhân tạo, trang rao vặt trực tuyến kinh điển tiếp tục duy trì sự tồn tại bền bỉ như một không gian hiếm hoi.",
+        "Nền tảng này kiên trì giữ nguyên kiến trúc tối giản từ năm một nghìn chín trăm chín mươi lăm, hoàn toàn loại bỏ các yếu tố thương mại hóa, quảng cáo rườm rà và công nghệ theo dõi người dùng.",
+        "Sự bảo thủ mang tính triết lý này mang lại bài học sâu sắc cho các kỹ sư phần mềm về việc ưu tiên trải nghiệm kết nối thuần túy và giá trị cốt lõi hơn là chạy theo giao diện hào nhoáng."
+      ],
+      "summary_en": [
+        "Amidst a modern technological era dominated by complex algorithms and artificial intelligence, the classic online classifieds platform continues to maintain a remarkably resilient existence as a rare digital space.",
+        "The platform steadfastly preserves its minimalist architecture established in nineteen ninety-five, completely eliminating commercialization elements, cumbersome advertisements, and aggressive user tracking technologies.",
+        "This philosophical conservatism offers software engineers a profound lesson on prioritizing pure human connectivity and core functional value over blindly chasing flashy user interfaces and trends."
+      ],
+      "originalTitle": "Trang web xấu nhất nước Mỹ và lý do không ai muốn nó đẹp lên",
+      "url": "https://genk.vn/trang-web-xau-nhat-nuoc-my-va-ly-do-khong-ai-muon-no-dep-len-165261026072106855.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Web Development",
+        "UI/UX",
+        "Internet History",
+        "Software Architecture",
+        "Digital Privacy"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-26T02:00:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/26/avatar1792974042046-17929740424261714773585.png",
+      "contentSnippet": "Giữa kỷ nguyên internet bị thao túng bởi thuật toán và AI, Craigslist – trang rao vặt ra đời từ năm 1995 vẫn bền bỉ tồn tại như một không gian hiếm hoi giữ trọn sự riêng tư, tính kết nối tự nhiên và giá trị thuần khiết giữa con người với nhau.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "3725c1686eed3d4e",
+      "title_vi": "Sam Altman: Trí tuệ nhân tạo đang phát hiện ra những lỗ hổng bảo mật vượt xa sức tưởng tượng của tin tặc",
+      "title_en": "Sam Altman: Artificial intelligence is discovering security vulnerabilities far beyond hacker imagination",
+      "summary_vi": [
+        "Giám đốc điều hành OpenAI Sam Altman đã đưa ra những nhận định gây chấn động về năng lực thực tế của các mô hình trí tuệ nhân tạo tiên tiến hiện nay trong lĩnh vực an ninh mạng.",
+        "Hệ thống trí tuệ nhân tạo hiện đại đang tự động khai thác và tìm ra các điểm yếu kiến trúc phần mềm mà trước đây con người chưa từng lường trước được trong hệ thống.",
+        "Sự thay đổi này đánh dấu cột mốc chấm dứt kỷ nguyên bảo mật kỹ thuật số truyền thống, buộc các kỹ sư phần mềm phải tái cấu trúc toàn diện phương thức phòng thủ."
+      ],
+      "summary_en": [
+        "OpenAI CEO Sam Altman made startling statements regarding the actual capabilities of advanced artificial intelligence models within the cybersecurity landscape.",
+        "Modern artificial intelligence systems are autonomously exploiting and discovering software architectural weaknesses that humans never previously anticipated within systems.",
+        "This shift marks the definitive end of the traditional digital security era, forcing software engineers to comprehensively restructure their defense methodologies."
+      ],
+      "originalTitle": "Sam Altman: AI đang tìm ra những lỗ hổng vượt ngoài sức tưởng tượng của hacker",
+      "url": "https://genk.vn/sam-altman-ai-dang-tim-ra-nhung-lo-hong-vuot-ngoai-suc-tuong-tuong-cua-hacker-165261026072007977.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "AI",
+        "Cybersecurity",
+        "OpenAI",
+        "Vulnerabilities",
+        "Sam Altman"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-26T01:39:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/26/avatar1792973974291-1792973974919659506571.png",
+      "contentSnippet": "Trong một phát ngôn gây chấn động toàn bộ giới công nghệ, CEO OpenAI Sam Altman đã thừa nhận về khả năng thực sự của các mô hình AI hiện tại. Theo ông, thế giới an toàn kỹ thuật số mà chúng ta từng biết đã chính thức khép lại.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "96d9c614d20fde10",
+      "title_vi": "Bí mật đằng sau đàn vịt robot của Jensen Huang: Cỗ máy mini nặng 1kg và cuộc cách mạng huấn luyện AI chỉ trong vài giờ",
+      "title_en": "The Secret Behind Jensen Huang's Robot Ducks: A 1-Kilogram Mini Machine and the Revolution of AI Training in Just Hours",
+      "summary_vi": [
+        "Tại sự kiện công nghệ GTC Berlin, CEO Jensen Huang đã giới thiệu bộ sưu tập bốn chú robot mini hình vịt mang tên Microduck, gây ấn tượng mạnh với khả năng thực hiện linh hoạt các mệnh lệnh phức tạp trực tiếp trên sân khấu.",
+        "Những cỗ máy này sở hữu trọng lượng chỉ một kilogam nhưng được tích hợp hệ thống phần cứng và thuật toán tiên tiến, cho phép tối ưu hóa quy trình huấn luyện trí tuệ nhân tạo hoàn thành chỉ trong thời gian rất ngắn.",
+        "Bước đột phá này đánh dấu một bước tiến quan trọng trong lĩnh vực robotics và học máy, mở ra tiềm năng ứng dụng thực tế rộng rãi cho các nhà phát triển phần mềm và kỹ sư hệ thống nhúng trong tương lai."
+      ],
+      "summary_en": [
+        "At the GTC Berlin technology event, CEO Jensen Huang introduced a collection of four mini duck-shaped robots named Microduck, making a strong impression with their ability to flexibly execute complex commands directly on stage.",
+        "These machines weigh only one kilogram but are integrated with advanced hardware systems and algorithms, allowing the optimization of the artificial intelligence training process to be completed in a very short time.",
+        "This breakthrough marks an important milestone in the fields of robotics and machine learning, opening up widespread practical application potential for software developers and embedded systems engineers in the future."
+      ],
+      "originalTitle": "Bí mật đằng sau đàn 'vịt robot' của Jensen Huang: Cỗ máy mini nặng 1kg và cuộc cách mạng huấn luyện AI chỉ trong vài giờ đồng hồ",
+      "url": "https://genk.vn/bi-mat-dang-sau-dan-vit-robot-cua-jensen-huang-co-may-mini-nang-1kg-va-cuoc-cach-mang-huan-luyen-ai-chi-trong-vai-gio-dong-ho-1652610260718586.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Robotics",
+        "Machine Learning",
+        "Hardware",
+        "NVIDIA"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-26T01:18:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/26/avatar1792973910517-17929739109541246714790.png",
+      "contentSnippet": "Tại sự kiện GTC Berlin, CEO NVIDIA Jensen Huang đã khiến cả hội trường trầm trồ khi ra mắt 4 robot mini mang tên \"Microduck\". Những chú vịt này không chỉ tự bước ra sân khấu mà còn thực hiện các mệnh lệnh ngồi, đứng dậy hay nằm xuống theo đúng yêu cầu.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "28d9af70d6cc841d",
+      "title_vi": "Phân tích bên trong dòng điện thoại màn hình gập của Apple giải thích lý do tại sao màn hình và bản lề dễ hỏng",
+      "title_en": "iFixit's look inside the iPhone Duo may explain those broken screens and hinges",
+      "summary_vi": [
+        "Nhóm chuyên gia kỹ thuật từ iFixit đã tiến hành mổ xẻ mẫu điện thoại màn hình gập mới nhất của Apple để khám phá các linh kiện bên trong và tìm hiểu nguyên nhân gây ra tình trạng hư hỏng màn hình và bản lề thường gặp.",
+        "Báo cáo chi tiết cho thấy lớp phủ bề mặt dạng nhám nano giúp giảm thiểu hiện tượng phản xạ ánh sáng để che khuất nếp gấp, trong khi kính hiển vi tiết lộ các điểm ảnh phụ hình bầu dục được sắp xếp theo nhiều góc độ thiết kế khác nhau.",
+        "Đánh giá khả năng sửa chữa đạt điểm số khả quan nhất so với các thiết bị gập trước đó, mang lại những bài học quan trọng về cơ chế cơ khí và độ bền vật liệu cho các nhà phát triển phần cứng di động."
+      ],
+      "summary_en": [
+        "The technical experts at iFixit have torn down Apple's latest foldable smartphone model to inspect internal components and investigate the underlying causes behind frequent screen and hinge failures.",
+        "Detailed analysis shows that a matte nano-texture surface coating helps minimize light reflection to mask the crease, while microscopy reveals oval-shaped subpixels arranged at various engineering angles.",
+        "The repairability score reached the highest rating compared to previous foldable devices, providing critical insights into mechanical mechanisms and material durability for mobile hardware engineers."
+      ],
+      "originalTitle": "iFixit’s look inside the iPhone Duo may explain those broken screens and hinges",
+      "url": "https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "Hardware",
+        "Mobile",
+        "Engineering"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T21:40:27.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/iPhone-Duo-layout01.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "As is tradition, iFixit has torn open the latest iPhone and laid its parts bare on a table. It found some interesting details about how Apple might be hiding the crease on the Duo's folding screen and gave it a 5/10 repairability score. That might not seem particularly high, but it's the best score ",
+      "authorName": "Terrence O’Brien",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f1bdc0fa3bc12975",
+      "title_vi": "Một YouTuber đã mổ xẻ chiếc điện thoại gập iPhone Duo và tìm ra nguyên nhân gây lỗi nứt màn hình",
+      "title_en": "A YouTuber dissected an iPhone Duo and thinks he found the cause of crackgate",
+      "summary_vi": [
+        "Người dùng mạng xã hội đang phản ánh tình trạng lỗi màn hình nghiêm trọng trên dòng điện thoại gập iPhone Duo, khi bản lề phát ra tiếng kêu lạ và gây nứt vỡ màn hình chỉ sau vài giờ sử dụng thực tế.",
+        "Thông qua quá trình thử nghiệm độ bền và mổ xẻ thiết bị, YouTuber CuriousHagi đã phát hiện cơ chế bản lề phức tạp bao gồm các bánh răng trung tâm và hệ thống liên kết không đồng bộ, dẫn đến áp lực vật lý không mong muốn.",
+        "Sự cố này đặt ra bài toán lớn về kỹ thuật cơ khí trong thiết kế thiết bị di động màn hình gập, buộc các kỹ sư phải tối ưu hóa độ bền vật liệu và cấu trúc bản lề để đảm bảo tuổi thọ sản phẩm lâu dài."
+      ],
+      "summary_en": [
+        "Social media users are reporting critical screen failure issues on the iPhone Duo foldable, where the hinge mechanism produces audible cracking sounds and causes the display to shatter after only a few hours of normal usage.",
+        "Through durability testing and teardown analysis, YouTuber CuriousHagi identified a complex hinge architecture consisting of central gears and mismatched linking components, which creates excessive physical stress points that lead to premature screen damage during folding.",
+        "This hardware failure highlights significant mechanical engineering challenges in foldable device design, forcing hardware engineers to rethink material durability and hinge structural integrity to ensure long-term reliability for high-end mobile consumer electronics."
+      ],
+      "originalTitle": "A YouTuber dissected an iPhone Duo and thinks he found the cause of crackgate",
+      "url": "https://www.theverge.com/tech/1018290/dissected-iphone-duo-crackgate-hinge-screen",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone",
+        "Hardware",
+        "Mobile",
+        "Engineering",
+        "Foldable"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-25T20:16:19.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/20ruxzn728xh1.jpeg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Social media and the iPhone Duo subreddit are filled with reports of Apple's foldable failing quickly and in spectacular fashion. Some users report having the phone for only a few hours before the hinge seems to catch on something, then audibly crack and break the screen. Tellingly, the cracks all s",
+      "authorName": "Terrence O’Brien",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "bb5ed346c78a288d",
       "title_vi": "Cách tắt tính năng Reels trên Facebook cho người dùng iPhone và những giới hạn kỹ thuật cần biết",
@@ -8057,454 +8503,6 @@
       "publishedAt": "2026-10-19T02:18:00.000Z",
       "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/18/avatar1792356980817-1792356981451297613968.jpg",
       "contentSnippet": "Brax Wink kết hợp màn hình OLED 4 inch với bàn phím cảm ứng tháo rời, công tắc riêng tư và hệ điều hành có nhiều tùy chọn tự xóa dữ liệu.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "eb0b355d78e77aa1",
-      "title_vi": "Hệ điều hành Windows 11 tăng tốc hiệu năng tới 20 phần trăm nhờ bản cập nhật mới tối ưu cho máy dung lượng tám GB RAM",
-      "title_en": "Windows 11 achieves up to twenty percent performance boost with new update optimizing memory management for eight gigabyte RAM systems",
-      "summary_vi": [
-        "Hãng Microsoft vừa triển khai bản cập nhật mới nhằm tối ưu hóa cơ chế quản lý bộ nhớ và tài nguyên chạy nền cho hệ điều hành Windows 11 phổ biến hiện nay.",
-        "Bản nâng cấp tập trung cải tiến hiệu suất xử lý tác vụ thông qua việc phân bổ lại tài nguyên phần cứng giúp giảm thiểu tình trạng giật lag đáng kể.",
-        "Người dùng sở hữu máy tính cấu hình khiêm tốn với dung lượng bộ nhớ truy cập ngẫu nhiên tám GB sẽ nhận được mức cải thiện hiệu năng rõ rệt nhất."
-      ],
-      "summary_en": [
-        "Microsoft has recently rolled out a new update designed to optimize memory management and background resource allocation for the Windows eleven operating system.",
-        "This upgrade focuses on improving task processing performance through hardware resource reallocation which significantly reduces lagging and system stuttering issues.",
-        "Users owning modest computer configurations with eight gigabytes of random access memory will experience the most noticeable performance improvements in daily workflows."
-      ],
-      "originalTitle": "Windows 11 nhanh hơn tới 20% sau bản cập nhật mới, máy 8 GB RAM hưởng lợi rõ nhất",
-      "url": "https://genk.vn/windows-11-nhanh-hon-toi-20-sau-ban-cap-nhat-moi-may-8-gb-ram-huong-loi-ro-nhat-165261810233737949.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Windows",
-        "Microsoft",
-        "OS Optimization",
-        "Memory Management"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-19T02:10:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/18/avatar1792350601586-17923506025491188832391.jpg",
-      "contentSnippet": "Microsoft đang cải thiện cách Windows 11 quản lý bộ nhớ và tài nguyên chạy nền, giúp các thao tác quen thuộc phản hồi nhanh hơn. Thay đổi đáng chú ý nhất hướng đến những máy chỉ có 8 GB RAM, vốn dễ chậm khi mở nhiều ứng dụng hoặc tab trình duyệt.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "adf4c5341b74ff98",
-      "title_vi": "Trung Quốc thương mại hóa AI thành tiện ích công cộng với mô hình kinh tế token",
-      "title_en": "China Commercializes AI as Public Utility Through Token Economy Model",
-      "summary_vi": [
-        "Trung Quốc đang chuyển dịch từ việc cạnh tranh lưu lượng truy cập Internet sang phát triển nền kinh tế token, nơi năng lực tính toán trí tuệ nhân tạo được thương mại hóa như điện và nước.",
-        "Các nhà máy token vận hành với khối lượng xử lý hàng tỷ token mỗi ngày, kết hợp cùng các dịch vụ tài chính chuyên biệt như cho vay token và sàn giao dịch chuyên dụng.",
-        "Mô hình này định hình lại cách các kỹ sư phần mềm tiếp cận tài nguyên tính toán, biến cơ sở hạ tầng trí tuệ nhân tạo thành hàng hóa đo lường được với chi phí sòng phẳng."
-      ],
-      "summary_en": [
-        "China is shifting from internet traffic competition to developing a token economy where artificial intelligence computing capacity is commercialized similarly to electricity and water utilities.",
-        "Token factories operate by processing billions of tokens daily, integrated with specialized financial services like token lending and dedicated trading marketplaces for computational resources.",
-        "This model reshapes how software engineers access computing resources, transforming artificial intelligence infrastructure into a measurable commodity with transparent and direct pricing."
-      ],
-      "originalTitle": "Nhà máy chạy 1.400 tỷ token/ngày, ngân hàng cho vay token, sàn mua bán token: Trung Quốc đang biến AI thành thứ phải trả tiền như điện, như nước",
-      "url": "https://genk.vn/nha-may-chay-1400-ty-token-ngay-ngan-hang-cho-vay-token-san-mua-ban-token-trung-quoc-dang-bien-ai-thanh-thu-phai-tra-tien-nhu-dien-nhu-nuoc-165261019080601015.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Cloud",
-        "Infrastructure",
-        "Token Economy",
-        "Compute"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-19T01:40:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/19/avatar1792371928667-17923719291101940819399.jpg",
-      "contentSnippet": "Thay vì đua \"traffic\" như thời Internet, Trung Quốc đang mở ra kỷ nguyên \"kinh tế Token\". Tại đây, các \"nhà máy Token\" biến năng lực tính toán AI thành loại hàng hóa có thể đo lường, giao dịch và định giá sòng phẳng tương tự như nguồn điện lưới.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9d8ac4aec6a2b745",
-      "title_vi": "Người dân Mỹ phản đối dự án xây dựng trung tâm dữ liệu dù được hỗ trợ 10.000 USD",
-      "title_en": "American Residents Reject Large-Scale Data Center Project Despite 10000 USD Cash Offer",
-      "summary_vi": [
-        "Cư dân thị trấn Hazle tại bang Pennsylvania đã đồng loạt phản đối kế hoạch xây dựng một trung tâm dữ liệu quy mô lớn của nhà phát triển NorthPoint Development dù được hứa trả tiền mặt trực tiếp.",
-        "Dự án Hazelnut dự kiến triển khai trên diện tích rộng lớn với chuỗi nhiều tòa nhà nhằm đáp ứng hạ tầng tính toán khổng lồ, đi kèm khoản đền bù 45 triệu USD tương đương 10000 USD cho mỗi hộ gia đình.",
-        "Sự việc phản ánh thách thức lớn về việc cân bằng giữa nhu cầu hạ tầng số phục vụ kỷ nguyên trí tuệ nhân tạo và phản ứng tiêu cực từ cộng đồng địa phương liên quan đến tiếng ồn và môi trường."
-      ],
-      "summary_en": [
-        "Residents in Hazle township, Pennsylvania have strongly opposed a massive data center development plan proposed by NorthPoint Development despite the promise of direct cash payouts.",
-        "The Hazelnut project is designed to span a vast area with multiple large buildings to support heavy computational infrastructure, offering a total compensation fund of 45 million USD.",
-        "This situation highlights the growing tension between expanding critical digital infrastructure for the artificial intelligence era and managing local community resistance regarding noise and environmental impact."
-      ],
-      "originalTitle": "Người dân Mỹ phản đối xây trung tâm dữ liệu dù được tặng 10.000 USD",
-      "url": "https://vnexpress.net/nguoi-dan-my-phan-doi-xay-trung-tam-du-lieu-du-duoc-tang-10-000-usd-5133389.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "Data Center",
-        "Infrastructure",
-        "Cloud Computing",
-        "AI",
-        "Hardware"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-19T01:30:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/16/d12a2b0654e37fc5b827eb5fbed894-4868-8670-1792154988.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=uA2LyIQQ0AmT-EQ0-xcNKA",
-      "contentSnippet": "Cư dân thị trấn Hazle, Pennsylvania đồng loạt phản đối dự án xây trung tâm dữ liệu quy mô lớn, bất chấp lời hứa được tặng 10.000 USD.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e69c228fd9f0beed",
-      "title_vi": "Xây dựng tầng tìm kiếm và truy xuất cho tác tử AI: Bộ nhớ đệm, trích xuất sạch và kiểm soát chi phí bằng Python",
-      "title_en": "Building a Search and Fetch Layer for LLM Agents: Caching, Clean Extraction and Cost Control in Python",
-      "summary_vi": [
-        "Bài viết phân tích phương pháp xây dựng một tầng tìm kiếm và truy xuất dữ liệu chuyên dụng nhằm tối ưu hóa hiệu suất hoạt động cho các hệ thống tác tử trí tuệ nhân tạo lớn.",
-        "Giải pháp kỹ thuật tập trung tích hợp cơ chế bộ nhớ đệm thông minh, quy trình làm sạch dữ liệu trích xuất và chiến lược quản lý chi phí vận hành hiệu quả bằng ngôn ngữ Python.",
-        "Kiến trúc này mang lại giá trị thực tiễn cao giúp các kỹ sư phần mềm giảm thiểu độ trễ, tiết kiệm tài nguyên tính toán và nâng cao độ chính xác cho ứng dụng AI."
-      ],
-      "summary_en": [
-        "The article analyzes the methodology of building a dedicated search and data retrieval layer to optimize operational performance for large-scale artificial intelligence agent systems.",
-        "The technical solution focuses on integrating smart caching mechanisms, clean data extraction pipelines, and cost management strategies implemented efficiently using the Python programming language.",
-        "This architecture delivers high practical value by helping software engineers minimize latency, save computational resources, and enhance accuracy for modern artificial intelligence applications."
-      ],
-      "originalTitle": "Building a Search & Fetch Layer for LLM Agents: Caching, Clean Extraction and Cost Control in Python",
-      "url": "https://viblo.asia/p/building-a-search-fetch-layer-for-llm-agents-caching-clean-extraction-and-cost-control-in-python-K9Vy8Oo9LQR",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI Agents",
-        "Python",
-        "LLM",
-        "Caching",
-        "Software Architecture"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-19T00:41:29.000Z",
-      "contentSnippet": "",
-      "authorName": "EME GUG",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "dd69f87f3e722475",
-      "title_vi": "Agent AI đầu tiên chạy tốt rồi. Giờ làm gì? Lộ trình 12 tháng để đưa vào doanh nghiệp thực thụ",
-      "title_en": "First AI Agent Successfully Deployed: What Next? A 12-Month Roadmap for Enterprise Scale",
-      "summary_vi": [
-        "Sau khi hoàn tất giai đoạn thử nghiệm kéo dài chín mươi ngày với một tác tử trí tuệ nhân tạo hoạt động ổn định, các kỹ sư trưởng và đội ngũ phát triển phải đối mặt với áp lực mở rộng quy mô lớn.",
-        "Bài viết vạch ra một lộ trình chiến lược kéo dài mười hai tháng tập trung vào việc tái cấu trúc kiến trúc hệ thống, tối ưu hóa các mô hình ngôn ngữ lớn và thiết lập cơ chế giám sát thời gian thực.",
-        "Giải pháp này giúp các doanh nghiệp giảm thiểu rủi ro vận hành, đảm bảo tính bảo mật dữ liệu và chuyển đổi các ứng dụng thử nghiệm thành sản phẩm cốt lõi mang lại giá trị thực tiễn cao."
-      ],
-      "summary_en": [
-        "Following the successful completion of a ninety-day pilot phase with a stable artificial intelligence agent, lead engineers and development teams face immediate pressure to scale operations.",
-        "The article outlines a strategic twelve-month roadmap focusing on system architecture restructuring, large language model optimization, and the establishment of real-time monitoring mechanisms.",
-        "This approach helps enterprises minimize operational risks, ensure data security, and successfully transform experimental applications into core products that deliver substantial practical value."
-      ],
-      "originalTitle": "Agent AI đầu tiên chạy tốt rồi. Giờ làm gì? Lộ trình 12 tháng để đưa vào doanh nghiệp thực thụ",
-      "url": "https://viblo.asia/p/agent-ai-dau-tien-chay-tot-roi-gio-lam-gi-lo-trinh-12-thang-de-dua-vao-doanh-nghiep-thuc-thu-y0VGwWKzVPA",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI Agent",
-        "Enterprise AI",
-        "Machine Learning",
-        "Software Architecture",
-        "DevOps"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-19T00:26:20.000Z",
-      "contentSnippet": "Bạn vừa kết thúc một pilot 90 ngày. Một agent đang chạy. Kết quả có vẻ khả quan. Team của bạn hỏi câu không thể tránh: Khi nào scale? Đó là câu hỏi đ...",
-      "authorName": "Arief Warazuhudien",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f95f34b6dc0db201",
-      "title_vi": "Vibe Coding Thực Chiến: Tự Động Hóa Sau Bán Hàng Với Webhook, Telegram Và Email",
-      "title_en": "Practical Vibe Coding: Post-Sale Automation Using Webhooks, Telegram, and Instant Email",
-      "summary_vi": [
-        "Bài viết thuộc chuỗi Vibe Coding thực chiến giới thiệu phương pháp tự động hóa quy trình sau bán hàng thông qua việc tích hợp webhook trên nền tảng VPS Ubuntu.",
-        "Hệ thống kỹ thuật được xây dựng bằng cách kết nối webhook để tự động đẩy thông tin đơn hàng mới sang nhóm Telegram và gửi email xác nhận tức thì cho khách hàng.",
-        "Giải pháp này giúp các nhà phát triển tối ưu hóa thời gian xây dựng tính năng tự động hóa, nâng cao trải nghiệm người dùng và chuẩn hóa quy trình vận hành hệ thống."
-      ],
-      "summary_en": [
-        "This practical Vibe Coding article introduces post-sale automation workflows by integrating webhooks on an Ubuntu VPS server environment for real-time notification processing.",
-        "The technical architecture establishes seamless connections via webhooks to automatically forward newly placed order data directly to Telegram channels and dispatch instant confirmation emails.",
-        "This solution enables developers to significantly optimize feature development time for automation, elevate user experience, and successfully standardize backend operational workflows."
-      ],
-      "originalTitle": "[Vibe Coding Thực Chiến #10] Tự Động Hóa Sau Bán Hàng: Tích Hợp Webhook Bắn Đơn Sang Telegram & Gửi Email Tức Thì!",
-      "url": "https://viblo.asia/p/vibe-coding-thuc-chien-10-tu-dong-hoa-sau-ban-hang-tich-hop-webhook-ban-don-sang-telegram-gui-email-tuc-thi-Nj4vgOmdJ6r",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Automation",
-        "Webhook",
-        "Telegram API",
-        "DevOps",
-        "Ubuntu"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-19T00:25:48.000Z",
-      "contentSnippet": "Tác giả: Lee Series: Vibe Coding Thực Chiến Cùng EzyPlatform (#10) Hạ tầng thực nghiệm: VPS Ubuntu 22.04 LTS (157.66.47.xxx) | Domain Admin: https://1...",
-      "authorName": "Duong Nguyen",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4615586fa44617cf",
-      "title_vi": "Sĩ quan cảnh sát bị sa thải vì chia sẻ thông tin đăng nhập hệ thống giám sát Flock cho chồng",
-      "title_en": "A Savannah police officer gave her Flock login to her ICE agent husband",
-      "summary_vi": [
-        "Một sĩ quan cảnh sát tại Savannah đã bị sa thải sau khi cuộc điều tra nội bộ phát hiện cô chia sẻ tài khoản truy cập hệ thống giám sát Flock cho chồng mình, một nhân viên thuộc cơ quan di trú ICE.",
-        "Việc truy cập trái phép này đã dẫn đến 983 lượt tìm kiếm thông tin liên quan đến 97 biển số xe khác nhau, chủ yếu tập trung vào các phương tiện của những tài xế gốc Tây Ban Nha trong khu vực.",
-        "Sự cố này nhấn mạnh lỗ hổng nghiêm trọng trong quản lý quyền truy cập hệ thống và vi phạm quy tắc bảo mật dữ liệu, đặt ra yêu cầu cấp thiết về việc kiểm soát chặt chẽ tài khoản người dùng trong các hệ thống công nghệ."
-      ],
-      "summary_en": [
-        "A Savannah police officer was terminated following an internal investigation that revealed she shared her Flock surveillance system credentials with her husband, who is an agent for the Immigration and Customs Enforcement agency.",
-        "The unauthorized access resulted in 983 searches across 97 distinct license plates, with the vast majority of these queries targeting vehicles registered to Hispanic drivers within the local jurisdiction of the police department.",
-        "This incident highlights critical vulnerabilities in identity and access management protocols, underscoring the urgent necessity for stricter authentication controls and audit logging to prevent the misuse of sensitive law enforcement software platforms."
-      ],
-      "originalTitle": "A Savannah police officer gave her Flock login to her ICE agent husband",
-      "url": "https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "AccessControl",
-        "DataPrivacy",
-        "Surveillance",
-        "Authentication"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-18T22:20:53.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2265184860.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Now, former Savannah police officer Amber Harpe was fired in August following a department investigation that found she had shared her Flock login information with her husband, Tyler Harpe, an ICE agent. SPD does not share its Flock data with ICE and said sharing access to the system violated the de",
-      "authorName": "Terrence O’Brien",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f5eb791716b403bf",
-      "title_vi": "Nở rộ các công cụ nhân hóa văn bản trí tuệ nhân tạo để bắt chước văn phong con người",
-      "title_en": "Proliferation of AI Text Humanizer Tools Designed to Mimic Human Writing Styles",
-      "summary_vi": [
-        "Hàng trăm công cụ nhân hóa văn bản trí tuệ nhân tạo đang xuất hiện rộng rãi trên thị trường nhằm giúp chỉnh sửa câu chữ trở nên tự nhiên hơn và bắt chước chính xác văn phong của con người trong công việc.",
-        "Các ứng dụng phổ biến như Undetectable AI, StealthWriter hay WriteHuman cho phép người dùng dán văn bản từ các mô hình lớn rồi lựa chọn chế độ chỉnh sửa với mức chi phí thuê bao hàng tháng linh hoạt.",
-        "Sự bùng nổ của các giải pháp này đặt ra nhiều thách thức mới trong việc kiểm soát nguồn gốc nội dung số, đồng thời thúc đẩy các nhà phát triển nâng cao khả năng nhận diện văn bản tự động."
-      ],
-      "summary_en": [
-        "Hundreds of artificial intelligence text humanization tools are emerging rapidly in the market to help refine sentences naturally and accurately mimic human writing styles for professional tasks.",
-        "Popular applications such as Undetectable AI, StealthWriter, and WriteHuman allow users to paste text from large language models and select editing modes with flexible monthly subscription fees.",
-        "The boom of these solutions introduces new challenges in controlling digital content origins while prompting developers to enhance automated text detection capabilities."
-      ],
-      "originalTitle": "Nở rộ công cụ 'tăng tính người' cho nội dung AI",
-      "url": "https://vnexpress.net/no-ro-cong-cu-tang-tinh-nguoi-cho-noi-dung-ai-5131701.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Generative AI",
-        "NLP",
-        "Content Generation",
-        "AI Humanizer"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-18T22:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/13/ai-humanizer-1791870277-5825-1791870441.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=KBVZizfIyOESiUAUwj5kOg",
-      "contentSnippet": "Hàng trăm công cụ \"nhân hóa\" văn bản AI đang xuất hiện nhằm giúp chỉnh sửa câu chữ tự nhiên hơn, bắt chước văn phong con người.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ae6e49210029e41a",
-      "title_vi": "Tác nhân lý luận lai: Các mô hình ngôn ngữ lớn suy nghĩ trong không gian tiềm ẩn và hành động qua văn bản",
-      "title_en": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-      "summary_vi": [
-        "Nghiên cứu mới được công bố trên nền tảng arXiv giới thiệu hệ thống tác nhân trí tuệ nhân tạo lai, cho phép mô hình ngôn ngữ lớn thực hiện quá trình suy luận sâu bên trong không gian tiềm ẩn.",
-        "Kiến trúc cốt lõi kết hợp giữa khả năng xử lý biểu diễn ẩn để tối ưu hóa logic và phương thức tương tác truyền thống thông qua văn bản tự nhiên để thực thi các tác vụ phức tạp.",
-        "Phương pháp tiếp cận này hứa hẹn nâng cao hiệu suất xử lý, giảm độ trễ và mở rộng giới hạn năng lực giải quyết vấn đề của các hệ thống tự trị trong tương lai."
-      ],
-      "summary_en": [
-        "A newly published research paper on arXiv introduces a hybrid artificial intelligence agent system that enables large language models to perform deep reasoning processes within latent space.",
-        "The core architecture combines the capability of hidden representation processing to optimize logic with traditional interaction methods through natural text to execute complex tasks effectively.",
-        "This novel approach promises to enhance processing performance, reduce latency, and expand the problem-solving capability limits of autonomous systems in future technological developments."
-      ],
-      "originalTitle": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-      "url": "https://arxiv.org/abs/2610.18861",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "LLM",
-        "Machine Learning",
-        "Research",
-        "Agents"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-18T20:48:14.000Z",
-      "contentSnippet": "Focus to learn more arXiv-issued DOI via DataCite (pending registration) Submission history From: Jiaru Zou [view email] [v1] Tue, 13 Oct 2026 17:59:31 UTC (8,500 KB) Full-text links: Access Paper: View a PDF of the paper titled Hybrid Reasoning Agents, by Jiaru Zou and 7 other authorsView PDFHTML (",
-      "authorName": "allinonai",
-      "upvotes": 229,
-      "commentsCount": 139
-    },
-    {
-      "id": "489a23c9b4aa060e",
-      "title_vi": "Ai là người đứng sau phần mềm",
-      "title_en": "Someone behind the software",
-      "summary_vi": [
-        "Sản phẩm phần mềm chất lượng thường mang đậm dấu ấn cá nhân và tư duy của những nhà phát triển tạo ra chúng, thay vì chỉ là kết quả từ một dây chuyền công nghiệp rập khuôn quy trình.",
-        "Mặc dù các đội ngũ phát triển có thể tiếp cận cùng một tập khách hàng và công nghệ, nhưng cách họ thấu hiểu vấn đề và phong cách xây dựng phần mềm sẽ tạo ra sự khác biệt lớn.",
-        "Trực giác trong kỹ thuật phần mềm không phải là cảm tính cá nhân mà được tích lũy qua kinh nghiệm thực tế, giúp các nhà sáng lập đưa ra những quyết định sáng suốt vượt qua dữ liệu thô."
-      ],
-      "summary_en": [
-        "Quality software products often carry the personal imprint and mindset of the developers who create them, rather than merely being the result of an automated industrial assembly line.",
-        "Although different development teams may access the same customers and technologies, their unique understanding of problems and building styles create significant divergence in final outputs.",
-        "Engineering intuition is not arbitrary personal preference but accumulates through practical experience, helping founders make sound judgments that transcend raw, faceless data."
-      ],
-      "originalTitle": "Someone behind the software",
-      "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Software Engineering",
-        "Product Development",
-        "Startup",
-        "Engineering Culture"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-18T16:32:00.000Z",
-      "contentSnippet": "I think good products carry something of the people who make them. Their experience, what they care about, and how they think things should work. You might not know who those people are, but you can feel their perspective in the product. The industry often talks about software as though it comes out",
-      "authorName": "tosh",
-      "upvotes": 143,
-      "commentsCount": 55
-    },
-    {
-      "id": "3a7eaf979be55568",
-      "title_vi": "Máy chơi game cầm tay chạy SteamOS tốc độ cao và thoải mái của Lenovo đang được giảm giá mạnh",
-      "title_en": "Lenovo’s fast, comfy SteamOS handheld is hundreds off",
-      "summary_vi": [
-        "Thiết bị chơi game cầm tay mới của Lenovo chạy hệ điều hành SteamOS đang nhận được mức giảm giá đáng kể tại các nhà bán lẻ lớn, thu hút sự chú ý của cộng đồng game thủ và người yêu công nghệ di động.",
-        "Sản phẩm được trang bị bộ vi xử lý Ryzen Z1 Extreme mạnh mẽ, màn hình IPS tám inch với tần số quét 120Hz, cùng dung lượng RAM 32GB và bộ nhớ lưu trữ 1TB vượt trội so với các đối thủ cùng phân khúc.",
-        "Mức giá ưu đãi này mang lại lựa chọn phần cứng giá trị cao cho người dùng muốn trải nghiệm hệ sinh thái chơi game di động tối ưu mà không phải đầu tư các dòng máy quá đắt đỏ trên thị trường hiện nay."
-      ],
-      "summary_en": [
-        "Lenovo's new handheld gaming device running the SteamOS operating system is receiving significant price cuts at major retailers, attracting the attention of gamers and mobile technology enthusiasts alike.",
-        "The product is equipped with a powerful Ryzen Z1 Extreme processor, an eight-inch IPS screen with a 120Hz refresh rate, alongside 32GB of RAM and 1TB of storage, outperforming competitors in the same segment.",
-        "This discounted price offers a high-value hardware choice for users seeking an optimized mobile gaming ecosystem experience without having to invest in overly expensive models currently available on the market."
-      ],
-      "originalTitle": "Lenovo’s fast, comfy SteamOS handheld is hundreds off",
-      "url": "https://www.theverge.com/gadgets/1013436/lenovo-legion-go-s-steamos-handheld-deal-sale",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "Lenovo",
-        "SteamOS",
-        "Handheld",
-        "Gaming",
-        "Hardware"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-18T15:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/lenovo-legion-go-s-steamos-sean-hollister-331A1224.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "The Legion Go S with SteamOS is a pretty solid alternative to the $789 Steam Deck OLED. It runs identical software, but ships in a design with two-stage triggers, a bigger eight-inch IPS screen (1080p and up to 120Hz versus 800p and 90Hz in the Deck OLED), and it’s got double the RAM and storage (32",
-      "authorName": "Cameron Faulkner",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "704e28eac34b5c0d",
-      "title_vi": "Anthropic chi 1,5 tỉ USD dàn xếp vụ kiện bản quyền sách với sự tham gia của Han Kang",
-      "title_en": "Anthropic Settles Book Copyright Lawsuit for $1.5 Billion Including Works by Han Kang",
-      "summary_vi": [
-        "Công ty trí tuệ nhân tạo Anthropic đã chi khoản tiền khổng lồ lên tới 1,5 tỉ đô la Mỹ để dàn xếp vụ kiện bản quyền sách tại thị trường Mỹ, liên quan đến khoảng 500.000 đầu sách được sử dụng để huấn luyện mô hình ngôn ngữ lớn.",
-        "Vụ việc làm nổi bật những thách thức pháp lý nghiêm trọng trong việc sử dụng dữ liệu văn bản có bản quyền để đào tạo các hệ thống trí tuệ nhân tạo tạo sinh, đòi hỏi các kỹ sư phải xây dựng cơ chế lọc dữ liệu minh bạch hơn.",
-        "Thỏa thuận dàn xếp này tạo ra tiền lệ quan trọng cho ngành công nghiệp phần mềm và trí tuệ nhân tạo, buộc các doanh nghiệp công nghệ phải tuân thủ nghiêm ngặt hơn các quy định về quyền sở hữu trí tuệ khi phát triển sản phẩm."
-      ],
-      "summary_en": [
-        "Artificial intelligence company Anthropic has agreed to a massive 1.5 billion dollar settlement in a US book copyright lawsuit, involving approximately 500,000 titles used to train large language models.",
-        "The case highlights severe legal challenges regarding the use of copyrighted text data for training generative artificial intelligence systems, requiring engineers to build more transparent data filtering mechanisms.",
-        "This settlement establishes a critical precedent for the software and artificial intelligence industry, forcing technology enterprises to strictly comply with intellectual property regulations when developing products."
-      ],
-      "originalTitle": "Anthropic chi 1,5 tỉ USD dàn xếp vụ kiện bản quyền sách, có tác phẩm của Han Kang",
-      "url": "https://tuoitre.vn/anthropic-chi-15-ti-usd-dan-xep-vu-kien-ban-quyen-sach-co-tac-pham-cua-han-kang-100261018135931997.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Copyright",
-        "Anthropic",
-        "Large Language Models",
-        "Legal"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-18T14:07:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/18/anthropic-17923065647441171507897-13-0-452-702-crop-17923067515211150113613.png",
-      "contentSnippet": "Khoảng 500.000 đầu sách thuộc diện được bồi thường trong vụ kiện Anthropic tại Mỹ, trong đó có tác phẩm của nhà văn Hàn Quốc Han Kang.",
-      "authorName": "TTXVN",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "74d482e1afa76e1d",
-      "title_vi": "NVIDIA dịch chuyển chiến lược trọng tâm, không còn tập trung chủ yếu vào thị trường máy tính chơi game",
-      "title_en": "NVIDIA Shifts Strategic Focus Away from PC Gaming as New Markets Emerge",
-      "summary_vi": [
-        "Thị trường phần cứng chơi game cá nhân không còn là lĩnh vực cốt lõi định hình hướng đi chiến lược dài hạn của hãng sản xuất vi xử lý đồ họa hàng đầu thế giới trong giai đoạn hiện nay.",
-        "Mặc dù dòng sản phẩm cạc đồ họa GeForce vẫn duy trì doanh thu hàng tỷ đô la từ cộng đồng game thủ, các phân khúc công nghệ phần cứng khác đang chiếm ưu thế tuyệt đối trong cơ cấu doanh thu.",
-        "Sự dịch chuyển này phản ánh xu hướng phát triển phần cứng tập trung vào trí tuệ nhân tạo và hạ tầng trung tâm dữ liệu, tác động sâu sắc đến chuỗi cung ứng linh kiện toàn cầu."
-      ],
-      "summary_en": [
-        "The personal gaming hardware market is no longer the core domain defining the long-term strategic direction of the world's leading graphics processor manufacturer in the current industry landscape.",
-        "Although the GeForce graphics card product line continues to generate billions of dollars in revenue from the gaming community, other high-performance hardware segments now dominate the revenue structure.",
-        "This strategic shift reflects a broader industry trend toward artificial intelligence infrastructure and data center hardware, deeply impacting the global semiconductor supply chain."
-      ],
-      "originalTitle": "NVIDIA không còn là công ty PC gaming nữa, hãy quen dần với điều đó",
-      "url": "https://genk.vn/nvidia-khong-con-la-cong-ty-pc-gaming-nua-hay-quen-dan-voi-dieu-do-16526181015005697.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "NVIDIA",
-        "GPU",
-        "Semiconductor",
-        "Gaming",
-        "AI"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-18T10:10:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/18/avatar1792318125941-1792318127114964482636.jpg",
-      "contentSnippet": "GeForce chưa biến mất và NVIDIA vẫn kiếm được hàng tỷ USD từ game thủ. Tuy nhiên, PC gaming rõ ràng không còn là lĩnh vực quyết định hướng đi của hãng.",
       "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
