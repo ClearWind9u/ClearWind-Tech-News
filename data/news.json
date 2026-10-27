@@ -1,7 +1,512 @@
 {
-  "lastUpdated": "2026-10-27T03:04:17.679Z",
+  "lastUpdated": "2026-10-27T17:08:22.095Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "cfc83c3b9ec2242f",
+      "title_vi": "GLM-5.3 qua API: cách kiểm tra độ trễ và đầu ra",
+      "title_en": "GLM-5.3 via API: how to test latency and output",
+      "summary_vi": [
+        "Kết luận nhanh: Trong một phép thử nhỏ ngày 27 tháng 10 năm 2026, GLM-5.3 hoàn thành tác vụ trích xuất dữ liệu nhanh hơn mẫu so sánh 5,45 giây.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong GLM-5.3 qua API: cách kiểm tra độ trễ và đầu ra.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến GLM-5.3 qua API: cách kiểm tra độ trễ và đầu ra."
+      ],
+      "summary_en": [
+        "Quick conclusion: In a small test on October 27, 2026, GLM-5.3 completed the data extraction task 5.45 seconds faster than the comparison sample.",
+        "In-depth technical breakdown and implementation mechanisms introduced in GLM-5.3 via API: how to test latency and output.",
+        "Practical engineering impact and actionable takeaways for developers building with GLM-5.3 via API: how to test latency and output."
+      ],
+      "originalTitle": "GLM-5.3 qua API: cách kiểm tra độ trễ và đầu ra",
+      "url": "https://viblo.asia/p/glm-53-qua-api-cach-kiem-tra-do-tre-va-dau-ra-37LdeRZDVov",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "SoftwareEngineering",
+        "Programming"
+      ],
+      "hotScore": 87,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-27T17:59:35.000Z",
+      "contentSnippet": "Kết luận nhanh: Trong một phép thử nhỏ ngày 27 tháng 10 năm 2026, GLM-5.3 hoàn thành tác vụ trích xuất dữ liệu nhanh hơn mẫu so sánh 5,45 giây. Cùng...",
+      "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "cd66d53a64cdfe0c",
+      "title_vi": "Trải nghiệm thực tế iPhone Duo và Galaxy Z Fold 8 sau vài ngày sử dụng",
+      "title_en": "Hands-on Experience with iPhone Duo and Galaxy Z Fold 8 After a Few Days of Usage",
+      "summary_vi": [
+        "Bài viết chia sẻ trải nghiệm thực tế khi sử dụng song song hai thiết bị di động màn hình gập cao cấp là iPhone Duo và Galaxy Z Fold 8 trong những ngày đầu tiên trên thị trường.",
+        "Cả hai sản phẩm đều sở hữu thiết kế dạng gập sách với màn hình ngoài khoảng 5,4 đến 5,5 inch cùng màn hình chính bên trong kích thước 7,6 inch mang lại nhiều điểm đáng chú ý.",
+        "Việc đánh giá chi tiết cảm giác cầm nắm và tỷ lệ hiển thị của hai dòng điện thoại thông minh này giúp người dùng công nghệ có cái nhìn rõ nét hơn về xu hướng thiết kế thiết bị di động hiện đại."
+      ],
+      "summary_en": [
+        "The article shares real-world user experiences obtained from simultaneously testing two high-end foldable mobile devices, specifically the iPhone Duo and Galaxy Z Fold 8, during their initial market release.",
+        "Both products feature a book-style foldable design equipped with an outer display measuring approximately 5.4 to 5.5 inches and an inner main screen spanning 7.6 inches, delivering notable engineering characteristics.",
+        "Evaluating the ergonomic feel and display aspect ratios of these two smartphone models provides technology enthusiasts with clearer insights into modern mobile hardware design trends."
+      ],
+      "originalTitle": "iPhone Duo vs Galaxy Z Fold 8 sau vài ngày dùng: Câu trả lời là dễ",
+      "url": "https://tinhte.vn/thread/iphone-duo-vs-galaxy-z-fold-8-sau-vai-ngay-dung-cau-tra-loi-la-de.4187500/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Foldable",
+        "Smartphone",
+        "Apple",
+        "Samsung",
+        "Mobile Hardware"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-27T17:05:43.000Z",
+      "contentSnippet": "Mình vừa dùng song song iPhone Duo và Galaxy Z Fold 8 trong vài ngày. Hai máy cùng form gập sách, cùng màn ngoài khoảng 5,4 đến 5,5 inch và màn trong 7,6 inch, nhưng cảm giác cầm, tỷ lệ màn và...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "50bd77690e0ce0ea",
+      "title_vi": "Táo khuyết tung máy tính xách tay chuyên nghiệp mười bốn inch trang bị chip xử lý thế hệ mới với bộ vi xử lý mười hai nhân và bộ xử lý thần kinh kép",
+      "title_en": "Apple Launches 14-inch Professional Laptop Powered by Next-Gen Silicon Featuring Twelve-Core CPU and Dual Neural Engine",
+      "summary_vi": [
+        "Hãng công nghệ danh tiếng vừa chính thức trình làng dòng máy tính xách tay cao cấp thế hệ mới nhằm nâng tầm hiệu năng xử lý tác vụ nặng và cải thiện đáng kể thời lượng sử dụng pin cho người dùng chuyên nghiệp.",
+        "Thiết bị sở hữu cấu hình phần cứng ấn tượng với bộ vi xử lý mười hai nhân mạnh mẽ kết hợp cùng bộ xử lý thần kinh kép mười sáu nhân tối ưu hóa riêng cho các mô hình trí tuệ nhân tạo chạy trực tiếp trên máy.",
+        "Sự cải tiến vượt bậc về kiến trúc phần cứng này mang lại năng lực tính toán vượt trội giúp các lập trình viên và kỹ sư phần mềm biên dịch mã nguồn nhanh chóng hơn trong môi trường phát triển hiện đại."
+      ],
+      "summary_en": [
+        "The renowned technology giant has officially introduced a new generation of high-end professional laptops designed to elevate heavy workload processing performance and significantly improve battery life for professionals.",
+        "The device features an impressive hardware configuration with a powerful twelve-core processor combined with a sixteen-core dual neural engine specifically optimized for running local artificial intelligence models.",
+        "This remarkable hardware architecture advancement delivers exceptional computing capabilities, enabling developers and software engineers to compile source code much faster within modern development environments."
+      ],
+      "originalTitle": "Apple ra mắt MacBook Pro 14-inch M6: chip 12 nhân, NPU kép 16 nhân, pin 24 giờ, giá từ 1.999 USD",
+      "url": "https://tinhte.vn/thread/apple-ra-mat-macbook-pro-14-inch-m6-chip-12-nhan-npu-kep-16-nhan-pin-24-gio-gia-tu-1-999-usd.4187646/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "MacBook Pro",
+        "Artificial Intelligence",
+        "Hardware",
+        "Silicon"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-27T16:35:48.000Z",
+      "contentSnippet": "Apple vừa chính thức giới thiệu chiếc MacBook Pro 14-inch thế hệ mới trang bị chip M6. Bản nâng cấp này tập trung vào việc đẩy mạnh hiệu năng xử lý, năng lực AI cục bộ trên thiết bị và chuẩn kết...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "991356d9e9385200",
+      "title_vi": "Cửa sổ thông minh của Firefox bổ sung tính năng điền biểu mẫu AI và giám sát trang web",
+      "title_en": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+      "summary_vi": [
+        "Mozilla đang cập nhật Smart Window - trải nghiệm duyệt web được hỗ trợ bởi AI của Firefox - với một tính năng mới có thể giúp bạn điền vào các biểu mẫu trực tuyến dựa trên các tab đang mở của bạn.",
+        "Ví dụ: Mozilla cho biết Smart Window có thể lấy thông tin từ danh mục đầu tư trực tuyến hoặc trang LinkedIn của bạn để dán lịch sử công việc của bạn vào đơn xin việc.",
+        "Bạn có thể thử tính năng này bằng cách nhấp vào biểu mẫu có ít nhất bốn trường văn bản."
+      ],
+      "summary_en": [
+        "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs.",
+        "As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste your work history into a job application.",
+        "You can try out this feature by clicking into a form with at least four text fields."
+      ],
+      "originalTitle": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "MachineLearning"
+      ],
+      "hotScore": 90,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-27T16:14:18.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/firefox-fill.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste your work history into ",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "723ba74abd318129",
+      "title_vi": "Apple Creator Studio tích hợp trợ lý trí tuệ nhân tạo và kho hiệu ứng chuyên nghiệp",
+      "title_en": "Apple Creator Studio Integrates AI Assistant and Professional Effects Library",
+      "summary_vi": [
+        "Hãng công nghệ Apple vừa chính thức mở rộng hệ sinh thái ứng dụng sáng tạo thông qua gói dịch vụ Creator Studio mới với nhiều tính năng nâng cấp mạnh mẽ.",
+        "Bản cập nhật phần mềm tích hợp trợ lý trí tuệ nhân tạo thông minh vào các công cụ soạn thảo, cùng công nghệ tạo hình ảnh nâng cao và kho hiệu ứng độc quyền.",
+        "Sự kiện này mang lại giá trị thiết thực cho cộng đồng phát triển nội dung và kỹ sư phần mềm khi tối ưu hóa hiệu suất làm việc mà không phát sinh thêm chi phí."
+      ],
+      "summary_en": [
+        "Apple has officially expanded its creative application ecosystem through a new Creator Studio service package featuring powerful upgraded capabilities.",
+        "The software update integrates intelligent artificial intelligence assistants into writing and productivity tools, alongside advanced image generation technology and exclusive effects libraries.",
+        "This update delivers practical value to content creators and software engineers by optimizing workflow efficiency without incurring additional subscription costs."
+      ],
+      "originalTitle": "Apple Creator Studio có AI trợ lý, Generate Fill và cả kho hiệu ứng MotionVFX, người dùng cũ được nâng cấp miễn phí",
+      "url": "https://genk.vn/apple-creator-studio-co-ai-tro-ly-generate-fill-va-ca-kho-hieu-ung-motionvfx-nguoi-dung-cu-duoc-nang-cap-mien-phi-165261027231325632.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Apple",
+        "Artificial Intelligence",
+        "Software Update",
+        "Creator Studio",
+        "Final Cut Pro"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-27T16:12:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/27/apple-creator-studio-hero-261027bigjpglarge2x-1793117125513193087582-0-102-1103-1867-crop-17931173586771363959840.jpg",
+      "contentSnippet": "Apple vừa mở rộng Apple Creator Studio với trợ lý AI trong Logic Pro, Keynote, Pages, Numbers, công cụ Generate Fill trên Pixelmator Pro và kho hiệu ứng MotionVFX ngay trong Final Cut Pro. Bản cập nhật lên App Store từ tháng 11 và miễn phí cho người đăng ký hiện tại.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "393575ee7d83ff0a",
+      "title_vi": "Thần đèn thế hệ thứ tư: Mô hình thế giới đa phương thức mới",
+      "title_en": "Genie 4: A new generation of world simulation",
+      "summary_vi": [
+        "Google vừa công bố mô hình thế giới mới mang tên Thần đèn thế hệ thứ tư, đánh dấu bước tiến quan trọng trong việc tạo ra các mô phỏng tương tác thời gian thực với mức độ chân thực chưa từng có từ trước đến nay.",
+        "Mô hình tích hợp khả năng đa phương thức gốc, cho phép tự động sinh ra âm thanh, âm nhạc nền và đối thoại tương tác đồng thời cùng với môi trường thế giới ảo dựa trên nền tảng kiến trúc tiên tiến.",
+        "Bước đột phá này cung cấp môi trường huấn luyện an toàn cho robot và các tác nhân thông minh, mở ra tiềm năng to lớn trong việc phát triển trải nghiệm tương tác mới cho các nhà phát triển."
+      ],
+      "summary_en": [
+        "Google has just announced a new world model called Genie 4, marking an important milestone in creating real-time interactive simulations with unprecedented levels of visual and functional realism.",
+        "The model integrates native multimodal capabilities, enabling the simultaneous generation of audio, background ambient noise, and interactive dialogue alongside the virtual world environment using advanced architecture.",
+        "This breakthrough provides safe training environments for robots and intelligent agents, unlocking tremendous potential in developing novel interactive experiences for software developers and consumers alike."
+      ],
+      "originalTitle": "Genie 4",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "World Simulation",
+        "Multimodal AI",
+        "Google",
+        "Machine Learning"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-27T16:06:01.000Z",
+      "contentSnippet": "October 27, 2026 ModelsGenie 4: A new generation of world simulationRaia Hadsell, Diego Rivas and Hang Qi Share Your browser does not support the video tag. Your browser does not support the video tag.Today, we are announcing Genie 4, our new world model, which unlocks unprecedented realism and impr",
+      "authorName": "acossta",
+      "upvotes": 178,
+      "commentsCount": 81
+    },
+    {
+      "id": "80ed0836b8e335db",
+      "title_vi": "Kiểm tra khả năng thu thập dữ liệu của bot AI trên website: robots.txt, tường lửa và nội dung render bằng JavaScript",
+      "title_en": "Verifying AI Bot Crawlability: Analyzing robots.txt, Firewalls, and JavaScript-Rendered Content",
+      "summary_vi": [
+        "Nhiều website hiện nay gặp khó khăn khi không được các mô hình AI như ChatGPT hay Perplexity dẫn nguồn, gây ảnh hưởng trực tiếp đến lưu lượng truy cập và khả năng hiển thị thông tin quan trọng trên các nền tảng tìm kiếm thông minh.",
+        "Nguyên nhân kỹ thuật thường xuất phát từ cấu hình file robots.txt quá khắt khe, các lớp tường lửa chặn bot tự động hoặc việc nội dung trang web được render hoàn toàn bằng JavaScript khiến các trình thu thập dữ liệu truyền thống không thể đọc được.",
+        "Các kỹ sư cần chủ động kiểm tra cấu hình User-Agent, tối ưu hóa cơ chế render phía server và điều chỉnh chính sách bảo mật để đảm bảo bot AI có thể truy cập, lập chỉ mục nội dung một cách chính xác và hiệu quả nhất."
+      ],
+      "summary_en": [
+        "Many websites struggle with visibility as AI models like ChatGPT or Perplexity fail to cite them, directly impacting organic traffic and the discoverability of critical information on modern intelligent search platforms and AI-driven aggregators.",
+        "Technical bottlenecks often stem from overly restrictive robots.txt configurations, aggressive firewall rules blocking automated crawlers, or content rendered exclusively via JavaScript, which prevents traditional search bots from parsing and indexing the page structure effectively.",
+        "Engineers must proactively audit User-Agent configurations, optimize server-side rendering mechanisms, and refine security policies to ensure that AI crawlers can successfully access, interpret, and index website content for improved search relevance and visibility."
+      ],
+      "originalTitle": "Kiểm tra bot AI có đọc được website không: robots.txt, tường lửa và nội dung render bằng JS",
+      "url": "https://viblo.asia/p/kiem-tra-bot-ai-co-doc-duoc-website-khong-robotstxt-tuong-lua-va-noi-dung-render-bang-js-G24B8W2RLz3",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "SEO",
+        "Web Scraping",
+        "JavaScript",
+        "AI",
+        "Web Development"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-27T16:05:44.000Z",
+      "contentSnippet": "Khi một website \"không bao giờ được ChatGPT hay Perplexity dẫn nguồn\", nguyên nhân đôi khi rất kỹ thuật: bot của các hãng đó không vào được trang, hoặ...",
+      "authorName": "GEOAIDIGI",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "4aef44b04dafefcb",
+      "title_vi": "Trải nghiệm sạc dự phòng Anker tích hợp quạt tản nhiệt và sạc không dây công suất lớn cho thiết bị di động cao cấp",
+      "title_en": "Reviewing Anker Portable Charger with Cooling Fan and High Wattage Wireless Charging for Premium Mobile Devices",
+      "summary_vi": [
+        "Thiết bị sạc dự phòng mới từ thương hiệu nổi tiếng thu hút sự chú ý lớn nhờ thiết kế độc đáo và các tính năng tiên tiến dành riêng cho dòng điện thoại thông minh cao cấp thế hệ mới nhất trên thị trường hiện nay.",
+        "Sản phẩm được tích hợp hệ thống quạt tản nhiệt chủ động kết hợp công nghệ sạc không dây công suất cao, giúp duy trì hiệu suất ổn định và hạn chế tình trạng quá nhiệt khi nạp năng lượng liên tục.",
+        "Giải pháp phụ kiện này mang lại trải nghiệm sử dụng tối ưu hơn cho người dùng công nghệ di động, đồng thời đặt ra tiêu chuẩn mới về khả năng quản lý nhiệt độ cho các thiết bị sạc không dây."
+      ],
+      "summary_en": [
+        "The new portable charging accessory from a well-known brand attracts significant attention for its innovative design and advanced features tailored specifically for the latest generation of high-end smartphones in the current market.",
+        "The product integrates an active cooling fan system combined with high-wattage wireless charging technology, helping to maintain stable performance and mitigate overheating issues during continuous energy replenishment.",
+        "This accessory solution delivers an optimized user experience for mobile technology enthusiasts while establishing a new benchmark for thermal management capabilities in wireless charging devices."
+      ],
+      "originalTitle": "Xài sạc dự phòng Anker MagGo 2 Pro với iPhone 18 Pro Max: Có quạt tản nhiệt, sạc không dây 25W",
+      "url": "https://tinhte.vn/thread/xai-sac-du-phong-anker-maggo-2-pro-voi-iphone-18-pro-max-co-quat-tan-nhiet-sac-khong-day-25w.4178876/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Anker",
+        "Wireless Charging",
+        "Mobile Accessories",
+        "Hardware",
+        "Smartphones"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-27T16:04:27.000Z",
+      "contentSnippet": "Hồi đợt Cu Hiệp đi triển lãm IFA bên châu Âu ghé vào gian hàng của Anker, mình đã nghía thấy cục pin dự phòng này và cực kỳ ấn tượng với ý tưởng thiết kế của nó. Mấy bữa nay mình đã mượn được một...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "8fc62bcb0cb10104",
+      "title_vi": "Mô hình Genie AI tiếp theo của Google tạo ra trải nghiệm thực tế hơn",
+      "title_en": "Google’s next Genie AI model generates more realistic experiences",
+      "summary_vi": [
+        "Hôm nay, Google đã công bố mô hình thế giới Genie 4 để tạo ra trải nghiệm tương tác bằng AI.",
+        "Công ty cho biết mô hình này có bốn bản cập nhật chính: Nó cho phép thế giới thực tế hơn, cho phép người dùng cập nhật trải nghiệm trong thời gian thực với lời nhắc ngôn ngữ tự nhiên, có thể tạo âm thanh và sử dụng Gemini 3.8 Flash dưới mui xe để hỗ trợ mô phỏng.",
+        "Nó cũng có thể tạo ra những trải nghiệm dài khoảng hai phút, tăng từ một phút đối với mẫu Genie 3 trước đó."
+      ],
+      "summary_en": [
+        "Google announced today its Genie 4 world model for generating interactive experiences using AI.",
+        "The company says the model has four main updates: It allows for more realistic worlds, lets users update an experience in real time with a natural language prompt, can generate audio, and uses Gemini 3.8 Flash under the hood to help with its simulations.",
+        "It also can create experiences that are about two minutes long, up from one minute for the previous Genie 3 model."
+      ],
+      "originalTitle": "Google’s next Genie AI model generates more realistic experiences",
+      "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Gemini"
+      ],
+      "hotScore": 89,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-27T16:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-26-at-3.00.35-PM.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Google announced today its Genie 4 world model for generating interactive experiences using AI. The company says the model has four main updates: It allows for more realistic worlds, lets users update an experience in real time with a natural language prompt, can generate audio, and uses Gemini 3.8 ",
+      "authorName": "Jay Peters",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "86fc9372a28543f3",
+      "title_vi": "Apple nâng cấp dòng máy Mac và iMac với bộ vi xử lý M6 tiến trình 2nm",
+      "title_en": "Apple Upgrades Mac and iMac Lineup with 2nm M6 Processors",
+      "summary_vi": [
+        "Apple vừa chính thức công bố các phiên bản nâng cấp phần cứng mới nhất cho dòng máy tính xách tay MacBook Pro mười bốn inch và máy tính để bàn iMac với chip xử lý Apple M6 tiên tiến.",
+        "Bộ vi xử lý mới được sản xuất trên tiến trình hai nanômét đầu tiên của hãng mang lại hiệu năng đồ họa vượt trội cùng khả năng tính toán trí tuệ nhân tạo cục bộ cực kỳ mạnh mẽ.",
+        "Sự kiện này đánh dấu bước tiến quan trọng trong công nghệ bán dẫn của Apple giúp tối ưu hóa thời lượng pin lên đến hai mươi bốn giờ mà vẫn giữ nguyên mức giá bán lẻ so với thế hệ trước."
+      ],
+      "summary_en": [
+        "Apple has officially announced the latest hardware upgrade versions for the fourteen inch MacBook Pro laptops and iMac desktops featuring the advanced Apple M6 processor.",
+        "The new processor manufactured on the company's first two nanometer process delivers superior graphical performance alongside exceptionally powerful local artificial intelligence computing capabilities.",
+        "This release marks a significant milestone in Apple's semiconductor technology helping optimize battery life up to twenty four hours while maintaining the same retail price as the previous generation."
+      ],
+      "originalTitle": "Apple nâng cấp iMac và MacBook Pro 14 inch với chip M6",
+      "url": "https://vnexpress.net/apple-nang-cap-imac-va-macbook-pro-14-inch-voi-chip-m6-5137613.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Apple",
+        "M6 Chip",
+        "MacBook Pro",
+        "iMac",
+        "Semiconductor"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-27T14:08:59.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/27/apple-macbook-pro-in-with-m-17-2119-9788-1793110075.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=mpjSTEcYJ-w0kPHXDxYEzQ",
+      "contentSnippet": "MacBook Pro 14 inch cùng iMac phiên bản 2026 nâng cấp vi xử lý lên Apple M6, pin 24 tiếng nhưng giữ nguyên kiểu dáng, các lựa chọn màu sắc.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "1cec09ed32b2c8fb",
+      "title_vi": "Máy tính để bàn iMac mới trang bị chip M6",
+      "title_en": "New iMac powered by M6 chip",
+      "summary_vi": [
+        "Apple vừa công bố dòng máy tính để bàn tất cả trong một thế hệ mới tích hợp bộ vi xử lý M6 mạnh mẽ cùng thiết kế mỏng nhẹ với nhiều tùy chọn màu sắc rực rỡ.",
+        "Thiết bị sở hữu màn hình Retina 4,5K sắc nét, bộ nhớ thống nhất lên đến 32GB kết hợp động cơ thần kinh Dual 16 nhân tối ưu hóa tuyệt vời cho các tác vụ trí tuệ nhân tạo.",
+        "Sản phẩm mang lại hiệu suất vượt trội cho các kỹ sư phần mềm và nhà sáng tạo nội dung, đẩy nhanh tốc độ xử lý các quy trình làm việc đòi hỏi khắt khe."
+      ],
+      "summary_en": [
+        "Apple has officially announced a new generation all in one desktop integrated with a powerful M6 processor and a strikingly thin design featuring multiple vibrant color options.",
+        "The device boasts a sharp 4.5K Retina display, up to 32GB of unified memory combined with a Dual 16 core Neural Engine optimized for advanced artificial intelligence tasks.",
+        "The product delivers exceptional performance for software engineers and content creators, significantly accelerating demanding daily workflows and complex computing tasks."
+      ],
+      "originalTitle": "New iMac with M6",
+      "url": "https://www.apple.com/imac/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Apple",
+        "Hardware",
+        "M6",
+        "AI",
+        "Desktop"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-27T13:02:02.000Z",
+      "contentSnippet": "Lease a new Mac with low monthly payments for 24 or 36 months and upgrade at the end of your term with Apple Upgrade.§ Learn more iMac All that. And a brand-new chip. Pre-order starting at 10:10 a.m. PT on October 28th. Available starting November 6thPre-order starting at 10:10 a.m. PT on 10.28Avail",
+      "authorName": "notfried",
+      "upvotes": 163,
+      "commentsCount": 156
+    },
+    {
+      "id": "0ea91ea91cdace9e",
+      "title_vi": "Úc đối mặt làn sóng tấn công mạng quy mô lớn chưa từng có do tội phạm lợi dụng trí tuệ nhân tạo",
+      "title_en": "Australia Faces Unprecedented Cyber Attack Wave Driven by Artificial Intelligence",
+      "summary_vi": [
+        "Cơ quan an ninh Úc vừa phát ra hơn bốn nghìn bốn trăm cảnh báo an ninh mạng do sự gia tăng đột biến của các cuộc tấn công tinh vi được tự động hóa hoàn toàn nhờ công nghệ trí tuệ nhân tạo.",
+        "Tội phạm mạng đang khai thác các mô hình ngôn ngữ lớn để tạo ra mã độc biến hình, tự động dò tìm lỗ hổng zero-day và thực hiện các chiến dịch lừa đảo tinh vi trên quy mô công nghiệp với tốc độ cực nhanh.",
+        "Sự bùng nổ này đòi hỏi các kỹ sư bảo mật và tổ chức doanh nghiệp phải nhanh chóng nâng cấp kiến trúc hệ thống phòng thủ, tích hợp AI vào việc phát hiện bất thường và chủ động vá lỗ hổng thời gian thực."
+      ],
+      "summary_en": [
+        "Australian security agencies have issued over forty-four hundred cybersecurity warnings due to a sharp surge in sophisticated attacks fully automated by advanced artificial intelligence technologies.",
+        "Cybercriminals are actively exploiting large language models to generate polymorphic malware, automatically scan for zero-day vulnerabilities, and execute highly convincing phishing campaigns at industrial scale and unprecedented speeds.",
+        "This explosive threat landscape requires security engineers and enterprise organizations to rapidly upgrade their defensive architecture, integrate AI into anomaly detection, and proactively patch vulnerabilities in real time."
+      ],
+      "originalTitle": "Úc cảnh báo làn sóng tấn công mạng chưa từng có từ AI",
+      "url": "https://tuoitre.vn/uc-canh-bao-lan-song-tan-cong-mang-chua-tung-co-tu-ai-100261027114624925.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Artificial Intelligence",
+        "Malware",
+        "Threat Intelligence",
+        "Automation"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-27T12:43:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/27/wcuiyw5fivnrzp7f5g2rghjuve-1793076362122746079679-0-0-1600-2560-crop-1793076477772851884140.jpg",
+      "contentSnippet": "Tội phạm mạng đang lợi dụng AI để tấn công nhanh, chính xác và trên quy mô lớn, buộc Úc phát hơn 4.400 cảnh báo an ninh mạng trong một năm.",
+      "authorName": "TTXVN",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "39973e9d451dfefe",
+      "title_vi": "Trình biên dịch tức thời thử nghiệm của Python sắp bị loại bỏ",
+      "title_en": "Python's experimental JIT to be removed",
+      "summary_vi": [
+        "Trình biên dịch tức thời thử nghiệm được thêm vào CPython trong phiên bản ba chấm mười ba đang đứng trước nguy cơ bị loại bỏ vĩnh viễn khỏi mã nguồn chính của ngôn ngữ này.",
+        "Hội đồng quản trị Python từng yêu cầu phải có Đề xuất Cải tiến Python chính thức để giải quyết các vấn đề về bảo trì, tính tương thích cũng như thiết lập các chỉ số thành công cụ thể.",
+        "Việc rút lui đề xuất cải tiến này đánh dấu sự kết thúc của một dự án từng đầy hứa hẹn, buộc cộng đồng lập trình viên phải tiếp tục dựa vào các giải pháp thực thi truyền thống."
+      ],
+      "summary_en": [
+        "The experimental just-in-time compiler added to CPython in version three point thirteen is now facing permanent removal from the main branch of the programming language.",
+        "The Python steering council previously demanded an official Python Enhancement Proposal to address maintenance issues, compatibility concerns, and establish clear success metrics.",
+        "The withdrawal of this enhancement proposal marks the end of a once promising project, forcing software developers to continue relying on traditional execution mechanisms."
+      ],
+      "originalTitle": "Python's experimental JIT to be removed",
+      "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Python",
+        "CPython",
+        "JIT",
+        "Software Engineering"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-27T11:17:57.000Z",
+      "contentSnippet": "Welcome to LWN.net The following subscription-only content has been made available to you by an LWN subscriber. Thousands of subscribers depend on LWN for the best news from the Linux and free software communities. If you enjoy this article, please consider subscribing to LWN. Thank you for visiting",
+      "authorName": "f311a",
+      "upvotes": 294,
+      "commentsCount": 152
+    },
+    {
+      "id": "0fa71fcc03f57574",
+      "title_vi": "Công cuộc làm sạch nội dung do trí tuệ nhân tạo tạo ra trên Bách khoa toàn thư mở Wikipedia",
+      "title_en": "Wikipedia's Cleanup of AI-Generated Content",
+      "summary_vi": [
+        "Cộng đồng biên tập viên trên bách khoa toàn thư trực tuyến Wikipedia đang đẩy mạnh các chiến dịch rà soát để loại bỏ hàng loạt các bài viết và chỉnh sửa kém chất lượng do các mô hình ngôn ngữ lớn tạo ra tự động.",
+        "Hiện tượng lạm dụng công cụ sinh văn bản tự động đã làm gia tăng đáng kể số lượng thông tin sai lệch, các ảo giác từ trí tuệ nhân tạo và nội dung rác chưa qua kiểm chứng được đưa vào các trang tài liệu quan trọng.",
+        "Động thái này đặt ra tiêu chuẩn mới cho các nền tảng kiến thức số trong việc thiết lập bộ lọc kiểm duyệt nghiêm ngặt, nhằm bảo vệ tính toàn vẹn của dữ liệu trước làn sóng bùng nổ của các ứng dụng tạo sinh."
+      ],
+      "summary_en": [
+        "The volunteer editing community on the online encyclopedia Wikipedia is intensifying audit campaigns to remove numerous low-quality articles and edits automatically generated by large language models.",
+        "The widespread abuse of automated text generation tools has significantly increased the volume of misinformation, artificial intelligence hallucinations, and unverified junk content injected into important documentation pages.",
+        "This proactive move establishes a new benchmark for digital knowledge platforms to implement strict moderation filters, protecting data integrity amid the ongoing boom of generative applications."
+      ],
+      "originalTitle": "Wikipedia's Cleanup of AI-Generated Content",
+      "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Wikipedia",
+        "Generative AI",
+        "Data Quality",
+        "Content Moderation"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-27T11:08:15.000Z",
+      "contentSnippet": "Wikipedia's Cleanup of AI-Generated Content",
+      "authorName": "rbanffy",
+      "upvotes": 278,
+      "commentsCount": 122
+    },
+    {
+      "id": "85969975ddd449f4",
+      "title_vi": "Việt Nam cần chủ động ứng phó với rủi ro bảo mật từ máy tính lượng tử",
+      "title_en": "Vietnam must proactively address quantum computing security risks",
+      "summary_vi": [
+        "Các chuyên gia công nghệ cảnh báo về nguy cơ tấn công thu thập dữ liệu mã hóa hiện nay để giải mã trong tương lai khi máy tính lượng tử đạt đến độ chín muồi, đe dọa trực tiếp đến an ninh thông tin quốc gia.",
+        "Cơ chế tấn công này tận dụng khả năng tính toán vượt trội của thuật toán Shor để phá vỡ các hệ thống mã hóa khóa công khai truyền thống như RSA hay ECC, đòi hỏi việc chuyển đổi sang các tiêu chuẩn mật mã hậu lượng tử.",
+        "Việt Nam cần sớm xây dựng lộ trình nâng cấp hạ tầng số, ưu tiên triển khai các thuật toán kháng lượng tử trong các hệ thống tài chính và chính phủ điện tử để bảo vệ dữ liệu nhạy cảm trước các mối đe dọa tiềm tàng."
+      ],
+      "summary_en": [
+        "Technology experts are warning about the 'harvest now, decrypt later' threat, where encrypted data is collected today to be compromised in the future by powerful quantum computers, posing a significant risk to national information security.",
+        "This attack vector leverages the superior computational power of Shor's algorithm to break traditional public-key encryption standards like RSA or ECC, necessitating an urgent transition to post-quantum cryptographic protocols across all digital infrastructures.",
+        "Vietnam must urgently develop a roadmap to upgrade its digital infrastructure, prioritizing the implementation of quantum-resistant algorithms within financial systems and e-government platforms to safeguard sensitive data against these emerging and sophisticated long-term threats."
+      ],
+      "originalTitle": "Việt Nam 'cần chuẩn bị ngay' cho nguy cơ bảo mật lượng tử",
+      "url": "https://vnexpress.net/viet-nam-can-chuan-bi-ngay-cho-nguy-co-bao-mat-luong-tu-5137489.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Quantum Computing",
+        "Cryptography",
+        "Data Privacy",
+        "Post-Quantum"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-27T11:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/27/1793086859453-g851938707362421-6331-6993-1793091227.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=_ixgRinCUaxBSXT80XPBzw",
+      "contentSnippet": "Các chuyên gia đánh giá nguy cơ dữ liệu \"thu thập ngay, giải mã sau\" bằng máy tính lượng tử đang gia tăng, đòi hỏi Việt Nam sớm chuẩn bị phương án ứng phó.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "8869bab219a166c1",
       "title_vi": "Cách cấu hình thiết bị di động để chặn video ngắn ban đêm trên iOS nhưng vẫn duy trì kết nối nhắn tin",
@@ -8004,500 +8509,6 @@
       "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/20/avatar1792501615824-17925016162611600727077-0-0-394-630-crop-17925016448111955304817.jpg",
       "contentSnippet": "Đoạn video do Graham đăng tải cho người dùng thấy một tương lai việc làm khác trong kỷ nguyên AI, thậm chí có bình luận còn tự hỏi: chúng ta đang xây dựng kiểu tương lai gì vậy?",
       "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "440136a5c561996c",
-      "title_vi": "Tưởng mua Ryzen cao cấp, khách hàng nhận CPU Intel cũ “đè tem” AMD",
-      "title_en": "Thinking of buying a high-end Ryzen, the customer received an old Intel CPU that \"overwhelmed\" the AMD stamp",
-      "summary_vi": [
-        "Một chiếc CPU nằm trong hộp nguyên seal, được chính Amazon bán và vận chuyển, vẫn khiến người mua nghi ngờ ngay khi lật mặt dưới: lớp vỏ mang tên Ryzen cao cấp nhưng phần tiếp xúc lại giống một bộ xử lý Intel cũ.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Tưởng mua Ryzen cao cấp, khách hàng nhận CPU Intel cũ “đè tem” AMD.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Tưởng mua Ryzen cao cấp, khách hàng nhận CPU Intel cũ “đè tem” AMD."
-      ],
-      "summary_en": [
-        "A CPU in a sealed box, sold and shipped by Amazon itself, still makes buyers suspicious as soon as they turn over the bottom: the shell bears the name high-end Ryzen but the exposed part resembles an old Intel processor.",
-        "In-depth technical breakdown and implementation mechanisms introduced in Thinking of buying a high-end Ryzen, the customer received an old Intel CPU that \"overwhelmed\" the AMD stamp.",
-        "Practical engineering impact and actionable takeaways for developers building with Thinking of buying a high-end Ryzen, the customer received an old Intel CPU that \"overwhelmed\" the AMD stamp."
-      ],
-      "originalTitle": "Tưởng mua Ryzen cao cấp, khách hàng nhận CPU Intel cũ “đè tem” AMD",
-      "url": "https://genk.vn/tuong-mua-ryzen-cao-cap-khach-hang-nhan-cpu-intel-cu-de-tem-amd-165262010181655300.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechTrends",
-        "Innovation"
-      ],
-      "hotScore": 93,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-20T13:09:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/20/avatar1792501721134-17925017219961261691639.jpg",
-      "contentSnippet": "Một chiếc CPU nằm trong hộp nguyên seal, được chính Amazon bán và vận chuyển, vẫn khiến người mua nghi ngờ ngay khi lật mặt dưới: lớp vỏ mang tên Ryzen cao cấp nhưng phần tiếp xúc lại giống một bộ xử lý Intel cũ.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "509f48468ef3f724",
-      "title_vi": "Meta Muse tiết lộ bí mật cá nhân và kinh doanh của người dùng khi họ chia sẻ cuộc trò chuyện",
-      "title_en": "Meta Muse exposes users' personal and business secrets when they share conversations",
-      "summary_vi": [
-        "Các nhà nghiên cứu cho biết hôm thứ Hai rằng Muse, tác nhân AI đa năng mới của Meta, có thể tiết lộ thông tin nhạy cảm khi người dùng chia sẻ cuộc trò chuyện thông qua các liên kết Web.",
-        "Trả lời câu hỏi của Ars về hành vi này, Meta cho biết họ đang tạm dừng tính năng chia sẻ trong khi công ty xem xét và xem xét thực hiện các thay đổi.",
-        "Giống như nhiều dịch vụ trực tuyến, Muse cho phép người dùng chia sẻ tìm kiếm, cuộc trò chuyện, hình ảnh và nội dung tương tự với người khác."
-      ],
-      "summary_en": [
-        "Muse, the new general-purpose AI agent from Meta, can expose sensitive information when users share conversations through Web links, researchers reported Monday.",
-        "In response to questions from Ars about the behavior, Meta said it’s suspending the sharing feature while the company reviews it and considers making changes.",
-        "Like many online services, Muse has allowed users to share searches, conversations, images, and similar content with other people."
-      ],
-      "originalTitle": "Meta Muse exposes users' personal and business secrets when they share conversations",
-      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 96,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-10-20T12:33:13.000Z",
-      "contentSnippet": "A single query is all that's required to find thousands of conversations listed by title.",
-      "authorName": "\n                    Dan Goodin\n                ",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "96f05fdd1de66de3",
-      "title_vi": "Microsoft cảnh báo: Không nên tin bất kỳ AI nào, kể cả AI của chính mình",
-      "title_en": "Microsoft warns: Do not trust any AI, including your own AI",
-      "summary_vi": [
-        "Microsoft cho rằng AI tác nhân có thể gây nguy hiểm ngay cả khi không bị tấn công, vì vậy mọi mô hình - kể cả của chính hãng - đều cần được giám sát.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Microsoft cảnh báo: Không nên tin bất kỳ AI nào, kể cả AI của chính mình.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Microsoft cảnh báo: Không nên tin bất kỳ AI nào, kể cả AI của chính mình."
-      ],
-      "summary_en": [
-        "Microsoft argues that AI agents can be dangerous even when not attacked, so every model - including its own - needs to be monitored.",
-        "In-depth technical breakdown and implementation mechanisms introduced in Microsoft warns: Do not trust any AI, including your own AI.",
-        "Practical engineering impact and actionable takeaways for developers building with Microsoft warns: Do not trust any AI, including your own AI."
-      ],
-      "originalTitle": "Microsoft cảnh báo: Không nên tin bất kỳ AI nào, kể cả AI của chính mình",
-      "url": "https://genk.vn/microsoft-canh-bao-khong-nen-tin-bat-ky-ai-nao-ke-ca-ai-cua-chinh-minh-16526201016085812.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-20T12:29:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/20/avatar1792496302049-1792496302939894108041.jpg",
-      "contentSnippet": "Microsoft cho rằng AI tác nhân có thể gây nguy hiểm ngay cả khi không bị tấn công, vì vậy mọi mô hình - kể cả của chính hãng - đều cần được giám sát.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9c9ff0c15d8bde07",
-      "title_vi": "'Làn da' cảm nhận chuyển động 3D cho thực tế ảo và y tế",
-      "title_en": "3D motion sensing 'skin' for virtual reality and medical",
-      "summary_vi": [
-        "Các kỹ sư MIT phát triển tấm cảm biến silicon có khả năng tự theo dõi và tái tạo hình dạng chuyển động 3D theo thời gian thực.",
-        "Nghiên cứu của nhóm kỹ sư thuộc Viện Công nghệ Massachusetts (MIT) được công bố trên tạp chí Advanced Intelligent Systems tháng 10.",
-        "Điểm đặc biệt của thiết bị nằm ở việc ứng dụng mảng ống dẫn sóng quang học tích hợp thẳng vào tấm nền silicone mềm."
-      ],
-      "summary_en": [
-        "MIT engineers develop a silicon sensor panel capable of self-tracking and reproducing 3D moving shapes in real time.",
-        "The research by a group of engineers at the Massachusetts Institute of Technology (MIT) was published in the journal Advanced Intelligent Systems in October.",
-        "The special feature of the device lies in the application of an optical waveguide array integrated directly into the soft silicone substrate."
-      ],
-      "originalTitle": "'Làn da' cảm nhận chuyển động 3D cho thực tế ảo và y tế",
-      "url": "https://vnexpress.net/lan-da-cam-nhan-chuyen-dong-3d-cho-thuc-te-ao-va-y-te-5133914.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechTrends",
-        "Innovation"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-20T12:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/18/aoie9ub5aedwhpjlmoth43-jpg-179-3248-5827-1792332998.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=QyMg57gG-2a8EZ9hUi0i_A",
-      "contentSnippet": "Các kỹ sư MIT phát triển tấm cảm biến silicon có khả năng tự theo dõi và tái tạo hình dạng chuyển động 3D theo thời gian thực.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "be38b11f937cd76c",
-      "title_vi": "DeepSeek vừa mở nguồn công cụ suy luận của nó",
-      "title_en": "DeepSeek just open-sourced its inference engine",
-      "summary_vi": [
-        "DeepSeek vừa mở nguồn công cụ suy luận của nó.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong DeepSeek vừa mở nguồn công cụ suy luận của nó.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến DeepSeek vừa mở nguồn công cụ suy luận của nó."
-      ],
-      "summary_en": [
-        "DeepSeek just open-sourced its inference engine.",
-        "In-depth technical breakdown and implementation mechanisms introduced in DeepSeek just open-sourced its inference engine.",
-        "Practical engineering impact and actionable takeaways for developers building with DeepSeek just open-sourced its inference engine."
-      ],
-      "originalTitle": "DeepSeek just open-sourced its inference engine",
-      "url": "https://github.com/deepseek-ai/DeepInfer",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "DeepSeek"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-20T09:08:54.000Z",
-      "contentSnippet": "DeepSeek just open-sourced its inference engine",
-      "authorName": "ggcr",
-      "upvotes": 1597,
-      "commentsCount": 581
-    },
-    {
-      "id": "e220103c9fc0ff58",
-      "title_vi": "Thần đồng Terence Tao: AI khiến 'sự lãng mạn' của toán học kết thúc",
-      "title_en": "Prodigy Terence Tao: AI brings the 'romance' of mathematics to an end",
-      "summary_vi": [
-        "GS Terence Tao của UCLA cho rằng \"kỷ nguyên lãng mạn\" toán học đang khép lại khi AI có thể giải những bài toán khó chỉ với vài gợi ý.",
-        "\"Chúng ta đang bước vào thời kỳ công nghiệp, nơi toán học trở nên phổ biến, có những thứ mới mẻ thú vị có thể xảy ra, nhưng một số điều lãng mạn đang bị mất đi\", GS Terence Tao, chuyên gia toán học nổi tiếng tại Đại học California, Los Angeles (UCLA) chia sẻ trong postcast Numberphile cuối tuần qua.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Thần đồng Terence Tao: AI khiến 'sự lãng mạn' của toán học kết thúc."
-      ],
-      "summary_en": [
-        "Professor Terence Tao of UCLA believes that the \"romantic era\" of mathematics is ending when AI can solve difficult problems with just a few hints.",
-        "\"We are entering an industrial age, where mathematics becomes popular, there are new and interesting things that can happen, but some of the romance is being lost,\" Professor Terence Tao, famous mathematics expert at the University of California, Los Angeles (UCLA) shared in the Numberphile podcast last weekend.",
-        "Practical engineering impact and actionable takeaways for developers building with Prodigy Terence Tao: AI brings the 'romance' of mathematics to an end."
-      ],
-      "originalTitle": "Thần đồng Terence Tao: AI khiến 'sự lãng mạn' của toán học kết thúc",
-      "url": "https://vnexpress.net/than-dong-terence-tao-ai-khien-su-lang-man-cua-toan-hoc-ket-thuc-5134468.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 98,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-20T09:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/20/tao-1792465890-6927-1792466082.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=RZFVr0bv0C1vyZYFXwamhw",
-      "contentSnippet": "GS Terence Tao của UCLA cho rằng \"kỷ nguyên lãng mạn\" toán học đang khép lại khi AI có thể giải những bài toán khó chỉ với vài gợi ý.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "2cc4a965ec3ceb04",
-      "title_vi": "Dùng AI 'độ' giao diện smart TV",
-      "title_en": "Use AI to 'modify' the smart TV interface",
-      "summary_vi": [
-        "Không hài lòng với giao diện mặc định, một số người thử dùng AI để tự thay đổi giao diện smart TV theo nhu cầu cá nhân.",
-        "Sau khi thay đổi, anh cho biết tốc độ mở TV và ứng dụng nhanh hơn.",
-        "Màn hình chính cũng gọn gàng, dễ nhìn, các ứng dụng được sắp xếp đúng theo nhu cầu sử dụng."
-      ],
-      "summary_en": [
-        "Not satisfied with the default interface, some people try to use AI to change the smart TV interface according to personal needs.",
-        "After changing, he said the speed of opening TV and applications is faster.",
-        "The main screen is also neat, easy to see, and applications are arranged according to user needs."
-      ],
-      "originalTitle": "Dùng AI 'độ' giao diện smart TV",
-      "url": "https://vnexpress.net/dung-ai-do-giao-dien-smart-tv-5134574.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-20T07:30:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/20/TV2-1792473219-4243-1792473340.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=VejwYdhVK5n_do-RLsgNzw",
-      "contentSnippet": "Không hài lòng với giao diện mặc định, một số người thử dùng AI để tự thay đổi giao diện smart TV theo nhu cầu cá nhân.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "3f5788fc8ace3fa5",
-      "title_vi": "Tại sao các hãng công nghệ tự làm chip AI?",
-      "title_en": "Why do technology companies make their own AI chips?",
-      "summary_vi": [
-        "Microsoft, Google một mặt hợp tác với hãng chip AI lớn nhất thế giới Nvidia, một mặt vẫn có dự án riêng, nhưng không phải để cạnh tranh trực tiếp.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Tại sao các hãng công nghệ tự làm chip AI?.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Tại sao các hãng công nghệ tự làm chip AI?."
-      ],
-      "summary_en": [
-        "On the one hand, Microsoft and Google cooperate with the world's largest AI chip company Nvidia, on the other hand, they still have their own projects, but not to compete directly.",
-        "In-depth technical breakdown and implementation mechanisms introduced in Why do technology companies make their own AI chips?.",
-        "Practical engineering impact and actionable takeaways for developers building with Why do technology companies make their own AI chips?."
-      ],
-      "originalTitle": "Tại sao các hãng công nghệ tự làm chip AI?",
-      "url": "https://vnexpress.net/tai-sao-cac-hang-cong-nghe-tu-lam-chip-ai-5134331.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Nvidia"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-20T03:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/19/a1-1792403352.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=DBOf5F7tDa-0uLI7FTDoOw",
-      "contentSnippet": "Microsoft, Google một mặt hợp tác với hãng chip AI lớn nhất thế giới Nvidia, một mặt vẫn có dự án riêng, nhưng không phải để cạnh tranh trực tiếp.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "615b3a6eaf4d8a8a",
-      "title_vi": "Điện thoại iPhone Duo cháy hàng trên toàn cầu, dân buôn đẩy giá lên hơn 130 triệu đồng trên nền tảng trực tuyến",
-      "title_en": "iPhone Duo sells out globally as scalpers resell devices for over 130 million VND on online marketplaces",
-      "summary_vi": [
-        "Vào ngày 18 tháng 10, dòng sản phẩm iPhone Duo đã chính thức cháy hàng chỉ sau vài phút mở bán đợt đặt trước trên trang web toàn cầu của Apple, khiến thời gian giao hàng bị kéo dài sang năm sau và tạo ra cơn sốt trên thị trường thứ cấp.",
-        "Các phiên bản cấu hình cao cấp nhất như màu Night Sky với dung lượng lưu trữ 2 terabyte đã bị các nhà đầu cơ thu gom và rao bán lại trên nền tảng eBay với mức giá lên tới 5000 đô la Mỹ, tương đương khoảng 132 triệu đồng tiền Việt Nam.",
-        "Sự chênh lệch giá khổng lồ này phản ánh sức hút mạnh mẽ của các thiết bị di động phần cứng thế hệ mới, đồng thời tạo ra thách thức lớn cho người dùng thông thường khi muốn tiếp cận sản phẩm với mức giá niêm yết chính hãng."
-      ],
-      "summary_en": [
-        "On October 18, the iPhone Duo lineup officially sold out within minutes of opening pre-orders on Apple's global website, pushing delivery times into next year and creating an immediate frenzy in the secondary market.",
-        "Top-tier hardware configurations such as the Night Sky color option with 2 terabytes of storage were acquired by speculators and relisted on eBay for up to 5000 US dollars, equivalent to approximately 132 million Vietnamese dong.",
-        "This massive price discrepancy highlights the intense market demand for next-generation mobile hardware devices while posing significant accessibility challenges for regular consumers seeking standard retail pricing."
-      ],
-      "originalTitle": "iPhone Duo cháy hàng, dân buôn rao bán lại giá hơn 130 triệu đồng",
-      "url": "https://genk.vn/iphone-duo-chay-hang-dan-buon-rao-ban-lai-gia-hon-130-trieu-dong-165261020042640468.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iPhone Duo",
-        "Apple",
-        "Mobile Hardware",
-        "Secondary Market",
-        "Ebay"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-20T02:26:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/19/avatar1792445150544-17924451509661461106175.jpg",
-      "contentSnippet": "iPhone Duo khan hàng ngay đợt đầu, có máy được rao bán lại với giá 132 triệu đồng.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9ecea3229bdaa4a5",
-      "title_vi": "Tỷ phú Elon Musk công bố kế hoạch tặng cổ phiếu hãng hàng không vũ trụ SpaceX cho trẻ em Mỹ",
-      "title_en": "Billionaire Elon Musk Announces Plan to Gift SpaceX Shares to American Children",
-      "summary_vi": [
-        "Tỷ phú Elon Musk chính thức đưa ra cam kết tặng một cổ phiếu của hãng hàng không vũ trụ và công nghệ SpaceX cho mỗi trẻ em tại Mỹ vào năm 2027.",
-        "Quyết định này được công bố ngay sau khi công ty trí tuệ nhân tạo Anthropic tuyên bố dành một phần cổ phần lớn phục vụ cho các mục tiêu lợi ích công cộng.",
-        "Động thái từ các lãnh đạo công nghệ hàng đầu tạo ra làn sóng tranh luận mới về mô hình phân bổ cổ phần doanh nghiệp và trách nhiệm xã hội trong ngành."
-      ],
-      "summary_en": [
-        "Billionaire Elon Musk has officially committed to gifting one share of the aerospace and technology company SpaceX to every American child by the year 2027.",
-        "This decision was announced shortly after artificial intelligence leader Anthropic declared it would allocate a significant portion of its equity for public benefit purposes.",
-        "The ongoing moves by prominent tech leaders are sparking widespread discussions regarding corporate equity distribution models and industry social responsibilities."
-      ],
-      "originalTitle": "Tỷ phú Elon Musk tuyên bố tặng cổ phiếu SpaceX cho tất cả trẻ em Mỹ",
-      "url": "https://genk.vn/ty-phu-elon-musk-tuyen-bo-tang-co-phieu-spacex-cho-tat-ca-tre-em-my-165261020081138461.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "SpaceX",
-        "Anthropic",
-        "AI",
-        "Tech Trends",
-        "Startups"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-20T02:14:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/20/avatar1792458680517-17924586811511533384278.webp",
-      "contentSnippet": "TPO - Tỷ phú Elon Musk cam kết sẽ tặng một cổ phiếu cho mỗi trẻ em tại Mỹ vào năm 2027. Thông báo này được đưa ra chỉ vài giờ sau khi Anthropic - một “ông lớn” khác trong lĩnh vực trí tuệ nhân tạo (AI) - tuyên bố sẽ dành ra một phần cổ phần của mình vì lợi ích công cộng.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "3fd05c18ddde6425",
-      "title_vi": "Vỡ mộng kiếm tiền từ trí tuệ nhân tạo: Rủi ro lộ dữ liệu cá nhân và bài học về bản quyền khuôn mặt",
-      "title_en": "Illusion of AI Monetization: Personal Data Exposure Risks and Facial Copyright Lessons",
-      "summary_vi": [
-        "Trào lưu cấp phép gương mặt cho các hệ thống trí tuệ nhân tạo tạo phim ngắn đang thu hút nhiều người trẻ tại Trung Quốc với lời hứa hẹn lợi nhuận hấp dẫn nhưng thực tế chỉ thu về con số không.",
-        "Người dùng đã vô tình giao nộp dữ liệu sinh trắc học và hình ảnh cá nhân cho các nền tảng công nghệ không minh bạch, đối mặt với nguy cơ bị lạm dụng dữ liệu và vi phạm quyền riêng tư nghiêm trọng.",
-        "Sự việc gióng lên hồi chuông cảnh báo về việc quản lý dữ liệu cá nhân trong kỷ nguyên AI, đòi hỏi khung pháp lý chặt chẽ hơn để bảo vệ người dùng trước các mô hình khai thác thương mại không lành mạnh."
-      ],
-      "summary_en": [
-        "The trend of licensing faces for short AI film systems has attracted many young people in China with promises of high profits, but participants ultimately gained nothing in return.",
-        "Users have inadvertently handed over their biometric data and personal images to opaque tech platforms, facing severe risks of data misuse and serious privacy violations.",
-        "This incident raises critical alarms regarding personal data management in the AI era, demanding stricter legal frameworks to protect users against unethical commercial exploitation models."
-      ],
-      "originalTitle": "Vỡ mộng \"bán mặt\" cho AI kiếm 40 triệu/video: Giao nộp data cá nhân rồi cả tháng không thu nổi 1 đồng",
-      "url": "https://genk.vn/vo-mong-ban-mat-cho-ai-kiem-40-trieu-video-giao-nop-data-ca-nhan-roi-ca-thang-khong-thu-noi-1-dong-165261020081014282.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Data Privacy",
-        "Biometrics",
-        "Machine Learning",
-        "Cybersecurity"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-20T02:00:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/20/avatar1792458598574-17924585990871624917231.jpg",
-      "contentSnippet": "Chỉ cần tải ảnh cá nhân lên hệ thống là có thể ngồi không hưởng lợi nhuận hàng triệu đồng từ các bộ phim ngắn AI. Lời quảng cáo có cánh này đã thu hút hàng loạt người trẻ Trung Quốc lao vào trào lưu cấp phép gương mặt cho công nghệ. Thế nhưng sau nhiều tháng chờ đợi, thứ họ nhận về chỉ là con số 0 t",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "419d2135a8ae5715",
-      "title_vi": "Tại sao hệ điều hành Windows 11 vẫn chứa trình quản lý bộ nhớ của Windows 95 bên trong",
-      "title_en": "Why Windows 11 still ships with Windows 95's memory manager hidden inside it",
-      "summary_vi": [
-        "Hệ điều hành Windows 11 mới nhất hiện nay vẫn lưu trữ và tích hợp một thành phần trình quản lý bộ nhớ cũ từ phiên bản Windows 95 ra mắt từ nhiều thập kỷ trước mà ít ai ngờ tới.",
-        "Việc duy trì các đoạn mã nguồn cũ này liên quan trực tiếp đến khả năng tương thích ngược của hệ thống, giúp các ứng dụng 16-bit và 32-bit đời cũ tiếp tục vận hành ổn định trên kiến trúc phần cứng hiện đại.",
-        "Đối với các kỹ sư phần mềm và lập trình viên hệ thống, điều này cho thấy bài toán đánh đổi kinh điển giữa việc dọn dẹp mã nguồn sạch sẽ và đảm bảo tính tương thích tuyệt đối cho doanh nghiệp."
-      ],
-      "summary_en": [
-        "The latest Windows 11 operating system still stores and integrates an outdated memory manager component from the Windows 95 version released decades ago without many people realizing it.",
-        "Maintaining these legacy source code segments relates directly to system backward compatibility, helping older 16-bit and 32-bit applications continue operating smoothly on modern hardware architectures.",
-        "For software engineers and system programmers, this highlights the classic trade-off dilemma between cleaning up codebase architecture and ensuring absolute enterprise compatibility for legacy software."
-      ],
-      "originalTitle": "Why Windows 11 still ships with Windows 95's memory manager hidden inside it",
-      "url": "https://www.windowslatest.com/2026/10/19/why-windows-11-still-ships-with-windows-95s-memory-manager-hidden-inside-it/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Windows",
-        "Memory Management",
-        "Legacy Code",
-        "Operating Systems"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-20T00:14:03.000Z",
-      "contentSnippet": "Why Windows 11 still ships with Windows 95's memory manager hidden inside it",
-      "authorName": "khalidkhair",
-      "upvotes": 70,
-      "commentsCount": 40
-    },
-    {
-      "id": "ef510253532071d3",
-      "title_vi": "Anthropic giảm nhân sự cấp thấp và tăng thời gian họp nhờ ứng dụng trí tuệ nhân tạo",
-      "title_en": "Anthropic cuts junior staff and increases meeting times due to artificial intelligence",
-      "summary_vi": [
-        "Nhà phát triển chatbot Claude công bố báo cáo cho thấy sự thay đổi lớn về cơ cấu nhân sự và quy trình làm việc sau khi tích hợp toàn diện các giải pháp trí tuệ nhân tạo vào hoạt động vận hành.",
-        "Tỷ lệ nhân viên kỹ thuật cấp thấp giảm mạnh từ hai mươi mốt phần trăm xuống mười bốn phần trăm, trong khi khối lượng mã nguồn và số lượng hợp đồng xử lý tăng lên nhờ các công cụ lập trình tự động.",
-        "Xu hướng này báo hiệu sự chuyển dịch sâu sắc trong nhu cầu tuyển dụng lao động ngành công nghệ, đồng thời nhấn mạnh tầm quan trọng của việc phối hợp trực tiếp để duy trì trách nhiệm giữa con người."
-      ],
-      "summary_en": [
-        "The developer of the Claude chatbot published a report showing major changes in personnel structure and workflows after fully integrating artificial intelligence solutions into daily operations.",
-        "The proportion of junior technical staff dropped sharply from twenty-one percent to fourteen percent, while code output and processed contracts increased thanks to automated programming tools.",
-        "This trend signals a profound shift in tech industry hiring demands while emphasizing the ongoing importance of face-to-face collaboration to maintain human accountability."
-      ],
-      "originalTitle": "Anthropic giảm nhân viên cấp thấp, tăng họp do AI",
-      "url": "https://vnexpress.net/anthropic-giam-nhan-vien-cap-thap-tang-hop-do-ai-5134145.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Anthropic",
-        "AI",
-        "Software Engineering",
-        "Tech Trends",
-        "Workplace"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-19T22:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/19/dsc03648jpg-1792383014-5586-1792383267.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Ufbd2FiYIGWBWQVp2SN9iw",
-      "contentSnippet": "Anthropic, nhà phát triển chatbot Claude, cho biết cơ cấu nhân sự và cách làm việc tại startup này đã thay đổi đáng kể sau khi ứng dụng AI.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "85ed69736e92d20f",
-      "title_vi": "Khoản nợ của nhà cung cấp hạ tầng trí tuệ nhân tạo đang trở thành rủi ro chung cho toàn ngành công nghệ",
-      "title_en": "CoreWeave's debt is becoming the whole AI industry's problem",
-      "summary_vi": [
-        "Công ty hạ tầng trí tuệ nhân tạo đang đối mặt với tuần giao dịch tồi tệ khi trái phiếu rơi vào vùng rủi ro tài chính cao và giới đầu tư lo ngại về nguy cơ bong bóng tín dụng trong việc mở rộng quy mô tính toán.",
-        "Thị trường tài chính ghi nhận sự sụt giảm mạnh về giá cổ phiếu cùng hiệu ứng lan truyền tiêu cực sang các doanh nghiệp hoạt động trong lĩnh vực trí tuệ nhân tạo và hạ tầng điện toán đám mây quy mô lớn.",
-        "Tình trạng này đặt ra thách thức lớn về mô hình tài chính và tính bền vững của các khoản đầu tư hạ tầng phần cứng khổng lồ phục vụ cho việc huấn luyện các mô hình ngôn ngữ lớn và hệ thống thông minh nhân tạo."
-      ],
-      "summary_en": [
-        "The artificial intelligence infrastructure company faced a challenging week as its bonds entered distressed territory and investors expressed growing concerns over a potential credit bubble in computational scaling.",
-        "The financial markets witnessed a sharp decline in share prices along with negative spillover effects impacting other enterprises operating within the artificial intelligence and large-scale cloud computing sectors.",
-        "This situation highlights major challenges regarding financial models and the sustainability of massive hardware infrastructure investments dedicated to training large language models and artificial intelligence systems."
-      ],
-      "originalTitle": "CoreWeave’s debt is becoming the whole AI industry’s problem",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "AI",
-        "Cloud",
-        "Tech Bubbles",
-        "Infrastructure",
-        "Finance"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-19T21:28:20.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/Vrg_Illo_AI_Bubble.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds. Last Tuesady Chamath \"SPAC King\" Palihapitiya noticed the distressed debt, and also asked whether the",
-      "authorName": "Elizabeth Lopatto",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "93bc531bda3a3a0c",
-      "title_vi": "Cảnh báo khẩn cấp: Hãy cập nhật ngay máy chủ truyền thông Plex trước khi bị kẻ xấu tấn công",
-      "title_en": "PSA: Patch your Plex media server before someone hacks it",
-      "summary_vi": [
-        "Các lỗ hổng bảo mật mới được vá trên máy chủ truyền thông Plex đang bị kẻ tấn công khai thác triệt để nhằm cài cắm phần mềm độc hại, bao gồm trình đào tiền mã hóa và ứng dụng proxy dân dụng trên các thiết bị mục tiêu.",
-        "Một nhà nghiên cứu bảo mật đã phát hiện ra chuỗi khai thác mang tên Plex2Shell kết hợp bốn lỗ hổng khác nhau để thực thi mã từ xa, tạo điều kiện cho các tác nhân đe dọa dễ dàng xâm nhập và kiểm soát hệ thống.",
-        "Sự việc này nhấn mạnh tầm quan trọng của việc vá lỗi phần mềm kịp thời đối với quản trị viên hệ thống, đồng thời cảnh báo nguy cơ lộ lọt thông tin doanh nghiệp qua các máy chủ cá nhân bị chiếm đoạt."
-      ],
-      "summary_en": [
-        "Recently fixed security vulnerabilities in the Plex Media Server are currently being actively exploited by attackers to install various malware, including cryptocurrency miners and residential proxy applications on target devices.",
-        "A security researcher discovered an exploit chain named Plex2Shell that combines four distinct vulnerabilities to achieve remote code execution, enabling threat actors to easily compromise and control vulnerable systems.",
-        "This incident highlights the critical importance of timely software patching for system administrators and warns against the severe risks of corporate data exposure through compromised residential media servers."
-      ],
-      "originalTitle": "PSA: Patch your Plex media server before someone hacks it",
-      "url": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Plex",
-        "Remote Code Execution",
-        "Malware",
-        "Vulnerability"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-19T19:39:19.000Z",
-      "contentSnippet": "A researcher says attacks chaining 4 vulnerabilities is hacking unpatched boxes.",
-      "authorName": "\n                    Dan Goodin\n                ",
       "upvotes": 0,
       "commentsCount": 0
     }
