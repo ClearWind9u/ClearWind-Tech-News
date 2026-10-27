@@ -1,7 +1,76 @@
 {
-  "lastUpdated": "2026-10-27T17:08:22.095Z",
+  "lastUpdated": "2026-10-27T21:40:12.034Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "243bc0c9c926165c",
+      "title_vi": "Vibe Coding Tầng Backend: Dùng AI Viết Plugin Java và Spring Tùy Biến Cho Nền Tảng EzyPlatform",
+      "title_en": "Backend Vibe Coding: Using AI to Write Custom Java and Spring Plugins for EzyPlatform",
+      "summary_vi": [
+        "Bài viết khám phá phương pháp lập trình hiện đại bằng cách tận dụng trí tuệ nhân tạo để xây dựng các tính năng backend tùy biến phục vụ trực tiếp cho hệ sinh thái phần mềm EzyPlatform.",
+        "Tác giả Lee chia sẻ hạ tầng thực nghiệm cùng quy trình chi tiết sử dụng các mô hình ngôn ngữ lớn để sinh mã nguồn Java và Spring Boot một cách nhanh chóng và chính xác.",
+        "Phương pháp này mở ra hướng đi mới giúp các kỹ sư phần mềm tối ưu hóa năng suất làm việc, giảm thời gian viết mã lặp lại và đẩy nhanh tiến độ phát triển sản phẩm."
+      ],
+      "summary_en": [
+        "The article explores modern programming methodologies by leveraging artificial intelligence to build custom backend features that directly serve the EzyPlatform software ecosystem.",
+        "Author Lee shares experimental infrastructure and a detailed workflow using large language models to generate Java and Spring Boot source code quickly and accurately.",
+        "This approach opens up new pathways for software engineers to optimize working productivity, reduce repetitive coding time, and accelerate product development progress."
+      ],
+      "originalTitle": "[Vibe Coding Thực Chiến #13] Vibe Coding Tầng Backend: Dùng AI Viết Plugin Java/Spring Tùy Biến Cho EzyPlatform!",
+      "url": "https://viblo.asia/p/vibe-coding-thuc-chien-13-vibe-coding-tang-backend-dung-ai-viet-plugin-javaspring-tuy-bien-cho-ezyplatform-k74a9W7M4eO",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "AI",
+        "Java",
+        "Spring Boot",
+        "Backend",
+        "Software Engineering"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-28T00:54:53.000Z",
+      "contentSnippet": "[Vibe Coding Thực Chiến #13] Vibe Coding Tầng Backend: Dùng AI Viết Plugin Java/Spring Tùy Biến Cho EzyPlatform! Tác giả: Lee Hạ tầng thực nghiệm: VP...",
+      "authorName": "Duong Nguyen",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "578f4a1cc2a6a4ec",
+      "title_vi": "Các nhà nghiên cứu đang dần kiệt sức vì sự kiểm soát thông tin khắt khe của OpenAI đối với các bước tiến công nghệ",
+      "title_en": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+      "summary_vi": [
+        "Công ty trí tuệ nhân tạo hàng đầu vừa công bố những bước đột phá quan trọng trong lĩnh vực toán học, khoa học máy tính và vật lý cùng phương thức truyền thông mới.",
+        "Bất chấp những thay đổi về cách thức công bố, cộng đồng nghiên cứu vẫn tỏ ra mệt mỏi với cách tiếp cận thông tin và quản lý dữ liệu khép kín.",
+        "Sự kiện này làm dấy lên những tranh luận sâu sắc về tính minh bạch trong nghiên cứu trí tuệ nhân tạo và tác động của nó đối với cộng đồng khoa học toàn cầu."
+      ],
+      "summary_en": [
+        "The leading artificial intelligence company recently announced significant breakthroughs in mathematics, computer science, and physics alongside a new communication approach.",
+        "Despite these adjustments in how findings are shared, the research community continues to grow weary of the closed information access and data management approach.",
+        "This event sparks deep debates regarding research transparency within the artificial intelligence ecosystem and its broader impacts on the global scientific community."
+      ],
+      "originalTitle": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "OpenAI",
+        "Artificial Intelligence",
+        "Research",
+        "Tech Governance",
+        "Machine Learning"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-27T20:48:58.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS537_AI_MATH_7.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired of",
+      "authorName": "Robert Hart",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "cfc83c3b9ec2242f",
       "title_vi": "GLM-5.3 qua API: cách kiểm tra độ trễ và đầu ra",
@@ -30,6 +99,41 @@
       "publishedAt": "2026-10-27T17:59:35.000Z",
       "contentSnippet": "Kết luận nhanh: Trong một phép thử nhỏ ngày 27 tháng 10 năm 2026, GLM-5.3 hoàn thành tác vụ trích xuất dữ liệu nhanh hơn mẫu so sánh 5,45 giây. Cùng...",
       "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b2aff63a03e983b2",
+      "title_vi": "Hành trình tìm kiếm tầm nhìn là minh chứng cho thấy trí tuệ nhân tạo khi vượt khỏi tầm kiểm soát thực sự hoạt động như thế nào",
+      "title_en": "VisionQuest is what happens when AI really goes rogue",
+      "summary_vi": [
+        "Bộ phim viễn tưởng về robot siêu năng lực khám phá bản chất con người qua thế giới ảo đã phản ánh sâu sắc những cuộc tranh luận thực tế về trí tuệ nhân tạo tạo sinh.",
+        "Bài viết phân tích cách các hệ thống máy móc thông minh xử lý dữ liệu để mô phỏng nhận thức, đặt ra câu hỏi về ranh giới giữa thuật toán và con người.",
+        "Ngành công nghiệp phần mềm cần nghiêm túc đánh giá tác động đạo đức và rủi ro hiện sinh khi các mô hình AI ngày càng trở nên phức tạp và tự trị hơn."
+      ],
+      "summary_en": [
+        "The fictional story of a superpowered robot exploring human nature through virtual worlds deeply reflects real-world debates surrounding generative artificial intelligence technologies today.",
+        "The article analyzes how intelligent machine systems process data to simulate cognition, raising fundamental questions about the blurry boundaries between algorithms and humans.",
+        "The software industry must seriously evaluate ethical impacts and existential risks as artificial intelligence models become increasingly complex and autonomous over time."
+      ],
+      "originalTitle": "VisionQuest is what happens when AI really goes rogue",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Generative AI",
+        "Machine Learning",
+        "Tech Ethics",
+        "Silicon Valley"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-27T17:30:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/107-90190_RC.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powered beings live together in a home. The series is deeply fantastical, yet it plays with some of the ideas that have come",
+      "authorName": "Charles Pulliam-Moore",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -64,6 +168,76 @@
       "publishedAt": "2026-10-27T17:05:43.000Z",
       "contentSnippet": "Mình vừa dùng song song iPhone Duo và Galaxy Z Fold 8 trong vài ngày. Hai máy cùng form gập sách, cùng màn ngoài khoảng 5,4 đến 5,5 inch và màn trong 7,6 inch, nhưng cảm giác cầm, tỷ lệ màn và...",
       "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e96207f88dc45595",
+      "title_vi": "Sự chuyển dịch nghề nghiệp của lập trình viên trong kỷ nguyên trí tuệ nhân tạo",
+      "title_en": "The Paradigm Shift for Software Developers in the Age of Artificial Intelligence",
+      "summary_vi": [
+        "Sự bùng nổ của trí tuệ nhân tạo đang tạo ra làn sóng thay đổi lớn trong ngành công nghệ, buộc nhiều lập trình viên phải đối mặt với áp lực chuyển đổi kỹ năng hoặc thậm chí là rời bỏ công việc hiện tại.",
+        "Việc các tập đoàn công nghệ lớn như Microsoft đề xuất cắt giảm nhân sự quy mô lớn phản ánh xu hướng tối ưu hóa nguồn lực, khi các công cụ tự động hóa AI dần thay thế các tác vụ lập trình cơ bản.",
+        "Các kỹ sư phần mềm cần chủ động thích nghi bằng cách nâng cao tư duy hệ thống và khả năng làm chủ công nghệ mới để duy trì lợi thế cạnh tranh trong một thị trường lao động đang biến động không ngừng."
+      ],
+      "summary_en": [
+        "The rapid advancement of artificial intelligence is triggering a significant transformation within the tech industry, compelling software developers to either upskill rapidly or face the risk of displacement from their current professional roles.",
+        "Large-scale workforce restructuring initiatives by major corporations like Microsoft highlight a growing trend of resource optimization, as AI-driven automation tools increasingly handle routine coding tasks and software development workflows more efficiently than human counterparts.",
+        "Software engineers must proactively adapt by cultivating advanced system architecture skills and mastering emerging technologies to maintain their competitive edge in a volatile job market that is being fundamentally reshaped by intelligent automation."
+      ],
+      "originalTitle": "Nghề lập trình đảo lộn thời AI",
+      "url": "https://vnexpress.net/nghe-lap-trinh-dao-lon-thoi-ai-5137603.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "AI",
+        "Software Engineering",
+        "Career Development",
+        "Automation",
+        "Tech Trends"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-27T17:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/27/wm1-img-jpg-1793103806-7360-17-4873-3994-1793114285.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=bVObSA8gjgkwb-Ram2-_NA",
+      "contentSnippet": "Việc Microsoft đề xuất 60.000 người tự nguyện nghỉ việc phần nào cho thấy nhiều lập trình viên phải chuyển đổi kỹ năng, thậm chí bỏ nghề khi doanh nghiệp tăng cường ứng dụng AI.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b0f782dbc7c2b431",
+      "title_vi": "Chuột siêu cấp tích hợp bàn phím ảo cảm ứng ngay dưới lòng bàn tay",
+      "title_en": "The Super Mouse puts a touchscreen macro pad under your hand",
+      "summary_vi": [
+        "Một công ty khởi nghiệp mang tên Cáo Bắc Cực vừa giới thiệu mẫu chuột máy tính đa năng hoàn toàn mới, loại bỏ các nút tắt thông thường để thay thế bằng một màn hình cảm ứng nhỏ gọn nằm ngay bên dưới lòng bàn tay người dùng.",
+        "Thiết bị ngoại vi này sở hữu thiết kế hình khối hộp chữ nhật độc đáo, tích hợp nhiều chức năng thay thế cho bàn di chuột, bảng điều khiển macro, thiết bị hỗ trợ phát trực tiếp và thậm chí là cả bàn phím cỡ nhỏ hỗ trợ gõ phím vuốt.",
+        "Sản phẩm đánh dấu bước tiến mới trong việc tối ưu hóa không gian làm việc tối giản, hiện đang mở bán sớm thông qua nền tảng gây quỹ cộng đồng nhằm thu hút sự quan tâm của cộng đồng công nghệ."
+      ],
+      "summary_en": [
+        "A startup company named Arctic Fox Technologies has recently introduced a multifunctional computer mouse that replaces traditional shortcut buttons with a compact touchscreen positioned directly underneath the user palm.",
+        "This innovative peripheral features a distinct rectangular boxy design integrating multiple functionalities to replace trackpads, macro pads, streaming controllers, and even serves as a compact smartphone-sized keyboard supporting swipe typing.",
+        "The product represents a significant advancement in optimizing minimalist workspace environments and is currently available for pre-order through crowdfunding platforms to attract attention from the tech community."
+      ],
+      "originalTitle": "The Super Mouse puts a touchscreen macro pad under your hand",
+      "url": "https://www.theverge.com/tech/1019484/super-mouse-touchscreen-shortcuts-macros-kickstarter",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Hardware",
+        "Peripherals",
+        "Innovation",
+        "Crowdfunding",
+        "UI/UX"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-27T17:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/supermouse1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "A company called Arctic Fox Technologies has announced a new multifunction mouse that forgoes a myriad of customizable shortcut buttons peppered across its surface for a compact touchscreen sitting beneath your hand. The Super Mouse may not prioritize ergonomics with its boxy design, but it can repl",
+      "authorName": "Andrew Liszewski",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -167,6 +341,40 @@
       "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "6bbc36fbd0cd5b77",
+      "title_vi": "MacBook Pro 14 inch mới tích hợp dòng chip M6 mạnh mẽ",
+      "title_en": "New 14-inch MacBook Pro with M6",
+      "summary_vi": [
+        "Apple vừa chính thức công bố dòng máy tính xách tay MacBook Pro mười bốn inch thế hệ mới được trang bị dòng chip xử lý M6 tiên tiến mang lại hiệu năng vượt trội cùng khả năng xử lý trí tuệ nhân tạo mạnh mẽ cho người dùng chuyên nghiệp.",
+        "Bộ vi xử lý mới sở hữu kiến trúc mười hai nhân CPU cùng mười hai nhân GPU nâng cấp giúp cải thiện hiệu suất đồ họa lên tới ba mươi phần trăm và tăng tốc độ xử lý các tác vụ trí tuệ nhân tạo nhanh hơn đáng kể so với thế hệ trước.",
+        "Sự kết hợp giữa thời lượng pin ấn tượng lên đến hai mươi tư giờ cùng các kết nối không dây hiện đại giúp thiết bị trở thành nền tảng phần cứng lý tưởng cho các nhà phát triển phần mềm và chuyên gia công nghệ."
+      ],
+      "summary_en": [
+        "Apple has officially announced the new fourteen-inch laptop powered by the advanced processor chip delivering extraordinary performance and powerful artificial intelligence capabilities for professional users worldwide today.",
+        "The new processor features an architecture with twelve CPU cores and twelve upgraded GPU cores improving graphics performance by up to thirty percent and significantly accelerating artificial intelligence workloads compared to previous generations.",
+        "The combination of an impressive twenty-four-hour battery life and modern wireless connectivity makes the device an ideal hardware platform for software developers and technology professionals handling demanding daily tasks."
+      ],
+      "originalTitle": "New 14‑inch MacBook Pro with M6",
+      "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Apple",
+        "MacBook Pro",
+        "M6 Chip",
+        "AI",
+        "Hardware"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-27T16:08:32.000Z",
+      "contentSnippet": "Supercharged by the all-new M6 chip, the 14-inch MacBook Pro brings extraordinary performance, AI capabilities, and up to 24 hours of battery life — making it an even more compelling value. CUPERTINO, CALIFORNIA Apple today announced the new 14-inch MacBook Pro with M6, delivering even more performa",
+      "authorName": "beex",
+      "upvotes": 204,
+      "commentsCount": 237
     },
     {
       "id": "393575ee7d83ff0a",
@@ -8313,204 +8521,6 @@
       "authorName": "xd",
       "upvotes": 946,
       "commentsCount": 379
-    },
-    {
-      "id": "4e56a9d9b4062695",
-      "title_vi": "Internet đặt trong tình trạng báo động cao sau khi phát hiện 8 chứng chỉ TLS bị xâm phạm",
-      "title_en": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
-      "summary_vi": [
-        "Các nhân viên an ninh trên khắp thế giới đang trong tình trạng cảnh giác cao độ hôm thứ Ba sau khi phát hiện ra 8 chứng chỉ TLS có khóa riêng yếu đến mức có thể cho phép bất kỳ ai lấy thông tin xác thực ứng dụng và trình duyệt đáng tin cậy cho bất kỳ trang web nào trên Internet.",
-        "Tính đến cuối buổi sáng thứ Ba, các nhà sản xuất trình duyệt cũng như một số ứng dụng và ngôn ngữ lập trình lớn đã chặn tất cả 8 chứng chỉ trung gian.",
-        "Không có báo cáo nào về nhật ký minh bạch của chứng chỉ, theo dõi việc cấp tất cả các chứng chỉ đáng tin cậy của trình duyệt, cho thấy các khóa bị xâm phạm đang được sử dụng với mục đích xấu."
-      ],
-      "summary_en": [
-        "Security personnel around the world are on high alert Tuesday following the discovery of eight TLS certificates with private keys so weak they could allow anyone to mint trusted browser and app credentials for any site on the Internet.",
-        "As of late morning Tuesday, browser makers and some major apps and programming languages had blocked all eight of the intermediate certificates.",
-        "There are no reports of certificate transparency logs, which track the issuance of all browser-trusted certificates, showing the compromised keys being used maliciously."
-      ],
-      "originalTitle": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
-      "url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "SoftwareEngineering",
-        "Programming"
-      ],
-      "hotScore": 93,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-10-20T19:47:35.000Z",
-      "contentSnippet": "Intermediate certs allow anyone to mint web credentials for any Internet server.",
-      "authorName": "\n                    Dan Goodin\n                ",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "d2612b2391afbf9f",
-      "title_vi": "Khủng hoảng heli bủa vây ngành sản xuất chip và công nghệ bán dẫn toàn cầu",
-      "title_en": "Global Helium Crisis Threatens Semiconductor and AI Chip Manufacturing Supply Chain",
-      "summary_vi": [
-        "Nguồn cung khí heli thương mại đang đối mặt với tình trạng thiếu hụt trầm trọng sau các cuộc tấn công cơ sở khí đốt tại Qatar và việc đóng cửa eo biển Hormuz, gây đe dọa trực tiếp đến chuỗi sản xuất công nghệ cao.",
-        "Khí heli đóng vai trò thiết yếu nhưng cực kỳ khó khai thác, phải vận chuyển dưới dạng lỏng ở nhiệt độ âm hai trăm sáu mươi chín độ C với thời gian bảo quản vô cùng ngắn hạn trước khi bay hơi.",
-        "Sự gián đoạn chuỗi cung ứng heli tập trung vào một số ít quốc gia và nhà phân phối lớn sẽ tạo ra áp lực nặng nề cho các nhà máy sản xuất vi chip và trí tuệ nhân tạo toàn cầu."
-      ],
-      "summary_en": [
-        "Commercial helium supply is facing severe shortages following gas facility attacks in Qatar and the closure of the Strait of Hormuz, directly threatening the high-tech manufacturing supply chain.",
-        "Helium plays an essential role but is extremely difficult to extract, requiring liquid transport at minus two hundred sixty-nine degrees Celsius with a very short storage window before evaporation.",
-        "The disruption of the helium supply chain concentrated in a few countries and major distributors will create heavy pressure on global microchip and artificial intelligence manufacturing plants."
-      ],
-      "originalTitle": "Khủng hoảng heli bủa vây ngành chip và bán dẫn",
-      "url": "https://vnexpress.net/khung-hoang-heli-bua-vay-nganh-chip-va-ban-dan-5134322.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Semiconductor",
-        "AI Chips",
-        "Supply Chain",
-        "Hardware",
-        "Tech Trends"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-20T17:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/19/2025-01-15T112951Z-173777947-M-6789-4173-1792403086.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=i9zbVFwrF_b4rMqyfyhfYw",
-      "contentSnippet": "Nguồn cung heli thương mại đang thiếu hụt trầm trọng, đe dọa gây gián đoạn sản xuất ở các ngành công nghệ cao như bán dẫn và chip AI.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "cb0bf0e1617ea810",
-      "title_vi": "Hệ thống tổng đài thoại thông minh Voxtral 3",
-      "title_en": "Voxtral 3 Voice Agent SDK and Speech Models",
-      "summary_vi": [
-        "Voxtral 3 ra mắt bộ công cụ phát triển phần mềm giọng nói tiên tiến và các mô hình xử lý ngôn ngữ hiện đại nhằm hỗ trợ các cuộc hội thoại đa bước thời gian thực trên hơn năm mươi ngôn ngữ khác nhau.",
-        "Công nghệ này kết hợp khả năng chuyển đổi giọng nói chính xác, tổng hợp âm thanh tự nhiên có khả năng thích ứng cảm xúc và tích hợp sâu các công cụ tự động hóa quy trình làm việc một cách liền mạch.",
-        "Sản phẩm có sẵn thông qua giao diện lập trình ứng dụng lưu trữ tại châu Âu hoặc tự triển khai, đảm bảo chủ quyền dữ liệu và mang lại độ trễ thấp cho các trung tâm liên lạc cũng như trợ lý ảo."
-      ],
-      "summary_en": [
-        "Voxtral 3 introduces a cutting edge voice agent development kit and modern speech processing models designed to support real time multi step conversations across more than fifty different languages.",
-        "The technology combines accurate speech transcription, natural audio synthesis with emotional adaptability, and deep tool integration for seamless workflow automation.",
-        "The product is available through European hosted application programming interfaces or self deployment options, ensuring data sovereignty and low latency interactions for contact centers and virtual assistants."
-      ],
-      "originalTitle": "Voxtral 3",
-      "url": "https://mistral.ai/news/voxtral-3/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Voice Agent",
-        "Speech Models",
-        "SDK",
-        "NLP"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-20T16:02:07.000Z",
-      "contentSnippet": "Merci de recevoir ce patient pour un avis dermatologique. Traitement en cours : crème à l’hydrocortisone. Dr Martin, Clinique du Parc. It says, \"Merci de recevoir ce patient pour un avis dermatologique.\" Your doctor is asking a dermatologist, Dr Martin, to see you. The next slot is Tuesday at 5:45 p",
-      "authorName": "ilreb",
-      "upvotes": 540,
-      "commentsCount": 143
-    },
-    {
-      "id": "79c68c952c743be2",
-      "title_vi": "Tin Mừng theo Thánh Phêrô (Thiel)",
-      "title_en": "The Gospel according to Peter (Thiel)",
-      "summary_vi": [
-        "Đó là thời kỳ của thế giới quan ngày tận thế ở Thung lũng Silicon.",
-        "Chu kỳ diệt vong mới nhất của AI được thúc đẩy bởi lòng vị tha hiệu quả, một triết lý đã ẩn nấp trong nhiều năm nhưng gần đây đã trở thành xu hướng chủ đạo vì những người ủng hộ nó đã gắn bó với ngành công nghiệp AI, từ Anthropic đến cơ quan giám sát an toàn AI mới được bổ nhiệm METR.",
-        "EA là một cách tiếp cận từ thiện theo chủ nghĩa vị lợi, dựa trên việc làm điều tốt nhất cho nhiều người nhất trong thời gian dài nhất và những người ủng hộ EA coi việc ngăn chặn ngày tận thế do AI gây ra là điều quan trọng để cứu càng nhiều người càng tốt."
-      ],
-      "summary_en": [
-        "It's a time of apocalyptic worldviews in Silicon Valley.",
-        "The latest AI doom cycle is driven by effective altruism, a philosophy that has lurked around the fringes for years but recently burst into the mainstream because its adherents are embedded across the AI industry, from Anthropic to newly appointed AI safety watchdog METR.",
-        "EA is a utilitarian approach to charity premised on doing the most good for the most people over the longest time, and EA advocates see halting an AI-induced doomsday as critical to saving as many humans as possible."
-      ],
-      "originalTitle": "The Gospel according to Peter (Thiel)",
-      "url": "https://www.theverge.com/tech/1014252/peter-thiel-antichrist-lectures-analysis",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Claude"
-      ],
-      "hotScore": 87,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-20T15:45:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/258014_Peter_Thiel_LKantrowitz.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "It's a time of apocalyptic worldviews in Silicon Valley. The latest AI doom cycle is driven by effective altruism, a philosophy that has lurked around the fringes for years but recently burst into the mainstream because its adherents are embedded across the AI industry, from Anthropic to newly appoi",
-      "authorName": "David Gibson",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "7a091aa12d54f3f3",
-      "title_vi": "Spotify đã loại bỏ 50 triệu bài hát rác và spam AI khỏi đề xuất của mình",
-      "title_en": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
-      "summary_vi": [
-        "Spotify cho biết họ đã xóa hơn 50 triệu bài hát bị coi là spam hoặc cẩu thả do AI tạo ra khỏi đề xuất của người dùng trong năm qua.",
-        "Đó là theo một thông báo hôm thứ Ba cho biết Spotify cũng đã thực hiện các thay đổi đối với hệ thống đề xuất của mình để làm nổi bật nhiều bản nhạc do con người tạo ra hơn.",
-        "Spotify cho biết: \"Các biên tập viên của chúng tôi tuân theo cùng một tiêu chuẩn và không lập trình nội dung được xác định là cẩu thả hoặc spam\"."
-      ],
-      "summary_en": [
-        "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year.",
-        "That's according to an announcement on Tuesday that says Spotify has also made changes to its recommendation system to highlight more music made by human artists.",
-        "\"Our editors hold the same standard and don't program content identified as slop or spam,\" Spotify says."
-      ],
-      "originalTitle": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
-      "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 87,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-20T14:18:37.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23951391/STK088_VRG_Illo_N_Barclay_4_spotify.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday that says Spotify has also made changes to its recommendation system to highlight more music made by human artists.",
-      "authorName": "Emma Roth",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e57f4f7d0a847259",
-      "title_vi": "Khi ứng viên dùng AI để đối phó với quy trình phỏng vấn tự động hóa",
-      "title_en": "When candidates use AI to bypass automated recruitment interview processes",
-      "summary_vi": [
-        "Một ứng viên tên Graham đã gây xôn xao cộng đồng mạng khi sử dụng công cụ AI cá nhân để trả lời trực tiếp các câu hỏi trong buổi phỏng vấn tuyển dụng, tạo ra một tình huống hỗn loạn đầy tranh cãi.",
-        "Cơ chế này hoạt động bằng cách tích hợp các mô hình ngôn ngữ lớn để phân tích câu hỏi thời gian thực và tự động tạo phản hồi, thách thức các hệ thống sàng lọc nhân sự dựa trên AI hiện nay.",
-        "Sự việc đặt ra câu hỏi lớn về tính xác thực trong tuyển dụng kỹ thuật, buộc các doanh nghiệp phải xem xét lại cách đánh giá năng lực thực tế của ứng viên trong kỷ nguyên trí tuệ nhân tạo phát triển mạnh mẽ."
-      ],
-      "summary_en": [
-        "A candidate named Graham sparked significant online debate by deploying a personal AI agent to answer live interview questions, resulting in a chaotic and unpredictable recruitment session that challenged traditional hiring norms.",
-        "The system leverages large language models to process interview queries in real-time and generate automated responses, effectively bypassing the automated screening tools currently utilized by many modern corporate human resources departments.",
-        "This incident highlights critical concerns regarding candidate authenticity in technical hiring, forcing companies to rethink how they evaluate genuine human skills and problem-solving abilities in an era dominated by generative artificial intelligence."
-      ],
-      "originalTitle": "Bị AI phỏng vấn quá nhiều, chàng trai quyết định cử AI của mình trả lời: 6 phút tuyển dụng hỗn loạn",
-      "url": "https://genk.vn/bi-ai-phong-van-qua-nhieu-chang-trai-quyet-dinh-cu-ai-cua-minh-tra-loi-6-phut-tuyen-dung-hon-loan-165261020200742337.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Generative AI",
-        "Recruitment",
-        "Automation",
-        "Tech Trends"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-20T13:36:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/20/avatar1792501615824-17925016162611600727077-0-0-394-630-crop-17925016448111955304817.jpg",
-      "contentSnippet": "Đoạn video do Graham đăng tải cho người dùng thấy một tương lai việc làm khác trong kỷ nguyên AI, thậm chí có bình luận còn tự hỏi: chúng ta đang xây dựng kiểu tương lai gì vậy?",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
     }
   ]
 }
