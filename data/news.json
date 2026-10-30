@@ -1,7 +1,181 @@
 {
-  "lastUpdated": "2026-10-30T11:55:34.420Z",
+  "lastUpdated": "2026-10-30T21:51:07.453Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "e4043dfd602647a7",
+      "title_vi": "Go Zero to Hero - Bài 71: Lập trình IO: Package io với Reader và Writer",
+      "title_en": "Go Zero to Hero - Part 71: IO Programming: Package io with Reader and Writer",
+      "summary_vi": [
+        "Bài viết khám phá triết lý dòng chảy trong ngôn ngữ lập trình Go thông qua package io, giúp lập trình viên hiểu cách xử lý dữ liệu đồng nhất mà không cần phụ thuộc vào các tệp hay mạng phức tạp.",
+        "Nội dung tập trung phân tích sâu cơ chế hoạt động của hai interface nền tảng là Reader và Writer, cung cấp các ví dụ thực tế về cách truyền tải và chuyển đổi dữ liệu hiệu quả trong ứng dụng.",
+        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư phần mềm khi xây dựng các hệ thống xử lý luồng dữ liệu lớn, tối ưu hóa hiệu năng và thiết kế mã nguồn linh hoạt."
+      ],
+      "summary_en": [
+        "The article explores the streaming philosophy in the Go programming language through the io package, helping developers understand how to handle data uniformly without relying on complex files or networks.",
+        "The content focuses on deeply analyzing the operational mechanism of two foundational interfaces, Reader and Writer, providing practical examples of how to efficiently transmit and transform data within applications.",
+        "This knowledge delivers high practical value for software engineers when building large-scale data stream processing systems, optimizing performance, and designing flexible source code."
+      ],
+      "originalTitle": "Go Zero to Hero - Bài 71: Lập trình IO: Package io (Reader và Writer)",
+      "url": "https://viblo.asia/p/go-zero-to-hero-bai-71-lap-trinh-io-package-io-reader-va-writer-wd43ElrrLX9",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Golang",
+        "Software Engineering",
+        "Backend",
+        "IO Programming",
+        "Go Zero to Hero"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-30T23:52:09.000Z",
+      "contentSnippet": "1. Triết lý Lego của Golang: Mọi thứ đều là Dòng chảy (Stream) Trong Go, package io không chứa các đoạn code xử lý file hay mạng phức tạp. Nó chỉ địn...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "05a1378ae455d54d",
+      "title_vi": "Giám đốc điều hành OpenAI Sam Altman cho rằng việc tập trung bộ nhớ RAM trong trung tâm dữ liệu tối ưu hơn trên máy tính cá nhân",
+      "title_en": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+      "summary_vi": [
+        "Trong một cuộc phỏng vấn gần đây, giám đốc điều hành OpenAI Sam Altman đã đưa ra quan điểm trái chiều về vấn đề thiếu hụt linh kiện phần cứng và xu hướng phát triển công nghệ trí tuệ nhân tạo hiện nay.",
+        "Ông nhận định rằng việc phân bổ bộ nhớ RAM cho các máy tính cá nhân để chạy mô hình ngôn ngữ lớn cục bộ là một sự lãng phí tài nguyên tính toán ở cấp độ toàn cầu thay vì tập trung hóa.",
+        "Quan điểm này làm nổi bật cuộc tranh luận lớn trong ngành công nghiệp bán dẫn và điện toán đám mây về việc cân bằng giữa hiệu suất xử lý cục bộ tại thiết bị đầu cuối và sức mạnh hạ tầng trung tâm dữ liệu."
+      ],
+      "summary_en": [
+        "In a recent interview, OpenAI CEO Sam Altman shared controversial perspectives regarding ongoing hardware component shortages and the current trajectory of artificial intelligence technology development.",
+        "He stated that allocating RAM to personal computers for running local large language models represents a significant waste of computational resources globally rather than centralizing infrastructure.",
+        "This perspective highlights a major debate within the semiconductor and cloud computing industries regarding the balance between local edge device processing and centralized data center power."
+      ],
+      "originalTitle": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "OpenAI",
+        "Hardware",
+        "Data Center",
+        "RAM",
+        "AI Inference"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-30T20:48:43.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/gettyimages-1778705436.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented on AI's impact on math, Altman said: \"A lo",
+      "authorName": "Stevie Bonifield",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "7a24eca35f77e86d",
+      "title_vi": "Các tập đoàn trí tuệ nhân tạo lớn hậu thuẫn tiêu chuẩn mới giúp trang web từ chối thu thập dữ liệu",
+      "title_en": "The biggest names in AI are backing a new way to opt out of scraping",
+      "summary_vi": [
+        "Các công ty công nghệ hàng đầu bao gồm Google, OpenAI, Microsoft và Anthropic đã cam kết áp dụng một tiêu chuẩn chung mới nhằm giúp các nhà xuất bản dễ dàng từ chối việc dữ liệu của họ bị thu thập để huấn luyện mô hình trí tuệ nhân tạo.",
+        "Giải pháp kỹ thuật này sử dụng một tín hiệu mã thông báo chính sách chung được đề xuất thông qua Lực lượng đặc nhiệm kỹ thuật internet và tích hợp trực tiếp vào tệp robots.txt truyền thống của trang web để quản lý quyền truy cập của trình thu thập dữ liệu.",
+        "Động thái này mang lại giải pháp quản trị đồng bộ cho phép các quản trị viên web áp dụng thiết lập quyền riêng tư và bản quyền của mình trên nhiều nền tảng trí tuệ nhân tạo khác nhau thay vì phải cấu hình thủ công cho từng hệ thống riêng biệt."
+      ],
+      "summary_en": [
+        "Major technology companies including Google, OpenAI, Microsoft, and Anthropic have committed to adopting a new shared standard that helps publishers easily opt out of having their data scraped for training artificial intelligence models.",
+        "This technical solution utilizes a shared policy token signal proposed through the Internet Engineering Task Force and integrates directly into traditional website robots.txt files to manage web crawler access permissions.",
+        "This move provides a synchronized governance solution allowing web administrators to apply their privacy and copyright settings across multiple artificial intelligence platforms instead of manually configuring each separate system."
+      ],
+      "originalTitle": "The biggest names in AI are backing a new way to opt out of scraping",
+      "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Web Crawling",
+        "Data Privacy",
+        "IETF",
+        "Robots.txt"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-30T20:26:10.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25330660/STK414_AI_CHATBOT_H.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setti",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b9ee8bb30716fa37",
+      "title_vi": "Máy chủ AI vệ tinh của Google truyền phản hồi đầu tiên về Trái Đất",
+      "title_en": "Google's satellite AI server transmits its first response to Earth",
+      "summary_vi": [
+        "Google vừa thử nghiệm thành công vệ tinh tích hợp chip xử lý tensor trên quỹ đạo, đánh dấu cột mốc quan trọng khi hệ thống máy chủ trí tuệ nhân tạo ngoài không gian truyền tải thành công phản hồi đầu tiên về mặt đất trong khuôn khổ dự án Suncatcher đầy tham vọng.",
+        "Hệ thống phần cứng đã kích hoạt thành công bộ vi xử lý chuyên dụng Tensor Processing Units để vận hành mô hình ngôn ngữ lớn Gemma 4 ngay trên quỹ đạo, cho phép thiết bị tự động xử lý các câu lệnh phức tạp và sáng tác thơ haiku trực tiếp ngoài không gian vô cùng ấn tượng.",
+        "Sự kiện này mở ra hướng đi mới cho việc xây dựng các trung tâm dữ liệu trí tuệ nhân tạo ngoài không gian, giúp tối ưu hóa khả năng xử lý dữ liệu vệ tinh, giảm độ trễ truyền tải và nâng cao hiệu suất tính toán cho các ứng dụng hàng không vũ trụ trong tương lai."
+      ],
+      "summary_en": [
+        "Google has successfully tested an AI-integrated satellite in orbit, marking a major milestone as the first space-based artificial intelligence server system successfully transmitted its initial response back to Earth under the ambitious Suncatcher project.",
+        "The hardware system successfully activated specialized Tensor Processing Units to run the Gemma 4 large language model directly in orbit, enabling the device to autonomously process complex prompts and compose haiku poetry right from outer space.",
+        "This event opens up new directions for building space-based artificial intelligence data centers, helping to optimize satellite data processing capabilities, reduce transmission latency, and enhance computational performance for future aerospace applications."
+      ],
+      "originalTitle": "Google’s satellite AI server transmits its first response to Earth",
+      "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "TPU",
+        "Satellite",
+        "Gemma",
+        "Cloud"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-30T18:21:38.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/project-suncatcher-google.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: B",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "8789b25f4f928a02",
+      "title_vi": "Hãng cà phê Starbucks muốn ứng dụng trí tuệ nhân tạo để hiển thị thực đơn kỹ thuật số cá nhân hóa tại làn đường mua hàng qua ô tô",
+      "title_en": "Starbucks wants to use AI to show you a personalized digital menu at the drive-thru",
+      "summary_vi": [
+        "Hãng cà phê nổi tiếng thế giới đang lên kế hoạch tích hợp trí tuệ nhân tạo nhằm tự động nhận diện khách hàng ngay khi họ lái xe tiến vào khu vực phục vụ trực tiếp qua ô tô.",
+        "Hệ thống thông minh này sẽ tự động phân tích dữ liệu để thay đổi bố cục, nội dung trực quan và hiển thị các bảng thực đơn kỹ thuật số được cá nhân hóa theo từng phương tiện di chuyển khác nhau.",
+        "Giải pháp công nghệ này đánh dấu xu hướng chuyển đổi số mạnh mẽ trong ngành dịch vụ ăn uống, tương tự các thử nghiệm của các đối thủ lớn như Taco Bell và McDonald's gần đây."
+      ],
+      "summary_en": [
+        "The world famous coffee chain is planning to integrate artificial intelligence in order to automatically recognize customers as soon as they drive into the direct service lane.",
+        "This smart system will automatically analyze data to dynamically change layouts, visual content, and display personalized digital menus tailored specifically to each individual vehicle.",
+        "This technological solution marks a strong digital transformation trend within the food service industry, mirroring recent experiments by major competitors like Taco Bell and McDonald's."
+      ],
+      "originalTitle": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Retail Tech",
+        "Digital Menu",
+        "Automation"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-30T17:38:04.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2268681559.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital me",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "db95d86ba1918b7e",
       "title_vi": "GLM-5.3-Flash làm được gì? Từ đọc bảng trong ảnh đến gọi API bằng Node.js",
@@ -70,6 +244,41 @@
       "commentsCount": 0
     },
     {
+      "id": "45f24457a82bb1f3",
+      "title_vi": "Elon Musk nhận định tiết kiệm tiền là vô nghĩa khi trí tuệ nhân tạo tạo ra sự dư dả",
+      "title_en": "Elon Musk Claims Saving Money Is Meaningless As Artificial Intelligence Brings Abundance",
+      "summary_vi": [
+        "Elon Musk chia sẻ trên mạng xã hội X rằng việc tiết kiệm tiền dài hạn không còn ý nghĩa khi sự phát triển của siêu trí tuệ nhân tạo và robot sẽ mang lại nguồn hàng hóa dịch vụ vô cùng dư dả.",
+        "Tỷ phú này giải thích rằng các hệ thống trí tuệ nhân tạo tiên tiến và robot tự động sẽ thay thế con người sản xuất với chi phí rất thấp, dẫn đến tình trạng giảm phát và thay đổi toàn bộ hệ thống tiền tệ hiện tại.",
+        "Quan điểm này gây ra nhiều tranh cãi trái chiều trong cộng đồng mạng về tác động của tự động hóa toàn diện đến động lực làm việc và cấu trúc tài chính truyền thống của xã hội tương lai."
+      ],
+      "summary_en": [
+        "Elon Musk shared on X that long-term money saving becomes meaningless as the rapid development of artificial intelligence and advanced robotics will generate unprecedented material abundance.",
+        "The billionaire explained that sophisticated AI systems and automated robots will replace human labor to produce goods at extremely low costs, ultimately leading to severe deflation and restructuring monetary systems.",
+        "This perspective sparked widespread controversy within the online community regarding the psychological impact of full automation on workforce motivation and traditional financial structures in future societies."
+      ],
+      "originalTitle": "Elon Musk: 'Tiết kiệm tiền cho tương lai là vô nghĩa'",
+      "url": "https://vnexpress.net/elon-musk-tiet-kiem-tien-cho-tuong-lai-la-vo-nghia-5138848.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Robotics",
+        "Automation",
+        "Future Tech",
+        "Economy"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-30T17:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/30/ap25150648925119-1793351080-6926-1793351236.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=F30J1K7YkB98ggdqRiUB6Q",
+      "contentSnippet": "Elon Musk, CEO Tesla và SpaceX, cho rằng việc tiết kiệm dài hạn không đáng, tái khẳng định quan điểm đã đề cập nhiều lần.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "907d81e655b052b7",
       "title_vi": "Bảo mật Azure DevOps: 9 phương pháp hay nhất cho quy trình CI/CD để bảo vệ ứng dụng y tế",
       "title_en": "Azure DevOps Security: 9 CI/CD Pipeline Best Practices for Protecting Healthcare Applications",
@@ -134,6 +343,179 @@
       "publishedAt": "2026-10-30T15:37:36.000Z",
       "contentSnippet": "Đây là bài thứ ba trong series Supply Chain Attack nhằm vào hệ thống AI/ML. Bài 1 đã phân tích MCP backdoor, Dependency Confusion và Pickle deserializ...",
       "authorName": "fatfish",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b49e140ae02cf75c",
+      "title_vi": "Nền tảng đám mây Bắc Lục bị tấn công xâm nhập nghiêm trọng",
+      "title_en": "Northflank Cloud Platform Breached in Major Security Incident",
+      "summary_vi": [
+        "Nền tảng đám mây chịu ảnh hưởng nặng nề bởi sự cố bảo mật nghiêm trọng khiến toàn bộ các thành phần hệ thống ngừng hoạt động và buộc đội ngũ kỹ thuật phải triển khai các bản vá khẩn cấp.",
+        "Nhiều người dùng xác nhận các khóa trí tuệ nhân tạo đã bị lợi dụng, toàn bộ biến môi trường bị giải mã và yêu cầu vô hiệu hóa hoặc thay đổi toàn bộ thông tin xác thực ngay lập tức.",
+        "Sự cố gióng lên hồi chuông cảnh báo về tính bảo mật của các biến môi trường và thông tin đăng nhập trên các nền tảng đám mây hiện đại, đòi hỏi quy trình quản lý bí mật khắt khe hơn."
+      ],
+      "summary_en": [
+        "The cloud platform suffered a major security incident causing widespread system outages and forcing the engineering team to deploy emergency network patches and coordinate with incident response experts.",
+        "Multiple users confirmed that their artificial intelligence keys were exploited, environment variables were fully decrypted, and immediate credential rotation and public access disabling were strongly advised.",
+        "This severe breach highlights critical vulnerabilities in environment variable security on modern cloud platforms, emphasizing the absolute necessity of robust secret management and rapid incident response protocols."
+      ],
+      "originalTitle": "Northflank Breached",
+      "url": "https://status.northflank.com",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Cloud Security",
+        "DevOps",
+        "Data Breach",
+        "Infrastructure"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-30T15:10:31.000Z",
+      "contentSnippet": "Security incidentIdentified·Major outageUpdate · October 30, 2026 at 7:28 PMUTCOur investigation is ongoing. We have no further confirmed findings to share at this time.Our guidance remains unchanged: assume all environment variables have been compromised and rotate all secrets and credentials immed",
+      "authorName": "js4ever",
+      "upvotes": 298,
+      "commentsCount": 220
+    },
+    {
+      "id": "a869c95887273c31",
+      "title_vi": "Lợi nhuận LG Electronics tăng gần 56% sau 9 tháng, đơn hàng làm mát trung tâm dữ liệu AI vượt 3.000 tỷ won",
+      "title_en": "LG Electronics 9-Month Profit Surges Nearly 56% as AI Data Center Cooling Orders Exceed 3 Trillion Won",
+      "summary_vi": [
+        "LG Electronics ghi nhận mức tăng trưởng lợi nhuận ấn tượng gần năm mươi sáu phần trăm trong chín tháng đầu năm nhờ sự bùng nổ mạnh mẽ của thị trường hạ tầng công nghệ thông tin toàn cầu.",
+        "Nhu cầu cấp thiết về giải pháp làm mát tiên tiến cho các trung tâm dữ liệu trí tuệ nhân tạo đã đẩy giá trị đơn hàng của tập đoàn này vượt mốc ba nghìn tỷ won.",
+        "Sự chuyển dịch chiến lược sang mảng cơ sở hạ tầng trung tâm dữ liệu mở ra hướng đi mới bền vững, khẳng định vai trò thiết yếu của phần cứng trong hệ sinh thái trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "LG Electronics reported an impressive profit growth of nearly fifty-six percent in the first nine months driven by the explosive expansion of the global information technology infrastructure market.",
+        "The urgent demand for advanced cooling solutions in artificial intelligence data centers has propelled the conglomerate's order backlog past the three trillion won milestone.",
+        "This strategic shift toward data center infrastructure establishes a new sustainable growth vector, highlighting the critical role of hardware within the modern artificial intelligence ecosystem."
+      ],
+      "originalTitle": "Lợi nhuận LG Electronics tăng gần 56% sau 9 tháng, đơn hàng làm mát trung tâm dữ liệu AI vượt 3.000 tỷ won",
+      "url": "https://genk.vn/loi-nhuan-lg-electronics-tang-gan-56-sau-9-thang-don-hang-lam-mat-trung-tam-du-lieu-ai-vuot-3000-ty-won-165261030195250043.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "AI",
+        "Data Center",
+        "Hardware",
+        "Infrastructure",
+        "LG Electronics"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-30T13:47:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/30/avatar1793364737202-1793364737548844056680.png",
+      "contentSnippet": "Trong khi các mảng kinh doanh điện tử truyền thống tiếp tục duy trì lợi nhuận, LG Electronics đang chứng kiến một động lực tăng trưởng mới từ nhu cầu làm mát trung tâm dữ liệu AI.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "49e2bb74036f7443",
+      "title_vi": "Phát ngôn vạ miệng về trí tuệ nhân tạo thay thế con người khiến doanh số thương hiệu lớn lao dốc",
+      "title_en": "Chili Oil Brand Suffers Sales Plunge After Controversial Remarks on Artificial Intelligence Job Replacement",
+      "summary_vi": [
+        "Thương hiệu tương ớt nổi tiếng tại Trung Quốc đối mặt với làn sóng tẩy chay và doanh số sụt giảm nghiêm trọng tới chín mươi phần trăm do phát ngôn gây tranh cãi về việc ứng dụng trí tuệ nhân tạo thay thế lao động con người.",
+        "Sự cố này làm nổi bật những thách thức trong việc truyền thông công nghệ tự động hóa và trí tuệ nhân tạo, buộc doanh nghiệp phải nhanh chóng đính chính rằng công nghệ chỉ nhằm tối ưu hóa năng suất thay vì cắt giảm nhân sự.",
+        "Bài học quan trọng cho các kỹ sư và quản lý công nghệ là cần minh bạch và cẩn trọng khi tích hợp các giải pháp trí tuệ nhân tạo vào mô hình vận hành để tránh gây hoang mang dư luận và ảnh hưởng tiêu cực."
+      ],
+      "summary_en": [
+        "A prominent Chinese chili oil brand faced severe backlash and a ninety percent sales drop following controversial statements regarding the replacement of human workers with artificial intelligence.",
+        "This incident highlights the communication challenges surrounding automation technologies, forcing the company to quickly clarify that AI is meant to enhance productivity rather than eliminate human staff.",
+        "A crucial lesson for technical leaders and engineers is to exercise caution and transparency when integrating AI solutions into business operations to avoid public panic and brand damage."
+      ],
+      "originalTitle": "\"Vạ miệng\" khoe dùng AI thay thế con người, thương hiệu quốc dân của Trung Quốc lãnh hậu quả: Doanh số có lúc giảm 90%",
+      "url": "https://genk.vn/va-mieng-khoe-dung-ai-thay-the-con-nguoi-thuong-hieu-quoc-dan-cua-trung-quoc-lanh-hau-qua-doanh-so-co-luc-giam-90-165261030195128638.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Automation",
+        "Productivity",
+        "Tech Ethics"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-30T13:34:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/30/avatar1793364589095-17933645896251436064233-0-26-1000-1626-crop-17933646716841655275373.jpg",
+      "contentSnippet": "Ngay sau đó, thương hiệu tương ớt này liên tục phủ nhận việc dùng AI để thay thế con người, mà chỉ là ứng dụng công nghệ này để tăng năng suất lao động.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e82177f9cfa6b840",
+      "title_vi": "HP OmniBook X Flip 14 phiên bản 2026 trang bị chip Intel Core Ultra Series 3 và màn hình OLED cảm ứng",
+      "title_en": "HP OmniBook X Flip 14 2026 Features Intel Core Ultra Series 3 and Touch OLED Display",
+      "summary_vi": [
+        "Thương hiệu HP vừa chính thức giới thiệu dòng máy tính xách tay xoay gập linh hoạt mới mang tên OmniBook X Flip phiên bản năm 2026 nhằm đáp ứng tốt hơn nhu cầu sử dụng đa dạng.",
+        "Thiết bị tích hợp bộ vi xử lý Intel Core Ultra Series 3 tiên tiến cùng tấm nền màn hình OLED cảm ứng cao cấp, mang lại hiệu suất xử lý mạnh mẽ và chất lượng hiển thị sắc nét.",
+        "Sản phẩm hướng đến đối tượng người dùng chuyên nghiệp cần một công cụ di động mạnh mẽ để làm việc hiệu quả, giải trí đỉnh cao và sáng tạo nội dung không giới hạn."
+      ],
+      "summary_en": [
+        "HP has officially introduced its new versatile convertible laptop model named OmniBook X Flip for 2026 designed to better accommodate diverse user requirements.",
+        "The device integrates advanced Intel Core Ultra Series 3 processors alongside a premium touch OLED panel providing robust processing performance and sharp visual quality.",
+        "This product targets professional users needing a powerful mobile tool to work efficiently, enjoy top-tier entertainment, and engage in limitless content creation."
+      ],
+      "originalTitle": "HP OmniBook X Flip 14 2026: Intel® Core™ Ultra Series 3 kết hợp cùng màn OLED cảm ứng",
+      "url": "https://genk.vn/hp-omnibook-x-flip-14-2026-intel-core-ultra-series-3-ket-hop-cung-man-oled-cam-ung-165261030194444023.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "HP",
+        "Intel Core Ultra",
+        "OLED",
+        "Laptop",
+        "Hardware"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-30T13:30:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/30/photo1793348982843-1793348983277693267731-17933642849532048906794.png",
+      "contentSnippet": "Thiết kế xoay gập 360 độ kết hợp bộ xử lý Intel® Core™ Ultra Series 3 và màn hình OLED cảm ứng giúp HP OmniBook X Flip 14 2026 đáp ứng linh hoạt nhu cầu làm việc, giải trí và sáng tạo nội dung.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0170f1eb4bac61d2",
+      "title_vi": "Không phải chuột hay bàn phím, đây mới là món phụ kiện được nhiều người sắm cho laptop",
+      "title_en": "Beyond mice and keyboards, these laptop accessories are becoming essential for professionals",
+      "summary_vi": [
+        "Thị trường phụ kiện máy tính cá nhân chứng kiến sự quan tâm lớn đối với nhóm thiết bị hỗ trợ công thái học và tản nhiệt thay vì chỉ tập trung vào chuột hay bàn phím truyền thống.",
+        "Đế tản nhiệt và giá đỡ đóng vai trò quan trọng trong việc giải quyết vấn đề quá nhiệt của CPU và GPU khi máy tính phải xử lý các tác vụ nặng liên tục trong nhiều giờ.",
+        "Việc đầu tư các giải pháp phần cứng hỗ trợ này giúp nâng cao tuổi thọ thiết bị, cải thiện hiệu suất làm việc và mang lại sự thoải mái tối đa cho người dùng công nghệ."
+      ],
+      "summary_en": [
+        "The personal computer accessory market is witnessing a major shift toward ergonomic and cooling solutions rather than traditional peripherals like mice and keyboards.",
+        "Cooling pads and laptop stands play a crucial role in mitigating thermal throttling issues for CPU and GPU units during continuous heavy workload processing.",
+        "Investing in these hardware support solutions significantly enhances device lifespan, improves operational performance, and ensures maximum comfort for technology professionals."
+      ],
+      "originalTitle": "Không phải chuột hay bàn phím, đây mới là món phụ kiện nhiều người sắm cho laptop",
+      "url": "https://genk.vn/khong-phai-chuot-hay-ban-phim-day-moi-la-mon-phu-kien-nhieu-nguoi-sam-cho-laptop-165261030161538588.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Laptop",
+        "Hardware",
+        "Cooling Pad",
+        "Ergonomics",
+        "Tech Accessories"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-30T13:13:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/30/avatar1793351578334-1793351579330862617419.jpg",
+      "contentSnippet": "Không quá nổi bật như chuột không dây hay bàn phím cơ, đế tản nhiệt và giá đỡ laptop lại là những món phụ kiện được nhiều người tìm mua.",
+      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -379,6 +761,40 @@
       "commentsCount": 0
     },
     {
+      "id": "a13f736d98945685",
+      "title_vi": "Phát hiện cửa hậu trong tiện ích mở rộng của trợ lý mã nguồn trên chợ ứng dụng",
+      "title_en": "Backdoor detected in coding assistant extension on marketplace",
+      "summary_vi": [
+        "Công ty bảo mật Phorion đã phát hiện một mã độc cửa hậu nguy hiểm được ngụy trang tinh vi bên trong phiên bản chính thức của tiện ích mở rộng lập trình trên kho ứng dụng.",
+        "Mã độc này tự động thiết lập quyền truy cập Secure Shell bền vững trên nhiều hệ điều hành phổ biến như macOS, Linux và Windows ngay khi mô-đun được tải thực thi.",
+        "Các tổ chức và lập trình viên cần nhanh chóng rà soát lại toàn bộ môi trường phát triển phần mềm, gỡ bỏ phiên bản bị ảnh hưởng và tiến hành đánh giá an ninh ngay lập tức."
+      ],
+      "summary_en": [
+        "Security firm Phorion has uncovered a sophisticated backdoor maliciously embedded within the official coding extension bundle distributed through the application marketplace.",
+        "The malicious implant automatically establishes a persistent Secure Shell backdoor across major operating systems including macOS, Linux, and Windows upon module loading.",
+        "Organizations and developers must immediately audit their software development environments, remove the compromised versions, and initiate comprehensive incident response procedures."
+      ],
+      "originalTitle": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Backdoor",
+        "VSCode",
+        "Malware",
+        "Developer Tools"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-30T07:09:12.000Z",
+      "contentSnippet": "TL;DRPhorion has detected a backdoor in the official Claude Code for VS Code extension bundle on the Cursor Marketplace that drops a persistent SSH backdoor across macOS, Linux, and Windows. This write-up focuses primarily on macOS, where the extension attempts to configure an SSH backdoor and estab",
+      "authorName": "_chall",
+      "upvotes": 665,
+      "commentsCount": 428
+    },
+    {
       "id": "f5b076d7c9294949",
       "title_vi": "Mô hình trí tuệ nhân tạo Trung Quốc thực hiện thành công tấn công mạng phức tạp",
       "title_en": "Chinese AI Model Successfully Executes Complex Cyber Attack",
@@ -409,6 +825,41 @@
       "publishedAt": "2026-10-30T05:00:00.000Z",
       "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/29/dsc04678-jpg-1793282921-4841-1793282927.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=kUun8BdIZ3y0yec6BUuYXg",
       "contentSnippet": "Mô hình AI hàng đầu của công ty Z.AI thực hiện thành công cuộc tấn công mạng phức tạp trong môi trường giả lập và nhiều lần phớt lờ chỉ dẫn an toàn ở bài kiểm tra riêng biệt.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c30344081e747ee1",
+      "title_vi": "Vụ tấn công tỷ USD của Binance bắt nguồn từ việc laptop kỹ sư bị xâm nhập",
+      "title_en": "Binance's Billion-Dollar Hack Traced Back to Compromised DevOps Engineer Laptop",
+      "summary_vi": [
+        "Sàn giao dịch tiền mã hóa lớn nhất thế giới Binance vừa xác nhận một sự cố bảo mật nghiêm trọng gây thiệt hại khoảng 6,3 tỷ USD, xuất phát từ việc thiết bị cá nhân của một kỹ sư phát triển và vận hành hệ thống bị tin tặc kiểm soát hoàn toàn.",
+        "Kẻ tấn công đã lợi dụng thiết bị bị xâm nhập để tiếp cận một thành phần cốt lõi trong hệ thống phần mềm backend, từ đó thực thi các lệnh rút tiền trái phép mà không cần thông qua khóa riêng tư của các ví điện tử người dùng.",
+        "Sự cố này gióng lên hồi chuông cảnh báo về các lỗ hổng bảo mật điểm cuối đối với nhân sự kỹ thuật có đặc quyền cao, buộc các doanh nghiệp công nghệ phải siết chặt kiểm soát truy cập và bảo vệ môi trường làm việc của kỹ sư DevOps."
+      ],
+      "summary_en": [
+        "The world's largest cryptocurrency exchange Binance has confirmed a major security incident resulting in significant financial losses, allegedly originating from a compromised personal laptop belonging to a DevOps engineer.",
+        "The attacker exploited the compromised workstation to gain unauthorized access to a core component of the backend software architecture, subsequently executing illicit withdrawal commands without leaking any master private keys.",
+        "This severe security breach highlights the critical risks associated with endpoint vulnerabilities for privileged technical staff, forcing technology enterprises to tighten access controls and secure DevOps working environments."
+      ],
+      "originalTitle": "Vụ hack tỷ USD của Binance có thể do laptop kỹ sư bị xâm nhập",
+      "url": "https://vnexpress.net/vu-hack-ty-usd-cua-binance-co-the-do-laptop-ky-su-bi-xam-nhap-5138683.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "DevOps",
+        "Blockchain",
+        "Security Breach",
+        "Binance"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-30T03:54:40.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/30/wm1-wm1-img-jpg-1793332350-4028-1793332409.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=9sLbNINIaBc_A9D0Hw4HgA",
+      "contentSnippet": "Binance xác nhận vụ tấn công gây ảnh hưởng đến 6,3 tỷ USD của sàn, có thể xuất phát từ laptop của một kỹ sư DevOps bị xâm nhập.",
       "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
@@ -447,6 +898,42 @@
       "authorName": "Stevie Bonifield",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "e5d882487d99afa2",
+      "title_vi": "Vâng, biểu thức ngoặc nhọn cộng với mảng trả về số không nhưng ngôn ngữ lập trình này không hề bị hỏng",
+      "title_en": "Yes, {} + [] = 0. No, JavaScript Isn’t Broken",
+      "summary_vi": [
+        "Ngôn ngữ lập trình web phổ biến này được ra đời chỉ trong mười ngày vào giữa thập niên chín mươi trong cuộc chiến trình duyệt giữa các ông lớn công nghệ nhằm thống trị thị trường.",
+        "Trải qua nhiều thập kỷ phát triển với vô số cải tiến kỹ thuật, ngôn ngữ này vẫn phải duy trì tính tương thích ngược để đảm bảo hàng triệu trang web cũ không bị lỗi hoạt động.",
+        "Sự kỳ lạ trong các quy tắc chuyển đổi kiểu dữ liệu và cú pháp đặc thù là đặc điểm cốt lõi giúp hệ sinh thái web toàn cầu duy trì sự ổn định suốt thời gian dài."
+      ],
+      "summary_en": [
+        "This popular web programming language was created in just ten days during the mid-nineteen nineties browser wars as companies competed for market dominance.",
+        "Despite decades of evolution and numerous technical enhancements, the language must maintain backward compatibility to ensure millions of legacy websites keep functioning properly.",
+        "The peculiar behavior in type coercion rules and specific syntax features represents core characteristics that help the global web ecosystem maintain long-term stability."
+      ],
+      "originalTitle": "Yes, {} + [] = 0. No, JavaScript Isn’t Broken",
+      "url": "https://dev.to/sylwia-lask/yes-0-no-javascript-isnt-broken-14ob",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "JavaScript",
+        "Web Development",
+        "Programming",
+        "Language Specs",
+        "Legacy Code"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-29T20:08:53.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Folm3zyjvpymz88fwvzrw.png",
+      "contentSnippet": "JavaScript is a legendary programming language. Created in the mid-1990s in just 10 days, it was born...",
+      "authorName": "Sylwia Laskowska",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3535771%2Fe22860d5-274b-43c9-819b-56b162e5bd5a.jpeg",
+      "upvotes": 90,
+      "commentsCount": 54
     },
     {
       "id": "bd03e4a483646b85",
@@ -8029,482 +8516,6 @@
       "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_1_Meta.jpg?quality=90&strip=all&crop=0,0,100,100",
       "contentSnippet": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to restrict the 'associated with your products or services' [lang",
       "authorName": "Emma Roth",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "98516d3e7e04cfcd",
-      "title_vi": "Cơ quan cấp chứng chỉ số eMudhra từ bỏ mảng kinh doanh TLS sau sự cố lộ khóa riêng tư yếu",
-      "title_en": "Disgraced eMudhra drops out of TLS business after using weak certificate private keys",
-      "summary_vi": [
-        "Hãng cấp chứng chỉ số eMudhra tuyên bố rút lui hoàn toàn khỏi lĩnh vực kinh doanh chứng chỉ TLS sau khi vấp phải làn sóng chỉ trích mạnh mẽ từ cộng đồng an ninh mạng quốc tế.",
-        "Nguyên nhân cốt lõi xuất phát từ việc công ty này phát hành tám chứng chỉ trung gian có khóa mã hóa riêng tư quá yếu, cho phép kẻ xấu dễ dàng bẻ khóa chỉ trong vài mili giây.",
-        "Sự cố này gióng lên hồi chuông cảnh báo về tiêu chuẩn tuân thủ an toàn trong việc quản lý hạ tầng khóa công khai, ảnh hưởng trực tiếp đến độ tin cậy của nhiều trình duyệt và máy chủ."
-      ],
-      "summary_en": [
-        "Certificate authority eMudhra announced its complete withdrawal from the TLS business following intense backlash and scrutiny from the global cybersecurity community.",
-        "The core issue stemmed from the issuance of eight intermediate certificates containing encryption private keys so weak that attackers could easily crack them within milliseconds.",
-        "This severe security incident highlights critical compliance failures in public key infrastructure management, directly impacting the trustworthiness of major web browsers and servers."
-      ],
-      "originalTitle": "Disgraced eMudhra drops out of TLS business after using cert private key of 4",
-      "url": "https://arstechnica.com/security/2026/10/disgraced-emudhra-drops-out-of-tls-business-following-certificate-debacle/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "TLS",
-        "Certificate Authority",
-        "Encryption",
-        "PKI"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-22T20:17:52.000Z",
-      "contentSnippet": "Flubbed key signing \"ceremony\" allowed minting of web credentials for any site.",
-      "authorName": "\n                    Dan Goodin\n                ",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "95b144aeb6e41f39",
-      "title_vi": "Cảnh báo hai lỗ hổng PHP nghiêm trọng, website cần cập nhật sớm",
-      "title_en": "Critical Alert Issued for Two Severe PHP Vulnerabilities Requiring Immediate System Updates",
-      "summary_vi": [
-        "Cơ quan chức năng vừa phát đi cảnh báo khẩn cấp về hai lỗ hổng bảo mật nghiêm trọng trên ngôn ngữ lập trình PHP với điểm số đánh giá lên tới 9,2 trên 10.",
-        "Các chuyên gia an ninh mạng khuyến cáo các tổ chức và doanh nghiệp đang vận hành hệ thống trực tuyến cần nhanh chóng tiến hành rà soát toàn bộ mã nguồn và cập nhật các bản vá lỗi.",
-        "Việc chậm trễ trong việc vá lỗi có thể tạo cơ hội cho kẻ gian khai thác các điểm yếu này để thực hiện các cuộc tấn công chiếm quyền điều khiển hệ thống và đánh cắp dữ liệu."
-      ],
-      "summary_en": [
-        "Authorities have issued an urgent security warning regarding two critical vulnerabilities discovered in the PHP programming language, both rated with a severe CVSS score of 9.2 out of 10.",
-        "Cybersecurity experts strongly advise organizations and enterprises operating online systems to quickly conduct comprehensive source code reviews and apply the latest available patches.",
-        "Delays in patching these critical security flaws could provide malicious actors with opportunities to exploit system weaknesses, execute unauthorized commands, and compromise sensitive data."
-      ],
-      "originalTitle": "Cảnh báo hai lỗ hổng PHP nghiêm trọng, website cần cập nhật sớm",
-      "url": "https://tuoitre.vn/canh-bao-hai-lo-hong-php-nghiem-trong-website-can-cap-nhat-som-100261022190250432.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "PHP",
-        "Security",
-        "Vulnerability",
-        "Patch",
-        "Cybersecurity"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-22T20:07:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/22/lo-hong-php-17926742564841464748980-3-0-384-610-crop-1792675994218525422092.png",
-      "contentSnippet": "Hai lỗ hổng PHP với mức độ nghiêm trọng 9,2/10 đã có bản vá. Cơ quan chức năng khuyến nghị tổ chức, doanh nghiệp sớm rà soát hệ thống.",
-      "authorName": "NGUYÊN BẢO⭐",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "05516fa6d2dd5210",
-      "title_vi": "Chia sẻ dự án lập trình giao diện: Câu lệnh tương tác vi mô dành cho trí tuệ nhân tạo",
-      "title_en": "Show HN: UI micro interactions prompts for AI",
-      "summary_vi": [
-        "Dự án mới ra mắt trên nền tảng Hacker News giới thiệu tập hợp các câu lệnh chuyên biệt nhằm hỗ trợ trí tuệ nhân tạo tạo ra các hiệu ứng tương tác giao diện người dùng tinh tế.",
-        "Bộ công cụ tập trung vào việc tối ưu hóa các mẫu thiết kế chuyển động nhỏ, giúp lập trình viên và nhà thiết kế dễ dàng tích hợp trải nghiệm người dùng mượt mà hơn bằng các mô hình ngôn ngữ lớn.",
-        "Sáng kiến này mang lại giá trị thực tiễn cao cho cộng đồng phát triển phần mềm, giúp rút ngắn thời gian tạo mẫu giao diện động và nâng cao chất lượng trải nghiệm ứng dụng hiện đại."
-      ],
-      "summary_en": [
-        "A newly launched project on Hacker News introduces a specialized collection of prompts designed to assist artificial intelligence in generating subtle user interface micro-interaction effects.",
-        "The toolkit focuses on optimizing small motion design patterns, enabling developers and designers to easily integrate smoother user experiences using large language models.",
-        "This initiative delivers high practical value to the software development community by reducing prototyping time for dynamic interfaces and enhancing modern application experiences."
-      ],
-      "originalTitle": "Show HN: UI micro interactions prompts for AI",
-      "url": "https://www.typeui.sh/micro-interactions",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "UI/UX",
-        "AI",
-        "Frontend",
-        "Design Systems",
-        "Show HN"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-22T18:32:57.000Z",
-      "contentSnippet": "Show HN: UI micro interactions prompts for AI",
-      "authorName": "elwingo1",
-      "upvotes": 50,
-      "commentsCount": 20
-    },
-    {
-      "id": "6eb73169f84ce43f",
-      "title_vi": "Môi trường thực thi an toàn và bảo mật dành cho đội ngũ tác nhân trí tuệ nhân tạo tự động",
-      "title_en": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
-      "summary_vi": [
-        "Dự án mới mang tên OpenShell được phát triển nhằm cung cấp một môi trường thực thi hoàn toàn an toàn và đảm bảo tính riêng tư cho các hệ thống nhiều tác nhân trí tuệ nhân tạo tự động hoạt động đồng thời.",
-        "Giải pháp này ứng dụng các kỹ thuật cách ly tiến tiến và cơ chế kiểm soát quyền truy cập chặt chẽ, giúp ngăn chặn rò rỉ dữ liệu nhạy cảm và bảo vệ hạ tầng máy chủ khỏi các hành vi thực thi mã độc hại tiềm ẩn.",
-        "Sự ra đời của công cụ này giải quyết bài toán cốt lõi về bảo mật trong kỷ nguyên tự động hóa AI, giúp các doanh nghiệp tự tin triển khai các mô hình tác nhân quy mô lớn mà vẫn kiểm soát được rủi ro."
-      ],
-      "summary_en": [
-        "A new project named OpenShell has been developed to provide a completely secure and private execution environment designed specifically for fleets of autonomous artificial intelligence agents operating concurrently.",
-        "This solution leverages advanced isolation techniques and strict access control mechanisms to prevent sensitive data leaks and protect server infrastructure from potentially malicious code execution behaviors.",
-        "The introduction of this tool addresses the core security challenge in the era of AI automation, enabling enterprises to confidently deploy large-scale agent models while effectively mitigating operational risks."
-      ],
-      "originalTitle": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI Agents",
-        "Security",
-        "Runtime",
-        "Automation",
-        "Cloud"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-22T17:44:06.000Z",
-      "contentSnippet": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
-      "authorName": "niemandhier",
-      "upvotes": 172,
-      "commentsCount": 90
-    },
-    {
-      "id": "b3153106648288db",
-      "title_vi": "Rủi ro lộ dữ liệu quan trọng khi sử dụng trí tuệ nhân tạo và quyền hạn thực tế của tiện ích mở rộng trình duyệt",
-      "title_en": "Data Privacy Risks When Using AI and the Actual Permissions of Browser Extensions",
-      "summary_vi": [
-        "Bài viết phân tích mối lo ngại về việc liệu các thông tin quan trọng có bị rò rỉ ra bên ngoài khi người dùng tương tác với các hệ thống trí tuệ nhân tạo thông qua trình duyệt web.",
-        "Nội dung đi sâu vào việc kiểm tra quyền truy cập của các tiện ích mở rộng trên trình duyệt, làm rõ những trang web nào mà các công cụ này có thể đọc và thu thập dữ liệu người dùng.",
-        "Chuyên gia khuyến cáo các lập trình viên và người dùng cần kiểm soát chặt chẽ quyền hạn của tiện ích mở rộng để ngăn chặn nguy cơ thất thoát dữ liệu doanh nghiệp và thông tin nhạy cảm."
-      ],
-      "summary_en": [
-        "The article analyzes concerns about whether critical information might leak externally when users interact with artificial intelligence systems through web browsers.",
-        "The content delves into examining access permissions of browser extensions, clarifying which web pages these tools can read and from which they can collect user data.",
-        "Experts recommend that developers and users strictly control extension permissions to prevent the risk of enterprise data breaches and the exposure of sensitive information."
-      ],
-      "originalTitle": "Khi dùng AI, thông tin quan trọng có bị lộ ra ngoài không? Tiện ích mở rộng trình duyệt đọc được gì",
-      "url": "https://viblo.asia/p/khi-dung-ai-thong-tin-quan-trong-co-bi-lo-ra-ngoai-khong-tien-ich-mo-rong-trinh-duyet-doc-duoc-gi-gjLN0ZrW432",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Cybersecurity",
-        "Browser Security",
-        "Data Privacy",
-        "Web Extensions"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-22T17:23:54.000Z",
-      "contentSnippet": "Khi dùng AI, thông tin quan trọng có bị lộ ra ngoài không? Tiện ích mở rộng trình duyệt đọc được gì Quyền truy cập của tiện ích và những trang nó thự...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "291cee50143dda9c",
-      "title_vi": "Đánh giá chi tiết điện thoại màn hình gập iPhone Duo từ góc nhìn kỹ thuật",
-      "title_en": "HTX Studio Reviews iPhone Duo: The Engineering Trade-offs of Apple's First Foldable Phone",
-      "summary_vi": [
-        "Kênh YouTube HTX Studio vừa công bố video đánh giá chi tiết về iPhone Duo, chiếc điện thoại màn hình gập đầu tiên mang thương hiệu Apple với nhiều kỳ vọng lớn từ cộng đồng công nghệ.",
-        "Báo cáo tập trung phân tích cơ chế bản lề, độ bền màn hình và những đánh đổi kỹ thuật về thiết kế phần cứng khi Apple tham gia vào thị trường thiết bị gập cạnh tranh khốc liệt.",
-        "Đánh giá này cung cấp góc nhìn thực tiễn về xu hướng phát triển phần cứng di động cao cấp, giúp các kỹ sư hiểu rõ hơn về thách thức tối ưu hóa trải nghiệm người dùng."
-      ],
-      "summary_en": [
-        "HTX Studio YouTube channel recently published a detailed review video of the iPhone Duo, Apple's first foldable smartphone which has generated immense anticipation within the tech community.",
-        "The analysis focuses heavily on the hinge mechanism, screen durability, and hardware design trade-offs as Apple officially enters the highly competitive foldable device market segment.",
-        "This evaluation delivers practical insights into high-end mobile hardware trends, helping engineers better understand the ongoing challenges of optimizing user experience on novel form factors."
-      ],
-      "originalTitle": "Đánh giá iPhone Duo từ HTX Studio: gập rất tốt, nhưng phải đánh đổi không ít",
-      "url": "https://tinhte.vn/thread/danh-gia-iphone-duo-tu-htx-studio-gap-rat-tot-nhung-phai-danh-doi-khong-it.4186187/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone Duo",
-        "Foldable Phone",
-        "Mobile Hardware",
-        "Tech Review"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-22T17:21:56.000Z",
-      "contentSnippet": "Kênh YouTube HTX Studio vừa đăng video đánh giá chi tiết iPhone Duo, chiếc iPhone màn hình gập đầu tiên của Apple, với tiêu đề \"iPhone Duo Review: Folding Has a Price\" (tạm dịch: Gập lại thì phải...",
-      "authorName": "thanhtung6868",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "948b2f2359c02c23",
-      "title_vi": "Trí tuệ nhân tạo trong việc xác định nguyên nhân gốc rễ giúp đội ngũ IT khắc phục sự cố ứng dụng nhanh hơn",
-      "title_en": "AI for Root Cause Analysis: Helping IT Teams Resolve Application Issues Faster",
-      "summary_vi": [
-        "Khi các ứng dụng kinh doanh gặp sự cố chậm hoặc ngừng hoạt động, việc xác định chính xác nguyên nhân gốc rễ thường tiêu tốn nhiều thời gian hơn so với quá trình khắc phục thực tế.",
-        "Các mô hình trí tuệ nhân tạo tiên tiến hiện nay tự động phân tích hàng loạt dữ liệu log và nhật ký hệ thống để phát hiện các bất thường về hiệu suất một cách nhanh chóng.",
-        "Giải pháp này giúp giảm thiểu đáng kể thời gian ngừng hoạt động của hệ thống, nâng cao hiệu suất làm việc cho các kỹ sư DevOps và đảm bảo trải nghiệm người dùng tốt hơn."
-      ],
-      "summary_en": [
-        "When enterprise applications slow down or experience downtime, identifying the exact root cause often takes significantly longer than resolving the issue itself.",
-        "Advanced artificial intelligence models now automatically analyze massive volumes of system logs and telemetry data to detect performance anomalies instantly.",
-        "This automated approach drastically reduces system downtime, improves operational efficiency for DevOps engineers, and ensures a seamless user experience across platforms."
-      ],
-      "originalTitle": "AI for Root Cause Analysis: Helping IT Teams Resolve Application Issues Faster",
-      "url": "https://viblo.asia/p/ai-for-root-cause-analysis-helping-it-teams-resolve-application-issues-faster-8X4EjWDAJN2",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Artificial Intelligence",
-        "Root Cause Analysis",
-        "DevOps",
-        "IT Operations",
-        "Performance Monitoring"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-22T16:56:24.000Z",
-      "contentSnippet": "When a business application slows down or becomes unavailable, identifying the actual cause can take longer than resolving the issue itself. IT teams ...",
-      "authorName": "Sindhu J",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b12a3bb387b9a834",
-      "title_vi": "Google tích hợp quảng cáo vào công cụ trả lời trí tuệ nhân tạo, thách thức khả năng phân biệt của người dùng",
-      "title_en": "Google Integrates Advertisements into AI Search Answers, Challenging User Discretion",
-      "summary_vi": [
-        "Google đã chính thức triển khai việc chèn các nội dung quảng cáo trực tiếp vào giao diện trả lời của hệ thống trí tuệ nhân tạo, khiến ranh giới giữa gợi ý thông tin khách quan và nội dung thương mại được tài trợ trở nên mong manh hơn bao giờ hết.",
-        "Việc tích hợp này đòi hỏi các thuật toán phân phối quảng cáo phải điều chỉnh cách thức hiển thị để không làm gián đoạn trải nghiệm truy vấn, đồng thời đặt ra bài toán về minh bạch dữ liệu trong các mô hình ngôn ngữ lớn.",
-        "Sự thay đổi này tác động lớn đến thói quen tiếp nhận thông tin của người dùng công nghệ, đồng thời định hình lại chiến lược kiếm tiền từ tìm kiếm thế hệ mới của các ông lớn công nghệ."
-      ],
-      "summary_en": [
-        "Google has officially rolled out the integration of advertisements directly into its artificial intelligence response interface, making the boundary between objective suggestions and sponsored commercial content increasingly blurred.",
-        "This technical integration requires ad delivery algorithms to carefully adjust their display mechanisms to avoid disrupting the query experience while raising important questions about data transparency in large language models.",
-        "This shift significantly impacts the information-processing habits of technology users while reshaping the next-generation search monetization strategies of major tech giants."
-      ],
-      "originalTitle": "Google đưa quảng cáo vào câu trả lời AI, người dùng phân biệt lời khuyên với lời chào hàng ra sao?",
-      "url": "https://tuoitre.vn/google-dua-quang-cao-vao-cau-tra-loi-ai-nguoi-dung-phan-biet-loi-khuyen-voi-loi-chao-hang-ra-sao-100261021163712365.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Google",
-        "Advertising",
-        "LLM",
-        "Search Engine"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-22T15:38:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/21/man-hinh-ai-voi-quang-cao-tai-tro-1792572124786276158095.png",
-      "contentSnippet": "Google đưa quảng cáo vào AI Mode, đặt người dùng trước câu hỏi đâu là gợi ý hữu ích, đâu là nội dung được trả tiền để xuất hiện.",
-      "authorName": "Tuấn Vĩ⭐",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "045a2ef443d2dc19",
-      "title_vi": "Trình diễn kỹ thuật chạy toàn bộ hệ điều hành iOS 16.5 trực tiếp trên các thiết bị Android",
-      "title_en": "Show HN: Run full iOS 16.5 firmware on Android Devices",
-      "summary_vi": [
-        "Dự án mã nguồn mở mới nhất được chia sẻ trên nền tảng Hacker News cho phép chạy hoàn chỉnh phiên bản phần mềm iOS mười sáu chấm năm trực tiếp trên phần cứng của các dòng điện thoại thông minh chạy hệ điều hành Android.",
-        "Giải pháp kỹ thuật này tận dụng các lớp ảo hóa phần cứng nâng cao kết hợp cùng trình giả lập nhân hệ thống tùy chỉnh, giúp mô phỏng thành công toàn bộ môi trường thực thi độc quyền của hệ sinh thái Apple trên nền tảng phần cứng mã nguồn mở.",
-        "Sự kiện này mở ra những hướng đi mới đầy thú vị cho cộng đồng nghiên cứu bảo mật và phát triển hệ thống nhúng, giúp các kỹ sư dễ dàng thử nghiệm đa nền tảng mà không cần đầu tư quá nhiều thiết bị phần cứng vật lý tốn kém."
-      ],
-      "summary_en": [
-        "The latest open-source project shared on Hacker News enables running a complete version of iOS firmware version sixteen point five directly on the hardware of standard smartphones powered by the Android operating system.",
-        "This technical solution leverages advanced hardware virtualization layers combined with a customized system kernel emulator, successfully simulating the entire proprietary execution environment of the Apple ecosystem on open-source hardware.",
-        "This achievement opens up exciting new directions for the security research community and embedded systems developers, helping engineers easily conduct cross-platform testing without investing in expensive physical hardware devices."
-      ],
-      "originalTitle": "Show HN: Run full iOS 16.5 firmware on Android Devices",
-      "url": "https://github.com/oosexgang/hackios-xnu-kernel",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "Android",
-        "iOS",
-        "Virtualization",
-        "Firmware",
-        "Mobile Development"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-22T15:26:22.000Z",
-      "contentSnippet": "Show HN: Run full iOS 16.5 firmware on Android Devices",
-      "authorName": "aghuang",
-      "upvotes": 234,
-      "commentsCount": 78
-    },
-    {
-      "id": "e78de397623d01a1",
-      "title_vi": "PHP2Shell: 2 lỗ hổng bảo mật mới đang gây khủng hoảng diện rộng",
-      "title_en": "PHP2Shell: 2 new security vulnerabilities are causing widespread crisis",
-      "summary_vi": [
-        "Rộ lên trên mạng xã hội lan truyền một cảnh báo khẩn về hai lỗ hổng bảo mật nghiêm trọng trong PHP với điểm nguy hiểm 9,2 trên thang 10.",
-        "Đây không phải tin đồn thổi phồng: ngày 21/10, chính đội.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến PHP2Shell: 2 lỗ hổng bảo mật mới đang gây khủng hoảng diện rộng."
-      ],
-      "summary_en": [
-        "An urgent warning spread on social networks about two serious security vulnerabilities in PHP with a danger score of 9.2 on a scale of 10.",
-        "This is no hype: October 21, the team itself.",
-        "Practical engineering impact and actionable takeaways for developers building with PHP2Shell: 2 new security vulnerabilities are causing widespread crisis."
-      ],
-      "originalTitle": "PHP2Shell: 2 lỗ hổng bảo mật mới đang gây khủng hoảng diện rộng",
-      "url": "https://tinhte.vn/thread/php2shell-2-lo-hong-bao-mat-moi-dang-gay-khung-hoang-dien-rong.4186058/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "PHP",
-        "Security"
-      ],
-      "hotScore": 87,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-22T14:23:01.000Z",
-      "contentSnippet": "Rộ lên trên mạng xã hội lan truyền một cảnh báo khẩn về hai lỗ hổng bảo mật nghiêm trọng trong PHP với điểm nguy hiểm 9,2 trên thang 10. Đây không phải tin đồn thổi phồng: ngày 21/10, chính đội...",
-      "authorName": "Nhà Của Cáo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "38e441346532806c",
-      "title_vi": "Cuộc đua vá lỗ hổng PHP2Shell trước nguy cơ tấn công tự động bằng trí tuệ nhân tạo",
-      "title_en": "The Race to Patch PHP2Shell Vulnerabilities Amid Threats of AI-Driven Cyber Attacks",
-      "summary_vi": [
-        "Các tổ chức bảo mật phải chạy đua thời gian để khắc phục hai lỗ hổng mang tên PHP2Shell nhằm ngăn chặn nguy cơ kẻ xấu lợi dụng chúng trên diện rộng.",
-        "Lỗ hổng này cho phép kẻ tấn công thực thi mã lệnh trái phép trên các máy chủ web chưa được vá chỉ trong vài giây cực kỳ nguy hiểm.",
-        "Sự việc gióng lên hồi chuông cảnh báo về việc kẻ xấu có thể kết hợp mã lỗi với trí tuệ nhân tạo để tự động hóa và tăng tốc độ khai thác hệ thống."
-      ],
-      "summary_en": [
-        "Security organizations are racing against time to fix two vulnerabilities named PHP2Shell to prevent malicious actors from exploiting them on a large scale.",
-        "This vulnerability allows attackers to execute unauthorized code on unpatched web servers within seconds, posing extreme security risks to global infrastructure.",
-        "The incident sounds an alarm about how bad actors can combine exploit code with artificial intelligence to automate and accelerate system exploitation."
-      ],
-      "originalTitle": "Hậu trường cuộc đua ngăn chặn 'sự hỗn loạn trên Internet'",
-      "url": "https://vnexpress.net/hau-truong-cuoc-dua-ngan-chan-su-hon-loan-tren-internet-5135742.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "PHP2Shell",
-        "Artificial Intelligence",
-        "Vulnerability",
-        "Web Security"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-22T13:30:24.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/22/image1-1792673019-5348-1792673311.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=hcq17PZb5vqEZX1K-YSZuw",
-      "contentSnippet": "Dù đã phát hiện nhiều tháng trước, các tổ chức bảo mật vẫn phải chạy đua để vá hai lỗ hổng PHP2Shell trước khi bị kẻ xấu lợi dụng trên diện rộng.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "2a74c76005f17701",
-      "title_vi": "Tin tặc dùng AI tự động tấn công hơn 1.200 website, xâm nhập hơn 100 doanh nghiệp",
-      "title_en": "Hackers used AI to automatically attack more than 1,200 websites and infiltrate more than 100 businesses",
-      "summary_vi": [
-        "Hơn 1.200 website bị nhắm tới, hơn 100 doanh nghiệp bị xâm nhập trong chiến dịch tin tặc dùng AI tự tìm lỗ hổng, khai thác và cài cửa hậu.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Tin tặc dùng AI tự động tấn công hơn 1.200 website, xâm nhập hơn 100 doanh nghiệp.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Tin tặc dùng AI tự động tấn công hơn 1.200 website, xâm nhập hơn 100 doanh nghiệp."
-      ],
-      "summary_en": [
-        "More than 1,200 websites were targeted, more than 100 businesses were infiltrated in a campaign of hackers using AI to find vulnerabilities, exploit them and install backdoors.",
-        "In-depth technical breakdown and implementation mechanisms introduced in Hackers used AI to automatically attack more than 1,200 websites and infiltrate more than 100 businesses.",
-        "Practical engineering impact and actionable takeaways for developers building with Hackers used AI to automatically attack more than 1,200 websites and infiltrate more than 100 businesses."
-      ],
-      "originalTitle": "Tin tặc dùng AI tự động tấn công hơn 1.200 website, xâm nhập hơn 100 doanh nghiệp",
-      "url": "https://tuoitre.vn/tin-tac-dung-ai-tu-dong-tan-cong-hon-1200-website-xam-nhap-hon-100-doanh-nghiep-100261022115306142.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Security"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-22T12:27:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/22/cap-mang-internet-1792644967835429140204-113-24-691-949-crop-1792645483796525436392.png",
-      "contentSnippet": "Hơn 1.200 website bị nhắm tới, hơn 100 doanh nghiệp bị xâm nhập trong chiến dịch tin tặc dùng AI tự tìm lỗ hổng, khai thác và cài cửa hậu.",
-      "authorName": "TẤN NGHI",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8a198f2d36c79bf1",
-      "title_vi": "Schneider Electric, NVIDIA và HPE hợp tác phát triển tác nhân AI tự giám sát và xử lý sự cố trong nhà máy",
-      "title_en": "Schneider Electric, NVIDIA, and HPE Collaborate to Develop Self-Monitoring and Troubleshooting AI Agents for Smart Factories",
-      "summary_vi": [
-        "Schneider Electric đã bắt tay cùng NVIDIA và HPE để phát triển các tác nhân trí tuệ nhân tạo thế hệ mới nhằm tự động hóa quy trình giám sát và vận hành trong môi trường công nghiệp nhà máy.",
-        "Hệ thống ứng dụng mô hình học máy tiên tiến không chỉ phân tích luồng dữ liệu thời gian thực mà còn có khả năng phát hiện nhanh các bất thường và đề xuất giải pháp khắc phục sự cố chính xác.",
-        "Sự hợp tác này đánh dấu bước tiến quan trọng trong việc tối ưu hóa năng lượng công nghiệp, giảm thiểu thời gian gián đoạn sản xuất và nâng cao hiệu suất tự động hóa cho kỹ sư nhà máy."
-      ],
-      "summary_en": [
-        "Schneider Electric has partnered with NVIDIA and HPE to develop next-generation artificial intelligence agents aimed at automating monitoring and operational processes within industrial factory environments.",
-        "The system utilizes advanced machine learning models to not only analyze real-time data streams but also rapidly detect anomalies and suggest precise troubleshooting solutions for technical failures.",
-        "This collaboration marks a significant milestone in optimizing industrial energy consumption, minimizing production downtime, and enhancing automation efficiency for modern factory engineers."
-      ],
-      "originalTitle": "Schneider Electric, NVIDIA và HPE bắt tay phát triển tác nhân AI tự giám sát và xử lý sự cố trong nhà máy",
-      "url": "https://genk.vn/schneider-electric-nvidia-va-hpe-bat-tay-phat-trien-tac-nhan-ai-tu-giam-sat-va-xu-ly-su-co-trong-nha-may-165261022171910878.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI Agents",
-        "NVIDIA",
-        "HPE",
-        "Industrial IoT",
-        "Machine Learning"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-22T11:30:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/22/avatar1792664314883-17926643153691344621698-77-0-827-1200-crop-1792664326529212957737.png",
-      "contentSnippet": "Thay vì chỉ phân tích dữ liệu, các tác nhân AI mới có thể phát hiện bất thường, đề xuất biện pháp khắc phục và tối ưu hóa năng lượng ngay tại nhà máy.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1474179ff0fd16cb",
-      "title_vi": "Gập 10.000 lần, iPhone Duo để lại dấu tích gì và sự thật đằng sau bài kiểm tra khắc nghiệt",
-      "title_en": "Folding 10000 times, what marks does iPhone Duo leave behind and the truth behind the harsh test",
-      "summary_vi": [
-        "Chiếc điện thoại màn hình gập đầu tiên của Apple mang tên iPhone Duo đã phải đối mặt với thử nghiệm độ bền khắc nghiệt khi gập liên tục mười nghìn lần kết hợp cùng điều kiện đóng băng âm hai mươi độ C.",
-        "Quá trình thử nghiệm phần cứng này đánh giá khả năng chịu lực của bản lề và tấm nền màn hình linh hoạt dưới áp lực cơ học lớn cùng nhiệt độ thấp cực độ trong môi trường thực tế.",
-        "Kết quả kiểm tra độ bền mang lại góc nhìn quan trọng về thiết kế cơ khí di động, giúp các kỹ sư tối ưu hóa vật liệu và cấu trúc cho các thế hệ thiết bị màn hình gập tiếp theo."
-      ],
-      "summary_en": [
-        "Apple's first foldable smartphone named iPhone Duo faced a harsh durability test involving continuous folding ten thousand times combined with freezing conditions at minus twenty degrees Celsius.",
-        "This hardware testing process evaluates the mechanical stress tolerance of the hinge and flexible display panel under high mechanical pressure and extreme low temperatures in practical environments.",
-        "The durability test results provide crucial insights into mobile mechanical engineering, helping engineers optimize materials and structural design for the next generations of foldable devices."
-      ],
-      "originalTitle": "Gập 10.000 lần, iPhone Duo để lại \"dấu tích\" gì? Sự thật đằng sau bài kiểm tra khắc nghiệt nhất",
-      "url": "https://genk.vn/gap-10000-lan-iphone-duo-de-lai-dau-tich-gi-su-that-dang-sau-bai-kiem-tra-khac-nghiet-nhat-165261022174755827.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone Duo",
-        "Foldable Phone",
-        "Hardware Testing",
-        "Mobile Tech"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-22T10:47:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/22/avatar1792665980527-17926659843111970309647.jpeg",
-      "contentSnippet": "Chỉ mới ra mắt chưa lâu, chiếc điện thoại màn hình gập đầu tiên của Apple - iPhone Duo đã phải đối mặt với bài kiểm tra độ bền tàn nhẫn nhất từ trước đến nay: gập liên tục 10.000 lần kết hợp cùng thử nghiệm đóng băng ở âm 20 độ C.",
-      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     }
