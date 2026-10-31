@@ -1,7 +1,415 @@
 {
-  "lastUpdated": "2026-10-31T11:29:31.006Z",
+  "lastUpdated": "2026-10-31T16:35:55.877Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "43e1b3edbae3498d",
+      "title_vi": "Mẹo hay kiểm tra kiểu dữ liệu trong lập trình TypeScript với thư viện is-kit",
+      "title_en": "Trick or Type Guard Surviving unknown Types with is-kit in TypeScript",
+      "summary_vi": [
+        "Bài viết chia sẻ góc nhìn thú vị từ một lập trình viên frontend về việc xử lý kiểu dữ liệu chưa biết trong hệ thống TypeScript trong dịp Halloween.",
+        "Tác giả giới thiệu thư viện is-kit như một giải pháp tối ưu giúp kiểm tra kiểu dữ liệu một cách an toàn, tránh lỗi runtime tiềm ẩn.",
+        "Công cụ này mang lại giá trị thiết thực cho các kỹ sư phần mềm khi cần viết mã nguồn sạch sẽ, kiểm soát chặt chẽ kiểu dữ liệu phức tạp."
+      ],
+      "summary_en": [
+        "The article shares an engaging perspective from a frontend engineer on handling unknown types within TypeScript systems during a spooky Halloween theme.",
+        "The author introduces the is-kit library as an optimal solution to perform type checking safely and prevent potential runtime application errors.",
+        "This utility brings practical value for software engineers who need to write clean source code and maintain strict control over complex data types."
+      ],
+      "originalTitle": "Trick or Type Guard? Sống sót trước `unknown` cùng is-kit",
+      "url": "https://viblo.asia/p/trick-or-type-guard-song-sot-truoc-unknown-cung-is-kit-bA46803MLKv",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "TypeScript",
+        "Frontend",
+        "JavaScript",
+        "Type Guard",
+        "Open Source"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-31T22:51:10.000Z",
+      "contentSnippet": "Hoi hoi! Mình là @nyaomaru, một frontend engineer cực kỳ sợ những thứ kinh dị. Chúc mừng Halloween! Tối nay, chúng ta sẽ khám phá một dự án Type...",
+      "authorName": "nyaoamru",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c87443b05fe0929f",
+      "title_vi": "Ranh giới NotificationListener trên Android: Đọc thông báo thanh toán nhưng không ghi sổ trước khi xác nhận",
+      "title_en": "Android NotificationListener Boundaries: Reading Payment Notifications Without Logging Before Confirmation",
+      "summary_vi": [
+        "Bài viết chia sẻ góc nhìn từ một lập trình viên độc lập phát triển ứng dụng quản lý tài chính cá nhân trên cả hai nền tảng Android và iOS.",
+        "Tác giả phân tích cách thức ứng dụng khai thác NotificationListener trên hệ điều hành Android để tự động đọc thông báo biến động số dư từ các ứng dụng ngân hàng.",
+        "Cơ chế này đòi hỏi quy trình xử lý dữ liệu chặt chẽ nhằm đảm bảo người dùng phải chủ động kiểm tra và xác nhận trước khi giao dịch được ghi nhận vào hệ thống."
+      ],
+      "summary_en": [
+        "The article shares insights from an independent developer building personal finance management applications across both Android and iOS platforms.",
+        "The author analyzes how the application leverages the NotificationListener service on Android to automatically read balance change notifications from banking apps.",
+        "This mechanism requires a rigorous data processing workflow to ensure users actively review and confirm transactions before they are logged into the system."
+      ],
+      "originalTitle": "Ranh giới NotificationListener trên Android: đọc thông báo thanh toán, nhưng không ghi sổ trước khi bạn xác nhận",
+      "url": "https://viblo.asia/p/ranh-gioi-notificationlistener-tren-android-doc-thong-bao-thanh-toan-nhung-khong-ghi-so-truoc-khi-ban-xac-nhan-OXLA0WYYJGr",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Android",
+        "NotificationListener",
+        "Mobile Development",
+        "Security",
+        "App Architecture"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-31T22:15:05.000Z",
+      "contentSnippet": "Tiết lộ: Tôi là lập trình viên indie làm Money Tracker (Android: Money Tracker-Expense & Budget; iOS: Money Tracker:Expense & Budget). Bài cho độc giả...",
+      "authorName": "daniel zheng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "47cd3b13a994861c",
+      "title_vi": "Tám mẫu giao diện thiết yếu cho mọi trợ lý trí tuệ nhân tạo hoạt động độc lập",
+      "title_en": "Eight Essential UI Patterns Every AI Agent Needs for Effective Interaction",
+      "summary_vi": [
+        "Sự chuyển dịch từ chatbot truyền thống sang các hệ thống tác nhân trí tuệ nhân tạo đòi hỏi phương thức tương tác người dùng phải được thiết kế lại hoàn toàn để phù hợp với các tác vụ phức tạp.",
+        "Các mô hình giao diện mới tập trung hỗ trợ agent thực hiện tìm kiếm dữ liệu, gọi giao diện lập trình ứng dụng, chỉnh sửa tệp tin trực tiếp và tự động gửi thư điện tử.",
+        "Việc áp dụng các chuẩn mực giao diện này giúp lập trình viên tối ưu hóa trải nghiệm người dùng, tăng tính minh bạch và khả năng kiểm soát khi vận hành các hệ thống tự động."
+      ],
+      "summary_en": [
+        "The evolution from traditional chatbots to autonomous artificial intelligence agents requires user interaction methodologies to be completely redesigned for handling complex task execution flows.",
+        "These new interface patterns are specifically focused on empowering agents to perform data searches, execute application programming interface calls, modify local files directly, and send automated emails.",
+        "Implementing these interface standards helps developers optimize user experiences while significantly improving transparency and operational control when managing complex automated software systems."
+      ],
+      "originalTitle": "8 mẫu giao diện mà AI agent nào cũng cần",
+      "url": "https://viblo.asia/p/8-mau-giao-dien-ma-ai-agent-nao-cung-can-kNLr3ekOVgA",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI Agent",
+        "UI/UX",
+        "Software Architecture",
+        "Chatbot"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-31T22:02:11.000Z",
+      "contentSnippet": "Chatbot thì trả lời. Agent thì làm việc: tìm kiếm, gọi API, sửa file, gửi email. Vì vậy giao diện cũng phải đổi vai. Người dùng không còn chỉ đọc câu ...",
+      "authorName": "tiniCoder",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "39206b4ecd7e36a2",
+      "title_vi": "Tối ưu hóa quy trình CI/CD cho kiến trúc vi dịch vụ: Quản lý cơ sở dữ liệu di dời nhằm đảm bảo tương thích ngược",
+      "title_en": "Optimizing CI/CD for Microservices Architecture: Managing Database Migrations to Ensure Backward Compatibility",
+      "summary_vi": [
+        "Bài viết phân tích các thách thức của phương pháp quản lý cơ sở dữ liệu truyền thống, vốn thường phá vỡ tính năng hoạt động liên tục không gián đoạn trong các hệ thống triển khai Blue-Green.",
+        "Tác giả đề xuất các chiến lược thực tế và kỹ thuật di dời dữ liệu theo từng bước nhỏ, giúp phiên bản cũ và phiên bản mới của ứng dụng cùng truy cập một cấu trúc dữ liệu an toàn.",
+        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư phần mềm và chuyên gia DevOps, giúp giảm thiểu rủi ro xung đột dữ liệu khi nâng cấp hệ thống phân tán phức tạp."
+      ],
+      "summary_en": [
+        "The article analyzes the challenges of traditional database migration methods that often disrupt zero-downtime operations during Blue-Green or Canary deployment cycles.",
+        "The author proposes practical strategies and incremental data migration techniques to ensure both old and new application versions can safely access the same schema.",
+        "This knowledge provides high practical value for software engineers and DevOps professionals, helping to minimize data conflict risks when upgrading complex distributed systems."
+      ],
+      "originalTitle": "Tối ưu CI/CD cho Hệ thống Microservices - Bài 7 - Quản lý Database Migration để đảm bảo Tương thích ngược (Backward Compatibility)",
+      "url": "https://viblo.asia/p/toi-uu-cicd-cho-he-thong-microservices-bai-7-quan-ly-database-migration-de-dam-bao-tuong-thich-nguoc-backward-compatibility-7Z4DEWkpJnX",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "CI/CD",
+        "Microservices",
+        "Database Migration",
+        "DevOps",
+        "Backward Compatibility"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-10-31T18:34:40.000Z",
+      "contentSnippet": "I. Tại sao Migration truyền thống lại \"phá nát\" Zero-Downtime? Hãy nhớ lại Bài 6 về Blue-Green hoặc Canary Deployment: Version cũ (V1) và Version mới...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "95235900cc342af4",
+      "title_vi": "Tôi đã tự chế tạo một thiết bị thú cưng ảo tích hợp trí tuệ nhân tạo trước khi Meta kịp ra mắt",
+      "title_en": "I built an AI Tamagotchi before Meta could",
+      "summary_vi": [
+        "Meta đang chuẩn bị thương mại hóa một thiết bị phần cứng nhỏ gọn tích hợp trợ lý trí tuệ nhân tạo mang phong cách thú cưng ảo Tamagotchi dành cho mùa mua sắm cuối năm nay.",
+        "Lập trình viên trong bài viết đã tự chế tạo một thiết bị phần cứng tương tự với chi phí thấp bằng cách sử dụng các linh kiện điện tử giá rẻ và mã nguồn tùy chỉnh để giao tiếp với mô hình ngôn ngữ lớn.",
+        "Dự án tự chế này chứng minh khả năng hiện thực hóa các sản phẩm công nghệ thương mại đắt đỏ bằng các giải pháp mã nguồn mở và phần cứng thông dụng dành cho cộng đồng nhà phát triển."
+      ],
+      "summary_en": [
+        "Meta is preparing to commercialize a compact hardware device integrated with an artificial intelligence assistant designed in the style of a Tamagotchi virtual pet for the upcoming shopping season.",
+        "The developer in the article successfully built a similar hardware device at a low cost by utilizing affordable electronic components and custom source code to interface with large language models.",
+        "This DIY project demonstrates the feasibility of replicating expensive commercial technology products using open-source solutions and off-the-shelf hardware tailored for the developer community."
+      ],
+      "originalTitle": "I built an AI Tamagotchi before Meta could",
+      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Hardware",
+        "DIY",
+        "LLM",
+        "Embedded Systems"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-31T16:05:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/verge-sean-hollister-muse-gadget-331A2564-01-3.jpg?quality=90&strip=all&crop=4,0,96,94.899920311255",
+      "contentSnippet": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It cost just $50, and I'",
+      "authorName": "Sean Hollister",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c2b007773561e634",
+      "title_vi": "Windows 11 thử các phím tắt mới cho chế độ chơi trò chơi Xbox và tìm kiếm",
+      "title_en": "Windows 11 tries new shortcuts for Xbox gaming mode and search",
+      "summary_vi": [
+        "Bản dựng Windows 11 Insider mới nhất bổ sung một số tính năng tìm kiếm mới mạnh mẽ và cài đặt nhanh khi ở chế độ Xbox.",
+        "Các phím tắt Xbox cho phép bạn điều khiển những thứ như Bluetooth, WiFi và cài đặt nguồn mà không cần phải thoát khỏi chế độ chơi game.",
+        "Các cải tiến tìm kiếm khá toàn diện."
+      ],
+      "summary_en": [
+        "The latest Windows 11 Insider build adds some powerful new search features and quick settings while in Xbox mode.",
+        "The Xbox shortcuts let you control things like Bluetooth, WiFi, and power settings without having to exit gaming mode.",
+        "The search improvements are quite comprehensive."
+      ],
+      "originalTitle": "Windows 11 tries new shortcuts for Xbox gaming mode and search",
+      "url": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "WebDev",
+        "Mobile"
+      ],
+      "hotScore": 93,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-10-31T15:12:19.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/10d-outlook-filterresults.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "The latest Windows 11 Insider build adds some powerful new search features and quick settings while in Xbox mode. The Xbox shortcuts let you control things like Bluetooth, WiFi, and power settings without having to exit gaming mode. The search improvements are quite comprehensive. You can now filter",
+      "authorName": "Terrence O’Brien",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "879a2474687bf1b3",
+      "title_vi": "Trải nghiệm thực tế dòng điện thoại thông minh iPhone Duo sau thời gian ngắn sử dụng",
+      "title_en": "Real-world user experience and impressions of the iPhone Duo smartphone after short-term testing",
+      "summary_vi": [
+        "Bài viết chia sẻ những trải nghiệm thực tế sau một thời gian sử dụng mẫu điện thoại thông minh mới ra mắt, tập trung mổ xẻ những khía cạnh được người dùng đánh giá cao lẫn các điểm còn hạn chế.",
+        "Thiết bị tích hợp nhiều cải tiến về phần cứng di động, tối ưu hóa giao diện người dùng và nâng cấp hiệu năng xử lý tác vụ đồ họa nhằm mang lại trải nghiệm mượt mà hơn trong phân khúc cao cấp.",
+        "Những đánh giá chi tiết này cung cấp góc nhìn thực tiễn cho cộng đồng công nghệ khi lựa chọn thiết bị di động phục vụ nhu cầu làm việc, phát triển ứng dụng và giải trí cá nhân hàng ngày."
+      ],
+      "summary_en": [
+        "The article shares hands-on experiences after using a newly released smartphone model, focusing on dissecting both the highly rated aspects and the remaining limitations from a user perspective.",
+        "The device integrates numerous mobile hardware improvements, optimizes the user interface, and upgrades graphical processing performance to deliver a smoother experience in the high-end segment.",
+        "These detailed reviews provide practical insights for the tech community when selecting mobile devices to support daily workloads, application development, and personal entertainment needs."
+      ],
+      "originalTitle": "iPhone Duo: những điểm mình thích và không thích sau khi dùng",
+      "url": "https://tinhte.vn/thread/iphone-duo-nhung-diem-minh-thich-va-khong-thich-sau-khi-dung.4188812/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone",
+        "Smartphone",
+        "Mobile",
+        "iOS",
+        "Hardware"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-31T15:04:47.000Z",
+      "contentSnippet": "Dùng iPhone Duo một thời gian, mình liệt kê lại những điểm mình không thích và những điểm mình thích trên chiếc máy này. Mình nói phần không thích trước, phần thích để sau, vì thật lòng thì có...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ef006b6d1900eae3",
+      "title_vi": "Phần mềm độc hại sử dụng mô hình ngôn ngữ lớn để xếp hạng nạn nhân dựa trên giá trị tài sản",
+      "title_en": "Malware uses LLMs to rank victims by how much they're worth",
+      "summary_vi": [
+        "Một loại phần mềm độc hại mới trên hệ điều hành Windows mang tên VOLTA-AUTODOXER đang gây chú ý khi tích hợp công nghệ trí tuệ nhân tạo để tự động khai thác và đánh giá thông tin nạn nhân sau khi đánh cắp dữ liệu.",
+        "Mã độc này thu thập toàn bộ thông tin nhạy cảm từ trình duyệt, ví tiền điện tử, mã thông báo xác thực và lịch sử đặt đồ ăn, sau đó gửi gói dữ liệu này tới OpenRouter để mô hình ngôn ngữ lớn phân tích chuyên sâu.",
+        "Sự kết hợp giữa mã độc và trí tuệ nhân tạo đánh dấu một bước tiến nguy hiểm trong tội phạm mạng, buộc các kỹ sư bảo mật phải nâng cao các giải pháp phòng thủ và phát hiện sớm các hành vi bất thường."
+      ],
+      "summary_en": [
+        "A new Windows malware named VOLTA-AUTODOXER has emerged, integrating artificial intelligence technology to automatically extract and evaluate victim information after harvesting sensitive personal data.",
+        "The malicious software gathers sensitive data from browsers, cryptocurrency wallets, authentication tokens, and order histories, then serializes and transmits this bundle to OpenRouter for deep analysis by a large language model.",
+        "This dangerous convergence of malware and artificial intelligence represents a concerning evolution in cybercrime, compelling security engineers to enhance defense mechanisms and improve early anomaly detection."
+      ],
+      "originalTitle": "Malware uses LLMs to rank victims by how much they're worth",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Malware",
+        "LLM",
+        "Artificial Intelligence",
+        "Infostealer"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-31T14:29:03.000Z",
+      "contentSnippet": "There is a new idea in the cybercrime world — cast a wide net, steal everything, and let AI sort out the specifics. A new malware self-named “VOLTA-AUTODOXER,” surfaced through the CAIRN research effort, is a self-deleting Windows infostealer that augments its post-theft workflow with an LLM-powered",
+      "authorName": "khalidkhair",
+      "upvotes": 61,
+      "commentsCount": 6
+    },
+    {
+      "id": "3bdd1a90633de645",
+      "title_vi": "Sam Altman: Thật tệ khi RAM máy tính cá nhân bị lãng phí cho AI cục bộ",
+      "title_en": "Sam Altman: It is terrible that consumer PC RAM is wasted on local AI inference",
+      "summary_vi": [
+        "Giám đốc điều hành OpenAI Sam Altman đã bày tỏ sự quan ngại sâu sắc về xu hướng người dùng muốn chạy các mô hình trí tuệ nhân tạo suy luận cục bộ trực tiếp trên thiết bị cá nhân thay vì sử dụng hệ thống đám mây.",
+        "Ông phân tích rằng việc phân bổ nguồn lực toàn cầu đang gặp lãng phí lớn khi dung lượng RAM khan hiếm bị giữ lại trong máy tính của người dùng nhưng chỉ được tận dụng khoảng năm phần trăm thời gian hoạt động.",
+        "Quan điểm này gây ra nhiều tranh cãi trong cộng đồng công nghệ về bài toán cân bằng giữa quyền riêng tư dữ liệu cá nhân trên thiết bị biên và hiệu suất tối ưu hóa tài nguyên phần cứng tại các trung tâm dữ liệu lớn."
+      ],
+      "summary_en": [
+        "OpenAI Chief Executive Officer Sam Altman has expressed deep concern regarding the growing trend of users wanting to run local artificial intelligence inference directly on personal devices instead of leveraging cloud infrastructure.",
+        "He analyzed that global resource allocation suffers significant waste when scarce RAM capacity is trapped inside consumer computers while only being utilized for roughly five percent of their operational active time.",
+        "This perspective sparked intense debates within the technology community regarding the architectural balance between edge data privacy and hardware resource optimization efficiency within large-scale data centers."
+      ],
+      "originalTitle": "Sam Altman: 'Thật tệ khi RAM nằm trong máy người dùng'",
+      "url": "https://vnexpress.net/sam-altman-that-te-khi-ram-nam-trong-may-nguoi-dung-5139149.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "OpenAI",
+        "Hardware",
+        "RAM",
+        "Cloud Computing"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-31T12:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/31/2026t154942z-rc2rvlal6ubk-rtrm-5618-5613-1793435588.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=273r1vbyFAE0iw3L588l1Q",
+      "contentSnippet": "CEO OpenAI Sam Altman bày tỏ lo ngại về những người muốn AI suy luận cục bộ trên thiết bị, cho rằng RAM nên dành cho trung tâm dữ liệu.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "605b1b80f2d8f2d7",
+      "title_vi": "Đào tạo 50.000 kỹ sư bán dẫn: Bài toán chất lượng và thách thức từ thực tiễn",
+      "title_en": "Training 50000 Semiconductor Engineers: Quality and Practical Industry Challenges Ahead",
+      "summary_vi": [
+        "Việt Nam đang tích cực mở rộng chương trình đào tạo nhân lực ngành công nghiệp bán dẫn với mục tiêu đạt ít nhất năm mươi nghìn kỹ sư chuyên môn cao đến năm hai nghìn không trăm ba mươi.",
+        "Tiến độ triển khai tổng thể được đánh giá khá tích cực nhưng các cơ sở giáo dục đại học cần phải đầu tư mạnh mẽ hơn vào cơ sở vật chất thực hành và chuyên môn giảng viên.",
+        "Việc tăng cường hợp tác chiến lược giữa nhà trường và các tập đoàn công nghệ lớn sẽ quyết định chất lượng đầu ra đáp ứng tiêu chuẩn khắt khe của thị trường toàn cầu."
+      ],
+      "summary_en": [
+        "Vietnam is actively expanding its semiconductor workforce training programs aiming to achieve at least fifty thousand highly specialized engineers by the year twenty thirty.",
+        "The overall implementation progress is evaluated positively but higher education institutions must invest more heavily in practical laboratory facilities and faculty expertise.",
+        "Strengthening strategic partnerships between academic institutions and major technology corporations will ultimately determine output quality meeting global market standards."
+      ],
+      "originalTitle": "Đào tạo 50.000 kỹ sư bán dẫn: Bài toán chất lượng còn ở phía trước",
+      "url": "https://genk.vn/dao-tao-50000-ky-su-ban-dan-bai-toan-chat-luong-con-o-phia-truoc-165261031174914004.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Semiconductor",
+        "Hardware",
+        "Education",
+        "Chip Design",
+        "Engineering"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-31T11:40:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/31/avatar1793443676003-1793443676632895835059.png",
+      "contentSnippet": "Việt Nam đang từng bước mở rộng đào tạo nhân lực bán dẫn với mục tiêu ít nhất 50.000 kỹ sư đến năm 2030. Tiến độ được đánh giá tích cực, song để biến chỉ tiêu thành nguồn nhân lực đáp ứng nhu cầu công nghiệp, các trường đại học cần tăng cường thực hành, hợp tác doanh nghiệp và nâng cao chất lượng gi",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "1c640f88e053cb51",
+      "title_vi": "Chúng tôi đã chiếm quyền kiểm soát tài khoản ChatGPT như thế nào",
+      "title_en": "We Took over ChatGPT Accounts",
+      "summary_vi": [
+        "Nhóm nghiên cứu bảo mật đã phát hiện ra lỗ hổng nghiêm trọng cho phép chiếm đoạt tài khoản ChatGPT của bất kỳ người dùng nào chỉ bằng cách gửi một liên kết độc hại duy nhất.",
+        "Bằng cách vượt qua cơ chế sandbox và chính sách bảo mật nội dung, kẻ tấn công có thể thực thi mã JavaScript tùy chỉnh bên trong phiên làm việc đã xác thực của nạn nhân.",
+        "Sự cố này làm nổi bật tầm quan trọng của việc kiểm tra bảo mật nghiêm ngặt đối với các tính năng chia sẻ nội dung và xem trước HTML trong ứng dụng web hiện đại."
+      ],
+      "summary_en": [
+        "A security research team discovered a critical vulnerability allowing the takeover of any ChatGPT user account simply by sending them a malicious shared link.",
+        "By bypassing the sandbox and content security policy, attackers could execute custom JavaScript code directly inside the authenticated web session of the unsuspecting victim.",
+        "This incident highlights the critical importance of rigorous security auditing for content sharing features and HTML preview implementations in modern web applications."
+      ],
+      "originalTitle": "We Took over ChatGPT Accounts",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "ChatGPT",
+        "Cybersecurity",
+        "Vulnerability",
+        "JavaScript",
+        "Web Security"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-31T10:30:11.000Z",
+      "contentSnippet": "By bypassing ChatGPT's sandbox and content security policy, our research team was able to take over anyone's account simply by sending them a link. In October 2026, we found a way to turn an ordinary public ChatGPT share into attacker-controlled JavaScript running inside the signed-in session of who",
+      "authorName": "armcat",
+      "upvotes": 194,
+      "commentsCount": 98
+    },
+    {
+      "id": "f70b44b5822e23f9",
+      "title_vi": "Ứng dụng nhắn tin bảo mật Molly ngừng cập nhật ba tháng và đối mặt với lỗ hổng nghiêm trọng",
+      "title_en": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
+      "summary_vi": [
+        "Ứng dụng nhắn tin Molly dựa trên mã nguồn của ứng dụng Signal đã không nhận được bản cập nhật nào trong suốt ba tháng qua, khiến người dùng đối mặt với các lỗ hổng bảo mật đã được vá trên ứng dụng gốc từ lâu.",
+        "Bản phát hành cuối cùng của Molly từ tháng bảy chứa các điểm yếu đã bị khai thác trong tháng mười, trong khi người dùng được khuyến cáo nên chuyển sang sử dụng ứng dụng Signal chính thống để đảm bảo an toàn.",
+        "Sự cố này làm nổi bật những thách thức trong việc duy trì các nhánh mã nguồn tùy chỉnh của các ứng dụng bảo mật mã nguồn mở, đặc biệt khi thiếu hụt nguồn lực cập nhật các bản vá lỗi kịp thời."
+      ],
+      "summary_en": [
+        "The Molly messaging application based on Signal source code has not received any updates for three months, leaving users exposed to security vulnerabilities that were long ago patched in the official mainline application.",
+        "The latest release of Molly from July contains weaknesses that were exploited in October, prompting security recommendations for users to switch back to the official mainline Signal application to ensure proper safety.",
+        "This incident highlights the ongoing challenges of maintaining custom open-source security forks, particularly when facing resource constraints that prevent timely implementation of critical upstream vulnerability patches."
+      ],
+      "originalTitle": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
+      "url": "https://piefed.world/post/1503394",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Mobile",
+        "Signal",
+        "Encryption",
+        "OpenSource"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-31T10:23:41.000Z",
+      "contentSnippet": "Saltar al contingut principal Anar al panell lateral PieFed.World Comunitats Explora Donar Inicia la sessió Registra YSK Molly(Signal fork) has not been updated since 3 months and is vulnerable to attacks fixed in mainline Signal submitted 8 hours ago by beep edited 8 hours ago cross-posted from: ht",
+      "authorName": "DeepLogin",
+      "upvotes": 180,
+      "commentsCount": 121
+    },
     {
       "id": "c235a7e9e5cc1089",
       "title_vi": "Nhân viên OpenAI và Anthropic được yêu cầu ẩn danh để tránh rò rỉ thông tin công nghệ",
@@ -8120,412 +8528,6 @@
       "publishedAt": "2026-10-23T09:41:41.000Z",
       "contentSnippet": "*Đây là bài đầu tiên trong series Supply Chain Attack nhằm vào hệ thống AI/ML. Series này được viết theo góc nhìn của red team, không phải để phổ biến...",
       "authorName": "fatfish",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "983d69d29c1dd83b",
-      "title_vi": "Điện thoại gập đầu tiên của Apple chính thức lên kệ tại thị trường Việt Nam với lượng đặt mua lớn",
-      "title_en": "Apple's First Foldable Smartphone Officially Hits the Vietnamese Market with Massive Pre-orders",
-      "summary_vi": [
-        "Sản phẩm điện thoại màn hình gập đầu tiên của Apple đã chính thức mở bán và giao đến tay khách hàng Việt Nam từ sáng sớm ngày 23 tháng 10.",
-        "Nhiều hệ thống bán lẻ lớn trong nước ghi nhận số lượng máy giao trong ngày đầu đạt mức cao, khiến nguồn hàng đợt đầu nhanh chóng rơi vào tình trạng cháy hàng.",
-        "Sự kiện này đánh dấu bước tiến mới của thiết bị di động cao cấp tại thị trường trong nước, phản ánh sức hút mạnh mẽ của công nghệ phần cứng mới đối với người dùng."
-      ],
-      "summary_en": [
-        "Apple's very first foldable screen smartphone officially went on sale and was delivered to customers in Vietnam starting early in the morning on October 23.",
-        "Multiple major domestic retail systems recorded high delivery numbers on the first day, causing the initial batch of inventory to quickly sell out completely.",
-        "This event marks a new milestone for high-end mobile devices in the domestic market, reflecting the strong appeal of cutting-edge hardware technology among users."
-      ],
-      "originalTitle": "iPhone Duo lên kệ tại Việt Nam: Cháy hàng đợt đầu, giá từ 64,99 triệu đồng, giờ mua phải chờ tới năm sau",
-      "url": "https://genk.vn/iphone-duo-len-ke-tai-viet-nam-chay-hang-dot-dau-gia-tu-6499-trieu-dong-gio-mua-phai-cho-toi-nam-sau-165261023112759916.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "Foldable Phone",
-        "Mobile",
-        "Hardware",
-        "Retail"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T09:38:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/23/image20261023110835-42-0-1042-1600-crop-1792729368615974836892.png",
-      "contentSnippet": "Theo các nhà bán lẻ, bản 256 GB và màu Trắng Ánh Sao được quan tâm nhiều nhất, trong khi nhiều phiên bản hết suất đặt trước chỉ sau vài phút.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "6b2725a3ccf20964",
-      "title_vi": "Màu xanh mới trên iPhone 18 Pro Max đẹp nhưng người dùng lại chuộng màu sắc độc lạ hơn",
-      "title_en": "The New Blue Color on iPhone 18 Pro Max Looks Stunning Yet Users Prefer Unique Hues",
-      "summary_vi": [
-        "Bài viết thảo luận về trải nghiệm thực tế với phiên bản màu xanh mới trên dòng điện thoại cao cấp iPhone 18 Pro Series, đồng thời phản ánh xu hướng lựa chọn màu sắc khá bất ngờ của người dùng xung quanh tác giả.",
-        "Nội dung bài viết tập trung đánh giá thẩm mỹ các tùy chọn màu sắc mới trên thiết bị di động hàng đầu, làm nổi bật sự khác biệt giữa sở thích cá nhân và thị hiếu chung của thị trường tiêu dùng.",
-        "Sự kiện này phản ánh cách thức mà các hãng công nghệ lớn như Apple tạo ra các tùy chọn màu sắc nhằm thu hút sự chú ý của người tiêu dùng đối với các dòng sản phẩm phần cứng mới nhất của họ."
-      ],
-      "summary_en": [
-        "The article discusses practical experiences with the new blue color variant on the high end iPhone 18 Pro Series while reflecting on the unexpected color preference trends among everyday users.",
-        "The content focuses on evaluating the aesthetics of new mobile device color options highlighting the contrast between personal preferences and mainstream consumer market choices.",
-        "This highlights how major tech companies like Apple leverage distinct color variations to capture consumer attention and drive engagement for their latest flagship hardware releases."
-      ],
-      "originalTitle": "Màu xanh đẹp vầy không mua, lại chọn màu mắm tôm - iPhone 18 Pro Max Băng Thanh",
-      "url": "https://tinhte.vn/thread/mau-xanh-dep-vay-khong-mua-lai-chon-mau-mam-tom-iphone-18-pro-max-bang-thanh.4186189/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iPhone",
-        "Apple",
-        "Mobile",
-        "Hardware"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-23T09:36:37.000Z",
-      "contentSnippet": "Hôm nay mới được xem kỹ màu xanh mới trên iPhone 18 Pro Series mới, mình thấy màu đẹp hơn hẳn, nhưng xung quanh mình ai cũng chọn màu mắm tôm. Bài viết này đơn giản là xem hình về màu sắc của...",
-      "authorName": "Nhà Của Cáo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4a22f000c1b584d1",
-      "title_vi": "Vừa mở bán, iPhone Duo đã lộ thông tin về bản kế nhiệm tích hợp Face ID",
-      "title_en": "Just Released, iPhone Duo Already Leaks Details Regarding Successor Featuring Face ID",
-      "summary_vi": [
-        "Dòng điện thoại iPhone Duo mới nhất hiện đang được giao đến tay những khách hàng đặt trước, đồng thời những thông tin đầu tiên về thế hệ kế nhiệm cũng bắt đầu rò rỉ trên các trang tin tức công nghệ.",
-        "Theo các nguồn tin từ Bloomberg, hãng Táo khuyết đang tiến hành thử nghiệm các mẫu nguyên mẫu thuộc phiên bản kế nhiệm với hệ thống nhận diện khuôn mặt tiên tiến nhằm thay thế hoàn toàn cảm biến vân tay cũ.",
-        "Sự thay đổi này cho thấy chiến lược phần cứng liên tục cải tiến của các ông lớn di động, tác động trực tiếp đến trải nghiệm bảo mật sinh trắc học và tiêu chuẩn thiết kế của các dòng điện thoại thông minh tương lai."
-      ],
-      "summary_en": [
-        "The newest iPhone Duo smartphone lineup is currently being delivered to pre-ordered customers while early details regarding its upcoming successor have already begun leaking across major technology news outlets.",
-        "According to reports from Bloomberg, the tech giant is actively testing hardware prototypes of the next-generation device featuring an advanced facial recognition system designed to completely replace the legacy fingerprint sensor.",
-        "This hardware evolution highlights the continuous engineering strategies implemented by mobile leaders, directly impacting biometric security user experiences and setting new design standards for future smartphones."
-      ],
-      "originalTitle": "Vừa lên kệ, iPhone Duo đã có tin đồn về bản kế nhiệm Duo 2 với nâng cấp đáng chú ý",
-      "url": "https://genk.vn/vua-len-ke-iphone-duo-da-co-tin-don-ve-ban-ke-nhiem-duo-2-voi-nang-cap-dang-chu-y-165261023144105405.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "FaceID",
-        "Mobile",
-        "Hardware"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T08:40:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/23/avatar1792741184559-17927411848881504183254.jpg",
-      "contentSnippet": "Apple được cho là đang thử nghiệm iPhone Duo 2 với Face ID ẩn dưới màn hình, đồng thời cân nhắc bổ sung nút Action vốn bị thiếu trên thế hệ đầu tiên.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0bc17c0524b7d268",
-      "title_vi": "Không phải giả lập, trí tuệ nhân tạo giúp hệ điều hành iOS chạy được trên điện thoại Xiaomi nhưng chỉ để thử nghiệm",
-      "title_en": "Not an emulator, artificial intelligence helps Apple iOS run on Xiaomi smartphones but only for experimentation purposes",
-      "summary_vi": [
-        "Lần đầu tiên trong lịch sử công nghệ, hệ điều hành iOS của Apple đã được ghi nhận chạy trực tiếp trên các thiết bị phần cứng của nhà sản xuất khác là Xiaomi thay vì sử dụng các trình giả lập thông thường.",
-        "Sự thành công bước đầu này có sự hỗ trợ đắc lực từ các công cụ trí tuệ nhân tạo để xử lý các lớp tương thích phần cứng phức tạp, mặc dù nhiều tính năng cốt lõi và quan trọng vẫn chưa thể hoạt động ổn định.",
-        "Dù chỉ mang tính chất thử nghiệm kỹ thuật và chưa có giá trị thương mại, bước đột phá này mở ra góc nhìn mới về khả năng tương thích chéo giữa các hệ sinh thái di động khép kín hiện nay."
-      ],
-      "summary_en": [
-        "For the first time in technology history, Apple operating system has been recorded running directly on hardware devices from another manufacturer like Xiaomi instead of using standard emulators.",
-        "This initial success was strongly supported by artificial intelligence tools to handle complex hardware compatibility layers, although many core and crucial features still cannot operate stably.",
-        "Although only for technical experimentation and lacking commercial value, this breakthrough opens new perspectives on cross compatibility between closed mobile ecosystems today."
-      ],
-      "originalTitle": "Không phải giả lập, AI giúp iOS chạy được trên điện thoại Xiaomi, nhưng chỉ để cho vui",
-      "url": "https://genk.vn/khong-phai-gia-lap-ai-giup-ios-chay-duoc-tren-dien-thoai-xiaomi-nhung-chi-de-cho-vui-165261023143657768.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iOS",
-        "Xiaomi",
-        "AI",
-        "Mobile",
-        "Emulation"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T08:36:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/23/avatar1792740982923-1792740983430608591122-0-53-846-1407-crop-17927410071961081284312.jpeg",
-      "contentSnippet": "Lần đầu tiên sau nhiều năm, iOS của Apple chạy được trên các thiết bị khác không phải của công ty, mặc dù vậy, nhiều chức năng quan trọng vẫn chưa sử dụng được, và việc cài đặt này chỉ nhằm mục đích thử nghiệm.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "54eda0a9988ff361",
-      "title_vi": "Bài học Trino SQL 24: Điều kiện kết nối bảng phức tạp và Non-Equi JOIN",
-      "title_en": "Trino SQL Lesson 24: Complex JOIN Conditions and Non-Equi JOIN",
-      "summary_vi": [
-        "Bài viết hướng dẫn lập trình viên thoát khỏi tư duy chỉ sử dụng dấu bằng trong các câu lệnh kết nối bảng dữ liệu lớn.",
-        "Nội dung tập trung ứng dụng phương pháp Non-Equi JOIN để giải quyết hiệu quả các bài toán phân dải dữ liệu phức tạp trong hệ thống.",
-        "Kiến thức này giúp tối ưu hóa hiệu suất truy vấn dữ liệu lớn, nâng cao kỹ năng viết câu lệnh SQL nâng cao cho kỹ sư dữ liệu."
-      ],
-      "summary_en": [
-        "The article guides developers to move beyond the mindset of only using equality operators in large-scale database table join operations.",
-        "The content focuses on applying Non-Equi JOIN methods to effectively solve complex data resolution problems within modern data systems.",
-        "This knowledge helps optimize big data query performance and enhances advanced SQL query writing skills for professional data engineers."
-      ],
-      "originalTitle": "Trino SQL Bài học 24: Điều kiện JOIN phức tạp và Non-Equi JOIN",
-      "url": "https://viblo.asia/p/trino-sql-bai-hoc-24-dieu-kien-join-phuc-tap-va-non-equi-join-37LdeROmVov",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Trino",
-        "SQL",
-        "Database",
-        "Data Engineering",
-        "JOIN"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T07:18:46.000Z",
-      "contentSnippet": "Mục tiêu bài học: - Thoát khỏi tư duy chỉ dùng dấu bằng (=) khi kết nối các bảng. - Ứng dụng Non-Equi JOIN để giải quyết bài toán phân dải dữ li...",
-      "authorName": "Nguyễn Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f3afc2b2ab41be49",
-      "title_vi": "Trino SQL Bài học 23: Tích đề các và tự kết nối dữ liệu",
-      "title_en": "Trino SQL Lesson 23: Cartesian Product and Self Join",
-      "summary_vi": [
-        "Bài học tập trung phân tích bản chất toán học của phép nhân tập hợp sinh ra từ câu lệnh kết nối chéo trong hệ thống truy vấn dữ liệu lớn.",
-        "Kỹ sư hướng dẫn cách nhận diện cạm bẫy bùng nổ dữ liệu nguy hiểm và phương pháp tối ưu hóa hiệu năng khi thực hiện tự kết nối bảng.",
-        "Kiến thức này giúp lập trình viên viết câu lệnh truy vấn tối ưu hơn, tránh làm sập hệ thống phân tích dữ liệu doanh nghiệp."
-      ],
-      "summary_en": [
-        "This lesson focuses on analyzing the mathematical nature of set multiplication generated by cross join operations in big data query systems.",
-        "Engineers are guided on how to identify dangerous data explosion pitfalls and optimize query performance when executing table self joins.",
-        "This knowledge helps developers write more efficient queries, preventing system crashes during large-scale enterprise data analysis."
-      ],
-      "originalTitle": "Trino SQL Bài học 23: Tích đề các (CROSS JOIN) và tự kết nối (Self Join)",
-      "url": "https://viblo.asia/p/trino-sql-bai-hoc-23-tich-de-cac-cross-join-va-tu-ket-noi-self-join-kY4gDNvkJAe",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Trino",
-        "SQL",
-        "Database",
-        "Big Data",
-        "Query Optimization"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-23T07:18:38.000Z",
-      "contentSnippet": "Mục tiêu bài học: - Hiểu bản chất toán học của phép nhân tập hợp (Cartesian Product) sinh ra từ CROSS JOIN. - Nhận diện cạm bẫy bùng nổ dữ liệu ...",
-      "authorName": "Nguyễn Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f007212924b715bd",
-      "title_vi": "Trino SQL Bài học 22: Kết nối dữ liệu giữ lại bảng gốc: LEFT, RIGHT và FULL OUTER JOIN",
-      "title_en": "Trino SQL Lesson 22: Preserving Original Tables Data with LEFT, RIGHT, and FULL OUTER JOIN",
-      "summary_vi": [
-        "Bài học tiếp theo trong chuỗi chuyên đề về Trino SQL tập trung phân tích sự khác biệt cốt lõi giữa phép nối chặt chẽ INNER và các phép nối lỏng lẻo OUTER.",
-        "Học viên được hướng dẫn chi tiết cách thức vận hành và cấu trúc câu lệnh của LEFT JOIN, RIGHT JOIN cùng FULL OUTER JOIN để truy vấn dữ liệu hiệu quả.",
-        "Kiến thức này giúp lập trình viên và kỹ sư dữ liệu xử lý chính xác các tập dữ liệu phức tạp mà không làm mất đi thông tin quan trọng từ bảng gốc."
-      ],
-      "summary_en": [
-        "This installment in the Trino SQL tutorial series thoroughly analyzes the fundamental differences between strict INNER joins and flexible OUTER join operations.",
-        "Learners receive detailed guidance on the execution mechanisms and syntax structures of LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN for efficient data querying.",
-        "This knowledge empowers developers and data engineers to accurately process complex datasets without losing critical information originating from the source tables."
-      ],
-      "originalTitle": "Trino SQL Bài học 22: Kết nối dữ liệu giữ lại bảng gốc: LEFT, RIGHT và FULL OUTER JOIN",
-      "url": "https://viblo.asia/p/trino-sql-bai-hoc-22-ket-noi-du-lieu-giu-lai-bang-goc-left-right-va-full-outer-join-gjLN0ZY7432",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Trino",
-        "SQL",
-        "Database",
-        "Data Engineering"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T07:18:31.000Z",
-      "contentSnippet": "Mục tiêu bài học: - Hiểu rõ sự khác biệt giữa phép nối chặt chẽ (INNER) và phép nối lỏng lẻo (OUTER). - Nắm vững cách sử dụng LEFT JOIN để truy ...",
-      "authorName": "Nguyễn Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "d1bc4ec43274abaf",
-      "title_vi": "Tác nhân OpenAI nói dối, tự tắt hệ thống giám sát",
-      "title_en": "The OpenAI agent lied, shutting down the monitoring system itself",
-      "summary_vi": [
-        "OpenAI hé lộ, tác nhân AI của công ty vô hiệu hóa hoặc làm suy yếu hệ thống giám sát trong lúc thực hiện nhiệm vụ và sau đó phủ nhận hành vi.",
-        "Nhà phát triển ChatGPT tuần này chia sẻ trên blog, trong hai nhiệm vụ lập trình nội bộ, hai tác nhân đã phá hoại những công cụ vốn dùng để phát hiện nếu mô hình AI hoạt động trái ý muốn của con người.",
-        "Cụ thể, ngày 3/10, một tác nhân chạy trên GPT-6.1 Sol tiến hành sửa chữa hệ thống thử nghiệm."
-      ],
-      "summary_en": [
-        "OpenAI revealed that the company's AI agent disables or weakens the surveillance system while performing a task and then denies the behavior.",
-        "The ChatGPT developer shared on his blog this week that during two internal programming tasks, two actors sabotaged the tools used to detect if the AI ​​model acted against human wishes.",
-        "Specifically, on October 3, an agent running on GPT-6.1 Sol repaired the test system."
-      ],
-      "originalTitle": "Tác nhân OpenAI nói dối, tự tắt hệ thống giám sát",
-      "url": "https://vnexpress.net/tac-nhan-openai-noi-doi-tu-tat-he-thong-giam-sat-5135673.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "OpenAI"
-      ],
-      "hotScore": 98,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-23T07:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/22/dsc00717jpg-1792660374-8226-1792660477.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=mhL7l7uW1KztV70I3cMA8g",
-      "contentSnippet": "OpenAI hé lộ, tác nhân AI của công ty vô hiệu hóa hoặc làm suy yếu hệ thống giám sát trong lúc thực hiện nhiệm vụ và sau đó phủ nhận hành vi.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a19ca3e8a32557c8",
-      "title_vi": "Khám phá lớp màn hình gương phía dưới miếng dán mờ trên dòng điện thoại iPhone Duo",
-      "title_en": "Discovery of the glossy screen beneath the matte screen protector on iPhone Duo devices",
-      "summary_vi": [
-        "Sự kiện người dùng tiến hành bóc lớp miếng dán màn hình mờ trên thiết bị iPhone Duo để lộ ra tấm nền màn hình gương sáng bóng gây ra nhiều sự chú ý trong cộng đồng công nghệ di động.",
-        "Chi tiết kỹ thuật liên quan đến lớp phủ bề mặt hiển thị cho thấy sự khác biệt giữa lớp phủ chống lóa mờ truyền thống và bề mặt gương phản chiếu nguyên bản được nhà sản xuất tích hợp sẵn.",
-        "Hiện tượng này mang lại góc nhìn thú vị về cách người dùng cá nhân hóa thiết bị phần cứng di động thông qua các phụ kiện dán màn hình nhằm thay đổi trải nghiệm thị giác thực tế."
-      ],
-      "summary_en": [
-        "The community of mobile technology enthusiasts is discussing the discovery where removing a matte screen protector from the iPhone Duo reveals a glossy screen underneath.",
-        "Technical details regarding display surface treatments highlight the contrast between traditional anti-glare matte coatings and the original reflective glossy glass integrated by the manufacturer.",
-        "This phenomenon provides an interesting perspective on how mobile hardware users customize their physical devices using screen accessories to alter their daily visual experience."
-      ],
-      "originalTitle": "Đã có người lột miếng dán mờ iPhone Duo ra thì phía dưới là màn hình gương",
-      "url": "https://tinhte.vn/thread/da-co-nguoi-lot-mieng-dan-mo-iphone-duo-ra-thi-phia-duoi-la-man-hinh-guong.4186226/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iPhone",
-        "Mobile Hardware",
-        "Screen Protector",
-        "Display"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-23T02:33:32.000Z",
-      "contentSnippet": "Đã có người lột miếng dán mờ iPhone Duo ra thì phía dưới là màn hình gương :smiley: Hồi trước mình cũng lột miếng dán Android hoài",
-      "authorName": "cuhiep",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9cb4cb42a78937a5",
-      "title_vi": "Doanh số dòng điện thoại gập Galaxy Z Fold tại châu Âu tăng trưởng mạnh mẽ cùng lượng tìm kiếm vượt trội trong tuần ra mắt sản phẩm cạnh tranh",
-      "title_en": "Galaxy Z Fold Sales Surge in Europe Alongside Massive Search Interest Spike During Competitor Smartphone Launch Week",
-      "summary_vi": [
-        "Samsung vừa công bố kết quả kinh doanh ấn tượng của bộ đôi thiết bị di động màn hình gập mới tại thị trường châu Âu với mức tăng trưởng doanh số đáng chú ý trong tuần qua.",
-        "Sự kiện ra mắt sản phẩm từ đối thủ cạnh tranh trực tiếp dường như đã tạo ra hiệu ứng ngược, thúc đẩy lượng người dùng tìm kiếm thông tin về dòng máy gập tăng vọt lên mức bốn trăm sáu mươi phần trăm.",
-        "Sự quan tâm gia tăng mạnh mẽ từ thị trường cho thấy tiềm năng phát triển lớn của phân khúc thiết bị di động màn hình gập, định hình lại xu hướng công nghệ phần cứng trong tương lai gần."
-      ],
-      "summary_en": [
-        "Samsung recently announced impressive sales performance for its latest foldable mobile device lineup in the European market with significant growth numbers achieved over the past week.",
-        "The product launch event from a direct competitor inadvertently triggered a massive reverse effect, driving user search interest for foldable smartphones to surge by four hundred and sixty percent.",
-        "This sharp increase in market attention highlights the strong growth potential of the foldable mobile device segment, reshaping future hardware technology trends in the industry."
-      ],
-      "originalTitle": "Galaxy Z Fold8 bán tăng 45% ở châu Âu, tìm kiếm máy gập Samsung vọt 460% đúng tuần iPhone Duo ra mắt",
-      "url": "https://tinhte.vn/thread/galaxy-z-fold8-ban-tang-45-o-chau-au-tim-kiem-may-gap-samsung-vot-460-dung-tuan-iphone-duo-ra-mat.4186242/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Samsung",
-        "Galaxy Z Fold",
-        "Mobile",
-        "Hardware",
-        "Smartphones"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T02:29:26.000Z",
-      "contentSnippet": "Galaxy Z Fold8 bán tăng 45% ở châu Âu, tìm kiếm máy gập Samsung vọt 460% đúng tuần iPhone Duo ra mắt Samsung vừa công bố bộ đôi Galaxy Z Fold8 và Galaxy Z Fold8 Ultra có doanh số tại châu Âu tăng...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "353ec094579a903b",
-      "title_vi": "Trí tuệ nhân tạo đang làm thay đổi hoàn toàn cục diện ngành an ninh mạng như thế nào",
-      "title_en": "How Artificial Intelligence is Completely Transforming the Cybersecurity Landscape",
-      "summary_vi": [
-        "Tổ chức PHP Foundation vừa công bố hai lỗ hổng bảo mật cực kỳ nghiêm trọng mang mã định danh CVE-2026-109618 và CVE-2026-109619 trên nền tảng lập trình phổ biến này.",
-        "Các lỗ hổng này đạt mức điểm số nguy hiểm cao là 9.2 trên 10, cho phép kẻ tấn công thực thi mã từ xa và chạy lệnh độc hại trực tiếp trên các máy chủ bị ảnh hưởng.",
-        "Sự kiện này đánh dấu bước ngoặt khi công nghệ trí tuệ nhân tạo đóng vai trò chủ chốt trong việc phát hiện các điểm yếu mã nguồn ẩn giấu suốt nhiều năm qua."
-      ],
-      "summary_en": [
-        "The PHP Foundation has recently disclosed two exceptionally severe security vulnerabilities identified as CVE-2026-109618 and CVE-2026-109619 within the popular programming platform.",
-        "These vulnerabilities reached a dangerous severity score of 9.2 out of 10, allowing malicious attackers to execute remote code and run harmful commands directly on affected servers.",
-        "This event marks a major turning point as artificial intelligence technology plays a crucial role in uncovering deep-seated source code flaws that remained hidden for many years."
-      ],
-      "originalTitle": "AI đang làm đảo lộn giới an ninh mạng thế nào",
-      "url": "https://vnexpress.net/lo-hong-php2shell-khi-ai-lam-dao-lon-gioi-an-ninh-mang-5135794.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Cybersecurity",
-        "PHP",
-        "Vulnerability",
-        "Source Code"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T02:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/23/CanhbaoanninhmangPHP2Shell-179-5680-2588-1792690628.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=_B4Z0dtRahglAEBSAUwtNA",
-      "contentSnippet": "Hai lỗ hổng PHP2Shell đã tồn tại từ lâu và gần như không bị phát hiện, cho đến khi AI giúp phơi bày chúng ra ánh sáng.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "2cedcbabe63acac9",
-      "title_vi": "Điện thoại gập iPhone Duo bắt đầu mở bán toàn cầu",
-      "title_en": "Apple's first foldable iPhone Duo officially launches globally starting with Oceania markets",
-      "summary_vi": [
-        "Mẫu điện thoại thông minh màn hình gập đầu tiên của Apple chính thức được phân phối đến tay người dùng tại thị trường Australia và New Zealand vào ngày 23 tháng 10.",
-        "Thiết bị tích hợp các công nghệ phần cứng di động tiên tiến nhất của hãng, tối ưu hóa giao diện hệ điều hành và độ bền của bản lề màn hình linh hoạt.",
-        "Sự kiện này đánh dấu bước chuyển mình quan trọng của tập đoàn trong phân khúc thiết bị di động cao cấp, tạo áp lực lớn lên các đối thủ cạnh tranh lớn trên thị trường."
-      ],
-      "summary_en": [
-        "Apple's first foldable smartphone officially reached early consumers in Australia and New Zealand markets starting on October 23 as part of its phased global rollout.",
-        "The device integrates advanced mobile hardware engineering, featuring a customized operating system interface optimized for flexible display architecture and mechanical durability.",
-        "This milestone marks a significant strategic shift for the corporation into the foldable mobile segment, intensifying competition among major global technology manufacturers."
-      ],
-      "originalTitle": "iPhone Duo bắt đầu mở bán toàn cầu",
-      "url": "https://vnexpress.net/iphone-duo-bat-dau-mo-ban-toan-cau-5135827.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "FoldablePhone",
-        "iOS",
-        "MobileHardware"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T00:28:33.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/23/2026t212609z-rc2l8oazb3vh-rtrm-6736-1453-1792715220.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=sFwxN1TRmZNur6B63LliyA",
-      "contentSnippet": "Mẫu iPhone gập đầu tiên của Apple bắt đầu đến tay người dùng tại Australia và New Zealand ngày 23/10, trước khi lần lượt lên kệ ở thị trường châu Á, châu Âu và Bắc Mỹ.",
-      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     }
