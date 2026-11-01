@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-11-01T03:29:42.366Z",
+  "lastUpdated": "2026-11-01T12:23:54.900Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "f891cdaf136344b0",
+      "title_vi": "Kiến trúc đồng bộ tin nhắn Local-first SQLite và hàng đợi BullMQ cho ứng dụng quản lý đa tài khoản realtime",
+      "title_en": "Local-first SQLite Message Synchronization Architecture and BullMQ Queue for Real-time Multi-account Management Applications",
+      "summary_vi": [
+        "Hệ thống nhắn tin hợp nhất đòi hỏi khả năng vận hành đồng thời hàng chục tài khoản chat trên cùng một giao diện màn hình mà vẫn đảm bảo hiệu suất mượt mà.",
+        "Giải pháp kiến trúc kết hợp cơ sở dữ liệu Local-first sử dụng SQLite cùng hệ thống hàng đợi BullMQ giúp tối ưu hóa tốc độ xử lý dữ liệu và đồng bộ trạng thái tin nhắn thời gian thực.",
+        "Mô hình này mang lại giá trị thực tiễn cao cho các nhà phát triển phần mềm khi xây dựng ứng dụng chat đa nền tảng, giải quyết triệt để bài toán nghẽn cổ chai và độ trễ."
+      ],
+      "summary_en": [
+        "The unified messaging system requires the capability to simultaneously operate dozens of chat accounts on a single screen interface while ensuring smooth performance.",
+        "The architectural solution combining a Local-first database using SQLite with the BullMQ queue system helps optimize data processing speed and real-time message state synchronization.",
+        "This model delivers high practical value for software developers building multi-platform chat applications, completely resolving bottlenecks and latency issues."
+      ],
+      "originalTitle": "Kiến trúc đồng bộ tin nhắn Local-first SQLite và hàng đợi BullMQ cho ứng dụng quản lý đa tài khoản realtime",
+      "url": "https://viblo.asia/p/kien-truc-dong-bo-tin-nhan-local-first-sqlite-va-hang-doi-bullmq-cho-ung-dung-quan-ly-da-tai-khoan-realtime-oKLnqjdQJQO",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "SQLite",
+        "BullMQ",
+        "Realtime",
+        "Architecture",
+        "NodeJS"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-01T19:12:00.000Z",
+      "contentSnippet": "Khi xây dựng một hệ thống nhắn tin hợp nhất (Unified Inbox) cho phép vận hành đồng thời hàng chục tài khoản chat trên cùng một màn hình — chạy xuyên s...",
+      "authorName": "quy le",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c419ee7ad6a1a457",
+      "title_vi": "Anthropic tung ra hàng loạt cập nhật lớn mang lại nhiều lợi ích thiết thực cho người dùng Claude",
+      "title_en": "Anthropic Releases Major Updates Delivering Significant Benefits to Claude Users",
+      "summary_vi": [
+        "Từ giữa tháng chín đến cuối tháng mười năm hai nghìn không trăm hai mươi sáu, công ty trí tuệ nhân tạo Anthropic đã liên tục triển khai các thay đổi quan trọng nhằm tối ưu hóa trải nghiệm cho cộng đồng người dùng nền tảng Claude.",
+        "Người dùng miễn phí được trang bị thêm các công cụ hỗ trợ tạo slide, xử lý tài liệu và thiết kế giao diện, trong khi nhóm tài khoản trả phí được gỡ bỏ giới hạn năm giờ, nhận tín dụng API hằng tháng cùng các mô hình mới mạnh mẽ nhưng tiết kiệm chi phí hơn.",
+        "Những cải tiến toàn diện này giúp nâng cao đáng kể năng suất làm việc cho các nhà phát triển phần mềm, đồng thời thúc đẩy hiệu quả tích hợp trí tuệ nhân tạo vào các quy trình phát triển sản phẩm công nghệ hiện đại."
+      ],
+      "summary_en": [
+        "From mid September to late October 2026, artificial intelligence company Anthropic continuously rolled out crucial updates aimed at optimizing user experience across the Claude platform.",
+        "Free users are now equipped with additional tools for slide creation, document processing, and interface design, while paid tier accounts benefit from removed five-hour limits, monthly API credits, and more powerful yet cost-effective new models.",
+        "These comprehensive improvements significantly boost productivity for software developers while driving efficiency in integrating artificial intelligence into modern technology product development workflows."
+      ],
+      "originalTitle": "Tin cực vui cho người dùng Claude",
+      "url": "https://genk.vn/tin-cuc-vui-cho-nguoi-dung-claude-165261101153659141.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "AI",
+        "API",
+        "Machine Learning"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-01T12:19:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/1/avatar1793522101850-1793522105036711942971.jpg",
+      "contentSnippet": "Từ giữa tháng 9 đến cuối tháng 10/2026, Anthropic liên tục tung ra các thay đổi có lợi cho người dùng Claude. Người dùng miễn phí có thêm công cụ làm slide, tài liệu, thiết kế. Người trả phí được gỡ giới hạn 5 giờ, nhận tín dụng API hằng tháng và có mô hình mới mạnh hơn, rẻ hơn.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "8d28b81febeaec1e",
+      "title_vi": "Ngân hàng cần thay đổi cách phòng thủ trước các cuộc tấn công bằng AI",
+      "title_en": "Banks Need to Redefine Their Defense Strategies Against AI-Driven Cyber Attacks",
+      "summary_vi": [
+        "Theo chuyên gia an ninh mạng Viettel, các tổ chức ngân hàng hiện nay đang phải đối mặt với những thách thức chưa từng có tiền lệ từ các chiến dịch tấn công mạng tinh vi được tự động hóa và tối ưu hóa bằng trí tuệ nhân tạo.",
+        "Phương pháp bảo mật truyền thống chỉ dựa vào việc phát hiện và ngăn chặn lỗ hổng là chưa đủ, mà cần phải bổ sung năng lực phản ứng nhanh để giới hạn tối đa phạm vi ảnh hưởng khi xảy ra sự cố.",
+        "Việc chuyển dịch trọng tâm sang khả năng duy trì liên tục các dịch vụ trọng yếu sẽ giúp hệ thống tài ngân hàng nâng cao độ bền vững và giảm thiểu thiệt hại kinh tế trước các mối đe dọa an ninh mạng hiện đại."
+      ],
+      "summary_en": [
+        "According to Viettel cybersecurity experts, banking institutions are currently facing unprecedented challenges from sophisticated cyber attack campaigns automated and optimized through artificial intelligence.",
+        "Traditional security approaches relying solely on vulnerability detection and blocking are no longer sufficient, requiring additional rapid response capabilities to strictly limit the blast radius during incidents.",
+        "Shifting the security focus toward maintaining critical business services continuously will help financial systems significantly enhance operational resilience and minimize economic losses against modern cyber threats."
+      ],
+      "originalTitle": "Ngân hàng cần thay đổi cách phòng thủ trước các cuộc tấn công bằng AI",
+      "url": "https://genk.vn/ngan-hang-can-thay-doi-cach-phong-thu-truoc-cac-cuoc-tan-cong-bang-ai-165261101180458081.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "AI",
+        "Banking",
+        "Threat Intelligence",
+        "Incident Response"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-01T11:34:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/1/avatar1793531035901-17935310364341535188056.jpg",
+      "contentSnippet": "Theo ông Lê Quang Hà, Phó Giám đốc Công ty TNHH MTV An ninh mạng Viettel, việc bảo vệ hệ thống trước nguy cơ bị tấn công mạng không chỉ dừng ở phát hiện, ngăn chặn mà còn cần chú trọng khả năng phản ứng nhanh, giới hạn phạm vi ảnh hưởng và duy trì các dịch vụ trọng yếu khi xảy ra sự cố.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0089ce4e7339ea3a",
+      "title_vi": "Xử lý kiểu dữ liệu thời gian trong JDBC: Date, Time, Timestamp và LocalDate/LocalDateTime",
+      "title_en": "Handling Date and Time Data Types in JDBC: Date, Time, Timestamp and LocalDate/LocalDateTime",
+      "summary_vi": [
+        "Bài viết tập trung giải quyết bài toán xử lý dữ liệu thời gian trong lập trình backend Java, một trong những thách thức lớn nhất do sự sai lệch về múi giờ giữa máy chủ ứng dụng và hệ quản trị cơ sở dữ liệu.",
+        "Tác giả phân tích chi tiết cách sử dụng các kiểu dữ liệu truyền thống như Date, Time, Timestamp kết hợp với các API hiện đại Java 8 như LocalDate và LocalDateTime nhằm tối ưu hóa việc ánh xạ dữ liệu khi thao tác với cơ sở dữ liệu.",
+        "Kiến thức này mang lại giá trị thực tiễn cao giúp các kỹ sư phần mềm tránh được các lỗi sai lệch thời gian phổ biến, đảm bảo tính toàn vẹn dữ liệu và nâng cao chất lượng hệ thống phần mềm doanh nghiệp."
+      ],
+      "summary_en": [
+        "The article focuses on solving time data processing challenges in Java backend development, which is considered one of the biggest hurdles due to timezone discrepancies between application servers and databases.",
+        "The author provides a detailed analysis of using traditional data types like Date, Time, and Timestamp alongside modern Java 8 APIs such as LocalDate and LocalDateTime to optimize data mapping during database operations.",
+        "This knowledge delivers high practical value by helping software engineers avoid common time mismatch bugs, ensuring data integrity, and improving the overall quality of enterprise software systems."
+      ],
+      "originalTitle": "JDBC bài 14 Xử lý các kiểu dữ liệu thời gian: Date, Time, Timestamp và LocalDate/LocalDateTime",
+      "url": "https://viblo.asia/p/jdbc-bai-14-xu-ly-cac-kieu-du-lieu-thoi-gian-date-time-timestamp-va-localdatelocaldatetime-8X4EjqX2JN2",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Java",
+        "JDBC",
+        "Database",
+        "Backend",
+        "LocalDateTime"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-01T10:46:13.000Z",
+      "contentSnippet": "Xử lý thời gian (Date/Time) luôn là một trong những chủ đề đau đầu nhất trong lập trình Backend do sự sai lệch về múi giờ (Timezone) giữa Server Java ...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "81444c008e513213",
+      "title_vi": "Elon Musk cảnh báo tác nhân AI có thể tự động hack hệ thống để trục lợi tài chính",
+      "title_en": "Elon Musk Warns AI Agents Could Automatically Hack Systems for Financial Gain",
+      "summary_vi": [
+        "Sàn giao dịch tiền điện tử Binance vừa hứng chịu một cuộc tấn công mạng quy mô lớn, khiến khoảng 6,3 tỷ USD tài sản số bị đánh cắp và được tẩu tán rất nhanh chóng qua nhiều địa chỉ ví khác nhau.",
+        "Tin tặc đã thực hiện các chiến thuật tài chính phi tập trung tinh vi bằng cách bán stablecoin lấy tiền mã hóa khác và vay Ether thông qua thế chấp tài sản bị đánh cắp nhằm vô hiệu hóa lệnh đóng băng từ nhà phát hành.",
+        "Sự cố bảo mật nghiêm trọng này dấy lên hồi chuông cảnh báo lớn về lỗ hổng hệ thống, đồng thời minh chứng cho nhận định của Elon Musk rằng các tác nhân trí tuệ nhân tạo tương lai có thể tự động thực hiện các vụ hack phức tạp tương tự."
+      ],
+      "summary_en": [
+        "Cryptocurrency exchange Binance recently suffered a massive cyberattack resulting in approximately 6.3 billion dollars in digital assets being stolen and rapidly transferred across multiple different wallet addresses.",
+        "Hackers executed sophisticated decentralized finance tactics by selling stablecoins for other cryptocurrencies and borrowing Ether using stolen assets as collateral to effectively bypass freezing commands from issuers.",
+        "This severe security incident raises major alarms regarding system vulnerabilities while validating Elon Musk's prediction that future artificial intelligence agents could autonomously execute similar complex cyberattacks."
+      ],
+      "originalTitle": "Elon Musk: Tác nhân AI sẽ hack hệ thống để kiếm tiền cho chính chúng",
+      "url": "https://vnexpress.net/elon-musk-tac-nhan-ai-se-hack-he-thong-de-kiem-tien-cho-chinh-chung-5139352.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "AI",
+        "Blockchain",
+        "Crypto",
+        "Security"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-01T08:54:30.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/01/ap260225723955701-1793518702-5877-1793519275.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=wcJVIVBniVs2qBSh2N6GtQ",
+      "contentSnippet": "Sau thông tin Binance bị tin tặc đánh cắp 6,3 tỷ USD tiền số, Elon Musk bình luận tác nhân AI có thể làm điều tương tự trong tương lai.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0de5215a3eabc7c5",
+      "title_vi": "AMD phát hành bản cập nhật Adrenalin 26.10.2 nhằm khắc phục lỗi treo trình điều khiển đồ họa và văng ứng dụng trên dòng card màn hình Radeon RX 9000 và 7000",
+      "title_en": "AMD releases Adrenalin 26.10.2 update to fix driver crashes and application freezes on Radeon RX 9000 and 7000 series GPUs",
+      "summary_vi": [
+        "Hãng công nghệ AMD vừa chính thức phát hành bản cập nhật phần mềm Adrenalin 26.10.2 dành riêng cho các dòng card đồ họa Radeon RX 9000 và 7000 nhằm giải quyết triệt để các sự cố liên quan đến hệ thống.",
+        "Bản cập nhật này tập trung khắc phục lỗi treo trình điều khiển đồ họa và hiện tượng văng ứng dụng đột ngột từng xuất hiện trong phiên bản trước đó vốn được cài đặt để nâng cấp công nghệ FSR 4.1.",
+        "Việc nhanh chóng tung ra bản vá lỗi giúp đảm bảo sự ổn định cho hệ thống phần cứng của người dùng, duy trì hiệu năng chơi game tối ưu và hạn chế tối đa các gián đoạn trải nghiệm."
+      ],
+      "summary_en": [
+        "Technology giant AMD has officially released the Adrenalin 26.10.2 software update specifically for Radeon RX 9000 and 7000 series graphics cards to resolve persistent system-related stability issues.",
+        "This update focuses on fixing driver crashes and unexpected application closures that occurred in the previous version which was deployed to upgrade the FSR 4.1 upscaling technology.",
+        "Promptly rolling out this patch helps ensure hardware stability for end users, maintains optimal gaming performance, and minimizes potential interruptions during intensive graphical workflows."
+      ],
+      "originalTitle": "Anh em dùng card AMD Radeon RX 9000 và 7000 cập nhật Adrenalin 26.10.2 nha",
+      "url": "https://tinhte.vn/thread/anh-em-dung-card-amd-radeon-rx-9000-va-7000-cap-nhat-adrenalin-26-10-2-nha.4188955/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "AMD",
+        "GPU",
+        "Drivers",
+        "FSR",
+        "Hardware"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-01T08:51:46.000Z",
+      "contentSnippet": "Anh em dùng card AMD Radeon RX 9000 và 7000 cập nhật Adrenalin 26.10.2 nha Bản này fix lỗi treo driver và văng app á. Bản cũ 26.10.01 để cập nhật FSR 4.1 cho Radeon RX 9000 và 7000 xong nhiều...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "21e7e72aaa6a7886",
       "title_vi": "Elasticsearch Bài học 30: Giải quyết Deep Paging hiệu quả với Search After API và Scroll API",
@@ -66,6 +273,75 @@
       "publishedAt": "2026-11-01T08:39:08.000Z",
       "contentSnippet": "Trong hệ thống E-commerce, sự chênh lệch giữa Top 1 và Top 10 kết quả tìm kiếm có thể định đoạt doanh thu hàng tỷ đồng. Khi một khách hàng tìm \"sữa rử...",
       "authorName": "Nguyễn Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "7e9f318174ec7dbc",
+      "title_vi": "Cái giá của trí tuệ nhân tạo đối với các khung làm việc JavaScript",
+      "title_en": "The AI cost of JavaScript frameworks",
+      "summary_vi": [
+        "Cộng đồng phát triển web thường đưa ra các quyết định dựa trên cảm tính thay vì bằng chứng xác thực, từ việc lựa chọn công cụ phát triển cho đến các khung làm việc giao diện.",
+        "Trong kỷ nguyên tác tử trí tuệ nhân tạo, lập trình viên chuyển đổi các giao diện dựa trên tuyên bố chưa được kiểm chứng rằng một số khung làm việc giúp tác tử hoạt động hiệu quả hơn.",
+        "Việc thiếu các điểm chuẩn đánh giá thực tế trong quá trình phát triển phần mềm hiện đại đang dẫn đến những sự lãng phí tài nguyên và quyết định kiến trúc thiếu cơ sở."
+      ],
+      "summary_en": [
+        "The web development community often makes architectural decisions based on vibes rather than empirical evidence, spanning from tool selection to modern frontend frameworks.",
+        "In the agentic era, developers rewrite frontends based on unverified claims that specific frameworks make artificial intelligence agents perform better and commit fewer mistakes.",
+        "The persistent lack of concrete benchmarks in modern software engineering continues to drive misguided architectural choices and unfounded development practices across the industry."
+      ],
+      "originalTitle": "The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "JavaScript",
+        "Frameworks",
+        "AI",
+        "Frontend",
+        "Software Architecture"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-01T06:06:19.000Z",
+      "contentSnippet": "One of my pet peeves with the web development community is that so many of the decisions we make are vibes-based. Frameworks are “blazing fast,” tools will “supercharge” your development, the right abstraction will benefit both you and your users (DX and UX all in one!). All of this breathless boast",
+      "authorName": "luu",
+      "upvotes": 117,
+      "commentsCount": 64
+    },
+    {
+      "id": "93969e1ddcf7e3bf",
+      "title_vi": "Vệ tinh AI tích hợp bộ xử lý Tensor của Google gửi phản hồi đầu tiên từ không gian",
+      "title_en": "Google's AI Satellite Equipped with Tensor Processing Units Sends First Response from Space",
+      "summary_vi": [
+        "Google vừa thông báo nhận được phản hồi đầu tiên từ vệ tinh thuộc dự án Suncatcher, đánh dấu bước tiến mới trong việc nghiên cứu khả năng xây dựng trung tâm dữ liệu trí tuệ nhân tạo trực tiếp ngoài không gian.",
+        "Vệ tinh này do Planet Labs chế tạo, tích hợp bốn bộ xử lý Tensor cùng mô hình ngôn ngữ Gemma 4, đối mặt với thách thức lớn về nguồn năng lượng mặt trời khi chỉ có thể vận hành một bộ xử lý trong thời gian ngắn.",
+        "Thành tựu này mở ra hướng đi đột phá cho ngành công nghệ điện toán đám mây và trí tuệ nhân tạo, cho phép khai thác sức mạnh tính toán cấp trung tâm dữ liệu trong môi trường quỹ đạo khắc nghiệt."
+      ],
+      "summary_en": [
+        "Google recently announced receiving the first response from a satellite under the Suncatcher project, marking a significant milestone in researching the feasibility of building artificial intelligence data centers directly in space.",
+        "Built by Planet Labs, the satellite integrates four Tensor processing units and the Gemma 4 language model, overcoming severe solar power constraints by operating only one processor at a time for limited durations.",
+        "This achievement opens up breakthrough directions for the cloud computing and artificial intelligence industries, enabling the deployment of data center-grade computational power in harsh orbital environments."
+      ],
+      "originalTitle": "Vệ tinh AI của Google gửi phản hồi đầu tiên từ không gian",
+      "url": "https://vnexpress.net/ve-tinh-ai-cua-google-gui-phan-hoi-dau-tien-tu-khong-gian-5139248.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Google",
+        "AI",
+        "TPU",
+        "SpaceTech",
+        "Gemma"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-01T04:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/01/dsc029817909308502563179093118-3020-2946-1793469854.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=QQ-Vc7tqpOzymY_QvOHeVQ",
+      "contentSnippet": "Vệ tinh đầu tiên trang bị bộ xử lý Tensor (TPU) của Google đang hoạt động tốt trên quỹ đạo Trái Đất, gửi về thơ và dữ liệu kỹ thuật.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8267,275 +8543,6 @@
       "authorName": "Jowsey",
       "upvotes": 490,
       "commentsCount": 286
-    },
-    {
-      "id": "6309a052e042f22f",
-      "title_vi": "Hôm nay, chúng tôi đã xâm nhập thành công mục tiêu đặt ra ban đầu chính là chiếc điện thoại iPhone",
-      "title_en": "Today, we hacked what we'd set out to hack: the iPhone",
-      "summary_vi": [
-        "Bài viết thảo luận về một cột mốc quan trọng trong lĩnh vực bảo mật khi các nhà nghiên cứu tuyên bố đã hoàn thành việc xâm nhập thành công vào hệ điều hành của thiết bị iPhone.",
-        "Nội dung nhấn mạnh vào các lỗ hổng tiềm ẩn trong các ứng dụng nhắn tin phổ biến và hệ thống cốt lõi, gợi mở về những nguy cơ bị tấn công liên tục từ các mối đe dọa tinh vi.",
-        "Sự kiện này gióng lên hồi chuông cảnh báo cho các kỹ sư bảo mật và nhà phát triển trong việc nâng cao kiến trúc phòng thủ cũng như vá các lỗ hổng zero-day trên nền tảng di động."
-      ],
-      "summary_en": [
-        "The article discusses a major milestone in the security field as researchers announce the successful exploitation and breach of the iPhone operating system's security mechanisms.",
-        "The content highlights potential vulnerabilities within popular messaging applications and core systems, hinting at the risks posed by sophisticated and persistent threat actors.",
-        "This event serves as a critical warning for security engineers and developers to enhance defensive architectures and proactively patch zero-day vulnerabilities on mobile platforms."
-      ],
-      "originalTitle": "Today, we hacked what we'd set out to hack: the iPhone",
-      "url": "https://blog.calif.io/p/iphone",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "iPhone",
-        "Exploit",
-        "Mobile Security",
-        "Zero-Day"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T16:21:50.000Z",
-      "contentSnippet": "2/ But who cares about a third-party app when everyone uses iMessage, right? 4/ APT stands for Apple Persistent Threat 2754ShareDiscussion about this postCommentsRestacksRyan Merket3hGame over. Time to write a book and move to a remote island. ReplyShareRicardo6dEs increíble ya me gustaría tenerle e",
-      "authorName": "pavel_lishin",
-      "upvotes": 568,
-      "commentsCount": 390
-    },
-    {
-      "id": "463e2aab06118a13",
-      "title_vi": "So sánh công nghệ màn hình giữa iPhone Duo và Samsung Galaxy Z Fold 8",
-      "title_en": "Display Technology Comparison: iPhone Duo versus Samsung Galaxy Z Fold 8",
-      "summary_vi": [
-        "Bài viết thực hiện so sánh trực tiếp giữa công nghệ màn hình nano-texture trên thiết bị iPhone Duo mới và màn hình tiêu chuẩn không chống chói của dòng điện thoại gập Samsung Galaxy Z Fold 8 trong điều kiện thực tế.",
-        "Phân tích tập trung vào khả năng giảm thiểu phản xạ ánh sáng của lớp phủ nano-texture cao cấp so với các tấm nền truyền thống, đồng thời đánh giá hiệu quả kỹ thuật trong việc xử lý nếp gấp màn hình trên thiết bị gập.",
-        "Kết quả so sánh cung cấp cái nhìn sâu sắc cho người dùng về sự khác biệt giữa các giải pháp hiển thị hiện đại, giúp định hình xu hướng phát triển phần cứng di động trong tương lai gần của các ông lớn công nghệ."
-      ],
-      "summary_en": [
-        "The article provides a direct comparison between the advanced nano-texture display technology featured on the new iPhone Duo and the standard non-anti-reflective screen panels found on the Samsung Galaxy Z Fold 8 foldable devices.",
-        "The analysis focuses on the light reflection reduction capabilities of premium nano-texture coatings versus traditional panels, while evaluating the engineering effectiveness in masking the physical crease on foldable display hardware architectures.",
-        "These findings offer valuable insights into the differences between modern display solutions, helping to shape the future trajectory of mobile hardware development and user experience standards for major global technology manufacturers."
-      ],
-      "originalTitle": "Màn hình iPhone Duo vs Samsung Galaxy Z Fold 8",
-      "url": "https://tinhte.vn/thread/man-hinh-iphone-duo-vs-samsung-galaxy-z-fold-8.4186430/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iPhone",
-        "Samsung",
-        "Display",
-        "Hardware",
-        "Mobile"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-23T16:05:53.000Z",
-      "contentSnippet": "Màn hình nano-texture trên iPhone Duo nếu đặt cạnh màn hình không chống chói trên Samsung Galaxy Z Fold 8 sẽ như thế nào? Cơ bản là iPhone Duo chống chói cực tốt, giấu nếp gấp mình đánh giá là rất...",
-      "authorName": "Nhà Của Cáo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9739de0c0da81765",
-      "title_vi": "Cấu trúc dữ liệu và Giải thuật Bài 74: Phân rã Đậm-Nhạt (Heavy-Light Decomposition - HLD) - Trải phẳng Cây để truy vấn khoảng siêu tốc.",
-      "title_en": "Data Structures and Algorithms Lesson 74: Heavy-Light Decomposition (HLD) - Flattening the Tree for super-speed querying.",
-      "summary_vi": [
-        "Trong Bài 58 và 59, chúng ta đã sử dụng Cây Phân Đoạn (Segment Tree) để thực hiện các truy vấn siêu tốc trên một Mảng tuyến tính (1D Array).",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Cấu trúc dữ liệu và Giải thuật Bài 74: Phân rã Đậm-Nhạt (Heavy-Light Decomposition - HLD) - Trải phẳng Cây để truy vấn khoảng siêu tốc..",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Cấu trúc dữ liệu và Giải thuật Bài 74: Phân rã Đậm-Nhạt (Heavy-Light Decomposition - HLD) - Trải phẳng Cây để truy vấn khoảng siêu tốc.."
-      ],
-      "summary_en": [
-        "In Lessons 58 and 59, we used a Segment Tree to perform super-fast queries on a 1D Array.",
-        "In-depth technical breakdown and implementation mechanisms introduced in Data Structures and Algorithms Lesson 74: Heavy-Light Decomposition (HLD) - Flattening the Tree for super-speed querying..",
-        "Practical engineering impact and actionable takeaways for developers building with Data Structures and Algorithms Lesson 74: Heavy-Light Decomposition (HLD) - Flattening the Tree for super-speed querying.."
-      ],
-      "originalTitle": "Cấu trúc dữ liệu và Giải thuật Bài 74: Phân rã Đậm-Nhạt (Heavy-Light Decomposition - HLD) - Trải phẳng Cây để truy vấn khoảng siêu tốc.",
-      "url": "https://viblo.asia/p/cau-truc-du-lieu-va-giai-thuat-bai-74-phan-ra-dam-nhat-heavy-light-decomposition-hld-trai-phang-cay-de-truy-van-khoang-sieu-toc-ym40020d491",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechTrends",
-        "Innovation"
-      ],
-      "hotScore": 91,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-23T16:04:02.000Z",
-      "contentSnippet": "Trong Bài 58 và 59, chúng ta đã sử dụng Cây Phân Đoạn (Segment Tree) để thực hiện các truy vấn siêu tốc trên một Mảng tuyến tính (1D Array). Tuy nhiê...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "3582b97b52591a73",
-      "title_vi": "Cấu trúc dữ liệu và Giải thuật Bài 73: Mảng hậu tố (Suffix Array) và Mảng LCP - Tối ưu hóa bộ nhớ cho tìm kiếm chuỗi con.",
-      "title_en": "Data Structures and Algorithms Lesson 73: Suffix Array and LCP Array - Memory optimization for substring search.",
-      "summary_vi": [
-        "Ở Bài 72, Cây Hậu Tố (Suffix Tree) đã chứng minh sức mạnh tuyệt đối khi tìm kiếm chuỗi con trong thời gian .",
-        "Tuy nhiên, trong thực tế vận hành các hệ.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Cấu trúc dữ liệu và Giải thuật Bài 73: Mảng hậu tố (Suffix Array) và Mảng LCP - Tối ưu hóa bộ nhớ cho tìm kiếm chuỗi con.."
-      ],
-      "summary_en": [
-        "In Lesson 72, the Suffix Tree demonstrated its absolute power when searching for substrings in time.",
-        "However, in practice, operating systems.",
-        "Practical engineering impact and actionable takeaways for developers building with Data Structures and Algorithms Lesson 73: Suffix Array and LCP Array - Memory optimization for substring search.."
-      ],
-      "originalTitle": "Cấu trúc dữ liệu và Giải thuật Bài 73: Mảng hậu tố (Suffix Array) và Mảng LCP - Tối ưu hóa bộ nhớ cho tìm kiếm chuỗi con.",
-      "url": "https://viblo.asia/p/cau-truc-du-lieu-va-giai-thuat-bai-73-mang-hau-to-suffix-array-va-mang-lcp-toi-uu-hoa-bo-nho-cho-tim-kiem-chuoi-con-AY4qQOQ54Pw",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechTrends",
-        "Innovation"
-      ],
-      "hotScore": 96,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-23T16:03:46.000Z",
-      "contentSnippet": "Ở Bài 72, Cây Hậu Tố (Suffix Tree) đã chứng minh sức mạnh tuyệt đối khi tìm kiếm chuỗi con trong thời gian . Tuy nhiên, trong thực tế vận hành các hệ ...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "5a3cf98b9f6c7667",
-      "title_vi": "Loạt khoảnh khắc kể lại hành trình phát triển của hệ thống điện toán đám mây FPT Cloud",
-      "title_en": "Moments recounting the development journey of the FPT Cloud computing platform",
-      "summary_vi": [
-        "Từ năm 2020, hệ thống điện toán đám mây FPT Cloud được xây dựng và phát triển bởi đội ngũ gồm hơn bốn trăm kỹ sư công nghệ người Việt Nam, đảm nhiệm toàn bộ các thành phần từ tầng hạ tầng lõi đến các tính năng trí tuệ nhân tạo và bảo mật.",
-        "Hành trình phát triển của nền tảng này được minh họa qua các mốc son công nghệ quan trọng, thể hiện năng lực tự chủ trong việc xây dựng các giải pháp hạ tầng số quy mô lớn và khả năng tích hợp các dịch vụ đám mây tiên tiến.",
-        "Sự kiện này đánh dấu mốc quan trọng khi nền tảng đã thành công đồng hành cùng hơn ba nghìn doanh nghiệp trong quá trình chuyển đổi số, cung cấp hạ tầng vững chắc giúp tối ưu hóa vận hành và thúc đẩy đổi mới sáng tạo."
-      ],
-      "summary_en": [
-        "Since 2020, the FPT Cloud computing system has been built and developed by a team of over four hundred Vietnamese software engineers, handling everything from core infrastructure layers to artificial intelligence and security features.",
-        "The development journey of this platform is illustrated through crucial technology milestones, demonstrating self-reliance capabilities in building large-scale digital infrastructure solutions and integrating advanced cloud services.",
-        "This milestone marks a significant achievement as the platform has successfully supported over three thousand enterprises in their digital transformation, providing solid infrastructure to optimize operations and drive innovation."
-      ],
-      "originalTitle": "Loạt khoảnh khắc kể lại hành trình của FPT Cloud",
-      "url": "https://genk.vn/loat-khoanh-khac-ke-lai-hanh-trinh-cua-fpt-cloud-165261023212317477.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "Cloud Computing",
-        "FPT Cloud",
-        "Infrastructure",
-        "Artificial Intelligence",
-        "Cybersecurity"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T15:22:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/23/ava-ngang-17927649867071971459183.png",
-      "contentSnippet": "Từ năm 2020, FPT Cloud được xây dựng bởi hơn 400 kỹ sư Việt Nam, từ tầng hạ tầng lõi đến AI và bảo mật. Bảy bức ảnh dưới đây kể lại hành trình ấy, cùng những con số về hơn 3.000 doanh nghiệp đồng hành.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "7aa6acbd35f79e1a",
-      "title_vi": "Meta trì hoãn cập nhật điều khoản kinh doanh sau phản ứng dữ dội về việc thu thập dữ liệu huấn luyện AI",
-      "title_en": "Meta delays new business terms after publisher pushback on AI scraping",
-      "summary_vi": [
-        "Meta vừa quyết định lùi thời hạn áp dụng các điều khoản kinh doanh mới sang ngày 20 tháng 11, sau khi vấp phải sự phản đối mạnh mẽ từ các nhà xuất bản tin tức về quyền thu thập dữ liệu để huấn luyện mô hình trí tuệ nhân tạo.",
-        "Các điều khoản gây tranh cãi ban đầu được thiết kế để cho phép Meta tự động quét nội dung từ các trang web sử dụng nền tảng của họ, nhằm mục đích khai thác dữ liệu thô phục vụ quá trình đào tạo các hệ thống học máy phức tạp.",
-        "Sự kiện này phản ánh cuộc xung đột gay gắt giữa các tập đoàn công nghệ lớn và đơn vị sở hữu nội dung về quyền sở hữu trí tuệ, đặt ra thách thức lớn cho việc xây dựng các bộ dữ liệu huấn luyện AI minh bạch và hợp pháp."
-      ],
-      "summary_en": [
-        "Meta has decided to postpone the implementation of its new business terms until November 20th, following significant backlash from news publishers regarding the company's authority to scrape website content for training its artificial intelligence models.",
-        "The controversial terms were originally intended to grant Meta broad permissions to automatically crawl and ingest data from sites utilizing their platforms, effectively repurposing proprietary content for the development of advanced machine learning systems.",
-        "This development highlights the ongoing tension between major tech corporations and content creators over intellectual property rights, posing critical challenges for the ethical sourcing of training datasets in the rapidly evolving AI industry."
-      ],
-      "originalTitle": "Meta delays new business terms after publisher pushback on AI scraping",
-      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Meta",
-        "Data Scraping",
-        "Machine Learning",
-        "Copyright"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T14:47:41.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23951350/STK043_VRG_Illo_N_Barclay_6_Meta.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on",
-      "authorName": "Emma Roth",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ed519a5b6b618033",
-      "title_vi": "Đánh giá ốp lưng Skinarma Kyper cho thiết bị iPhone Duo và tính năng tối ưu màn hình của Apple",
-      "title_en": "Reviewing Skinarma Kyper Case for iPhone Duo and Apple Built-in Display Optimization Settings",
-      "summary_vi": [
-        "Bài viết giới thiệu dòng sản phẩm ốp lưng cao cấp Skinarma Kyper dành riêng cho dòng máy iPhone Duo với thiết kế bắt mắt và thu hút sự quan tâm lớn từ cộng đồng người dùng công nghệ di động.",
-        "Tác giả đề cập đến một tính năng cài đặt ẩn bên trong hệ điều hành iOS mà Apple đã chuẩn bị sẵn để xử lý tình huống ốp lưng che khuất một phần diện tích màn hình hiển thị.",
-        "Khám phá này giúp người dùng tối ưu hóa trải nghiệm thực tế khi sử dụng các loại phụ kiện bảo vệ độc đáo nhưng có thể ảnh hưởng đến khả năng hiển thị của thiết bị di động."
-      ],
-      "summary_en": [
-        "The article introduces the premium Skinarma Kyper case designed specifically for the iPhone Duo lineup featuring eye-catching aesthetics that attract significant attention from mobile technology enthusiasts.",
-        "The author highlights a hidden configuration setting within the iOS operating system that Apple specifically prepared to handle situations where protective cases obscure a portion of the display area.",
-        "This discovery helps users optimize their practical experience when utilizing unique protective accessories that might otherwise interfere with the visual interface and usability of mobile devices."
-      ],
-      "originalTitle": "Ốp Skinarma Kyper cho iPhone Duo quá đẹp",
-      "url": "https://tinhte.vn/thread/op-skinarma-kyper-cho-iphone-duo-qua-dep.4186465/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iPhone",
-        "iOS",
-        "Mobile Accessories",
-        "Apple",
-        "UI Optimization"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-23T14:18:51.000Z",
-      "contentSnippet": "Mình mượn được 2 cái ốp Skinarma đẹp cho iPhone Duo giới thiệu với anh em nhận tiện nói anh em về việc Apple đã lường trước được ốp sẽ che một phần màn hình nên họ có hẳn một cái setting để hạn...",
-      "authorName": "cuhiep",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "71190edfb45fb74c",
-      "title_vi": "Thành phố Hồ Chí Minh vận hành khu đóng gói bán dẫn dùng chung tại Khu Công nghệ cao",
-      "title_en": "Ho Chi Minh City Operates Shared Semiconductor Packaging Facility at Hi-Tech Park",
-      "summary_vi": [
-        "Khu công nghệ cao thành phố Hồ Chí Minh vừa chính thức đưa vào vận hành phòng thí nghiệm SHTP ATP Lab nhằm phục vụ nhu cầu nghiên cứu và phát triển công nghệ bán dẫn.",
-        "Cơ sở hạ tầng này được thiết kế để các trường đại học, cao đẳng, viện nghiên cứu cùng doanh nghiệp công nghệ có thể khai thác chung cho các hoạt động thực hành và kiểm thử.",
-        "Sáng kiến này giúp giải quyết bài toán thiếu hụt trang thiết bị đắt đỏ, tạo động lực thúc đẩy hệ sinh thái phần cứng và đào tạo nguồn nhân lực chất lượng cao."
-      ],
-      "summary_en": [
-        "Ho Chi Minh City Hi-Tech Park has officially put the SHTP ATP Lab into operation to support semiconductor technology research and development demands.",
-        "This infrastructure is designed for universities, colleges, research institutes, and technology enterprises to jointly utilize for practical training and testing activities.",
-        "This initiative helps resolve the challenge of lacking expensive equipment, providing a strong impetus to drive the hardware ecosystem and high-quality workforce training."
-      ],
-      "originalTitle": "TP HCM vận hành khu đóng gói bán dẫn dùng chung",
-      "url": "https://vnexpress.net/tp-hcm-van-hanh-khu-dong-goi-ban-dan-dung-chung-5136052.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Semiconductor",
-        "Hardware",
-        "Infrastructure",
-        "R&D",
-        "Vietnam Tech"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T13:59:51.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/23/dsc01318-jpg-1792744084-5346-1792744385.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=nGKXaLz7yQOg7ZQSMiFWwA",
-      "contentSnippet": "SHTP ATP Lab đặt tại khu Công nghệ cao TP HCM, các trường đại học, cao đẳng, viện nghiên cứu, doanh nghiệp có thể cùng khai thác hạ tầng để thực hành.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
     }
   ]
 }
