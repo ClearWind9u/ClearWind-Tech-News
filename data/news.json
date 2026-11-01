@@ -1,7 +1,109 @@
 {
-  "lastUpdated": "2026-11-01T12:23:54.900Z",
+  "lastUpdated": "2026-11-01T21:32:26.454Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "fb61c65e8ae61746",
+      "title_vi": "Cấu trúc dữ liệu và giải thuật bài 115: Cây phân đoạn bền vững để lưu trữ và truy vấn mọi phiên bản lịch sử dữ liệu",
+      "title_en": "Data Structures and Algorithms Article 115: Persistent Segment Tree for Storing and Querying All Historical Data Versions",
+      "summary_vi": [
+        "Bài viết phân tích cấu trúc dữ liệu cây phân đoạn bền vững, giải pháp quan trọng giải quyết các bài toán hệ thống lưu trữ phân tán và cơ sở dữ liệu đòi hỏi tính năng truy vấn thời gian.",
+        "Cơ chế hoạt động tập trung vào việc chia sẻ nút giữa các phiên bản nhằm tiết kiệm bộ nhớ, cho phép thực hiện các truy vấn trên mọi trạng thái lịch sử của tập dữ liệu một cách tối ưu.",
+        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư phần mềm khi xây dựng các hệ thống quản lý dữ liệu phức tạp đòi hỏi tính toàn vẹn và khả năng kiểm soát phiên bản mạnh mẽ."
+      ],
+      "summary_en": [
+        "The article analyzes the persistent segment tree data structure, an essential solution for distributed storage systems and databases requiring advanced time travel query capabilities.",
+        "The operational mechanism focuses on sharing nodes across different versions to save memory, enabling optimal queries over any historical state of the dataset efficiently.",
+        "This knowledge provides high practical value for software engineers building complex data management systems that demand strong data integrity and robust version control."
+      ],
+      "originalTitle": "Cấu trúc dữ liệu và Giải thuật Bài 115: Cây phân đoạn bền vững (Persistent Segment Tree) - Lưu trữ và truy vấn mọi phiên bản lịch sử của dữ liệu",
+      "url": "https://viblo.asia/p/cau-truc-du-lieu-va-giai-thuat-bai-115-cay-phan-doan-ben-vung-persistent-segment-tree-luu-tru-va-truy-van-moi-phien-ban-lich-su-cua-du-lieu-Nj4vgOpvJ6r",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Data Structures",
+        "Algorithms",
+        "Databases",
+        "Persistent Segment Tree",
+        "Software Engineering"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-02T00:23:32.000Z",
+      "contentSnippet": "Trong các bài toán hệ thống lưu trữ và cơ sở dữ liệu phân tán, nhu cầu truy vấn dữ liệu theo trục thời gian (Time-travel Query, Snapshot Isolation, cơ...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f7db346c601d810a",
+      "title_vi": "Đừng để AI biến bạn thành lập trình viên copy-paste: 7 sai lầm khi dùng trí tuệ nhân tạo học code",
+      "title_en": "Stop Letting AI Turn You Into a Copy-Paste Developer: 7 Mistakes When Learning Programming With AI",
+      "summary_vi": [
+        "Sự bùng nổ của các trợ lý lập trình thông minh như ChatGPT hay Claude đang thay đổi hoàn toàn cách người mới bắt đầu tiếp cận với ngành công nghệ thông tin và học viết mã nguồn.",
+        "Lạm dụng công cụ tự động sinh mã mà không hiểu rõ bản chất thuật toán sẽ dẫn đến những lỗ hổng kiến thức nền tảng trầm trọng trong tư duy logic và kỹ năng giải quyết vấn đề.",
+        "Lập trình viên cần biết cách kết hợp công cụ hỗ trợ thông minh một cách có chọn lọc để rèn luyện tư duy cốt lõi thay vì phụ thuộc hoàn toàn vào các đoạn mã có sẵn."
+      ],
+      "summary_en": [
+        "The rapid growth of intelligent coding assistants like ChatGPT and Claude is completely transforming how beginners approach the information technology industry and learn software development.",
+        "Overusing automated code generation tools without thoroughly understanding algorithmic principles leads to critical gaps in foundational knowledge, logical thinking, and problem-solving skills.",
+        "Developers must learn how to selectively integrate smart assistive tools to sharpen their core reasoning capabilities rather than depending entirely on pre-written code snippets."
+      ],
+      "originalTitle": "Đừng để AI biến bạn thành “dev copy-paste”: 7 sai lầm khi dùng AI để học lập trình",
+      "url": "https://viblo.asia/p/dung-de-ai-bien-ban-thanh-dev-copy-paste-7-sai-lam-khi-dung-ai-de-hoc-lap-trinh-OQJwzOxp4MP",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "AI",
+        "ChatGPT",
+        "Programming",
+        "Software Development",
+        "Learning"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-01T22:22:44.000Z",
+      "contentSnippet": "Hầu như ai mới học code bây giờ cũng dùng ChatGPT, Claude hay Gemini. AI giải thích lỗi trong vài giây, viết hàm trong vài giây. Nhưng có một cái bẫy:...",
+      "authorName": "Tommy Nick",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "daab7196ccb1c52e",
+      "title_vi": "Biểu tượng Apple Touch: Biểu tượng iOS mà trang web của bạn đang bỏ quên",
+      "title_en": "apple-touch-icon: the iOS icon your website forgot",
+      "summary_vi": [
+        "Việc thiếu thẻ liên kết apple-touch-icon trong mã nguồn HTML khiến các trang web trở nên kém chuyên nghiệp khi người dùng iPhone lưu trực tiếp đường dẫn trang lên màn hình chính thiết bị di động.",
+        "Bằng cách khai báo chính xác kích thước và đường dẫn hình ảnh đồ họa thông qua thẻ meta chuyên dụng, nhà phát triển web có thể tối ưu hóa giao diện hiển thị biểu tượng ứng dụng trên hệ điều hành iOS.",
+        "Việc bổ sung chi tiết nhỏ này mang lại trải nghiệm người dùng hoàn hảo hơn, nâng cao độ nhận diện thương hiệu và thể hiện sự tinh tế trong quy trình phát triển giao diện web hiện đại."
+      ],
+      "summary_en": [
+        "The absence of the apple-touch-icon link tag in the HTML source code causes websites to look unprofessional when iPhone users save site links directly to their mobile home screens.",
+        "By correctly declaring image dimensions and file paths through dedicated meta tags, web developers can optimize the visual display of application icons on the iOS operating system.",
+        "Adding this minor detail delivers a more seamless user experience, enhances brand recognition, and demonstrates thorough attention to detail in modern web front-end development."
+      ],
+      "originalTitle": "apple-touch-icon: the iOS icon your website forgot",
+      "url": "https://viblo.asia/p/apple-touch-icon-the-ios-icon-your-website-forgot-wd43ExzXLX9",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iOS",
+        "Web Development",
+        "HTML",
+        "UI/UX",
+        "Mobile"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-01T21:26:00.000Z",
+      "contentSnippet": "Drop an apple-touch-icon link tag into your HTML and iOS will love you. Skip it, and every iPhone user who saves your site to their home screen gets.....",
+      "authorName": "Easy Twentyeight",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "f891cdaf136344b0",
       "title_vi": "Kiến trúc đồng bộ tin nhắn Local-first SQLite và hàng đợi BullMQ cho ứng dụng quản lý đa tài khoản realtime",
@@ -33,6 +135,74 @@
       "publishedAt": "2026-11-01T19:12:00.000Z",
       "contentSnippet": "Khi xây dựng một hệ thống nhắn tin hợp nhất (Unified Inbox) cho phép vận hành đồng thời hàng chục tài khoản chat trên cùng một màn hình — chạy xuyên s...",
       "authorName": "quy le",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "eced6d7fe42d85d1",
+      "title_vi": "Toán học đã thay đổi và chúng ta phải thích ứng với trí tuệ nhân tạo",
+      "title_en": "Mathematics has changed. Let's act like it",
+      "summary_vi": [
+        "Sự kiện công ty trí tuệ nhân tạo phát hành hàng trăm bài báo nghiên cứu đánh dấu bước ngoặt lịch sử khi máy móc chính thức có khả năng đóng góp mang tính đột phá cho nhiều lĩnh vực toán học.",
+        "Bất chấp những tranh cãi về tiêu chuẩn trích dẫn học thuật và chất lượng tài liệu do hệ thống tự động tạo ra, công nghệ này vẫn tạo ra những tác động mạnh mẽ đến phương pháp nghiên cứu truyền thống.",
+        "Cộng đồng toán học cần chủ động thay đổi cách thức tuyển dụng, xuất bản bài báo và đào tạo sinh viên thay vì lo lắng trước sự lấn át của các tập đoàn công nghệ lớn."
+      ],
+      "summary_en": [
+        "The release of hundreds of research papers by an artificial intelligence company marks a historical turning point where machines officially demonstrate the capability to make groundbreaking contributions across mathematics.",
+        "Despite controversies regarding academic citation standards and the quality of automatically generated documents, this technology continues to exert profound impacts on traditional research methodologies.",
+        "The mathematical community needs to proactively adapt its hiring practices, publishing standards, and student education rather than merely worrying about the dominance of major technology corporations."
+      ],
+      "originalTitle": "Mathematics has changed. Let's act like it",
+      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Mathematics",
+        "Research",
+        "OpenAI"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-01T18:28:42.000Z",
+      "contentSnippet": "[This is a guest post by Frank Calegari. This blog post was initially written in a different file format and converted using AI. — T.] The release by OpenAI on October 6 of over 700 research papers was a watershed in the history of mathematics. AI is now undeniably capable of making groundbreaking c",
+      "authorName": "smilelamp",
+      "upvotes": 125,
+      "commentsCount": 146
+    },
+    {
+      "id": "d8dc2fdd2caed9dd",
+      "title_vi": "iPhone 18 Pro Max ghi nhận mức giảm giá đầu tiên tại thị trường Việt Nam",
+      "title_en": "iPhone 18 Pro Max records its first price reduction in the Vietnamese market",
+      "summary_vi": [
+        "Sau hơn sáu tuần chính thức lên kệ tại thị trường Việt Nam, dòng điện thoại thông minh cao cấp mới nhất của Apple vẫn duy trì mức giá niêm yết ban đầu tại các chuỗi bán lẻ lớn.",
+        "Tuy nhiên, một số cửa hàng bán lẻ quy mô nhỏ hơn đã bắt đầu áp dụng những đợt điều chỉnh giảm giá đầu tiên nhằm kích cầu người tiêu dùng và tăng tính cạnh tranh trong giai đoạn cuối năm.",
+        "Động thái điều chỉnh giá bán phần cứng di động này phản ánh sức mua thực tế của thị trường, đồng thời mang lại cơ hội tiếp cận thiết bị công nghệ cao với chi phí tối ưu hơn cho người dùng."
+      ],
+      "summary_en": [
+        "After more than six weeks of official release in the Vietnamese market, Apple's latest high-end smartphone lineup continues to maintain its initial listed price across major retail chains.",
+        "However, some smaller-scale retail stores have begun implementing the first price reduction adjustments to stimulate consumer demand and enhance competitiveness during the end-of-year shopping season.",
+        "This hardware pricing adjustment reflects the actual market purchasing power while providing users with an opportunity to access high-end mobile technology at a more optimized cost."
+      ],
+      "originalTitle": "iPhone 18 Pro Max giảm giá",
+      "url": "https://genk.vn/iphone-18-pro-max-giam-gia-165261101153841958.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "Mobile",
+        "Retail",
+        "Smartphones"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-01T12:54:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/1/avatar1793522258686-1793522260123169389463.jpg",
+      "contentSnippet": "Sau hơn 6 tuần lên kệ tại Việt Nam, iPhone 18 Pro Max chính hãng vẫn được các chuỗi bán lẻ lớn giữ nguyên giá niêm yết, khởi điểm 41,99 triệu đồng. Tuy nhiên tại 1 số cửa hàng, mẫu điện thoại mới của Apple đã có mức giảm đầu tiên.",
+      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -4179,6 +4349,42 @@
       "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "29ef6f0a11bf8711",
+      "title_vi": "Mưu kế thứ ba mươi hai: Trí tuệ nhân tạo ghi nhận lệnh rút tiền và P xem đó là bằng chứng xác thực",
+      "title_en": "Stratagems #32: The AI Logged a Withdrawal. P Took It as Proof.",
+      "summary_vi": [
+        "Bài viết khám phá cách các hệ thống trí tuệ nhân tạo ghi lại dữ liệu kiểm toán giả mạo thực tế, nơi các kỹ sư cài bẫy thông minh để đánh lừa thuật toán theo dõi hoạt động mạng.",
+        "Hệ thống giám sát tiếp tục xử lý các luồng dữ liệu giả định trong khi thực thể chính đã được di chuyển sang phân khúc bảo mật khác nhằm qua mặt hệ thống kiểm tra.",
+        "Vụ việc làm nổi bật những rủi ro tiềm ẩn trong việc phụ thuộc hoàn toàn vào nhật ký kiểm toán tự động của trí tuệ nhân tạo, đòi hỏi quy trình kiểm tra bảo mật chặt chẽ hơn."
+      ],
+      "summary_en": [
+        "The article explores how artificial intelligence systems record audit data that fakes reality, where clever engineers set traps to deceive algorithms monitoring network activities.",
+        "The monitoring system continues to process hypothetical data streams while the main entity has been moved to another security segment to bypass the inspection mechanism.",
+        "The incident highlights potential risks in relying entirely on automated artificial intelligence audit logs, demanding stricter security verification processes for modern systems."
+      ],
+      "originalTitle": "Stratagems #32: The AI Logged a Withdrawal. P Took It as Proof.",
+      "url": "https://dev.to/xulingfeng/stratagems-32-the-ai-logged-a-withdrawal-p-took-it-as-proof-2jo2",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "AI",
+        "Security",
+        "Audit Logs",
+        "Surveillance",
+        "Algorithms"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-27T16:46:17.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsenpd6txz4k8ooplo6yj.png",
+      "contentSnippet": "Make empty what is already empty. Let doubt breed inside doubt. — The 36 Stratagems, The Empty Fort...",
+      "authorName": "xulingfeng",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3941526%2Faae40319-0a84-40c7-8434-832b0e75c708.gif",
+      "upvotes": 115,
+      "commentsCount": 85
     },
     {
       "id": "50bd77690e0ce0ea",
@@ -8340,209 +8546,6 @@
       "authorName": "Stevie Bonifield",
       "upvotes": 0,
       "commentsCount": 0
-    },
-    {
-      "id": "60b56cc3037dbda3",
-      "title_vi": "Công ty Block của Jack Dorsey ra mắt mô hình trí tuệ nhân tạo trò chuyện giống như một người bạn mới vụng về",
-      "title_en": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
-      "summary_vi": [
-        "Công ty Block do Jack Dorsey sáng lập vừa chính thức công bố một mô hình trí tuệ nhân tạo tiên tiến mang tên Dessa được huấn luyện hoàn toàn từ các cuộc hội thoại thực tế của con người.",
-        "Mô hình này vận hành theo cơ chế xử lý âm thanh trực tiếp hai chiều toàn phần, cho phép thực hiện các đoạn giao tiếp bằng giọng nói có độ tự nhiên cao nhưng đôi khi vẫn xuất hiện những tình huống khá bất ngờ.",
-        "Sự kiện này đánh dấu một bước tiến quan trọng trong công nghệ xử lý giọng nói tự nhiên, mở ra tiềm năng ứng dụng các trợ lý ảo thông minh hơn cho cộng đồng phát triển phần mềm và công nghệ toàn cầu."
-      ],
-      "summary_en": [
-        "Block, the company founded by Jack Dorsey, has officially announced an advanced artificial intelligence model named Dessa trained entirely from scratch using real human conversations.",
-        "The model operates on a full-duplex speech-to-speech mechanism, enabling highly natural voice interactions although occasionally exhibiting uncanny or awkward conversational behaviors.",
-        "This release marks a significant milestone in natural speech processing technology, opening up new potential for developing smarter virtual assistants within the global tech community."
-      ],
-      "originalTitle": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Artificial Intelligence",
-        "Speech Processing",
-        "Conversational AI",
-        "Block",
-        "Machine Learning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T19:32:39.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS536_AI_HALLUCINATION_B.png?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan",
-      "authorName": "Jay Peters",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b1ecf9fa14f8f24e",
-      "title_vi": "Nhiều website chính phủ hoạt động trở lại, khắc phục lỗ hổng PHP có thể mất nhiều năm",
-      "title_en": "Many government websites are back up and running, fixing PHP vulnerabilities can take years",
-      "summary_vi": [
-        "Ngày 22-10, nhiều website chính phủ hoạt động trở lại sau khi vá lỗ hổng PHP, nhưng nguy cơ tin tặc khai thác vẫn còn, và việc khắc phục có thể kéo dài nhiều năm.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Nhiều website chính phủ hoạt động trở lại, khắc phục lỗ hổng PHP có thể mất nhiều năm.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Nhiều website chính phủ hoạt động trở lại, khắc phục lỗ hổng PHP có thể mất nhiều năm."
-      ],
-      "summary_en": [
-        "On October 22, many government websites returned to work after patching PHP vulnerabilities, but the risk of hackers exploiting them remains, and the fix could take years.",
-        "In-depth technical breakdown and implementation mechanisms introduced in Many government websites are back up and running, fixing PHP vulnerabilities can take years.",
-        "Practical engineering impact and actionable takeaways for developers building with Many government websites are back up and running, fixing PHP vulnerabilities can take years."
-      ],
-      "originalTitle": "Nhiều website chính phủ hoạt động trở lại, khắc phục lỗ hổng PHP có thể mất nhiều năm",
-      "url": "https://tuoitre.vn/nhieu-website-chinh-phu-hoat-dong-tro-lai-khac-phuc-lo-hong-php-co-the-mat-nhieu-nam-1002610231814333.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "PHP"
-      ],
-      "hotScore": 96,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-23T18:31:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/23/lo-hong-php-1792753396817904420403-0-0-382-611-crop-1792753417574471019380.png",
-      "contentSnippet": "Ngày 22-10, nhiều website chính phủ hoạt động trở lại sau khi vá lỗ hổng PHP, nhưng nguy cơ tin tặc khai thác vẫn còn, và việc khắc phục có thể kéo dài nhiều năm.",
-      "authorName": "TTXVN",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a8ae8a4728b9c5fa",
-      "title_vi": "Ra đa cơ hội cho lập trình viên số 22: Học bổng Basis 50.000 đô la, Nghiên cứu sinh Trí tuệ Nhân tạo Perplexity và Cuộc thi phân tích dữ liệu câu lạc bộ bóng đá Barcelona",
-      "title_en": "Dev Opportunity Radar #22: $50K Basis Fellowship, Perplexity AI Research Fellowship, and FC Barcelona Analytics Hackathon",
-      "summary_vi": [
-        "Bài viết giới thiệu bản tin định kỳ tổng hợp các cơ hội tài chính, chương trình học bổng và cuộc thi hackathon hấp dẫn dành riêng cho cộng đồng lập trình viên và nhà nghiên cứu công nghệ trên toàn cầu.",
-        "Các chương trình nổi bật bao gồm học bổng trị giá năm mươi nghìn đô la từ Basis, chương trình nghiên cứu trí tuệ nhân tạo của Perplexity cùng cuộc thi phân tích dữ liệu trận đấu bóng đá sử dụng dữ liệu thực tế.",
-        "Những nguồn tài nguyên này mang đến cơ hội tuyệt vời để các kỹ sư phần mềm nâng cao kỹ năng chuyên môn, tiếp cận công nghệ tác nhân thông minh và mở rộng mạng lưới quan hệ trong ngành."
-      ],
-      "summary_en": [
-        "The article introduces a regular newsletter compiling financial opportunities, fellowship programs, and exciting hackathons specifically aimed at the global community of software developers and technology researchers.",
-        "Key featured programs include a fifty thousand dollar fellowship from Basis, Perplexity artificial intelligence research initiative, alongside a football match data analytics hackathon utilizing real match datasets.",
-        "These resources provide excellent opportunities for software engineers to elevate their professional skills, access intelligent agent technologies, and expand their professional networks within the industry."
-      ],
-      "originalTitle": "Dev Opportunity Radar #22: $50K Basis Fellowship, Perplexity AI Research Fellowship, and FC Barcelona Analytics Hackathon",
-      "url": "https://dev.to/devengers/dev-opportunity-radar-22-50k-basis-fellowship-perplexity-ai-research-fellowship-and-fc-4806",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Data Analytics",
-        "Software Engineering",
-        "Fellowship"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T18:29:07.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnkr4pyevncepf1nth6r2.jpeg",
-      "contentSnippet": "TL;DR Welcome back to Dev Opportunity Radar! This is a weekly series where I share opportunities,...",
-      "authorName": "Hemapriya Kanagala",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3307586%2F2dffaf97-946d-44a6-8a39-07d94a72e07d.png",
-      "upvotes": 59,
-      "commentsCount": 4
-    },
-    {
-      "id": "dc4fd45579d863df",
-      "title_vi": "Tối ưu hóa hiển thị video trên giao diện web từ ảnh tĩnh",
-      "title_en": "Optimizing Video Display on Web Interfaces from Static Images",
-      "summary_vi": [
-        "Bài viết đề xuất phương pháp tối ưu hóa trải nghiệm người dùng trên frontend bằng cách hiển thị ảnh tĩnh trước khi cho phép người dùng chủ động phát video minh họa.",
-        "Giải pháp này giúp giảm tải băng thông ban đầu cho trang web, cải thiện đáng kể thời gian tải trang và tránh làm phiền người dùng với các tệp đa phương tiện tự động chạy.",
-        "Đây là một kỹ thuật thiết kế giao diện thực tiễn và tinh tế, giúp các lập trình viên frontend cân bằng hoàn hảo giữa hiệu suất hệ thống và trải nghiệm thị giác của người xem."
-      ],
-      "summary_en": [
-        "The article proposes a method to optimize user experience on the frontend by displaying a static image first before allowing users to manually play instructional video clips.",
-        "This solution helps reduce initial bandwidth load for web pages, significantly improves loading times, and prevents disturbing users with auto-playing multimedia files.",
-        "This is a practical and refined interface design technique that helps frontend developers achieve a perfect balance between system performance and viewer visual experience."
-      ],
-      "originalTitle": "Từ ảnh sang video miễn phí: hiển thị ảnh tĩnh trước, để người dùng chủ động phát",
-      "url": "https://viblo.asia/p/tu-anh-sang-video-mien-phi-hien-thi-anh-tinh-truoc-de-nguoi-dung-chu-dong-phat-RlL5eOk8LbB",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Frontend",
-        "UX/UI",
-        "Web Performance",
-        "Optimization"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-23T17:32:40.000Z",
-      "contentSnippet": "Bạn đã có một clip minh họa ngắn. Việc tiếp theo trên frontend không nhất thiết là đặt nó chạy vòng lặp ngay đầu trang. Người đọc cần hiểu nội dung tr...",
-      "authorName": "fluxpro net",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "02609553e43cfb8e",
-      "title_vi": "Lựa chọn mô hình Claude phù hợp cho từng tác vụ: Haiku, Sonnet hay Opus và bài toán tối ưu chi phí",
-      "title_en": "Choosing the Right Claude Model for Tasks: Haiku, Sonnet, or Opus and Cost Optimization Strategies",
-      "summary_vi": [
-        "Việc lựa chọn các mô hình trí tuệ nhân tạo lớn dựa theo cảm tính mạnh nhất thường gây lãng phí tài chính nghiêm trọng mà không đem lại cải thiện chất lượng thực tế cho kết quả công việc.",
-        "Bài viết cung cấp phương pháp phân loại tác vụ kỹ thuật để chọn đúng phiên bản mô hình Claude cùng bảng giá cập nhật chi tiết nhằm kiểm soát hiệu quả chi phí vận hành hệ thống.",
-        "Kỹ sư phần mềm và nhà quản lý công nghệ cần nắm vững chiến lược phân bổ mô hình thông minh để cân bằng hoàn hảo giữa hiệu năng xử lý và ngân sách triển khai ứng dụng."
-      ],
-      "summary_en": [
-        "Selecting large artificial intelligence models based solely on the intuition of maximum strength often leads to severe financial waste without delivering any actual quality improvements for work results.",
-        "The article provides a method for categorizing technical tasks to select the correct Claude model version along with detailed updated pricing tables to effectively control system operating costs.",
-        "Software engineers and technology managers must master smart model allocation strategies to achieve a perfect balance between processing performance and application deployment budgets."
-      ],
-      "originalTitle": "Claude cho từng loại tác vụ: chọn Haiku, Sonnet hay Opus — và cái giá phải trả",
-      "url": "https://viblo.asia/p/claude-cho-tung-loai-tac-vu-chon-haiku-sonnet-hay-opus-va-cai-gia-phai-tra-8X4EjWZAJN2",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Claude",
-        "LLM",
-        "Cost Optimization",
-        "Machine Learning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T17:16:33.000Z",
-      "contentSnippet": "Chọn model theo cảm giác \"mạnh nhất\" thường làm hóa đơn tăng mà kết quả không khá hơn. Dưới đây là cách chọn theo loại việc, kèm bảng giá ngày 23 thán...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "bf44de9e544de4cb",
-      "title_vi": "Giới thiệu mô hình Kimi K3.1 Pro và K3.1 Pro Tốc độ cao với khả năng xử lý vượt trội",
-      "title_en": "Introducing Kimi K3.1 Pro and K3.1 Pro Highspeed with Advanced Capabilities",
-      "summary_vi": [
-        "Công ty vừa chính thức ra mắt dòng mô hình trí tuệ nhân tạo mới mang tên Kimi K3.1 Pro cùng phiên bản tốc độ cao, hỗ trợ cửa sổ ngữ cảnh lên tới một triệu token cho các tác vụ phức tạp.",
-        "Mô hình được tối ưu hóa toàn diện từ kiến trúc huấn luyện tăng cường, cơ sở hạ tầng sandbox cho đến suy luận ngữ cảnh dài, giúp đạt hiệu suất cao ngang ngửa các mô hình độc quyền mạnh nhất.",
-        "Sự kiện này đánh dấu bước tiến lớn trong việc cải thiện năng lực lập trình và nghiên cứu tài chính của các nhà phát triển, mở ra khả năng ứng dụng thực tế vô cùng rộng rãi cho cộng đồng công nghệ."
-      ],
-      "summary_en": [
-        "The company has officially launched a new artificial intelligence model series called Kimi K3.1 Pro along with a highspeed version, supporting a context window of up to one million tokens for complex tasks.",
-        "The model features comprehensive optimization across reinforcement learning frameworks, sandbox infrastructure, and long-context inference, achieving performance levels matching the strongest proprietary models currently available.",
-        "This release marks a significant milestone in improving programming and financial research capabilities for developers, opening up extensive practical application prospects for the broader technology community."
-      ],
-      "originalTitle": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
-      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "LLM",
-        "Kimi",
-        "Reinforcement Learning"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T16:59:08.000Z",
-      "contentSnippet": "Scroll to exploreIntroducing Kimi K3.1 ProWe're introducing Kimi K3.1 Pro, the first model in our new K3.1 series and our most capable 3T-class open-weight model to date, with a 1-million-token context window. It delivers substantial improvements across coding, 3D creation, financial research, and o",
-      "authorName": "Jowsey",
-      "upvotes": 490,
-      "commentsCount": 286
     }
   ]
 }
