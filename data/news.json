@@ -1,7 +1,283 @@
 {
-  "lastUpdated": "2026-10-31T16:35:55.877Z",
+  "lastUpdated": "2026-11-01T03:29:42.366Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "21e7e72aaa6a7886",
+      "title_vi": "Elasticsearch Bài học 30: Giải quyết Deep Paging hiệu quả với Search After API và Scroll API",
+      "title_en": "Elasticsearch Lesson 30: Efficiently Resolving Deep Paging with Search After and Scroll APIs",
+      "summary_vi": [
+        "Bài viết tiếp tục chuỗi chuyên đề Elasticsearch, tập trung giải quyết triệt để vấn đề phân trang sâu vượt quá giới hạn an toàn mặc định của hệ thống.",
+        "Tác giả phân tích chi tiết cơ chế hoạt động, ưu nhược điểm cũng như cách áp dụng Search After API và Scroll API để tối ưu hiệu suất truy vấn dữ liệu lớn.",
+        "Kiến thức này giúp các kỹ sư phần mềm xây dựng hệ thống tìm kiếm ổn định, ngăn chặn hoàn toàn nguy cơ tràn bộ nhớ RAM do các câu lệnh truy vấn phân trang sâu."
+      ],
+      "summary_en": [
+        "This article continues the Elasticsearch series, focusing on thoroughly resolving the deep paging issue that exceeds the default safety limits of the system.",
+        "The author provides a detailed analysis of operational mechanisms, pros and cons, and implementation methods for Search After and Scroll APIs to optimize large-scale data queries.",
+        "This knowledge helps software engineers build stable search systems and completely prevent out-of-memory risks caused by deep paging query statements."
+      ],
+      "originalTitle": "Elasticsearch Bài học 30: Giải quyết Deep Paging hiệu quả với Search After API và Scroll API",
+      "url": "https://viblo.asia/p/elasticsearch-bai-hoc-30-giai-quyet-deep-paging-hieu-qua-voi-search-after-api-va-scroll-api-pPLkNQXnJRZ",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Elasticsearch",
+        "Database",
+        "Backend",
+        "Performance"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-01T08:39:21.000Z",
+      "contentSnippet": "Ở Bài 29, chúng ta đã hiểu tại sao giới hạn index.maxresultwindow = 10000 là tấm khiên bảo vệ cụm Elasticsearch khỏi thảm họa OOM (Out Of Memory) do D...",
+      "authorName": "Nguyễn Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "d9f085cb514ac6d9",
+      "title_vi": "Elasticsearch Bài học 28: Giải mã thuật toán xếp hạng - TF/IDF và BM25 hoạt động ra sao?",
+      "title_en": "Elasticsearch Lesson 28: Decoding Relevance Scoring Algorithms - How TF/IDF and BM25 Work",
+      "summary_vi": [
+        "Bài viết phân tích tầm quan trọng của thuật toán xếp hạng trong hệ thống tìm kiếm thương mại điện tử, nơi sự khác biệt nhỏ về thứ tự kết quả có thể ảnh hưởng trực tiếp đến doanh thu và trải nghiệm người dùng.",
+        "Tác giả đi sâu vào cơ chế vận hành của TF/IDF và BM25, giải thích cách Elasticsearch tính toán điểm số mức độ liên quan dựa trên tần suất xuất hiện của từ khóa và độ hiếm của thuật ngữ trong toàn bộ tập dữ liệu.",
+        "Thông qua việc nắm vững các thuật toán này, kỹ sư có thể tối ưu hóa truy vấn tìm kiếm, cải thiện độ chính xác của hệ thống và nâng cao hiệu suất chuyển đổi cho các ứng dụng web quy mô lớn hiện nay."
+      ],
+      "summary_en": [
+        "The article analyzes the critical importance of ranking algorithms in e-commerce search systems, where minor differences in result ordering can directly impact revenue and overall user experience for online shoppers.",
+        "The author explores the mechanics of TF/IDF and BM25, explaining how Elasticsearch calculates relevance scores based on term frequency and the inverse document frequency of keywords across the entire dataset.",
+        "By mastering these algorithms, engineers can optimize search queries, improve system accuracy, and enhance conversion rates for large-scale web applications, providing a more intuitive and effective search experience for end users."
+      ],
+      "originalTitle": "Elasticsearch Bài học 28: Giải mã thuật toán Scoring (Relevance Score) - TF/IDF và BM25 hoạt động ra sao?",
+      "url": "https://viblo.asia/p/elasticsearch-bai-hoc-28-giai-ma-thuat-toan-scoring-relevance-score-tfidf-va-bm25-hoat-dong-ra-sao-ymJXDZprJkq",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Elasticsearch",
+        "SearchEngine",
+        "Algorithms",
+        "Backend",
+        "DataRetrieval"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-11-01T08:39:08.000Z",
+      "contentSnippet": "Trong hệ thống E-commerce, sự chênh lệch giữa Top 1 và Top 10 kết quả tìm kiếm có thể định đoạt doanh thu hàng tỷ đồng. Khi một khách hàng tìm \"sữa rử...",
+      "authorName": "Nguyễn Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "2f771ae70b68c7d0",
+      "title_vi": "Giải mã biểu tượng hình tam giác trên thanh thông báo điện thoại Samsung và cách khắc phục",
+      "title_en": "Decoding the Triangle Notification Icon on Samsung Smartphones and How to Fix It",
+      "summary_vi": [
+        "Bài viết phân tích nguyên nhân xuất hiện biểu tượng hình tam giác trên thanh thông báo của các dòng điện thoại Samsung, chủ yếu do tính năng tiết kiệm dữ liệu di động được kích hoạt nhằm ngăn chặn các ứng dụng chạy ngầm.",
+        "Hệ điều hành One UI cung cấp cơ chế quản lý linh hoạt cho phép người dùng thiết lập danh sách ngoại lệ trong phần cài đặt kết nối để các ứng dụng quan trọng tiếp tục truyền tải dữ liệu mà không bị gián đoạn.",
+        "Việc hiểu rõ các thông báo cảnh báo từ phần cứng và hệ thống Android giúp người dùng tối ưu hóa hiệu suất thiết bị di động, đồng thời xử lý triệt để các vấn đề liên quan đến kết nối mạng."
+      ],
+      "summary_en": [
+        "The article analyzes the root cause of the triangle notification icon appearing on Samsung smartphones, which is primarily triggered by the data saver feature designed to restrict background application data consumption.",
+        "The One UI operating system provides a flexible management mechanism allowing users to configure whitelist exceptions within network settings so essential applications can continue data transmission without interruption.",
+        "Understanding these system and hardware warning notifications helps users optimize mobile device performance effectively while resolving underlying network connectivity issues in daily operations."
+      ],
+      "originalTitle": "Lời nhắc nhở dành cho tất cả những người dùng Samsung khi điện thoại xuất hiện biểu tượng hình tam giác",
+      "url": "https://genk.vn/loi-nhac-nho-danh-cho-tat-ca-nhung-nguoi-dung-samsung-khi-dien-thoai-xuat-hien-bieu-tuong-hinh-tam-giac-165261101000614706.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Samsung",
+        "Android",
+        "One UI",
+        "Mobile",
+        "System"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-01T03:20:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/31/avatar1793466244077-17934662449591446146178.jpg",
+      "contentSnippet": "Bỗng một ngày xuất hiện một biểu tượng hình tam giác lạ kỳ trên thanh trạng thái của chiếc điện thoại thì đừng quá hoảng hốt.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "7533a8d017f39ede",
+      "title_vi": "Apple phát hành bản cập nhật iOS mới cho người dùng iPhone",
+      "title_en": "Apple officially releases new iOS update for iPhone users worldwide",
+      "summary_vi": [
+        "Tập đoàn công nghệ Apple chính thức tung ra bản cập nhật hệ điều hành di động mới mang tên iOS nhằm cung cấp các tính năng cải tiến quan trọng.",
+        "Bản nâng cấp phần mềm này tập trung tối ưu hóa hiệu năng hệ thống, vá các lỗ hổng bảo mật tiềm ẩn và cải thiện thời lượng pin cho thiết bị.",
+        "Người dùng trên toàn cầu có thể tiến hành cập nhật trực tiếp qua giao thức không dây OTA để trải nghiệm những tính năng mới nhất từ nhà sản xuất."
+      ],
+      "summary_en": [
+        "Technology giant Apple has officially rolled out the latest mobile operating system update known as iOS to deliver crucial feature enhancements.",
+        "This software upgrade focuses heavily on optimizing system performance, patching potential security vulnerabilities, and improving battery life across devices.",
+        "Users worldwide can now perform wireless OTA updates directly on their hardware to experience the newest capabilities provided by the manufacturer."
+      ],
+      "originalTitle": "iPhone có iOS mới, lên thôi anh em,",
+      "url": "https://tinhte.vn/thread/iphone-co-ios-moi-len-thoi-anh-em.4188898/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iOS",
+        "iPhone",
+        "Mobile",
+        "Software Update"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-01T03:09:53.000Z",
+      "contentSnippet": "[ATTACH] Ảnh minh họa giao diện iOS 27.2. Nguồn: MacRumors. Apple chính thức phát hành iOS 27.2 (và iPadOS 27.2) ngày 26/10/2026 theo PDT — khoảng 27/10 giờ Việt Nam. Đây là bản cập nhật lớn đầu...",
+      "authorName": "Quocxi",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5c024bd616590fc2",
+      "title_vi": "Trải nghiệm màn hình cảm ứng trên MacBook Pro và giá trị thực tế cho dân sáng tạo",
+      "title_en": "The Touchscreen Experience on MacBook Pro and Practical Value for Creative Professionals",
+      "summary_vi": [
+        "Bài viết thảo luận về trải nghiệm sử dụng màn hình cảm ứng trên dòng máy tính xách tay cao cấp MacBook Pro, đánh giá tính hữu dụng của nó trong các tác vụ hàng ngày của người dùng công nghệ.",
+        "Việc tích hợp cảm ứng mang lại sự thuận tiện rõ rệt khi thực hiện các công việc chuyên sâu như sản xuất âm nhạc, thiết kế đồ họa không gian ba chiều hoặc chỉnh sửa hình ảnh chuyên nghiệp.",
+        "Tính năng này tuy không phải là nhu cầu cốt lõi bắt buộc đối với mọi lập trình viên nhưng vẫn mở ra góc nhìn mới về khả năng tương tác phần cứng và phần mềm trong hệ sinh thái."
+      ],
+      "summary_en": [
+        "The article discusses the touchscreen user experience on high-end MacBook Pro laptops, evaluating its practical usefulness in the daily workflows of technology enthusiasts and modern professionals.",
+        "Integrating touch capabilities provides noticeable convenience when executing intensive computing tasks such as music production, three-dimensional graphic design, or professional image editing.",
+        "Although this feature is not a mandatory core requirement for every developer, it introduces new perspectives regarding hardware and software interaction within the broader computing ecosystem."
+      ],
+      "originalTitle": "Tôi có thể ít dùng màn hình cảm ứng trên MacBook Pro, nhưng hiểu vì sao có người sẽ thấy hữu ích",
+      "url": "https://genk.vn/toi-co-the-it-dung-man-hinh-cam-ung-tren-macbook-pro-nhung-hieu-vi-sao-co-nguoi-se-thay-huu-ich-165261101033324731.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "MacBook Pro",
+        "Apple",
+        "Hardware",
+        "UI UX",
+        "Tech Trends"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-01T02:30:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/31/avatar1793478658994-179347865939939889059.png",
+      "contentSnippet": "Làm nhạc, thiết kế 3D hay chỉnh ảnh đều có những lúc sẽ tiện hơn nếu tương tác trên màn hình. Màn hình cảm ứng trên MacBook Pro có thể hữu ích ở những khoảnh khắc như vậy, dù không phải tính năng ai cũng cần mỗi ngày.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "da2c209a6778d7a1",
+      "title_vi": "Apple phát hành bản cập nhật bảo mật cho dòng iPhone cũ",
+      "title_en": "Apple Releases Security Update for Legacy iPhone Models",
+      "summary_vi": [
+        "Apple vừa phát hành bản cập nhật hệ điều hành iOS 18.7.11 dành riêng cho các dòng máy cũ như iPhone Xs, Xs Max và Xr vốn đã ngừng hỗ trợ nâng cấp phiên bản mới.",
+        "Bản vá bảo mật lần này tập trung khắc phục ba lỗ hổng nghiêm trọng, trong đó nổi bật là lỗi thành phần CoreGraphics mang mã CVE-2026-86950 cho phép kẻ xấu thực thi mã độc từ xa.",
+        "Động thái này khẳng định cam kết lâu dài của hãng trong việc bảo vệ dữ liệu người dùng trên các thiết bị phần cứng đời cũ trước những nguy cơ tấn công mạng phức tạp hiện nay."
+      ],
+      "summary_en": [
+        "Apple has recently released the iOS 18.7.11 software update specifically tailored for legacy smartphone models including the iPhone Xs, Xs Max, and Xr which no longer qualify for major upgrades.",
+        "This crucial security patch focuses on addressing three vulnerabilities, most notably a CoreGraphics component flaw tracked as CVE-2026-86950 that could potentially allow remote attackers to execute arbitrary code.",
+        "This move demonstrates the company's long-term commitment to safeguarding user data on older hardware devices against increasingly sophisticated cyber security threats in the mobile ecosystem."
+      ],
+      "originalTitle": "Tin vui cho người dùng 3 dòng iPhone cũ",
+      "url": "https://genk.vn/tin-vui-cho-nguoi-dung-3-dong-iphone-cu-16526103123495563.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "iOS",
+        "Apple",
+        "Cybersecurity",
+        "Mobile",
+        "Vulnerability"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-01T02:24:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/31/avatar1793465164268-1793465166434953105612.png",
+      "contentSnippet": "Dù đã có tuổi đời gần 8 năm, 3 mẫu iPhone này vẫn được Apple mang đến tin vui bất ngờ.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c36724ae315092d3",
+      "title_vi": "Một số hãng máy tính đưa hoạt động sản xuất trở lại Trung Quốc",
+      "title_en": "Several PC manufacturers are shifting their production operations back to China",
+      "summary_vi": [
+        "Nhiều hãng sản xuất máy tính lớn như HP, Asus và Acer quyết định chuyển một phần hoạt động chế tạo trở lại Trung Quốc nhằm tiết kiệm chi phí trong bối cảnh giá cả leo thang.",
+        "Động thái này xuất phát từ tình trạng thiếu hụt chip nhớ trầm trọng do cơn sốt trí tuệ nhân tạo, khiến giá linh kiện đầu vào tăng cao và buộc các doanh nghiệp phải tối ưu hóa chuỗi cung ứng.",
+        "Việc quay lại thị trường Trung Quốc giúp tận dụng lực lượng lao động giàu kinh nghiệm cùng hệ sinh thái linh kiện hoàn chỉnh, đồng thời thúc đẩy hợp tác với các nhà cung cấp giá phải chăng."
+      ],
+      "summary_en": [
+        "Major PC manufacturers such as HP, Asus, and Acer have decided to shift part of their manufacturing operations back to China to cut costs amid rising price inflation.",
+        "This move is driven by severe memory chip shortages caused by the artificial intelligence boom, which has significantly increased component costs and forced companies to optimize their supply chains.",
+        "Returning to the Chinese market helps leverage an experienced workforce and a complete component ecosystem while fostering partnerships with affordable local suppliers."
+      ],
+      "originalTitle": "Một số hãng máy tính đưa hoạt động sản xuất trở lại Trung Quốc",
+      "url": "https://vnexpress.net/mot-so-hang-may-tinh-dua-hoat-dong-san-xuat-tro-lai-trung-quoc-5138992.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Hardware",
+        "Supply Chain",
+        "AI Chips",
+        "Semiconductor",
+        "Manufacturing"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-01T02:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/31/acervnexpress1-1793380835-3797-1793380999.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Cl7GJxRNotu2kg8CH434Sw",
+      "contentSnippet": "Nhiều nhà sản xuất máy tính lớn như HP, Asus, Acer chuyển một phần hoạt động sản xuất trở lại Trung Quốc để tiết kiệm chi phí thời bão giá.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6c5c007d281d289b",
+      "title_vi": "Elon Musk và Mark Zuckerberg chuyển sang sử dụng thuật ngữ siêu trí tuệ thay thế cho trí tuệ nhân tạo",
+      "title_en": "Elon Musk and Mark Zuckerberg shift to using superintelligence instead of artificial intelligence",
+      "summary_vi": [
+        "Elon Musk và Mark Zuckerberg đồng loạt sử dụng cụm từ siêu trí tuệ trong các báo cáo tài chính gần đây theo định hướng chính sách từ chính quyền tổng thống Mỹ.",
+        "Sự thay đổi thuật ngữ này phản ánh xu hướng dịch chuyển trong cách định nghĩa các hệ thống trí tuệ nhân tạo thế hệ mới với năng lực vượt trội hơn hẳn con người.",
+        "Việc chuẩn hóa thuật ngữ trong các tài liệu tài chính quan trọng có thể tạo ra những tác động lớn đến định hướng chiến lược đầu tư công nghệ trong tương lai."
+      ],
+      "summary_en": [
+        "Elon Musk and Mark Zuckerberg both adopted the term superintelligence in recent financial reports following regulatory directions from the US administration.",
+        "This terminology shift reflects a growing trend in redefining next-generation artificial intelligence systems possessing capabilities far exceeding human intelligence.",
+        "Standardizing this terminology in critical financial disclosures may significantly influence long-term strategic technology investment directions across the global industry."
+      ],
+      "originalTitle": "Musk và Zuckerberg dùng 'siêu trí tuệ' thay 'AI'",
+      "url": "https://vnexpress.net/musk-va-zuckerberg-dung-sieu-tri-tue-thay-ai-5139138.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Superintelligence",
+        "Elon Musk",
+        "Meta",
+        "Tech Trends"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-31T23:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/31/afp-v1-highres-presidenttrumps-6970-5601-1793430901.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=gbTGWFSOsZM37xg-clZ14g",
+      "contentSnippet": "Elon Musk và Mark Zuckerberg đều sử dụng cụm từ \"siêu trí tuệ\" trong báo cáo tài chính, theo yêu cầu được Tổng thống Mỹ Donald Trump đưa ra hồi tháng 9.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "43e1b3edbae3498d",
       "title_vi": "Mẹo hay kiểm tra kiểu dữ liệu trong lập trình TypeScript với thư viện is-kit",
@@ -102,6 +378,74 @@
       "authorName": "tiniCoder",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "2f8f2a14b01c9a21",
+      "title_vi": "HackerTube: Nền tảng video trực tuyến được xây dựng hoàn toàn từ các gợi ý trên Hacker News",
+      "title_en": "HackerTube: YouTube built from videos recommended by HN",
+      "summary_vi": [
+        "Một lập trình viên đã chán ngấy thuật toán đề xuất nội dung kém chất lượng trên mạng xã hội nên quyết định tự xây dựng một nền tảng video riêng mang tên HackerTube dựa trên các nội dung được cộng đồng công nghệ chia sẻ.",
+        "Hệ thống sử dụng các tác vụ tự động hóa kết hợp mô hình ngôn ngữ lớn để trích xuất, lọc bỏ thư rác từ hàng chục nghìn bình luận trên mạng xã hội kỹ thuật, tổng hợp thành hàng nghìn video chất lượng cao được phân loại theo nhiều chủ đề.",
+        "Dự án cho thấy tiềm năng to lớn của việc ứng dụng các công cụ lập trình hỗ trợ bởi trí tuệ nhân tạo trong việc hiện thực hóa các ý tưởng sản phẩm phần mềm phức tạp chỉ trong thời gian ngắn với sự can thiệp thủ công tối thiểu."
+      ],
+      "summary_en": [
+        "A frustrated developer tired of low-quality algorithmic recommendations decided to build a custom video platform called HackerTube based purely on curated content shared by the tech community.",
+        "The system leverages advanced language models and automated workflows to parse, filter spam from tens of thousands of technical comments, and aggregate thousands of high-quality videos across diverse topics.",
+        "This project demonstrates the immense potential of AI-assisted coding tools in rapidly transforming complex software product ideas into reality with minimal manual engineering effort required."
+      ],
+      "originalTitle": "HackerTube: YouTube built from videos recommended by HN",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Claude Code",
+        "LLM",
+        "Web Development",
+        "Python"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-31T19:56:53.000Z",
+      "contentSnippet": "It was Friday night at 11pm, I was tired, I went to YouTube to watch something and realized that I was looking at an enshittified wall of slop. Insanely exaggerated thumbnails, dumb recommendations of the same tired topics, truly terrible idiocracy-grade content. I'm sure this algorithm works well f",
+      "authorName": "karpathy",
+      "upvotes": 842,
+      "commentsCount": 269
+    },
+    {
+      "id": "5545fe355a55d4d0",
+      "title_vi": "Lỗ hổng sử dụng bộ nhớ sau khi giải phóng trong TCP: CVE-2026-98432 với điểm CVSS tối mức 9.8",
+      "title_en": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "summary_vi": [
+        "Nhân Linux đã phát hành các bản vá khẩn cấp nhằm khắc phục lỗ hổng nghiêm trọng dạng sử dụng bộ nhớ sau khi giải phóng trong quá trình bắt tay kết nối mạng IPv4.",
+        "Lỗ hổng này ảnh hưởng đến mọi phiên bản nhân từ 4.4 trở đi, cho phép kẻ tấn công từ xa thực thi mã độc quyền root thông qua các trình lắng nghe mạng.",
+        "Các nhà quản trị hệ thống cần nhanh chóng cập nhật các bản vá mới nhất từ nhà phân phối để bảo vệ hệ thống máy chủ trước nguy cơ bị tấn công."
+      ],
+      "summary_en": [
+        "Linux stable kernels have shipped critical emergency patches to fix a severe use-after-free vulnerability located within the IPv4 TCP handshake process.",
+        "This vulnerability impacts all kernel versions starting from 4.4, allowing remote attackers to execute arbitrary root commands via multipath network listeners.",
+        "System administrators must promptly update their server kernels with the latest vendor releases to secure infrastructure against active exploitation risks."
+      ],
+      "originalTitle": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Linux",
+        "Security",
+        "TCP",
+        "Kernel",
+        "CVE"
+      ],
+      "hotScore": 94,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-31T19:16:30.000Z",
+      "contentSnippet": "#Overview Linux's stable kernels shipped a fix on October 11 and 15, 2026 for CVE-2026-98432, a use-after-free in the IPv4 TCP handshake that a remote, unauthenticated peer can reach. The kernel's own CVE Numbering Authority (CNA) scores it CVSS 3.1 9.8, Critical. The fixed releases are 5.10.272, 5.",
+      "authorName": "oger",
+      "upvotes": 377,
+      "commentsCount": 180
     },
     {
       "id": "39206b4ecd7e36a2",
@@ -1688,6 +2032,42 @@
       "authorName": "kuberwastaken",
       "upvotes": 1538,
       "commentsCount": 403
+    },
+    {
+      "id": "a87283b1a694d6ea",
+      "title_vi": "Không có con người nào viết mã giỏi hơn các mô hình ngôn ngữ lớn ư? Giỏi hơn ở điểm nào?",
+      "title_en": "No Human Will Ever Write Code Better Than LLMs? Better at What?",
+      "summary_vi": [
+        "Bài viết phân tích tuyên bố gây tranh cãi cho rằng các mô hình ngôn ngữ lớn sẽ luôn vượt trội con người trong việc lập trình, từ đó đặt ra câu hỏi sâu sắc về bản chất thực sự của từ giỏi hơn.",
+        "Tác giả chỉ ra rằng các hệ thống trí tuệ nhân tạo chỉ được huấn luyện để tạo ra phản hồi hợp lý thay vì thực sự thấu hiểu các ràng buộc phức tạp của hệ thống phần mềm thực tế.",
+        "Kỹ sư phần mềm cao cấp không chỉ đo lường bằng số dòng mã tạo ra mỗi phút mà còn thể hiện qua năng lực phán đoán, nhận biết rủi ro và quyết định khi nào không nên viết mã."
+      ],
+      "summary_en": [
+        "The article dissects a controversial claim suggesting that large language models will always outperform human developers, thereby questioning the true meaning of being better at coding.",
+        "The author points out that artificial intelligence systems are merely trained to generate plausible responses rather than genuinely understanding the intricate constraints of real-world software systems.",
+        "Senior software engineers are defined not by lines of code per minute, but by their judgment, risk recognition, and the critical decision of when code should not be written."
+      ],
+      "originalTitle": "No Human Will Ever Write Code Better Than LLMs? Better at What?",
+      "url": "https://dev.to/dannwaneri/no-human-will-ever-write-code-better-than-llms-better-at-what-1dme",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Software Engineering",
+        "LLM",
+        "Code Generation",
+        "Developer Productivity"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-10-29T09:34:19.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyef0r2qscs29hbs0j5ba.jpg",
+      "contentSnippet": "A tweet went around saying: \"No human will ever write code better than LLMs. Accept this fact, stop...",
+      "authorName": "Daniel Nwaneri",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3606168%2F7684e1e1-b986-4ee3-ae5b-56db2b97d286.jpg",
+      "upvotes": 51,
+      "commentsCount": 48
     },
     {
       "id": "03fce39203513476",
@@ -8154,380 +8534,6 @@
       "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/23/dsc01318-jpg-1792744084-5346-1792744385.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=nGKXaLz7yQOg7ZQSMiFWwA",
       "contentSnippet": "SHTP ATP Lab đặt tại khu Công nghệ cao TP HCM, các trường đại học, cao đẳng, viện nghiên cứu, doanh nghiệp có thể cùng khai thác hạ tầng để thực hành.",
       "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b8c092cc31a1baa5",
-      "title_vi": "iPhone Duo: Mẹo tùy chỉnh hiển thị để tránh bị che khuất khi sử dụng ốp lưng",
-      "title_en": "iPhone Duo: Display Adjustment Tips to Prevent Content Clipping with Protective Cases",
-      "summary_vi": [
-        "Bài viết hướng dẫn người dùng thiết bị iPhone Duo thực hiện các thao tác điều chỉnh giao diện màn hình nhằm đảm bảo nội dung hiển thị không bị che khuất bởi các loại ốp lưng bảo vệ có viền dày hoặc thiết kế đặc thù.",
-        "Giải pháp kỹ thuật tập trung vào việc tinh chỉnh các thiết lập hiển thị trong hệ điều hành, cho phép người dùng thay đổi tỷ lệ khung hình hoặc vị trí các thành phần giao diện để tối ưu hóa không gian hiển thị thực tế trên thiết bị.",
-        "Việc áp dụng các mẹo này giúp nâng cao trải nghiệm người dùng, đảm bảo tính thẩm mỹ và khả năng tương tác chính xác với các nút điều khiển trên màn hình cảm ứng mà không cần phải thay đổi phụ kiện bảo vệ đắt tiền."
-      ],
-      "summary_en": [
-        "The article provides a guide for iPhone Duo users on how to adjust screen display settings to ensure that digital content remains fully visible and is not obstructed by thick or uniquely designed protective cases.",
-        "The technical solution focuses on tweaking operating system display settings, allowing users to modify aspect ratios or reposition interface elements to optimize the actual usable screen space on the device hardware.",
-        "Implementing these tips enhances the overall user experience, ensuring aesthetic consistency and precise interaction with on-screen touch controls without the need to replace expensive protective accessories for their mobile devices."
-      ],
-      "originalTitle": "iPhone Duo: Mẹo chỉnh màn hình để gắn ốp không mất nội dung",
-      "url": "https://tinhte.vn/thread/iphone-duo-meo-chinh-man-hinh-de-gan-op-khong-mat-noi-dung.4186435/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iPhone",
-        "iOS",
-        "Mobile UX",
-        "Display Settings",
-        "Hardware Optimization"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-23T13:44:52.000Z",
-      "contentSnippet": "iPhone Duo: Mẹo chỉnh màn hình để gắn ốp không mất nội dung",
-      "authorName": "cuhiep",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "fdf2cba4ba9d1f3b",
-      "title_vi": "Ugreen ra mắt loạt phụ kiện mới cho iPhone 18 và iPhone Duo, có cả ốp lưng E-Ink độc đáo",
-      "title_en": "Ugreen launches a new series of accessories for iPhone 18 and iPhone Duo, including unique E-Ink cases",
-      "summary_vi": [
-        "Đây là sản phẩm đặc biệt nhất trong loạt phụ kiện mới của Ugreen.",
-        "Ốp tích hợp màn hình E-Ink màu 3,7 inch ở mặt lưng, hỗ trợ 6 màu, cho phép người dùng thay đổi hình ảnh hiển thị theo sở thích.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Ugreen ra mắt loạt phụ kiện mới cho iPhone 18 và iPhone Duo, có cả ốp lưng E-Ink độc đáo."
-      ],
-      "summary_en": [
-        "This is the most special product in Ugreen's new accessories series.",
-        "The case integrates a 3.7-inch color E-Ink screen on the back, supporting 6 colors, allowing users to change the displayed image according to their preferences.",
-        "Practical engineering impact and actionable takeaways for developers building with Ugreen launches a new series of accessories for iPhone 18 and iPhone Duo, including unique E-Ink cases."
-      ],
-      "originalTitle": "Ugreen ra mắt loạt phụ kiện mới cho iPhone 18 và iPhone Duo, có cả ốp lưng E-Ink độc đáo",
-      "url": "https://genk.vn/ugreen-ra-mat-loat-phu-kien-moi-cho-iphone-18-va-iphone-duo-co-ca-op-lung-e-ink-doc-dao-165261023165449132.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 94,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-23T13:09:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/23/avatar1792749167251-1792749176967117273322-49-0-1009-1536-crop-1792749198176542749342.jpg",
-      "contentSnippet": "Ugreen mang đến loạt sản phẩm mới cho iPhone 18 và iPhone Duo, từ ốp lưng, kính bảo vệ camera đến mẫu ốp tích hợp màn hình E-Ink ở mặt lưng.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "739b4beaf8c5887c",
-      "title_vi": "Microsoft phát hiện hacker Trung Quốc dùng tác nhân trí tuệ nhân tạo xâm nhập hàng nghìn tổ chức",
-      "title_en": "Microsoft Reveals Chinese Hackers Leveraged AI Agents to Compromise Thousands of Organizations",
-      "summary_vi": [
-        "Hãng công nghệ Microsoft vừa đưa ra cảnh báo về một nhóm tin tặc có liên quan đến nhà nước Trung Quốc đang sử dụng các khung làm việc trí tuệ nhân tạo mã nguồn mở nhằm tự động hóa quy trình tấn công mạng.",
-        "Kỹ thuật này cho phép kẻ gian khai thác lỗ hổng và xâm nhập thành công vào dịch vụ sao lưu đám mây ConnectWise, ảnh hưởng nghiêm trọng đến hơn hai nghìn hai trăm năm mươi tổ chức trên toàn cầu.",
-        "Sự kiện này đánh dấu bước chuyển biến nguy hiểm khi các nhóm tấn công mạng bắt đầu tận dụng khả năng tự trị của tác nhân thông minh để mở rộng quy mô và tốc độ xâm nhập hệ thống."
-      ],
-      "summary_en": [
-        "Microsoft recently issued a critical security warning regarding a state-sponsored Chinese hacker group utilizing open-source artificial intelligence agent frameworks to fully automate their malicious cyber attack campaigns.",
-        "This sophisticated attack technique enabled threat actors to successfully exploit vulnerabilities and breach ConnectWise cloud backup services, severely impacting over twenty-two hundred fifty organizations globally.",
-        "This incident marks a dangerous milestone as threat actors begin harnessing the autonomous capabilities of intelligent agents to scale their operations and dramatically accelerate system intrusion speeds."
-      ],
-      "originalTitle": "Microsoft: hacker Trung Quốc dùng AI agent xâm nhập ConnectWise, tấn công hơn 2.250 tổ chức",
-      "url": "https://tinhte.vn/thread/microsoft-hacker-trung-quoc-dung-ai-agent-xam-nhap-connectwise-tan-cong-hon-2-250-to-chuc.4186234/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "AI Agents",
-        "Microsoft",
-        "Cloud Security",
-        "Threat Intelligence"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T12:48:40.000Z",
-      "contentSnippet": "Microsoft cho biết một nhóm hacker có liên hệ với nhà nước Trung Quốc đã dùng một framework AI agent mã nguồn mở để tự động hóa các cuộc tấn công, trong đó có vụ xâm nhập dịch vụ sao lưu đám mây...",
-      "authorName": "TMC26",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "3d0c12692b6d847a",
-      "title_vi": "Oryza Systems mang góc nhìn giám sát thông minh đến sự kiện HPT D-DAY 2026",
-      "title_en": "Oryza Systems Brings Smart Surveillance Insights to HPT D-DAY 2026",
-      "summary_vi": [
-        "Tại sự kiện công nghệ HPT D-DAY diễn ra vào ngày 15 tháng 10 năm 2026, Công ty Cổ phần Công nghệ Oryza Systems đã giới thiệu những giải pháp giám sát thông minh tiên tiến.",
-        "Hệ thống ứng dụng trí tuệ nhân tạo để khai thác dữ liệu video thời gian thực, giúp doanh nghiệp nhận diện sự cố, đưa ra cảnh báo kịp thời và tối ưu hóa quy trình vận hành.",
-        "Công nghệ này mang lại giá trị thực tiễn cao cho việc nâng cao hiệu suất quản trị an ninh, mở ra hướng đi mới trong việc ứng dụng thị giác máy tính vào doanh nghiệp hiện đại."
-      ],
-      "summary_en": [
-        "At the HPT D-DAY technology event held on October 15, 2026, Oryza Systems Technology Joint Stock Company showcased advanced smart surveillance solutions.",
-        "The system leverages artificial intelligence to process real-time video data, enabling enterprises to detect anomalies, deliver timely alerts, and optimize operational workflows.",
-        "This technology delivers high practical value for enhancing security management efficiency, paving the way for advanced computer vision adoption in modern enterprises."
-      ],
-      "originalTitle": "Oryza Systems mang góc nhìn giám sát thông minh đến HPT D-DAY 2026",
-      "url": "https://genk.vn/oryza-systems-mang-goc-nhin-giam-sat-thong-minh-den-hpt-d-day-2026-165261023180140876.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Computer Vision",
-        "Smart Surveillance",
-        "Enterprise Solutions"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T12:30:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/23/photo1792740261131-17927402623031565164307-17927533071501980717541.jpg",
-      "contentSnippet": "Ngày 15/10/2026 tại HPT D-DAY 2026, Công ty Cổ phần Công nghệ Oryza Systems (Oryza Systems) đã mang đến góc nhìn về ứng dụng AI trong giám sát, giúp doanh nghiệp khai thác dữ liệu video để nhận diện, cảnh báo kịp thời và hỗ trợ vận hành hiệu quả.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e2243cf8564bc23d",
-      "title_vi": "Jensen Huang: Cảnh báo về ngày tận thế do trí tuệ nhân tạo chỉ là chiêu trò gây chú ý",
-      "title_en": "Jensen Huang: AI apocalypse warnings are just cheap attention-seeking tactics",
-      "summary_vi": [
-        "Tại hội nghị GTC diễn ra ở Berlin, CEO Nvidia Jensen Huang đã bác bỏ những lo ngại cực đoan về việc trí tuệ nhân tạo sẽ xóa sổ nhân loại, khẳng định đây chỉ là những phát ngôn thiếu căn cứ nhằm thu hút sự chú ý của dư luận.",
-        "Ông nhấn mạnh sự bùng nổ của các trung tâm dữ liệu AI đang tạo ra hàng triệu việc làm mới trong các lĩnh vực hạ tầng kỹ thuật, xây dựng và kỹ thuật mạng, đồng thời thúc đẩy sự phát triển mạnh mẽ của hệ sinh thái các công ty khởi nghiệp công nghệ.",
-        "Thay vì lo sợ viễn cảnh tiêu cực, ông kêu gọi cộng đồng công nghệ tiếp cận trí tuệ nhân tạo với tinh thần lạc quan có trách nhiệm, tập trung giải quyết các bài toán thực tế về an toàn và tối ưu hóa hiệu suất công việc trong tương lai."
-      ],
-      "summary_en": [
-        "At the GTC conference in Berlin, Nvidia CEO Jensen Huang dismissed extreme fears regarding AI wiping out humanity, asserting that such alarmist claims are merely baseless statements designed to capture public attention and generate sensationalist headlines.",
-        "He highlighted that the rapid expansion of AI data centers is creating millions of new jobs across infrastructure, construction, and network engineering, while simultaneously fueling the growth of a vibrant ecosystem for innovative technology startups.",
-        "Instead of fearing negative scenarios, he urged the tech community to approach artificial intelligence with responsible optimism, focusing on addressing practical challenges regarding safety and optimizing professional workflows in the evolving digital landscape."
-      ],
-      "originalTitle": "Jensen Huang: 'Tận thế AI là nỗ lực gây chú ý rẻ tiền'",
-      "url": "https://vnexpress.net/jensen-huang-tan-the-ai-la-no-luc-gay-chu-y-re-tien-5136003.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Nvidia",
-        "Data Centers",
-        "Tech Trends",
-        "Jensen Huang"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T12:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/23/ap26268019310901-1792733613-1285-1792733957.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FtyB49X0_RUai40hihPdqg",
-      "contentSnippet": "Jensen Huang, CEO Nvidia, cho rằng những cảnh báo về việc AI xóa sổ loài người không chính xác mà chỉ nhằm thu hút sự chú ý của dư luận.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f53e948d054a8a0d",
-      "title_vi": "Cùng công nghệ nano-texture, màn hình iPhone gập và iPad Pro khác nhau thế nào?",
-      "title_en": "How does the nano-texture display on foldable iPhone compare to the iPad Pro?",
-      "summary_vi": [
-        "Apple đã từng bước tích hợp công nghệ màn hình phủ kính nano-texture từ dòng máy tính bảng cao cấp sang các thiết bị di động màn hình gập mới nhất của hãng.",
-        "Bề mặt kính khắc nano giúp tản sáng hiệu quả, giảm hiện tượng chói lóa khi sử dụng dưới ánh đèn mạnh hoặc ngoài trời nắng gắt mà vẫn giữ nguyên độ chi tiết hiển thị.",
-        "Việc phổ biến công nghệ vật liệu hiển thị này trên các thiết bị cầm tay mang lại trải nghiệm thị giác tốt hơn, đặt ra tiêu chuẩn mới cho thiết kế phần cứng di động."
-      ],
-      "summary_en": [
-        "Apple has gradually integrated nano-texture glass display technology from high-end tablets into their latest generation of foldable mobile hardware devices.",
-        "The nano-etched glass surface effectively scatters light, reducing glare under strong artificial lighting or direct sunlight while preserving crisp visual details.",
-        "Standardizing this advanced display material technology across handheld devices delivers superior visual experiences, setting new benchmarks for mobile hardware engineering."
-      ],
-      "originalTitle": "Cùng là nano-texture, màn hình trên iPhone Duo khác gì iPad Pro?",
-      "url": "https://genk.vn/cung-la-nano-texture-man-hinh-tren-iphone-duo-khac-gi-ipad-pro-165261023180008898.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "iPad Pro",
-        "Display Technology",
-        "Hardware"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T11:59:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/23/avatar1792752977489-1792752979923378882057.jpg",
-      "contentSnippet": "Cùng mang tên nano-texture, màn hình iPhone Duo và iPad Pro lại được tạo ra theo hai cách khác nhau.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9a67b58753a4646b",
-      "title_vi": "Tòa án Úc buộc Táo khuyết mở iPhone cho chợ ứng dụng bên thứ ba từ ngày 1 tháng 3 năm 2027, trò chơi Fortnite chính thức trở lại kho ứng dụng",
-      "title_en": "Australian Court Forces Apple to Open iPhone to Third-Party App Stores by March 1, 2027, Fortnite Returns to App Store",
-      "summary_vi": [
-        "Tòa án Liên bang Úc vừa ban hành phán quyết lịch sử yêu cầu hãng công nghệ lớn phải cho phép người dùng tại đây cài đặt các kho ứng dụng của bên thứ ba trực tiếp lên thiết bị di động của họ.",
-        "Quyết định pháp lý này buộc hệ điều hành di động phải phá vỡ cơ chế độc quyền lâu năm, cho phép các bên trung gian phân phối phần mềm và xử lý thanh toán độc lập tương tự như những thay đổi đã diễn ra tại Liên minh Châu Âu.",
-        "Sự kiện này đánh dấu bước ngoặt quan trọng đối với hệ sinh thái phát triển phần mềm di động, mở ra cơ hội lớn cho các nhà phát triển trò chơi và dịch vụ số tiếp cận người dùng mà không bị ràng buộc bởi chiết khấu hoa hồng cao."
-      ],
-      "summary_en": [
-        "The Federal Court of Australia has issued a historic ruling requiring the major tech company to allow users in the region to install third-party application stores directly onto their mobile devices.",
-        "This legal decision forces the mobile operating system to break its long-standing monopoly, enabling intermediaries to distribute software and handle independent payment processing similar to changes implemented in the European Union.",
-        "This event marks a significant turning point for the mobile software development ecosystem, opening up major opportunities for developers and digital services to reach users without being tied to high commission fees."
-      ],
-      "originalTitle": "Tòa án Úc buộc Apple mở iPhone cho chợ ứng dụng bên thứ ba từ 1/3/2027, Fortnite trở lại App Store",
-      "url": "https://tinhte.vn/thread/toa-an-uc-buoc-apple-mo-iphone-cho-cho-ung-dung-ben-thu-ba-tu-1-3-2027-fortnite-tro-lai-app-store.4186240/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iOS",
-        "App Store",
-        "Mobile",
-        "Fortnite"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T10:13:03.000Z",
-      "contentSnippet": "Tòa án Úc buộc Apple mở iPhone cho chợ ứng dụng bên thứ ba từ 1/3/2027, Fortnite trở lại App Store Tòa án Liên bang Úc vừa yêu cầu Apple cho phép người dùng iPhone có tài khoản Apple tại Úc cài...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "6348d8f826cea6e4",
-      "title_vi": "Ghé Minh Tuấn Mobile xem mở bán iPhone màn hình gập: hơn 4.000 đơn đặt trước, phiên bản Trắng Ánh Sao thu hút đông đảo khách hàng",
-      "title_en": "Minh Tuan Mobile Launches Foldable iPhone: Over 4000 Pre-orders and Starlight White Version Dominates Sales",
-      "summary_vi": [
-        "Minh Tuấn Mobile đã chính thức tổ chức sự kiện mở bán dòng sản phẩm iPhone màn hình gập mới nhất với số lượng đơn đặt trước ấn tượng vượt mốc bốn nghìn máy ngay trong ngày đầu ra mắt thị trường Việt Nam.",
-        "Sự kiện tập trung bàn giao những chiếc điện thoại màn hình gập thế hệ mới tích hợp công nghệ bản lề tiên tiến cùng cấu hình phần cứng mạnh mẽ, đáp ứng nhu cầu trải nghiệm thiết bị di động cao cấp của người dùng.",
-        "Sự quan tâm lớn từ thị trường đối với các dòng thiết bị di động đổi mới sáng tạo này tạo động lực mạnh mẽ cho các nhà bán lẻ công nghệ trong việc thúc đẩy doanh số và mở rộng hệ sinh thái phần cứng."
-      ],
-      "summary_en": [
-        "Minh Tuan Mobile officially hosted the launch event for the latest foldable iPhone lineup, recording an impressive milestone of over four thousand pre-orders on its first day entering the Vietnamese retail market.",
-        "The event focused on delivering next-generation foldable smartphones equipped with advanced hinge technology and robust hardware configurations, fulfilling user demands for cutting-edge mobile device experiences.",
-        "High market interest in these innovative mobile devices provides strong momentum for technology retailers to boost overall hardware sales and expand their high-end consumer technology ecosystems."
-      ],
-      "originalTitle": "Ghé Minh Tuấn Mobile xem mở bán iPhone Duo: hơn 4.000 đơn đặt trước, bản Trắng Ánh Sao hút khách",
-      "url": "https://tinhte.vn/thread/ghe-minh-tuan-mobile-xem-mo-ban-iphone-duo-hon-4-000-don-dat-truoc-ban-trang-anh-sao-hut-khach.4186370/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iPhone",
-        "Mobile",
-        "Foldable",
-        "Retail",
-        "Hardware"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T10:07:04.000Z",
-      "contentSnippet": "Sáng nay mình có mặt tại sự kiện mở bán iPhone Duo ở Minh Tuấn Mobile, đúng ngày 23/10/2026. Từ 8 giờ sáng, hệ thống đã chính thức mở bán và trực tiếp bàn giao chiếc iPhone màn hình gập đầu tiên...",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b942f0399e0eb8df",
-      "title_vi": "Không, mẫu điện thoại gập màn hình kép không phải là một thiết bị nhỏ gọn",
-      "title_en": "No, the iPhone Duo isn't a small phone",
-      "summary_vi": [
-        "Bài viết phân tích thực tế về kích thước của mẫu điện thoại màn hình gập mới ra mắt, làm rõ sự nhầm lẫn của người dùng khi so sánh màn hình phụ với dòng máy nhỏ gọn truyền thống trước đây.",
-        "Dù màn hình phụ có kích thước khoảng năm phẩy bốn inch, thiết bị này lại sở hữu trọng lượng nặng và độ dày đáng kể do cấu trúc phần cứng phức tạp và cơ chế gập màn hình đặc thù.",
-        "Trải nghiệm thực tế cho thấy những người yêu thích thiết bị di động nhỏ gọn sẽ cảm thấy không thoải mái khi cầm nắm lâu, ảnh hưởng trực tiếp đến xu hướng thiết kế phần cứng của nhà sản xuất trong tương lai."
-      ],
-      "summary_en": [
-        "The article analyzes the actual dimensions of the newly launched foldable phone, clarifying user confusion when comparing its secondary screen with traditional compact devices of the past.",
-        "Although the cover display measures about five point four inches, this device possesses significant weight and thickness due to complex hardware structures and specific folding mechanisms.",
-        "Practical experience shows that enthusiasts of compact mobile devices will feel uncomfortable during prolonged handling, directly affecting future hardware design trends among manufacturers."
-      ],
-      "originalTitle": "No, the iPhone Duo isn’t a small phone",
-      "url": "https://www.theverge.com/tech/1017090/iphone-duo-screen-size-mini",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Mobile Hardware",
-        "Smartphone",
-        "Design"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-23T10:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DSC04350_processed.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Don’t be fooled; only one of these is a truly small phone (it’s the iPhone 13 Mini on the left). When we published our review of the iPhone Duo, I got a lot of hopeful questions from my fellow Mini fans who took note of the cover screen's Mini-ish 5.4-inch size. \"Is this… a small phone that turns in",
-      "authorName": "Allison Johnson",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "72eba9357a8f847b",
-      "title_vi": "Mô hình DeepSeek tự tạo mã khai thác vượt vùng chứa an toàn của trình duyệt",
-      "title_en": "DeepSeek Model Generates Exploit Code to Bypass Browser Sandbox",
-      "summary_vi": [
-        "Một nhà nghiên cứu an ninh mạng đã sử dụng thành công mô hình trí tuệ nhân tạo tiên tiến của DeepSeek để tự động tạo ra đoạn mã khai thác lỗ hổng phức tạp nhằm vượt qua lớp bảo vệ cô lập của trình duyệt Chrome.",
-        "Đoạn mã được tạo ra bởi trí tuệ nhân tạo này có khả năng tận dụng các điểm yếu chưa từng được vá trong kiến trúc phần mềm, cho phép thực thi mã độc từ xa và phá vỡ cơ chế kiểm soát an ninh.",
-        "Sự kiện này gióng lên hồi chuông cảnh báo lớn về nguy cơ các hệ thống trí tuệ nhân tạo bị lạm dụng để tự động hóa quy trình tấn công mạng, đòi hỏi ngành an ninh mạng phải có những biện pháp phòng thủ chủ động hơn."
-      ],
-      "summary_en": [
-        "A cybersecurity researcher successfully utilized an advanced artificial intelligence model from DeepSeek to automatically generate a sophisticated exploit code designed to bypass the browser isolation security layer.",
-        "The code generated by this artificial intelligence is capable of exploiting previously unpatched software vulnerabilities, enabling remote code execution and dismantling security control mechanisms.",
-        "This event raises a major security alarm regarding the risk of artificial intelligence systems being abused to automate cyberattack workflows, requiring the cybersecurity industry to adopt proactive defensive measures."
-      ],
-      "originalTitle": "Mô hình DeepSeek V4.1-Flash-1017 tự tạo mã khai thác vượt sandbox của Chrome",
-      "url": "https://tinhte.vn/thread/mo-hinh-deepseek-v4-1-flash-1017-tu-tao-ma-khai-thac-vuot-sandbox-cua-chrome.4186264/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "DeepSeek",
-        "Cybersecurity",
-        "Chrome",
-        "AI",
-        "Exploit"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-23T09:57:18.000Z",
-      "contentSnippet": "Mô hình DeepSeek V4.1-Flash-1017 tự tạo mã khai thác vượt sandbox của Chrome Một nhà nghiên cứu an ninh mạng vừa sử dụng mô hình trí tuệ nhân tạo V4.1-Flash-1017 của DeepSeek để tạo thành công...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ca878d174d0dd80c",
-      "title_vi": "Tấn công thực thi mã trong chuỗi cung ứng AI/ML: Khi tải model là chạy mã độc",
-      "title_en": "Code Execution Attacks in AI/ML Supply Chains: When Loading Models Means Executing Malware",
-      "summary_vi": [
-        "Bài viết mở đầu chuỗi series nghiên cứu chuyên sâu về các cuộc tấn công chuỗi cung ứng nhắm trực tiếp vào hệ thống trí tuệ nhân tạo và học máy dưới lăng kính của đội ngũ tấn công chuyên nghiệp.",
-        "Nội dung tập trung phân tích lỗ hổng cơ chế serialization trong các định dạng mô hình phổ biến, cho phép kẻ gian chèn mã độc thực thi ngay trong quá trình người dùng tải và khởi tạo model.",
-        "Kiến thức này mang lại giá trị cảnh báo quan trọng giúp các kỹ sư bảo mật và nhà phát triển xây dựng cơ chế kiểm soát an toàn nghiêm ngặt hơn khi tích hợp các mô hình AI bên thứ ba."
-      ],
-      "summary_en": [
-        "This article initiates a comprehensive research series on supply chain attacks targeting artificial intelligence and machine learning systems from an offensive security red team perspective.",
-        "The analysis focuses on serialization vulnerabilities within popular machine model formats, enabling malicious actors to embed and execute arbitrary code during the model loading and initialization process.",
-        "This insight serves as a critical warning, helping security engineers and developers implement stringent safety controls when integrating third-party AI models into production environments."
-      ],
-      "originalTitle": "Tấn Công Thực Thi Mã Trong Chuỗi Cung Ứng AI/ML: Khi Tải Model Là Chạy Mã Độc",
-      "url": "https://viblo.asia/p/tan-cong-thuc-thi-ma-trong-chuoi-cung-ung-aiml-khi-tai-model-la-chay-ma-doc-bA468o5lLKv",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Cybersecurity",
-        "Supply Chain Attack",
-        "Malware"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-23T09:41:41.000Z",
-      "contentSnippet": "*Đây là bài đầu tiên trong series Supply Chain Attack nhằm vào hệ thống AI/ML. Series này được viết theo góc nhìn của red team, không phải để phổ biến...",
-      "authorName": "fatfish",
       "upvotes": 0,
       "commentsCount": 0
     }
