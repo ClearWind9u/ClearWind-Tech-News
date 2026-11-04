@@ -1,7 +1,629 @@
 {
-  "lastUpdated": "2026-11-03T22:44:42.502Z",
+  "lastUpdated": "2026-11-04T23:01:59.561Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "4c9fe6dc66e097c7",
+      "title_vi": "Kiểm thử mã OTP tin nhắn trong Laravel sử dụng Http::fake, Notification::fake và smoke test số thực",
+      "title_en": "Testing OTP SMS in Laravel with Http::fake, Notification::fake and real number smoke testing",
+      "summary_vi": [
+        "Bài viết chia sẻ phương pháp kiểm thử tính năng gửi mã xác thực tin nhắn OTP trong ứng dụng Laravel sử dụng dịch vụ số ảo HeroSMS phục vụ quá trình smoke test thực tế.",
+        "Tác giả kết hợp các công cụ mocking mạnh mẽ có sẵn của Laravel như Http::fake và Notification::fake để kiểm tra luồng hoạt động mà không tốn chi phí gọi API thật.",
+        "Giải pháp này giúp các lập trình viên tối ưu hóa quy trình kiểm thử tự động, đảm bảo tính ổn định của hệ thống trước khi triển khai ứng dụng lên môi trường sản xuất."
+      ],
+      "summary_en": [
+        "The article shares a method for testing OTP SMS verification features in Laravel applications using the HeroSMS virtual number service for practical smoke testing.",
+        "The author combines powerful built-in Laravel mocking tools such as Http::fake and Notification::fake to verify workflows without incurring real API call costs.",
+        "This solution helps developers optimize automated testing workflows, ensuring system stability before deploying applications to the production environment."
+      ],
+      "originalTitle": "Test OTP SMS trong Laravel: Http::fake, Notification::fake và smoke test với số thật",
+      "url": "https://viblo.asia/p/test-otp-sms-trong-laravel-httpfake-notificationfake-va-smoke-test-voi-so-that-kNLr3eGaVgA",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Laravel",
+        "PHP",
+        "Testing",
+        "SMS",
+        "Automation"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-05T03:51:08.000Z",
+      "contentSnippet": "Mình làm việc cùng HeroSMS, dịch vụ số ảo dùng ở phần smoke test. Bài viết có dùng công cụ AI; code đã được đối chiếu với tài liệu API HeroSMS và docs...",
+      "authorName": "Minh Trần",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "cea25fc8180f8064",
+      "title_vi": "Tin tặc lợi dụng các lỗ hổng trên hệ điều hành di động để tấn công thiết bị",
+      "title_en": "Hackers exploited iOS and Android flaws to infect phones",
+      "summary_vi": [
+        "Các nhóm hacker có liên quan đến chính phủ Nga đã khai thác những lỗ hổng bảo mật đã được vá trên cả hai hệ điều hành di động phổ biến nhằm tấn công người dùng truy cập vào các trang web nhạy cảm.",
+        "Cuộc tấn công sử dụng mã JavaScript độc hại được chèn vào lưu lượng truy cập để cấu hình thiết bị, sau đó tải các payload chuyên dụng nhằm đánh cắp cookie trình duyệt, mật khẩu Wi-Fi và dữ liệu cá nhân.",
+        "Sự việc này gióng lên hồi chuông cảnh báo về các chiến dịch tấn công giả mạo trang web quốc gia, đòi hỏi các nhà phát triển và chuyên gia bảo mật phải nâng cao khả năng phòng thủ trên nền tảng di động."
+      ],
+      "summary_en": [
+        "Hackers potentially linked to Russian intelligence agencies exploited previously patched security vulnerabilities in popular mobile operating systems to target visitors accessing sensitive websites.",
+        "The attack leveraged injected JavaScript code to profile visiting devices and deployed tailored payloads designed to steal browser cookies, Wi-Fi credentials, and sensitive mobile data.",
+        "This incident serves as a critical warning regarding state-sponsored web spoofing campaigns, emphasizing the urgent need for enhanced defensive measures and security hardening on mobile platforms."
+      ],
+      "originalTitle": "Hackers exploited iOS and Android flaws to infect phones",
+      "url": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
+      "sourceName": "Ars Technica",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Mobile Security",
+        "iOS",
+        "Android",
+        "Exploit"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-04T22:26:49.000Z",
+      "contentSnippet": "Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.",
+      "authorName": "\n                    Dan Goodin\n                ",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "97689e4470033f7c",
+      "title_vi": "Hệ thống an ninh gia đình của AT&T tích hợp trợ lý Gemini của Google",
+      "title_en": "Gemini for Home now plugs into AT&T’s smart security system",
+      "summary_vi": [
+        "Hệ thống an ninh nhà thông minh Connected Life của tập đoàn AT&T chính thức tích hợp giải pháp Google Home Premium cùng trợ lý ảo Gemini để nâng cao trải nghiệm người dùng.",
+        "Công nghệ trí tuệ nhân tạo này cho phép hệ thống phân tích chi tiết sự kiện từ camera an ninh, đếm số lượng vật phẩm giao hàng và tìm kiếm lịch sử video bằng ngôn ngữ tự nhiên.",
+        "Sự kiện này đánh dấu bước tiến lớn trong việc ứng dụng mô hình ngôn ngữ lớn vào các thiết bị Internet vạn vật gia dụng, mở rộng khả năng tự động hóa và bảo mật thông minh."
+      ],
+      "summary_en": [
+        "AT&T has officially integrated its Connected Life smart home security system with Google Home Premium and the Gemini virtual assistant to enhance user experience.",
+        "This artificial intelligence technology enables the system to analyze detailed security camera events, count delivered package items, and search video history using natural language queries.",
+        "This milestone highlights a major advancement in applying large language models to smart home IoT devices, expanding automation capabilities and strengthening smart security."
+      ],
+      "originalTitle": "Gemini for Home now plugs into AT&T’s smart security system",
+      "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Gemini",
+        "Smart Home",
+        "IoT",
+        "Security"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-04T20:23:24.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/att-connected-life.webp?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that can summarize home events, search your video history, and mor",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a7ef475dba278170",
+      "title_vi": "Dòng điện thoại Pixel 11 của Google đang được giảm giá tới 27 phần trăm",
+      "title_en": "Google's Pixel 11 phones are up to 27 percent off",
+      "summary_vi": [
+        "Dòng điện thoại Pixel 11 mới nhất của Google đang nhận được mức giảm giá sâu lên tới 27 phần trăm tại các nhà bán lẻ lớn trước hạn chót ngày tám tháng mười một, mang lại cơ hội sở hữu thiết bị cao cấp với chi phí tiết kiệm đáng kể cho người dùng công nghệ.",
+        "Phiên bản Pixel 11 Pro với dung lượng lưu trữ 256GB và bộ nhớ RAM 12GB hiện chỉ còn 799,99 đô la, thấp hơn 50 đô la so với mức giá trong đợt mua sắm Prime Day tháng mười, đồng thời hỗ trợ các tính năng chụp ảnh nâng cao và phần cứng mạnh mẽ.",
+        "Việc điều chỉnh giá bán này giúp các mẫu thiết bị Pixel 11 cạnh tranh mạnh mẽ hơn trên thị trường di động toàn cầu, tạo tác động lớn đến quyết định nâng cấp thiết bị của cộng đồng người dùng và các nhà phát triển ứng dụng di động."
+      ],
+      "summary_en": [
+        "Google's latest Pixel 11 smartphone lineup is currently receiving deep discounts of up to 27 percent at major retailers ahead of the November eighth deadline, providing technology users with the opportunity to acquire high-end devices at significantly reduced costs.",
+        "The Pixel 11 Pro model featuring 256GB of storage and 12GB of RAM is now priced at just 799.99 dollars, dropping 50 dollars below its October Prime Day price while maintaining support for advanced camera capabilities and robust hardware performance.",
+        "This price adjustment allows the Pixel 11 device models to compete more aggressively in the global mobile market, exerting a substantial impact on upgrade decisions within the user community and among mobile application developers."
+      ],
+      "originalTitle": "Google’s Pixel 11 phones are up to 27 percent off",
+      "url": "https://www.theverge.com/gadgets/1025370/google-pixel-11-pro-phone-deal-sale",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Google",
+        "Pixel 11",
+        "Smartphone",
+        "Mobile",
+        "Hardware"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-04T19:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Google-Pixel-11-Pro-review-photos-5.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "You can save a heck of lot of money on Google’s Pixel 11 phones through November 8th, whether you want the best-for-the-least Pixel 11, or the slightly pricier Pixel 11 Pro that takes better photos. Even the big Pixel 11 Pro XL with a longer-lasting battery is hundreds off its original price. The Pi",
+      "authorName": "Cameron Faulkner",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "dfa876a54a2df16b",
+      "title_vi": "Bản xem trước Ripple-65B: Mô hình mã hóa thông minh nguồn mở hàng đầu Mỹ",
+      "title_en": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+      "summary_vi": [
+        "Phòng thí nghiệm trí tuệ nhân tạo Ricursive Intelligence vừa công bố mô hình ngôn ngữ lớn Ripple-65B Preview, thiết lập chuẩn mực nguồn mở mới tại Hoa Kỳ chuyên về lĩnh vực mã hóa tự động hóa.",
+        "Mô hình được huấn luyện trước trên 12 nghìn tỷ token với kiến trúc dày đặc, hỗ trợ ngữ cảnh lên tới 1 triệu token và đạt 80.52 điểm trên bộ chuẩn TerminalBench 2.1.",
+        "Sản phẩm mang lại hiệu suất lập trình vượt trội với độ trễ thấp, có thể chạy hiệu quả trên các thiết bị cục bộ như nền tảng phần cứng AI nhờ tối ưu hóa phần cứng và phần mềm."
+      ],
+      "summary_en": [
+        "Ricursive Intelligence lab has released the Ripple-65B Preview language model, establishing a new U.S. open-weight benchmark specifically focused on advanced agentic coding capabilities.",
+        "The model was pretrained on 12 trillion tokens using a dense architecture, supporting up to 1 million context length and achieving 80.52 points on the TerminalBench 2.1 benchmark.",
+        "It delivers exceptional coding performance with low latency, capable of running efficiently on local hardware devices through deep co-optimization of hardware and software platforms."
+      ],
+      "originalTitle": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+      "url": "https://www.ricursive.com/ripple",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "LLM",
+        "Open-Weight",
+        "Agentic Coding",
+        "Hardware Optimization"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-04T18:53:29.000Z",
+      "contentSnippet": "Achieving U.S. Open-Weight SOTA on Agentic Coding Achieving U.S. Open-Weight SOTA on Agentic Coding Ricursive Intelligence is a full-stack artificial intelligence lab building self-improving systems by co-optimizing hardware, software, and model. To power our chip design platform, we trained a langu",
+      "authorName": "Philpax",
+      "upvotes": 176,
+      "commentsCount": 58
+    },
+    {
+      "id": "ec7e1a76c6da2f4e",
+      "title_vi": "Những cạm bẫy kỹ thuật khi di dời hệ thống bản đồ số và dịch vụ định vị khỏi Google Geocoding API",
+      "title_en": "Technical Pitfalls and Challenges When Migrating Mapping Systems Away from the Google Geocoding API",
+      "summary_vi": [
+        "Đội ngũ kỹ thuật của ERPFit đã chia sẻ những trải nghiệm thực tế và bài học xương máu khi vận hành dịch vụ bản đồ số map.vapp.vn của chính họ, đặc biệt là những tình huống xử lý lỗi của hệ thống.",
+        "Bài viết phân tích chi tiết các hiện tượng bất thường khi bộ giải mã địa chỉ trả về kết quả chính xác giả cho các chuỗi dữ liệu hoàn toàn vô nghĩa như qwerty 99999 xyz, làm lộ ra các điểm mù thuật toán.",
+        "Qua đó, kỹ sư phần mềm có cái nhìn sâu sắc hơn về việc xây dựng cơ chế kiểm định dữ liệu đầu vào và đánh giá độ tin cậy của các dịch vụ định vị thay thế cho hệ sinh thái Google."
+      ],
+      "summary_en": [
+        "The engineering team at ERPFit has shared practical experiences and vital lessons learned while operating their proprietary digital mapping service map.vapp.vn, focusing specifically on error handling scenarios.",
+        "The article analyzes in detail the anomalies when the geocoder returns false positive exact matches for completely nonsensical input strings like qwerty 99999 xyz, exposing underlying algorithmic blind spots.",
+        "This provides software engineers with deeper insights into building robust input validation mechanisms and evaluating the reliability of alternative positioning services replacing the Google ecosystem."
+      ],
+      "originalTitle": "Geocoder trả \"exact\" cho \"qwerty 99999 xyz\": những cái bẫy khi chuyển khỏi Google Geocoding API",
+      "url": "https://viblo.asia/p/geocoder-tra-exact-cho-qwerty-99999-xyz-nhung-cai-bay-khi-chuyen-khoi-google-geocoding-api-XRJ8RWmNVGq",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Geocoding",
+        "API Migration",
+        "Software Architecture",
+        "GIS",
+        "Error Handling"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-04T18:40:02.000Z",
+      "contentSnippet": "Bài của team ERPFit, đơn vị vận hành map.vapp.vn. Vì thế đây là chuyện về chính sản phẩm của team mình, kể cả những chỗ nó trả lời sai. Mọi đoạn code ...",
+      "authorName": "ERPFit Maps",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "081184f052928df0",
+      "title_vi": "Đánh giá hiệu năng chín mô hình ngôn ngữ lớn trên mười một tác vụ viết luận văn không bị Turnitin phát hiện",
+      "title_en": "Benchmarking Nine Large Language Models Across Eleven Thesis Writing Tasks To Bypass Turnitin Detection",
+      "summary_vi": [
+        "Tác giả thực hiện khảo sát và đánh giá toàn diện chín mô hình ngôn ngữ lớn khác nhau trên mười một tác vụ thực tế nhằm tìm ra giải pháp hỗ trợ viết luận văn học thuật mà không bị hệ thống kiểm đạo văn Turnitin đánh dấu.",
+        "Báo cáo cung cấp các số liệu đo lường chi tiết về tỷ lệ nhận diện trí tuệ nhân tạo, đồng thời phân tích các bộ hướng dẫn câu lệnh và kết quả đầu ra của từng mô hình cụ thể trong quá trình thử nghiệm.",
+        "Nghiên cứu mang lại góc nhìn thực tiễn về khả năng ứng dụng các công cụ sinh văn bản trong môi trường học thuật, giúp người dùng tối ưu hóa quy trình viết lách và nâng cao chất lượng nội dung."
+      ],
+      "summary_en": [
+        "The author conducted a comprehensive evaluation of nine different large language models across eleven practical tasks to determine an optimal solution for academic thesis writing without triggering Turnitin detection systems.",
+        "The report provides detailed measurement metrics regarding artificial intelligence detection rates, alongside an analysis of prompt engineering strategies and specific output results generated by each tested model.",
+        "This research delivers practical insights into applying text generation tools within academic environments, helping users optimize their writing workflows and enhance overall content quality."
+      ],
+      "originalTitle": "Dùng AI nào để viết luận văn mà không bị Turnitin đánh dấu? Tôi đã benchmark 9 mô hình ngôn ngữ lớn trên 11 tác vụ thực tế",
+      "url": "https://viblo.asia/p/dung-ai-nao-de-viet-luan-van-ma-khong-bi-turnitin-danh-dau-toi-da-benchmark-9-mo-hinh-ngon-ngu-lon-tren-11-tac-vu-thuc-te-1XVOW0Z6VMz",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "LLM",
+        "NLP",
+        "Benchmark",
+        "Academic"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-04T18:01:06.000Z",
+      "contentSnippet": "Công bố: Bài viết này được viết với sự hỗ trợ của AI (khai báo theo thông lệ cộng đồng). Tất cả số liệu benchmark, prompt, output và điểm \"AI-ness\" ...",
+      "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "93f619b42c28cff2",
+      "title_vi": "CEO OpenAI đổi tên tài khoản X thành Ram Altman sau tranh cãi về bộ nhớ",
+      "title_en": "OpenAI CEO changes X account name to Ram Altman following memory debate",
+      "summary_vi": [
+        "Sam Altman, giám đốc điều hành OpenAI, đã gây xôn xao trên mạng xã hội X khi quyết định đổi tên tài khoản cá nhân thành Ram Altman sau những tranh luận xoay quanh phát biểu về bộ nhớ RAM của hệ thống trí tuệ nhân tạo.",
+        "Sự việc bắt nguồn từ các cuộc thảo luận chuyên sâu về giới hạn phần cứng, nhu cầu mở rộng quy mô sản xuất bộ nhớ máy tính và tầm quan trọng của việc duy trì quyền kiểm soát của con người đối với các hệ thống tự động hóa tiên tiến.",
+        "Sự kiện này phản ánh mối quan tâm sâu sắc của cộng đồng công nghệ đối với bài toán hạ tầng phần cứng phục vụ trí tuệ nhân tạo và cách các nhà lãnh đạo ngành định hình tương lai giữa phần cứng và phần mềm."
+      ],
+      "summary_en": [
+        "Sam Altman, the chief executive officer of OpenAI, generated significant discussion on the X platform by temporarily changing his personal account name to Ram Altman following debates over system memory statements.",
+        "The incident originated from deep technical discussions regarding hardware constraints, the growing demand for scaling computer memory production, and the critical importance of human oversight in advanced automated systems.",
+        "This event reflects the intense focus of the technology community on the hardware infrastructure challenges required to support artificial intelligence and how industry leaders address hardware and software integration."
+      ],
+      "originalTitle": "CEO OpenAI đổi tên tài khoản X thành 'Ram Altman'",
+      "url": "https://vnexpress.net/ceo-openai-doi-ten-tai-khoan-x-thanh-ram-altman-5140868.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Hardware",
+        "OpenAI",
+        "RAM",
+        "Tech Trends"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-04T14:21:31.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/04/sam-jpeg-1793802056-6642-1793802092.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=3B9kjQUYPRYxYUCfJyNvEw",
+      "contentSnippet": "Sam Altman, CEO OpenAI, đổi tên thành Ram Altman trên X sau khi đối mặt với làn sóng phản ứng vì phát biểu liên quan đến bộ nhớ RAM.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a74532fce9be6f81",
+      "title_vi": "Trí tuệ nhân tạo bắt đầu tự động thiết kế phần cứng từ những nền tảng lịch sử đến các mô hình tiên tiến",
+      "title_en": "Artificial Intelligence begins to autonomously design hardware from historical foundations to advanced models",
+      "summary_vi": [
+        "OpenAI vừa công bố một bài viết chuyên sâu về việc gia tăng tốc độ kỹ thuật cho thế giới vật lý, đánh dấu bước tiến mới trong việc ứng dụng trí tuệ nhân tạo vào thiết kế phần cứng và cơ khí.",
+        "Công nghệ này kết hợp các nguyên lý hình học truyền thống từ lịch sử phát triển máy tính với khả năng tính toán vượt trội của các mô hình ngôn ngữ lớn để tối ưu hóa quy trình mô phỏng kỹ thuật.",
+        "Sự đột phá này mang lại tác động lớn cho ngành công nghiệp bán dẫn và kỹ thuật phần cứng, giúp giảm đáng kể thời gian phát triển sản phẩm và nâng cao độ chính xác trong thiết kế."
+      ],
+      "summary_en": [
+        "OpenAI recently published an in-depth article regarding accelerating engineering for the physical world, marking a significant step forward in applying artificial intelligence to hardware and mechanical design.",
+        "This technology combines traditional geometric principles from the history of computing with the superior computational power of large language models to optimize technical simulation workflows.",
+        "This breakthrough delivers a major impact on the semiconductor and hardware engineering industries, significantly reducing product development time and enhancing design precision."
+      ],
+      "originalTitle": "AI bắt đầu tự vẽ phần cứng: từ hình học họa hình của Monge, Sketchpad 1963 đến GPT-6 Astra",
+      "url": "https://tinhte.vn/thread/ai-bat-dau-tu-ve-phan-cung-tu-hinh-hoc-hoa-hinh-cua-monge-sketchpad-1963-den-gpt-6-astra.4189703/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Hardware",
+        "OpenAI",
+        "Engineering",
+        "Semiconductor"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-04T14:21:20.000Z",
+      "contentSnippet": "Ngày 3/11/2026 (giờ Mỹ), OpenAI đăng một bài blog có tựa đề khá khô khan: \"Accelerating engineering for the physical world\" (Tăng tốc kỹ thuật cho thế giới vật lý). Nhưng bên trong là một thí...",
+      "authorName": "Quocxi",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "19a26afcf452caeb",
+      "title_vi": "Google cho phép các trường tắt trí tuệ nhân tạo nhưng có nguy cơ mất luôn cả công cụ tìm kiếm",
+      "title_en": "Google Allows Schools to Disable AI Features While Risking Complete Loss of Search Access",
+      "summary_vi": [
+        "Google vừa triển khai các tính năng mới cho phép các cơ quan giáo dục và nhà trường kiểm soát chặt chẽ việc học sinh tiếp cận công nghệ trí tuệ nhân tạo trong không gian học đường nhằm đảm bảo an toàn thông tin.",
+        "Tuy nhiên, cơ chế cấu hình hiện tại của hệ thống lại ràng buộc chặt chẽ giữa các dịch vụ, khiến cho việc vô hiệu hóa hoàn toàn các mô hình trí tuệ nhân tạo có thể dẫn đến việc học sinh mất luôn quyền truy cập vào công cụ tìm kiếm cốt lõi.",
+        "Sự cố này đặt ra bài toán khó cho các kỹ sư phát triển sản phẩm trong việc thiết kế các mô-đun phần mềm có tính năng tùy biến linh hoạt hơn, tránh việc ràng buộc độc quyền tính năng trong môi trường giáo dục số."
+      ],
+      "summary_en": [
+        "Google has recently introduced new features that allow educational institutions and schools to strictly control students' access to artificial intelligence technology within academic environments to ensure data safety.",
+        "However, the current system configuration mechanism tightly couples these services together, meaning that completely disabling artificial intelligence models could inadvertently result in students losing access to the core search engine.",
+        "This architectural limitation poses a significant challenge for software engineers to design more flexibly customizable software modules, avoiding monolithic feature coupling within digital educational environments."
+      ],
+      "originalTitle": "Google cho trường tắt AI, học sinh có thể mất luôn Google Search",
+      "url": "https://tuoitre.vn/google-cho-truong-tat-ai-hoc-sinh-co-the-mat-luon-google-search-100261104134854655.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Google Search",
+        "Education Tech",
+        "Software Architecture",
+        "Privacy"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-04T14:16:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/4/2025-12-10t124013z1344269315mt1anadl000zi8vuurtrmadp3anadolu-17937746168231169265757-72-0-1672-2560-crop-1793774665170865751069.jpg",
+      "contentSnippet": "Google cho phép trường học kiểm soát việc học sinh sử dụng AI, nhưng nếu chọn tắt chức năng AI, các em học sinh cũng có thể mất quyền truy cập Google Search.",
+      "authorName": "THANH HIỆP⭐",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "3840893a986c7c4a",
+      "title_vi": "Kieslect, Huawei, Xiaomi: Ba mẫu đồng hồ thông minh dưới một triệu đồng tích hợp nhiều tính năng bất ngờ",
+      "title_en": "Kieslect, Huawei, and Xiaomi Offer Three Smartwatch Models Under One Million VND With Surprising Features",
+      "summary_vi": [
+        "Thị trường thiết bị đeo thông minh phân khúc giá rẻ tại Việt Nam ghi nhận sự xuất hiện của nhiều mẫu đồng hồ dưới một triệu đồng sở hữu các công nghệ tiên tiến, đáp ứng nhu cầu ngày càng cao của người tiêu dùng phổ thông.",
+        "Các sản phẩm này được trang bị màn hình AMOLED sắc nét, hỗ trợ tính năng đàm thoại qua Bluetooth, tích hợp hệ thống theo dõi sức khỏe toàn diện, phân tích giấc ngủ chính xác và thậm chí ứng dụng trí tuệ nhân tạo ChatGPT hiện đại.",
+        "Sự bùng nổ của các tính năng cao cấp trên thiết bị giá rẻ mở ra cơ hội tiếp cận công nghệ rộng rãi hơn, đồng thời đặt ra tiêu chuẩn mới cho các nhà sản xuất phần cứng trong việc tối ưu hóa chi phí và trải nghiệm người dùng."
+      ],
+      "summary_en": [
+        "The budget-friendly wearable technology market in Vietnam has witnessed the introduction of smartwatches priced under one million VND equipped with advanced capabilities to meet the growing demands of mainstream consumers.",
+        "These devices feature vibrant AMOLED displays, support Bluetooth calling functionality, integrate comprehensive health monitoring systems, provide accurate sleep analysis, and even incorporate modern ChatGPT artificial intelligence.",
+        "The proliferation of high-end features in affordable hardware expands technology accessibility while establishing new benchmarks for manufacturers aiming to optimize production costs and enhance overall user experience."
+      ],
+      "originalTitle": "Kieslect, Huawei, Xiaomi: 3 mẫu đồng hồ thông minh dưới 1 triệu đồng, tính năng nhiều bất ngờ",
+      "url": "https://genk.vn/kieslect-huawei-xiaomi-3-mau-dong-ho-thong-minh-duoi-1-trieu-dong-tinh-nang-nhieu-bat-ngo-165261104171546569.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Smartwatch",
+        "Mobile Devices",
+        "AI",
+        "Wearable Tech",
+        "IoT"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-04T13:14:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/4/avatar1793787192771-1793787193502100623892.png",
+      "contentSnippet": "Với ngân sách chưa đến 1 triệu đồng, người dùng hiện đã có thể lựa chọn những thiết bị sở hữu màn hình AMOLED, nghe gọi Bluetooth, theo dõi sức khỏe, phân tích giấc ngủ, thậm chí tích hợp cả ChatGPT AI.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b86a9154cd4b9f3e",
+      "title_vi": "Sợ Trí Tuệ Nhân Tạo cướp công, các nhà toán học hàng đầu thế giới phải giấu ý tưởng nghiên cứu",
+      "title_en": "Top Mathematicians Hide Research Ideas Out of Fear That AI Might Steal Their Work",
+      "summary_vi": [
+        "Sự phát triển mạnh mẽ của trí tuệ nhân tạo đang giúp giải quyết nhiều bài toán phức tạp kéo dài nhiều thập kỷ nhưng lại làm nảy sinh một nghịch lý lớn trong cộng đồng nghiên cứu khoa học.",
+        "Nhiều nhà toán học hàng đầu thế giới bắt đầu giữ kín các ý tưởng và bản thảo nghiên cứu chưa công bố vì lo ngại các mô hình máy học tự động khai thác và vượt mặt họ.",
+        "Tình trạng này tạo ra rào cản lớn trong việc chia sẻ tri thức mở, có nguy cơ kìm hãm tốc độ phát triển chung của toán học và các lĩnh vực khoa học máy tính ứng dụng."
+      ],
+      "summary_en": [
+        "The rapid advancement of artificial intelligence is helping solve complex problems that have persisted for decades while creating a major paradox within the scientific research community.",
+        "Many top mathematicians worldwide have started withholding unpublished research ideas and drafts out of concern that automated machine learning models might exploit and surpass them.",
+        "This situation creates a significant barrier to open knowledge sharing, potentially hindering the overall growth rate of mathematics and applied computer science fields."
+      ],
+      "originalTitle": "Sợ AI cướp công, các nhà toán học hàng đầu thế giới phải giấu ý tưởng nghiên cứu",
+      "url": "https://genk.vn/so-ai-cuop-cong-cac-nha-toan-hoc-hang-dau-the-gioi-phai-giau-y-tuong-nghien-cuu-165261104193948113.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Mathematics",
+        "Research Ethics",
+        "Tech Trends"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-04T12:39:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/4/avatar1793795905947-17937959061801183639632.jpeg",
+      "contentSnippet": "Cho dù AI đang giúp giải quyết những bài toán hóc búa đã tồn tại hàng chục năm nay, nhưng nó lại đang tạo nên một nghịch lý trong nghiên cứu, có thể kéo lùi sự phát triển của toán học.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "857e942cc1110bf4",
+      "title_vi": "Trí tuệ nhân tạo đang buộc chúng ta phải giải quyết bốn mươi năm nợ kỹ thuật",
+      "title_en": "AI is forcing us to pay off 40 years of technical debt",
+      "summary_vi": [
+        "Sự bùng nổ của trí tuệ nhân tạo đang làm lộ rõ những điểm yếu cốt lõi trong hệ thống phần mềm cũ kỹ được tích lũy qua nhiều thập kỷ phát triển ngành công nghệ thông tin.",
+        "Các kỹ sư trưởng và nhà phát triển phần mềm buộc phải sử dụng các công cụ tự động hóa thông minh để tái cấu trúc mã nguồn, dọn dẹp các tàn tích kiến trúc lỗi thời và tối ưu hóa hiệu năng hệ thống.",
+        "Xu hướng này tạo ra bước chuyển dịch lớn trong tư duy thiết kế phần mềm, đòi hỏi tổ chức phải ưu tiên chất lượng mã nguồn dài hạn để khai thác tối đa hiệu quả từ các mô hình ngôn ngữ lớn."
+      ],
+      "summary_en": [
+        "The artificial intelligence boom is exposing fundamental weaknesses in legacy software systems accumulated over decades of information technology development.",
+        "Software engineers and developers are forced to utilize intelligent automation tools to refactor source code, clean up obsolete architectural relics, and optimize system performance.",
+        "This trend creates a major shift in software design thinking, requiring organizations to prioritize long-term code quality to maximize the effectiveness of large language models."
+      ],
+      "originalTitle": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "AI",
+        "Technical Debt",
+        "Software Architecture",
+        "Refactoring",
+        "Legacy Systems"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-04T11:52:17.000Z",
+      "contentSnippet": "AI is forcing us to pay off 40 years of technical debt",
+      "authorName": "pseudolus",
+      "upvotes": 990,
+      "commentsCount": 601
+    },
+    {
+      "id": "c8a633a14ae5337d",
+      "title_vi": "Trợ lý ảo Siri của Apple chính thức tích hợp ngôn ngữ tiếng Việt trong bản cập nhật thử nghiệm hệ điều hành",
+      "title_en": "Apple Siri AI Officially Integrates Vietnamese Language in Latest Operating System Beta Update",
+      "summary_vi": [
+        "Hệ sinh thái thiết bị di động Apple vừa ghi nhận bước tiến quan trọng khi bổ sung khả năng hỗ trợ tiếng Việt cho trợ lý ảo thông minh trong phiên bản thử nghiệm mới nhất.",
+        "Tính năng xử lý ngôn ngữ tự nhiên này được tích hợp sâu vào mô hình trí tuệ nhân tạo của hệ điều hành, tối ưu hóa khả năng nhận diện giọng nói và phản hồi ngữ cảnh địa phương.",
+        "Sự thay đổi này mang lại trải nghiệm người dùng tối ưu hơn tại thị trường Việt Nam, đồng thời mở ra tiềm năng phát triển cho các ứng dụng tích hợp giọng nói trong tương lai."
+      ],
+      "summary_en": [
+        "Apple mobile ecosystem has marked a significant milestone by introducing Vietnamese language support for its intelligent virtual assistant in the latest software beta release.",
+        "This natural language processing capability is deeply integrated into the operating system's artificial intelligence model, optimizing voice recognition and local context response.",
+        "This enhancement delivers a refined user experience in the Vietnamese market while unlocking new potential for voice-integrated applications in the foreseeable future."
+      ],
+      "originalTitle": "Siri AI đã biết tiếng Việt, iPhone đời nào dùng được?",
+      "url": "https://tuoitre.vn/siri-ai-da-biet-tieng-viet-iphone-doi-nao-dung-duoc-100261104100011069.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Apple",
+        "Siri",
+        "AI",
+        "iOS",
+        "Mobile"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-04T10:55:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/4/27992-17937656928051414832759.png",
+      "contentSnippet": "Apple bổ sung tiếng Việt vào Siri AI trong bản thử nghiệm iOS 27.3, dự kiến phát hành chính thức vào tháng 12.",
+      "authorName": "THANH HIỆP⭐",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "319184f61fa48e10",
+      "title_vi": "Trợ lý ảo Siri hỗ trợ tiếng Việt có thể làm những gì trên iPhone?",
+      "title_en": "What can the Vietnamese-supported Siri assistant do on the iPhone?",
+      "summary_vi": [
+        "Trợ lý ảo Siri trên phiên bản iOS Beta đã chính thức cho phép người dùng tại Việt Nam tương tác trực tiếp bằng ngôn ngữ mẹ đẻ một cách mượt mà và tự nhiên nhất.",
+        "Hệ thống tận dụng các mô hình trí tuệ nhân tạo tiên tiến để xử lý câu lệnh giọng nói, thực hiện các tác vụ tự động trên thiết bị và trả lời thắc mắc tương tự như các chatbot hiện đại.",
+        "Bước tiến này giúp nâng cao trải nghiệm người dùng di động tại thị trường Việt Nam, đồng thời mở ra tiềm năng tích hợp sâu hơn cho các nhà phát triển ứng dụng hệ sinh thái Apple."
+      ],
+      "summary_en": [
+        "The Siri virtual assistant on the latest iOS Beta version now officially allows users in Vietnam to interact directly using their native language smoothly and naturally.",
+        "The system leverages advanced artificial intelligence models to process voice commands, execute automated tasks on the device, and answer queries similarly to modern chatbots.",
+        "This advancement enhances the mobile user experience in the Vietnamese market while opening up deeper integration potential for application developers within the Apple ecosystem."
+      ],
+      "originalTitle": "Siri AI tiếng Việt có thể làm những gì trên iPhone?",
+      "url": "https://vnexpress.net/siri-ai-tieng-viet-co-the-lam-nhung-gi-tren-iphone-5140705.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Siri",
+        "iOS",
+        "AI",
+        "Apple",
+        "Mobile"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-04T08:38:24.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/04/top-1793777401.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=dtrzEBphnmXKoyP-qQkX3A",
+      "contentSnippet": "Siri AI trên iOS 27.3 Beta cho phép người dùng tương tác bằng giọng nói tiếng Việt, thực hiện tác vụ trên máy hoặc hỏi đáp như các chatbot AI khác.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b3b8de75bb1c759e",
+      "title_vi": "Chúng ta đang xây dựng trí tuệ nhân tạo để thay thế chính mình, kế hoạch tiếp theo là gì?",
+      "title_en": "We're Building AI to Replace Ourselves. What's the Plan?",
+      "summary_vi": [
+        "Sự bùng nổ của các tác nhân trí tuệ nhân tạo trong phát triển phần mềm đang đặt ra câu hỏi lớn về tương lai việc làm của lập trình viên và lý do tại sao chúng ta vẫn phải làm việc quá nhiều.",
+        "Các công cụ lập trình tự động hóa hiện nay đã hỗ trợ đắc lực trong việc viết mã nguồn đơn giản và xử lý các lỗi phức tạp ngay cả trong những hệ thống phần mềm cũ.",
+        "Việc nghiên cứu sâu hơn về xu hướng tự động hóa hoàn toàn mang lại nhiều góc nhìn bi quan về thị trường lao động công nghệ, đòi hỏi các kỹ sư phải có chiến lược thích ứng kịp thời."
+      ],
+      "summary_en": [
+        "The explosive growth of artificial intelligence agents in software development raises critical questions about the future of developer employment and why we still work long hours.",
+        "Modern automated coding tools are already assisting significantly with writing simple code and debugging complex issues even within legacy application environments.",
+        "Deep research into full automation trends reveals pessimistic perspectives on the tech job market, demanding proactive adaptation strategies from software engineers."
+      ],
+      "originalTitle": "We're Building AI to Replace Ourselves. What's the Plan?",
+      "url": "https://dev.to/sylwia-lask/were-building-ai-to-replace-ourselves-whats-the-plan-4oll",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Software Engineering",
+        "Automation",
+        "Future of Work",
+        "AI Agents"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-04T08:06:25.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmsqofwuj23waq6n4qaof.png",
+      "contentSnippet": "Weren't we supposed to be replaced by AI by now? Or at least work less? AI agents were supposed to...",
+      "authorName": "Sylwia Laskowska",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3535771%2Fe22860d5-274b-43c9-819b-56b162e5bd5a.jpeg",
+      "upvotes": 87,
+      "commentsCount": 60
+    },
+    {
+      "id": "5b6b0e7f2575df7c",
+      "title_vi": "Trải nghiệm tính năng Quick Look trên macOS với sự hỗ trợ từ trí tuệ nhân tạo",
+      "title_en": "Enhancing macOS Quick Look File Preview Capabilities with Artificial Intelligence Support",
+      "summary_vi": [
+        "Tính năng Quick Look trên hệ điều hành macOS cho phép người dùng xem trước nội dung của nhiều định dạng tệp tin khác nhau chỉ bằng một phím cách đơn giản.",
+        "Việc ứng dụng trí tuệ nhân tạo giúp mở rộng khả năng hiển thị và xử lý cho các định dạng tệp tin chưa được hỗ trợ mặc định trên hệ thống.",
+        "Cải tiến này mang lại sự tiện lợi lớn cho lập trình viên và nhà thiết kế trong việc tra cứu nhanh tài liệu mà không cần mở trực tiếp ứng dụng."
+      ],
+      "summary_en": [
+        "The Quick Look feature on macOS operating systems allows users to preview the contents of various file formats quickly using just the spacebar.",
+        "Applying artificial intelligence helps expand display and processing capabilities for file formats that are not natively supported by the system yet.",
+        "This enhancement brings significant convenience to developers and designers when rapidly inspecting documents without opening dedicated native applications."
+      ],
+      "originalTitle": "AI Bình dân: sai AI cài Quick look cho các định dạng file chưa có",
+      "url": "https://tinhte.vn/thread/ai-binh-dan-sai-ai-cai-quick-look-cho-cac-dinh-dang-file-chua-co.4189668/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "macOS",
+        "Quick Look",
+        "AI",
+        "File Preview",
+        "Productivity"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-04T07:30:20.000Z",
+      "contentSnippet": "Quick Look là tính năng của MacOS, bấm space là có thể xem nhanh file đó chứa gì bên trong, từ excel, docs, đến các app adobe như ps, định dạng ảnh như png, jpg, nef, cr2, cr3 file 3D như stl… Nó...",
+      "authorName": "Nhà Của Cáo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "bbdd36eff87f2104",
+      "title_vi": "Apple chưa thể xác định khi nào iPhone Duo hết khan hàng",
+      "title_en": "Apple remains uncertain when iPhone Duo supply shortages will end",
+      "summary_vi": [
+        "Ban lãnh đạo Apple thông báo tình trạng thiếu hụt nguồn cung dòng điện thoại iPhone Duo có thể tiếp tục kéo dài sang năm tới do nhu cầu thực tế vượt xa mọi dự báo ban đầu của hãng.",
+        "Hiện tượng đầu cơ thiết bị di động bùng nổ mạnh mẽ trên thị trường đã tạo ra áp lực cực lớn lên chuỗi cung ứng phần cứng và năng lực sản xuất toàn cầu của Apple trong giai đoạn này.",
+        "Sự cố khan hàng kéo dài này đặt ra bài toán khó về quản trị chuỗi cung ứng và dự báo nhu cầu thị trường cho các nhà sản xuất thiết bị phần cứng di động hàng đầu."
+      ],
+      "summary_en": [
+        "Apple leadership announced that supply shortages for the iPhone Duo smartphone series may persist into next year as actual market demand far exceeds the company's initial forecasts.",
+        "The surge in mobile device speculation across the market has created immense pressure on hardware supply chains and Apple's global manufacturing capacity during this period.",
+        "This prolonged inventory shortage poses significant challenges in supply chain management and market demand forecasting for leading mobile hardware manufacturers worldwide."
+      ],
+      "originalTitle": "Apple chưa thể xác định khi nào iPhone Duo hết khan hàng",
+      "url": "https://vnexpress.net/apple-chua-the-xac-dinh-khi-nao-iphone-duo-het-khan-hang-5140409.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone Duo",
+        "Mobile",
+        "Supply Chain"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-04T02:16:46.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/03/dscf0070-1793714469-2648-1793714533.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=dLRhiyZRu-NfnlGbg-rbpg",
+      "contentSnippet": "CEO John Ternus và ban lãnh đạo Apple cho biết tình trạng thiếu iPhone Duo có thể kéo dài sang năm sau, khi nhu cầu vượt xa dự kiến và hiện tượng đầu cơ bùng nổ.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "e65b8ae512ea46c2",
       "title_vi": "Sử dụng ChatGPT và Codex khi tiếp nhận yêu cầu xử lý lỗi phần mềm từ hệ thống",
@@ -3066,6 +3688,41 @@
       "authorName": "Nhà Của Cáo",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "349c30407699cdee",
+      "title_vi": "Chúng ta cần bàn về sự tồi tệ của thiết kế web hiện đại và cách chúng tôi xây dựng AI để phát hiện nó",
+      "title_en": "We Need to Talk About How Gross Modern Web Design Has Become (And How We Built an AI to Catch It)",
+      "summary_vi": [
+        "Trải nghiệm duyệt web hiện đại ngày nay đang trở nên tồi tệ hơn bao giờ hết với hàng loạt thông báo làm phiền, cửa sổ bật lên che khuất nội dung và các thủ thuật đánh lừa người dùng liên tục xuất hiện.",
+        "Đội ngũ phát triển đã xây dựng một hệ thống trí tuệ nhân tạo chuyên biệt để tự động phát hiện, phân tích và gắn cờ các mẫu thiết kế độc hại xuất hiện trên các giao diện trang web trực tuyến.",
+        "Giải pháp này không chỉ giúp cải thiện trải nghiệm người dùng mà còn cung cấp công cụ mạnh mẽ cho các nhà phát triển để xây dựng những sản phẩm web minh bạch và thân thiện hơn."
+      ],
+      "summary_en": [
+        "Modern web browsing experiences have become increasingly frustrating with a barrage of annoying notifications, intrusive pop-up windows, and dark patterns designed to deceive everyday users.",
+        "The engineering team built a specialized artificial intelligence system to automatically detect, analyze, and flag malicious design patterns appearing across various online web interfaces.",
+        "This solution not only helps improve overall user experience but also provides developers with a powerful tool to build more transparent and user-friendly web products."
+      ],
+      "originalTitle": "We Need to Talk About How Gross Modern Web Design Has Become (And How We Built an AI to Catch It)",
+      "url": "https://dev.to/dj29/we-need-to-talk-about-how-gross-modern-web-design-has-become-and-how-we-built-an-ai-to-catch-it-5gin",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Web Design",
+        "AI",
+        "UX/UI",
+        "Machine Learning"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-10-30T11:35:31.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fb61la8s368galmbcxahw.png",
+      "contentSnippet": "Let me paint a picture I know you’ve experienced recently. You’re trying to book a flight, buy...",
+      "authorName": "Dhruv Jani",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3743406%2F227d53d3-1443-4ceb-9fb8-98c02ff9e60f.jpg",
+      "upvotes": 93,
+      "commentsCount": 37
     },
     {
       "id": "ea337d6d33d9e624",
@@ -7915,650 +8572,6 @@
       "authorName": "gmays",
       "upvotes": 176,
       "commentsCount": 57
-    },
-    {
-      "id": "e9b7c145fc169be2",
-      "title_vi": "Trí tuệ nhân tạo ngày càng phát triển khiến ô tô thông minh đối mặt với nguy cơ bị tấn công mạng cao hơn",
-      "title_en": "Advanced Artificial Intelligence Development Makes Connected Vehicles Increasingly Vulnerable to Cyberattacks",
-      "summary_vi": [
-        "Trí tuệ nhân tạo đang mang lại sự thông minh vượt trội cho ngành công nghiệp ô tô nhưng đồng thời cũng vô tình trở thành công cụ đắc lực giúp tin tặc nhanh chóng phát hiện ra các lỗ hổng bảo mật ẩn giấu.",
-        "Các hãng sản xuất ô tô lớn tại Nhật Bản đã chính thức lên tiếng cảnh báo về những mối đe dọa an ninh mạng này, đồng thời đẩy mạnh việc nghiên cứu và tích hợp các công nghệ lái xe tự động an toàn hơn.",
-        "Sự việc này đặt ra yêu cầu cấp thiết cho các kỹ sư phần mềm ô tô trong việc áp dụng các tiêu chuẩn bảo mật khắt khe nhằm ngăn chặn nguy cơ bị khai thác lỗ hổng từ các hệ thống trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "Artificial intelligence is bringing remarkable intelligence to the automotive industry while inadvertently becoming a powerful tool for hackers to quickly discover hidden security vulnerabilities.",
-        "Major automobile manufacturers in Japan have officially raised concerns about these cybersecurity threats while accelerating research and integration of safer autonomous driving technologies.",
-        "This situation establishes an urgent requirement for automotive software engineers to implement rigorous security standards to prevent exploitation risks stemming from artificial intelligence systems."
-      ],
-      "originalTitle": "'AI ngày càng giỏi, ô tô càng dễ bị hack'",
-      "url": "https://genk.vn/ai-ngay-cang-gioi-o-to-cang-de-bi-hack-165261025081432783.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Cybersecurity",
-        "Automotive",
-        "Autonomous Driving",
-        "Software Security"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T01:14:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/25/avatar1792890839859-17928908403971808972848.jpg",
-      "contentSnippet": "AI đang giúp ô tô ngày càng thông minh, nhưng cũng có thể trở thành công cụ để tin tặc phát hiện lỗ hổng bảo mật. Các hãng xe Nhật Bản đã lên tiếng về nguy cơ này, đồng thời thúc đẩy phát triển công nghệ lái xe tự động an toàn hơn.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0f37635de4be5680",
-      "title_vi": "Điện thoại iPhone Duo thế hệ thứ hai có khả năng tích hợp công nghệ nhận diện khuôn mặt ẩn dưới màn hình",
-      "title_en": "Second generation iPhone Duo anticipated to integrate under display facial recognition technology",
-      "summary_vi": [
-        "Hãng sản xuất điện thoại lớn đang tiến hành thử nghiệm nguyên mẫu thiết bị cầm tay thế hệ mới với nhiều cải tiến đáng kể về phần cứng để tối ưu hóa trải nghiệm người dùng trên thị trường thiết bị di động toàn cầu.",
-        "Công nghệ sinh trắc học tiên tiến cho phép ẩn cảm biến nhận diện khuôn mặt trực tiếp xuống bên dưới tấm nền hiển thị kết hợp cùng phím vật lý tùy chỉnh đa chức năng mang lại bước tiến lớn trong thiết kế phần cứng.",
-        "Những nâng cấp phần cứng này đặt ra tiêu chuẩn mới cho các nhà phát triển ứng dụng di động trong việc tối ưu hóa giao diện người dùng và tận dụng triệt để các tính năng phần cứng độc quyền từ nhà sản xuất."
-      ],
-      "summary_en": [
-        "The major smartphone manufacturer is currently testing a new generation handheld prototype featuring significant hardware upgrades designed to optimize the overall user experience within the global mobile device market.",
-        "Advanced biometric technology allows the facial recognition sensor to be concealed directly beneath the display panel combined with a customizable multi function physical button representing a major milestone in hardware design.",
-        "These notable hardware upgrades establish a new benchmark for mobile application developers regarding the optimization of user interfaces and the full utilization of proprietary hardware features from the manufacturer."
-      ],
-      "originalTitle": "iPhone Duo 2 có thể tích hợp Face ID dưới màn hình",
-      "url": "https://vnexpress.net/iphone-duo-2-co-the-tich-hop-face-id-duoi-man-hinh-5135779.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Face ID",
-        "Mobile Hardware",
-        "Biometrics"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T00:51:28.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/22/dscf0123-1792679027-3263-1792679105.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=nrUWujS7J7i6RMDbh49Yog",
-      "contentSnippet": "Apple được cho là đang thử nghiệm nguyên mẫu iPhone Duo thế hệ hai với nhiều nâng cấp phần cứng, như bổ sung Face ID ẩn và nút Action.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8f6f258cb0b6175e",
-      "title_vi": "Hướng dẫn viết CLAUDE.md để trợ lý AI Claude Code hiểu đúng dự án phần mềm của bạn",
-      "title_en": "How to Write CLAUDE.md to Help Claude Code Understand Your Software Project Properly",
-      "summary_vi": [
-        "Bài viết chia sẻ kinh nghiệm thực tế của một lập trình viên khi sử dụng trợ lý mã nguồn nhân tạo Claude Code làm công cụ phát triển phần mềm chính hàng ngày trong các dự án web hiện tại.",
-        "Tác giả hướng dẫn chi tiết cách cấu hình và tối ưu hóa tệp tin CLAUDE.md để cung cấp đầy đủ ngữ cảnh dự án, giúp các tác nhân mã hóa hiểu sâu hơn về kiến trúc và quy ước mã nguồn.",
-        "Giải pháp này mang lại giá trị thiết thực giúp lập trình viên tiết kiệm thời gian, hạn chế lỗi cú pháp và nâng cao hiệu suất làm việc đáng kể khi tích hợp trí tuệ nhân tạo vào quy trình phát triển."
-      ],
-      "summary_en": [
-        "The article shares practical experience from a developer who uses the artificial intelligence coding assistant Claude Code as their primary daily software development tool in active web projects.",
-        "The author provides a detailed guide on how to configure and optimize the CLAUDE.md file to supply complete project context, helping coding agents deeply understand system architecture and coding conventions.",
-        "This solution delivers practical value by saving developers time, reducing syntax errors, and significantly improving productivity when integrating artificial intelligence into the software development workflow."
-      ],
-      "originalTitle": "Hướng dẫn viết CLAUDE.md để Claude Code hiểu đúng dự án của bạn",
-      "url": "https://viblo.asia/p/huong-dan-viet-claudemd-de-claude-code-hieu-dung-du-an-cua-ban-1QLxnORx4Aw",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Claude Code",
-        "Software Engineering",
-        "Developer Tools"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-24T23:58:37.000Z",
-      "contentSnippet": "Mình là Tony, hiện làm và vận hành các sản phẩm web, sử dụng Claude Code làm công cụ phát triển chính hằng ngày. Khi đưa coding agent vào một repo đã ...",
-      "authorName": "Toan Bui",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1f6056f34e61a5ea",
-      "title_vi": "Mỹ mất hơn 200 nghìn việc làm trong ngành truyền thông và nghệ thuật: Trí tuệ nhân tạo ảnh hưởng thế nào?",
-      "title_en": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
-      "summary_vi": [
-        "Ngành công nghiệp sáng tạo tại Mỹ đã chứng kiến sự sụt giảm nghiêm trọng với hơn hai trăm nghìn việc làm bị mất trong bốn năm qua, tương đương với các cuộc suy thoái kinh tế lớn trước đây.",
-        "Sự bùng nổ của các hệ thống trí tuệ nhân tạo tạo sinh có khả năng soạn thảo tiểu thuyết, hình ảnh chân thực và âm nhạc chất lượng cao với chi phí cực thấp đang là nguyên nhân chính gây ra áp lực mất việc làm.",
-        "Dù việc chứng minh tác động trực tiếp của trí tuệ nhân tạo gặp nhiều khó khăn do các doanh nghiệp né tránh tranh cãi pháp lý về bản quyền, xu hướng giảm sút đồng loạt ở các lĩnh vực số hóa đã phản ánh rõ rệt."
-      ],
-      "summary_en": [
-        "The creative industry in America has experienced a severe decline with over two hundred thousand jobs lost over the past four years, comparable to major historical economic recessions.",
-        "The explosion of generative artificial intelligence systems capable of composing novels, realistic images, and high-quality music at extremely low costs is the primary driver of this growing employment pressure.",
-        "Although proving the direct impact of artificial intelligence remains challenging as media firms avoid legal copyright controversies, the widespread downturn across digital subsectors clearly reflects the ongoing technological shift."
-      ],
-      "originalTitle": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
-      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Generative AI",
-        "Automation",
-        "Tech Trends",
-        "Employment"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-24T23:11:54.000Z",
-      "contentSnippet": "By subscribing, you’ll join over 80,000 people who read Apricitas! America has lost more than 200k jobs in “creative” industries over the last four years, with roughly 50k lost within the last year alone. That makes for one of the worst stretches for media employment in modern US history, with simil",
-      "authorName": "gnabgib",
-      "upvotes": 185,
-      "commentsCount": 154
-    },
-    {
-      "id": "5d62c82c0a38fe99",
-      "title_vi": "Cơ sở dữ liệu Greenplum Bài học 15: Kỹ thuật nén dữ liệu và so sánh ZSTD, QuickLZ, Zlib trên bảng hướng cột",
-      "title_en": "Greenplum Database Lesson 15: Data Compression Techniques Comparing ZSTD, QuickLZ, and Zlib on Columnar Tables",
-      "summary_vi": [
-        "Bài viết tiếp tục chuỗi chuyên đề về mô hình lưu trữ hướng cột Append-Optimized Column-Oriented, tập trung khai thác sâu vào tầm quan trọng sống còn của kỹ thuật nén dữ liệu trong hệ quản trị cơ sở dữ liệu phân tán lớn.",
-        "Nội dung đi sâu phân tích cơ chế hoạt động, ưu nhược điểm và hiệu suất thực tế của ba thuật toán nén phổ biến là ZSTD, QuickLZ và Zlib khi được áp dụng trực tiếp lên các bảng dữ liệu hướng cột của hệ thống.",
-        "Kiến thức này mang lại giá trị thực tiễn cao giúp các kỹ sư dữ liệu và quản trị hệ thống tối ưu hóa dung lượng lưu trữ đĩa cứng, giảm thiểu băng thông mạng và cải thiện đáng kể hiệu suất truy vấn phân tích."
-      ],
-      "summary_en": [
-        "The article continues the series on the Append-Optimized Column-Oriented storage model, focusing deeply on the critical importance of data compression techniques within large distributed database management systems.",
-        "It provides a thorough analysis of the operational mechanisms, pros, and practical performance of three popular compression algorithms, namely ZSTD, QuickLZ, and Zlib, when applied directly to columnar tables.",
-        "This knowledge delivers high practical value by helping data engineers and system administrators optimize disk storage capacity, minimize network bandwidth, and significantly improve analytical query performance."
-      ],
-      "originalTitle": "Greenplum Database Bài học 15: Kỹ thuật nén dữ liệu (Compression): So sánh ZSTD, QuickLZ và Zlib trên bảng Columnar",
-      "url": "https://viblo.asia/p/greenplum-database-bai-hoc-15-ky-thuat-nen-du-lieu-compression-so-sanh-zstd-quicklz-va-zlib-tren-bang-columnar-lZL9XOzbJQK",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Greenplum",
-        "Database",
-        "Compression",
-        "ZSTD",
-        "Columnar"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-24T23:03:45.000Z",
-      "contentSnippet": "Ở Bài học 14, chúng ta đã mở cánh cửa đến với mô hình lưu trữ hướng cột (AOCO - Append-Optimized Column-Oriented). Một trong những lý do lớn nhất khiế...",
-      "authorName": "Nguyen Hoang",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "2607000fb07861d3",
-      "title_vi": "Cơ sở dữ liệu Greenplum Bài học 14: So sánh bảng hướng dòng và hướng cột để tối ưu hóa I/O cho truy vấn tổng hợp",
-      "title_en": "Greenplum Database Lesson 14: Row-Oriented vs Column-Oriented Tables for I/O Optimization in Aggregation Queries",
-      "summary_vi": [
-        "Bài viết tiếp tục chuỗi chuyên đề về cơ sở dữ liệu Greenplum, tập trung phân tích sâu về cơ chế lưu trữ dữ liệu giữa bảng hướng dòng truyền thống và bảng hướng cột nhằm giải quyết các bài toán tối ưu hóa hiệu năng hệ thống.",
-        "Tác giả đi sâu mổ xẻ nguyên lý hoạt động của kiến trúc bảng tối ưu hóa phụ lục kết hợp định dạng lưu trữ theo cột, giúp giảm thiểu đáng kể lưu lượng I/O ổ đĩa khi thực hiện các truy vấn tổng hợp dữ liệu lớn.",
-        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư dữ liệu và kiến trúc sư hệ thống trong việc thiết kế, lựa chọn phương án lưu trữ tối ưu nhằm nâng cao tốc độ xử lý cho các hệ thống phân tích dữ liệu lớn."
-      ],
-      "summary_en": [
-        "The article continues the Greenplum database series, focusing deeply on the data storage mechanisms between traditional row-oriented and column-oriented tables to solve system performance optimization problems.",
-        "The author dissects the operational principles of append-optimized architectures combined with columnar storage formats, helping to significantly reduce disk I/O traffic when executing large-scale data aggregation queries.",
-        "This knowledge provides high practical value for data engineers and system architects in designing and selecting optimal storage strategies to enhance processing speeds for big data analytical systems."
-      ],
-      "originalTitle": "Greenplum Database Bài học 14: Row-Oriented vs Column-Oriented (AOCO): Tối ưu hóa I/O cho các truy vấn tổng hợp (Aggregation)",
-      "url": "https://viblo.asia/p/greenplum-database-bai-hoc-14-row-oriented-vs-column-oriented-aoco-toi-uu-hoa-io-cho-cac-truy-van-tong-hop-aggregation-oKLnqjWNJQO",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Greenplum",
-        "Database",
-        "Big Data",
-        "SQL",
-        "Performance"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-24T23:03:39.000Z",
-      "contentSnippet": "Ở Bài học 13, chúng ta đã biết Append-Optimized (AO) Tables giúp giải quyết bài toán lưu trữ dữ liệu lịch sử khổng lồ nhờ cơ chế ghi tuần tự và nén dữ...",
-      "authorName": "Nguyen Hoang",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "909c41286f11a1ac",
-      "title_vi": "Điện thoại thông minh giá rẻ đang đứng trước bờ vực biến mất",
-      "title_en": "Cheap Smartphones Are Disappearing As AI Data Centers Drive Up Memory Prices",
-      "summary_vi": [
-        "Những chiếc điện thoại thông minh giá rẻ nhất trên thế giới đang dần biến mất do các trung tâm dữ liệu trí tuệ nhân tạo hút cạn nguồn cung chip nhớ.",
-        "Giá linh kiện tăng cao khiến giá bán trung bình của thiết bị di động toàn cầu tăng vọt, trong khi các phân khúc dưới một trăm đô la sụt giảm nghiêm trọng.",
-        "Sự dịch chuyển chuỗi cung ứng linh kiện này tạo ra thách thức lớn cho các thị trường đang phát triển và định hình lại toàn bộ cấu trúc chi phí ngành di động."
-      ],
-      "summary_en": [
-        "The world cheapest smartphones are gradually disappearing as artificial intelligence data centers absorb memory chip supplies and drive component costs higher.",
-        "Surging component prices have significantly increased global mobile device costs, while under one hundred dollar segments experienced massive shipment drops worldwide.",
-        "This hardware supply chain shift poses major challenges for developing markets and fundamentally reshapes the cost structure of the mobile industry."
-      ],
-      "originalTitle": "Smartphone giá rẻ đang 'chết'",
-      "url": "https://vnexpress.net/smartphone-gia-re-dang-chet-5134841.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Smartphones",
-        "AI",
-        "Hardware",
-        "Supply Chain",
-        "Semiconductors"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-24T22:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/21/dsc002517895673724476178956764-1341-4415-1792521563.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=3us6pK3dPJhvXfcOgekvpg",
-      "contentSnippet": "Những chiếc smartphone rẻ nhất thế giới dần biến mất do bị trung tâm dữ liệu AI \"hút\" chip nhớ, đẩy giá linh kiện lên cao.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "42532ee811b2ffa8",
-      "title_vi": "Chúng ta nên có nhiều tham vọng hơn với phần mềm mà mình xây dựng",
-      "title_en": "We should be more ambitious with the software we build",
-      "summary_vi": [
-        "Bài viết thảo luận về dự án pgrust của Michael Malis, khuyến khích các kỹ sư phần mềm cần có tầm nhìn và sự tham vọng lớn hơn khi xây dựng các hệ thống công nghệ phức tạp trong thời đại hiện nay.",
-        "Quá trình kiểm thử nghiêm ngặt của dự án pgrust đã giúp phát hiện ra nhiều lỗi thực tế trong cơ sở dữ liệu Postgres bao gồm lỗi số học, lỗi bộ nhớ đệm định dạng và các vấn đề liên quan đến an toàn bộ nhớ.",
-        "Dù thành công hay thất bại, những nỗ lực tối ưu hóa và cải tiến hiệu suất từ các dự án đầy tham vọng như thế này sẽ mang lại giá trị lâu dài và đóng góp đáng kể cho hệ sinh thái mã nguồn mở."
-      ],
-      "summary_en": [
-        "The article discusses Michael Malis's pgrust project, encouraging software engineers to have a grander vision and greater ambition when building complex technological systems in the current era.",
-        "The rigorous testing process of the pgrust project has helped uncover several real-world bugs in the Postgres database, including numerical bugs, format cache errors, and memory safety issues.",
-        "Whether successful or not, the optimization and performance enhancement efforts from such ambitious projects provide long-term value and make significant contributions to the open-source ecosystem."
-      ],
-      "originalTitle": "We should be more ambitious with the software we build",
-      "url": "https://danluu.com/ambitious/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Software Engineering",
-        "Postgres",
-        "Rust",
-        "Performance",
-        "Open Source"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-24T21:47:31.000Z",
-      "contentSnippet": "Since early this year, Michael Malis (of pgrust) has been showing me interesting things he's done and saying [W]e should be more ambitious1 with the software we build There is, understandably, a lot of skepticism about projects like pgrust because there are so many low-quality AI-generated projects ",
-      "authorName": "ltratt",
-      "upvotes": 192,
-      "commentsCount": 154
-    },
-    {
-      "id": "36111d6bc6b4991f",
-      "title_vi": "Hành tinh xanh III giữ lại những khuyết điểm thô sơ trong kỷ nguyên trí tuệ nhân tạo",
-      "title_en": "Blue Planet III is keeping the rough edges in the age of AI",
-      "summary_vi": [
-        "Sê-ri phim tài liệu thiên nhiên nổi tiếng của đài BBC đang chủ động giữ lại những khung hình chưa hoàn hảo để chứng minh tính chân thực trong bối cảnh nội dung số đang bị bão hòa bởi công nghệ tạo sinh.",
-        "Các nhà sản xuất đã quyết định không cắt bỏ những hạt phù du, bóng thuyền hay điều kiện nước kém hoàn hảo, vốn là những chi tiết thường bị loại bỏ để tạo ra các thước phim mượt mà quá mức giống như do máy tính tạo ra.",
-        "Động thái này phản ánh một xu hướng thiết kế mới trong việc duy trì các yếu tố tự nhiên và không hoàn hảo để người xem dễ dàng phân biệt giữa nội dung quay thật và hình ảnh do trí tuệ nhân tạo tổng hợp."
-      ],
-      "summary_en": [
-        "The famous nature documentary series from the BBC is actively retaining imperfect frames to prove its authenticity in a digital landscape saturated by generative media technologies.",
-        "The producers decided not to cut out floating plankton, boat shadows, or imperfect water conditions, which are details typically removed to achieve overly smooth footage resembling computer generation.",
-        "This move reflects a new design trend in maintaining natural and imperfect elements to help viewers easily distinguish between genuine footage and synthetic imagery generated by artificial intelligence."
-      ],
-      "originalTitle": "Blue Planet III is keeping the rough edges in the age of AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Generative AI",
-        "Media Technology",
-        "BBC"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-24T21:29:12.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/blue_planet_iii_episode_03_051_screengrab.avif?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished ",
-      "authorName": "Terrence O’Brien",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "c6f7fce2eddef14c",
-      "title_vi": "Ngôn ngữ lập trình Ngỗng loại bỏ hoàn toàn bộ cấp phát heap và bộ thu gom rác",
-      "title_en": "The Goose Programming Language Eliminates Heap Allocator and Garbage Collector",
-      "summary_vi": [
-        "Ngôn ngữ lập trình hệ thống mới mang tên Ngỗng được giới thiệu với thiết kế an toàn bộ nhớ mà không cần bộ cấp phát heap, bộ thu gom rác hay chú thích thời gian sống.",
-        "Kiến trúc của ngôn ngữ này sử dụng mô hình ngăn xếp dữ liệu nội tuyến được quản lý hoàn toàn bởi trình biên dịch, cho phép đạt hiệu suất vượt trội so với C++ và Rust trong các bài kiểm tra hiệu năng.",
-        "Sự đổi mới này mang lại cách tiếp cận quản lý bộ nhớ vô cùng hiệu quả ở cấp độ biên dịch, giúp các nhà phát triển tối ưu hóa tốc độ thực thi và tiết kiệm tài nguyên hệ thống đáng kể."
-      ],
-      "summary_en": [
-        "A novel systems programming language named Goose has been introduced featuring a memory-safe design without requiring a heap allocator, garbage collector, or lifetime annotations.",
-        "The language architecture utilizes an inline data stack model managed entirely by the compiler, allowing it to achieve superior performance compared to C and Rust in benchmark evaluations.",
-        "This innovation provides a highly efficient compile-time memory management approach, helping developers optimize execution speed and save significant system resources in modern applications."
-      ],
-      "originalTitle": "The Goose Programming Language",
-      "url": "https://aardappel.github.io/goose/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Systems Programming",
-        "Memory Safety",
-        "Compiler Design",
-        "Performance"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-24T19:06:55.000Z",
-      "contentSnippet": "A memory-safe systems language with no heap allocator, garbage collector, or lifetime annotations. In this repository's benchmarks, Goose runs faster than C++ and Rust while using less memory. Tutorial · Reference · Specification · Packages · Samples · Benchmarks · Standard library Goose has syntax ",
-      "authorName": "bobbydigitales",
-      "upvotes": 251,
-      "commentsCount": 171
-    },
-    {
-      "id": "c7aa9b7dfeaf83bd",
-      "title_vi": "Bang Pennsylvania yêu cầu dán nhãn đối với các quảng cáo do trí tuệ nhân tạo tạo ra",
-      "title_en": "Pennsylvania will require labels on AI-generated ads",
-      "summary_vi": [
-        "Thống đốc bang Pennsylvania đã chính thức ký ban hành đạo luật mới nhằm quản lý chặt chẽ các nội dung quảng cáo được tạo ra bởi trí tuệ nhân tạo.",
-        "Đạo luật yêu cầu mọi hình thức quảng cáo từ hình ảnh tĩnh, video, âm thanh cho đến văn bản nếu có sự can thiệp đáng kể của AI đều phải gắn nhãn nhận diện rõ ràng.",
-        "Quy định này đánh dấu bước tiến pháp lý quan trọng tại Mỹ nhằm minh bạch hóa công nghệ AI và bảo vệ người tiêu dùng trước các thông tin sai lệch."
-      ],
-      "summary_en": [
-        "The Governor of Pennsylvania has officially signed a new law into strict regulation for advertising contents generated by artificial intelligence.",
-        "The legislation mandates that any advertising format including static images, videos, audio, and text with significant AI intervention must display clear identification labels.",
-        "This regulation marks a crucial legal milestone in the United States aimed at AI transparency and consumer protection against deceptive information."
-      ],
-      "originalTitle": "Pennsylvania will require labels on AI-generated ads",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Regulation",
-        "Machine Learning",
-        "Artificial Intelligence",
-        "Security"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-24T18:32:21.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK445_ADVERTISING_STK093_GOOGLE_C.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artifi",
-      "authorName": "Terrence O’Brien",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "252c1598a3e5277a",
-      "title_vi": "Hệ thống robot thông minh Dream-1 ra mắt với khoản đầu tư hạt giống chín mươi triệu đô la",
-      "title_en": "Dream-1 intelligent robot system launches with ninety million dollars in seed funding",
-      "summary_vi": [
-        "Công ty khởi nghiệp Dream Labs vừa chính thức thoát khỏi giai đoạn hoạt động bí mật và huy động thành công số vốn hạt giống khổng lồ lên tới chín mươi triệu đô la để phát triển hệ thống robot thông minh.",
-        "Sản phẩm chủ lực Dream-1 cho phép kết nối trực tiếp với giao diện lập trình ứng dụng mà không cần huấn luyện lại chuyên sâu, giải quyết triệt để bài toán thiếu hụt dữ liệu khởi đầu trong ngành công nghiệp robot.",
-        "Bước tiến công nghệ này mở ra kỷ nguyên mới cho trí tuệ nhân tạo tổng quát trong phần cứng, giúp các thiết bị tự động hóa thích ứng nhanh chóng với môi trường thực tế mà không đòi hỏi chuyên môn học máy."
-      ],
-      "summary_en": [
-        "Startup company Dream Labs has officially emerged from stealth mode and successfully raised a massive ninety million dollars in seed funding to develop advanced intelligent robot systems.",
-        "The flagship product Dream-1 allows direct connection through application programming interfaces without requiring intensive retraining, fundamentally solving the cold start data shortage problem in robotics.",
-        "This technological breakthrough opens a new era for general purpose artificial intelligence in hardware, helping automation devices rapidly adapt to real environments without demanding machine learning expertise."
-      ],
-      "originalTitle": "Dream-1",
-      "url": "https://dreamlabs.ai/research/dream-1/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Robotics",
-        "Startups",
-        "Machine Learning",
-        "API"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-24T18:23:24.000Z",
-      "contentSnippet": "00:00 / 01:59 Launch video Give Dream-1 a new bimanual robot with parallel grippers, connect it to our API, and it can start performing tasks out of the box. No fine-tuning, no demonstrations from that robot, and no machine learning expertise required. This is an important step toward general-purpos",
-      "authorName": "GaggiX",
-      "upvotes": 78,
-      "commentsCount": 43
-    },
-    {
-      "id": "34e9e359816e335a",
-      "title_vi": "Tôi không thuộc nhóm DEV. Tôi vẫn gỡ lỗi các huy hiệu bị thiếu của họ khỏi mã công cộng. (Và bài kiểm tra đầu tiên của tôi đã sai.)",
-      "title_en": "I'm Not on the DEV Team. I Still Debugged Their Missing Badges From Public Code. (And My First Test Was Wrong.)",
-      "summary_vi": [
-        "Một lời nhắc nhở khiêm tốn rằng việc vượt qua các bài kiểm tra có thể nói dối rằng tôi không thuộc nhóm DEV.",
-        "Tôi không có bảng quản trị, quyền truy cập cơ sở dữ liệu sản xuất hoặc Slack nội bộ.",
-        "Mọi thứ tôi biết về cách thức hoạt động của DEV đều đến từ việc đọc kho lưu trữ forem/form công khai."
-      ],
-      "summary_en": [
-        "A humbling reminder that passing tests can lie I’m not on the DEV team.",
-        "I don’t have an admin panel, production database access, or internal Slack.",
-        "Everything I know about how DEV works comes from reading the public forem/forem repository."
-      ],
-      "originalTitle": "I'm Not on the DEV Team. I Still Debugged Their Missing Badges From Public Code. (And My First Test Was Wrong.)",
-      "url": "https://dev.to/dj29/im-not-on-the-dev-team-i-still-debugged-their-missing-badges-from-public-code-and-my-first-test-18oo",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "SoftwareEngineering",
-        "Programming"
-      ],
-      "hotScore": 96,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-10-24T18:12:54.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu93kz0lmzx5azbphc6x9.png",
-      "contentSnippet": "I’m not on the DEV team. I don’t have an admin panel, production database access, or internal Slack....",
-      "authorName": "Dhruv Jani",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3743406%2F227d53d3-1443-4ceb-9fb8-98c02ff9e60f.jpg",
-      "upvotes": 105,
-      "commentsCount": 43
-    },
-    {
-      "id": "665f36301bb973a3",
-      "title_vi": "Zentro v0.10.0: IDE SQL Open Source (GPL-3.0), viết bằng Go + Wails",
-      "title_en": "Zentro v0.10.0: Open Source SQL IDE (GPL-3.0), written in Go + Wails",
-      "summary_vi": [
-        "Chính thức Open Source Core Zentro IDE do mình tự build.",
-        "Mình là developer Java/React, và trong thời gian qua mình tự build Zentro, một IDE SQL chạy.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Zentro v0.10.0: IDE SQL Open Source (GPL-3.0), viết bằng Go + Wails."
-      ],
-      "summary_en": [
-        "Officially Open Source Core Zentro IDE built by myself.",
-        "I am a Java/React developer, and recently I built Zentro, a SQL IDE.",
-        "Practical engineering impact and actionable takeaways for developers building with Zentro v0.10.0: Open Source SQL IDE (GPL-3.0), written in Go + Wails."
-      ],
-      "originalTitle": "Zentro v0.10.0: IDE SQL Open Source (GPL-3.0), viết bằng Go + Wails",
-      "url": "https://viblo.asia/p/zentro-v0100-ide-sql-open-source-gpl-30-viet-bang-go-wails-AY4qQOW54Pw",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "React"
-      ],
-      "hotScore": 94,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-24T16:37:25.000Z",
-      "contentSnippet": "Chính thức Open Source Core Zentro IDE do mình tự build. Mình là developer Java/React, và trong thời gian qua mình tự build Zentro, một IDE SQL chạy ...",
-      "authorName": "Alex Wyn",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8ac95f5563e7d87b",
-      "title_vi": "Kênh JerryRigEverything thử nghiệm độ bền iPhone Duo với màn hình gập và cơ chế bản lề",
-      "title_en": "JerryRigEverything Tests Durability of Foldable iPhone Duo with Hinge Mechanism",
-      "summary_vi": [
-        "Kênh YouTube công nghệ nổi tiếng JerryRigEverything vừa công bố video thử nghiệm độ bền thực tế của chiếc điện thoại màn hình gập đầu tiên mang thương hiệu Apple, thu hút sự chú ý lớn từ cộng đồng mạng.",
-        "Kết quả kiểm tra cho thấy thiết bị gặp vấn đề nghiêm trọng với bụi kẹt trong cơ chế bản lề và màn hình bên trong đã bị phá hỏng hoàn toàn sau bài thử nghiệm bẻ ngược phần khung máy.",
-        "Sự cố này đặt ra thách thức lớn về kỹ thuật cơ khí và độ bền vật liệu cho các nhà sản xuất phần cứng khi phát triển thiết bị di động màn hình gập thế hệ mới trong tương lai."
-      ],
-      "summary_en": [
-        "The popular tech YouTube channel JerryRigEverything recently published a durability test video of Apple's first foldable smartphone, generating massive attention across the global technology community.",
-        "The test results revealed serious issues with dust particles getting trapped in the hinge mechanism while the internal flexible display was completely destroyed after being bent backward.",
-        "This failure highlights significant mechanical engineering and material durability challenges for hardware manufacturers when developing next-generation foldable mobile devices in the competitive market."
-      ],
-      "originalTitle": "JerryRigEverything thử độ bền iPhone Duo: bụi kẹt bản lề, bẻ ngược làm chết màn hình gập",
-      "url": "https://tinhte.vn/thread/jerryrigeverything-thu-do-ben-iphone-duo-bui-ket-ban-le-be-nguoc-lam-chet-man-hinh-gap.4186671/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Foldable",
-        "Hardware",
-        "Mobile"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-24T16:23:10.000Z",
-      "contentSnippet": "Kênh YouTube JerryRigEverything của Zack Nelson vừa đăng video thử độ bền iPhone Duo, chiếc điện thoại gập đầu tiên của Apple. Kết quả: máy không vượt qua bài thử, màn hình gập bên trong hư hoàn...",
-      "authorName": "osx",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "c852cf262baca51d",
-      "title_vi": "Roku chuyển kho mã nguồn nhà phát triển từ GitHub sang GitLab",
-      "title_en": "Roku developer repositories moved from GitHub to GitLab",
-      "summary_vi": [
-        "Công ty Roku đã thực hiện quá trình chuyển đổi toàn bộ kho lưu trữ mã nguồn dành cho nhà phát triển từ nền tảng GitHub sang GitLab nhằm tối ưu hóa quy trình làm việc.",
-        "Việc di cư hệ thống quản lý mã nguồn lớn đòi hỏi cấu hình lại các đường ống tự động hóa kiểm thử, quy trình tích hợp liên tục và phân quyền bảo mật cho hàng nghìn thành viên tham gia.",
-        "Sự kiện này phản ánh xu hướng dịch chuyển hạ tầng DevOps của các tập đoàn công nghệ lớn nhằm tìm kiếm giải pháp quản lý mã nguồn linh hoạt và phù hợp hơn với chiến lược phát triển nội bộ."
-      ],
-      "summary_en": [
-        "Roku has executed the migration of its entire developer source code repositories from the GitHub platform to GitLab in order to optimize their internal software development workflows.",
-        "Transitioning large-scale code management systems requires reconfiguration of automated test pipelines, continuous integration processes, and security permission structures for thousands of participating engineers.",
-        "This event reflects a broader industry trend among major tech corporations shifting their DevOps infrastructure to find more flexible source management solutions tailored to internal strategies."
-      ],
-      "originalTitle": "Roku developer repositories moved from GitHub to GitLab",
-      "url": "https://blog.roku.com/developer/gitlab-move",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "DevOps",
-        "GitLab",
-        "GitHub",
-        "Source Control",
-        "Roku"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-24T16:06:26.000Z",
-      "contentSnippet": "Roku developer repositories moved from GitHub to GitLab",
-      "authorName": "cxr",
-      "upvotes": 185,
-      "commentsCount": 124
-    },
-    {
-      "id": "74ffec629939a73c",
-      "title_vi": "Cơ sở dữ liệu Greenplum Bài học 11: Phân phối ngẫu nhiên và phân phối sao chép khi nào nên sử dụng",
-      "title_en": "Greenplum Database Lesson 11: Distributed Randomly versus Distributed Replicated When to Use",
-      "summary_vi": [
-        "Bài viết tiếp tục chuỗi bài học chuyên sâu về cơ sở dữ liệu phân tán Greenplum, tập trung phân tích hai chiến lược phân phối dữ liệu ít phổ biến hơn là phân phối ngẫu nhiên và phân phối sao chép toàn bộ.",
-        "Tác giả làm rõ cơ chế hoạt động, ưu nhược điểm kỹ thuật của từng phương pháp khi lưu trữ bảng dữ liệu lớn, giúp kỹ sư dữ liệu hiểu rõ chi phí phần cứng và hiệu năng truy vấn thực tế.",
-        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư xây dựng hệ thống dữ liệu lớn, giúp tối ưu hóa hiệu suất truy vấn và tránh những lỗi thiết kế kiến trúc đắt giá."
-      ],
-      "summary_en": [
-        "The article continues the in-depth lesson series on the Greenplum distributed database, focusing on analyzing two less common data distribution strategies which are random distribution and replicated distribution.",
-        "The author clarifies the operational mechanisms, technical pros and cons of each method when storing large data tables, helping data engineers understand hardware costs and actual query performance.",
-        "This knowledge provides high practical value for engineers building large-scale data systems, helping to optimize query performance and avoid expensive architectural design mistakes."
-      ],
-      "originalTitle": "Greenplum Database Bài học 11: DISTRIBUTED RANDOMLY vs DISTRIBUTED REPLICATED: Khi nào nên dùng và cái giá phải trả",
-      "url": "https://viblo.asia/p/greenplum-database-bai-hoc-11-distributed-randomly-vs-distributed-replicated-khi-nao-nen-dung-va-cai-gia-phai-tra-bNVQGpQbJvR",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Greenplum",
-        "Database",
-        "SQL",
-        "Big Data",
-        "Architecture"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-24T15:14:48.000Z",
-      "contentSnippet": "Ở Bài học 9 và 10, chúng ta đã thấu hiểu sức mạnh của Hash Distribution (DISTRIBUTED BY) — chiến lược tối ưu nhất cho 90% các bảng dữ liệu lớn nhờ khả...",
-      "authorName": "Nguyen Hoang",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ec4fd71d71e0cbf1",
-      "title_vi": "Cơ sở dữ liệu Greenplum Bài học 12: Hiện tượng lệch dữ liệu và phương pháp xử lý segment quá tải",
-      "title_en": "Greenplum Database Lesson 12: Data Skew Analysis and Overloaded Segment Mitigation Techniques",
-      "summary_vi": [
-        "Kiến trúc xử lý song song diện rộng MPP của Greenplum mang lại hiệu năng cao nhờ phân tán dữ liệu trên nhiều segment nhưng dễ dẫn đến hiện tượng lệch dữ liệu khi phân phối không đều.",
-        "Bài viết hướng dẫn cách phát hiện các segment bị quá tải tài nguyên thông qua hệ thống quản lý danh mục và kỹ thuật lựa chọn khóa phân phối tối ưu để xử lý triệt để.",
-        "Kiến thức này giúp các kỹ sư dữ liệu tối ưu hóa hiệu suất truy vấn, ngăn ngừa tình trạng nghẽn cổ chai phần cứng và đảm bảo tính ổn định cho hệ thống phân tích lớn."
-      ],
-      "summary_en": [
-        "Greenplum massive parallel processing architecture delivers high performance by distributing data across multiple segments, but uneven distribution frequently leads to severe data skew issues.",
-        "The article provides practical methods for detecting resource-overloaded segments using system catalog queries and implementing optimal distribution key selection techniques to completely resolve skew.",
-        "This knowledge helps data engineers optimize query performance, prevent hardware bottlenecking, and ensure stability for large-scale enterprise data warehousing and analytics systems."
-      ],
-      "originalTitle": "Greenplum Database Bài học 12: Data Skew (Lệch dữ liệu): Cách phát hiện các Segment bị quá tải và kỹ thuật xử lý triệt để",
-      "url": "https://viblo.asia/p/greenplum-database-bai-hoc-12-data-skew-lech-du-lieu-cach-phat-hien-cac-segment-bi-qua-tai-va-ky-thuat-xu-ly-triet-de-ym4002Wd491",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Greenplum",
-        "Database",
-        "MPP",
-        "Data Skew",
-        "Performance Optimization"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-24T15:14:41.000Z",
-      "contentSnippet": "Qua các bài học trước, chúng ta đã biết sức mạnh của kiến trúc MPP đến từ việc chia nhỏ dữ liệu và tính toán song song trên hàng chục Segment. Tuy nhi...",
-      "authorName": "Nguyen Hoang",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "d31f8fa997636f36",
-      "title_vi": "Mẫu tivi OLED C6 của LG giảm giá mạnh trước thềm sự kiện mua sắm Black Friday",
-      "title_en": "LG’s brilliant C6 OLED TV is already $400 off ahead of Black Friday",
-      "summary_vi": [
-        "Hãng điện tử LG vừa khởi động chương trình khuyến mãi sớm cho dòng tivi OLED C6 trước dịp Black Friday, cho phép người dùng sở hữu các mẫu màn hình cao cấp với mức giá ưu đãi hấp dẫn tại nhiều hệ thống bán lẻ lớn.",
-        "Thiết bị được trang bị bộ vi xử lý AI Alpha 11 thế hệ thứ ba, hỗ trợ tần số quét lên tới 165Hz, tích hợp các chuẩn kết nối HDMI 2.1 cùng công nghệ đồng bộ hình ảnh G-Sync và FreeSync Premium dành cho game thủ chuyên nghiệp.",
-        "Bên cạnh những nâng cấp về phần cứng và khả năng xử lý hình ảnh, người dùng cần lưu ý các vấn đề liên quan đến quyền riêng tư và chính sách thu thập dữ liệu người dùng trên các dòng tivi thông minh hiện nay."
-      ],
-      "summary_en": [
-        "LG has officially launched an early Black Friday promotion for its C6 OLED television series, offering significant price reductions on various screen sizes through major retail partners before the traditional November shopping season begins.",
-        "The hardware features the advanced Alpha 11 AI Gen3 processor, supports a 165Hz refresh rate, and includes four HDMI 2.1 ports alongside AMD FreeSync Premium and Nvidia G-Sync compatibility for high-performance gaming and smooth visuals.",
-        "While the device offers impressive technical specifications and smart home integration, users should remain aware of ongoing industry discussions regarding data collection practices and privacy concerns associated with modern smart television operating systems."
-      ],
-      "originalTitle": "LG’s brilliant C6 OLED TV is already $400 off ahead of Black Friday",
-      "url": "https://www.theverge.com/gadgets/1017768/lg-c6-oled-tv-early-black-friday-2026-deal-sale",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "OLED",
-        "Hardware",
-        "Gaming",
-        "Privacy",
-        "SmartTV"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-24T15:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/TV-OLED55C6PUA-Brilliant-oled-pictures_features_900x600.avif?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "LG’s C6 OLED TV is on sale in multiple sizes starting at $999.99 ($300 off). | Image: LG Black Friday is still over a month away, but if you’re hoping to upgrade your TV, you don’t need to wait until November. LG has already kicked off its early Black Friday sale, letting you save on the LG C6 and v",
-      "authorName": "Sheena Vasani",
-      "upvotes": 0,
-      "commentsCount": 0
     }
   ]
 }
