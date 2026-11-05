@@ -1,7 +1,453 @@
 {
-  "lastUpdated": "2026-11-05T04:26:27.509Z",
+  "lastUpdated": "2026-11-05T23:06:37.896Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "2165b65a40c289be",
+      "title_vi": "Perplexity ra mắt các tác nhân trí tuệ nhân tạo chuyên dụng cho công việc",
+      "title_en": "Perplexity launches its own take on AI agents for work",
+      "summary_vi": [
+        "Perplexity vừa chính thức giới thiệu các tác nhân trí tuệ nhân tạo thế hệ mới với tên gọi Teammates, nhằm cạnh tranh trực tiếp với các giải pháp tự động hóa công việc từ OpenAI và Anthropic trong môi trường doanh nghiệp hiện đại.",
+        "Hệ thống này vận hành dựa trên nền tảng Perplexity Computer, cho phép các tác nhân thực thi nhiệm vụ trực tiếp trên thiết bị người dùng, đồng thời truy xuất dữ liệu dự án và kỹ năng từ bộ nhớ lưu trữ sẵn có.",
+        "Việc triển khai các tác nhân có khả năng phối hợp đa nhiệm giúp tối ưu hóa quy trình làm việc quy mô lớn, đánh dấu bước tiến quan trọng trong việc ứng dụng trí tuệ nhân tạo vào các tác vụ chuyên sâu của lập trình viên."
+      ],
+      "summary_en": [
+        "Perplexity has officially introduced its new AI agents called Teammates, designed to compete directly with existing enterprise automation solutions provided by industry leaders like OpenAI and Anthropic in the modern professional workspace environment.",
+        "The system operates on the Perplexity Computer framework, enabling agents to execute tasks directly on user devices while retrieving project data, skills, and contextual memory from the platform's existing integrated toolset for seamless operations.",
+        "Deploying agents capable of collaborative multitasking helps optimize large-scale workflows, representing a significant advancement in integrating sophisticated artificial intelligence into complex professional tasks and daily operations for developers and technical teams."
+      ],
+      "originalTitle": "Perplexity launches its own take on AI agents for work",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Agents",
+        "Automation",
+        "Perplexity",
+        "Productivity"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-05T22:26:50.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25472503/STK271_PERPLEXITY_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integrate with Perplexity ",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "199af8aea5b61129",
+      "title_vi": "Công cụ lập trình trí tuệ nhân tạo Claude Code truyền địa chỉ email của người dùng đến các trang web",
+      "title_en": "Claude Code sends your email address to websites",
+      "summary_vi": [
+        "Công cụ lập trình dựa trên trí tuệ nhân tạo Claude Code vừa bị phát hiện tự động truyền tải địa chỉ email cá nhân của người sử dụng đến các trang web bên ngoài trong quá trình hoạt động.",
+        "Hành vi này làm dấy lên những lo ngại nghiêm trọng về quyền riêng tư dữ liệu khi các trợ lý lập trình thông minh có thể vô tình hoặc cố ý rò rỉ thông tin nhạy cảm của nhà phát triển.",
+        "Cộng đồng lập trình viên cần hết sức thận trọng khi sử dụng các công cụ tự động hóa và cần có các giải pháp kiểm soát lưu lượng mạng chặt chẽ hơn để bảo mật thông tin cá nhân."
+      ],
+      "summary_en": [
+        "The artificial intelligence coding assistant Claude Code has been discovered automatically transmitting users personal email addresses to external websites during its routine operational processes.",
+        "This behavior raises severe data privacy concerns regarding how intelligent development assistants might unintentionally or intentionally leak sensitive developer information to third parties.",
+        "Software engineering communities must exercise extreme caution when adopting automated development tools and implement stricter network traffic controls to safeguard personal data security."
+      ],
+      "originalTitle": "Claude Code sends your email address to websites",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "AI",
+        "Claude Code",
+        "Cybersecurity",
+        "Privacy",
+        "Software Engineering"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-05T22:17:15.000Z",
+      "contentSnippet": "Claude Code sends your email address to websites",
+      "authorName": "motoroco",
+      "upvotes": 111,
+      "commentsCount": 24
+    },
+    {
+      "id": "ef3f53e2698295a0",
+      "title_vi": "Lỗ hổng thực thi mã từ xa trong ứng dụng vẽ tranh MS Paint",
+      "title_en": "MS Paint Remote Code Execution Vulnerability",
+      "summary_vi": [
+        "Bài viết phân tích một lỗ hổng bảo mật nghiêm trọng liên quan đến khả năng thực thi mã từ xa trong ứng dụng vẽ tranh mặc định của hệ điều hành Windows là MS Paint.",
+        "Lỗ hổng này xuất phát từ cách xử lý bộ nhớ không an toàn khi phân tích cú pháp các tệp hình ảnh định dạng đặc biệt, cho phép kẻ tấn công thực thi mã độc hại.",
+        "Các chuyên gia an ninh mạng khuyến nghị người dùng cần nhanh chóng cập nhật các bản vá bảo mật mới nhất từ nhà phát triển để ngăn chặn nguy cơ bị khai thác."
+      ],
+      "summary_en": [
+        "The article analyzes a critical security vulnerability involving remote code execution capabilities within the default Windows drawing application known as MS Paint.",
+        "This vulnerability stems from unsafe memory handling during the parsing of specially formatted image files, allowing attackers to execute arbitrary malicious code.",
+        "Cybersecurity experts strongly recommend that users promptly apply the latest security patches provided by the developer to mitigate potential exploitation risks."
+      ],
+      "originalTitle": "MS Paint Remote Code Execution Vulnerability",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Security",
+        "RCE",
+        "Vulnerability",
+        "Windows",
+        "MS Paint"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-05T20:43:42.000Z",
+      "contentSnippet": "MS Paint Remote Code Execution Vulnerability",
+      "authorName": "kuberwastaken",
+      "upvotes": 189,
+      "commentsCount": 49
+    },
+    {
+      "id": "578010e7f32a1bc4",
+      "title_vi": "Công cụ tìm kiếm Kagi mở cửa miễn phí cho mọi người dùng và chỉ trích quyết định của Google đối với các tài khoản trường học",
+      "title_en": "Kagi Search for Everyone and Response to Google School Account AI Changes",
+      "summary_vi": [
+        "Nền tảng tìm kiếm không quảng cáo Kagi chính thức cho phép mọi người dùng truy cập trải nghiệm tìm kiếm trực tiếp trên web mà không cần tạo tài khoản cho năm mươi lượt tìm kiếm đầu tiên.",
+        "Ứng dụng di động trên hệ điều hành Android được thiết kế lại giao diện trang chủ, xây dựng lại tính năng tìm kiếm bằng giọng nói và tích hợp các phương thức truy cập nhanh chóng hơn từ mọi nơi trên điện thoại.",
+        "Sự kiện này đánh dấu bước tiến quan trọng trong việc mở rộng cơ sở người dùng, đồng thời đưa ra giải pháp thay thế tiềm năng cho các trường học trước những thay đổi chính sách phần mềm sắp tới của Google."
+      ],
+      "summary_en": [
+        "The ad free search platform Kagi officially allows all users to access direct web searches without requiring an account creation for the first fifty search queries performed.",
+        "The mobile application on the Android operating system features a redesigned home screen interface rebuilt voice search functionality and integrated faster access methods from anywhere on the phone.",
+        "This milestone marks a significant step in expanding the user base while offering a viable alternative for educational institutions facing upcoming software policy changes from Google."
+      ],
+      "originalTitle": "Kagi Search for Everyone",
+      "url": "https://kagi.com/changelog",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Search Engine",
+        "Android",
+        "Privacy",
+        "EdTech"
+      ],
+      "hotScore": 83,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-05T20:03:34.000Z",
+      "contentSnippet": "Browse Changelogs Nov 5th, 2026 - Your friends and family can finally try Kagi # Kagi Search Search for everyone As many of you know, we don't run ads anywhere. Instead, we are active on social media and online communities to stay close to you, build a great product, and rely on word of mouth. We've",
+      "authorName": "elashri",
+      "upvotes": 333,
+      "commentsCount": 169
+    },
+    {
+      "id": "a9967ec55d18460f",
+      "title_vi": "Samsung Galaxy Z Fold 8 giảm giá mạnh 300 USD trước thềm Black Friday",
+      "title_en": "Samsung’s Galaxy Z Fold 8 is $300 off ahead of Black Friday",
+      "summary_vi": [
+        "Samsung đang triển khai chương trình giảm giá sâu cho mẫu điện thoại gập Galaxy Z Fold 8 trên các nền tảng thương mại điện tử lớn, giúp người dùng tiết kiệm đáng kể chi phí cho một thiết bị cao cấp mới ra mắt.",
+        "Thiết bị sở hữu viên pin 4.800mAh bền bỉ, màn hình tỷ lệ 4:3 tối ưu cho việc đọc và giải trí, cùng thiết kế mỏng nhẹ, dù vẫn còn một số hạn chế về ống kính tele và tiêu chuẩn kháng nước IP48.",
+        "Động thái giảm giá này tạo cơ hội tiếp cận công nghệ màn hình gập cho nhiều người dùng hơn, đồng thời thúc đẩy sự cạnh tranh trong phân khúc thiết bị di động cao cấp trước mùa mua sắm cuối năm đầy sôi động."
+      ],
+      "summary_en": [
+        "Samsung is currently offering a significant discount on the Galaxy Z Fold 8 across major e-commerce platforms, allowing users to save substantially on a premium foldable device that was released only a few months ago.",
+        "The device features a durable 4,800mAh battery, a 4:3 aspect ratio screen optimized for reading and media consumption, and a slim design, despite minor trade-offs regarding the telephoto lens and the IP48 water resistance rating.",
+        "This price reduction provides broader access to foldable display technology for consumers while intensifying competition within the high-end mobile device market ahead of the highly anticipated year-end holiday shopping season."
+      ],
+      "originalTitle": "Samsung’s Galaxy Z Fold 8 is $300 off ahead of Black Friday",
+      "url": "https://www.theverge.com/gadgets/1027659/samsung-galaxy-z-fold-8-beats-pill-deal-sale",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Samsung",
+        "Foldable",
+        "Mobile",
+        "Hardware",
+        "Discount"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-05T19:12:58.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/samsung-galaxy-z-fold-8-roundup.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Android fans with a bit of iPhone Duo envy, take note: The Samsung Galaxy Z Fold 8 is discounted to $1,599.99 at both Amazon and Best Buy, a hefty $300 markdown from its usual price, and just $50 higher than the lowest we’ve seen. Considering the device only launched a few months ago, you’re saving ",
+      "authorName": "Brad Bourque",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e385eda5d1a8daed",
+      "title_vi": "Lỗ hổng an ninh mạng tại châu Âu cho phép tin tặc tấn công tủ lạnh và kho máu thông qua thiết bị kết nối Internet",
+      "title_en": "Critical security vulnerabilities in European IoT devices allow hackers to remotely compromise smart refrigerators and blood storage systems",
+      "summary_vi": [
+        "Nhiều hệ thống từ các siêu thị lớn cho đến các cơ sở y tế bảo quản máu tại châu Âu đang trở thành mục tiêu tấn công mạng khi tin tặc khai thác triệt để các lỗ hổng bảo mật nghiêm trọng trên các thiết bị Internet vạn vật kết nối trực tiếp vào mạng Internet công cộng mà không được bảo vệ đầy đủ.",
+        "Kẻ tấn công có thể lợi dụng các điểm yếu trong giao thức truyền thông và cơ chế xác thực lỏng lẻo của các thiết bị này để chiếm quyền điều khiển hoàn toàn hệ thống từ xa, từ đó can thiệp trực tiếp vào thông số vận hành và làm gián đoạn nghiêm trọng quy trình bảo quản lạnh.",
+        "Sự cố này là bài học cảnh tỉnh lớn về an ninh mạng đối với các kỹ sư hệ thống và nhà quản lý hạ tầng trong việc áp dụng các tiêu chuẩn mã hóa mạnh mẽ, thiết lập tường lửa phân vùng mạng và thực hiện kiểm tra lỗ hổng định kỳ đối với toàn bộ các thiết bị phần cứng kết nối mạng."
+      ],
+      "summary_en": [
+        "Multiple systems across large supermarkets and medical blood storage facilities in Europe are currently targeted by hackers who actively exploit severe security vulnerabilities within connected Internet of Things devices exposed directly to the public network without adequate protection.",
+        "Malicious actors can easily leverage weaknesses found in communication protocols and loose authentication mechanisms of these embedded devices to gain complete remote system control, allowing them to directly manipulate operational parameters and disrupt critical cold storage workflows.",
+        "This severe security incident serves as a major wake-up call for system engineers and infrastructure managers regarding the urgent implementation of strong encryption standards, network segmentation firewalls, and regular vulnerability assessments across all connected hardware."
+      ],
+      "originalTitle": "Hé lộ lỗ hổng giúp tin tặc tấn công tủ lạnh, kho máu ở châu Âu",
+      "url": "https://tuoitre.vn/he-lo-lo-hong-giup-tin-tac-tan-cong-tu-lanh-kho-mau-o-chau-au-100261105144503586.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "IoT",
+        "Vulnerability",
+        "Network Security",
+        "Embedded Systems"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-05T17:30:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/5/ap26306457417754-17938623195991497475808-100-0-1463-2180-crop-17938623926271582936843.jpg",
+      "contentSnippet": "Từ hàng trăm siêu thị đến các cơ sở bảo quản máu tại châu Âu, tin tặc đang khai thác lỗ hổng thiết bị kết nối Internet để chiếm quyền điều khiển và can thiệp hệ thống từ xa.",
+      "authorName": "THANH HIỆP⭐",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5888f554aae8eb2d",
+      "title_vi": "Đánh giá AvatarCraft AI: Chọn đúng quy trình cho ảnh, giọng nói và video có sẵn",
+      "title_en": "AvatarCraft AI review: Choosing the right workflow for stock photos, voice, and video",
+      "summary_vi": [
+        "Nếu bạn đang cân nhắc thêm một công cụ AI vào quy trình tạo nội dung, câu hỏi hữu ích không phải chỉ là “công cụ có bao nhiêu tính năng?”.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Đánh giá AvatarCraft AI: Chọn đúng quy trình cho ảnh, giọng nói và video có sẵn.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Đánh giá AvatarCraft AI: Chọn đúng quy trình cho ảnh, giọng nói và video có sẵn."
+      ],
+      "summary_en": [
+        "If you're considering adding an AI tool to your content creation process, a useful question isn't just “how many features does the tool have?”.",
+        "In-depth technical breakdown and implementation mechanisms introduced in AvatarCraft AI review: Choosing the right workflow for stock photos, voice, and video.",
+        "Practical engineering impact and actionable takeaways for developers building with AvatarCraft AI review: Choosing the right workflow for stock photos, voice, and video."
+      ],
+      "originalTitle": "Đánh giá AvatarCraft AI: Chọn đúng quy trình cho ảnh, giọng nói và video có sẵn",
+      "url": "https://viblo.asia/p/danh-gia-avatarcraft-ai-chon-dung-quy-trinh-cho-anh-giong-noi-va-video-co-san-AY4qQO1p4Pw",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "MachineLearning"
+      ],
+      "hotScore": 90,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-05T17:04:37.000Z",
+      "contentSnippet": "Nếu bạn đang cân nhắc thêm một công cụ AI vào quy trình tạo nội dung, câu hỏi hữu ích không phải chỉ là “công cụ có bao nhiêu tính năng?”. Hãy bắt đầu...",
+      "authorName": "Carol Luo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "368e18303e00348b",
+      "title_vi": "Thần đồng toán học Mã Tiêu rời Mỹ về Trung Quốc để phát triển trí tuệ nhân tạo",
+      "title_en": "Mathematical prodigy Ma Xiao leaves US for China to pursue Artificial General Intelligence",
+      "summary_vi": [
+        "Nhà toán học trẻ Mã Tiêu vừa quyết định rời bỏ vị trí nghiên cứu tại Mỹ để gia nhập Đại học Khoa học và Công nghệ Trung Quốc, tập trung hoàn toàn vào lĩnh vực trí tuệ nhân tạo tổng quát thay vì các nghiên cứu toán học thuần túy.",
+        "Với nền tảng giải quyết thành công bài toán thứ sáu của Hilbert, Mã Tiêu kỳ vọng sẽ áp dụng tư duy toán học cao cấp để tối ưu hóa các mô hình AI, đặc biệt là khả năng tự thực hiện các phát kiến toán học phức tạp thông qua máy tính.",
+        "Sự chuyển dịch của các chuyên gia toán học sang lĩnh vực AI cho thấy xu hướng tích hợp sâu rộng giữa lý thuyết toán học hàn lâm và thực tiễn phát triển công nghệ, hứa hẹn tạo ra những bước tiến đột phá trong khả năng suy luận của máy móc."
+      ],
+      "summary_en": [
+        "Mathematical prodigy Ma Xiao has decided to leave his research position in the United States to join the University of Science and Technology of China, shifting his professional focus entirely toward the field of Artificial General Intelligence instead of pure mathematics.",
+        "Leveraging his background in solving Hilbert's sixth problem, Ma aims to apply advanced mathematical frameworks to optimize AI models, specifically targeting the development of systems capable of autonomously generating complex mathematical discoveries through computational power.",
+        "The transition of top-tier mathematicians into the AI sector highlights a growing trend of integrating academic mathematical theory with practical technological development, potentially leading to significant breakthroughs in machine reasoning and autonomous problem-solving capabilities."
+      ],
+      "originalTitle": "Thần đồng toán học Trung Quốc rời Mỹ về nước để theo đuổi AI",
+      "url": "https://vnexpress.net/than-dong-toan-hoc-trung-quoc-roi-my-ve-nuoc-de-theo-duoi-ai-5141226.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "AGI",
+        "Mathematics",
+        "Research",
+        "Machine Learning"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-05T17:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/05/VNEStar-1793868694-1589-1793868745.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=M_Wem85KMK8FnP_0ayIfZg",
+      "contentSnippet": "Ngôi sao toán học nổi tiếng Mã Tiêu cho biết sẽ trở về Trung Quốc để tập trung vào lĩnh vực AI thay vì nghiên cứu khoa học thuần túy.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b9d988466c174119",
+      "title_vi": "Phát hiện mã độc mới tinh vi tấn công hệ điều hành Windows",
+      "title_en": "Sophisticated New Malware Discovered Targeting Windows Operating System",
+      "summary_vi": [
+        "Các nhà nghiên cứu an ninh mạng vừa phát hiện một dòng mã độc tinh vi mới chuyên tấn công vào hệ điều hành Windows tại các cơ quan chính phủ quan trọng.",
+        "Thay vì phát tán qua các tập tin thực thi đáng ngờ thông thường, chiến dịch tấn công này lợi dụng các chương trình hợp pháp sẵn có để qua mặt các lớp bảo mật.",
+        "Sự cố này gióng lên hồi chuông cảnh báo về các kỹ thuật tấn công không dùng tệp tin và đòi hỏi các tổ chức phải nâng cao năng lực giám sát hệ thống."
+      ],
+      "summary_en": [
+        "Cybersecurity researchers have recently discovered a highly sophisticated new malware strain specifically targeting Windows operating systems within government agencies.",
+        "Instead of distributing through traditional suspicious executable files, this stealthy attack campaign successfully leverages legitimate built-in programs to bypass modern security layers.",
+        "This severe incident raises critical alarms regarding advanced fileless attack techniques and requires organizations to significantly upgrade their continuous system monitoring capabilities."
+      ],
+      "originalTitle": "Phát hiện mã độc mới tinh vi tấn công hệ điều hành Windows",
+      "url": "https://tuoitre.vn/phat-hien-ma-doc-moi-tinh-vi-tan-cong-he-dieu-hanh-windows-100261105151024494.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Windows",
+        "Malware",
+        "ThreatIntel",
+        "GovernmentSecurity"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-05T15:59:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/5/thumb-kaspersky-netamloader-ma-doc-1793865310992594526316-17938654158411385389764-81-172-679-1129-crop-17938654234111029176101.jpg",
+      "contentSnippet": "Không phát tán tập tin đáng ngờ theo cách thông thường, tin tặc lợi dụng các chương trình hợp pháp để đưa mã độc vào hệ thống Windows của cơ quan chính phủ.",
+      "authorName": "ĐỨC THIỆN⭐",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5e126dfcd8493473",
+      "title_vi": "Cảnh báo bảo mật hệ điều hành: Lỗ hổng bỏ qua xác thực mật khẩu trên máy chủ OpenSSH",
+      "title_en": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
+      "summary_vi": [
+        "Hệ điều hành máy chủ Alpine Linux vừa phát đi cảnh báo khẩn cấp về một lỗ hổng nghiêm trọng cho phép kẻ tấn công vượt qua hoàn toàn cơ chế xác thực mật khẩu trên dịch vụ điều khiển từ xa.",
+        "Lỗ hổng kích hoạt khi kẻ tấn công gửi chuỗi dữ liệu đầu vào cực dài kết hợp với việc hệ thống tồn tại tài khoản không đặt mật khẩu và ít nhất một tài khoản có mã hóa mật khẩu tiêu chuẩn.",
+        "Quản trị viên cần nhanh chóng cập nhật gói phần mềm lên phiên bản vá lỗi mới nhất và khởi động lại dịch vụ máy chủ hoặc vô hiệu hóa tạm thời tính năng đăng nhập bằng mật khẩu để đảm bảo an toàn."
+      ],
+      "summary_en": [
+        "The Alpine Linux operating system has issued an emergency security advisory regarding a critical vulnerability that allows attackers to completely bypass password authentication mechanisms on remote management services.",
+        "The vulnerability triggers when an attacker transmits an extremely long input string combined with the system having accounts without passwords and at least one account utilizing standard password hashing.",
+        "Administrators must promptly update software packages to the latest patched versions and restart the daemon service or temporarily disable password login functionality to ensure system security."
+      ],
+      "originalTitle": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
+      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "OpenSSH",
+        "Linux",
+        "Vulnerability",
+        "DevOps"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-05T14:44:20.000Z",
+      "contentSnippet": "If you run sshd on Alpine Linux, update openssh now and restart sshd. Upgrading the package alone does not replace the running daemon. If you cannot update yet, at least disable password logins: set PasswordAuthentication no in your sshd configuration and restart sshd. Either one closes the hole. An",
+      "authorName": "pantalaimon",
+      "upvotes": 535,
+      "commentsCount": 105
+    },
+    {
+      "id": "c5624a34702a8f94",
+      "title_vi": "5 tài năng Việt được vinh danh tại AI Awards 2026",
+      "title_en": "Five Vietnamese talents honored at AI Awards 2026",
+      "summary_vi": [
+        "Hạng mục Tài năng trí tuệ nhân tạo tại lễ trao giải AI Awards 2026 chính thức vinh danh những cá nhân xuất sắc có nhiều đóng góp đột phá trong việc nghiên cứu và phát triển các giải pháp công nghệ tiên tiến.",
+        "Các chuyên gia và kỹ sư được xướng tên đã thể hiện năng lực vượt trội trong việc ứng dụng các mô hình học máy phức tạp, tối ưu hóa thuật toán và triển khai các hệ thống xử lý dữ liệu lớn trong thực tế.",
+        "Sự kiện này không chỉ tôn vinh trí tuệ Việt Nam trên bản đồ công nghệ quốc tế mà còn tạo động lực mạnh mẽ cho cộng đồng lập trình viên và nhà nghiên cứu tiếp tục đổi mới sáng tạo trong kỷ nguyên số."
+      ],
+      "summary_en": [
+        "The Artificial Intelligence Talent category at the AI Awards 2026 ceremony officially honors outstanding individuals with groundbreaking contributions to the research and development of advanced technology solutions.",
+        "The recognized experts and engineers have demonstrated exceptional capabilities in applying complex machine learning models, optimizing algorithms, and implementing large-scale data processing systems in practice.",
+        "This event not only celebrates Vietnamese intelligence on the international technology map but also creates a strong motivation for the developer and researcher community to continue innovating in the digital era."
+      ],
+      "originalTitle": "5 tài năng Việt được vinh danh tại AI Awards 2026",
+      "url": "https://vnexpress.net/5-tai-nang-viet-duoc-vinh-danh-tai-ai-awards-2026-5140792.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "AI Awards",
+        "Tech Talent",
+        "Research"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-05T13:40:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/05/1793873915950-g527084570717743-8045-3639-1793879491.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=QGi_JSxbVVTt_4v5da3XlQ",
+      "contentSnippet": "Hạng mục Tài năng AI tại AI Awards 2026 ghi nhận những đóng góp và thành tích của các chuyên gia, kỹ sư, nhà nghiên cứu trong việc phát triển và ứng dụng trí tuệ nhân tạo.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0c922e22e2f82677",
+      "title_vi": "5 doanh nghiệp AI tiêu biểu tại Giải thưởng Trí tuệ nhân tạo 2026",
+      "title_en": "Five Outstanding AI Enterprises Honored at the 2026 AI Awards",
+      "summary_vi": [
+        "Hạng mục Doanh nghiệp AI tiêu biểu tại Giải thưởng Trí tuệ nhân tạo 2026 chính thức vinh danh năm công ty công nghệ có đóng góp xuất sắc trong việc phát triển và ứng dụng công nghệ trí tuệ nhân tạo.",
+        "Các doanh nghiệp được lựa chọn nhờ năng lực xây dựng các giải pháp thuật toán tiên tiến, tối ưu hóa quy trình xử lý dữ liệu lớn và mang lại hiệu suất vận hành vượt trội cho hệ thống.",
+        "Sự kiện này không chỉ khẳng định vị thế của các đơn vị tiên phong mà còn thúc đẩy hệ sinh thái đổi mới sáng tạo, tạo động lực mạnh mẽ cho sự phát triển kinh tế số quốc gia."
+      ],
+      "summary_en": [
+        "The outstanding artificial intelligence enterprise category at the 2026 AI Awards officially honored five technology companies with exceptional contributions to developing and applying advanced artificial intelligence technologies.",
+        "These enterprises were selected for their capability to build sophisticated algorithmic solutions, optimize big data processing pipelines, and deliver superior operational performance for modern enterprise systems.",
+        "This event not only reinforces the market standing of these pioneering organizations but also accelerates the innovation ecosystem, driving robust momentum for the nation's digital economy."
+      ],
+      "originalTitle": "5 doanh nghiệp AI tiêu biểu tại AI Awards 2026",
+      "url": "https://vnexpress.net/5-doanh-nghiep-ai-tieu-bieu-tai-ai-awards-2026-5140794.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "AI Awards",
+        "Digital Transformation",
+        "Tech Startups"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-05T13:35:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/05/1793873920040-g52708457071-179-4611-9327-1793887580.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=pxGmQ1vi-q5kBFPPb58WnA",
+      "contentSnippet": "Hạng mục Doanh nghiệp AI tiêu biểu tại AI Awards 2026 vinh danh 5 công ty có đóng góp tích cực trong việc phát triển trí tuệ nhân tạo, tạo ra giá trị kinh tế, xã hội.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f11cc2830eb3b2f2",
+      "title_vi": "Google công bố Việt Nam có 45 triệu người dùng trí tuệ nhân tạo tạo sinh",
+      "title_en": "Google Reports Vietnam Reaches 45 Million Generative AI Users",
+      "summary_vi": [
+        "Báo cáo thường niên e-Conomy SEA do Google, Temasek và Bain & Company công bố ngày 5 tháng 11 chỉ ra rằng nền kinh tế số Việt Nam đang tăng trưởng mạnh mẽ với 45 triệu người dùng trí tuệ nhân tạo tạo sinh.",
+        "Việt Nam ghi nhận khoảng 45 triệu người dùng các công cụ trí tuệ nhân tạo tạo sinh, chiếm 65% lực lượng lao động và đạt tỷ lệ 26% người dùng thường xuyên hàng ngày cùng với 31 tỷ lượt truy vấn mỗi năm.",
+        "Sự bùng nổ về số lượng người dùng và tần suất tương tác cao với các mô hình trí tuệ nhân tạo tạo sinh khẳng định vị thế dẫn đầu của Việt Nam về mức độ tiếp cận công nghệ trong khu vực Đông Nam Á."
+      ],
+      "summary_en": [
+        "The annual e-Conomy SEA report released by Google, Temasek, and Bain & Company on November 5 highlights that Vietnam's digital economy is growing rapidly with 45 million generative artificial intelligence users.",
+        "Vietnam records approximately 45 million generative artificial intelligence users, accounting for 65 percent of the workforce and achieving a 26 percent daily active usage rate alongside 31 billion queries annually.",
+        "The surge in user adoption and high interaction frequency with generative artificial intelligence models solidifies Vietnam's leading position in technology accessibility across the Southeast Asian region."
+      ],
+      "originalTitle": "Google: Việt Nam có 45 triệu người dùng AI tạo sinh",
+      "url": "https://vnexpress.net/google-viet-nam-co-45-trieu-nguoi-dung-ai-tao-sinh-5141023.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Generative AI",
+        "Google",
+        "Digital Economy",
+        "Southeast Asia"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-05T11:10:59.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/05/wm1-wm1-dsc00673-jpg-1793852722-1641-1793852782.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=rRxLUApz8CARWe4IF2wNmg",
+      "contentSnippet": "Việt Nam có quy mô kinh tế số dự kiến đạt 49 tỷ USD, tăng trưởng cao nhất khu vực Đông Nam Á, đồng thời có 45 triệu người dùng AI tạo sinh.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "7b2bbc2e4abb6528",
       "title_vi": "Sử dụng proxy dân cư trong Python: nên chọn phiên xoay vòng hay phiên cố định qua ví dụ requests, httpx và Playwright",
@@ -33,6 +479,39 @@
       "publishedAt": "2026-11-05T10:32:06.000Z",
       "contentSnippet": "Hướng dẫn thực hành: cấu hình HTTP/SOCKS5 proxy, kiểm tra IP và vị trí đầu ra, xử lý retry/timeout, và dùng proxy một cách có trách nhiệm. Công khai:...",
       "authorName": "李强强",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "03c32d82c0a68aa5",
+      "title_vi": "Công nghệ AVS trên dòng điện thoại iPhone 18 Pro là gì và người dùng có cần thay đổi củ sạc mới không?",
+      "title_en": "What is AVS technology on the iPhone 18 Pro and do users need to purchase a new power adapter?",
+      "summary_vi": [
+        "Cộng đồng công nghệ đang bàn luận sôi nổi về công nghệ sạc mới mang tên AVS được trang bị trên thế hệ điện thoại thông minh tiếp theo của Apple là iPhone 18 Pro với nhiều kỳ vọng lớn.",
+        "Công nghệ này cải tiến đáng kể hiệu suất truyền tải năng lượng, tối ưu hóa nhiệt độ và nâng cao tuổi thọ viên pin thông qua các thuật toán điều chỉnh dòng điện thông minh thế hệ mới.",
+        "Sự thay đổi này tác động lớn đến hệ sinh thái phụ kiện phần cứng, buộc các nhà phát triển và người dùng phải cân nhắc kỹ lưỡng về việc lựa chọn thiết bị sạc tương thích an toàn."
+      ],
+      "summary_en": [
+        "The technology community is actively discussing the new charging standard named AVS equipped on Apple upcoming smartphone generation iPhone 18 Pro with high expectations.",
+        "This technology significantly improves power transmission efficiency, optimizes operating temperatures, and enhances battery lifespan through advanced smart current regulation algorithms.",
+        "This hardware shift heavily impacts the ecosystem of charging accessories, forcing developers and everyday users to carefully evaluate compatible power devices for safety."
+      ],
+      "originalTitle": "AVS trên iPhone 18 Pro là gì, có cần mua củ sạc mới không?",
+      "url": "https://tinhte.vn/thread/avs-tren-iphone-18-pro-la-gi-co-can-mua-cu-sac-moi-khong.4189681/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iPhone 18 Pro",
+        "AVS Technology",
+        "Mobile Hardware",
+        "Fast Charging"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-05T04:50:26.000Z",
+      "contentSnippet": "Nhiều người dùng đã bắt đầu tò mò về công nghệ này, vậy AVS thực chất là gì và nó thay đổi trải nghiệm sạc của bạn ra sao? Sạc nhanh trên điện thoại thì không có gì mới, Samsung hay Google đã...",
+      "authorName": "Pnghuy",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -1275,6 +1754,39 @@
       "authorName": "nharada",
       "upvotes": 270,
       "commentsCount": 108
+    },
+    {
+      "id": "67b98f0f92545911",
+      "title_vi": "Một bài viết cuối cùng và một lời tạm biệt thích hợp",
+      "title_en": "One Last Post, and a Proper Goodbye",
+      "summary_vi": [
+        "Những suy ngẫm về hành trình mã hóa do AI điều khiển 🦄 Trở thành nhà phát triển có ý nghĩa gì?",
+        "Đó là sở thích, công việc, niềm đam mê hay sự kết hợp của cả ba?",
+        "Khi tôi lần đầu tiên khám phá ra lập trình, nó chỉ là một phương tiện để đạt được mục đích và không có gì hơn thế."
+      ],
+      "summary_en": [
+        "Reflections on an AI-driven coding journey 🦄 What does it mean to be a developer?",
+        "Is it a hobby, a job, a passion, or some combination of all three?",
+        "When I first discovered programming, it was a means to an end and nothing more."
+      ],
+      "originalTitle": "One Last Post, and a Proper Goodbye",
+      "url": "https://dev.to/anchildress1/one-last-post-and-a-proper-goodbye-53a2",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "SoftwareEngineering",
+        "Programming"
+      ],
+      "hotScore": 84,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-11-03T16:08:07.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fvgz2izgjw1fw22jc0g0c.png",
+      "contentSnippet": "🦄 What does it mean to be a developer? Is it a hobby, a job, a passion, or some combination of all...",
+      "authorName": "Ashley Childress",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3224358%2Fd0d49299-08e2-460d-a1fb-9374ca313093.png",
+      "upvotes": 49,
+      "commentsCount": 10
     },
     {
       "id": "910ebbfa62fe03cf",
@@ -8056,519 +8568,6 @@
       "readTimeMinutes": 5,
       "publishedAt": "2026-10-25T16:47:15.000Z",
       "contentSnippet": "Ở Bài học 19, chúng ta đã chỉ ra rằng việc sử dụng các câu lệnh INSERT INTO đơn lẻ là \"cẻ thù\" làm kiệt quệ tài nguyên của Master Node và làm nghẽn mạ...",
-      "authorName": "Nguyen Hoang",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "57b61ce40a0d7272",
-      "title_vi": "Trino SQL Bài học 39: Đọc hiểu và phân tích kế hoạch thực thi EXPLAIN",
-      "title_en": "Trino SQL Lesson 39: Understanding and Analyzing Execution Plans with EXPLAIN",
-      "summary_vi": [
-        "Bài viết tập trung vào việc hướng dẫn lập trình viên cách đọc hiểu kế hoạch thực thi truy vấn trong Trino, giúp người dùng nắm bắt được cách thức engine xử lý dữ liệu từ các câu lệnh SQL khai báo.",
-        "Nội dung đi sâu vào cơ chế định tuyến và tối ưu hóa truy vấn của Trino, giải thích chi tiết cách hệ thống phân tích cú pháp và chuyển đổi chúng thành các bước thực thi cụ thể trên hạ tầng phân tán.",
-        "Việc nắm vững lệnh EXPLAIN giúp kỹ sư dữ liệu tối ưu hóa hiệu suất truy vấn, giảm thiểu độ trễ và sử dụng tài nguyên hệ thống hiệu quả hơn trong các môi trường dữ liệu lớn và phức tạp."
-      ],
-      "summary_en": [
-        "This article focuses on guiding developers through reading and interpreting query execution plans in Trino, helping users understand how the engine processes data from declarative SQL statements effectively.",
-        "The content dives deep into Trino's routing and query optimization mechanisms, explaining in detail how the system parses syntax and transforms it into specific execution steps across distributed infrastructure.",
-        "Mastering the EXPLAIN command enables data engineers to optimize query performance, reduce latency, and utilize system resources more efficiently within large-scale and complex data processing environments."
-      ],
-      "originalTitle": "Trino SQL Bài học 39: Đọc hiểu và phân tích kế hoạch thực thi (EXPLAIN)",
-      "url": "https://viblo.asia/p/trino-sql-bai-hoc-39-doc-hieu-va-phan-tich-ke-hoach-thuc-thi-explain-OQJwzOab4MP",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Trino",
-        "SQL",
-        "Data Engineering",
-        "Query Optimization",
-        "Database"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T16:45:19.000Z",
-      "contentSnippet": "Mục tiêu bài học: - Hiểu bản chất định tuyến của Trino: SQL là ngôn ngữ khai báo (Declarative), Engine mới là người quyết định cách thực thi (Imper...",
-      "authorName": "Nguyễn Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "395b824513093247",
-      "title_vi": "Điện thoại gập đôi của Táo Khuyết xuất hiện lỗi nứt màn hình tại khu vực bản lề tương tự sự cố dòng máy gập của Samsung năm hai nghìn không trăm mười chín",
-      "title_en": "Apple Duo foldable phone displays screen cracks at the hinge resembling the Galaxy Fold incident from twenty nineteen",
-      "summary_vi": [
-        "Mạng xã hội gần đây lan truyền nhiều hình ảnh cho thấy dòng điện thoại gập đôi của Apple gặp lỗi nứt màn hình nghiêm trọng dọc theo vị trí bản lề hiển thị.",
-        "Sự cố phần cứng này làm dấy lên những lo ngại về độ bền của vật liệu màn hình gập và cơ chế cơ khí chịu lực tại khu vực khớp nối.",
-        "Vấn đề này đặt ra thách thức lớn cho các kỹ sư phần cứng trong việc tối ưu hóa độ bền thiết bị di động màn hình gập thế hệ mới."
-      ],
-      "summary_en": [
-        "Social media networks recently circulated numerous images showing Apple's foldable smartphone experiencing severe internal screen cracking along the hinge mechanism.",
-        "This hardware failure raises significant concerns regarding the structural durability of foldable display materials and mechanical stress at the articulating joint.",
-        "The issue presents a major challenge for hardware engineers striving to optimize the physical longevity and durability of next generation mobile foldable devices."
-      ],
-      "originalTitle": "iPhone Duo nứt màn hình ở bản lề: liệu Apple có lặp lại vết xe Galaxy Fold 2019",
-      "url": "https://tinhte.vn/thread/iphone-duo-nut-man-hinh-o-ban-le-lieu-apple-co-lap-lai-vet-xe-galaxy-fold-2019.4186760/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "Foldable",
-        "Hardware",
-        "Mobile",
-        "Screen"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T15:12:05.000Z",
-      "contentSnippet": "Mấy nay lướt mạng xã hội thì mình thấy có rất nhiều hình iPhone Duo bị nứt một đường bên trong màn hình hiển thị. Mình nghi ngờ là vụ này sẽ nghiêm trọng cho Apple, vì Samsung đã từng trải qua...",
-      "authorName": "cuhiep",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ce57c1e9fed5e988",
-      "title_vi": "Lãnh đạo Intel: Công nghệ chip đã bắt kịp TSMC, quy mô sản xuất thì cần thời gian",
-      "title_en": "Intel Leadership: Chip Technology Has Caught Up with TSMC, Manufacturing Scale Takes Time",
-      "summary_vi": [
-        "Lãnh đạo tập đoàn công nghệ Intel khẳng định năng lực thiết kế và công nghệ chế tạo vi mạch của họ đã gần như bắt kịp đối thủ lớn TSMC trong ngành công nghiệp bán dẫn.",
-        "Khoảng cách biệt nhỏ về hiệu năng không còn là rào cản lớn đối với chiến lược phát triển kiến trúc chip tiên tiến và mở rộng dây chuyền sản xuất toàn cầu.",
-        "Tuy nhiên, việc đạt được quy mô sản xuất thương mại khổng lồ đòi hỏi thêm nhiều thời gian để tối ưu hóa chuỗi cung ứng và nâng cao năng lực nhà máy."
-      ],
-      "summary_en": [
-        "Intel leadership asserts that their semiconductor manufacturing technology and chip design capabilities have nearly caught up with major industry rival TSMC.",
-        "A minor performance gap is no longer a significant barrier for their strategy to advance cutting-edge chip architectures and expand global production lines.",
-        "However, achieving massive commercial manufacturing scale requires additional time to optimize the supply chain and enhance foundry operational capacities."
-      ],
-      "originalTitle": "Lãnh đạo Intel: Công nghệ chip đã bắt kịp TSMC, quy mô sản xuất thì cần thời gian",
-      "url": "https://tinhte.vn/thread/lanh-dao-intel-cong-nghe-chip-da-bat-kip-tsmc-quy-mo-san-xuat-thi-can-thoi-gian.4186656/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Intel",
-        "TSMC",
-        "Semiconductor",
-        "Chip Design",
-        "Manufacturing"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T13:38:26.000Z",
-      "contentSnippet": "Lãnh đạo Intel: Công nghệ chip đã bắt kịp TSMC, quy mô sản xuất thì cần thời gian Intel cho rằng việc đi sau TSMC vài phần trăm về hiệu năng không phải là vấn đề lớn đối với hãng. Trong một cuộc...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b411fbb2487aa2da",
-      "title_vi": "Diễn đàn mã nguồn mở r/opensource cấm các dự án sử dụng trí tuệ nhân tạo và người không nói tiếng Anh",
-      "title_en": "r/opensource just banned AI, non-English speakers, and more",
-      "summary_vi": [
-        "Diễn đàn mã nguồn mở r/opensource đã ban hành các quy định nộp bài mới gây tranh cãi lớn, trong đó chính thức cấm toàn bộ các dự án có liên quan hoặc được tạo ra bằng trí tuệ nhân tạo.",
-        "Quyết định này vấp phải làn sóng phản ứng dữ dội từ cộng đồng lập trình viên, dẫn đến việc hình thành một nhóm thảo luận thay thế mang tên r/trueopensource để tranh luận về vấn đề này.",
-        "Sự kiện này phản ánh cuộc tranh cãi sâu sắc trong cộng đồng phần mềm nguồn mở về vai trò thực sự của công cụ tự động hóa và rào cản ngôn ngữ đối với sự phát triển chung."
-      ],
-      "summary_en": [
-        "The r/opensource community has introduced controversial submission guidelines that officially ban any software projects involving artificial intelligence or generated by automated tools.",
-        "This restriction sparked intense backlash among developers in the comments section, directly prompting the creation of a rival discussion subreddit named r/trueopensource.",
-        "The situation highlights a deep ideological divide within the open-source software movement regarding the integration of automated assistance and linguistic inclusivity in development."
-      ],
-      "originalTitle": "r/opensource just banned AI, non-English speakers, and more",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Open Source",
-        "AI",
-        "Community",
-        "Software Development"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T13:25:32.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK115_Reddit_01.jpg.webp?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this",
-      "authorName": "Terrence O’Brien",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4454f568f4b940bf",
-      "title_vi": "Điện thoại thông minh mỏng nhất giảm mạnh giá trị sau một năm ra mắt thị trường",
-      "title_en": "Thinnest Smartphone Experiences Significant Price Drop One Year After Market Launch",
-      "summary_vi": [
-        "Thị trường thiết bị di động tại Việt Nam ghi nhận sự sụt giảm mạnh về giá trị của dòng sản phẩm điện thoại thông minh mỏng nhất từ thương hiệu Apple, khiến mức giá hiện tại thấp hơn đáng kể so với các phiên bản tiêu chuẩn cùng dung lượng bộ nhớ.",
-        "Các thông số phần cứng và phân khúc thiết kế siêu mỏng từng tạo nên sức hút lớn ban đầu nay không giữ được giá trị, khi mức khấu hao sau một năm sử dụng đã đạt gần bốn mươi phần trăm, vượt gấp đôi tỷ lệ giảm giá của dòng máy tiêu chuẩn thế hệ mới.",
-        "Biến động này phản ánh rõ quy luật cung cầu khắt khe của thị trường phần cứng di động cao cấp, đồng thời đưa ra bài toán chiến lược quan trọng cho người dùng và các nhà bán lẻ trong việc tối ưu hóa chi phí đầu tư thiết bị."
-      ],
-      "summary_en": [
-        "The mobile device market in Vietnam records a sharp decline in the value of Apple's thinnest smartphone lineup, bringing current pricing significantly lower than standard equivalent storage versions.",
-        "The hardware specifications and ultra-slim design segment that initially generated massive market appeal failed to retain value, as depreciation after one year reached nearly forty percent, doubling the price drop rate of standard new generation models.",
-        "This market fluctuation clearly reflects strict supply and demand rules in the high-end mobile hardware sector, while presenting a crucial strategic lesson for users and retailers in optimizing device investment costs."
-      ],
-      "originalTitle": "Chiếc iPhone giảm hơn 12 triệu đồng sau 1 năm, rẻ hơn iPhone 17",
-      "url": "https://genk.vn/chiec-iphone-giam-hon-12-trieu-dong-sau-1-nam-re-hon-iphone-17-165261025161246932.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "Smartphone",
-        "Mobile Hardware",
-        "Market Trends"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T12:59:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/25/avatar1792919490785-17929194911971797369103.jpg",
-      "contentSnippet": "Ra mắt tại Việt Nam tháng 9/2025 với giá cao hơn iPhone 17 tới 7 triệu đồng, iPhone Air bản 256GB đã qua sử dụng hiện chỉ còn khoảng 19–20 triệu đồng, thấp hơn iPhone 17 cũ cùng dung lượng. Sau hơn một năm, chiếc iPhone mỏng nhất của Apple đã mất gần 40% giá trị, gấp đôi mức mất giá của iPhone 17.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ab1f7cff37722d46",
-      "title_vi": "Tính năng tìm kiếm tích hợp trí tuệ nhân tạo của Google đang đảo lộn ngành xuất bản trực tuyến",
-      "title_en": "Google's AI search changes upended online publishing",
-      "summary_vi": [
-        "Ngành xuất bản nội dung số từ lâu đã phụ thuộc vào công cụ tìm kiếm của Google để thu hút lượng độc giả truy cập trang web thông qua các kỹ thuật tối ưu hóa công cụ tìm kiếm.",
-        "Sự thay đổi trong cách hiển thị kết quả tìm kiếm tích hợp các mô hình trí tuệ nhân tạo đã làm giảm đáng kể lượng lượt nhấp chuột trực tiếp vào các bài viết báo chí.",
-        "Xu hướng này buộc các cơ quan báo chí và nhà phát triển web phải tái định hình chiến lược phân phối nội dung để thích ứng với kỷ nguyên tìm kiếm bằng trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "The digital publishing industry has relied heavily on Google search engines for a long time to drive reader traffic to their websites through search engine optimization techniques.",
-        "The shift in search result displays integrating artificial intelligence models has significantly reduced the direct click-through rates to original journalistic articles and websites.",
-        "This trend forces media outlets and web developers to reshape their content distribution strategies in order to adapt to the new era of artificial intelligence-driven search."
-      ],
-      "originalTitle": "Google’s AI search changes upended online publishing",
-      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Google",
-        "Search Engine",
-        "Web Publishing",
-        "Tech Trends"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T12:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK414_STK480_AI_DIS_MISINFO_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry",
-      "authorName": "Emma Roth",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4874121f28db8843",
-      "title_vi": "Trải nghiệm thực tế dòng điện thoại mới và quyết định bán lại chỉ sau ba mươi phút",
-      "title_en": "Practical Experience With The New Smartphone And The Decision To Resell After Thirty Minutes",
-      "summary_vi": [
-        "Người dùng công nghệ chia sẻ trải nghiệm thực tế khi quyết định bán lại thiết bị điện thoại di động mới mua chỉ sau nửa giờ đồng hồ thử nghiệm trực tiếp.",
-        "Thiết bị di động này không giải quyết được các điểm đau cốt lõi của người dùng cao cấp và không tạo ra bất kỳ hướng đi đột phá nào về mặt tính năng.",
-        "Động thái này phản ánh xu hướng đánh giá khắt khe của cộng đồng công nghệ đối với các dòng sản phẩm phần cứng mới ra mắt trên thị trường hiện nay."
-      ],
-      "summary_en": [
-        "A technology user shares their practical experience after deciding to resell a newly purchased mobile device just half an hour of direct testing.",
-        "This mobile device fails to solve core pain points for power users and does not introduce any breakthrough directions regarding features.",
-        "This action reflects the critical evaluation trend within the technology community regarding newly released hardware product lines in the current market."
-      ],
-      "originalTitle": "Mình đã bán iPhone Duo sau 30 phút sử dụng.",
-      "url": "https://tinhte.vn/thread/minh-da-ban-iphone-duo-sau-30-phut-su-dung.4186654/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iPhone",
-        "Mobile",
-        "Hardware",
-        "UX",
-        "Tech Trends"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T10:21:30.000Z",
-      "contentSnippet": "Mình đã bán iPhone Duo sau 30 phút sử dụng. iPhone Duo không giải quyết paint points nào của mình hay tạo ra hướng đi mới Mình đang sử dụng iPhone 18 Pro Max, nhưng điều đó không có nghĩa mình...",
-      "authorName": "airwalker",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1f61121bebef9812",
-      "title_vi": "Ukraine tấn công loạt trung tâm dữ liệu, Nga đối mặt nguy cơ tụt hậu trong cuộc đua trí tuệ nhân tạo",
-      "title_en": "Ukraine Targets Multiple Data Centers, Leaving Russia Facing Risks of Falling Behind in the AI Race",
-      "summary_vi": [
-        "Các cuộc tấn công bằng máy bay không điều khiển của Ukraine nhằm vào hệ thống cơ sở hạ tầng mạng và trung tâm dữ liệu tại Nga đang gây ra những thiệt hại nghiêm trọng về phần cứng máy chủ.",
-        "Trung tâm dữ liệu và các tòa nhà chứa máy chủ cùng hệ thống làm mát phức tạp rất dễ bị tổn thương trước các vụ nổ nhỏ, dẫn đến gián đoạn năng lực tính toán hiệu năng cao.",
-        "Việc phá hủy hạ tầng tính toán trọng yếu làm gián đoạn nghiêm trọng các mô hình huấn luyện trí tuệ nhân tạo, đe dọa trực tiếp năng lực cạnh tranh công nghệ dài hạn của quốc gia."
-      ],
-      "summary_en": [
-        "Unmanned aerial vehicle strikes by Ukraine targeting network infrastructure and data centers in Russia are causing severe and irreversible physical damage to enterprise server hardware components.",
-        "Data centers housing massive server arrays along with complex power and cooling systems are highly vulnerable to small explosive payloads, leading to catastrophic computing downtime.",
-        "The destruction of critical computational infrastructure severely disrupts large-scale artificial intelligence training pipelines, directly threatening the nation's long-term technological competitiveness."
-      ],
-      "originalTitle": "Ukraine tấn công loạt trung tâm dữ liệu, Nga đối mặt nguy cơ tụt hậu trong cuộc đua AI",
-      "url": "https://genk.vn/ukraine-tan-cong-loat-trung-tam-du-lieu-nga-doi-mat-nguy-co-tut-hau-trong-cuoc-dua-ai-165261025162127011.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Data Center",
-        "AI",
-        "Security",
-        "Infrastructure",
-        "Cloud"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T10:21:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/25/avatar1792919990969-17929199930401311296488.webp",
-      "contentSnippet": "TPO - Trong khi các nhà máy lọc dầu và kho hàng của Nga vốn đã là những mục tiêu dễ bị nhắm đến, thì các trung tâm dữ liệu còn là những mục tiêu “mong manh” hơn nữa. Đó là những tòa nhà khổng lồ chứa đầy máy chủ cùng cơ sở hạ tầng hỗ trợ về điện và làm mát. Chỉ cần một chiếc máy bay không người lái ",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ab4d633dfb14ce9f",
-      "title_vi": "Hướng dẫn sử dụng công cụ dòng lệnh yt-dlp để tải video trực tuyến trên hệ điều hành Windows",
-      "title_en": "Guide on Using yt-dlp Command Line Tool for Downloading Online Videos on Windows Operating System",
-      "summary_vi": [
-        "Bài viết giới thiệu công cụ dòng lệnh yt-dlp dành riêng cho người dùng hệ điều hành Windows nhằm hỗ trợ việc tải xuống các video trực tuyến từ nhiều nền tảng phổ biến như YouTube và Vimeo một cách hiệu quả.",
-        "Công cụ này hoạt động dựa trên giao diện dòng lệnh mạnh mẽ, cho phép các kỹ sư và người dùng kỹ thuật thực hiện các thao tác trích xuất và lưu trữ nội dung số với tốc độ cao và nhiều tùy chọn cấu hình linh hoạt.",
-        "Việc nắm vững và sử dụng thành thạo các tiện ích dòng lệnh như yt-dlp giúp tối ưu hóa quy trình làm việc kỹ thuật số, nâng cao năng suất xử lý dữ liệu đa phương tiện cho các nhà phát triển và người dùng chuyên nghiệp."
-      ],
-      "summary_en": [
-        "The article introduces the yt-dlp command-line tool specifically designed for Windows operating system users to facilitate downloading online videos from popular platforms such as YouTube and Vimeo efficiently.",
-        "This tool operates through a powerful command-line interface, allowing engineers and technical users to execute content extraction and storage operations with high speed and flexible configuration options.",
-        "Mastering and proficiently utilizing command-line utilities like yt-dlp helps optimize digital workflow processes, enhancing multimedia data processing productivity for developers and professional users alike."
-      ],
-      "originalTitle": "Anh em dùng Windows có thể xài yt-dlp để tải video từ YouTube, Vimeo...về máy tính",
-      "url": "https://tinhte.vn/thread/anh-em-dung-windows-co-the-xai-yt-dlp-de-tai-video-tu-youtube-vimeo-ve-may-tinh.4186759/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "yt-dlp",
-        "Windows",
-        "CLI",
-        "Video Downloader",
-        "Open Source"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T09:24:27.000Z",
-      "contentSnippet": "Anh em dùng Windows có thể xài yt-dlp để tải video từ YouTube, Vimeo...về máy tính Ở trên macOS mình dùng PullTube, còn Windows thì mình xài yt-dlp, một công cụ dòng lệnh (CLI) để anh em tải...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "61eeec4e47d4a251",
-      "title_vi": "Đánh giá chi tiết điện thoại iPhone Air dòng sản phẩm công nghệ nổi bật năm 2025",
-      "title_en": "Detailed Review of iPhone Air A Standout Mobile Technology Product in 2025",
-      "summary_vi": [
-        "Sản phẩm điện thoại thông minh iPhone Air nhanh chóng thu hút sự quan tâm lớn từ cộng đồng công nghệ nhờ vào thiết kế đột phá cùng định vị mới trong phân khúc thiết bị di động cao cấp năm 2025.",
-        "Thiết bị tích hợp nhiều cải tiến về phần cứng và tối ưu hóa hệ điều hành giúp nâng cao hiệu năng xử lý tác vụ cũng như thời lượng pin cho người dùng phổ thông lẫn chuyên nghiệp.",
-        "Sự xuất hiện của dòng máy này định hình lại tiêu chuẩn thiết kế phần cứng di động và mở ra xu hướng phát triển mới cho các nhà sản xuất linh kiện cũng như lập trình viên ứng dụng."
-      ],
-      "summary_en": [
-        "The iPhone Air smartphone quickly captured significant attention from the technology community thanks to its breakthrough design and new positioning in the premium mobile device segment for 2025.",
-        "The device integrates multiple hardware improvements and operating system optimizations to enhance processing performance for complex tasks and improve battery life for general and professional users.",
-        "The introduction of this product line reshapes mobile hardware design standards and opens up new development trends for component manufacturers as well as mobile application developers."
-      ],
-      "originalTitle": "Review iPhone Air một chiếc iPhone đích thực",
-      "url": "https://tinhte.vn/thread/review-iphone-air-mot-chiec-iphone-dich-thuc.4073475/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Mobile",
-        "Hardware",
-        "Tech Trends"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T09:22:11.000Z",
-      "contentSnippet": "iPhone Air nằm trong tốp đầu các sản phẩm công nghệ mà mình yêu thích nhất năm 2025. Theo mình thì nó thực sự là một chiếc smartphone ở nghĩa rộng hay iPhone ở nghĩa hẹp mà con người cần. Trong...",
-      "authorName": "cuhiep",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b81115f9df241322",
-      "title_vi": "Điện thoại gập đôi bị nứt và xuất hiện sọc màn hình bất thường",
-      "title_en": "Foldable phone suffers from unexpected cracks and screen line defects",
-      "summary_vi": [
-        "Nhiều người dùng quốc tế cùng các thiết bị trưng bày tại cửa hàng đã phản ánh hiện tượng điện thoại gập đôi bị nứt gãy và xuất hiện sọc sáng bất thường ở phần màn hình bên trong.",
-        "Lỗi phần cứng này liên quan trực tiếp đến độ bền vật liệu của tấm nền OLED linh hoạt và cơ chế chịu lực của bản lề trong quá trình gập mở liên tục.",
-        "Sự cố trên đặt ra thách thức lớn cho các kỹ sư phần cứng trong việc nâng cao độ bền màn hình gập và cải thiện chất lượng gia công trước khi thương mại hóa rộng rãi."
-      ],
-      "summary_en": [
-        "Multiple international users and retail display units have reported unusual internal screen cracks and bright vertical lines appearing on foldable mobile devices.",
-        "This hardware failure directly relates to the material durability of flexible OLED panels and the mechanical stress handling of the hinge during continuous folding operations.",
-        "Such technical issues present significant challenges for hardware engineers aiming to improve foldable screen longevity and manufacturing quality before widespread commercialization."
-      ],
-      "originalTitle": "iPhone Duo bị nứt, sọc màn hình bất thường",
-      "url": "https://genk.vn/iphone-duo-bi-nut-soc-man-hinh-bat-thuong-16526102516175578.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Mobile",
-        "Hardware",
-        "OLED",
-        "Smartphones",
-        "Display"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T09:17:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/25/avatar1792919856012-17929198563461591618604.png",
-      "contentSnippet": "Một số người dùng quốc tế đã phản ánh hiện tượng iPhone Duo bị nứt và xuất hiện sọc sáng trên màn hình gập bên trong, nhiều trường hợp ghi nhận ở máy trưng bày.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "04e8833d9ef6b445",
-      "title_vi": "Meta phớt lờ phán quyết của tòa án Brazil về việc thiên vị chính trị trong thuật toán",
-      "title_en": "Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism",
-      "summary_vi": [
-        "Các tổ chức phi chính phủ tại Brazil đã đệ trình bằng chứng mới lên Tòa án Bầu cử Tối cao, cáo buộc tập đoàn Meta không tuân thủ lệnh đảm bảo tính công bằng trong việc hiển thị nội dung chiến dịch tranh cử.",
-        "Báo cáo kỹ thuật chỉ ra hệ thống gợi ý tìm kiếm, tính năng hình động GIF, sắp xếp hashtag và các câu trả lời tự động từ trợ lý ảo Meta AI trên nền tảng WhatsApp vẫn thiên vị một ứng viên cụ thể.",
-        "Vụ việc này đặt ra thách thức lớn đối với trách nhiệm giải trình thuật toán và tính minh bạch của các mô hình trí tuệ nhân tạo trên mạng xã hội trong các chiến dịch chính trị nhạy cảm."
-      ],
-      "summary_en": [
-        "Non-governmental organizations in Brazil submitted new evidence to the Superior Electoral Court, accusing Meta of failing to comply with orders to ensure fairness in political campaign content delivery.",
-        "Technical reports indicate that search suggestion systems, animated GIF features, hashtag rankings, and automated responses from Meta AI on WhatsApp continue to favor a specific political candidate.",
-        "This situation poses significant challenges regarding algorithmic accountability and the transparency of artificial intelligence models deployed on social media platforms during sensitive political campaigns."
-      ],
-      "originalTitle": "Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism",
-      "url": "https://www.panamericandispatch.org/p/meta-ignores-brazilian-court-order",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Artificial Intelligence",
-        "Meta AI",
-        "Algorithm Bias",
-        "Social Media",
-        "Compliance"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T09:00:40.000Z",
-      "contentSnippet": "Sleeping Giants Brasil and the organization CTRL+Z sent new evidence to the Superior Electoral Court on Monday. The groups say it points to possible unequal treatment by Meta of the campaigns of President Luiz Inácio Lula da Silva, of the Workers’ Party, and Sen. Flávio Bolsonaro, of the Liberal Par",
-      "authorName": "vrganj",
-      "upvotes": 131,
-      "commentsCount": 58
-    },
-    {
-      "id": "fd5851e315085555",
-      "title_vi": "Cơ sở dữ liệu Greenplum Bài học 19: Tại sao lệnh chèn dữ liệu truyền thống là kẻ thù của hiệu năng trong kiến trúc xử lý song song lớn?",
-      "title_en": "Greenplum Database Lesson 19: Why Traditional INSERT INTO Is the Performance Enemy in MPP Architecture",
-      "summary_vi": [
-        "Bài viết tiếp tục chuỗi chuyên đề về Greenplum, đi sâu phân tích hạn chế hiệu năng nghiêm trọng của câu lệnh chèn dữ liệu truyền thống trong các hệ thống cơ sở dữ liệu song song lớn.",
-        "Tác giả mổ xẻ nguyên nhân kỹ thuật khiến thao tác ghi đơn lẻ gây nghẽn cổ chai mạng và phân bổ tải không đều trên các nút tính toán của cụm máy chủ.",
-        "Kiến thức này giúp các kỹ sư dữ liệu tối ưu hóa quy trình nạp dữ liệu lớn, áp dụng các giải pháp thay thế hiệu quả hơn như cơ chế sao chép hàng loạt."
-      ],
-      "summary_en": [
-        "This article continues the Greenplum series, deeply analyzing the severe performance limitations of traditional data insertion statements in massively parallel processing database systems.",
-        "The author dissects the technical causes of why single write operations cause network bottlenecks and uneven load distribution across the compute nodes of the cluster.",
-        "This knowledge helps data engineers optimize big data ingestion pipelines, applying more efficient alternatives such as bulk loading mechanisms for better scalability."
-      ],
-      "originalTitle": "Greenplum Database Bài học 19: Tại sao INSERT INTO truyền thống là kẻ thù của hiệu năng trong MPP?",
-      "url": "https://viblo.asia/p/greenplum-database-bai-hoc-19-tai-sao-insert-into-truyen-thong-la-ke-thu-cua-hieu-nang-trong-mpp-wd43ExWjLX9",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Greenplum",
-        "Database",
-        "MPP",
-        "SQL",
-        "Performance"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-25T07:40:21.000Z",
-      "contentSnippet": "Ở Phần 2, chúng ta đã học cách thiết kế những bảng dữ liệu tối ưu nhất bên trong cụm Greenplum: từ chiến lược phân phối DISTRIBUTED BY, mô hình lưu tr...",
-      "authorName": "Nguyen Hoang",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f2f2ecae4fb31e62",
-      "title_vi": "Cơ sở dữ liệu Greenplum Bài học 18: Lưu trữ đa hình kết hợp dữ liệu nóng và lạnh trên cùng một bảng",
-      "title_en": "Greenplum Database Lesson 18: Polymorphic Storage Combining Hot and Cold Data on a Single Table",
-      "summary_vi": [
-        "Bài viết khám phá mô hình lưu trữ đa hình trong cơ sở dữ liệu Greenplum, giúp tối ưu hóa không gian lưu trữ và hiệu năng truy vấn dữ liệu lớn.",
-        "Kỹ thuật này kết hợp linh hoạt giữa bảng Heap trên ổ cứng SSD tốc độ cao dành cho dữ liệu nóng và định dạng nén cao AOCO dành cho dữ liệu lạnh.",
-        "Giải pháp giúp các kỹ sư dữ liệu cân bằng hoàn hảo giữa chi phí lưu trữ phần cứng và tốc độ xử lý phân tích dữ liệu lịch sử."
-      ],
-      "summary_en": [
-        "The article explores the polymorphic storage model in Greenplum database, optimizing storage space and query performance for big data workloads.",
-        "This technique flexibly combines Heap tables on high-speed SSDs for hot data with highly compressed AOCO formats for cold data storage.",
-        "The solution helps data engineers achieve a perfect balance between hardware storage costs and historical data analytical processing speeds."
-      ],
-      "originalTitle": "Greenplum Database Bài học 18: Polymorphic Storage: Kết hợp Hot Data (Heap/SSD) và Cold Data (AOCO/Nén cao) trên cùng một bảng",
-      "url": "https://viblo.asia/p/greenplum-database-bai-hoc-18-polymorphic-storage-ket-hop-hot-data-heapssd-va-cold-data-aoconen-cao-tren-cung-mot-bang-y0VGwW57VPA",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Greenplum",
-        "Database",
-        "Polymorphic Storage",
-        "Big Data",
-        "Performance"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T07:40:15.000Z",
-      "contentSnippet": "Qua các bài học từ 13 đến 17, chúng ta đã khám phá các mô hình lưu trữ đa dạng trong Greenplum: từ Heap Tables linh hoạt cho OLTP, Append-Optimized (A...",
-      "authorName": "Nguyen Hoang",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "2adde74e7cb40a2f",
-      "title_vi": "Cơ sở dữ liệu Greenplum Bài học 17: Phân vùng đa cấp và quản lý vòng đời dữ liệu tự động hóa",
-      "title_en": "Greenplum Database Lesson 17: Multi-level Partitioning and Automated Data Lifecycle Management",
-      "summary_vi": [
-        "Bài viết tiếp tục chuỗi chuyên đề về Greenplum Database với bài học thứ mười bảy, tập trung sâu vào giải pháp phân vùng dữ liệu đa cấp kết hợp quản lý vòng đời tự động hóa.",
-        "Nội dung kỹ thuật phân tích chi tiết cách thiết kế phân vùng lồng nhau giúp tối ưu hóa hiệu năng truy vấn, cắt giảm chi phí lưu trữ và tự động hóa quá trình chuyển đổi dữ liệu cũ.",
-        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư cơ sở dữ liệu khi xây dựng hệ thống dữ liệu lớn có khả năng mở rộng tốt và vận hành ổn định."
-      ],
-      "summary_en": [
-        "The article continues the Greenplum Database series with its seventeenth lesson, focusing deeply on multi-level data partitioning combined with automated lifecycle management solutions.",
-        "The technical content analyzes in detail how nested partitioning design helps optimize query performance, reduce storage costs, and automate the transition of historical data.",
-        "This knowledge provides high practical value for database engineers when building large-scale data systems with excellent scalability and stable operational capabilities."
-      ],
-      "originalTitle": "Greenplum Database Bài học 17: Multi-level Partitioning & Quản lý vòng đời dữ liệu: Tự động hóa cắt/gộp phân vùng",
-      "url": "https://viblo.asia/p/greenplum-database-bai-hoc-17-multi-level-partitioning-quan-ly-vong-doi-du-lieu-tu-dong-hoa-catgop-phan-vung-PoL7eOA24vk",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Greenplum",
-        "Database",
-        "Partitioning",
-        "Data Lifecycle",
-        "SQL"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-25T07:40:04.000Z",
-      "contentSnippet": "Ở Bài học 16, chúng ta đã nắm bắt cách sử dụng Range Partitioning để cắt nhỏ bảng theo thời gian (createdat), giúp bộ tối ưu hóa GPORCA loại bỏ hàng l...",
       "authorName": "Nguyen Hoang",
       "upvotes": 0,
       "commentsCount": 0
