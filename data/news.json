@@ -1,7 +1,72 @@
 {
-  "lastUpdated": "2026-11-04T23:01:59.561Z",
+  "lastUpdated": "2026-11-05T04:26:27.509Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "7b2bbc2e4abb6528",
+      "title_vi": "Sử dụng proxy dân cư trong Python: nên chọn phiên xoay vòng hay phiên cố định qua ví dụ requests, httpx và Playwright",
+      "title_en": "Using Residential Proxies in Python: Rotating or Sticky Sessions with Requests, HTTPX and Playwright",
+      "summary_vi": [
+        "Bài viết cung cấp hướng dẫn thực hành chi tiết về cách cấu hình giao thức HTTP và SOCKS5 proxy trong ngôn ngữ lập trình Python nhằm tối ưu hóa quá trình thu thập dữ liệu web.",
+        "Nội dung tập trung phân tích sự khác biệt kỹ thuật giữa phiên xoay vòng và phiên cố định, đồng thời minh họa cách xử lý ngoại lệ như thời gian chờ và cơ chế thử lại.",
+        "Giải pháp này mang lại giá trị thực tiễn cao cho các lập trình viên khi cần xây dựng hệ thống tự động hóa web an toàn, hiệu quả và tuân thủ trách nhiệm kỹ thuật."
+      ],
+      "summary_en": [
+        "The article provides a detailed practical guide on how to configure HTTP and SOCKS5 proxy protocols in Python to optimize web data collection processes.",
+        "The content focuses on analyzing technical differences between rotating and sticky sessions while demonstrating exception handling such as timeouts and retry mechanisms.",
+        "This solution delivers high practical value for developers building secure, efficient web automation systems while adhering to technical responsibilities."
+      ],
+      "originalTitle": "Dùng residential proxy trong Python: rotating hay sticky session? (ví dụ với requests, httpx và Playwright)",
+      "url": "https://viblo.asia/p/dung-residential-proxy-trong-python-rotating-hay-sticky-session-vi-du-voi-requests-httpx-va-playwright-7Z4DEWAoJnX",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Python",
+        "Proxy",
+        "Web Scraping",
+        "Playwright",
+        "Networking"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-05T10:32:06.000Z",
+      "contentSnippet": "Hướng dẫn thực hành: cấu hình HTTP/SOCKS5 proxy, kiểm tra IP và vị trí đầu ra, xử lý retry/timeout, và dùng proxy một cách có trách nhiệm. Công khai:...",
+      "authorName": "李强强",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c15c42789457e0e7",
+      "title_vi": "Windows 11 dùng gần hết RAM là bình thường, Microsoft giải thích",
+      "title_en": "It's normal for Windows 11 to run out of RAM, Microsoft explains",
+      "summary_vi": [
+        "Windows 11 dùng gần hết RAM là bình thường, Microsoft giải thích Theo Pavan Davuluri, người đứng đầu bộ phận Windows, việc Task Manager hiển thị mức sử dụng RAM từ 70% đến 90% không có nghĩa là.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Windows 11 dùng gần hết RAM là bình thường, Microsoft giải thích.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Windows 11 dùng gần hết RAM là bình thường, Microsoft giải thích."
+      ],
+      "summary_en": [
+        "It's normal for Windows 11 to run out of RAM, Microsoft explains. According to Pavan Davuluri, head of Windows, it doesn't mean that Task Manager shows RAM usage between 70% and 90%.",
+        "In-depth technical breakdown and implementation mechanisms introduced in It's normal for Windows 11 to run out of RAM, Microsoft explains.",
+        "Practical engineering impact and actionable takeaways for developers building with It's normal for Windows 11 to run out of RAM, Microsoft explains."
+      ],
+      "originalTitle": "Windows 11 dùng gần hết RAM là bình thường, Microsoft giải thích",
+      "url": "https://tinhte.vn/thread/windows-11-dung-gan-het-ram-la-binh-thuong-microsoft-giai-thich.4189865/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "TechTrends",
+        "Innovation"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-05T04:13:47.000Z",
+      "contentSnippet": "Windows 11 dùng gần hết RAM là bình thường, Microsoft giải thích Theo Pavan Davuluri, người đứng đầu bộ phận Windows, việc Task Manager hiển thị mức sử dụng RAM từ 70% đến 90% không có nghĩa là...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "4c9fe6dc66e097c7",
       "title_vi": "Kiểm thử mã OTP tin nhắn trong Laravel sử dụng Http::fake, Notification::fake và smoke test số thực",
@@ -33,6 +98,214 @@
       "publishedAt": "2026-11-05T03:51:08.000Z",
       "contentSnippet": "Mình làm việc cùng HeroSMS, dịch vụ số ảo dùng ở phần smoke test. Bài viết có dùng công cụ AI; code đã được đối chiếu với tài liệu API HeroSMS và docs...",
       "authorName": "Minh Trần",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a9578684d7bb857e",
+      "title_vi": "vivo ra mắt điện thoại thông minh tầm trung mới với camera Zeiss 50 megapixel, viên pin dung lượng lớn 7000 miliampere giờ và công nghệ sạc nhanh 90 watt",
+      "title_en": "vivo launches new mid-range smartphone featuring 50 megapixel Zeiss camera 7000 milliampere hour battery and 90 watt fast charging",
+      "summary_vi": [
+        "Hãng điện thoại vivo vừa chính thức giới thiệu mẫu thiết bị cầm tay tầm trung mới mang tên V80 FE tại thị trường Philippines, nhằm mở rộng phân khúc sản phẩm cấu hình cao giá tốt.",
+        "Điểm nhấn phần cứng của thiết bị bao gồm hệ thống ba máy ảnh hợp tác cùng thương hiệu Zeiss độ phân giải 50 megapixel, kết hợp bộ vi xử lý MediaTek Dimensity 7400 Turbo và viên pin khủng.",
+        "Viên pin dung lượng lớn 7000 miliampere giờ tích hợp công nghệ sạc nhanh 90 watt mang lại thời lượng sử dụng ấn tượng, định hình lại tiêu chuẩn pin cho các dòng điện thoại tầm trung hiện nay."
+      ],
+      "summary_en": [
+        "The smartphone manufacturer vivo has officially introduced a new mid-range mobile device named V80 FE in the Philippines market to expand its competitive product lineup.",
+        "Hardware highlights of the device include a triple camera system developed in partnership with Zeiss at 50 megapixels, paired with a MediaTek Dimensity 7400 Turbo processor.",
+        "The massive 7000 milliampere hour battery integrated with 90 watt fast charging technology delivers exceptional battery life, redefining power standards for contemporary mid-range smartphones."
+      ],
+      "originalTitle": "vivo ra mắt smartphone tầm trung mới: Camera Zeiss 50 MP, pin 7.000 mAh, sạc nhanh 90W",
+      "url": "https://genk.vn/vivo-ra-mat-smartphone-tam-trung-moi-camera-zeiss-50-mp-pin-7000-mah-sac-nhanh-90w-165261104181646079.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "vivo",
+        "Smartphone",
+        "Zeiss",
+        "MediaTek",
+        "Mobile Hardware"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-05T03:40:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/4/avatar1793790974830-17937909751691855335782.jpg",
+      "contentSnippet": "vivo V80 FE sở hữu màn hình AMOLED 120 Hz, hệ thống 3 camera 50 MP tinh chỉnh bởi Zeiss và pin 7.000 mAh, chạy OriginOS 7 trên nền Android 17.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ec2f6a387d56d2ed",
+      "title_vi": "Google phát hiện đối tác phần cứng cài mã độc vào 1,3 triệu thiết bị Android TV",
+      "title_en": "Google Discovers Hardware Partner Pre-Installed Malware on 1.3 Million Android TV Boxes",
+      "summary_vi": [
+        "Hãng công nghệ Google vừa phát hiện công ty Videostrong, một đối tác phần cứng được chứng nhận chính thức, đã cố tình cài đặt cửa hậu độc hại trên hơn một triệu thiết bị Android TV nhằm trục lợi.",
+        "Mã độc này được tích hợp sâu vào hệ thống phần sụn nhằm âm thầm bán quyền truy cập trái phép cho các nhóm hacker bên ngoài, tạo ra lỗ hổng bảo mật nghiêm trọng trong mạng lưới thiết bị người dùng.",
+        "Sự cố này gióng lên hồi chuông cảnh báo về rủi ro bảo mật trong chuỗi cung ứng phần cứng IoT, đòi hỏi các kỹ sư an ninh mạng phải siết chặt kiểm tra mã nguồn và firmware trước khi phân phối."
+      ],
+      "summary_en": [
+        "Google has recently discovered that Videostrong, a certified hardware partner, intentionally pre-installed malicious backdoors on over one million Android TV devices to generate illicit profits.",
+        "The malware was deeply integrated into the firmware to stealthily sell unauthorized access to external hacker groups, creating severe security vulnerabilities within the user device network.",
+        "This incident raises critical security alarms regarding hardware supply chain risks in IoT, demanding cybersecurity engineers to strictly audit source code and firmware before distribution."
+      ],
+      "originalTitle": "Google phát hiện đối tác cài mã độc vào 1,3 triệu Android TV box",
+      "url": "https://vnexpress.net/google-phat-hien-doi-tac-cai-ma-doc-vao-1-3-trieu-android-tv-box-5140877.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Android TV",
+        "Malware",
+        "Supply Chain",
+        "Firmware"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-05T02:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/04/videostrong-android-tv-device-8286-7607-1793802120.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=n1U5MMixA0jE1jhUA9ezKQ",
+      "contentSnippet": "Videostrong, một đối tác phần cứng được chứng nhận của Google, bị phát hiện cố tình cài cửa hậu trên hơn một triệu đầu Android TV để bán quyền truy cập cho hacker.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0801c059996e02dc",
+      "title_vi": "Hôm nay khai mạc Ngày hội trí tuệ nhân tạo Việt Nam 2026",
+      "title_en": "Vietnam Artificial Intelligence Festival 2026 Officially Opens Today",
+      "summary_vi": [
+        "Sự kiện Ngày hội Trí tuệ nhân tạo Việt Nam 2026 chính thức khai mạc vào lúc 14 giờ ngày mùng 5 tháng 11, thu hút sự tham gia đông đảo của các nhà quản lý, chuyên gia hàng đầu và cộng đồng doanh nghiệp công nghệ.",
+        "Trong khuôn khổ chương trình, các diễn giả và kỹ sư tập trung thảo luận sâu về các xu hướng phát triển trí tuệ nhân tạo tiên tiến, những giải pháp tối ưu hóa mô hình học máy và ứng dụng thực tiễn trong hệ thống doanh nghiệp.",
+        "Điểm nhấn quan trọng của ngày hội là lễ vinh danh các sản phẩm phần mềm xuất sắc, giải pháp công nghệ đột phá và những tài năng trẻ trong lĩnh vực trí tuệ nhân tạo tại thị trường Việt Nam."
+      ],
+      "summary_en": [
+        "The Vietnam Artificial Intelligence Festival 2026 officially opened at 2 PM on November 5th, attracting widespread participation from technology managers, leading experts, and prominent corporate leaders in the industry.",
+        "Throughout the program, speakers and software engineers focused on discussing advanced trends in artificial intelligence development, machine learning optimization solutions, and practical applications within enterprise architectures.",
+        "A key highlight of the festival was the award ceremony honoring outstanding software products, groundbreaking technological solutions, and exceptional young talents within the artificial intelligence ecosystem in Vietnam."
+      ],
+      "originalTitle": "Hôm nay khai mạc Ngày hội trí tuệ nhân tạo Việt Nam 2026",
+      "url": "https://vnexpress.net/hom-nay-khai-mac-ngay-hoi-tri-tue-nhan-tao-viet-nam-2026-5140602.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Tech Trends",
+        "Vietnam Tech",
+        "Software Solutions"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-05T01:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/04/ai4vn90181723448813-1793764953-2639-1793765022.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=is3rSYGWAs8hMeVaEb7eyw",
+      "contentSnippet": "Ngày hội Trí tuệ nhân tạo Việt Nam 2026 diễn ra lúc 14h ngày 5/11, với sự góp mặt của các nhà quản lý, chuyên gia, doanh nghiệp, bàn về AI và lễ vinh danh sản phẩm, giải pháp, tài năng AI Việt.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9e49ad7916ca6612",
+      "title_vi": "Hệ thống tạo ảnh thế hệ mới cải thiện tốc độ và khả năng chỉnh sửa",
+      "title_en": "Next-Generation Image Generation System Improves Speed and Editing Capabilities",
+      "summary_vi": [
+        "Nền tảng trí tuệ nhân tạo phổ biến đã giới thiệu phiên bản tạo ảnh mới trên toàn cầu, mang lại tốc độ xử lý nhanh hơn và khả năng kiểm soát quy trình chỉnh sửa tốt hơn cho người dùng.",
+        "Công nghệ này cung cấp các mô hình tối ưu hóa cho phép tạo ảnh nhanh hơn đáng kể, hỗ trợ xuất định dạng ảnh động và duy trì tính nhất quán của nhân vật cũng như chi tiết sản phẩm qua nhiều vòng chỉnh sửa.",
+        "Sự ra mắt này đáp ứng nhu cầu ngày càng tăng của các nhà phát triển và nhà sáng tạo nội dung, giúp tối ưu hóa hiệu suất làm việc và mở rộng ứng dụng trí tuệ nhân tạo trong thiết kế chuyên nghiệp."
+      ],
+      "summary_en": [
+        "The popular artificial intelligence platform has introduced a new image generation version globally, delivering faster processing speeds and better control over the editing workflow for users.",
+        "This technology provides optimized models that enable significantly faster image generation, support animated image exports, and maintain consistency of characters and product details across multiple editing rounds.",
+        "This release meets the growing demands of developers and content creators, helping to optimize workflow performance and expand the practical applications of artificial intelligence in professional design."
+      ],
+      "originalTitle": "Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Image Generation",
+        "API",
+        "Generative AI"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-04T23:35:44.000Z",
+      "contentSnippet": "Generate images faster and with more control over editing rounds. ShareWe’re introducing Images 2.6 in ChatGPT, Codex, and the API, bringing your ideas to life faster. With this, you can bring motion to your images with GIFs — from animating a brand mascot or character to turning a product shot into",
+      "authorName": "davidbarker",
+      "upvotes": 177,
+      "commentsCount": 117
+    },
+    {
+      "id": "86d5c720b5bd89c8",
+      "title_vi": "Hơn một nghìn con đường ít hơn dẫn đến quyền gốc hệ thống",
+      "title_en": "A thousand fewer paths to root",
+      "summary_vi": [
+        "Các chuyên gia đã phát triển một hệ thống tự động hóa toàn diện nhằm khám phá, khai thác và vá lỗi bảo mật bằng trí tuệ nhân tạo với chi phí đầu tư lớn.",
+        "Giải pháp này đã phân tích hàng nghìn ứng viên lỗi nhân hệ thống, tái tạo thành công các lỗ hổng leo thang đặc quyền cục bộ và tạo ra bản vá tương ứng.",
+        "Sự kiện này đánh dấu bước tiến quan trọng trong việc tự động hóa quy trình bảo mật, giúp giảm thiểu tắc nghẽn vận hành và bảo vệ hệ điều hành hiệu quả hơn."
+      ],
+      "summary_en": [
+        "Experts have developed a comprehensive automated system aimed at discovering, exploiting, and patching security vulnerabilities using artificial intelligence with significant investment costs.",
+        "This solution analyzed thousands of kernel vulnerability candidates, successfully reproduced local privilege escalation flaws, and generated corresponding security patches.",
+        "This milestone marks a crucial step in automating security operations, helping to reduce operational bottlenecks and protect operating systems more effectively."
+      ],
+      "originalTitle": "A thousand fewer paths to root",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Linux Kernel",
+        "Artificial Intelligence",
+        "Vulnerability Patching",
+        "Automation"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-04T23:33:14.000Z",
+      "contentSnippet": "We've developed an autonomous vulnerability discovery, exploitation, and patching pipeline. In one run with our cyber model, it validated and generated patches for 948 local privilege escalation vulnerabilities in Linux at an API cost of $1.2 million. ShareSecurity research that once required a sepa",
+      "authorName": "dangelosaurus",
+      "upvotes": 203,
+      "commentsCount": 117
+    },
+    {
+      "id": "b531b56f4ce7687d",
+      "title_vi": "Qualcomm đặt cược lớn vào trung tâm dữ liệu khi doanh số điện thoại thông minh sụt giảm",
+      "title_en": "Qualcomm is betting big on data centers as smartphone sales sink",
+      "summary_vi": [
+        "Trước bối cảnh doanh số điện thoại thông minh sụt giảm khoảng hai mươi phần trăm, tập đoàn công nghệ Qualcomm đang chuyển hướng chiến lược sang mảng trung tâm dữ liệu nhằm thúc đẩy nguồn doanh thu quan trọng.",
+        "Trong buổi báo cáo tài chính quý bốn năm hai mươi hai mươi sáu, công ty đã công bố kế hoạch phát triển mạnh mẽ vào lĩnh vực trung tâm dữ liệu trí tuệ nhân tạo thông qua các thỏa thuận hợp tác chiến lược với Amazon và Meta.",
+        "Bước đi chiến lược này dự kiến sẽ tạo ra động lực tăng trưởng mạnh mẽ, mang lại giá trị thực tiễn cao cho thị trường hạ tầng đám mây và định hình lại vị thế của các nhà sản xuất chip bán dẫn."
+      ],
+      "summary_en": [
+        "Facing a significant twenty percent drop in smartphone sales, Qualcomm is strategically shifting its focus toward data center markets to boost its overall revenue and business bottom line.",
+        "During its fourth quarter earnings call, the company detailed aggressive plans to expand into artificial intelligence data centers through major strategic partnerships established with industry giants Amazon and Meta.",
+        "This strategic transition is projected to generate massive growth momentum, delivering high practical value to cloud infrastructure markets and reshaping the competitive positioning of semiconductor chip manufacturers."
+      ],
+      "originalTitle": "Qualcomm is betting big on data centers as smartphone sales sink",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Qualcomm",
+        "Data Center",
+        "AI",
+        "Cloud",
+        "Semiconductor"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-04T22:42:15.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24007992/acastro_STK082_qualcomm_02.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with companies like Amazon an",
+      "authorName": "Terrence O’Brien",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8299,279 +8572,6 @@
       "authorName": "Nguyen Hoang",
       "upvotes": 0,
       "commentsCount": 0
-    },
-    {
-      "id": "8a3172d15cff74cf",
-      "title_vi": "Cơ sở dữ liệu Greenplum Bài học 16: Thiết kế phân vùng bảng với chiến lược Range và List cho dữ liệu chuỗi thời gian",
-      "title_en": "Greenplum Database Lesson 16: Table Partitioning Design with Range and List Strategies for Time-Series Data",
-      "summary_vi": [
-        "Bài viết tiếp tục chuỗi hướng dẫn chuyên sâu về cơ sở dữ liệu Greenplum, tập trung vào phương pháp thiết kế phân vùng bảng nhằm tối ưu hóa hiệu suất truy vấn và quản lý dữ liệu lớn.",
-        "Nội dung đi sâu phân tích chiến lược phân vùng theo khoảng giá trị và danh sách, giúp các kỹ sư dữ liệu xử lý hiệu quả các luồng dữ liệu chuỗi thời gian khổng lồ trên hệ thống phân tán.",
-        "Kiến thức này mang lại giá trị thực tiễn cao cho các kiến trúc sư dữ liệu khi xây dựng các hệ thống phân tích hiệu năng cao, giảm thiểu thời gian quét dữ liệu và tối ưu tài nguyên phần cứng."
-      ],
-      "summary_en": [
-        "The article continues the in-depth tutorial series on Greenplum Database, focusing on table partitioning design methods to optimize query performance and large-scale data management.",
-        "The content deeply analyzes range and list partitioning strategies, helping data engineers efficiently handle massive time-series data streams across distributed database systems.",
-        "This knowledge provides high practical value for data architects when building high-performance analytical systems, minimizing data scan times and optimizing hardware resource utilization."
-      ],
-      "originalTitle": "Greenplum Database Bài học 16: Thiết kế Partitioning (Phân vùng bảng): Chiến lược Range và List Partitioning cho dữ liệu Time-Series",
-      "url": "https://viblo.asia/p/greenplum-database-bai-hoc-16-thiet-ke-partitioning-phan-vung-bang-chien-luoc-range-va-list-partitioning-cho-du-lieu-time-series-13VM9dX8VY7",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Greenplum",
-        "Database",
-        "Partitioning",
-        "Time-Series",
-        "SQL"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-25T07:39:57.000Z",
-      "contentSnippet": "Trong các bài học trước, chúng ta đã biết cách phân phối dữ liệu ngang hàng qua các Segment bằng DISTRIBUTED BY và tối ưu hóa lưu trữ bên trong từng S...",
-      "authorName": "Nguyen Hoang",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0ca26b2b7dad0d8a",
-      "title_vi": "Truy vấn dữ liệu phức hợp với kiểu dữ liệu ROW trong Trino SQL",
-      "title_en": "Querying Complex Data with ROW Data Types in Trino SQL",
-      "summary_vi": [
-        "Bài viết hướng dẫn chi tiết cách sử dụng kiểu dữ liệu ROW trong Trino SQL nhằm tối ưu hóa việc quản lý các cấu trúc dữ liệu phức tạp trong hệ thống cơ sở dữ liệu lớn.",
-        "Nội dung tập trung phân tích bản chất của ROW tương tự như cấu trúc Struct hoặc Record trong các ngôn ngữ lập trình, đồng thời làm rõ giới hạn kỹ thuật so với kiểu dữ liệu MAP.",
-        "Kiến thức này giúp các kỹ sư dữ liệu xây dựng câu lệnh truy vấn hiệu quả hơn, cải thiện hiệu suất xử lý và tổ chức dữ liệu phân tán một cách khoa học."
-      ],
-      "summary_en": [
-        "The article provides a detailed guide on utilizing the ROW data type in Trino SQL to optimize the management of complex data structures within large database systems.",
-        "The content focuses on analyzing the nature of ROW, which is similar to Struct or Record constructs in programming languages, while clarifying technical limitations compared to the MAP data type.",
-        "This knowledge helps data engineers construct more efficient queries, improve processing performance, and systematically organize distributed data structures for enterprise applications."
-      ],
-      "originalTitle": "Trino SQL Bài học 35: Nhóm dữ liệu phức hợp với kiểu dữ liệu ROW",
-      "url": "https://viblo.asia/p/trino-sql-bai-hoc-35-nhom-du-lieu-phuc-hop-voi-kieu-du-lieu-row-K9Vy8OmXLQR",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Trino SQL",
-        "Database",
-        "Data Engineering",
-        "SQL"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T07:38:41.000Z",
-      "contentSnippet": "Mục tiêu bài học: - Hiểu bản chất của kiểu dữ liệu ROW (tương đương với Struct/Record trong lập trình). - Phân biệt rạch ròi giới hạn của MAP và...",
-      "authorName": "Nguyễn Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1973386f7b559116",
-      "title_vi": "Amazon dự trữ bộ xử lý trí tuệ nhân tạo trị giá hàng tỷ đô la nhưng chưa có điện để vận hành",
-      "title_en": "Amazon stockpiles billions in AI GPUs while awaiting adequate power infrastructure",
-      "summary_vi": [
-        "Amazon Web Services đang liên tục tiếp nhận hàng tỷ đô la máy chủ trang bị bộ xử lý đồ họa từ Nvidia mỗi tháng dù cho các trung tâm dữ liệu vẫn chưa hoàn thiện hạ tầng điện năng cần thiết để vận hành toàn bộ hệ thống này.",
-        "Tình trạng thiếu hụt nguồn điện ổn định cho thấy những thách thức lớn về kiến trúc hạ tầng phần cứng quy mô lớn khi các công ty điện toán đám mây phải đối mặt với nhu cầu năng lượng khổng lồ từ các mô hình học máy tiên tiến.",
-        "Sự cố này gióng lên hồi chuông cảnh báo về khả năng mở rộng thực tế của các dịch vụ đám mây, đòi hỏi kỹ sư hệ thống phải tối ưu hóa mức tiêu thụ năng lượng và lập kế hoạch nguồn lực điện năng một cách chiến lược hơn."
-      ],
-      "summary_en": [
-        "Amazon Web Services continues to receive billions of dollars worth of Nvidia graphics processing units every month even though several data centers lack the necessary electrical infrastructure to operate this massive hardware.",
-        "This power shortage highlights major challenges in large-scale hardware architecture planning as cloud providers struggle to keep pace with the immense energy demands driven by advanced machine learning models and large language workloads.",
-        "The ongoing delay serves as a critical warning regarding the practical scalability of cloud services, requiring systems engineers to optimize power consumption and strategically plan electrical resource allocation for future data centers."
-      ],
-      "originalTitle": "Amazon mua GPU AI trị giá hàng tỷ USD rồi để trong kho vì chưa có điện để bật",
-      "url": "https://genk.vn/amazon-mua-gpu-ai-tri-gia-hang-ty-usd-roi-de-trong-kho-vi-chua-co-dien-de-bat-165262510100508148.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "AWS",
-        "Nvidia",
-        "GPU",
-        "Data Center",
-        "Cloud Infrastructure"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T05:56:00.000Z",
-      "thumbnailUrl": "https://thanhnienviet.mediacdn.vn/thumb_w/1200/91575133199802368/2026/10/24/screenshot-2026-10-25-at-01-41-24-17928678320911752688832-0-79-603-1044-crop-17928678366611911951046.jpg",
-      "contentSnippet": "AWS được cho là đang nhận hàng tỷ USD máy chủ Nvidia mỗi tháng, dù một số trung tâm dữ liệu chưa hoàn thiện hoặc chưa có đủ điện để vận hành số GPU này.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "2bd1b74cb42163cd",
-      "title_vi": "So sánh độ bền bản lề giữa dòng điện thoại màn hình gập cao cấp mới nhất",
-      "title_en": "Hinge Durability Comparison Between Latest Premium Foldable Smartphones",
-      "summary_vi": [
-        "Trong các thử nghiệm độ bền thực tế gần đây của JerryRigEverything, các dòng điện thoại màn hình gập thế hệ mới đã thể hiện rõ những ưu nhược điểm riêng trong thiết kế cơ khí bản lề.",
-        "Sự khác biệt cốt lõi về khả năng chịu lực nằm ở cơ chế thiết kế bản lề và vật liệu chế tạo khung máy, trong khi độ bền chống trầy xước của màn hình gập tương đương nhau.",
-        "Đánh giá này cung cấp góc nhìn thực tế cho kỹ sư phần cứng và nhà phát triển di động về những thách thức cơ học cần cải thiện trên các thiết bị màn hình gập thế hệ tiếp theo."
-      ],
-      "summary_en": [
-        "In recent durability stress tests conducted by JerryRigEverything, the latest generation of foldable smartphones demonstrated distinct mechanical advantages and vulnerabilities in hinge designs.",
-        "The core difference in structural resilience lies within the hinge engineering and chassis materials, whereas the scratch resistance performance of the flexible displays remains comparable.",
-        "This hardware assessment offers valuable practical insights for mobile engineers and developers regarding the mechanical challenges that must be addressed in future foldable device architectures."
-      ],
-      "originalTitle": "iPhone Duo không bền bằng Galaxy Z Fold8",
-      "url": "https://tinhte.vn/thread/iphone-duo-khong-ben-bang-galaxy-z-fold8.4186673/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Foldable",
-        "Hardware",
-        "Smartphone",
-        "Durability"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T02:04:13.000Z",
-      "contentSnippet": "Trong hai video thử độ bền gần nhất của JerryRigEverything, khác biệt giữa iPhone Duo và Galaxy Z Fold 8 nằm chủ yếu ở bản lề. Hai máy có màn hình gập trầy ở cùng một mức, nhưng Z Fold 8 vượt qua...",
-      "authorName": "osx",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "c00876409a1a4d06",
-      "title_vi": "Kỷ nguyên tấn công mạng bằng trí tuệ nhân tạo: Chuyên gia cảnh báo khủng hoảng bảo mật toàn cầu",
-      "title_en": "The Era of AI-Driven Cyber Attacks: Experts Warn of Global Security Crisis",
-      "summary_vi": [
-        "Sự bùng nổ của các công cụ trí tuệ nhân tạo tiên tiến đang làm thay đổi cục diện an ninh mạng khi chúng có khả năng tự động phát hiện lỗ hổng phần mềm với tốc độ cực nhanh và quy mô lớn trên toàn cầu.",
-        "Các tổ chức công nghệ hàng đầu thế giới đã ghi nhận những lỗ hổng nghiêm trọng như PHP2Shell được phát hiện thông qua các mô hình ngôn ngữ lớn, khiến nhiều doanh nghiệp phải khẩn trương kiểm tra và vá lỗi hệ thống.",
-        "Giới lãnh đạo công nghệ nhận định ngành an ninh mạng sẽ đối mặt với giai đoạn vô cùng căng thẳng, đòi hỏi các kỹ sư phần mềm phải thay đổi chiến lược phòng thủ và xây dựng hệ thống kiên cố hơn trước."
-      ],
-      "summary_en": [
-        "The rapid advancement of artificial intelligence tools is transforming the cybersecurity landscape by enabling automated vulnerability detection at unprecedented speeds and scales across the global internet.",
-        "Leading technology organizations have identified critical security flaws such as PHP2Shell using advanced large language models, prompting widespread emergency patching and system audits across enterprises.",
-        "Industry leaders warn that software engineering teams will face an intense period requiring a complete overhaul of defense strategies and more robust application architectures to counter AI threats."
-      ],
-      "originalTitle": "Kỷ nguyên tấn công mạng AI: 'Sẽ nếm trải cảm giác bầu trời sắp sụp'",
-      "url": "https://vnexpress.net/ky-nguyen-tan-cong-mang-ai-se-nem-trai-cam-giac-bau-troi-sap-sup-5136542.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Artificial Intelligence",
-        "Vulnerability",
-        "PHP",
-        "Cloudflare"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T02:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/25/ca-nh-hacker-php-giu-a-pho-ng-4564-9944-1792867910.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=zUZv-_RBK0-oXWB89_m5-A",
-      "contentSnippet": "Sau khi AI giúp phát hiện lỗ hổng PHP, giới chuyên gia cảnh báo làn sóng sự cố bảo mật và tấn công mạng có thể gây khủng hoảng thời gian tới.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4138c51f020316c6",
-      "title_vi": "Công cụ miễn phí hỗ trợ quét nhanh lỗ hổng bảo mật PHP",
-      "title_en": "Free Security Tool Released to Scan PHP Vulnerabilities in Seconds",
-      "summary_vi": [
-        "Công ty an ninh mạng Piolink của Hàn Quốc vừa chính thức phát hành một công cụ hoàn toàn miễn phí nhằm giúp các nhà quản trị mạng kiểm tra nhanh chóng nguy cơ trang web bị ảnh hưởng bởi lỗ hổng PHP.",
-        "Giải pháp này cho phép thực hiện quá trình quét các điểm yếu bảo mật tiềm ẩn chỉ trong vòng vài giây, tối ưu hóa thời gian đánh giá rủi ro cho các hệ thống ứng dụng web phức tạp.",
-        "Công cụ mang lại giá trị thực tiễn cao cho cộng đồng lập trình viên và kỹ sư an ninh mạng, giúp chủ động phát hiện sớm các nguy cơ tấn công từ mã độc và lỗ hổng mã nguồn."
-      ],
-      "summary_en": [
-        "South Korean cybersecurity firm Piolink has officially released a completely free tool designed to help administrators quickly check whether websites are affected by PHP security vulnerabilities.",
-        "This solution enables the scanning process for potential security weaknesses to be completed in just a few seconds, optimizing risk assessment time for complex web application systems.",
-        "The tool delivers high practical value for developers and cybersecurity engineers, helping them proactively detect early threats of malware attacks and source code vulnerabilities."
-      ],
-      "originalTitle": "Công cụ miễn phí giúp kiểm tra nguy cơ từ lỗ hổng PHP",
-      "url": "https://genk.vn/cong-cu-mien-phi-giup-kiem-tra-nguy-co-tu-lo-hong-php-165261025082501751.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "PHP",
-        "Vulnerability",
-        "Web Security",
-        "Piolink"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-25T01:50:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/25/avatar1792891455241-17928914560441028133821.png",
-      "contentSnippet": "VTV.vn - Công ty an ninh mạng Piolink của Hàn Quốc ra mắt công cụ miễn phí giúp kiểm tra nguy cơ website bị ảnh hưởng bởi các lỗ hổng bảo mật PHP chỉ trong vài giây.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4628501ca0718826",
-      "title_vi": "Chuyện gì xảy ra khi cho nhân vật trí tuệ nhân tạo khả năng ghi nhớ",
-      "title_en": "What happens when you give an artificial intelligence character a memory system",
-      "summary_vi": [
-        "Bài viết giới thiệu nền tảng AgentVerse chuyên xây dựng các xã hội mô phỏng thu nhỏ gồm các nhân vật trí tuệ nhân tạo tiên tiến có khả năng ghi nhớ toàn diện lịch sử hoạt động.",
-        "Hệ thống cho phép các tác nhân thông minh tự động lập kế hoạch chi tiết, thực thi tác vụ hàng ngày và suy ngẫm sâu sắc về các sự kiện diễn ra xung quanh chúng.",
-        "Công nghệ này mở ra hướng đi mới trong việc nghiên cứu hành vi tập thể của các tác nhân tự trị, cung cấp giải pháp mô phỏng xã hội phức tạp cho các kỹ sư phần mềm."
-      ],
-      "summary_en": [
-        "The article introduces the AgentVerse platform specializing in building miniature simulated societies consisting of advanced artificial intelligence characters capable of comprehensive memory retention.",
-        "The system allows intelligent agents to automatically generate detailed plans, execute daily tasks, and engage in deep reflection regarding the events happening around them.",
-        "This technology opens up new directions in researching collective behaviors of autonomous agents, providing complex social simulation solutions for modern software engineers."
-      ],
-      "originalTitle": "Chuyện gì xảy ra khi bạn cho một nhân vật AI có trí nhớ?",
-      "url": "https://viblo.asia/p/chuyen-gi-xay-ra-khi-ban-cho-mot-nhan-vat-ai-co-tri-nho-kNLr3ePWVgA",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "AgentVerse",
-        "Machine Learning",
-        "Simulation",
-        "Artificial Intelligence"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T01:38:25.000Z",
-      "contentSnippet": "Giới thiệu AgentVerse: tạo những xã hội nhỏ gồm các nhân vật AI biết nhớ, biết lập kế hoạch và biết suy ngẫm. Xem họ sống một ngày của mình, rồi bước ...",
-      "authorName": "Tran Quoc Sang",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e1545bcc45f4c70b",
-      "title_vi": "Cerebras Triển Khai Các Mô Hình Trí Tuệ Nhân Tạo Quy Mô Nghìn Tỷ Tham Số",
-      "title_en": "Cerebras Deploys Trillion-Parameter AI Models",
-      "summary_vi": [
-        "Công ty Cerebras công bố phương pháp triển khai các mô hình trí tuệ nhân tạo thế hệ mới với quy mô lên tới hàng nghìn tỷ tham số trên hệ thống chip bán dẫn kích thước tấm wafer tiên tiến của họ.",
-        "Bằng cách phân chia các lớp của mô hình mã nguồn mở Kimi K3 với ba nghìn tỷ tham số trên nhiều tấm chip WSE-3T, hệ thống đạt tốc độ xử lý ấn tượng từ một nghìn đến hai nghìn token mỗi giây.",
-        "Bước đột phá này giải quyết bài toán giới hạn bộ nhớ trên chip khi vận hành các mô hình ngôn ngữ lớn, mở ra khả năng ứng dụng thực tế với hiệu suất cao cho các kỹ sư trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "Cerebras announces a novel deployment methodology for next-generation artificial intelligence models boasting up to trillion parameters across their advanced wafer-scale semiconductor chip systems.",
-        "By partitioning the layers of the open-source Kimi K3 model featuring three trillion parameters across multiple WSE-3T wafers, the system achieves remarkable processing speeds from one to two thousand tokens per second.",
-        "This breakthrough overcomes on-chip memory limitations when operating large language models, unlocking high-performance practical applications for artificial intelligence engineers and system architects."
-      ],
-      "originalTitle": "Cerebras Deploys Trillion-Parameter AI Models",
-      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Semiconductor",
-        "Hardware",
-        "Machine Learning",
-        "Large Language Models"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T01:33:49.000Z",
-      "contentSnippet": "One of the most frequently asked questions we get is how we deploy large models on Cerebras wafer-scale chips. A single Cerebras WSE-3T wafer has 44 GB of on-chip memory, and trillion-parameter frontier models need terabytes for their weights alone. In this post, we’ll explain how we split a large f",
-      "authorName": "gmays",
-      "upvotes": 176,
-      "commentsCount": 57
     }
   ]
 }
