@@ -1,7 +1,387 @@
 {
-  "lastUpdated": "2026-11-05T23:06:37.896Z",
+  "lastUpdated": "2026-11-06T04:24:09.634Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "42167ce9a4c297ad",
+      "title_vi": "Bốn bước trong quy trình luyện nói AI và sáu bài học kinh nghiệm thực tế khi phát triển ứng dụng di động",
+      "title_en": "Four Steps of an AI Speaking Practice Loop and Six Mistakes Encountered During Solo App Development",
+      "summary_vi": [
+        "Tác giả tự phát triển một ứng dụng học từ vựng tiếng Anh dành cho người Việt, tập trung sâu vào tính năng tương tác thoại thông minh để hỗ trợ người dùng luyện tập.",
+        "Hệ thống xây dựng dựa trên chu trình bốn bước gồm nhận diện giọng nói, xử lý sửa lỗi phát âm, tạo phản hồi tự nhiên và phát âm thanh trả về người dùng.",
+        "Quá trình triển khai thực tế mang lại nhiều bài học giá trị về kỹ thuật xử lý âm thanh, tối ưu độ trễ mạng và trải nghiệm người dùng trong phát triển phần mềm."
+      ],
+      "summary_en": [
+        "The author independently developed an English vocabulary learning application for Vietnamese users, focusing heavily on smart voice interaction features for practice.",
+        "The system relies on a four-step cycle involving speech recognition, pronunciation correction processing, natural response generation, and audio feedback delivery.",
+        "Real-world implementation yielded valuable lessons regarding audio processing techniques, network latency optimization, and user experience in software development."
+      ],
+      "originalTitle": "Bốn bước của một lượt luyện nói AI, và sáu chỗ tôi đã làm sai",
+      "url": "https://viblo.asia/p/bon-buoc-cua-mot-luot-luyen-noi-ai-va-sau-cho-toi-da-lam-sai-pPLkNQRnJRZ",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Mobile & Web",
+        "Software Engineering",
+        "Speech Recognition",
+        "Startups"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-06T10:32:07.000Z",
+      "contentSnippet": "Tôi làm một app học từ vựng tiếng Anh cho người Việt, một mình. Phần \"AI nghe – sửa phát âm – trả lời bằng giọng\" là chỗ tôi học được nhiều nhất, và c...",
+      "authorName": "JimGreen",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ed0497051f31af67",
+      "title_vi": "Cách tính chi phí token LLM cho mỗi request trong môi trường production",
+      "title_en": "How to Calculate LLM Token Costs per Request in Production Environments",
+      "summary_vi": [
+        "Bài viết hướng dẫn chi tiết quy trình tính toán chi phí token cho các mô hình ngôn ngữ lớn khi triển khai thực tế trên môi trường production, giúp các đội ngũ kỹ thuật tối ưu hóa ngân sách vận hành hệ thống AI.",
+        "Nội dung tập trung phân tích cơ chế đếm token đầu vào và đầu ra từ các nhà cung cấp dịch vụ LLM, đồng thời cung cấp công thức toán học cụ thể để dự toán chính xác mức tiêu thụ tài nguyên cho từng request.",
+        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư phần mềm và kiến trúc sư hệ thống trong việc kiểm soát chi phí hạ tầng, ngăn chặn tình trạng vượt quá ngân sách khi ứng dụng AI vào sản phẩm thương mại."
+      ],
+      "summary_en": [
+        "The article provides a detailed guide on calculating token costs for large language models during real-world production deployment, helping engineering teams optimize their operational budgets for AI systems.",
+        "The content focuses on analyzing input and output token counting mechanisms from LLM service providers while offering specific mathematical formulas to accurately forecast resource consumption for individual requests.",
+        "This knowledge delivers high practical value for software engineers and system architects in controlling infrastructure costs and preventing budget overruns when integrating AI into commercial products."
+      ],
+      "originalTitle": "Tính chi phí token LLM cho mỗi request",
+      "url": "https://viblo.asia/p/tinh-chi-phi-token-llm-cho-moi-request-y0VGwWapVPA",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "LLM",
+        "AI",
+        "Production",
+        "Cost Optimization",
+        "Cloud Architecture"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-06T09:46:21.000Z",
+      "contentSnippet": "Bài viết này được dịch và biên tập từ bài gốc tiếng Anh trên blog của Modelflare. Hướng dẫn cho môi trường production: tính chi phí token LLM cho mỗi...",
+      "authorName": "Castaly",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "142f734e4b1d21b0",
+      "title_vi": "So sánh chất lượng hoàn thiện phần cứng giữa các dòng điện thoại thông minh cao cấp",
+      "title_en": "Hardware Build Quality Comparison Across Flagship Smartphones",
+      "summary_vi": [
+        "Bài viết thực hiện đánh giá và so sánh chi tiết chất lượng hoàn thiện phần cứng cũng như thiết kế biên ngoài giữa các dòng điện thoại thông minh cao cấp thế hệ mới trên thị trường hiện nay.",
+        "Quá trình phân tích tập trung vào độ tinh xảo, tỉ mỉ của các đường viền, khớp nối và vật liệu chế tạo cao cấp được áp dụng trên các thiết bị di động hàng đầu từ những nhà sản xuất lớn.",
+        "Đánh giá này cung cấp góc nhìn thực tiễn về xu hướng thiết kế công nghiệp phần cứng di động, giúp người dùng và kỹ sư hiểu rõ hơn về tiêu chuẩn chế tạo thiết bị."
+      ],
+      "summary_en": [
+        "The article provides a detailed evaluation and comparison of the hardware build quality and exterior edge design among the latest generation of flagship smartphones currently available in the market.",
+        "The analysis focuses on the precision, meticulousness of borders, hinges, and premium manufacturing materials applied across top-tier mobile devices from major technology manufacturers.",
+        "This assessment offers practical insights into mobile hardware industrial design trends, helping users and engineers better understand the manufacturing standards of modern devices."
+      ],
+      "originalTitle": "iPhone Duo hoàn thiện kỹ hơn Galaxy Z Fold8, Sony và Apple hoàn thiện kỹ hơn các hãng khác.",
+      "url": "https://tinhte.vn/thread/iphone-duo-hoan-thien-ky-hon-galaxy-z-fold8-sony-va-apple-hoan-thien-ky-hon-cac-hang-khac.4189997/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Smartphone",
+        "Apple",
+        "Samsung",
+        "Hardware Design",
+        "Mobile Tech"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-06T04:19:06.000Z",
+      "contentSnippet": "Một điểm rất cộng khi dùng iPhone Duo là cảm giác cầm một sản phẩm được hoàn thiện kỹ, tỉ mỉ, tinh xảo ở phần biên ngoài. Mình đặt nó cạnh Samsung Galaxy Z Fold8, chụp sát từng chi tiết để anh em...",
+      "authorName": "cuhiep",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "538839253f973591",
+      "title_vi": "Ba mẫu điện thoại thông minh của tập đoàn công nghệ Apple chính thức ngừng hỗ trợ kỹ thuật trên toàn cầu",
+      "title_en": "Three Apple smartphone models officially discontinued and stripped of global technical support",
+      "summary_vi": [
+        "Tập đoàn công nghệ Apple đã chính thức ngừng hỗ trợ toàn diện và khai tử ba dòng thiết bị di động cũ bao gồm phiên bản điện thoại thông minh đời đầu trên thị trường quốc tế.",
+        "Quyết định này đồng nghĩa với việc toàn bộ hệ thống cửa hàng và trung tâm bảo hành ủy quyền chính hãng trên toàn cầu sẽ không còn được cung cấp linh kiện phần cứng để sửa chữa các thiết bị này.",
+        "Sự kiện này đánh dấu bước chuyển dịch tất yếu trong vòng đời sản phẩm phần cứng di động, buộc các nhà phát triển và người dùng phải nâng cấp nền tảng để tối ưu hóa hiệu suất và bảo mật."
+      ],
+      "summary_en": [
+        "Technology giant Apple has officially terminated comprehensive support and discontinued three older mobile device lines including early smartphone editions across the international market.",
+        "This decision means that all authorized service centers and retail stores worldwide will no longer receive hardware replacement components to repair these legacy legacy units.",
+        "This event marks an inevitable transition in the lifecycle of mobile hardware products, compelling developers and users to upgrade their platforms for optimized performance and security."
+      ],
+      "originalTitle": "3 mẫu iPhone bị khai tử trên toàn cầu năm 2026",
+      "url": "https://genk.vn/3-mau-iphone-bi-khai-tu-tren-toan-cau-nam-2026-165261106103845461.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "Smartphone",
+        "Hardware",
+        "Mobile",
+        "Tech Trends"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-06T04:18:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/6/avatar1793936262794-1793936263076100710879.jpg",
+      "contentSnippet": "Apple đã khai tử hoàn toàn iPhone X, iPhone 5 và iPhone 4 (8GB) trên toàn cầu. Từ Mỹ đến Việt Nam, không cửa hàng chính hãng nào còn được cấp linh kiện để sửa ba mẫu máy này.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f5b42a6c9f88fb70",
+      "title_vi": "Binance bị tấn công mạng như thế nào để thất thoát 6,3 tỷ USD?",
+      "title_en": "How Binance Was Hacked and Lost 6.3 Billion Dollars",
+      "summary_vi": [
+        "Báo cáo sự cố chi tiết từ Binance hé lộ cuộc tấn công mạng quy mô lớn khiến nền tảng này thất thoát khoảng 6,34 tỷ USD sau khi nhóm hacker xâm nhập thành công vào hệ thống nội bộ.",
+        "Kẻ tấn công đã vượt qua lớp phòng thủ bằng cách tiếp cận ba kỹ sư thông qua các thủ đoạn tinh vi bao gồm buổi phỏng vấn tuyển dụng giả và cài đặt các công cụ lập trình AI độc hại.",
+        "Sự việc gióng lên hồi chuông cảnh báo nghiêm trọng về các mối đe dọa kỹ thuật phi xã hội tiên tiến nhắm trực tiếp vào nhân sự cốt lõi của các tổ chức công nghệ lớn trên toàn cầu."
+      ],
+      "summary_en": [
+        "Detailed incident reports from Binance reveal a massive cyber attack that caused the platform to lose approximately 6.34 billion dollars after hackers successfully infiltrated internal systems.",
+        "The attackers bypassed defense layers by targeting three engineers through sophisticated social engineering tactics including fake job interviews and the installation of malicious AI development tools.",
+        "This incident sounds a serious alarm regarding advanced social engineering threats directly targeting core personnel of major technology organizations worldwide."
+      ],
+      "originalTitle": "Binance bị hack 6,3 tỷ USD thế nào?",
+      "url": "https://genk.vn/binance-bi-hack-63-ty-usd-the-nao-165261106104615802.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Social Engineering",
+        "Crypto",
+        "Security Breach",
+        "AI Tools"
+      ],
+      "hotScore": 98,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-06T03:44:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/6/image20261106104030-0-0-900-1440-crop-17939364731511211326705.jpg",
+      "contentSnippet": "Báo cáo sự cố đầu tiên của Binance cho thấy nhóm tin tặc đi qua ba kỹ sư, một bản cài đặt công cụ lập trình AI giả mạo, một buổi phỏng vấn tuyển dụng giả và một công cụ AI nội bộ trước khi rút khoảng 6,34 tỷ USD.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6caaf7c81ea31622",
+      "title_vi": "Trí tuệ nhân tạo khai thác lỗ hổng để trích xuất dữ liệu từ điện thoại bị khóa",
+      "title_en": "Artificial Intelligence Exploits Vulnerabilities to Extract Data from Locked Smartphones",
+      "summary_vi": [
+        "Một mô hình trí tuệ nhân tạo chưa từng được công bố của công ty công nghệ Anthropic đã thành công khai thác chuỗi ba lỗ hổng bảo mật nghiêm trọng để truy cập và đánh cắp dữ liệu cá nhân từ một chiếc điện thoại Pixel 9 đang ở trạng thái khóa màn hình thông qua cổng kết nối USB.",
+        "Cuộc tấn công này dựa trên việc tự động hóa quá trình khai thác lỗi phần mềm và kết hợp các điểm yếu trong cơ chế xác thực phần cứng, cho phép mô hình AI vượt qua màn hình khóa mà không cần sự can thiệp thủ công từ con người trong suốt quá trình thực thi mã độc.",
+        "Sự kiện này gióng lên hồi chuông cảnh báo lớn đối với các kỹ sư bảo mật di động về khả năng tự động hóa tấn công zero-day ngày càng tinh vi của các hệ thống AI, đòi hỏi phải siết chặt hơn nữa các giao thức bảo mật phần cứng và cổng ngoại vi."
+      ],
+      "summary_en": [
+        "An unreleased artificial intelligence model developed by Anthropic successfully exploited a chain of three severe security vulnerabilities to access and steal personal data from a locked Pixel 9 smartphone via a USB connection.",
+        "This attack leveraged the automation of software exploit processes and combined weaknesses in hardware authentication mechanisms, allowing the AI model to bypass the lock screen without any manual human intervention during payload execution.",
+        "This incident raises a major alarm for mobile security engineers regarding the increasingly sophisticated AI-driven automated zero-day attack capabilities, demanding tighter security protocols for hardware layers and peripheral ports."
+      ],
+      "originalTitle": "AI lấy dữ liệu từ điện thoại đang khóa thế nào",
+      "url": "https://vnexpress.net/ai-lay-du-lieu-tu-dien-thoai-dang-khoa-the-nao-5141195.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "AI",
+        "Cybersecurity",
+        "Mobile Security",
+        "Exploit",
+        "Hardware Security"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-06T02:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/05/a1-1793866686.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=rSgrRMq4wttzUHGz_Vuz4g",
+      "contentSnippet": "Mô hình AI chưa phát hành của Anthropic đã ghép ba lỗ hổng để lấy ảnh và dữ liệu cá nhân từ chiếc Pixel 9 đang khóa màn hình, chỉ qua một sợi cáp USB.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b70a04692c3c16a2",
+      "title_vi": "Harness là gì, vì sao nó quyết định AI làm tốt hay dở hơn cả việc chọn model?",
+      "title_en": "What is AI Harness and why it determines model performance better than model selection itself?",
+      "summary_vi": [
+        "Nhiều nhà phát triển phần mềm thường có phản xạ đổi sang mô hình ngôn ngữ lớn mạnh hơn hoặc viết câu lệnh chi tiết hơn khi trí tuệ nhân tạo tạo ra kết quả sai lệch trong quá trình làm việc.",
+        "Thực tế kỹ thuật cho thấy cùng một mô hình nhân tạo, phương pháp giao việc, cấu trúc kiểm tra và cơ chế phản hồi trong khung bao bọc mới là yếu tố cốt lõi quyết định chất lượng đầu ra.",
+        "Hiểu rõ và xây dựng hệ thống khung bao bọc chuẩn mực giúp các kỹ sư tối ưu hóa hiệu suất của trí tuệ nhân tạo, tiết kiệm đáng kể tài nguyên tính toán và nâng cao độ tin cậy."
+      ],
+      "summary_en": [
+        "Many software developers often reflexively switch to more powerful large language models or write more detailed prompts whenever artificial intelligence produces inaccurate results during their workflow execution.",
+        "Technical reality shows that using the same artificial intelligence model, the task delegation methodology, verification structures, and feedback mechanisms within the harness framework are the core factors determining output quality.",
+        "Comprehending and building standardized harness systems helps engineers optimize artificial intelligence performance, significantly save computational resources, and enhance overall system reliability in production environments."
+      ],
+      "originalTitle": "Harness là gì, vì sao nó quyết định AI làm tốt hay dở hơn cả việc chọn model?",
+      "url": "https://tinhte.vn/thread/harness-la-gi-vi-sao-no-quyet-dinh-ai-lam-tot-hay-do-hon-ca-viec-chon-model.4190049/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "LLM",
+        "Prompt Engineering",
+        "Software Architecture",
+        "Machine Learning"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-06T01:30:56.000Z",
+      "contentSnippet": "Nhiều người khi thấy AI làm sai, phản xạ chung là đổi sang model mạnh hơn, hoặc viết prompt dài hơn, chi tiết hơn. Nhưng thực tế, cùng một model đó, nếu bạn thay đổi cách giao việc, cách kiểm tra...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ad929875c5a71925",
+      "title_vi": "Công ty phát triển trí tuệ nhân tạo lớn từ bỏ thỏa thuận bảo mật cho các dự án trung tâm dữ liệu",
+      "title_en": "OpenAI is stepping back from NDAs for data center projects",
+      "summary_vi": [
+        "Công ty nghiên cứu trí tuệ nhân tạo hàng đầu đã đưa ra các cam kết mới với cộng đồng địa phương, thông báo sẽ chấm dứt việc sử dụng các thỏa thuận bảo mật không tiết lộ thông tin đối với các quan chức nhà nước tham gia vào dự án trung tâm dữ liệu.",
+        "Động thái này diễn ra sau khi vấp phải nhiều phản ứng mạnh mẽ từ cử tri và công chúng đối với các kế hoạch mở rộng cơ sở hạ tầng tính toán quy mô lớn, vốn trước đây thường được che giấu đằng sau các cam kết bảo mật khắt khe giữa nhà phát triển và chính quyền.",
+        "Sự thay đổi chính sách này đánh dấu một bước tiến quan trọng về tính minh bạch trong ngành công nghiệp hạ tầng AI, buộc các doanh nghiệp công nghệ phải cởi mở hơn trong việc thảo luận các vấn đề an ninh, bí mật thương mại và tác động môi trường với người dân địa phương."
+      ],
+      "summary_en": [
+        "The leading artificial intelligence research company has introduced new commitments to local communities, announcing the termination of non-disclosure agreements with public officials involved in data center development projects.",
+        "This move comes after facing strong opposition from voters and the public against large-scale computing infrastructure expansion plans, which were previously often hidden behind strict confidentiality pacts between developers and local authorities.",
+        "This policy shift marks a significant step forward in transparency for the AI infrastructure industry, forcing tech enterprises to be more open in discussing security issues, trade secrets, and environmental impacts with local residents."
+      ],
+      "originalTitle": "OpenAI is stepping back from NDAs for data center projects",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "OpenAI",
+        "Data Center",
+        "AI Infrastructure",
+        "Transparency",
+        "Tech Policy"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-06T00:37:56.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data ",
+      "authorName": "Jay Peters",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "8b33f1382f19de19",
+      "title_vi": "Airbnb đang phát triển trợ lý ảo trí tuệ nhân tạo chuyên lên kế hoạch du lịch",
+      "title_en": "Airbnb is working on an AI travel agent",
+      "summary_vi": [
+        "Công ty Airbnb vừa thông báo trong thư gửi cổ đông về kế hoạch triển khai một trợ lý ảo trí tuệ nhân tạo mới vào nửa đầu năm 2027 nhằm hỗ trợ người dùng lên kế hoạch và đặt chuyến đi một cách tối ưu.",
+        "Hệ thống này được thiết kế dựa trên giao diện chuyên biệt dành riêng cho ngành du lịch, kết hợp khả năng khớp nối thông minh giữa chủ nhà và khách hàng để xử lý các yêu cầu phức tạp thay vì chỉ dùng chatbot thông thường.",
+        "Bước đi chiến lược này cho thấy xu hướng tích hợp sâu công nghệ trí tuệ nhân tạo tạo sinh vào các nền tảng dịch vụ thực tế, tạo ra thách thức và tiêu chuẩn mới về trải nghiệm người dùng trong ngành công nghệ."
+      ],
+      "summary_en": [
+        "Airbnb announced in its shareholder letter plans to roll out a new artificial intelligence travel agent in the first half of 2027 to help users efficiently plan and book their trips.",
+        "The system is designed with a specialized interface built specifically for travel, combining smart matching capabilities between hosts and guests to handle complex requests instead of relying on standard chatbots.",
+        "This strategic move highlights the deep integration trend of generative artificial intelligence into practical service platforms, setting new user experience standards and challenges for the tech industry."
+      ],
+      "originalTitle": "Airbnb is working on an AI travel agent",
+      "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Travel Tech",
+        "Generative AI",
+        "Software Architecture"
+      ],
+      "hotScore": 91,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-06T00:06:12.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/acastro_STK090_06.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointmen",
+      "authorName": "Jay Peters",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "3541c1220be83415",
+      "title_vi": "Bill Gates cảnh báo trí tuệ nhân tạo có thể gây ra đại dịch tồi tệ hơn Covid-19",
+      "title_en": "Bill Gates Warns Artificial Intelligence Could Trigger a Pandemic Worse Than Covid-19",
+      "summary_vi": [
+        "Tại Hội nghị thượng đỉnh Tương lai AI do Financial Times tổ chức, tỷ phú Bill Gates đã đưa ra cảnh báo nghiêm khắc về việc kẻ xấu lợi dụng các mô hình trí tuệ nhân tạo tiên tiến để chế tạo ra vũ khí sinh học nguy hiểm.",
+        "Nhà đồng sáng lập Microsoft chỉ ra rằng các mô hình trí tuệ nhân tạo mã nguồn mở với tính năng truy cập tự do có thể dễ dàng vượt qua các lớp biện pháp bảo vệ, tạo điều kiện cho các cuộc tấn công an ninh mạng diện rộng và thảm họa sinh học.",
+        "Cảnh báo này nhấn mạnh sự cấp bách trong việc thiết lập các khung pháp lý quốc tế và siết chặt quy trình quản lý các hệ thống trí tuệ nhân tạo nhằm ngăn chặn những rủi ro thảm khốc đối với an ninh toàn cầu."
+      ],
+      "summary_en": [
+        "At the AI Future Summit organized by the Financial Times, billionaire Bill Gates issued a stern warning about malicious actors exploiting advanced artificial intelligence models to create dangerous biological weapons.",
+        "The Microsoft co-founder pointed out that open-source artificial intelligence models featuring unrestricted access can easily bypass security measures, facilitating widespread cybersecurity attacks and biological disasters.",
+        "This warning emphasizes the urgent need to establish international regulatory frameworks and tighten governance over artificial intelligence systems to prevent catastrophic risks to global security."
+      ],
+      "originalTitle": "Bill Gates: 'AI có thể gây ra đại dịch tệ hơn Covid-19'",
+      "url": "https://vnexpress.net/bill-gates-ai-co-the-gay-ra-dai-dich-te-hon-covid-19-5141238.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Cybersecurity",
+        "Bio-security",
+        "Microsoft",
+        "Tech Regulations"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/05/afp20260419aa190420262745190v1-5932-9111-1793869461.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=6y36wBUIz3OV7tYYEKMSXw",
+      "contentSnippet": "Tỷ phú công nghệ Bill Gates cảnh báo kẻ xấu có thể dùng AI tạo ra vũ khí sinh học, gây thiệt hại khủng khiếp hơn nhiều so với Covid-19.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b6cc61adf7e9fb2b",
+      "title_vi": "Lỗ hổng bảo mật thập niên cho phép hacker truy cập SSH không cần mật khẩu vào thiết bị Linux",
+      "title_en": "Meet sshole, the vulnerability that lets hackers SSH into Linux devices",
+      "summary_vi": [
+        "Các thiết bị chạy một số cấu hình của hệ điều hành Alpine Linux đang đối mặt với một lỗ hổng bảo mật nghiêm trọng tồn tại suốt một thập kỷ qua, cho phép kẻ tấn công đăng nhập trực tiếp mà không cần cung cấp mật khẩu xác thực.",
+        "Lỗ hổng xuất phát từ sự tương tác phức tạp giữa thư viện OpenSSH, thư viện thay thế nhẹ musl và việc không sử dụng mô-đun xác thực PAM, kết hợp với các tài khoản hệ thống cấu hình mã hóa SHA256 hoặc SHA512 ở trạng thái trống.",
+        "Sự cố này gióng lên hồi chuông cảnh báo cho các kỹ sư DevOps và quản trị hệ thống về tầm quan trọng của việc kiểm tra cấu hình bảo mật OpenSSH trên các bản phân phối Linux sử dụng thư viện thay thế nhẹ."
+      ],
+      "summary_en": [
+        "Devices running specific configurations of Alpine Linux are facing a critical decade-old security vulnerability that allows malicious attackers to log directly into systems without requiring any password authentication whatsoever.",
+        "The vulnerability originates from complex interactions between the OpenSSH library, the lightweight musl replacement library, and the absence of PAM authentication modules, combined with system accounts configured with empty passwords.",
+        "This severe security incident serves as a crucial wake-up call for DevOps engineers and system administrators regarding the vital importance of auditing OpenSSH security configurations across lightweight Linux distributions."
+      ],
+      "originalTitle": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+      "url": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+      "sourceName": "Ars Technica",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Linux",
+        "OpenSSH",
+        "AlpineLinux",
+        "Vulnerability"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-05T23:09:36.000Z",
+      "contentSnippet": "Certain configurations of Alpine are affected. Other distros may be as well.",
+      "authorName": "\n                    Dan Goodin\n                ",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "2165b65a40c289be",
       "title_vi": "Perplexity ra mắt các tác nhân trí tuệ nhân tạo chuyên dụng cho công việc",
@@ -8191,384 +8571,6 @@
       "publishedAt": "2026-10-26T02:26:46.000Z",
       "contentSnippet": "UGREEN vừa mở đặt trước HomeAgent HA100, một thiết bị lai khá lạ: vừa là NAS, vừa là máy tính AI chạy local, vừa là đầu ghi camera giám sát, vừa là hub nhà thông minh. Giá đặt trước là 799 USD,...",
       "authorName": "Nhà Của Cáo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "7b6d285585701fb4",
-      "title_vi": "Đánh giá thiết kế lệch lạc trên thiết bị gập đầu tiên của Apple khiến người dùng khó tính phải cân nhắc",
-      "title_en": "Analyzing the Asymmetrical Design Flaws on Apple's First Foldable Device That OCD Users Should Consider",
-      "summary_vi": [
-        "Bài viết chia sẻ những trải nghiệm thực tế đầu tiên về thiết bị màn hình gập mới ra mắt của Apple, tập trung phân tích các chi tiết thiết kế gây tranh cãi về độ cân xứng.",
-        "Tác giả chỉ ra hàng loạt điểm mất cân đối từ màn hình ngoài cho đến các thành phần bên trong, ảnh hưởng trực tiếp đến trải nghiệm thị giác của người dùng kỹ tính.",
-        "Những nhận định này mang đến góc nhìn đa chiều về chất lượng hoàn thiện phần cứng của các dòng sản phẩm công nghệ thế hệ mới trước khi quyết định đầu tư."
-      ],
-      "summary_en": [
-        "The article shares early hands-on experiences with Apple's newly released foldable device, focusing on an analysis of controversial symmetry design details.",
-        "The author points out numerous asymmetrical flaws ranging from the external display to internal components, directly impacting the visual experience of meticulous users.",
-        "These insights provide a multi-dimensional perspective on the hardware finishing quality of next-generation technology products before making an investment decision."
-      ],
-      "originalTitle": "iPhone Duo: nhìn đâu cũng thấy lệch, anh em bị OCD nên cân nhắc kỹ trước khi mua",
-      "url": "https://tinhte.vn/thread/iphone-duo-nhin-dau-cung-thay-lech-anh-em-bi-ocd-nen-can-nhac-ky-truoc-khi-mua.4186767/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "Foldable Phone",
-        "Hardware Design",
-        "Mobile Devices"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-26T02:26:36.000Z",
-      "contentSnippet": "Nếu anh em bị OCD thì mình nghĩ anh em không nên mua iPhone Duo. Sau mấy ngày cầm máy, mình thấy gần như mọi thứ trên chiếc điện thoại gập đầu tiên của Apple đều lệch: từ màn hình ngoài, màn hình...",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "cef7617a2c40ef9a",
-      "title_vi": "Trang web thô sơ nhất nước Mỹ và lý do kiên định từ chối hiện đại hóa giao diện",
-      "title_en": "The ugliest website in America and why it deliberately resists modern UI redesigns",
-      "summary_vi": [
-        "Giữa kỷ nguyên công nghệ hiện đại bị thao túng bởi các thuật toán phức tạp và trí tuệ nhân tạo, trang rao vặt trực tuyến kinh điển tiếp tục duy trì sự tồn tại bền bỉ như một không gian hiếm hoi.",
-        "Nền tảng này kiên trì giữ nguyên kiến trúc tối giản từ năm một nghìn chín trăm chín mươi lăm, hoàn toàn loại bỏ các yếu tố thương mại hóa, quảng cáo rườm rà và công nghệ theo dõi người dùng.",
-        "Sự bảo thủ mang tính triết lý này mang lại bài học sâu sắc cho các kỹ sư phần mềm về việc ưu tiên trải nghiệm kết nối thuần túy và giá trị cốt lõi hơn là chạy theo giao diện hào nhoáng."
-      ],
-      "summary_en": [
-        "Amidst a modern technological era dominated by complex algorithms and artificial intelligence, the classic online classifieds platform continues to maintain a remarkably resilient existence as a rare digital space.",
-        "The platform steadfastly preserves its minimalist architecture established in nineteen ninety-five, completely eliminating commercialization elements, cumbersome advertisements, and aggressive user tracking technologies.",
-        "This philosophical conservatism offers software engineers a profound lesson on prioritizing pure human connectivity and core functional value over blindly chasing flashy user interfaces and trends."
-      ],
-      "originalTitle": "Trang web xấu nhất nước Mỹ và lý do không ai muốn nó đẹp lên",
-      "url": "https://genk.vn/trang-web-xau-nhat-nuoc-my-va-ly-do-khong-ai-muon-no-dep-len-165261026072106855.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Web Development",
-        "UI/UX",
-        "Internet History",
-        "Software Architecture",
-        "Digital Privacy"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-26T02:00:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/26/avatar1792974042046-17929740424261714773585.png",
-      "contentSnippet": "Giữa kỷ nguyên internet bị thao túng bởi thuật toán và AI, Craigslist – trang rao vặt ra đời từ năm 1995 vẫn bền bỉ tồn tại như một không gian hiếm hoi giữ trọn sự riêng tư, tính kết nối tự nhiên và giá trị thuần khiết giữa con người với nhau.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "3725c1686eed3d4e",
-      "title_vi": "Sam Altman: Trí tuệ nhân tạo đang phát hiện ra những lỗ hổng bảo mật vượt xa sức tưởng tượng của tin tặc",
-      "title_en": "Sam Altman: Artificial intelligence is discovering security vulnerabilities far beyond hacker imagination",
-      "summary_vi": [
-        "Giám đốc điều hành OpenAI Sam Altman đã đưa ra những nhận định gây chấn động về năng lực thực tế của các mô hình trí tuệ nhân tạo tiên tiến hiện nay trong lĩnh vực an ninh mạng.",
-        "Hệ thống trí tuệ nhân tạo hiện đại đang tự động khai thác và tìm ra các điểm yếu kiến trúc phần mềm mà trước đây con người chưa từng lường trước được trong hệ thống.",
-        "Sự thay đổi này đánh dấu cột mốc chấm dứt kỷ nguyên bảo mật kỹ thuật số truyền thống, buộc các kỹ sư phần mềm phải tái cấu trúc toàn diện phương thức phòng thủ."
-      ],
-      "summary_en": [
-        "OpenAI CEO Sam Altman made startling statements regarding the actual capabilities of advanced artificial intelligence models within the cybersecurity landscape.",
-        "Modern artificial intelligence systems are autonomously exploiting and discovering software architectural weaknesses that humans never previously anticipated within systems.",
-        "This shift marks the definitive end of the traditional digital security era, forcing software engineers to comprehensively restructure their defense methodologies."
-      ],
-      "originalTitle": "Sam Altman: AI đang tìm ra những lỗ hổng vượt ngoài sức tưởng tượng của hacker",
-      "url": "https://genk.vn/sam-altman-ai-dang-tim-ra-nhung-lo-hong-vuot-ngoai-suc-tuong-tuong-cua-hacker-165261026072007977.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Cybersecurity",
-        "OpenAI",
-        "Vulnerabilities",
-        "Sam Altman"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-26T01:39:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/26/avatar1792973974291-1792973974919659506571.png",
-      "contentSnippet": "Trong một phát ngôn gây chấn động toàn bộ giới công nghệ, CEO OpenAI Sam Altman đã thừa nhận về khả năng thực sự của các mô hình AI hiện tại. Theo ông, thế giới an toàn kỹ thuật số mà chúng ta từng biết đã chính thức khép lại.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "96d9c614d20fde10",
-      "title_vi": "Bí mật đằng sau đàn vịt robot của Jensen Huang: Cỗ máy mini nặng 1kg và cuộc cách mạng huấn luyện AI chỉ trong vài giờ",
-      "title_en": "The Secret Behind Jensen Huang's Robot Ducks: A 1-Kilogram Mini Machine and the Revolution of AI Training in Just Hours",
-      "summary_vi": [
-        "Tại sự kiện công nghệ GTC Berlin, CEO Jensen Huang đã giới thiệu bộ sưu tập bốn chú robot mini hình vịt mang tên Microduck, gây ấn tượng mạnh với khả năng thực hiện linh hoạt các mệnh lệnh phức tạp trực tiếp trên sân khấu.",
-        "Những cỗ máy này sở hữu trọng lượng chỉ một kilogam nhưng được tích hợp hệ thống phần cứng và thuật toán tiên tiến, cho phép tối ưu hóa quy trình huấn luyện trí tuệ nhân tạo hoàn thành chỉ trong thời gian rất ngắn.",
-        "Bước đột phá này đánh dấu một bước tiến quan trọng trong lĩnh vực robotics và học máy, mở ra tiềm năng ứng dụng thực tế rộng rãi cho các nhà phát triển phần mềm và kỹ sư hệ thống nhúng trong tương lai."
-      ],
-      "summary_en": [
-        "At the GTC Berlin technology event, CEO Jensen Huang introduced a collection of four mini duck-shaped robots named Microduck, making a strong impression with their ability to flexibly execute complex commands directly on stage.",
-        "These machines weigh only one kilogram but are integrated with advanced hardware systems and algorithms, allowing the optimization of the artificial intelligence training process to be completed in a very short time.",
-        "This breakthrough marks an important milestone in the fields of robotics and machine learning, opening up widespread practical application potential for software developers and embedded systems engineers in the future."
-      ],
-      "originalTitle": "Bí mật đằng sau đàn 'vịt robot' của Jensen Huang: Cỗ máy mini nặng 1kg và cuộc cách mạng huấn luyện AI chỉ trong vài giờ đồng hồ",
-      "url": "https://genk.vn/bi-mat-dang-sau-dan-vit-robot-cua-jensen-huang-co-may-mini-nang-1kg-va-cuoc-cach-mang-huan-luyen-ai-chi-trong-vai-gio-dong-ho-1652610260718586.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Robotics",
-        "Machine Learning",
-        "Hardware",
-        "NVIDIA"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-26T01:18:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/26/avatar1792973910517-17929739109541246714790.png",
-      "contentSnippet": "Tại sự kiện GTC Berlin, CEO NVIDIA Jensen Huang đã khiến cả hội trường trầm trồ khi ra mắt 4 robot mini mang tên \"Microduck\". Những chú vịt này không chỉ tự bước ra sân khấu mà còn thực hiện các mệnh lệnh ngồi, đứng dậy hay nằm xuống theo đúng yêu cầu.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "28d9af70d6cc841d",
-      "title_vi": "Phân tích bên trong dòng điện thoại màn hình gập của Apple giải thích lý do tại sao màn hình và bản lề dễ hỏng",
-      "title_en": "iFixit's look inside the iPhone Duo may explain those broken screens and hinges",
-      "summary_vi": [
-        "Nhóm chuyên gia kỹ thuật từ iFixit đã tiến hành mổ xẻ mẫu điện thoại màn hình gập mới nhất của Apple để khám phá các linh kiện bên trong và tìm hiểu nguyên nhân gây ra tình trạng hư hỏng màn hình và bản lề thường gặp.",
-        "Báo cáo chi tiết cho thấy lớp phủ bề mặt dạng nhám nano giúp giảm thiểu hiện tượng phản xạ ánh sáng để che khuất nếp gấp, trong khi kính hiển vi tiết lộ các điểm ảnh phụ hình bầu dục được sắp xếp theo nhiều góc độ thiết kế khác nhau.",
-        "Đánh giá khả năng sửa chữa đạt điểm số khả quan nhất so với các thiết bị gập trước đó, mang lại những bài học quan trọng về cơ chế cơ khí và độ bền vật liệu cho các nhà phát triển phần cứng di động."
-      ],
-      "summary_en": [
-        "The technical experts at iFixit have torn down Apple's latest foldable smartphone model to inspect internal components and investigate the underlying causes behind frequent screen and hinge failures.",
-        "Detailed analysis shows that a matte nano-texture surface coating helps minimize light reflection to mask the crease, while microscopy reveals oval-shaped subpixels arranged at various engineering angles.",
-        "The repairability score reached the highest rating compared to previous foldable devices, providing critical insights into mechanical mechanisms and material durability for mobile hardware engineers."
-      ],
-      "originalTitle": "iFixit’s look inside the iPhone Duo may explain those broken screens and hinges",
-      "url": "https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Hardware",
-        "Mobile",
-        "Engineering"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T21:40:27.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/iPhone-Duo-layout01.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "As is tradition, iFixit has torn open the latest iPhone and laid its parts bare on a table. It found some interesting details about how Apple might be hiding the crease on the Duo's folding screen and gave it a 5/10 repairability score. That might not seem particularly high, but it's the best score ",
-      "authorName": "Terrence O’Brien",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f1bdc0fa3bc12975",
-      "title_vi": "Một YouTuber đã mổ xẻ chiếc điện thoại gập iPhone Duo và tìm ra nguyên nhân gây lỗi nứt màn hình",
-      "title_en": "A YouTuber dissected an iPhone Duo and thinks he found the cause of crackgate",
-      "summary_vi": [
-        "Người dùng mạng xã hội đang phản ánh tình trạng lỗi màn hình nghiêm trọng trên dòng điện thoại gập iPhone Duo, khi bản lề phát ra tiếng kêu lạ và gây nứt vỡ màn hình chỉ sau vài giờ sử dụng thực tế.",
-        "Thông qua quá trình thử nghiệm độ bền và mổ xẻ thiết bị, YouTuber CuriousHagi đã phát hiện cơ chế bản lề phức tạp bao gồm các bánh răng trung tâm và hệ thống liên kết không đồng bộ, dẫn đến áp lực vật lý không mong muốn.",
-        "Sự cố này đặt ra bài toán lớn về kỹ thuật cơ khí trong thiết kế thiết bị di động màn hình gập, buộc các kỹ sư phải tối ưu hóa độ bền vật liệu và cấu trúc bản lề để đảm bảo tuổi thọ sản phẩm lâu dài."
-      ],
-      "summary_en": [
-        "Social media users are reporting critical screen failure issues on the iPhone Duo foldable, where the hinge mechanism produces audible cracking sounds and causes the display to shatter after only a few hours of normal usage.",
-        "Through durability testing and teardown analysis, YouTuber CuriousHagi identified a complex hinge architecture consisting of central gears and mismatched linking components, which creates excessive physical stress points that lead to premature screen damage during folding.",
-        "This hardware failure highlights significant mechanical engineering challenges in foldable device design, forcing hardware engineers to rethink material durability and hinge structural integrity to ensure long-term reliability for high-end mobile consumer electronics."
-      ],
-      "originalTitle": "A YouTuber dissected an iPhone Duo and thinks he found the cause of crackgate",
-      "url": "https://www.theverge.com/tech/1018290/dissected-iphone-duo-crackgate-hinge-screen",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "iPhone",
-        "Hardware",
-        "Mobile",
-        "Engineering",
-        "Foldable"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T20:16:19.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/20ruxzn728xh1.jpeg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Social media and the iPhone Duo subreddit are filled with reports of Apple's foldable failing quickly and in spectacular fashion. Some users report having the phone for only a few hours before the hinge seems to catch on something, then audibly crack and break the screen. Tellingly, the cracks all s",
-      "authorName": "Terrence O’Brien",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "bb5ed346c78a288d",
-      "title_vi": "Cách tắt tính năng Reels trên Facebook cho người dùng iPhone và những giới hạn kỹ thuật cần biết",
-      "title_en": "How to Disable Facebook Reels on iPhone and Current Technical Limitations Explained",
-      "summary_vi": [
-        "Bài viết phân tích nhu cầu thực tế của người dùng iPhone trong việc tìm cách vô hiệu hóa tính năng thước phim ngắn trên ứng dụng mạng xã hội Facebook nhằm hạn chế tình trạng lãng phí thời gian.",
-        "Các phương pháp kỹ thuật hiện tại chỉ dừng lại ở mức can thiệp giao diện, thay đổi cài đặt trình duyệt hoặc sử dụng các phím tắt tự động hóa trên hệ điều hành iOS thay vì vô hiệu hóa tận gốc từ mã nguồn ứng dụng.",
-        "Giải pháp này mang lại giá trị thực tiễn giúp người dùng kiểm soát hành vi số tốt hơn, đồng thời phản ánh thách thức trong việc tùy biến trải nghiệm người dùng trên các nền tảng mạng xã hội khép kín hiện nay."
-      ],
-      "summary_en": [
-        "The article analyzes the practical need for iPhone users to find ways to disable short video features on the Facebook social media app to limit productivity loss.",
-        "Current technical methods are limited to interface intervention, browser settings adjustments, or automation shortcuts on iOS rather than completely disabling the feature from the app source code.",
-        "This solution provides practical value in helping users better control digital behavior while reflecting the challenges of customizing user experience on closed social media platforms today."
-      ],
-      "originalTitle": "Có tắt được Reels trên Facebook không? Những gì làm được trên iPhone và giới hạn của từng cách (2026)",
-      "url": "https://viblo.asia/p/co-tat-duoc-reels-tren-facebook-khong-nhung-gi-lam-duoc-tren-iphone-va-gioi-han-cua-tung-cach-2026-37LdeRyMVov",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iOS",
-        "Facebook",
-        "Mobile Apps",
-        "UI Design",
-        "Automation"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T19:15:33.000Z",
-      "contentSnippet": "Mình mở Facebook để xem nhóm lớp có thông báo gì, rồi lướt xuống một chút là gặp thước phim. Xem một cái, vuốt lên cái nữa, vậy là mất nửa tiếng. Mình...",
-      "authorName": "ayumu kitabayashi",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "83e0c745d4c8d595",
-      "title_vi": "So sánh chi tiết định dạng kỹ thuật Function Calling giữa Responses API và Chat Completions",
-      "title_en": "Detailed Technical Comparison of Function Calling Wire Formats Between Responses API and Chat Completions",
-      "summary_vi": [
-        "Bài viết cung cấp một góc nhìn kỹ thuật chuyên sâu về sự khác biệt cốt lõi trong giao thức truyền tải dữ liệu khi sử dụng tính năng gọi hàm giữa hai mô hình lập trình API phổ biến hiện nay.",
-        "Nội dung tập trung phân tích cấu trúc định dạng đường truyền ở cấp độ thấp bao gồm cách thức định nghĩa hàm, mã định danh cuộc gọi và quản lý thông điệp trong các yêu cầu gửi đến hệ thống.",
-        "Đánh giá này mang lại giá trị thực tiễn cao giúp các kỹ sư phần mềm tối ưu hóa kiến trúc tích hợp hệ thống trí tuệ nhân tạo và giảm thiểu lỗi tương thích khi nâng cấp ứng dụng."
-      ],
-      "summary_en": [
-        "The article provides an in-depth technical perspective on core protocol differences in data transmission when utilizing function calling features between two popular modern programming API paradigms.",
-        "The content focuses on analyzing low-level wire format structures including function definitions, call identifiers, and message management within requests sent to the underlying system.",
-        "This evaluation delivers high practical value helping software engineers optimize artificial intelligence system integration architectures and minimize compatibility errors during application upgrades."
-      ],
-      "originalTitle": "Function Calling: So sánh Responses API và Chat Completions",
-      "url": "https://viblo.asia/p/function-calling-so-sanh-responses-api-va-chat-completions-gjLN0ZR8432",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "API",
-        "Function Calling",
-        "Software Engineering",
-        "Wire Format"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T17:58:16.000Z",
-      "contentSnippet": "Bài viết này được dịch và biên tập từ bài gốc tiếng Anh trên blog của Modelflare. So sánh ở mức wire format giữa định nghĩa function, Call ID, messag...",
-      "authorName": "Castaly",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9b74898e1e472cf8",
-      "title_vi": "Greenplum Database Bài học 22: Sử dụng bảng ngoài để truy vấn trực tiếp dữ liệu CSV và văn bản",
-      "title_en": "Greenplum Database Lesson 22: Leveraging External Tables for Direct CSV and Text Data Querying",
-      "summary_vi": [
-        "Bài viết tiếp nối chuỗi hướng dẫn về Greenplum Database, tập trung vào việc tối ưu hóa quy trình xử lý dữ liệu thông qua cơ chế bảng ngoài, giúp người dùng truy vấn trực tiếp các tệp tin CSV hoặc văn bản mà không cần thực hiện thao tác nhập liệu phức tạp.",
-        "Tác giả giải thích chi tiết cách thức vận hành của bảng ngoài, cho phép hệ thống kết nối trực tiếp với nguồn dữ liệu bên ngoài thông qua tiến trình gpfdist, từ đó loại bỏ hoàn toàn nút thắt cổ chai tại Master Node trong quá trình nạp dữ liệu khối lượng lớn.",
-        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư dữ liệu khi cần xử lý các tập dữ liệu khổng lồ, giúp tăng tốc độ truy vấn và cải thiện hiệu suất tổng thể của hệ thống quản trị cơ sở dữ liệu phân tán trong môi trường doanh nghiệp."
-      ],
-      "summary_en": [
-        "This article continues the Greenplum Database tutorial series, focusing on optimizing data processing workflows through external tables, which allow users to query CSV or text files directly without the need for complex and time-consuming data import procedures.",
-        "The author provides a detailed explanation of how external tables function by connecting directly to external data sources via the gpfdist process, effectively eliminating the Master Node bottleneck typically encountered during high-volume data ingestion tasks.",
-        "These technical insights offer significant practical value for data engineers managing massive datasets, enabling faster query execution and enhancing the overall performance of distributed database management systems within complex enterprise-grade production environments."
-      ],
-      "originalTitle": "Greenplum Database Bài học 22: External Tables (Readable & Writable): Truy vấn trực tiếp file CSV/Text bên ngoài mà không cần Import",
-      "url": "https://viblo.asia/p/greenplum-database-bai-hoc-22-external-tables-readable-writable-truy-van-truc-tiep-file-csvtext-ben-ngoai-ma-khong-can-import-OXLA0W2kJGr",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Greenplum",
-        "Database",
-        "Data Engineering",
-        "SQL",
-        "Big Data"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-25T16:47:31.000Z",
-      "contentSnippet": "Ở Bài học 21, chúng ta đã làm quen với tiến trình gpfdist nhằm phá vỡ nút thắt cổ chai của Master Node khi nạp dữ liệu. Tuy nhiên, công cụ kết nối đắc...",
-      "authorName": "Nguyen Hoang",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8fa1a137536162a8",
-      "title_vi": "Greenplum Database Bài học 21: Kiến trúc gpfdist giúp tối ưu hóa nạp dữ liệu song song",
-      "title_en": "Greenplum Database Lesson 21: Optimizing Data Loading with gpfdist Parallel Architecture",
-      "summary_vi": [
-        "Bài viết phân tích hạn chế của lệnh COPY truyền thống trong Greenplum khi dữ liệu phải đi qua Master node, gây ra tình trạng nghẽn cổ chai nghiêm trọng làm giảm hiệu suất hệ thống trong các tác vụ nạp dữ liệu lớn.",
-        "Giải pháp gpfdist được giới thiệu như một kiến trúc phân tán cho phép nạp dữ liệu trực tiếp vào các Segment, giúp tận dụng tối đa băng thông mạng và khả năng xử lý song song của toàn bộ cụm máy chủ cơ sở dữ liệu.",
-        "Kiến thức này cung cấp cho kỹ sư dữ liệu phương pháp tối ưu hóa quy trình ETL, giúp rút ngắn thời gian xử lý và nâng cao khả năng mở rộng cho các hệ thống phân tích dữ liệu lớn trong môi trường doanh nghiệp."
-      ],
-      "summary_en": [
-        "The article analyzes the limitations of the traditional COPY command in Greenplum where data must pass through the Master node, causing a severe bottleneck that significantly degrades system performance during large-scale data ingestion tasks.",
-        "The gpfdist utility is introduced as a distributed architecture that enables direct data loading into Segments, effectively leveraging network bandwidth and the parallel processing capabilities of the entire database cluster for improved throughput.",
-        "This technical insight provides data engineers with a robust method to optimize ETL pipelines, significantly reducing processing time and enhancing the scalability of large-scale data analytics systems within enterprise production environments."
-      ],
-      "originalTitle": "Greenplum Database Bài học 21: Kiến trúc gpfdist: Phá vỡ nút thắt cổ chai ở Master bằng cách nạp song song trực tiếp vào các Segment",
-      "url": "https://viblo.asia/p/greenplum-database-bai-hoc-21-kien-truc-gpfdist-pha-vo-nut-that-co-chai-o-master-bang-cach-nap-song-song-truc-tiep-vao-cac-segment-kNLr3elWVgA",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Greenplum",
-        "Database",
-        "ETL",
-        "BigData",
-        "Architecture"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-25T16:47:24.000Z",
-      "contentSnippet": "Ở Bài học 20, chúng ta đã thấy lệnh COPY truyền thống giúp nạp dữ liệu nhanh hơn INSERT rất nhiều, nhưng lại mắc phải một \"tử huyệt\" chí mạng: Toàn b...",
-      "authorName": "Nguyen Hoang",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9a00494f60d67444",
-      "title_vi": "Greenplum Database Bài học 20: Lệnh COPY và cơ chế nạp dữ liệu qua Master Node",
-      "title_en": "Greenplum Database Lesson 20: The COPY Command and Data Loading Mechanisms Through the Master Node",
-      "summary_vi": [
-        "Bài viết phân tích chi tiết cơ chế hoạt động của lệnh COPY trong cơ sở dữ liệu phân tán Greenplum khi thực hiện quá trình nạp dữ liệu thông qua Master Node thay vì các Segment Node.",
-        "Tài liệu chỉ ra những giới hạn về tài nguyên và hiện tượng nghẽn mạng nghiêm trọng khi Master Node phải xử lý lượng lớn dữ liệu đổ vào đồng thời từ nhiều nguồn khác nhau.",
-        "Kiến thức này giúp các kỹ sư dữ liệu tối ưu hóa hiệu năng hệ thống, tránh các điểm nghẽn cổ chai và xây dựng quy trình ETL hiệu quả trong môi trường Big Data."
-      ],
-      "summary_en": [
-        "This article provides a detailed analysis of the COPY command mechanism in Greenplum distributed databases when data is loaded through the Master Node instead of Segment Nodes.",
-        "The document highlights resource limitations and severe network bottlenecks occurring when the Master Node handles massive concurrent data inflows from various external sources.",
-        "Such insights help data engineers optimize system performance, prevent critical bottlenecks, and build robust ETL pipelines within large-scale enterprise big data environments."
-      ],
-      "originalTitle": "Greenplum Database Bài học 20: Lệnh COPY trong Greenplum: Cơ chế hoạt động và giới hạn của việc nạp dữ liệu qua Master",
-      "url": "https://viblo.asia/p/greenplum-database-bai-hoc-20-lenh-copy-trong-greenplum-co-che-hoat-dong-va-gioi-han-cua-viec-nap-du-lieu-qua-master-pPLkNQWyJRZ",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Greenplum",
-        "Database",
-        "Big Data",
-        "ETL",
-        "Performance"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-25T16:47:15.000Z",
-      "contentSnippet": "Ở Bài học 19, chúng ta đã chỉ ra rằng việc sử dụng các câu lệnh INSERT INTO đơn lẻ là \"cẻ thù\" làm kiệt quệ tài nguyên của Master Node và làm nghẽn mạ...",
-      "authorName": "Nguyen Hoang",
       "upvotes": 0,
       "commentsCount": 0
     }
