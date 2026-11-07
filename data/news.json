@@ -1,7 +1,354 @@
 {
-  "lastUpdated": "2026-11-07T03:52:43.229Z",
+  "lastUpdated": "2026-11-07T12:10:53.068Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "0d8d5ea9a3baaa8d",
+      "title_vi": "Phát sóng trong Laravel: Tự vận hành Reverb hay sử dụng dịch vụ WebSocket được quản lý sẵn?",
+      "title_en": "Laravel Broadcasting: Self-hosting Reverb or Using Managed WebSocket Services?",
+      "summary_vi": [
+        "Bài viết phân tích bài toán lựa chọn giữa việc tự triển khai máy chủ WebSocket Reverb nội bộ hay sử dụng các dịch vụ dịch vụ lưu trữ sẵn tương thích giao thức Pusher cho ứng dụng Laravel.",
+        "Đội ngũ phát triển Hibira chia sẻ kinh nghiệm vận hành thực tế, so sánh chi phí hạ tầng, độ phức tạp khi cấu hình cũng như khả năng mở rộng hệ thống thời gian thực trong môi trường sản xuất.",
+        "Quyết định này giúp các kiến trúc sư phần mềm và lập trình viên tối ưu hóa hiệu năng ứng dụng, cân đối ngân sách và lựa chọn mô hình hạ tầng phù hợp nhất với quy mô dự án hiện tại."
+      ],
+      "summary_en": [
+        "The article analyzes the architectural dilemma between self-hosting the Reverb WebSocket server internally or utilizing managed services compatible with the Pusher protocol for Laravel applications.",
+        "The Hibira development team shares practical operational experiences, comparing infrastructure costs, configuration complexity, and real-time system scalability within production environments.",
+        "This decision helps software architects and developers optimize application performance, balance budgets, and choose the most suitable infrastructure model aligned with their project scale."
+      ],
+      "originalTitle": "Laravel Broadcasting: tự chạy Reverb hay dùng dịch vụ WebSocket lưu trữ sẵn?",
+      "url": "https://viblo.asia/p/laravel-broadcasting-tu-chay-reverb-hay-dung-dich-vu-websocket-luu-tru-san-pPLkNQmnJRZ",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Laravel",
+        "WebSocket",
+        "Reverb",
+        "DevOps",
+        "Backend"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T18:23:50.000Z",
+      "contentSnippet": "Bài này được viết lại từ bài trên blog Hibira. Bài viết của đội ngũ phát triển và vận hành Hibira, một dịch vụ WebSocket tương thích giao thức Pusher....",
+      "authorName": "Hibira",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b6701e276d52e443",
+      "title_vi": "Cách ứng dụng trí tuệ nhân tạo để tìm kiếm bằng chứng khoa học trước khi viết khóa luận",
+      "title_en": "How to Use Artificial Intelligence to Find Scientific Evidence Before Writing a Thesis",
+      "summary_vi": [
+        "Hiện tượng sinh viên sử dụng câu trích dẫn chung chung mà chưa từng kiểm chứng các nghiên cứu gốc đang trở nên phổ biến trong nhiều bài luận văn và khóa luận đại học hiện nay.",
+        "Trí tuệ nhân tạo cung cấp các giải pháp tìm kiếm thông minh và phân tích ngữ semantic giúp học viên nhanh chóng truy xuất các tài liệu học thuật chính thống có độ tin cậy cao.",
+        "Ứng dụng công nghệ này vào quy trình nghiên cứu giúp tiết kiệm đáng kể thời gian tổng hợp tài liệu và nâng cao chất lượng học thuật cho các công trình khoa học trẻ."
+      ],
+      "summary_en": [
+        "The phenomenon of students using generic citation phrases without ever verifying the original research is becoming increasingly common in many university theses and dissertations today.",
+        "Artificial intelligence provides intelligent search solutions and semantic analysis to help researchers quickly retrieve authoritative academic documents with high reliability.",
+        "Applying this technology to the research workflow significantly saves time in literature synthesis and enhances the overall academic quality of early-stage scientific projects."
+      ],
+      "originalTitle": "Cách dùng AI tìm bằng chứng khoa học trước khi viết khóa luận",
+      "url": "https://tuoitre.vn/cach-dung-ai-tim-bang-chung-khoa-hoc-truoc-khi-viet-khoa-luan-100261107145906296.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Academic Research",
+        "Machine Learning",
+        "Natural Language Processing",
+        "Productivity"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T16:06:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/7/file2028129-1794037730909430296166-18-0-1268-2000-crop-17940380639211962737340.jpg",
+      "contentSnippet": "Câu 'nhiều nghiên cứu đã chứng minh' xuất hiện rất thường xuyên trong khóa luận, luận văn, thậm chí trong bài báo đại chúng. Không ít trường hợp người viết chưa từng thấy các nghiên cứu ấy.",
+      "authorName": "TRỌNG NHÂN",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "dc52eabffb353109",
+      "title_vi": "Tự xây dựng phòng thí nghiệm ảo trên máy chủ ảo Ubuntu để tự lưu trữ và khám phá công nghệ",
+      "title_en": "Building a Personal Homelab on Ubuntu VPS for Self-Hosting and Tech Exploration",
+      "summary_vi": [
+        "Bài viết chia sẻ hành trình tác giả tự thiết lập một hệ thống phòng thí nghiệm cá nhân chạy trên máy chủ ảo Ubuntu thay vì sử dụng hạ tầng sản xuất thực tế.",
+        "Mô hình này giúp người dùng thử nghiệm các dịch vụ mã nguồn mở, cấu hình mạng và quản lý container Docker một cách linh hoạt và an toàn.",
+        "Đây là phương pháp hiệu quả để các kỹ sư công nghệ rèn luyện kỹ năng quản trị hệ thống và tìm hiểu sâu hơn về công nghệ lưu trữ dữ liệu."
+      ],
+      "summary_en": [
+        "The article shares the author journey of setting up a personal laboratory system running on an Ubuntu virtual private server instead of using production infrastructure.",
+        "This model helps users experiment with open-source services, network configurations, and Docker container management in a flexible and secure manner.",
+        "This is an effective approach for technology engineers to practice system administration skills and gain deeper insights into data storage technologies."
+      ],
+      "originalTitle": "Tự xây dựng Homelab trên Ubuntu VPS – Góc nhỏ để self-host và khám phá công nghệ",
+      "url": "https://viblo.asia/p/tu-xay-dung-homelab-tren-ubuntu-vps-goc-nho-de-self-host-va-kham-pha-cong-nghe-AY4qQO0r4Pw",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "Homelab",
+        "Ubuntu",
+        "VPS",
+        "Docker",
+        "Self-hosting"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T12:43:57.000Z",
+      "contentSnippet": "Dạo gần đây mình bắt đầu dành thời gian xây dựng một Homelab trên VPS cá nhân. Không phải để chạy một hệ thống production hay xây dựng một infrastruc...",
+      "authorName": "Hưng Phạm",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "289b56c88ebd7d20",
+      "title_vi": "Tập trung hóa cấu hình trí tuệ nhân tạo và mã nguồn thông minh với công cụ Rulesync và Git",
+      "title_en": "Centralizing AI Agent Configuration and Management with Rulesync and Git",
+      "summary_vi": [
+        "Sự phát triển bùng nổ của các trợ lý lập trình thông minh đang đặt ra thách thức lớn trong việc quản lý cấu hình phân mảnh và đồng bộ hóa các quy tắc làm việc trên nhiều môi trường khác nhau.",
+        "Bài viết đề xuất giải pháp sử dụng một kho lưu trữ Git duy nhất kết hợp với công cụ chuyên dụng để tập trung hóa toàn bộ kỹ năng, móc nối, giao thức ngữ cảnh và quy tắc vận hành.",
+        "Phương pháp này giúp các kỹ sư phần mềm tối ưu hóa quy trình làm việc, giảm thiểu sai sót thủ công và nâng cao hiệu suất đáng kể khi phát triển ứng dụng tích hợp trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "The rapid growth of AI coding assistants introduces significant challenges in managing fragmented configurations and synchronizing development rules across multiple different working environments.",
+        "The article proposes a solution using a single centralized Git repository combined with specialized tools to manage all skills, hooks, Model Context Protocol, and operational rules uniformly.",
+        "This methodology helps software engineers optimize workflows, minimize manual configuration errors, and significantly improve productivity when developing applications integrated with artificial intelligence."
+      ],
+      "originalTitle": "Đừng quản lý cấu hình AI Agent một cách thủ công nữa: Tập trung hóa với Rulesync và Git",
+      "url": "https://viblo.asia/p/dung-quan-ly-cau-hinh-ai-agent-mot-cach-thu-cong-nua-tap-trung-hoa-voi-rulesync-va-git-bNVQGpn0JvR",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI Agent",
+        "Git",
+        "Software Engineering",
+        "DevOps",
+        "Configuration Management"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T12:30:32.000Z",
+      "contentSnippet": "Một repository duy nhất để quản lý Skills, Hooks, MCP, Rules và toàn bộ cấu hình AI Agent. 1. Vấn đề khi sử dụng nhiều AI Agent AI Coding Agent đang...",
+      "authorName": "Hưng Phạm",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a8d5c00ab24d8551",
+      "title_vi": "Ngân hàng khuyến cáo khách hàng không chụp ảnh màn hình chứa thông tin nhạy cảm",
+      "title_en": "Banks advise customers against capturing sensitive information in screenshots",
+      "summary_vi": [
+        "Các ngân hàng lớn tại Việt Nam đồng loạt phát cảnh báo khẩn cấp về biến thể mã độc DarkSword tấn công dòng thiết bị iPhone chạy hệ điều hành iOS thông qua các trang web độc hại.",
+        "Mã độc này khai thác lỗ hổng trình duyệt Safari để xâm nhập thiết bị, âm thầm đánh cắp dữ liệu từ chuỗi khóa, ứng dụng ghi chú, tệp hình ảnh và thông tin ví tiền mã hóa của nạn nhân.",
+        "Chuyên gia bảo mật khuyến nghị người dùng tuyệt đối không lưu trữ thông tin xác thực dưới dạng ảnh chụp màn hình, đồng thời cần cập nhật hệ điều hành iOS lên phiên bản mới nhất ngay lập tức."
+      ],
+      "summary_en": [
+        "Major Vietnamese banks have issued urgent warnings regarding the DarkSword malware variant targeting iOS devices by exploiting vulnerabilities through compromised web pages in Safari.",
+        "The malicious software leverages browser flaws to infiltrate devices, silently harvesting credentials from keychains, note applications, image storage, and cryptocurrency wallets of the victims.",
+        "Security experts strongly advise users to avoid storing authentication data in screenshots and to update their operating system to the latest iOS version immediately to mitigate risks."
+      ],
+      "originalTitle": "Ngân hàng khuyến cáo khách hàng không chụp ảnh màn hình có thông tin sau",
+      "url": "https://genk.vn/ngan-hang-khuyen-cao-khach-hang-khong-chup-anh-man-hinh-co-thong-tin-sau-165261107184337348.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "iOS",
+        "Malware",
+        "Mobile Security",
+        "Banking"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T11:43:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/7/avatar1794051787761-17940517880931628359889.jpg",
+      "contentSnippet": "Sau khi vào được máy, DarkSword âm thầm lấy mật khẩu và thông tin xác thực lưu trong chuỗi khóa của iPhone, nội dung trong Ghi chú và Ảnh,...",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6942b47ffd7f3ea0",
+      "title_vi": "Trí tuệ nhân tạo Trái Đất tìm kiếm tín hiệu thông minh ngoài hành tinh",
+      "title_en": "Earth's Artificial Intelligence Hunts for Extraterrestrial Tech Signatures",
+      "summary_vi": [
+        "Tập đoàn công nghệ NVIDIA đã chính thức hợp tác cùng các nhà thiên văn học hàng đầu thế giới nhằm ứng dụng công nghệ trí tuệ nhân tạo tiên tiến vào việc quét và phân tích tín hiệu vô tuyến từ vũ trụ.",
+        "Hệ thống học máy xử lý khối lượng dữ liệu khổng lồ từ các kính viễn vọng vô tuyến, dựa trên giả thuyết rằng các nền văn minh tiên tiến ngoài không gian cũng đang vận hành các thuật toán tự động hóa thông minh.",
+        "Sáng kiến này không chỉ mở ra hướng đi mới trong việc giải mã các bí ẩn vũ trụ mà còn đẩy mạnh giới hạn xử lý dữ liệu lớn và thuật toán mạng thần kinh sâu trong ngành kỹ thuật phần mềm."
+      ],
+      "summary_en": [
+        "Technology giant NVIDIA has officially partnered with world-leading astronomers to apply advanced artificial intelligence technology for scanning and analyzing deep space radio signals.",
+        "The machine learning system processes massive volumes of data from radio telescopes, operating under the hypothesis that advanced extraterrestrial civilizations are also running intelligent automation algorithms.",
+        "This initiative not only opens new avenues in decoding cosmic mysteries but also pushes the boundaries of big data processing and deep neural network algorithms in software engineering."
+      ],
+      "originalTitle": "AI Trái Đất tìm kiếm AI ngoài hành tinh",
+      "url": "https://genk.vn/ai-trai-dat-tim-kiem-ai-ngoai-hanh-tinh-165261107172436889.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "NVIDIA",
+        "Big Data",
+        "Astronomy"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T11:14:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/7/avatar1794047030562-1794047030847657270565.jpg",
+      "contentSnippet": "NVIDIA hợp tác với các nhà thiên văn sử dụng AI để tìm kiếm tín hiệu từ nền văn minh ngoài Trái Đất, với giả thuyết những nền văn minh này cũng có thể sở hữu AI.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "909bafc401c13f9d",
+      "title_vi": "Hãng thông tấn Trung Quốc ra mắt robot hình người dẫn chương trình tin tức tích hợp trí tuệ nhân tạo",
+      "title_en": "Chinese News Agency Unveils Humanoid AI News Anchors",
+      "summary_vi": [
+        "Tại Hội nghị Thượng đỉnh Truyền thông Thế giới lần thứ 7 ở Bắc Kinh, hãng thông tấn Tân Hoa Xã đã chính thức giới thiệu hai robot hình người có khả năng dẫn chương trình tin tức với ngoại hình và cử chỉ mô phỏng chân thực.",
+        "Hệ thống robot này được tối ưu hóa thông qua sự kết hợp giữa kỹ thuật thẩm mỹ điện ảnh và công nghệ AI tiên tiến, cho phép thiết bị thực hiện các tương tác giao tiếp tự nhiên và đọc bản tin trực tiếp trước khán giả.",
+        "Sự kiện này đánh dấu bước tiến mới trong việc ứng dụng robot hình người vào lĩnh vực truyền thông, mở ra tiềm năng thay đổi cách thức vận hành của các đài truyền hình và quy trình sản xuất nội dung số tự động hóa."
+      ],
+      "summary_en": [
+        "At the 7th World Media Summit in Beijing, Xinhua News Agency officially introduced two humanoid robots capable of presenting news with realistic appearances and gestures that closely mimic human news anchors.",
+        "The robotic system is optimized through a combination of cinematic aesthetic engineering and advanced AI technology, enabling the devices to perform natural communication interactions and deliver live news broadcasts to audiences.",
+        "This event marks a significant milestone in the integration of humanoid robotics into the media industry, potentially transforming broadcasting operations and the future of automated digital content production workflows."
+      ],
+      "originalTitle": "Robot hình người dẫn chương trình tin tức đầu tiên trên thế giới",
+      "url": "https://vnexpress.net/robot-hinh-nguoi-dan-chuong-trinh-tin-tuc-dau-tien-tren-the-gioi-5141850.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Humanoid Robot",
+        "Automation",
+        "Computer Vision",
+        "Media Tech"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T11:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/07/81d749c70cb740caa00363babb2ea9-7595-3435-1794024958.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Upe1QKDRStg8Xub2qKQMwg",
+      "contentSnippet": "Hãng thông tấn Trung Quốc Xinhua ra mắt hai robot AI có ngoại hình và năng lực gần giống người dẫn chương trình tin tức.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "df513e26a3beec45",
+      "title_vi": "Trí tuệ nhân tạo Trung Quốc đã thực sự bắt kịp Mỹ hay chưa?",
+      "title_en": "Have Chinese Artificial Intelligence Models Really Caught Up with the US?",
+      "summary_vi": [
+        "Các hãng công nghệ hàng đầu tại Trung Quốc liên tục ra mắt các mô hình trí tuệ nhân tạo mới như Kimi K3.1 Pro, Baidu ERNIE 5.5 Flash và Tencent Hy4 nhằm cạnh tranh trực tiếp với các đối thủ lớn từ Mỹ.",
+        "Tuy nhiên, cộng đồng công nghệ nhận định rằng các điểm số đánh giá hiệu năng của những mô hình này phần lớn vẫn do chính các công ty tự công bố và chưa có sự kiểm chứng độc lập khách quan.",
+        "Sự phát triển mạnh mẽ của hệ sinh thái mô hình ngôn ngữ lớn tại châu Á đặt ra thách thức lớn về tiêu chuẩn đo lường và đánh giá năng lực thực tế trong cuộc đua trí tuệ nhân tạo toàn cầu."
+      ],
+      "summary_en": [
+        "Leading technology companies in China continuously launch new artificial intelligence models such as Kimi K3.1 Pro, Baidu ERNIE 5.5 Flash, and Tencent Hy4 to directly compete with major US rivals.",
+        "However, the tech community points out that the performance benchmark scores of these models are largely self-reported by the companies themselves without independent objective verification.",
+        "The rapid growth of the large language model ecosystem in Asia poses significant challenges regarding standardization and the accurate measurement of practical capabilities in the global AI race."
+      ],
+      "originalTitle": "AI mở Trung Quốc đã đuổi kịp Mỹ chưa?",
+      "url": "https://genk.vn/ai-mo-trung-quoc-da-duoi-kip-my-chua-165261107173759507.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "LLM",
+        "Machine Learning",
+        "Baidu",
+        "Tencent"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T10:46:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/7/image20261107173640-0-0-750-1200-crop-17940478277861193383153.png",
+      "contentSnippet": "Kimi cho mọi người tải về mô hình Kimi K3.1 Pro, Baidu mở bản nền ERNIE 5.5 Flash và Tencent công bố Hy4, nhưng điểm số của các mô hình này phần lớn do chính hãng tự công bố.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "359ac4667a9a6f0f",
+      "title_vi": "Tất cả người dùng iPhone chú ý cảnh báo khẩn cấp về phần mềm gián điệp từ Apple",
+      "title_en": "Apple Issues Urgent Mercenary Spyware Threat Notifications to iPhone Users Across 99 Countries",
+      "summary_vi": [
+        "Từ cuối tháng mười năm hai nghìn không trăm hai mươi sáu, Apple đã bắt đầu gửi các thông báo mối đe dọa quan trọng tới người dùng iPhone tại chín mươi chín quốc gia.",
+        "Cảnh báo này nhắm đến các cá nhân có nguy cơ cao trở thành mục tiêu của phần mềm gián điệp đánh thuê tinh vi có chi phí phát triển lên tới hàng triệu đô la Mỹ.",
+        "Hãng khuyến cáo người dùng cần xem xét nghiêm túc, tìm kiếm sự hỗ trợ từ chuyên gia bảo mật và chủ động kích hoạt chế độ phong tỏa để tự bảo vệ thiết bị."
+      ],
+      "summary_en": [
+        "Starting late October 2026, Apple has initiated a new wave of threat notifications targeting iPhone users across ninety-nine countries worldwide regarding potential compromises.",
+        "The alerts specifically warn individuals who may have been individually targeted by sophisticated mercenary spyware tools costing millions of dollars to deploy against devices.",
+        "Users are strongly advised to take these high-confidence warnings seriously, consult cybersecurity experts immediately, and enable Lockdown Mode to mitigate advanced surveillance risks."
+      ],
+      "originalTitle": "Tất cả người dùng iPhone chú ý cảnh báo khẩn từ Apple",
+      "url": "https://genk.vn/tat-ca-nguoi-dung-iphone-chu-y-canh-bao-khan-tu-apple-165261107171521595.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "Cybersecurity",
+        "Spyware",
+        "LockdownMode"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T10:45:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/7/avatar1794046490611-1794046491000970792144.jpg",
+      "contentSnippet": "Theo cảnh báo mới nhất từ Apple tới người dùng iPhone tại 99 quốc gia, tin tặc có thể không cần nạn nhân bấm vào bất cứ thứ gì.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a6bf96f24e45b50c",
+      "title_vi": "Mã độc mới NetamLoader nhắm vào hệ thống Windows của cơ quan chính phủ",
+      "title_en": "New NetamLoader Malware Targets Government Windows Systems in Asia",
+      "summary_vi": [
+        "Nhóm nghiên cứu Kaspersky GReAT vừa phát hiện chiến dịch tấn công sử dụng mã độc mới mang tên NetamLoader trong nửa đầu năm 2026, nhắm mục tiêu trực tiếp vào các cơ quan chính phủ tại khu vực châu Á.",
+        "Mã độc này ngụy trang tinh vi bên trong tệp lưu trữ CAB tại thư mục hệ thống Windows, đồng thời lợi dụng các thành phần phần mềm hợp pháp từ công cụ Patch My PC để làm bàn đạp phát tán.",
+        "Sự việc gióng lên hồi chuông cảnh báo về các cuộc tấn công chuỗi cung ứng phần mềm tinh vi, yêu cầu các tổ chức chính phủ phải siết chặt quy trình kiểm soát bản vá và giám sát chặt chẽ hệ thống."
+      ],
+      "summary_en": [
+        "Kaspersky GReAT researchers recently discovered a new malware campaign dubbed NetamLoader during the first half of 2026, specifically targeting government agencies across the Asian region.",
+        "The malware cleverly disguises itself within a CAB archive file inside the Windows system directory, leveraging legitimate software components from the Patch My PC tool as a launchpad for deployment.",
+        "This incident serves as a serious warning regarding sophisticated software supply chain attacks, requiring government organizations to tighten patch control processes and closely monitor system integrity."
+      ],
+      "originalTitle": "Mã độc mới nhắm vào hệ thống Windows của cơ quan chính phủ tại châu Á",
+      "url": "https://genk.vn/ma-doc-moi-nham-vao-he-thong-windows-cua-co-quan-chinh-phu-tai-chau-a-16526110717140312.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Malware",
+        "Windows",
+        "Supply Chain Attack",
+        "Kaspersky"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T10:13:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/7/avatar1794046413400-17940464137981974606382.jpg",
+      "contentSnippet": "Kaspersky vừa công bố phát hiện mã độc lợi dụng phần mềm hợp pháp để tấn công phiên bản Windows 10 chuyên dụng của một cơ quan chính phủ tại châu Á.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "9de39228454832f8",
       "title_vi": "Trí tuệ nhân tạo Claude giúp máy tính lượng tử tối ưu hóa hàng triệu cổng tính toán",
@@ -33,6 +380,40 @@
       "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/6/claude-17939727984101631307005-0-22-590-966-crop-1793973531547822558408.png",
       "contentSnippet": "Thay vì phải lưu mọi kết quả trung gian, Claude tìm cách khôi phục chúng, giúp giảm khoảng 17 lần số cổng tính toán trong mạch lượng tử.",
       "authorName": "NGUYỄN NHẬT MINH(chuyên gia)",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ba3507ef65235706",
+      "title_vi": "Thung lũng Silicon chạy theo thuật ngữ siêu trí tuệ AI mới của ông Trump",
+      "title_en": "Silicon Valley Adopts President Trump's New Superintelligence AI Terminology",
+      "summary_vi": [
+        "Tổng thống Mỹ Donald Trump tuyên chiến với thuật ngữ trí tuệ nhân tạo truyền thống và định hướng chuyển sang sử dụng khái niệm siêu trí tuệ.",
+        "Sự thay đổi về mặt danh pháp này buộc các công ty công nghệ tại Thung lũng Silicon phải điều chỉnh chiến lược truyền thông và định vị sản phẩm.",
+        "Giới chuyên gia công nghệ đánh giá việc đổi mới thuật ngữ có thể ảnh hưởng đến cách các nhà lập pháp xây dựng tiêu chuẩn quản lý AI."
+      ],
+      "summary_en": [
+        "US President Donald Trump declared war on traditional artificial intelligence terminology and wants to shift toward using superintelligence.",
+        "This nomenclature shift forces technology companies in Silicon Valley to adjust their communication strategies and product positioning.",
+        "Technology experts evaluate that changing terminology could impact how lawmakers construct regulatory standards for artificial intelligence."
+      ],
+      "originalTitle": "Thung lũng Silicon 'chạy theo' thuật ngữ AI mới của ông Trump",
+      "url": "https://vnexpress.net/thung-lung-silicon-chay-theo-thuat-ngu-ai-moi-cua-ong-trump-5141255.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Superintelligence",
+        "Silicon Valley",
+        "Tech Policy"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T04:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/05/AP26306708223465-3305-1793877111.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ycDyM0Wya0Vzbkju8-k1Gw",
+      "contentSnippet": "Tổng thống Mỹ Donald Trump tuyên chiến với thuật ngữ \"trí tuệ nhân tạo\" và muốn chuyển sang sử dụng \"siêu trí tuệ\", khiến Thung lũng Silicon phải thay đổi theo.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -659,6 +1040,40 @@
       "commentsCount": 0
     },
     {
+      "id": "e4dfa6e1c1469411",
+      "title_vi": "Cách AI phân tích tài chính cá nhân từ sổ kép lịch sử đến giao diện lập trình ứng dụng ngân hàng Plaid",
+      "title_en": "How AI Analyzes Personal Finance From Historical Double-Entry Bookkeeping to Plaid Banking APIs",
+      "summary_vi": [
+        "Bài viết phân tích bài toán quản lý tài chính cá nhân khi người dùng phải đối mặt với sự phân mảnh dữ liệu giữa nhiều ứng dụng ngân hàng và ví điện tử khác nhau.",
+        "Giải pháp công nghệ được đề xuất xoay quanh việc kết hợp mô hình ngôn ngữ lớn Claude với hệ thống giao diện lập trình ứng dụng tài chính như Plaid để tự động tổng hợp và phân loại giao dịch.",
+        "Ứng dụng thực tế này giúp tối ưu hóa quy trình theo dõi dòng tiền cá nhân, mang lại góc nhìn kiến trúc hiện đại trong việc ứng dụng trí tuệ nhân tạo vào lĩnh vực công nghệ tài chính."
+      ],
+      "summary_en": [
+        "The article analyzes personal finance management challenges when users face data fragmentation across multiple banking applications and various digital wallets.",
+        "The proposed technological solution revolves around combining the Claude large language model with financial application programming interfaces like Plaid to automatically aggregate and categorize transactions.",
+        "This practical application helps optimize personal cash flow tracking workflows, providing a modern architectural perspective on integrating artificial intelligence into the financial technology sector."
+      ],
+      "originalTitle": "Claude nhìn sổ tiền của anh em: từ sổ kép Pacioli 1494 đến AI nối ngân hàng qua Plaid",
+      "url": "https://tinhte.vn/thread/claude-nhin-so-tien-cua-anh-em-tu-so-kep-pacioli-1494-den-ai-noi-ngan-hang-qua-plaid.4190278/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "FinTech",
+        "API",
+        "Claude",
+        "Plaid"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-06T06:21:49.000Z",
+      "contentSnippet": "Cuối tháng, còn mười ngày nữa mới tới lương, mà trong đầu chỉ có một câu hỏi rất đời thường: tiền đi đâu hết rồi? Anh em mở app ngân hàng này, thẻ kia, ví điện tử nọ, rồi cố cộng trừ trong đầu....",
+      "authorName": "Quocxi",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "142f734e4b1d21b0",
       "title_vi": "So sánh chất lượng hoàn thiện phần cứng giữa các dòng điện thoại thông minh cao cấp",
       "title_en": "Hardware Build Quality Comparison Across Flagship Smartphones",
@@ -828,6 +1243,40 @@
       "publishedAt": "2026-11-06T01:30:56.000Z",
       "contentSnippet": "Nhiều người khi thấy AI làm sai, phản xạ chung là đổi sang model mạnh hơn, hoặc viết prompt dài hơn, chi tiết hơn. Nhưng thực tế, cùng một model đó, nếu bạn thay đổi cách giao việc, cách kiểm tra...",
       "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0f0a4ac6a66bf682",
+      "title_vi": "Hệ thống trí tuệ nhân tạo chuyên dụng phát hiện lỗ hổng bảo mật an toàn với cơ chế dừng tự động",
+      "title_en": "OpenAI Introduces Specialized Security AI Model for Safe Vulnerability Detection and Controlled Execution",
+      "summary_vi": [
+        "OpenAI chính thức giới thiệu mô hình trí tuệ nhân tạo mới chuyên dụng cho việc tìm kiếm và kiểm chứng các lỗ hổng bảo mật trong hệ thống phần mềm.",
+        "Công cụ này vận hành dựa trên các cơ chế kiểm soát nghiêm ngặt giúp khoanh vùng phạm vi nghiên cứu, ngăn chặn việc vượt quá quyền hạn và tự động dừng lại khi cần thiết.",
+        "Bước tiến này đánh dấu cột mốc quan trọng trong việc ứng dụng tự động hóa vào an ninh mạng, hỗ trợ các kỹ sư giảm thiểu rủi ro từ các mối đe dọa phức tạp."
+      ],
+      "summary_en": [
+        "OpenAI officially introduced a specialized artificial intelligence model designed specifically for discovering and verifying security vulnerabilities within software systems.",
+        "This tool operates under strict control mechanisms that confine research boundaries, prevent privilege escalation, and automatically halt operations when necessary.",
+        "This milestone marks a significant step forward in applying automation to cybersecurity, helping engineers mitigate risks originating from complex digital threats."
+      ],
+      "originalTitle": "GPT-6 Cyber săn lỗ hổng mà không vượt rào: từ sâu Morris 1988 đến agent biết dừng",
+      "url": "https://tinhte.vn/thread/gpt-6-cyber-san-lo-hong-ma-khong-vuot-rao-tu-sau-morris-1988-den-agent-biet-dung.4190158/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "AI",
+        "Cybersecurity",
+        "Vulnerability",
+        "OpenAI",
+        "Security"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-06T01:16:30.000Z",
+      "contentSnippet": "Ngày 5/11/2026 (giờ Mỹ), tức sáng nay 6/11 giờ Việt Nam, OpenAI giới thiệu GPT-6 Cyber: một mô hình chuyên tìm và kiểm chứng lỗ hổng bảo mật, nhưng chỉ trong phạm vi nhà nghiên cứu đã đặt ra....",
+      "authorName": "Quocxi",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -1447,6 +1896,40 @@
       "publishedAt": "2026-11-05T10:32:06.000Z",
       "contentSnippet": "Hướng dẫn thực hành: cấu hình HTTP/SOCKS5 proxy, kiểm tra IP và vị trí đầu ra, xử lý retry/timeout, và dùng proxy một cách có trách nhiệm. Công khai:...",
       "authorName": "李强强",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "230e29a807bc064e",
+      "title_vi": "OpenAI phát hành Images 2.6: tăng tốc độ tạo ảnh năm mươi phần trăm, hỗ trợ ảnh động GIF và xuất tệp SVG",
+      "title_en": "OpenAI Launches Images 2.6: Fifty Percent Faster Generation with GIF and SVG Export Support",
+      "summary_vi": [
+        "Công ty trí tuệ nhân tạo OpenAI vừa chính thức phát hành phiên bản mô hình Images 2.6, tích hợp trực tiếp vào các nền tảng bao gồm ChatGPT, Codex và hệ thống lập trình giao diện lập trình ứng dụng API dành cho nhà phát triển.",
+        "Bản cập nhật quan trọng này mang lại bước đột phá lớn khi tăng tốc độ tạo ảnh nhanh hơn năm mươi phần trăm so với thế hệ tiền nhiệm, đồng thời bổ sung tính năng tạo ảnh động GIF và duy trì độ đồng nhất hình ảnh cao qua nhiều lần chỉnh sửa.",
+        "Sự cải tiến này giúp cộng đồng kỹ sư phần mềm và nhà phát triển tối ưu hóa thời gian xử lý đồ họa, nâng cao chất lượng sản phẩm ứng dụng tích hợp trí tuệ nhân tạo vào quy trình làm việc thực tế."
+      ],
+      "summary_en": [
+        "Artificial intelligence company OpenAI has officially released the Images 2.6 model version, seamlessly integrated into platforms including ChatGPT, Codex, and application programming interface systems for developers.",
+        "This major update delivers a significant breakthrough by increasing image generation speed by fifty percent compared to the previous generation, while adding GIF animation creation and maintaining high image consistency across multiple edits.",
+        "This enhancement helps software engineers and developers optimize graphic processing time, improving the quality of applications that integrate artificial intelligence into practical workflows."
+      ],
+      "originalTitle": "OpenAI ra mắt Images 2.6: tạo ảnh nhanh hơn 50%, làm được GIF, xuất SVG",
+      "url": "https://tinhte.vn/thread/openai-ra-mat-images-2-6-tao-anh-nhanh-hon-50-lam-duoc-gif-xuat-svg.4189960/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "OpenAI",
+        "Generative AI",
+        "ChatGPT",
+        "API",
+        "Software Engineering"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-05T06:16:01.000Z",
+      "contentSnippet": "OpenAI vừa tung Images 2.6 cho ChatGPT, Codex và API. Bản này tạo ảnh nhanh hơn 50% so với thế hệ trước, thêm khả năng làm ảnh động GIF và giữ ảnh đồng nhất hơn qua nhiều lần chỉnh sửa. Theo...",
+      "authorName": "Nhà Của Cáo",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8100,484 +8583,6 @@
       "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-26-at-3.00.35-PM.png?quality=90&strip=all&crop=0,0,100,100",
       "contentSnippet": "Google announced today its Genie 4 world model for generating interactive experiences using AI. The company says the model has four main updates: It allows for more realistic worlds, lets users update an experience in real time with a natural language prompt, can generate audio, and uses Gemini 3.8 ",
       "authorName": "Jay Peters",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "86fc9372a28543f3",
-      "title_vi": "Apple nâng cấp dòng máy Mac và iMac với bộ vi xử lý M6 tiến trình 2nm",
-      "title_en": "Apple Upgrades Mac and iMac Lineup with 2nm M6 Processors",
-      "summary_vi": [
-        "Apple vừa chính thức công bố các phiên bản nâng cấp phần cứng mới nhất cho dòng máy tính xách tay MacBook Pro mười bốn inch và máy tính để bàn iMac với chip xử lý Apple M6 tiên tiến.",
-        "Bộ vi xử lý mới được sản xuất trên tiến trình hai nanômét đầu tiên của hãng mang lại hiệu năng đồ họa vượt trội cùng khả năng tính toán trí tuệ nhân tạo cục bộ cực kỳ mạnh mẽ.",
-        "Sự kiện này đánh dấu bước tiến quan trọng trong công nghệ bán dẫn của Apple giúp tối ưu hóa thời lượng pin lên đến hai mươi bốn giờ mà vẫn giữ nguyên mức giá bán lẻ so với thế hệ trước."
-      ],
-      "summary_en": [
-        "Apple has officially announced the latest hardware upgrade versions for the fourteen inch MacBook Pro laptops and iMac desktops featuring the advanced Apple M6 processor.",
-        "The new processor manufactured on the company's first two nanometer process delivers superior graphical performance alongside exceptionally powerful local artificial intelligence computing capabilities.",
-        "This release marks a significant milestone in Apple's semiconductor technology helping optimize battery life up to twenty four hours while maintaining the same retail price as the previous generation."
-      ],
-      "originalTitle": "Apple nâng cấp iMac và MacBook Pro 14 inch với chip M6",
-      "url": "https://vnexpress.net/apple-nang-cap-imac-va-macbook-pro-14-inch-voi-chip-m6-5137613.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Apple",
-        "M6 Chip",
-        "MacBook Pro",
-        "iMac",
-        "Semiconductor"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-27T14:08:59.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/27/apple-macbook-pro-in-with-m-17-2119-9788-1793110075.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=mpjSTEcYJ-w0kPHXDxYEzQ",
-      "contentSnippet": "MacBook Pro 14 inch cùng iMac phiên bản 2026 nâng cấp vi xử lý lên Apple M6, pin 24 tiếng nhưng giữ nguyên kiểu dáng, các lựa chọn màu sắc.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1cec09ed32b2c8fb",
-      "title_vi": "Máy tính để bàn iMac mới trang bị chip M6",
-      "title_en": "New iMac powered by M6 chip",
-      "summary_vi": [
-        "Apple vừa công bố dòng máy tính để bàn tất cả trong một thế hệ mới tích hợp bộ vi xử lý M6 mạnh mẽ cùng thiết kế mỏng nhẹ với nhiều tùy chọn màu sắc rực rỡ.",
-        "Thiết bị sở hữu màn hình Retina 4,5K sắc nét, bộ nhớ thống nhất lên đến 32GB kết hợp động cơ thần kinh Dual 16 nhân tối ưu hóa tuyệt vời cho các tác vụ trí tuệ nhân tạo.",
-        "Sản phẩm mang lại hiệu suất vượt trội cho các kỹ sư phần mềm và nhà sáng tạo nội dung, đẩy nhanh tốc độ xử lý các quy trình làm việc đòi hỏi khắt khe."
-      ],
-      "summary_en": [
-        "Apple has officially announced a new generation all in one desktop integrated with a powerful M6 processor and a strikingly thin design featuring multiple vibrant color options.",
-        "The device boasts a sharp 4.5K Retina display, up to 32GB of unified memory combined with a Dual 16 core Neural Engine optimized for advanced artificial intelligence tasks.",
-        "The product delivers exceptional performance for software engineers and content creators, significantly accelerating demanding daily workflows and complex computing tasks."
-      ],
-      "originalTitle": "New iMac with M6",
-      "url": "https://www.apple.com/imac/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Apple",
-        "Hardware",
-        "M6",
-        "AI",
-        "Desktop"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-27T13:02:02.000Z",
-      "contentSnippet": "Lease a new Mac with low monthly payments for 24 or 36 months and upgrade at the end of your term with Apple Upgrade.§ Learn more iMac All that. And a brand-new chip. Pre-order starting at 10:10 a.m. PT on October 28th. Available starting November 6thPre-order starting at 10:10 a.m. PT on 10.28Avail",
-      "authorName": "notfried",
-      "upvotes": 163,
-      "commentsCount": 156
-    },
-    {
-      "id": "0ea91ea91cdace9e",
-      "title_vi": "Úc đối mặt làn sóng tấn công mạng quy mô lớn chưa từng có do tội phạm lợi dụng trí tuệ nhân tạo",
-      "title_en": "Australia Faces Unprecedented Cyber Attack Wave Driven by Artificial Intelligence",
-      "summary_vi": [
-        "Cơ quan an ninh Úc vừa phát ra hơn bốn nghìn bốn trăm cảnh báo an ninh mạng do sự gia tăng đột biến của các cuộc tấn công tinh vi được tự động hóa hoàn toàn nhờ công nghệ trí tuệ nhân tạo.",
-        "Tội phạm mạng đang khai thác các mô hình ngôn ngữ lớn để tạo ra mã độc biến hình, tự động dò tìm lỗ hổng zero-day và thực hiện các chiến dịch lừa đảo tinh vi trên quy mô công nghiệp với tốc độ cực nhanh.",
-        "Sự bùng nổ này đòi hỏi các kỹ sư bảo mật và tổ chức doanh nghiệp phải nhanh chóng nâng cấp kiến trúc hệ thống phòng thủ, tích hợp AI vào việc phát hiện bất thường và chủ động vá lỗ hổng thời gian thực."
-      ],
-      "summary_en": [
-        "Australian security agencies have issued over forty-four hundred cybersecurity warnings due to a sharp surge in sophisticated attacks fully automated by advanced artificial intelligence technologies.",
-        "Cybercriminals are actively exploiting large language models to generate polymorphic malware, automatically scan for zero-day vulnerabilities, and execute highly convincing phishing campaigns at industrial scale and unprecedented speeds.",
-        "This explosive threat landscape requires security engineers and enterprise organizations to rapidly upgrade their defensive architecture, integrate AI into anomaly detection, and proactively patch vulnerabilities in real time."
-      ],
-      "originalTitle": "Úc cảnh báo làn sóng tấn công mạng chưa từng có từ AI",
-      "url": "https://tuoitre.vn/uc-canh-bao-lan-song-tan-cong-mang-chua-tung-co-tu-ai-100261027114624925.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Artificial Intelligence",
-        "Malware",
-        "Threat Intelligence",
-        "Automation"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-27T12:43:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/27/wcuiyw5fivnrzp7f5g2rghjuve-1793076362122746079679-0-0-1600-2560-crop-1793076477772851884140.jpg",
-      "contentSnippet": "Tội phạm mạng đang lợi dụng AI để tấn công nhanh, chính xác và trên quy mô lớn, buộc Úc phát hơn 4.400 cảnh báo an ninh mạng trong một năm.",
-      "authorName": "TTXVN",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "39973e9d451dfefe",
-      "title_vi": "Trình biên dịch tức thời thử nghiệm của Python sắp bị loại bỏ",
-      "title_en": "Python's experimental JIT to be removed",
-      "summary_vi": [
-        "Trình biên dịch tức thời thử nghiệm được thêm vào CPython trong phiên bản ba chấm mười ba đang đứng trước nguy cơ bị loại bỏ vĩnh viễn khỏi mã nguồn chính của ngôn ngữ này.",
-        "Hội đồng quản trị Python từng yêu cầu phải có Đề xuất Cải tiến Python chính thức để giải quyết các vấn đề về bảo trì, tính tương thích cũng như thiết lập các chỉ số thành công cụ thể.",
-        "Việc rút lui đề xuất cải tiến này đánh dấu sự kết thúc của một dự án từng đầy hứa hẹn, buộc cộng đồng lập trình viên phải tiếp tục dựa vào các giải pháp thực thi truyền thống."
-      ],
-      "summary_en": [
-        "The experimental just-in-time compiler added to CPython in version three point thirteen is now facing permanent removal from the main branch of the programming language.",
-        "The Python steering council previously demanded an official Python Enhancement Proposal to address maintenance issues, compatibility concerns, and establish clear success metrics.",
-        "The withdrawal of this enhancement proposal marks the end of a once promising project, forcing software developers to continue relying on traditional execution mechanisms."
-      ],
-      "originalTitle": "Python's experimental JIT to be removed",
-      "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Python",
-        "CPython",
-        "JIT",
-        "Software Engineering"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-27T11:17:57.000Z",
-      "contentSnippet": "Welcome to LWN.net The following subscription-only content has been made available to you by an LWN subscriber. Thousands of subscribers depend on LWN for the best news from the Linux and free software communities. If you enjoy this article, please consider subscribing to LWN. Thank you for visiting",
-      "authorName": "f311a",
-      "upvotes": 294,
-      "commentsCount": 152
-    },
-    {
-      "id": "0fa71fcc03f57574",
-      "title_vi": "Công cuộc làm sạch nội dung do trí tuệ nhân tạo tạo ra trên Bách khoa toàn thư mở Wikipedia",
-      "title_en": "Wikipedia's Cleanup of AI-Generated Content",
-      "summary_vi": [
-        "Cộng đồng biên tập viên trên bách khoa toàn thư trực tuyến Wikipedia đang đẩy mạnh các chiến dịch rà soát để loại bỏ hàng loạt các bài viết và chỉnh sửa kém chất lượng do các mô hình ngôn ngữ lớn tạo ra tự động.",
-        "Hiện tượng lạm dụng công cụ sinh văn bản tự động đã làm gia tăng đáng kể số lượng thông tin sai lệch, các ảo giác từ trí tuệ nhân tạo và nội dung rác chưa qua kiểm chứng được đưa vào các trang tài liệu quan trọng.",
-        "Động thái này đặt ra tiêu chuẩn mới cho các nền tảng kiến thức số trong việc thiết lập bộ lọc kiểm duyệt nghiêm ngặt, nhằm bảo vệ tính toàn vẹn của dữ liệu trước làn sóng bùng nổ của các ứng dụng tạo sinh."
-      ],
-      "summary_en": [
-        "The volunteer editing community on the online encyclopedia Wikipedia is intensifying audit campaigns to remove numerous low-quality articles and edits automatically generated by large language models.",
-        "The widespread abuse of automated text generation tools has significantly increased the volume of misinformation, artificial intelligence hallucinations, and unverified junk content injected into important documentation pages.",
-        "This proactive move establishes a new benchmark for digital knowledge platforms to implement strict moderation filters, protecting data integrity amid the ongoing boom of generative applications."
-      ],
-      "originalTitle": "Wikipedia's Cleanup of AI-Generated Content",
-      "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Wikipedia",
-        "Generative AI",
-        "Data Quality",
-        "Content Moderation"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-27T11:08:15.000Z",
-      "contentSnippet": "Wikipedia's Cleanup of AI-Generated Content",
-      "authorName": "rbanffy",
-      "upvotes": 278,
-      "commentsCount": 122
-    },
-    {
-      "id": "85969975ddd449f4",
-      "title_vi": "Việt Nam cần chủ động ứng phó với rủi ro bảo mật từ máy tính lượng tử",
-      "title_en": "Vietnam must proactively address quantum computing security risks",
-      "summary_vi": [
-        "Các chuyên gia công nghệ cảnh báo về nguy cơ tấn công thu thập dữ liệu mã hóa hiện nay để giải mã trong tương lai khi máy tính lượng tử đạt đến độ chín muồi, đe dọa trực tiếp đến an ninh thông tin quốc gia.",
-        "Cơ chế tấn công này tận dụng khả năng tính toán vượt trội của thuật toán Shor để phá vỡ các hệ thống mã hóa khóa công khai truyền thống như RSA hay ECC, đòi hỏi việc chuyển đổi sang các tiêu chuẩn mật mã hậu lượng tử.",
-        "Việt Nam cần sớm xây dựng lộ trình nâng cấp hạ tầng số, ưu tiên triển khai các thuật toán kháng lượng tử trong các hệ thống tài chính và chính phủ điện tử để bảo vệ dữ liệu nhạy cảm trước các mối đe dọa tiềm tàng."
-      ],
-      "summary_en": [
-        "Technology experts are warning about the 'harvest now, decrypt later' threat, where encrypted data is collected today to be compromised in the future by powerful quantum computers, posing a significant risk to national information security.",
-        "This attack vector leverages the superior computational power of Shor's algorithm to break traditional public-key encryption standards like RSA or ECC, necessitating an urgent transition to post-quantum cryptographic protocols across all digital infrastructures.",
-        "Vietnam must urgently develop a roadmap to upgrade its digital infrastructure, prioritizing the implementation of quantum-resistant algorithms within financial systems and e-government platforms to safeguard sensitive data against these emerging and sophisticated long-term threats."
-      ],
-      "originalTitle": "Việt Nam 'cần chuẩn bị ngay' cho nguy cơ bảo mật lượng tử",
-      "url": "https://vnexpress.net/viet-nam-can-chuan-bi-ngay-cho-nguy-co-bao-mat-luong-tu-5137489.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Quantum Computing",
-        "Cryptography",
-        "Data Privacy",
-        "Post-Quantum"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-27T11:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/27/1793086859453-g851938707362421-6331-6993-1793091227.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=_ixgRinCUaxBSXT80XPBzw",
-      "contentSnippet": "Các chuyên gia đánh giá nguy cơ dữ liệu \"thu thập ngay, giải mã sau\" bằng máy tính lượng tử đang gia tăng, đòi hỏi Việt Nam sớm chuẩn bị phương án ứng phó.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8869bab219a166c1",
-      "title_vi": "Cách cấu hình thiết bị di động để chặn video ngắn ban đêm trên iOS nhưng vẫn duy trì kết nối nhắn tin",
-      "title_en": "How to Configure Mobile Devices to Block Short-Form Videos at Night on iOS While Maintaining Messaging Connectivity",
-      "summary_vi": [
-        "Người dùng iPhone thường gặp khó khăn trong việc kiểm soát thói quen lướt nội dung giải trí ngắn vào ban đêm do các thuật toán giữ chân người dùng mạnh mẽ từ ứng dụng mạng xã hội.",
-        "Giải pháp kỹ thuật được đề xuất bao gồm việc sử dụng các ứng dụng chuyên biệt như minulo để ẩn hoàn toàn giao diện video ngắn trong khi vẫn giữ nguyên các tính năng nhắn tin cơ bản.",
-        "Phương pháp này giúp tối ưu hóa thời gian sử dụng thiết bị, cải thiện chất lượng giấc ngủ cho người dùng mà không làm gián đoạn các kênh liên lạc quan trọng cần thiết."
-      ],
-      "summary_en": [
-        "iPhone users frequently struggle to control late-night short-form video browsing habits due to aggressive engagement algorithms embedded within popular social media and video streaming applications.",
-        "Technical solutions involve utilizing specialized utility apps like minulo to completely hide short video feeds while preserving essential messaging and communication functionalities intact.",
-        "This approach helps optimize device usage time and improve sleep quality for users without disrupting critical communication channels required for daily connectivity."
-      ],
-      "originalTitle": "Cách ngừng lướt Reels và Shorts ban đêm trên iPhone mà vẫn nhận tin nhắn: cài đặt nào chặn thật, cài đặt nào chỉ nhắc (2026)",
-      "url": "https://viblo.asia/p/cach-ngung-luot-reels-va-shorts-ban-dem-tren-iphone-ma-van-nhan-tin-nhan-cai-dat-nao-chan-that-cai-dat-nao-chi-nhac-2026-13VM9dK5VY7",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iOS",
-        "Mobile",
-        "Productivity",
-        "Apps",
-        "UI/UX"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-27T08:46:27.000Z",
-      "contentSnippet": "Để ngừng lướt Reels và Shorts ban đêm trên iPhone mà vẫn giữ tin nhắn, hãy mở Instagram và YouTube trong minulo, nơi Reels và Shorts được ẩn còn tin n...",
-      "authorName": "ayumu kitabayashi",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "c02161e88dbaa05a",
-      "title_vi": "Lập trình viên độc lập tự phát triển trình giả lập Android cho dòng máy Mac chạy chip Apple Silicon",
-      "title_en": "Indie Developer Builds Native Android Emulator for Apple Silicon Macs",
-      "summary_vi": [
-        "Một lập trình viên độc lập đã tự xây dựng ứng dụng giả lập Android mang tên SiliconPlay dành riêng cho máy tính Mac sử dụng bộ vi xử lý Apple Silicon nhằm đáp ứng nhu cầu giải trí và kiểm thử ứng dụng.",
-        "Giải pháp kỹ thuật này giúp tối ưu hóa hiệu năng khi chạy trực tiếp các tập tin cài đặt APK mà không cần khởi động phần mềm nặng nề như Android Studio hay các công cụ giả lập truyền thống khác.",
-        "Dự án cho thấy năng lực tự phát triển phần mềm mạnh mẽ của các lập trình viên cá nhân, mang lại công cụ tiện ích thiết thực giúp tối ưu hóa quy trình làm việc cho cộng đồng phát triển ứng dụng di động."
-      ],
-      "summary_en": [
-        "An independent developer has created a native Android emulator named SiliconPlay specifically designed for Apple Silicon Macs to fulfill mobile gaming and application testing needs.",
-        "This technical solution optimizes performance by running APK installation packages directly without requiring heavy software like Android Studio or other traditional resource-intensive emulators.",
-        "The project demonstrates the strong self-development capabilities of indie developers, providing a practical utility tool that streamlines workflow processes for the mobile application development community."
-      ],
-      "originalTitle": "Mình tự làm trình giả lập Android cho Mac Apple Silicon",
-      "url": "https://viblo.asia/p/minh-tu-lam-trinh-gia-lap-android-cho-mac-apple-silicon-lZL9XO6vJQK",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Android",
-        "macOS",
-        "Apple Silicon",
-        "Emulator",
-        "Mobile Development"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-27T08:18:15.000Z",
-      "contentSnippet": "Chào mọi người, mình là dev làm một mình. Mình làm SiliconPlay vì muốn chơi game mobile trên Mac và test APK nhanh mà không phải mở cả Android Studio....",
-      "authorName": "SiliconPlay",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "5fb815e2dd55df60",
-      "title_vi": "Greenplum Database Bài học 30: Tối ưu hóa phép JOIN trên dữ liệu lớn: Co-located Joins vs Redistributed Joins vs Broadcast Joins",
-      "title_en": "Greenplum Database Lesson 30: Big Data Join Optimization: Co-located Joins vs Redistributed Joins vs Broadcast Joins",
-      "summary_vi": [
-        "Bài viết tiếp tục chuỗi series chuyên sâu về Greenplum Database với trọng tâm là tối ưu hóa hiệu năng thực thi các phép toán kết nối dữ liệu quy mô lớn trong hệ thống phân tán.",
-        "Nội dung phân tích chi tiết ba chiến lược kết nối bảng gồm Co-located Joins, Redistributed Joins và Broadcast Joins cùng cơ chế dịch chuyển mạng đi kèm nhằm giảm thiểu chi phí tài nguyên.",
-        "Kiến thức này giúp các kỹ sư dữ liệu và kiến trúc sư hệ thống đưa ra quyết định thiết kế bảng tối ưu, nâng cao tốc độ truy vấn trên hạ tầng cơ sở dữ liệu lớn."
-      ],
-      "summary_en": [
-        "The article continues the in-depth Greenplum Database series with a primary focus on optimizing the execution performance of large-scale data join operations in distributed systems.",
-        "The content details three table join strategies including Co-located Joins, Redistributed Joins, and Broadcast Joins alongside network movement mechanisms to minimize resource overhead.",
-        "This knowledge helps data engineers and system architects make optimal table design decisions to enhance query performance on large database infrastructures."
-      ],
-      "originalTitle": "Greenplum Database Bài học 30: Tối ưu hóa phép JOIN trên dữ liệu lớn: Co-located Joins vs Redistributed Joins vs Broadcast Joins",
-      "url": "https://viblo.asia/p/greenplum-database-bai-hoc-30-toi-uu-hoa-phep-join-tren-du-lieu-lon-co-located-joins-vs-redistributed-joins-vs-broadcast-joins-K9Vy8OR5LQR",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Greenplum",
-        "Database",
-        "SQL",
-        "Big Data",
-        "Performance Optimization"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-27T07:39:27.000Z",
-      "contentSnippet": "Ở Bài học 29, chúng ta đã giải mã cặn kẽ bộ ba toán tử dịch chuyển dữ liệu qua mạng (Motion Operators gồm Gather, Redistribute, và Broadcast). Nếu cá...",
-      "authorName": "Nguyen Hoang",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9ebf4b66e68a71ab",
-      "title_vi": "Samsung châm biếm dòng điện thoại iPhone có thiết kế dày và trọng lượng nặng",
-      "title_en": "Samsung Mocks iPhone for Being Bulky and Heavy in New Advertisement",
-      "summary_vi": [
-        "Hãng điện tử Samsung vừa tung ra chiến dịch quảng cáo mới nhằm châm biếm thiết kế có phần cồng kềnh và trọng lượng nặng nề của dòng sản phẩm điện thoại iPhone thế hệ mới từ đối thủ Apple.",
-        "Chiến dịch này tập trung so sánh trực diện về thông số kỹ thuật phần cứng, đặc biệt là độ mỏng của khung máy và vật liệu chế tạo vỏ thiết bị di động cao cấp trên thị trường hiện nay.",
-        "Động thái cạnh tranh này phản ánh cuộc đua khốc liệt giữa các ông lớn công nghệ trong việc tối ưu hóa trải nghiệm cầm nắm và công nghệ chế tác linh kiện thu gọn cho người dùng."
-      ],
-      "summary_en": [
-        "Samsung has recently launched a new marketing campaign aimed at mocking the bulky design and heavy weight of the latest iPhone smartphone lineup from its fierce rival Apple.",
-        "The campaign focuses on a direct comparison of hardware specifications, particularly emphasizing the casing thinness and advanced manufacturing materials used in modern high-end mobile devices.",
-        "This competitive move reflects the intense rivalry among tech giants in optimizing ergonomic user experiences and miniaturizing component engineering for everyday consumers."
-      ],
-      "originalTitle": "Samsung khịa iPhone Giày và nặng",
-      "url": "https://tinhte.vn/thread/samsung-khia-iphone-giay-va-nang.4187276/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Samsung",
-        "Apple",
-        "iPhone",
-        "Mobile Devices",
-        "Hardware"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-27T03:01:47.000Z",
-      "contentSnippet": "Samsung khịa iPhone Giày và nặng",
-      "authorName": "cuhiep",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "c3040c65955fc5e4",
-      "title_vi": "CEO John Ternus chia sẻ về dòng sản phẩm iPhone Duo, trí tuệ nhân tạo Siri và văn hóa thiết kế tại Apple",
-      "title_en": "Apple CEO John Ternus Discusses iPhone Duo, Siri AI, and Design Culture in New Interview",
-      "summary_vi": [
-        "John Ternus chính thức đảm nhận vị trí Tổng Giám đốc điều hành Apple và có buổi chia sẻ chi tiết với tạp chí TIME về định hướng phát triển sản phẩm tương lai cũng như triết lý thiết kế cốt lõi.",
-        "Cuộc phỏng vấn đề cập đến các dòng thiết bị phần cứng mới như phiên bản điện thoại màn hình gập iPhone Duo cùng việc tích hợp sâu các mô hình trí tuệ nhân tạo tiên tiến vào trợ lý ảo Siri.",
-        "Sự kiện này đánh dấu bước chuyển mình quan trọng của Apple trong việc cân bằng giữa đổi mới công nghệ phần cứng di động và trải nghiệm thông minh nhân tạo cho người dùng toàn cầu."
-      ],
-      "summary_en": [
-        "John Ternus officially assumed the role of Apple CEO and shared detailed insights with TIME magazine regarding future product directions and the company's core design philosophy.",
-        "The interview highlights upcoming hardware devices such as the innovative folding iPhone Duo lineup alongside the deep integration of advanced artificial intelligence models into the Siri assistant.",
-        "This milestone marks a crucial transition for Apple in balancing mobile hardware innovations with next-generation artificial intelligence experiences for global users and developers."
-      ],
-      "originalTitle": "CEO John Ternus nói chuyện với TIME về iPhone Duo, Siri AI, trẻ em và văn hóa thiết kế Apple",
-      "url": "https://tinhte.vn/thread/ceo-john-ternus-noi-chuyen-voi-time-ve-iphone-duo-siri-ai-tre-em-va-van-hoa-thiet-ke-apple.4187282/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Siri",
-        "AI",
-        "Mobile"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-27T02:59:45.000Z",
-      "contentSnippet": "Vừa ngồi ghế CEO Apple được gần hai tháng, John Ternus đã có buổi trò chuyện dài với TIME, gồm một bài chân dung đăng ngày 15/10 trong số Best Inventions 2026 và một video phỏng vấn dài 9 phút 28...",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e9a20e9655af5799",
-      "title_vi": "Nghĩa địa AI mở rộng khi nhiều sản phẩm và startup đình đám thất bại",
-      "title_en": "AI Graveyard Expands As Multiple Prominent Products And Startups Fail",
-      "summary_vi": [
-        "Công cụ tự động hóa công việc Relay chính thức tuyên bố ngừng hoạt động hoàn toàn sau năm năm phát triển do không thể cạnh tranh lại các nền tảng lớn.",
-        "Sự bùng nổ của các mô hình ngôn ngữ lớn từ các ông lớn công nghệ khiến các tính năng xử lý email và quản lý công việc độc lập mất đi lợi thế.",
-        "Thực trạng này gióng lên hồi chuông cảnh báo cho các startup trí tuệ nhân tạo về bài toán sinh tồn khi các tính năng lõi nhanh chóng bị các nền tảng lớn tích hợp sẵn."
-      ],
-      "summary_en": [
-        "The AI-powered work automation tool Relay officially announced its complete shutdown after five years of development due to fierce market competition.",
-        "The rapid advancement of large language models from major tech giants rendered standalone email processing and task management features obsolete.",
-        "This situation serves as a critical warning for artificial intelligence startups regarding survival strategies when core features are rapidly absorbed by ecosystem platforms."
-      ],
-      "originalTitle": "'Nghĩa địa' AI mở rộng khi nhiều sản phẩm và startup đình đám thất bại",
-      "url": "https://genk.vn/nghia-dia-ai-mo-rong-khi-nhieu-san-pham-va-startup-dinh-dam-that-bai-16526102708413176.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "AI",
-        "Startups",
-        "Automation",
-        "OpenAI",
-        "Google"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-27T02:30:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/27/avatar1793065228519-17930652291891388764587-0-55-675-1135-crop-1793065271226738769770.png",
-      "contentSnippet": "Dù thu hút vốn đầu tư lớn, danh sách sản phẩm và startup AI thất bại ngày càng dài do cạnh tranh khốc liệt, chi phí cao và rào cản kỹ thuật.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "005790fa59a87599",
-      "title_vi": "Sau tuyên bố chấn động của Elon Musk, đến lượt Bill Gates đồng ý: \"Trong 20 năm tới lao động con người sẽ không còn bắt buộc\"",
-      "title_en": "After Elon Musk's shocking statement, it was Bill Gates' turn to agree: \"In the next 20 years, human labor will no longer be required.\"",
-      "summary_vi": [
-        "Trong một cuộc trò chuyện tại podcast People by Nikhil Kamath, Bill Gates đã đưa ra một nhận định rằng nhân loại đang bước vào giai đoạn chuyển đổi 20 năm đầy xáo trộn, sự trỗi dậy của AI và robot hình người sẽ chấm dứt sự độc tôn của lao động con người.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Sau tuyên bố chấn động của Elon Musk, đến lượt Bill Gates đồng ý: \"Trong 20 năm tới lao động con người sẽ không còn bắt buộc\".",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Sau tuyên bố chấn động của Elon Musk, đến lượt Bill Gates đồng ý: \"Trong 20 năm tới lao động con người sẽ không còn bắt buộc\"."
-      ],
-      "summary_en": [
-        "In a conversation at the People by Nikhil Kamath podcast, Bill Gates made a comment that humanity is entering a tumultuous 20-year transition period, the rise of AI and humanoid robots will end the monopoly of human labor.",
-        "In-depth technical breakdown and implementation mechanisms introduced in After Elon Musk's shocking statement, it was Bill Gates' turn to agree: \"In the next 20 years, human labor will no longer be required.\".",
-        "Practical engineering impact and actionable takeaways for developers building with After Elon Musk's shocking statement, it was Bill Gates' turn to agree: \"In the next 20 years, human labor will no longer be required.\"."
-      ],
-      "originalTitle": "Sau tuyên bố chấn động của Elon Musk, đến lượt Bill Gates đồng ý: \"Trong 20 năm tới lao động con người sẽ không còn bắt buộc\"",
-      "url": "https://genk.vn/sau-tuyen-bo-chan-dong-cua-elon-musk-den-luot-bill-gates-dong-y-trong-20-nam-toi-lao-dong-con-nguoi-se-khong-con-bat-buoc-165261027014912432.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-27T02:21:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/26/avatar1793040507069-17930405097831746827890.png",
-      "contentSnippet": "Trong một cuộc trò chuyện tại podcast People by Nikhil Kamath, Bill Gates đã đưa ra một nhận định rằng nhân loại đang bước vào giai đoạn chuyển đổi 20 năm đầy xáo trộn, sự trỗi dậy của AI và robot hình người sẽ chấm dứt sự độc tôn của lao động con người.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "2a6c8bdd4063b5ee",
-      "title_vi": "Bong bóng AI Trung Quốc vỡ, 480 tỷ USD vốn hóa bốc hơi chỉ trong chưa đầy 4 tháng",
-      "title_en": "Chinese AI Bubble Bursts as 480 Billion USD in Market Value Evaporates in Less Than Four Months",
-      "summary_vi": [
-        "Thị trường công nghệ trí tuệ nhân tạo tại Trung Quốc đang đối mặt với cuộc khủng hoảng lớn khi hàng loạt cổ phiếu lĩnh vực bán dẫn và trung tâm dữ liệu lao dốc mạnh mẽ.",
-        "Giá trị vốn hóa của các doanh nghiệp phần cứng và hạ tầng AI đã sụt giảm tới một nửa so với mức đỉnh kỷ lục chỉ trong khoảng thời gian ngắn chưa đầy bốn tháng.",
-        "Sự sụt giảm này phản ánh thực tế khắc nghiệt về kỳ vọng phi thực tế đối với các giải pháp AI, tạo ra bài học lớn về việc định giá doanh nghiệp công nghệ cao."
-      ],
-      "summary_en": [
-        "The artificial intelligence technology market in China is facing a major crisis as numerous semiconductor and data center stocks experience severe declines.",
-        "The market capitalization of AI hardware and infrastructure enterprises has plummeted by half compared to their peak values in a short span of less than four months.",
-        "This sharp downturn reflects the harsh reality of unrealistic expectations regarding AI solutions, offering a critical lesson for valuing high-tech enterprises."
-      ],
-      "originalTitle": "Bong bóng AI Trung Quốc vỡ, 480 tỷ USD vốn hóa bốc hơi chỉ trong chưa đầy 4 tháng",
-      "url": "https://genk.vn/bong-bong-ai-trung-quoc-vo-480-ty-usd-von-hoa-boc-hoi-chi-trong-chua-day-4-thang-165261027083119868.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "AI",
-        "Semiconductors",
-        "Data Center",
-        "Market Trends",
-        "China Tech"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-27T01:31:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/27/avatar1793064652658-1793064653183954087396-17-0-892-1400-crop-1793064663084534669224.png",
-      "contentSnippet": "Ngay cả các cổ phiếu công nghệ bán dẫn, robot, trung tâm dữ liệu của Trung Quốc, dù từng rất được ưa chuộng cũng đang phải chứng kiến cảnh giá giảm một nửa so với mức đỉnh của mình.",
-      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     }
