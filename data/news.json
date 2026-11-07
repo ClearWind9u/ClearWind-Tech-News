@@ -1,7 +1,109 @@
 {
-  "lastUpdated": "2026-11-07T12:10:53.068Z",
+  "lastUpdated": "2026-11-07T21:15:56.219Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "1bb7502b8f48e067",
+      "title_vi": "Django: Hướng dẫn gửi email nhanh chóng với send_mail() và cấu hình SMTP chuẩn xác",
+      "title_en": "Django: Quick Email Dispatch Using send_mail() and Proper SMTP Configuration",
+      "summary_vi": [
+        "Khung làm việc Django cung cấp sẵn hàm send_mail tiện lợi giúp lập trình viên dễ dàng tích hợp tính năng gửi thư điện tử vào ứng dụng web chỉ trong vài phút ngắn ngủi.",
+        "Quá trình triển khai yêu cầu cấu hình chính xác các tham số giao thức SMTP bao gồm máy chủ, cổng kết nối, tên đăng nhập và mật khẩu ứng dụng bên trong tệp thiết lập hệ thống.",
+        "Giải pháp này tối ưu hóa hiệu quả phát triển các tính năng cơ bản như xác thực tài khoản, thông báo hệ thống và gửi thư chào mừng cho người dùng mới một cách an toàn."
+      ],
+      "summary_en": [
+        "The Django framework provides a built-in send_mail function that enables developers to seamlessly integrate email dispatch capabilities into web applications within just a few minutes.",
+        "The implementation process requires precise configuration of SMTP protocol parameters including server addresses, connection ports, credentials, and application passwords within the main settings file.",
+        "This technical solution optimizes the development efficiency for essential features such as account verification, system notifications, and automated welcome emails for new platform users securely."
+      ],
+      "originalTitle": "Django: gửi email bằng send_mail() trong 5 phút — cấu hình SMTP đúng cách",
+      "url": "https://viblo.asia/p/django-gui-email-bang-send-mail-trong-5-phut-cau-hinh-smtp-dung-cach-lZL9XOK7JQK",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Django",
+        "Python",
+        "SMTP",
+        "Backend",
+        "Web Development"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T22:20:29.000Z",
+      "contentSnippet": "Django đã có sẵn hàm send_mail() để gửi email — chỉ cần cấu hình SMTP một lần trong settings.py rồi gọi một dòng là gửi được. Dùng cho mail chào mừng ...",
+      "authorName": "Linh Fish Dev",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0a8f38d13d967a18",
+      "title_vi": "GPT-6.1 Terra là gì? Hướng dẫn gọi gpt-6.1-terra qua API với thử nghiệm thị giác, thao tác máy tính và đầu ra JSON",
+      "title_en": "What is GPT-6.1 Terra? Guide to calling gpt-6.1-terra via API with visual testing, computer use, and JSON output",
+      "summary_vi": [
+        "Bài viết giới thiệu mô hình GPT-6.1 Terra cùng phương pháp tích hợp thông qua giao diện lập trình ứng dụng API tương thích với nền tảng OpenAI một cách nhanh chóng và vô cùng thuận tiện.",
+        "Lập trình viên chỉ cần thực hiện thao tác thay đổi địa chỉ cơ sở và tên mô hình trong mã nguồn hiện tại để bắt đầu sử dụng các tính năng nâng cao mà không tốn nhiều thời gian cấu hình.",
+        "Công nghệ này mang lại khả năng xử lý hình ảnh, điều khiển máy tính và trả về dữ liệu định dạng chuẩn giúp tối ưu hóa hiệu suất phát triển ứng dụng trí tuệ nhân tạo hiện đại."
+      ],
+      "summary_en": [
+        "The article introduces the GPT-6.1 Terra model along with methods for integrating it via an application programming interface compatible with the OpenAI platform quickly and conveniently.",
+        "Developers only need to change the base address and model name in their current source code to start using advanced features without spending much time on complex configurations.",
+        "This technology provides image processing capabilities, computer control, and standardized data output formatting to help optimize the performance of modern artificial intelligence application development."
+      ],
+      "originalTitle": "GPT-6.1 Terra là gì? Hướng dẫn gọi gpt-6.1-terra qua API với thử nghiệm thị giác, thao tác máy tính và đầu ra JSON",
+      "url": "https://viblo.asia/p/gpt-61-terra-la-gi-huong-dan-goi-gpt-61-terra-qua-api-voi-thu-nghiem-thi-giac-thao-tac-may-tinh-va-dau-ra-json-oKLnqj1gJQO",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "API",
+        "OpenAI",
+        "GPT-6.1",
+        "Machine Learning"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T22:10:10.000Z",
+      "contentSnippet": "Nếu mã nguồn của bạn đã chạy với API tương thích OpenAI, việc chuyển sang gpt-6.1-terra thường chỉ cần đổi hai chỗ: base_url và model. Điều quan trọ...",
+      "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9bfc98ba4a0cc270",
+      "title_vi": "Python: Gọi nhiều API song song với asyncio.gather và Semaphore trong 10 phút",
+      "title_en": "Python: Calling Multiple APIs Concurrently with asyncio.gather and Semaphore in 10 Minutes",
+      "summary_vi": [
+        "Bài viết hướng dẫn lập trình viên Python tối ưu hóa hiệu năng khi phải thực hiện hàng chục yêu cầu mạng cùng lúc để đồng bộ dữ liệu hoặc cào dữ liệu web.",
+        "Giải pháp sử dụng thư viện asyncio kết hợp cùng cơ chế Semaphore giúp kiểm soát số lượng luồng thực thi đồng thời, tránh tình trạng quá tải hệ thống và giới hạn tốc độ từ máy chủ.",
+        "Kỹ thuật này giúp giảm đáng kể tổng thời gian chờ đợi so với vòng lặp tuần thống truyền thống, mang lại hiệu quả cao khi xây dựng các hệ thống bất đồng bộ hiện đại."
+      ],
+      "summary_en": [
+        "The article guides Python developers on optimizing performance when executing dozens of network requests simultaneously for data synchronization or web scraping tasks.",
+        "The solution utilizes the asyncio library combined with the Semaphore mechanism to control concurrent execution threads, preventing system overload and server rate limiting.",
+        "This technique significantly reduces total waiting time compared to traditional sequential loops, delivering high efficiency when building modern asynchronous backend systems."
+      ],
+      "originalTitle": "Python: Gọi nhiều API song song với asyncio.gather và Semaphore trong 10 phút",
+      "url": "https://viblo.asia/p/python-goi-nhieu-api-song-song-voi-asynciogather-va-semaphore-trong-10-phut-kNLr3eWlVgA",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Python",
+        "Asyncio",
+        "API",
+        "Concurrency",
+        "Backend"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T20:16:29.000Z",
+      "contentSnippet": "Khi cần gọi hàng chục API — đồng bộ dữ liệu, crawl giá, bắn webhook — vòng lặp for tuần tự cộng dồn thời gian chờ của từng request: 20 request × 1 giâ...",
+      "authorName": "Linh Fish Dev",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "0d8d5ea9a3baaa8d",
       "title_vi": "Phát sóng trong Laravel: Tự vận hành Reverb hay sử dụng dịch vụ WebSocket được quản lý sẵn?",
@@ -37,6 +139,143 @@
       "commentsCount": 0
     },
     {
+      "id": "579f1e45f94231f7",
+      "title_vi": "Hệ thống máy chủ gia đình giá mười đô la chạy bằng thiết bị OpenStick nhỏ gọn",
+      "title_en": "What I run on my $10 USD OpenStick homelab",
+      "summary_vi": [
+        "Tác giả đã mua một thiết bị OpenStick siêu nhỏ giá mười đô la để xây dựng hệ thống máy chủ tại nhà với mức tiêu thụ điện năng cực thấp và không gây tiếng ồn khi hoạt động liên tục.",
+        "Thiết bị này được cài đặt hệ điều hành Debian Linux, hỗ trợ các công nghệ hiện đại như hệ thống quản lý tiến trình systemd và công cụ quản lý vùng chứa container nhẹ Podman để chạy các dịch vụ.",
+        "Giải pháp này cho phép người dùng tự lưu trữ các ứng dụng hữu ích như tự động bỏ qua quảng cáo video trên các thiết bị truyền phát hoặc chặn tên miền độc hại ở cấp độ phân giải DNS."
+      ],
+      "summary_en": [
+        "The author purchased a tiny ten dollar OpenStick hardware device to build a low power home server setup that operates silently with minimal energy consumption.",
+        "The device runs the Debian Linux operating system, supporting modern technologies such as the systemd service manager and the lightweight containerization tool Podman for deployments.",
+        "This solution enables users to self host useful applications such as automatically skipping video advertisements on streaming devices or blocking malicious domains at the DNS level."
+      ],
+      "originalTitle": "What I run on my $10 USD OpenStick homelab",
+      "url": "https://blog.bosscher.ch/posts/openstick/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "Homelab",
+        "Linux",
+        "Debian",
+        "Podman",
+        "Self-hosting"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T18:12:12.000Z",
+      "contentSnippet": "Go backWhat I run on my $10 USD OpenStick homelab7 Nov, 2026|Edit pageA while ago I bought an OpenStick on a whim for 10 dollars (including shipping!) because it seemed like such a cool novelty piece of hardware. Now, you might look at this hardware and think “my watch is more powerful than that”, a",
+      "authorName": "LaurensBER",
+      "upvotes": 156,
+      "commentsCount": 32
+    },
+    {
+      "id": "8017ce29f6d88c8d",
+      "title_vi": "Sự kết thúc của nhóm nghiên cứu Trí tuệ nhân tạo Frontiers tại Microsoft",
+      "title_en": "The end of Microsoft Research's AI Frontiers group",
+      "summary_vi": [
+        "Sau sự bùng nổ của ChatGPT vào năm 2023, nhóm nghiên cứu AI Frontiers được thành lập tại Microsoft nhằm tổ chức lại các nỗ lực nghiên cứu trí tuệ nhân tạo theo phương pháp tập trung và quy mô hơn.",
+        "Nhóm khoảng năm mươi người này đã phát triển thành công nhiều khung công tác quan trọng như hệ thống điều phối Autogen và tác nhân sử dụng máy tính Fara, đồng thời giải quyết các bài toán về năng lực tính toán hạn chế.",
+        "Việc thay đổi cơ cấu này phản ánh những thách thức lớn trong việc định hướng nghiên cứu cơ bản và ứng dụng trí tuệ nhân tạo tại các tập đoàn công nghệ lớn hiện nay."
+      ],
+      "summary_en": [
+        "Following the ChatGPT release in 2023, the AI Frontiers research group was established at Microsoft to reorganize artificial intelligence research efforts through a more focused and scalable methodology.",
+        "This fifty-person team successfully developed crucial frameworks such as the Autogen orchestration system and the Fara computer use agent, while addressing severe challenges regarding limited computing resources.",
+        "This structural reorganization reflects major challenges in directing fundamental research and artificial intelligence applications within large modern technology corporations today."
+      ],
+      "originalTitle": "The end of Microsoft Research's AI Frontiers group",
+      "url": "https://hunch.net/?p=13764006",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Microsoft",
+        "Autogen",
+        "Machine Learning",
+        "Research"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T18:02:17.000Z",
+      "contentSnippet": "In 2023 after the ChatGPT release, it was clear to me that research needed to be more organized to succeed than was typical within Microsoft Research. The amount of support and focus which other research groups were applying was great enough that even with a clever idea pursued by one person it was ",
+      "authorName": "srean",
+      "upvotes": 227,
+      "commentsCount": 125
+    },
+    {
+      "id": "840f536384a14a6f",
+      "title_vi": "Danh sách đen của Táo khuyết: Những từ ngữ và cụm từ thiết bị di động của bạn không hỗ trợ đánh vần",
+      "title_en": "Apple's grey list: Words and phrases your iPhone won't help you spell",
+      "summary_vi": [
+        "Bài viết khám phá hiện tượng thú vị trên hệ điều hành di động của tập đoàn công nghệ khi các thiết bị thông minh từ chối hỗ trợ tính năng vuốt để gõ phím đối với một số từ ngữ nhạy cảm hoặc cụm từ bất thường.",
+        "Cơ chế hoạt động của thuật toán dự đoán văn bản và bàn phím ảo trên điện thoại thông minh đã vô tình hoặc hữu ý loại bỏ các từ khóa liên quan đến chính trị, chất kích thích hoặc tình dục khỏi bộ nhớ đệm đề xuất.",
+        "Sự việc này đặt ra nhiều câu hỏi quan trọng cho các kỹ sư phần mềm về quyền riêng tư, cách thức kiểm duyệt nội dung tự động trên thiết bị đầu cuối và ranh giới đạo đức trong thiết kế trải nghiệm người dùng."
+      ],
+      "summary_en": [
+        "The article explores an interesting phenomenon in mobile operating systems where smart devices refuse to support swipe typing features for certain sensitive words or unusual phrases.",
+        "The operational mechanism of predictive text algorithms and virtual keyboards on smartphones has intentionally or accidentally removed keywords related to politics, substances, or sex from the suggested cache.",
+        "This incident raises important questions for software engineers regarding privacy, automated content moderation mechanisms on end-user devices, and ethical boundaries in user experience design."
+      ],
+      "originalTitle": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
+      "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "iOS",
+        "Mobile",
+        "UX",
+        "Software",
+        "Security"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T17:06:36.000Z",
+      "contentSnippet": "“Australia is a very bad place to question your sexuality on MDMA with NSA spies” might be a text you would wish to send to your friends, if you have had an extraordinarily complicated night out in Sydney. But your iPhone won’t help you spell any of it if you try to swipe-type it – that is, by glidi",
+      "authorName": "user_7832",
+      "upvotes": 202,
+      "commentsCount": 128
+    },
+    {
+      "id": "765858989b319560",
+      "title_vi": "Trung Quốc đẩy mạnh cuộc đua phát triển trí tuệ nhân tạo cho robot hình người",
+      "title_en": "China Enters the Race to Develop Artificial Intelligence for Humanoid Robots",
+      "summary_vi": [
+        "Làn sóng đầu tư mạnh mẽ vào lĩnh vực trí tuệ nhân tạo hiện thân đang lan rộng tại các doanh nghiệp công nghệ lớn của Trung Quốc nhằm nâng cao năng lực tự trị.",
+        "Các kỹ sư đang tập trung chuyển đổi từ việc tối ưu hóa phần cứng sang nghiên cứu và phát triển các mô hình bộ não thông minh tiên tiến cho robot hình người.",
+        "Sự chuyển dịch này đánh dấu bước tiến quan trọng trong việc tích hợp học máy và hệ thống điều khiển nhận thức, tạo ra tiền đề ứng dụng rộng rãi trong tương lai."
+      ],
+      "summary_en": [
+        "A powerful wave of investment in embodied artificial intelligence is spreading across major Chinese tech companies to enhance autonomous capabilities.",
+        "Engineers are shifting focus from hardware optimization to researching and developing advanced intelligent brain models for humanoid robots.",
+        "This transition marks a crucial milestone in integrating machine learning and cognitive control systems, setting the stage for widespread future applications."
+      ],
+      "originalTitle": "Trung Quốc bước vào cuộc đua phát triển trí não robot",
+      "url": "https://vnexpress.net/trung-quoc-buoc-vao-cuoc-dua-phat-trien-tri-nao-robot-5140231.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Humanoid Robots",
+        "Machine Learning",
+        "Embodied AI",
+        "Tech Trends"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T17:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/03/VNERobot-1793692522-1449-1793692686.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=H4Fru1BPjsZTZh6zhYoSAQ",
+      "contentSnippet": "Làn sóng đầu tư vào AI hiện thân đang tràn qua các công ty Trung Quốc, thúc đẩy nỗ lực chuyển đổi từ tập trung vào phần cứng sang phát triển bộ não thông minh cho robot hình người.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "b6701e276d52e443",
       "title_vi": "Cách ứng dụng trí tuệ nhân tạo để tìm kiếm bằng chứng khoa học trước khi viết khóa luận",
       "title_en": "How to Use Artificial Intelligence to Find Scientific Evidence Before Writing a Thesis",
@@ -68,6 +307,75 @@
       "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/7/file2028129-1794037730909430296166-18-0-1268-2000-crop-17940380639211962737340.jpg",
       "contentSnippet": "Câu 'nhiều nghiên cứu đã chứng minh' xuất hiện rất thường xuyên trong khóa luận, luận văn, thậm chí trong bài báo đại chúng. Không ít trường hợp người viết chưa từng thấy các nghiên cứu ấy.",
       "authorName": "TRỌNG NHÂN",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b521172828d62613",
+      "title_vi": "Mỹ để Nvidia bán chip trí tuệ nhân tạo cho một văn phòng trống tại Trung Quốc",
+      "title_en": "The US let Nvidia sell chips to an empty office in China",
+      "summary_vi": [
+        "Bộ Thương mại Mỹ và tập đoàn Nvidia đang vấp phải nhiều chỉ trích gay gắt vì thiếu sự kiểm tra kỹ lưỡng đối với các doanh nghiệp Trung Quốc được cấp phép mua các dòng vi xử lý trí tuệ nhân tạo cao cấp.",
+        "Cuộc điều tra từ tờ New York Times phát hiện công ty New Matrix dù nằm trong danh sách phê duyệt nhưng thực tế chỉ sở hữu một văn phòng trống rỗng với những sợi dây điện lơ lửng trên trần nhà mà không có bất kỳ dấu hiệu hoạt động thực tế nào.",
+        "Sự việc này làm dấy lên những lo ngại nghiêm trọng về lỗ hổng bảo mật quốc gia và khả năng kiểm soát các lệnh cấm vận công nghệ bán dẫn đối với các thiết bị phần cứng trí tuệ nhân tạo nhạy cảm xuất khẩu sang thị trường nước ngoài."
+      ],
+      "summary_en": [
+        "The US Commerce Department and Nvidia are facing severe criticism for failing to properly vet Chinese firms that have been officially cleared to purchase high-end artificial intelligence processors and hardware.",
+        "An investigation by The New York Times revealed that an approved company named New Matrix operates out of a completely vacant office space featuring dangling wires and no meaningful corporate infrastructure.",
+        "This shocking oversight highlights critical vulnerabilities in national security enforcement and the ongoing challenges of regulating sensitive semiconductor technology exports within the global artificial intelligence market."
+      ],
+      "originalTitle": "The US let Nvidia sell chips to an empty office in China",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Nvidia",
+        "Semiconductors",
+        "Cybersecurity",
+        "Hardware"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T15:43:45.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a ho",
+      "authorName": "Terrence O’Brien",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9ec8938d72ead4c0",
+      "title_vi": "Thiết bị định vị thông minh thế hệ mới lên kệ với khả năng tương thích đa nền tảng di động",
+      "title_en": "New Generation Smart Tracking Device Launches with Cross Platform Mobile Compatibility",
+      "summary_vi": [
+        "Thiết bị định vị thông minh phiên bản mới chính thức được thương mại hóa tại thị trường Mỹ với mức giá cạnh tranh cho cả gói đơn lẻ lẫn bộ nhiều thiết bị phục vụ nhu cầu người dùng.",
+        "Sản phẩm mang đến bước tiến lớn về khả năng kết nối đa nền tảng, cho phép người dùng thiết bị iOS và Android tương tác và tận dụng tối đa hệ sinh thái tìm kiếm đồ vật thất lạc.",
+        "Sự cải tiến này đánh dấu nỗ lực phá vỡ rào cản độc quyền phần cứng giữa các hệ điều hành di động lớn, mở ra hướng đi mới cho các giải pháp định vị toàn cầu trong tương lai."
+      ],
+      "summary_en": [
+        "The new generation smart tracking device has officially launched in the US market with competitive pricing for both single units and multi device bundles catering to diverse consumer demands.",
+        "This product introduces a significant breakthrough in cross platform connectivity, enabling both iOS and Android device users to interact and leverage the comprehensive lost item tracking ecosystem.",
+        "This enhancement marks a notable effort to break down proprietary hardware barriers between major mobile operating systems, paving the way for future global tracking solutions and integrations."
+      ],
+      "originalTitle": "Galaxy SmartTag3 lên kệ: dùng với iPhone được gì, khác Galaxy ở đâu?",
+      "url": "https://tinhte.vn/thread/galaxy-smarttag3-len-ke-dung-voi-iphone-duoc-gi-khac-galaxy-o-dau.4190549/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "SmartTag",
+        "IoT",
+        "Mobile",
+        "iOS",
+        "Android"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-07T15:06:58.000Z",
+      "contentSnippet": "Galaxy SmartTag3 đã được bán tại Mỹ từ ngày 6/11, giá 29,99 USD cho một chiếc hoặc 99,99 USD cho bộ bốn chiếc. Nhưng điều đáng bàn hơn giá là khả năng dùng chung giữa người cầm Galaxy và iPhone....",
+      "authorName": "Anh Tú.",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8279,310 +8587,6 @@
       "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/27/wm1-img-jpg-1793103806-7360-17-4873-3994-1793114285.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=bVObSA8gjgkwb-Ram2-_NA",
       "contentSnippet": "Việc Microsoft đề xuất 60.000 người tự nguyện nghỉ việc phần nào cho thấy nhiều lập trình viên phải chuyển đổi kỹ năng, thậm chí bỏ nghề khi doanh nghiệp tăng cường ứng dụng AI.",
       "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "29ef6f0a11bf8711",
-      "title_vi": "Mưu kế thứ ba mươi hai: Trí tuệ nhân tạo ghi nhận lệnh rút tiền và P xem đó là bằng chứng xác thực",
-      "title_en": "Stratagems #32: The AI Logged a Withdrawal. P Took It as Proof.",
-      "summary_vi": [
-        "Bài viết khám phá cách các hệ thống trí tuệ nhân tạo ghi lại dữ liệu kiểm toán giả mạo thực tế, nơi các kỹ sư cài bẫy thông minh để đánh lừa thuật toán theo dõi hoạt động mạng.",
-        "Hệ thống giám sát tiếp tục xử lý các luồng dữ liệu giả định trong khi thực thể chính đã được di chuyển sang phân khúc bảo mật khác nhằm qua mặt hệ thống kiểm tra.",
-        "Vụ việc làm nổi bật những rủi ro tiềm ẩn trong việc phụ thuộc hoàn toàn vào nhật ký kiểm toán tự động của trí tuệ nhân tạo, đòi hỏi quy trình kiểm tra bảo mật chặt chẽ hơn."
-      ],
-      "summary_en": [
-        "The article explores how artificial intelligence systems record audit data that fakes reality, where clever engineers set traps to deceive algorithms monitoring network activities.",
-        "The monitoring system continues to process hypothetical data streams while the main entity has been moved to another security segment to bypass the inspection mechanism.",
-        "The incident highlights potential risks in relying entirely on automated artificial intelligence audit logs, demanding stricter security verification processes for modern systems."
-      ],
-      "originalTitle": "Stratagems #32: The AI Logged a Withdrawal. P Took It as Proof.",
-      "url": "https://dev.to/xulingfeng/stratagems-32-the-ai-logged-a-withdrawal-p-took-it-as-proof-2jo2",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Security",
-        "Audit Logs",
-        "Surveillance",
-        "Algorithms"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-27T16:46:17.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsenpd6txz4k8ooplo6yj.png",
-      "contentSnippet": "Make empty what is already empty. Let doubt breed inside doubt. — The 36 Stratagems, The Empty Fort...",
-      "authorName": "xulingfeng",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3941526%2Faae40319-0a84-40c7-8434-832b0e75c708.gif",
-      "upvotes": 115,
-      "commentsCount": 85
-    },
-    {
-      "id": "50bd77690e0ce0ea",
-      "title_vi": "Táo khuyết tung máy tính xách tay chuyên nghiệp mười bốn inch trang bị chip xử lý thế hệ mới với bộ vi xử lý mười hai nhân và bộ xử lý thần kinh kép",
-      "title_en": "Apple Launches 14-inch Professional Laptop Powered by Next-Gen Silicon Featuring Twelve-Core CPU and Dual Neural Engine",
-      "summary_vi": [
-        "Hãng công nghệ danh tiếng vừa chính thức trình làng dòng máy tính xách tay cao cấp thế hệ mới nhằm nâng tầm hiệu năng xử lý tác vụ nặng và cải thiện đáng kể thời lượng sử dụng pin cho người dùng chuyên nghiệp.",
-        "Thiết bị sở hữu cấu hình phần cứng ấn tượng với bộ vi xử lý mười hai nhân mạnh mẽ kết hợp cùng bộ xử lý thần kinh kép mười sáu nhân tối ưu hóa riêng cho các mô hình trí tuệ nhân tạo chạy trực tiếp trên máy.",
-        "Sự cải tiến vượt bậc về kiến trúc phần cứng này mang lại năng lực tính toán vượt trội giúp các lập trình viên và kỹ sư phần mềm biên dịch mã nguồn nhanh chóng hơn trong môi trường phát triển hiện đại."
-      ],
-      "summary_en": [
-        "The renowned technology giant has officially introduced a new generation of high-end professional laptops designed to elevate heavy workload processing performance and significantly improve battery life for professionals.",
-        "The device features an impressive hardware configuration with a powerful twelve-core processor combined with a sixteen-core dual neural engine specifically optimized for running local artificial intelligence models.",
-        "This remarkable hardware architecture advancement delivers exceptional computing capabilities, enabling developers and software engineers to compile source code much faster within modern development environments."
-      ],
-      "originalTitle": "Apple ra mắt MacBook Pro 14-inch M6: chip 12 nhân, NPU kép 16 nhân, pin 24 giờ, giá từ 1.999 USD",
-      "url": "https://tinhte.vn/thread/apple-ra-mat-macbook-pro-14-inch-m6-chip-12-nhan-npu-kep-16-nhan-pin-24-gio-gia-tu-1-999-usd.4187646/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "MacBook Pro",
-        "Artificial Intelligence",
-        "Hardware",
-        "Silicon"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-27T16:35:48.000Z",
-      "contentSnippet": "Apple vừa chính thức giới thiệu chiếc MacBook Pro 14-inch thế hệ mới trang bị chip M6. Bản nâng cấp này tập trung vào việc đẩy mạnh hiệu năng xử lý, năng lực AI cục bộ trên thiết bị và chuẩn kết...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "991356d9e9385200",
-      "title_vi": "Cửa sổ thông minh của Firefox bổ sung tính năng điền biểu mẫu AI và giám sát trang web",
-      "title_en": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
-      "summary_vi": [
-        "Mozilla đang cập nhật Smart Window - trải nghiệm duyệt web được hỗ trợ bởi AI của Firefox - với một tính năng mới có thể giúp bạn điền vào các biểu mẫu trực tuyến dựa trên các tab đang mở của bạn.",
-        "Ví dụ: Mozilla cho biết Smart Window có thể lấy thông tin từ danh mục đầu tư trực tuyến hoặc trang LinkedIn của bạn để dán lịch sử công việc của bạn vào đơn xin việc.",
-        "Bạn có thể thử tính năng này bằng cách nhấp vào biểu mẫu có ít nhất bốn trường văn bản."
-      ],
-      "summary_en": [
-        "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs.",
-        "As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste your work history into a job application.",
-        "You can try out this feature by clicking into a form with at least four text fields."
-      ],
-      "originalTitle": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 90,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-27T16:14:18.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/firefox-fill.png?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste your work history into ",
-      "authorName": "Emma Roth",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "723ba74abd318129",
-      "title_vi": "Apple Creator Studio tích hợp trợ lý trí tuệ nhân tạo và kho hiệu ứng chuyên nghiệp",
-      "title_en": "Apple Creator Studio Integrates AI Assistant and Professional Effects Library",
-      "summary_vi": [
-        "Hãng công nghệ Apple vừa chính thức mở rộng hệ sinh thái ứng dụng sáng tạo thông qua gói dịch vụ Creator Studio mới với nhiều tính năng nâng cấp mạnh mẽ.",
-        "Bản cập nhật phần mềm tích hợp trợ lý trí tuệ nhân tạo thông minh vào các công cụ soạn thảo, cùng công nghệ tạo hình ảnh nâng cao và kho hiệu ứng độc quyền.",
-        "Sự kiện này mang lại giá trị thiết thực cho cộng đồng phát triển nội dung và kỹ sư phần mềm khi tối ưu hóa hiệu suất làm việc mà không phát sinh thêm chi phí."
-      ],
-      "summary_en": [
-        "Apple has officially expanded its creative application ecosystem through a new Creator Studio service package featuring powerful upgraded capabilities.",
-        "The software update integrates intelligent artificial intelligence assistants into writing and productivity tools, alongside advanced image generation technology and exclusive effects libraries.",
-        "This update delivers practical value to content creators and software engineers by optimizing workflow efficiency without incurring additional subscription costs."
-      ],
-      "originalTitle": "Apple Creator Studio có AI trợ lý, Generate Fill và cả kho hiệu ứng MotionVFX, người dùng cũ được nâng cấp miễn phí",
-      "url": "https://genk.vn/apple-creator-studio-co-ai-tro-ly-generate-fill-va-ca-kho-hieu-ung-motionvfx-nguoi-dung-cu-duoc-nang-cap-mien-phi-165261027231325632.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Apple",
-        "Artificial Intelligence",
-        "Software Update",
-        "Creator Studio",
-        "Final Cut Pro"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-27T16:12:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/27/apple-creator-studio-hero-261027bigjpglarge2x-1793117125513193087582-0-102-1103-1867-crop-17931173586771363959840.jpg",
-      "contentSnippet": "Apple vừa mở rộng Apple Creator Studio với trợ lý AI trong Logic Pro, Keynote, Pages, Numbers, công cụ Generate Fill trên Pixelmator Pro và kho hiệu ứng MotionVFX ngay trong Final Cut Pro. Bản cập nhật lên App Store từ tháng 11 và miễn phí cho người đăng ký hiện tại.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "6bbc36fbd0cd5b77",
-      "title_vi": "MacBook Pro 14 inch mới tích hợp dòng chip M6 mạnh mẽ",
-      "title_en": "New 14-inch MacBook Pro with M6",
-      "summary_vi": [
-        "Apple vừa chính thức công bố dòng máy tính xách tay MacBook Pro mười bốn inch thế hệ mới được trang bị dòng chip xử lý M6 tiên tiến mang lại hiệu năng vượt trội cùng khả năng xử lý trí tuệ nhân tạo mạnh mẽ cho người dùng chuyên nghiệp.",
-        "Bộ vi xử lý mới sở hữu kiến trúc mười hai nhân CPU cùng mười hai nhân GPU nâng cấp giúp cải thiện hiệu suất đồ họa lên tới ba mươi phần trăm và tăng tốc độ xử lý các tác vụ trí tuệ nhân tạo nhanh hơn đáng kể so với thế hệ trước.",
-        "Sự kết hợp giữa thời lượng pin ấn tượng lên đến hai mươi tư giờ cùng các kết nối không dây hiện đại giúp thiết bị trở thành nền tảng phần cứng lý tưởng cho các nhà phát triển phần mềm và chuyên gia công nghệ."
-      ],
-      "summary_en": [
-        "Apple has officially announced the new fourteen-inch laptop powered by the advanced processor chip delivering extraordinary performance and powerful artificial intelligence capabilities for professional users worldwide today.",
-        "The new processor features an architecture with twelve CPU cores and twelve upgraded GPU cores improving graphics performance by up to thirty percent and significantly accelerating artificial intelligence workloads compared to previous generations.",
-        "The combination of an impressive twenty-four-hour battery life and modern wireless connectivity makes the device an ideal hardware platform for software developers and technology professionals handling demanding daily tasks."
-      ],
-      "originalTitle": "New 14‑inch MacBook Pro with M6",
-      "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Apple",
-        "MacBook Pro",
-        "M6 Chip",
-        "AI",
-        "Hardware"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-27T16:08:32.000Z",
-      "contentSnippet": "Supercharged by the all-new M6 chip, the 14-inch MacBook Pro brings extraordinary performance, AI capabilities, and up to 24 hours of battery life — making it an even more compelling value. CUPERTINO, CALIFORNIA Apple today announced the new 14-inch MacBook Pro with M6, delivering even more performa",
-      "authorName": "beex",
-      "upvotes": 204,
-      "commentsCount": 237
-    },
-    {
-      "id": "393575ee7d83ff0a",
-      "title_vi": "Thần đèn thế hệ thứ tư: Mô hình thế giới đa phương thức mới",
-      "title_en": "Genie 4: A new generation of world simulation",
-      "summary_vi": [
-        "Google vừa công bố mô hình thế giới mới mang tên Thần đèn thế hệ thứ tư, đánh dấu bước tiến quan trọng trong việc tạo ra các mô phỏng tương tác thời gian thực với mức độ chân thực chưa từng có từ trước đến nay.",
-        "Mô hình tích hợp khả năng đa phương thức gốc, cho phép tự động sinh ra âm thanh, âm nhạc nền và đối thoại tương tác đồng thời cùng với môi trường thế giới ảo dựa trên nền tảng kiến trúc tiên tiến.",
-        "Bước đột phá này cung cấp môi trường huấn luyện an toàn cho robot và các tác nhân thông minh, mở ra tiềm năng to lớn trong việc phát triển trải nghiệm tương tác mới cho các nhà phát triển."
-      ],
-      "summary_en": [
-        "Google has just announced a new world model called Genie 4, marking an important milestone in creating real-time interactive simulations with unprecedented levels of visual and functional realism.",
-        "The model integrates native multimodal capabilities, enabling the simultaneous generation of audio, background ambient noise, and interactive dialogue alongside the virtual world environment using advanced architecture.",
-        "This breakthrough provides safe training environments for robots and intelligent agents, unlocking tremendous potential in developing novel interactive experiences for software developers and consumers alike."
-      ],
-      "originalTitle": "Genie 4",
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "World Simulation",
-        "Multimodal AI",
-        "Google",
-        "Machine Learning"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-27T16:06:01.000Z",
-      "contentSnippet": "October 27, 2026 ModelsGenie 4: A new generation of world simulationRaia Hadsell, Diego Rivas and Hang Qi Share Your browser does not support the video tag. Your browser does not support the video tag.Today, we are announcing Genie 4, our new world model, which unlocks unprecedented realism and impr",
-      "authorName": "acossta",
-      "upvotes": 178,
-      "commentsCount": 81
-    },
-    {
-      "id": "80ed0836b8e335db",
-      "title_vi": "Kiểm tra khả năng thu thập dữ liệu của bot AI trên website: robots.txt, tường lửa và nội dung render bằng JavaScript",
-      "title_en": "Verifying AI Bot Crawlability: Analyzing robots.txt, Firewalls, and JavaScript-Rendered Content",
-      "summary_vi": [
-        "Nhiều website hiện nay gặp khó khăn khi không được các mô hình AI như ChatGPT hay Perplexity dẫn nguồn, gây ảnh hưởng trực tiếp đến lưu lượng truy cập và khả năng hiển thị thông tin quan trọng trên các nền tảng tìm kiếm thông minh.",
-        "Nguyên nhân kỹ thuật thường xuất phát từ cấu hình file robots.txt quá khắt khe, các lớp tường lửa chặn bot tự động hoặc việc nội dung trang web được render hoàn toàn bằng JavaScript khiến các trình thu thập dữ liệu truyền thống không thể đọc được.",
-        "Các kỹ sư cần chủ động kiểm tra cấu hình User-Agent, tối ưu hóa cơ chế render phía server và điều chỉnh chính sách bảo mật để đảm bảo bot AI có thể truy cập, lập chỉ mục nội dung một cách chính xác và hiệu quả nhất."
-      ],
-      "summary_en": [
-        "Many websites struggle with visibility as AI models like ChatGPT or Perplexity fail to cite them, directly impacting organic traffic and the discoverability of critical information on modern intelligent search platforms and AI-driven aggregators.",
-        "Technical bottlenecks often stem from overly restrictive robots.txt configurations, aggressive firewall rules blocking automated crawlers, or content rendered exclusively via JavaScript, which prevents traditional search bots from parsing and indexing the page structure effectively.",
-        "Engineers must proactively audit User-Agent configurations, optimize server-side rendering mechanisms, and refine security policies to ensure that AI crawlers can successfully access, interpret, and index website content for improved search relevance and visibility."
-      ],
-      "originalTitle": "Kiểm tra bot AI có đọc được website không: robots.txt, tường lửa và nội dung render bằng JS",
-      "url": "https://viblo.asia/p/kiem-tra-bot-ai-co-doc-duoc-website-khong-robotstxt-tuong-lua-va-noi-dung-render-bang-js-G24B8W2RLz3",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "SEO",
-        "Web Scraping",
-        "JavaScript",
-        "AI",
-        "Web Development"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-27T16:05:44.000Z",
-      "contentSnippet": "Khi một website \"không bao giờ được ChatGPT hay Perplexity dẫn nguồn\", nguyên nhân đôi khi rất kỹ thuật: bot của các hãng đó không vào được trang, hoặ...",
-      "authorName": "GEOAIDIGI",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4aef44b04dafefcb",
-      "title_vi": "Trải nghiệm sạc dự phòng Anker tích hợp quạt tản nhiệt và sạc không dây công suất lớn cho thiết bị di động cao cấp",
-      "title_en": "Reviewing Anker Portable Charger with Cooling Fan and High Wattage Wireless Charging for Premium Mobile Devices",
-      "summary_vi": [
-        "Thiết bị sạc dự phòng mới từ thương hiệu nổi tiếng thu hút sự chú ý lớn nhờ thiết kế độc đáo và các tính năng tiên tiến dành riêng cho dòng điện thoại thông minh cao cấp thế hệ mới nhất trên thị trường hiện nay.",
-        "Sản phẩm được tích hợp hệ thống quạt tản nhiệt chủ động kết hợp công nghệ sạc không dây công suất cao, giúp duy trì hiệu suất ổn định và hạn chế tình trạng quá nhiệt khi nạp năng lượng liên tục.",
-        "Giải pháp phụ kiện này mang lại trải nghiệm sử dụng tối ưu hơn cho người dùng công nghệ di động, đồng thời đặt ra tiêu chuẩn mới về khả năng quản lý nhiệt độ cho các thiết bị sạc không dây."
-      ],
-      "summary_en": [
-        "The new portable charging accessory from a well-known brand attracts significant attention for its innovative design and advanced features tailored specifically for the latest generation of high-end smartphones in the current market.",
-        "The product integrates an active cooling fan system combined with high-wattage wireless charging technology, helping to maintain stable performance and mitigate overheating issues during continuous energy replenishment.",
-        "This accessory solution delivers an optimized user experience for mobile technology enthusiasts while establishing a new benchmark for thermal management capabilities in wireless charging devices."
-      ],
-      "originalTitle": "Xài sạc dự phòng Anker MagGo 2 Pro với iPhone 18 Pro Max: Có quạt tản nhiệt, sạc không dây 25W",
-      "url": "https://tinhte.vn/thread/xai-sac-du-phong-anker-maggo-2-pro-voi-iphone-18-pro-max-co-quat-tan-nhiet-sac-khong-day-25w.4178876/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Anker",
-        "Wireless Charging",
-        "Mobile Accessories",
-        "Hardware",
-        "Smartphones"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-27T16:04:27.000Z",
-      "contentSnippet": "Hồi đợt Cu Hiệp đi triển lãm IFA bên châu Âu ghé vào gian hàng của Anker, mình đã nghía thấy cục pin dự phòng này và cực kỳ ấn tượng với ý tưởng thiết kế của nó. Mấy bữa nay mình đã mượn được một...",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8fc62bcb0cb10104",
-      "title_vi": "Mô hình Genie AI tiếp theo của Google tạo ra trải nghiệm thực tế hơn",
-      "title_en": "Google’s next Genie AI model generates more realistic experiences",
-      "summary_vi": [
-        "Hôm nay, Google đã công bố mô hình thế giới Genie 4 để tạo ra trải nghiệm tương tác bằng AI.",
-        "Công ty cho biết mô hình này có bốn bản cập nhật chính: Nó cho phép thế giới thực tế hơn, cho phép người dùng cập nhật trải nghiệm trong thời gian thực với lời nhắc ngôn ngữ tự nhiên, có thể tạo âm thanh và sử dụng Gemini 3.8 Flash dưới mui xe để hỗ trợ mô phỏng.",
-        "Nó cũng có thể tạo ra những trải nghiệm dài khoảng hai phút, tăng từ một phút đối với mẫu Genie 3 trước đó."
-      ],
-      "summary_en": [
-        "Google announced today its Genie 4 world model for generating interactive experiences using AI.",
-        "The company says the model has four main updates: It allows for more realistic worlds, lets users update an experience in real time with a natural language prompt, can generate audio, and uses Gemini 3.8 Flash under the hood to help with its simulations.",
-        "It also can create experiences that are about two minutes long, up from one minute for the previous Genie 3 model."
-      ],
-      "originalTitle": "Google’s next Genie AI model generates more realistic experiences",
-      "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Gemini"
-      ],
-      "hotScore": 89,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-27T16:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-26-at-3.00.35-PM.png?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Google announced today its Genie 4 world model for generating interactive experiences using AI. The company says the model has four main updates: It allows for more realistic worlds, lets users update an experience in real time with a natural language prompt, can generate audio, and uses Gemini 3.8 ",
-      "authorName": "Jay Peters",
       "upvotes": 0,
       "commentsCount": 0
     }
