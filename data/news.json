@@ -1,7 +1,350 @@
 {
-  "lastUpdated": "2026-11-08T12:31:27.333Z",
+  "lastUpdated": "2026-11-08T21:30:51.926Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "fcf957b0192a51b2",
+      "title_vi": "JavaScript: Chạy nhiều promise cùng lúc bằng Promise.allSettled — Một lỗi không làm hỏng cả lô",
+      "title_en": "JavaScript: Running Multiple Promises Concurrently with Promise.allSettled — Preventing Single Failures from Breaking the Batch",
+      "summary_vi": [
+        "Khi phát triển ứng dụng web hiện đại, lập trình viên thường xuyên phải thực hiện nhiều yêu cầu gọi API bất đồng bộ độc lập cùng lúc để hiển thị dữ liệu tổng hợp trên một giao diện trang tổng quan phức tạp.",
+        "Phương thức Promise.allSettled trong JavaScript cung cấp một cơ chế xử lý mạnh mẽ cho phép chờ đợi tất cả các tác vụ hoàn thành bất kể trạng thái thành công hay thất bại mà không bị dừng đột ngột giữa chừng.",
+        "Việc áp dụng giải pháp này giúp cải thiện đáng kể độ ổn định của hệ thống phía người dùng, ngăn chặn tình trạng sập toàn bộ giao diện khi chỉ một vài dịch vụ phụ trợ gặp sự cố mạng hoặc lỗi."
+      ],
+      "summary_en": [
+        "When developing modern web applications, developers frequently need to execute multiple independent asynchronous API requests simultaneously to display aggregated data on complex dashboard interfaces.",
+        "The Promise.allSettled method in JavaScript provides a robust handling mechanism that allows waiting for all tasks to complete regardless of their fulfillment or rejection status without early termination.",
+        "Applying this solution significantly improves client-side system stability, preventing entire user interfaces from crashing when only a few backend services encounter network issues or unexpected errors."
+      ],
+      "originalTitle": "JavaScript: chạy nhiều promise cùng lúc bằng Promise.allSettled — một lỗi không làm hỏng cả lô",
+      "url": "https://viblo.asia/p/javascript-chay-nhieu-promise-cung-luc-bang-promiseallsettled-mot-loi-khong-lam-hong-ca-lo-wd43ExwKLX9",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "JavaScript",
+        "Promises",
+        "Web Development",
+        "Asynchronous",
+        "Frontend"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-08T22:18:57.000Z",
+      "contentSnippet": "Khi cần gọi nhiều API độc lập cùng lúc — ví dụ lấy thông tin người dùng, danh sách bài viết và số liệu thống kê cho một trang dashboard — Promise.allS...",
+      "authorName": "Linh Fish Dev",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ffca2a894859138f",
+      "title_vi": "The Verge so sánh dòng điện thoại gập với Android: Phần cứng đã tối ưu nhưng phần mềm vẫn hạn chế",
+      "title_en": "The Verge Compares Foldable Duo With Android Foldables: Hardware Catches Up While Software Lags",
+      "summary_vi": [
+        "Bài viết phân tích sự chênh lệch lớn giữa phần cứng thiết bị gập và khả năng tối ưu hóa phần mềm thực tế trên các dòng sản phẩm di động cao cấp hiện nay trên thị trường.",
+        "Khảo sát cho thấy màn hình lớn chưa đồng nghĩa với không gian hiển thị hiệu quả do giao diện ứng dụng di động chưa khai thác tối đa diện tích thực tế của thiết bị.",
+        "Các nhà phát triển phần mềm và kỹ sư ứng dụng cần tập trung cải thiện trải nghiệm giao diện thích ứng để tận dụng triệt để tiềm năng từ các thiết bị di động màn hình gập."
+      ],
+      "summary_en": [
+        "The article analyzes the significant gap between foldable hardware development and actual software optimization capabilities across high-end mobile product lineups in the market today.",
+        "Research shows that larger screens do not necessarily guarantee efficient display space because mobile application interfaces fail to fully exploit the actual surface area of devices.",
+        "Software developers and application engineers need to focus on improving adaptive UI experiences to thoroughly leverage the hardware potential offered by modern foldable mobile devices."
+      ],
+      "originalTitle": "The Verge so iPhone Duo với Android gập: phần cứng đã theo kịp, phần mềm còn hụt",
+      "url": "https://tinhte.vn/thread/the-verge-so-iphone-duo-voi-android-gap-phan-cung-da-theo-kip-phan-mem-con-hut.4190529/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Mobile",
+        "Hardware",
+        "UI/UX",
+        "Software Optimization",
+        "Foldable Devices"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-08T20:54:17.000Z",
+      "contentSnippet": "Một chiếc điện thoại gập có màn hình lớn chưa chắc đã cho nhiều không gian sử dụng hơn. Với iPhone Duo, khoảng cách so với Android gập đang nằm khá rõ ở chỗ này: ứng dụng có tận dụng hết màn hình...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "d1d29453d583846b",
+      "title_vi": "Trình khởi chạy của Trò chơi Epic sắp có mặt trên Hệ điều hành Steam",
+      "title_en": "Epic Games Launcher is coming to SteamOS",
+      "summary_vi": [
+        "Công ty Trò chơi Epic đã chính thức xác nhận kế hoạch đưa phần mềm quản lý trò chơi của họ lên hệ điều hành nhân Linux do Valve phát triển dành cho các thiết bị chơi game cầm tay.",
+        "Bản cập nhật sắp tới sẽ mở rộng khả năng tương thích với nhiều bản phân phối Linux khác nhau, chuyển đổi từ định dạng tệp AppImage sang các gói cài đặt định dạng Debian và Ubuntu để tối ưu hóa hiệu suất.",
+        "Động thái này đánh dấu bước tiến quan trọng trong việc phá vỡ các rào cản độc quyền giữa các nền tảng phân phối trò chơi số, mang lại nhiều lựa chọn linh hoạt hơn cho cộng đồng người dùng mã nguồn mở."
+      ],
+      "summary_en": [
+        "Epic Games has officially confirmed plans to bring their game management software to the Linux-based operating system developed by Valve specifically for handheld gaming devices.",
+        "The upcoming update will expand compatibility across various Linux distributions, transitioning from AppImage file formats to Debian and Ubuntu installation packages for optimized system performance.",
+        "This strategic move marks a significant milestone in breaking down monopolistic barriers between digital game distribution platforms, providing much greater flexibility for the open-source community."
+      ],
+      "originalTitle": "Epic Games Launcher is coming to SteamOS",
+      "url": "https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Linux",
+        "SteamOS",
+        "Gaming",
+        "Open Source",
+        "Software Distribution"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-08T20:52:05.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STK108_EPIC_GAMES_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "In October, Epic Games said that it was \"investigating\" making Fortnite compatible with Valve's Linux-based SteamOS. At the time, Epic Games Launcher was in preview, but SteamOS was not specifically listed as a supported distro. Now, Communications Director Jake Jones has confirmed SteamOS compatibi",
+      "authorName": "Terrence O’Brien",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "54c06e97d6e0a2b7",
+      "title_vi": "Công ty sản xuất chip hàng đầu đang điều tra mối quan hệ giữa tổng giám đốc và nghi vấn tình báo nước ngoài",
+      "title_en": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+      "summary_vi": [
+        "Hãng sản xuất chip đồ họa lớn nhất thế giới chính thức mở cuộc điều tra độc lập đối với nhà sáng lập kiêm tổng giám đốc điều hành liên quan đến cáo buộc tiếp cận từ tình báo nước ngoài.",
+        "Hội đồng quản trị đã thành lập một ủy ban độc lập với sự hỗ trợ của các chuyên gia pháp lý bên ngoài nhằm xem xét kỹ lưỡng mối liên hệ với một nhân vật cấp cao từ công ty công nghệ đối tác.",
+        "Sự việc này đặt ra những thách thức lớn về công tác bảo mật thông tin và an ninh chuỗi cung ứng phần cứng, gây ảnh hưởng mạnh mẽ đến chiến lược kinh doanh và vị thế của các tập đoàn công nghệ lớn."
+      ],
+      "summary_en": [
+        "The leading graphics processing unit manufacturer has officially launched an independent investigation into its founder and chief executive officer regarding alleged approaches by foreign intelligence agencies.",
+        "The board of directors established an independent committee assisted by outside legal counsel to thoroughly examine the connections with a high-ranking executive from a partner technology company.",
+        "This incident raises significant challenges regarding information security and hardware supply chain protection, profoundly impacting the business strategies and market positions of major technology corporations."
+      ],
+      "originalTitle": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Nvidia",
+        "Cybersecurity",
+        "Semiconductor",
+        "AI",
+        "Corporate Governance"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-08T20:22:39.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is ",
+      "authorName": "Terrence O’Brien",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "8b18a5361e6d14a9",
+      "title_vi": "Cách tôi vượt qua tình trạng quá tải trí não khi làm việc với trí tuệ nhân tạo",
+      "title_en": "How I Fight AI Brain Fry",
+      "summary_vi": [
+        "Việc sử dụng các công cụ lập trình trí tuệ nhân tạo từ giao diện dòng lệnh thường khiến lập trình viên phải xử lý nhiều luồng công việc cùng lúc, dẫn đến tình trạng quá tải nhận thức, mất tập trung và kiệt sức nghiêm trọng.",
+        "Tác giả đã xây dựng một giải pháp quản lý công việc dựa trên hàng đợi ưu tiên tích hợp trực tiếp vào hệ thống quản lý mã nguồn Git, trong đó mỗi yêu cầu công việc là một tệp đánh dấu lưu trữ ngay cạnh mã nguồn thực tế.",
+        "Mô hình này giúp loại bỏ sự phụ thuộc vào các cửa sổ trò chuyện tạm thời, đồng thời tự động hóa các tác vụ nghiên cứu, kiểm thử và triển khai trên nhánh phụ, qua đó tối ưu hóa hiệu suất lập trình an toàn."
+      ],
+      "summary_en": [
+        "Using artificial intelligence coding assistants from the command line interface often forces developers to juggle multiple concurrent workflows, leading to severe cognitive overload, fragmented focus, and mental exhaustion.",
+        "The author developed a priority queue management solution integrated directly into the Git version control system, where every task ticket is stored as a markdown file right next to the actual codebase.",
+        "This architecture eliminates dependency on temporary chat windows while automating research, testing, and staging tasks on separate branches, thereby optimizing programming productivity and development safety."
+      ],
+      "originalTitle": "How I Fight AI Brain Fry",
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "AI",
+        "Git",
+        "Workflow",
+        "Productivity",
+        "Software Engineering"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-08T19:37:42.000Z",
+      "contentSnippet": "If you work with Claude Code or Codex from the terminal, you know this one. You start a task. The AI takes time to reply, so you start another one. Then the first one replies, but the reply needs one clarification, one follow up and one side task — and each of them wants its own tab. Then the second",
+      "authorName": "kyunez",
+      "upvotes": 81,
+      "commentsCount": 51
+    },
+    {
+      "id": "b9c0dd474c98ba84",
+      "title_vi": "Apple đang chạy đua để biến Siri thành trợ lý ảo thông minh hơn",
+      "title_en": "Apple is racing to make Siri more agentic",
+      "summary_vi": [
+        "Apple đang chịu áp lực lớn từ ban lãnh đạo cấp cao nhằm đẩy nhanh tiến độ phát triển Siri, biến nó thành một tác nhân AI mạnh mẽ có khả năng cạnh tranh trực tiếp với các đối thủ lớn như OpenAI và Meta trên thị trường.",
+        "Các cải tiến kỹ thuật sắp tới tập trung vào việc cho phép Siri kiểm soát chi tiết các ứng dụng gốc, bao gồm khả năng chỉnh sửa ảnh chuyên sâu và quản lý tab trình duyệt Safari thông qua các lệnh điều khiển thông minh.",
+        "Động thái này đánh dấu bước chuyển mình quan trọng của Apple trong việc tích hợp AI vào hệ sinh thái, buộc các kỹ sư phải tối ưu hóa kiến trúc phần mềm để bắt kịp tốc độ đổi mới chóng mặt của ngành công nghệ toàn cầu."
+      ],
+      "summary_en": [
+        "Apple is facing significant pressure from its top leadership to accelerate the development of Siri, aiming to transform it into a powerful AI agent capable of competing directly with major rivals like OpenAI and Meta in the market.",
+        "Upcoming technical enhancements focus on granting Siri granular control over first-party applications, including advanced image editing capabilities and the ability to organize browser tabs within Safari through sophisticated, intent-based command execution mechanisms.",
+        "This shift marks a critical evolution in Apple's ecosystem integration, compelling engineers to optimize software architecture to keep pace with the rapid innovation cycles currently defining the global artificial intelligence and software development landscape."
+      ],
+      "originalTitle": "Apple is racing to make Siri more agentic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Siri",
+        "Apple",
+        "Machine Learning",
+        "Software Engineering"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-08T19:18:19.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Siri-AI-Being-invoked-3.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the com",
+      "authorName": "Terrence O’Brien",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c7aa9e435f02c624",
+      "title_vi": "Dux: Giao diện máy tính để bàn Wayland miễn phí, mã nguồn mở kèm trình quản lý tệp và tính năng đổi giao diện",
+      "title_en": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+      "summary_vi": [
+        "Dux Modular Shell phiên bản 2.1 ra mắt mang đến hệ thống giám sát tài nguyên mới cùng trình phát đa phương tiện được thiết kế lại hoàn toàn nhằm tối ưu hóa trải nghiệm người dùng trên nền tảng Wayland.",
+        "Giải pháp này tích hợp trình quản lý tệp có tốc độ cao theo hướng sử dụng bàn phím, hỗ trợ chia đôi khung nhìn cùng khả năng quản lý tiến trình hệ thống một cách hiệu quả và liền mạch.",
+        "Công cụ này cung cấp một hệ sinh thái bàn phím hiện đại, giúp các kỹ sư và lập trình viên tùy biến giao diện linh hoạt, nâng cao hiệu suất làm việc trên các bản phân phối Linux."
+      ],
+      "summary_en": [
+        "The new Dux Modular Shell version 2.1 introduces an advanced system monitor and a completely revamped media player designed to optimize the overall user experience across modern Wayland platforms.",
+        "This solution integrates a high-speed, keyboard-first file manager with split-view capabilities, providing developers and system administrators with efficient stateless process monitoring and network management tools.",
+        "The platform offers a highly customizable desktop environment that empowers Linux engineers to streamline their workflow, improve interface density, and enhance productivity through seamless window management."
+      ],
+      "originalTitle": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+      "url": "https://duxlabs.dev/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Wayland",
+        "Linux",
+        "Open Source",
+        "Desktop Environment",
+        "Hyprland"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-08T19:08:51.000Z",
+      "contentSnippet": "Skip to main contentDMS 2.1 Stormborn. New system monitor, video wallpapers, revamped media player, interface density, numerous dux files enhancements, and more. Read the announcement⚠️ JavaScript is disabled. Some interactive features and animations on this site require JavaScript to function prope",
+      "authorName": "indigodaddy",
+      "upvotes": 77,
+      "commentsCount": 28
+    },
+    {
+      "id": "fe5fdb83e1ea95f1",
+      "title_vi": "Ngân hàng Goldman Sachs thu hồi quyền sử dụng công cụ lập trình Claude Code đối với nhân viên môi giới và giao dịch tài chính",
+      "title_en": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
+      "summary_vi": [
+        "Ngân hàng đầu tư lớn Goldman Sachs đã quyết định thắt chặt quyền truy cập vào các công cụ lập trình trí tuệ nhân tạo tiên tiến, đặc biệt là Claude Code của Anthropic và GitHub của Microsoft, nhằm kiểm soát rủi ro vận hành.",
+        "Quyết định cập nhật này loại bỏ khả năng sử dụng mã nguồn tự động của các nhà giao dịch và nhân viên ngân hàng, những người từng dùng AI để phân tích dòng tiền của khách hàng và mô phỏng các biến động thị trường.",
+        "Động thái này phản ánh xu hướng quản trị rủi ro nghiêm ngặt hơn tại các định chế tài chính lớn đối với việc ứng dụng AI tạo sinh, đồng thời giới hạn các công cụ này chủ yếu cho đội ngũ kỹ sư phần mềm chuyên trách."
+      ],
+      "summary_en": [
+        "Major investment bank Goldman Sachs has decided to restrict access to advanced artificial intelligence coding tools, specifically Anthropic's Claude Code and Microsoft's GitHub, in order to control operational risks.",
+        "This updated policy revokes automated coding capabilities from traders and bankers who previously utilized AI tools to analyze customer cash flows and simulate complex market movements.",
+        "This move reflects a stricter risk management trend among major financial institutions regarding generative AI adoption, limiting such powerful tools primarily to specialized software engineering teams."
+      ],
+      "originalTitle": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Claude Code",
+        "Anthropic",
+        "Software Engineering",
+        "Risk Management"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-08T18:16:07.000Z",
+      "contentSnippet": "All ArticlesShare:marketers-guide-to-open-clawSponsored contentPresented by↗ Goldman Sachs has restricted Anthropic's Claude Code and Microsoft's GitHub to its engineers, cutting off traders and bankers who used the tools to track client flows and build market models. The bank barred its Hong Kong b",
+      "authorName": "TheWiggles",
+      "upvotes": 404,
+      "commentsCount": 250
+    },
+    {
+      "id": "dcfc87a759380b62",
+      "title_vi": "Kịch bản Linux gửi email hàng ngày cho Sam Altman về dung lượng RAM chưa sử dụng trên máy tính cá nhân",
+      "title_en": "RAM Altman: Linux Script Emails Sam Altman Daily How Much Unused RAM in Your PC",
+      "summary_vi": [
+        "Sau những phát ngôn gây tranh cãi về nhu cầu tài nguyên phần cứng vượt trội của trí tuệ nhân tạo so với thiết bị tiêu dùng cá nhân, cộng đồng lập trình viên đã tạo ra nhiều phản ứng mỉa mai.",
+        "Lập trình viên mã nguồn mở Iain Kay đã phát triển một tập lệnh BASH mang tên Ram Altman trên hệ điều hành Linux để theo dõi lượng bộ nhớ RAM nhàn rỗi trên máy trạm và máy tính xách tay.",
+        "Tập lệnh này tích hợp các mẫu email châm biếm và cơ chế kiểm tra cục bộ an toàn, giúp quản trị viên hệ thống kiểm tra mô phỏng tải bộ nhớ mà không gây ra tấn công từ chối dịch vụ."
+      ],
+      "summary_en": [
+        "Following controversial statements regarding artificial intelligence hardware demands superseding consumer electronics, software developers responded with humorous yet pointed technological mockeries.",
+        "Open-source developer Iain Kay engineered a BASH script named Ram Altman on Linux environments designed to monitor idle random access memory across workstations and laptops.",
+        "The utility features sarcastic email templates and secure local testing mechanisms, enabling systems administrators to simulate memory workloads safely without spamming external servers."
+      ],
+      "originalTitle": "RAM Altman: Linux Script Emails Sam Altman Daily How Much Unused RAM in Your PC",
+      "url": "https://respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Linux",
+        "Bash Script",
+        "Open Source",
+        "AI",
+        "Hardware"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-08T17:20:29.000Z",
+      "contentSnippet": "Sam Altman is not having a good couple of weeks; ever since he said OpenAI’s ram needs are more important than consumer electronics, the internet has been unforgiving. But one man has taken things one step further to mock Altman’s ridiculous super villain sounding statements. Open-source developer I",
+      "authorName": "randycupertino",
+      "upvotes": 133,
+      "commentsCount": 45
+    },
+    {
+      "id": "c3eb3e7c8e5ec896",
+      "title_vi": "Trải nghiệm tính năng điều khiển iPhone bằng giọng nói trên bản cập nhật mới",
+      "title_en": "Experiencing Voice Control and AI Features on the Latest iOS Developer Beta",
+      "summary_vi": [
+        "Người dùng đã trải nghiệm phiên bản iOS nhà phát triển mới và ghi nhận khả năng xử lý ngôn ngữ tự nhiên tiếng Việt của trợ lý ảo được cải thiện rõ rệt so với các thế hệ trước đây.",
+        "Hệ thống trí tuệ nhân tạo tích hợp sâu cho phép người dùng ra lệnh bằng giọng nói để thực hiện các tác vụ phức tạp ngay cả trên các ứng dụng của bên thứ ba không do Apple phát triển.",
+        "Bước tiến này đánh dấu sự cải thiện đáng kể trong trải nghiệm người dùng di động, đồng thời mở ra tiềm năng ứng dụng các mô hình ngôn ngữ lớn trực tiếp trên thiết bị phần cứng."
+      ],
+      "summary_en": [
+        "Users have tested the latest developer beta and noted significant improvements in natural language processing capabilities for Vietnamese within the integrated virtual assistant.",
+        "The deeply integrated artificial intelligence system allows users to execute complex tasks via voice commands even across third-party applications not developed by Apple.",
+        "This advancement marks a notable enhancement in mobile user experience while unlocking the potential for running large language models directly on hardware devices."
+      ],
+      "originalTitle": "Điều khiển iPhone bằng giọng nói",
+      "url": "https://tinhte.vn/thread/dieu-khien-iphone-bang-giong-noi.4190681/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iOS",
+        "Siri",
+        "Artificial Intelligence",
+        "Mobile Development",
+        "Voice Control"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-08T17:07:01.000Z",
+      "contentSnippet": "Mình cài thử bản iOS 27.3 Dev Beta và thấy Siri AI trong đó hiểu Tiếng Việt tự nhiên tốt hơn và có thể điều khiển được kể cả các app không phải của Apple trên iPhone. Hiện tại mới là phiên bản dev...",
+      "authorName": "cuhiep",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "474d7b166bdb9224",
       "title_vi": "Bí quyết vượt qua vòng phỏng vấn kỹ sư phần mềm tại ANZ sau khóa học tại Engineer Pro",
@@ -32,6 +375,41 @@
       "publishedAt": "2026-11-08T16:22:15.000Z",
       "contentSnippet": "Với hơn 5 năm kinh nghiệm trong lĩnh vực phần mềm, học viên của Engineer Pro đã có một bước ngoặt lớn trong sự nghiệp khi chính thức nhận được offer t...",
       "authorName": "EngineerPro",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "184c1db3f9a4bbec",
+      "title_vi": "Máy tính xách tay MacBook Air chip M5 giảm giá xuống mức thấp nhất kể từ tháng 7",
+      "title_en": "Apple's M5 MacBook Air is down to its lowest price since July",
+      "summary_vi": [
+        "Dòng máy tính xách tay MacBook Air sử dụng bộ vi xử lý M5 mới nhất của Apple đang được giảm giá mạnh hai trăm đô la trên nhiều nền tảng bán lẻ trực tuyến lớn tại thị trường quốc tế.",
+        "Phiên bản tiêu chuẩn sở hữu chip M5 mạnh mẽ kết hợp RAM mười sáu gigabyte cùng ổ cứng thể rắn dung lượng năm trăm mười hai gigabyte đang thu hút sự quan tâm lớn từ cộng đồng công nghệ.",
+        "Mức giá ưu đãi này mang lại giá trị thiết thực cho người dùng chuyên nghiệp khi cần một thiết bị di động hiệu năng cao để lập trình, xử lý đồ họa và phát triển phần mềm."
+      ],
+      "summary_en": [
+        "The latest MacBook Air laptops powered by Apple's M5 processor are currently receiving a significant two hundred dollar discount across major online retail platforms in the international market.",
+        "The base configuration featuring the powerful M5 chip combined with sixteen gigabytes of RAM and a five hundred twelve gigabyte solid-state drive is attracting strong interest from the tech community.",
+        "This promotional pricing delivers practical value for professional users who require a high-performance mobile device for programming, graphic design, and software development tasks."
+      ],
+      "originalTitle": "Apple’s M5 MacBook Air is down to its lowest price since July",
+      "url": "https://www.theverge.com/gadgets/1029019/apple-macbook-air-13-15-inch-m5-deal-sale",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "MacBook Air",
+        "Hardware",
+        "M5",
+        "Laptops"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-08T16:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268408_Apple_MacBook_Air_15_M5_laptop_ADiBenedetto_0005.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "A top-down view of the 15-inch MacBook Air, which features Apple’s M5 processor. | Photo: Antonio G. Di Benedetto / The Verge The latest 13-inch MacBook Air is currently available for $1,099.99, marking the second time we’ve seen this $200 discount following the company’s hefty price increases over ",
+      "authorName": "Cameron Faulkner",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8206,384 +8584,6 @@
       "publishedAt": "2026-10-28T09:09:01.000Z",
       "contentSnippet": "Bài viết này được dịch và biên tập từ bài gốc tiếng Anh trên blog của Modelflare. Hướng dẫn chi tiết đến từng field về output JSON Schema strict trên...",
       "authorName": "Castaly",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "5f6249ea4fdc399f",
-      "title_vi": "Đánh giá thước phim sử thi đầu tiên tạo bởi Trí tuệ nhân tạo Grok: Đồ họa chấp nhận được nhưng chưa thể sánh ngang kiệt tác điện ảnh",
-      "title_en": "Evaluating the first epic film generated by Grok AI: Acceptable graphics but falling far short of cinematic masterpieces",
-      "summary_vi": [
-        "Sau những tranh cãi xoay quanh bộ phim sử thi của đạo diễn nổi tiếng, Elon Musk đã chính thức giới thiệu đoạn video dài bảy phút được tạo hoàn toàn bằng công cụ trí tuệ nhân tạo Grok.",
-        "Sản phẩm này minh họa khả năng sinh video tự động từ hệ thống trí tuệ nhân tạo tạo sinh, thể hiện sự tiến bộ trong việc kết hợp mạng neural để tái hiện các cảnh quay phức tạp.",
-        "Sự kiện này đánh dấu bước tiến mới của công nghệ tạo sinh nội dung đa phương tiện, đồng thời mở ra cuộc cạnh tranh gay gắt giữa các mô hình ngôn ngữ lớn trong việc sản xuất video chất lượng cao."
-      ],
-      "summary_en": [
-        "Following ongoing controversies surrounding a renowned director's epic film, Elon Musk officially released a seven-minute video generated entirely through the Grok artificial intelligence tool.",
-        "This product illustrates the capability of automated video generation from generative AI systems, demonstrating advancements in neural networks to render complex cinematic sequences effectively.",
-        "This milestone marks a new step for multimedia generative technologies while sparking intense competition among large language models in producing high-quality video content."
-      ],
-      "originalTitle": "Đánh giá tập phim Odyssey đầu tiên từ Grok AI: Đồ họa ổn nhưng vẫn thua xa kiệt tác từ Christopher Nolan",
-      "url": "https://genk.vn/danh-gia-tap-phim-odyssey-dau-tien-tu-grok-ai-do-hoa-on-nhung-van-thua-xa-kiet-tac-tu-christopher-nolan-165261028142318904.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Grok AI",
-        "Generative AI",
-        "Video Generation",
-        "Elon Musk",
-        "Neural Networks"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T08:22:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/28/avatar1793172131508-17931721321941981390537.png",
-      "contentSnippet": "Sau những lời chỉ trích nhắm vào bộ phim The Odyssey của Christopher Nolan, Elon Musk đã chính thức tung ra phiên bản sử thi dài bảy phút làm bằng Grok AI.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "febd6542ca9d8eca",
-      "title_vi": "Sinh viên lạm dụng trí tuệ nhân tạo, giáo sư Toán học đoạt giải thưởng Fields phải dừng chấm bài tập về nhà",
-      "title_en": "Fields Medalist Professor Stops Grading Homework as Students Overuse Artificial Intelligence",
-      "summary_vi": [
-        "Sự bùng nổ của các công cụ trí tuệ nhân tạo tạo ra thách thức lớn trong giáo dục đại học khi sinh viên ngày càng lạm dụng công nghệ này để giải quyết các bài tập về nhà một cách tự động.",
-        "Giáo sư Toán học đạt giải thưởng Fields đã quyết định thay đổi phương pháp đánh giá truyền thống bằng cách chỉ cần sinh viên nộp bài là nhận điểm do không thể tìm ra giải pháp kiểm chứng thủ công hiệu quả.",
-        "Tình trạng này đặt ra bài toán cấp thiết cho các cơ sở đào tạo công nghệ và khoa học trong việc tái định nghĩa phương pháp kiểm tra năng lực thực tế của học viên trước sự tiến bộ vũ bão của các mô hình ngôn ngữ lớn."
-      ],
-      "summary_en": [
-        "The surge of artificial intelligence tools creates major challenges in higher education as students increasingly overuse this technology to automatically solve their homework assignments without genuine effort.",
-        "A Fields Medalist mathematics professor decided to change traditional grading methods by simply awarding points for submission due to the inability to find an effective manual verification solution.",
-        "This situation poses an urgent problem for technology and science educational institutions in redefining methods to assess practical learner competencies amid the rapid advancement of large language models."
-      ],
-      "originalTitle": "Sinh viên dùng AI quá nhiều, giáo sư Toán đoạt giải Fields ngừng chấm đúng sai cho bài tập về nhà: Chỉ cần nộp bài là có điểm",
-      "url": "https://genk.vn/sinh-vien-dung-ai-qua-nhieu-giao-su-toan-doat-giai-fields-ngung-cham-dung-sai-cho-bai-tap-ve-nha-chi-can-nop-bai-la-co-diem-165261028145251542.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Education",
-        "Large Language Models",
-        "Machine Learning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T07:52:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/28/avatar1793173935432-1793173935820846572163.png",
-      "contentSnippet": "Cho dù ông Borcherds thừa nhận cách chấm điểm như vậy không phải là điều tốt, nhưng ông không tìm được giải pháp nào phù hợp hơn khi AI đang quá phổ biến như hiện nay.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "5b4ae85d8b8e3137",
-      "title_vi": "Những hoài nghi về tình trạng nứt màn hình trên thiết bị gập",
-      "title_en": "Doubts Arise Over Foldable Screen Cracking Issues on New Devices",
-      "summary_vi": [
-        "Nhiều người dùng thiết bị gập cao cấp đã gặp phải tình trạng nứt màn hình nghiêm trọng chỉ sau vài lần đóng mở cơ học, làm dấy lên những nghi vấn lớn về lỗi thiết kế mang tính hệ thống từ nhà sản xuất.",
-        "Các kỹ sư và chuyên gia phần cứng đang phân tích cơ chế hoạt động của phần bản lề bị kẹt, nguyên nhân gây ra áp lực quá mức lên lớp kính bên trong và tạo ra các đường sáng bất thường trên màn hình.",
-        "Sự cố này đặt ra bài toán khó về độ bền vật liệu và kiểm soát chất lượng cho các dòng sản phẩm màn hình gập, đòi hỏi ngành công nghiệp di động phải cải tiến nghiêm ngặt hơn trong quy trình chế tạo."
-      ],
-      "summary_en": [
-        "Multiple high-end foldable device users experienced severe screen cracking issues after only a few mechanical folding cycles, raising major questions about systematic design flaws from the manufacturer.",
-        "Hardware engineers and experts are analyzing the mechanism of the jammed hinge, the cause of excessive pressure on the inner glass layer, and the abnormal bright lines appearing on the display.",
-        "This hardware failure poses a difficult challenge for material durability and quality control in foldable display lines, requiring the mobile industry to strictly improve manufacturing processes."
-      ],
-      "originalTitle": "Những hoài nghi về tình trạng iPhone Duo nứt màn hình",
-      "url": "https://vnexpress.net/nhung-hoai-nghi-ve-tinh-trang-iphone-duo-nut-man-hinh-5137765.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Mobile",
-        "Hardware",
-        "Foldable",
-        "Apple",
-        "Devices"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T07:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/28/new-iphone-duo-internal-displa-8084-8771-1793162813.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=TCo-bv6-OP2SjbSQqBCN7w",
-      "contentSnippet": "Một số điện thoại gập iPhone Duo hỏng màn hình ở cùng một vị trí làm dấy lên nghi vấn \"tồn tại lỗi mang tính hệ thống\".",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "43bba329991efdcf",
-      "title_vi": "Cộng đồng mạng tò mò về biểu tượng ứng dụng bí ẩn xuất hiện trên chiếc iPhone của giám đốc Apple",
-      "title_en": "Tech community speculates about mysterious app icon spotted on Apple executive iPhone",
-      "summary_vi": [
-        "Cộng đồng công nghệ toàn cầu đang xôn xao bàn tán về một biểu tượng ứng dụng mờ ảo xuất hiện trên chiếc điện thoại iPhone của giám đốc điều hành Apple John Ternus.",
-        "Nhiều người dùng và chuyên gia công nghệ đã đưa ra vô số phỏng đoán khác nhau từ các nền tảng giải trí trực tuyến phổ biến cho đến các trợ lý ảo của đối thủ cạnh tranh.",
-        "Sự việc này phản ánh sức hút mạnh mẽ từ mọi chi tiết nhỏ liên quan đến thiết bị di động và hệ sinh thái phần mềm của tập đoàn công nghệ hàng đầu thế giới."
-      ],
-      "summary_en": [
-        "The global tech community is buzzing with discussion about a blurred application icon spotted on the iPhone device belonging to Apple executive John Ternus.",
-        "Numerous users and technology experts have proposed various guesses ranging from popular online entertainment platforms to artificial intelligence assistants from competitors.",
-        "This incident reflects the massive public interest in every minor detail concerning mobile hardware devices and software ecosystems from the leading global technology corporation."
-      ],
-      "originalTitle": "Cộng đồng xôn xao soi ứng dụng bí ẩn trên iPhone của CEO Apple, đó là gì?",
-      "url": "https://genk.vn/cong-dong-xon-xao-soi-ung-dung-bi-an-tren-iphone-cua-ceo-apple-do-la-gi-165262810080547184.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Mobile",
-        "iOS"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-28T07:00:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/28/avatar1793161643498-17931616442821523483087.jpg",
-      "contentSnippet": "Biểu tượng mờ trên iPhone Duo của CEO Apple John Ternus bị đoán là MAX, Roblox, và thậm chí là… Bixby.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "fdbaa3122ec5b283",
-      "title_vi": "Việt Nam tập trung thực hiện ba cam kết chiến lược để phát triển trí tuệ nhân tạo toàn diện",
-      "title_en": "Vietnam Focuses on Three Strategic Commitments for Comprehensive Artificial Intelligence Development",
-      "summary_vi": [
-        "Bộ trưởng Vũ Hải Quân công bố chiến lược phát triển trí tuệ nhân tạo của Việt Nam, trong đó nhấn mạnh việc tập trung vào ba trụ cột cốt lõi nhằm thúc đẩy hệ sinh thái công nghệ trong nước vươn tầm quốc tế.",
-        "Chiến lược này bao gồm việc nâng cấp hạ tầng tính toán mạnh mẽ, xây dựng hành lang pháp lý cởi mở với các chính sách ưu đãi đột phá, và đẩy mạnh hợp tác quốc tế sâu rộng về công nghệ lõi.",
-        "Sáng kiến này tạo ra động lực mạnh mẽ cho cộng đồng kỹ sư phần mềm và các doanh nghiệp công nghệ, mở ra cơ hội tiếp cận nguồn lực toàn cầu để phát triển các giải pháp trí tuệ nhân tạo chất lượng cao."
-      ],
-      "summary_en": [
-        "Minister Vu Hai Quan announced Vietnam's artificial intelligence development strategy, emphasizing a focus on three core pillars to elevate the domestic technology ecosystem to international standards.",
-        "The strategy encompasses upgrading robust computing infrastructure, establishing an open legal framework with breakthrough incentive policies, and intensifying deep international cooperation in core technologies.",
-        "This initiative creates a strong driving force for software engineers and technology enterprises, unlocking opportunities to access global resources for developing high-quality artificial intelligence solutions."
-      ],
-      "originalTitle": "Việt Nam tập trung ba cam kết phát triển AI",
-      "url": "https://vnexpress.net/viet-nam-tap-trung-ba-cam-ket-phat-trien-ai-5137775.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Infrastructure",
-        "Policy",
-        "Global Cooperation"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T05:45:03.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/28/tuan-le-so-1793166203-1130-1793166266.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=NjWUyYt75RS9WQxRBvRtIA",
-      "contentSnippet": "Bộ trưởng Vũ Hải Quân cho biết, để phát triển AI Việt Nam tập trung ba cam kết về hạ tầng, tạo môi trường cởi mở có chính sách hỗ trợ và hợp tác quốc tế.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a1f5df895ba60ed3",
-      "title_vi": "Những sản phẩm và giải pháp công nghệ nổi bật tại Tuần lễ Số 2026",
-      "title_en": "Prominent Technology Products and Solutions at Digital Week 2026",
-      "summary_vi": [
-        "Sáng ngày 28 tháng 10, trong khuôn khổ Tuần lễ Số Quốc tế Việt Nam tổ chức tại Quảng Ninh, sự kiện đã thu hút sự chú ý khi trưng bày hàng chục sản phẩm và giải pháp công nghệ tiên tiến.",
-        "Các giải pháp được giới thiệu tập trung mạnh mẽ vào việc ứng dụng trí tuệ nhân tạo và công nghệ vạn vật kết nối internet, đảm bảo mức độ hoàn thiện cao để sẵn sàng chuyển giao công nghệ và thương mại hóa rộng rãi.",
-        "Sự kiện này đánh dấu bước tiến quan trọng trong việc thúc đẩy hệ sinh thái số quốc gia, tạo cơ hội lớn cho các kỹ sư và doanh nghiệp công nghệ tiếp cận các mô hình vận hành thông minh và hiện đại."
-      ],
-      "summary_en": [
-        "On the morning of October 28, within the framework of the Vietnam International Digital Week held in Quang Ninh, the event attracted significant attention by showcasing dozens of advanced technology products and solutions.",
-        "The showcased solutions strongly focus on applying artificial intelligence and internet of things technologies, ensuring a high level of completion to be fully ready for technology transfer and commercialization.",
-        "This event marks a crucial milestone in promoting the national digital ecosystem, creating great opportunities for engineers and tech enterprises to access smart and modern operational models."
-      ],
-      "originalTitle": "Những sản phẩm, giải pháp công nghệ nổi bật tại Tuần lễ Số 2026",
-      "url": "https://vnexpress.net/nhung-san-pham-giai-phap-cong-nghe-noi-bat-tai-tuan-le-so-2026-5137748.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "AI",
-        "IoT",
-        "Digital Transformation",
-        "Technology Transfer",
-        "Vietnam Digital Week"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T04:26:09.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/28/wm1-1793156706671-1993428671226091452-2500802549678256290-db670e3fac6e6e2a15b1d548a0d0cad0-1793156812-1793156826.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=kqJBPhB12OzqZKazFUhAiQ",
-      "contentSnippet": "Sáng 28/10, trong khuôn khổ Tuần lễ Số Quốc tế Việt Nam (VIDW) 2026 tại Quảng Ninh, giới thiệu hàng chục sản phẩm, giải pháp công nghệ ứng dụng AI, IoT... sẵn sàng chuyển giao, thương mại hóa.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1ae1d4158bc2b453",
-      "title_vi": "Hướng dẫn sử dụng iPhone Duo: Thao tác cử chỉ, vuốt quay lại và các tính năng cơ bản trên màn hình gập",
-      "title_en": "Guide to Using iPhone Duo: Gesture Navigation, Back Swipes, and Basic Operations on Foldable Screen",
-      "summary_vi": [
-        "Bài viết cung cấp hướng dẫn chi tiết về cách thức điều hướng và tương tác trên dòng thiết bị màn hình gập mới của Apple là iPhone Duo, loại bỏ hoàn toàn các phím vật lý truyền thống.",
-        "Thiết bị tích hợp màn hình lớn bảy phẩy sáu inch, áp dụng cơ chế cử chỉ vuốt từ cạnh trái kết hợp cùng hệ thống nút bấm phần cứng mới được bố trí dọc theo viền màn hình.",
-        "Trải nghiệm người dùng được tối ưu hóa cho form factor màn hình gập, mở ra hướng tiếp cận mới trong thiết kế giao diện di động và cách thức vận hành phần cứng."
-      ],
-      "summary_en": [
-        "The article provides a detailed guide on navigation methods and user interaction for Apple's new foldable device, the iPhone Duo, completely eliminating traditional physical buttons.",
-        "The device integrates a large seven point six inch screen, applying a left-edge swipe gesture mechanism combined with a new hardware button system arranged along the screen bezel.",
-        "User experience is optimized for the foldable screen form factor, opening a new approach in mobile interface design and hardware operation methods."
-      ],
-      "originalTitle": "Hướng dẫn dùng iPhone Duo: vuốt back, xác nhận và các thao tác cơ bản",
-      "url": "https://tinhte.vn/thread/huong-dan-dung-iphone-duo-vuot-back-xac-nhan-va-cac-thao-tac-co-ban.4186747/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iPhone Duo",
-        "Foldable Phone",
-        "UI UX",
-        "Mobile Gestures",
-        "Apple"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T03:07:45.000Z",
-      "contentSnippet": "iPhone Duo không có nút Home, không có Face ID, màn hình gập 7,6 inch — mọi thao tác đều bằng cử chỉ và nút bấm. Apple giữ nguyên logic vuốt back từ cạnh trái, nhưng thêm nút bấm ở cạnh màn hình...",
-      "authorName": "cuhiep",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "617138037d5bfcf8",
-      "title_vi": "Nhà cung cấp bản lề điện thoại gập của Apple khẳng định linh kiện không gây lỗi màn hình",
-      "title_en": "Apple Foldable Smartphone Hinge Supplier Confirms Components Do Not Cause Screen Cracks",
-      "summary_vi": [
-        "Công ty Hàn Quốc chuyên cung cấp linh kiện bản lề cho mẫu điện thoại gập sắp ra mắt của Apple đã đưa ra tuyên bố chính thức nhằm bác bỏ các thông tin cho rằng thiết kế của họ gây ra hiện tượng nứt màn hình.",
-        "Báo cáo kỹ thuật cho thấy quá trình kiểm tra độ bền cơ học của bản lề đáp ứng các tiêu chuẩn khắt khe về chuyển động gập mở, loại trừ khả năng gây áp lực cơ học quá mức lên tấm nền hiển thị linh hoạt.",
-        "Sự việc này phản ánh tầm quan trọng của việc kiểm định chất lượng phần cứng trong chuỗi cung ứng thiết bị di động gập, giúp các kỹ sư phần cứng tối ưu hóa độ bền và trải nghiệm người dùng trên các dòng sản phẩm thế hệ mới."
-      ],
-      "summary_en": [
-        "A South Korean component supplier for Apple's upcoming foldable smartphone has released an official statement to deny allegations that their hinge design causes screen cracking issues.",
-        "Technical reports indicate that the mechanical durability testing of the hinge meets strict standards for folding movements, eliminating the possibility of exerting excessive mechanical pressure on the flexible display panel.",
-        "This incident highlights the critical importance of hardware quality assurance in the foldable mobile device supply chain, helping hardware engineers optimize durability and user experience for next-generation products."
-      ],
-      "originalTitle": "Nhà cung cấp bản lề iPhone Duo khẳng định linh kiện của mình không gây nứt màn hình",
-      "url": "https://tinhte.vn/thread/nha-cung-cap-ban-le-iphone-duo-khang-dinh-linh-kien-cua-minh-khong-gay-nut-man-hinh.4187607/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "Mobile Hardware",
-        "Foldable Phone",
-        "Supply Chain",
-        "Hardware Engineering"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T03:04:22.000Z",
-      "contentSnippet": "Theo The Elec, Fine M-Tec, công ty Hàn Quốc cung cấp linh kiện cho iPhone Duo, chiếc smartphone gập đầu tiên của Apple, đã ra tuyên bố chính thức vào ngày 26/10 để phủ nhận việc linh kiện của mình...",
-      "authorName": "thanhtung6868",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "da8bdf76de055217",
-      "title_vi": "Apple ra mắt dòng máy tính để bàn tích hợp chip M6 tiến trình hai nanômét với bộ xử lý mười hai nhân và công cụ xử lý thần kinh kép",
-      "title_en": "Apple Launches New All-in-One Desktop Powered by Two-Nanometer M6 Chip Featuring Twelve-Core CPU and Dual Neural Engine",
-      "summary_vi": [
-        "Tập đoàn công nghệ Apple vừa chính thức công bố dòng máy tính để bàn tất cả trong một mới sử dụng bộ vi xử lý M6 đánh dấu bước tiến lớn trong việc nâng cấp phần cứng kể từ thế hệ M4 trước đó.",
-        "Sản phẩm mới vẫn duy trì thiết kế siêu mỏng cùng bảy tùy chọn màu sắc quen thuộc nhưng đã được đại tu toàn diện về phần cứng bên trong với tiến trình sản xuất tiên tiến hai nanômét.",
-        "Sự cải tiến vượt bậc về hiệu năng phần cứng này mang lại năng lực xử lý trí tuệ nhân tạo mạnh mẽ hơn đáng kể giúp tối ưu hóa công việc cho các kỹ sư phần mềm và nhà phát triển ứng dụng."
-      ],
-      "summary_en": [
-        "Technology giant Apple has officially announced a new all-in-one desktop powered by the M6 processor marking a major hardware upgrade milestone since the previous fourth-generation silicon.",
-        "The new product maintains the familiar ultra-slim design and seven color options while receiving a complete internal hardware overhaul featuring an advanced two-nanometer manufacturing process.",
-        "This remarkable leap in hardware performance delivers significantly enhanced artificial intelligence processing capabilities helping to optimize workflows for software engineers and application developers."
-      ],
-      "originalTitle": "Apple ra mắt iMac M6: chip 2 nm, CPU 12 nhân, Neural Engine kép, giá từ 1.499 USD",
-      "url": "https://tinhte.vn/thread/apple-ra-mat-imac-m6-chip-2-nm-cpu-12-nhan-neural-engine-kep-gia-tu-1-499-usd.4187609/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Apple",
-        "M6 Chip",
-        "Hardware",
-        "Semiconductor",
-        "AI"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T03:00:45.000Z",
-      "contentSnippet": "Apple vừa công bố iMac mới dùng chip M6, bản nâng cấp đầu tiên của dòng máy tính all-in-one 24 inch kể từ thế hệ M4. Máy giữ nguyên thiết kế mỏng và bảy màu quen thuộc, nhưng thay đổi gần như toàn...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "3a69ebcc3148c66c",
-      "title_vi": "Ra mắt điện thoại Redmi K100 giá 13 triệu đồng sở hữu viên pin siêu lớn 10.000mAh và chip Snapdragon 8 Elite",
-      "title_en": "Redmi K100 Launched at 13 Million VND Featuring a Massive 10000mAh Battery and Snapdragon 8 Elite Processor",
-      "summary_vi": [
-        "Thị trường thiết bị di động vừa ghi nhận sự xuất hiện của dòng điện thoại chuyên game mới với nhiều thông số phần cứng cực kỳ ấn tượng dành cho người dùng.",
-        "Thiết bị tích hợp viên pin dung lượng lớn công nghệ silicon-carbon cùng chip xử lý đồ họa chuyên dụng và màn hình tần số quét cao để tối ưu hiệu năng.",
-        "Sản phẩm đặt ra một tiêu chuẩn mới về thời lượng pin và khả năng tản nhiệt cho phân khúc điện thoại thông minh phục vụ nhu cầu giải trí cường độ cao."
-      ],
-      "summary_en": [
-        "The mobile market has just witnessed the release of a new gaming-focused smartphone equipped with extremely impressive hardware specifications for users.",
-        "The device integrates a large-capacity silicon-carbon battery along with a dedicated graphics processor and a high refresh rate display to optimize performance.",
-        "The product sets a new benchmark for battery life and thermal management in the smartphone segment designed for high-intensity entertainment needs."
-      ],
-      "originalTitle": "Ra mắt Redmi K100 giá 13 triệu: Pin 10.000mAh, sạc nhanh 100W, Snapdragon 8 Elite, 165Hz và loa chuẩn Bose",
-      "url": "https://genk.vn/ra-mat-redmi-k100-gia-13-trieu-pin-10000mah-sac-nhanh-100w-snapdragon-8-elite-165hz-va-loa-chuan-bose-165261027221436253.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Redmi",
-        "Snapdragon 8 Elite",
-        "Mobile Hardware",
-        "Battery Tech"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T02:47:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/27/avatar1793113639498-1793113639990566316634.jpg",
-      "contentSnippet": "Redmi K100 tập trung vào nhu cầu chơi game với chip đồ họa riêng, pin silicon-carbon 10.000mAh, sạc nhanh 100W và màn hình OLED hỗ trợ tần số quét lên đến 165Hz.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "5a288fa1b09bd01f",
-      "title_vi": "iPhone vẫn âm thầm lưu giữ hàng nghìn bức ảnh đã xóa trong bộ nhớ ẩn suốt nhiều năm",
-      "title_en": "iPhone Secretly Stores Thousands of Deleted Photos in Hidden System Cache for Years",
-      "summary_vi": [
-        "Một nhà sáng tạo nội dung trên mạng xã hội X đã kết nối điện thoại iPhone với máy tính cá nhân để thực hiện quá trình sao lưu dữ liệu và kiểm tra bảo mật.",
-        "Quá trình phân tích chuyên sâu bằng công cụ Claude AI đã bất ngờ phát hiện hàng nghìn tệp hình ảnh tưởng chừng đã bị người dùng xóa vĩnh viễn vẫn còn tồn tại.",
-        "Sự cố này đặt ra nhiều câu hỏi lớn về cơ chế quản lý bộ nhớ đệm và quyền riêng tư dữ liệu của thiết bị di động đối với người dùng cuối."
-      ],
-      "summary_en": [
-        "A content creator on the social media platform X connected an iPhone to a personal computer to perform a routine data backup and security audit.",
-        "Deep analysis using Claude AI unexpectedly revealed that thousands of image files thought to have been permanently deleted still existed within hidden directories.",
-        "This incident raises significant concerns regarding mobile device memory cache management mechanisms and data privacy standards for everyday users."
-      ],
-      "originalTitle": "Những tấm hình bạn xóa hóa ra lại chẳng mất đi đâu hết: Một người sử dụng Claude AI phát hiện ra iPhone vẫn âm thầm lưu ảnh của bạn trong bộ nhớ ẩn suốt nhiều năm",
-      "url": "https://genk.vn/nhung-tam-hinh-ban-xoa-hoa-ra-lai-chang-mat-di-dau-het-mot-nguoi-su-dung-claude-ai-phat-hien-ra-iphone-van-am-tham-luu-anh-cua-ban-trong-bo-nho-an-suot-nhieu-nam-165261028075945633.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "iOS",
-        "Security",
-        "Privacy",
-        "Apple",
-        "Artificial Intelligence"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T02:30:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/28/avatar1793149148775-17931491493771609778290.png",
-      "contentSnippet": "Một nhà sáng tạo nội dung trên X kết nối iPhone với máy tính để sao lưu và chạy kiểm tra bảo mật bằng Claude AI bất ngờ phát hiện hàng nghìn bức ảnh tưởng chừng đã xoá vĩnh viễn vẫn âm thầm tồn tại trong một thư mục ẩn.",
-      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     }
