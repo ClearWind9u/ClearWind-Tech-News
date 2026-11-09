@@ -1,7 +1,317 @@
 {
-  "lastUpdated": "2026-11-09T03:49:58.851Z",
+  "lastUpdated": "2026-11-09T14:46:49.232Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "cdaf639b0bcf3950",
+      "title_vi": "Từ lập trình đến phát hành sản phẩm: Cursor Live Apps hỗ trợ gì cho lập trình viên độc lập",
+      "title_en": "From Code to Launch: What Cursor Live Apps Can Do for Indie Developers",
+      "summary_vi": [
+        "Sự ra mắt của các công cụ phát triển tích hợp trí tuệ nhân tạo hiện đại đang thay đổi hoàn toàn cách thức xây dựng sản phẩm của cộng đồng lập trình viên độc lập trên thị trường hiện nay.",
+        "Công cụ này cung cấp khả năng tự động hóa quy trình viết mã nguồn, kiểm thử và tối ưu hóa giao diện người dùng giúp rút ngắn đáng kể thời gian triển khai ứng dụng thực tế.",
+        "Giải pháp này mở ra cơ hội lớn cho các nhà phát triển cá nhân cạnh tranh hiệu quả hơn, giảm thiểu chi phí vận hành và tăng tốc độ đưa sản phẩm công nghệ ra mắt thị trường."
+      ],
+      "summary_en": [
+        "The introduction of modern AI-integrated development tools is completely transforming the product building workflow for independent software developers across the current market landscape.",
+        "This platform provides powerful automation capabilities for source code generation, testing, and user interface optimization, significantly shortening the time required to deploy real-world applications.",
+        "This technological solution unlocks major opportunities for solo developers to compete more effectively, minimize operational costs, and accelerate the time-to-market for digital products."
+      ],
+      "originalTitle": "Từ code đến ra mắt: Cursor Live Apps có thể làm gì cho các indie developer",
+      "url": "https://viblo.asia/p/tu-code-den-ra-mat-cursor-live-apps-co-the-lam-gi-cho-cac-indie-developer-R5JRQrw74Gv",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Cursor",
+        "AI Development",
+        "Indie Hacker",
+        "Software Engineering",
+        "Product Launch"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-09T21:29:41.000Z",
+      "contentSnippet": "Từ code đến ra mắt: Cursor Live Apps có thể làm gì cho các indie developer Trong công việc của một indie developer, từ lâu việc viết code đã không cò...",
+      "authorName": "Sunny",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "809772a49db1b003",
+      "title_vi": "Tại sao DeepSeek nổi tiếng toàn cầu và hướng dẫn tích hợp API DeepSeek cho lập trình viên",
+      "title_en": "Why DeepSeek Gained Global Popularity and How to Integrate Its API for Developers",
+      "summary_vi": [
+        "Vào tháng 1 năm 2025, một ứng dụng trí tuệ nhân tạo do các kỹ sư Trung Quốc phát triển đã bất ngờ vươn lên vị trí dẫn đầu bảng xếp hạng ứng dụng miễn phí trên kho ứng dụng App Store tại Mỹ, vượt qua cả đối thủ sừng sỏ ChatGPT.",
+        "Bài viết phân tích sâu về kiến trúc mô hình ngôn ngữ lớn, các phương pháp tối ưu hóa chi phí huấn luyện và chiến lược triển khai hạ tầng phần cứng giúp DeepSeek đạt hiệu suất vượt trội với mức chi phí thấp đáng kinh ngạc.",
+        "Cung cấp hướng dẫn chi tiết từng bước cách gọi và tích hợp giao diện lập trình ứng dụng API của DeepSeek vào các hệ thống phần mềm thực tế, mang lại giải pháp công nghệ kinh tế và hiệu quả cao cho cộng đồng lập trình viên."
+      ],
+      "summary_en": [
+        "In January 2025, an artificial intelligence application developed by Chinese engineers unexpectedly claimed the top spot on the US App Store free charts, surpassing major competitors like ChatGPT.",
+        "The article deeply analyzes the large language model architecture, training cost optimization techniques, and hardware infrastructure strategies that enable DeepSeek to achieve outstanding performance at remarkably low costs.",
+        "It provides a comprehensive, step-by-step guide on how to invoke and integrate the DeepSeek API into practical software systems, offering an economical and high-efficiency technological solution for the developer community."
+      ],
+      "originalTitle": "Tại sao DeepSeek nổi tiếng ở nước ngoài, và gọi API DeepSeek thế nào trong năm 2026?",
+      "url": "https://viblo.asia/p/tai-sao-deepseek-noi-tieng-o-nuoc-ngoai-va-goi-api-deepseek-the-nao-trong-nam-2026-37Lde9N2Vov",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "DeepSeek",
+        "AI",
+        "API",
+        "LLM",
+        "Machine Learning"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-09T21:06:02.000Z",
+      "contentSnippet": "Tháng 1/2025, một ứng dụng AI do một nhóm kỹ sư Trung Quốc xây dựng leo lên vị trí đầu bảng xếp hạng miễn phí của App Store Mỹ, vượt qua ChatGPT. Cù...",
+      "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "d77483afd0bdcbb4",
+      "title_vi": "Xử lý mã OTP trong Spring Boot với WireMock, Testcontainers và kiểm thử thực tế",
+      "title_en": "Handling OTP in Spring Boot with WireMock, Testcontainers, and Real Smoke Testing",
+      "summary_vi": [
+        "Bài viết chia sẻ phương pháp kiểm thử mã OTP trong ứng dụng Spring Boot bằng cách kết hợp công cụ WireMock, môi trường Testcontainers và thực hiện smoke test trực tiếp trên dịch vụ số ảo HeroSMS.",
+        "Tác giả áp dụng các công cụ hiện đại như AI hỗ trợ sinh mã, đồng thời đối chiếu kỹ lưỡng với tài liệu API chính thức để đảm bảo tính chính xác và ổn định của quy trình kiểm thử tin nhắn SMS.",
+        "Giải pháp này mang lại giá trị thực tiễn cao cho các lập trình viên backend, giúp tự động hóa quá trình kiểm thử tích hợp và nâng cao chất lượng hệ thống xác thực người dùng trong các dự án thực tế."
+      ],
+      "summary_en": [
+        "The article shares a comprehensive method for testing OTP authentication in Spring Boot applications by combining WireMock, Testcontainers, and performing smoke tests directly on the HeroSMS virtual number service.",
+        "The author leverages AI tools for code generation while meticulously cross-referencing official API documentation to ensure the accuracy and reliability of the automated SMS messaging test pipeline.",
+        "This solution delivers high practical value for backend developers by automating integration testing workflows and significantly improving the overall quality of user authentication systems in production projects."
+      ],
+      "originalTitle": "OTP Spring Boot: test SMS với WireMock, Testcontainers và smoke test bằng số thật",
+      "url": "https://viblo.asia/p/otp-spring-boot-test-sms-voi-wiremock-testcontainers-va-smoke-test-bang-so-that-gjLN0BeP432",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Spring Boot",
+        "WireMock",
+        "Testcontainers",
+        "Testing",
+        "OTP"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-09T21:01:05.000Z",
+      "contentSnippet": "Mình làm việc cùng HeroSMS, dịch vụ số ảo dùng ở phần smoke test. Bài viết có dùng công cụ AI; code đã được đối chiếu với tài liệu API HeroSMS và docs...",
+      "authorName": "Minh Trần",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e852afcde4a7ecbc",
+      "title_vi": "Vì sao trí tuệ nhân tạo tính sai ngày Tết năm 2030 và cách viết kỹ năng để khắc phục",
+      "title_en": "Why Artificial Intelligence Calculated the 2030 Tet Date Wrong and How to Write a Skill to Fix It",
+      "summary_vi": [
+        "Bài viết phân tích tình huống khi hỏi trợ lý ảo Claude về ngày mùng 1 Tết Nguyên Đán năm 2030 nhưng mô hình này đưa ra kết quả sai lệch do thiếu khả năng tính toán lịch âm chính xác.",
+        "Tác giả đã tự xây dựng một kỹ năng lập trình chuyên biệt để bổ sung thuật toán chuyển đổi lịch, giúp mô hình trí tuệ nhân tạo truy xuất và xử lý dữ liệu thời gian đúng chuẩn xác.",
+        "Giải pháp này nhấn mạnh tầm quan trọng của việc mở rộng khả năng cho các hệ thống ngôn ngữ lớn thông qua công cụ bên ngoài khi xử lý các bài toán logic phức tạp."
+      ],
+      "summary_en": [
+        "The article analyzes a scenario where asking the Claude AI assistant about the first day of Lunar New Year in 2030 resulted in an incorrect date due to a lack of precise lunar calendar computation.",
+        "The author developed a specialized programming skill to integrate a calendar conversion algorithm, helping the artificial intelligence model accurately retrieve and process time-based data.",
+        "This solution highlights the crucial importance of extending large language models with external tools when handling complex logical problems and domain-specific calculations."
+      ],
+      "originalTitle": "Vì sao AI tính sai ngày Tết 2030, và mình viết skill để sửa thế nào",
+      "url": "https://viblo.asia/p/vi-sao-ai-tinh-sai-ngay-tet-2030-va-minh-viet-skill-de-sua-the-nao-2vJPdvGMJeK",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Claude",
+        "LLM",
+        "Prompt Engineering",
+        "Algorithms"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-09T19:36:37.000Z",
+      "contentSnippet": "Mình hỏi Claude một câu tưởng dễ: \"Mùng 1 Tết Nguyên Đán năm 2030 ở Việt Nam là ngày dương lịch nào?\". Không cho dùng công cụ tra cứu, chỉ dùng những ...",
+      "authorName": "Cao Thanh Lam",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "68f01e64632c6713",
+      "title_vi": "Apple thay đổi chính sách bảo mật iCloud: Người dùng cần lưu ý khi chia sẻ tệp",
+      "title_en": "Apple Quietly Modifies iCloud Privacy Policy for Shared Files and Photos",
+      "summary_vi": [
+        "Apple chuẩn bị triển khai những thay đổi quan trọng trong cách xử lý các tệp và hình ảnh được chia sẻ thông qua dịch vụ đám mây iCloud trên các phiên bản hệ điều hành sắp tới của hãng.",
+        "Cơ chế bảo mật đầu cuối sẽ không được duy trì đối với các nội dung được chia sẻ thông qua tùy chọn công khai đường dẫn, cho phép hệ thống kiểm tra và truy cập nội dung dễ dàng hơn.",
+        "Thay đổi này đòi hỏi người dùng và các kỹ sư hệ thống phải đặc biệt cẩn trọng với các tệp tin nhạy cảm khi sử dụng tính năng chia sẻ liên kết rộng rãi trong hệ sinh thái."
+      ],
+      "summary_en": [
+        "Apple is preparing to implement significant changes in how files and images shared via the iCloud cloud service are processed across the company's upcoming operating system versions.",
+        "End-to-end encryption mechanisms will no longer be maintained for content shared via public link options, allowing the system to inspect and access contents more easily.",
+        "This change requires users and system engineers to exercise extreme caution with sensitive files when utilizing widespread link-sharing features within the ecosystem."
+      ],
+      "originalTitle": "Apple âm thầm thay đổi chính sách bảo mật iCloud trên iOS mới: Người dùng cần biết điều này trước khi chia sẻ ảnh và file",
+      "url": "https://genk.vn/apple-am-tham-thay-doi-chinh-sach-bao-mat-icloud-tren-ios-moi-nguoi-dung-can-biet-dieu-nay-truoc-khi-chia-se-anh-va-file-165261109181508175.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "iCloud",
+        "Security",
+        "Apple",
+        "Privacy",
+        "Cloud"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-09T12:41:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/9/avatar1794222868367-179422286861999051184-0-156-540-1020-crop-1794222883079318366300.png",
+      "contentSnippet": "Đây là một thay đổi đáng kể so với các tuyên bố trước đây của Apple về việc bảo vệ quyền riêng tư của người dùng.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "49ecc52d2d24b657",
+      "title_vi": "Công nghệ phát hiện độ tuổi bằng trí tuệ nhân tạo của Instagram đang mở rộng trên toàn cầu",
+      "title_en": "Instagram's AI age detection is expanding globally",
+      "summary_vi": [
+        "Meta đang triển khai công nghệ ước tính độ tuổi sử dụng trí tuệ nhân tạo trên phạm vi toàn cầu để phát hiện thanh thiếu niên chưa khai báo đúng tuổi trên nền tảng mạng xã hội Instagram.",
+        "Hệ thống tự động quét các tín hiệu hành vi trực tuyến để xác định người dùng dưới mười tám tuổi và đưa họ vào chế độ bảo vệ tài khoản thanh thiếu niên với các thiết lập bảo mật nghiêm ngặt hơn.",
+        "Giải pháp này giúp các nền tảng mạng xã hội tuân thủ tốt hơn các quy định pháp lý về bảo vệ trẻ em, đồng thời nâng cao năng lực kiểm duyệt tự động dựa trên dữ liệu lớn và học máy."
+      ],
+      "summary_en": [
+        "Meta is globally deploying artificial intelligence-based age estimation technology to identify teenagers who have not correctly disclosed their age on the Instagram social media platform.",
+        "The system automatically scans online behavioral signals to identify users under eighteen years of age and places them into more restrictive teen account protection modes.",
+        "This solution helps social media platforms better comply with legal regulations regarding child protection while enhancing automated moderation capabilities driven by big data and machine learning."
+      ],
+      "originalTitle": "Instagram’s AI age detection is expanding globally",
+      "url": "https://www.theverge.com/tech/1029627/meta-instagram-ai-age-assurance-global-expansion",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Social Media",
+        "Security",
+        "Meta"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-09T12:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK070_INSTAGRAM__A.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Meta is globally expanding the age estimation technology it uses to find teenagers on Instagram who haven't correctly disclosed their age. The rollout will automatically place \"millions more teens on Instagram into Teen Account protections,\" according to Meta's announcement, after launching the AI-p",
+      "authorName": "Jess Weatherbed",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "738fb8efec577226",
+      "title_vi": "Thế giới ngầm của các cộng đồng chia sẻ dữ liệu BitTorrent",
+      "title_en": "The underground world of private BitTorrent trackers",
+      "summary_vi": [
+        "Bài viết khám phá thế giới bí ẩn của các cộng đồng chia sẻ dữ liệu BitTorrent riêng tư, nơi người dùng duy trì các kho lưu trữ kỹ thuật số khổng lồ thông qua các quy tắc nghiêm ngặt và hệ thống xếp hạng cộng đồng phức tạp.",
+        "Các nền tảng này sử dụng giao thức BitTorrent để quản lý dữ liệu, yêu cầu người dùng duy trì tỷ lệ tải lên và tải xuống nhất định, đồng thời áp dụng các kỹ thuật tự động hóa để tối ưu hóa việc lưu trữ và phân phối nội dung.",
+        "Dù đối mặt với rủi ro pháp lý từ các tổ chức bảo vệ bản quyền, các cộng đồng này đóng vai trò như những kho lưu trữ văn hóa số quan trọng, bảo tồn nhiều tài liệu hiếm mà các dịch vụ thương mại thường bỏ qua."
+      ],
+      "summary_en": [
+        "The article explores the mysterious world of private BitTorrent tracker communities, where users maintain massive digital archives through strict community rules and complex, gamified ranking systems that govern file sharing and data availability.",
+        "These platforms utilize the BitTorrent protocol to manage data, requiring users to maintain specific upload-to-download ratios while employing automated scripts and dedicated servers to optimize the storage and distribution of rare media files.",
+        "Despite facing significant legal risks from copyright enforcement agencies, these communities serve as vital digital archives, preserving cultural artifacts and rare media that are often neglected or unavailable on mainstream commercial streaming platforms."
+      ],
+      "originalTitle": "Torrent underground",
+      "url": "https://www.theverge.com/cs/features/1027614/torrent-movies-file-sharing-download-piracy",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "BitTorrent",
+        "Data Archiving",
+        "Cybersecurity",
+        "File Sharing",
+        "Digital Preservation"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-11-09T11:00:05.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268792_private_torrent_trackers_CVirginia_LEDE_bde354.gif?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "When Jane first heard about Memory and Imagination, a rare 1990s documentary about the Library of Congress, she was intrigued. But the Canadian writer in her 30s couldn’t find the movie anywhere — not on streaming services, not on YouTube, not on pirate sites — and her intrigue turned into obsession",
+      "authorName": "Janko Roettgers",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b323c49928ab0c1b",
+      "title_vi": "Nvidia thiếu phương án thay thế nếu CEO Jensen Huang bị miễn nhiệm",
+      "title_en": "Nvidia Lacks Contingency Plan If CEO Jensen Huang Is Dismissed",
+      "summary_vi": [
+        "Hãng sản xuất chip AI hàng đầu thế giới Nvidia đang đối mặt với rủi ro lớn khi Tổng giám đốc điều hành Jensen Huang vướng bê bối cá nhân và chưa có người kế nhiệm xứng tầm để chèo lái công ty.",
+        "Hội đồng quản trị đã tiến hành điều tra độc lập liên quan đến mối quan hệ mập mờ của ông Huang với cựu lãnh đạo Megaspeed, công ty đang bị Mỹ giám sát về nghi vấn hỗ trợ Bắc Kinh tiếp cận chip AI cấm xuất khẩu.",
+        "Sự cố này tạo sức ép cực lớn lên giá cổ phiếu và tâm lý nhà đầu tư, đặt ra thách thức nghiêm trọng về năng lực quản trị rủi ro và chiến lược phát triển toàn cầu của gã khổng lồ bán dẫn này."
+      ],
+      "summary_en": [
+        "Leading global AI chip manufacturer Nvidia is facing major risks as CEO Jensen Huang is embroiled in a personal scandal without a qualified successor to steer the company forward.",
+        "The board of directors launched an independent investigation regarding Huang's questionable relationship with a former Megaspeed executive, a company under US scrutiny over suspected shipments of restricted AI chips to Beijing.",
+        "This incident places immense pressure on stock prices and investor sentiment, raising serious challenges regarding risk management capabilities and the global growth strategy of the semiconductor giant."
+      ],
+      "originalTitle": "Nvidia thiếu phương án nếu Jensen Huang bị miễn nhiệm CEO",
+      "url": "https://vnexpress.net/nvidia-thieu-phuong-an-neu-jensen-huang-bi-mien-nhiem-ceo-5142459.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "AI Chips",
+        "Semiconductor",
+        "Cybersecurity",
+        "Tech Governance"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-09T11:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/09/20180108t064606z2104981634rc12-3584-6797-1794206856.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=OoPtkZ8GziQVtrHLbKoa1g",
+      "contentSnippet": "Hãng chip AI hàng đầu thế giới Nvidia gặp rủi ro khi nhân vật chủ chốt CEO Jensen Huang vướng bê bối ngoại tình và chưa có người kế nhiệm.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "81b02f995beb1a51",
+      "title_vi": "Những điều thú vị có thể làm với máy chủ ảo hóa phiên bản cộng đồng máy tính lớn",
+      "title_en": "Fun things to do with your VM/370 CE machine – Fun with big computers",
+      "summary_vi": [
+        "Bài viết hướng dẫn cách tận dụng hệ điều hành máy chủ ảo hóa phiên bản cộng đồng, mang lại trải nghiệm máy tính lớn cổ điển nhưng được cải tiến toàn diện trên hệ thống hiện đại.",
+        "Bản phát hành này tích hợp hàng loạt cải tiến và vá lỗi quan trọng dựa trên nền tảng gốc, cho phép vận hành hiệu quả các tính năng tiên tiến dù bị giới hạn tài nguyên.",
+        "Giải pháp triển khai thông qua các công cụ container hóa hiện đại giúp lập trình viên dễ dàng thiết lập và khám phá kiến trúc hệ thống máy tính lịch sử một cách nhanh chóng."
+      ],
+      "summary_en": [
+        "The article explores how to utilize the community edition operating system for virtualized mainframe environments, offering a classic yet comprehensively upgraded computing experience.",
+        "This release integrates numerous critical improvements and bug fixes based on the original foundation, enabling efficient operation of advanced features despite resource constraints.",
+        "Deployment solutions using modern containerization tools allow developers to easily set up and explore historical computer system architectures quickly and efficiently."
+      ],
+      "originalTitle": "Fun things to do with your VM/370 CE machine – Fun with big computers",
+      "url": "https://rbanffy.github.io/fun-with-big-computers/fun-with-vm370/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Virtualization",
+        "Mainframe",
+        "Containers",
+        "DevOps",
+        "Operating Systems"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-09T10:11:47.000Z",
+      "contentSnippet": "This page assumes you have a machine (emulated or not) running the VM370 Community Edition OS available. There are a couple ways to get one, and you might want to choose the one that appeals to you the most (or the one that’s less work - it’s up to you). The Community Edition is a huge set of improv",
+      "authorName": "rbanffy",
+      "upvotes": 68,
+      "commentsCount": 8
+    },
     {
       "id": "74ca02b8eccd5530",
       "title_vi": "Cấu trúc dữ liệu và Giải thuật Bài 133: Mã Prüfer và Định lý Cayley trong nén cây nhãn",
@@ -104,6 +414,41 @@
       "commentsCount": 0
     },
     {
+      "id": "2b216b43a4d422de",
+      "title_vi": "Megaspeed và vai trò trong chuỗi cung ứng chip Nvidia tỷ USD",
+      "title_en": "Megaspeed and its role in the multi-billion dollar Nvidia chip supply chain",
+      "summary_vi": [
+        "Công ty Megaspeed tại Singapore đang thu hút sự chú ý lớn từ dư luận sau khi xuất hiện thông tin liên quan đến các lô hàng nhập khẩu chip xử lý trí tuệ nhân tạo Nvidia trị giá hàng tỷ đô la.",
+        "Sự kiện này làm nổi bật tầm quan trọng của các kênh phân phối phần cứng bán dẫn cao cấp, đặc biệt trong bối cảnh nhu cầu tính toán hiệu năng cao cho các hệ thống trí tuệ nhân tạo đang tăng trưởng bùng nổ toàn cầu.",
+        "Việc kiểm soát chặt chẽ chuỗi cung ứng thiết bị phần cứng từ các nhà sản xuất lớn như Nvidia đóng vai trò quyết định đối với tốc độ phát triển và mở rộng cơ sở hạ tầng của các trung tâm dữ liệu hiện đại."
+      ],
+      "summary_en": [
+        "Megaspeed, a Singapore-based company, is attracting significant attention after emerging in reports concerning multi-billion dollar imports of Nvidia artificial intelligence processing chips.",
+        "This event highlights the critical importance of high-end semiconductor hardware distribution channels, especially amid the explosive global growth in high-performance computing demand for artificial intelligence systems.",
+        "Strict control over the hardware supply chain from major manufacturers like Nvidia plays a decisive role in the development speed and expansion of modern data center infrastructure."
+      ],
+      "originalTitle": "Megaspeed - công ty đứng sau những lô chip Nvidia tỷ USD",
+      "url": "https://vnexpress.net/megaspeed-cong-ty-dung-sau-nhung-lo-chip-nvidia-ty-usd-5142300.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Nvidia",
+        "Hardware",
+        "Semiconductor",
+        "AI",
+        "Supply Chain"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-09T04:15:55.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/09/imagecopy-1794194898-4199-1794195037.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=nhsdPMBAZ1kRkFb97GHKgQ",
+      "contentSnippet": "Megaspeed, công ty Singapore nhập khẩu những lô chip Nvidia trị giá tỷ USD, đang trở thành tâm điểm trong bê bối tình cảm giữa Jensen Huang và Alice Huang.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "313c0184a2be5a84",
       "title_vi": "Tổng giám đốc Nvidia thừa nhận quan hệ cá nhân với cá nhân bị nghi là gián điệp, công ty mở cuộc điều tra độc lập",
       "title_en": "Nvidia CEO admits personal relationship with suspected spy, company launches independent investigation",
@@ -169,6 +514,40 @@
       "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/9/genk-rapoo-m360-smart-12-1794194463984238853865-67-0-1067-1600-crop-17941953296062068952098.jpg",
       "contentSnippet": "Một mẫu chuột nhỏ gọn nhẹ, nhiều nút bấm mà lại còn có 2 chế độ ghép nối, dùng được cho cả máy bàn lẫn laptop trong khi mức giá chỉ khoảng 300.000 đồng.",
       "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c658e5d0eba57a4c",
+      "title_vi": "Looki L1: Đeo camera AI vài tháng, tôi có cuốn nhật ký hoạt hình sống động",
+      "title_en": "Looki L1: Wearing an AI Camera for Months Yielded an Animated Diary",
+      "summary_vi": [
+        "Thiết bị đeo thông minh Looki L1 tích hợp camera AI được người dùng trải nghiệm thực tế trong nhiều tháng để ghi lại toàn bộ các hoạt động thường ngày diễn ra xung quanh một cách tự động và liên tục.",
+        "Hệ thống trí tuệ nhân tạo phía sau thiết bị xử lý dữ liệu hình ảnh thu thập được, tự động chuyển đổi các khoảnh khắc đời thường thành một cuốn nhật ký dưới dạng hoạt hình sinh động.",
+        "Giải pháp này mở ra hướng đi mới cho các thiết bị phần cứng tích hợp AI cá nhân hóa, giúp người dùng lưu giữ kỷ niệm một cách sáng tạo mà không tốn công sức quay dựng thủ công."
+      ],
+      "summary_en": [
+        "The smart wearable device Looki L1 integrating an AI camera was practically experienced by users for months to automatically and continuously record daily activities occurring around them.",
+        "The artificial intelligence system behind the device processes the collected image data, automatically transforming ordinary moments into a vivid animated diary format.",
+        "This solution opens up a new direction for personalized AI-integrated hardware devices, helping users preserve memories creatively without manual editing efforts."
+      ],
+      "originalTitle": "Looki L1: đeo camera AI vài tháng, mình có cuốn nhật ký hoạt hình",
+      "url": "https://tinhte.vn/thread/looki-l1-deo-camera-ai-vai-thang-minh-co-cuon-nhat-ky-hoat-hinh.4190792/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Wearables",
+        "Computer Vision",
+        "Smart Devices",
+        "Generative AI"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-09T03:25:26.000Z",
+      "contentSnippet": "Mấy tháng nay mình đeo Looki L1 trên ngực để nó ghi lại một ngày của mình, rồi để AI vẽ lại thành nhật ký hoạt hình. Mình không cần video đẹp. Thứ mình giữ lại là cả trăm khoảnh khắc nhỏ, từ quán...",
+      "authorName": "cuhiep",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8227,375 +8606,6 @@
       "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
-    },
-    {
-      "id": "fa331d5b2de67fce",
-      "title_vi": "Công ty Trung Quốc CXMT chuẩn bị sản xuất chip nhớ AI tiên tiến",
-      "title_en": "Chinese semiconductor firm CXMT set to produce advanced AI memory chips",
-      "summary_vi": [
-        "Công ty bán dẫn hàng đầu Trung Quốc CXMT đang có kế hoạch sớm đưa vào sản xuất dòng chip nhớ băng thông cao HBM3E tiên tiến, phục vụ trực tiếp cho các hệ thống bộ xử lý trí tuệ nhân tạo hiệu suất cao.",
-        "Dự án này đối mặt với nhiều thách thức lớn về kỹ thuật chế tạo bán dẫn, đặc biệt là tỷ lệ thành phẩm sản xuất ban đầu còn khá thấp nhưng vẫn thể hiện quyết tâm tự chủ công nghệ phần cứng của Trung Quốc.",
-        "Sự kiện này đánh dấu bước tiến quan trọng trong chuỗi cung ứng phần cứng AI toàn cầu, có thể làm thay đổi cục diện thị trường chip nhớ băng thông cao và tạo áp lực cạnh tranh lớn cho các nhà sản xuất lớn hiện tại."
-      ],
-      "summary_en": [
-        "Leading Chinese semiconductor enterprise CXMT is planning an early rollout of advanced HBM3E high-bandwidth memory chips to directly support high-performance artificial intelligence processor systems globally.",
-        "The project faces significant semiconductor manufacturing engineering challenges, particularly low initial production yield rates, yet it strongly demonstrates China's determination to achieve hardware technology self-sufficiency.",
-        "This milestone marks a crucial development in the global AI hardware supply chain, potentially reshaping the high-bandwidth memory market landscape and creating intense competitive pressure for established manufacturers."
-      ],
-      "originalTitle": "Công ty Trung Quốc CXMT sắp sản xuất chip nhớ AI tiên tiến",
-      "url": "https://vnexpress.net/cong-ty-trung-quoc-cxmt-sap-san-xuat-chip-nho-ai-tien-tien-5138021.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Semiconductor",
-        "AI",
-        "Hardware",
-        "CXMT",
-        "HBM3E"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-29T01:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/28/cxmt17843689611256178436904685-8693-4953-1793185549.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ByOL8xH5GOm3h3TBGAi7QA",
-      "contentSnippet": "\"Ngôi sao bán dẫn Trung Quốc\" CXMT được cho là sớm sản xuất HBM3E, chip nhớ băng thông cao tiên tiến dùng trong bộ xử lý AI, bất chấp tỷ lệ thành phẩm thấp.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "871d193932e07498",
-      "title_vi": "Qwenputer: Vi xử lý RISC-V hoạt động hoàn chỉnh bên trong mô hình ngôn ngữ Qwen",
-      "title_en": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen",
-      "summary_vi": [
-        "Bài viết giới thiệu Qwenputer, một mô hình ngôn ngữ thử nghiệm được xây dựng dựa trên phiên bản Qwen 3.5 4B với khả năng nhúng một bộ vi xử lý RISC-V trực tiếp vào bên trong trọng số mô hình.",
-        "Hệ thống tận dụng các lớp chú ý Gated DeltaNet để đóng vai trò như bộ nhớ RAM, cho phép mô hình thực thi các phép toán số học và mã nguồn lập trình mà không cần sử dụng bất kỳ môi trường bên ngoài nào.",
-        "Công nghệ này mở ra hướng đi mới trong việc nghiên cứu mô hình lai, khả năng che giấu quá trình suy luận trong trạng thái mạng neuron hồi tiếp và ứng dụng công cụ giám sát tích hợp."
-      ],
-      "summary_en": [
-        "The article introduces Qwenputer, an experimental language model built upon the Qwen 3.5 4B architecture with an embedded RISC-V CPU integrated directly into the model weights.",
-        "The system utilizes Gated DeltaNet attention layers to function as RAM, enabling the model to execute arithmetic operations and programming code without relying on any external runtimes.",
-        "This technology opens up new research directions for hybrid models, hidden reasoning capabilities within recurrent neural network states, and built-in monitoring tools that resist tampering."
-      ],
-      "originalTitle": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
-      "url": "https://divagr.com/blog/qwenputer",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "RISC-V",
-        "Machine Learning",
-        "Neural Networks",
-        "Architecture"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-29T00:25:45.000Z",
-      "contentSnippet": "Qwenputer is a pretty fun experimental model. It's a stock Qwen 3.5 4B with one addition: a RISC-V CPU embedded within the weights that uses the model's own Gated DeltaNet attention layers as RAM. (To learn how GDN works, here's a handy guide.) This 'CPU' runs completely within the forward passes of",
-      "authorName": "csmantle",
-      "upvotes": 174,
-      "commentsCount": 36
-    },
-    {
-      "id": "fd6c7c6c47f5d504",
-      "title_vi": "Sự cố bảo mật tại kho lưu trữ: Kẻ tấn công cố gắng khai thác lỗ hổng nghiêm trọng trên nền tảng quản lý mã nguồn",
-      "title_en": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
-      "summary_vi": [
-        "Hệ thống quản lý mã nguồn của Alpine Linux đã hứng chịu một cuộc tấn công mạng nhằm khai thác lỗ hổng bảo mật cực kỳ nghiêm trọng trong cách xử lý biểu thức chính quy.",
-        "Lỗ hổng mã định danh CVE-2026-97229 bắt nguồn từ Onigmo, một công cụ xử lý biểu thức chính quy được tích hợp sẵn bên trong ngôn ngữ lập trình Ruby.",
-        "Đội ngũ vận hành đã phải dựng lại toàn bộ hệ thống từ đầu, đặt lại toàn bộ mật khẩu người dùng và khuyến cáo cộng đồng tăng cường bảo mật tài khoản."
-      ],
-      "summary_en": [
-        "The source code management system of Alpine Linux experienced a cyberattack aimed at exploiting a critical security vulnerability within regular expression processing.",
-        "The vulnerability identified as CVE-2026-97229 originates from Onigmo, the regular expression engine built directly into the Ruby programming language.",
-        "Administrators rebuilt the entire system from scratch, reset all user passwords, and strongly advised the community to enhance account security measures immediately."
-      ],
-      "originalTitle": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
-      "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "GitLab",
-        "Vulnerability",
-        "Ruby",
-        "AlpineLinux"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T23:45:46.000Z",
-      "contentSnippet": "On October 20 and 21, an attacker tried to exploit a GitLab vulnerability (CVE-2026-97229) on our instance, a week after the fix was released. The attack came close to working. We have found no evidence that it succeeded, but we cannot rule it out, so we treated the instance as compromised and rebui",
-      "authorName": "sashk",
-      "upvotes": 109,
-      "commentsCount": 42
-    },
-    {
-      "id": "3b64f2126ca310fc",
-      "title_vi": "Adam Mosseri nhận định sự tiêu cực xoay quanh trí tuệ nhân tạo sẽ còn tiếp tục tồi tệ hơn",
-      "title_en": "Adam Mosseri says negativity around AI is going to get worse",
-      "summary_vi": [
-        "Người đứng đầu mạng xã hội Instagram là Adam Mosseri vừa đưa ra những nhận định thẳng thắn về làn sóng bất mãn ngày càng gia tăng mạnh mẽ đối với các công nghệ trí tuệ nhân tạo hiện nay.",
-        "Trong một cuộc phỏng vấn gần đây trên podcast chuyên ngành, ông phân tích rằng sự lo lắng và phẫn nộ từ cộng đồng sáng tạo hay giới trẻ không phải là hiện tượng nhất thời mà sẽ còn tiếp diễn.",
-        "Thông tin này phản ánh thách thức lớn về mặt chấp nhận xã hội mà các kỹ sư và nhà phát triển hệ thống trí tuệ nhân tạo phải đối mặt trong quá trình thương mại hóa sản phẩm."
-      ],
-      "summary_en": [
-        "The head of Instagram Adam Mosseri recently shared candid perspectives regarding the growing wave of public dissatisfaction and backlash targeting modern artificial intelligence technologies.",
-        "During a recent interview on a specialized industry podcast, he analyzed that the anxiety and anger originating from creative communities and younger generations are persistent long-term trends.",
-        "This insight highlights the massive social acceptance challenges that software engineers and AI developers must navigate while deploying and commercializing their next-generation systems."
-      ],
-      "originalTitle": "Adam Mosseri says negativity around AI is ‘going to get worse’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Instagram",
-        "Tech Trends",
-        "Machine Learning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T23:05:39.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/gettyimages-2239561028.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast to talk about the lau",
-      "authorName": "Stevie Bonifield",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "cf0b445a13fca74c",
-      "title_vi": "Hãng sản xuất thiết bị âm nhạc Akai đón nhận xu hướng tùy chỉnh mã nguồn mở cho thiết bị điều khiển âm nhạc mới",
-      "title_en": "Akai is embracing vibe-coded mods with an open-source MPC",
-      "summary_vi": [
-        "Hãng sản xuất thiết bị âm nhạc Akai đang thu hút cộng đồng lập trình viên và nhà phát triển phần mềm mã nguồn mở khi hé lộ thiết bị phần cứng mới hỗ trợ tùy chỉnh mã nguồn trực tiếp từ cộng đồng công nghệ.",
-        "Thiết bị âm nhạc mới này tích hợp bộ vi điều khiển tiên tiến chạy trên nền tảng phần mềm mở, cho phép các kỹ sư phần mềm tối ưu hóa giao diện bàn phím và các tính năng xử lý tín hiệu số chuyên dụng.",
-        "Động thái này mở ra hướng đi mới trong việc kết hợp phần cứng âm nhạc chuyên nghiệp với hệ sinh thái phần mềm mã nguồn mở, tạo cơ hội cho các lập trình viên thỏa sức sáng tạo và phát triển firmware tùy chỉnh."
-      ],
-      "summary_en": [
-        "Music equipment manufacturer Akai is actively engaging the software developer community and open-source firmware engineers by previewing a new hardware device that supports community-driven code modifications.",
-        "This upcoming music production device integrates advanced microcontroller architecture running on an open firmware platform, allowing software engineers to optimize keyboard interfaces and specialized digital signal processing features.",
-        "This strategic move establishes a new paradigm for combining professional music hardware with open-source software ecosystems, empowering developers to innovate and engineer custom firmware solutions effectively."
-      ],
-      "originalTitle": "Akai is embracing vibe-coded mods with an open-source MPC",
-      "url": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Open Source",
-        "Firmware",
-        "Embedded Systems",
-        "Software Development"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T21:34:04.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Akai-MPC-Sample-Key.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "The MPC Sample Key looks like the MPC Sample just with keys instead of pads. | Image: Akai The MPC Sample Key isn't even formally announced yet, but Akai is already showing off what the modding community is cooking up through vibe coding. Akai has decided to embrace the explosion of hackers and cust",
-      "authorName": "Terrence O’Brien",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "50d36c1a28126eb5",
-      "title_vi": "Tại sao tập lệnh định danh trình duyệt này lại tạo ra vũ khí sinh học?",
-      "title_en": "Why is this fingerprinting script creating bioweapons?",
-      "summary_vi": [
-        "Một chuyên gia bảo mật đã tiến hành thu thập và phân tích các tập lệnh định danh trình duyệt từ top mười nghìn trang web hàng đầu.",
-        "Bằng cách sử dụng công cụ Playwright để chặn các lệnh gọi API định danh canvas, tác giả đã xây dựng cơ sở dữ liệu canvas độc đáo.",
-        "Nghiên cứu này giúp cộng đồng lập trình viên hiểu rõ hơn về các cơ chế theo dõi và chống bot phức tạp đang hoạt động trên web."
-      ],
-      "summary_en": [
-        "A security expert crawled and analyzed browser fingerprinting scripts from the top ten thousand websites on the internet.",
-        "By utilizing Playwright to intercept canvas fingerprinting API calls, the author successfully built a diverse and unique dataset.",
-        "This research helps developers gain deeper insights into the sophisticated tracking and anti-bot mechanisms operating across the web."
-      ],
-      "originalTitle": "Why is this fingerprinting script creating bioweapons?",
-      "url": "https://nullpt.rs/fingerprinting-bioweapons",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Browser Fingerprinting",
-        "Cybersecurity",
-        "Web Scraping",
-        "Playwright",
-        "Anti-Bot"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T17:13:29.000Z",
-      "contentSnippet": "I've always had a fascination with reverse-engineering browser fingerprinting scripts. Most of my time has been spent looking at the usual suspects (popular fingerprinting libraries like FingerprintJS and more sophisticated scripts used by anti-bots like Cloudflare Turnstile, Akamai, and others). At",
-      "authorName": "hazebooth",
-      "upvotes": 927,
-      "commentsCount": 195
-    },
-    {
-      "id": "6825ae5281ac7c3f",
-      "title_vi": "Song Tử 4 Cacbon",
-      "title_en": "Gemini 4 Carbon",
-      "summary_vi": [
-        "Gemini 4 Carbon: mô hình AI tiên tiến (Frontier Models) tiếp theo của chúng tôi Ngày 28 tháng 10 năm 2026 Gemini 4 Carbon là mô hình mạnh nhất của chúng tôi với an ninh mạng hiện đại và khả năng dài hạn.",
-        "SVP, Google DeepMind và Kiến trúc sư trưởng AI, Google Trình duyệt của bạn không hỗ trợ thành phần âm thanh.",
-        "Hôm nay, chúng tôi sẽ công bố mô hình tiên phong tiếp theo: Gemini 4 Carbon, mô hình mạnh nhất của chúng tôi với an ninh mạng hiện đại và khả năng dài hạn."
-      ],
-      "summary_en": [
-        "Gemini 4 Carbon: our next frontier model Oct 28, 2026 Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities.",
-        "SVP, Google DeepMind and Chief AI Architect, Google Your browser does not support the audio element.",
-        "Today, we’re announcing the next frontier model: Gemini 4 Carbon, our strongest model with state-of-the-art cybersecurity and long horizon capabilities."
-      ],
-      "originalTitle": "Gemini 4 Carbon",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Gemini"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-10-28T17:01:23.000Z",
-      "contentSnippet": "Gemini 4 Carbon: our next frontier model Oct 28, 2026 Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities. SVP, Google DeepMind and Chief AI Architect, Google Your browser does not support the audio element. Today, we’re announcing the next fronti",
-      "authorName": "acossta",
-      "upvotes": 194,
-      "commentsCount": 123
-    },
-    {
-      "id": "d8b97f51380d406a",
-      "title_vi": "Vỡ mộng vì vội vã ứng dụng trí tuệ nhân tạo",
-      "title_en": "Disillusioned by the rushed adoption of artificial intelligence",
-      "summary_vi": [
-        "Nhiều doanh nghiệp trên toàn cầu đang đối mặt với tình trạng hỗn loạn và lãng phí thời gian của nhân viên do việc tích hợp các mô hình trí tuệ nhân tạo vào quy trình làm việc khi công nghệ chưa đạt độ chín muồi cần thiết.",
-        "Việc triển khai ồ ạt các công cụ thông minh thiếu kiểm soát không chỉ gây suy giảm hiệu suất thực tế mà còn làm tăng chi phí vận hành và làm rò rỉ các dữ liệu nhạy cảm quan trọng của tổ chức ra bên ngoài.",
-        "Bài học rút ra cho các kỹ sư trưởng và nhà quản lý là cần phải xây dựng chiến lược đánh giá rủi ro kỹ lưỡng, kiểm thử mô hình chặt chẽ trước khi đưa vào môi trường sản xuất thực tế để tránh những hậu quả đáng tiếc."
-      ],
-      "summary_en": [
-        "Many global enterprises are currently facing operational chaos and wasting employee time due to integrating artificial intelligence models into workflows before the underlying technology reaches necessary maturity.",
-        "The massive and uncontrolled deployment of smart tools not only degrades practical performance but also increases operational costs and exposes critical organizational sensitive data to external risks.",
-        "The key takeaway for chief engineers and managers is the necessity to build thorough risk assessment strategies and rigorous model testing before production deployment to prevent unfortunate consequences."
-      ],
-      "originalTitle": "'Vỡ mộng' vì vội ứng dụng AI",
-      "url": "https://vnexpress.net/vo-mong-vi-voi-ung-dung-ai-5137139.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Artificial Intelligence",
-        "Enterprise Tech",
-        "Cybersecurity",
-        "Tech Trends"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T17:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/26/wm1-wm1-dsc09962-jpg-1793011313-9357-1793011378.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=68UBMn-53mCNOxSgF1y7gg",
-      "contentSnippet": "Nhiều công ty trên thế giới đang đau đầu giải quyết mớ hỗn độn do vội vã ứng dụng AI khi công cụ chưa thực sự ổn định, dẫn đến mất thời gian của nhân viên, lộ bí mật thông tin và tăng chi phí.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ce4737bd59663e35",
-      "title_vi": "So sánh chi phí gọi API giữa các mô hình Claude và GPT qua bài kiểm tra thực tế",
-      "title_en": "Comparing API Call Costs Between Claude and GPT Models Through Practical Testing",
-      "summary_vi": [
-        "Bài viết phân tích chi phí thực tế khi thực hiện tổng cộng một trăm tám mươi lần gọi API trên ba mô hình trí tuệ nhân tạo khác nhau với mười hai bài kiểm tra chuẩn hóa.",
-        "Mỗi lần gọi API tiêu tốn chi phí dao động từ không phẩy không không ba ba đến không phẩy không hai sáu năm đô la Mỹ dựa trên biểu giá token của các nhà cung cấp.",
-        "Nghiên cứu này cung cấp góc nhìn thực tế giúp các kỹ sư phần mềm tối ưu hóa ngân sách khi tích hợp các mô hình ngôn ngữ lớn vào ứng dụng."
-      ],
-      "summary_en": [
-        "The article analyzes the actual costs incurred when performing a total of one hundred eighty API calls across three different artificial intelligence models with twelve standardized tests.",
-        "Each API call incurs a cost ranging from zero point zero zero three three to zero point zero two six five US dollars based on the token pricing of the respective providers.",
-        "This research provides practical insights to help software engineers optimize their budgets when integrating large language models into production applications."
-      ],
-      "originalTitle": "Claude và GPT: ba mô hình, 180 lần gọi",
-      "url": "https://viblo.asia/p/claude-va-gpt-ba-mo-hinh-180-lan-goi-kNLr3e6wVgA",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "LLM",
-        "API",
-        "GPT",
-        "Claude"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T16:41:48.000Z",
-      "contentSnippet": "12 bài, 5 lần mỗi bài, 3 mô hình. Mỗi lần gọi tốn từ 0,0033 đến 0,0265 USD. Đơn giá theo token xem tại trang giá Sonnet 4.6. Mình dùng ba mô hình ...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b03822c9514c65b7",
-      "title_vi": "Đánh giá chi phí gọi API giữa các mô hình ngôn ngữ lớn Claude và GPT",
-      "title_en": "API Cost Evaluation Across Claude and GPT Large Language Models",
-      "summary_vi": [
-        "Bài viết phân tích chi tiết chi phí thực tế khi thực hiện tổng cộng một trăm tám mươi lần gọi API trên ba mô hình ngôn ngữ lớn khác nhau.",
-        "Dữ liệu thử nghiệm dựa trên mười hai bài viết được xử lý năm lần cho mỗi mô hình với đơn giá token được tính toán cụ thể từ trang giá của Sonnet bốn chấm sáu.",
-        "Nghiên cứu giúp các kỹ sư phần mềm tối ưu hóa ngân sách khi tích hợp các mô hình trí tuệ nhân tạo vào ứng dụng thực tế một cách hiệu quả."
-      ],
-      "summary_en": [
-        "The article provides a detailed analysis of the actual costs incurred when executing a total of one hundred eighty API calls across three different large language models.",
-        "The experimental data is based on twelve articles processed five times each per model, with token unit prices specifically calculated from the Sonnet four point six pricing page.",
-        "This research helps software engineers optimize budgets when integrating artificial intelligence models into practical applications efficiently and cost effectively."
-      ],
-      "originalTitle": "Claude và GPT: ba mô hình, 180 lần gọi",
-      "url": "https://viblo.asia/p/claude-va-gpt-ba-mo-hinh-180-lan-goi-Nj4vgOM3J6r",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "LLM",
-        "Claude",
-        "GPT",
-        "API Cost"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T16:13:46.000Z",
-      "contentSnippet": "12 bài, 5 lần mỗi bài, 3 mô hình. Mỗi lần gọi tốn từ 0,0033 đến 0,0265 USD. Đơn giá theo token xem tại trang giá Sonnet 4.6. Mình dùng ba mô hình ...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "17a75de37df03bf6",
-      "title_vi": "Dayjob: Thuế – đánh giá các đại lý AI trên 50 nhiệm vụ thuế chuyên nghiệp",
-      "title_en": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
-      "summary_vi": [
-        "Dayjob: Thuế – đánh giá các đại lý AI trên 50 nhiệm vụ thuế chuyên nghiệp.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Dayjob: Thuế – đánh giá các đại lý AI trên 50 nhiệm vụ thuế chuyên nghiệp.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Dayjob: Thuế – đánh giá các đại lý AI trên 50 nhiệm vụ thuế chuyên nghiệp."
-      ],
-      "summary_en": [
-        "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments.",
-        "In-depth technical breakdown and implementation mechanisms introduced in Dayjob: Tax – evaluating AI agents on 50 professional tax assignments.",
-        "Practical engineering impact and actionable takeaways for developers building with Dayjob: Tax – evaluating AI agents on 50 professional tax assignments."
-      ],
-      "originalTitle": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
-      "url": "https://surgehq.ai/blog/dayjob-tax",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-28T15:46:30.000Z",
-      "contentSnippet": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
-      "authorName": "landonxi",
-      "upvotes": 65,
-      "commentsCount": 40
     }
   ]
 }
