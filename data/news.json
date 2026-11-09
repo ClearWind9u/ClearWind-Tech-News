@@ -1,7 +1,384 @@
 {
-  "lastUpdated": "2026-11-08T21:30:51.926Z",
+  "lastUpdated": "2026-11-09T03:49:58.851Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "74ca02b8eccd5530",
+      "title_vi": "Cấu trúc dữ liệu và Giải thuật Bài 133: Mã Prüfer và Định lý Cayley trong nén cây nhãn",
+      "title_en": "Data Structures and Algorithms Lesson 133: Prufer Code and Cayley's Theorem in Labeled Tree Compression",
+      "summary_vi": [
+        "Bài viết khám phá mã Prüfer và định lý Cayley trong lý thuyết đồ thị, giải quyết bài toán đếm và biểu diễn cây khung có nhãn một cách hiệu quả.",
+        "Kỹ thuật này cho phép chuyển đổi song ánh giữa một cây có nhãn và một dãy số nguyên độc lập, giúp tối ưu hóa việc lưu trữ cấu trúc dữ liệu.",
+        "Kiến thức này rất quan trọng đối với các kỹ sư phần mềm khi xử lý các bài toán tối ưu hóa mạng lưới, thuật toán đồ thị và cấu trúc dữ liệu phức tạp."
+      ],
+      "summary_en": [
+        "This article explores the Prufer code and Cayley's theorem in graph theory, effectively solving the problem of counting and representing labeled spanning trees.",
+        "The technique enables a bijective mapping between a labeled tree and a sequence of integers, significantly optimizing data structure storage efficiency.",
+        "This knowledge is crucial for software engineers when dealing with network optimization problems, graph algorithms, and complex data structures."
+      ],
+      "originalTitle": "Cấu trúc dữ liệu và Giải thuật Bài 133: Mã Prüfer (Prüfer Code & Định lý Cayley) - Kỹ thuật nén cấu trúc cây và bài toán đếm cây có nhãn.",
+      "url": "https://viblo.asia/p/cau-truc-du-lieu-va-giai-thuat-bai-133-ma-pruefer-pruefer-code-dinh-ly-cayley-ky-thuat-nen-cau-truc-cay-va-bai-toan-dem-cay-co-nhan-ZoJjej1y4Y7",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Algorithms",
+        "Data Structures",
+        "Graph Theory",
+        "Optimization"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-09T09:20:54.000Z",
+      "contentSnippet": "Trong lý thuyết đồ thị và tổ hợp đại số, bài toán xác định số lượng cây khung có nhãn (Labeled Trees) trên tập đỉnh là một cột mốc lịch sử. Năm 1889,...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5e98a633fba660e7",
+      "title_vi": "llms.txt là gì? Phân tích 1.240 Website: Vì sao 80% triển khai sai & Cách cấu hình chuẩn GEO cho ChatGPT, Perplexity (2026)",
+      "title_en": "What is llms.txt? Analyzing 1,240 Websites: Why 80% Fail Implementation & How to Configure GEO Standards for ChatGPT and Perplexity (2026)",
+      "summary_vi": [
+        "Sự chuyển dịch hành vi người dùng từ tìm kiếm truyền thống sang các mô hình AI như ChatGPT và Perplexity đang đặt ra yêu cầu cấp thiết cho các quản trị viên website trong việc tối ưu hóa dữ liệu để máy học dễ dàng truy xuất.",
+        "Nghiên cứu trên 1.240 trang web cho thấy 80% đơn vị đang triển khai tệp llms.txt sai cách, dẫn đến việc các trình thu thập dữ liệu AI không thể hiểu đúng cấu trúc nội dung, gây ảnh hưởng trực tiếp đến khả năng hiển thị thông tin.",
+        "Việc cấu hình chuẩn hóa tệp tin này không chỉ giúp cải thiện khả năng đọc hiểu của các mô hình ngôn ngữ lớn mà còn là chiến lược then chốt để duy trì lợi thế cạnh tranh trong kỷ nguyên tìm kiếm bằng trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "The shift in user behavior from traditional search engines to AI models like ChatGPT and Perplexity necessitates that website administrators optimize their data structures to ensure seamless retrieval and interpretation by advanced machine learning crawlers.",
+        "An analysis of 1,240 websites reveals that 80% have implemented the llms.txt file incorrectly, preventing AI agents from accurately parsing site content and significantly hindering the visibility of information within these emerging search ecosystems.",
+        "Standardizing this configuration is essential for enhancing the readability of web content by large language models, serving as a critical strategy for developers to maintain relevance and visibility in the evolving era of AI-driven search."
+      ],
+      "originalTitle": "llms.txt là gì? Phân tích 1.240 Website: Vì sao 80% triển khai sai & Cách cấu hình chuẩn GEO cho ChatGPT, Perplexity (2026)",
+      "url": "https://viblo.asia/p/llmstxt-la-gi-phan-tich-1240-website-vi-sao-80-trien-khai-sai-cach-cau-hinh-chuan-geo-cho-chatgpt-perplexity-2026-8X4EjW7BJN2",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "LLM",
+        "SEO",
+        "Web Development",
+        "Search Engine"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-11-09T09:15:59.000Z",
+      "contentSnippet": "Khi người dùng chuyển dần từ thói quen gõ từ khóa ngắn trên Google sang đặt câu hỏi trực tiếp cho ChatGPT Search (OAI-SearchBot), Perplexity (Perplexi...",
+      "authorName": "Nguyen Vy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5f6f5759173d6c8f",
+      "title_vi": "Thời đại AI: Chúng ta phải làm gì để tồn tại? (Cảm ngộ khi sáng lập StreamPDF)",
+      "title_en": "The AI Era: How to Survive and Thrive? (Reflections from Founding StreamPDF)",
+      "summary_vi": [
+        "Bài viết phân tích tác động sâu rộng của cuộc cách mạng công nghiệp lần thứ tư do trí tuệ nhân tạo dẫn dắt, đặt ra câu hỏi về sự tồn vong của các kỹ sư và chuyên gia trong bối cảnh thị trường lao động công nghệ đang biến động mạnh mẽ.",
+        "Tác giả chia sẻ góc nhìn từ quá trình xây dựng StreamPDF, nhấn mạnh việc chuyển đổi từ tư duy lập trình truyền thống sang khả năng tận dụng các mô hình ngôn ngữ lớn để tối ưu hóa quy trình xử lý tài liệu và tự động hóa các tác vụ phức tạp.",
+        "Thông điệp cốt lõi hướng tới việc thích nghi thông qua tư duy giải quyết vấn đề thay vì chỉ tập trung vào kỹ năng viết mã thuần túy, giúp lập trình viên duy trì lợi thế cạnh tranh trong kỷ nguyên mà AI có thể thay thế các công việc lặp lại."
+      ],
+      "summary_en": [
+        "The article analyzes the profound impact of the fourth industrial revolution driven by artificial intelligence, questioning the survival of engineers and professionals amidst the rapidly shifting landscape of the technology labor market.",
+        "The author shares insights from building StreamPDF, emphasizing the shift from traditional programming mindsets to leveraging large language models for optimizing document processing workflows and automating complex technical tasks effectively.",
+        "The core message focuses on adapting through problem-solving mindsets rather than just coding skills, helping developers maintain a competitive edge in an era where AI can increasingly replace repetitive and routine technical tasks."
+      ],
+      "originalTitle": "Thời đại AI: Chúng ta phải làm gì để tồn tại? (Cảm ngộ khi sáng lập StreamPDF)",
+      "url": "https://viblo.asia/p/thoi-dai-ai-chung-ta-phai-lam-gi-de-ton-tai-cam-ngo-khi-sang-lap-streampdf-G24B8WAWLz3",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "AI",
+        "Startup",
+        "Software Engineering",
+        "Automation",
+        "Future of Work"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-09T08:38:37.000Z",
+      "contentSnippet": "Lời mở đầu AI được gọi là cuộc cách mạng công nghiệp lần thứ tư, vậy nó đã cướp đi sinh mạng của ai? Cách mạng, tức là sẽ có người chết. Cuộc cách...",
+      "authorName": "Jiang Xuan",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "313c0184a2be5a84",
+      "title_vi": "Tổng giám đốc Nvidia thừa nhận quan hệ cá nhân với cá nhân bị nghi là gián điệp, công ty mở cuộc điều tra độc lập",
+      "title_en": "Nvidia CEO admits personal relationship with suspected spy, company launches independent investigation",
+      "summary_vi": [
+        "Giám đốc điều hành Nvidia vừa gửi thư điện tử toàn thể nhân viên để thừa nhận mối quan hệ cá nhân với một cá nhân từng bị cơ quan tình báo Mỹ nghi ngờ là gián điệp Trung Quốc trong thời gian qua.",
+        "Sự việc liên quan đến vấn đề bảo mật thông tin và an ninh nội bộ tại một trong những tập đoàn công nghệ bán dẫn lớn nhất thế giới, đòi hỏi cơ chế kiểm soát truy cập dữ liệu nhạy cảm cực kỳ khắt khe.",
+        "Vụ việc đặt ra thách thức lớn về quản trị doanh nghiệp và quy trình kiểm tra an ninh đối với các lãnh đạo cấp cao trong các công ty công nghệ chiến lược có liên quan đến an ninh quốc gia."
+      ],
+      "summary_en": [
+        "The Chief Executive Officer of Nvidia recently sent an internal email to all employees acknowledging a personal relationship with an individual previously suspected by US intelligence agencies of being a Chinese spy.",
+        "This incident highlights critical information security and internal clearance concerns within one of the world's largest semiconductor giants, demanding rigorous access control mechanisms for sensitive technological data.",
+        "The situation poses significant governance challenges and highlights the necessity of strict security vetting processes for executive leadership across strategic technology corporations tied to national security."
+      ],
+      "originalTitle": "Jensen Huang thừa nhận ngoại tình với người bị tình báo Mỹ nghi là gián điệp Trung Quốc, Nvidia...",
+      "url": "https://tinhte.vn/thread/jensen-huang-thua-nhan-ngoai-tinh-voi-nguoi-bi-tinh-bao-my-nghi-la-gian-diep-trung-quoc-nvidia.4190725/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Nvidia",
+        "Security",
+        "Semiconductor",
+        "Leadership",
+        "Compliance"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-09T03:44:19.000Z",
+      "contentSnippet": "Jensen Huang thừa nhận ngoại tình với người bị tình báo Mỹ nghi là gián điệp Trung Quốc, Nvidia mở điều tra độc lập Jensen Huang vừa gửi email cho toàn bộ nhân viên Nvidia, thừa nhận ông đã có...",
+      "authorName": "nhatminhngo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a3f25cf2e5b4fb2c",
+      "title_vi": "Chuột không dây giá ba trăm nghìn đồng trang bị phím bấm tĩnh lặng, thời lượng pin một năm và tích hợp phím tắt trí tuệ nhân tạo",
+      "title_en": "Budget Wireless Mouse Priced Around Three Hundred Thousand VND Features Silent Switches, One Year Battery Life, and Dedicated AI Integration Button",
+      "summary_vi": [
+        "Thị trường thiết bị ngoại vi vừa đón nhận một mẫu chuột không dây phân khúc phổ thông có mức giá cực kỳ dễ tiếp cận khoảng ba trăm nghìn đồng nhưng sở hữu nhiều tính năng vượt trội so với tầm giá chung hiện nay.",
+        "Sản phẩm được trang bị thiết kế công thái học gọn nhẹ, tích hợp hệ thống phím bấm silent giảm tiếng ồn tối đa, hỗ trợ hai chế độ kết nối linh hoạt giữa máy tính để bàn và máy tính xách tay cùng nút bấm AI chuyên dụng.",
+        "Thiết bị mang lại giải pháp làm việc hiệu quả và tiết kiệm chi phí cho các kỹ sư công nghệ cùng lập trình viên thường xuyên phải di chuyển, đồng thời tối ưu hóa thao tác nhờ sự hỗ trợ đắc lực từ trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "The peripheral market has just welcomed an entry level wireless mouse priced at around three hundred thousand VND while offering advanced capabilities that far exceed its current standard market segment.",
+        "The device features a lightweight ergonomic design equipped with silent switch mechanisms to minimize noise, dual connection modes for desktops and laptops, and a dedicated artificial intelligence shortcut button.",
+        "This hardware solution delivers cost effective productivity enhancements for software engineers and developers who travel frequently while optimizing daily workflows through integrated artificial intelligence assistance."
+      ],
+      "originalTitle": "Chuột không dây giá chỉ 300.000 đồng: Thiết kế gọn nhẹ, có switch silent, pin 12 tháng lại còn tích hợp cả nút AI",
+      "url": "https://genk.vn/chuot-khong-day-gia-chi-300000-dong-thiet-ke-gon-nhe-co-switch-silent-pin-12-thang-lai-con-tich-hop-ca-nut-ai-165261109103753949.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Hardware",
+        "AI",
+        "Wireless Mouse",
+        "Peripherals",
+        "Tech Trends"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-09T03:37:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/9/genk-rapoo-m360-smart-12-1794194463984238853865-67-0-1067-1600-crop-17941953296062068952098.jpg",
+      "contentSnippet": "Một mẫu chuột nhỏ gọn nhẹ, nhiều nút bấm mà lại còn có 2 chế độ ghép nối, dùng được cho cả máy bàn lẫn laptop trong khi mức giá chỉ khoảng 300.000 đồng.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "20b1c0b8f409e69c",
+      "title_vi": "Vụ việc tại Singapore và lý do hãng sản xuất chip Nvidia phải tiến hành điều tra chính tổng giám đốc điều hành của mình",
+      "title_en": "The Singapore Incident and Why Nvidia Had to Investigate Its Own Chief Executive Officer",
+      "summary_vi": [
+        "Sự việc bắt đầu từ một bài báo điều tra chuyên sâu của tờ New York Times kéo dài mười ngày, dẫn đến quyết định buộc tập đoàn công nghệ khổng lồ Nvidia phải công khai thư xin lỗi gửi toàn thể nhân viên công ty.",
+        "Báo cáo tập trung làm rõ các vấn đề liên quan đến quy trình quản trị doanh nghiệp, tính minh bạch trong chuỗi cung ứng linh kiện bán dẫn và trách nhiệm giải trình của lãnh đạo cấp cao trong bối cảnh bùng nổ trí tuệ nhân tạo.",
+        "Bài học rút ra cho ngành công nghệ là tầm thiết yếu của việc thiết lập hệ thống kiểm soát nội bộ vững chắc, giúp ngăn ngừa rủi ro đạo đức nghề nghiệp và duy trì niềm tin vững bền từ cộng đồng kỹ thuật toàn cầu."
+      ],
+      "summary_en": [
+        "The controversy stemmed from a ten-day investigative report by the New York Times, culminating in a formal apology letter sent by semiconductor giant Nvidia to all employees across the entire organization.",
+        "The report focused on clarifying issues regarding corporate governance practices, transparency within the hardware supply chain, and executive accountability amidst the unprecedented global boom in artificial intelligence infrastructure.",
+        "A critical takeaway for the tech industry is the absolute necessity of establishing robust internal control systems to prevent ethical risks and maintain enduring trust within the global engineering community."
+      ],
+      "originalTitle": "Người phụ nữ ở Singapore và lý do Nvidia phải điều tra chính CEO của mình",
+      "url": "https://genk.vn/nguoi-phu-nu-o-singapore-va-ly-do-nvidia-phai-dieu-tra-chinh-ceo-cua-minh-165261109085411571.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "Semiconductor",
+        "Leadership",
+        "Governance",
+        "TechNews"
+      ],
+      "hotScore": 91,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-09T02:12:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/9/avanvidiahuang16x10-1794186937505293022864.jpg",
+      "contentSnippet": "10 ngày từ bài báo của New York Times tới lá thư xin lỗi gửi toàn công ty.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b414d450688324f8",
+      "title_vi": "Thái Lan tạm dừng hàng loạt dự án trung tâm dữ liệu AI do lo ngại thiếu nguồn điện và nước",
+      "title_en": "Thailand Halts Multiple AI Data Center Projects Due to Electricity and Water Shortage Concerns",
+      "summary_vi": [
+        "Thái Lan vừa đưa ra quyết định tạm dừng bốn mươi chín trung tâm dữ liệu đang trong quá trình xây dựng cùng một trăm mười bảy hồ sơ chờ phê duyệt để tiến hành rà soát kỹ lưỡng các yêu cầu về điện năng, nguồn nước và tác động môi trường.",
+        "Việc bùng nổ các hạ tầng tính toán trí tuệ nhân tạo đòi hỏi công suất khổng lồ, khiến nhiều quốc gia đối mặt với áp lực quá tải lưới điện cục bộ và bắt buộc phải tái cấu trúc phương án cung cấp năng lượng tái tạo dài hạn.",
+        "Sự kiện này gióng lên hồi chuông cảnh báo cho các kỹ sư hệ thống và kiến trúc sư hạ tầng về bài toán tối ưu hóa năng lượng, đòi hỏi các giải pháp phần cứng lẫn phần mềm tiết kiệm điện năng hơn trong kỷ nguyên AI."
+      ],
+      "summary_en": [
+        "Thailand has decided to temporarily suspend forty nine data centers currently under construction alongside one hundred seventeen pending applications to thoroughly review electricity, water and environmental requirements.",
+        "The surge in artificial intelligence computing infrastructure demands massive power capacity, putting pressure on local power grids and forcing nations to restructure their long term renewable energy supply plans.",
+        "This event serves as a wake up call for system engineers and infrastructure architects regarding energy optimization, demanding more power efficient hardware and software solutions in the AI era."
+      ],
+      "originalTitle": "Thái Lan dừng 166 dự án trung tâm dữ liệu AI vì lo thiếu điện nước",
+      "url": "https://genk.vn/thai-lan-dung-166-du-an-trung-tam-du-lieu-ai-vi-lo-thieu-dien-nuoc-165261109081839992.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "AI",
+        "Data Center",
+        "Cloud Infrastructure",
+        "Energy Efficiency"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-09T01:59:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/9/avatar1794187099948-17941871010102069778551.jpg",
+      "contentSnippet": "Thái Lan tạm dừng 49 dự án đang xây và 117 hồ sơ chờ phê duyệt để rà soát yêu cầu về điện, nước và môi trường. Tại Scotland, một dự án trung tâm dữ liệu AI quy mô 500 MW cũng phải điều chỉnh cách cấp điện so với kế hoạch năng lượng tái tạo ban đầu.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5c91c386677b0bcd",
+      "title_vi": "Mở khóa hầu hết các dòng xe ô tô của một hãng lớn trên toàn thế giới thông qua lỗ hổng hệ thống mạng",
+      "title_en": "Unlocking any car from X brand in most of the world",
+      "summary_vi": [
+        "Bài viết nghiên cứu chuyên sâu về lỗ hổng bảo mật trong nền tảng xe hơi kết nối Internet của một nhà sản xuất ô tô lớn trên toàn cầu.",
+        "Tác giả phối hợp cùng chuyên gia Sam Curry tiến hành phân tích mã nguồn ứng dụng di động, giải mã các yêu cầu API giao tiếp với hạ tầng đám mây và hệ thống từ xa.",
+        "Phát hiện này gióng lên hồi chuông cảnh báo về rủi ro an ninh mạng đối với các ứng dụng điều khiển phương tiện thông minh kết nối trực tiếp với internet hiện nay."
+      ],
+      "summary_en": [
+        "The article provides an in-depth security analysis of the connected car platform belonging to a major global automotive manufacturer.",
+        "The author collaborated with expert Sam Curry to decompile the mobile application and reconstruct the API requests communicating with remote cloud infrastructure.",
+        "This critical finding raises serious cybersecurity awareness regarding the inherent risks in smart vehicle control applications connected directly to the internet."
+      ],
+      "originalTitle": "Unlocking any car from X brand in most of the world",
+      "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "API Security",
+        "Mobile App",
+        "Automotive",
+        "Reverse Engineering"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-09T00:10:50.000Z",
+      "contentSnippet": "I've always had a soft spot for this particular car brand. Our family has owned a few of them over the years, and they've served us incredibly well. In 2023, I bought a new four wheel drive/SUV from them, and it was the first time I had access to their connected car platform. Having looked at platfo",
+      "authorName": "infosecau",
+      "upvotes": 130,
+      "commentsCount": 46
+    },
+    {
+      "id": "f0be6325bfc4dec9",
+      "title_vi": "Nvidia mở cuộc điều tra về mối quan hệ cá nhân của CEO Jensen Huang",
+      "title_en": "Nvidia launches investigation into CEO Jensen Huang's personal relationship",
+      "summary_vi": [
+        "Tập đoàn Nvidia vừa chính thức khởi động cuộc điều tra nội bộ liên quan đến mối quan hệ cá nhân của CEO Jensen Huang với một nữ giám đốc điều hành trong lĩnh vực trí tuệ nhân tạo.",
+        "Sự việc diễn ra trong bối cảnh công ty đang đẩy mạnh sản xuất dòng chip Rubin thế hệ mới nhằm phục vụ các mô hình AI nền tảng cho robot tại thị trường Nhật Bản với số lượng lớn.",
+        "Vụ bê bối này đặt ra những thách thức về quản trị doanh nghiệp và an ninh thông tin, có thể ảnh hưởng đến uy tín của Nvidia trong việc duy trì các mối quan hệ đối tác chiến lược quốc tế."
+      ],
+      "summary_en": [
+        "Nvidia Corporation has officially launched an internal investigation regarding the personal relationship between CEO Jensen Huang and a female executive operating within the artificial intelligence sector amid growing corporate governance concerns.",
+        "The incident coincides with the company's strategic push to manufacture 27,500 next-generation Rubin chips, which are intended to power foundational AI models for robotics applications in the Japanese market.",
+        "This scandal presents significant challenges for corporate leadership and information security, potentially impacting Nvidia's reputation and its ability to maintain critical international strategic partnerships in the competitive semiconductor industry."
+      ],
+      "originalTitle": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "AI",
+        "Semiconductor",
+        "Corporate Governance",
+        "Jensen Huang"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-08T22:54:50.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2285784039.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Jensen Huang, chief executive officer of Nvidia Corp., attends a media briefing following the company's \"Japan AI Ecosystem\" reception in Tokyo, Japan, on Thursday, July 16, 2026. Japan is planning to buy 27,500 next-generation Rubin chips from Nvidia Corp. to build a homegrown foundational AI model",
+      "authorName": "Terrence O’Brien",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5a786529aaee4f4c",
+      "title_vi": "KetchUp: Công cụ mô hình hóa 3D mã nguồn mở viết bằng Rust và WebGPU",
+      "title_en": "KetchUp: Open-source SketchUp alternative built with Rust and WebGPU",
+      "summary_vi": [
+        "Bài viết giới thiệu KetchUp, một ứng dụng mô hình hóa 3D mã nguồn mở hoàn toàn miễn phí, hỗ trợ thiết kế đồ gỗ và nội thất trực tiếp trên các hệ điều hành lớn hoặc trình duyệt web hiện đại.",
+        "Phần mềm được phát triển bằng ngôn ngữ lập trình Rust kết hợp công nghệ đồ họa WebGPU, mang lại hiệu năng xử lý hình học mượt mà, hỗ trợ tính năng tự động lưu trữ cục bộ và xuất file OBJ.",
+        "Giải pháp này cung cấp cho các nhà phát triển và thợ mộc một công cụ trực quan để thử nghiệm các cấu trúc hình học phức tạp, tối ưu hóa quy trình dựng hình trực tuyến trên nền tảng web."
+      ],
+      "summary_en": [
+        "The article introduces KetchUp, a free, open-source 3D modeling application designed for woodworking and interior design, accessible across major operating systems and modern desktop web browsers seamlessly.",
+        "The software is engineered using the Rust programming language alongside WebGPU graphics technology, delivering smooth geometric rendering performance with local autosave functionality and OBJ file export support.",
+        "This solution provides developers and woodworkers with an intuitive tool to explore complex geometric structures, optimizing the online rendering workflow directly within standard web browser environments."
+      ],
+      "originalTitle": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+      "url": "https://ketchup3d.github.io/app/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Rust",
+        "WebGPU",
+        "Open Source",
+        "3D Modeling",
+        "Web Development"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-08T22:35:35.000Z",
+      "contentSnippet": "BenchUp is a free, open-source 3D modeling app for woodworking and furniture design. Plan a shelf, table, cabinet, or workbench with exact measurements before you build. Use it on Windows, macOS, Linux, or right in your desktop browser. Download for Windows ↓ Windows x64 · .exe installer Download fo",
+      "authorName": "dcoulmbe",
+      "upvotes": 283,
+      "commentsCount": 82
+    },
+    {
+      "id": "cce9b0398069673d",
+      "title_vi": "Nvidia điều tra nguy cơ CEO Jensen Huang bị gián điệp nhắm mục tiêu",
+      "title_en": "Nvidia Investigates Potential Foreign Intelligence Targeting CEO Jensen Huang",
+      "summary_vi": [
+        "Công ty công nghệ bán dẫn hàng đầu Nvidia đang tiến hành điều tra khẩn cấp sau khi có thông tin cho rằng giám đốc điều hành Jensen Huang có thể đã trở thành mục tiêu trong một chiến dịch tình báo nước ngoài phức tạp.",
+        "Vụ việc làm dấy lên những lo ngại nghiêm trọng về các lỗ hổng bảo mật cấp cao, đặc biệt liên quan đến việc bảo vệ thông tin độc quyền và dữ liệu chiến lược trong ngành công nghiệp vi mạch và trí tuệ nhân tạo.",
+        "Sự cố này đặt ra bài học đắt giá về an ninh mạng và an toàn thông tin cá nhân cho các nhà lãnh đạo công nghệ lớn, nhấn mạnh sự cần thiết phải thắt chặt kiểm soát an ninh đối với các yếu nhân."
+      ],
+      "summary_en": [
+        "Leading semiconductor giant Nvidia is conducting an urgent investigation following reports that chief executive Jensen Huang may have become the target of a sophisticated foreign intelligence operation.",
+        "This incident raises serious concerns regarding high-level security vulnerabilities, specifically related to the protection of proprietary information and strategic data within the microchip and artificial intelligence industry.",
+        "The event serves as a critical lesson on cybersecurity and personal information security for major tech leaders, emphasizing the need to tighten security controls surrounding key executives."
+      ],
+      "originalTitle": "CEO Nvidia thừa nhận không chung thủy với vợ",
+      "url": "https://vnexpress.net/ceo-nvidia-thua-nhan-khong-chung-thuy-voi-vo-5142241.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Nvidia",
+        "Cybersecurity",
+        "Semiconductor",
+        "Jensen Huang",
+        "Security"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-08T22:32:21.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/09/Nvidia-jpeg-1794177036-2872-1794177089.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=lU_1xPiTfvlAB1cQ8Q8gPQ",
+      "contentSnippet": "Nvidia cho biết đang điều tra khả năng CEO Jensen Huang trở thành mục tiêu của một chiến dịch tình báo nước ngoài, sau khi ông thừa nhận không chung thủy với vợ.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "fcf957b0192a51b2",
       "title_vi": "JavaScript: Chạy nhiều promise cùng lúc bằng Promise.allSettled — Một lỗi không làm hỏng cả lô",
@@ -33,6 +410,41 @@
       "publishedAt": "2026-11-08T22:18:57.000Z",
       "contentSnippet": "Khi cần gọi nhiều API độc lập cùng lúc — ví dụ lấy thông tin người dùng, danh sách bài viết và số liệu thống kê cho một trang dashboard — Promise.allS...",
       "authorName": "Linh Fish Dev",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "263a7200d80c3836",
+      "title_vi": "Trí tuệ nhân tạo trong y sinh: Ranh giới giữa phép màu và thảm họa",
+      "title_en": "AI in Biomedical Science: The Fine Line Between Miracle and Disaster",
+      "summary_vi": [
+        "Một phòng thí nghiệm tại San Francisco đang thử nghiệm thế hệ robot mới được tích hợp trí tuệ nhân tạo để tự động hóa hoàn toàn quy trình phát triển dược phẩm và nghiên cứu sinh học.",
+        "Hệ thống sử dụng cảm biến áp suất, camera kết hợp cùng phần mềm trí tuệ nhân tạo để phân tích dữ liệu, cho phép robot tiến hành các thí nghiệm phức tạp liên tục suốt ngày đêm.",
+        "Dự án này đánh dấu bước tiến quan trọng trong việc ứng dụng tự động hóa vào y sinh, giúp các công ty khởi nghiệp giảm thiểu đáng kể chi phí và thời gian thử nghiệm thuốc mới."
+      ],
+      "summary_en": [
+        "A San Francisco-based laboratory is pioneering a new generation of robots integrated with artificial intelligence to completely automate the drug development and biological research workflows.",
+        "The system utilizes pressure sensors and cameras combined with artificial intelligence software to analyze data, enabling robots to conduct complex experiments continuously around the clock.",
+        "This project marks a significant milestone in applying laboratory automation to biomedical science, helping startups dramatically reduce the costs and time required for new drug testing."
+      ],
+      "originalTitle": "AI trong y sinh: ranh giới giữa phép màu và thảm họa",
+      "url": "https://vnexpress.net/ai-trong-y-sinh-ranh-gioi-giua-phep-mau-va-tham-hoa-5141687.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Robotics",
+        "Biomedical",
+        "Automation",
+        "Startups"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-08T22:10:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/06/Luachonsinhhoctuonglai-1793963-5754-2562-1793963497.gif?w=1200&h=0&q=100&dpr=1&fit=crop&s=MbeHHFjB2DY9d2Oq9dyZtA&t=image",
+      "contentSnippet": "Tại một phòng thí nghiệm ở phía nam San Francisco, nhóm nhà khoa học đang cố gắng đào tạo thế hệ kế nhiệm, nhưng không phải con người mà là robot.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8184,408 +8596,6 @@
       "authorName": "landonxi",
       "upvotes": 65,
       "commentsCount": 40
-    },
-    {
-      "id": "ee1bc08faffb7e62",
-      "title_vi": "Oppo Find X10 Pro Max - smartphone có ba camera 200 megapixel",
-      "title_en": "Oppo Find X10 Pro Max - smartphone with three 200 megapixel cameras",
-      "summary_vi": [
-        "Oppo Find X10 Pro Max là điện thoại đầu tiên trang bị ba camera sau cùng độ phân giải 200 megapixel, hỗ trợ chỉnh sửa ảnh bằng câu lệnh và thời lượng pin 8.000 mAh.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Oppo Find X10 Pro Max - smartphone có ba camera 200 megapixel.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Oppo Find X10 Pro Max - smartphone có ba camera 200 megapixel."
-      ],
-      "summary_en": [
-        "Oppo Find X10 Pro Max is the first phone equipped with three rear cameras with 200 megapixel resolution, supports photo editing with commands and 8,000 mAh battery life.",
-        "In-depth technical breakdown and implementation mechanisms introduced in Oppo Find X10 Pro Max - smartphone with three 200 megapixel cameras.",
-        "Practical engineering impact and actionable takeaways for developers building with Oppo Find X10 Pro Max - smartphone with three 200 megapixel cameras."
-      ],
-      "originalTitle": "Oppo Find X10 Pro Max - smartphone có ba camera 200 megapixel",
-      "url": "https://vnexpress.net/oppo-find-x10-pro-max-smartphone-co-ba-camera-200-megapixel-5138064.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "WebDev",
-        "Mobile"
-      ],
-      "hotScore": 94,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-28T15:27:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/28/DSC0760-1793197757.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=y6tlG4BwqCZZGtxF79V_WA",
-      "contentSnippet": "Oppo Find X10 Pro Max là điện thoại đầu tiên trang bị ba camera sau cùng độ phân giải 200 megapixel, hỗ trợ chỉnh sửa ảnh bằng câu lệnh và thời lượng pin 8.000 mAh.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "21c42e7dae135ce9",
-      "title_vi": "DeepSeek trong Codex: Chín bài kiểm tra thành công vẫn có khả năng chỉnh sửa tệp sai",
-      "title_en": "DeepSeek in Codex: Nine Passing Tests Still Vulnerable to Incorrect File Modifications",
-      "summary_vi": [
-        "Bài viết phân tích một trường hợp thực tế khi sử dụng mô hình trí tuệ nhân tạo DeepSeek tích hợp trong Codex, nơi hệ thống vượt qua tất cả các bài kiểm tra hành vi nhưng vẫn tiềm ẩn rủi ro thao tác nhầm tệp đích.",
-        "Các kỹ sư thực hiện kiểm thử với chín kịch bản chạy thành công trên terminal, tuy nhiên cơ chế tự động hóa vẫn đưa ra những phán đoán sai lầm trong quá trình xử lý mã nguồn và cập nhật tệp tin.",
-        "Hiện tượng này gióng lên hồi chuông cảnh báo về độ tin cậy của các công cụ AI hỗ trợ lập trình, đòi hỏi các nhà phát triển luôn phải kiểm tra thủ công thay vì quá phụ thuộc vào kết quả tự động."
-      ],
-      "summary_en": [
-        "The article analyzes a practical scenario when using the DeepSeek AI model integrated within Codex, where the system passes all behavioral tests yet still carries the risk of incorrectly manipulating target files.",
-        "Engineers conducted tests with nine successful terminal scenarios, but the automation mechanism still produced erroneous judgments during source code processing and file updates.",
-        "This phenomenon raises concerns regarding the reliability of AI-powered programming assistants, requiring developers to always perform manual checks rather than overly relying on automated results."
-      ],
-      "originalTitle": "DeepSeek trong Codex: 9/9 test xanh vẫn có thể sửa sai file",
-      "url": "https://viblo.asia/p/deepseek-trong-codex-99-test-xanh-van-co-the-sua-sai-file-y0VGwWP8VPA",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "DeepSeek",
-        "Codex",
-        "AI Coding",
-        "Software Testing",
-        "Automation"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T15:17:46.000Z",
-      "contentSnippet": "Một bài kiểm tra nhỏ: chín test hành vi, một phép kiểm tra đúng file đích, và hai kết quả rất khác nhau. Khi terminal hiện 9 passed, phản xạ thông ...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b135acb681001296",
-      "title_vi": "Video quay lại cảnh một động tác đơn giản khiến iPhone “loạn” giao diện rồi đen màn hình",
-      "title_en": "The video shows a simple movement causing the iPhone to \"disorder\" the interface and then blacken the screen",
-      "summary_vi": [
-        "Video được chia sẻ trên X cho thấy giao diện iPhone biến dạng sau thao tác kéo widget Lịch và chuyển trang màn hình chính.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Video quay lại cảnh một động tác đơn giản khiến iPhone “loạn” giao diện rồi đen màn hình.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Video quay lại cảnh một động tác đơn giản khiến iPhone “loạn” giao diện rồi đen màn hình."
-      ],
-      "summary_en": [
-        "The video shared on X shows the iPhone interface deforming after dragging the Calendar widget and switching home screen pages.",
-        "In-depth technical breakdown and implementation mechanisms introduced in The video shows a simple movement causing the iPhone to \"disorder\" the interface and then blacken the screen.",
-        "Practical engineering impact and actionable takeaways for developers building with The video shows a simple movement causing the iPhone to \"disorder\" the interface and then blacken the screen."
-      ],
-      "originalTitle": "Video quay lại cảnh một động tác đơn giản khiến iPhone “loạn” giao diện rồi đen màn hình",
-      "url": "https://genk.vn/video-quay-lai-canh-mot-dong-tac-don-gian-khien-iphone-loan-giao-dien-roi-den-man-hinh-165262810201329032.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-28T13:32:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/28/avatar1793194329572-1793194330971358443647.jpg",
-      "contentSnippet": "Video được chia sẻ trên X cho thấy giao diện iPhone biến dạng sau thao tác kéo widget Lịch và chuyển trang màn hình chính.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "c0a4f6ca0515c492",
-      "title_vi": "Lãnh đạo khoa học công nghệ đến Việt Nam bàn về phát triển AI",
-      "title_en": "Science and technology leaders come to Vietnam to discuss AI development",
-      "summary_vi": [
-        "Đại diện Mỹ, Trung Quốc, Nhật Bản, Hàn Quốc, cùng nhiều quốc gia, khu vực đến Việt Nam, bàn về việc phát triển trí tuệ nhân tạo (AI).",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Lãnh đạo khoa học công nghệ đến Việt Nam bàn về phát triển AI.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Lãnh đạo khoa học công nghệ đến Việt Nam bàn về phát triển AI."
-      ],
-      "summary_en": [
-        "Representatives of the US, China, Japan, Korea, and many other countries and regions came to Vietnam to discuss the development of artificial intelligence (AI).",
-        "In-depth technical breakdown and implementation mechanisms introduced in Science and technology leaders come to Vietnam to discuss AI development.",
-        "Practical engineering impact and actionable takeaways for developers building with Science and technology leaders come to Vietnam to discuss AI development."
-      ],
-      "originalTitle": "Lãnh đạo khoa học công nghệ đến Việt Nam bàn về phát triển AI",
-      "url": "https://vnexpress.net/lanh-dao-khoa-hoc-cong-nghe-den-viet-nam-ban-ve-phat-trien-ai-5137854.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-28T12:06:58.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/28/wm1-tuan-le-so-2026-8-1793176557-1793176578.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=VW9TSiY6pCpPoxrOAB1n0g",
-      "contentSnippet": "Đại diện Mỹ, Trung Quốc, Nhật Bản, Hàn Quốc, cùng nhiều quốc gia, khu vực đến Việt Nam, bàn về việc phát triển trí tuệ nhân tạo (AI).",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "3c84bdc9f1b42a29",
-      "title_vi": "Meta âm thầm ra mắt ứng dụng nhật ký thú cưng tích hợp trí tuệ nhân tạo",
-      "title_en": "Meta quietly launched an AI pet journal app",
-      "summary_vi": [
-        "Công ty Meta vừa chính thức phát hành trò chơi chăm sóc thú cưng ảo mang tên Waddle World trên các nền tảng di động với phong cách thiết kế điểm ảnh cổ điển.",
-        "Ứng dụng này vận hành dựa trên công nghệ trí tuệ nhân tạo tiên tiến cho phép sinh vật ảo trò chuyện trực tiếp và tự động vẽ tranh minh họa cho các cuộc hội thoại.",
-        "Sản phẩm đánh dấu bước tiến mới của tập đoàn trong việc khai thác các mô hình ngôn ngữ lớn để tạo ra trải nghiệm giải trí mang tính tương tác cảm xúc cao."
-      ],
-      "summary_en": [
-        "Meta has officially released a virtual pet care game named Waddle World on mobile platforms featuring a classic pixel art design style.",
-        "The application operates on advanced artificial intelligence technology allowing virtual creatures to chat directly and automatically draw illustrations for conversations.",
-        "This product marks a new milestone for the corporation in leveraging large language models to create entertainment experiences with high emotional interactivity."
-      ],
-      "originalTitle": "Meta quietly launched an ‘AI pet journal’ app",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Meta",
-        "AI",
-        "Mobile Apps",
-        "Artificial Intelligence"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T11:27:30.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Waddle-World-meta-app-hero.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Meta has launched a \"tamagotchi-style\" pet game called Waddle World, with virtual creatures that chat with users and create doodles to illustrate conversations. According to its Apple and Play Store listings, the \"16-bit pet care game\" is not really a game, but \"a daily journal disguised as a pet.\" ",
-      "authorName": "Robert Hart",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ee03bb5aa424441e",
-      "title_vi": "Trên tay điện thoại thông minh cao cấp kết hợp cấu hình mạnh mẽ và tính năng trí tuệ nhân tạo tiên tiến",
-      "title_en": "Hands-on with the new flagship smartphone featuring powerful hardware and advanced AI capabilities",
-      "summary_vi": [
-        "Thị trường thiết bị di động tiếp tục đón nhận một sản phẩm cao cấp mới tập trung vào trải nghiệm người dùng tinh tế nhưng vẫn sở hữu hiệu năng phần cứng vô cùng mạnh mẽ.",
-        "Thiết bị tích hợp hàng loạt tính năng trí tuệ nhân tạo hiện đại cùng hệ thống camera chất lượng cao được tối ưu hóa sâu trong một kiểu dáng thiết kế tối giản không phô trương.",
-        "Sản phẩm đánh dấu bước tiến quan trọng trong việc đưa các thuật toán trí tuệ nhân tạo tiên tiến vào phân khúc thiết bị cầm tay cao cấp phục vụ nhu cầu thực tế."
-      ],
-      "summary_en": [
-        "The mobile market welcomes a sophisticated flagship device that focuses on refined user experience while packing exceptionally powerful hardware performance under the hood.",
-        "The smartphone integrates a comprehensive suite of modern artificial intelligence features alongside high-quality camera systems deeply optimized within a minimalist unpretentious design.",
-        "This release marks a significant step forward in bringing advanced artificial intelligence algorithms into the high-end handheld device segment to serve practical daily needs."
-      ],
-      "originalTitle": "Trên tay OPPO Find X10: Cuối cùng cũng tìm thấy smartphone Android cho ‘người chơi hệ Quiet Luxury’",
-      "url": "https://genk.vn/tren-tay-oppo-find-x10-cuoi-cung-cung-tim-thay-smartphone-android-cho-nguoi-choi-he-quiet-luxury-165261028115152641.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Smartphones",
-        "AI",
-        "Mobile Hardware",
-        "Flagship",
-        "Android"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T11:00:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/28/image11-17931630055261952704206-35-0-1285-2000-crop-17931630111262018955695.jpg",
-      "contentSnippet": "Những sự cao cấp về cấu hình, mạnh mẽ trong chụp hình và cả loạt tính năng AI được ‘đóng gói’ trong một thiết kế không phô trương, hoa mỹ.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b14c0f46a1159129",
-      "title_vi": "CATL: Pin thể rắn toàn phần có thể sản xuất loạt nhỏ vào năm 2027, có gì hơn pin lithium-ion?",
-      "title_en": "CATL: All-Solid-State Batteries Expected for Small-Batch Production by 2027, What Makes Them Superior to Lithium-Ion?",
-      "summary_vi": [
-        "Tập đoàn sản xuất pin xe điện lớn nhất thế giới CATL vừa công bố kế hoạch đưa pin thể rắn toàn phần vào sản xuất thương mại quy mô nhỏ vào năm 2027, đánh dấu một bước tiến công nghệ mang tính bước ngoặt trong ngành năng lượng phần cứng.",
-        "Công nghệ pin thể rắn giải quyết triệt để các vấn đề về hiệu suất sạc xả, mật độ năng lượng và độ an toàn phần cứng so với dòng pin lithium-ion truyền thống, hứa hẹn cung cấp giải pháp lưu trữ năng lượng vượt trội cho các hệ thống tính toán di động.",
-        "Sự đột phá này tạo tác động mạnh mẽ đến hạ tầng xe điện và các thiết bị phần cứng thông minh, đòi hỏi các kỹ sư hệ thống phải chuẩn bị phương án tối ưu hóa phần mềm quản lý năng lượng phù hợp với dòng pin thế hệ mới."
-      ],
-      "summary_en": [
-        "CATL, the world's largest electric vehicle battery manufacturer, has announced plans to launch small-batch production of all-solid-state batteries by 2027, marking a monumental hardware engineering milestone in the energy sector.",
-        "Solid-state battery technology fundamentally overcomes traditional lithium-ion limitations regarding charge-discharge efficiency, energy density, and hardware safety, promising superior power storage solutions for mobile computing systems.",
-        "This breakthrough delivers significant impacts on electric vehicles and smart hardware ecosystems, requiring systems engineers to prepare optimized energy management software strategies tailored for next-generation power cells."
-      ],
-      "originalTitle": "CATL: pin thể rắn toàn phần có thể sản xuất loạt nhỏ năm 2027, có gì hơn pin lithium-ion?",
-      "url": "https://tinhte.vn/thread/catl-pin-the-ran-toan-phan-co-the-san-xuat-loat-nho-nam-2027-co-gi-hon-pin-lithium-ion.4187771/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Hardware",
-        "EV Tech",
-        "Battery Tech",
-        "Embedded Systems",
-        "Innovation"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T10:32:59.000Z",
-      "contentSnippet": "CATL, nhà sản xuất pin xe điện lớn nhất thế giới, cho biết pin thể rắn toàn phần (all-solid-state) của hãng có thể bắt đầu sản xuất loạt nhỏ vào năm 2027. Theo trang công nghệ ITHome và Yicai,...",
-      "authorName": "thanhtung6868",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8546e8033e926b86",
-      "title_vi": "Kỹ thuật tấn công Kerberoasting hoạt động như thế nào trong môi trường Active Directory?",
-      "title_en": "How does the Kerberoasting attack technique work in Active Directory environments?",
-      "summary_vi": [
-        "Bài viết phân tích chi tiết về sự xuất hiện của tài khoản dịch vụ trong hệ điều hành Windows và cách các chương trình vận hành dựa trên các định danh này để tương tác với hệ thống mạng.",
-        "Cơ chế cốt lõi của kỹ thuật Kerberoasting tận dụng cách giao thức xác thực Kerberos hoạt động, cho phép kẻ tấn công yêu cầu vé dịch vụ và bẻ khóa mật khẩu ngoại tuyến mà không cần đặc quyền cao.",
-        "Hiểu rõ quy trình này giúp các kỹ sư bảo mật và quản trị hệ thống triển khai các biện pháp phòng thủ hiệu quả, như sử dụng mật khẩu mạnh hoặc chuyển đổi sang tài khoản dịch vụ được quản lý nhóm."
-      ],
-      "summary_en": [
-        "The article provides a detailed analysis of service accounts in Windows operating systems and how applications rely on these identities to operate within network environments securely.",
-        "The core mechanism of Kerberoasting exploits how the Kerberos authentication protocol functions, allowing attackers to request service tickets and crack passwords offline without requiring high privileges.",
-        "Understanding this process helps security engineers and system administrators implement effective defense measures, such as enforcing strong passwords or transitioning to group-managed service accounts."
-      ],
-      "originalTitle": "Kỹ thuật Kerberoasting diễn ra thế nào?",
-      "url": "https://viblo.asia/p/ky-thuat-kerberoasting-dien-ra-the-nao-ymJXDZqRJkq",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Kerberoasting",
-        "Active Directory",
-        "Cybersecurity",
-        "Windows",
-        "Kerberos"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-28T10:08:48.000Z",
-      "contentSnippet": "Mắt xích 1: Tại sao lại xuất hiện \"Service Account\" (Tài khoản dịch vụ)? Trên hệ điều hành Windows, bất kỳ chương trình nào muốn vận hành cũng bắt buộ...",
-      "authorName": "xxxd xdsd",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "575f7faf226727f5",
-      "title_vi": "Cấu trúc dữ liệu và Giải thuật Bài 95: Tối ưu hóa Cơ sở dữ liệu chuyên sâu - Kỹ thuật Sharding, Partitioning và Phân tán Transaction (Saga Pattern)",
-      "title_en": "Data Structures and Algorithms Part 95: Advanced Database Optimization - Sharding, Partitioning, and Distributed Transactions (Saga Pattern)",
-      "summary_vi": [
-        "Bài viết tiếp nối chuỗi kiến thức về hệ thống chịu tải cao, tập trung vào việc giải quyết các giới hạn của cơ sở dữ liệu truyền thống khi đối mặt với lưu lượng truy cập khổng lồ từ người dùng thực tế.",
-        "Tác giả đi sâu phân tích kỹ thuật phân mảnh dữ liệu Sharding, phân vùng Partitioning và cơ chế điều phối giao dịch phân tán thông qua Saga Pattern để đảm bảo tính nhất quán dữ liệu trong môi trường hệ thống phân tán phức tạp.",
-        "Nội dung cung cấp cái nhìn thực tiễn cho các kỹ sư phần mềm trong việc thiết kế kiến trúc hệ thống có khả năng mở rộng quy mô lớn, giúp tối ưu hóa hiệu năng và độ tin cậy cho các ứng dụng hiện đại."
-      ],
-      "summary_en": [
-        "This article continues the series on high-load systems, focusing on addressing the inherent limitations of traditional databases when handling massive concurrent traffic from real-world user requests and high-volume data processing tasks.",
-        "The author provides a deep dive into database sharding, partitioning techniques, and the implementation of the Saga Pattern to manage distributed transactions, ensuring data consistency across complex and highly scalable microservices architectures.",
-        "The content offers practical insights for software engineers designing large-scale systems, providing essential strategies to optimize performance and reliability for modern, high-traffic applications in a distributed computing environment."
-      ],
-      "originalTitle": "Cấu trúc dữ liệu và Giải thuật Bài 95: Tối ưu hóa Cơ sở dữ liệu chuyên sâu - Kỹ thuật Sharding, Partitioning và Phân tán Transaction (Saga Pattern).",
-      "url": "https://viblo.asia/p/cau-truc-du-lieu-va-giai-thuat-bai-95-toi-uu-hoa-co-so-du-lieu-chuyen-sau-ky-thuat-sharding-partitioning-va-phan-tan-transaction-saga-pattern-PoL7eOQj4vk",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Database",
-        "Sharding",
-        "Saga Pattern",
-        "System Design",
-        "Distributed Systems"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-10-28T09:15:37.000Z",
-      "contentSnippet": "Trong Bài 94, chúng ta đã dùng Redis và Kafka để dựng lên một bức tường thành bảo vệ cơ sở dữ liệu khỏi hàng triệu luồng truy cập đồng thời. Tuy nhiên...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "cbf0a721b1fccbcf",
-      "title_vi": "Cấu trúc dữ liệu và Giải thuật Bài 94: Thiết kế hệ thống Flash Sale chống sập",
-      "title_en": "Data Structures and Algorithms Article 94: System Design for Flash Sale Architecture",
-      "summary_vi": [
-        "Bài viết thuộc chuỗi bài học chuyên sâu về cấu trúc dữ liệu và giải thuật, tập trung vào việc thiết kế hệ thống thương mại điện tử chịu tải cao trong các đợt mở bán chớp nhoáng.",
-        "Tác giả phân tích các giải pháp kiến trúc phần mềm tiên tiến nhằm giải quyết bài toán tắc nghẽn lưu lượng truy cập đột biến và ngăn chặn tình trạng sập hệ thống cơ sở dữ liệu.",
-        "Nội dung cung cấp cho lập trình viên những kiến thức thực chiến quan trọng về cách xây dựng hệ thống phân tán chịu lỗi tốt, đáp ứng yêu cầu vận hành thực tế tại doanh nghiệp."
-      ],
-      "summary_en": [
-        "The article belongs to an in-depth series on data structures and algorithms, focusing on designing high-concurrency e-commerce systems during peak flash sale events.",
-        "The author analyzes advanced software architecture solutions to address sudden traffic congestion and prevent database system crashes under extreme loads.",
-        "The content provides developers with crucial practical knowledge on building fault-tolerant distributed systems that meet real-world enterprise operational requirements."
-      ],
-      "originalTitle": "Cấu trúc dữ liệu và Giải thuật Bài 94: System Design Thực chiến - Kiến trúc hệ thống Flash Sale chống sập.",
-      "url": "https://viblo.asia/p/cau-truc-du-lieu-va-giai-thuat-bai-94-system-design-thuc-chien-kien-truc-he-thong-flash-sale-chong-sap-13VM9dnDVY7",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "System Design",
-        "Flash Sale",
-        "Architecture",
-        "Algorithms",
-        "High Concurrency"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-28T09:14:49.000Z",
-      "contentSnippet": "Xin chúc mừng bạn đã đi đến cột mốc Bài 94. Trong 93 bài học vừa qua, chúng ta đã mổ xẻ mọi cấu trúc dữ liệu từ cơ bản đến siêu việt, từ RAM cho đến Ổ...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "83c73acb410493cc",
-      "title_vi": "Cấu trúc dữ liệu và giải thuật bài 93: Mô hình đồng thời và so sánh Thread Pool, Event Loop cùng Goroutines",
-      "title_en": "Data Structures and Algorithms Article 93: Concurrency Models and Comparison of Thread Pool, Event Loop, and Goroutines",
-      "summary_vi": [
-        "Bài viết phân tích bài toán xử lý đồng thời C10K kinh điển khi xây dựng các hệ thống backend quy mô lớn tại các doanh nghiệp công nghệ lớn như nền tảng thương mại điện tử và hệ thống vé tự động.",
-        "Nội dung đi sâu so sánh chi tiết ba mô hình đồng thời phổ biến hiện nay gồm Thread Pool truyền thống, Event Loop bất đồng bộ và cơ chế Goroutines tối ưu của ngôn ngữ lập trình Go.",
-        "Kiến thức này giúp các kỹ sư phần mềm lựa chọn giải pháp kiến trúc tối ưu, nâng cao hiệu suất hệ thống và khả năng chịu tải cao cho các ứng dụng thực tế trong ngành."
-      ],
-      "summary_en": [
-        "The article analyzes the classic C10K concurrency challenge encountered when building large-scale backend systems for major technology enterprises such as e-commerce platforms and automated ticketing systems.",
-        "The content provides a deep technical comparison among three popular concurrency models including traditional Thread Pools, asynchronous Event Loops, and optimized Goroutines in the Go programming language.",
-        "This knowledge helps software engineers choose optimal architectural solutions, improve system performance, and enhance high load handling capabilities for practical applications in the industry."
-      ],
-      "originalTitle": "Cấu trúc dữ liệu và Giải thuật Bài 93: Mô hình đồng thời (Concurrency Models) - So sánh Thread Pool, Event Loop và Goroutines.",
-      "url": "https://viblo.asia/p/cau-truc-du-lieu-va-giai-thuat-bai-93-mo-hinh-dong-thoi-concurrency-models-so-sanh-thread-pool-event-loop-va-goroutines-lZL9XOleJQK",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Concurrency",
-        "Backend",
-        "Go",
-        "Event Loop",
-        "Thread Pool"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-28T09:14:14.000Z",
-      "contentSnippet": "Khi xây dựng các hệ thống backend tại Hasaki hoặc hệ thống vé AFC, bạn sẽ thường xuyên đối mặt với bài toán C10K: Làm sao để một máy chủ duy nhất có t...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "6ddd042fd1a79d72",
-      "title_vi": "Sử dụng đầu ra có cấu trúc với giao diện lập trình ứng dụng tương thích OpenAI: hướng dẫn thực tế về lược đồ JSON",
-      "title_en": "Using Structured Outputs with OpenAI-Compatible APIs: A Practical Guide to JSON Schema",
-      "summary_vi": [
-        "Bài viết cung cấp hướng dẫn chi tiết về cách sử dụng tính năng đầu ra cấu trúc dựa trên lược đồ JSON nghiêm ngặt từ các giao diện lập trình ứng dụng tương thích với hệ thống trí tuệ nhân tạo.",
-        "Nội dung tập trung phân tích sâu vào từng trường dữ liệu cụ thể để đảm bảo mô hình ngôn ngữ lớn trả về kết quả định dạng chính xác tuyệt đối theo yêu cầu kỹ thuật.",
-        "Giải pháp này mang lại giá trị thực tiễn cao giúp các kỹ sư phần mềm tối ưu hóa quá trình tích hợp mô hình vào ứng dụng thực tế mà không lo lỗi định dạng."
-      ],
-      "summary_en": [
-        "The article provides a detailed guide on utilizing strict JSON schema-based structured output features from artificial intelligence system compatible application programming interfaces.",
-        "The content focuses on deep analysis of each specific data field to ensure that large language models return results formatted with absolute precision according to technical requirements.",
-        "This solution delivers high practical value helping software engineers optimize the process of integrating models into real-world applications without worrying about formatting errors."
-      ],
-      "originalTitle": "Dùng Structured Outputs với API tương thích OpenAI: hướng dẫn thực tế về JSON Schema",
-      "url": "https://viblo.asia/p/dung-structured-outputs-voi-api-tuong-thich-openai-huong-dan-thuc-te-ve-json-schema-1j4lQ1qDJwl",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "OpenAI",
-        "JSON Schema",
-        "API",
-        "Software Engineering"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-28T09:09:01.000Z",
-      "contentSnippet": "Bài viết này được dịch và biên tập từ bài gốc tiếng Anh trên blog của Modelflare. Hướng dẫn chi tiết đến từng field về output JSON Schema strict trên...",
-      "authorName": "Castaly",
-      "upvotes": 0,
-      "commentsCount": 0
     }
   ]
 }
