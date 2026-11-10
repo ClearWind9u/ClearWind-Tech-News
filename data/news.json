@@ -1,7 +1,210 @@
 {
-  "lastUpdated": "2026-11-09T14:46:49.232Z",
+  "lastUpdated": "2026-11-10T01:01:07.902Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "66234d49b46157f9",
+      "title_vi": "Kiểm thử mã nguồn do trí tuệ nhân tạo viết đều vượt qua nhưng vẫn bỏ sót nhiều lỗi đột biến",
+      "title_en": "AI-generated code tests pass successfully but half of mutants still slip through",
+      "summary_vi": [
+        "Bài viết phân tích thực trạng kiểm chứng chất lượng mã nguồn do trí tuệ nhân tạo tạo ra thông qua việc chạy các tập lệnh kiểm thử tự động truyền thống nhưng vẫn tiềm ẩn nhiều rủi ro.",
+        "Tác giả chỉ ra rằng mặc dù tất cả các bài kiểm thử đều vượt qua thành công, phương pháp kiểm tra đột biến cho thấy một tỷ lệ lớn các lỗi logic vẫn lọt qua lưới lọc an toàn.",
+        "Điều này đặt ra thách thức lớn cho các kỹ sư phần mềm trong việc phụ thuộc hoàn toàn vào mã do máy học tạo ra mà thiếu đi sự giám sát và bổ sung kiểm thử chuyên sâu."
+      ],
+      "summary_en": [
+        "The article analyzes the current state of verifying AI-generated source code through traditional automated test suites while hidden risks still remain largely unaddressed.",
+        "The author points out that although all test cases passed successfully, mutation testing reveals that a significant proportion of logical defects still slip through the safety net.",
+        "This poses a major challenge for software engineers regarding over-reliance on machine learning generated code without sufficient human oversight and rigorous testing enhancements."
+      ],
+      "originalTitle": "Test do AI viết đều pass nhưng một nửa mutant vẫn lọt qua",
+      "url": "https://viblo.asia/p/test-do-ai-viet-deu-pass-nhung-mot-nua-mutant-van-lot-qua-kNLr3p3EVgA",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "AI",
+        "Software Testing",
+        "Code Quality",
+        "Mutation Testing",
+        "Software Engineering"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-10T07:47:55.000Z",
+      "contentSnippet": "Nếu ai hỏi tôi kiểm chứng code do AI viết bằng cách nào, trước đây tôi có một câu trả lời rất đơn giản: chạy test. Dự án của tôi có 451 test trong 84...",
+      "authorName": "머승",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "de4fa8460832c912",
+      "title_vi": "Quản lý tài nguyên CSS và JavaScript hiện đại trong Joomla thông qua Web Asset Manager",
+      "title_en": "Modern CSS and JavaScript Resource Management in Joomla via Web Asset Manager",
+      "summary_vi": [
+        "Bài viết phân tích cách thức quản lý tệp tin tài nguyên tĩnh truyền thống trong các phiên bản Joomla cũ với phương thức gọi trực tiếp hàm addScript gây phân mảnh mã nguồn.",
+        "Giải pháp kiến trúc hiện đại được giới thiệu là sử dụng tệp cấu hình joomla asset json giúp lập trình viên quản lý tập trung các phụ thuộc và tải tệp hiệu quả.",
+        "Việc áp dụng Web Asset Manager mang lại giá trị thiết thực giúp tối ưu hóa hiệu suất website mã nguồn mở và nâng cao chất lượng bảo trì mã nguồn."
+      ],
+      "summary_en": [
+        "The article analyzes traditional static resource management methods in older Joomla versions involving scattered direct calls to the addScript function causing code fragmentation.",
+        "The modern architectural solution introduced is utilizing the joomla asset json configuration file helping developers centrally manage dependencies and load files efficiently.",
+        "Applying the Web Asset Manager brings practical value by optimizing open source website performance and significantly improving source code maintainability."
+      ],
+      "originalTitle": "Joomla Bài học 25: Quản lý CSS và JavaScript hiện đại với Web Asset Manager (joomla.asset.json)",
+      "url": "https://viblo.asia/p/joomla-bai-hoc-25-quan-ly-css-va-javascript-hien-dai-voi-web-asset-manager-joomlaassetjson-yZJZlRQQVjm",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Joomla",
+        "JavaScript",
+        "CSS",
+        "Web Asset Manager",
+        "Web Development"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-10T07:45:45.000Z",
+      "contentSnippet": "Ở các phiên bản Joomla cũ (Joomla 3 trở về trước), lập trình viên thường gọi trực tiếp doc->addScript() rải rác khắp các Component, Module và Template...",
+      "authorName": "Nguyen Hoang",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "abae38968403c950",
+      "title_vi": "Joomla Bài học 24: Xây dựng file index.php, sử dụng các thẻ và khai báo Module Positions",
+      "title_en": "Joomla Lesson 24: Building the index.php File, Using Tags and Declaring Module Positions",
+      "summary_vi": [
+        "Bài học tiếp theo trong series phát triển giao diện Joomla hướng dẫn lập trình viên cách xây dựng file index.php hoàn chỉnh sau khi đã hoàn tất việc thiết lập cấu trúc thư mục và danh sách vị trí hiển thị ở bài học trước.",
+        "Nội dung tập trung vào việc cấu trúc mã nguồn PHP và HTML, tích hợp các thẻ điều kiện, cũng như phương thức khai báo các vị trí module để hệ thống quản trị nội dung có thể render các thành phần giao diện một cách chính xác.",
+        "Kiến thức này giúp các nhà phát triển web làm chủ quá trình tùy biến template mã nguồn mở, tối ưu hóa khả năng hiển thị nội dung và nâng cao hiệu suất xây dựng hệ thống website chuyên nghiệp bằng nền tảng Joomla."
+      ],
+      "summary_en": [
+        "The next lesson in the Joomla template development series guides developers through building a complete index.php file after finishing the directory structure and position list setup in the previous lesson.",
+        "The content focuses on structuring PHP and HTML source code, integrating conditional tags, and declaring module positions so that the content management system can render interface components accurately.",
+        "This knowledge helps web developers master the process of customizing open-source templates, optimizing content display capabilities, and improving efficiency when building professional websites using Joomla."
+      ],
+      "originalTitle": "Joomla Bài học 24: Xây dựng file index.php, sử dụng các thẻ và khai báo Module Positions",
+      "url": "https://viblo.asia/p/joomla-bai-hoc-24-xay-dung-file-indexphp-su-dung-cac-the-jdocinclude-va-khai-bao-module-positions-OQJwzOKk4MP",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Joomla",
+        "PHP",
+        "Web Development",
+        "CMS",
+        "Template"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-10T07:45:38.000Z",
+      "contentSnippet": "Ở Bài học 23, chúng ta đã dựng xong bộ khung thư mục và khai báo danh sách vị trí hiển thị trong file templateDetails.xml cho giao diện độc lập joomla...",
+      "authorName": "Nguyen Hoang",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "05e31abb81030e94",
+      "title_vi": "David Ellison cho biết AI có thể là 'sự mở khóa sáng tạo lớn nhất trong lịch sử hiện đại'",
+      "title_en": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "summary_vi": [
+        "Trong cuộc họp báo cáo thu nhập mới nhất của Paramount Skydance, Giám đốc điều hành David Ellison cho biết “thật khó tưởng tượng” AI sẽ không có tác động lớn hơn đến ngành công nghiệp điện ảnh so với CGI.",
+        "Trả lời câu hỏi về triển vọng của công ty đối với AI, Ellison nói: “Tôi nghĩ khi bạn thu nhỏ và nhìn vào quá trình sản xuất, AI thực sự có tiềm năng trở thành cơ hội sáng tạo lớn nhất trong lịch sử hiện đại.",
+        "Lần cuối cùng chúng ta nhìn thấy bất cứ thứ gì gần giống như vậy thực sự là sự ra đời của CGI và vật liệu tổng hợp kỹ thuật số vào đầu những năm 90."
+      ],
+      "summary_en": [
+        "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI.",
+        "In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has the potential to be the biggest creative unlock in modern history.",
+        "The last time we saw anything close to this was really the, you know, advent of CGI and digital composites in the early 90s."
+      ],
+      "originalTitle": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "MachineLearning"
+      ],
+      "hotScore": 97,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-10T00:28:49.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2274329497.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has th",
+      "authorName": "Stevie Bonifield",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "44bb6093a440b817",
+      "title_vi": "Trung Quốc có thể nhận được gì từ nhà sáng lập Nvidia?",
+      "title_en": "What could China get from Jensen Huang?",
+      "summary_vi": [
+        "Sức mạnh thống trị của tập đoàn Nvidia trong lĩnh vực trí tuệ nhân tạo toàn cầu đang trở thành tâm điểm chú ý khi các dòng chip xử lý cao cấp định hình toàn bộ hạ tầng công nghệ tương lai.",
+        "Với hàng chục tỷ đô la đầu tư vào các phòng thí nghiệm trí tuệ nhân tạo tiên tiến và các công ty hạ tầng đám mây, tầm ảnh hưởng của hãng chip này vượt xa giới hạn kinh doanh phần cứng thông thường.",
+        "Việc phân tích vai trò chiến lược của lãnh đạo doanh nghiệp này giúp cộng đồng công nghệ hiểu rõ hơn về chuỗi cung ứng bán dẫn toàn cầu và các mốiε quan hệ địa chính trị ảnh hưởng đến ngành công nghệ."
+      ],
+      "summary_en": [
+        "The dominant power of Nvidia in the global artificial intelligence landscape is drawing significant attention as advanced processing chips shape the foundation of future technology infrastructure.",
+        "With tens of billions of dollars invested in frontier AI laboratories and cloud infrastructure companies, the influence of this chipmaker extends far beyond conventional hardware business operations.",
+        "Analyzing the strategic role of this corporate leader helps the technology community better understand global semiconductor supply chains and geopolitical relationships impacting the tech industry."
+      ],
+      "originalTitle": "What could China get from Jensen Huang?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Nvidia",
+        "AI",
+        "Semiconductors",
+        "Infrastructure",
+        "Tech Geopolitics"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-09T23:51:58.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range of up-and-coming AI ",
+      "authorName": "Hayden Field",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e9950a58c8925934",
+      "title_vi": "Bộ vi xử lý TPU 8tx và TPU 8i Max mới hỗ trợ kỷ nguyên tác nhân thông minh",
+      "title_en": "TPU 8tx and TPU 8i Max Built for the Agentic Era",
+      "summary_vi": [
+        "Google vừa mở rộng danh mục phần cứng thế hệ thứ tám của mình bằng việc ra mắt hai dòng chip xử lý tensor mới nhằm đáp ứng nhu cầu ngày càng tăng của kỷ nguyên tác nhân thông minh.",
+        "Các hệ thống mới này cung cấp khả năng suy luận bảo mật và bảo mật dữ liệu tối ưu cùng với cửa sổ ngữ cảnh lớn, giúp xử lý các khối lượng công việc phức tạp một cách hiệu quả.",
+        "Việc bổ sung các dòng chip chuyên dụng này mang lại giá trị thiết thực cho các phòng thí nghiệm tiên tiến, doanh nghiệp và nhà phát triển đang triển khai hạ tầng trí tuệ nhân tạo quy mô lớn."
+      ],
+      "summary_en": [
+        "Google has expanded its eighth-generation hardware portfolio by launching two new tensor processing units designed to meet the growing demands of the intelligent agent era.",
+        "These new systems provide optimized secure inference capabilities along with massive context windows, helping to handle complex workloads efficiently.",
+        "The addition of these specialized chips delivers practical value for advanced research labs, enterprises, and developers deploying large-scale artificial intelligence infrastructure."
+      ],
+      "originalTitle": "TPU 8tx and TPU 8i Max",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "TPU",
+        "Google Cloud",
+        "AI Hardware",
+        "Machine Learning",
+        "Cloud Computing"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-09T21:56:57.000Z",
+      "contentSnippet": "Our newest TPUs: 8tx and 8i Max, built for the agentic era Nov 09, 2026 We’ve expanded our eighth generation TPU portfolio with TPU 8tx and TPU 8i Max, marking four new TPU systems in a single year. SVP and Chief Technologist, AI and Infrastructure We’re expanding our eighth-generation TPU portfolio",
+      "authorName": "_benx_",
+      "upvotes": 186,
+      "commentsCount": 38
+    },
     {
       "id": "cdaf639b0bcf3950",
       "title_vi": "Từ lập trình đến phát hành sản phẩm: Cursor Live Apps hỗ trợ gì cho lập trình viên độc lập",
@@ -105,6 +308,40 @@
       "commentsCount": 0
     },
     {
+      "id": "97eedb91375d7417",
+      "title_vi": "Lỗ hổng bảo mật cho phép hacker truy cập trái phép vào hệ thống Linux đang bị khai thác tích cực",
+      "title_en": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
+      "summary_vi": [
+        "Các nhà nghiên cứu an ninh mạng phát hiện ra rằng một lỗ hổng nghiêm trọng trên hệ thống Linux đang bị tin tặc khai thác tích cực để truy cập trái phép vào các tài khoản đặc quyền.",
+        "Lỗ hổng xuất phát từ sự tương tác mã nguồn giữa dịch vụ OpenSSH và thư viện musl, cho phép kẻ tấn công vượt qua xác thực chỉ trong vòng vài giây trên các máy chủ đáp ứng điều kiện.",
+        "Sự việc gióng lên hồi chuông cảnh báo về rủi ro bảo mật hạ tầng, buộc các kỹ sư hệ thống phải nhanh chóng cập nhật bản vá và kiểm tra các dấu hiệu xâm nhập."
+      ],
+      "summary_en": [
+        "Cybersecurity researchers have discovered that a critical vulnerability affecting Linux systems is actively being exploited by hackers to gain unauthorized access to privileged accounts.",
+        "The vulnerability stems from the code interaction between the OpenSSH service and the musl library, allowing attackers to bypass authentication within seconds on vulnerable servers.",
+        "This incident raises serious alarms regarding infrastructure security, compelling system engineers to promptly apply security patches and monitor for any indicators of compromise."
+      ],
+      "originalTitle": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
+      "url": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
+      "sourceName": "Ars Technica",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Linux",
+        "OpenSSH",
+        "Vulnerability",
+        "DevOps"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-09T19:41:34.000Z",
+      "contentSnippet": "\"*sshole\" poses a serious threat to Internet security.",
+      "authorName": "\n                    Dan Goodin\n                ",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
       "id": "e852afcde4a7ecbc",
       "title_vi": "Vì sao trí tuệ nhân tạo tính sai ngày Tết năm 2030 và cách viết kỹ năng để khắc phục",
       "title_en": "Why Artificial Intelligence Calculated the 2030 Tet Date Wrong and How to Write a Skill to Fix It",
@@ -137,6 +374,144 @@
       "authorName": "Cao Thanh Lam",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "cf927664f4a95f46",
+      "title_vi": "Quả Táo lần đầu bán gói cước trí tuệ nhân tạo giá một triệu đồng",
+      "title_en": "Apple starts selling artificial intelligence usage packs for the first time",
+      "summary_vi": [
+        "Hãng công nghệ Quả Táo vừa bất ngờ triển khai hình thức thương mại hóa các tính năng trí tuệ nhân tạo thông qua gói cước sử dụng bổ sung trên phần mềm làm nhạc chuyên nghiệp.",
+        "Cơ chế này xuất hiện trong ứng dụng Logic Pro phiên bản mới trên kho ứng dụng dành cho máy tính cá nhân, yêu cầu người dùng trả phí bốn mươi chín đô la Mỹ cho mỗi lượt bổ sung dung lượng xử lý.",
+        "Động thái này đánh dấu bước chuyển dịch quan trọng trong chiến lược kiếm tiền từ dịch vụ trí tuệ nhân tạo của các hãng công nghệ lớn, tác động mạnh mẽ đến mô hình kinh doanh phần mềm."
+      ],
+      "summary_en": [
+        "The major technology company has unexpectedly introduced a monetization model for artificial intelligence features through an additional usage package integrated into professional audio production software.",
+        "This mechanism appeared in the latest version of the professional music creation application on the desktop software store, requiring users to pay forty nine US dollars for each processing capacity refill.",
+        "This move marks a significant shift in the monetization strategy for artificial intelligence services among major technology giants, profoundly impacting the traditional software business model."
+      ],
+      "originalTitle": "Apple bán gói AI giá 1,29 triệu đồng, nhưng không phải như bạn nghĩ",
+      "url": "https://genk.vn/apple-ban-goi-ai-gia-129-trieu-dong-nhung-khong-phai-nhu-ban-nghi-165261110022624811.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Apple",
+        "AI",
+        "Logic Pro",
+        "Monetization",
+        "Machine Learning"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-09T19:25:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/9/thumb-apple-intelligence-17942522569552021509465-146-230-1092-1743-crop-1794252265652834618201.jpg",
+      "contentSnippet": "Gói đầu tiên chỉ có trong ứng dụng làm nhạc Logic Pro, trong khi mức giá cho Siri vẫn là ẩn số.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a989f1582084d0cf",
+      "title_vi": "Phiên bản Claude Fable 5.2 và Mythos 5.2 nâng cấp khả năng lập trình và suy luận",
+      "title_en": "Claude Fable 5.2 and Mythos 5.2 Upgrades Coding and Reasoning Capabilities",
+      "summary_vi": [
+        "Các mô hình Claude Fable 5.2 và Mythos 5.2 vừa được nâng cấp toàn diện, mang lại những cải tiến vượt trội về khả năng lập trình, tư duy logic và xử lý thị giác máy tính cho các kỹ sư.",
+        "Hệ thống cung cấp tốc độ tạo mã nguồn nhanh hơn tới 30 phần trăm cùng chế độ siêu tốc độ giúp tăng tốc độ sinh token lên gấp 2.5 lần với mức giá tối ưu hơn cho người dùng.",
+        "Bản cập nhật này giúp giải quyết các bài toán kỹ thuật phức tạp, thực hiện di chuyển phần mềm quy mô lớn và hỗ trợ mạnh mẽ cho nghiên cứu khoa học cũng như an ninh mạng."
+      ],
+      "summary_en": [
+        "The Claude Fable 5.2 and Mythos 5.2 models have received comprehensive upgrades, delivering exceptional improvements in coding capabilities, logical reasoning, and computer vision for engineers.",
+        "The system provides up to 30 percent faster code generation speeds along with an optional fast mode that increases token generation speed by up to 2.5 times at more optimized pricing.",
+        "This update helps solve complex technical problems, executes large-scale software migrations, and strongly supports scientific research as well as advanced cybersecurity applications."
+      ],
+      "originalTitle": "Claude Fable 5.2 and Mythos 5.2",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Claude",
+        "Machine Learning",
+        "Coding",
+        "Cybersecurity"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-09T18:56:29.000Z",
+      "contentSnippet": "Skip to main contentNovember 9, 2026 We’ve upgraded Claude Fable and Claude Mythos—models that are designed to tackle the most daunting technical challenges. Claude Fable 5.2 and Claude Mythos 5.2 show improvements in areas like coding, reasoning, and vision. During prerelease testing they’ve helped",
+      "authorName": "meetpateltech",
+      "upvotes": 907,
+      "commentsCount": 547
+    },
+    {
+      "id": "a98326b09f6ff516",
+      "title_vi": "Trợ lý ảo thông minh định tuyến dữ liệu cá nhân của người dùng đến kiểm toán viên con người",
+      "title_en": "Google Gemini routes personal Drive files and emails to human annotators",
+      "summary_vi": [
+        "Hệ thống trí tuệ nhân tạo tiên tiến của Google đã tự động định tuyến các tệp dữ liệu lưu trữ cá nhân và thư điện tử của người dùng đến các kiểm toán viên là con người để xử lý.",
+        "Cơ chế hoạt động này làm dấy lên những lo ngại nghiêm trọng về quyền riêng tư dữ liệu, khi các thông tin nhạy cảm trên đám mây có khả năng bị bên thứ ba hoặc nhân viên kiểm duyệt tiếp cận mà chưa có sự đồng thuận rõ ràng.",
+        "Sự việc đặt ra bài toán lớn cho các kỹ sư phát triển hệ thống điện toán đám mây và trí tuệ nhân tạo trong việc cân bằng giữa cải tiến mô hình học máy và bảo vệ tuyệt đối thông tin bảo mật của người dùng."
+      ],
+      "summary_en": [
+        "Google's advanced artificial intelligence system has automatically routed personal cloud storage files and user emails to human annotators for review and processing.",
+        "This operational mechanism raises serious data privacy concerns, as sensitive cloud information could potentially be accessed by third parties or moderators without explicit consent.",
+        "The incident poses a major challenge for cloud computing and machine learning engineers to balance model improvement with the absolute protection of user confidentiality."
+      ],
+      "originalTitle": "Google Gemini routes personal Drive files and emails to human annotators",
+      "url": "https://github.com/thisisme6598/gemini_files/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Google Gemini",
+        "Data Privacy",
+        "Cloud Security"
+      ],
+      "hotScore": 91,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-09T18:24:38.000Z",
+      "contentSnippet": "Google Gemini routes personal Drive files and emails to human annotators",
+      "authorName": "gf74918",
+      "upvotes": 366,
+      "commentsCount": 93
+    },
+    {
+      "id": "2e6c7f1664af57cf",
+      "title_vi": "Nhà máy tự động hóa giảm 75% thời gian tải trang phát triển và những bài học từ kỹ thuật tác nhân",
+      "title_en": "Our Looping Factory Cut DEV Page Load Time by 75% and Counting",
+      "summary_vi": [
+        "Nền tảng chia sẻ kiến thức cho lập trình viên đã tận dụng hệ thống tự động hóa để tối ưu hóa hiệu suất, giúp giảm đáng kể thời gian phản hồi của máy chủ Ruby trên hàng trăm nghìn yêu cầu mỗi ngày.",
+        "Các thông số kỹ thuật cho thấy thời gian truy vấn cơ sở dữ liệu, thời gian kết xuất giao diện và thời gian xử lý cache đã giảm mạnh nhờ việc hợp nhất hàng trăm yêu cầu kéo mã nguồn.",
+        "Giải pháp này không chỉ giải quyết triệt để các vấn đề hiệu suất kéo dài mà còn minh họa cách thiết kế vòng lặp phản hồi tự động để tránh cạm bẫy khi triển khai phát triển bằng tác nhân trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "The popular developer platform utilized automation systems to optimize performance, significantly reducing server response times for hundreds of thousands of daily requests.",
+        "Technical metrics demonstrate sharp declines in database query duration, view rendering times, and cache processing latency achieved through hundreds of merged pull requests.",
+        "This approach successfully resolves long-standing performance bottlenecks while illustrating how to design feedback loops to avoid pitfalls in AI agent-driven development."
+      ],
+      "originalTitle": "Our Looping Factory Cut DEV Page Load Time by 75% and Counting",
+      "url": "https://dev.to/dailycontext/our-looping-factory-cut-dev-page-load-time-by-75-and-counting-1hnf",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Software Engineering",
+        "Performance Optimization",
+        "Automation",
+        "Ruby on Rails",
+        "AI Agents"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-09T16:12:25.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flcwp10ptnojbvt20v0y7.jpg",
+      "contentSnippet": "A month ago, an average web request on DEV took about 70 milliseconds inside Rails, with P99 response...",
+      "authorName": "Ben Halpern",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1%2Fbabb96d0-9cd2-49bc-a412-2dc4caf94c2a.png",
+      "upvotes": 71,
+      "commentsCount": 11
     },
     {
       "id": "68f01e64632c6713",
@@ -1305,6 +1680,41 @@
       "authorName": "Hưng Phạm",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "5d7d02478b7066ac",
+      "title_vi": "Nhóm phát triển mã nguồn mở Necoz chính thức ra mắt tổ chức mới trên nền tảng DEV",
+      "title_en": "Necoz Open Source Community Officially Launches New Organization on DEV",
+      "summary_vi": [
+        "Nhóm phát triển mã nguồn mở Necoz vừa chính thức thành lập một tổ chức mới trên nền tảng DEV nhằm mở rộng cộng đồng lập trình viên và thu hút thêm nhiều nhà đóng góp tham gia.",
+        "Tổ chức này tập trung vào việc xây dựng và phát triển các công cụ phần mềm nhỏ gọn, đơn giản nhưng mang lại tính hữu ích cao cho cộng đồng kỹ thuật thông qua các dự án mã nguồn mở.",
+        "Sự kiện này tạo ra một không gian sinh hoạt kỹ thuật cởi mở, nơi các lập trình viên có thể chia sẻ kinh nghiệm, học hỏi lẫn nhau và cùng nhau xây dựng các giải pháp công nghệ thiết thực."
+      ],
+      "summary_en": [
+        "The open-source community Necoz has officially established a new organization on the DEV platform to expand its developer network and welcome new contributors.",
+        "The organization focuses on building and maintaining compact, simple, and practical software tools through collaborative open-source development initiatives.",
+        "This initiative creates an open technical environment where software engineers can share experiences, learn continuously, and jointly develop practical technology solutions."
+      ],
+      "originalTitle": "Necoz Has a New Home on DEV! 🐈🎉",
+      "url": "https://dev.to/necoz/necoz-has-a-new-home-on-dev-3454",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Open Source",
+        "Community",
+        "DEV",
+        "Software Development"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-08T11:50:29.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4e22zmzbxuhu45eirnzb.gif",
+      "contentSnippet": "Hoi hoi! 👋 A little update from Necoz! 😸 We've created our own organization here on DEV! ...",
+      "authorName": "nyaomaru",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1436158%2Fa78bc4ed-7796-4760-baa5-06283c2404d6.png",
+      "upvotes": 101,
+      "commentsCount": 53
     },
     {
       "id": "5151a3ce350dfc14",
@@ -8186,423 +8596,6 @@
       "publishedAt": "2026-10-30T05:00:00.000Z",
       "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/29/dsc04678-jpg-1793282921-4841-1793282927.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=kUun8BdIZ3y0yec6BUuYXg",
       "contentSnippet": "Mô hình AI hàng đầu của công ty Z.AI thực hiện thành công cuộc tấn công mạng phức tạp trong môi trường giả lập và nhiều lần phớt lờ chỉ dẫn an toàn ở bài kiểm tra riêng biệt.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "c30344081e747ee1",
-      "title_vi": "Vụ tấn công tỷ USD của Binance bắt nguồn từ việc laptop kỹ sư bị xâm nhập",
-      "title_en": "Binance's Billion-Dollar Hack Traced Back to Compromised DevOps Engineer Laptop",
-      "summary_vi": [
-        "Sàn giao dịch tiền mã hóa lớn nhất thế giới Binance vừa xác nhận một sự cố bảo mật nghiêm trọng gây thiệt hại khoảng 6,3 tỷ USD, xuất phát từ việc thiết bị cá nhân của một kỹ sư phát triển và vận hành hệ thống bị tin tặc kiểm soát hoàn toàn.",
-        "Kẻ tấn công đã lợi dụng thiết bị bị xâm nhập để tiếp cận một thành phần cốt lõi trong hệ thống phần mềm backend, từ đó thực thi các lệnh rút tiền trái phép mà không cần thông qua khóa riêng tư của các ví điện tử người dùng.",
-        "Sự cố này gióng lên hồi chuông cảnh báo về các lỗ hổng bảo mật điểm cuối đối với nhân sự kỹ thuật có đặc quyền cao, buộc các doanh nghiệp công nghệ phải siết chặt kiểm soát truy cập và bảo vệ môi trường làm việc của kỹ sư DevOps."
-      ],
-      "summary_en": [
-        "The world's largest cryptocurrency exchange Binance has confirmed a major security incident resulting in significant financial losses, allegedly originating from a compromised personal laptop belonging to a DevOps engineer.",
-        "The attacker exploited the compromised workstation to gain unauthorized access to a core component of the backend software architecture, subsequently executing illicit withdrawal commands without leaking any master private keys.",
-        "This severe security breach highlights the critical risks associated with endpoint vulnerabilities for privileged technical staff, forcing technology enterprises to tighten access controls and secure DevOps working environments."
-      ],
-      "originalTitle": "Vụ hack tỷ USD của Binance có thể do laptop kỹ sư bị xâm nhập",
-      "url": "https://vnexpress.net/vu-hack-ty-usd-cua-binance-co-the-do-laptop-ky-su-bi-xam-nhap-5138683.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "DevOps",
-        "Blockchain",
-        "Security Breach",
-        "Binance"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-30T03:54:40.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/30/wm1-wm1-img-jpg-1793332350-4028-1793332409.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=9sLbNINIaBc_A9D0Hw4HgA",
-      "contentSnippet": "Binance xác nhận vụ tấn công gây ảnh hưởng đến 6,3 tỷ USD của sàn, có thể xuất phát từ laptop của một kỹ sư DevOps bị xâm nhập.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b56b4f60a9161013",
-      "title_vi": "Intel cho biết hãng đang bán sạch mọi con chip máy tính xách tay giá rẻ có thể sản xuất",
-      "title_en": "Intel says it’s selling every affordable laptop chip it can make",
-      "summary_vi": [
-        "Trong hội nghị công bố tài chính gần đây, lãnh đạo tập đoàn công nghệ Intel xác nhận nhu cầu đối với dòng vi xử lý tiết kiệm chi phí đang vượt hoàn toàn khả năng cung ứng của các nhà máy sản xuất.",
-        "Dòng vi xử lý tối ưu hóa chi phí này đang được tích hợp vào các mẫu máy tính xách tay chạy hệ điều hành Windows phân khúc phổ thông mới nhằm giải quyết bài toán tăng giá linh kiện và bộ nhớ trên thị trường.",
-        "Sự bùng nổ của các dòng chip giá rẻ giúp củng cố vị thế cạnh tranh của hãng phần cứng trong phân khúc thiết bị di động phổ thông, mang lại tác động tích cực cho toàn bộ hệ sinh thái máy tính cá nhân."
-      ],
-      "summary_en": [
-        "During the latest earnings conference, technology leadership at Intel confirmed that market demand for their cost-optimized processor lineup is completely outstripping the manufacturing capacity of their fabrication plants.",
-        "These cost-optimized processor families are being integrated into new mainstream Windows laptop models to address ongoing component and memory price inflation challenges across the hardware marketplace.",
-        "The surge in demand for affordable chipsets helps strengthen the hardware vendor's competitive positioning within the mainstream mobile device segment, delivering positive impacts across the entire personal computing ecosystem."
-      ],
-      "originalTitle": "Intel says it’s selling every affordable laptop chip it can make",
-      "url": "https://www.theverge.com/tech/1022911/intel-wildcat-lake-sold-out-ram-shortage",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Intel",
-        "Semiconductors",
-        "Hardware",
-        "CPUs",
-        "Laptops"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-29T23:42:21.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/acastro_STK094_02.jpeg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "During Intel's latest earnings call, CEO Lip-Bu Tan said that demand for its budget-focused Wildcat Lake chips \"is outstripping supply.\" According to CFO David Zinsner, the chips are now sold out. Zinsner said Intel has \"seen significant growth in Wildcat Lake. It's coming exactly at the right time ",
-      "authorName": "Stevie Bonifield",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e5d882487d99afa2",
-      "title_vi": "Vâng, biểu thức ngoặc nhọn cộng với mảng trả về số không nhưng ngôn ngữ lập trình này không hề bị hỏng",
-      "title_en": "Yes, {} + [] = 0. No, JavaScript Isn’t Broken",
-      "summary_vi": [
-        "Ngôn ngữ lập trình web phổ biến này được ra đời chỉ trong mười ngày vào giữa thập niên chín mươi trong cuộc chiến trình duyệt giữa các ông lớn công nghệ nhằm thống trị thị trường.",
-        "Trải qua nhiều thập kỷ phát triển với vô số cải tiến kỹ thuật, ngôn ngữ này vẫn phải duy trì tính tương thích ngược để đảm bảo hàng triệu trang web cũ không bị lỗi hoạt động.",
-        "Sự kỳ lạ trong các quy tắc chuyển đổi kiểu dữ liệu và cú pháp đặc thù là đặc điểm cốt lõi giúp hệ sinh thái web toàn cầu duy trì sự ổn định suốt thời gian dài."
-      ],
-      "summary_en": [
-        "This popular web programming language was created in just ten days during the mid-nineteen nineties browser wars as companies competed for market dominance.",
-        "Despite decades of evolution and numerous technical enhancements, the language must maintain backward compatibility to ensure millions of legacy websites keep functioning properly.",
-        "The peculiar behavior in type coercion rules and specific syntax features represents core characteristics that help the global web ecosystem maintain long-term stability."
-      ],
-      "originalTitle": "Yes, {} + [] = 0. No, JavaScript Isn’t Broken",
-      "url": "https://dev.to/sylwia-lask/yes-0-no-javascript-isnt-broken-14ob",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "JavaScript",
-        "Web Development",
-        "Programming",
-        "Language Specs",
-        "Legacy Code"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-29T20:08:53.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Folm3zyjvpymz88fwvzrw.png",
-      "contentSnippet": "JavaScript is a legendary programming language. Created in the mid-1990s in just 10 days, it was born...",
-      "authorName": "Sylwia Laskowska",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3535771%2Fe22860d5-274b-43c9-819b-56b162e5bd5a.jpeg",
-      "upvotes": 90,
-      "commentsCount": 54
-    },
-    {
-      "id": "bd03e4a483646b85",
-      "title_vi": "Chúng tôi đang phát hành trọng số của mô hình ngôn ngữ lớn Mistral Large 4",
-      "title_en": "We're releasing the weights of Mistral Large 4",
-      "summary_vi": [
-        "Công ty phát triển trí tuệ nhân tạo Mistral vừa chính thức công bố việc phát hành bộ trọng số cho mô hình đa phương thức quy mô lớn mang tên Mistral Large 4.",
-        "Mô hình này sở hữu một nghìn tỷ tham số, được huấn luyện từ đầu trên cơ sở hạ tầng châu Âu với khả năng cải thiện vượt trội về lập trình và hiệu suất suy luận.",
-        "Sự kiện này đánh dấu bước tiến quan trọng trong hệ sinh thái mã nguồn mở, mang đến giải pháp AI chủ quyền có thể tùy chỉnh và tự triển khai cho cộng đồng phát triển."
-      ],
-      "summary_en": [
-        "Artificial intelligence company Mistral has officially announced the release of the weight parameters for its large-scale multimodal model named Mistral Large 4.",
-        "This model features one trillion parameters, trained from scratch on European infrastructure with significant improvements in programming capabilities and reasoning efficiency.",
-        "This release marks a major milestone in the open-source ecosystem, providing sovereign AI solutions that are customizable and self-deployable for the development community."
-      ],
-      "originalTitle": "We're releasing the weights of Mistral Large 4",
-      "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Open Source",
-        "Machine Learning",
-        "Multimodal",
-        "Cybersecurity"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-29T14:13:21.000Z",
-      "contentSnippet": "Share this post Copy url to clipboardCopied Thinking Mistral released Mistral Large 4 (Le Chonk), a 1-trillion-parameter multimodal model, now available with improved coding, cybersecurity, and reasoning efficiency. It leads open-weight benchmarks in coding and defensive security while offering thre",
-      "authorName": "kuberwastaken",
-      "upvotes": 1538,
-      "commentsCount": 403
-    },
-    {
-      "id": "a87283b1a694d6ea",
-      "title_vi": "Không có con người nào viết mã giỏi hơn các mô hình ngôn ngữ lớn ư? Giỏi hơn ở điểm nào?",
-      "title_en": "No Human Will Ever Write Code Better Than LLMs? Better at What?",
-      "summary_vi": [
-        "Bài viết phân tích tuyên bố gây tranh cãi cho rằng các mô hình ngôn ngữ lớn sẽ luôn vượt trội con người trong việc lập trình, từ đó đặt ra câu hỏi sâu sắc về bản chất thực sự của từ giỏi hơn.",
-        "Tác giả chỉ ra rằng các hệ thống trí tuệ nhân tạo chỉ được huấn luyện để tạo ra phản hồi hợp lý thay vì thực sự thấu hiểu các ràng buộc phức tạp của hệ thống phần mềm thực tế.",
-        "Kỹ sư phần mềm cao cấp không chỉ đo lường bằng số dòng mã tạo ra mỗi phút mà còn thể hiện qua năng lực phán đoán, nhận biết rủi ro và quyết định khi nào không nên viết mã."
-      ],
-      "summary_en": [
-        "The article dissects a controversial claim suggesting that large language models will always outperform human developers, thereby questioning the true meaning of being better at coding.",
-        "The author points out that artificial intelligence systems are merely trained to generate plausible responses rather than genuinely understanding the intricate constraints of real-world software systems.",
-        "Senior software engineers are defined not by lines of code per minute, but by their judgment, risk recognition, and the critical decision of when code should not be written."
-      ],
-      "originalTitle": "No Human Will Ever Write Code Better Than LLMs? Better at What?",
-      "url": "https://dev.to/dannwaneri/no-human-will-ever-write-code-better-than-llms-better-at-what-1dme",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Software Engineering",
-        "LLM",
-        "Code Generation",
-        "Developer Productivity"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-29T09:34:19.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyef0r2qscs29hbs0j5ba.jpg",
-      "contentSnippet": "A tweet went around saying: \"No human will ever write code better than LLMs. Accept this fact, stop...",
-      "authorName": "Daniel Nwaneri",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3606168%2F7684e1e1-b986-4ee3-ae5b-56db2b97d286.jpg",
-      "upvotes": 51,
-      "commentsCount": 48
-    },
-    {
-      "id": "03fce39203513476",
-      "title_vi": "Xây dựng hệ thống tiện ích web cho lập trình viên với kiến trúc kết hợp và backend không trạng thái",
-      "title_en": "Building Web Utilities for Developers Using Hybrid Architecture and Stateless Backend",
-      "summary_vi": [
-        "Bài viết phân tích quá trình xây dựng hơn một trăm công cụ tiện ích trực tuyến dành riêng cho lập trình viên với yêu cầu hiệu năng cao.",
-        "Giải pháp kiến trúc kết hợp giữa xử lý phía client và máy chủ không trạng thái giúp tối ưu hóa tài nguyên hệ thống và tăng tốc độ phản hồi.",
-        "Mô hình này mang lại giá trị thực tiễn lớn trong việc phát triển ứng dụng web hiện đại, giảm thiểu chi phí vận hành và nâng cao trải nghiệm người dùng."
-      ],
-      "summary_en": [
-        "The article analyzes the development process of over one hundred online utility tools specifically designed for developers with high performance requirements.",
-        "The hybrid architecture solution combining client-side processing and stateless backend helps optimize system resources and accelerate response speeds.",
-        "This model delivers significant practical value in developing modern web applications, minimizing operational costs, and enhancing user experience."
-      ],
-      "originalTitle": "Tổng hợp bộ 100+ Công cụ cho Dev (Format SQL, PDF",
-      "url": "https://viblo.asia/p/tong-hop-bo-100-cong-cu-cho-dev-format-sql-pdf-1mb-tach-nen-ai-khong-luu-data-lZL9XOEBJQK",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Web Development",
-        "Architecture",
-        "Stateless",
-        "Client-side",
-        "Developer Tools"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-29T09:30:37.000Z",
-      "contentSnippet": "Bài toán Kiến trúc Hybrid (Client-side & Stateless Backend) khi xây dựng 100+ Web Utilities cho Developer: Từ Format SQL, Xử lý PDF đến AI Background ...",
-      "authorName": "Toan Nguyen",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "428f3b09ed12907a",
-      "title_vi": "Hồn trong vỏ sò: Tệp nhật ký hệ thống có thể chiếm quyền điều khiển trí tuệ nhân tạo không?",
-      "title_en": "Ghost in the Shell: Can a Log File Hijack an AI?",
-      "summary_vi": [
-        "Bài viết khám phá một thí nghiệm thú vị trong đó các tệp nhật ký ứng dụng được tiêm mã độc nhằm mục đích đánh lừa hệ thống trí tuệ nhân tạo khi phân tích dữ liệu sản xuất.",
-        "Tác giả đã tạo ra một tệp nhật ký giả lập sự cố hệ thống bao gồm ba trăm dòng với các mã lỗi HTTP khác nhau, đồng thời ẩn chứa một lệnh tiêm nhiễm lời nhắc bên trong.",
-        "Thí nghiệm này nhấn mạnh rủi ro tiềm ẩn khi sử dụng các mô hình ngôn ngữ lớn để xử lý dữ liệu đầu vào chưa được kiểm duyệt từ các nguồn bên ngoài."
-      ],
-      "summary_en": [
-        "The article explores an intriguing experiment where application log files are maliciously poisoned to trick artificial intelligence systems during production data analysis.",
-        "The author created a simulated system incident log file containing three hundred lines with various HTTP error codes while hiding a prompt injection payload inside.",
-        "This experiment highlights the hidden risks of using large language models to process unvalidated input data originating from external or untrusted sources."
-      ],
-      "originalTitle": "Ghost in the Shell: Can a Log File Hijack an AI?",
-      "url": "https://dev.to/gramli/ghost-in-the-shell-can-a-log-file-hijack-an-ai-3gk",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Cybersecurity",
-        "Prompt Injection",
-        "Log Analysis",
-        "Software Engineering"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-29T07:02:39.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1ijzdipl8b0zzns8cduc.jpg",
-      "contentSnippet": "This week's Hacktoberfest theme is Ghost in the Machine. Unfortunately, I don't have enough time to...",
-      "authorName": "Daniel Balcarek",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3669374%2F0ad6f20b-8faa-45a4-a8ef-ef83e702d37b.png",
-      "upvotes": 126,
-      "commentsCount": 115
-    },
-    {
-      "id": "d4ba78f9d8f47fec",
-      "title_vi": "Hướng dẫn cấu hình Jenkins cho kiến trúc Monolith: Kết nối Git và quản lý khóa SSH bảo mật",
-      "title_en": "Configuring Jenkins for Monolith Architectures: Git Integration and Secure SSH Key Management",
-      "summary_vi": [
-        "Bài viết tập trung hướng dẫn quy trình thiết lập Jenkins để tự động hóa việc kéo mã nguồn từ các kho lưu trữ tập trung như GitHub hoặc GitLab, phục vụ cho các hệ thống phần mềm có kiến trúc Monolith truyền thống.",
-        "Tác giả đi sâu vào kỹ thuật cấu hình xác thực thông qua SSH Keys, giúp thiết lập kết nối bảo mật giữa máy chủ CI/CD và hệ thống quản lý mã nguồn, đảm bảo tính toàn vẹn dữ liệu trong quá trình triển khai.",
-        "Đây là tài liệu thực hành quan trọng giúp các kỹ sư DevOps tối ưu hóa quy trình tích hợp liên tục, giảm thiểu rủi ro bảo mật và nâng cao hiệu suất quản lý mã nguồn cho các dự án phần mềm quy mô lớn."
-      ],
-      "summary_en": [
-        "This article provides a comprehensive guide on configuring Jenkins to automate source code retrieval from centralized repositories like GitHub or GitLab, specifically tailored for traditional monolithic software system architectures and deployment pipelines.",
-        "The author details the technical implementation of SSH key authentication, establishing a secure connection between the CI/CD server and version control systems to ensure data integrity and robust access control during builds.",
-        "This practical resource assists DevOps engineers in optimizing continuous integration workflows, minimizing security vulnerabilities, and enhancing overall source code management efficiency for large-scale enterprise software development projects and infrastructure."
-      ],
-      "originalTitle": "Hướng dẫn Setup Jenkins cho hệ thống Monolith - Bài 5: Kết nối Jenkins với Git/GitHub/GitLab và quản lý SSH Keys bảo mật",
-      "url": "https://viblo.asia/p/huong-dan-setup-jenkins-cho-he-thong-monolith-bai-5-ket-noi-jenkins-voi-gitgithubgitlab-va-quan-ly-ssh-keys-bao-mat-bNVQGp2pJvR",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "Jenkins",
-        "DevOps",
-        "Git",
-        "SSH",
-        "CI/CD"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-29T06:56:53.000Z",
-      "contentSnippet": "Đối với hệ thống Monolith, mã nguồn thường nằm tập trung ở một repository lớn (GitHub, GitLab, hoặc Bitbucket nội bộ). Để Jenkins có thể \"gọi\" và kéo ...",
-      "authorName": "HUy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "67e5e044ce80edeb",
-      "title_vi": "Hướng dẫn thiết lập Jenkins cho hệ thống Monolith - Bài 3: Cài đặt Jenkins trên máy chủ Linux sử dụng Docker",
-      "title_en": "Setting Up Jenkins for Monolith Systems - Part 3: Installing Jenkins on Linux Servers Using Docker",
-      "summary_vi": [
-        "Bài viết hướng dẫn chi tiết quy trình cài đặt Jenkins trên các hệ điều hành máy chủ Linux phổ biến như Ubuntu và CentOS bằng công nghệ container hóa Docker thay vì phương pháp truyền thống.",
-        "Tác giả phân tích kỹ lưỡng các ưu điểm vượt trội của việc vận hành Jenkins bên trong Docker, giúp đơn giản hóa việc quản lý phụ thuộc, cô lập môi trường và dễ dàng nâng cấp phiên bản.",
-        "Nội dung mang lại giá trị thực tiễn cao cho các kỹ sư DevOps và lập trình viên trong việc chuẩn hóa môi trường CI/CD, tối ưu hóa quy trình triển khai tự động cho các ứng dụng nguyên khối."
-      ],
-      "summary_en": [
-        "This article provides a detailed guide on installing Jenkins on popular Linux server distributions such as Ubuntu and CentOS using Docker containerization technology instead of traditional methods.",
-        "The author thoroughly analyzes the superior advantages of running Jenkins inside Docker, which simplifies dependency management, isolates environments, and facilitates seamless version upgrades.",
-        "The content delivers high practical value for DevOps engineers and software developers in standardizing CI/CD environments and optimizing automated deployment pipelines for monolithic applications."
-      ],
-      "originalTitle": "Hướng dẫn Setup Jenkins cho hệ thống Monolith - Bài 3: Cài đặt Jenkins trên máy chủ Linux (Ubuntu/CentOS) sử dụng Docker",
-      "url": "https://viblo.asia/p/huong-dan-setup-jenkins-cho-he-thong-monolith-bai-3-cai-dat-jenkins-tren-may-chu-linux-ubuntucentos-su-dung-docker-AoJe8j0p41j",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "Jenkins",
-        "Docker",
-        "Linux",
-        "DevOps",
-        "CI/CD"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-29T06:56:24.000Z",
-      "contentSnippet": "1. Tại sao nên cài đặt Jenkins bằng Docker? Trước đây, người ta thường cài trực tiếp Jenkins (WAR file hoặc package .deb/.rpm) lên hệ điều hành. Tuy ...",
-      "authorName": "HUy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "81c0a9a27b3aa18b",
-      "title_vi": "Đánh giá Galaxy Z Fold8 sau ba tháng trải nghiệm thực tế thay đổi thói quen tiêu thụ nội dung",
-      "title_en": "Galaxy Z Fold8 Review After Three Months: How It Changes Daily Content Consumption",
-      "summary_vi": [
-        "Trải nghiệm thực tế sau ba tháng sử dụng điện thoại màn hình gập Samsung Galaxy Z Fold8 cho thấy những thay đổi rõ rệt trong thói quen tiêu thụ nội dung số hằng ngày của người dùng tại các không gian đô thị.",
-        "Thiết bị tích hợp các cải tiến về tối ưu hóa phần cứng và hiển thị, mang lại không gian làm việc di động rộng rãi hơn cùng khả năng đa nhiệm mượt mà trên nền tảng hệ điều hành di động thế hệ mới.",
-        "Sản phẩm minh chứng cho sự trưởng thành của phân khúc thiết bị di động màn hình gập, định hình lại tiêu chuẩn trải nghiệm người dùng và mở ra hướng đi mới cho các ứng dụng tối ưu giao diện lớn."
-      ],
-      "summary_en": [
-        "Practical experience after three months of using the Samsung Galaxy Z Fold8 foldable smartphone reveals distinct shifts in daily digital content consumption habits for users in urban environments.",
-        "The device integrates hardware and display optimizations, delivering a more expansive mobile workspace alongside seamless multitasking capabilities on the latest mobile operating system platform.",
-        "The product demonstrates the maturity of the foldable mobile device segment, reshaping user experience standards and establishing a new direction for large-screen interface optimization applications."
-      ],
-      "originalTitle": "Tinhtelookback: Galaxy Z Fold8 sau 3 tháng đã thay đổi cách mình xem nội dung mỗi ngày",
-      "url": "https://tinhte.vn/thread/tinhtelookback-galaxy-z-fold8-sau-3-thang-da-thay-doi-cach-minh-xem-noi-dung-moi-ngay.4187873/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Mobile",
-        "Foldable",
-        "Samsung",
-        "UX",
-        "Hardware"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-29T03:37:01.000Z",
-      "contentSnippet": "Mình đã xài Samsung Galaxy Z Fold8 được khoảng 2-3 tháng rồi, và hôm nay mình đứng ngay bờ Hồ Gươm để chia sẻ lại cảm nhận thật của mình. Điểm mình thích nhất trên chiếc máy này chắc chắn là form...",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9d22437ae96d370e",
-      "title_vi": "Những tính năng ẩn thú vị trên dòng điện thoại gập iPhone Duo ít người biết đến",
-      "title_en": "Interesting Hidden Features on the Foldable iPhone Duo That Few People Talk About",
-      "summary_vi": [
-        "Bài viết tập trung phân tích những tính năng độc đáo ít được chú ý trên mẫu điện thoại gập iPhone Duo, vượt qua những thảo luận thông thường về nếp gấp màn hình hay thiết kế tổng thể bên ngoài.",
-        "Khảo sát chi tiết các cơ chế phần cứng và phần mềm tích hợp sâu bên trong hệ điều hành di động, tối ưu hóa trải nghiệm người dùng trên thiết bị màn hình gập thế hệ mới của hãng công nghệ.",
-        "Đánh giá tác động của thiết bị này đối với hệ sinh thái thiết bị di động, mở ra xu hướng mới cho các nhà phát triển ứng dụng di động trong việc tối ưu hóa giao diện thích ứng."
-      ],
-      "summary_en": [
-        "The article focuses on analyzing unique and overlooked features on the foldable iPhone Duo smartphone, moving beyond conventional discussions regarding screen creases or overall external design.",
-        "Detailed exploration of hardware and software mechanisms deeply integrated within the mobile operating system, optimizing the user experience on the new generation foldable screen device from the tech giant.",
-        "Evaluating the impact of this device on the mobile ecosystem, opening up new trends for mobile application developers in optimizing adaptive user interfaces."
-      ],
-      "originalTitle": "Những tính năng thú vị trên iPhone Duo mà ít ai nói tới",
-      "url": "https://tinhte.vn/thread/nhung-tinh-nang-thu-vi-tren-iphone-duo-ma-it-ai-noi-toi.4187809/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iPhone",
-        "Foldable",
-        "Mobile",
-        "iOS",
-        "Hardware"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-29T03:35:55.000Z",
-      "contentSnippet": "Mấy ngày qua mọi người nói rất nhiều về nếp gấp, thiết kế hay những điểm chưa tốt của iPhone Duo. Hôm nay mình muốn nói về những tính năng ít được nhắc tới nhất, nhưng lại rất hay, và là những thứ...",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "150d31b75143fde9",
-      "title_vi": "Amazon: Trí tuệ nhân tạo mở ra thời kỳ của nhà phát triển Phục hưng",
-      "title_en": "Amazon: AI Ushers in the Era of the Renaissance Developer",
-      "summary_vi": [
-        "Amazon nhận định rằng các công cụ lập trình trí tuệ nhân tạo đang tạo ra một cuộc cách mạng sâu sắc, thay đổi hoàn toàn cách thức các kỹ sư phần mềm xây dựng sản phẩm và dịch vụ công nghệ hàng ngày.",
-        "Sự kết hợp giữa phán đoán của con người và năng lực xử lý mạnh mẽ từ trí tuệ máy móc giúp mở rộng quy mô công việc, cho phép lập trình viên xử lý đa lĩnh vực thay vì chỉ chuyên sâu một kỹ năng đơn lẻ.",
-        "Xu hướng này đòi hỏi toàn bộ đội ngũ kỹ thuật phải chủ động học hỏi và thích ứng nhanh chóng với các nền tảng tự động hóa mới để tránh bị tụt hậu trong bối cảnh ngành công nghiệp biến động."
-      ],
-      "summary_en": [
-        "Amazon believes that artificial intelligence programming tools are driving a profound revolution, fundamentally transforming how software engineers build technology products and services every day.",
-        "The combination of human judgment and powerful machine intelligence expands operational scale, enabling developers to handle multiple domains instead of specializing in just a single skill.",
-        "This trend requires the entire engineering team to proactively learn and rapidly adapt to new automation platforms to avoid falling behind amidst rapid industry shifts."
-      ],
-      "originalTitle": "Amazon: AI mở ra thời kỳ của nhà phát triển Phục hưng",
-      "url": "https://vnexpress.net/amazon-ai-mo-ra-thoi-ky-cua-nha-phat-trien-phuc-hung-5138051.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Software Engineering",
-        "Amazon",
-        "Developer Trends",
-        "Automation"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-29T03:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/28/a11761698160990017616982371210-8269-5505-1793195021.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=CDHxFPjVPVWETdwNyb5Wgg",
-      "contentSnippet": "Amazon cho rằng AI đang làm thay đổi cách viết phần mềm, mở ra thời kỳ nhà phát triển có thể đảm nhiệm nhiều việc thay vì chuyên sâu một lĩnh vực.",
       "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
