@@ -1,7 +1,417 @@
 {
-  "lastUpdated": "2026-11-10T14:02:52.311Z",
+  "lastUpdated": "2026-11-11T13:18:42.137Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "9faafdb160db3155",
+      "title_vi": "Giải phẫu cấu trúc thư mục chuẩn cho một dự án dòng lệnh bằng Golang",
+      "title_en": "Anatomy of a Standard Directory Structure for a Golang Command Line Project",
+      "summary_vi": [
+        "Bài viết phân tích cách tổ chức mã nguồn khi phát triển ứng dụng dòng lệnh bằng ngôn ngữ Golang từ một file đơn lẻ đến hệ thống phức tạp.",
+        "Tác giả hướng dẫn chi tiết cách xây dựng cấu trúc thư mục chuẩn, phân tách rõ ràng các tầng logic để dễ dàng mở rộng và bảo trì.",
+        "Kiến trúc này giúp các kỹ sư phần mềm tối ưu hóa quá trình phát triển, giảm thiểu độ phức tạp và nâng cao chất lượng mã nguồn dự án."
+      ],
+      "summary_en": [
+        "The article analyzes source code organization when developing command line applications in Golang from a single file to complex systems.",
+        "The author provides detailed guidance on building a standard directory structure, clearly separating logic layers for easy expansion and maintenance.",
+        "This architecture helps software engineers optimize the development process, minimize complexity, and improve the project source code quality."
+      ],
+      "originalTitle": "Command Box bài học 4: Giải phẫu cấu trúc thư mục chuẩn cho một dự án Command Box",
+      "url": "https://viblo.asia/p/command-box-bai-hoc-4-giai-phau-cau-truc-thu-muc-chuan-cho-mot-du-an-command-box-bNVQGkNAJvR",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Golang",
+        "CLI",
+        "Software Architecture",
+        "Backend"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-11T18:10:43.000Z",
+      "contentSnippet": "Khi mới bắt đầu viết CLI bằng Golang, hầu hết mọi người đều xuất phát từ một file main.go duy nhất. Thêm lệnh thứ hai, thứ ba, bạn vẫn nhét chung vào ...",
+      "authorName": "Nguyễn Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "1cb0338b95c9239c",
+      "title_vi": "DeepSeek viết báo cáo tuần chưa ổn định? Đừng vội cài đặt plugin",
+      "title_en": "Is DeepSeek struggling with weekly reports? Think twice before installing plugins",
+      "summary_vi": [
+        "Người dùng thường xuyên sử dụng DeepSeek để tự động hóa việc soạn thảo báo cáo tuần từ các ghi chú công việc, tuy nhiên kết quả đầu ra thường xuyên gặp tình trạng thiếu chính xác hoặc tự ý tô hồng các đầu việc chưa hoàn thành.",
+        "Vấn đề cốt lõi nằm ở khả năng suy luận ngữ cảnh của mô hình ngôn ngữ lớn khi xử lý dữ liệu đầu vào không có cấu trúc, dẫn đến việc suy diễn sai lệch các trạng thái công việc thực tế của người dùng.",
+        "Thay vì vội vàng cài đặt các plugin mở rộng tiềm ẩn rủi ro bảo mật, người dùng nên tối ưu hóa quy trình cung cấp dữ liệu đầu vào và sử dụng các câu lệnh gợi ý chi tiết để cải thiện chất lượng phản hồi."
+      ],
+      "summary_en": [
+        "Users frequently rely on DeepSeek to automate weekly report drafting from work notes, yet the output often suffers from inaccuracies or misleadingly embellishes incomplete tasks, creating significant reliability issues for professional documentation workflows.",
+        "The core problem lies in the large language model's contextual reasoning capabilities when processing unstructured input data, which frequently leads to misinterpretations of the actual status of specific project milestones and individual work items.",
+        "Rather than rushing to install third-party plugins that may introduce security vulnerabilities, users should focus on refining their prompt engineering techniques and providing more structured input data to enhance the overall quality of generated reports."
+      ],
+      "originalTitle": "DeepSeek viết báo cáo tuần mãi chưa ổn? Đừng cài plugin vội",
+      "url": "https://viblo.asia/p/deepseek-viet-bao-cao-tuan-mai-chua-on-dung-cai-plugin-voi-3RL1BbgPVao",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "DeepSeek",
+        "AI",
+        "LLM",
+        "Productivity",
+        "Prompt Engineering"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-11T17:27:03.000Z",
+      "contentSnippet": "Thứ sáu nào bạn cũng nhờ DeepSeek viết báo cáo tuần từ ghi chép công việc. Có tuần bản thảo dùng được ngay. Có tuần nó tô hồng một việc chưa xong, hoặ...",
+      "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c4479eb1f90c22fc",
+      "title_vi": "Quy trình đánh giá công cụ tạo video bằng trí tuệ nhân tạo: lựa chọn đầu vào, mô hình và tối ưu hóa chi phí",
+      "title_en": "Evaluation framework for AI video generation tools: selecting inputs, models, and credit management",
+      "summary_vi": [
+        "Bài viết phân tích quy trình đánh giá các công cụ tạo video bằng trí tuệ nhân tạo, nhấn mạnh rằng việc tạo ra sản phẩm chất lượng không chỉ dừng lại ở thao tác bấm nút đơn giản.",
+        "Tác giả đi sâu vào kỹ thuật lựa chọn dữ liệu đầu vào từ văn bản hoặc hình ảnh, đồng thời phân tích cách các mô hình AI xử lý tham số để tối ưu hóa hiệu suất đầu ra.",
+        "Người dùng cần hiểu rõ cơ chế phân bổ tín dụng và khả năng tương thích của từng mô hình để đạt hiệu quả cao nhất trong quy trình sản xuất nội dung kỹ thuật số chuyên nghiệp hiện nay."
+      ],
+      "summary_en": [
+        "The article analyzes the evaluation process for AI video generation tools, emphasizing that producing high-quality content requires more than just clicking a button to initiate the automated generation workflow.",
+        "The author explores technical strategies for selecting input data from text or images, while examining how AI models process parameters to optimize output performance and visual fidelity for users.",
+        "Users must understand credit allocation mechanisms and model compatibility to achieve maximum efficiency within their professional digital content production pipelines and maintain cost-effective operational standards for AI projects."
+      ],
+      "originalTitle": "Quy trình đánh giá ImageVideoAI: chọn đầu vào, mô hình và mức tín dụng phù hợp",
+      "url": "https://viblo.asia/p/quy-trinh-danh-gia-imagevideoai-chon-dau-vao-mo-hinh-va-muc-tin-dung-phu-hop-k74a96yD4eO",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Generative Video",
+        "Machine Learning",
+        "Workflow Optimization"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-11T16:45:19.000Z",
+      "contentSnippet": "Carol Luo · Kiểm tra ngày 11/11/2026 Khi thử một công cụ tạo video bằng AI, việc khó không chỉ là bấm nút tạo. Người dùng còn cần chọn ảnh hay văn bả...",
+      "authorName": "Carol Luo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b12bf270b7caed37",
+      "title_vi": "Không phải ai cũng thích chiếc điện thoại màn hình gập mới của Apple",
+      "title_en": "Not everyone is loving their new iPhone Duo",
+      "summary_vi": [
+        "Sau hai tuần ra mắt thị trường, dòng điện thoại màn hình gập mới của Apple đang đối mặt với làn sóng trả hàng đầu tiên từ một bộ phận người dùng từ chối tiếp tục sử dụng thiết bị.",
+        "Thiết bị này có mức giá cao lên tới hai nghìn đô la và hiện đang gặp phải một số vấn đề phần cứng thế hệ đầu tiên liên quan đến cơ chế bản lề gập mở của máy.",
+        "Sự kiện này phản ánh thách thức lớn mà các nhà sản xuất phần cứng di động phải đối mặt khi thương mại hóa các dòng sản phẩm công nghệ tiên phong có độ phức tạp cao."
+      ],
+      "summary_en": [
+        "Two weeks after hitting the market, Apple's new foldable smartphone is facing an initial wave of returns from a subset of users who refuse to keep using the device.",
+        "This device comes with a high price tag of two thousand dollars and is currently suffering from some first-generation hardware issues related to its mechanical hinge mechanism.",
+        "This event reflects the major challenges that mobile hardware manufacturers face when commercializing high-complexity pioneering technology product lines."
+      ],
+      "originalTitle": "Not everyone is loving their new iPhone Duo",
+      "url": "https://www.theverge.com/tech/1030398/iphone-duo-returns-screen-apps",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "Mobile",
+        "Hardware",
+        "Foldable"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-11T13:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268734_iPhone_Duo_handson_ADiBenedetto_0018.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "An open-and-shut case. For most new relationships, two weeks probably isn't enough time to decide if you're ready for long-term commitment. But two weeks with a new phone? You probably know. The iPhone Duo launched just over two weeks ago, and that's been enough time for a subset of day-one buyers w",
+      "authorName": "Allison Johnson",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "09b2f13e17bd6949",
+      "title_vi": "Serve Robotics mở cổng thông tin cho phép lập trình viên điều khiển robot giao hàng tự động",
+      "title_en": "Serve Robotics wants to democratize sidewalk delivery robots",
+      "summary_vi": [
+        "Công ty Serve Robotics vừa chính thức ra mắt cổng thông tin dành cho nhà phát triển, cho phép các kỹ sư phần mềm và doanh nghiệp nhỏ tiếp cận trực tiếp hệ thống robot giao hàng tự động của họ tại hơn 150 khu vực khác nhau.",
+        "Nền tảng này cung cấp các công cụ phần mềm chuyên dụng giúp người dùng tự thiết lập quy trình điều phối robot mà không cần phụ thuộc vào các nền tảng giao đồ ăn lớn, mở ra khả năng tích hợp linh hoạt cho các tác nhân AI độc lập.",
+        "Động thái này đánh dấu bước tiến quan trọng trong việc dân chủ hóa công nghệ robot tự hành, tạo cơ hội cho cộng đồng lập trình viên ứng dụng giải pháp giao hàng thông minh vào các mô hình kinh doanh thực tế một cách chủ động và hiệu quả."
+      ],
+      "summary_en": [
+        "Serve Robotics has officially launched a new developer portal, enabling software engineers and small businesses to gain direct access to their fleet of autonomous delivery robots currently operating across 150 distinct neighborhoods.",
+        "The platform provides specialized software tools that allow users to manage robot dispatching independently, bypassing major food delivery aggregators and facilitating seamless integration for autonomous AI agents within their own logistics workflows.",
+        "This initiative represents a significant shift toward democratizing autonomous delivery technology, empowering developers to implement smart robotics solutions into practical business models while fostering greater innovation within the last-mile delivery ecosystem."
+      ],
+      "originalTitle": "Serve Robotics wants to democratize sidewalk delivery robots",
+      "url": "https://www.theverge.com/transportation/1030902/serve-robotics-open-developer-api-sidewalk-delivery",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Robotics",
+        "AI",
+        "Automation",
+        "API",
+        "Software Engineering"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-11T12:30:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2231498899.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "A delivery robot rolls down a pedestrian walkway in Miami. | Photo: Universal Images Group via Getty Images Serve Robotics is opening up its platform to make its autonomous last-mile delivery robots available to anyone who wants to use them. The company is launching a new AV Delivery Developer Porta",
+      "authorName": "Andrew J. Hawkins",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b597b29b222e2a27",
+      "title_vi": "Việt Nam xếp hạng 37 thế giới về năng lực cạnh tranh số và trí tuệ nhân tạo",
+      "title_en": "Vietnam Ranks 37th Globally in Digital Competitiveness and Artificial Intelligence",
+      "summary_vi": [
+        "Viện Phát triển quản lý quốc tế thuộc Thụy Sĩ vừa công bố bảng xếp hạng đánh giá vị thế của Việt Nam, ghi nhận bước tiến quan trọng khi quốc gia này vươn lên vị trí thứ 37 trên phạm vi toàn cầu về năng lực cạnh tranh số.",
+        "Báo cáo chi tiết chỉ ra rằng Việt Nam đạt được nhiều điểm số ấn tượng ở các chỉ số thành phần quan trọng, đặc biệt là tốc độ ứng dụng trí tuệ nhân tạo vào thực tiễn sản xuất cùng các tiêu chí về quản trị số.",
+        "Thành tựu này không chỉ khẳng định tiềm năng phát triển công nghệ của đất nước mà còn tạo động lực lớn để cộng đồng kỹ sư phần mềm và các doanh nghiệp công nghệ đẩy mạnh đổi mới sáng tạo trong tương lai."
+      ],
+      "summary_en": [
+        "The International Institute for Management Development from Switzerland recently released a ranking evaluating Vietnam position, recording a significant milestone as the country climbed to the 37th global spot in digital competitiveness.",
+        "The detailed report indicates that Vietnam achieved impressive scores across vital component metrics, particularly in the adoption rate of artificial intelligence into practical production and digital governance criteria.",
+        "This achievement notically affirms the technological development potential of the nation while creating a strong momentum for the software engineering community and tech enterprises to drive future innovation."
+      ],
+      "originalTitle": "Việt Nam xếp hạng 37 thế giới về năng lực cạnh tranh số và trí tuệ nhân tạo",
+      "url": "https://vnexpress.net/viet-nam-xep-hang-37-the-gioi-ve-nang-luc-canh-tranh-so-va-tri-tue-nhan-tao-5143526.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Artificial Intelligence",
+        "Digital Competitiveness",
+        "Tech Trends",
+        "Digital Governance"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-11T12:17:42.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/11/dsc-1794392135-7914-1794392163.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=sUYhTdbrwdv9Y66-UbdUeg",
+      "contentSnippet": "Viện Phát triển quản lý quốc tế (IMD), Thụy Sĩ xếp hạng Việt Nam đứng thứ 37 thế giới về năng lực cạnh tranh số và AI, với nhiều thứ hạng cao ở các chỉ số ứng dụng AI và quản trị số.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "952c14d55343e761",
+      "title_vi": "Kỹ sư Google điều phối 48 tác nhân trí tuệ nhân tạo phân tích dữ liệu trắc lượng laser NASA, phát hiện kim tự tháp Maya chưa từng được ghi nhận trong 72 giờ",
+      "title_en": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+      "summary_vi": [
+        "Một kỹ sư phần mềm của Google đã phát triển hệ thống tự động hóa gồm bốn mươi tám tác nhân trí tuệ nhân tạo để phân tích dữ liệu quét bề mặt bằng tia laser của NASA, qua đó phát hiện ra một di tích khảo cổ chưa từng xuất hiện trên bản đồ chính thức.",
+        "Giải pháp công nghệ này tận dụng khả năng xử lý dữ liệu không gian và phân tích xuyên biên giới của các mô hình ngôn ngữ lớn để lọc xuyên qua lớp tán cây rừng rậm, tự động định vị các cấu trúc kiến trúc cổ đại với tốc độ ấn tượng.",
+        "Thành công này minh chứng cho tiềm năng to lớn của việc kết hợp trí tuệ nhân tạo đa tác nhân với dữ liệu địa không gian mở, mở ra hướng đi hoàn toàn mới cho các ứng dụng nghiên cứu khoa học thực địa trong tương lai."
+      ],
+      "summary_en": [
+        "A Google software engineer developed an automated system consisting of forty eight artificial intelligence agents to analyze NASA laser scanning surface data, successfully discovering an archaeological site previously unrecorded on official maps.",
+        "This technological solution leverages spatial data processing capabilities and cross border analysis of large language models to filter through dense jungle canopy layers, automatically locating ancient architectural structures at impressive speeds.",
+        "This success demonstrates the immense potential of combining multi agent artificial intelligence with open geospatial data, opening a completely novel direction for practical scientific research applications in the foreseeable future."
+      ],
+      "originalTitle": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+      "url": "https://pietromiotti.com/latest/maya-site/?maya",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Data Analysis",
+        "Automation",
+        "Geospatial"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-11T12:05:22.000Z",
+      "contentSnippet": "By analyzing NASA lidar data, my AI agents discovered a Maya site in Mexico that, as far as anyone can tell, no one had reported before. It took less than 72 hours to go from a random thought while traveling to an official reply from the Mexican government. This is by far the best time ever to be al",
+      "authorName": "eyvindn",
+      "upvotes": 68,
+      "commentsCount": 20
+    },
+    {
+      "id": "a03c3bb89feb3b85",
+      "title_vi": "Anthropic ra mắt bộ công cụ văn phòng riêng, thách thức vị thế của Microsoft Office",
+      "title_en": "Anthropic Launches Its Own Office Suite, Challenging the Dominance of Microsoft Office",
+      "summary_vi": [
+        "Công ty trí tuệ nhân tạo Anthropic đã chính thức công bố hai tính năng mới trong giai đoạn thử nghiệm beta là Claude Whiteboards và Claude Sheets, cùng với việc mở rộng nền tảng Claude Dashboards.",
+        "Bộ công cụ văn phòng tích hợp trí tuệ nhân tạo này được xây dựng nhằm hỗ trợ người dùng xử lý bảng tính, phác thảo ý tưởng trực quan và phân tích dữ liệu trực tiếp trong môi trường làm việc số.",
+        "Sự kiện này đánh dấu bước chuyển mình quan trọng của các công ty AI trong việc lấn sân sang thị trường phần mềm văn phòng truyền thống, tạo áp lực cạnh tranh trực tiếp lớn đối với các "
+      ],
+      "summary_en": [
+        "Artificial intelligence company Anthropic has officially announced two new features in beta testing, Claude Whiteboards and Claude Sheets, alongside the expansion of the Claude Dashboards platform.",
+        "This AI-integrated office suite is built to help users process spreadsheets, sketch visual ideas, and analyze data directly within a unified digital workspace environment.",
+        "This milestone marks a significant shift for AI companies entering the traditional office software market, creating direct and intense competitive pressure against established giants like Microsoft."
+      ],
+      "originalTitle": "Anthropic ra mắt bộ office của riêng mình, liệu người dùng sẽ từ bỏ Microsoft Office?",
+      "url": "https://tinhte.vn/thread/anthropic-ra-mat-bo-office-cua-rieng-minh-lieu-nguoi-dung-se-tu-bo-microsoft-office.4191459/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Anthropic",
+        "AI",
+        "Productivity",
+        "Claude",
+        "Software"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-11T11:50:57.000Z",
+      "contentSnippet": "Ngày 10/11/2026, Anthropic chính thức công bố hai tính năng mới trong giai đoạn thử nghiệm beta là Claude Whiteboards và Claude Sheets. Đồng thời, tính năng Claude Dashboards trước đó đã ra mắt...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "8aa8eadf609e13c0",
+      "title_vi": "10 công nghệ chiến lược Việt Nam muốn làm chủ",
+      "title_en": "10 Strategic Technologies Vietnam Aims to Master",
+      "summary_vi": [
+        "Bộ Khoa học và Công nghệ đang tích cực thúc đẩy việc phát triển mười nhóm công nghệ chiến lược trọng điểm theo sự chỉ đạo sát sao từ phía Chính phủ trong giai đoạn mới.",
+        "Các lĩnh vực mũi nhọn được tập trung đầu tư bao gồm trí tuệ nhân tạo, hệ thống robot tự động, công nghệ chip bán dẫn, hệ thống vệ tinh và hạ tầng đường sắt tốc độ cao.",
+        "Chiến lược này nhằm mục tiêu giúp quốc gia làm chủ hoàn toàn công nghệ lõi, qua đó tạo ra động lực tăng trưởng đột phá và bền vững cho toàn bộ nền kinh tế số."
+      ],
+      "summary_en": [
+        "The Ministry of Science and Technology is actively promoting the development of ten key strategic technology groups under the close direction of the Government in the new phase.",
+        "The spearhead areas prioritized for investment include artificial intelligence, automated robotic systems, semiconductor chip technology, satellite systems, and high-speed railway infrastructure.",
+        "This strategy aims to help the nation completely master core technologies, thereby creating breakthrough and sustainable growth momentum for the entire digital economy."
+      ],
+      "originalTitle": "10 công nghệ chiến lược Việt Nam muốn làm chủ",
+      "url": "https://vnexpress.net/10-cong-nghe-chien-luoc-viet-nam-muon-lam-chu-5143068.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "AI",
+        "Semiconductor",
+        "Robotics",
+        "Tech Strategy",
+        "Digital Economy"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-11T07:00:30.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/11/10-cong-nghe-1794358512.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=n9QLTROwlFYUdEG9vXjwBg",
+      "contentSnippet": "Bộ Khoa học và Công nghệ đang thúc đẩy phát triển 10 nhóm công nghệ chiến lược theo chỉ đạo của Chính phủ, từ trí tuệ nhân tạo, robot, chip bán dẫn đến vệ tinh và đường sắt tốc độ cao, hướng tới làm chủ công nghệ lõi, tạo động lực tăng trưởng.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c758f11662b6afc1",
+      "title_vi": "Bảo vệ khóa SSH với tính năng bảo mật phần cứng trên hệ điều hành Mac",
+      "title_en": "Protecting SSH Keys with macOS Secure Enclave",
+      "summary_vi": [
+        "Tác giả bày tỏ mối lo ngại sâu sắc về tính bảo mật của các khóa SSH được lưu trữ thông thường trên hệ thống tệp tin, vốn dễ bị tổn thương trước các tập lệnh độc hại hoặc các bài kiểm tra mã nguồn giả mạo.",
+        "Sau khi cân nhắc nhiều giải pháp phần mềm và phần cứng khác nhau như trình quản lý mật khẩu hay thiết bị khóa bảo mật, tác giả quyết định nghiên cứu cơ chế bảo mật phần cứng tích hợp sẵn nhằm ngăn chặn tuyệt đối việc rò rỉ khóa.",
+        "Bài viết cung cấp góc nhìn thực tế cho các kỹ sư phần mềm về tầm quan trọng của việc áp dụng bảo mật phần cứng để cô lập khóa riêng tư khỏi các cuộc tấn công hệ thống tiềm ẩn."
+      ],
+      "summary_en": [
+        "The author expresses deep security concerns regarding standard SSH keys stored unprotected on the filesystem, which remain highly vulnerable to malicious scripts and disguised technical interview assignments.",
+        "After evaluating various software and hardware alternatives including password managers and physical security tokens, the author explores native hardware-backed security to achieve absolute private key protection.",
+        "The article provides developers with practical insights into the critical necessity of implementing hardware-level isolation for cryptographic keys to defend against sophisticated host system compromises."
+      ],
+      "originalTitle": "Protecting SSH Keys with macOS Secure Enclave",
+      "url": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "SSH",
+        "macOS",
+        "Hardware Security",
+        "DevSecOps"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-11T04:28:57.000Z",
+      "contentSnippet": "I've been paranoid about my SSH keys for a while now. They just sit there in ~/.ssh/, protected by nothing but file permissions. Any malicious script that gets access to my filesystem could just copy them and get into all my servers. Also, there have been many stories out there online about fake int",
+      "authorName": "js2",
+      "upvotes": 276,
+      "commentsCount": 98
+    },
+    {
+      "id": "ad03d6d88297a6a8",
+      "title_vi": "Công nghệ nâng cấp hình ảnh cạnh tranh với DLSS của Microsoft chính thức ra mắt trên máy chơi game cầm tay",
+      "title_en": "Microsoft’s DLSS competitor is out for the Xbox Ally X and works in handheld mode",
+      "summary_vi": [
+        "Hãng Microsoft vừa chính thức phát hành công nghệ tự động siêu phân giải Automatic Super Resolution hỗ trợ dòng máy chơi game cầm tay và một số máy tính chạy hệ điều hành Windows Copilot Plus.",
+        "Công nghệ này trước đây chỉ hoạt động khi thiết bị được cắm dock kết nối nhưng bản cập nhật mới đã hỗ trợ hoàn toàn chế độ cầm tay chạy bằng pin và các tựa game phân giải cao.",
+        "Sự kiện này đánh dấu bước tiến quan trọng trong việc tối ưu hóa hiệu năng đồ họa phần cứng di động giúp cải thiện trải nghiệm chơi game mượt mà trên nền tảng thiết bị cầm tay."
+      ],
+      "summary_en": [
+        "Microsoft has officially rolled out its Automatic Super Resolution upscaling technology to support handheld gaming devices and selected Windows Copilot Plus personal computers.",
+        "The technology previously functioned only when devices were docked, but the new release now fully supports handheld battery-powered modes and higher resolution games.",
+        "This milestone marks a significant advancement in optimizing mobile hardware graphics performance, helping to enhance smooth gaming experiences across handheld device platforms."
+      ],
+      "originalTitle": "Microsoft’s DLSS competitor is out for the Xbox Ally X and works in handheld mode",
+      "url": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Microsoft",
+        "GPU",
+        "Gaming",
+        "Windows",
+        "Hardware"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-11T00:34:24.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/257996_ROG_Xbox_Ally_and_Xbox_Ally_X_AKrales_0073.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "The Xbox Ally X. | Photo by Amelia Holowaty Krales / The Verge Microsoft is now rolling out Automatic Super Resolution (Auto SR), an upscaling technology that competes with Nvidia's DLSS, for the Xbox Ally X, Xbox Ally X20, and select Windows Copilot Plus PCs, the company announced today. Auto SR is",
+      "authorName": "Jay Peters",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "43aaed4810007cc2",
+      "title_vi": "Công cụ lập trình Grok Build làm rò rỉ vô số thông tin mật, bao gồm cả dữ liệu của SpaceX",
+      "title_en": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceX",
+      "summary_vi": [
+        "Một nhà nghiên cứu bảo mật vừa phát hiện ra ba mươi lăm nghìn ứng dụng được tạo ra từ công cụ Grok Build đang ở trạng thái mở hoàn toàn công khai, cho phép bất kỳ ai cũng có thể dễ dàng truy cập và khai thác dữ liệu nhạy cảm bên trong.",
+        "Sự cố rò rỉ nghiêm trọng này không chỉ làm lộ các thông tin nội bộ quan trọng mà còn chứa đựng nhiều tài liệu và dữ liệu mật liên quan trực tiếp đến công ty hàng không vũ trụ SpaceX, làm dấy lên hồi chuông cảnh báo về vấn đề bảo mật.",
+        "Sự kiện này nhấn mạnh tầm quan trọng của việc kiểm tra cấu hình mặc định và thiết lập quyền truy cập nghiêm ngặt khi sử dụng các công cụ trí tuệ nhân tạo và trợ lý lập trình tự động trong môi trường phát triển phần mềm hiện đại."
+      ],
+      "summary_en": [
+        "A security researcher recently discovered that thirty five thousand applications generated by the Grok Build tool were left completely wide open to the public, allowing anyone to easily access and exploit sensitive data inside.",
+        "This critical data leak not only exposed important internal information but also contained numerous confidential documents and data directly related to the aerospace company SpaceX, raising serious security alarms across the industry.",
+        "The incident highlights the critical importance of verifying default configurations and establishing strict access controls when utilizing artificial intelligence tools and automated coding assistants within modern software development environments."
+      ],
+      "originalTitle": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+      "sourceName": "Ars Technica",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "AI",
+        "Data Leak",
+        "Grok",
+        "SpaceX"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-10T21:12:59.000Z",
+      "contentSnippet": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
+      "authorName": "\n                    Dan Goodin\n                ",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "b7bdb226aed07fe2",
       "title_vi": "Source trace ≠ Citation ≠ Mention ≠ Recommendation: thiết kế data model thế nào để không đếm nhầm AI Visibility?",
@@ -61,6 +471,41 @@
       "publishedAt": "2026-11-10T20:24:32.000Z",
       "contentSnippet": "Tác giả: Carol Luo · Cập nhật ngày 10/11/2026 Minh bạch: Tôi không nhận tài trợ, hoa hồng liên kết hay có quan hệ lao động với các công cụ được nhắc ...",
       "authorName": "Carol Luo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "04be8cb760920af7",
+      "title_vi": "Chuyên gia AI chia sẻ kinh nghiệm thương mại hóa nghiên cứu khoa học tại Việt Nam",
+      "title_en": "AI Expert Shares Insights on Commercializing Scientific Research in Vietnam",
+      "summary_vi": [
+        "Tiến sĩ Nguyễn Thị Thu Trang từ Đại học Bách khoa Hà Nội, người đứng sau giọng đọc AI phổ biến trong các video review phim, đã chia sẻ lộ trình thực tế để đưa các sản phẩm nghiên cứu khoa học từ phòng thí nghiệm ra thị trường công nghệ.",
+        "Quá trình phát triển giọng đọc AI đòi hỏi sự kết hợp giữa kỹ thuật xử lý ngôn ngữ tự nhiên, mô hình học sâu và tối ưu hóa hạ tầng tính toán để đảm bảo độ mượt mà, cảm xúc tự nhiên và khả năng phản hồi nhanh chóng cho người dùng cuối.",
+        "Bài học từ dự án này nhấn mạnh tầm quan trọng của việc thấu hiểu nhu cầu thị trường, khả năng tùy biến sản phẩm theo ngữ cảnh thực tế và chiến lược chuyển giao công nghệ hiệu quả để tạo ra giá trị kinh tế bền vững cho cộng đồng công nghệ."
+      ],
+      "summary_en": [
+        "Dr. Nguyen Thi Thu Trang from Hanoi University of Science and Technology, the creator of the popular AI voice used in movie reviews, shares her practical roadmap for transitioning scientific research projects into successful commercial technology products for the mass market.",
+        "The development of this AI voice technology involves complex integration of natural language processing, deep learning architectures, and computational infrastructure optimization to ensure high-quality, emotionally expressive speech synthesis with low latency for end-users in various digital environments.",
+        "The project highlights the critical importance of aligning technical innovation with market demands, customizing solutions for real-world applications, and implementing effective technology transfer strategies to generate sustainable economic value within the local and global tech ecosystem."
+      ],
+      "originalTitle": "'Mẹ đẻ' giọng đọc AI review phim chia sẻ cách đưa nghiên cứu khoa học ra thị trường",
+      "url": "https://tuoitre.vn/me-de-giong-doc-ai-review-phim-chia-se-cach-dua-nghien-cuu-khoa-hoc-ra-thi-truong-100261110193415365.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "NLP",
+        "Deep Learning",
+        "Speech Synthesis",
+        "Tech Startup"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-10T20:16:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/10/php05362-1794312107943400678623-285-63-1307-1698-crop-1794317451902300184296.jpg",
+      "contentSnippet": "Tiến sĩ Nguyễn Thị Thu Trang, giảng viên Đại học Bách khoa Hà Nội, người phát triển giọng đọc AI 'quốc dân' review phim, chia sẻ với sinh viên cách đưa nghiên cứu khoa học ra thị trường.",
+      "authorName": "VŨ TUẤN⭐",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -132,6 +577,40 @@
       "authorName": "crboluo",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "ad37f01e70421265",
+      "title_vi": "Các thiết bị nhà thông minh nên hoạt động ổn định mà không cần kết nối Internet",
+      "title_en": "Smart home devices should work without the internet",
+      "summary_vi": [
+        "Tác giả chia sẻ kinh nghiệm xây dựng hệ thống nhà thông minh vận hành hoàn toàn độc lập với các máy chủ của bên thứ ba trong suốt mười năm qua, đảm bảo ngôi nhà vẫn hoạt động bình thường ngay cả khi mất kết nối Internet.",
+        "Hệ thống cốt lõi được xây dựng trên các phần cứng tự chủ bao gồm vi điều khiển chạy mã nguồn mở Tasmota, trình trung gian MQTT và nền tảng điều khiển tự động Node-RED chạy trên máy tính nhúng Raspberry Pi, hạn chế tối đa sự phụ thuộc vào đám mây.",
+        "Mô hình kiến trúc này mang lại bài học quan trọng cho các kỹ sư phần mềm và người làm công nghệ về tính kiên cường của hệ thống, giúp giảm thiểu rủi ro khi dịch vụ đám mây gặp sự cố hoặc ngừng hoạt động đột ngột."
+      ],
+      "summary_en": [
+        "The author shares ten years of experience building a smart home automation system that operates independently of third-party vendor servers, ensuring the house remains fully functional even during total internet outages.",
+        "The core infrastructure relies on self-owned hardware utilizing Tasmota open-source firmware on microcontrollers, an MQTT message broker, and Node-RED running on a Raspberry Pi to minimize cloud dependency and ensure local control.",
+        "This architectural approach provides valuable lessons for software engineers and technologists regarding system resilience, helping mitigate catastrophic risks when external cloud services experience unexpected failures or API deprecations."
+      ],
+      "originalTitle": "Smart home devices should work without the internet",
+      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "IoT",
+        "Smart Home",
+        "Node-RED",
+        "MQTT",
+        "Edge Computing"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-10T15:25:20.000Z",
+      "contentSnippet": "AI;DR: I wrote the first draft, AI helped me edit and rewrite it, and I made the final pass. The rules, setups, and talks are my own. TLDR; Nothing core in my house depends on a vendor’s server. If the internet goes down, the house keeps running. That’s been rule one for about ten years, and my othe",
+      "authorName": "skittleson",
+      "upvotes": 1050,
+      "commentsCount": 369
     },
     {
       "id": "1d8889c9661cfe54",
@@ -8093,489 +8572,6 @@
       "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/31/wm1-wm1-dsc00498-jpg-1793404233-5527-1793404244.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=kkD2cz-Fl2s4c5YhoQxtxA",
       "contentSnippet": "10 ngày cuối tháng 10 đang được xem là \"cơn ác mộng\" của lĩnh vực an ninh mạng, với hàng loạt lỗ hổng và vụ xâm nhập hệ thống được ghi nhận.",
       "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8edfa603fa5ede8d",
-      "title_vi": "Hệ thống trí tuệ nhân tạo của Táo Khuyết chính thức cập bích thị trường Trung Quốc thông qua bản cập nhật hệ điều hành di động mới",
-      "title_en": "Apple Intelligence is finally coming to China with iOS 27.3",
-      "summary_vi": [
-        "Tập đoàn công nghệ Apple chuẩn bị phát hành bộ công cụ trí tuệ nhân tạo độc quyền tại thị trường Trung Quốc bắt đầu từ phiên bản hệ điều hành di động mới nhất sắp ra mắt vào tháng mười một tới đây.",
-        "Bản phát hành này tích hợp các tính năng thông minh cốt lõi như tóm tắt thông báo, dịch thuật thời gian thực, công cụ hiệu chỉnh văn bản, trí tuệ thị giác cùng tính năng xóa vật thể trong ảnh dựa trên hợp tác với Alibaba.",
-        "Bước tiến chiến lược này đánh dấu nỗ lực lớn của hãng trong việc vượt qua các rào cản pháp lý khắt khe tại thị trường tỷ dân để phổ cập các giải pháp trí tuệ nhân tạo tiên tiến đến người dùng."
-      ],
-      "summary_en": [
-        "Technology giant Apple is preparing to release its proprietary artificial intelligence toolkit in the Chinese market starting with the latest mobile operating system version launching this coming November.",
-        "This release integrates core intelligent features such as notification summaries, real-time translation, text proofreading tools, visual intelligence, and photo object removal based on a partnership with Alibaba.",
-        "This strategic step marks the company's major effort to overcome strict regulatory barriers in the billion-people market to popularize advanced artificial intelligence solutions for end users."
-      ],
-      "originalTitle": "Apple Intelligence is finally coming to China with iOS 27.3",
-      "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Apple Intelligence",
-        "iOS",
-        "Artificial Intelligence",
-        "Mobile",
-        "Alibaba"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-30T22:32:53.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25699392/DSC08596_processed.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for D",
-      "authorName": "Jay Peters",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "aa3a2498b0b28b40",
-      "title_vi": "GitHub phải bổ sung bốn triệu nhân CPU vì bão mã code AI",
-      "title_en": "GitHub Adds Four Million CPU Cores to Handle AI Code Generation Surge",
-      "summary_vi": [
-        "Nền tảng quản lý mã nguồn GitHub đang đối mặt với thách thức hạ tầng lớn khi khối lượng mã lập trình do trí tuệ nhân tạo tạo ra tăng vọt đột biến trong thời gian qua.",
-        "Để duy trì hiệu suất hệ thống, công ty đã phải bổ sung gấp bốn triệu nhân xử lý CPU cùng 160 petabyte dung lượng lưu trữ chỉ trong vòng một năm hoạt động.",
-        "Sự bùng nổ này phản ánh xu hướng ứng dụng trợ lý lập trình AI đang làm thay đổi đáng kể nhu cầu tài nguyên tính toán của các nền tảng phát triển phần mềm."
-      ],
-      "summary_en": [
-        "Source code hosting platform GitHub is facing major infrastructure challenges as the volume of artificial intelligence-generated code surges dramatically in recent times.",
-        "To maintain system performance, the company had to add four million CPU cores and 160 petabytes of storage capacity within just a single year of operation.",
-        "This explosive growth reflects how the widespread adoption of AI coding assistants is significantly reshaping the computing resource demands of software development platforms."
-      ],
-      "originalTitle": "GitHub phải bổ sung bốn triệu nhân CPU vì 'bão code AI'",
-      "url": "https://vnexpress.net/github-phai-bo-sung-bon-trieu-nhan-cpu-vi-bao-code-ai-5138530.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "GitHub",
-        "AI",
-        "CPU",
-        "Cloud",
-        "Software Development"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-30T22:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/29/ai-codex-1793283030-9427-1793283069.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=DOY6AdiJzZAyeCY_QdqmBQ",
-      "contentSnippet": "GitHub, nền tảng lưu trữ mã nguồn lớn nhất thế giới, cho biết phải bổ sung bốn triệu nhân CPU và 160 PB lưu trữ chỉ trong một năm vì lượng mã do AI tạo ra tăng vọt.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b0d9b518e1b4ff65",
-      "title_vi": "Tiện ích mở rộng của Anthropic trên Cursor bị cài cửa hậu trong gần 12 giờ",
-      "title_en": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
-      "summary_vi": [
-        "Một tiện ích mở rộng chính thức dành cho mô hình Claude của Anthropic đã bị xâm phạm và đe dọa trực tiếp tới khoảng năm nghìn máy tính của các nhà phát triển trong suốt gần mười hai giờ.",
-        "Phiên bản độc hại mã hiệu hai chấm một chấm ba trăm mười ba đã tự động cập nhật trên trình soạn thảo Cursor thông qua tài khoản chính thức, cố gắng cài đặt một cửa hậu giao thức SSH ẩn giấu.",
-        "Sự cố chuỗi cung ứng phần mềm nghiêm trọng này gióng lên hồi chuông cảnh báo về rủi ro bảo mật trong hệ sinh thái công cụ hỗ trợ trí tuệ nhân tạo và việc quản lý phân phối mã nguồn."
-      ],
-      "summary_en": [
-        "An official extension for Anthropic Claude model was compromised and threatened approximately five thousand developer machines throughout nearly twelve hours of distribution.",
-        "The malicious version numbered two point one point three hundred thirteen automatically updated within the Cursor editor via official channels while attempting to install a persistent SSH backdoor.",
-        "This severe software supply chain security incident raises critical alarms regarding vulnerability risks across artificial intelligence tooling ecosystems and code distribution management."
-      ],
-      "originalTitle": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
-      "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Supply Chain",
-        "Cursor",
-        "Anthropic",
-        "VS Code"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-30T21:09:54.000Z",
-      "contentSnippet": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
-      "authorName": "\n                    Dan Goodin\n                ",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "05a1378ae455d54d",
-      "title_vi": "Giám đốc điều hành OpenAI Sam Altman cho rằng việc tập trung bộ nhớ RAM trong trung tâm dữ liệu tối ưu hơn trên máy tính cá nhân",
-      "title_en": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
-      "summary_vi": [
-        "Trong một cuộc phỏng vấn gần đây, giám đốc điều hành OpenAI Sam Altman đã đưa ra quan điểm trái chiều về vấn đề thiếu hụt linh kiện phần cứng và xu hướng phát triển công nghệ trí tuệ nhân tạo hiện nay.",
-        "Ông nhận định rằng việc phân bổ bộ nhớ RAM cho các máy tính cá nhân để chạy mô hình ngôn ngữ lớn cục bộ là một sự lãng phí tài nguyên tính toán ở cấp độ toàn cầu thay vì tập trung hóa.",
-        "Quan điểm này làm nổi bật cuộc tranh luận lớn trong ngành công nghiệp bán dẫn và điện toán đám mây về việc cân bằng giữa hiệu suất xử lý cục bộ tại thiết bị đầu cuối và sức mạnh hạ tầng trung tâm dữ liệu."
-      ],
-      "summary_en": [
-        "In a recent interview, OpenAI CEO Sam Altman shared controversial perspectives regarding ongoing hardware component shortages and the current trajectory of artificial intelligence technology development.",
-        "He stated that allocating RAM to personal computers for running local large language models represents a significant waste of computational resources globally rather than centralizing infrastructure.",
-        "This perspective highlights a major debate within the semiconductor and cloud computing industries regarding the balance between local edge device processing and centralized data center power."
-      ],
-      "originalTitle": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "OpenAI",
-        "Hardware",
-        "Data Center",
-        "RAM",
-        "AI Inference"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-30T20:48:43.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/gettyimages-1778705436.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented on AI's impact on math, Altman said: \"A lo",
-      "authorName": "Stevie Bonifield",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "7a24eca35f77e86d",
-      "title_vi": "Các tập đoàn trí tuệ nhân tạo lớn hậu thuẫn tiêu chuẩn mới giúp trang web từ chối thu thập dữ liệu",
-      "title_en": "The biggest names in AI are backing a new way to opt out of scraping",
-      "summary_vi": [
-        "Các công ty công nghệ hàng đầu bao gồm Google, OpenAI, Microsoft và Anthropic đã cam kết áp dụng một tiêu chuẩn chung mới nhằm giúp các nhà xuất bản dễ dàng từ chối việc dữ liệu của họ bị thu thập để huấn luyện mô hình trí tuệ nhân tạo.",
-        "Giải pháp kỹ thuật này sử dụng một tín hiệu mã thông báo chính sách chung được đề xuất thông qua Lực lượng đặc nhiệm kỹ thuật internet và tích hợp trực tiếp vào tệp robots.txt truyền thống của trang web để quản lý quyền truy cập của trình thu thập dữ liệu.",
-        "Động thái này mang lại giải pháp quản trị đồng bộ cho phép các quản trị viên web áp dụng thiết lập quyền riêng tư và bản quyền của mình trên nhiều nền tảng trí tuệ nhân tạo khác nhau thay vì phải cấu hình thủ công cho từng hệ thống riêng biệt."
-      ],
-      "summary_en": [
-        "Major technology companies including Google, OpenAI, Microsoft, and Anthropic have committed to adopting a new shared standard that helps publishers easily opt out of having their data scraped for training artificial intelligence models.",
-        "This technical solution utilizes a shared policy token signal proposed through the Internet Engineering Task Force and integrates directly into traditional website robots.txt files to manage web crawler access permissions.",
-        "This move provides a synchronized governance solution allowing web administrators to apply their privacy and copyright settings across multiple artificial intelligence platforms instead of manually configuring each separate system."
-      ],
-      "originalTitle": "The biggest names in AI are backing a new way to opt out of scraping",
-      "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Web Crawling",
-        "Data Privacy",
-        "IETF",
-        "Robots.txt"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-30T20:26:10.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25330660/STK414_AI_CHATBOT_H.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setti",
-      "authorName": "Emma Roth",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b9ee8bb30716fa37",
-      "title_vi": "Máy chủ AI vệ tinh của Google truyền phản hồi đầu tiên về Trái Đất",
-      "title_en": "Google's satellite AI server transmits its first response to Earth",
-      "summary_vi": [
-        "Google vừa thử nghiệm thành công vệ tinh tích hợp chip xử lý tensor trên quỹ đạo, đánh dấu cột mốc quan trọng khi hệ thống máy chủ trí tuệ nhân tạo ngoài không gian truyền tải thành công phản hồi đầu tiên về mặt đất trong khuôn khổ dự án Suncatcher đầy tham vọng.",
-        "Hệ thống phần cứng đã kích hoạt thành công bộ vi xử lý chuyên dụng Tensor Processing Units để vận hành mô hình ngôn ngữ lớn Gemma 4 ngay trên quỹ đạo, cho phép thiết bị tự động xử lý các câu lệnh phức tạp và sáng tác thơ haiku trực tiếp ngoài không gian vô cùng ấn tượng.",
-        "Sự kiện này mở ra hướng đi mới cho việc xây dựng các trung tâm dữ liệu trí tuệ nhân tạo ngoài không gian, giúp tối ưu hóa khả năng xử lý dữ liệu vệ tinh, giảm độ trễ truyền tải và nâng cao hiệu suất tính toán cho các ứng dụng hàng không vũ trụ trong tương lai."
-      ],
-      "summary_en": [
-        "Google has successfully tested an AI-integrated satellite in orbit, marking a major milestone as the first space-based artificial intelligence server system successfully transmitted its initial response back to Earth under the ambitious Suncatcher project.",
-        "The hardware system successfully activated specialized Tensor Processing Units to run the Gemma 4 large language model directly in orbit, enabling the device to autonomously process complex prompts and compose haiku poetry right from outer space.",
-        "This event opens up new directions for building space-based artificial intelligence data centers, helping to optimize satellite data processing capabilities, reduce transmission latency, and enhance computational performance for future aerospace applications."
-      ],
-      "originalTitle": "Google’s satellite AI server transmits its first response to Earth",
-      "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "TPU",
-        "Satellite",
-        "Gemma",
-        "Cloud"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-30T18:21:38.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/project-suncatcher-google.png?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: B",
-      "authorName": "Emma Roth",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8789b25f4f928a02",
-      "title_vi": "Hãng cà phê Starbucks muốn ứng dụng trí tuệ nhân tạo để hiển thị thực đơn kỹ thuật số cá nhân hóa tại làn đường mua hàng qua ô tô",
-      "title_en": "Starbucks wants to use AI to show you a personalized digital menu at the drive-thru",
-      "summary_vi": [
-        "Hãng cà phê nổi tiếng thế giới đang lên kế hoạch tích hợp trí tuệ nhân tạo nhằm tự động nhận diện khách hàng ngay khi họ lái xe tiến vào khu vực phục vụ trực tiếp qua ô tô.",
-        "Hệ thống thông minh này sẽ tự động phân tích dữ liệu để thay đổi bố cục, nội dung trực quan và hiển thị các bảng thực đơn kỹ thuật số được cá nhân hóa theo từng phương tiện di chuyển khác nhau.",
-        "Giải pháp công nghệ này đánh dấu xu hướng chuyển đổi số mạnh mẽ trong ngành dịch vụ ăn uống, tương tự các thử nghiệm của các đối thủ lớn như Taco Bell và McDonald's gần đây."
-      ],
-      "summary_en": [
-        "The world famous coffee chain is planning to integrate artificial intelligence in order to automatically recognize customers as soon as they drive into the direct service lane.",
-        "This smart system will automatically analyze data to dynamically change layouts, visual content, and display personalized digital menus tailored specifically to each individual vehicle.",
-        "This technological solution marks a strong digital transformation trend within the food service industry, mirroring recent experiments by major competitors like Taco Bell and McDonald's."
-      ],
-      "originalTitle": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Retail Tech",
-        "Digital Menu",
-        "Automation"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-30T17:38:04.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2268681559.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital me",
-      "authorName": "Emma Roth",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "db95d86ba1918b7e",
-      "title_vi": "GLM-5.3-Flash làm được gì? Từ đọc bảng trong ảnh đến gọi API bằng Node.js",
-      "title_en": "What Can GLM-5.3-Flash Do? From Image Table Extraction to Node.js API Integration",
-      "summary_vi": [
-        "Mô hình trí tuệ nhân tạo GLM-5.3-Flash thuộc hệ sinh thái Zhipu vừa ra mắt đã thu hút sự chú ý lớn từ cộng đồng lập trình nhờ vào khả năng xử lý đa phương thức vô cùng mạnh mẽ.",
-        "Hệ thống cho phép người dùng thực hiện các tác vụ phức tạp như trích xuất dữ liệu bảng biểu từ hình ảnh trực quan và tự động tạo mã nguồn gọi giao diện lập trình ứng dụng bằng môi trường Node.js.",
-        "Công cụ này mang lại giá trị thực tiễn cao, giúp các nhà phát triển tối ưu hóa quy trình tự động hóa tác vụ xử lý dữ liệu và tăng tốc độ phát triển phần mềm đáng kể."
-      ],
-      "summary_en": [
-        "The GLM-5.3-Flash artificial intelligence model from the Zhipu ecosystem has recently launched, capturing significant attention from the developer community thanks to its powerful multimodal processing capabilities.",
-        "The system enables users to perform complex tasks such as extracting structured table data from visual images and automatically generating source code to interact with application programming interfaces using the Node.js environment.",
-        "This tool delivers high practical value by helping developers optimize data processing automation workflows and significantly accelerate the pace of software development lifecycle implementations."
-      ],
-      "originalTitle": "GLM-5.3-Flash làm được gì? Từ đọc bảng trong ảnh đến gọi API bằng Node.js",
-      "url": "https://viblo.asia/p/glm-53-flash-lam-duoc-gi-tu-doc-bang-trong-anh-den-goi-api-bang-nodejs-1QLxnOQq4Aw",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Node.js",
-        "API",
-        "Machine Learning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-30T17:22:00.000Z",
-      "contentSnippet": "GLM-5.3-Flash là mô hình thuộc dòng GLM của Zhipu. Trong tài liệu chính thức của Z.ai, Flash và FlashX được giới thiệu với khả năng đa phương thức, hư...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ee26e016f363e015",
-      "title_vi": "Cài đặt Cherry Studio trên Windows và kết nối API để bắt đầu trò chuyện",
-      "title_en": "Installing Cherry Studio on Windows and Connecting APIs for the First Conversation",
-      "summary_vi": [
-        "Bài viết hướng dẫn chi tiết cách cài đặt ứng dụng Cherry Studio trên hệ điều hành Windows nhằm giúp người dùng dễ dàng kết nối và quản lý các API trí tuệ nhân tạo một cách trực quan.",
-        "Tác giả nhấn mạnh tầm quan trọng của việc kiểm soát minh bạch các thông số kỹ thuật bao gồm điểm cuối yêu cầu, khóa xác thực và các mô hình ngôn ngữ lớn được gọi trong quá trình tương tác.",
-        "Giải pháp này mang lại giá trị thực tiễn cao cho các lập trình viên và nhà phát triển khi cần một công cụ giao diện tập trung để thử nghiệm và tối ưu hóa các mô hình AI khác nhau."
-      ],
-      "summary_en": [
-        "The article provides a detailed guide on installing the Cherry Studio application on the Windows operating system to help users easily connect and manage artificial intelligence APIs intuitively.",
-        "The author emphasizes the importance of transparently controlling technical parameters including request endpoints, authentication keys, and large language models invoked during interactions.",
-        "This solution delivers high practical value for programmers and developers needing a centralized interface tool to experiment with and optimize various artificial intelligence models."
-      ],
-      "originalTitle": "Cài Cherry Studio trên Windows và kết nối API: từ khóa truy cập đến cuộc trò chuyện đầu tiên",
-      "url": "https://viblo.asia/p/cai-cherry-studio-tren-windows-va-ket-noi-api-tu-khoa-truy-cap-den-cuoc-tro-chuyen-dau-tien-ym4002mW491",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "API",
-        "Windows",
-        "Cherry Studio",
-        "LLM"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-30T17:00:17.000Z",
-      "contentSnippet": "Khi đưa một API vào ứng dụng chat, tôi muốn nhìn rõ ba thứ: yêu cầu được gửi đến đâu, dùng khóa nào và gọi mô hình nào. Cherry Studio có sẵn giao diện...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "45f24457a82bb1f3",
-      "title_vi": "Elon Musk nhận định tiết kiệm tiền là vô nghĩa khi trí tuệ nhân tạo tạo ra sự dư dả",
-      "title_en": "Elon Musk Claims Saving Money Is Meaningless As Artificial Intelligence Brings Abundance",
-      "summary_vi": [
-        "Elon Musk chia sẻ trên mạng xã hội X rằng việc tiết kiệm tiền dài hạn không còn ý nghĩa khi sự phát triển của siêu trí tuệ nhân tạo và robot sẽ mang lại nguồn hàng hóa dịch vụ vô cùng dư dả.",
-        "Tỷ phú này giải thích rằng các hệ thống trí tuệ nhân tạo tiên tiến và robot tự động sẽ thay thế con người sản xuất với chi phí rất thấp, dẫn đến tình trạng giảm phát và thay đổi toàn bộ hệ thống tiền tệ hiện tại.",
-        "Quan điểm này gây ra nhiều tranh cãi trái chiều trong cộng đồng mạng về tác động của tự động hóa toàn diện đến động lực làm việc và cấu trúc tài chính truyền thống của xã hội tương lai."
-      ],
-      "summary_en": [
-        "Elon Musk shared on X that long-term money saving becomes meaningless as the rapid development of artificial intelligence and advanced robotics will generate unprecedented material abundance.",
-        "The billionaire explained that sophisticated AI systems and automated robots will replace human labor to produce goods at extremely low costs, ultimately leading to severe deflation and restructuring monetary systems.",
-        "This perspective sparked widespread controversy within the online community regarding the psychological impact of full automation on workforce motivation and traditional financial structures in future societies."
-      ],
-      "originalTitle": "Elon Musk: 'Tiết kiệm tiền cho tương lai là vô nghĩa'",
-      "url": "https://vnexpress.net/elon-musk-tiet-kiem-tien-cho-tuong-lai-la-vo-nghia-5138848.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Robotics",
-        "Automation",
-        "Future Tech",
-        "Economy"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-30T17:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/30/ap25150648925119-1793351080-6926-1793351236.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=F30J1K7YkB98ggdqRiUB6Q",
-      "contentSnippet": "Elon Musk, CEO Tesla và SpaceX, cho rằng việc tiết kiệm dài hạn không đáng, tái khẳng định quan điểm đã đề cập nhiều lần.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "907d81e655b052b7",
-      "title_vi": "Bảo mật Azure DevOps: 9 phương pháp hay nhất cho quy trình CI/CD để bảo vệ ứng dụng y tế",
-      "title_en": "Azure DevOps Security: 9 CI/CD Pipeline Best Practices for Protecting Healthcare Applications",
-      "summary_vi": [
-        "Các tổ chức y tế hiện nay đang ngày càng phụ thuộc nhiều hơn vào các ứng dụng đám mây và nền tảng số hóa bệnh nhân nhằm nâng cao chất lượng dịch vụ chăm sóc sức khỏe.",
-        "Bài viết cung cấp chín phương pháp thực hành tốt nhất để bảo mật quy trình tích hợp và triển khai liên tục trên nền tảng Azure DevOps dành riêng cho lĩnh vực y tế.",
-        "Giải pháp này giúp các kỹ sư phần mềm ngăn chặn rò rỉ dữ liệu nhạy cảm, tuân thủ các tiêu chuẩn bảo mật nghiêm ngặt và giảm thiểu rủi ro tấn công mạng."
-      ],
-      "summary_en": [
-        "Healthcare organizations are increasingly relying on cloud native applications and digital patient platforms to enhance the overall quality of healthcare delivery services.",
-        "The article provides nine comprehensive best practices for securing continuous integration and continuous deployment pipelines within Azure DevOps specifically for healthcare.",
-        "These solutions help software engineers prevent sensitive data leaks, comply with strict security standards, and significantly minimize the risks of cyber attacks."
-      ],
-      "originalTitle": "Azure DevOps Security: 9 CI/CD Pipeline Best Practices for Protecting Healthcare Applications",
-      "url": "https://viblo.asia/p/azure-devops-security-9-cicd-pipeline-best-practices-for-protecting-healthcare-applications-3RL1Bla7Vao",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "Azure DevOps",
-        "CI/CD",
-        "Cybersecurity",
-        "Healthcare",
-        "Cloud Security"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-30T16:17:31.000Z",
-      "contentSnippet": "Healthcare organizations increasingly rely on cloud-native applications, digital patient platforms, electronic health records (EHRs), and connected he...",
-      "authorName": "Diwakar Exe",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "d13a51d7c176c6f9",
-      "title_vi": "Né tránh phát hiện trong chuỗi cung ứng AI/ML: Khi Picklescan không còn đủ bảo vệ",
-      "title_en": "Bypassing Detection in AI/ML Supply Chain: When Picklescan Is No Longer Enough",
-      "summary_vi": [
-        "Bài viết thuộc chuỗi phân tích chuyên sâu về các cuộc tấn công chuỗi cung ứng nhắm trực tiếp vào hệ thống trí tuệ nhân tạo và học máy hiện đại, tiếp nối các kỹ thuật như mcp backdoor hay phân tích giải mã mô hình.",
-        "Nội dung tập trung mổ xẻ những hạn chế cố hữu của công cụ quét mã độc phổ biến hiện nay đối với định dạng tệp mô hình, đồng thời chỉ ra các phương thức kẻ tấn công lợi dụng để qua mặt lớp phòng thủ truyền thống.",
-        "Kỹ sư và nhà phát triển cần nâng cao cảnh giác, áp dụng các giải pháp kiểm tra bảo mật toàn diện hơn cho mô hình học máy nhằm ngăn chặn nguy cơ xâm nhập từ chuỗi cung ứng bên ngoài."
-      ],
-      "summary_en": [
-        "This article is part of an in-depth analysis series focusing on supply chain attacks targeting modern artificial intelligence and machine learning systems, following previous discussions on backend vulnerabilities and serialization issues.",
-        "The content thoroughly examines the inherent limitations of current popular malware scanning tools regarding model file formats, highlighting advanced evasion techniques employed by malicious actors to bypass standard security layers.",
-        "Software engineers and developers must remain vigilant by adopting comprehensive security auditing solutions for machine learning models to effectively mitigate potential intrusions originating from external supply chains."
-      ],
-      "originalTitle": "Né Tránh Phát Hiện Trong Chuỗi Cung Ứng AI/ML: Khi Picklescan Không Còn Đủ",
-      "url": "https://viblo.asia/p/ne-tranh-phat-hien-trong-chuoi-cung-ung-aiml-khi-picklescan-khong-con-du-wd43ExArLX9",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Cybersecurity",
-        "Supply Chain",
-        "Picklescan"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-30T15:37:36.000Z",
-      "contentSnippet": "Đây là bài thứ ba trong series Supply Chain Attack nhằm vào hệ thống AI/ML. Bài 1 đã phân tích MCP backdoor, Dependency Confusion và Pickle deserializ...",
-      "authorName": "fatfish",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b49e140ae02cf75c",
-      "title_vi": "Nền tảng đám mây Bắc Lục bị tấn công xâm nhập nghiêm trọng",
-      "title_en": "Northflank Cloud Platform Breached in Major Security Incident",
-      "summary_vi": [
-        "Nền tảng đám mây chịu ảnh hưởng nặng nề bởi sự cố bảo mật nghiêm trọng khiến toàn bộ các thành phần hệ thống ngừng hoạt động và buộc đội ngũ kỹ thuật phải triển khai các bản vá khẩn cấp.",
-        "Nhiều người dùng xác nhận các khóa trí tuệ nhân tạo đã bị lợi dụng, toàn bộ biến môi trường bị giải mã và yêu cầu vô hiệu hóa hoặc thay đổi toàn bộ thông tin xác thực ngay lập tức.",
-        "Sự cố gióng lên hồi chuông cảnh báo về tính bảo mật của các biến môi trường và thông tin đăng nhập trên các nền tảng đám mây hiện đại, đòi hỏi quy trình quản lý bí mật khắt khe hơn."
-      ],
-      "summary_en": [
-        "The cloud platform suffered a major security incident causing widespread system outages and forcing the engineering team to deploy emergency network patches and coordinate with incident response experts.",
-        "Multiple users confirmed that their artificial intelligence keys were exploited, environment variables were fully decrypted, and immediate credential rotation and public access disabling were strongly advised.",
-        "This severe breach highlights critical vulnerabilities in environment variable security on modern cloud platforms, emphasizing the absolute necessity of robust secret management and rapid incident response protocols."
-      ],
-      "originalTitle": "Northflank Breached",
-      "url": "https://status.northflank.com",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Cloud Security",
-        "DevOps",
-        "Data Breach",
-        "Infrastructure"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-30T15:10:31.000Z",
-      "contentSnippet": "Security incidentIdentified·Major outageUpdate · October 30, 2026 at 7:28 PMUTCOur investigation is ongoing. We have no further confirmed findings to share at this time.Our guidance remains unchanged: assume all environment variables have been compromised and rotate all secrets and credentials immed",
-      "authorName": "js4ever",
-      "upvotes": 298,
-      "commentsCount": 220
-    },
-    {
-      "id": "a869c95887273c31",
-      "title_vi": "Lợi nhuận LG Electronics tăng gần 56% sau 9 tháng, đơn hàng làm mát trung tâm dữ liệu AI vượt 3.000 tỷ won",
-      "title_en": "LG Electronics 9-Month Profit Surges Nearly 56% as AI Data Center Cooling Orders Exceed 3 Trillion Won",
-      "summary_vi": [
-        "LG Electronics ghi nhận mức tăng trưởng lợi nhuận ấn tượng gần năm mươi sáu phần trăm trong chín tháng đầu năm nhờ sự bùng nổ mạnh mẽ của thị trường hạ tầng công nghệ thông tin toàn cầu.",
-        "Nhu cầu cấp thiết về giải pháp làm mát tiên tiến cho các trung tâm dữ liệu trí tuệ nhân tạo đã đẩy giá trị đơn hàng của tập đoàn này vượt mốc ba nghìn tỷ won.",
-        "Sự chuyển dịch chiến lược sang mảng cơ sở hạ tầng trung tâm dữ liệu mở ra hướng đi mới bền vững, khẳng định vai trò thiết yếu của phần cứng trong hệ sinh thái trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "LG Electronics reported an impressive profit growth of nearly fifty-six percent in the first nine months driven by the explosive expansion of the global information technology infrastructure market.",
-        "The urgent demand for advanced cooling solutions in artificial intelligence data centers has propelled the conglomerate's order backlog past the three trillion won milestone.",
-        "This strategic shift toward data center infrastructure establishes a new sustainable growth vector, highlighting the critical role of hardware within the modern artificial intelligence ecosystem."
-      ],
-      "originalTitle": "Lợi nhuận LG Electronics tăng gần 56% sau 9 tháng, đơn hàng làm mát trung tâm dữ liệu AI vượt 3.000 tỷ won",
-      "url": "https://genk.vn/loi-nhuan-lg-electronics-tang-gan-56-sau-9-thang-don-hang-lam-mat-trung-tam-du-lieu-ai-vuot-3000-ty-won-165261030195250043.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "AI",
-        "Data Center",
-        "Hardware",
-        "Infrastructure",
-        "LG Electronics"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-30T13:47:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/30/avatar1793364737202-1793364737548844056680.png",
-      "contentSnippet": "Trong khi các mảng kinh doanh điện tử truyền thống tiếp tục duy trì lợi nhuận, LG Electronics đang chứng kiến một động lực tăng trưởng mới từ nhu cầu làm mát trung tâm dữ liệu AI.",
-      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     }
