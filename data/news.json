@@ -1,7 +1,555 @@
 {
-  "lastUpdated": "2026-11-11T13:18:42.137Z",
+  "lastUpdated": "2026-11-12T05:03:09.882Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "945d51b024796e4e",
+      "title_vi": "Trình giả lập AWS: Giải pháp kiểm thử dịch vụ đám mây ngoại tuyến",
+      "title_en": "AWS Emulator: Testing Cloud Services Without Real AWS Connectivity",
+      "summary_vi": [
+        "Khi phát triển ứng dụng sử dụng điện toán đám mây, việc viết mã nguồn chỉ là bước đầu và việc kết nối liên tục với hệ thống thực tế gây ra nhiều khó khăn về chi phí cũng như tốc độ.",
+        "Trình giả lập dịch vụ đám mây giúp lập trình viên mô phỏng các tính năng cốt lõi ngay trên máy tính cá nhân, tối ưu hóa quy trình kiểm thử và tự động hóa các kịch bản tích hợp liên tục.",
+        "Giải pháp này mang lại giá trị thực tiễn cao cho các kỹ sư phần mềm, giúp tiết kiệm ngân sách vận hành, tăng năng suất làm việc và đảm bảo tính ổn định trước khi triển khai."
+      ],
+      "summary_en": [
+        "When developing cloud-based applications, writing source code is only the initial step, and maintaining constant connection to live infrastructure introduces significant cost and latency challenges.",
+        "Service emulators enable developers to simulate core cloud functionalities locally on their personal machines, optimizing testing workflows and streamlining continuous integration pipelines.",
+        "This approach delivers immense practical value for software engineers by reducing operational budgets, boosting developer productivity, and ensuring system stability prior to deployment."
+      ],
+      "originalTitle": "AWS Emulator – Kiểm thử AWS Services mà không cần kết nối AWS thật",
+      "url": "https://viblo.asia/p/aws-emulator-kiem-thu-aws-services-ma-khong-can-ket-noi-aws-that-pPLkN81eJRZ",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "AWS",
+        "Cloud Computing",
+        "Testing",
+        "DevOps",
+        "Emulators"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-12T10:34:12.000Z",
+      "contentSnippet": "1. Mở đầu – Kiểm thử AWS Services mà không cần kết nối AWS thật Khi phát triển một ứng dụng sử dụng AWS, việc viết code đôi khi không phải là phần mấ...",
+      "authorName": "Hưng Phạm",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "d26a1b7dc8839537",
+      "title_vi": "Command Box bài học 5: Thiết kế giao diện dòng lệnh giúp công cụ thân thiện như phần mềm giao diện người dùng đồ họa",
+      "title_en": "Command Box Lesson 5: Designing Command Line Interfaces to Make Tools as Friendly as GUI Software",
+      "summary_vi": [
+        "Bài viết thảo luận về thực trạng các công cụ dòng lệnh tự phát thường bị người dùng trong nhóm lãng quên và quay lại thao tác thủ công chỉ sau vài ngày triển khai.",
+        "Tác giả phân tích các yếu tố cốt lõi trong trải nghiệm người dùng dòng lệnh nhằm tối ưu hóa tính trực quan, giảm thiểu sai sót và nâng cao hiệu suất làm việc cho lập trình viên.",
+        "Kiến thức này giúp các kỹ sư phần mềm xây dựng những tiện ích dòng lệnh chuyên nghiệp, dễ sử dụng và thúc đẩy văn hóa tự động hóa hiệu quả trong tổ chức kỹ thuật."
+      ],
+      "summary_en": [
+        "The article discusses the common issue where custom command line tools developed in-house are quickly abandoned by team members who resort to manual workflows.",
+        "The author analyzes essential user experience factors for command line interfaces to optimize clarity, reduce operational errors, and improve productivity for software engineers.",
+        "This knowledge empowers software engineers to build professional, user-friendly command line utilities and effectively foster an automation culture within technical organizations."
+      ],
+      "originalTitle": "Command Box bài học 5: Thiết kế giao diện dòng lệnh (CLI UX): Làm sao để công cụ thân thiện như phần mềm GUI?",
+      "url": "https://viblo.asia/p/command-box-bai-hoc-5-thiet-ke-giao-dien-dong-lenh-cli-ux-lam-sao-de-cong-cu-than-thien-nhu-phan-mem-gui-y0VGwQGrVPA",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "CLI",
+        "UX",
+        "Software Engineering",
+        "Developer Tools"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-12T10:16:12.000Z",
+      "contentSnippet": "Đã bao giờ bạn viết xong một công cụ dòng lệnh tâm huyết, gửi cho anh em trong team dùng thử, nhưng chỉ 2 ngày sau thấy họ quay lại làm tay hoặc dùng ...",
+      "authorName": "Nguyễn Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "4d54e9ae5ffb2582",
+      "title_vi": "Hồi quy tuyến tính trong khoa học dữ liệu: Hiểu bản chất thuật toán và thực hành với Python",
+      "title_en": "Linear Regression in Data Science: Understanding Algorithm Fundamentals and Python Practice",
+      "summary_vi": [
+        "Hồi quy tuyến tính là một trong những thuật toán nền tảng quan trọng nhất trong học máy mà các kỹ sư dữ liệu thường tiếp cận khi bắt đầu xây dựng mô hình dự đoán.",
+        "Bài viết phân tích chi tiết về mặt toán học và cơ chế hoạt động của thuật toán kết hợp hướng dẫn triển khai mã nguồn thực tế sử dụng ngôn ngữ lập trình Python.",
+        "Kiến thức này giúp lập trình viên nắm vững phương pháp tối ưu hóa hàm mất mát và áp dụng hiệu quả vào các bài toán phân tích dự báo thực tế trong ngành."
+      ],
+      "summary_en": [
+        "Linear regression stands as one of the most fundamental machine learning algorithms that data engineers typically encounter when starting to build predictive models.",
+        "The article provides a detailed analysis of the mathematical foundations and operational mechanisms combined with practical code implementation guidelines using Python.",
+        "This knowledge helps developers master loss function optimization methods and effectively apply them to real-world predictive analysis problems within the industry."
+      ],
+      "originalTitle": "Linear Regression trong Data Science: Hiểu bản chất thuật toán hồi quy tuyến tính và thực hành với Python",
+      "url": "https://viblo.asia/p/linear-regression-trong-data-science-hieu-ban-chat-thuat-toan-hoi-quy-tuyen-tinh-va-thuc-hanh-voi-python-wd43EpKqLX9",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Linear Regression",
+        "Data Science",
+        "Python",
+        "Machine Learning"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-12T10:14:52.000Z",
+      "contentSnippet": "Khi bắt đầu học Machine Learning, Linear Regression (Hồi quy tuyến tính) thường là một trong những thuật toán đầu tiên chúng ta tiếp cận. Thoạt nhìn,...",
+      "authorName": "Huy Quốc",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f87bb4e8d9cc3710",
+      "title_vi": "Bài học xây dựng công cụ dòng lệnh: Tại sao ngôn ngữ Go là lựa chọn hàng đầu cho hiệu suất cao?",
+      "title_en": "Command Box Lesson 3: Choosing the Right Weapon: Why Go is the Top Choice for High-Performance Command Boxes",
+      "summary_vi": [
+        "Quá trình phát triển các công cụ dòng lệnh nội bộ trong doanh nghiệp luôn đặt ra bài toán kinh điển về việc lựa chọn ngôn ngữ lập trình phù hợp nhất để tối ưu hóa hiệu năng.",
+        "Ngôn ngữ lập trình Go nổi lên như một giải pháp ưu việt nhờ khả năng biên dịch trực tiếp ra mã máy, tốc độ xử lý vượt trội và mô hình quản lý bộ nhớ tối ưu cho hệ thống.",
+        "Việc áp dụng Go vào kiến trúc hệ thống công cụ nội bộ giúp đội ngũ kỹ sư xây dựng các ứng dụng dòng lệnh ổn định, dễ dàng mở rộng và bảo trì lâu dài."
+      ],
+      "summary_en": [
+        "The development of internal command-line tools within enterprises always poses a classic challenge regarding the selection of the most suitable programming language for performance optimization.",
+        "The Go programming language emerges as an exceptional solution thanks to its ability to compile directly into native machine code, superior processing speed, and optimal system memory management.",
+        "Applying Go to the architecture of internal tool systems helps engineering teams build stable, highly scalable, and easily maintainable command-line applications for long-term use."
+      ],
+      "originalTitle": "Command Box bài học 3: Lựa chọn \"vũ khí\": Tại sao Go là lựa chọn hàng đầu để viết Command Box hiệu suất cao?",
+      "url": "https://viblo.asia/p/command-box-bai-hoc-3-lua-chon-vu-khi-tai-sao-go-la-lua-chon-hang-dau-de-viet-command-box-hieu-suat-cao-PoL7eldl4vk",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Golang",
+        "Command Line",
+        "Performance",
+        "Software Architecture",
+        "Backend"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-12T09:41:55.000Z",
+      "contentSnippet": "Khi bắt tay vào xây dựng một Command Box nội bộ, câu hỏi đầu tiên luôn là: \"Viết bằng ngôn ngữ gì?\". Xu hướng tự nhiên của mọi lập trình viên là dùng...",
+      "authorName": "Nguyễn Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c2cfe183c40b2af4",
+      "title_vi": "Claude Fable 5.2: Đánh giá hiệu năng, chi phí và so sánh trực tiếp với Opus 5.5",
+      "title_en": "Claude Fable 5.2: Benchmarks, Pricing and Direct Comparison with Opus 5.5",
+      "summary_vi": [
+        "Bài viết phân tích chi tiết về mô hình trí tuệ nhân tạo Claude Fable 5.2 dựa trên nguồn tin quốc tế từ blog Modelflare với nhiều thông tin kỹ thuật quan trọng.",
+        "Các thông số kỹ thuật nổi bật bao gồm khả năng xử lý ngữ cảnh một triệu token cùng mức giá dịch vụ tám đô la cho đầu vào và bốn mươi đô la cho đầu ra.",
+        "Đánh giá này cung cấp cái nhìn toàn diện cho các kỹ sư phần mềm khi lựa chọn mô hình ngôn ngữ lớn phù hợp cho các dự án phát triển ứng dụng thực tế."
+      ],
+      "summary_en": [
+        "The article provides a detailed technical analysis of the Claude Fable 5.2 artificial intelligence model based on international insights from the Modelflare blog.",
+        "Key technical highlights include a one million token context window alongside pricing set at eight dollars for input and forty dollars for output tokens.",
+        "This evaluation offers software engineers a comprehensive perspective when selecting appropriate large language models for practical application development projects."
+      ],
+      "originalTitle": "Claude Fable 5.2: benchmark, giá và so sánh với Opus 5.5",
+      "url": "https://viblo.asia/p/claude-fable-52-benchmark-gia-va-so-sanh-voi-opus-55-13VM9BqdVY7",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Claude",
+        "AI",
+        "LLM",
+        "Benchmarks",
+        "Modelflare"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-12T09:41:04.000Z",
+      "contentSnippet": "Bài viết này được dịch và biên tập từ bài gốc tiếng Anh trên blog của Modelflare. Phân tích sâu về Claude Fable 5.2: context 1M, giá $8/$40, các benc...",
+      "authorName": "Castaly",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "59dbb160d4948146",
+      "title_vi": "OpenAI triển khai hệ thống dừng khẩn cấp AI trong 35 giây",
+      "title_en": "OpenAI Deploys 35-Second Emergency AI Shutdown System",
+      "summary_vi": [
+        "Công ty nghiên cứu trí tuệ nhân tạo hàng đầu thế giới OpenAI vừa chính thức đưa vào vận hành một hệ thống kiểm soát tập trung mới có tên là Control Room nhằm mục đích ngăn chặn kịp thời các tác vụ trí tuệ nhân tạo tiềm ẩn nhiều rủi ro trên toàn bộ cơ sở hạ tầng nghiên cứu của họ.",
+        "Hệ thống giám sát và điều khiển này được thiết kế với cơ chế phản ứng cực kỳ nhanh chóng, cho phép vô hiệu hóa hoặc dừng khẩn cấp các tiến trình trí tuệ nhân tạo bất thường chỉ trong vòng ba mươi lăm giây nhằm đảm bảo an toàn tuyệt đối cho hệ thống.",
+        "Việc tích hợp giải pháp ngắt kết nối nhanh này đánh dấu một bước tiến quan trọng trong việc quản trị rủi ro hạ tầng phần cứng và phần mềm, đồng thời thiết lập tiêu chuẩn an toàn mới cho các tổ chức phát triển mô hình ngôn ngữ lớn trên toàn cầu."
+      ],
+      "summary_en": [
+        "Leading artificial intelligence research organization OpenAI has officially launched a centralized control system named Control Room to proactively prevent potential high-risk artificial intelligence tasks across their entire research infrastructure.",
+        "This monitoring and control system is engineered with an extremely rapid response mechanism, enabling the emergency termination or neutralization of anomalous artificial intelligence processes within just thirty-five seconds to ensure absolute infrastructure safety.",
+        "The integration of this rapid disconnection solution marks a significant milestone in hardware and software infrastructure risk management, while establishing a new safety benchmark for large language model developers worldwide."
+      ],
+      "originalTitle": "OpenAI triển khai hệ thống dừng khẩn cấp AI trong 35 giây",
+      "url": "https://vnexpress.net/openai-trien-khai-he-thong-dung-khan-cap-ai-trong-35-giay-5143494.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "OpenAI",
+        "AI Safety",
+        "Control Room",
+        "Infrastructure",
+        "Cybersecurity"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-12T04:33:47.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/11/DSC00717-JPG-6712-1794388338.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=BScO-04jgqFIvIw5r1WJJA",
+      "contentSnippet": "OpenAI triển khai một hệ thống kiểm soát tập trung mang tên Control Room nhằm ngăn chặn các tác vụ AI tiềm ẩn rủi ro trên toàn bộ cơ sở hạ tầng nghiên cứu.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "2333ec986dd223d8",
+      "title_vi": "Bản cập nhật tháng 11 của Windows 11 mang đến menu chuột phải tùy chỉnh và tính năng bảo mật mới",
+      "title_en": "Windows 11 November Update Introduces Custom Context Menus and Enhanced Security Features",
+      "summary_vi": [
+        "Microsoft vừa chính thức phát hành bản cập nhật bảo mật định kỳ tháng mười một cho hệ điều hành Windows mười một, mang đến nhiều cải tiến quan trọng về trải nghiệm người dùng và hệ thống.",
+        "Bản vá này tích hợp khả năng cài đặt lại hệ thống trực tiếp từ đám mây, tối ưu hóa giao diện menu chuột phải linh hoạt hơn và tự động kích hoạt tính năng bảo mật bộ nhớ nâng cao.",
+        "Những thay đổi này giúp nâng cao đáng kể độ ổn định, khả năng phục hồi khi gặp sự cố và thắt chặt tường lửa bảo mật cho hàng triệu thiết bị máy tính cá nhân trên toàn cầu."
+      ],
+      "summary_en": [
+        "Microsoft has officially released the scheduled November security update for the Windows eleven operating system, bringing significant improvements to user experience and system performance.",
+        "This patch integrates direct cloud system recovery capabilities, optimizes the context menu for greater flexibility, and automatically enables advanced memory integrity protection features.",
+        "These changes substantially enhance overall system stability, disaster recovery efficiency, and reinforce security barriers for millions of personal computing devices worldwide."
+      ],
+      "originalTitle": "Windows 11 tháng 11: menu chuột phải tùy chỉnh, cài lại từ cloud, tự bật Memory Integrity",
+      "url": "https://tinhte.vn/thread/windows-11-thang-11-menu-chuot-phai-tuy-chinh-cai-lai-tu-cloud-tu-bat-memory-integrity.4191709/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Windows 11",
+        "Security",
+        "Operating System",
+        "Cloud Recovery",
+        "Microsoft"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-12T04:33:42.000Z",
+      "contentSnippet": "Bản cập nhật bảo mật tháng 11 của Windows 11 (KB5132061) đã phát hành từ ngày 10/11 theo giờ Mỹ, tức rạng sáng 11/11 giờ Việt Nam. Đây là bản bắt buộc, cài qua Windows Update như mọi tháng. Điểm...",
+      "authorName": "Quocxi",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "1cdf6ef6cb283dc3",
+      "title_vi": "Học sinh lạm dụng trí tuệ nhân tạo, cuộc thi làm game kéo dài 12 năm tại Australia chính thức bị khai tử",
+      "title_en": "Students Abusing AI Forces 12-Year-Old Australian Game Development Competition to Shut Down",
+      "summary_vi": [
+        "Một cuộc thi thiết kế và lập trình game dành cho học sinh tại Australia sẽ chính thức khép lại vào năm 2026 sau mười hai năm tổ chức do sự bùng nổ của công nghệ trí tuệ nhân tạo tạo sinh.",
+        "Sự phát triển vượt bậc của các công cụ sinh mã nguồn và nội dung tự động khiến ban tổ chức gặp vô số khó khăn trong việc xác minh và đánh giá chính xác năng lực thực tế cũng như phần việc do chính các thí sinh tự thực hiện.",
+        "Sự kiện này gióng lên hồi chuông cảnh báo về thách thức lớn mà giáo dục công nghệ phải đối mặt khi trí tuệ nhân tạo làm mờ ranh giới giữa sáng tạo cá nhân và tự động hóa trong các sân chơi lập trình trẻ."
+      ],
+      "summary_en": [
+        "An annual student game development and programming competition in Australia will officially conclude by 2026 after twelve years of operation due to the rapid rise of generative artificial intelligence technologies.",
+        "The explosive growth of automated code generation and content creation tools has made it increasingly difficult for organizers to verify and accurately evaluate the genuine technical skills and independent efforts of participants.",
+        "This event highlights significant challenges facing technology education as generative artificial intelligence blurs the line between individual creativity and automated generation within youth programming competitions."
+      ],
+      "originalTitle": "Học sinh giao bài cho AI, ban tổ chức “bó tay”: Cuộc thi làm game phải chấm dứt sau 12 năm hoạt động",
+      "url": "https://genk.vn/hoc-sinh-giao-bai-cho-ai-ban-to-chuc-bo-tay-cuoc-thi-lam-game-phai-cham-dut-sau-12-nam-hoat-dong-165261112101932719.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Generative AI",
+        "Game Development",
+        "Education",
+        "Software Engineering"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-12T03:19:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/12/avatar1794453433659-17944534350471804765941.jpg",
+      "contentSnippet": "Một cuộc thi làm game dành cho học sinh tại Australia sẽ kết thúc sau năm 2026, khi AI tạo sinh khiến ban tổ chức ngày càng khó đánh giá phần việc thí sinh thực sự tự làm.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "1777469d73c3aded",
+      "title_vi": "Người dùng Việt Nam biến máy chơi game PlayStation 5 cũ thành máy chủ trí tuệ nhân tạo cục bộ tiết kiệm chi phí",
+      "title_en": "Vietnamese users repurpose budget PlayStation 5 consoles into cost-effective local AI computing servers",
+      "summary_vi": [
+        "Trong bối cảnh chi phí phần cứng chuyên dụng cho trí tuệ nhân tạo tăng cao, cộng đồng công nghệ Việt Nam đã tìm ra giải pháp tận dụng máy chơi game PlayStation 5 phiên bản khóa mạng nội địa để chạy các mô hình ngôn ngữ lớn ngay tại nhà.",
+        "Bằng cách khai thác sức mạnh phần cứng từ kiến trúc tùy chỉnh của Sony, các kỹ sư đã thiết lập hệ thống máy chủ cục bộ cho phép xử lý các tác vụ học máy một cách mượt mà và tối ưu hóa tài nguyên phần cứng sẵn có.",
+        "Sáng kiến này mở ra hướng đi mới đầy thực tiễn cho các nhà phát triển và người đam mê công nghệ trong việc xây dựng môi trường thử nghiệm trí tuệ nhân tạo tiết kiệm chi phí mà không cần đầu tư các dòng card đồ họa đắt đỏ."
+      ],
+      "summary_en": [
+        "Amid soaring costs of dedicated hardware for artificial intelligence, the Vietnamese tech community has discovered a creative solution to leverage locked PlayStation 5 gaming consoles for running local large language models at home.",
+        "By exploiting the robust hardware architecture custom-built by Sony, engineers have successfully configured local server environments capable of processing machine learning tasks smoothly while optimizing existing hardware resources.",
+        "This initiative opens up practical new avenues for developers and tech enthusiasts to build cost-effective artificial intelligence experimentation environments without investing in expensive high-end graphics processing units."
+      ],
+      "originalTitle": "Người dùng Việt biến PS5 \"Lock Nhật\" giá rẻ thành trạm tính toán AI cục bộ \"siêu ngon\"",
+      "url": "https://genk.vn/nguoi-dung-viet-bien-ps5-lock-nhat-gia-re-thanh-tram-tinh-toan-ai-cuc-bo-sieu-ngon-165261112100316805.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "PlayStation 5",
+        "Local LLM",
+        "Hardware",
+        "Edge Computing"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-12T03:03:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/12/avatar1794451746166-17944517465312125820088.jpg",
+      "contentSnippet": "Trong khi dân tình còn đang than trời vì giá GPU AI chát chúa, Sam Altman thì phàn nàn chuyện \"lãng phí RAM\", các dân chơi công nghệ Việt Nam lại vừa nghĩ ra một bài toán đến mức Sony cũng phải câm nín. Biến PlayStation 5 thành server chạy Local AI.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "cefc145f84197fd1",
+      "title_vi": "Google ra mắt ứng dụng Gemini độc lập trên Apple CarPlay hỗ trợ trợ lý giọng nói rảnh tay",
+      "title_en": "Google Launches Standalone Gemini App on Apple CarPlay Supporting Hands Free Voice Assistant",
+      "summary_vi": [
+        "Google chính thức triển khai ứng dụng Gemini trên nền tảng Apple CarPlay trên phạm vi toàn cầu, hỗ trợ đa ngôn ngữ giúp người dùng dễ dàng truy cập trợ lý ảo thông minh ngay trên màn hình giải trí của ô tô.",
+        "Ứng dụng tích hợp tính năng trò chuyện rảnh tay Gemini Live, cho phép tài xế tương tác tự nhiên bằng giọng nói để xử lý các tác vụ phức tạp mà không làm phân tâm khi đang điều khiển phương tiện trên đường.",
+        "Động thái này đánh dấu bước tiến quan trọng trong việc mở rộng hệ sinh thái trí tuệ nhân tạo của Google lên các nền tảng xe hơi phổ biến, mang lại trải nghiệm liền mạch và tối ưu hóa an toàn cho người lái."
+      ],
+      "summary_en": [
+        "Google has officially rolled out the Gemini application on the Apple CarPlay platform globally with multi language support, enabling users to easily access smart virtual assistants directly on their vehicle infotainment screens.",
+        "The application integrates the hands free Gemini Live conversational feature, allowing drivers to interact naturally using voice commands to handle complex tasks without distraction while operating vehicles on the road.",
+        "This strategic move marks a significant milestone in expanding Google artificial intelligence ecosystem onto popular automotive platforms, delivering seamless experiences and optimizing driving safety for users."
+      ],
+      "originalTitle": "Gemini chính thức có app riêng trên Apple CarPlay, trò chuyện rảnh tay với Gemini Live khi lái xe",
+      "url": "https://tinhte.vn/thread/gemini-chinh-thuc-co-app-rieng-tren-apple-carplay-tro-chuyen-ranh-tay-voi-gemini-live-khi-lai-xe.4191665/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Gemini",
+        "Apple CarPlay",
+        "AI",
+        "Google",
+        "Mobile App"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-12T02:54:55.000Z",
+      "contentSnippet": "Gemini chính thức có app riêng trên Apple CarPlay, trò chuyện rảnh tay với Gemini Live khi lái xe Google bắt đầu phát hành app Gemini cho Apple CarPlay từ 11/11, toàn cầu với mọi ngôn ngữ Gemini...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "7c413c5b5223a576",
+      "title_vi": "Lỗ hổng bảo mật nghiêm trọng cho phép thực thi mã từ xa trên máy chủ Apache HTTP",
+      "title_en": "Critical RCE Vulnerability in Apache HTTP Server",
+      "summary_vi": [
+        "Lỗ hổng bảo mật CVE-2026-119618 vừa được phát hiện trên máy chủ Apache HTTP, gây ra rủi ro nghiêm trọng do lỗi điều kiện tranh chấp trong mô-đun HTTP/2, cho phép kẻ tấn công thực thi mã từ xa mà không cần xác thực.",
+        "Lỗi nằm tại hàm assign_headers() do cơ chế đồng bộ hóa luồng không đúng cách, dẫn đến hỏng bộ nhớ heap. Các chuyên gia từ Google và Anthropic đã xác nhận lỗ hổng này có thể bị khai thác để chiếm quyền điều khiển máy chủ.",
+        "Theo dữ liệu từ Wiz, hơn 60% môi trường đám mây đang đối mặt với rủi ro này. Các đội ngũ kỹ thuật cần ưu tiên cập nhật phiên bản Apache mới nhất để ngăn chặn nguy cơ di chuyển ngang và tấn công vào hạ tầng microservices."
+      ],
+      "summary_en": [
+        "A critical security vulnerability identified as CVE-2026-119618 has been discovered in the Apache HTTP Server, stemming from a race condition in the HTTP/2 module that enables unauthorized remote code execution on affected hosting servers.",
+        "The flaw resides within the assign_headers() function due to improper thread synchronization, leading to heap corruption. Researchers from Google and Anthropic confirmed that this memory corruption can be leveraged to gain full control over the web server process.",
+        "Wiz reports that 64% of cloud environments are vulnerable to this exploit. Security teams must immediately prioritize patching their Apache instances to mitigate the risk of lateral movement and potential compromise of adjacent cloud metadata endpoints."
+      ],
+      "originalTitle": "Critical RCE Vulnerability in Apache HTTP Server",
+      "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Apache",
+        "Cybersecurity",
+        "RCE",
+        "CloudSecurity",
+        "Vulnerability"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-12T02:11:11.000Z",
+      "contentSnippet": "As of the time of this blog’s publication, no exploit is available and there are no reports of exploitation in the wild. CVE-2026-119618 is a critical, high-severity vulnerability involving a race condition in the Apache HTTP Server, which was independently discovered by Anthropic and Google Cloud’s",
+      "authorName": "soheilpro",
+      "upvotes": 61,
+      "commentsCount": 26
+    },
+    {
+      "id": "a6547f8cea67f8f6",
+      "title_vi": "Hội đồng quản trị Nvidia được cho là đang chuẩn bị sa thải CEO Jensen Huang",
+      "title_en": "Nvidia is reportedly preparing to fire Jensen Huang",
+      "summary_vi": [
+        "Hội đồng quản trị của công ty bán dẫn hàng đầu Nvidia đang chuẩn bị tiến hành các thủ tục sa thải Tổng giám đốc điều hành Jensen Huang sau những bê bối đời tư nghiêm trọng gần đây.",
+        "Sự việc bắt nguồn từ các cáo buộc liên quan đến mối quan hệ ngoài luồng với một quan chức cấp cao trong công ty cũng như những nghi vấn về an ninh và gián điệp quốc tế.",
+        "Biến động thượng tầng này có thể tạo ra những tác động mạnh mẽ đến chiến lược phát triển trí tuệ nhân tạo và chuỗi cung ứng phần cứng toàn cầu của tập đoàn trong tương lai gần."
+      ],
+      "summary_en": [
+        "The board of directors at leading semiconductor company Nvidia is reportedly preparing dismissal procedures for Chief Executive Officer Jensen Huang following recent severe personal controversies.",
+        "The situation stems from allegations concerning an extramarital affair with a high-ranking corporate executive as well as rising concerns regarding security protocols and international espionage.",
+        "This high-level executive turmoil could trigger profound impacts on artificial intelligence development strategies and global hardware supply chains for the corporation in the near future."
+      ],
+      "originalTitle": "Nvidia is reportedly preparing to fire Jensen Huang",
+      "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Semiconductor",
+        "AI",
+        "Leadership"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-11T22:44:36.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25824934/2192224191.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second alleged affair was wit",
+      "authorName": "Lauren Feiner",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "824dde57612568d9",
+      "title_vi": "Các hãng điện thoại tái sử dụng RAM trên smartphone cũ",
+      "title_en": "Smartphone Manufacturers Reuse RAM From Older Devices to Cut Costs",
+      "summary_vi": [
+        "Một số nhà sản xuất thiết bị di động đang tiến hành tháo gỡ và tái sử dụng linh kiện bộ nhớ RAM từ các dòng điện thoại cũ nhằm đưa vào các sản phẩm mới chuẩn bị ra mắt thị trường.",
+        "Phương pháp này đòi hỏi quy trình kiểm tra chất lượng phần cứng vô cùng khắt khe để đảm bảo các chip nhớ đã qua sử dụng vẫn đáp ứng đầy đủ tiêu chuẩn kỹ thuật về băng thông và độ bền.",
+        "Chiến lược tận dụng linh kiện cũ giúp các doanh nghiệp tối ưu hóa chi phí sản xuất phần cứng, duy trì mức giá bán cạnh tranh cho phân khúc điện thoại thông minh phổ thông."
+      ],
+      "summary_en": [
+        "Several mobile device manufacturers are harvesting and reusing memory RAM components from older phones to integrate them into upcoming product releases for the market.",
+        "This practice requires rigorous hardware quality control processes to ensure that previously used memory chips still meet technical standards for bandwidth and durability.",
+        "Leveraging recycled components helps enterprises optimize hardware manufacturing costs while maintaining competitive pricing strategies for the entry-level smartphone segment."
+      ],
+      "originalTitle": "Các hãng điện thoại tái sử dụng RAM trên smartphone cũ",
+      "url": "https://vnexpress.net/cac-hang-dien-thoai-tai-su-dung-ram-tren-smartphone-cu-5143116.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Smartphone",
+        "Hardware",
+        "RAM",
+        "Supply Chain",
+        "Mobile Tech"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-11T22:35:04.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/10/How-to-Best-Reuse-Your-Old-Sma-1513-3988-1794319936.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=kHkHvb3yIYSUMRRy-EoR3g",
+      "contentSnippet": "Một số nhà sản xuất smartphone phải tách RAM từ thiết bị cũ để sử dụng trên sản phẩm mới nhằm duy trì mức giá rẻ cho dòng phổ thông.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c4aa53a5506ac6f4",
+      "title_vi": "Tập đoàn công nghệ Nvidia đang chuẩn bị kế hoạch phế truất giám đốc điều hành Jensen Huang",
+      "title_en": "Nvidia is preparing to oust Jensen Huang",
+      "summary_vi": [
+        "Thông tin bất ngờ xuất hiện cho thấy tập đoàn sản xuất chip đồ họa hàng đầu thế giới Nvidia đang tiến hành các bước chuẩn bị nhằm thay thế vị trí lãnh đạo cao nhất của giám đốc điều hành lâu năm Jensen Huang.",
+        "Sự kiện này có thể tạo ra những biến động lớn trong chiến lược phát triển phần cứng trí tuệ nhân tạo, kiến trúc bộ xử lý đồ họa thế hệ mới và định hướng kinh doanh cốt lõi của công ty trong bối cảnh cạnh tranh khốc liệt.",
+        "Giới phân tích công nghệ nhận định việc thay đổi nhân sự ở cấp độ tối cao này sẽ ảnh hưởng sâu sắc đến thị trường bán dẫn toàn cầu, các đối tác công nghệ lớn và chuỗi cung ứng phần cứng AI hiện nay."
+      ],
+      "summary_en": [
+        "Unexpected reports indicate that global graphics chip giant Nvidia is taking steps to prepare for the replacement of long-serving chief executive officer Jensen Huang from his leadership position.",
+        "This development could trigger major shifts in the company core business direction, hardware development strategies for artificial intelligence, and the architecture of next-generation graphics processing units amidst fierce competition.",
+        "Technology analysts suggest that such high-level executive changes will profoundly impact the global semiconductor market, major technology partners, and the current hardware supply chains supporting artificial intelligence."
+      ],
+      "originalTitle": "Nvidia is preparing to oust Jensen Huang",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Semiconductors",
+        "Hardware",
+        "Tech Leadership"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-11T22:31:06.000Z",
+      "contentSnippet": "Nvidia is preparing to oust Jensen Huang",
+      "authorName": "jbredeche",
+      "upvotes": 736,
+      "commentsCount": 1030
+    },
+    {
+      "id": "3c4a130ff1dbafc3",
+      "title_vi": "Hãng hàng không United ngăn chặn các trợ lý trí tuệ nhân tạo đặt vé máy bay",
+      "title_en": "United won’t let your AI agent book your flight",
+      "summary_vi": [
+        "Hãng hàng không United đã chính thức từ chối cho phép các tác nhân trí tuệ nhân tạo cá nhân thực hiện giao dịch đặt vé trực tiếp trên hệ thống của họ.",
+        "Quyết định này được đưa ra do những lo ngại về bảo mật dữ liệu khách hàng, rủi ro giao dịch ngoài ý muốn và việc tuân thủ các quy định liên bang khắt khe.",
+        "Sự kiện này phản ánh thách thức lớn trong việc tích hợp các hệ thống tự động hóa thông minh vào các nền tảng thương mại điện tử có tính pháp lý cao."
+      ],
+      "summary_en": [
+        "United Airlines has officially announced that it will not permit personal artificial intelligence agents to conduct direct ticket booking transactions on their systems.",
+        "This decision stems from significant concerns regarding customer data privacy, the risk of unintended purchases, and strict compliance with federal regulatory requirements.",
+        "This event highlights major challenges in integrating intelligent automation systems into highly regulated e-commerce platforms and maintaining secure user interactions."
+      ],
+      "originalTitle": "United won’t let your AI agent book your flight",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI Agents",
+        "Cybersecurity",
+        "Automation",
+        "Privacy",
+        "API Security"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-11T21:54:21.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23176430/1237621702.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal reports, in line with observations from other businesses like ",
+      "authorName": "Lauren Feiner",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "78b8986836f7bb24",
+      "title_vi": "Trình giả lập dịch vụ điện toán đám mây AWS",
+      "title_en": "AWS Cloud Services Emulator",
+      "summary_vi": [
+        "Trình giả lập dịch vụ điện toán đám mây Amazon Web Services mang lại giải pháp tối ưu giúp nhà phát triển kiểm thử ứng dụng cục bộ hiệu quả.",
+        "Công cụ này cho phép mô phỏng chính xác các thành phần kiến trúc cốt lõi như máy chủ ảo và cơ sở dữ liệu mà không cần kết nối mạng.",
+        "Việc áp dụng giải pháp giả lập giúp tối ưu hóa chi phí vận hành thử nghiệm, tăng tốc độ phát triển và giảm thiểu rủi ro khi triển khai."
+      ],
+      "summary_en": [
+        "The Amazon Web Services cloud computing emulator provides an optimal solution helping developers test applications locally with high efficiency.",
+        "This tool allows accurate simulation of core architectural components such as virtual servers and databases without requiring a live network connection.",
+        "Adopting simulation solutions helps optimize testing operational costs, accelerates development speed, and minimizes deployment risks significantly."
+      ],
+      "originalTitle": "AWS emulator",
+      "url": "https://github.com/aws/aws-emulator",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "AWS",
+        "Cloud Computing",
+        "Emulator",
+        "DevOps",
+        "Testing"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-11T18:21:38.000Z",
+      "contentSnippet": "AWS emulator",
+      "authorName": "super_linear",
+      "upvotes": 756,
+      "commentsCount": 228
+    },
     {
       "id": "9faafdb160db3155",
       "title_vi": "Giải phẫu cấu trúc thư mục chuẩn cho một dự án dòng lệnh bằng Golang",
@@ -99,6 +647,40 @@
       "publishedAt": "2026-11-11T16:45:19.000Z",
       "contentSnippet": "Carol Luo · Kiểm tra ngày 11/11/2026 Khi thử một công cụ tạo video bằng AI, việc khó không chỉ là bấm nút tạo. Người dùng còn cần chọn ảnh hay văn bả...",
       "authorName": "Carol Luo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "442160431499dd77",
+      "title_vi": "Sungrow công bố chiến lược phát triển và giải pháp lưu trữ năng lượng tích hợp AI tại GEPS 2026",
+      "title_en": "Sungrow Unveils Growth Strategy and AI-Powered Energy Storage Solutions at GEPS 2026",
+      "summary_vi": [
+        "Tại sự kiện công nghệ GEPS 2026 tổ chức ở Trung Quốc, tập đoàn Sungrow đã công bố chiến lược tăng trưởng dài hạn cùng hệ sinh thái giải pháp lưu trữ năng lượng thế hệ mới.",
+        "Điểm nhấn công nghệ của sự kiện là việc tích hợp các thuật toán trí tuệ nhân tạo và học máy vào hệ thống quản lý điện năng thông minh nhằm tối ưu hóa hiệu suất vận hành lưới điện.",
+        "Bước tiến này đánh dấu xu hướng hội tụ mạnh mẽ giữa công nghệ phần mềm AI và cơ sở hạ tầng năng lượng, mở ra nhiều cơ hội phát triển cho các kỹ sư hệ thống phân tán."
+      ],
+      "summary_en": [
+        "At the GEPS 2026 technology event held in China, Sungrow announced its long-term growth strategy alongside a next-generation ecosystem of energy storage solutions.",
+        "The technological highlight of the event is the integration of artificial intelligence and machine learning algorithms into smart power management systems to optimize grid operational efficiency.",
+        "This advancement marks a strong convergence trend between AI software engineering and energy infrastructure, opening up numerous development opportunities for distributed systems engineers."
+      ],
+      "originalTitle": "Sungrow chia sẻ chiến lược phát triển cùng loạt giải pháp lưu trữ năng lượng mới tại GEPS 2026",
+      "url": "https://tinhte.vn/thread/sungrow-chia-se-chien-luoc-phat-trien-cung-loat-giai-phap-luu-tru-nang-luong-moi-tai-geps-2026.4191632/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "AI",
+        "Energy Storage",
+        "Smart Grid",
+        "Machine Learning",
+        "Cloud Management"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-11T14:10:57.000Z",
+      "contentSnippet": "Tại sự kiện GEPS 2026 diễn ra ở Trung Quốc, Sungrow chia sẻ chiến lược tăng trưởng, giới thiệu các giải pháp lưu trữ năng lượng mới và ứng dụng AI trong quản lý điện. Mình được mời tham dự sự...",
+      "authorName": "Trung Dt",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -273,6 +855,40 @@
       "authorName": "Pnghuy",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "e24137ce86d7c7f1",
+      "title_vi": "Sự ra đi của Tim Peters, huyền thoại đứng sau ngôn ngữ lập trình Python",
+      "title_en": "The passing of Tim Peters, a legendary figure behind the Python programming language",
+      "summary_vi": [
+        "Cộng đồng lập trình thế giới vừa đón nhận tin buồn khi Tim Peters, một trong những nhân vật có tầm ảnh hưởng lớn nhất đến sự phát triển của ngôn ngữ Python, đã qua đời vào ngày 15 tháng 7 vừa qua.",
+        "Ông nổi tiếng với việc sáng tạo ra thuật toán sắp xếp Timsort, một giải pháp tối ưu hóa hiệu suất được tích hợp trong Python và sau đó được áp dụng rộng rãi trên các nền tảng như Java và hệ điều hành Android.",
+        "Di sản của ông không chỉ nằm ở những đóng góp kỹ thuật xuất sắc mà còn ở triết lý Zen of Python, giúp định hình tư duy lập trình và văn hóa cộng đồng cho hàng triệu kỹ sư phần mềm trên toàn cầu."
+      ],
+      "summary_en": [
+        "The global programming community mourns the loss of Tim Peters, a pivotal figure whose profound influence helped shape the evolution and core design philosophy of the Python programming language throughout his long career.",
+        "He is widely recognized for developing Timsort, a highly efficient hybrid sorting algorithm that became the standard in Python and was subsequently adopted by major ecosystems including Java and the Android mobile platform.",
+        "His legacy extends beyond technical contributions, encompassing the Zen of Python, which continues to guide the coding standards and collaborative culture for millions of software engineers and developers around the world today."
+      ],
+      "originalTitle": "Tim Peters has died",
+      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Python",
+        "Timsort",
+        "Programming",
+        "Software Engineering",
+        "Open Source"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-11T07:03:17.000Z",
+      "contentSnippet": "I am immensely sad to announce that Tim Peters has died earlier this year on July 15. It’s hard to overestimate Tim’s influence on Python. He’s probably best known for writing the Zen of Python (PEP 20), but to me he was a mentor and language co-designer long before that. Tim found Python not long a",
+      "authorName": "ayhanfuat",
+      "upvotes": 995,
+      "commentsCount": 108
     },
     {
       "id": "8aa8eadf609e13c0",
@@ -7955,625 +8571,6 @@
       "authorName": "oger",
       "upvotes": 377,
       "commentsCount": 180
-    },
-    {
-      "id": "39206b4ecd7e36a2",
-      "title_vi": "Tối ưu hóa quy trình CI/CD cho kiến trúc vi dịch vụ: Quản lý cơ sở dữ liệu di dời nhằm đảm bảo tương thích ngược",
-      "title_en": "Optimizing CI/CD for Microservices Architecture: Managing Database Migrations to Ensure Backward Compatibility",
-      "summary_vi": [
-        "Bài viết phân tích các thách thức của phương pháp quản lý cơ sở dữ liệu truyền thống, vốn thường phá vỡ tính năng hoạt động liên tục không gián đoạn trong các hệ thống triển khai Blue-Green.",
-        "Tác giả đề xuất các chiến lược thực tế và kỹ thuật di dời dữ liệu theo từng bước nhỏ, giúp phiên bản cũ và phiên bản mới của ứng dụng cùng truy cập một cấu trúc dữ liệu an toàn.",
-        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư phần mềm và chuyên gia DevOps, giúp giảm thiểu rủi ro xung đột dữ liệu khi nâng cấp hệ thống phân tán phức tạp."
-      ],
-      "summary_en": [
-        "The article analyzes the challenges of traditional database migration methods that often disrupt zero-downtime operations during Blue-Green or Canary deployment cycles.",
-        "The author proposes practical strategies and incremental data migration techniques to ensure both old and new application versions can safely access the same schema.",
-        "This knowledge provides high practical value for software engineers and DevOps professionals, helping to minimize data conflict risks when upgrading complex distributed systems."
-      ],
-      "originalTitle": "Tối ưu CI/CD cho Hệ thống Microservices - Bài 7 - Quản lý Database Migration để đảm bảo Tương thích ngược (Backward Compatibility)",
-      "url": "https://viblo.asia/p/toi-uu-cicd-cho-he-thong-microservices-bai-7-quan-ly-database-migration-de-dam-bao-tuong-thich-nguoc-backward-compatibility-7Z4DEWkpJnX",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "CI/CD",
-        "Microservices",
-        "Database Migration",
-        "DevOps",
-        "Backward Compatibility"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-10-31T18:34:40.000Z",
-      "contentSnippet": "I. Tại sao Migration truyền thống lại \"phá nát\" Zero-Downtime? Hãy nhớ lại Bài 6 về Blue-Green hoặc Canary Deployment: Version cũ (V1) và Version mới...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "610b44bd27aeec7a",
-      "title_vi": "Mọi cơ mã nguồn đều có tệp tin không được chạm vào và tôi đã xây dựng trí tuệ nhân tạo gọi hồn tác giả để hỏi lý do",
-      "title_en": "Every Codebase Has a '// DO NOT TOUCH' File. I Built an AI Necromancer to Summon the Ghost of the Developer Who Wrote It",
-      "summary_vi": [
-        "Bài viết mô tả dự án tham gia thử thách trí tuệ nhân tạo mã nguồn mở Hacktoberfest với ý tưởng hài hước nhưng thực tế về việc triệu hồi tinh thần của lập nguyên bản.",
-        "Hệ thống sử dụng các mô hình ngôn ngữ lớn kết hợp phân tích lịch sử kho lưu trữ Git để tái tạo lại ngữ cảnh và lý do tại sao đoạn mã bí ẩn được viết ra.",
-        "Giải pháp này mang lại góc nhìn thú vị về việc duy trì mã nguồn cũ, giúp các lập trình viên thế hệ sau hiểu rõ hơn về những quyết định thiết kế khó hiểu."
-      ],
-      "summary_en": [
-        "The article describes a project submitted to the Hacktoberfest open-source artificial intelligence challenge featuring a humorous yet practical idea of summoning the original developer's spirit.",
-        "The system leverages large language models combined with Git repository history analysis to reconstruct the context and reasoning behind why mysterious code snippets were written.",
-        "This solution provides an interesting perspective on legacy code maintenance, helping subsequent generations of developers better understand confusing design decisions."
-      ],
-      "originalTitle": "Every Codebase Has a '// DO NOT TOUCH' File. I Built an AI Necromancer to Summon the Ghost of the Developer Who Wrote It 💀🔮",
-      "url": "https://dev.to/dj29/every-codebase-has-a-do-not-touch-file-i-built-an-ai-necromancer-to-summon-the-ghost-of-the-2no5",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "AI",
-        "Open Source",
-        "Git",
-        "Software Engineering",
-        "Hacktoberfest"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-31T17:57:27.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fezbb0xf5v8087ny2qes2.jpg",
-      "contentSnippet": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...",
-      "authorName": "Dhruv Jani",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3743406%2F227d53d3-1443-4ceb-9fb8-98c02ff9e60f.jpg",
-      "upvotes": 85,
-      "commentsCount": 51
-    },
-    {
-      "id": "95235900cc342af4",
-      "title_vi": "Tôi đã tự chế tạo một thiết bị thú cưng ảo tích hợp trí tuệ nhân tạo trước khi Meta kịp ra mắt",
-      "title_en": "I built an AI Tamagotchi before Meta could",
-      "summary_vi": [
-        "Meta đang chuẩn bị thương mại hóa một thiết bị phần cứng nhỏ gọn tích hợp trợ lý trí tuệ nhân tạo mang phong cách thú cưng ảo Tamagotchi dành cho mùa mua sắm cuối năm nay.",
-        "Lập trình viên trong bài viết đã tự chế tạo một thiết bị phần cứng tương tự với chi phí thấp bằng cách sử dụng các linh kiện điện tử giá rẻ và mã nguồn tùy chỉnh để giao tiếp với mô hình ngôn ngữ lớn.",
-        "Dự án tự chế này chứng minh khả năng hiện thực hóa các sản phẩm công nghệ thương mại đắt đỏ bằng các giải pháp mã nguồn mở và phần cứng thông dụng dành cho cộng đồng nhà phát triển."
-      ],
-      "summary_en": [
-        "Meta is preparing to commercialize a compact hardware device integrated with an artificial intelligence assistant designed in the style of a Tamagotchi virtual pet for the upcoming shopping season.",
-        "The developer in the article successfully built a similar hardware device at a low cost by utilizing affordable electronic components and custom source code to interface with large language models.",
-        "This DIY project demonstrates the feasibility of replicating expensive commercial technology products using open-source solutions and off-the-shelf hardware tailored for the developer community."
-      ],
-      "originalTitle": "I built an AI Tamagotchi before Meta could",
-      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Hardware",
-        "DIY",
-        "LLM",
-        "Embedded Systems"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-31T16:05:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/verge-sean-hollister-muse-gadget-331A2564-01-3.jpg?quality=90&strip=all&crop=4,0,96,94.899920311255",
-      "contentSnippet": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It cost just $50, and I'",
-      "authorName": "Sean Hollister",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "c2b007773561e634",
-      "title_vi": "Windows 11 thử các phím tắt mới cho chế độ chơi trò chơi Xbox và tìm kiếm",
-      "title_en": "Windows 11 tries new shortcuts for Xbox gaming mode and search",
-      "summary_vi": [
-        "Bản dựng Windows 11 Insider mới nhất bổ sung một số tính năng tìm kiếm mới mạnh mẽ và cài đặt nhanh khi ở chế độ Xbox.",
-        "Các phím tắt Xbox cho phép bạn điều khiển những thứ như Bluetooth, WiFi và cài đặt nguồn mà không cần phải thoát khỏi chế độ chơi game.",
-        "Các cải tiến tìm kiếm khá toàn diện."
-      ],
-      "summary_en": [
-        "The latest Windows 11 Insider build adds some powerful new search features and quick settings while in Xbox mode.",
-        "The Xbox shortcuts let you control things like Bluetooth, WiFi, and power settings without having to exit gaming mode.",
-        "The search improvements are quite comprehensive."
-      ],
-      "originalTitle": "Windows 11 tries new shortcuts for Xbox gaming mode and search",
-      "url": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "WebDev",
-        "Mobile"
-      ],
-      "hotScore": 93,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-10-31T15:12:19.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/10d-outlook-filterresults.png?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "The latest Windows 11 Insider build adds some powerful new search features and quick settings while in Xbox mode. The Xbox shortcuts let you control things like Bluetooth, WiFi, and power settings without having to exit gaming mode. The search improvements are quite comprehensive. You can now filter",
-      "authorName": "Terrence O’Brien",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "879a2474687bf1b3",
-      "title_vi": "Trải nghiệm thực tế dòng điện thoại thông minh iPhone Duo sau thời gian ngắn sử dụng",
-      "title_en": "Real-world user experience and impressions of the iPhone Duo smartphone after short-term testing",
-      "summary_vi": [
-        "Bài viết chia sẻ những trải nghiệm thực tế sau một thời gian sử dụng mẫu điện thoại thông minh mới ra mắt, tập trung mổ xẻ những khía cạnh được người dùng đánh giá cao lẫn các điểm còn hạn chế.",
-        "Thiết bị tích hợp nhiều cải tiến về phần cứng di động, tối ưu hóa giao diện người dùng và nâng cấp hiệu năng xử lý tác vụ đồ họa nhằm mang lại trải nghiệm mượt mà hơn trong phân khúc cao cấp.",
-        "Những đánh giá chi tiết này cung cấp góc nhìn thực tiễn cho cộng đồng công nghệ khi lựa chọn thiết bị di động phục vụ nhu cầu làm việc, phát triển ứng dụng và giải trí cá nhân hàng ngày."
-      ],
-      "summary_en": [
-        "The article shares hands-on experiences after using a newly released smartphone model, focusing on dissecting both the highly rated aspects and the remaining limitations from a user perspective.",
-        "The device integrates numerous mobile hardware improvements, optimizes the user interface, and upgrades graphical processing performance to deliver a smoother experience in the high-end segment.",
-        "These detailed reviews provide practical insights for the tech community when selecting mobile devices to support daily workloads, application development, and personal entertainment needs."
-      ],
-      "originalTitle": "iPhone Duo: những điểm mình thích và không thích sau khi dùng",
-      "url": "https://tinhte.vn/thread/iphone-duo-nhung-diem-minh-thich-va-khong-thich-sau-khi-dung.4188812/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iPhone",
-        "Smartphone",
-        "Mobile",
-        "iOS",
-        "Hardware"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-31T15:04:47.000Z",
-      "contentSnippet": "Dùng iPhone Duo một thời gian, mình liệt kê lại những điểm mình không thích và những điểm mình thích trên chiếc máy này. Mình nói phần không thích trước, phần thích để sau, vì thật lòng thì có...",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ef006b6d1900eae3",
-      "title_vi": "Phần mềm độc hại sử dụng mô hình ngôn ngữ lớn để xếp hạng nạn nhân dựa trên giá trị tài sản",
-      "title_en": "Malware uses LLMs to rank victims by how much they're worth",
-      "summary_vi": [
-        "Một loại phần mềm độc hại mới trên hệ điều hành Windows mang tên VOLTA-AUTODOXER đang gây chú ý khi tích hợp công nghệ trí tuệ nhân tạo để tự động khai thác và đánh giá thông tin nạn nhân sau khi đánh cắp dữ liệu.",
-        "Mã độc này thu thập toàn bộ thông tin nhạy cảm từ trình duyệt, ví tiền điện tử, mã thông báo xác thực và lịch sử đặt đồ ăn, sau đó gửi gói dữ liệu này tới OpenRouter để mô hình ngôn ngữ lớn phân tích chuyên sâu.",
-        "Sự kết hợp giữa mã độc và trí tuệ nhân tạo đánh dấu một bước tiến nguy hiểm trong tội phạm mạng, buộc các kỹ sư bảo mật phải nâng cao các giải pháp phòng thủ và phát hiện sớm các hành vi bất thường."
-      ],
-      "summary_en": [
-        "A new Windows malware named VOLTA-AUTODOXER has emerged, integrating artificial intelligence technology to automatically extract and evaluate victim information after harvesting sensitive personal data.",
-        "The malicious software gathers sensitive data from browsers, cryptocurrency wallets, authentication tokens, and order histories, then serializes and transmits this bundle to OpenRouter for deep analysis by a large language model.",
-        "This dangerous convergence of malware and artificial intelligence represents a concerning evolution in cybercrime, compelling security engineers to enhance defense mechanisms and improve early anomaly detection."
-      ],
-      "originalTitle": "Malware uses LLMs to rank victims by how much they're worth",
-      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Malware",
-        "LLM",
-        "Artificial Intelligence",
-        "Infostealer"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-31T14:29:03.000Z",
-      "contentSnippet": "There is a new idea in the cybercrime world — cast a wide net, steal everything, and let AI sort out the specifics. A new malware self-named “VOLTA-AUTODOXER,” surfaced through the CAIRN research effort, is a self-deleting Windows infostealer that augments its post-theft workflow with an LLM-powered",
-      "authorName": "khalidkhair",
-      "upvotes": 61,
-      "commentsCount": 6
-    },
-    {
-      "id": "3bdd1a90633de645",
-      "title_vi": "Sam Altman: Thật tệ khi RAM máy tính cá nhân bị lãng phí cho AI cục bộ",
-      "title_en": "Sam Altman: It is terrible that consumer PC RAM is wasted on local AI inference",
-      "summary_vi": [
-        "Giám đốc điều hành OpenAI Sam Altman đã bày tỏ sự quan ngại sâu sắc về xu hướng người dùng muốn chạy các mô hình trí tuệ nhân tạo suy luận cục bộ trực tiếp trên thiết bị cá nhân thay vì sử dụng hệ thống đám mây.",
-        "Ông phân tích rằng việc phân bổ nguồn lực toàn cầu đang gặp lãng phí lớn khi dung lượng RAM khan hiếm bị giữ lại trong máy tính của người dùng nhưng chỉ được tận dụng khoảng năm phần trăm thời gian hoạt động.",
-        "Quan điểm này gây ra nhiều tranh cãi trong cộng đồng công nghệ về bài toán cân bằng giữa quyền riêng tư dữ liệu cá nhân trên thiết bị biên và hiệu suất tối ưu hóa tài nguyên phần cứng tại các trung tâm dữ liệu lớn."
-      ],
-      "summary_en": [
-        "OpenAI Chief Executive Officer Sam Altman has expressed deep concern regarding the growing trend of users wanting to run local artificial intelligence inference directly on personal devices instead of leveraging cloud infrastructure.",
-        "He analyzed that global resource allocation suffers significant waste when scarce RAM capacity is trapped inside consumer computers while only being utilized for roughly five percent of their operational active time.",
-        "This perspective sparked intense debates within the technology community regarding the architectural balance between edge data privacy and hardware resource optimization efficiency within large-scale data centers."
-      ],
-      "originalTitle": "Sam Altman: 'Thật tệ khi RAM nằm trong máy người dùng'",
-      "url": "https://vnexpress.net/sam-altman-that-te-khi-ram-nam-trong-may-nguoi-dung-5139149.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "OpenAI",
-        "Hardware",
-        "RAM",
-        "Cloud Computing"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-31T12:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/31/2026t154942z-rc2rvlal6ubk-rtrm-5618-5613-1793435588.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=273r1vbyFAE0iw3L588l1Q",
-      "contentSnippet": "CEO OpenAI Sam Altman bày tỏ lo ngại về những người muốn AI suy luận cục bộ trên thiết bị, cho rằng RAM nên dành cho trung tâm dữ liệu.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "605b1b80f2d8f2d7",
-      "title_vi": "Đào tạo 50.000 kỹ sư bán dẫn: Bài toán chất lượng và thách thức từ thực tiễn",
-      "title_en": "Training 50000 Semiconductor Engineers: Quality and Practical Industry Challenges Ahead",
-      "summary_vi": [
-        "Việt Nam đang tích cực mở rộng chương trình đào tạo nhân lực ngành công nghiệp bán dẫn với mục tiêu đạt ít nhất năm mươi nghìn kỹ sư chuyên môn cao đến năm hai nghìn không trăm ba mươi.",
-        "Tiến độ triển khai tổng thể được đánh giá khá tích cực nhưng các cơ sở giáo dục đại học cần phải đầu tư mạnh mẽ hơn vào cơ sở vật chất thực hành và chuyên môn giảng viên.",
-        "Việc tăng cường hợp tác chiến lược giữa nhà trường và các tập đoàn công nghệ lớn sẽ quyết định chất lượng đầu ra đáp ứng tiêu chuẩn khắt khe của thị trường toàn cầu."
-      ],
-      "summary_en": [
-        "Vietnam is actively expanding its semiconductor workforce training programs aiming to achieve at least fifty thousand highly specialized engineers by the year twenty thirty.",
-        "The overall implementation progress is evaluated positively but higher education institutions must invest more heavily in practical laboratory facilities and faculty expertise.",
-        "Strengthening strategic partnerships between academic institutions and major technology corporations will ultimately determine output quality meeting global market standards."
-      ],
-      "originalTitle": "Đào tạo 50.000 kỹ sư bán dẫn: Bài toán chất lượng còn ở phía trước",
-      "url": "https://genk.vn/dao-tao-50000-ky-su-ban-dan-bai-toan-chat-luong-con-o-phia-truoc-165261031174914004.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Semiconductor",
-        "Hardware",
-        "Education",
-        "Chip Design",
-        "Engineering"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-31T11:40:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/31/avatar1793443676003-1793443676632895835059.png",
-      "contentSnippet": "Việt Nam đang từng bước mở rộng đào tạo nhân lực bán dẫn với mục tiêu ít nhất 50.000 kỹ sư đến năm 2030. Tiến độ được đánh giá tích cực, song để biến chỉ tiêu thành nguồn nhân lực đáp ứng nhu cầu công nghiệp, các trường đại học cần tăng cường thực hành, hợp tác doanh nghiệp và nâng cao chất lượng gi",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1c640f88e053cb51",
-      "title_vi": "Chúng tôi đã chiếm quyền kiểm soát tài khoản ChatGPT như thế nào",
-      "title_en": "We Took over ChatGPT Accounts",
-      "summary_vi": [
-        "Nhóm nghiên cứu bảo mật đã phát hiện ra lỗ hổng nghiêm trọng cho phép chiếm đoạt tài khoản ChatGPT của bất kỳ người dùng nào chỉ bằng cách gửi một liên kết độc hại duy nhất.",
-        "Bằng cách vượt qua cơ chế sandbox và chính sách bảo mật nội dung, kẻ tấn công có thể thực thi mã JavaScript tùy chỉnh bên trong phiên làm việc đã xác thực của nạn nhân.",
-        "Sự cố này làm nổi bật tầm quan trọng của việc kiểm tra bảo mật nghiêm ngặt đối với các tính năng chia sẻ nội dung và xem trước HTML trong ứng dụng web hiện đại."
-      ],
-      "summary_en": [
-        "A security research team discovered a critical vulnerability allowing the takeover of any ChatGPT user account simply by sending them a malicious shared link.",
-        "By bypassing the sandbox and content security policy, attackers could execute custom JavaScript code directly inside the authenticated web session of the unsuspecting victim.",
-        "This incident highlights the critical importance of rigorous security auditing for content sharing features and HTML preview implementations in modern web applications."
-      ],
-      "originalTitle": "We Took over ChatGPT Accounts",
-      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "ChatGPT",
-        "Cybersecurity",
-        "Vulnerability",
-        "JavaScript",
-        "Web Security"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-31T10:30:11.000Z",
-      "contentSnippet": "By bypassing ChatGPT's sandbox and content security policy, our research team was able to take over anyone's account simply by sending them a link. In October 2026, we found a way to turn an ordinary public ChatGPT share into attacker-controlled JavaScript running inside the signed-in session of who",
-      "authorName": "armcat",
-      "upvotes": 194,
-      "commentsCount": 98
-    },
-    {
-      "id": "f70b44b5822e23f9",
-      "title_vi": "Ứng dụng nhắn tin bảo mật Molly ngừng cập nhật ba tháng và đối mặt với lỗ hổng nghiêm trọng",
-      "title_en": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
-      "summary_vi": [
-        "Ứng dụng nhắn tin Molly dựa trên mã nguồn của ứng dụng Signal đã không nhận được bản cập nhật nào trong suốt ba tháng qua, khiến người dùng đối mặt với các lỗ hổng bảo mật đã được vá trên ứng dụng gốc từ lâu.",
-        "Bản phát hành cuối cùng của Molly từ tháng bảy chứa các điểm yếu đã bị khai thác trong tháng mười, trong khi người dùng được khuyến cáo nên chuyển sang sử dụng ứng dụng Signal chính thống để đảm bảo an toàn.",
-        "Sự cố này làm nổi bật những thách thức trong việc duy trì các nhánh mã nguồn tùy chỉnh của các ứng dụng bảo mật mã nguồn mở, đặc biệt khi thiếu hụt nguồn lực cập nhật các bản vá lỗi kịp thời."
-      ],
-      "summary_en": [
-        "The Molly messaging application based on Signal source code has not received any updates for three months, leaving users exposed to security vulnerabilities that were long ago patched in the official mainline application.",
-        "The latest release of Molly from July contains weaknesses that were exploited in October, prompting security recommendations for users to switch back to the official mainline Signal application to ensure proper safety.",
-        "This incident highlights the ongoing challenges of maintaining custom open-source security forks, particularly when facing resource constraints that prevent timely implementation of critical upstream vulnerability patches."
-      ],
-      "originalTitle": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
-      "url": "https://piefed.world/post/1503394",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Mobile",
-        "Signal",
-        "Encryption",
-        "OpenSource"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-31T10:23:41.000Z",
-      "contentSnippet": "Saltar al contingut principal Anar al panell lateral PieFed.World Comunitats Explora Donar Inicia la sessió Registra YSK Molly(Signal fork) has not been updated since 3 months and is vulnerable to attacks fixed in mainline Signal submitted 8 hours ago by beep edited 8 hours ago cross-posted from: ht",
-      "authorName": "DeepLogin",
-      "upvotes": 180,
-      "commentsCount": 121
-    },
-    {
-      "id": "c235a7e9e5cc1089",
-      "title_vi": "Nhân viên OpenAI và Anthropic được yêu cầu ẩn danh để tránh rò rỉ thông tin công nghệ",
-      "title_en": "OpenAI and Anthropic Employees Instructed to Maintain Anonymity to Prevent Tech Espionage",
-      "summary_vi": [
-        "Các tập đoàn trí tuệ nhân tạo hàng đầu như OpenAI và Anthropic đang triển khai các biện pháp bảo mật nghiêm ngặt, yêu cầu nhân viên giấu danh tính và không sử dụng vật dụng có logo công ty tại nơi công cộng.",
-        "Quy trình an ninh bao gồm việc xóa sạch bảng trắng sau họp, sử dụng miếng dán chống nhìn trộm màn hình và đào tạo nhân viên cách nhận diện các thủ đoạn gián điệp công nghiệp thông qua các mối quan hệ cá nhân.",
-        "Việc bảo vệ tài sản trí tuệ trong lĩnh vực AI trở nên cấp thiết khi các kỹ sư và chuyên gia liên tục bị tiếp cận bởi những đối tượng muốn đánh cắp thông tin về các bước phát triển công nghệ đột phá."
-      ],
-      "summary_en": [
-        "Leading artificial intelligence firms including OpenAI and Anthropic are implementing strict security protocols, requiring employees to maintain anonymity and avoid wearing branded company gear while in public spaces to mitigate risks.",
-        "Security measures include wiping whiteboards after meetings, utilizing privacy screen filters on devices, and conducting training sessions to help staff identify industrial espionage tactics involving social engineering and personal relationships.",
-        "Protecting intellectual property in the AI sector has become critical as engineers and experts face constant pressure from external actors seeking to extract sensitive information regarding cutting-edge technological advancements and internal developments."
-      ],
-      "originalTitle": "Nhân viên OpenAI, Anthropic giấu danh tính vì lo 'sập bẫy'",
-      "url": "https://vnexpress.net/nhan-vien-openai-anthropic-giau-danh-tinh-vi-lo-sap-bay-5138555.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Cybersecurity",
-        "OpenAI",
-        "Anthropic",
-        "DataPrivacy"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-31T09:30:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/30/DSC00362JPG-1793298865-6992-1793299809.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=QdAMAjSntgQUEO2a8-jCFw",
-      "contentSnippet": "Nhân viên OpenAI, Anthropic được hướng dẫn giấu danh tính nơi công cộng, đề phòng thủ đoạn moi thông tin như nghe lén hay lợi dụng tình cảm.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "500ffc6d0aabdc3f",
-      "title_vi": "Lãnh đạo AMD nhấn mạnh tầm quan trọng của hạ tầng linh hoạt trong kỷ nguyên trí tuệ nhân tạo",
-      "title_en": "AMD executive emphasizes the necessity of flexible infrastructure in the era of artificial intelligence",
-      "summary_vi": [
-        "Tại hội nghị AI Infra Summit, đại diện cấp cao của AMD đã chia sẻ những góc nhìn chiến lược về sự phát triển khó lường của trí tuệ nhân tạo trong vòng năm năm tới đối với các doanh nghiệp công nghệ.",
-        "Chuyên gia nhấn mạnh rằng rủi ro lớn nhất không nằm ở việc lựa chọn công nghệ cụ thể, mà là việc xây dựng hệ thống hạ tầng cứng nhắc, thiếu khả năng mở rộng và không thể thích ứng khi các tiêu chuẩn ngành thay đổi.",
-        "Bài học cốt lõi cho các kỹ sư và nhà quản trị là ưu tiên thiết kế kiến trúc hệ thống theo hướng module hóa, cho phép tích hợp linh hoạt các công nghệ mới để tối ưu hóa hiệu suất và chi phí vận hành dài hạn."
-      ],
-      "summary_en": [
-        "At the AI Infra Summit, a senior AMD executive shared strategic insights regarding the unpredictable evolution of artificial intelligence over the next five years and its profound impact on modern enterprise technology landscapes.",
-        "The expert highlighted that the primary risk is not selecting specific technologies, but rather building rigid infrastructure that lacks scalability and fails to adapt when industry standards and computational requirements inevitably shift.",
-        "The key takeaway for engineers and architects is to prioritize modular system design, enabling the seamless integration of emerging technologies to optimize long-term performance and operational efficiency in a rapidly changing environment."
-      ],
-      "originalTitle": "Sếp AMD: Không ai biết AI 5 năm nữa ra sao, nên hạ tầng phải đủ linh hoạt để thích ứng",
-      "url": "https://genk.vn/sep-amd-khong-ai-biet-ai-5-nam-nua-ra-sao-nen-ha-tang-phai-du-linh-hoat-de-thich-ung-165261031145237153.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Infrastructure",
-        "AMD",
-        "Cloud Computing",
-        "System Architecture"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-31T07:51:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/31/p-content2fuploads2fsites2f72f20262f102fcro-e28093-subject-profile-e28093-alexey-navolokincover-image-no-text-64310-179343-0-192-1080-1920-crop-1793432832907830469657.jpg",
-      "contentSnippet": "Tại AI Infra Summit vừa qua, lãnh đạo AMD khu vực châu Á - Thái Bình Dương cho rằng rủi ro lớn nhất của doanh nghiệp không nằm ở việc chọn sai công nghệ hôm nay, mà ở việc dựng nên một hạ tầng không thể thay đổi khi cuộc chơi đổi luật.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "2cf6e45ec6aecdfd",
-      "title_vi": "Công nghệ két sắt mù giúp AI tự động mua hàng bảo mật nhưng tiềm ẩn rủi ro cháy túi",
-      "title_en": "Blind Vault Technology Enables Secure AI Autonomous Purchasing While Raising Financial Risks",
-      "summary_vi": [
-        "Công nghệ mới cho phép các hệ thống trí tuệ nhân tạo tự động thanh toán và mua sắm trực tuyến mà không cần nhìn thấy mật khẩu hay số thẻ tín dụng của người dùng.",
-        "Giải pháp này áp dụng kiến trúc mã hóa tiên tiến nhằm che giấu thông tin nhạy cảm khỏi mô hình AI, giúp ngăn ngừa rò rỉ dữ liệu tài chính cá nhân trong quá trình giao dịch.",
-        "Tuy nhiên, việc trao quyền tự chủ cho AI cũng đặt ra thách thức lớn về kiểm soát hành vi, đòi hỏi cơ chế giám sát chặt chẽ để tránh tình trạng hệ thống tự ý mua nhầm gây tổn thất tài chính."
-      ],
-      "summary_en": [
-        "New technology allows artificial intelligence systems to autonomously process payments and shop online without ever exposing user passwords or credit card numbers.",
-        "The solution implements advanced encryption architecture to shield sensitive information from the AI model, effectively preventing personal financial data leaks during transactions.",
-        "However, granting autonomy to AI raises significant behavioral control challenges, demanding rigorous monitoring mechanisms to prevent erroneous purchases and financial losses."
-      ],
-      "originalTitle": "Công nghệ ‘két sắt mù’ giúp AI tự mua hàng: Khỏi lo lộ thẻ, coi chừng... cháy túi",
-      "url": "https://tuoitre.vn/cong-nghe-ket-sat-mu-giup-ai-tu-mua-hang-khoi-lo-lo-the-coi-chung-chay-tui-10026103015083963.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Cybersecurity",
-        "Fintech",
-        "Encryption"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-31T06:33:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/10/30/nhoaidichoho-1793346918554415109247-0-94-1429-2380-crop-17933471039631240316334.png",
-      "contentSnippet": "Công nghệ mới giúp AI tự quẹt thẻ mua hàng mà không nhìn thấy mật khẩu hay số thẻ, nhưng lại tiềm ẩn nguy cơ mua nhầm làm ‘cháy túi’ chủ nhân.",
-      "authorName": "Tuấn Vĩ⭐",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "2a2bcabe9833666e",
-      "title_vi": "Bài thơ trí tuệ nhân tạo đầu tiên từ chip TPU trên quỹ đạo đánh dấu cột mốc lịch sử 60 năm",
-      "title_en": "The First AI-Generated Poem from Orbital TPU Marks a Historic Sixty-Year Milestone in Space Computing",
-      "summary_vi": [
-        "Google vừa ghi nhận một cột mốc mang tính lịch sử khi trạm mặt đất nhận về bài thơ do trí tuệ nhân tạo sáng tác trực tiếp từ một vệ tinh nhỏ bay ngang qua khu vực Svalbard ở Na Uy.",
-        "Thành tựu này sử dụng bộ xử lý TPU chuyên dụng triển khai trên không gian quỹ đạo, chứng minh khả năng vận hành mô hình học máy và xử lý dữ liệu phức tạp ngay ngoài Trái Đất.",
-        "Sự kiện mở ra hướng đi mới cho việc ứng dụng trí tuệ nhân tạo và phần cứng hiệu năng cao vào các sứ mệnh vũ trụ, tối ưu hóa băng thông truyền tải và khả năng tự chủ của vệ tinh."
-      ],
-      "summary_en": [
-        "Google recently achieved a historic milestone when a ground station received a poem directly generated by artificial intelligence aboard a small satellite passing over Svalbard in Norway.",
-        "This achievement utilizes specialized TPU processors deployed in orbital space, demonstrating the capability to run machine learning models and complex data processing right outside Earth.",
-        "The event opens new horizons for applying artificial intelligence and high-performance hardware to space missions, optimizing data transmission bandwidth and enhancing satellite autonomy."
-      ],
-      "originalTitle": "Bài thơ AI đầu tiên từ TPU trên quỹ đạo: 60 năm hành trình đưa máy tính lên vũ trụ",
-      "url": "https://tinhte.vn/thread/bai-tho-ai-dau-tien-tu-tpu-tren-quy-dao-60-nam-hanh-trinh-dua-may-tinh-len-vu-tru.4188786/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "TPU",
-        "Machine Learning",
-        "Space Tech",
-        "Cloud Computing"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-31T06:14:37.000Z",
-      "contentSnippet": "Tuần này, khi một vệ tinh nhỏ bay ngang Svalbard (Na Uy), trạm mặt đất của Google nhận về ba dòng thơ: \"Blue marble below / Data streams in silent grace / Starlight feeds my core\", tạm dịch \"Hòn...",
-      "authorName": "Quocxi",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "fac1e7192bbb7272",
-      "title_vi": "Nên mua điện thoại gập màn hình đôi hay thiết bị màn hình gập của Samsung?",
-      "title_en": "Should You Buy the Dual-Screen iPhone or Samsung Galaxy Z Fold8?",
-      "summary_vi": [
-        "Người dùng đang phân vân giữa việc lựa chọn thiết bị gập màn hình đôi mới từ Apple và dòng điện thoại màn hình gập cao cấp của Samsung do mỗi dòng sở hữu những ưu điểm riêng biệt.",
-        "Trải nghiệm thực tế cho thấy thiết bị của Apple nhỉnh hơn về độ hoàn thiện tinh tế và đồng bộ hệ sinh thái, trong khi đối thủ từ Samsung lại ghi điểm nhờ thiết kế mỏng nhẹ và mức giá cạnh tranh.",
-        "Quyết định lựa chọn phụ thuộc lớn vào thói quen sử dụng hệ điều hành hiện tại của người dùng cũng như sự đánh giá cân bằng giữa chất lượng phần cứng cao cấp và chi phí đầu tư thiết bị."
-      ],
-      "summary_en": [
-        "Users are weighing options between the upcoming dual-screen foldable device from Apple and Samsung's flagship foldable smartphone, as both models offer distinct hardware advantages and unique form factors.",
-        "Hands-on impressions indicate that Apple's device excels in refinement and ecosystem integration, whereas Samsung's competitor stands out significantly due to its lightweight design and more attractive pricing.",
-        "The final purchasing decision largely depends on the user's current operating system habits and a careful evaluation between premium hardware craftsmanship and overall investment cost for mobile tech enthusiasts."
-      ],
-      "originalTitle": "Nên mua iPhone Duo hay Galaxy Z Fold8?",
-      "url": "https://vnexpress.net/nen-mua-iphone-duo-hay-galaxy-z-fold8-5139052.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Smartphones",
-        "Foldable",
-        "Apple",
-        "Samsung",
-        "Mobile Devices"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/31/a1-1793412152-3920-1793412283.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=x6w5AwW3kXBwOiRrXBpiTQ",
-      "contentSnippet": "Tôi đang lăn tăn giữa hai điện thoại gập Galaxy Z Fold8 và iPhone Duo khi chúng đều nhỏ gọn và khá đẹp.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "38937f7fd47a931a",
-      "title_vi": "Phần mềm quản lý cơ sở dữ liệu PostgreSQL 19 bị hoãn phát hành do phát hiện quá nhiều lỗi",
-      "title_en": "Postgres 19 is late because so many more bugs are being found now",
-      "summary_vi": [
-        "Hệ quản trị cơ sở dữ liệu mã nguồn mở PostgreSQL phiên bản 19 dự kiến sẽ phải lùi lịch phát hành sang tháng mười một tới thay vì khoảng giữa tháng chín như thông lệ thường niên trong suốt thập kỷ qua.",
-        "Quá trình phát triển gặp nhiều khó khăn khi đội ngũ phát triển phải loại bỏ một số tính năng lớn ngay trong giai đoạn thử nghiệm beta muộn do phát hiện lượng lớn lỗi tiềm ẩn từ mã nguồn lịch sử kéo dài.",
-        "Sự xuất hiện của các công nghệ mô hình ngôn ngữ lớn đã giúp việc phát hiện lỗi trong các cơ sở mã nguồn phức tạp trở nên dễ dàng hơn bao giờ hết, tạo ra thách thức mới về quản lý tiến độ phát triển phần mềm."
-      ],
-      "summary_en": [
-        "The open source relational database management system PostgreSQL version 19 is expected to delay its release schedule to November instead of mid September as traditionally scheduled over the past decade.",
-        "The development process faced challenges as the engineering team had to revert several major features late in the beta testing phase due to discovering a massive volume of latent bugs within legacy codebase.",
-        "The emergence of large language models has made discovering bugs in complex legacy codebases significantly easier than ever before, creating new challenges for software development lifecycle management and release pacing."
-      ],
-      "originalTitle": "Postgres 19 is late because so many more bugs are being found now",
-      "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "PostgreSQL",
-        "Database",
-        "Software Engineering",
-        "LLM",
-        "Open Source"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-31T01:38:56.000Z",
-      "contentSnippet": "Over the past decade, the timing of PostgreSQL major releases has become very predictable: no earlier than the middle of September, and no later than the middle of October. This year is going to be different. PostgreSQL 19 most likely won’t be released until November, and it’s not impossible that th",
-      "authorName": "soheilpro",
-      "upvotes": 127,
-      "commentsCount": 85
-    },
-    {
-      "id": "e4043dfd602647a7",
-      "title_vi": "Go Zero to Hero - Bài 71: Lập trình IO: Package io với Reader và Writer",
-      "title_en": "Go Zero to Hero - Part 71: IO Programming: Package io with Reader and Writer",
-      "summary_vi": [
-        "Bài viết khám phá triết lý dòng chảy trong ngôn ngữ lập trình Go thông qua package io, giúp lập trình viên hiểu cách xử lý dữ liệu đồng nhất mà không cần phụ thuộc vào các tệp hay mạng phức tạp.",
-        "Nội dung tập trung phân tích sâu cơ chế hoạt động của hai interface nền tảng là Reader và Writer, cung cấp các ví dụ thực tế về cách truyền tải và chuyển đổi dữ liệu hiệu quả trong ứng dụng.",
-        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư phần mềm khi xây dựng các hệ thống xử lý luồng dữ liệu lớn, tối ưu hóa hiệu năng và thiết kế mã nguồn linh hoạt."
-      ],
-      "summary_en": [
-        "The article explores the streaming philosophy in the Go programming language through the io package, helping developers understand how to handle data uniformly without relying on complex files or networks.",
-        "The content focuses on deeply analyzing the operational mechanism of two foundational interfaces, Reader and Writer, providing practical examples of how to efficiently transmit and transform data within applications.",
-        "This knowledge delivers high practical value for software engineers when building large-scale data stream processing systems, optimizing performance, and designing flexible source code."
-      ],
-      "originalTitle": "Go Zero to Hero - Bài 71: Lập trình IO: Package io (Reader và Writer)",
-      "url": "https://viblo.asia/p/go-zero-to-hero-bai-71-lap-trinh-io-package-io-reader-va-writer-wd43ElrrLX9",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Golang",
-        "Software Engineering",
-        "Backend",
-        "IO Programming",
-        "Go Zero to Hero"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-10-30T23:52:09.000Z",
-      "contentSnippet": "1. Triết lý Lego của Golang: Mọi thứ đều là Dòng chảy (Stream) Trong Go, package io không chứa các đoạn code xử lý file hay mạng phức tạp. Nó chỉ địn...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a3bdad8c8d442870",
-      "title_vi": "Tháng 10 đen tối của an ninh mạng với hàng loạt lỗ hổng PHP nghiêm trọng",
-      "title_en": "Cybersecurity Dark October Marks Critical PHP Vulnerabilities Outbreak",
-      "summary_vi": [
-        "Mười ngày cuối tháng mười đánh dấu giai đoạn tồi tệ của an ninh mạng toàn cầu khi hàng loạt lỗ hổng nghiêm trọng bị phát hiện và khai thác dồn dập trên nhiều hệ thống máy chủ lớn.",
-        "Hai lỗ hổng định danh CVE-2026-109618 và CVE-2026-109619 trong ngôn ngữ PHP cho phép tin tặc thực thi mã từ xa mà không cần xác thực để đánh cắp dữ liệu nhạy cảm.",
-        "Sự cố này gióng lên hồi chuông cảnh báo về quản trị rủi ro mã nguồn, buộc các kỹ sư phần mềm phải nhanh chóng vá lỗi và thắt chặt kiến trúc bảo mật."
-      ],
-      "summary_en": [
-        "The final ten days of October proved disastrous for global cybersecurity as numerous critical vulnerabilities were discovered and actively exploited across major server systems.",
-        "Two severe vulnerabilities identified as CVE-2026-109618 and CVE-2026-109619 in PHP allow malicious actors to execute remote code without authentication to steal sensitive data.",
-        "This incident serves as a severe warning regarding source code risk management, forcing software engineers to promptly patch vulnerabilities and tighten security architecture."
-      ],
-      "originalTitle": "'Tháng 10 đen tối' của an ninh mạng",
-      "url": "https://vnexpress.net/thang-10-den-toi-cua-an-ninh-mang-5138824.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "PHP",
-        "Vulnerability",
-        "Remote Code Execution",
-        "InfoSec"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-10-30T23:47:31.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/31/wm1-wm1-dsc00498-jpg-1793404233-5527-1793404244.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=kkD2cz-Fl2s4c5YhoQxtxA",
-      "contentSnippet": "10 ngày cuối tháng 10 đang được xem là \"cơn ác mộng\" của lĩnh vực an ninh mạng, với hàng loạt lỗ hổng và vụ xâm nhập hệ thống được ghi nhận.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
     }
   ]
 }
