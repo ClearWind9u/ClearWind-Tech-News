@@ -1,7 +1,352 @@
 {
-  "lastUpdated": "2026-11-13T04:17:38.190Z",
+  "lastUpdated": "2026-11-13T13:42:15.327Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "7ce65222bc1c064b",
+      "title_vi": "Hướng dẫn chuyển đổi cơ sở dữ liệu sang Cloud Server: quy trình dump, đồng bộ và cutover cho MySQL, PostgreSQL",
+      "title_en": "Database Migration Guide: Strategies for Dump, Synchronization, and Cutover in MySQL and PostgreSQL",
+      "summary_vi": [
+        "Việc di chuyển cơ sở dữ liệu lên hạ tầng Cloud Server mới luôn là thách thức lớn đối với các kỹ sư hệ thống do dữ liệu thay đổi liên tục trong quá trình thực hiện chuyển đổi thực tế.",
+        "Bài viết tập trung vào quy trình kỹ thuật chi tiết bao gồm việc dump dữ liệu, thiết lập cơ chế đồng bộ hóa thời gian thực và thực hiện cutover an toàn cho các hệ quản trị MySQL và PostgreSQL.",
+        "Thông qua việc áp dụng các phương pháp này, lập trình viên có thể giảm thiểu tối đa thời gian downtime, đảm bảo tính toàn vẹn dữ liệu và duy trì sự ổn định cho các ứng dụng đang vận hành trên môi trường Cloud."
+      ],
+      "summary_en": [
+        "Migrating databases to new cloud infrastructure remains a significant challenge for system engineers due to the constant state of data flux during the actual transition process in production environments.",
+        "The article focuses on detailed technical workflows including data dumping, establishing real-time synchronization mechanisms, and executing safe cutover procedures for both MySQL and PostgreSQL database management systems.",
+        "By implementing these proven strategies, developers can effectively minimize downtime, ensure data integrity, and maintain high availability for applications currently running within complex cloud-based production environments."
+      ],
+      "originalTitle": "Migration database sang Cloud Server mới: dump, đồng bộ và cutover cho MySQL, PostgreSQL",
+      "url": "https://viblo.asia/p/migration-database-sang-cloud-server-moi-dump-dong-bo-va-cutover-cho-mysql-postgresql-37Lde96NVov",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "Database",
+        "Migration",
+        "MySQL",
+        "PostgreSQL",
+        "Cloud"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-11-13T16:36:46.000Z",
+      "contentSnippet": "Migration database thường là bước khiến dev ngại nhất khi chuyển sang Cloud Server mới. Copy code thì dễ, còn dữ liệu vẫn thay đổi từng giây trong lúc...",
+      "authorName": "Cloud Server",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "56fa0ddfca005501",
+      "title_vi": "10 công cụ trí tuệ nhân tạo viết truyện miễn phí năm 2026: Lựa chọn theo nhu cầu thực tế của bạn",
+      "title_en": "Top 10 Free AI Storytelling Tools in 2026: Choosing Based on Your Specific Writing Needs",
+      "summary_vi": [
+        "Bài viết tổng hợp mười công cụ trí tuệ nhân tạo miễn phí hàng đầu trong năm 2026 nhằm hỗ trợ người dùng sáng tác truyện ngắn, tiểu thuyết và các nội dung hư cấu khác.",
+        "Các nền tảng này áp dụng các mô hình ngôn ngữ lớn tiên tiến với khả năng tạo cốt truyện linh hoạt, phát triển nhân vật chi tiết và duy trì mạch văn nhất quán.",
+        "Sự phát triển của các công cụ này giúp tối ưu hóa quy trình làm việc cho các nhà văn, giảm thiểu thời gian phác thảo và mở rộng khả năng sáng tạo."
+      ],
+      "summary_en": [
+        "The article compiles ten leading free artificial intelligence tools in 2026 designed to assist users in crafting short stories, novels, and other fictional content effectively.",
+        "These platforms leverage advanced large language models featuring flexible plot generation capabilities, detailed character development, and consistent narrative pacing.",
+        "The evolution of these tools helps optimize workflows for writers, minimizes outlining time significantly, and expands creative possibilities within modern digital publishing."
+      ],
+      "originalTitle": "10 công cụ AI viết truyện miễn phí năm 2026: chọn theo việc bạn muốn hoàn thành",
+      "url": "https://viblo.asia/p/10-cong-cu-ai-viet-truyen-mien-phi-nam-2026-chon-theo-viec-ban-muon-hoan-thanh-ZoJjeOG34Y7",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Generative AI",
+        "LLM",
+        "Content Creation",
+        "Natural Language Processing"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-13T15:56:43.000Z",
+      "contentSnippet": "Carol Luo · Hồ sơ tác giả · Cập nhật ngày 13 tháng 11 năm 2026 Công cụ phù hợp phụ thuộc vào đầu ra bạn cần. Một truyện ngắn trước giờ đi ngủ, cuộc p...",
+      "authorName": "Carol Luo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9755cb1ee6ced352",
+      "title_vi": "Cấu hình mô hình bên thứ ba cho Codex CLI: Kiểm tra API và khởi động Profile",
+      "title_en": "Configuring Third-Party Models for Codex CLI: API Verification and Profile Initialization",
+      "summary_vi": [
+        "Việc lưu trữ cấu hình thành công không đồng nghĩa với việc Codex CLI sẽ tự động gọi chính xác mô hình ngôn ngữ lớn của bên thứ ba theo đúng thiết lập.",
+        "Quá trình xác thực đòi hỏi các kỹ sư phải kiểm tra kỹ lưỡng danh mục mô hình khả dụng, phân tích chi tiết phản hồi từ giao diện lập trình ứng dụng API để đảm bảo tính tương thích.",
+        "Kinh nghiệm thực tiễn này giúp lập trình viên tránh được các lỗi gọi sai mô hình tiềm ẩn, tối ưu hóa hiệu suất làm việc và đảm bảo hệ thống tự động hóa hoạt động ổn định."
+      ],
+      "summary_en": [
+        "Successfully saving configuration files does not guarantee that the Codex CLI will automatically invoke the correct third-party large language models as intended.",
+        "The validation process requires engineers to thoroughly check the available model catalog and analyze API responses in detail to ensure complete technical compatibility.",
+        "This practical experience helps developers avoid potential incorrect model invocation errors, optimizes operational performance, and ensures stable automated system workflows."
+      ],
+      "originalTitle": "Cấu hình mô hình bên thứ ba cho Codex CLI: kiểm tra API và khởi động Profile",
+      "url": "https://viblo.asia/p/cau-hinh-mo-hinh-ben-thu-ba-cho-codex-cli-kiem-tra-api-va-khoi-dong-profile-QyJKzB7q4Me",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Codex CLI",
+        "API",
+        "AI Models",
+        "Software Configuration"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-13T15:08:21.000Z",
+      "contentSnippet": "Cấu hình đã được lưu chưa có nghĩa là Codex CLI thật sự gọi đúng mô hình. Cần kiểm tra lần lượt danh mục mô hình, phản hồi API có nội dung nhìn thấy đ...",
+      "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "7ae3127d7c7f8e31",
+      "title_vi": "iPhone 18 phải ra mắt muộn là vì cảm biến camera của Samsung?",
+      "title_en": "Why the iPhone 18 Release Might Be Delayed Due to Samsung Camera Sensors",
+      "summary_vi": [
+        "Việc Apple quyết định chuyển sang sử dụng cảm biến camera mới từ Samsung đang tạo ra những thách thức lớn trong chuỗi cung ứng linh kiện phần cứng cho dòng điện thoại thế hệ mới.",
+        "Những áp lực về giá thành bộ nhớ đi kèm các vấn đề kỹ thuật trong việc tích hợp linh kiện tiên tiến đã buộc nhà sản xuất phải cân nhắc lại toàn bộ lịch trình ra mắt sản phẩm.",
+        "Sự kiện này phản ánh rõ nét tầm quan trọng của việc quản lý chuỗi cung ứng phức tạp và chiến lược tối ưu hóa chi phí sản xuất phần cứng trong ngành công nghiệp thiết bị di động."
+      ],
+      "summary_en": [
+        "Apple's decision to transition to new camera sensors from Samsung is creating significant challenges within the hardware component supply chain for the upcoming generation of smartphones.",
+        "Pressures regarding memory pricing alongside technical hurdles in integrating advanced components have forced the manufacturer to reconsider its entire product release schedule.",
+        "This event clearly reflects the critical importance of managing complex supply chains and optimizing hardware production costs within the mobile device manufacturing industry."
+      ],
+      "originalTitle": "iPhone 18 phải ra mắt muộn là vì... Samsung?",
+      "url": "https://genk.vn/iphone-18-phai-ra-mat-muon-la-vi-samsung-165261113171256687.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "Samsung",
+        "Smartphone",
+        "Hardware",
+        "Supply Chain"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-13T12:12:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/13/avatar1794563879559-17945638799672125195540-401-0-1651-2000-crop-17945647441351347584069.jpg",
+      "contentSnippet": "Việc chuyển sang cảm biến camera Samsung có thể là một nguyên nhân khiến Apple chia lịch ra mắt iPhone 18, bên cạnh áp lực giá bộ nhớ và nguồn cung linh kiện.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b790ef257fc3d172",
+      "title_vi": "Chúng ta hãy cùng bàn về những mối quan hệ cá nhân của Jensen Huang tại Nvidia",
+      "title_en": "Let's talk about Jensen Huang's many affairs!",
+      "summary_vi": [
+        "Bài viết châm biếm về những tin đồn xung quanh đời tư của Giám đốc điều hành Nvidia, Jensen Huang, đồng thời nhắc nhở cộng đồng công nghệ cần duy trì sự tập trung vào các vấn đề trọng tâm.",
+        "Thị trường bán dẫn toàn cầu hiện đang đối mặt với nhiều biến động chiến lược quan trọng liên quan đến chuỗi cung ứng vi mạch và các lệnh hạn chế thương mại với Trung Quốc.",
+        "Các nhà phát triển và kỹ sư phần mềm cần theo dõi sát sao tác động từ các quyết định chính sách thương mại đến nguồn cung phần cứng trí tuệ nhân tạo."
+      ],
+      "summary_en": [
+        "The article satirizes rumors surrounding Nvidia CEO Jensen Huang's personal life while reminding the tech community to stay focused on core strategic issues.",
+        "The global semiconductor market is currently facing major strategic fluctuations related to microchip supply chains and trade restrictions involving China.",
+        "Software developers and engineers need to closely monitor the impact of trade policy decisions on the availability of artificial intelligence hardware."
+      ],
+      "originalTitle": "Let’s talk about Jensen Huang’s many affairs!",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Semiconductors",
+        "AI Hardware",
+        "Tech Policy"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25835739/STKP210_JENSEN_HUANG_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singula",
+      "authorName": "Elizabeth Lopatto",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "aec0b86836232fca",
+      "title_vi": "Nguyên nhân thực sự đằng sau sự cố gián đoạn dịch vụ kéo dài của Microsoft",
+      "title_en": "The Root Cause Behind Microsoft's Prolonged Global Service Outage",
+      "summary_vi": [
+        "Hàng loạt dịch vụ chủ chốt của Microsoft như 365, Outlook và Teams đã gặp sự cố nghiêm trọng trên toàn cầu vào ngày 13/11, gây ảnh hưởng lớn đến người dùng và làm dấy lên nhiều lo ngại về an ninh mạng trong cộng đồng công nghệ.",
+        "Phân tích kỹ thuật cho thấy hệ thống gặp lỗi cấu hình tại lớp mạng, khiến các máy chủ hoạt động bất thường và tạo áp lực tải trọng cực lớn lên hạ tầng còn lại, dù Microsoft đã nhanh chóng bác bỏ khả năng bị tấn công mạng.",
+        "Sự cố kéo dài bất thường này là bài học đắt giá về tính sẵn sàng của hệ thống đám mây, nhấn mạnh tầm quan trọng của việc kiểm soát cấu hình mạng và khả năng dự phòng trong các kiến trúc hạ tầng quy mô lớn toàn cầu."
+      ],
+      "summary_en": [
+        "Major Microsoft services including 365, Outlook, and Teams experienced a significant global outage on November 13, causing widespread disruption for users and sparking intense speculation regarding potential cybersecurity threats within the global tech community.",
+        "Technical analysis suggests the incident stemmed from a network layer configuration error, causing servers to behave abnormally and placing extreme load on remaining infrastructure, although Microsoft officially denied any involvement of a malicious cyberattack.",
+        "This unusually prolonged downtime serves as a critical lesson on cloud system availability, highlighting the vital importance of rigorous network configuration management and robust failover mechanisms within large-scale global infrastructure architectures."
+      ],
+      "originalTitle": "Vì sao sự cố Microsoft kéo dài bất thường?",
+      "url": "https://vnexpress.net/vi-sao-su-co-microsoft-keo-dai-bat-thuong-5144362.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "Cloud",
+        "Microsoft",
+        "Network",
+        "Infrastructure",
+        "Outage"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-13T11:20:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/13/img42942jpg-1794566885-1359-1794567411.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=zpXh5V2DtG9nz4N20NNl6Q",
+      "contentSnippet": "Sự cố kéo dài hơn nửa ngày ảnh hưởng hàng loạt dịch vụ Microsoft trên toàn cầu được cho là liên quan đến lỗi máy chủ và khó khắc phục.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c998826639941128",
+      "title_vi": "Nhân viên Nvidia đồng loạt gây sức ép, yêu cầu đưa ông Jensen Huang trở lại vị trí lãnh đạo",
+      "title_en": "Nvidia employees rally to demand the return of Jensen Huang following his resignation",
+      "summary_vi": [
+        "Sau ba thập kỷ dẫn dắt Nvidia, ông Jensen Huang đã chính thức rời ghế CEO, gây ra làn sóng phản ứng mạnh mẽ từ đội ngũ nhân viên nội bộ, những người vốn coi ông là linh hồn của tập đoàn công nghệ bán dẫn hàng đầu thế giới.",
+        "Một bài đăng trên kênh góp ý nội bộ đã thu hút hơn 1.600 bình luận từ các kỹ sư, yêu cầu hội đồng quản trị xem xét lại quyết định thay đổi nhân sự cấp cao nhằm đảm bảo sự ổn định cho các dự án chiến lược về AI và GPU.",
+        "Sự kiện này phản ánh tầm ảnh hưởng sâu rộng của một nhà lãnh đạo kỹ thuật đối với văn hóa doanh nghiệp, đồng thời đặt ra thách thức lớn cho ban quản trị trong việc duy trì lòng tin và định hướng phát triển công nghệ trong tương lai."
+      ],
+      "summary_en": [
+        "Following three decades of leadership at Nvidia, Jensen Huang has stepped down as CEO, triggering a significant backlash from internal staff who view him as the driving force behind the world's leading semiconductor and artificial intelligence hardware company.",
+        "An internal feedback post has garnered over 1,600 comments from engineers, urging the board of directors to reconsider the leadership transition to ensure continuity for critical AI and GPU development projects during this pivotal industry period.",
+        "This situation highlights the profound impact of a visionary technical leader on corporate culture and poses a major challenge for the board in maintaining employee morale and strategic technological direction amidst a highly competitive global market."
+      ],
+      "originalTitle": "Vừa từ chức, hàng loạt nhân viên NVIDIA gây sức ép, đòi đưa ông Jensen Huang trở lại",
+      "url": "https://genk.vn/vua-tu-chuc-hang-loat-nhan-vien-nvidia-gay-suc-ep-doi-dua-ong-jensen-huang-tro-lai-165261113162701897.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Semiconductor",
+        "Leadership",
+        "AI"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-13T10:30:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/13/bring-back-the-boss-nvidia-employees-want-jensen-huang-back-despite-multiple-affair-allegations-17945618698011420563991-0-107-675-1187-crop-17945619395801874206693.png",
+      "contentSnippet": "Một số nhân viên còn nhấn mạnh rằng, NVIDIA là NVIDIA nhờ có ông Jensen Huang.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "676e72907798b912",
+      "title_vi": "Microsoft gặp sự cố toàn cầu, ảnh hưởng đến cả nền tảng trí tuệ nhân tạo của OpenAI và Anthropic",
+      "title_en": "Microsoft Suffers Global Outage Impacting OpenAI and Anthropic AI Platforms",
+      "summary_vi": [
+        "Sự cố hệ thống toàn cầu của Microsoft đã khiến hàng chục nghìn người dùng không thể truy cập các dịch vụ cốt lõi bao gồm Outlook, Teams và hệ sinh thái Microsoft 365, gây gián đoạn nghiêm trọng cho hoạt động doanh nghiệp.",
+        "Không chỉ dừng lại ở các ứng dụng văn phòng, sự cố kỹ thuật này còn lan rộng và gây ảnh hưởng trực tiếp đến hiệu suất vận hành của các nền tảng trí tuệ nhân tạo lớn do OpenAI và Anthropic phát triển.",
+        "Sự kiện này gióng lên hồi chuông cảnh báo về rủi ro phụ thuộc hạ tầng đám mây tập trung, đòi hỏi các kỹ sư DevOps và nhà phát triển phải xây dựng chiến lược dự phòng đa đám mây kiên cố hơn."
+      ],
+      "summary_en": [
+        "A major global system outage at Microsoft left tens of thousands of users unable to access core services including Outlook, Teams, and the Microsoft 365 ecosystem, causing severe business disruptions.",
+        "The technical failure extended beyond office applications, directly impacting the operational performance and availability of major artificial intelligence platforms developed by OpenAI and Anthropic.",
+        "This incident highlights the inherent risks of centralized cloud infrastructure dependency, urging DevOps engineers and developers to build more resilient multi-cloud disaster recovery strategies."
+      ],
+      "originalTitle": "Microsoft gặp sự cố toàn cầu, kéo theo cả nền tảng AI của OpenAI và Anthropic",
+      "url": "https://tuoitre.vn/microsoft-gap-su-co-toan-cau-keo-theo-ca-nen-tang-ai-cua-openai-va-anthropic-10026111309442104.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "Microsoft",
+        "Cloud Outage",
+        "DevOps",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-13T10:24:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/13/microsoft-laptop-error-alert-17945375905411139327278-63-266-941-1672-crop-17945404900061819742132.png",
+      "contentSnippet": "Sự cố Microsoft khiến hàng chục nghìn người dùng không thể truy cập Outlook, Teams, Microsoft 365, đồng thời ảnh hưởng đến các nền tảng AI.",
+      "authorName": "THANH HIỆP⭐",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "1a09f77a4836fe9e",
+      "title_vi": "Lỗi hệ thống gia tăng trên nền tảng trí tuệ nhân tạo Claude và các công cụ phát triển",
+      "title_en": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "summary_vi": [
+        "Nền tảng trợ lý trí tuệ nhân tạo Claude và các dịch vụ trực tuyến liên quan đang gặp phải tình trạng tỷ lệ lỗi hệ thống gia tăng đột biến, gây ảnh hưởng trực tiếp đến trải nghiệm của người dùng trên toàn cầu.",
+        "Sự cố kỹ thuật này tác động nghiêm trọng đến giao diện web chính thức, công cụ lập trình hỗ trợ Claude Code và cổng thông tin dành cho nhà phát triển platform.claude.com, làm gián đoạn các luồng công việc tích hợp.",
+        "Đội ngũ kỹ sư và vận hành hạ tầng đám mây đang khẩn trương tiến hành chẩn đoán nguyên nhân gốc rễ, triển khai các biện pháp khắc phục nhằm khôi phục hoàn toàn tính ổn định cho toàn bộ hệ sinh thái."
+      ],
+      "summary_en": [
+        "The artificial intelligence assistant platform Claude and related online services are currently experiencing a sudden surge in system error rates, directly impacting user experience globally.",
+        "This technical incident severely affects the main web interface, the Claude Code development tool, and the developer portal platform.claude.com, disrupting integrated workflow pipelines.",
+        "Engineering and cloud infrastructure operations teams are urgently diagnosing root causes and deploying mitigation measures to fully restore stability across the entire ecosystem."
+      ],
+      "originalTitle": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "url": "https://status.claude.com/incidents/nn11wk485zfn",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Claude",
+        "AI",
+        "DevOps",
+        "Cloud",
+        "API"
+      ],
+      "hotScore": 76,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-13T10:18:13.000Z",
+      "contentSnippet": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "authorName": "__vivek",
+      "upvotes": 306,
+      "commentsCount": 259
+    },
+    {
+      "id": "89351864f9ecb4d3",
+      "title_vi": "Thị trường trí tuệ nhân tạo có thể biến động mạnh khi Jensen Huang rời Nvidia",
+      "title_en": "The AI market may face significant disruption following Jensen Huang's departure from Nvidia",
+      "summary_vi": [
+        "Sự kiện Jensen Huang từ chức CEO Nvidia sau hơn ba thập kỷ dẫn dắt đã gây chấn động toàn cầu, đánh dấu một bước ngoặt lớn đối với tập đoàn sản xuất chip AI giá trị nhất thế giới hiện nay.",
+        "Việc thay đổi nhân sự cấp cao tại Nvidia đặt ra nhiều câu hỏi về chiến lược phát triển phần cứng, lộ trình sản xuất chip xử lý đồ họa và khả năng duy trì vị thế thống trị trong lĩnh vực hạ tầng tính toán.",
+        "Sự ra đi của một nhà lãnh đạo có tầm ảnh hưởng lớn như Jensen Huang có thể làm thay đổi cục diện ngành công nghiệp bán dẫn, ảnh hưởng trực tiếp đến các dự án phát triển AI và hệ sinh thái phần mềm liên quan."
+      ],
+      "summary_en": [
+        "The resignation of Jensen Huang as CEO of Nvidia after over three decades of leadership has sent shockwaves globally, marking a major turning point for the world's most valuable AI chip manufacturing corporation.",
+        "The change in top-level management at Nvidia raises significant questions regarding hardware development strategies, the roadmap for graphics processing units, and the ability to maintain dominance in the computational infrastructure sector.",
+        "The departure of such an influential leader could reshape the semiconductor industry landscape, directly impacting AI development projects and the broader software ecosystems that rely on Nvidia's specialized hardware and computing platforms."
+      ],
+      "originalTitle": "Thị trường AI có thể xáo trộn thế nào khi Jensen Huang rời Nvidia",
+      "url": "https://vnexpress.net/thi-truong-ai-co-the-xao-tron-the-nao-khi-jensen-huang-roi-nvidia-5144136.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "AI",
+        "Semiconductor",
+        "Jensen Huang",
+        "Tech Leadership"
+      ],
+      "hotScore": 98,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-13T10:05:44.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/13/20261109t135825z14491308rc2h6o-4271-5103-1794551374.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=9KdRD0OJ3RHSCQ95EpDuXQ",
+      "contentSnippet": "Việc Jensen Huang từ chức CEO Nvidia sau 33 năm dẫn dắt hãng chip giá trị nhất thế giới dự kiến gây ra những thay đổi đáng kể trong ngành AI.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "7bc74b1169fe0f38",
       "title_vi": "Command Box bài học 10: Quản lý phiên bản và lập tài liệu tự động cho công cụ dòng lệnh",
@@ -35,6 +380,40 @@
       "authorName": "Nguyễn Huy Hoàng",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "0eb39675fdec200b",
+      "title_vi": "IceWM: Trình quản lý cửa sổ tối ưu cho hệ thống X Window",
+      "title_en": "IceWM: A Lightweight Window Manager for the X Window System",
+      "summary_vi": [
+        "IceWM là một trình quản lý cửa sổ lâu đời dành cho hệ thống X Window, được Marko Maček phát triển từ năm 1997 với mục tiêu tối ưu hóa tốc độ, sự đơn giản và trải nghiệm người dùng mượt mà trên các hệ điều hành Linux và BSD.",
+        "Phần mềm này hỗ trợ cấu hình linh hoạt thông qua các tệp tin, cung cấp hệ thống menu động, quản lý phím tắt toàn cục, hỗ trợ đa màn hình thông qua RandR và Xinerama, cùng khả năng tùy biến giao diện mạnh mẽ với hơn 450 chủ đề khác nhau.",
+        "Với phiên bản 4.1.0 mới nhất, IceWM tiếp tục khẳng định giá trị trong cộng đồng mã nguồn mở nhờ tính ổn định cao, tài liệu hướng dẫn chi tiết và khả năng hoạt động hiệu quả trên các bản phân phối Linux phổ biến hiện nay."
+      ],
+      "summary_en": [
+        "IceWM is a long-standing window manager for the X Window System, developed by Marko Maček since 1997 with a focus on speed, simplicity, and providing a seamless user experience across various Linux and BSD operating systems.",
+        "The software offers flexible configuration via files, dynamic menus, global keyboard shortcuts, multi-monitor support via RandR and Xinerama, and extensive visual customization capabilities with a library of over 450 themes available for users.",
+        "With the release of version 4.1.0, IceWM continues to provide significant value to the open-source community through its high stability, comprehensive documentation, and efficient performance on most popular modern Linux distributions."
+      ],
+      "originalTitle": "IceWM",
+      "url": "https://ice-wm.org/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Linux",
+        "Window Manager",
+        "Open Source",
+        "X11",
+        "Desktop Environment"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-13T04:54:53.000Z",
+      "contentSnippet": "IceWM is a window manager for the X Window System. The goal of IceWM is speed, simplicity, and not getting in the user’s way. It comes with a taskbar with pager, global and per-window keybindings and a dynamic menu system. Application windows can be managed by keyboard and mouse. Windows can be icon",
+      "authorName": "inatreecrown2",
+      "upvotes": 257,
+      "commentsCount": 127
     },
     {
       "id": "da1c9d20d641cec5",
@@ -8191,384 +8570,6 @@
       "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/1/avatar1793522258686-1793522260123169389463.jpg",
       "contentSnippet": "Sau hơn 6 tuần lên kệ tại Việt Nam, iPhone 18 Pro Max chính hãng vẫn được các chuỗi bán lẻ lớn giữ nguyên giá niêm yết, khởi điểm 41,99 triệu đồng. Tuy nhiên tại 1 số cửa hàng, mẫu điện thoại mới của Apple đã có mức giảm đầu tiên.",
       "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "c419ee7ad6a1a457",
-      "title_vi": "Anthropic tung ra hàng loạt cập nhật lớn mang lại nhiều lợi ích thiết thực cho người dùng Claude",
-      "title_en": "Anthropic Releases Major Updates Delivering Significant Benefits to Claude Users",
-      "summary_vi": [
-        "Từ giữa tháng chín đến cuối tháng mười năm hai nghìn không trăm hai mươi sáu, công ty trí tuệ nhân tạo Anthropic đã liên tục triển khai các thay đổi quan trọng nhằm tối ưu hóa trải nghiệm cho cộng đồng người dùng nền tảng Claude.",
-        "Người dùng miễn phí được trang bị thêm các công cụ hỗ trợ tạo slide, xử lý tài liệu và thiết kế giao diện, trong khi nhóm tài khoản trả phí được gỡ bỏ giới hạn năm giờ, nhận tín dụng API hằng tháng cùng các mô hình mới mạnh mẽ nhưng tiết kiệm chi phí hơn.",
-        "Những cải tiến toàn diện này giúp nâng cao đáng kể năng suất làm việc cho các nhà phát triển phần mềm, đồng thời thúc đẩy hiệu quả tích hợp trí tuệ nhân tạo vào các quy trình phát triển sản phẩm công nghệ hiện đại."
-      ],
-      "summary_en": [
-        "From mid September to late October 2026, artificial intelligence company Anthropic continuously rolled out crucial updates aimed at optimizing user experience across the Claude platform.",
-        "Free users are now equipped with additional tools for slide creation, document processing, and interface design, while paid tier accounts benefit from removed five-hour limits, monthly API credits, and more powerful yet cost-effective new models.",
-        "These comprehensive improvements significantly boost productivity for software developers while driving efficiency in integrating artificial intelligence into modern technology product development workflows."
-      ],
-      "originalTitle": "Tin cực vui cho người dùng Claude",
-      "url": "https://genk.vn/tin-cuc-vui-cho-nguoi-dung-claude-165261101153659141.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Anthropic",
-        "Claude",
-        "AI",
-        "API",
-        "Machine Learning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-01T12:19:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/1/avatar1793522101850-1793522105036711942971.jpg",
-      "contentSnippet": "Từ giữa tháng 9 đến cuối tháng 10/2026, Anthropic liên tục tung ra các thay đổi có lợi cho người dùng Claude. Người dùng miễn phí có thêm công cụ làm slide, tài liệu, thiết kế. Người trả phí được gỡ giới hạn 5 giờ, nhận tín dụng API hằng tháng và có mô hình mới mạnh hơn, rẻ hơn.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8d28b81febeaec1e",
-      "title_vi": "Ngân hàng cần thay đổi cách phòng thủ trước các cuộc tấn công bằng AI",
-      "title_en": "Banks Need to Redefine Their Defense Strategies Against AI-Driven Cyber Attacks",
-      "summary_vi": [
-        "Theo chuyên gia an ninh mạng Viettel, các tổ chức ngân hàng hiện nay đang phải đối mặt với những thách thức chưa từng có tiền lệ từ các chiến dịch tấn công mạng tinh vi được tự động hóa và tối ưu hóa bằng trí tuệ nhân tạo.",
-        "Phương pháp bảo mật truyền thống chỉ dựa vào việc phát hiện và ngăn chặn lỗ hổng là chưa đủ, mà cần phải bổ sung năng lực phản ứng nhanh để giới hạn tối đa phạm vi ảnh hưởng khi xảy ra sự cố.",
-        "Việc chuyển dịch trọng tâm sang khả năng duy trì liên tục các dịch vụ trọng yếu sẽ giúp hệ thống tài ngân hàng nâng cao độ bền vững và giảm thiểu thiệt hại kinh tế trước các mối đe dọa an ninh mạng hiện đại."
-      ],
-      "summary_en": [
-        "According to Viettel cybersecurity experts, banking institutions are currently facing unprecedented challenges from sophisticated cyber attack campaigns automated and optimized through artificial intelligence.",
-        "Traditional security approaches relying solely on vulnerability detection and blocking are no longer sufficient, requiring additional rapid response capabilities to strictly limit the blast radius during incidents.",
-        "Shifting the security focus toward maintaining critical business services continuously will help financial systems significantly enhance operational resilience and minimize economic losses against modern cyber threats."
-      ],
-      "originalTitle": "Ngân hàng cần thay đổi cách phòng thủ trước các cuộc tấn công bằng AI",
-      "url": "https://genk.vn/ngan-hang-can-thay-doi-cach-phong-thu-truoc-cac-cuoc-tan-cong-bang-ai-165261101180458081.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "AI",
-        "Banking",
-        "Threat Intelligence",
-        "Incident Response"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-01T11:34:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/1/avatar1793531035901-17935310364341535188056.jpg",
-      "contentSnippet": "Theo ông Lê Quang Hà, Phó Giám đốc Công ty TNHH MTV An ninh mạng Viettel, việc bảo vệ hệ thống trước nguy cơ bị tấn công mạng không chỉ dừng ở phát hiện, ngăn chặn mà còn cần chú trọng khả năng phản ứng nhanh, giới hạn phạm vi ảnh hưởng và duy trì các dịch vụ trọng yếu khi xảy ra sự cố.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0089ce4e7339ea3a",
-      "title_vi": "Xử lý kiểu dữ liệu thời gian trong JDBC: Date, Time, Timestamp và LocalDate/LocalDateTime",
-      "title_en": "Handling Date and Time Data Types in JDBC: Date, Time, Timestamp and LocalDate/LocalDateTime",
-      "summary_vi": [
-        "Bài viết tập trung giải quyết bài toán xử lý dữ liệu thời gian trong lập trình backend Java, một trong những thách thức lớn nhất do sự sai lệch về múi giờ giữa máy chủ ứng dụng và hệ quản trị cơ sở dữ liệu.",
-        "Tác giả phân tích chi tiết cách sử dụng các kiểu dữ liệu truyền thống như Date, Time, Timestamp kết hợp với các API hiện đại Java 8 như LocalDate và LocalDateTime nhằm tối ưu hóa việc ánh xạ dữ liệu khi thao tác với cơ sở dữ liệu.",
-        "Kiến thức này mang lại giá trị thực tiễn cao giúp các kỹ sư phần mềm tránh được các lỗi sai lệch thời gian phổ biến, đảm bảo tính toàn vẹn dữ liệu và nâng cao chất lượng hệ thống phần mềm doanh nghiệp."
-      ],
-      "summary_en": [
-        "The article focuses on solving time data processing challenges in Java backend development, which is considered one of the biggest hurdles due to timezone discrepancies between application servers and databases.",
-        "The author provides a detailed analysis of using traditional data types like Date, Time, and Timestamp alongside modern Java 8 APIs such as LocalDate and LocalDateTime to optimize data mapping during database operations.",
-        "This knowledge delivers high practical value by helping software engineers avoid common time mismatch bugs, ensuring data integrity, and improving the overall quality of enterprise software systems."
-      ],
-      "originalTitle": "JDBC bài 14 Xử lý các kiểu dữ liệu thời gian: Date, Time, Timestamp và LocalDate/LocalDateTime",
-      "url": "https://viblo.asia/p/jdbc-bai-14-xu-ly-cac-kieu-du-lieu-thoi-gian-date-time-timestamp-va-localdatelocaldatetime-8X4EjqX2JN2",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Java",
-        "JDBC",
-        "Database",
-        "Backend",
-        "LocalDateTime"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-11-01T10:46:13.000Z",
-      "contentSnippet": "Xử lý thời gian (Date/Time) luôn là một trong những chủ đề đau đầu nhất trong lập trình Backend do sự sai lệch về múi giờ (Timezone) giữa Server Java ...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "81444c008e513213",
-      "title_vi": "Elon Musk cảnh báo tác nhân AI có thể tự động hack hệ thống để trục lợi tài chính",
-      "title_en": "Elon Musk Warns AI Agents Could Automatically Hack Systems for Financial Gain",
-      "summary_vi": [
-        "Sàn giao dịch tiền điện tử Binance vừa hứng chịu một cuộc tấn công mạng quy mô lớn, khiến khoảng 6,3 tỷ USD tài sản số bị đánh cắp và được tẩu tán rất nhanh chóng qua nhiều địa chỉ ví khác nhau.",
-        "Tin tặc đã thực hiện các chiến thuật tài chính phi tập trung tinh vi bằng cách bán stablecoin lấy tiền mã hóa khác và vay Ether thông qua thế chấp tài sản bị đánh cắp nhằm vô hiệu hóa lệnh đóng băng từ nhà phát hành.",
-        "Sự cố bảo mật nghiêm trọng này dấy lên hồi chuông cảnh báo lớn về lỗ hổng hệ thống, đồng thời minh chứng cho nhận định của Elon Musk rằng các tác nhân trí tuệ nhân tạo tương lai có thể tự động thực hiện các vụ hack phức tạp tương tự."
-      ],
-      "summary_en": [
-        "Cryptocurrency exchange Binance recently suffered a massive cyberattack resulting in approximately 6.3 billion dollars in digital assets being stolen and rapidly transferred across multiple different wallet addresses.",
-        "Hackers executed sophisticated decentralized finance tactics by selling stablecoins for other cryptocurrencies and borrowing Ether using stolen assets as collateral to effectively bypass freezing commands from issuers.",
-        "This severe security incident raises major alarms regarding system vulnerabilities while validating Elon Musk's prediction that future artificial intelligence agents could autonomously execute similar complex cyberattacks."
-      ],
-      "originalTitle": "Elon Musk: Tác nhân AI sẽ hack hệ thống để kiếm tiền cho chính chúng",
-      "url": "https://vnexpress.net/elon-musk-tac-nhan-ai-se-hack-he-thong-de-kiem-tien-cho-chinh-chung-5139352.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "AI",
-        "Blockchain",
-        "Crypto",
-        "Security"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-01T08:54:30.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/01/ap260225723955701-1793518702-5877-1793519275.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=wcJVIVBniVs2qBSh2N6GtQ",
-      "contentSnippet": "Sau thông tin Binance bị tin tặc đánh cắp 6,3 tỷ USD tiền số, Elon Musk bình luận tác nhân AI có thể làm điều tương tự trong tương lai.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0de5215a3eabc7c5",
-      "title_vi": "AMD phát hành bản cập nhật Adrenalin 26.10.2 nhằm khắc phục lỗi treo trình điều khiển đồ họa và văng ứng dụng trên dòng card màn hình Radeon RX 9000 và 7000",
-      "title_en": "AMD releases Adrenalin 26.10.2 update to fix driver crashes and application freezes on Radeon RX 9000 and 7000 series GPUs",
-      "summary_vi": [
-        "Hãng công nghệ AMD vừa chính thức phát hành bản cập nhật phần mềm Adrenalin 26.10.2 dành riêng cho các dòng card đồ họa Radeon RX 9000 và 7000 nhằm giải quyết triệt để các sự cố liên quan đến hệ thống.",
-        "Bản cập nhật này tập trung khắc phục lỗi treo trình điều khiển đồ họa và hiện tượng văng ứng dụng đột ngột từng xuất hiện trong phiên bản trước đó vốn được cài đặt để nâng cấp công nghệ FSR 4.1.",
-        "Việc nhanh chóng tung ra bản vá lỗi giúp đảm bảo sự ổn định cho hệ thống phần cứng của người dùng, duy trì hiệu năng chơi game tối ưu và hạn chế tối đa các gián đoạn trải nghiệm."
-      ],
-      "summary_en": [
-        "Technology giant AMD has officially released the Adrenalin 26.10.2 software update specifically for Radeon RX 9000 and 7000 series graphics cards to resolve persistent system-related stability issues.",
-        "This update focuses on fixing driver crashes and unexpected application closures that occurred in the previous version which was deployed to upgrade the FSR 4.1 upscaling technology.",
-        "Promptly rolling out this patch helps ensure hardware stability for end users, maintains optimal gaming performance, and minimizes potential interruptions during intensive graphical workflows."
-      ],
-      "originalTitle": "Anh em dùng card AMD Radeon RX 9000 và 7000 cập nhật Adrenalin 26.10.2 nha",
-      "url": "https://tinhte.vn/thread/anh-em-dung-card-amd-radeon-rx-9000-va-7000-cap-nhat-adrenalin-26-10-2-nha.4188955/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "AMD",
-        "GPU",
-        "Drivers",
-        "FSR",
-        "Hardware"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-11-01T08:51:46.000Z",
-      "contentSnippet": "Anh em dùng card AMD Radeon RX 9000 và 7000 cập nhật Adrenalin 26.10.2 nha Bản này fix lỗi treo driver và văng app á. Bản cũ 26.10.01 để cập nhật FSR 4.1 cho Radeon RX 9000 và 7000 xong nhiều...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "21e7e72aaa6a7886",
-      "title_vi": "Elasticsearch Bài học 30: Giải quyết Deep Paging hiệu quả với Search After API và Scroll API",
-      "title_en": "Elasticsearch Lesson 30: Efficiently Resolving Deep Paging with Search After and Scroll APIs",
-      "summary_vi": [
-        "Bài viết tiếp tục chuỗi chuyên đề Elasticsearch, tập trung giải quyết triệt để vấn đề phân trang sâu vượt quá giới hạn an toàn mặc định của hệ thống.",
-        "Tác giả phân tích chi tiết cơ chế hoạt động, ưu nhược điểm cũng như cách áp dụng Search After API và Scroll API để tối ưu hiệu suất truy vấn dữ liệu lớn.",
-        "Kiến thức này giúp các kỹ sư phần mềm xây dựng hệ thống tìm kiếm ổn định, ngăn chặn hoàn toàn nguy cơ tràn bộ nhớ RAM do các câu lệnh truy vấn phân trang sâu."
-      ],
-      "summary_en": [
-        "This article continues the Elasticsearch series, focusing on thoroughly resolving the deep paging issue that exceeds the default safety limits of the system.",
-        "The author provides a detailed analysis of operational mechanisms, pros and cons, and implementation methods for Search After and Scroll APIs to optimize large-scale data queries.",
-        "This knowledge helps software engineers build stable search systems and completely prevent out-of-memory risks caused by deep paging query statements."
-      ],
-      "originalTitle": "Elasticsearch Bài học 30: Giải quyết Deep Paging hiệu quả với Search After API và Scroll API",
-      "url": "https://viblo.asia/p/elasticsearch-bai-hoc-30-giai-quyet-deep-paging-hieu-qua-voi-search-after-api-va-scroll-api-pPLkNQXnJRZ",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Elasticsearch",
-        "Database",
-        "Backend",
-        "Performance"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-11-01T08:39:21.000Z",
-      "contentSnippet": "Ở Bài 29, chúng ta đã hiểu tại sao giới hạn index.maxresultwindow = 10000 là tấm khiên bảo vệ cụm Elasticsearch khỏi thảm họa OOM (Out Of Memory) do D...",
-      "authorName": "Nguyễn Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "d9f085cb514ac6d9",
-      "title_vi": "Elasticsearch Bài học 28: Giải mã thuật toán xếp hạng - TF/IDF và BM25 hoạt động ra sao?",
-      "title_en": "Elasticsearch Lesson 28: Decoding Relevance Scoring Algorithms - How TF/IDF and BM25 Work",
-      "summary_vi": [
-        "Bài viết phân tích tầm quan trọng của thuật toán xếp hạng trong hệ thống tìm kiếm thương mại điện tử, nơi sự khác biệt nhỏ về thứ tự kết quả có thể ảnh hưởng trực tiếp đến doanh thu và trải nghiệm người dùng.",
-        "Tác giả đi sâu vào cơ chế vận hành của TF/IDF và BM25, giải thích cách Elasticsearch tính toán điểm số mức độ liên quan dựa trên tần suất xuất hiện của từ khóa và độ hiếm của thuật ngữ trong toàn bộ tập dữ liệu.",
-        "Thông qua việc nắm vững các thuật toán này, kỹ sư có thể tối ưu hóa truy vấn tìm kiếm, cải thiện độ chính xác của hệ thống và nâng cao hiệu suất chuyển đổi cho các ứng dụng web quy mô lớn hiện nay."
-      ],
-      "summary_en": [
-        "The article analyzes the critical importance of ranking algorithms in e-commerce search systems, where minor differences in result ordering can directly impact revenue and overall user experience for online shoppers.",
-        "The author explores the mechanics of TF/IDF and BM25, explaining how Elasticsearch calculates relevance scores based on term frequency and the inverse document frequency of keywords across the entire dataset.",
-        "By mastering these algorithms, engineers can optimize search queries, improve system accuracy, and enhance conversion rates for large-scale web applications, providing a more intuitive and effective search experience for end users."
-      ],
-      "originalTitle": "Elasticsearch Bài học 28: Giải mã thuật toán Scoring (Relevance Score) - TF/IDF và BM25 hoạt động ra sao?",
-      "url": "https://viblo.asia/p/elasticsearch-bai-hoc-28-giai-ma-thuat-toan-scoring-relevance-score-tfidf-va-bm25-hoat-dong-ra-sao-ymJXDZprJkq",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Elasticsearch",
-        "SearchEngine",
-        "Algorithms",
-        "Backend",
-        "DataRetrieval"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-11-01T08:39:08.000Z",
-      "contentSnippet": "Trong hệ thống E-commerce, sự chênh lệch giữa Top 1 và Top 10 kết quả tìm kiếm có thể định đoạt doanh thu hàng tỷ đồng. Khi một khách hàng tìm \"sữa rử...",
-      "authorName": "Nguyễn Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "7e9f318174ec7dbc",
-      "title_vi": "Cái giá của trí tuệ nhân tạo đối với các khung làm việc JavaScript",
-      "title_en": "The AI cost of JavaScript frameworks",
-      "summary_vi": [
-        "Cộng đồng phát triển web thường đưa ra các quyết định dựa trên cảm tính thay vì bằng chứng xác thực, từ việc lựa chọn công cụ phát triển cho đến các khung làm việc giao diện.",
-        "Trong kỷ nguyên tác tử trí tuệ nhân tạo, lập trình viên chuyển đổi các giao diện dựa trên tuyên bố chưa được kiểm chứng rằng một số khung làm việc giúp tác tử hoạt động hiệu quả hơn.",
-        "Việc thiếu các điểm chuẩn đánh giá thực tế trong quá trình phát triển phần mềm hiện đại đang dẫn đến những sự lãng phí tài nguyên và quyết định kiến trúc thiếu cơ sở."
-      ],
-      "summary_en": [
-        "The web development community often makes architectural decisions based on vibes rather than empirical evidence, spanning from tool selection to modern frontend frameworks.",
-        "In the agentic era, developers rewrite frontends based on unverified claims that specific frameworks make artificial intelligence agents perform better and commit fewer mistakes.",
-        "The persistent lack of concrete benchmarks in modern software engineering continues to drive misguided architectural choices and unfounded development practices across the industry."
-      ],
-      "originalTitle": "The AI cost of JavaScript frameworks",
-      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "JavaScript",
-        "Frameworks",
-        "AI",
-        "Frontend",
-        "Software Architecture"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-01T06:06:19.000Z",
-      "contentSnippet": "One of my pet peeves with the web development community is that so many of the decisions we make are vibes-based. Frameworks are “blazing fast,” tools will “supercharge” your development, the right abstraction will benefit both you and your users (DX and UX all in one!). All of this breathless boast",
-      "authorName": "luu",
-      "upvotes": 117,
-      "commentsCount": 64
-    },
-    {
-      "id": "93969e1ddcf7e3bf",
-      "title_vi": "Vệ tinh AI tích hợp bộ xử lý Tensor của Google gửi phản hồi đầu tiên từ không gian",
-      "title_en": "Google's AI Satellite Equipped with Tensor Processing Units Sends First Response from Space",
-      "summary_vi": [
-        "Google vừa thông báo nhận được phản hồi đầu tiên từ vệ tinh thuộc dự án Suncatcher, đánh dấu bước tiến mới trong việc nghiên cứu khả năng xây dựng trung tâm dữ liệu trí tuệ nhân tạo trực tiếp ngoài không gian.",
-        "Vệ tinh này do Planet Labs chế tạo, tích hợp bốn bộ xử lý Tensor cùng mô hình ngôn ngữ Gemma 4, đối mặt với thách thức lớn về nguồn năng lượng mặt trời khi chỉ có thể vận hành một bộ xử lý trong thời gian ngắn.",
-        "Thành tựu này mở ra hướng đi đột phá cho ngành công nghệ điện toán đám mây và trí tuệ nhân tạo, cho phép khai thác sức mạnh tính toán cấp trung tâm dữ liệu trong môi trường quỹ đạo khắc nghiệt."
-      ],
-      "summary_en": [
-        "Google recently announced receiving the first response from a satellite under the Suncatcher project, marking a significant milestone in researching the feasibility of building artificial intelligence data centers directly in space.",
-        "Built by Planet Labs, the satellite integrates four Tensor processing units and the Gemma 4 language model, overcoming severe solar power constraints by operating only one processor at a time for limited durations.",
-        "This achievement opens up breakthrough directions for the cloud computing and artificial intelligence industries, enabling the deployment of data center-grade computational power in harsh orbital environments."
-      ],
-      "originalTitle": "Vệ tinh AI của Google gửi phản hồi đầu tiên từ không gian",
-      "url": "https://vnexpress.net/ve-tinh-ai-cua-google-gui-phan-hoi-dau-tien-tu-khong-gian-5139248.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Google",
-        "AI",
-        "TPU",
-        "SpaceTech",
-        "Gemma"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-01T04:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/01/dsc029817909308502563179093118-3020-2946-1793469854.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=QQ-Vc7tqpOzymY_QvOHeVQ",
-      "contentSnippet": "Vệ tinh đầu tiên trang bị bộ xử lý Tensor (TPU) của Google đang hoạt động tốt trên quỹ đạo Trái Đất, gửi về thơ và dữ liệu kỹ thuật.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "2f771ae70b68c7d0",
-      "title_vi": "Giải mã biểu tượng hình tam giác trên thanh thông báo điện thoại Samsung và cách khắc phục",
-      "title_en": "Decoding the Triangle Notification Icon on Samsung Smartphones and How to Fix It",
-      "summary_vi": [
-        "Bài viết phân tích nguyên nhân xuất hiện biểu tượng hình tam giác trên thanh thông báo của các dòng điện thoại Samsung, chủ yếu do tính năng tiết kiệm dữ liệu di động được kích hoạt nhằm ngăn chặn các ứng dụng chạy ngầm.",
-        "Hệ điều hành One UI cung cấp cơ chế quản lý linh hoạt cho phép người dùng thiết lập danh sách ngoại lệ trong phần cài đặt kết nối để các ứng dụng quan trọng tiếp tục truyền tải dữ liệu mà không bị gián đoạn.",
-        "Việc hiểu rõ các thông báo cảnh báo từ phần cứng và hệ thống Android giúp người dùng tối ưu hóa hiệu suất thiết bị di động, đồng thời xử lý triệt để các vấn đề liên quan đến kết nối mạng."
-      ],
-      "summary_en": [
-        "The article analyzes the root cause of the triangle notification icon appearing on Samsung smartphones, which is primarily triggered by the data saver feature designed to restrict background application data consumption.",
-        "The One UI operating system provides a flexible management mechanism allowing users to configure whitelist exceptions within network settings so essential applications can continue data transmission without interruption.",
-        "Understanding these system and hardware warning notifications helps users optimize mobile device performance effectively while resolving underlying network connectivity issues in daily operations."
-      ],
-      "originalTitle": "Lời nhắc nhở dành cho tất cả những người dùng Samsung khi điện thoại xuất hiện biểu tượng hình tam giác",
-      "url": "https://genk.vn/loi-nhac-nho-danh-cho-tat-ca-nhung-nguoi-dung-samsung-khi-dien-thoai-xuat-hien-bieu-tuong-hinh-tam-giac-165261101000614706.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Samsung",
-        "Android",
-        "One UI",
-        "Mobile",
-        "System"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-01T03:20:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/10/31/avatar1793466244077-17934662449591446146178.jpg",
-      "contentSnippet": "Bỗng một ngày xuất hiện một biểu tượng hình tam giác lạ kỳ trên thanh trạng thái của chiếc điện thoại thì đừng quá hoảng hốt.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "7533a8d017f39ede",
-      "title_vi": "Apple phát hành bản cập nhật iOS mới cho người dùng iPhone",
-      "title_en": "Apple officially releases new iOS update for iPhone users worldwide",
-      "summary_vi": [
-        "Tập đoàn công nghệ Apple chính thức tung ra bản cập nhật hệ điều hành di động mới mang tên iOS nhằm cung cấp các tính năng cải tiến quan trọng.",
-        "Bản nâng cấp phần mềm này tập trung tối ưu hóa hiệu năng hệ thống, vá các lỗ hổng bảo mật tiềm ẩn và cải thiện thời lượng pin cho thiết bị.",
-        "Người dùng trên toàn cầu có thể tiến hành cập nhật trực tiếp qua giao thức không dây OTA để trải nghiệm những tính năng mới nhất từ nhà sản xuất."
-      ],
-      "summary_en": [
-        "Technology giant Apple has officially rolled out the latest mobile operating system update known as iOS to deliver crucial feature enhancements.",
-        "This software upgrade focuses heavily on optimizing system performance, patching potential security vulnerabilities, and improving battery life across devices.",
-        "Users worldwide can now perform wireless OTA updates directly on their hardware to experience the newest capabilities provided by the manufacturer."
-      ],
-      "originalTitle": "iPhone có iOS mới, lên thôi anh em,",
-      "url": "https://tinhte.vn/thread/iphone-co-ios-moi-len-thoi-anh-em.4188898/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iOS",
-        "iPhone",
-        "Mobile",
-        "Software Update"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-11-01T03:09:53.000Z",
-      "contentSnippet": "[ATTACH] Ảnh minh họa giao diện iOS 27.2. Nguồn: MacRumors. Apple chính thức phát hành iOS 27.2 (và iPadOS 27.2) ngày 26/10/2026 theo PDT — khoảng 27/10 giờ Việt Nam. Đây là bản cập nhật lớn đầu...",
-      "authorName": "Quocxi",
       "upvotes": 0,
       "commentsCount": 0
     }
