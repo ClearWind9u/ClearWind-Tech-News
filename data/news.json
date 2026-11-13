@@ -1,7 +1,210 @@
 {
-  "lastUpdated": "2026-11-13T13:42:15.327Z",
+  "lastUpdated": "2026-11-13T23:04:30.070Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "3e20a8567e2aef29",
+      "title_vi": "Tại sao một nửa số trò chơi xếp hình số 15 không thể giải được và hai cách khắc phục bằng JavaScript",
+      "title_en": "Why half of all shuffled 15-puzzles cannot be solved and two ways to fix it in JavaScript",
+      "summary_vi": [
+        "Trò chơi xếp hình số mười lăm tưởng chừng như đơn giản khi lập trình nhưng thực tế ẩn chứa một bài toán toán học phức tạp về tính khả giải của trạng thái xáo trộn.",
+        "Lập trình viên cần hiểu rõ về mặt lý thuyết đồ thị và nghịch thế để xác định chính xác khi nào một cấu hình ô số có thể hoàn thành thành công.",
+        "Bài viết cung cấp giải pháp lập trình bằng ngôn ngữ JavaScript giúp tự động phát hiện và sửa lỗi cấu hình từ bước khởi tạo để đảm bảo trải nghiệm người dùng."
+      ],
+      "summary_en": [
+        "The classic fifteen puzzle appears deceptively simple to program but actually conceals a complex mathematical challenge regarding the solvability of randomized initial states.",
+        "Software engineers need a solid understanding of graph theory and algorithmic inversions to accurately determine whether a shuffled tile configuration can be successfully completed.",
+        "The article provides practical JavaScript programming solutions to automatically detect and correct invalid board setups during initialization to ensure a smooth user experience."
+      ],
+      "originalTitle": "Why half of all shuffled 15-puzzles can't be solved (and two ways to fix it in JavaScript)",
+      "url": "https://viblo.asia/p/why-half-of-all-shuffled-15-puzzles-cant-be-solved-and-two-ways-to-fix-it-in-javascript-pPLkN8ZeJRZ",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "JavaScript",
+        "Algorithms",
+        "Game Development",
+        "Mathematics"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-14T00:12:33.000Z",
+      "contentSnippet": "The 15-puzzle looks like the easiest game to code. Fifteen numbered tiles, one gap, slide tiles into the gap until the numbers are in order. Most firs...",
+      "authorName": "HTML Games Studio",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6d550d833bece388",
+      "title_vi": "Trung tâm Doanh nghiệp ChatGPT dưới góc nhìn kỹ thuật: Thêm nguồn dữ liệu mới cho khả năng hiển thị của trí tuệ nhân tạo như thế nào",
+      "title_en": "ChatGPT Business Hub from a Technical Perspective: How to Add a New Data Source for AI Visibility",
+      "summary_vi": [
+        "OpenAI chính thức giới thiệu giải pháp trung tâm doanh nghiệp mới nhằm tối ưu hóa việc quản lý và tích hợp dữ liệu tổ chức vào các mô hình trí tuệ nhân tạo lớn.",
+        "Phân tích sâu về mặt kỹ thuật cho thấy cơ chế kết nối nguồn dữ liệu thời gian thực giúp cải thiện đáng kể khả năng hiển thị và độ chính xác của hệ thống AI.",
+        "Doanh nghiệp và kỹ sư phần mềm có thể tận dụng kiến trúc này để xây dựng hệ sinh thái tìm kiếm thông minh, nâng cao hiệu suất xử lý thông tin nội bộ."
+      ],
+      "summary_en": [
+        "OpenAI officially introduced a new business hub solution designed to optimize the management and integration of enterprise data into large artificial intelligence models.",
+        "A deep technical analysis reveals the real-time data connection mechanism that significantly improves the visibility and accuracy of artificial intelligence systems.",
+        "Enterprises and software engineers can leverage this architecture to build intelligent search ecosystems and enhance internal information processing performance."
+      ],
+      "originalTitle": "ChatGPT Business Hub dưới góc nhìn kỹ thuật",
+      "url": "https://viblo.asia/p/chatgpt-business-hub-duoi-goc-nhin-ky-thuat-1j4lQ8plJwl",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "ChatGPT",
+        "AI Visibility",
+        "Data Source",
+        "Enterprise AI",
+        "OpenAI"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-13T22:21:20.000Z",
+      "contentSnippet": "ChatGPT Business Hub dưới góc nhìn kỹ thuật: thêm một data source mới cho AI Visibility như thế nào? Ngày 10/11/2026, OpenAI giới thiệu Businesses in...",
+      "authorName": "Trung Tran Anh",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b58b77949ba83ad7",
+      "title_vi": "Hình dung về thiết kế điện thoại màn hình cuộn Samsung",
+      "title_en": "Visualizing the Rollable Smartphone Design by Samsung",
+      "summary_vi": [
+        "Samsung đang phát triển dòng điện thoại thông minh màn hình cuộn mới mang tên Galaxy Z Roll với thiết kế khung máy gần như vuông vức độc đáo.",
+        "Cơ chế màn hình cho phép thiết bị mở rộng diện tích hiển thị từ dạng nhỏ gọn sang kích thước tiêu chuẩn của một thiết bị di động thông thường.",
+        "Thiết kế này đánh dấu bước tiến quan trọng trong công nghệ phần cứng di động, tối ưu hóa trải nghiệm người dùng trên các thiết bị màn hình linh hoạt."
+      ],
+      "summary_en": [
+        "Samsung is reportedly developing a new rollable smartphone named Galaxy Z Roll featuring a unique nearly square device frame design.",
+        "The display mechanism allows the device to expand its viewing area seamlessly from a compact form factor into a standard mobile device size.",
+        "This design marks a significant milestone in mobile hardware engineering, optimizing user experience across flexible screen devices."
+      ],
+      "originalTitle": "Hình dung về thiết kế smartphone màn hình cuộn Samsung",
+      "url": "https://vnexpress.net/hinh-dung-ve-thiet-ke-smartphone-man-hinh-cuon-samsung-5144067.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Samsung",
+        "Galaxy Z Roll",
+        "Mobile Hardware",
+        "Rollable Display"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-13T22:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/12/finally-a-weird-phone-samsungs-5700-7768-1794499383.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=gWwrh6ELkS6UUKpaJ5n1YQ",
+      "contentSnippet": "Điện thoại màn hình cuộn của Samsung được cho là sẽ có tên Galaxy Z Roll, với thiết kế gần vuông và cuộn lên để trở thành smartphone tiêu chuẩn.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "fe673da6029f5c8f",
+      "title_vi": "Giới thiệu type-tune: Giải pháp tối ưu hóa và quản lý kiểu dữ liệu trong TypeScript",
+      "title_en": "Introducing type-tune: A Better Solution for Managing and Optimizing TypeScript Types",
+      "summary_vi": [
+        "Một kỹ sư frontend đã chính thức phát hành công cụ mới mang tên type-tune nhằm cải thiện cách các lập trình viên quản lý và tổ chức các kiểu dữ liệu trong hệ thống TypeScript một cách hiệu quả hơn.",
+        "Công cụ này tập trung giải quyết các bài toán phức tạp về cấu trúc type, giúp giảm thiểu độ phức tạp của mã nguồn và tối ưu hóa trải nghiệm phát triển phần mềm trên các dự án quy mô lớn.",
+        "Sự ra mắt của type-tune mang lại giá trị thiết thực cho cộng đồng lập trình TypeScript, giúp nâng cao chất lượng code, cải thiện hiệu suất biên dịch và giảm thiểu lỗi tiềm ẩn trong quá trình phát triển."
+      ],
+      "summary_en": [
+        "A frontend engineer has officially released a new tool named type-tune to improve how developers manage and organize data types within TypeScript systems more effectively.",
+        "The tool focuses on solving complex structural type challenges, helping to reduce source code complexity and optimize the software development experience across large-scale projects.",
+        "The launch of type-tune delivers practical value to the TypeScript development community by enhancing code quality, improving compilation performance, and minimizing potential runtime errors."
+      ],
+      "originalTitle": "Gặp gỡ type-tune! Cho các TypeScript type một ngôi nhà tốt hơn!",
+      "url": "https://viblo.asia/p/gap-go-type-tune-cho-cac-typescript-type-mot-ngoi-nha-tot-hon-AWVpX5Y5V05",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "TypeScript",
+        "Frontend",
+        "Developer Tools",
+        "JavaScript"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-13T21:39:57.000Z",
+      "contentSnippet": "Hoi hoi! Mình là @nyaomaru, một frontend engineer thực ra lại bị dị ứng với cua! Hôm nay mình có thêm một tin rất vui! Mình vừa phát hành một côn...",
+      "authorName": "nyaoamru",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "754f24889ed9e00a",
+      "title_vi": "Ví ChatGPT cho phép các tác nhân trí tuệ nhân tạo Dots thực hiện giao dịch mua sắm thay cho bạn",
+      "title_en": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "summary_vi": [
+        "OpenAI vừa chính thức ra mắt tính năng ví điện tử tích hợp dành riêng cho các tác nhân trí tuệ nhân tạo Dots, mở ra một bước tiến mới trong việc tự động hóa các tác vụ thương mại điện tử hàng ngày.",
+        "Hệ thống yêu cầu người dùng đăng ký thẻ tín dụng hợp lệ từ các tổ chức tài chính lớn tại Mỹ và bắt buộc phải xác thực sinh trắc học qua nhận diện khuôn mặt hoặc vân tay trước khi hoàn tất bất kỳ giao dịch nào.",
+        "Giải pháp này đánh dấu sự kết hợp sâu sắc giữa công nghệ trợ lý ảo thông minh và cổng thanh toán trực tuyến, mang lại trải nghiệm mua sắm tự động nhưng vẫn đảm bảo tính bảo mật tuyệt đối cho người dùng."
+      ],
+      "summary_en": [
+        "OpenAI has officially introduced an integrated digital wallet feature specifically designed for Dots AI agents, marking a significant step forward in automating daily e-commerce and commercial tasks for users.",
+        "The system requires users to register valid credit cards from major financial institutions in the United States and mandates biometric authentication via facial recognition or fingerprint scanning before completing any transaction.",
+        "This solution represents a deep integration between intelligent virtual assistant technology and online payment gateways, delivering an automated shopping experience while maintaining absolute security for users."
+      ],
+      "originalTitle": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "OpenAI",
+        "ChatGPT",
+        "Cybersecurity",
+        "Fintech"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-13T20:45:10.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and ",
+      "authorName": "Stevie Bonifield",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f0b640ae51573bd1",
+      "title_vi": "Phần cứng trí tuệ nhân tạo trị giá 11,4 triệu đô la của Nvidia biến mất trong quá trình vận chuyển từ California đi Texas",
+      "title_en": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+      "summary_vi": [
+        "Sáu pallet linh kiện máy tính của Nvidia trị giá khoảng 11,4 triệu đô la đã biến mất bí ẩn trong một chuyến vận chuyển đường bộ từ California đến Texas, làm dấy lên lo ngại về an ninh chuỗi cung ứng công nghệ cao.",
+        "Chiếc xe tải mang logo công ty vận chuyển thực phẩm đã đến nhận hàng tại Oakland trước khi thực hiện nhiều điểm dừng kéo dài nhiều giờ và mất dấu vết hoàn toàn tại khu vực miền nam California.",
+        "Sự cố mất cắp lô hàng trung tâm dữ liệu này phản ánh những rủi ro lớn về bảo mật vật lý trong ngành bán dẫn, khi các nhóm tội phạm ngày càng nhắm vào thiết bị điện toán giá trị cao."
+      ],
+      "summary_en": [
+        "Six pallets of Nvidia computer components worth approximately 11.4 million dollars mysteriously disappeared during a road shipment from California to Texas, raising serious concerns about high-tech supply chain security.",
+        "The truck bearing a food transportation company logo picked up the merchandise in Oakland before making multiple prolonged stops and completely losing its trail in the southern California region.",
+        "This data center freight theft incident reflects major physical security risks in the semiconductor industry, as criminal rings increasingly target high-value computing equipment during transit."
+      ],
+      "originalTitle": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+      "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Nvidia",
+        "Hardware",
+        "Supply Chain",
+        "Security",
+        "Semiconductor"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-13T18:40:44.000Z",
+      "contentSnippet": "Six pallets of NVIDIA computer hardware worth a reported $11.4 million disappeared during a shipment from California to Texas. A truck collected the merchandise in Oakland on Aug. 29 for delivery to Fort Worth. Investigators reportedly tracked the vehicle through several extended stops before losing",
+      "authorName": "crescit_eundo",
+      "upvotes": 242,
+      "commentsCount": 130
+    },
     {
       "id": "7ce65222bc1c064b",
       "title_vi": "Hướng dẫn chuyển đổi cơ sở dữ liệu sang Cloud Server: quy trình dump, đồng bộ và cutover cho MySQL, PostgreSQL",
@@ -33,6 +236,40 @@
       "publishedAt": "2026-11-13T16:36:46.000Z",
       "contentSnippet": "Migration database thường là bước khiến dev ngại nhất khi chuyển sang Cloud Server mới. Copy code thì dễ, còn dữ liệu vẫn thay đổi từng giây trong lúc...",
       "authorName": "Cloud Server",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "07f85e55f4eee7c3",
+      "title_vi": "Lỗ hổng zero-day trong Windows bị phát tán trao cho hacker quyền Hệ thống",
+      "title_en": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+      "summary_vi": [
+        "Một nhà nghiên cứu bảo mật có mâu thuẫn với Microsoft vừa công bố lỗ hổng zero-day mới có tên SignDrop trên hệ điều hành Windows, cho phép người dùng cục bộ leo thang đặc quyền lên mức Hệ thống tối cao.",
+        "Lỗ hổng khai thác cơ chế hoạt động của Hệ thống Nhật ký Tệp Chung kết hợp với Windows Defender thông qua việc thao túng liên kết tượng trưng của trình quản lý đối tượng để lừa công cụ quét virus tạo tệp với đặc quyền cao.",
+        "Sự cố này gióng lên hồi chuông cảnh báo về rủi ro bảo mật từ các tiến trình đặc quyền trong hệ điều hành, buộc các kỹ sư hệ thống phải nhanh chóng triển khai biện pháp vá lỗi để ngăn chặn nguy cơ tấn công."
+      ],
+      "summary_en": [
+        "A security researcher in ongoing dispute with Microsoft has disclosed a new Windows zero-day vulnerability named SignDrop, allowing local users to escalate their privileges to full System rights.",
+        "The vulnerability exploits the interaction between the Common Log File System and Windows Defender by manipulating object manager symbolic links to trick the antivirus engine into creating files with elevated privileges.",
+        "This security incident highlights severe risks associated with privileged operating system processes, requiring system engineers to urgently implement patches to prevent potential privilege escalation attacks."
+      ],
+      "originalTitle": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+      "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
+      "sourceName": "Ars Technica",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Windows",
+        "Zero-day",
+        "Privilege Escalation",
+        "Microsoft"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-13T16:26:32.000Z",
+      "contentSnippet": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
+      "authorName": "\n                    Dan Goodin\n                ",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -891,6 +1128,42 @@
       "authorName": "Castaly",
       "upvotes": 0,
       "commentsCount": 0
+    },
+    {
+      "id": "9ff6b9cc4f993368",
+      "title_vi": "Giao thức ngữ cảnh mô hình MCP: Đơn giản hóa quá mức hay thách thức thực tế?",
+      "title_en": "MCP Is Dead Simple. And That's Exactly the Problem",
+      "summary_vi": [
+        "Bài viết phân tích bản chất của Model Context Protocol, một tiêu chuẩn mới giúp các ứng dụng AI giao tiếp hiệu quả hơn, đồng thời chỉ ra rằng sự đơn giản ban đầu thường che giấu những phức tạp kỹ thuật tiềm ẩn.",
+        "Tác giả nhấn mạnh rằng việc triển khai MCP chỉ mất vài phút với khoảng 150 dòng mã, nhưng các vấn đề thực tế như tính an toàn, khả năng xử lý lỗi và tính lũy đẳng lại đòi hỏi sự đầu tư nghiêm túc.",
+        "Thông qua kinh nghiệm thực tế, bài viết cảnh báo các lập trình viên không nên chủ quan với các giao thức mới, đồng thời cung cấp cái nhìn sâu sắc về cách xây dựng hệ thống AI bền vững trong môi trường sản xuất."
+      ],
+      "summary_en": [
+        "The article analyzes the nature of the Model Context Protocol, a new standard for AI application communication, while highlighting that its initial simplicity often masks significant underlying technical complexities and implementation challenges.",
+        "The author notes that while a basic MCP implementation takes only minutes and roughly 150 lines of code, real-world production requirements like safety, error handling, and idempotency demand much more rigorous engineering effort.",
+        "Drawing from practical experience, the piece warns developers against underestimating new protocols and provides valuable insights into building robust, scalable AI agent systems that can reliably function in production environments."
+      ],
+      "originalTitle": "MCP Is Dead Simple. And That's Exactly the Problem",
+      "url": "https://dev.to/sylwia-lask/mcp-is-dead-simple-and-thats-exactly-the-problem-5811",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "MCP",
+        "Software Architecture",
+        "Agents",
+        "Protocol"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-12T08:14:36.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4ajaeuift6x1wfndpe9s.png",
+      "contentSnippet": "What exactly is MCP? Is it some mysterious technology that requires secret knowledge to implement?...",
+      "authorName": "Sylwia Laskowska",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3535771%2Fe22860d5-274b-43c9-819b-56b162e5bd5a.jpeg",
+      "upvotes": 135,
+      "commentsCount": 103
     },
     {
       "id": "59dbb160d4948146",
@@ -8295,280 +8568,6 @@
       "publishedAt": "2026-11-02T01:59:00.000Z",
       "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/2/hv3rk88buaain9p-90649708433942913634755-1793581854106-1793581854707984791896-27-0-701-1079-crop-1793581931117364828179.jpg",
       "contentSnippet": "VTV.vn - Với nguồn token không giới hạn, kỹ sư này chỉ có 4 tuần để tìm ra giải pháp viết lại 98% mã nguồn của Cisco được hình thành từ hàng chục năm nay.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "27de172d385cfeb4",
-      "title_vi": "Quản lý tại Anthropic ngừng kiểm tra lập trình khi tuyển dụng vì trí tuệ nhân tạo",
-      "title_en": "Anthropic Hiring Manager Drops Coding Tests as AI Outperforms Humans",
-      "summary_vi": [
-        "Felix Rieseberg, quản lý tuyển dụng tại Anthropic, đã chính thức dừng hoàn toàn các bài kiểm tra lập trình truyền thống từ tháng 10 khi nhận thấy trí tuệ nhân tạo hiện đang xử lý mã nguồn tốt hơn con người.",
-        "Các mô hình Claude của công ty thể hiện khả năng nắm bắt và viết mã vượt trội, khiến các bài đánh giá kỹ thuật dạng cũ không còn mang lại ý nghĩa thực tế trong việc đo lường năng lực ứng viên.",
-        "Quyết định này phản ánh xu hướng dịch chuyển trong ngành công nghệ, buộc các nhà quản lý phải tìm kiếm những phương thức đánh giá mới tập trung vào gu thẩm mỹ, sự thấu cảm và tư duy nguyên tắc."
-      ],
-      "summary_en": [
-        "Felix Rieseberg, a hiring manager at Anthropic, officially stopped traditional coding tests in October after realizing that artificial intelligence is now outperforming humans in writing source code.",
-        "The company's Claude models demonstrate superior code comprehension and generation capabilities, making legacy technical assessments practically meaningless for evaluating candidate competency today.",
-        "This decision reflects a shifting trend in the tech industry, forcing engineering managers to adopt novel evaluation methods focused on aesthetic taste, empathy, and principled architectural thinking."
-      ],
-      "originalTitle": "Quản lý Anthropic không còn kiểm tra lập trình khi tuyển dụng",
-      "url": "https://vnexpress.net/quan-ly-anthropic-khong-con-kiem-tra-lap-trinh-khi-tuyen-dung-5139427.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Software Engineering",
-        "Anthropic",
-        "Claude",
-        "Tech Trends"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-02T01:44:02.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/01/dsc02951-jpg-1793542221-3212-1793542272.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=R_qLKu2VcZI4HSHlYUkb9g",
-      "contentSnippet": "Felix Rieseberg, quản lý tuyển dụng tại Anthropic, nói đã dừng hoàn toàn bài kiểm tra lập trình khi tuyển dụng vì AI đang làm tốt hơn con người.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "fb61c65e8ae61746",
-      "title_vi": "Cấu trúc dữ liệu và giải thuật bài 115: Cây phân đoạn bền vững để lưu trữ và truy vấn mọi phiên bản lịch sử dữ liệu",
-      "title_en": "Data Structures and Algorithms Article 115: Persistent Segment Tree for Storing and Querying All Historical Data Versions",
-      "summary_vi": [
-        "Bài viết phân tích cấu trúc dữ liệu cây phân đoạn bền vững, giải pháp quan trọng giải quyết các bài toán hệ thống lưu trữ phân tán và cơ sở dữ liệu đòi hỏi tính năng truy vấn thời gian.",
-        "Cơ chế hoạt động tập trung vào việc chia sẻ nút giữa các phiên bản nhằm tiết kiệm bộ nhớ, cho phép thực hiện các truy vấn trên mọi trạng thái lịch sử của tập dữ liệu một cách tối ưu.",
-        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư phần mềm khi xây dựng các hệ thống quản lý dữ liệu phức tạp đòi hỏi tính toàn vẹn và khả năng kiểm soát phiên bản mạnh mẽ."
-      ],
-      "summary_en": [
-        "The article analyzes the persistent segment tree data structure, an essential solution for distributed storage systems and databases requiring advanced time travel query capabilities.",
-        "The operational mechanism focuses on sharing nodes across different versions to save memory, enabling optimal queries over any historical state of the dataset efficiently.",
-        "This knowledge provides high practical value for software engineers building complex data management systems that demand strong data integrity and robust version control."
-      ],
-      "originalTitle": "Cấu trúc dữ liệu và Giải thuật Bài 115: Cây phân đoạn bền vững (Persistent Segment Tree) - Lưu trữ và truy vấn mọi phiên bản lịch sử của dữ liệu",
-      "url": "https://viblo.asia/p/cau-truc-du-lieu-va-giai-thuat-bai-115-cay-phan-doan-ben-vung-persistent-segment-tree-luu-tru-va-truy-van-moi-phien-ban-lich-su-cua-du-lieu-Nj4vgOpvJ6r",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Data Structures",
-        "Algorithms",
-        "Databases",
-        "Persistent Segment Tree",
-        "Software Engineering"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-11-02T00:23:32.000Z",
-      "contentSnippet": "Trong các bài toán hệ thống lưu trữ và cơ sở dữ liệu phân tán, nhu cầu truy vấn dữ liệu theo trục thời gian (Time-travel Query, Snapshot Isolation, cơ...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "bf6fb84e364d9492",
-      "title_vi": "Người dùng ngôn ngữ ít phổ biến đang phải gánh chịu chi phí sử dụng AI cao hơn",
-      "title_en": "Low-Resource Language Users Face Higher AI Token Costs and Disadvantages",
-      "summary_vi": [
-        "Việc sử dụng các ngôn ngữ ít phổ biến khi tương tác với trí tuệ nhân tạo khiến mô hình tiêu thụ nhiều token hơn đáng kể so với tiếng Anh, gây ra thế bất lợi rõ rệt cho người dùng.",
-        "Hiện tượng thuế token ẩn xảy ra do bộ phân tách văn bản tokenizer phải xử lý phức tạp hơn, làm giảm đáng kể không gian lưu trữ tài liệu và lịch sử hội thoại trong cửa sổ ngữ cảnh.",
-        "Vấn đề này tạo ra rào cản kinh tế và kỹ thuật lớn trong việc tiếp cận công nghệ trí tuệ nhân tạo, đòi hỏi các kỹ sư cần tối ưu hóa mô hình ngôn ngữ lớn để hỗ trợ đa dạng ngôn ngữ."
-      ],
-      "summary_en": [
-        "Using low-resource languages for interacting with artificial intelligence forces models to consume significantly more tokens than English, creating clear disadvantages for users worldwide.",
-        "The hidden token tax phenomenon occurs because tokenizers require more complex processing, severely reducing the available storage space for documents and chat history within context windows.",
-        "This issue creates major economic and technical barriers to AI adoption, requiring software engineers to optimize large language models for better multilingual support and fairness."
-      ],
-      "originalTitle": "Người dùng ngôn ngữ ít phổ biến tốn nhiều tiền hơn cho AI",
-      "url": "https://vnexpress.net/nguoi-dung-ngon-ngu-it-pho-bien-ton-nhieu-tien-hon-cho-ai-5139003.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "LLM",
-        "Tokenizer",
-        "NLP",
-        "Context Window"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/10/31/DSC00706JPG-1793389287-3082-1793389836.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=r_VZI6qLRcoaibBa2jImdA",
-      "contentSnippet": "Khi sử dụng ngôn ngữ ít phổ biến, AI tiêu thụ nhiều token hơn, khiến người dùng gặp bất lợi so với người nói tiếng Anh hoặc ngôn ngữ thịnh hành khác.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f7db346c601d810a",
-      "title_vi": "Đừng để AI biến bạn thành lập trình viên copy-paste: 7 sai lầm khi dùng trí tuệ nhân tạo học code",
-      "title_en": "Stop Letting AI Turn You Into a Copy-Paste Developer: 7 Mistakes When Learning Programming With AI",
-      "summary_vi": [
-        "Sự bùng nổ của các trợ lý lập trình thông minh như ChatGPT hay Claude đang thay đổi hoàn toàn cách người mới bắt đầu tiếp cận với ngành công nghệ thông tin và học viết mã nguồn.",
-        "Lạm dụng công cụ tự động sinh mã mà không hiểu rõ bản chất thuật toán sẽ dẫn đến những lỗ hổng kiến thức nền tảng trầm trọng trong tư duy logic và kỹ năng giải quyết vấn đề.",
-        "Lập trình viên cần biết cách kết hợp công cụ hỗ trợ thông minh một cách có chọn lọc để rèn luyện tư duy cốt lõi thay vì phụ thuộc hoàn toàn vào các đoạn mã có sẵn."
-      ],
-      "summary_en": [
-        "The rapid growth of intelligent coding assistants like ChatGPT and Claude is completely transforming how beginners approach the information technology industry and learn software development.",
-        "Overusing automated code generation tools without thoroughly understanding algorithmic principles leads to critical gaps in foundational knowledge, logical thinking, and problem-solving skills.",
-        "Developers must learn how to selectively integrate smart assistive tools to sharpen their core reasoning capabilities rather than depending entirely on pre-written code snippets."
-      ],
-      "originalTitle": "Đừng để AI biến bạn thành “dev copy-paste”: 7 sai lầm khi dùng AI để học lập trình",
-      "url": "https://viblo.asia/p/dung-de-ai-bien-ban-thanh-dev-copy-paste-7-sai-lam-khi-dung-ai-de-hoc-lap-trinh-OQJwzOxp4MP",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "AI",
-        "ChatGPT",
-        "Programming",
-        "Software Development",
-        "Learning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-01T22:22:44.000Z",
-      "contentSnippet": "Hầu như ai mới học code bây giờ cũng dùng ChatGPT, Claude hay Gemini. AI giải thích lỗi trong vài giây, viết hàm trong vài giây. Nhưng có một cái bẫy:...",
-      "authorName": "Tommy Nick",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "daab7196ccb1c52e",
-      "title_vi": "Biểu tượng Apple Touch: Biểu tượng iOS mà trang web của bạn đang bỏ quên",
-      "title_en": "apple-touch-icon: the iOS icon your website forgot",
-      "summary_vi": [
-        "Việc thiếu thẻ liên kết apple-touch-icon trong mã nguồn HTML khiến các trang web trở nên kém chuyên nghiệp khi người dùng iPhone lưu trực tiếp đường dẫn trang lên màn hình chính thiết bị di động.",
-        "Bằng cách khai báo chính xác kích thước và đường dẫn hình ảnh đồ họa thông qua thẻ meta chuyên dụng, nhà phát triển web có thể tối ưu hóa giao diện hiển thị biểu tượng ứng dụng trên hệ điều hành iOS.",
-        "Việc bổ sung chi tiết nhỏ này mang lại trải nghiệm người dùng hoàn hảo hơn, nâng cao độ nhận diện thương hiệu và thể hiện sự tinh tế trong quy trình phát triển giao diện web hiện đại."
-      ],
-      "summary_en": [
-        "The absence of the apple-touch-icon link tag in the HTML source code causes websites to look unprofessional when iPhone users save site links directly to their mobile home screens.",
-        "By correctly declaring image dimensions and file paths through dedicated meta tags, web developers can optimize the visual display of application icons on the iOS operating system.",
-        "Adding this minor detail delivers a more seamless user experience, enhances brand recognition, and demonstrates thorough attention to detail in modern web front-end development."
-      ],
-      "originalTitle": "apple-touch-icon: the iOS icon your website forgot",
-      "url": "https://viblo.asia/p/apple-touch-icon-the-ios-icon-your-website-forgot-wd43ExzXLX9",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iOS",
-        "Web Development",
-        "HTML",
-        "UI/UX",
-        "Mobile"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-11-01T21:26:00.000Z",
-      "contentSnippet": "Drop an apple-touch-icon link tag into your HTML and iOS will love you. Skip it, and every iPhone user who saves your site to their home screen gets.....",
-      "authorName": "Easy Twentyeight",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f891cdaf136344b0",
-      "title_vi": "Kiến trúc đồng bộ tin nhắn Local-first SQLite và hàng đợi BullMQ cho ứng dụng quản lý đa tài khoản realtime",
-      "title_en": "Local-first SQLite Message Synchronization Architecture and BullMQ Queue for Real-time Multi-account Management Applications",
-      "summary_vi": [
-        "Hệ thống nhắn tin hợp nhất đòi hỏi khả năng vận hành đồng thời hàng chục tài khoản chat trên cùng một giao diện màn hình mà vẫn đảm bảo hiệu suất mượt mà.",
-        "Giải pháp kiến trúc kết hợp cơ sở dữ liệu Local-first sử dụng SQLite cùng hệ thống hàng đợi BullMQ giúp tối ưu hóa tốc độ xử lý dữ liệu và đồng bộ trạng thái tin nhắn thời gian thực.",
-        "Mô hình này mang lại giá trị thực tiễn cao cho các nhà phát triển phần mềm khi xây dựng ứng dụng chat đa nền tảng, giải quyết triệt để bài toán nghẽn cổ chai và độ trễ."
-      ],
-      "summary_en": [
-        "The unified messaging system requires the capability to simultaneously operate dozens of chat accounts on a single screen interface while ensuring smooth performance.",
-        "The architectural solution combining a Local-first database using SQLite with the BullMQ queue system helps optimize data processing speed and real-time message state synchronization.",
-        "This model delivers high practical value for software developers building multi-platform chat applications, completely resolving bottlenecks and latency issues."
-      ],
-      "originalTitle": "Kiến trúc đồng bộ tin nhắn Local-first SQLite và hàng đợi BullMQ cho ứng dụng quản lý đa tài khoản realtime",
-      "url": "https://viblo.asia/p/kien-truc-dong-bo-tin-nhan-local-first-sqlite-va-hang-doi-bullmq-cho-ung-dung-quan-ly-da-tai-khoan-realtime-oKLnqjdQJQO",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "SQLite",
-        "BullMQ",
-        "Realtime",
-        "Architecture",
-        "NodeJS"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-11-01T19:12:00.000Z",
-      "contentSnippet": "Khi xây dựng một hệ thống nhắn tin hợp nhất (Unified Inbox) cho phép vận hành đồng thời hàng chục tài khoản chat trên cùng một màn hình — chạy xuyên s...",
-      "authorName": "quy le",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "eced6d7fe42d85d1",
-      "title_vi": "Toán học đã thay đổi và chúng ta phải thích ứng với trí tuệ nhân tạo",
-      "title_en": "Mathematics has changed. Let's act like it",
-      "summary_vi": [
-        "Sự kiện công ty trí tuệ nhân tạo phát hành hàng trăm bài báo nghiên cứu đánh dấu bước ngoặt lịch sử khi máy móc chính thức có khả năng đóng góp mang tính đột phá cho nhiều lĩnh vực toán học.",
-        "Bất chấp những tranh cãi về tiêu chuẩn trích dẫn học thuật và chất lượng tài liệu do hệ thống tự động tạo ra, công nghệ này vẫn tạo ra những tác động mạnh mẽ đến phương pháp nghiên cứu truyền thống.",
-        "Cộng đồng toán học cần chủ động thay đổi cách thức tuyển dụng, xuất bản bài báo và đào tạo sinh viên thay vì lo lắng trước sự lấn át của các tập đoàn công nghệ lớn."
-      ],
-      "summary_en": [
-        "The release of hundreds of research papers by an artificial intelligence company marks a historical turning point where machines officially demonstrate the capability to make groundbreaking contributions across mathematics.",
-        "Despite controversies regarding academic citation standards and the quality of automatically generated documents, this technology continues to exert profound impacts on traditional research methodologies.",
-        "The mathematical community needs to proactively adapt its hiring practices, publishing standards, and student education rather than merely worrying about the dominance of major technology corporations."
-      ],
-      "originalTitle": "Mathematics has changed. Let's act like it",
-      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Mathematics",
-        "Research",
-        "OpenAI"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-01T18:28:42.000Z",
-      "contentSnippet": "[This is a guest post by Frank Calegari. This blog post was initially written in a different file format and converted using AI. — T.] The release by OpenAI on October 6 of over 700 research papers was a watershed in the history of mathematics. AI is now undeniably capable of making groundbreaking c",
-      "authorName": "smilelamp",
-      "upvotes": 125,
-      "commentsCount": 146
-    },
-    {
-      "id": "d8dc2fdd2caed9dd",
-      "title_vi": "iPhone 18 Pro Max ghi nhận mức giảm giá đầu tiên tại thị trường Việt Nam",
-      "title_en": "iPhone 18 Pro Max records its first price reduction in the Vietnamese market",
-      "summary_vi": [
-        "Sau hơn sáu tuần chính thức lên kệ tại thị trường Việt Nam, dòng điện thoại thông minh cao cấp mới nhất của Apple vẫn duy trì mức giá niêm yết ban đầu tại các chuỗi bán lẻ lớn.",
-        "Tuy nhiên, một số cửa hàng bán lẻ quy mô nhỏ hơn đã bắt đầu áp dụng những đợt điều chỉnh giảm giá đầu tiên nhằm kích cầu người tiêu dùng và tăng tính cạnh tranh trong giai đoạn cuối năm.",
-        "Động thái điều chỉnh giá bán phần cứng di động này phản ánh sức mua thực tế của thị trường, đồng thời mang lại cơ hội tiếp cận thiết bị công nghệ cao với chi phí tối ưu hơn cho người dùng."
-      ],
-      "summary_en": [
-        "After more than six weeks of official release in the Vietnamese market, Apple's latest high-end smartphone lineup continues to maintain its initial listed price across major retail chains.",
-        "However, some smaller-scale retail stores have begun implementing the first price reduction adjustments to stimulate consumer demand and enhance competitiveness during the end-of-year shopping season.",
-        "This hardware pricing adjustment reflects the actual market purchasing power while providing users with an opportunity to access high-end mobile technology at a more optimized cost."
-      ],
-      "originalTitle": "iPhone 18 Pro Max giảm giá",
-      "url": "https://genk.vn/iphone-18-pro-max-giam-gia-165261101153841958.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Mobile",
-        "Retail",
-        "Smartphones"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-11-01T12:54:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/1/avatar1793522258686-1793522260123169389463.jpg",
-      "contentSnippet": "Sau hơn 6 tuần lên kệ tại Việt Nam, iPhone 18 Pro Max chính hãng vẫn được các chuỗi bán lẻ lớn giữ nguyên giá niêm yết, khởi điểm 41,99 triệu đồng. Tuy nhiên tại 1 số cửa hàng, mẫu điện thoại mới của Apple đã có mức giảm đầu tiên.",
       "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
