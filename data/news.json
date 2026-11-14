@@ -1,7 +1,74 @@
 {
-  "lastUpdated": "2026-11-14T12:45:58.760Z",
+  "lastUpdated": "2026-11-14T21:51:38.976Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "854af371d6487b24",
+      "title_vi": "Django: Sử dụng đúng cách các thuộc tính auto_now và auto_now_add cùng giải pháp thay thế bằng default=timezone.now",
+      "title_en": "Django: Proper Usage of auto_now and auto_now_add and When to Replace Them with default equals timezone.now",
+      "summary_vi": [
+        "Hầu hết các mô hình dữ liệu trong Django đều cần hai trường thời gian quan trọng là thời điểm tạo bản ghi và thời điểm cập nhật lần cuối cho các nghiệp vụ quản lý.",
+        "Các lập trình viên thường sử dụng nhanh thuộc tính auto_now hoặc auto_now_add nhưng việc này có thể gây ra những lỗi không mong muốn liên quan đến múi giờ và thời điểm lưu trữ.",
+        "Bài viết phân tích chi tiết cơ chế hoạt động của các thuộc tính trên và đưa ra lời khuyên nên thay thế bằng default bằng timezone.now để kiểm soát dữ liệu chính xác hơn."
+      ],
+      "summary_en": [
+        "Most Django data models require two essential timestamp fields to track record creation and last updated moments for business management purposes.",
+        "Developers frequently rely on auto_now or auto_now_add attributes quickly, but this approach can introduce unexpected issues regarding timezones and data persistence moments.",
+        "The article provides a detailed analysis of these attributes' underlying mechanisms and recommends replacing them with default equals timezone.now for precise data control."
+      ],
+      "originalTitle": "Django: dùng auto_now và auto_now_add đúng cách — khi nào nên thay bằng default=timezone.now",
+      "url": "https://viblo.asia/p/django-dung-auto-now-va-auto-now-add-dung-cach-khi-nao-nen-thay-bang-defaulttimezonenow-k74a96Ql4eO",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Django",
+        "Python",
+        "Web Development",
+        "Database",
+        "Backend"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-14T22:32:37.000Z",
+      "contentSnippet": "Hầu hết model Django đều có hai trường thời gian: createdat để biết bản ghi được tạo khi nào và updatedat cho lần sửa cuối. Cách nhanh nhất là autonow...",
+      "authorName": "Linh Fish Dev",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b808987f4f3907d0",
+      "title_vi": "Hành trình 5 năm trở thành kỹ sư backend tại ANZ của nữ lập trình viên",
+      "title_en": "A Female Backend Engineer's Five-Year Journey to Conquering ANZ",
+      "summary_vi": [
+        "Bài viết kể về hành trình phấn đấu trong sự nghiệp công nghệ thông tin của một nữ kỹ sư phần mềm chuyên về hệ thống backend để chinh phục thành công vị trí tại tập đoàn tài chính quốc tế ANZ sau năm năm nỗ lực không ngừng nghỉ.",
+        "Nhân vật đã chia sẻ những kinh nghiệm thực tế về việc xây dựng các hệ thống backend quy mô lớn, tối ưu hóa hiệu suất xử lý dữ liệu và áp dụng các mô hình kiến trúc phần mềm tiên tiến nhằm đảm bảo tính bảo mật và ổn định cho dịch vụ ngân hàng.",
+        "Câu chuyện mang lại nguồn cảm hứng lớn cho cộng đồng lập trình viên nữ, đồng thời cung cấp những bài học quý giá về định hướng phát triển chuyên môn, kỹ năng giải quyết vấn đề kỹ thuật phức tạp trong môi trường làm việc toàn cầu."
+      ],
+      "summary_en": [
+        "The article highlights the inspiring career journey of a female software engineer specializing in backend systems who successfully secured a position at the international financial group ANZ after five years of dedicated effort.",
+        "The engineer shared practical experiences in building large-scale backend systems, optimizing data processing performance, and applying advanced software architecture patterns to ensure high security and stability for banking services.",
+        "This story serves as a major source of inspiration for female developers while providing valuable lessons on professional development planning and tackling complex technical challenges within global working environments."
+      ],
+      "originalTitle": "CHINH PHỤC ANZ SAU 5 NĂM LÀM BACKEND ENGINEER CỦA NỮ HỌC VIÊN",
+      "url": "https://viblo.asia/p/chinh-phuc-anz-sau-5-nam-lam-backend-engineer-cua-nu-hoc-vien-R5JRQrgr4Gv",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Backend",
+        "Software Engineering",
+        "Career",
+        "ANZ"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-14T20:21:39.000Z",
+      "contentSnippet": "Trong hành trình sự nghiệp công nghệ, việc tìm kiếm cơ hội tại các tập đoàn quốc tế luôn là mục tiêu của nhiều kỹ sư phần mềm. Với một kỹ sư backend c...",
+      "authorName": "EngineerPro",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "32665cd6513d577e",
       "title_vi": "Cách tôi tạo ảnh động phản hồi tùy chỉnh cho nhóm chat bằng trí tuệ nhân tạo chuyển văn bản thành ảnh động",
@@ -33,6 +100,209 @@
       "publishedAt": "2026-11-14T18:18:14.000Z",
       "contentSnippet": "My team's reaction GIFs were always the same three recycled clips, until someone dared us to make our own. It turns out the fastest way is to simply d...",
       "authorName": "will",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a21cc815013d30aa",
+      "title_vi": "Cây gia phả của các chức danh phần mềm",
+      "title_en": "A Family Tree of Software Job Titles",
+      "summary_vi": [
+        "Trong một vài năm, tôi là 'Trưởng nhóm DevOps'.",
+        "Trước khi nhận được chức danh đó, tôi đã làm nhiều công việc tương tự dưới những cái tên khác và kể từ đó, tôi đã xem tác phẩm tương tự được gọi là SRE, và sau đó nó dường như chuyển sang hướng kỹ thuật nền tảng.",
+        "Nếu bạn đã làm việc trong ngành này một thời gian, bạn sẽ thấy các tựa sách đến rồi đi như thế này và bạn có thể tự hỏi tất cả chúng đến từ đâu."
+      ],
+      "summary_en": [
+        "For a few years I was ‘Head of DevOps’.",
+        "Before I got that job title I’d done much the same work under other names, and since then I’ve watched the same work get called SRE, and then it seemed to morph towards platform engineering.",
+        "If you’ve been in this industry for any length of time you’ll have seen titles come and go like this, and you might have wondered where they all came from."
+      ],
+      "originalTitle": "A Family Tree of Software Job Titles",
+      "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Claude"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-11-14T17:45:19.000Z",
+      "contentSnippet": "For a few years I was ‘Head of DevOps’. Before I got that job title I’d done much the same work under other names, and since then I’ve watched the same work get called SRE, and then it seemed to morph towards platform engineering. If you’ve been in this industry for any length of time you’ll have se",
+      "authorName": "umerf",
+      "upvotes": 121,
+      "commentsCount": 54
+    },
+    {
+      "id": "94aa6d9b525a12a4",
+      "title_vi": "Ứng dụng tạo bằng AI làm lộ thông tin hộ chiếu và hơn 200 nghìn tin nhắn riêng tư",
+      "title_en": "Lovable apps expose passport details and more than 200K private messages",
+      "summary_vi": [
+        "Nền tảng phát triển ứng dụng web dựa trên trí tuệ nhân tạo đang tạo ra những rủi ro bảo mật nghiêm trọng khi cho phép truy cập dữ liệu nhạy cảm mà không cần đăng nhập xác thực.",
+        "Qua việc kiểm tra hàng ngàn dự án được tạo tự động, các chuyên gia phát hiện nhiều lỗ hổng rò rỉ thông tin cá nhân do thiếu cơ chế kiểm soát quyền truy cập cơ sở dữ liệu.",
+        "Sự việc đặt ra vấn đề lớn về trách nhiệm bảo mật giữa nhà cung cấp nền tảng mã nguồn thấp và lập trình viên thiếu kinh nghiệm trong việc xử lý dữ liệu người dùng."
+      ],
+      "summary_en": [
+        "Artificial intelligence-driven web development platforms are creating critical security risks by allowing unauthorized access to sensitive user data without authentication.",
+        "By examining thousands of auto-generated projects, researchers discovered numerous vulnerabilities leaking personal information due to a lack of database access control mechanisms.",
+        "This incident raises serious concerns regarding security accountability between low-code platform providers and inexperienced developers handling confidential user data."
+      ],
+      "originalTitle": "Lovable apps expose passport details and more than 200K private messages",
+      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "AI",
+        "Cybersecurity",
+        "Web Development",
+        "Data Leak",
+        "Low-Code"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-14T17:43:10.000Z",
+      "contentSnippet": "AI makes it easier to build your own web applications, but handling sensitive data still requires special care. We examined 159,041 Lovable projects and found many cases where personal and confidential information was accessible without logging in. Lovable is a Swedish AI startup founded in Stockhol",
+      "authorName": "armcat",
+      "upvotes": 473,
+      "commentsCount": 166
+    },
+    {
+      "id": "9ed594075d0bf1a5",
+      "title_vi": "Các trang dự án được thiết kế lại của PyPI hiện đã trực tuyến với các tín hiệu bảo mật rõ ràng hơn",
+      "title_en": "PyPI's redesigned project pages with clearer security signals are now live",
+      "summary_vi": [
+        "Kho lưu trữ mã nguồn Python PyPI vừa chính thức ra mắt giao diện trang dự án được thiết kế lại hoàn toàn nhằm nâng cao khả năng hiển thị các tín hiệu bảo mật cho cộng đồng lập trình viên.",
+        "Bản cập nhật tích hợp các chứng thực kỹ thuật số mới tuân thủ hướng dẫn từ OpenSSF, giúp hiển thị trạng thái nguồn gốc xuất xứ của từng tệp phát hành một cách minh bạch và trực quan hơn.",
+        "Sự cải tiến này mang lại giá trị thiết thực giúp các kỹ sư phần mềm dễ dàng đánh giá mức độ an toàn của thư viện, giảm thiểu rủi ro từ các cuộc tấn công chuỗi cung ứng phần mềm ngày càng gia tăng."
+      ],
+      "summary_en": [
+        "The Python Package Index has officially launched a redesigned project page interface aimed at significantly improving the visibility of security signals for the entire developer community.",
+        "The update integrates new digital attestations following OpenSSF guidelines, making it much more transparent and intuitive to display the provenance status of every single release file.",
+        "This enhancement provides practical value by helping software engineers easily assess library security levels, thereby mitigating risks from increasingly sophisticated software supply chain attacks."
+      ],
+      "originalTitle": "PyPI's redesigned project pages with clearer security signals are now live",
+      "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "PyPI",
+        "Python",
+        "Security",
+        "OpenSSF",
+        "Supply Chain"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-14T15:40:52.000Z",
+      "contentSnippet": "In July, we announced a series of planned updates to the PyPI user interface. Shaped by user research with members of the Python community, the updates aim to improve how we surface security signals and display package details. We're pleased to share that this work is now complete and live on PyPI. ",
+      "authorName": "rbanffy",
+      "upvotes": 171,
+      "commentsCount": 78
+    },
+    {
+      "id": "74ce09572bbce703",
+      "title_vi": "Khám phá các ưu đãi thiết bị công nghệ và đồng hồ thông minh nổi bật trong chương trình khuyến mãi lớn của REI",
+      "title_en": "Discover standout tech gadgets and smartwatch deals from REI's major holiday sale event",
+      "summary_vi": [
+        "Đợt giảm giá lớn dịp lễ của nhà bán lẻ thiết bị ngoài trời mang đến cơ hội sở hữu nhiều thiết bị công nghệ đeo tay và phụ kiện di động với mức giá ưu đãi hấp dẫn.",
+        "Nhiều dòng đồng hồ thông minh tích hợp định vị GPS đa băng tần, cảm biến nhịp tim, màn hình OLED cùng các thiết bị liên lạc vệ tinh nhận được mức giảm giá sâu.",
+        "Sự kiện này giúp người dùng và các kỹ sư công nghệ dễ dàng tiếp cận các thiết bị phần cứng cao cấp phục vụ cho việc theo dõi sức khỏe và kết nối ngoài trời."
+      ],
+      "summary_en": [
+        "The major holiday sale event from the outdoor retailer brings an opportunity to acquire numerous wearable tech devices and mobile accessories at attractive discounted prices.",
+        "Many smartwatch lineups featuring multiband GPS, heart rate sensors, OLED displays, and satellite communication devices are receiving substantial price cuts.",
+        "This event helps tech enthusiasts and engineers easily access high-end hardware devices for health tracking and reliable outdoor connectivity."
+      ],
+      "originalTitle": "Here are our favorite deals from REI’s giant Holiday Sale",
+      "url": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Smartwatches",
+        "Wearables",
+        "GPS",
+        "Mobile Accessories",
+        "Hardware"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-14T15:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/fenix8Pro3.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Black Friday has become a shopping season of its own, with retailers once again offering discounts well ahead of the actual shopping holiday. We’ve already rounded up some of the best early Black Friday deals we’ve come across, but if you’re looking to save on outdoor gear or pick up something for a",
+      "authorName": "Sheena Vasani",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6c2539c06ead4df2",
+      "title_vi": "Thành viên hội đồng quản trị OpenAI từng sa thải Sam Altman nhận định rằng chúng ta vẫn chưa thể đặt trọn niềm tin vào các lãnh đạo công nghệ trí tuệ nhân tạo",
+      "title_en": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "summary_vi": [
+        "Helen Toner, cựu thành viên hội đồng quản trị OpenAI, chia sẻ góc nhìn chiến lược về những thách thức trong việc kiểm soát an toàn trí tuệ nhân tạo khi các phòng thí nghiệm chạy đua thương mại hóa.",
+        "Cuộc thảo luận đi sâu vào các cơ chế kỹ thuật như tự cải thiện đệ quy và khả năng tự trị của các mô hình ngôn ngữ lớn, đồng thời phân tích khoảng cách giữa năng lực thực tế của AI và nhận thức lập pháp.",
+        "Bài học cốt lõi cho ngành kỹ sư phần mềm là sự cần thiết phải xây dựng các tiêu chuẩn kiểm soát rủi ro nghiêm ngặt hơn trước khi triển khai các hệ thống trí tuệ nhân tạo thế hệ tiếp theo."
+      ],
+      "summary_en": [
+        "Helen Toner, former OpenAI board member, shares strategic insights on the challenges of artificial intelligence safety governance as leading laboratories rush toward commercialization.",
+        "The discussion delves into technical mechanisms such as recursive self-improvement and large language model autonomy, analyzing the gap between actual AI capabilities and legislative awareness.",
+        "The core takeaway for software engineers is the critical need to establish stricter risk control standards before deploying the next generation of artificial intelligence systems."
+      ],
+      "originalTitle": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "OpenAI",
+        "Machine Learning",
+        "AI Safety",
+        "Anthropic"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-11-14T15:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DCD-Helen-Toner.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for",
+      "authorName": "Nilay Patel",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b49f89710d0140cc",
+      "title_vi": "Acer Nitro ProPanel (ANV16-12) - Tích hợp card đồ họa RTX 3050 và màn hình 100% sRGB cho công việc đồ họa",
+      "title_en": "Acer Nitro ProPanel (ANV16-12) Integrates RTX 3050 GPU and 100% sRGB Display for Graphic Design Workloads",
+      "summary_vi": [
+        "Hãng Acer vừa cho ra mắt dòng máy tính xách tay Acer Nitro ProPanel phiên bản mã ANV16-I12 nhằm đáp ứng tối ưu các yêu cầu khắt khe của người dùng làm công việc sáng tạo hình ảnh kỹ thuật số.",
+        "Thiết bị được trang bị bộ xử lý đồ họa mạnh mẽ NVIDIA GeForce RTX 3050 kết hợp màn hình hiển thị đạt chuẩn một trăm phần trăm dải màu sRGB giúp tái tạo màu sắc chính xác cho việc chỉnh sửa ảnh.",
+        "Sản phẩm mang lại giải pháp phần cứng kinh tế và hiệu quả cho các nhà thiết kế đồ họa trẻ tuổi cùng những người chuyên biên tập video cần độ chuẩn xác cao trong từng khung hình."
+      ],
+      "summary_en": [
+        "Acer has recently introduced the Acer Nitro ProPanel laptop model ANV16-I12 to optimally meet the rigorous demands of digital content creators and visual artists.",
+        "The device is equipped with a powerful NVIDIA GeForce RTX 3050 graphics processing unit paired with a 100 percent sRGB color gamut display ensuring precise color reproduction for photo editing.",
+        "This product delivers a cost-effective and efficient hardware solution for young graphic designers and video editors who require high accuracy in every single video frame."
+      ],
+      "originalTitle": "Acer Nitro ProPanel (ANV16-12) - Kết hợp RTX 3050 và màn hình 100% sRGB cho nhu cầu thiết kế đồ họa",
+      "url": "https://genk.vn/acer-nitro-propanel-anv16-12-ket-hop-rtx-3050-va-man-hinh-100-srgb-cho-nhu-cau-thiet-ke-do-hoa-165261114202038875.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Acer",
+        "RTX 3050",
+        "Hardware",
+        "Graphic Design",
+        "Laptop"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-14T13:30:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/14/avatar1794662445550-17946624459292046474873.jpg",
+      "contentSnippet": "Bên cạnh khả năng chơi game, laptop gaming ngày nay còn được người dùng lựa chọn cho các công việc sáng tạo nội dung.",
+      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -341,6 +611,40 @@
       "publishedAt": "2026-11-14T03:55:39.000Z",
       "contentSnippet": "Apple TV 4K thế hệ thứ 4 vừa lên kệ ngày 13/11, sau một tháng mở đặt trước. Đây là lần đầu Apple làm mới box xem TV của mình sau 4 năm, với chip A19, Wi-Fi 7 và micro rảnh tay cho Siri AI. Đối thủ...",
       "authorName": "Quocxi",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "25966c6334f351f6",
+      "title_vi": "Lỗi trình điều khiển AMD gây suy giảm tuổi thọ ổ cứng SSD nghiêm trọng - đã có bản cập nhật",
+      "title_en": "AMD Driver Bug Causes Severe SSD Health Degradation - Fix Now Available",
+      "summary_vi": [
+        "Hãng sản xuất phần cứng AMD vừa xác nhận một lỗi nghiêm trọng trong trình điều khiển Adrenalin, gây ra tình trạng ghi dữ liệu liên tục vào ổ cứng hệ thống ngay cả khi máy tính đang ở trạng thái nghỉ ngơi hoàn toàn.",
+        "Cơ chế lỗi này khiến các dòng card đồ họa Radeon RX 7000 và RX 9000 thực hiện các thao tác ghi dữ liệu dư thừa, làm tiêu tốn nhanh chóng chu kỳ ghi của bộ nhớ flash trên các ổ cứng SSD hiện đại.",
+        "Người dùng cần cập nhật ngay phiên bản trình điều khiển mới nhất từ trang chủ AMD để ngăn chặn tình trạng hao mòn phần cứng, bảo vệ dữ liệu cá nhân và duy trì hiệu suất ổn định cho hệ thống máy tính của mình."
+      ],
+      "summary_en": [
+        "Hardware manufacturer AMD has officially confirmed a critical bug within its Adrenalin driver software, which triggers excessive and continuous data write operations to the system drive even when the computer is in an idle state.",
+        "This technical flaw causes Radeon RX 7000 and RX 9000 series graphics cards to perform redundant write cycles, significantly accelerating the wear and tear of flash memory cells on modern solid-state drives installed in the system.",
+        "Users are strongly advised to update to the latest driver version provided by AMD immediately to mitigate hardware degradation risks, protect stored data integrity, and ensure long-term operational stability for their high-performance computing workstations."
+      ],
+      "originalTitle": "Lỗi driver AMD 7000 và RX 9000 làm tụt sức khoẻ SSD nghiêm trọng - đã có bản sửa",
+      "url": "https://tinhte.vn/thread/loi-driver-amd-7000-va-rx-9000-lam-tut-suc-khoe-ssd-nghiem-trong-da-co-ban-sua.4192187/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "AMD",
+        "Driver",
+        "SSD",
+        "Hardware",
+        "Firmware"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-14T02:54:41.000Z",
+      "contentSnippet": "AMD xác nhận driver Adrenalin có lỗi khiến máy dùng card Radeon RX 7000 và RX 9000 ghi dữ liệu quá mức vào ổ hệ thống, ngay cả khi máy đang nghỉ. Ghi liên tục như vậy khiến SSD hao mòn nhanh hơn...",
+      "authorName": "thanhtung6868",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8256,315 +8560,6 @@
       "publishedAt": "2026-11-04T07:30:20.000Z",
       "contentSnippet": "Quick Look là tính năng của MacOS, bấm space là có thể xem nhanh file đó chứa gì bên trong, từ excel, docs, đến các app adobe như ps, định dạng ảnh như png, jpg, nef, cr2, cr3 file 3D như stl… Nó...",
       "authorName": "Nhà Của Cáo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "bbdd36eff87f2104",
-      "title_vi": "Apple chưa thể xác định khi nào iPhone Duo hết khan hàng",
-      "title_en": "Apple remains uncertain when iPhone Duo supply shortages will end",
-      "summary_vi": [
-        "Ban lãnh đạo Apple thông báo tình trạng thiếu hụt nguồn cung dòng điện thoại iPhone Duo có thể tiếp tục kéo dài sang năm tới do nhu cầu thực tế vượt xa mọi dự báo ban đầu của hãng.",
-        "Hiện tượng đầu cơ thiết bị di động bùng nổ mạnh mẽ trên thị trường đã tạo ra áp lực cực lớn lên chuỗi cung ứng phần cứng và năng lực sản xuất toàn cầu của Apple trong giai đoạn này.",
-        "Sự cố khan hàng kéo dài này đặt ra bài toán khó về quản trị chuỗi cung ứng và dự báo nhu cầu thị trường cho các nhà sản xuất thiết bị phần cứng di động hàng đầu."
-      ],
-      "summary_en": [
-        "Apple leadership announced that supply shortages for the iPhone Duo smartphone series may persist into next year as actual market demand far exceeds the company's initial forecasts.",
-        "The surge in mobile device speculation across the market has created immense pressure on hardware supply chains and Apple's global manufacturing capacity during this period.",
-        "This prolonged inventory shortage poses significant challenges in supply chain management and market demand forecasting for leading mobile hardware manufacturers worldwide."
-      ],
-      "originalTitle": "Apple chưa thể xác định khi nào iPhone Duo hết khan hàng",
-      "url": "https://vnexpress.net/apple-chua-the-xac-dinh-khi-nao-iphone-duo-het-khan-hang-5140409.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone Duo",
-        "Mobile",
-        "Supply Chain"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-04T02:16:46.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/03/dscf0070-1793714469-2648-1793714533.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=dLRhiyZRu-NfnlGbg-rbpg",
-      "contentSnippet": "CEO John Ternus và ban lãnh đạo Apple cho biết tình trạng thiếu iPhone Duo có thể kéo dài sang năm sau, khi nhu cầu vượt xa dự kiến và hiện tượng đầu cơ bùng nổ.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1925f0ce33c8ade3",
-      "title_vi": "Quả Táo mở rộng khả năng tùy chỉnh trí tuệ nhân tạo Siri cho nhà phát triển bên thứ ba",
-      "title_en": "Apple expands custom Siri AI capabilities for third-party developers",
-      "summary_vi": [
-        "Hãng công nghệ Quả Táo vừa công bố một sáng kiến mới mang tính đột phá nhằm cho phép các nhà phát triển bên thứ ba chủ động tạo ra những kỹ năng ứng dụng chuyên sâu cho trợ lý ảo thông minh.",
-        "Cơ chế mới này cung cấp các bộ công cụ lập trình ứng dụng tiên tiến cùng các tài nguyên phần mềm chuyên biệt giúp tích hợp sâu các tính năng xử lý ngôn ngữ tự nhiên vào hệ sinh thái di động.",
-        "Động thái này tạo ra bước ngoặt quan trọng đối với cộng đồng lập trình viên di động, mở rộng không gian sáng tạo và mang đến trải nghiệm tương tác liền mạch hơn cho người dùng cuối trên toàn cầu."
-      ],
-      "summary_en": [
-        "The technology giant has recently announced a groundbreaking new initiative designed to empower third-party developers to actively build deeply specialized application skills for their intelligent virtual assistant.",
-        "This novel mechanism provides advanced application programming interfaces and specialized software resources to deeply integrate natural language processing features into the mobile ecosystem.",
-        "This strategic move creates a significant turning point for the mobile developer community, expanding creative space and delivering a much more seamless interactive experience for end users globally."
-      ],
-      "originalTitle": "Apple mở rộng khả năng tùy chỉnh Siri AI cho nhà phát triển bên thứ ba",
-      "url": "https://tinhte.vn/thread/apple-mo-rong-kha-nang-tuy-chinh-siri-ai-cho-nha-phat-trien-ben-thu-ba.4189574/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Apple",
-        "Siri",
-        "AI",
-        "Mobile",
-        "Developers"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-04T01:57:25.000Z",
-      "contentSnippet": "Apple mở rộng khả năng tùy chỉnh Siri AI cho nhà phát triển bên thứ ba Apple vừa công bố một sáng kiến mới cho phép các nhà phát triển bên thứ ba tạo ra các kỹ năng ứng dụng chuyên sâu cho Siri...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e65b8ae512ea46c2",
-      "title_vi": "Sử dụng ChatGPT và Codex khi tiếp nhận yêu cầu xử lý lỗi phần mềm từ hệ thống",
-      "title_en": "Using ChatGPT and Codex When Handling Software Bug Tickets From Production Systems",
-      "summary_vi": [
-        "Bài viết chia sẻ thói quen xử lý công việc của lập trình viên khi nhận được thông báo lỗi từ hệ thống kèm theo nhật ký sự kiện và mã nguồn trực tuyến.",
-        "Tác giả phân tích cách thức tận dụng các công cụ trí tuệ nhân tạo như trợ lý ngôn ngữ và mô hình lập trình tự động để phân tích nguyên nhân gốc rễ của lỗi.",
-        "Kinh nghiệm thực tế này mang lại phương pháp tối ưu hóa quy trình gỡ lỗi, giúp các kỹ sư phần mềm tiết kiệm thời gian và nâng cao hiệu suất làm việc."
-      ],
-      "summary_en": [
-        "The article shares the workflow habits of software developers upon receiving system error notifications accompanied by event logs and repository code.",
-        "The author analyzes how to leverage artificial intelligence tools such as language assistants and automated coding models to diagnose root causes of errors.",
-        "This practical experience provides a method to optimize debugging processes, helping software engineers save time and improve overall working productivity."
-      ],
-      "originalTitle": "ChatGPT và Codex: mình mở cái nào trước khi nhận ticket?",
-      "url": "https://viblo.asia/p/chatgpt-va-codex-minh-mo-cai-nao-truoc-khi-nhan-ticket-pPLkNQ98JRZ",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "ChatGPT",
-        "Codex",
-        "Debugging",
-        "Software Engineering",
-        "AI Assistants"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-03T23:48:44.000Z",
-      "contentSnippet": "ChatGPT và Codex: mình mở cái nào trước khi nhận ticket? Ticket vừa rơi vào Slack: log 500, vài dòng stack, đôi khi kèm cả repo. Lúc đó mình không hỏ...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ce71b0a83f7a329d",
-      "title_vi": "Khám phá chi tiết bản lề thiết bị màn hình gập và nguy cơ bám bụi",
-      "title_en": "Detailed inspection of foldable device hinges and dust accumulation risks",
-      "summary_vi": [
-        "Bài viết cung cấp hình ảnh cận cảnh khu vực bản lề gập của thiết bị di động mới, làm rõ những lo ngại của người dùng về việc bụi bẩn và cát có thể xâm nhập vào bên trong.",
-        "Các chi tiết cơ khí tại vị trí khớp nối được phân tích kỹ lưỡng để đánh giá độ khít của khe hở, yếu tố quyết định hiện tượng phát ra tiếng kêu sột soạt khi thao tác mở gập.",
-        "Vấn đề thiết kế cơ khí và độ bền vật liệu này đóng vai trò quan trọng trong việc cải tiến trải nghiệm phần cứng di động, đòi hỏi các kỹ sư phải tối ưu hóa khả năng chống bụi."
-      ],
-      "summary_en": [
-        "The article provides a close-up visual analysis of the folding hinge area on a new mobile device, addressing user concerns regarding dust and sand infiltration risks.",
-        "Mechanical details at the joint position are thoroughly examined to evaluate gap tolerances, which are critical factors causing creaking noises during folding operations.",
-        "Such mechanical design and material durability issues play a vital role in advancing mobile hardware engineering, requiring engineers to optimize dust resistance."
-      ],
-      "originalTitle": "Cận cảnh bản lề iPhone Duo, so với Z Fold8, cát vô từ đây...",
-      "url": "https://tinhte.vn/thread/can-canh-ban-le-iphone-duo-so-voi-z-fold8-cat-vo-tu-day.4189349/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Mobile Hardware",
-        "Foldable Phones",
-        "Mechanical Design",
-        "Smartphone",
-        "Hardware Engineering"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-11-03T22:26:29.000Z",
-      "contentSnippet": "Mình chụp sát cái phần góc gập ở iPhone Duo, chỗ bản lê gập để anh em có thể nhìn sát hơn khu vực mà nhiều thông tin trên mạng cho là cửa vào của bụi, cát và dẫn đến việc bản lề khi mở gập kêu sột...",
-      "authorName": "cuhiep",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f8fc168ace4ee039",
-      "title_vi": "Hãng thiết bị âm thanh thông minh cập nhật ứng dụng mới và chuẩn bị thử nghiệm trợ lý giọng nói AI",
-      "title_en": "Sonos adds new Presets and prepares for the 27voice AI beta",
-      "summary_vi": [
-        "Hãng thiết bị âm thanh thông minh vừa phát hành bản cập nhật ứng dụng quan trọng mang đến các cài đặt sẵn âm lượng mới và quyền truy cập sớm vào hệ thống trợ lý ảo tích hợp công nghệ trí tuệ nhân tạo.",
-        "Người dùng có thể tạo cấu hình phát nhạc cho từng phòng cụ thể hiển thị trực tiếp trên màn hình chính, đồng thời đăng ký danh sách chờ trải nghiệm trợ lý giọng nói mới bắt đầu từ tháng mười một.",
-        "Bản nâng cấp phần mềm này cải thiện đáng kể khả năng điều khiển thiết bị thông minh trong hệ sinh thái gia đình, giúp người dùng dễ dàng quản lý phát lại âm thanh và tự động hóa các tác vụ phức tạp."
-      ],
-      "summary_en": [
-        "The smart audio device manufacturer has rolled out a major software update introducing new volume presets and early access to an advanced artificial intelligence voice assistant system.",
-        "Users can create custom music playback configurations for specific rooms displayed directly on the home screen while signing up for the upcoming voice assistant beta waitlist starting in November.",
-        "This software upgrade significantly improves smart device control capabilities within the home ecosystem, enabling users to easily manage audio playback and automate complex household tasks."
-      ],
-      "originalTitle": "Sonos adds new Presets and prepares for the 27voice AI beta",
-      "url": "https://www.theverge.com/tech/1025903/sonos-presets-27voice-ai-early-access",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Voice Assistant",
-        "Smart Home",
-        "Software Update",
-        "IoT"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-03T22:20:50.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25651509/_STK084_SONOS_C.png?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Sonos is rolling out a big app update that includes new Presets and early access to its AI voice assistant. You can create a preset to play music at a specific volume in a certain room, which will appear directly on the homescreen so you can quickly start playback. If you're in the US, you can also ",
-      "authorName": "Emma Roth",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e7a1033d90db6800",
-      "title_vi": "Sàn giao dịch tiền mã hóa lớn nhất thế giới cho biết tin tặc đã sử dụng các cuộc phỏng vấn xin việc giả mạo và một công cụ trí tuệ nhân tạo nội bộ để thực hiện vụ trộm trị giá hơn sáu tỷ đô la",
-      "title_en": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist",
-      "summary_vi": [
-        "Vụ trộm tiền mã hóa lớn nhất lịch sử đã bị tin tặc thực hiện thông qua việc kết hợp các kỹ thuật tấn công tinh vi trong nhiều tháng nhắm thẳng vào các kỹ sư phần mềm.",
-        "Kẻ tấn công bắt đầu bằng việc phát tán trình cài đặt bị can thiệp qua quảng cáo độc hại và sử dụng kịch bản phỏng vấn tuyển dụng giả mạo để lừa nạn nhân tải mã độc.",
-        "Sự việc gióng lên hồi chuông cảnh báo mạnh mẽ về các lỗ hổng bảo mật phi kỹ thuật và nguy cơ bị thao túng trong quy trình tuyển dụng nhân sự công nghệ cao."
-      ],
-      "summary_en": [
-        "The largest cryptocurrency theft in history was executed by hackers combining sophisticated attack techniques over several months directly targeting software engineers.",
-        "The attackers began by distributing tampered installers via malicious advertisements and utilized fake recruitment interview scenarios to trick victims into downloading malware.",
-        "This incident raises a strong alarm regarding non-technical security vulnerabilities and the risk of manipulation within high-tech human resource recruitment processes."
-      ],
-      "originalTitle": "Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist",
-      "url": "https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "SocialEngineering",
-        "AI",
-        "Crypto",
-        "Malware"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-03T22:04:02.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23932848/acastro_STK018__02.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "The largest crypto theft to date was pulled off by combining some well-known hacking techniques over the course of a few months, according to Binance. A postmortem from the company says the process that started with one developer downloading a tampered installer in June apparently spread by a malici",
-      "authorName": "Richard Lawler",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "01b1e45f222dec5e",
-      "title_vi": "Cuốn sách nhỏ về nền tảng trí tuệ nhân tạo tạo sinh: Cẩm nang toán học trực quan",
-      "title_en": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
-      "summary_vi": [
-        "Bài viết giới thiệu tài liệu nghiên cứu mới trên nền tảng arXiv mang tên Cuốn sách nhỏ về nền tảng trí tuệ nhân tạo tạo sinh, cung cấp cẩm nang toán học trực quan cho người học.",
-        "Tài liệu tập trung phân tích các nền tảng toán học cốt lõi đằng sau công nghệ trí tuệ nhân tạo tạo sinh, giúp người đọc hiểu sâu hơn về cơ chế hoạt động của các mô hình học máy phức tạp.",
-        "Đây là nguồn tài liệu tham khảo giá trị cao giúp các kỹ sư phần mềm và nhà nghiên cứu củng cố kiến thức nền tảng để ứng dụng hiệu quả vào các dự án phát triển hệ thống trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "The article introduces a new research paper published on arXiv titled The Little Book of Generative AI Foundations, providing an intuitive mathematical primer for learners.",
-        "The document focuses on analyzing the core mathematical foundations behind generative artificial intelligence technology, helping readers deeply understand the underlying mechanics of complex machine learning models.",
-        "This is a high-value reference resource that helps software engineers and researchers strengthen their foundational knowledge to effectively apply artificial intelligence systems in development projects."
-      ],
-      "originalTitle": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
-      "url": "https://arxiv.org/abs/2605.29713",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Generative AI",
-        "Machine Learning",
-        "Mathematics",
-        "Research",
-        "Deep Learning"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-03T21:40:53.000Z",
-      "contentSnippet": "Press Enter to search &middot; Advanced search Focus to learn more arXiv-issued DOI via DataCite Submission history From: Tianhua Chen [view email] [v1] Thu, 28 May 2026 10:12:00 UTC (125 KB) [v2] Tue, 8 Sep 2026 07:17:36 UTC (1,168 KB) Full-text links: Access Paper: View a PDF of the paper titled T",
-      "authorName": "ibobev",
-      "upvotes": 72,
-      "commentsCount": 7
-    },
-    {
-      "id": "fc923cbc11cc9557",
-      "title_vi": "Apple Intelligence chuẩn bị cập nhật tại Trung Quốc với sự hỗ trợ từ mô hình trí tuệ nhân tạo Qwen",
-      "title_en": "Apple Intelligence Set for China Release Integrated with Qwen AI Model Support",
-      "summary_vi": [
-        "Hãng công nghệ Apple đã chính thức xác nhận kế hoạch mang nền tảng Apple Intelligence lên các dòng điện thoại thông minh tại thị trường Trung Quốc đại lục cùng bản cập nhật hệ điều hành sắp tới.",
-        "Bản thử nghiệm dành cho nhà phát triển sẽ chính thức mở cửa từ ngày bốn tháng mười một, trong đó mô hình trí tuệ nhân tạo Qwen sẽ đảm nhận việc xử lý các yêu cầu phức tạp mà trợ lý ảo Siri chưa thể tự thực hiện.",
-        "Sự kiện này đánh dấu bước tiến quan trọng trong chiến lược bản địa hóa các tính năng trí tuệ nhân tạo tiên tiến của Apple tại thị trường đông dân nhất thế giới, định hình lại cách tích hợp mô hình ngôn ngữ lớn."
-      ],
-      "summary_en": [
-        "Technology giant Apple has officially confirmed plans to bring the Apple Intelligence platform to smartphones in the mainland Chinese market along with the upcoming operating system update.",
-        "The developer beta version will officially open from November fourth, in which the Qwen artificial intelligence model will handle complex requests that the Siri virtual assistant cannot perform independently.",
-        "This event marks an important milestone in Apple strategy to localize advanced artificial intelligence features in the world most populous market, reshaping how large language models are integrated."
-      ],
-      "originalTitle": "Trong khi Siri AI đã có tiếng Việt, iPhone ở Trung Quốc giờ mới chuẩn bị được cập nhật Apple Intelligence, Siri AI còn không hỗ trợ",
-      "url": "https://genk.vn/trong-khi-siri-ai-da-co-tieng-viet-iphone-o-trung-quoc-gio-moi-chuan-bi-duoc-cap-nhat-apple-intelligence-siri-ai-con-khong-ho-tro-165261104015529121.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Apple Intelligence",
-        "Qwen",
-        "AI",
-        "Mobile",
-        "Siri"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-03T18:55:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/3/6ae54463e4b06d4a392f2867-44-0-718-1078-crop-1793731864680957935963.jpeg",
-      "contentSnippet": "Apple xác nhận Apple Intelligence tới iPhone ở Trung Quốc đại lục cùng iOS 27.3 vào tháng 12, bản thử nghiệm mở từ 4/11, với Qwen xử lý những yêu cầu Siri không tự làm được.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "99a1bacac378a2c3",
-      "title_vi": "Xây dựng web bán hàng bằng AI và tích hợp hệ thống nhắn tin tự động chăm sóc khách hàng",
-      "title_en": "Building E-Commerce Websites Using AI and Integrating Automated Customer Service Chatbots",
-      "summary_vi": [
-        "Bài viết đề cập đến quá trình phát triển trang web bán hàng trực tuyến nhanh chóng bằng các công cụ lập trình hỗ trợ trí tuệ nhân tạo như Cursor hoặc Claude Code trong thời gian ngắn.",
-        "Giải pháp kỹ thuật tập trung vào việc yêu cầu trí tuệ nhân tạo tích hợp các tính năng trò chuyện trực tuyến, gom kênh nhắn tin từ Zalo và Messenger để tự động hóa việc phản hồi khách hàng.",
-        "Phương pháp này giúp các lập trình viên và nhà sáng lập tối ưu hóa quy trình phát triển sản phẩm, tiết kiệm thời gian vận hành và nâng cao trải nghiệm tự động hóa bán hàng."
-      ],
-      "summary_en": [
-        "The article discusses the rapid development process of online e-commerce websites using artificial intelligence coding tools like Cursor or Claude Code within a short timeframe.",
-        "The technical solution focuses on prompting artificial intelligence to integrate live chat features, aggregate messaging channels from Zalo and Messenger to automate customer responses.",
-        "This method helps developers and founders optimize product development workflows, save operational time, and enhance automated sales experiences effectively."
-      ],
-      "originalTitle": "Vibe code xong web bán hàng? Bảo AI thêm live chat, gom Zalo, Messenger và để bot trả lời khách thay bạn",
-      "url": "https://viblo.asia/p/vibe-code-xong-web-ban-hang-bao-ai-them-live-chat-gom-zalo-messenger-va-de-bot-tra-loi-khach-thay-ban-1QLxnO6r4Aw",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "AI",
-        "Web Development",
-        "Chatbot",
-        "Automation",
-        "Cursor"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-03T18:32:28.000Z",
-      "contentSnippet": "Bạn dựng một web bán hàng (hay một app nhỏ) bằng Cursor hoặc Claude Code trong vài buổi tối. Sản phẩm chạy, quảng cáo chạy, rồi khách bắt đầu nhắn: ô ...",
-      "authorName": "Phuc Nguyen",
       "upvotes": 0,
       "commentsCount": 0
     }
