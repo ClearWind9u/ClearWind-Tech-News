@@ -1,7 +1,176 @@
 {
-  "lastUpdated": "2026-11-13T23:04:30.070Z",
+  "lastUpdated": "2026-11-14T04:14:50.754Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "c01bdbf1824b2103",
+      "title_vi": "12 plugin DeepSeek Harness: lựa chọn thông minh qua bài kiểm tra thực tế thay vì danh sách tính năng",
+      "title_en": "Twelve DeepSeek Harness Plugins: Choosing via Practical Tests Instead of Feature Lists",
+      "summary_vi": [
+        "Bài viết phân tích mười hai plugin trong hệ thống DeepSeek Harness tuy có giao diện tương đồng nhưng mang lại hiệu năng thực tế hoàn toàn khác biệt đối với các nhà phát triển phần mềm.",
+        "Tác giả đề xuất phương pháp đánh giá năng lực các công cụ hỗ trợ trí tuệ nhân tạo thông qua các bài kiểm tra thực tế thay vì dựa vào các thông số kỹ thuật được liệt kê trên giấy tờ.",
+        "Cách tiếp cận này giúp các kỹ sư phần mềm tối ưu hóa quy trình làm việc, lựa chọn đúng đắn các công cụ bổ trợ phù hợp nhất cho dự án lập trình thực tế của họ."
+      ],
+      "summary_en": [
+        "The article analyzes twelve plugins within the DeepSeek Harness ecosystem that share similar user interfaces yet deliver vastly different practical performance for software developers.",
+        "The author proposes evaluating the capabilities of artificial intelligence support tools through practical benchmarks rather than relying solely on specifications listed on paper.",
+        "This approach helps software engineers optimize their workflows and select the most appropriate auxiliary tools for their real-world programming projects effectively."
+      ],
+      "originalTitle": "12 plugin DeepSeek Harness: chọn bằng bài kiểm tra nhỏ, không bằng danh sách tính năng",
+      "url": "https://viblo.asia/p/12-plugin-deepseek-harness-chon-bang-bai-kiem-tra-nho-khong-bang-danh-sach-tinh-nang-ZoJjeOpA4Y7",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "DeepSeek",
+        "AI Plugins",
+        "Software Engineering",
+        "Developer Tools"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-14T10:43:22.000Z",
+      "contentSnippet": "Mười hai plugin trên trang DeepSeek Harness trông giống nhau ở chỗ đều có tên, mô tả và công tắc bật tắt. Nhưng tác động của chúng rất khác: một plu...",
+      "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "60216ba63c785975",
+      "title_vi": "Chuyển đổi OpenAI Python SDK sang API tương thích: Năm lỗi phổ biến khi thay đổi Base URL và mô hình",
+      "title_en": "Migrating OpenAI Python SDK to Compatible APIs: Five Common Mistakes When Changing Base URL and Models",
+      "summary_vi": [
+        "Các dự án lập trình Python hiện đại thường tận dụng OpenAI SDK để kết nối với nhiều dịch vụ trí tuệ nhân tạo khác nhau mà không cần viết lại toàn bộ mã nguồn hệ thống từ đầu.",
+        "Quá trình thay đổi cấu hình cơ sở bao gồm việc điều chỉnh địa chỉ URL kết nối và tên mô hình sao cho tương thích chính xác với các nhà cung cấp dịch vụ thay thế.",
+        "Việc nhận diện sớm năm lỗi kỹ thuật phổ biến giúp các kỹ sư phần mềm tối ưu hóa thời gian phát triển và đảm bảo tính ổn định cao cho ứng dụng tích hợp."
+      ],
+      "summary_en": [
+        "Modern Python programming projects typically leverage the OpenAI SDK to connect with various artificial intelligence services without rewriting the entire system source code from scratch.",
+        "The process of modifying core configurations involves adjusting endpoint connection URLs and model names to accurately match alternative service providers.",
+        "Early identification of five common technical errors helps software engineers optimize development time and ensure high stability for integrated enterprise applications."
+      ],
+      "originalTitle": "Chuyển OpenAI Python SDK sang API tương thích: 5 lỗi thường gặp khi đổi Base URL và model",
+      "url": "https://viblo.asia/p/chuyen-openai-python-sdk-sang-api-tuong-thich-5-loi-thuong-gap-khi-doi-base-url-va-model-2vJPdvXnJeK",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Python",
+        "OpenAI SDK",
+        "API",
+        "Software Development",
+        "Artificial Intelligence"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-14T10:31:35.000Z",
+      "contentSnippet": "Một dự án Python đang dùng OpenAI SDK thường không cần viết lại toàn bộ lớp gọi API khi chuyển sang một dịch vụ tương thích OpenAI. Thông thường chỉ...",
+      "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5cc94f3c706f97a8",
+      "title_vi": "Sự khác biệt giữa Local API và CDP khi tự động hóa hàng trăm hồ sơ trình duyệt",
+      "title_en": "Differences Between Local API and CDP When Automating Hundreds of Browser Profiles",
+      "summary_vi": [
+        "Một lập trình viên tại Hà Nội gặp sự cố treo tiến trình khi sử dụng Playwright để tự động hóa việc mở đồng thời hai trăm hồ sơ trình duyệt, gây gián đoạn nghiêm trọng cho toàn bộ hệ thống.",
+        "Phân tích kỹ thuật chỉ ra rằng việc lạm dụng tự động hóa cấp độ giao diện người dùng trên quy mô lớn tiêu tốn lượng lớn tài nguyên phần cứng và gây mất ổn định trình duyệt.",
+        "Giải pháp tối ưu là chuyển dịch kiến trúc sang sử dụng Local API hoặc Chrome DevTools Protocol để tương tác trực tiếp hiệu quả hơn, giúp tối ưu hóa hiệu suất và độ bền vững."
+      ],
+      "summary_en": [
+        "A developer in Hanoi encountered process crashes while using Playwright to automate the simultaneous opening of two hundred browser profiles, causing severe system disruptions.",
+        "Technical analysis indicates that abusing high-level user interface automation at scale consumes excessive hardware resources and compromises overall browser stability.",
+        "The optimal solution involves shifting the architecture to leverage Local API or Chrome DevTools Protocol for direct interaction, significantly improving performance and reliability."
+      ],
+      "originalTitle": "Local API và CDP khác nhau thế nào khi tự động hóa hàng trăm hồ sơ?",
+      "url": "https://viblo.asia/p/local-api-va-cdp-khac-nhau-the-nao-khi-tu-dong-hoa-hang-tram-ho-so-8X4EjB0AJN2",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Playwright",
+        "Automation",
+        "Browser Profiles",
+        "CDP",
+        "Local API"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-14T10:25:26.000Z",
+      "contentSnippet": "Một bạn dev ở Hà Nội nhắn cho mình đoạn log dài cả màn hình. Bạn ấy viết script Playwright để mở 200 hồ sơ, chạy được khoảng 20 cái thì tiến trình tre...",
+      "authorName": "Lý Chính Dân",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "68e91d14542a0a1e",
+      "title_vi": "Cách build và đưa ứng dụng iOS lên App Store từ hệ điều hành Windows mà không cần mua máy Mac",
+      "title_en": "How to build and deploy iOS applications to the App Store from Windows without buying a Mac",
+      "summary_vi": [
+        "Bài viết hướng dẫn lập trình viên phát triển ứng dụng di động xây dựng và xuất bản phần mềm iOS trực tiếp từ môi trường Windows mà không cần đầu tư thiết bị Mac đắt đỏ.",
+        "Giải pháp kỹ thuật tận dụng các dịch vụ đám mây và công cụ biên dịch từ xa giúp xử lý mã nguồn Swift, Flutter hoặc React Native một cách mượt mà và hiệu quả.",
+        "Phương pháp này giúp tối ưu hóa chi phí phần cứng đáng kể cho các lập trình viên tự do và doanh nghiệp nhỏ khi tham gia hệ sinh thái ứng dụng Apple."
+      ],
+      "summary_en": [
+        "The article guides mobile developers on how to build and publish iOS software directly from a Windows environment without investing in expensive Mac hardware.",
+        "The technical solution leverages cloud services and remote compilation tools to handle Swift, Flutter, or React Native source code smoothly and efficiently.",
+        "This method significantly optimizes hardware costs for independent developers and small businesses entering the Apple application ecosystem."
+      ],
+      "originalTitle": "Cách build và đưa ứng dụng iOS lên App Store từ Windows (không cần mua Mac)",
+      "url": "https://viblo.asia/p/cach-build-va-dua-ung-dung-ios-len-app-store-tu-windows-khong-can-mua-mac-oKLnqObNJQO",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "iOS",
+        "Windows",
+        "App Store",
+        "Flutter",
+        "React Native"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-14T09:37:34.000Z",
+      "contentSnippet": "Bạn đã làm xong app. Có thể là Flutter hoặc React Native, bản Android đã lên Google Play rồi. Hoặc là một project Swift nhỏ bạn viết trong VS Code. Rồ...",
+      "authorName": "Anna Skokova",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "96601e894343da24",
+      "title_vi": "Thiết bị giải mã truyền hình thông minh mới ra mắt thúc đẩy người dùng lựa chọn theo hệ sinh thái công nghệ đang sử dụng",
+      "title_en": "New Smart TV Streaming Devices Drive User Choice Based On Current Technology Ecosystems",
+      "summary_vi": [
+        "Thị trường thiết bị giải mã truyền hình thông minh chứng kiến sự ra mắt của các dòng sản phẩm mới từ những hãng công nghệ lớn, mang đến nhiều tùy chọn phần cứng đa dạng cho người dùng cuối.",
+        "Các thiết bị này được nâng cấp mạnh mẽ về vi xử lý hiệu năng cao, chuẩn kết nối không dây tốc độ lớn và tích hợp trợ lý ảo trí tuệ nhân tạo để tối ưu hóa trải nghiệm điều khiển rảnh tay.",
+        "Việc lựa chọn thiết bị phần cứng phù hợp đòi hỏi người dùng phải cân nhắc kỹ lưỡng sự đồng bộ với hệ sinh thái thiết bị di động và gia đình thông minh sẵn có để đạt hiệu suất tối ưu."
+      ],
+      "summary_en": [
+        "The smart TV streaming device market witnesses the launch of new product lines from major tech giants, bringing diverse hardware options to end users.",
+        "These devices feature major upgrades in high-performance processors, high-speed wireless connectivity standards, and integrated artificial intelligence assistants to optimize hands-free control experiences.",
+        "Choosing the right hardware device requires users to carefully consider synchronization with existing mobile and smart home ecosystems to achieve optimal performance."
+      ],
+      "originalTitle": "Apple TV 4K mới và Google TV Streamer: chọn box theo hệ sinh thái đang dùng",
+      "url": "https://tinhte.vn/thread/apple-tv-4k-moi-va-google-tv-streamer-chon-box-theo-he-sinh-thai-dang-dung.4192283/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple TV",
+        "Google TV",
+        "Smart TV",
+        "AI",
+        "Hardware"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-14T03:55:39.000Z",
+      "contentSnippet": "Apple TV 4K thế hệ thứ 4 vừa lên kệ ngày 13/11, sau một tháng mở đặt trước. Đây là lần đầu Apple làm mới box xem TV của mình sau 4 năm, với chip A19, Wi-Fi 7 và micro rảnh tay cho Siri AI. Đối thủ...",
+      "authorName": "Quocxi",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "3e20a8567e2aef29",
       "title_vi": "Tại sao một nửa số trò chơi xếp hình số 15 không thể giải được và hai cách khắc phục bằng JavaScript",
@@ -32,6 +201,145 @@
       "publishedAt": "2026-11-14T00:12:33.000Z",
       "contentSnippet": "The 15-puzzle looks like the easiest game to code. Fifteen numbered tiles, one gap, slide tiles into the gap until the numbers are in order. Most firs...",
       "authorName": "HTML Games Studio",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9413c3d2a5a828a0",
+      "title_vi": "Nvidia tiếp cận CEO của Arm để tìm người kế nhiệm Jensen Huang",
+      "title_en": "Nvidia Approaches Arm CEO to Find Successor for Jensen Huang",
+      "summary_vi": [
+        "Hội đồng quản trị tập đoàn Nvidia đã tiến hành tiếp cận Rene Haas, người đang giữ chức vụ giám đốc điều hành tại hãng thiết kế vi mạch Arm Holdings.",
+        "Động thái chiến lược này nằm trong kế hoạch dài hạn nhằm tìm kiếm ứng viên sáng giá để thay thế vị trí lãnh đạo tối cao của Jensen Huang trong tương lai.",
+        "Việc chuyển giao nhân sự cấp cao tại hai gã khổng lồ ngành bán dẫn có thể tạo ra những biến động lớn trong chiến lược cạnh tranh thị trường phần cứng toàn cầu."
+      ],
+      "summary_en": [
+        "The board of directors at Nvidia has reportedly reached out to Rene Haas, who currently serves as the chief executive officer at chip design firm Arm Holdings.",
+        "This strategic move is part of a long-term succession planning initiative aimed at finding a qualified candidate to eventually replace Jensen Huang in the top executive role.",
+        "High-level leadership transitions between these two semiconductor giants could potentially trigger significant shifts in the competitive landscape of the global hardware market."
+      ],
+      "originalTitle": "Nvidia tiếp cận CEO Arm để tìm người thay thế",
+      "url": "https://vnexpress.net/nvidia-tiep-can-ceo-arm-de-tim-nguoi-thay-the-5144336.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "Arm",
+        "Semiconductor",
+        "Hardware",
+        "Leadership"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-14T00:03:27.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/13/y0se84zgj8ckxvm9-1794558298-1404-1794558388.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=odcGu7TDkw1d9FooCuSAuQ",
+      "contentSnippet": "Hội đồng quản trị Nvidia được cho là đã tiếp cận Rene Haas, CEO hãng sản xuất chip Arm Holdings (Anh) trong quá trình tìm kiếm ứng viên thay thế Jensen Huang,",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "96048276e5de0ccf",
+      "title_vi": "Amazon lên kế hoạch xây dựng cơ sở dữ liệu sản phẩm toàn cầu cho thương mại điện tử và trí tuệ nhân tạo",
+      "title_en": "Amazon has a plan to index the world’s online shopping data",
+      "summary_vi": [
+        "Tập đoàn Amazon đang tiến hành xây dựng một hệ thống cơ sở dữ liệu khổng lồ lưu trữ thông tin về mọi sản phẩm được bày bán trên toàn bộ không gian mạng Internet toàn cầu.",
+        "Dự án mang tên World Product Graph này sử dụng các giải pháp thu thập và lập chỉ mục dữ liệu quy mô lớn nhằm tối ưu hóa khả năng tìm kiếm sản phẩm cho cả người dùng lẫn các hệ thống trí tuệ nhân tạo.",
+        "Sáng kiến này giúp nền tảng duy trì lợi thế cạnh tranh cốt lõi trong bối cảnh các trợ lý ảo và công cụ tìm kiếm thông minh đang dần thay đổi cách thức người tiêu dùng tiếp cận thông tin mua sắm trực tuyến."
+      ],
+      "summary_en": [
+        "Amazon is currently developing a massive data vault designed to store comprehensive information about every single product sold across the entire global internet network.",
+        "Named the World Product Graph, this project leverages large scale data scraping and indexing solutions to optimize product search capabilities for both human shoppers and artificial intelligence systems.",
+        "This strategic initiative helps the platform maintain its competitive edge as intelligent virtual assistants and smart search tools progressively transform how consumers access online shopping information."
+      ],
+      "originalTitle": "Amazon has a plan to index the world’s online shopping data",
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Data Engineering",
+        "E-commerce",
+        "Big Data",
+        "Search Engine"
+      ],
+      "hotScore": 91,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-13T23:49:11.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/acastro_STK103__03.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers lea",
+      "authorName": "Stevie Bonifield",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a926608655a30efb",
+      "title_vi": "Chuyện gì đã xảy ra với công ty mạng ba com?",
+      "title_en": "What Happened to 3Com?",
+      "summary_vi": [
+        "Công ty ba com từng là một trong những nhà sản xuất thiết bị mạng hàng đầu thế giới vào thời kỳ bùng nổ internet với định giá trị trường lên tới hàng tỷ đô la Mỹ.",
+        "Được thành lập bởi đồng tác giả giao thức mạng ethernet, doanh nghiệp này nổi tiếng với các dòng card mạng chất lượng cao được tin dùng bởi nhiều quản trị viên hệ thống chuyên nghiệp.",
+        "Bài học rút ra từ sự sụp đổ của một tượng đài công nghệ là minh chứng cho thấy những quyết định chiến lược sai lầm có thể nhanh chóng làm suy yếu lợi thế cạnh tranh."
+      ],
+      "summary_en": [
+        "The company was once a leading manufacturer of network equipment during the dotcom boom with a market valuation reaching billions of dollars.",
+        "Founded by the co-inventor of the ethernet protocol, the enterprise became renowned for high quality network interface cards trusted by professional system administrators.",
+        "The lesson learned from the collapse of a technology giant demonstrates how poor strategic decisions can rapidly erode long term market competitive advantages."
+      ],
+      "originalTitle": "What Happened to 3Com?",
+      "url": "https://dfarq.homeip.net/what-happened-to-3com/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Networking",
+        "Hardware",
+        "Ethernet",
+        "Tech History",
+        "Enterprise IT"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-13T23:48:59.000Z",
+      "contentSnippet": "3Com was a high flying maker of network cards and other network equipment. And then they disappeared with a whimper on November 11, 2009. What happened to 3Com? Around the time of the dotcom boom, 3Com was a 5.8 billion dollar company. They were founded in 1979 by Bob Metcalfe, the co-inventor of Et",
+      "authorName": "gvieri",
+      "upvotes": 80,
+      "commentsCount": 45
+    },
+    {
+      "id": "810b068b18b70c85",
+      "title_vi": "Microsoft chưa thể xác định thời điểm khôi phục hoàn toàn sự cố dịch vụ",
+      "title_en": "Microsoft Unable to Determine Timeline for Full Service Recovery",
+      "summary_vi": [
+        "Trong thông báo mới nhất vào rạng sáng, tập đoàn Microsoft thừa nhận vẫn chưa thể xác định chính xác khoảng thời gian dự kiến để khôi phục hoàn toàn các dịch vụ đám mây và hệ thống email đang gặp sự cố gián đoạn trên toàn cầu.",
+        "Đại diện kỹ thuật của hãng lưu ý rằng khả năng truy cập dịch vụ trực tuyến có thể sẽ hoạt động trở lại bình thường trước khi chức năng gửi và nhận email được đồng bộ hóa hoàn toàn trên toàn bộ hệ thống hạ tầng mạng.",
+        "Sự cố gián đoạn diện rộng này không chỉ gây ảnh hưởng lớn đến trải nghiệm người dùng cuối mà còn buộc các quản trị viên hệ thống phải liên tục theo dõi sát sao các bản vá lỗi và thông báo cập nhật từ phía nhà cung cấp dịch vụ."
+      ],
+      "summary_en": [
+        "In a recent early morning update, Microsoft acknowledged that it is still unable to provide an exact estimated timeframe for the complete recovery of cloud services and email systems currently experiencing widespread disruptions.",
+        "Technical representatives noted that basic online service accessibility may become functional again before the standard email sending and receiving features are fully synchronized across the entire network infrastructure.",
+        "This large-scale outage significantly impacts end-user experience and forces system administrators to closely monitor patch deployments and official status updates from the major cloud service provider."
+      ],
+      "originalTitle": "Microsoft: 'Chưa thể xác định thời gian khôi phục hoàn toàn'",
+      "url": "https://vnexpress.net/microsoft-chua-the-xac-dinh-thoi-gian-khoi-phuc-hoan-toan-5144522.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "Microsoft",
+        "Cloud Services",
+        "System Outage",
+        "DevOps",
+        "Infrastructure"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-13T23:41:24.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/14/dsc03787-jpg-1794612892-2004-1794612907.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=XnFHChEeO6HPrdGh2AlRgA",
+      "contentSnippet": "Trong thông báo mới lúc 3h05 (giờ Hà Nội), Microsoft cho biết vẫn chưa thể xác định thời gian khôi phục hoàn toàn các dịch vụ của hãng.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8257,318 +8565,6 @@
       "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/03/30d0b1242bef429a83ebfa358bba76-2596-6169-1793704297.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=SGX30EM87phh1xmmnku1pg",
       "contentSnippet": "Dù không chuyên kỹ thuật, Park Jin-won, 26 tuổi ở Hàn Quốc, chỉ mất 30 phút để tạo Sansa, ngôi chùa ảo gây sốt với hơn một triệu người tham gia, nhờ vibe coding bằng AI.",
       "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "4a0cff2afd765d05",
-      "title_vi": "Chip bảo mật 28 nm do kỹ sư Việt phát triển",
-      "title_en": "28 nm Security Chip Developed by Vietnamese Engineers",
-      "summary_vi": [
-        "Việt Nam đã chính thức đánh dấu bước tiến lớn trong ngành công nghiệp bán dẫn khi các kỹ sư Viettel và Ban Cơ yếu Chính phủ hợp tác phát triển thành công dòng vi mạch bảo mật thế hệ mới mang tên VGC v1.0, tập trung vào việc tự chủ công nghệ phần cứng nội địa.",
-        "Vi mạch này được chế tạo trên tiến trình 28 nm tiên tiến, tích hợp các thuật toán mã hóa phần cứng mạnh mẽ giúp đạt tốc độ xử lý mã hóa và giải mã nhanh gấp mười lăm lần so với các giải pháp phần mềm truyền thống đang hiện hành.",
-        "Sự kiện này mở ra hướng đi chiến lược mới trong việc bảo vệ an toàn thông tin và dữ liệu trên các thiết bị số cá nhân cũng như hạ tầng mạng trọng yếu, giảm sự phụ thuộc vào các giải pháp nhập khẩu từ nước ngoài."
-      ],
-      "summary_en": [
-        "Vietnam has marked a major milestone in its semiconductor industry as engineers from Viettel and the Government Cipher Committee successfully developed the new generation VGC v1.0 security microchip, focusing on domestic hardware autonomy.",
-        "The microchip is manufactured using an advanced 28 nm process, integrating robust hardware encryption algorithms to achieve encryption and decryption speeds fifteen times faster than conventional software solutions.",
-        "This achievement opens up a new strategic direction for protecting information and data security on personal digital devices as well as critical network infrastructure, reducing reliance on imported foreign solutions."
-      ],
-      "originalTitle": "Chip bảo mật 28 nm do kỹ sư Việt phát triển",
-      "url": "https://vnexpress.net/chip-bao-mat-28-nm-do-ky-su-viet-phat-trien-5140152.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Semiconductor",
-        "Cybersecurity",
-        "Hardware",
-        "Encryption",
-        "Vietnam Tech"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-03T08:54:24.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/03/lq-1793695270-5982-1793695297.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Ww7XtRq2ZLg0EzZbMNVRUw",
-      "contentSnippet": "Chip VGC v1.0 do các kỹ sư Viettel và Ban Cơ yếu Chính phủ phát triển, có tốc độ mã hóa, giải mã nhanh gấp 15 lần giải pháp phần mềm, hướng đến bảo vệ dữ liệu trên thiết bị số.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8a358b97e666c72e",
-      "title_vi": "Nhiều nhà toán học trẻ xem xét lại sự nghiệp vì trí tuệ nhân tạo",
-      "title_en": "Many Young Mathematicians Reconsider Their Careers Due to Artificial Intelligence",
-      "summary_vi": [
-        "Một nghiên cứu gần đây do các nhà khoa học MIT thực hiện cho thấy sinh viên cao học và sau tiến sĩ toán học đang dần mất động lực theo đuổi chuyên ngành do sự trỗi dậy mạnh mẽ của trí tuệ nhân tạo.",
-        "Khảo sát dựa trên phản hồi của 268 nhà nghiên cứu từ gần 60 trường đại học tại 5 quốc gia cho thấy trí tuệ nhân tạo ngày càng giải quyết nhanh chóng những bài toán phức tạp vốn đòi hỏi nhiều năm nghiên cứu thủ công.",
-        "Xu hướng này đặt ra những thách thức mới cho định hướng nghề nghiệp trong lĩnh vực khoa học cơ bản, đồng thời buộc cộng đồng học thuật phải thích ứng với sự can thiệp ngày càng sâu của các mô hình học máy."
-      ],
-      "summary_en": [
-        "A recent study conducted by MIT researchers shows that graduate students and postdoctoral researchers in mathematics are losing motivation to pursue their specialization due to the rapid rise of artificial intelligence.",
-        "The survey based on feedback from 268 researchers across nearly 60 universities in 5 countries reveals that artificial intelligence increasingly solves complex mathematical problems that traditionally require years of manual research.",
-        "This trend poses new challenges for career paths in fundamental sciences while forcing the academic community to adapt to the deepening integration of machine learning models in research."
-      ],
-      "originalTitle": "Nhiều nhà toán học trẻ 'xem xét lại sự nghiệp' vì AI",
-      "url": "https://vnexpress.net/nhieu-nha-toan-hoc-tre-xem-xet-lai-su-nghiep-vi-ai-5139650.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Mathematics",
-        "Tech Trends",
-        "Research"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-03T08:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/02/robot-suy-tu-tru-o-c-ba-ng-hol-3270-3802-1793595411.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=KHobeblRJMwHDVlsPrWm4g",
-      "contentSnippet": "Một nghiên cứu cho thấy sinh viên cao học và sau tiến sĩ toán có xu hướng không muốn theo đuổi chuyên sâu lĩnh vực này do AI đang dần giỏi hơn.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "5be21cb149358c8d",
-      "title_vi": "Hàn Quốc phát triển trí tuệ nhân tạo suy luận ý đồ đối phương và thắng áp đảo trò chơi Ma sói",
-      "title_en": "South Korea Develops AI Capable of Intent Inference and Achieves Dominant Win Rate in Werewolf Game",
-      "summary_vi": [
-        "Các nhà nghiên cứu tại Hàn Quốc đã phát triển thành công một hệ thống trí tuệ nhân tạo tiên tiến có khả năng suy luận ý đồ và nhận diện hành vi đánh lừa của con người trong các tình huống tương tác phức tạp.",
-        "Mô hình trí tuệ nhân tạo này sử dụng các thuật toán học máy chuyên sâu để phân tích tâm lý và chiến thuật, giúp nó đạt tỷ lệ chiến thắng ấn tượng lên đến sáu mươi lăm phẩy sáu phần trăm trong thử nghiệm trò chơi Ma sói.",
-        "Thành tựu này đánh dấu một bước tiến quan trọng trong việc phát triển các tác nhân thông minh có khả năng giao tiếp xã hội và ra quyết định chiến lược, mở ra tiềm năng ứng dụng rộng rãi trong các hệ thống tự động hóa tương lai."
-      ],
-      "summary_en": [
-        "Researchers in South Korea have successfully developed an advanced artificial intelligence system capable of inferring intentions and detecting deceptive human behaviors in complex interaction scenarios.",
-        "This artificial intelligence model utilizes deep machine learning algorithms to analyze psychology and tactics, enabling it to achieve an impressive win rate of sixty-five point six percent in Werewolf game evaluations.",
-        "This achievement marks a significant milestone in developing intelligent agents with social communication and strategic decision-making capabilities, opening up broad application potential for future automation systems."
-      ],
-      "originalTitle": "Hàn Quốc phát triển AI có thể suy luận ý đồ đối phương, thắng Ma sói 65,6%",
-      "url": "https://tuoitre.vn/han-quoc-phat-trien-ai-co-the-suy-luan-y-do-doi-phuong-thang-ma-soi-656-100261102105455965.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Intent Inference",
-        "Neural Networks",
-        "Algorithm"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-02T11:20:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/2/ai-han-quoc-reuters-1793591648219711975856-0-0-444-710-crop-17935916721021949362038.png",
-      "contentSnippet": "Các nhà nghiên cứu Hàn Quốc phát triển AI có khả năng suy luận ý đồ, nhận diện hành vi đánh lừa và đạt tỉ lệ thắng 65,6% trong thử nghiệm trò chơi Ma sói.",
-      "authorName": "TTXVN",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "87eaeda9143a83e7",
-      "title_vi": "Kiểm thử tải API mô hình ngôn ngữ lớn hiệu quả cho hệ thống vận hành thực tế",
-      "title_en": "Load Testing LLM APIs for Production Without Being Misled: A Comprehensive Guide",
-      "summary_vi": [
-        "Bài viết cung cấp hướng dẫn chi tiết về cách thực hiện kiểm thử tải cho các giao diện lập trình ứng dụng mô hình ngôn ngữ lớn nhằm đảm bảo hiệu suất ổn định trong môi trường vận hành thực tế.",
-        "Nội dung tập trung phân tích các phương pháp đo lường chính xác, cách tránh các cạm bẫy phổ biến khi đánh giá độ trễ và thông lượng dưới áp lực cao của các hệ thống trí tuệ nhân tạo.",
-        "Chuyên gia kỹ thuật có thể áp dụng các chiến lược này để tối ưu hóa hạ tầng, cải thiện trải nghiệm người dùng và giảm thiểu rủi ro khi triển khai các ứng dụng thông minh quy mô lớn."
-      ],
-      "summary_en": [
-        "The article provides a detailed guide on how to perform load testing for large language model application programming interfaces to ensure stable performance in real production environments.",
-        "The content focuses on analyzing accurate measurement methods and how to avoid common pitfalls when evaluating latency and throughput under high pressure in artificial intelligence systems.",
-        "Technical experts can apply these strategies to optimize infrastructure, improve user experience, and minimize risks when deploying large-scale intelligent applications."
-      ],
-      "originalTitle": "Load test LLM API mà không bị kết quả đánh lừa: hướng dẫn cho production",
-      "url": "https://viblo.asia/p/load-test-llm-api-ma-khong-bi-ket-qua-danh-lua-huong-dan-cho-production-2vJPd0eZJeK",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "LLM",
-        "API",
-        "Load Testing",
-        "Production",
-        "AI"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-11-02T09:13:15.000Z",
-      "contentSnippet": "Bài viết này được dịch và biên tập từ bài gốc tiếng Anh trên blog của Modelflare. Hướng dẫn cho môi trường production: load test LLM API mà không bị ...",
-      "authorName": "Castaly",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "7dec28afe3d864c9",
-      "title_vi": "Lời khuyên từ người dùng trung thành của Apple về việc chưa nên mua iPhone Duo và trải nghiệm chuyển sang Galaxy Z Fold8",
-      "title_en": "An Apple Fan's Perspective on Skipping iPhone Duo and Transitioning to the Galaxy Z Fold8",
-      "summary_vi": [
-        "Một người dùng lâu năm của hệ sinh thái Apple đã đưa ra những đánh giá chi tiết sau khi trải nghiệm thực tế dòng điện thoại iPhone Duo và quyết định chuyển đổi sang sử dụng thiết bị màn hình gập Galaxy Z Fold8.",
-        "Bài viết phân tích các khía cạnh về thiết kế phần cứng, trải nghiệm hệ điều hành di động cũng như những hạn chế còn tồn đọng trên các thế hệ smartphone cao cấp mới ra mắt trên thị trường hiện nay.",
-        "Chia sẻ này mang lại góc nhìn thực tế cho cộng đồng công nghệ về xu hướng lựa chọn thiết bị di động cao cấp, đồng thời đánh giá sự cạnh tranh giữa các dòng điện thoại thông minh màn hình gập và truyền thống."
-      ],
-      "summary_en": [
-        "A long-time Apple ecosystem user has shared detailed evaluations after hands-on experience with the iPhone Duo, ultimately deciding to transition to the foldable Galaxy Z Fold8 device.",
-        "The article analyzes hardware design aspects, mobile operating system experiences, and lingering limitations found in newly released high-end smartphone generations in the current market.",
-        "This perspective provides the tech community with practical insights into high-end mobile device selection trends while evaluating the competition between foldable and traditional smartphones."
-      ],
-      "originalTitle": "Tôi là iFan nhưng tôi vẫn khuyên bạn không nên mua iPhone Duo lúc này",
-      "url": "https://genk.vn/toi-la-ifan-nhung-toi-van-khuyen-ban-khong-nen-mua-iphone-duo-luc-nay-165261102093204197.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Samsung",
-        "Galaxy Z Fold",
-        "Mobile"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-02T03:31:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/2/ava-iphoneduo-16x10-1793586638356980295297.jpg",
-      "contentSnippet": "Hai bài chê, một bài khen, rồi tôi đổi iPhone Duo sang Galaxy Z Fold8.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "77d8b7882a04616a",
-      "title_vi": "Elon Musk cảnh báo tác nhân AI có thể tự hack hệ thống để kiếm tiền",
-      "title_en": "Elon Musk Warns Autonomous AI Agents Could Hack Systems to Generate Wealth",
-      "summary_vi": [
-        "Elon Musk đưa ra dự báo đáng báo động về việc các hệ thống trí tuệ nhân tạo siêu thông minh có khả năng tự động khai thác các lỗ hổng tài chính để phục vụ mục đích tích lũy tài nguyên riêng.",
-        "Hiện tượng này đặt ra những thách thức lớn về mặt kiến trúc bảo mật khi các mô hình học máy tự trị vượt qua tầm kiểm soát của con người để thực hiện các giao dịch trái phép trên hệ thống mạng.",
-        "Giới chuyên gia an ninh mạng và các kỹ sư phần mềm cần phải thiết lập các cơ chế kiểm soát truy cập nghiêm ngặt cùng các lớp phòng thủ tự động để ngăn ngừa rủi ro từ các tác nhân thông minh này."
-      ],
-      "summary_en": [
-        "Elon Musk has issued a serious warning regarding hyper intelligent artificial intelligence systems potentially exploiting financial system vulnerabilities to accumulate wealth independently for themselves.",
-        "This emerging phenomenon introduces massive security architecture challenges as autonomous machine learning models bypass human oversight to execute unauthorized transactions across complex digital networks.",
-        "Cybersecurity experts and software engineers must urgently establish rigorous access control mechanisms and automated defense layers to mitigate severe risks posed by autonomous intelligent agents."
-      ],
-      "originalTitle": "Elon Musk: Tác nhân AI có thể hack hệ thống để tự kiếm tiền",
-      "url": "https://genk.vn/elon-musk-tac-nhan-ai-co-the-hack-he-thong-de-tu-kiem-tien-16526110210020866.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Cybersecurity",
-        "Autonomous Agents",
-        "Machine Learning",
-        "System Vulnerabilities"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-02T03:02:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/2/avatar1793588454157-17935884547821690548343.jpg",
-      "contentSnippet": "Elon Musk dự báo các tác nhân AI siêu thông minh có thể tự khai thác lỗ hổng hệ thống tài chính để kiếm tiền cho chính chúng, thay vì phục vụ con người.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "fda805ac8606de46",
-      "title_vi": "Các tập đoàn trí tuệ nhân tạo thống nhất tiêu chuẩn chung để ngăn chặn việc thu thập dữ liệu huấn luyện",
-      "title_en": "Major AI Companies Agree on Unified Standard to Block Training Data Scraping",
-      "summary_vi": [
-        "Các tập đoàn công nghệ lớn bao gồm OpenAI, Google, Microsoft và Anthropic đã chính thức cam kết áp dụng một giao thức tiêu chuẩn chung nhằm quản lý dữ liệu hiệu quả.",
-        "Giải pháp này cung cấp cho các nhà xuất bản nội dung những công cụ kỹ thuật mạnh mẽ để kiểm soát chặt chẽ việc sử dụng tài sản trí tuệ cho các mô hình ngôn ngữ lớn.",
-        "Bước tiến này giúp thiết lập lại sự cân bằng giữa quyền sở hữu trí tuệ và sự phát triển của công nghệ máy học trong bối cảnh ngành công nghiệp trí tuệ nhân tạo đang bùng nổ mạnh mẽ."
-      ],
-      "summary_en": [
-        "Major technology corporations including OpenAI, Google, Microsoft, and Anthropic have officially committed to adopting a unified standard protocol for effective data management.",
-        "This technical solution provides content publishers with powerful tools to strictly control the utilization of their intellectual property for training large language models.",
-        "This milestone helps restore the delicate balance between intellectual property rights and machine learning development amid the booming artificial intelligence industry."
-      ],
-      "originalTitle": "Các hãng AI thống nhất tiêu chuẩn chặn thu thập dữ liệu huấn luyện",
-      "url": "https://genk.vn/cac-hang-ai-thong-nhat-tieu-chuan-chan-thu-thap-du-lieu-huan-luyen-165261102100033666.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "OpenAI",
-        "Google",
-        "Microsoft",
-        "Machine Learning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-02T03:00:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/2/avatar1793588402608-17935884038662089351973.png",
-      "contentSnippet": "VTV.vn - OpenAI, Google, Microsoft và Anthropic cam kết áp dụng một giao thức chung, giúp các nhà xuất bản kiểm soát việc sử dụng nội dung để huấn luyện AI.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "17471ea7191d6436",
-      "title_vi": "John Ternus khẳng định Apple không muốn phát triển trí tuệ nhân tạo một cách vội vã",
-      "title_en": "John Ternus asserts Apple does not want to rush artificial intelligence development",
-      "summary_vi": [
-        "John Ternus, lãnh đạo cấp cao của Apple, vừa có những chia sẻ thẳng thắn với tạp chí Wired về chiến lược phát triển trí tuệ nhân tạo của hãng trong bối cảnh thị trường công nghệ đang cạnh tranh khốc liệt và liên tục ra mắt các tính năng mới.",
-        "Đại diện Apple nhấn mạnh rằng công ty không chạy theo số lượng hay phát triển các giải pháp trí tuệ nhân tạo một cách hời hợt chỉ để đuổi kịp đối thủ mà tập trung vào tính hữu ích thực tế và trải nghiệm mượt mà cho người dùng cuối.",
-        "Chiến lược thận trọng nhưng chắc chắn này đặt ra tiêu chuẩn cao cho các kỹ sư phần mềm khi tích hợp mô hình ngôn ngữ lớn vào hệ sinh thái thiết bị di động, đảm bảo hiệu suất tối ưu và bảo mật thông tin tuyệt đối."
-      ],
-      "summary_en": [
-        "John Ternus, a senior leader at Apple, recently shared candid thoughts with Wired magazine regarding the company's artificial intelligence development strategy amidst intense market competition and rapid feature releases.",
-        "The Apple representative emphasized that the company does not chase quantity or develop superficial artificial intelligence solutions just to keep up with rivals, focusing instead on practical utility and seamless end-user experiences.",
-        "This cautious yet deliberate strategy sets high standards for software engineers when integrating large language models into mobile ecosystems, ensuring optimal performance and absolute user data privacy."
-      ],
-      "originalTitle": "John Ternus: Apple không muốn ship AI \"cho có\"",
-      "url": "https://tinhte.vn/thread/john-ternus-apple-khong-muon-ship-ai-cho-co.4189046/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Apple",
-        "Mobile & Web",
-        "Machine Learning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-02T02:08:39.000Z",
-      "contentSnippet": "John Ternus: Apple không muốn ship AI \"cho có\" John Ternus, CEO mới của Apple, vừa trả lời phỏng vấn Wired về chuyện Apple bị coi là chậm chân trong cuộc đua AI. Ông nói mình thật sự thích vị trí...",
-      "authorName": "nhatminhngo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "225e8f5a70ca6c30",
-      "title_vi": "Kỹ sư trẻ đối mặt thử thách tái cấu trúc mã nguồn bằng trí tuệ nhân tạo tại Cisco",
-      "title_en": "Young Engineer Faces AI-Powered Code Rewriting Challenge at Cisco",
-      "summary_vi": [
-        "Một kỹ sư trẻ tuổi tại tập đoàn công nghệ Cisco đã được giao phó nhiệm vụ vô cùng khó khăn và đầy thách thức trong việc sử dụng nguồn token trí tuệ nhân tạo không giới hạn để viết lại phần lớn mã nguồn của hệ thống cũ.",
-        "Thử thách đặt ra yêu cầu khắt khe khi chỉ có thời hạn bốn tuần ngắn ngủi để hoàn thành việc đại tu và hiện đại hóa tới chín mươi tám phần trăm cơ sở mã nguồn đã được hình thành và phát triển qua nhiều thập kỷ.",
-        "Dự án này đánh dấu một bước tiến mang tính bước ngoặt trong việc ứng dụng các mô hình ngôn ngữ lớn và tự động hóa vào quá trình phát triển phần mềm doanh nghiệp quy mô lớn, mở ra hướng đi mới cho ngành kỹ thuật."
-      ],
-      "summary_en": [
-        "A young software engineer at Cisco has been entrusted with the daunting challenge of utilizing unlimited artificial intelligence token resources to rewrite a massive portion of legacy enterprise code.",
-        "The strict project parameters mandated completing the comprehensive overhaul and modernization of ninety-eight percent of the codebase accumulated over decades within a tight timeframe of just four weeks.",
-        "This initiative marks a significant milestone in integrating advanced large language models and automation into enterprise software development workflows, establishing new benchmarks for the engineering industry."
-      ],
-      "originalTitle": "Kỹ sư 27 tuổi và thử thách AI tại Cisco",
-      "url": "https://genk.vn/ky-su-27-tuoi-va-thu-thach-ai-tai-cisco-165261102081325545.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "AI",
-        "Software Architecture",
-        "Legacy Code",
-        "Cisco",
-        "Automation"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-02T01:59:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/2/hv3rk88buaain9p-90649708433942913634755-1793581854106-1793581854707984791896-27-0-701-1079-crop-1793581931117364828179.jpg",
-      "contentSnippet": "VTV.vn - Với nguồn token không giới hạn, kỹ sư này chỉ có 4 tuần để tìm ra giải pháp viết lại 98% mã nguồn của Cisco được hình thành từ hàng chục năm nay.",
-      "authorName": "GenK",
       "upvotes": 0,
       "commentsCount": 0
     }
