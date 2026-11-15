@@ -1,7 +1,144 @@
 {
-  "lastUpdated": "2026-11-15T13:14:09.611Z",
+  "lastUpdated": "2026-11-15T22:19:16.348Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "cb89fe192f1a595f",
+      "title_vi": "Cách phát hiện suy giảm mô hình âm thầm trên trạm trung chuyển API",
+      "title_en": "How to Detect Silent Model Degradation on API Gateways",
+      "summary_vi": [
+        "Folkbench vừa ra mắt tính năng mới giúp phát hiện tình trạng giảm chất lượng mô hình trí tuệ nhân tạo diễn ra một cách âm thầm trên các hệ thống trạm trung chuyển API.",
+        "Hệ thống sử dụng các bài kiểm tra thời sự kết hợp với kỹ thuật tạo dấu vân tay mô hình và phân tích sâu nhằm giám sát hiệu năng thực tế của các dịch vụ AI.",
+        "Giải pháp này mang lại giá trị thiết thực cho các kỹ sư phần mềm trong việc đảm bảo độ tin cậy và chất lượng ổn định của mô hình AI tích hợp."
+      ],
+      "summary_en": [
+        "Folkbench has recently launched a new feature to detect silent quality degradation of artificial intelligence models running across various API gateway systems.",
+        "The system leverages real-time probes combined with model fingerprinting techniques and deep analysis to monitor the actual performance of integrated AI services.",
+        "This solution provides practical value for software engineers by ensuring the reliability and consistent quality of deployed artificial intelligence models."
+      ],
+      "originalTitle": "Cách phát hiện suy giảm mô hình âm thầm trên trạm trung chuyển API",
+      "url": "https://viblo.asia/p/cach-phat-hien-suy-giam-mo-hinh-am-tham-tren-tram-trung-chuyen-api-wd43EpQjLX9",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "API Gateway",
+        "Machine Learning",
+        "Model Monitoring",
+        "DevOps"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-15T23:11:50.000Z",
+      "contentSnippet": "Bài gốc / Original: Ra mắt tính năng phát hiện giảm trí của Folkbench: Kiểm chứng trạm trung chuyển API bằng probe thời sự, dấu vân tay mô hình và m...",
+      "authorName": "Matthew Hsu",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5feb4cd75957a2c9",
+      "title_vi": "Đưa AI agent từ khâu khảo sát đến sản xuất thực tế tại startup: Những phương pháp vận hành hiệu quả",
+      "title_en": "Taking AI Agents from Scoping to Production in Startups: What Actually Works",
+      "summary_vi": [
+        "Bài viết phân tích những cạm bẫy thường gặp khi các startup khởi động dự án phát triển AI agent mà thiếu quy trình khảo sát và định nghĩa yêu cầu kỹ thuật chính xác ngay từ giai đoạn đầu tiên.",
+        "Tác giả chia sẻ kinh nghiệm thực tế về cách thiết lập kiến trúc hệ thống, quản lý ngữ cảnh và kiểm soát độ chính xác của mô hình ngôn ngữ lớn khi triển khai trên môi trường sản xuất thực tế.",
+        "Nội dung mang lại góc nhìn chiến lược giúp các kỹ sư phần mềm và nhà sáng lập tối ưu hóa chi phí vận hành, giảm thiểu rủi ro kỹ thuật và rút ngắn thời gian đưa sản phẩm ra thị trường."
+      ],
+      "summary_en": [
+        "The article analyzes common pitfalls when startups initiate AI agent development projects without proper scoping and precise technical requirement definitions during the initial phase.",
+        "The author shares practical experience on how to establish system architecture, manage context windows, and control the accuracy of large language models when deploying to production environments.",
+        "The content provides strategic insights helping software engineers and founders optimize operational costs, minimize technical risks, and shorten time-to-market for their products."
+      ],
+      "originalTitle": "Đưa AI agent từ scoping tới production trong startup: những gì hoạt động thật",
+      "url": "https://viblo.asia/p/dua-ai-agent-tu-scoping-toi-production-trong-startup-nhung-gi-hoat-dong-that-y0VGwQl7VPA",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI Agent",
+        "LLM",
+        "Software Engineering",
+        "Production",
+        "Startups"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-15T23:00:51.000Z",
+      "contentSnippet": "Một startup đến với đội tôi với yêu cầu \"làm một AI agent\". Yêu cầu đó là cái bẫy: nếu hai tuần đầu không scope đúng, dự án sẽ không bao giờ lên produ...",
+      "authorName": "Nghia Do",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "57637eac37a37e6d",
+      "title_vi": "Vận hành hệ thống Django trong môi trường sản xuất: Triển khai không gián đoạn dịch vụ với chiến lược blue-green và rolling",
+      "title_en": "Django Production Operations: Zero-Downtime Deployment Using Blue-Green and Rolling Strategies",
+      "summary_vi": [
+        "Bài viết tiếp tục chuỗi series vận hành hệ thống Django tập trung vào việc giải quyết bài toán triển khai mã nguồn mới mà không làm gián đoạn trải nghiệm của người dùng cuối trên môi trường sản xuất.",
+        "Tác giả phân tích chi tiết cơ chế triển khai không gián đoạn thông qua các mô hình chiến lược blue-green và rolling, kết hợp cùng thứ tự thực hiện migration cơ sở dữ liệu và khởi động lại dịch vụ an toàn.",
+        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư phần mềm và quản trị hệ thống, giúp tối ưu hóa quy trình CI/CD và đảm bảo tính sẵn sàng cao cho các ứng dụng web quy mô lớn."
+      ],
+      "summary_en": [
+        "The article continues the Django production operations series by focusing on solving the critical challenge of deploying new code without interrupting the end-user experience in a live environment.",
+        "The author provides a detailed analysis of zero-downtime deployment mechanisms using blue-green and rolling strategies, combined with proper database migration sequencing and safe service restarts.",
+        "This knowledge delivers high practical value for software engineers and system administrators, helping to optimize CI/CD pipelines and ensure high availability for large-scale web applications."
+      ],
+      "originalTitle": "Django vận hành production #18: Deploy không downtime — blue-green/rolling, thứ tự chạy migrations và restart",
+      "url": "https://viblo.asia/p/django-van-hanh-production-18-deploy-khong-downtime-blue-greenrolling-thu-tu-chay-migrations-va-restart-13VM9BA8VY7",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "Django",
+        "DevOps",
+        "CI/CD",
+        "Zero-Downtime",
+        "Deployment"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-15T22:33:24.000Z",
+      "contentSnippet": "Tập 17 đã dựng pipeline CI/CD: push code lên main là test chạy, rồi deploy tự động lên server. Nhưng deploy tự động chưa chắc đã không downtime — rest...",
+      "authorName": "Linh Fish Dev",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "7310523931ec31d7",
+      "title_vi": "Jensen Huang có thể đang lên kế hoạch trở lại và những diễn biến mới nhất xoay quanh tập đoàn Nvidia",
+      "title_en": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+      "summary_vi": [
+        "Những diễn biến phức tạp xung quanh nhà đồng sáng lập kiêm cựu giám đốc điều hành Jensen Huang đang thu hút sự chú ý lớn từ cộng đồng công nghệ khi nhiều tin đồn về khả năng ông quay lại nắm quyền lãnh đạo xuất hiện liên tục.",
+        "Bức thư ngỏ yêu cầu tập đoàn công nghệ này đưa nhà lãnh đạo cũ trở lại đã nhận được sự đồng thuận công khai từ nhiều nhân vật tầm cỡ trong ngành bao gồm tỷ phú Elon Musk và giám đốc điều hành của Epic Games.",
+        "Sự kiện thay đổi nhân sự cấp cao này có thể tạo ra những tác động mạnh mẽ đến chiến lược phát triển trí tuệ nhân tạo và định hướng phần cứng bán dẫn trong toàn bộ hệ sinh thái công nghệ toàn cầu."
+      ],
+      "summary_en": [
+        "The complex developments surrounding co-founder and former chief executive Jensen Huang are attracting massive attention from the tech community as persistent rumors emerge regarding his potential return to leadership.",
+        "An open letter demanding the major technology corporation to bring back their former leader has garnered public support from prominent industry figures including billionaire Elon Musk and the CEO of Epic Games.",
+        "This high-level personnel turmoil could exert profound impacts on artificial intelligence strategies and semiconductor hardware directions across the entire global technology ecosystem."
+      ],
+      "originalTitle": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+      "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "AI Hardware",
+        "Semiconductors",
+        "Tech Leadership"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-15T20:43:49.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_03.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that Jensen Huang might be trying to find a ",
+      "authorName": "Terrence O’Brien",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "e40480a660639a01",
       "title_vi": "WebMCP là gì? Chuẩn kết nối AI Agent với ứng dụng Web",
@@ -68,6 +205,41 @@
       "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301620664.jpg?quality=90&strip=all&crop=0,0,100,100",
       "contentSnippet": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepb",
       "authorName": "Terrence O’Brien",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "7e9028f477eeb32d",
+      "title_vi": "Thành phố Hồ Chí Minh đề xuất cho phép doanh nghiệp khai thác miễn phí dữ liệu mở để huấn luyện trí tuệ nhân tạo",
+      "title_en": "Ho Chi Minh City Proposes Free Open Data Access for Enterprises to Train Artificial Intelligence Models",
+      "summary_vi": [
+        "Thành phố Hồ Chí Minh đang xây dựng dự thảo nghị quyết nhằm hỗ trợ các doanh nghiệp và tổ chức nghiên cứu công nghệ tiếp cận nguồn tài nguyên dữ liệu lớn một cách dễ dàng và hoàn toàn miễn phí.",
+        "Cơ chế mới này cho phép khai thác trực tiếp các kho dữ liệu mở tập trung trong khu đô thị khoa học nhằm phục vụ cho việc huấn luyện các mô hình trí tuệ nhân tạo và phát triển ứng dụng số đột phá.",
+        "Chính sách này tạo động lực lớn giúp cộng đồng khởi nghiệp công nghệ tối ưu hóa chi phí nghiên cứu, đẩy nhanh tốc độ phát triển sản phẩm phần mềm và thúc đẩy hệ sinh thái đổi mới sáng tạo."
+      ],
+      "summary_en": [
+        "Ho Chi Minh City is drafting a resolution to support technology enterprises and research organizations in accessing large-scale data resources easily and completely free of charge.",
+        "This new mechanism allows direct exploitation of centralized open data repositories within the science urban area to train artificial intelligence models and develop breakthrough digital applications.",
+        "This policy creates a strong incentive for the tech startup community to optimize research costs, accelerate software product development, and boost the innovation ecosystem."
+      ],
+      "originalTitle": "TP HCM đề xuất cho doanh nghiệp dùng miễn phí dữ liệu mở để huấn luyện AI",
+      "url": "https://vnexpress.net/tp-hcm-de-xuat-cho-doanh-nghiep-dung-mien-phi-du-lieu-mo-de-huan-luyen-ai-5144898.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Open Data",
+        "Machine Learning",
+        "Smart City",
+        "Tech Policy"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-15T12:50:28.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/15/binh-duong-1794733208-5552-1794733261.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=WupzICu7pS70-BBqL__JAg",
+      "contentSnippet": "Dự thảo Nghị quyết đề xuất doanh nghiệp, tổ chức nghiên cứu hoạt động trong khu đô thị khoa học TP HCM có thể được khai thác miễn phí dữ liệu mở để huấn luyện AI, phát triển ứng dụng số.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8384,177 +8556,6 @@
       "authorName": "Philpax",
       "upvotes": 176,
       "commentsCount": 58
-    },
-    {
-      "id": "ec7e1a76c6da2f4e",
-      "title_vi": "Những cạm bẫy kỹ thuật khi di dời hệ thống bản đồ số và dịch vụ định vị khỏi Google Geocoding API",
-      "title_en": "Technical Pitfalls and Challenges When Migrating Mapping Systems Away from the Google Geocoding API",
-      "summary_vi": [
-        "Đội ngũ kỹ thuật của ERPFit đã chia sẻ những trải nghiệm thực tế và bài học xương máu khi vận hành dịch vụ bản đồ số map.vapp.vn của chính họ, đặc biệt là những tình huống xử lý lỗi của hệ thống.",
-        "Bài viết phân tích chi tiết các hiện tượng bất thường khi bộ giải mã địa chỉ trả về kết quả chính xác giả cho các chuỗi dữ liệu hoàn toàn vô nghĩa như qwerty 99999 xyz, làm lộ ra các điểm mù thuật toán.",
-        "Qua đó, kỹ sư phần mềm có cái nhìn sâu sắc hơn về việc xây dựng cơ chế kiểm định dữ liệu đầu vào và đánh giá độ tin cậy của các dịch vụ định vị thay thế cho hệ sinh thái Google."
-      ],
-      "summary_en": [
-        "The engineering team at ERPFit has shared practical experiences and vital lessons learned while operating their proprietary digital mapping service map.vapp.vn, focusing specifically on error handling scenarios.",
-        "The article analyzes in detail the anomalies when the geocoder returns false positive exact matches for completely nonsensical input strings like qwerty 99999 xyz, exposing underlying algorithmic blind spots.",
-        "This provides software engineers with deeper insights into building robust input validation mechanisms and evaluating the reliability of alternative positioning services replacing the Google ecosystem."
-      ],
-      "originalTitle": "Geocoder trả \"exact\" cho \"qwerty 99999 xyz\": những cái bẫy khi chuyển khỏi Google Geocoding API",
-      "url": "https://viblo.asia/p/geocoder-tra-exact-cho-qwerty-99999-xyz-nhung-cai-bay-khi-chuyen-khoi-google-geocoding-api-XRJ8RWmNVGq",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Geocoding",
-        "API Migration",
-        "Software Architecture",
-        "GIS",
-        "Error Handling"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-04T18:40:02.000Z",
-      "contentSnippet": "Bài của team ERPFit, đơn vị vận hành map.vapp.vn. Vì thế đây là chuyện về chính sản phẩm của team mình, kể cả những chỗ nó trả lời sai. Mọi đoạn code ...",
-      "authorName": "ERPFit Maps",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "081184f052928df0",
-      "title_vi": "Đánh giá hiệu năng chín mô hình ngôn ngữ lớn trên mười một tác vụ viết luận văn không bị Turnitin phát hiện",
-      "title_en": "Benchmarking Nine Large Language Models Across Eleven Thesis Writing Tasks To Bypass Turnitin Detection",
-      "summary_vi": [
-        "Tác giả thực hiện khảo sát và đánh giá toàn diện chín mô hình ngôn ngữ lớn khác nhau trên mười một tác vụ thực tế nhằm tìm ra giải pháp hỗ trợ viết luận văn học thuật mà không bị hệ thống kiểm đạo văn Turnitin đánh dấu.",
-        "Báo cáo cung cấp các số liệu đo lường chi tiết về tỷ lệ nhận diện trí tuệ nhân tạo, đồng thời phân tích các bộ hướng dẫn câu lệnh và kết quả đầu ra của từng mô hình cụ thể trong quá trình thử nghiệm.",
-        "Nghiên cứu mang lại góc nhìn thực tiễn về khả năng ứng dụng các công cụ sinh văn bản trong môi trường học thuật, giúp người dùng tối ưu hóa quy trình viết lách và nâng cao chất lượng nội dung."
-      ],
-      "summary_en": [
-        "The author conducted a comprehensive evaluation of nine different large language models across eleven practical tasks to determine an optimal solution for academic thesis writing without triggering Turnitin detection systems.",
-        "The report provides detailed measurement metrics regarding artificial intelligence detection rates, alongside an analysis of prompt engineering strategies and specific output results generated by each tested model.",
-        "This research delivers practical insights into applying text generation tools within academic environments, helping users optimize their writing workflows and enhance overall content quality."
-      ],
-      "originalTitle": "Dùng AI nào để viết luận văn mà không bị Turnitin đánh dấu? Tôi đã benchmark 9 mô hình ngôn ngữ lớn trên 11 tác vụ thực tế",
-      "url": "https://viblo.asia/p/dung-ai-nao-de-viet-luan-van-ma-khong-bi-turnitin-danh-dau-toi-da-benchmark-9-mo-hinh-ngon-ngu-lon-tren-11-tac-vu-thuc-te-1XVOW0Z6VMz",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "LLM",
-        "NLP",
-        "Benchmark",
-        "Academic"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-11-04T18:01:06.000Z",
-      "contentSnippet": "Công bố: Bài viết này được viết với sự hỗ trợ của AI (khai báo theo thông lệ cộng đồng). Tất cả số liệu benchmark, prompt, output và điểm \"AI-ness\" ...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "28d1f4c29ec3f5a3",
-      "title_vi": "Clj.rs – một phương ngữ Lisp Clojure được hiện thực hóa trên hệ sinh thái Rust",
-      "title_en": "Clj.rs – a Clojure dialect implemented in Rust",
-      "summary_vi": [
-        "Dự án thử nghiệm cljrs mang đến một phương ngữ của ngôn ngữ lập trình Clojure được thiết kế đặc biệt để tích hợp sâu rộng vào toàn bộ hệ sinh thái của ngôn ngữ lập trình Rust.",
-        "Công cụ này hướng tới mục tiêu trở thành một môi trường chạy Lisp mạnh mẽ, hỗ trợ cấu trúc dữ liệu bền vững, hệ thống macro được lưu trữ và khả năng tương tác nguyên bản thông qua biên dịch hoặc thông dịch.",
-        "Mặc dù đang ở giai đoạn đầu phát triển với nhiều điểm cần hoàn thiện, dự án này mở ra tiềm năng ứng dụng cao cho việc xây dựng các môi trường thực thi lập trình tự trị."
-      ],
-      "summary_en": [
-        "The experimental project cljrs introduces a distinct Clojure programming dialect specifically engineered for seamless and deep integration within the broader Rust software development ecosystem.",
-        "This tool aims to function as a capable Lisp runtime supporting persistent data structures, hosted macro systems, and native interoperability through either compilation or interpretation mechanisms.",
-        "Although currently in its early developmental stages with several rough edges, this project unlocks strong practical potential for building advanced agentic coding runtime environments."
-      ],
-      "originalTitle": "Clj.rs – a Clojure dialect implemented in Rust",
-      "url": "https://clj.rs/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Clojure",
-        "Rust",
-        "Lisp",
-        "Software Engineering",
-        "Runtime"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-04T15:23:16.000Z",
-      "contentSnippet": "cljrs is an experimental Clojure dialect targeting the Rust ecosystem. It aims to be a capable Lisp runtime with persistent data structures, a hosted macro system, and native interop — compiled or interpreted, suitable for use as an agentic coding runtime. Available on crates.io. Early stage; expect",
-      "authorName": "simonpure",
-      "upvotes": 82,
-      "commentsCount": 13
-    },
-    {
-      "id": "93f619b42c28cff2",
-      "title_vi": "CEO OpenAI đổi tên tài khoản X thành Ram Altman sau tranh cãi về bộ nhớ",
-      "title_en": "OpenAI CEO changes X account name to Ram Altman following memory debate",
-      "summary_vi": [
-        "Sam Altman, giám đốc điều hành OpenAI, đã gây xôn xao trên mạng xã hội X khi quyết định đổi tên tài khoản cá nhân thành Ram Altman sau những tranh luận xoay quanh phát biểu về bộ nhớ RAM của hệ thống trí tuệ nhân tạo.",
-        "Sự việc bắt nguồn từ các cuộc thảo luận chuyên sâu về giới hạn phần cứng, nhu cầu mở rộng quy mô sản xuất bộ nhớ máy tính và tầm quan trọng của việc duy trì quyền kiểm soát của con người đối với các hệ thống tự động hóa tiên tiến.",
-        "Sự kiện này phản ánh mối quan tâm sâu sắc của cộng đồng công nghệ đối với bài toán hạ tầng phần cứng phục vụ trí tuệ nhân tạo và cách các nhà lãnh đạo ngành định hình tương lai giữa phần cứng và phần mềm."
-      ],
-      "summary_en": [
-        "Sam Altman, the chief executive officer of OpenAI, generated significant discussion on the X platform by temporarily changing his personal account name to Ram Altman following debates over system memory statements.",
-        "The incident originated from deep technical discussions regarding hardware constraints, the growing demand for scaling computer memory production, and the critical importance of human oversight in advanced automated systems.",
-        "This event reflects the intense focus of the technology community on the hardware infrastructure challenges required to support artificial intelligence and how industry leaders address hardware and software integration."
-      ],
-      "originalTitle": "CEO OpenAI đổi tên tài khoản X thành 'Ram Altman'",
-      "url": "https://vnexpress.net/ceo-openai-doi-ten-tai-khoan-x-thanh-ram-altman-5140868.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Hardware",
-        "OpenAI",
-        "RAM",
-        "Tech Trends"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-04T14:21:31.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/04/sam-jpeg-1793802056-6642-1793802092.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=3B9kjQUYPRYxYUCfJyNvEw",
-      "contentSnippet": "Sam Altman, CEO OpenAI, đổi tên thành Ram Altman trên X sau khi đối mặt với làn sóng phản ứng vì phát biểu liên quan đến bộ nhớ RAM.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a74532fce9be6f81",
-      "title_vi": "Trí tuệ nhân tạo bắt đầu tự động thiết kế phần cứng từ những nền tảng lịch sử đến các mô hình tiên tiến",
-      "title_en": "Artificial Intelligence begins to autonomously design hardware from historical foundations to advanced models",
-      "summary_vi": [
-        "OpenAI vừa công bố một bài viết chuyên sâu về việc gia tăng tốc độ kỹ thuật cho thế giới vật lý, đánh dấu bước tiến mới trong việc ứng dụng trí tuệ nhân tạo vào thiết kế phần cứng và cơ khí.",
-        "Công nghệ này kết hợp các nguyên lý hình học truyền thống từ lịch sử phát triển máy tính với khả năng tính toán vượt trội của các mô hình ngôn ngữ lớn để tối ưu hóa quy trình mô phỏng kỹ thuật.",
-        "Sự đột phá này mang lại tác động lớn cho ngành công nghiệp bán dẫn và kỹ thuật phần cứng, giúp giảm đáng kể thời gian phát triển sản phẩm và nâng cao độ chính xác trong thiết kế."
-      ],
-      "summary_en": [
-        "OpenAI recently published an in-depth article regarding accelerating engineering for the physical world, marking a significant step forward in applying artificial intelligence to hardware and mechanical design.",
-        "This technology combines traditional geometric principles from the history of computing with the superior computational power of large language models to optimize technical simulation workflows.",
-        "This breakthrough delivers a major impact on the semiconductor and hardware engineering industries, significantly reducing product development time and enhancing design precision."
-      ],
-      "originalTitle": "AI bắt đầu tự vẽ phần cứng: từ hình học họa hình của Monge, Sketchpad 1963 đến GPT-6 Astra",
-      "url": "https://tinhte.vn/thread/ai-bat-dau-tu-ve-phan-cung-tu-hinh-hoc-hoa-hinh-cua-monge-sketchpad-1963-den-gpt-6-astra.4189703/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Hardware",
-        "OpenAI",
-        "Engineering",
-        "Semiconductor"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-11-04T14:21:20.000Z",
-      "contentSnippet": "Ngày 3/11/2026 (giờ Mỹ), OpenAI đăng một bài blog có tựa đề khá khô khan: \"Accelerating engineering for the physical world\" (Tăng tốc kỹ thuật cho thế giới vật lý). Nhưng bên trong là một thí...",
-      "authorName": "Quocxi",
-      "upvotes": 0,
-      "commentsCount": 0
     }
   ]
 }
