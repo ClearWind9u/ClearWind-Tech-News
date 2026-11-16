@@ -1,7 +1,384 @@
 {
-  "lastUpdated": "2026-11-15T22:19:16.348Z",
+  "lastUpdated": "2026-11-16T03:59:03.990Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "bd9f0290d5c083f1",
+      "title_vi": "Cách sử dụng Middleware để kiểm tra API Key và phân quyền trong Express",
+      "title_en": "How to Use Middleware for API Key Validation and Authorization in Express",
+      "summary_vi": [
+        "Bài viết hướng dẫn lập trình viên xây dựng hệ thống quản lý bán hàng trực tuyến với nhiều chức năng quan trọng như xem sản phẩm, thêm sản phẩm và xóa mã giảm giá.",
+        "Giải pháp kỹ thuật tập trung vào việc áp dụng Express Middleware để xử lý kiểm tra khóa API và phân quyền người dùng trước khi yêu cầu được chuyển đến bộ điều khiển chính.",
+        "Kiến trúc này giúp tối ưu hóa mã nguồn, tăng cường tính bảo mật cho ứng dụng web và mang lại bài học thực tiễn quan trọng cho việc phát triển API hiện đại."
+      ],
+      "summary_en": [
+        "The article guides developers in building an online sales management system with essential functions such as viewing products, adding items, and deleting discount codes.",
+        "The technical solution focuses on applying Express Middleware to handle API key verification and user authorization before requests reach the main controller.",
+        "This architecture optimizes codebase maintainability, enhances web application security, and provides valuable practical lessons for modern backend API development."
+      ],
+      "originalTitle": "Cách sử dụng Middleware để kiểm tra API Key và phân quyền trong Express",
+      "url": "https://viblo.asia/p/cach-su-dung-middleware-de-kiem-tra-api-key-va-phan-quyen-trong-express-lZL9XYQeJQK",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Express",
+        "Node.js",
+        "Middleware",
+        "API Security",
+        "Backend"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-16T10:53:25.000Z",
+      "contentSnippet": "Bài toán Giả sử bạn đang làm một hệ thống bán hàng trực tuyến và API của bạn có nhiều chức năng như: xem sản phẩm, thêm sản phẩm, xóa mã giảm giá, ......",
+      "authorName": "Tiến Dũng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b646a6671d3518f2",
+      "title_vi": "Kiến trúc Microservices Bài 24: Phát hành Canary và Feature Toggles trong môi trường Production",
+      "title_en": "Microservices Series Part 24: Canary Release and Feature Toggles in Production",
+      "summary_vi": [
+        "Bài viết tiếp tục chuỗi kiến trúc microservices với tình huống thực tế khi sếp yêu cầu thay đổi toàn bộ thuật toán tính giá vé hệ thống metro.",
+        "Tác giả phân tích chi tiết cơ chế triển khai canary release kết hợp feature toggles giúp kiểm soát rủi ro và thử nghiệm tính năng mới trên môi trường production.",
+        "Giải pháp này mang lại giá trị thực tiễn cao cho các kỹ sư phần mềm trong việc giảm thiểu thời gian downtime và đảm bảo tính ổn định cho hệ thống lớn."
+      ],
+      "summary_en": [
+        "The article continues the microservices architecture series addressing a real world scenario where management requests a complete overhaul of the metro fare calculation algorithm.",
+        "The author analyzes in detail the mechanism of canary releases combined with feature toggles to control risks and safely test new features in the production environment.",
+        "This solution delivers high practical value for software engineers by minimizing downtime and ensuring system stability for large scale applications."
+      ],
+      "originalTitle": "[Microservices Series] Bài 24: Canary Release & Feature Toggles – Nghệ thuật thả \"chuột bạch\" trên Production",
+      "url": "https://viblo.asia/p/microservices-series-bai-24-canary-release-feature-toggles-nghe-thuat-tha-chuot-bach-tren-production-AoJe8lk141j",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Microservices",
+        "Canary Release",
+        "Feature Toggles",
+        "Production",
+        "Software Architecture"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-16T09:30:15.000Z",
+      "contentSnippet": "Chào anh em, mình đây! Ở cuối bài 23, mình có đặt ra một tình huống \"thót tim\": Sếp yêu cầu thay đổi toàn bộ thuật toán tính giá vé của tuyến Metro. C...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "482f2e83e4413363",
+      "title_vi": "Jensen Huang cân nhắc quay lại ghế Giám đốc điều hành Nvidia trong bối cảnh thay đổi nhân sự cấp cao",
+      "title_en": "Jensen Huang Considers Returning as Nvidia CEO Amid High-Level Leadership Transition Discussions",
+      "summary_vi": [
+        "Truyền thông quốc tế đưa tin Giám đốc điều hành Nvidia là Jensen Huang đang cân nhắc khả năng quay trở lại vị trí lãnh đạo cao nhất và đã thảo luận vấn đề này cùng những người thân cận nhất trong nội bộ tập đoàn.",
+        "Động thái này diễn ra song song với các cuộc thảo luận từ giới chức chính quyền Mỹ về việc tìm kiếm các ứng viên giám đốc điều hành từ bên ngoài nhằm đảm bảo tính minh bạch và chiến lược phát triển dài hạn.",
+        "Sự biến động nhân sự cấp cao tại Nvidia có thể tạo ra những tác động mạnh mẽ đến thị trường phần cứng trí tuệ nhân tạo toàn cầu cũng như chuỗi cung ứng chất bán dẫn trong giai đoạn sắp tới."
+      ],
+      "summary_en": [
+        "International media reported that Nvidia Chief Executive Officer Jensen Huang is considering returning to the top leadership position and has discussed this matter closely with his trusted inner circle.",
+        "This development unfolds alongside discussions from US government officials regarding the search for external chief executive candidates to ensure transparency and long-term strategic growth.",
+        "Such high-level executive changes at Nvidia could generate significant impacts on the global artificial intelligence hardware market and the semiconductor supply chain in the upcoming period."
+      ],
+      "originalTitle": "Jensen Huang tính quay lại làm CEO Nvidia, Bộ trưởng Tài chính Mỹ đòi tìm CEO từ bên ngoài",
+      "url": "https://tinhte.vn/thread/jensen-huang-tinh-quay-lai-lam-ceo-nvidia-bo-truong-tai-chinh-my-doi-tim-ceo-tu-ben-ngoai.4192754/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Semiconductors",
+        "Leadership",
+        "AI"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-16T03:55:36.000Z",
+      "contentSnippet": "Financial Times đưa tin tối 15/11 (giờ Mỹ, sáng sớm 16/11 giờ Việt Nam): Jensen Huang đang cân nhắc quay lại ghế CEO Nvidia, và đã bàn điều này với những người thân tín. Cùng ngày, Bộ trưởng Tài...",
+      "authorName": "Quocxi",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "dfc31b76d78ea4ae",
+      "title_vi": "Phố Wall công bố hồ sơ vận chuyển chip trí tuệ nhân tạo trị giá gần mười hai tỷ đô la của Megaspeed",
+      "title_en": "Wall Street Journal reveals Megaspeed shipping records for nearly twelve billion dollars in AI chips",
+      "summary_vi": [
+        "Tờ báo uy tín The Wall Street Journal vừa công bố các tài liệu điều tra chi tiết về hoạt động vận chuyển phần cứng trí tuệ nhân tạo của công ty điện toán đám mây Megaspeed tại Singapore trong giai đoạn từ tháng ba năm hai nghìn không trăm hai mươi tư đến tháng sáu năm hai nghìn không trăm hai mươi lăm.",
+        "Hồ sơ ghi nhận doanh nghiệp này đã sắp xếp thành công các lô hàng vi xử lý đồ họa hiệu năng cao của Nvidia với tổng giá trị lên tới gần mười hai tỷ đô la Mỹ, mặc dù các bằng chứng thực tế về thời gian và số lượng thiết bị thực sự được giao đến tay khách hàng vẫn chưa được làm rõ hoàn toàn.",
+        "Sự kiện này phản ánh rõ nét những biến động phức tạp và các luồng cung ứng phần cứng hạ tầng đám mây đầy nhạy cảm trong bối cảnh cuộc đua phát triển siêu máy tính và hệ thống trí tuệ nhân tạo toàn cầu đang diễn ra vô cùng gay gắt."
+      ],
+      "summary_en": [
+        "The prominent Wall Street Journal published detailed investigative documents regarding artificial intelligence hardware shipping operations by Singapore cloud computing company Megaspeed from March twenty twenty four through June twenty twenty five.",
+        "Records indicate the enterprise successfully arranged high performance Nvidia graphics processing unit shipments totaling nearly twelve billion US dollars, although actual delivery timestamps and exact hardware quantities remain unclear.",
+        "This event clearly reflects complex supply chain fluctuations for sensitive cloud infrastructure hardware amidst intense global competition in supercomputing and artificial intelligence system development."
+      ],
+      "originalTitle": "WSJ: Megaspeed thu xếp gần 12 tỷ USD chip Nvidia, hồ sơ chưa rõ đã giao bao nhiêu",
+      "url": "https://tinhte.vn/thread/wsj-megaspeed-thu-xep-gan-12-ty-usd-chip-nvidia-ho-so-chua-ro-da-giao-bao-nhieu.4192752/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "AI Chips",
+        "Cloud Computing",
+        "Supply Chain",
+        "Hardware"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-16T03:54:30.000Z",
+      "contentSnippet": "The Wall Street Journal vừa công bố bài điều tra dựa trên hồ sơ vận chuyển mà tờ báo được xem. Từ tháng 3/2024 đến tháng 6/2025, Megaspeed — công ty điện toán đám mây đặt tại Singapore, từng có...",
+      "authorName": "Quocxi",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "aedd22ab3aebd488",
+      "title_vi": "Hướng dẫn tự động dọn dẹp và phân loại file trên macOS bằng phím tắt thông minh",
+      "title_en": "Guide to Automating File Cleanup and Organization on macOS Using Smart Shortcuts",
+      "summary_vi": [
+        "Thư mục tải xuống trên máy tính Mac thường xuyên rơi vào tình trạng quá tải với hàng loạt tệp tin hỗn độn từ hình ảnh cho đến các phần mềm cài đặt nặng.",
+        "Giải pháp sử dụng ứng dụng Shortcuts tích hợp sẵn trên macOS giúp tự động hóa quy trình quét, nhận diện định dạng và di chuyển tệp vào đúng thư mục chuyên dụng.",
+        "Phương pháp này tiết kiệm tối đa thời gian quản lý dữ liệu cá nhân, tối ưu hóa hiệu suất làm việc hàng ngày cho các kỹ sư và người dùng hệ điều hành macOS."
+      ],
+      "summary_en": [
+        "The download folder on Mac computers frequently becomes severely overloaded with a chaotic mix of various files ranging from images to heavy installation software.",
+        "The solution utilizes the built-in Shortcuts application on macOS to automate the scanning process, detect file formats, and move files into appropriate dedicated directories.",
+        "This method maximizes personal data management time and optimizes daily workflow efficiency for software engineers and macOS operating system users alike."
+      ],
+      "originalTitle": "Hướng dẫn dọn dẹp thư mục, phân loại file tự động bằng Shortcuts \"AI\" cực kì đã trên macOS 27",
+      "url": "https://tinhte.vn/thread/huong-dan-don-dep-thu-muc-phan-loai-file-tu-dong-bang-shortcuts-ai-cuc-ki-da-tren-macos-27.4192708/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "macOS",
+        "Automation",
+        "Shortcuts",
+        "Productivity",
+        "File Management"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-16T03:50:46.000Z",
+      "contentSnippet": "Anh em xài Mac chắc cũng giống mình, cái thư mục Downloads lúc nào cũng như một bãi rác khổng lồ. Tải đủ thứ trên đời từ hình ảnh, video cho đến mấy cái file cài đặt cực kì nặng máy, xong rồi để...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "59f94fd2166bfc72",
+      "title_vi": "Sếp Google dùng trợ lý ảo Gemini mang hệ điều hành Windows 11 lên dòng điện thoại iPhone Duo với trải nghiệm laptop",
+      "title_en": "Google Executive Leverages Gemini AI to Bring Windows 11 to iPhone Duo with Laptop Experience",
+      "summary_vi": [
+        "Một lãnh đạo cấp cao tại Google đã thành công trong việc tích hợp giao diện hệ điều hành Windows 11 lên thiết bị iPhone Duo thông qua sự hỗ trợ đắc lực từ trí tuệ nhân tạo Gemini.",
+        "Giải pháp này cho phép thiết bị di động chạy mượt mà trình duyệt web Edge và tự động chuyển đổi sang bố cục giao diện giống hệt máy tính xách tay khi màn hình được gập lại.",
+        "Thành tựu này mở ra những hướng đi mới đầy sáng tạo trong việc kết hợp đa nền tảng phần mềm và phần cứng di động, thu hút sự quan tâm lớn từ cộng đồng kỹ sư công nghệ."
+      ],
+      "summary_en": [
+        "A senior Google executive has successfully integrated the Windows 11 operating system interface onto the iPhone Duo device with the powerful assistance of Gemini artificial intelligence.",
+        "This technical solution allows the mobile device to smoothly run the Edge web browser and automatically switch to a laptop-like interface layout whenever the screen is folded.",
+        "This achievement opens up innovative new directions in combining cross-platform software with mobile hardware, capturing immense interest from the broader software engineering community."
+      ],
+      "originalTitle": "Sếp Google dùng Gemini đưa Windows 11 lên iPhone Duo, có cả bàn phím và trackpad như laptop",
+      "url": "https://genk.vn/sep-google-dung-gemini-dua-windows-11-len-iphone-duo-co-ca-ban-phim-va-trackpad-nhu-laptop-165261116032923936.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Gemini",
+        "Windows 11",
+        "Mobile",
+        "UI/UX",
+        "Google"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-16T02:50:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/15/avatar1794774513225-1794774513560908314293.jpg",
+      "contentSnippet": "Chiếc iPhone Duo có thể mở giao diện Windows 11, chạy trình duyệt Edge và chuyển sang bố cục giống laptop khi gập màn hình.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "714f0ee09cccd068",
+      "title_vi": "Không viết một dòng code, cựu lập trình viên mất 18 tháng và 20.000 Bảng Anh để làm game bằng trí tuệ nhân tạo",
+      "title_en": "Former developer spends 18 months and 20000 pounds building a video game using AI without writing a single line of code",
+      "summary_vi": [
+        "Một cựu lập trình viên đã quyết định dồn hết tiền tiết kiệm và thời gian trong mười tám tháng để phát triển một tựa trò chơi điện tử hoàn toàn mới thông qua các công cụ trí tuệ nhân tạo tạo sinh hiện đại.",
+        "Dù không trực tiếp viết bất kỳ dòng mã nguồn nào, nhà phát triển này vẫn phải đối mặt với khối lượng công việc cực lớn lên tới bảy mươi giờ mỗi tuần cùng nhiều thách thức về mặt kỹ thuật phức tạp.",
+        "Dự án này đánh dấu một bước tiến quan trọng trong việc ứng dụng trí tuệ nhân tạo vào ngành công nghiệp phát triển phần mềm và trò chơi, mở ra hướng đi mới cho các nhà sáng tạo độc lập trong tương lai."
+      ],
+      "summary_en": [
+        "A former software developer has decided to invest all savings and eighteen months of time into developing a brand new video game entirely through modern generative artificial intelligence tools.",
+        "Despite not writing any source code directly, the developer still faced an overwhelming workload of up to seventy hours per week along with numerous complex technical and workflow challenges.",
+        "This project marks a significant milestone in applying artificial intelligence to the software and game development industries, paving innovative pathways for independent creators in the near future."
+      ],
+      "originalTitle": "Không tự viết dòng code nào, cựu lập trình viên dành 18 tháng và 20.000 Bảng Anh làm game bằng AI dù có thể phải về ở với bố",
+      "url": "https://genk.vn/khong-tu-viet-dong-code-nao-cuu-lap-trinh-vien-danh-18-thang-va-20000-bang-anh-lam-game-bang-ai-du-co-the-phai-ve-o-voi-bo-165261116032744595.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Game Development",
+        "Generative AI",
+        "Indie Game",
+        "Software Engineering"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-16T02:26:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/15/avatar1794774420823-1794774421170979246446.jpg",
+      "contentSnippet": "Tiền tiết kiệm hao hụt, có tuần làm việc tới 70 giờ, nhưng nhà phát triển Luminids vẫn hào hứng với cơ hội biến ý tưởng thành trò chơi nhờ AI.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9b09620054bd9f2b",
+      "title_vi": "Lỗ hổng XSS vạn năng trong tiện ích chặn quảng cáo uBlock Origin bắt nguồn từ tính năng chọn phần tử do trang web điều khiển",
+      "title_en": "Universal XSS in uBlock Origin from website-driven element picker",
+      "summary_vi": [
+        "Một nhà nghiên cứu bảo mật vừa phát hiện lỗ hổng bảo mật nghiêm trọng mang tính phổ quát trong tiện ích chặn quảng cáo nổi tiếng trên trình duyệt Firefox.",
+        "Lỗ hổng này cho phép các trang web độc hại đánh lừa tiện ích mở rộng để cài đặt các bộ lọc đáng tin cậy tùy ý nhằm thực thi mã JavaScript.",
+        "Sự cố đã được khắc phục kịp thời, nhấn mạnh tầm quan trọng của việc kiểm tra chặt chẽ cơ chế giao tiếp giữa trang web và tập lệnh nền của tiện ích."
+      ],
+      "summary_en": [
+        "A security researcher recently discovered a critical universal security vulnerability within a popular ad-blocking extension on the Firefox browser.",
+        "This flaw allows malicious websites to trick the browser extension into installing arbitrary trusted filters in order to execute malicious JavaScript code.",
+        "The issue has been promptly resolved, emphasizing the vital importance of strictly validating the communication mechanisms between web pages and background scripts."
+      ],
+      "originalTitle": "Universal XSS in uBlock Origin from website-driven element picker",
+      "url": "https://iter.ca/post/ubo-uxss/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "XSS",
+        "BrowserExtensions",
+        "uBlockOrigin",
+        "Firefox"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-16T02:04:48.000Z",
+      "contentSnippet": "Earlier this month I found a one-click universal XSS issue with uBlock Origin (the MV2 Firefox version, although a similar but less problematic issue also affected the MV3 version, uBO Lite), where a malicious website could trick the extension into adding arbitrary trusted filters. Trusted filters c",
+      "authorName": "zaik",
+      "upvotes": 115,
+      "commentsCount": 18
+    },
+    {
+      "id": "c57d5fdb338c13eb",
+      "title_vi": "Apple triển khai nghiên cứu mới nhằm tối ưu hóa hiệu quả các công cụ trí tuệ nhân tạo trong lĩnh vực y tế",
+      "title_en": "Apple’s new study looks to improve the effectiveness of AI health tools",
+      "summary_vi": [
+        "Apple vừa chính thức khởi động dự án nghiên cứu mới nhằm đánh giá cách người dùng tương tác với các công cụ trí tuệ nhân tạo hội thoại trong lĩnh vực chăm sóc sức khỏe thông qua ứng dụng di động chuyên biệt.",
+        "Dự án hợp tác cùng nền tảng OpenEvidence để kiểm chứng độ chính xác của các phản hồi y tế dựa trên dữ liệu từ các tạp chí y khoa uy tín, cho phép người dùng đánh giá chi tiết về độ tin cậy của AI.",
+        "Nghiên cứu này đóng vai trò quan trọng trong việc định hình tiêu chuẩn chất lượng cho các ứng dụng AI y tế, giúp các kỹ sư cải thiện thuật toán xử lý ngôn ngữ tự nhiên và độ chính xác của dữ liệu đầu ra."
+      ],
+      "summary_en": [
+        "Apple has officially launched a new research project to evaluate how users interact with conversational artificial intelligence tools in the healthcare sector through a specialized mobile application designed for data collection.",
+        "The project collaborates with the OpenEvidence platform to verify the accuracy of medical responses based on data from prestigious medical journals, allowing users to provide detailed ratings on the reliability of AI outputs.",
+        "This study plays a crucial role in shaping quality standards for medical AI applications, helping engineers improve natural language processing algorithms and the overall precision of data generated by these intelligent systems."
+      ],
+      "originalTitle": "Apple’s new study looks to improve the effectiveness of AI health tools",
+      "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Healthcare",
+        "Apple",
+        "NLP",
+        "MobileApp"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-16T01:26:56.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/applestudy1b.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by he",
+      "authorName": "Andrew Liszewski",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "93c5acd56606a4b9",
+      "title_vi": "Dân công nghệ xoay xở đổi nghề sau khi mất việc",
+      "title_en": "Tech professionals navigate career changes after losing jobs",
+      "summary_vi": [
+        "Làn sóng sa thải trong ngành công nghệ và sự trỗi dậy mạnh mẽ của trí tuệ nhân tạo đã đẩy nhiều kỹ sư phần mềm giàu kinh nghiệm vào tình cảnh bế tắc, buộc họ phải tìm kiếm những con đường mưu sinh hoàn toàn mới.",
+        "Nhiều chuyên gia với hàng chục năm kinh nghiệm phát triển phần mềm và kiểm thử chất lượng đã phải đối mặt với sự phân biệt đối xử về độ tuổi cùng áp lực khủng hoảng tâm lý kéo dài trong suốt quá trình tìm việc.",
+        "Thực trạng này gióng lên hồi chuông cảnh báo về sự biến động khắc nghiệt của thị trường lao động công nghệ cao, đòi hỏi lập trình viên phải không ngừng nâng cao thích ứng và chuẩn bị cho các kịch bản chuyển đổi nghề nghiệp."
+      ],
+      "summary_en": [
+        "The wave of layoffs across the technology sector and the rapid rise of artificial intelligence have pushed many experienced software engineers into difficult situations, forcing them to pursue entirely new career paths.",
+        "Multiple seasoned professionals with decades of experience in software development and quality assurance have faced age discrimination and prolonged psychological distress throughout their grueling job hunting processes.",
+        "This current reality sounds an alarm regarding the harsh volatility of the high-tech labor market, requiring programmers to constantly enhance their adaptability and prepare for unexpected career transition scenarios."
+      ],
+      "originalTitle": "Dân công nghệ xoay xở đổi nghề sau khi mất việc",
+      "url": "https://vnexpress.net/dan-cong-nghe-xoay-xo-doi-nghe-sau-khi-mat-viec-5143533.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Tech Layoffs",
+        "Software Engineering",
+        "AI Impact",
+        "Career Transition"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/16/wm1-wm1-logo-hang-cong-nghe-179478-5621-6339-1794787561.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ZEFxxVtF3jO3nmb_hFV6Yw",
+      "contentSnippet": "Làn sóng sa thải do công nghệ và AI khiến nhiều lao động chật vật tìm việc, thậm chí phải chuyển sang những ngành nghề hoàn toàn khác.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "87d2912ca1d33f52",
+      "title_vi": "Tương lai nào đang chờ đón nhà sản xuất vi mạch đồ họa sau khi nhà sáng lập từ chức?",
+      "title_en": "What's Next for Nvidia?",
+      "summary_vi": [
+        "Hội đồng quản trị thông báo Jensen Huang đã từ chức sau ba mươi ba năm đồng sáng lập và dẫn dắt tập đoàn bán dẫn hàng đầu thế giới này.",
+        "Dưới sự chèo lái của ông, công ty đã thực hiện ba cuộc cách mạng lớn gồm nền tảng tính toán song song, trí tuệ nhân tạo học sâu và hệ thống trung tâm dữ liệu tích hợp.",
+        "Sự ra đi của một nhà lãnh đạo tầm nhìn đặt ra thách thức lớn về khả năng duy trì tốc độ đổi mới sáng tạo trong tương lai của ngành công nghiệp phần cứng."
+      ],
+      "summary_en": [
+        "The board of directors announced that Jensen Huang has stepped down after thirty-three years of co-founding and leading the world-leading semiconductor giant.",
+        "Under his leadership, the company executed three major revolutions involving parallel computing platforms, deep learning artificial intelligence, and integrated data center systems.",
+        "The departure of a visionary leader poses a major challenge regarding the ability to maintain the pace of innovation in the future of the hardware industry."
+      ],
+      "originalTitle": "What's Next for Nvidia?",
+      "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "Semiconductors",
+        "CUDA",
+        "AI",
+        "Leadership"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-15T23:55:55.000Z",
+      "contentSnippet": "Nvidia’s board announced that Jensen Huang had resigned 33 years after he co-founded the company. What happens to a company when a visionary CEO is gone? Most often innovation dies and the company coasts for years on momentum and its brand. Rarely does it regain its former glory. That’s the danger f",
+      "authorName": "zdw",
+      "upvotes": 118,
+      "commentsCount": 134
+    },
     {
       "id": "cb89fe192f1a595f",
       "title_vi": "Cách phát hiện suy giảm mô hình âm thầm trên trạm trung chuyển API",
@@ -67,6 +444,41 @@
       "publishedAt": "2026-11-15T23:00:51.000Z",
       "contentSnippet": "Một startup đến với đội tôi với yêu cầu \"làm một AI agent\". Yêu cầu đó là cái bẫy: nếu hai tuần đầu không scope đúng, dự án sẽ không bao giờ lên produ...",
       "authorName": "Nghia Do",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a4a231c758b5f6ab",
+      "title_vi": "Jensen Huang đang cân nhắc khả năng trở lại vị trí giám đốc điều hành Nvidia",
+      "title_en": "Jensen Huang is Considering the Possibility of Returning to Nvidia CEO Position",
+      "summary_vi": [
+        "Jensen Huang đang xem xét việc quay lại vị trí giám đốc điều hành tại tập đoàn sản xuất chip Nvidia sau khi thảo luận với nhiều người thân cận và thành lập phòng tác chiến vận động.",
+        "Hội đồng quản trị Nvidia trước đó đã tiếp cận Rene Haas từ hãng Arm Holdings trong quá trình tìm kiếm người kế nhiệm tiềm năng sau những biến động và áp lực từ cổ đông lớn.",
+        "Giới phân tích nhận định việc thay thế hoàn toàn vai trò của Jensen Huang là vô cùng khó khăn đối với cấu trúc thị trường bán dẫn và giá trị vốn hóa của công ty hiện tại."
+      ],
+      "summary_en": [
+        "Jensen Huang is actively considering returning to the chief executive position at Nvidia following discussions with close allies and the establishment of a strategic lobbying war room.",
+        "The Nvidia board of directors previously approached Rene Haas from Arm Holdings during their search for a potential successor amid recent corporate governance challenges and shareholder pressures.",
+        "Industry analysts note that completely replacing Jensen Huang's unique impact remains an extraordinary challenge for the semiconductor market structure and the company's massive overall valuation."
+      ],
+      "originalTitle": "'Jensen Huang đang cân nhắc khả năng trở lại vị trí CEO Nvidia'",
+      "url": "https://vnexpress.net/jensen-huang-dang-can-nhac-kha-nang-tro-lai-vi-tri-ceo-nvidia-5144999.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Semiconductors",
+        "CEO",
+        "Tech Industry"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-15T22:55:15.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/16/jensen-huang-ceo-nvidia-comput-8884-4403-1794782830.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=1Odcc4Xc5QQ7GQmFZiMJow",
+      "contentSnippet": "Jensen Huang đang cân nhắc khả năng trở lại vị trí CEO Nvidia và đã thảo luận với những người thân tín về phương án này, theo Financial Times.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8142,420 +8554,6 @@
       "authorName": "Pnghuy",
       "upvotes": 0,
       "commentsCount": 0
-    },
-    {
-      "id": "4c9fe6dc66e097c7",
-      "title_vi": "Kiểm thử mã OTP tin nhắn trong Laravel sử dụng Http::fake, Notification::fake và smoke test số thực",
-      "title_en": "Testing OTP SMS in Laravel with Http::fake, Notification::fake and real number smoke testing",
-      "summary_vi": [
-        "Bài viết chia sẻ phương pháp kiểm thử tính năng gửi mã xác thực tin nhắn OTP trong ứng dụng Laravel sử dụng dịch vụ số ảo HeroSMS phục vụ quá trình smoke test thực tế.",
-        "Tác giả kết hợp các công cụ mocking mạnh mẽ có sẵn của Laravel như Http::fake và Notification::fake để kiểm tra luồng hoạt động mà không tốn chi phí gọi API thật.",
-        "Giải pháp này giúp các lập trình viên tối ưu hóa quy trình kiểm thử tự động, đảm bảo tính ổn định của hệ thống trước khi triển khai ứng dụng lên môi trường sản xuất."
-      ],
-      "summary_en": [
-        "The article shares a method for testing OTP SMS verification features in Laravel applications using the HeroSMS virtual number service for practical smoke testing.",
-        "The author combines powerful built-in Laravel mocking tools such as Http::fake and Notification::fake to verify workflows without incurring real API call costs.",
-        "This solution helps developers optimize automated testing workflows, ensuring system stability before deploying applications to the production environment."
-      ],
-      "originalTitle": "Test OTP SMS trong Laravel: Http::fake, Notification::fake và smoke test với số thật",
-      "url": "https://viblo.asia/p/test-otp-sms-trong-laravel-httpfake-notificationfake-va-smoke-test-voi-so-that-kNLr3eGaVgA",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Laravel",
-        "PHP",
-        "Testing",
-        "SMS",
-        "Automation"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-05T03:51:08.000Z",
-      "contentSnippet": "Mình làm việc cùng HeroSMS, dịch vụ số ảo dùng ở phần smoke test. Bài viết có dùng công cụ AI; code đã được đối chiếu với tài liệu API HeroSMS và docs...",
-      "authorName": "Minh Trần",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a9578684d7bb857e",
-      "title_vi": "vivo ra mắt điện thoại thông minh tầm trung mới với camera Zeiss 50 megapixel, viên pin dung lượng lớn 7000 miliampere giờ và công nghệ sạc nhanh 90 watt",
-      "title_en": "vivo launches new mid-range smartphone featuring 50 megapixel Zeiss camera 7000 milliampere hour battery and 90 watt fast charging",
-      "summary_vi": [
-        "Hãng điện thoại vivo vừa chính thức giới thiệu mẫu thiết bị cầm tay tầm trung mới mang tên V80 FE tại thị trường Philippines, nhằm mở rộng phân khúc sản phẩm cấu hình cao giá tốt.",
-        "Điểm nhấn phần cứng của thiết bị bao gồm hệ thống ba máy ảnh hợp tác cùng thương hiệu Zeiss độ phân giải 50 megapixel, kết hợp bộ vi xử lý MediaTek Dimensity 7400 Turbo và viên pin khủng.",
-        "Viên pin dung lượng lớn 7000 miliampere giờ tích hợp công nghệ sạc nhanh 90 watt mang lại thời lượng sử dụng ấn tượng, định hình lại tiêu chuẩn pin cho các dòng điện thoại tầm trung hiện nay."
-      ],
-      "summary_en": [
-        "The smartphone manufacturer vivo has officially introduced a new mid-range mobile device named V80 FE in the Philippines market to expand its competitive product lineup.",
-        "Hardware highlights of the device include a triple camera system developed in partnership with Zeiss at 50 megapixels, paired with a MediaTek Dimensity 7400 Turbo processor.",
-        "The massive 7000 milliampere hour battery integrated with 90 watt fast charging technology delivers exceptional battery life, redefining power standards for contemporary mid-range smartphones."
-      ],
-      "originalTitle": "vivo ra mắt smartphone tầm trung mới: Camera Zeiss 50 MP, pin 7.000 mAh, sạc nhanh 90W",
-      "url": "https://genk.vn/vivo-ra-mat-smartphone-tam-trung-moi-camera-zeiss-50-mp-pin-7000-mah-sac-nhanh-90w-165261104181646079.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "vivo",
-        "Smartphone",
-        "Zeiss",
-        "MediaTek",
-        "Mobile Hardware"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-05T03:40:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/4/avatar1793790974830-17937909751691855335782.jpg",
-      "contentSnippet": "vivo V80 FE sở hữu màn hình AMOLED 120 Hz, hệ thống 3 camera 50 MP tinh chỉnh bởi Zeiss và pin 7.000 mAh, chạy OriginOS 7 trên nền Android 17.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ec2f6a387d56d2ed",
-      "title_vi": "Google phát hiện đối tác phần cứng cài mã độc vào 1,3 triệu thiết bị Android TV",
-      "title_en": "Google Discovers Hardware Partner Pre-Installed Malware on 1.3 Million Android TV Boxes",
-      "summary_vi": [
-        "Hãng công nghệ Google vừa phát hiện công ty Videostrong, một đối tác phần cứng được chứng nhận chính thức, đã cố tình cài đặt cửa hậu độc hại trên hơn một triệu thiết bị Android TV nhằm trục lợi.",
-        "Mã độc này được tích hợp sâu vào hệ thống phần sụn nhằm âm thầm bán quyền truy cập trái phép cho các nhóm hacker bên ngoài, tạo ra lỗ hổng bảo mật nghiêm trọng trong mạng lưới thiết bị người dùng.",
-        "Sự cố này gióng lên hồi chuông cảnh báo về rủi ro bảo mật trong chuỗi cung ứng phần cứng IoT, đòi hỏi các kỹ sư an ninh mạng phải siết chặt kiểm tra mã nguồn và firmware trước khi phân phối."
-      ],
-      "summary_en": [
-        "Google has recently discovered that Videostrong, a certified hardware partner, intentionally pre-installed malicious backdoors on over one million Android TV devices to generate illicit profits.",
-        "The malware was deeply integrated into the firmware to stealthily sell unauthorized access to external hacker groups, creating severe security vulnerabilities within the user device network.",
-        "This incident raises critical security alarms regarding hardware supply chain risks in IoT, demanding cybersecurity engineers to strictly audit source code and firmware before distribution."
-      ],
-      "originalTitle": "Google phát hiện đối tác cài mã độc vào 1,3 triệu Android TV box",
-      "url": "https://vnexpress.net/google-phat-hien-doi-tac-cai-ma-doc-vao-1-3-trieu-android-tv-box-5140877.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Android TV",
-        "Malware",
-        "Supply Chain",
-        "Firmware"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-05T02:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/04/videostrong-android-tv-device-8286-7607-1793802120.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=n1U5MMixA0jE1jhUA9ezKQ",
-      "contentSnippet": "Videostrong, một đối tác phần cứng được chứng nhận của Google, bị phát hiện cố tình cài cửa hậu trên hơn một triệu đầu Android TV để bán quyền truy cập cho hacker.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "56f857370ee1bda6",
-      "title_vi": "ChatGPT tích hợp khả năng tạo ảnh GIF động: Từ lịch sử nhiếp ảnh đến định dạng kỹ thuật số kinh điển",
-      "title_en": "ChatGPT Now Generates Animated GIFs: From Historical Muybridge Motion to a Legacy Digital Format",
-      "summary_vi": [
-        "OpenAI vừa chính thức giới thiệu phiên bản Images 2.6 trong ChatGPT, mang đến bước đột phá mới khi cho phép người dùng tự động tạo ra các tệp ảnh động định dạng GIF trực tiếp từ hệ thống trí tuệ nhân tạo.",
-        "Công nghệ mới này kết hợp khả năng xử lý mô hình ngôn ngữ lớn với các thuật toán sinh ảnh nâng cao, cho phép tái hiện các chuỗi chuyển động phức tạp dựa trên nền tảng kỹ thuật số tiêu chuẩn lâu đời.",
-        "Tính năng tạo ảnh GIF này mở ra nhiều ứng dụng sáng tạo tiềm năng cho các nhà phát triển và nhà thiết kế, tối ưu hóa quy trình sản xuất nội dung đa phương tiện trực quan ngay trong môi trường trò chuyện."
-      ],
-      "summary_en": [
-        "OpenAI officially introduced Images 2.6 within ChatGPT, delivering a major breakthrough by enabling users to automatically generate animated GIF files directly through advanced artificial intelligence models.",
-        "This new capability combines large language model processing with sophisticated image generation algorithms, allowing the recreation of complex motion sequences built upon long-standing digital standards.",
-        "The new GIF generation feature unlocks significant creative applications for developers and designers, streamlining the production workflow of visual multimedia content directly within the chat interface."
-      ],
-      "originalTitle": "ChatGPT biết làm GIF: từ con ngựa phi của Muybridge năm 1878 đến định dạng 39 tuổi của CompuServe",
-      "url": "https://tinhte.vn/thread/chatgpt-biet-lam-gif-tu-con-ngua-phi-cua-muybridge-nam-1878-den-dinh-dang-39-tuoi-cua-compuserve.4189857/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "ChatGPT",
-        "OpenAI",
-        "GIF",
-        "Machine Learning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-05T01:11:03.000Z",
-      "contentSnippet": "Ngày 4/11/2026 (giờ Mỹ), tức rạng sáng nay 5/11 giờ Việt Nam, OpenAI giới thiệu Images 2.6, phiên bản mới của mô hình tạo ảnh trong ChatGPT, Codex và API. Tính năng được chú ý nhất không phải là...",
-      "authorName": "Quocxi",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0801c059996e02dc",
-      "title_vi": "Hôm nay khai mạc Ngày hội trí tuệ nhân tạo Việt Nam 2026",
-      "title_en": "Vietnam Artificial Intelligence Festival 2026 Officially Opens Today",
-      "summary_vi": [
-        "Sự kiện Ngày hội Trí tuệ nhân tạo Việt Nam 2026 chính thức khai mạc vào lúc 14 giờ ngày mùng 5 tháng 11, thu hút sự tham gia đông đảo của các nhà quản lý, chuyên gia hàng đầu và cộng đồng doanh nghiệp công nghệ.",
-        "Trong khuôn khổ chương trình, các diễn giả và kỹ sư tập trung thảo luận sâu về các xu hướng phát triển trí tuệ nhân tạo tiên tiến, những giải pháp tối ưu hóa mô hình học máy và ứng dụng thực tiễn trong hệ thống doanh nghiệp.",
-        "Điểm nhấn quan trọng của ngày hội là lễ vinh danh các sản phẩm phần mềm xuất sắc, giải pháp công nghệ đột phá và những tài năng trẻ trong lĩnh vực trí tuệ nhân tạo tại thị trường Việt Nam."
-      ],
-      "summary_en": [
-        "The Vietnam Artificial Intelligence Festival 2026 officially opened at 2 PM on November 5th, attracting widespread participation from technology managers, leading experts, and prominent corporate leaders in the industry.",
-        "Throughout the program, speakers and software engineers focused on discussing advanced trends in artificial intelligence development, machine learning optimization solutions, and practical applications within enterprise architectures.",
-        "A key highlight of the festival was the award ceremony honoring outstanding software products, groundbreaking technological solutions, and exceptional young talents within the artificial intelligence ecosystem in Vietnam."
-      ],
-      "originalTitle": "Hôm nay khai mạc Ngày hội trí tuệ nhân tạo Việt Nam 2026",
-      "url": "https://vnexpress.net/hom-nay-khai-mac-ngay-hoi-tri-tue-nhan-tao-viet-nam-2026-5140602.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Tech Trends",
-        "Vietnam Tech",
-        "Software Solutions"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-05T01:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/04/ai4vn90181723448813-1793764953-2639-1793765022.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=is3rSYGWAs8hMeVaEb7eyw",
-      "contentSnippet": "Ngày hội Trí tuệ nhân tạo Việt Nam 2026 diễn ra lúc 14h ngày 5/11, với sự góp mặt của các nhà quản lý, chuyên gia, doanh nghiệp, bàn về AI và lễ vinh danh sản phẩm, giải pháp, tài năng AI Việt.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9e49ad7916ca6612",
-      "title_vi": "Hệ thống tạo ảnh thế hệ mới cải thiện tốc độ và khả năng chỉnh sửa",
-      "title_en": "Next-Generation Image Generation System Improves Speed and Editing Capabilities",
-      "summary_vi": [
-        "Nền tảng trí tuệ nhân tạo phổ biến đã giới thiệu phiên bản tạo ảnh mới trên toàn cầu, mang lại tốc độ xử lý nhanh hơn và khả năng kiểm soát quy trình chỉnh sửa tốt hơn cho người dùng.",
-        "Công nghệ này cung cấp các mô hình tối ưu hóa cho phép tạo ảnh nhanh hơn đáng kể, hỗ trợ xuất định dạng ảnh động và duy trì tính nhất quán của nhân vật cũng như chi tiết sản phẩm qua nhiều vòng chỉnh sửa.",
-        "Sự ra mắt này đáp ứng nhu cầu ngày càng tăng của các nhà phát triển và nhà sáng tạo nội dung, giúp tối ưu hóa hiệu suất làm việc và mở rộng ứng dụng trí tuệ nhân tạo trong thiết kế chuyên nghiệp."
-      ],
-      "summary_en": [
-        "The popular artificial intelligence platform has introduced a new image generation version globally, delivering faster processing speeds and better control over the editing workflow for users.",
-        "This technology provides optimized models that enable significantly faster image generation, support animated image exports, and maintain consistency of characters and product details across multiple editing rounds.",
-        "This release meets the growing demands of developers and content creators, helping to optimize workflow performance and expand the practical applications of artificial intelligence in professional design."
-      ],
-      "originalTitle": "Images 2.6",
-      "url": "https://openai.com/index/introducing-images-2-6/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Image Generation",
-        "API",
-        "Generative AI"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-04T23:35:44.000Z",
-      "contentSnippet": "Generate images faster and with more control over editing rounds. ShareWe’re introducing Images 2.6 in ChatGPT, Codex, and the API, bringing your ideas to life faster. With this, you can bring motion to your images with GIFs — from animating a brand mascot or character to turning a product shot into",
-      "authorName": "davidbarker",
-      "upvotes": 177,
-      "commentsCount": 117
-    },
-    {
-      "id": "86d5c720b5bd89c8",
-      "title_vi": "Hơn một nghìn con đường ít hơn dẫn đến quyền gốc hệ thống",
-      "title_en": "A thousand fewer paths to root",
-      "summary_vi": [
-        "Các chuyên gia đã phát triển một hệ thống tự động hóa toàn diện nhằm khám phá, khai thác và vá lỗi bảo mật bằng trí tuệ nhân tạo với chi phí đầu tư lớn.",
-        "Giải pháp này đã phân tích hàng nghìn ứng viên lỗi nhân hệ thống, tái tạo thành công các lỗ hổng leo thang đặc quyền cục bộ và tạo ra bản vá tương ứng.",
-        "Sự kiện này đánh dấu bước tiến quan trọng trong việc tự động hóa quy trình bảo mật, giúp giảm thiểu tắc nghẽn vận hành và bảo vệ hệ điều hành hiệu quả hơn."
-      ],
-      "summary_en": [
-        "Experts have developed a comprehensive automated system aimed at discovering, exploiting, and patching security vulnerabilities using artificial intelligence with significant investment costs.",
-        "This solution analyzed thousands of kernel vulnerability candidates, successfully reproduced local privilege escalation flaws, and generated corresponding security patches.",
-        "This milestone marks a crucial step in automating security operations, helping to reduce operational bottlenecks and protect operating systems more effectively."
-      ],
-      "originalTitle": "A thousand fewer paths to root",
-      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Linux Kernel",
-        "Artificial Intelligence",
-        "Vulnerability Patching",
-        "Automation"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-04T23:33:14.000Z",
-      "contentSnippet": "We've developed an autonomous vulnerability discovery, exploitation, and patching pipeline. In one run with our cyber model, it validated and generated patches for 948 local privilege escalation vulnerabilities in Linux at an API cost of $1.2 million. ShareSecurity research that once required a sepa",
-      "authorName": "dangelosaurus",
-      "upvotes": 203,
-      "commentsCount": 117
-    },
-    {
-      "id": "b531b56f4ce7687d",
-      "title_vi": "Qualcomm đặt cược lớn vào trung tâm dữ liệu khi doanh số điện thoại thông minh sụt giảm",
-      "title_en": "Qualcomm is betting big on data centers as smartphone sales sink",
-      "summary_vi": [
-        "Trước bối cảnh doanh số điện thoại thông minh sụt giảm khoảng hai mươi phần trăm, tập đoàn công nghệ Qualcomm đang chuyển hướng chiến lược sang mảng trung tâm dữ liệu nhằm thúc đẩy nguồn doanh thu quan trọng.",
-        "Trong buổi báo cáo tài chính quý bốn năm hai mươi hai mươi sáu, công ty đã công bố kế hoạch phát triển mạnh mẽ vào lĩnh vực trung tâm dữ liệu trí tuệ nhân tạo thông qua các thỏa thuận hợp tác chiến lược với Amazon và Meta.",
-        "Bước đi chiến lược này dự kiến sẽ tạo ra động lực tăng trưởng mạnh mẽ, mang lại giá trị thực tiễn cao cho thị trường hạ tầng đám mây và định hình lại vị thế của các nhà sản xuất chip bán dẫn."
-      ],
-      "summary_en": [
-        "Facing a significant twenty percent drop in smartphone sales, Qualcomm is strategically shifting its focus toward data center markets to boost its overall revenue and business bottom line.",
-        "During its fourth quarter earnings call, the company detailed aggressive plans to expand into artificial intelligence data centers through major strategic partnerships established with industry giants Amazon and Meta.",
-        "This strategic transition is projected to generate massive growth momentum, delivering high practical value to cloud infrastructure markets and reshaping the competitive positioning of semiconductor chip manufacturers."
-      ],
-      "originalTitle": "Qualcomm is betting big on data centers as smartphone sales sink",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Qualcomm",
-        "Data Center",
-        "AI",
-        "Cloud",
-        "Semiconductor"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-04T22:42:15.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24007992/acastro_STK082_qualcomm_02.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with companies like Amazon an",
-      "authorName": "Terrence O’Brien",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "cea25fc8180f8064",
-      "title_vi": "Tin tặc lợi dụng các lỗ hổng trên hệ điều hành di động để tấn công thiết bị",
-      "title_en": "Hackers exploited iOS and Android flaws to infect phones",
-      "summary_vi": [
-        "Các nhóm hacker có liên quan đến chính phủ Nga đã khai thác những lỗ hổng bảo mật đã được vá trên cả hai hệ điều hành di động phổ biến nhằm tấn công người dùng truy cập vào các trang web nhạy cảm.",
-        "Cuộc tấn công sử dụng mã JavaScript độc hại được chèn vào lưu lượng truy cập để cấu hình thiết bị, sau đó tải các payload chuyên dụng nhằm đánh cắp cookie trình duyệt, mật khẩu Wi-Fi và dữ liệu cá nhân.",
-        "Sự việc này gióng lên hồi chuông cảnh báo về các chiến dịch tấn công giả mạo trang web quốc gia, đòi hỏi các nhà phát triển và chuyên gia bảo mật phải nâng cao khả năng phòng thủ trên nền tảng di động."
-      ],
-      "summary_en": [
-        "Hackers potentially linked to Russian intelligence agencies exploited previously patched security vulnerabilities in popular mobile operating systems to target visitors accessing sensitive websites.",
-        "The attack leveraged injected JavaScript code to profile visiting devices and deployed tailored payloads designed to steal browser cookies, Wi-Fi credentials, and sensitive mobile data.",
-        "This incident serves as a critical warning regarding state-sponsored web spoofing campaigns, emphasizing the urgent need for enhanced defensive measures and security hardening on mobile platforms."
-      ],
-      "originalTitle": "Hackers exploited iOS and Android flaws to infect phones",
-      "url": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Mobile Security",
-        "iOS",
-        "Android",
-        "Exploit"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-04T22:26:49.000Z",
-      "contentSnippet": "Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.",
-      "authorName": "\n                    Dan Goodin\n                ",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "97689e4470033f7c",
-      "title_vi": "Hệ thống an ninh gia đình của AT&T tích hợp trợ lý Gemini của Google",
-      "title_en": "Gemini for Home now plugs into AT&T’s smart security system",
-      "summary_vi": [
-        "Hệ thống an ninh nhà thông minh Connected Life của tập đoàn AT&T chính thức tích hợp giải pháp Google Home Premium cùng trợ lý ảo Gemini để nâng cao trải nghiệm người dùng.",
-        "Công nghệ trí tuệ nhân tạo này cho phép hệ thống phân tích chi tiết sự kiện từ camera an ninh, đếm số lượng vật phẩm giao hàng và tìm kiếm lịch sử video bằng ngôn ngữ tự nhiên.",
-        "Sự kiện này đánh dấu bước tiến lớn trong việc ứng dụng mô hình ngôn ngữ lớn vào các thiết bị Internet vạn vật gia dụng, mở rộng khả năng tự động hóa và bảo mật thông minh."
-      ],
-      "summary_en": [
-        "AT&T has officially integrated its Connected Life smart home security system with Google Home Premium and the Gemini virtual assistant to enhance user experience.",
-        "This artificial intelligence technology enables the system to analyze detailed security camera events, count delivered package items, and search video history using natural language queries.",
-        "This milestone highlights a major advancement in applying large language models to smart home IoT devices, expanding automation capabilities and strengthening smart security."
-      ],
-      "originalTitle": "Gemini for Home now plugs into AT&T’s smart security system",
-      "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Gemini",
-        "Smart Home",
-        "IoT",
-        "Security"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-04T20:23:24.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/att-connected-life.webp?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that can summarize home events, search your video history, and mor",
-      "authorName": "Emma Roth",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a7ef475dba278170",
-      "title_vi": "Dòng điện thoại Pixel 11 của Google đang được giảm giá tới 27 phần trăm",
-      "title_en": "Google's Pixel 11 phones are up to 27 percent off",
-      "summary_vi": [
-        "Dòng điện thoại Pixel 11 mới nhất của Google đang nhận được mức giảm giá sâu lên tới 27 phần trăm tại các nhà bán lẻ lớn trước hạn chót ngày tám tháng mười một, mang lại cơ hội sở hữu thiết bị cao cấp với chi phí tiết kiệm đáng kể cho người dùng công nghệ.",
-        "Phiên bản Pixel 11 Pro với dung lượng lưu trữ 256GB và bộ nhớ RAM 12GB hiện chỉ còn 799,99 đô la, thấp hơn 50 đô la so với mức giá trong đợt mua sắm Prime Day tháng mười, đồng thời hỗ trợ các tính năng chụp ảnh nâng cao và phần cứng mạnh mẽ.",
-        "Việc điều chỉnh giá bán này giúp các mẫu thiết bị Pixel 11 cạnh tranh mạnh mẽ hơn trên thị trường di động toàn cầu, tạo tác động lớn đến quyết định nâng cấp thiết bị của cộng đồng người dùng và các nhà phát triển ứng dụng di động."
-      ],
-      "summary_en": [
-        "Google's latest Pixel 11 smartphone lineup is currently receiving deep discounts of up to 27 percent at major retailers ahead of the November eighth deadline, providing technology users with the opportunity to acquire high-end devices at significantly reduced costs.",
-        "The Pixel 11 Pro model featuring 256GB of storage and 12GB of RAM is now priced at just 799.99 dollars, dropping 50 dollars below its October Prime Day price while maintaining support for advanced camera capabilities and robust hardware performance.",
-        "This price adjustment allows the Pixel 11 device models to compete more aggressively in the global mobile market, exerting a substantial impact on upgrade decisions within the user community and among mobile application developers."
-      ],
-      "originalTitle": "Google’s Pixel 11 phones are up to 27 percent off",
-      "url": "https://www.theverge.com/gadgets/1025370/google-pixel-11-pro-phone-deal-sale",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "Google",
-        "Pixel 11",
-        "Smartphone",
-        "Mobile",
-        "Hardware"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-04T19:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Google-Pixel-11-Pro-review-photos-5.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "You can save a heck of lot of money on Google’s Pixel 11 phones through November 8th, whether you want the best-for-the-least Pixel 11, or the slightly pricier Pixel 11 Pro that takes better photos. Even the big Pixel 11 Pro XL with a longer-lasting battery is hundreds off its original price. The Pi",
-      "authorName": "Cameron Faulkner",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "dfa876a54a2df16b",
-      "title_vi": "Bản xem trước Ripple-65B: Mô hình mã hóa thông minh nguồn mở hàng đầu Mỹ",
-      "title_en": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
-      "summary_vi": [
-        "Phòng thí nghiệm trí tuệ nhân tạo Ricursive Intelligence vừa công bố mô hình ngôn ngữ lớn Ripple-65B Preview, thiết lập chuẩn mực nguồn mở mới tại Hoa Kỳ chuyên về lĩnh vực mã hóa tự động hóa.",
-        "Mô hình được huấn luyện trước trên 12 nghìn tỷ token với kiến trúc dày đặc, hỗ trợ ngữ cảnh lên tới 1 triệu token và đạt 80.52 điểm trên bộ chuẩn TerminalBench 2.1.",
-        "Sản phẩm mang lại hiệu suất lập trình vượt trội với độ trễ thấp, có thể chạy hiệu quả trên các thiết bị cục bộ như nền tảng phần cứng AI nhờ tối ưu hóa phần cứng và phần mềm."
-      ],
-      "summary_en": [
-        "Ricursive Intelligence lab has released the Ripple-65B Preview language model, establishing a new U.S. open-weight benchmark specifically focused on advanced agentic coding capabilities.",
-        "The model was pretrained on 12 trillion tokens using a dense architecture, supporting up to 1 million context length and achieving 80.52 points on the TerminalBench 2.1 benchmark.",
-        "It delivers exceptional coding performance with low latency, capable of running efficiently on local hardware devices through deep co-optimization of hardware and software platforms."
-      ],
-      "originalTitle": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
-      "url": "https://www.ricursive.com/ripple",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "LLM",
-        "Open-Weight",
-        "Agentic Coding",
-        "Hardware Optimization"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-04T18:53:29.000Z",
-      "contentSnippet": "Achieving U.S. Open-Weight SOTA on Agentic Coding Achieving U.S. Open-Weight SOTA on Agentic Coding Ricursive Intelligence is a full-stack artificial intelligence lab building self-improving systems by co-optimizing hardware, software, and model. To power our chip design platform, we trained a langu",
-      "authorName": "Philpax",
-      "upvotes": 176,
-      "commentsCount": 58
     }
   ]
 }
