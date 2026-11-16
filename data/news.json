@@ -1,7 +1,178 @@
 {
-  "lastUpdated": "2026-11-16T03:59:03.990Z",
+  "lastUpdated": "2026-11-16T14:22:46.745Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "4dfd038b6116d5e0",
+      "title_vi": "Quy trình làm việc với trí tuệ nhân tạo - Phần 3 - Quy tắc, kỹ năng, móc nối và cách áp dụng cho mã nguồn của bạn",
+      "title_en": "My workflow with AI - Part 3 - Rules, skills, hooks and how to apply them to your repository",
+      "summary_vi": [
+        "Bài viết tiếp tục chuỗi series chia sẻ về quy trình làm việc thực tế với trí tuệ nhân tạo, tập trung vào việc thiết lập các quy tắc và kỹ năng cụ thể cho trợ lý ảo.",
+        "Tác giả đi sâu vào chi tiết kỹ thuật về cách sử dụng rule, skill và hook nhằm giúp các tác nhân thông minh tra cứu và xử lý mã nguồn hiệu quả hơn trước khi tiến hành sửa đổi.",
+        "Giải pháp này mang lại giá trị thực tiễn cao cho các lập trình viên trong việc tối ưu hóa hiệu suất làm việc nhóm và tự động hóa các tác vụ phát triển phần mềm hàng ngày."
+      ],
+      "summary_en": [
+        "The article continues the series sharing practical workflows with artificial intelligence, focusing on establishing specific rules and skills for virtual coding assistants.",
+        "The author dives into technical details regarding the use of rules, skills, and hooks to help intelligent agents search and process codebase effectively before making modifications.",
+        "This solution brings high practical value for software engineers in optimizing team productivity and automating daily software development and coding tasks."
+      ],
+      "originalTitle": "My workflow with AI - Phần 3 - Rule, skill, hook và cách áp dụng cho repo của bạn",
+      "url": "https://viblo.asia/p/my-workflow-with-ai-phan-3-rule-skill-hook-va-cach-ap-dung-cho-repo-cua-ban-1XVOWB21VMz",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "AI",
+        "Workflow",
+        "Automation",
+        "Software Engineering",
+        "Development"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-16T17:09:30.000Z",
+      "contentSnippet": "Ở Phần 1, chúng ta đã có bộ khung command, skill và ba luồng làm việc. Ở Phần 2, chúng ta đã có my-ai để agent tra cứu trước khi sửa, cùng năm nguyên ...",
+      "authorName": "CÔNG TY TNHH CÔNG NGHỆ SHIP VIỆT NAM",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "8698ee38f804e2c5",
+      "title_vi": "Cấu hình DeepSeek Harness thành máy trạm AI: 5 năng lực, 7 prompt gốc lấy từ video",
+      "title_en": "Configuring DeepSeek Harness into an AI Workstation: 5 Capabilities and 7 Original Prompts from the Video",
+      "summary_vi": [
+        "Bài viết hướng dẫn chi tiết cách cấu hình công cụ DeepSeek Harness từ một ứng dụng cục bộ đơn thuần thành một máy trạm trí tuệ nhân tạo toàn diện dựa trên nội dung video chuyên sâu.",
+        "Nội dung cung cấp năm năng lực cốt lõi cùng bảy đoạn câu lệnh gốc giúp lập trình viên tối ưu hóa quy trình làm việc tự động hóa và khai thác tối đa sức mạnh của mô hình ngôn ngữ.",
+        "Giải pháp này mang lại giá trị thực tiễn cao cho các kỹ sư phần mềm trong việc nâng cao hiệu suất lập trình cục bộ và xây dựng môi trường phát triển ứng dụng thông minh."
+      ],
+      "summary_en": [
+        "The article provides a detailed guide on configuring the DeepSeek Harness tool from a simple local application into a comprehensive artificial intelligence workstation based on an in-depth video.",
+        "The content delivers five core capabilities and seven original prompt sequences helping developers optimize automated workflow processes and fully leverage the power of language models.",
+        "This solution brings high practical value to software engineers in improving local programming performance and building an intelligent application development environment."
+      ],
+      "originalTitle": "Cấu hình DeepSeek Harness thành máy trạm AI: 5 năng lực, 7 prompt gốc lấy từ video",
+      "url": "https://viblo.asia/p/cau-hinh-deepseek-harness-thanh-may-tram-ai-5-nang-luc-7-prompt-goc-lay-tu-video-R5JRQryn4Gv",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "DeepSeek",
+        "AI Workstation",
+        "Prompts",
+        "Automation",
+        "Software Engineering"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-16T16:52:16.000Z",
+      "contentSnippet": "DeepSeek Harness (DSH) khi cài xong chỉ là một công cụ cục bộ: nó đọc file, chạy lệnh, gọi model — trên đúng cái máy đã cài. Một video tiếng Trung d...",
+      "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "2fdf48c7e9e85e8a",
+      "title_vi": "Google Maps hiện có khả năng tự động tạo lịch trình chuyến đi cho bạn",
+      "title_en": "Google Maps can now create trip itineraries for you",
+      "summary_vi": [
+        "Google vừa chính thức ra mắt tính năng lập kế hoạch chuyến đi hoàn toàn mới được tích hợp trực tiếp vào ứng dụng Google Maps nổi tiếng của họ.",
+        "Tính năng này vận hành dựa trên công nghệ trợ lý ảo tích hợp trí tuệ nhân tạo Gemini, cho phép người dùng dễ dàng tạo lịch trình tùy chỉnh theo ngày hoặc nhiều ngày.",
+        "Sự đổi mới này giúp nâng cao trải nghiệm người dùng trên thiết bị di động, đồng thời thể hiện xu hướng ứng dụng trí tuệ nhân tạo tạo sinh vào các dịch vụ bản đồ số thực tế."
+      ],
+      "summary_en": [
+        "Google has officially launched a brand new AI-powered trip-planning feature integrated directly into their popular Google Maps mobile application.",
+        "This functionality operates using Gemini artificial intelligence assistant technology, allowing users to easily generate custom itineraries for single or multiple days.",
+        "This innovation enhances mobile user experience while demonstrating the ongoing trend of integrating generative artificial intelligence into practical digital mapping services."
+      ],
+      "originalTitle": "Google Maps can now create trip itineraries for you",
+      "url": "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Google Maps",
+        "Gemini AI",
+        "Mobile App",
+        "Artificial Intelligence"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-16T14:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25472454/STK270_GOOGLE_MAPS_D.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Google is launching a new AI trip-planning feature for Maps that allows the app to create custom itineraries for you and provide real-time details about each stop. The update, which is rolling out to the Gemini-powered Ask Maps chatbot inside the app, lets you plan a one-day outing or a trip spannin",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f302dc6b60df9c35",
+      "title_vi": "Đây là chiếc nút trên Windows 11 mà chỉ 0,0038% người dùng bấm vào",
+      "title_en": "This is the Windows 11 button that only 0.0038 percent of users actually click",
+      "summary_vi": [
+        "Hệ điều hành Windows 11 ẩn chứa một nút bấm quen thuộc nhưng có lượng người tương tác cực kỳ thấp khiến nhà phát triển phải chú ý.",
+        "Quá trình phân tích dữ liệu sử dụng cho thấy tỷ lệ người dùng thực hiện thao tác này là vô cùng nhỏ, dẫn đến quyết định thiết kế lại giao diện.",
+        "Việc loại bỏ các tính năng không cần thiết giúp tối ưu hóa trải nghiệm người dùng và làm gọn gàng giao diện hệ thống."
+      ],
+      "summary_en": [
+        "The Windows 11 operating system contains a familiar button with extremely low user interaction that caught developer attention.",
+        "Usage telemetry data analysis revealed that the percentage of users performing this specific action is exceptionally minimal, prompting a redesigned interface.",
+        "Removing redundant features helps optimize the user experience and streamline the overall system interface for better efficiency."
+      ],
+      "originalTitle": "Đây là chiếc nút trên Windows 11 mà chỉ 0,0038% người dùng bấm vào",
+      "url": "https://genk.vn/day-la-chiec-nut-tren-windows-11-ma-chi-00038-nguoi-dung-bam-vao-165261116201524521.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Windows 11",
+        "UI/UX",
+        "Microsoft",
+        "Software Development"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-16T13:40:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/16/avatar1794834862165-17948348624781387313113.jpg",
+      "contentSnippet": "Một nút bấm quen mặt trong Windows lại có lượng người sử dụng ít đến bất ngờ. Khi thiết kế lại công cụ chứa nó, Microsoft đã quyết định bỏ luôn nút này khỏi giao diện mới.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "02d1d44b7f990772",
+      "title_vi": "Thượng nghị sĩ chỉ trích Bộ trưởng Thương mại vì để chip trí tuệ nhân tạo của Nvidia chảy về Trung Quốc",
+      "title_en": "Senator slams Commerce Secretary for flow of Nvidia AI chips to China",
+      "summary_vi": [
+        "Thượng nghị sĩ Maria Cantwell đã gửi thư chỉ trích Bộ Thương mại Mỹ dưới thời Bộ trưởng Howard Lutnick vì sự lỏng lẻo trong việc thực thi các biện pháp kiểm soát xuất khẩu.",
+        "Báo cáo cho thấy các cơ quan quản lý đã tạo kẽ hở cho phép các công ty có liên kết với Trung Quốc tiếp cận trái phép các bộ vi xử lý và phần cứng tăng tốc đồ họa cao cấp.",
+        "Sự cố này làm dấy lên những lo ngại nghiêm trọng về việc suy yếu lợi thế cạnh tranh công nghệ chiến lược của Hoa Kỳ trong lĩnh vực trí tuệ nhân tạo và hệ thống máy chủ."
+      ],
+      "summary_en": [
+        "Senator Maria Cantwell sent a critical letter to the Department of Commerce under Secretary Howard Lutnick regarding lax enforcement of export control measures.",
+        "Reports indicate that regulatory oversight failures created loopholes allowing entities with ties to China to gain unauthorized access to high-end processing hardware.",
+        "This incident raises serious concerns regarding the potential erosion of America's strategic technological competitive advantage in the rapidly evolving artificial intelligence sector."
+      ],
+      "originalTitle": "Senator slams Commerce Secretary for flow of Nvidia AI chips to China",
+      "url": "https://www.theverge.com/policy/1034047/nvidia-us-commerce-department-cantwell-lutnick",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI Chips",
+        "Nvidia",
+        "Geopolitics",
+        "Cybersecurity",
+        "Hardware"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-16T11:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STK414_AI_CVIRGINIA_I__0003_1.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Washington Senator Maria Cantwell, one of the top Democrats on the Senate commerce committee, has taken fire at the Department of Commerce (DOC) under Secretary Howard Lutnick for neglecting to enforce protections intended to keep Nvidia's AI chips away from China. In a letter to Lutnick on Sunday, ",
+      "authorName": "Jess Weatherbed",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "bd9f0290d5c083f1",
       "title_vi": "Cách sử dụng Middleware để kiểm tra API Key và phân quyền trong Express",
@@ -67,6 +238,76 @@
       "publishedAt": "2026-11-16T09:30:15.000Z",
       "contentSnippet": "Chào anh em, mình đây! Ở cuối bài 23, mình có đặt ra một tình huống \"thót tim\": Sếp yêu cầu thay đổi toàn bộ thuật toán tính giá vé của tuyến Metro. C...",
       "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "982789559836e34b",
+      "title_vi": "Đánh giá Vivo X500 Pro Max - điện thoại thông minh chuyên dụng cho chụp và quay sự kiện âm nhạc",
+      "title_en": "Reviewing Vivo X500 Pro Max - The Ultimate Smartphone for Concert Photography and Videography",
+      "summary_vi": [
+        "Thị trường thiết bị di động đón nhận dòng sản phẩm Vivo X500 Pro Max với định hướng chuyên biệt nhằm tối ưu hóa khả năng chụp ảnh và quay phim trong các buổi biểu diễn âm nhạc quy mô lớn.",
+        "Thiết bị tích hợp cảm biến hình ảnh Sony ứng dụng công nghệ LoFIC tiên tiến, mang lại dải nhạy sáng kỷ lục lên tới mười bảy stop giúp xử lý hiệu quả các tình huống ánh sáng phức tạp.",
+        "Sự cải tiến vượt bậc về phần cứng máy ảnh trên nền tảng di động mở ra tiềm năng mới cho việc sáng tạo nội dung số chất lượng cao, đồng thời đặt ra thách thức về giá thành sản phẩm."
+      ],
+      "summary_en": [
+        "The mobile device market welcomes the Vivo X500 Pro Max, specifically targeted at optimizing photography and videography capabilities during large scale live music concerts and events.",
+        "The device integrates a Sony image sensor utilizing advanced LoFIC technology, delivering a record breaking dynamic range of seventeen stops to effectively handle complex lighting conditions.",
+        "This remarkable hardware advancement in mobile cameras unlocks new potentials for creating high quality digital content while introducing certain challenges regarding the overall product pricing."
+      ],
+      "originalTitle": "Đánh giá Vivo X500 Pro Max - smartphone cho chụp, quay concert",
+      "url": "https://vnexpress.net/danh-gia-vivo-x500-pro-max-smartphone-cho-chup-quay-concert-5145216.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Vivo",
+        "Smartphone",
+        "Camera Sensor",
+        "Sony LoFIC",
+        "Mobile Tech"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-16T08:49:14.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/16/NTG05623-1794806725.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Z0X_FOX-WvcxGElFG7E5kg",
+      "contentSnippet": "Vivo X500 Pro Max nổi bật với camera dùng cảm biến Sony công nghệ LoFIC mới, dải nhạy sáng kỷ lục trên smartphone là 17 stop, tối ưu cho chụp, quay concert nhưng giá cao.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "fc1b87c9534cfe8b",
+      "title_vi": "Jensen Huang rời ghế điều hành Nvidia sau bê bối cá nhân và nghi vấn an ninh",
+      "title_en": "Jensen Huang steps down as Nvidia CEO amid personal scandal and security concerns",
+      "summary_vi": [
+        "Jensen Huang chính thức từ chức CEO tại Nvidia sau 33 năm dẫn dắt, đánh dấu sự kết thúc của một kỷ nguyên quan trọng trong ngành công nghiệp bán dẫn toàn cầu sau khi thừa nhận các vấn đề cá nhân nghiêm trọng.",
+        "Hội đồng quản trị Nvidia đang tiến hành điều tra các cáo buộc liên quan đến ngoại tình và khả năng ông trở thành mục tiêu của một chiến dịch tình báo nước ngoài, gây ra những lo ngại lớn về an ninh thông tin doanh nghiệp.",
+        "Sự kiện này tạo ra cú sốc lớn cho thị trường công nghệ, buộc các nhà đầu tư và kỹ sư phải đánh giá lại sự ổn định của cấu trúc quản trị tại các tập đoàn công nghệ hàng đầu trong bối cảnh cạnh tranh khốc liệt."
+      ],
+      "summary_en": [
+        "Jensen Huang has officially resigned as CEO of Nvidia after 33 years of leadership, marking the end of a significant era in the global semiconductor industry following his admission of serious personal misconduct issues.",
+        "Nvidia's board of directors is currently investigating allegations regarding an extramarital affair and potential targeting by a foreign intelligence operation, raising major concerns about corporate information security and sensitive data protection protocols.",
+        "This event has sent shockwaves through the tech market, forcing investors and engineers to re-evaluate the stability of governance structures at major technology corporations amidst an increasingly competitive and high-stakes global landscape."
+      ],
+      "originalTitle": "8 nhà sáng lập ở Thung lũng Silicon bị loại khỏi chính công ty mình",
+      "url": "https://vnexpress.net/8-nha-sang-lap-o-thung-lung-silicon-bi-loai-khoi-chinh-cong-ty-minh-5145064.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "Semiconductor",
+        "Leadership",
+        "Cybersecurity",
+        "TechNews"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/16/Nvidia-1794802529-9888-1794802540.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=NeFw-TeuKqmdRwewB9_YUQ",
+      "contentSnippet": "Jensen Huang trở thành người mới nhất từng phải rời công ty do chính mình sáng lập, bên cạnh Steve Jobs của Apple hay Sam Altman của OpenAI.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8317,243 +8558,6 @@
       "authorName": "pantalaimon",
       "upvotes": 535,
       "commentsCount": 105
-    },
-    {
-      "id": "c5624a34702a8f94",
-      "title_vi": "5 tài năng Việt được vinh danh tại AI Awards 2026",
-      "title_en": "Five Vietnamese talents honored at AI Awards 2026",
-      "summary_vi": [
-        "Hạng mục Tài năng trí tuệ nhân tạo tại lễ trao giải AI Awards 2026 chính thức vinh danh những cá nhân xuất sắc có nhiều đóng góp đột phá trong việc nghiên cứu và phát triển các giải pháp công nghệ tiên tiến.",
-        "Các chuyên gia và kỹ sư được xướng tên đã thể hiện năng lực vượt trội trong việc ứng dụng các mô hình học máy phức tạp, tối ưu hóa thuật toán và triển khai các hệ thống xử lý dữ liệu lớn trong thực tế.",
-        "Sự kiện này không chỉ tôn vinh trí tuệ Việt Nam trên bản đồ công nghệ quốc tế mà còn tạo động lực mạnh mẽ cho cộng đồng lập trình viên và nhà nghiên cứu tiếp tục đổi mới sáng tạo trong kỷ nguyên số."
-      ],
-      "summary_en": [
-        "The Artificial Intelligence Talent category at the AI Awards 2026 ceremony officially honors outstanding individuals with groundbreaking contributions to the research and development of advanced technology solutions.",
-        "The recognized experts and engineers have demonstrated exceptional capabilities in applying complex machine learning models, optimizing algorithms, and implementing large-scale data processing systems in practice.",
-        "This event not only celebrates Vietnamese intelligence on the international technology map but also creates a strong motivation for the developer and researcher community to continue innovating in the digital era."
-      ],
-      "originalTitle": "5 tài năng Việt được vinh danh tại AI Awards 2026",
-      "url": "https://vnexpress.net/5-tai-nang-viet-duoc-vinh-danh-tai-ai-awards-2026-5140792.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "AI Awards",
-        "Tech Talent",
-        "Research"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-05T13:40:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/05/1793873915950-g527084570717743-8045-3639-1793879491.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=QGi_JSxbVVTt_4v5da3XlQ",
-      "contentSnippet": "Hạng mục Tài năng AI tại AI Awards 2026 ghi nhận những đóng góp và thành tích của các chuyên gia, kỹ sư, nhà nghiên cứu trong việc phát triển và ứng dụng trí tuệ nhân tạo.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0c922e22e2f82677",
-      "title_vi": "5 doanh nghiệp AI tiêu biểu tại Giải thưởng Trí tuệ nhân tạo 2026",
-      "title_en": "Five Outstanding AI Enterprises Honored at the 2026 AI Awards",
-      "summary_vi": [
-        "Hạng mục Doanh nghiệp AI tiêu biểu tại Giải thưởng Trí tuệ nhân tạo 2026 chính thức vinh danh năm công ty công nghệ có đóng góp xuất sắc trong việc phát triển và ứng dụng công nghệ trí tuệ nhân tạo.",
-        "Các doanh nghiệp được lựa chọn nhờ năng lực xây dựng các giải pháp thuật toán tiên tiến, tối ưu hóa quy trình xử lý dữ liệu lớn và mang lại hiệu suất vận hành vượt trội cho hệ thống.",
-        "Sự kiện này không chỉ khẳng định vị thế của các đơn vị tiên phong mà còn thúc đẩy hệ sinh thái đổi mới sáng tạo, tạo động lực mạnh mẽ cho sự phát triển kinh tế số quốc gia."
-      ],
-      "summary_en": [
-        "The outstanding artificial intelligence enterprise category at the 2026 AI Awards officially honored five technology companies with exceptional contributions to developing and applying advanced artificial intelligence technologies.",
-        "These enterprises were selected for their capability to build sophisticated algorithmic solutions, optimize big data processing pipelines, and deliver superior operational performance for modern enterprise systems.",
-        "This event not only reinforces the market standing of these pioneering organizations but also accelerates the innovation ecosystem, driving robust momentum for the nation's digital economy."
-      ],
-      "originalTitle": "5 doanh nghiệp AI tiêu biểu tại AI Awards 2026",
-      "url": "https://vnexpress.net/5-doanh-nghiep-ai-tieu-bieu-tai-ai-awards-2026-5140794.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "AI Awards",
-        "Digital Transformation",
-        "Tech Startups"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-05T13:35:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/05/1793873920040-g52708457071-179-4611-9327-1793887580.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=pxGmQ1vi-q5kBFPPb58WnA",
-      "contentSnippet": "Hạng mục Doanh nghiệp AI tiêu biểu tại AI Awards 2026 vinh danh 5 công ty có đóng góp tích cực trong việc phát triển trí tuệ nhân tạo, tạo ra giá trị kinh tế, xã hội.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f11cc2830eb3b2f2",
-      "title_vi": "Google công bố Việt Nam có 45 triệu người dùng trí tuệ nhân tạo tạo sinh",
-      "title_en": "Google Reports Vietnam Reaches 45 Million Generative AI Users",
-      "summary_vi": [
-        "Báo cáo thường niên e-Conomy SEA do Google, Temasek và Bain & Company công bố ngày 5 tháng 11 chỉ ra rằng nền kinh tế số Việt Nam đang tăng trưởng mạnh mẽ với 45 triệu người dùng trí tuệ nhân tạo tạo sinh.",
-        "Việt Nam ghi nhận khoảng 45 triệu người dùng các công cụ trí tuệ nhân tạo tạo sinh, chiếm 65% lực lượng lao động và đạt tỷ lệ 26% người dùng thường xuyên hàng ngày cùng với 31 tỷ lượt truy vấn mỗi năm.",
-        "Sự bùng nổ về số lượng người dùng và tần suất tương tác cao với các mô hình trí tuệ nhân tạo tạo sinh khẳng định vị thế dẫn đầu của Việt Nam về mức độ tiếp cận công nghệ trong khu vực Đông Nam Á."
-      ],
-      "summary_en": [
-        "The annual e-Conomy SEA report released by Google, Temasek, and Bain & Company on November 5 highlights that Vietnam's digital economy is growing rapidly with 45 million generative artificial intelligence users.",
-        "Vietnam records approximately 45 million generative artificial intelligence users, accounting for 65 percent of the workforce and achieving a 26 percent daily active usage rate alongside 31 billion queries annually.",
-        "The surge in user adoption and high interaction frequency with generative artificial intelligence models solidifies Vietnam's leading position in technology accessibility across the Southeast Asian region."
-      ],
-      "originalTitle": "Google: Việt Nam có 45 triệu người dùng AI tạo sinh",
-      "url": "https://vnexpress.net/google-viet-nam-co-45-trieu-nguoi-dung-ai-tao-sinh-5141023.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Generative AI",
-        "Google",
-        "Digital Economy",
-        "Southeast Asia"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-05T11:10:59.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/05/wm1-wm1-dsc00673-jpg-1793852722-1641-1793852782.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=rRxLUApz8CARWe4IF2wNmg",
-      "contentSnippet": "Việt Nam có quy mô kinh tế số dự kiến đạt 49 tỷ USD, tăng trưởng cao nhất khu vực Đông Nam Á, đồng thời có 45 triệu người dùng AI tạo sinh.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "7b2bbc2e4abb6528",
-      "title_vi": "Sử dụng proxy dân cư trong Python: nên chọn phiên xoay vòng hay phiên cố định qua ví dụ requests, httpx và Playwright",
-      "title_en": "Using Residential Proxies in Python: Rotating or Sticky Sessions with Requests, HTTPX and Playwright",
-      "summary_vi": [
-        "Bài viết cung cấp hướng dẫn thực hành chi tiết về cách cấu hình giao thức HTTP và SOCKS5 proxy trong ngôn ngữ lập trình Python nhằm tối ưu hóa quá trình thu thập dữ liệu web.",
-        "Nội dung tập trung phân tích sự khác biệt kỹ thuật giữa phiên xoay vòng và phiên cố định, đồng thời minh họa cách xử lý ngoại lệ như thời gian chờ và cơ chế thử lại.",
-        "Giải pháp này mang lại giá trị thực tiễn cao cho các lập trình viên khi cần xây dựng hệ thống tự động hóa web an toàn, hiệu quả và tuân thủ trách nhiệm kỹ thuật."
-      ],
-      "summary_en": [
-        "The article provides a detailed practical guide on how to configure HTTP and SOCKS5 proxy protocols in Python to optimize web data collection processes.",
-        "The content focuses on analyzing technical differences between rotating and sticky sessions while demonstrating exception handling such as timeouts and retry mechanisms.",
-        "This solution delivers high practical value for developers building secure, efficient web automation systems while adhering to technical responsibilities."
-      ],
-      "originalTitle": "Dùng residential proxy trong Python: rotating hay sticky session? (ví dụ với requests, httpx và Playwright)",
-      "url": "https://viblo.asia/p/dung-residential-proxy-trong-python-rotating-hay-sticky-session-vi-du-voi-requests-httpx-va-playwright-7Z4DEWAoJnX",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Python",
-        "Proxy",
-        "Web Scraping",
-        "Playwright",
-        "Networking"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-11-05T10:32:06.000Z",
-      "contentSnippet": "Hướng dẫn thực hành: cấu hình HTTP/SOCKS5 proxy, kiểm tra IP và vị trí đầu ra, xử lý retry/timeout, và dùng proxy một cách có trách nhiệm. Công khai:...",
-      "authorName": "李强强",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "230e29a807bc064e",
-      "title_vi": "OpenAI phát hành Images 2.6: tăng tốc độ tạo ảnh năm mươi phần trăm, hỗ trợ ảnh động GIF và xuất tệp SVG",
-      "title_en": "OpenAI Launches Images 2.6: Fifty Percent Faster Generation with GIF and SVG Export Support",
-      "summary_vi": [
-        "Công ty trí tuệ nhân tạo OpenAI vừa chính thức phát hành phiên bản mô hình Images 2.6, tích hợp trực tiếp vào các nền tảng bao gồm ChatGPT, Codex và hệ thống lập trình giao diện lập trình ứng dụng API dành cho nhà phát triển.",
-        "Bản cập nhật quan trọng này mang lại bước đột phá lớn khi tăng tốc độ tạo ảnh nhanh hơn năm mươi phần trăm so với thế hệ tiền nhiệm, đồng thời bổ sung tính năng tạo ảnh động GIF và duy trì độ đồng nhất hình ảnh cao qua nhiều lần chỉnh sửa.",
-        "Sự cải tiến này giúp cộng đồng kỹ sư phần mềm và nhà phát triển tối ưu hóa thời gian xử lý đồ họa, nâng cao chất lượng sản phẩm ứng dụng tích hợp trí tuệ nhân tạo vào quy trình làm việc thực tế."
-      ],
-      "summary_en": [
-        "Artificial intelligence company OpenAI has officially released the Images 2.6 model version, seamlessly integrated into platforms including ChatGPT, Codex, and application programming interface systems for developers.",
-        "This major update delivers a significant breakthrough by increasing image generation speed by fifty percent compared to the previous generation, while adding GIF animation creation and maintaining high image consistency across multiple edits.",
-        "This enhancement helps software engineers and developers optimize graphic processing time, improving the quality of applications that integrate artificial intelligence into practical workflows."
-      ],
-      "originalTitle": "OpenAI ra mắt Images 2.6: tạo ảnh nhanh hơn 50%, làm được GIF, xuất SVG",
-      "url": "https://tinhte.vn/thread/openai-ra-mat-images-2-6-tao-anh-nhanh-hon-50-lam-duoc-gif-xuat-svg.4189960/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "OpenAI",
-        "Generative AI",
-        "ChatGPT",
-        "API",
-        "Software Engineering"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-05T06:16:01.000Z",
-      "contentSnippet": "OpenAI vừa tung Images 2.6 cho ChatGPT, Codex và API. Bản này tạo ảnh nhanh hơn 50% so với thế hệ trước, thêm khả năng làm ảnh động GIF và giữ ảnh đồng nhất hơn qua nhiều lần chỉnh sửa. Theo...",
-      "authorName": "Nhà Của Cáo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "03c32d82c0a68aa5",
-      "title_vi": "Công nghệ AVS trên dòng điện thoại iPhone 18 Pro là gì và người dùng có cần thay đổi củ sạc mới không?",
-      "title_en": "What is AVS technology on the iPhone 18 Pro and do users need to purchase a new power adapter?",
-      "summary_vi": [
-        "Cộng đồng công nghệ đang bàn luận sôi nổi về công nghệ sạc mới mang tên AVS được trang bị trên thế hệ điện thoại thông minh tiếp theo của Apple là iPhone 18 Pro với nhiều kỳ vọng lớn.",
-        "Công nghệ này cải tiến đáng kể hiệu suất truyền tải năng lượng, tối ưu hóa nhiệt độ và nâng cao tuổi thọ viên pin thông qua các thuật toán điều chỉnh dòng điện thông minh thế hệ mới.",
-        "Sự thay đổi này tác động lớn đến hệ sinh thái phụ kiện phần cứng, buộc các nhà phát triển và người dùng phải cân nhắc kỹ lưỡng về việc lựa chọn thiết bị sạc tương thích an toàn."
-      ],
-      "summary_en": [
-        "The technology community is actively discussing the new charging standard named AVS equipped on Apple upcoming smartphone generation iPhone 18 Pro with high expectations.",
-        "This technology significantly improves power transmission efficiency, optimizes operating temperatures, and enhances battery lifespan through advanced smart current regulation algorithms.",
-        "This hardware shift heavily impacts the ecosystem of charging accessories, forcing developers and everyday users to carefully evaluate compatible power devices for safety."
-      ],
-      "originalTitle": "AVS trên iPhone 18 Pro là gì, có cần mua củ sạc mới không?",
-      "url": "https://tinhte.vn/thread/avs-tren-iphone-18-pro-la-gi-co-can-mua-cu-sac-moi-khong.4189681/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "iPhone 18 Pro",
-        "AVS Technology",
-        "Mobile Hardware",
-        "Fast Charging"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-05T04:50:26.000Z",
-      "contentSnippet": "Nhiều người dùng đã bắt đầu tò mò về công nghệ này, vậy AVS thực chất là gì và nó thay đổi trải nghiệm sạc của bạn ra sao? Sạc nhanh trên điện thoại thì không có gì mới, Samsung hay Google đã...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "c15c42789457e0e7",
-      "title_vi": "Windows 11 dùng gần hết RAM là bình thường, Microsoft giải thích",
-      "title_en": "It's normal for Windows 11 to run out of RAM, Microsoft explains",
-      "summary_vi": [
-        "Windows 11 dùng gần hết RAM là bình thường, Microsoft giải thích Theo Pavan Davuluri, người đứng đầu bộ phận Windows, việc Task Manager hiển thị mức sử dụng RAM từ 70% đến 90% không có nghĩa là.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Windows 11 dùng gần hết RAM là bình thường, Microsoft giải thích.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Windows 11 dùng gần hết RAM là bình thường, Microsoft giải thích."
-      ],
-      "summary_en": [
-        "It's normal for Windows 11 to run out of RAM, Microsoft explains. According to Pavan Davuluri, head of Windows, it doesn't mean that Task Manager shows RAM usage between 70% and 90%.",
-        "In-depth technical breakdown and implementation mechanisms introduced in It's normal for Windows 11 to run out of RAM, Microsoft explains.",
-        "Practical engineering impact and actionable takeaways for developers building with It's normal for Windows 11 to run out of RAM, Microsoft explains."
-      ],
-      "originalTitle": "Windows 11 dùng gần hết RAM là bình thường, Microsoft giải thích",
-      "url": "https://tinhte.vn/thread/windows-11-dung-gan-het-ram-la-binh-thuong-microsoft-giai-thich.4189865/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "TechTrends",
-        "Innovation"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-11-05T04:13:47.000Z",
-      "contentSnippet": "Windows 11 dùng gần hết RAM là bình thường, Microsoft giải thích Theo Pavan Davuluri, người đứng đầu bộ phận Windows, việc Task Manager hiển thị mức sử dụng RAM từ 70% đến 90% không có nghĩa là...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
     }
   ]
 }
