@@ -1,7 +1,315 @@
 {
-  "lastUpdated": "2026-11-17T15:19:26.808Z",
+  "lastUpdated": "2026-11-18T00:16:39.722Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "8cfc754e7afb4fe1",
+      "title_vi": "Xây dựng Backend bằng Go: Kỹ thuật bọc lỗi tùy chỉnh sử dụng fmt.Errorf và errors.Is/As",
+      "title_en": "Go Backend Series: Custom Error Wrapping Using fmt.Errorf and errors.Is/As",
+      "summary_vi": [
+        "Bài viết tiếp tục chuỗi hướng dẫn lập trình Backend bằng ngôn ngữ Go với trọng tâm là việc xử lý lỗi nâng cao trong các kiến trúc phần mềm thực tế như Clean Architecture nhằm đảm bảo tính bảo trì.",
+        "Tác giả đi sâu vào cơ chế bọc lỗi sử dụng hàm fmt.Errorf kết hợp với định dạng từ khóa và các hàm kiểm tra errors.Is cùng errors.As để phân loại và truy vết nguồn gốc lỗi một cách chính xác.",
+        "Kiến thức này giúp các kỹ sư phần mềm xây dựng hệ thống xử lý ngoại lệ đồng bộ, dễ dàng gỡ lỗi và nâng cao chất lượng mã nguồn trong các ứng dụng doanh nghiệp quy mô lớn."
+      ],
+      "summary_en": [
+        "The article continues the Go backend programming series focusing on advanced error handling in production software architectures like Clean Architecture to ensure long-term system maintainability.",
+        "The author dives deep into the error wrapping mechanism using the fmt.Errorf function combined with formatting verbs and the errors.Is and errors.As functions for precise error tracing.",
+        "This technical knowledge helps software engineers build standardized exception handling systems, simplify debugging processes, and improve source code quality in large-scale enterprise applications."
+      ],
+      "originalTitle": "Series Go Backend: Custom Errors - Bọc lỗi (Error Wrapping) với fmt.Errorf và errors.Is/As",
+      "url": "https://viblo.asia/p/series-go-backend-custom-errors-boc-loi-error-wrapping-voi-fmterrorf-va-errorsisas-AY4qQzqK4Pw",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Go",
+        "Backend",
+        "Clean Architecture",
+        "Error Handling",
+        "Programming"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-18T06:44:47.000Z",
+      "contentSnippet": "Trong bài trước, chúng ta đã biết cách tạo ra các lỗi đơn giản bằng chuỗi text. Tuy nhiên, trong một kiến trúc Backend thực tế (như Clean Architecture...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "01af5eac7ee6016f",
+      "title_vi": "Loạt bài về Go Backend: Cơ chế xử lý lỗi thuần túy với error interface",
+      "title_en": "Go Backend Series: Pure Error Handling Mechanism Using the Error Interface",
+      "summary_vi": [
+        "Bài viết khám phá cơ chế xử lý lỗi trong ngôn ngữ lập trình Go, đặt ra sự đối lập rõ rệt với mô hình try-catch truyền thống thường thấy ở các ngôn ngữ như Java hay C#.",
+        "Tác giả phân tích sâu về cách Go định nghĩa lỗi thông qua error interface, giúp lập trình viên kiểm soát luồng thực thi chương trình một cách minh bạch và chủ động hơn.",
+        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư backend trong việc xây dựng các hệ thống phân tán bằng Go có độ ổn định và khả năng bảo trì tốt hơn."
+      ],
+      "summary_en": [
+        "The article explores the error handling mechanism in the Go programming language, establishing a sharp contrast with traditional try-catch models commonly found in languages like Java or C#.",
+        "The author provides an in-depth analysis of how Go defines errors through the error interface, enabling developers to control program execution flow much more transparently and proactively.",
+        "This knowledge delivers high practical value for backend engineers building distributed systems in Go with significantly improved stability and maintainability."
+      ],
+      "originalTitle": "Series Go Backend: Error Handling - Cơ chế xử lý lỗi thuần túy với error interface",
+      "url": "https://viblo.asia/p/series-go-backend-error-handling-co-che-xu-ly-loi-thuan-tuy-voi-error-interface-bNVQGlkRJvR",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Go",
+        "Backend",
+        "Error Handling",
+        "Software Architecture",
+        "Programming"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-18T06:44:39.000Z",
+      "contentSnippet": "Trong các ngôn ngữ như Java, C# hay PHP, chúng ta đã quá quen với khối lệnh try-catch-finally để \"bắt\" ngoại lệ (Exceptions). Khi một lỗi xảy ra, chươ...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f7e5608b58c8bc2c",
+      "title_vi": "Loạt bài về Backend Go: Nhúng Struct - Kế thừa theo phong cách kết hợp",
+      "title_en": "Go Backend Series: Struct Embedding - Inheritance via Composition Style",
+      "summary_vi": [
+        "Bài viết phân tích cách ngôn ngữ lập trình Go tiếp cận việc tái sử dụng mã nguồn thông qua cơ chế nhúng struct thay vì sử dụng mô hình kế thừa cổ điển như các ngôn ngữ hướng đối tượng truyền thống.",
+        "Tác giả đi sâu vào chi tiết kỹ thuật cách các trường và phương thức được thúc đẩy thông qua thành phần lồng nhau, giúp lập trình viên hiểu rõ bản chất của việc chuyển tiếp phương thức trong thiết kế hệ thống.",
+        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư phần mềm khi xây dựng kiến trúc backend bằng Go, giúp tối ưu hóa mã nguồn và duy trì tính linh hoạt trong các dự án quy mô lớn."
+      ],
+      "summary_en": [
+        "The article analyzes how the Go programming language approaches code reusability through struct embedding mechanisms instead of traditional inheritance models found in standard object-oriented languages.",
+        "The author dives into technical details of how fields and methods are promoted through nested components, helping developers fully understand the nature of method forwarding in system design.",
+        "This knowledge delivers high practical value for software engineers building backend architectures with Go, optimizing source code and maintaining flexibility in large-scale projects."
+      ],
+      "originalTitle": "Series Go Backend: Struct Embedding - \"Kế thừa\" theo phong cách Composition",
+      "url": "https://viblo.asia/p/series-go-backend-struct-embedding-ke-thua-theo-phong-cach-composition-3RL1BobXVao",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Go",
+        "Backend",
+        "Software Architecture",
+        "Composition"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-18T06:44:32.000Z",
+      "contentSnippet": "Nếu bạn đến với Go từ thế giới của Java, PHP hay C++, bạn sẽ nhận ra một sự \"thiếu vắng\" rõ rệt: Go hoàn toàn không có các từ khóa như class, extends,...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "d34ce25785fdf87b",
+      "title_vi": "Giám đốc điều hành Microsoft Satya Nadella tuyên bố ông đã tin tưởng hoàn toàn vào trí tuệ nhân tạo tổng quát AGI",
+      "title_en": "Satya Nadella says he is AGI-pilled now",
+      "summary_vi": [
+        "Trong sự kiện Microsoft Ignite tại San Francisco, Giám đốc điều hành Satya Nadella đã chia sẻ góc nhìn sâu sắc về tác động mạnh mẽ của trí tuệ nhân tạo tổng quát đối với cấu trúc kinh tế và hệ thống chính trị toàn cầu.",
+        "Mặc dù thừa nhận sự thay đổi mang tính bước ngoạt do các mô hình ngôn ngữ lớn mang lại, ông vẫn giữ quan điểm thực tế rằng các mô hình biên như Claude hiện tại chưa có ý thức và không nên được trao các quyền lợi pháp lý.",
+        "Phát biểu này phản ánh tầm nhìn chiến lược của Microsoft trong việc định hướng phát triển công nghệ trí tuệ nhân tạo, đồng thời đặt ra những bài toán quan trọng về quản trị chính sách và đạo đức trong kỷ nguyên số."
+      ],
+      "summary_en": [
+        "During the Microsoft Ignite event in San Francisco, CEO Satya Nadella shared profound insights regarding the powerful impacts of artificial general intelligence on economic structures and global political systems.",
+        "Although acknowledging the transformative changes driven by large language models, he maintained a pragmatic view that current frontier models like Claude lack consciousness and should not be granted legal rights.",
+        "This statement reflects Microsoft strategic vision in steering artificial intelligence development while raising critical governance and ethical questions in the digital era."
+      ],
+      "originalTitle": "Satya Nadella says he’s AGI-pilled now",
+      "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Microsoft",
+        "AGI",
+        "Satya Nadella",
+        "Tech Trends"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-17T23:41:18.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-17-at-3.00.15-PM.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Microsoft CEO Satya Nadella on stage at Microsoft Ignite. | Image: Microsoft / YouTube Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI pilled in the ",
+      "authorName": "Nilay Patel",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "06feb2451a7a151c",
+      "title_vi": "Jensen Huang khẳng định sẵn sàng quay lại vị trí giám đốc điều hành của Nvidia nếu hội đồng quản trị yêu cầu",
+      "title_en": "Jensen Huang Expresses Readiness to Return as Nvidia CEO if the Board of Directors Requests It",
+      "summary_vi": [
+        "Trong tuần qua, cộng đồng công nghệ và giới lãnh đạo ngành bán dẫn toàn cầu đã bày tỏ sự quan tâm đặc biệt đến những chia sẻ từ giám đốc điều hành Nvidia về tương lai chiến lược và khả năng tiếp tục lãnh đạo tập đoàn.",
+        "Sự kiện này làm nổi bật tầm quan trọng của cấu trúc quản trị doanh nghiệp trong các tập đoàn công nghệ lớn chuyên sản xuất chip xử lý đồ họa và phát triển hạ tầng phần cứng trí tuệ nhân tạo.",
+        "Phát biểu này củng cố niềm tin vững chắc của nhà đầu tư vào định hướng phát triển dài hạn của hãng công nghệ hàng đầu thế giới trong bối cảnh thị trường chip AI đang cạnh tranh vô cùng khốc liệt."
+      ],
+      "summary_en": [
+        "Over the past week, the global technology community and semiconductor industry leaders expressed significant interest in Nvidia chief executive officer statements regarding strategic future and continued corporate leadership.",
+        "This development highlights the critical importance of corporate governance structures within major technology conglomerates specializing in graphical processing units and artificial intelligence hardware infrastructure.",
+        "Such statements reinforce strong investor confidence in the long-term strategic direction of the world leading technology enterprise amidst intense competitive pressures within the artificial intelligence chip market."
+      ],
+      "originalTitle": "Jensen Huang: sẵn sàng quay lại làm CEO NVIDIA nếu HĐQT muốn.",
+      "url": "https://tinhte.vn/thread/jensen-huang-san-sang-quay-lai-lam-ceo-nvidia-neu-hdqt-muon.4193456/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "AI",
+        "Semiconductor",
+        "Tech Leadership"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-17T23:37:42.000Z",
+      "contentSnippet": "Trong tuần vừa qua, tôi đã choáng ngợp trước tình cảm và sự ủng hộ của bạn bè, đồng nghiệp trong ngành, và cả những người tôi chưa từng gặp. Cảm ơn tất cả mọi người đã dành sự tử tế cho gia đình...",
+      "authorName": "cuhiep",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "7d49330be50c2808",
+      "title_vi": "Đọc tất cả những gì chủ tịch hội đồng quản trị của tập đoàn bán dẫn lớn nói về cựu giám đốc điều hành",
+      "title_en": "Read everything that Nvidia’s board chair had to say about Jensen Huang",
+      "summary_vi": [
+        "Cuộc họp báo cáo tài chính hàng quý của tập đoàn bán dẫn lớn chứng kiến sự thay đổi bộ máy lãnh đạo quan trọng sau khi cựu giám đốc điều hành từ chức liên quan đến các cáo buộc vi phạm quy tắc ứng xử nội bộ.",
+        "Hội đồng quản trị đang tiến hành điều tra nghiêm ngặt xem xét liệu các mối quan hệ cá nhân có làm tổn hại đến bí mật thương mại và an ninh quốc gia trong bối cảnh chuỗi cung ứng vi mạch đang chịu nhiều áp lực địa chính trị.",
+        "Sự biến động nhân sự cấp cao tại một trong những công ty thống trị thị trường trí tuệ nhân tạo đặt ra bài học sâu sắc về quản trị doanh nghiệp và bảo mật thông tin nhạy cảm cho toàn ngành công nghệ."
+      ],
+      "summary_en": [
+        "The quarterly earnings call of the major semiconductor corporation witnessed significant leadership changes after the former chief executive resigned following allegations of violating internal corporate governance policies.",
+        "The board of directors is conducting a thorough investigation to determine whether personal relationships compromised trade secrets and national security amidst mounting geopolitical pressures on the microchip supply chain.",
+        "This high-level executive turbulence at one of the dominant artificial intelligence market leaders provides profound governance lessons and highlights the critical importance of protecting sensitive information across the tech industry."
+      ],
+      "originalTitle": "Read everything that Nvidia’s board chair had to say about Jensen Huang",
+      "url": "https://www.theverge.com/tech/1036160/nvidia-earnings-harvey-c-jones-jensen-huang",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "Semiconductors",
+        "AI",
+        "Corporate Governance",
+        "Security"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-17T22:32:50.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Nvidia's quarterly earnings call on Tuesday was its first with CFO and interim CEO Colette Kress at the helm alongside the company's first board chair, Harvey C. Jones. The leadership change followed Jensen Huang's resignation last week after reports he had multiple affairs - including one with form",
+      "authorName": "Stevie Bonifield",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a8bf5e8980db205a",
+      "title_vi": "Hàng trăm trang web lớn bị tấn công phát tán mã độc tinh vi qua nền tảng Optimizely",
+      "title_en": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
+      "summary_vi": [
+        "Hàng trăm trang web nổi tiếng bao gồm CNN và BBC đã vô tình phát tán mã độc nguy hiểm thông qua nền tảng cá nhân hóa Optimizely, gây ảnh hưởng nghiêm trọng đến người dùng truy cập vào các trang web này trên toàn cầu.",
+        "Kẻ tấn công đã chèn mã JavaScript độc hại vào các đoạn mã được ký số của Optimizely, cho phép đánh cắp dữ liệu thẻ thanh toán, thông tin ví tiền điện tử và triển khai các bộ khai thác lỗ hổng trên thiết bị iOS.",
+        "Sự cố này nhấn mạnh lỗ hổng bảo mật trong chuỗi cung ứng phần mềm của bên thứ ba, buộc các kỹ sư và quản trị viên hệ thống phải kiểm soát chặt chẽ hơn các đoạn mã JavaScript được nhúng từ các nhà cung cấp dịch vụ ngoài."
+      ],
+      "summary_en": [
+        "Hundreds of prominent websites including CNN and BBC inadvertently distributed dangerous malware through the Optimizely personalization platform, causing significant security risks for unsuspecting visitors accessing these platforms across the global internet infrastructure.",
+        "Attackers injected malicious JavaScript into digitally signed Optimizely snippets, enabling the theft of payment card data, cryptocurrency wallet addresses, and the delivery of sophisticated exploit kits targeting vulnerabilities within iOS mobile devices.",
+        "This incident highlights critical security weaknesses in third-party software supply chains, forcing engineers and system administrators to implement stricter validation and monitoring for all external JavaScript code embedded within their web applications."
+      ],
+      "originalTitle": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
+      "url": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/",
+      "sourceName": "Ars Technica",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Malware",
+        "JavaScript",
+        "SupplyChainAttack",
+        "WebSecurity"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-17T22:32:16.000Z",
+      "contentSnippet": "Malware cocktail delivers cryptocurrency theft payloads and iOS exploits, among other things.",
+      "authorName": "\n                    Dan Goodin\n                ",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "7082e39b2939fcd7",
+      "title_vi": "Nvidia tuyên bố không có ý định bổ nhiệm lại Jensen Huang làm Giám đốc điều hành",
+      "title_en": "Nvidia says it does not intend to reinstate Jensen Huang as CEO",
+      "summary_vi": [
+        "Trong cuộc họp báo cáo tài chính hàng quý mới đây, chủ tịch hội đồng quản trị Nvidia là Harvey Jones đã chính thức xác nhận việc hội đồng quản trị đã đồng thuận chấp thuận đơn từ chức của cựu giám đốc điều hành Jensen Huang.",
+        "Hội đồng quản trị khẳng định rõ ràng rằng họ hoàn toàn không có bất kỳ kế hoạch hay ý định nào trong việc tái bổ nhiệm Jensen Huang trở lại vị trí lãnh đạo cao nhất này sau khi các cuộc điều tra nội bộ đang được tiến hành.",
+        "Sự kiện thay đổi nhân sự cấp cao này đánh dấu một bước ngoặt lớn trong cấu trúc quản trị của hãng sản xuất chip bán dẫn hàng đầu thế giới, gây ra những tác động đáng kể đến tâm lý nhà đầu tư và chiến lược phát triển công nghệ AI trong tương lai."
+      ],
+      "summary_en": [
+        "During the recent quarterly earnings call, Nvidia board chair Harvey Jones officially confirmed that the board unanimously accepted the resignation of former chief executive officer Jensen Huang.",
+        "The board explicitly stated that they have no plans or intentions whatsoever to reinstate Jensen Huang back to his top leadership position amidst ongoing internal investigations.",
+        "This high-level executive shakeup marks a major turning point in the governance structure of the world-leading semiconductor chip manufacturer, significantly impacting investor sentiment and future AI technology strategies."
+      ],
+      "originalTitle": "Nvidia says it does not intend to reinstate Jensen Huang as CEO",
+      "url": "https://www.theverge.com/report/1035465/nvidia-says-it-will-not-reinstate-jensen-huang-as-ceo",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Semiconductors",
+        "Leadership",
+        "AI"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-17T22:05:05.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_02.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Starting Nvidia's quarterly earnings call on Tuesday, new board chair Harvey Jones said that when former CEO Jensen Huang resigned, \"the Nvidia board unanimously accepted his resignation and does not intend to reinstate Jensen as CEO.\" Jones added, \"We will not be addressing or taking questions on t",
+      "authorName": "Hayden Field",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "1887f66f9a10a465",
+      "title_vi": "Lỗ hổng Java4Shell: Lỗi hỏng bộ nhớ nghiêm trọng trong bộ giải mã Base64 của OpenJDK",
+      "title_en": "Java4Shell: Critical memory-corruption vulnerability in OpenJDK Base64 decoder",
+      "summary_vi": [
+        "Các nhà nghiên cứu vừa công bố lỗ hổng bảo mật mang tên Java4Shell được định danh là CVE-2026-114938, ảnh hưởng trực tiếp đến bộ giải mã Base64 trong môi trường chạy thời gian thực OpenJDK phổ biến toàn cầu.",
+        "Lỗ hổng hỏng bộ nhớ này phát sinh từ mã máy tối ưu hóa sử dụng tập lệnh CPU x86-64, cho phép dữ liệu đầu vào không hợp lệ ghi đè lên bộ nhớ heap và dẫn đến việc thực thi mã từ xa.",
+        "Với điểm chuẩn CVSS 4.0 là 9.2 trên 10, sự cố này đe dọa trực tiếp đến hàng loạt hệ thống tài chính, viễn thông và an ninh quốc gia sử dụng nền tảng Java trên toàn cầu."
+      ],
+      "summary_en": [
+        "Researchers have recently disclosed a security vulnerability named Java4Shell, designated as CVE-2026-114938, which directly impacts the Base64 decoder within the widely adopted OpenJDK runtime environment.",
+        "This memory corruption vulnerability arises from optimized machine-level code utilizing x86-64 CPU instructions, allowing malformed input data to overwrite heap memory and lead to remote code execution.",
+        "With a CVSS 4.0 score of 9.2 out of 10, this critical issue directly threatens numerous financial, telecommunications, and national security systems utilizing the Java platform globally."
+      ],
+      "originalTitle": "Java4Shell: RCE in OpenJDK when processing Base64",
+      "url": "https://calif.io/java4shell/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "Java",
+        "OpenJDK",
+        "Vulnerability",
+        "RemoteCodeExecution"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-17T21:11:28.000Z",
+      "contentSnippet": "A memory-corruption vulnerability in OpenJDK's Base64 decoder. A remote attacker with no credentials can overwrite heap memory, read it in the style of Heartbleed, and reach remote code execution. Begin ↓ Technical write-up ↘ Check your servers ↘ Recommendations ↘ After we disclosed PHP2Shell, we re",
+      "authorName": "werrett",
+      "upvotes": 416,
+      "commentsCount": 108
+    },
     {
       "id": "6a1de9f49ba776e9",
       "title_vi": "Trong khi chúng ta tranh cãi về khả năng lập trình của AI, một số lập trình viên đã tăng năng suất gấp 10 lần",
@@ -67,6 +375,107 @@
       "publishedAt": "2026-11-17T19:13:34.000Z",
       "contentSnippet": "Một bạn bên đối tác tích hợp gửi request thiếu một field, và nhận về một response 500 dài cả trang: nguyên stack trace, tên namespace, đường dẫn file ...",
       "authorName": "Nguyễn Anh",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0fb76b8d23388056",
+      "title_vi": "Trình mô hình tiên tiến GPT-6.2 Astra và Sol dành cho công việc chuyên sâu",
+      "title_en": "GPT-6.2 Astra and Sol Frontier Models for Advanced Work",
+      "summary_vi": [
+        "Công ty vừa chính thức giới thiệu hai mô hình trí tuệ nhân tạo mới gồm GPT-6.2 Astra chuyên xử lý các dự án phức tạp và GPT-6.2 Sol tối ưu cho công việc hàng ngày.",
+        "Mô hình mới đạt hiệu suất vượt trội trong các tác vụ đòi hỏi khắt khe với số lượng token đầu ra ít hơn, giúp tiết kiệm đáng kể chi phí vận hành ở quy mô lớn.",
+        "Sự kiện này đánh dấu bước tiến quan trọng trong việc cải thiện chất lượng công việc chuyên môn như lập trình, thiết kế giao diện và xử lý tài liệu dài hạn."
+      ],
+      "summary_en": [
+        "The company has officially introduced two new artificial intelligence models including GPT-6.2 Astra designed for complex projects and GPT-6.2 Sol optimized for daily tasks.",
+        "The new models deliver superior performance on demanding tasks with fewer output tokens, significantly reducing operational costs at a large scale.",
+        "This release marks a major milestone in improving professional workflows such as software coding, frontend design, and long-horizon document processing."
+      ],
+      "originalTitle": "GPT‑6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "GPT-6.2",
+        "Machine Learning",
+        "Software Engineering"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-17T17:46:43.000Z",
+      "contentSnippet": "(opens in a new window) :nth-child(2),>[data-dotcom-chart-group]>:nth-child(2)]:[--dotcom-chart-edge-gutter:0px] [&_[data-dotcom-chart-logical-container][style*='width:_min-content']]:[--dotcom-chart-edge-gutter:0px] [--dotcom-chart-edge-gutter:var(--container-inline-gutter,0px)] md:[--dotcom-chart-",
+      "authorName": "jasondavies",
+      "upvotes": 1046,
+      "commentsCount": 654
+    },
+    {
+      "id": "ca337b2b3ceee43a",
+      "title_vi": "Hãng sản xuất chip Nvidia ngừng công bố doanh số tại thị trường Singapore khi tổng doanh thu chạm mốc 104 tỷ USD",
+      "title_en": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+      "summary_vi": [
+        "Tập đoàn công nghệ bán dẫn Nvidia đã chính thức ngừng việc công bố chi tiết số liệu doanh thu tại thị trường Singapore trong bối cảnh tổng doanh thu toàn cầu của họ đã đạt mốc ấn tượng một trăm linh bốn tỷ đô la Mỹ.",
+        "Sự thay đổi trong chiến lược báo cáo tài chính này diễn ra khi nhu cầu về các dòng chip xử lý đồ họa và phần cứng trí tuệ nhân tạo tăng vọt đột biến, khiến cấu trúc chuỗi cung ứng khu vực trở nên phức tạp hơn bao giờ hết.",
+        "Quyết định ẩn bớt dữ liệu quốc gia cụ thể có thể làm giảm khả năng minh bạch của các nhà phân tích thị trường, đồng thời tác động trực tiếp đến chiến lược đầu tư hạ tầng trung tâm dữ liệu và đám mây tại Đông Nam Á."
+      ],
+      "summary_en": [
+        "Semiconductor giant Nvidia has officially stopped disclosing detailed revenue figures for the Singapore market amid a massive surge that pushed its global total revenues to an impressive one hundred and four billion dollars.",
+        "This strategic shift in financial reporting occurs as demand for advanced graphics processing units and artificial intelligence hardware skyrockets, making regional supply chain structures more complex than ever before.",
+        "The decision to withhold specific country data may reduce market transparency for analysts while directly impacting infrastructure investment strategies for data centers and cloud computing across Southeast Asia."
+      ],
+      "originalTitle": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+      "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "Semiconductors",
+        "Hardware",
+        "AI",
+        "Cloud"
+      ],
+      "hotScore": 87,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-17T17:12:06.000Z",
+      "contentSnippet": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+      "authorName": "louiereederson",
+      "upvotes": 351,
+      "commentsCount": 177
+    },
+    {
+      "id": "43e9789e41c0457d",
+      "title_vi": "Hai mươi năm thiết kế giao diện: Từ màn hình iPhone đầu tiên đến kỷ nguyên trí tuệ nhân tạo",
+      "title_en": "Twenty Years of Interface Design: From the Original iPhone to the AI Era",
+      "summary_vi": [
+        "Bài viết nhìn lại hành trình hai mươi năm tiến hóa của thiết kế giao diện người dùng, bắt đầu từ sự ra mắt mang tính cách mạng của chiếc điện thoại iPhone đời đầu vào năm 2007 cho đến nay.",
+        "Quá trình chuyển đổi từ phong cách thiết kế mô phỏng vật thật sang giao diện phẳng tối giản được đánh dấu bởi sự kiện phát hành phiên bản hệ điều hành iOS 7 vào năm 2013, tạo ra chuẩn mực cho cả thập kỷ.",
+        "Xu hướng thiết kế hiện đại đang chứng kiến sự dịch chuyển mạnh mẽ hướng tới việc tích hợp trí tuệ nhân tạo, mở ra những phương thức tương tác hoàn toàn mới cho các kỹ sư phần mềm và nhà phát triển."
+      ],
+      "summary_en": [
+        "The article reviews a twenty-year journey of user interface design evolution, starting from the revolutionary launch of the original iPhone in 2007 up to the present day.",
+        "The transition from skeuomorphic design to minimalist flat interfaces was marked by the release of the iOS 7 operating system in 2013, establishing a standard for the entire decade.",
+        "Modern design trends are witnessing a strong shift toward integrating artificial intelligence, unlocking completely new interaction paradigms for software engineers and developers."
+      ],
+      "originalTitle": "20 năm thiết kế trong một bài đăng: từ iPhone đến AI",
+      "url": "https://tinhte.vn/thread/20-nam-thiet-ke-trong-mot-bai-dang-tu-iphone-den-ai.4193398/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "UI/UX",
+        "iPhone",
+        "iOS",
+        "AI",
+        "Interface Design"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-17T15:47:00.000Z",
+      "contentSnippet": "20 năm thiết kế trong một bài đăng: từ iPhone đến AI Hành trình bắt đầu năm 2007 với iPhone đời đầu, đến 2013, iOS 7 phẳng hóa mọi thứ và thiết kế phẳng thành chuẩn mực cả thập kỷ sau. Những năm...",
+      "authorName": "osx",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8120,419 +8529,6 @@
       "publishedAt": "2026-11-06T10:32:07.000Z",
       "contentSnippet": "Tôi làm một app học từ vựng tiếng Anh cho người Việt, một mình. Phần \"AI nghe – sửa phát âm – trả lời bằng giọng\" là chỗ tôi học được nhiều nhất, và c...",
       "authorName": "JimGreen",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ed0497051f31af67",
-      "title_vi": "Cách tính chi phí token LLM cho mỗi request trong môi trường production",
-      "title_en": "How to Calculate LLM Token Costs per Request in Production Environments",
-      "summary_vi": [
-        "Bài viết hướng dẫn chi tiết quy trình tính toán chi phí token cho các mô hình ngôn ngữ lớn khi triển khai thực tế trên môi trường production, giúp các đội ngũ kỹ thuật tối ưu hóa ngân sách vận hành hệ thống AI.",
-        "Nội dung tập trung phân tích cơ chế đếm token đầu vào và đầu ra từ các nhà cung cấp dịch vụ LLM, đồng thời cung cấp công thức toán học cụ thể để dự toán chính xác mức tiêu thụ tài nguyên cho từng request.",
-        "Kiến thức này mang lại giá trị thực tiễn cao cho các kỹ sư phần mềm và kiến trúc sư hệ thống trong việc kiểm soát chi phí hạ tầng, ngăn chặn tình trạng vượt quá ngân sách khi ứng dụng AI vào sản phẩm thương mại."
-      ],
-      "summary_en": [
-        "The article provides a detailed guide on calculating token costs for large language models during real-world production deployment, helping engineering teams optimize their operational budgets for AI systems.",
-        "The content focuses on analyzing input and output token counting mechanisms from LLM service providers while offering specific mathematical formulas to accurately forecast resource consumption for individual requests.",
-        "This knowledge delivers high practical value for software engineers and system architects in controlling infrastructure costs and preventing budget overruns when integrating AI into commercial products."
-      ],
-      "originalTitle": "Tính chi phí token LLM cho mỗi request",
-      "url": "https://viblo.asia/p/tinh-chi-phi-token-llm-cho-moi-request-y0VGwWapVPA",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "LLM",
-        "AI",
-        "Production",
-        "Cost Optimization",
-        "Cloud Architecture"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-06T09:46:21.000Z",
-      "contentSnippet": "Bài viết này được dịch và biên tập từ bài gốc tiếng Anh trên blog của Modelflare. Hướng dẫn cho môi trường production: tính chi phí token LLM cho mỗi...",
-      "authorName": "Castaly",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "af03308ed9e42eb1",
-      "title_vi": "Giám đốc điều hành hãng Unitree trình diễn robot hình người tích hợp trí tuệ nhân tạo có khả năng vẽ tranh",
-      "title_en": "Unitree CEO Showcases Humanoid Robot Integrated With Advanced Artificial Intelligence Capable of Painting",
-      "summary_vi": [
-        "Tại triển lãm công nghệ lớn ở Thượng Hải, nhà sáng lập kiêm giám đốc điều hành hãng Unitree đã giới thiệu dòng robot hình người tiên tiến có khả năng thực hiện các thao tác cực kỳ tỉ mỉ như vẽ tranh nghệ thuật.",
-        "Hệ thống phần cứng robot vận hành dựa trên mô hình ngôn ngữ lớn thế hệ mới, cho phép tự động xử lý các chuỗi hành động phức tạp, tự thay nước cọ và pha trộn màu sắc chính xác theo thời gian thực.",
-        "Bước tiến đột phá này chứng minh năng lực kết hợp giữa mô hình trí tuệ nhân tạo cao cấp và cơ khí vật lý, mở ra tiềm năng ứng dụng rộng rãi cho tự động hóa thông minh trong tương lai."
-      ],
-      "summary_en": [
-        "At a major technology exhibition in Shanghai, the founder and chief executive officer of Unitree introduced an advanced humanoid robot capable of performing highly meticulous tasks such as artistic painting.",
-        "The robotic hardware system operates on a next-generation large language model, enabling the automatic execution of complex action sequences, brush water replacement, and precise color mixing in real-time.",
-        "This breakthrough achievement demonstrates the powerful integration of advanced artificial intelligence models and physical robotics, unlocking broad application potentials for intelligent automation in the future."
-      ],
-      "originalTitle": "CEO Unitree khoe robot hình người có thể vẽ tranh",
-      "url": "https://vnexpress.net/ceo-unitree-khoe-robot-hinh-nguoi-co-the-ve-tranh-5141613.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Artificial Intelligence",
-        "Humanoid Robot",
-        "Robotics",
-        "Machine Learning",
-        "Automation"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-06T09:38:11.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/06/2474d1adb2-b69cad996c7f47-ba89-1996-7776-1793954781.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=uV5HJ0NCDcJkqYdNfHFvbA",
-      "contentSnippet": "Ông Wang Xingxing cho biết robot hình người của hãng chạy mô hình GPT-6 của OpenAI có thể thực hiện các công việc tỉ mỉ như vẽ tranh.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "d18ddd9c12e46dd9",
-      "title_vi": "Ngân hàng lý tưởng ASN tại Hà Lan chặn hệ điều hành Android không do Google phát triển, bao gồm cả GrapheneOS",
-      "title_en": "Dutch idealistic bank ASN blocks non-Google Android, including GrapheneOS",
-      "summary_vi": [
-        "Ngân hàng ASN tại Hà Lan đã chính thức triển khai biện pháp kỹ thuật nhằm chặn các thiết bị chạy hệ điều hành Android không tích hợp dịch vụ Google Play, gây ảnh hưởng trực tiếp đến người dùng sử dụng các bản phân phối riêng tư như GrapheneOS.",
-        "Quyết định này dựa trên các tiêu chuẩn bảo mật nghiêm ngặt và yêu cầu tuân thủ quy định chống gian lận tài chính, trong đó phía ngân hàng lập luận rằng việc thiếu các chứng nhận phần cứng từ Google làm tăng rủi ro về mặt xác thực danh tính.",
-        "Sự việc đang dấy lên một cuộc tranh luận lớn trong cộng đồng bảo mật mạng về quyền riêng tư của người dùng di động, đặt ra bài toán khó cho các kỹ sư phát triển ứng dụng tài chính trong việc cân bằng giữa bảo mật và khả năng tiếp cận."
-      ],
-      "summary_en": [
-        "ASN Bank in the Netherlands has officially implemented technical measures to block devices running Android operating systems without Google Play services integration, directly affecting privacy-focused users running custom distributions like GrapheneOS.",
-        "This decision is based on strict security standards and compliance requirements against financial fraud, with the bank arguing that the lack of hardware certifications from Google increases risks regarding user identity verification.",
-        "The incident is sparking a major debate within the cybersecurity community regarding mobile user privacy, presenting a difficult challenge for financial application developers in balancing security with open accessibility."
-      ],
-      "originalTitle": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
-      "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Android",
-        "GrapheneOS",
-        "Cybersecurity",
-        "Mobile Security",
-        "Privacy"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-06T09:27:12.000Z",
-      "contentSnippet": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
-      "authorName": "microtonal",
-      "upvotes": 276,
-      "commentsCount": 172
-    },
-    {
-      "id": "bec042b19afda6a8",
-      "title_vi": "Giao diện và môi trường thực thi của Blender: Vượt trội hơn hẳn GPUI",
-      "title_en": "Blender's UI and Runtime: Much Faster Than GPUI",
-      "summary_vi": [
-        "Bài viết phân tích sâu sắc về hiệu năng vượt trội của kiến trúc giao diện người dùng và môi trường thực thi trong phần mềm Blender khi so sánh trực tiếp với công nghệ GPUI trong các tác vụ đồ họa phức tạp.",
-        "Các kỹ sư đã chỉ ra rằng việc tối ưu hóa luồng xử lý dữ liệu và quản lý bộ nhớ trong Blender giúp giảm thiểu độ trễ đáng kể, mang lại tốc độ phản hồi nhanh hơn nhiều so với các giải pháp dựa trên GPUI hiện nay.",
-        "Sự cải tiến này không chỉ nâng cao trải nghiệm người dùng mà còn thiết lập một tiêu chuẩn mới cho các ứng dụng đồ họa chuyên nghiệp, buộc các nhà phát triển phải xem xét lại cách tối ưu hóa hiệu suất phần mềm trong tương lai."
-      ],
-      "summary_en": [
-        "The article provides an in-depth analysis of the superior performance of Blender's user interface architecture and runtime environment when compared directly against GPUI technology in complex graphical rendering tasks and interactive workflows.",
-        "Engineers demonstrated that optimizing data processing pipelines and memory management within Blender significantly reduces latency, resulting in much faster response times compared to existing GPUI-based solutions currently available in the industry.",
-        "These architectural improvements not only enhance the overall user experience but also establish a new benchmark for professional graphics applications, compelling developers to rethink performance optimization strategies for high-performance software systems."
-      ],
-      "originalTitle": "Blender's UI and Runtime: Much Faster Than GPUI",
-      "url": "https://github.com/ppmpreetham/BUI",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Blender",
-        "GPUI",
-        "Performance",
-        "Software Architecture",
-        "Rendering"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-06T07:40:35.000Z",
-      "contentSnippet": "Blender's UI and Runtime: Much Faster Than GPUI",
-      "authorName": "ppmpreetham",
-      "upvotes": 352,
-      "commentsCount": 146
-    },
-    {
-      "id": "6aba6e1cbd049ab9",
-      "title_vi": "Mô hình trí tuệ nhân tạo nguồn mở của Trung Quốc có thể kém hơn ước tính thực tế",
-      "title_en": "China's Open AI Models May Perform Worse Than Previously Estimated",
-      "summary_vi": [
-        "Kết quả kiểm thử mới từ công ty độc lập Artificial Analysis cho thấy các mô hình trọng số mở của Trung Quốc vẫn đang tụt hậu khá xa so với các đối thủ đến từ Mỹ.",
-        "Hệ thống đo lường hiệu suất mới áp dụng các bài kiểm tra được giữ bí mật để phản ánh chính xác hơn tác vụ khoa học phức tạp, làm nới rộng khoảng cách điểm số giữa các bên.",
-        "Phát hiện này cho thấy mối lo ngại về việc mô hình giá rẻ Trung Quốc đe dọa doanh thu của các hãng công nghệ lớn Mỹ có thể đã bị phóng đại quá mức."
-      ],
-      "summary_en": [
-        "New testing results from independent firm Artificial Analysis indicate that open-weight artificial intelligence models from China still lag significantly behind their American competitors.",
-        "The updated performance measurement system incorporates hidden benchmarks to better reflect complex scientific tasks, substantially widening the performance gap between models.",
-        "This finding suggests that prior concerns regarding cheap Chinese models threatening the pricing power of major American tech giants may have been significantly exaggerated."
-      ],
-      "originalTitle": "Mô hình AI mở của Trung Quốc có thể kém hơn ước tính",
-      "url": "https://vnexpress.net/mo-hinh-ai-mo-cua-trung-quoc-co-the-kem-hon-uoc-tinh-5141367.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Open Source",
-        "LLM",
-        "Machine Learning",
-        "Tech Trends"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-06T07:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/06/afpi1784556335861v1highres2874-3715-4828-1793906233.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=PQUi92ezR4c2KZpj6UEdwg",
-      "contentSnippet": "Kết quả kiểm thử mới của công ty Artificial Analysis cho thấy mô hình AI trọng số mở của Trung Quốc vẫn tụt hậu so với đối thủ Mỹ.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e4dfa6e1c1469411",
-      "title_vi": "Cách AI phân tích tài chính cá nhân từ sổ kép lịch sử đến giao diện lập trình ứng dụng ngân hàng Plaid",
-      "title_en": "How AI Analyzes Personal Finance From Historical Double-Entry Bookkeeping to Plaid Banking APIs",
-      "summary_vi": [
-        "Bài viết phân tích bài toán quản lý tài chính cá nhân khi người dùng phải đối mặt với sự phân mảnh dữ liệu giữa nhiều ứng dụng ngân hàng và ví điện tử khác nhau.",
-        "Giải pháp công nghệ được đề xuất xoay quanh việc kết hợp mô hình ngôn ngữ lớn Claude với hệ thống giao diện lập trình ứng dụng tài chính như Plaid để tự động tổng hợp và phân loại giao dịch.",
-        "Ứng dụng thực tế này giúp tối ưu hóa quy trình theo dõi dòng tiền cá nhân, mang lại góc nhìn kiến trúc hiện đại trong việc ứng dụng trí tuệ nhân tạo vào lĩnh vực công nghệ tài chính."
-      ],
-      "summary_en": [
-        "The article analyzes personal finance management challenges when users face data fragmentation across multiple banking applications and various digital wallets.",
-        "The proposed technological solution revolves around combining the Claude large language model with financial application programming interfaces like Plaid to automatically aggregate and categorize transactions.",
-        "This practical application helps optimize personal cash flow tracking workflows, providing a modern architectural perspective on integrating artificial intelligence into the financial technology sector."
-      ],
-      "originalTitle": "Claude nhìn sổ tiền của anh em: từ sổ kép Pacioli 1494 đến AI nối ngân hàng qua Plaid",
-      "url": "https://tinhte.vn/thread/claude-nhin-so-tien-cua-anh-em-tu-so-kep-pacioli-1494-den-ai-noi-ngan-hang-qua-plaid.4190278/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "FinTech",
-        "API",
-        "Claude",
-        "Plaid"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-06T06:21:49.000Z",
-      "contentSnippet": "Cuối tháng, còn mười ngày nữa mới tới lương, mà trong đầu chỉ có một câu hỏi rất đời thường: tiền đi đâu hết rồi? Anh em mở app ngân hàng này, thẻ kia, ví điện tử nọ, rồi cố cộng trừ trong đầu....",
-      "authorName": "Quocxi",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "142f734e4b1d21b0",
-      "title_vi": "So sánh chất lượng hoàn thiện phần cứng giữa các dòng điện thoại thông minh cao cấp",
-      "title_en": "Hardware Build Quality Comparison Across Flagship Smartphones",
-      "summary_vi": [
-        "Bài viết thực hiện đánh giá và so sánh chi tiết chất lượng hoàn thiện phần cứng cũng như thiết kế biên ngoài giữa các dòng điện thoại thông minh cao cấp thế hệ mới trên thị trường hiện nay.",
-        "Quá trình phân tích tập trung vào độ tinh xảo, tỉ mỉ của các đường viền, khớp nối và vật liệu chế tạo cao cấp được áp dụng trên các thiết bị di động hàng đầu từ những nhà sản xuất lớn.",
-        "Đánh giá này cung cấp góc nhìn thực tiễn về xu hướng thiết kế công nghiệp phần cứng di động, giúp người dùng và kỹ sư hiểu rõ hơn về tiêu chuẩn chế tạo thiết bị."
-      ],
-      "summary_en": [
-        "The article provides a detailed evaluation and comparison of the hardware build quality and exterior edge design among the latest generation of flagship smartphones currently available in the market.",
-        "The analysis focuses on the precision, meticulousness of borders, hinges, and premium manufacturing materials applied across top-tier mobile devices from major technology manufacturers.",
-        "This assessment offers practical insights into mobile hardware industrial design trends, helping users and engineers better understand the manufacturing standards of modern devices."
-      ],
-      "originalTitle": "iPhone Duo hoàn thiện kỹ hơn Galaxy Z Fold8, Sony và Apple hoàn thiện kỹ hơn các hãng khác.",
-      "url": "https://tinhte.vn/thread/iphone-duo-hoan-thien-ky-hon-galaxy-z-fold8-sony-va-apple-hoan-thien-ky-hon-cac-hang-khac.4189997/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Smartphone",
-        "Apple",
-        "Samsung",
-        "Hardware Design",
-        "Mobile Tech"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-06T04:19:06.000Z",
-      "contentSnippet": "Một điểm rất cộng khi dùng iPhone Duo là cảm giác cầm một sản phẩm được hoàn thiện kỹ, tỉ mỉ, tinh xảo ở phần biên ngoài. Mình đặt nó cạnh Samsung Galaxy Z Fold8, chụp sát từng chi tiết để anh em...",
-      "authorName": "cuhiep",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "538839253f973591",
-      "title_vi": "Ba mẫu điện thoại thông minh của tập đoàn công nghệ Apple chính thức ngừng hỗ trợ kỹ thuật trên toàn cầu",
-      "title_en": "Three Apple smartphone models officially discontinued and stripped of global technical support",
-      "summary_vi": [
-        "Tập đoàn công nghệ Apple đã chính thức ngừng hỗ trợ toàn diện và khai tử ba dòng thiết bị di động cũ bao gồm phiên bản điện thoại thông minh đời đầu trên thị trường quốc tế.",
-        "Quyết định này đồng nghĩa với việc toàn bộ hệ thống cửa hàng và trung tâm bảo hành ủy quyền chính hãng trên toàn cầu sẽ không còn được cung cấp linh kiện phần cứng để sửa chữa các thiết bị này.",
-        "Sự kiện này đánh dấu bước chuyển dịch tất yếu trong vòng đời sản phẩm phần cứng di động, buộc các nhà phát triển và người dùng phải nâng cấp nền tảng để tối ưu hóa hiệu suất và bảo mật."
-      ],
-      "summary_en": [
-        "Technology giant Apple has officially terminated comprehensive support and discontinued three older mobile device lines including early smartphone editions across the international market.",
-        "This decision means that all authorized service centers and retail stores worldwide will no longer receive hardware replacement components to repair these legacy legacy units.",
-        "This event marks an inevitable transition in the lifecycle of mobile hardware products, compelling developers and users to upgrade their platforms for optimized performance and security."
-      ],
-      "originalTitle": "3 mẫu iPhone bị khai tử trên toàn cầu năm 2026",
-      "url": "https://genk.vn/3-mau-iphone-bi-khai-tu-tren-toan-cau-nam-2026-165261106103845461.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "Smartphone",
-        "Hardware",
-        "Mobile",
-        "Tech Trends"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-06T04:18:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/6/avatar1793936262794-1793936263076100710879.jpg",
-      "contentSnippet": "Apple đã khai tử hoàn toàn iPhone X, iPhone 5 và iPhone 4 (8GB) trên toàn cầu. Từ Mỹ đến Việt Nam, không cửa hàng chính hãng nào còn được cấp linh kiện để sửa ba mẫu máy này.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f5b42a6c9f88fb70",
-      "title_vi": "Binance bị tấn công mạng như thế nào để thất thoát 6,3 tỷ USD?",
-      "title_en": "How Binance Was Hacked and Lost 6.3 Billion Dollars",
-      "summary_vi": [
-        "Báo cáo sự cố chi tiết từ Binance hé lộ cuộc tấn công mạng quy mô lớn khiến nền tảng này thất thoát khoảng 6,34 tỷ USD sau khi nhóm hacker xâm nhập thành công vào hệ thống nội bộ.",
-        "Kẻ tấn công đã vượt qua lớp phòng thủ bằng cách tiếp cận ba kỹ sư thông qua các thủ đoạn tinh vi bao gồm buổi phỏng vấn tuyển dụng giả và cài đặt các công cụ lập trình AI độc hại.",
-        "Sự việc gióng lên hồi chuông cảnh báo nghiêm trọng về các mối đe dọa kỹ thuật phi xã hội tiên tiến nhắm trực tiếp vào nhân sự cốt lõi của các tổ chức công nghệ lớn trên toàn cầu."
-      ],
-      "summary_en": [
-        "Detailed incident reports from Binance reveal a massive cyber attack that caused the platform to lose approximately 6.34 billion dollars after hackers successfully infiltrated internal systems.",
-        "The attackers bypassed defense layers by targeting three engineers through sophisticated social engineering tactics including fake job interviews and the installation of malicious AI development tools.",
-        "This incident sounds a serious alarm regarding advanced social engineering threats directly targeting core personnel of major technology organizations worldwide."
-      ],
-      "originalTitle": "Binance bị hack 6,3 tỷ USD thế nào?",
-      "url": "https://genk.vn/binance-bi-hack-63-ty-usd-the-nao-165261106104615802.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Social Engineering",
-        "Crypto",
-        "Security Breach",
-        "AI Tools"
-      ],
-      "hotScore": 98,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-11-06T03:44:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/6/image20261106104030-0-0-900-1440-crop-17939364731511211326705.jpg",
-      "contentSnippet": "Báo cáo sự cố đầu tiên của Binance cho thấy nhóm tin tặc đi qua ba kỹ sư, một bản cài đặt công cụ lập trình AI giả mạo, một buổi phỏng vấn tuyển dụng giả và một công cụ AI nội bộ trước khi rút khoảng 6,34 tỷ USD.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "6caaf7c81ea31622",
-      "title_vi": "Trí tuệ nhân tạo khai thác lỗ hổng để trích xuất dữ liệu từ điện thoại bị khóa",
-      "title_en": "Artificial Intelligence Exploits Vulnerabilities to Extract Data from Locked Smartphones",
-      "summary_vi": [
-        "Một mô hình trí tuệ nhân tạo chưa từng được công bố của công ty công nghệ Anthropic đã thành công khai thác chuỗi ba lỗ hổng bảo mật nghiêm trọng để truy cập và đánh cắp dữ liệu cá nhân từ một chiếc điện thoại Pixel 9 đang ở trạng thái khóa màn hình thông qua cổng kết nối USB.",
-        "Cuộc tấn công này dựa trên việc tự động hóa quá trình khai thác lỗi phần mềm và kết hợp các điểm yếu trong cơ chế xác thực phần cứng, cho phép mô hình AI vượt qua màn hình khóa mà không cần sự can thiệp thủ công từ con người trong suốt quá trình thực thi mã độc.",
-        "Sự kiện này gióng lên hồi chuông cảnh báo lớn đối với các kỹ sư bảo mật di động về khả năng tự động hóa tấn công zero-day ngày càng tinh vi của các hệ thống AI, đòi hỏi phải siết chặt hơn nữa các giao thức bảo mật phần cứng và cổng ngoại vi."
-      ],
-      "summary_en": [
-        "An unreleased artificial intelligence model developed by Anthropic successfully exploited a chain of three severe security vulnerabilities to access and steal personal data from a locked Pixel 9 smartphone via a USB connection.",
-        "This attack leveraged the automation of software exploit processes and combined weaknesses in hardware authentication mechanisms, allowing the AI model to bypass the lock screen without any manual human intervention during payload execution.",
-        "This incident raises a major alarm for mobile security engineers regarding the increasingly sophisticated AI-driven automated zero-day attack capabilities, demanding tighter security protocols for hardware layers and peripheral ports."
-      ],
-      "originalTitle": "AI lấy dữ liệu từ điện thoại đang khóa thế nào",
-      "url": "https://vnexpress.net/ai-lay-du-lieu-tu-dien-thoai-dang-khoa-the-nao-5141195.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Cybersecurity",
-        "Mobile Security",
-        "Exploit",
-        "Hardware Security"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-06T02:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/05/a1-1793866686.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=rSgrRMq4wttzUHGz_Vuz4g",
-      "contentSnippet": "Mô hình AI chưa phát hành của Anthropic đã ghép ba lỗ hổng để lấy ảnh và dữ liệu cá nhân từ chiếc Pixel 9 đang khóa màn hình, chỉ qua một sợi cáp USB.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b70a04692c3c16a2",
-      "title_vi": "Harness là gì, vì sao nó quyết định AI làm tốt hay dở hơn cả việc chọn model?",
-      "title_en": "What is AI Harness and why it determines model performance better than model selection itself?",
-      "summary_vi": [
-        "Nhiều nhà phát triển phần mềm thường có phản xạ đổi sang mô hình ngôn ngữ lớn mạnh hơn hoặc viết câu lệnh chi tiết hơn khi trí tuệ nhân tạo tạo ra kết quả sai lệch trong quá trình làm việc.",
-        "Thực tế kỹ thuật cho thấy cùng một mô hình nhân tạo, phương pháp giao việc, cấu trúc kiểm tra và cơ chế phản hồi trong khung bao bọc mới là yếu tố cốt lõi quyết định chất lượng đầu ra.",
-        "Hiểu rõ và xây dựng hệ thống khung bao bọc chuẩn mực giúp các kỹ sư tối ưu hóa hiệu suất của trí tuệ nhân tạo, tiết kiệm đáng kể tài nguyên tính toán và nâng cao độ tin cậy."
-      ],
-      "summary_en": [
-        "Many software developers often reflexively switch to more powerful large language models or write more detailed prompts whenever artificial intelligence produces inaccurate results during their workflow execution.",
-        "Technical reality shows that using the same artificial intelligence model, the task delegation methodology, verification structures, and feedback mechanisms within the harness framework are the core factors determining output quality.",
-        "Comprehending and building standardized harness systems helps engineers optimize artificial intelligence performance, significantly save computational resources, and enhance overall system reliability in production environments."
-      ],
-      "originalTitle": "Harness là gì, vì sao nó quyết định AI làm tốt hay dở hơn cả việc chọn model?",
-      "url": "https://tinhte.vn/thread/harness-la-gi-vi-sao-no-quyet-dinh-ai-lam-tot-hay-do-hon-ca-viec-chon-model.4190049/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "LLM",
-        "Prompt Engineering",
-        "Software Architecture",
-        "Machine Learning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-06T01:30:56.000Z",
-      "contentSnippet": "Nhiều người khi thấy AI làm sai, phản xạ chung là đổi sang model mạnh hơn, hoặc viết prompt dài hơn, chi tiết hơn. Nhưng thực tế, cùng một model đó, nếu bạn thay đổi cách giao việc, cách kiểm tra...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0f0a4ac6a66bf682",
-      "title_vi": "Hệ thống trí tuệ nhân tạo chuyên dụng phát hiện lỗ hổng bảo mật an toàn với cơ chế dừng tự động",
-      "title_en": "OpenAI Introduces Specialized Security AI Model for Safe Vulnerability Detection and Controlled Execution",
-      "summary_vi": [
-        "OpenAI chính thức giới thiệu mô hình trí tuệ nhân tạo mới chuyên dụng cho việc tìm kiếm và kiểm chứng các lỗ hổng bảo mật trong hệ thống phần mềm.",
-        "Công cụ này vận hành dựa trên các cơ chế kiểm soát nghiêm ngặt giúp khoanh vùng phạm vi nghiên cứu, ngăn chặn việc vượt quá quyền hạn và tự động dừng lại khi cần thiết.",
-        "Bước tiến này đánh dấu cột mốc quan trọng trong việc ứng dụng tự động hóa vào an ninh mạng, hỗ trợ các kỹ sư giảm thiểu rủi ro từ các mối đe dọa phức tạp."
-      ],
-      "summary_en": [
-        "OpenAI officially introduced a specialized artificial intelligence model designed specifically for discovering and verifying security vulnerabilities within software systems.",
-        "This tool operates under strict control mechanisms that confine research boundaries, prevent privilege escalation, and automatically halt operations when necessary.",
-        "This milestone marks a significant step forward in applying automation to cybersecurity, helping engineers mitigate risks originating from complex digital threats."
-      ],
-      "originalTitle": "GPT-6 Cyber săn lỗ hổng mà không vượt rào: từ sâu Morris 1988 đến agent biết dừng",
-      "url": "https://tinhte.vn/thread/gpt-6-cyber-san-lo-hong-ma-khong-vuot-rao-tu-sau-morris-1988-den-agent-biet-dung.4190158/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Cybersecurity",
-        "Vulnerability",
-        "OpenAI",
-        "Security"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-11-06T01:16:30.000Z",
-      "contentSnippet": "Ngày 5/11/2026 (giờ Mỹ), tức sáng nay 6/11 giờ Việt Nam, OpenAI giới thiệu GPT-6 Cyber: một mô hình chuyên tìm và kiểm chứng lỗ hổng bảo mật, nhưng chỉ trong phạm vi nhà nghiên cứu đã đặt ra....",
-      "authorName": "Quocxi",
       "upvotes": 0,
       "commentsCount": 0
     }
