@@ -1,7 +1,349 @@
 {
-  "lastUpdated": "2026-11-19T05:14:04.151Z",
+  "lastUpdated": "2026-11-20T00:03:40.385Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "96700ded6a4659ed",
+      "title_vi": "Tái tạo toàn bộ hay chỉnh sửa tại chỗ: Quyết định thiết kế cổng đánh giá cho các luồng xử lý hình ảnh AI",
+      "title_en": "Regenerate-All vs Edit-in-Place: A Review Gate Design Decision for AI Image Pipelines",
+      "summary_vi": [
+        "Khi các nhóm phát triển tích hợp trình tạo hình ảnh trí tuệ nhân tạo vào hệ thống sản xuất nội dung, quyết định kiến trúc cốt lõi đầu tiên cần giải quyết là phương pháp xử lý khi có yêu cầu chỉnh sửa hình ảnh từ người kiểm duyệt.",
+        "Hệ thống phải cân nhắc giữa việc tạo lại toàn bộ hình ảnh từ đầu bằng câu lệnh mới hoặc áp dụng kỹ thuật chỉnh sửa cục bộ tại chỗ để giữ nguyên bố cục và tiết kiệm tài nguyên tính toán.",
+        "Việc lựa chọn đúng mô hình thiết kế cổng đánh giá giúp tối ưu hóa chi phí vận hành, giảm độ trễ cho đường ống xử lý dữ liệu và nâng cao hiệu quả làm việc cho các kỹ sư phần mềm."
+      ],
+      "summary_en": [
+        "When development teams integrate artificial intelligence image generators into content production systems, the first core architectural decision to resolve is handling image editing requests from human reviewers.",
+        "The system must evaluate whether to regenerate the entire image from scratch using a new prompt or apply local in-place editing techniques to preserve layout consistency and save computational resources.",
+        "Choosing the right review gate design pattern helps optimize operational costs, reduce latency for data processing pipelines, and significantly improve workflow efficiency for software engineers."
+      ],
+      "originalTitle": "Regenerate-All vs Edit-in-Place: A Review Gate Design Decision for AI Image Pipelines",
+      "url": "https://viblo.asia/p/regenerate-all-vs-edit-in-place-a-review-gate-design-decision-for-ai-image-pipelines-gdJzvA3GJz5",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Image Generation",
+        "Pipeline Architecture"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-20T06:45:14.000Z",
+      "contentSnippet": "Where batch generation breaks down in review pipelines When a team wires an AI image generator into a content or QA pipeline, the first design decisi...",
+      "authorName": "Wendy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c1a47801adfd5112",
+      "title_vi": "Hướng dẫn sử dụng UniKeyNT.exe toàn tập: Giải phẫu chi tiết từng thành phần",
+      "title_en": "Comprehensive Guide to UniKeyNT.exe: Detailed Anatomy of Every Component",
+      "summary_vi": [
+        "Bài viết cung cấp cái nhìn toàn diện về tệp thực thi chính UniKeyNT.exe của phần mềm gõ tiếng Việt phổ biến nhất trên hệ điều hành Windows",
+        "Phân tích sâu về cấu trúc thành phần bên trong cách thức hoạt động và cơ chế móc nối hệ thống mà phần mềm sử dụng để xử lý phím bấm",
+        "Mang lại giá trị thực tiễn cao giúp lập trình viên và người dùng cuối hiểu rõ hơn về cách tối ưu hóa cũng như khắc phục sự cố bộ gõ"
+      ],
+      "summary_en": [
+        "The article provides a comprehensive overview of UniKeyNT.exe, the main executable file of the most popular Vietnamese input method software on Windows",
+        "It deeply analyzes the internal component architecture, operational workflows, and system hooking mechanisms utilized by the software to process keystrokes",
+        "It delivers high practical value by helping developers and end-users better understand how to optimize configuration and troubleshoot input method issues effectively"
+      ],
+      "originalTitle": "Hướng dẫn sử dụng UniKeyNT.exe toàn tập: Giải phẫu chi tiết từng thành phần",
+      "url": "https://viblo.asia/p/huong-dan-su-dung-unikeyntexe-toan-tap-giai-phau-chi-tiet-tung-thanh-phan-bA468W1BLKv",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "UniKey",
+        "Windows",
+        "Software Architecture",
+        "Input Method"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-20T00:32:36.000Z",
+      "contentSnippet": "UniKeyNT.exe là tệp thực thi chính của phần mềm gõ tiếng Việt phổ biến nhất trên Windows — UniKey (phiên bản dành cho các hệ điều hành nhân Windows NT...",
+      "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "343ae0214c2489c2",
+      "title_vi": "Làm phần mềm quản lý máy tính cho con trên Windows bằng HOSTS, AppLocker, Named Pipe và cập nhật có chữ ký",
+      "title_en": "Building a Windows Parental Control Software Using HOSTS, AppLocker, Named Pipes, and Signed Updates",
+      "summary_vi": [
+        "Đội ngũ kỹ thuật tại Hà Nội đã tự phát triển một phần mềm quản lý máy tính chuyên dụng trên hệ điều hành Windows nhằm giải quyết nhu cầu chặn game và kiểm soát thời gian sử dụng thiết bị của các bậc phụ huynh một cách hiệu quả.",
+        "Giải pháp kiến trúc kết hợp sử dụng tệp HOSTS để chặn tên miền độc hại, AppLocker nhằm kiểm soát ứng dụng thực thi, Named Pipe giao tiếp giữa các tiến trình và cơ chế cập nhật phần mềm an toàn thông qua chữ ký số xác thực.",
+        "Dự án cho thấy năng lực tự động hóa và tùy biến sâu hệ thống của kỹ sư IT Việt Nam, cung cấp một bài học thực tiễn về việc ứng dụng các tính năng bảo mật sẵn có trên Windows để giải quyết bài toán quản lý thực tế."
+      ],
+      "summary_en": [
+        "A technical team in Hanoi has developed a dedicated Windows computer management software to effectively address parents demands for blocking games and controlling device usage time for their children.",
+        "The architectural solution combines the HOSTS file for blocking malicious domains, AppLocker for executable application control, Named Pipes for inter-process communication, and a secure software update mechanism using digital signatures.",
+        "This project demonstrates the deep system customization capabilities of Vietnamese IT engineers, providing a practical lesson on leveraging built-in Windows security features to solve real-world management challenges."
+      ],
+      "originalTitle": "Làm phần mềm quản lý máy tính cho con trên Windows: HOSTS, AppLocker, Named Pipe và cập nhật có chữ ký",
+      "url": "https://viblo.asia/p/lam-phan-mem-quan-ly-may-tinh-cho-con-tren-windows-hosts-applocker-named-pipe-va-cap-nhat-co-chu-ky-kNLr3pA8VgA",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Windows",
+        "AppLocker",
+        "Security",
+        "System Architecture",
+        "Software Development"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-20T00:29:23.000Z",
+      "contentSnippet": "Phụ huynh hay nhờ team mình (Cao Minh Computer – làm dịch vụ IT ở Hà Nội) \"chặn game cho con\". Thay vì cài mỗi nhà một kiểu, tụi mình viết hẳn một phầ...",
+      "authorName": "LeeGi Design",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f8133dc16aac0ad5",
+      "title_vi": "Apple đang tuyển dụng kỹ sư để phát triển tác nhân trí tuệ nhân tạo riêng",
+      "title_en": "Apple is hiring engineers to build its own AI agent",
+      "summary_vi": [
+        "Apple đang đẩy mạnh chiến lược phát triển các tác nhân trí tuệ nhân tạo tự động có khả năng thực hiện đa nhiệm như duyệt web, viết mã nguồn và tương tác với các ứng dụng khác nhau trên hệ điều hành.",
+        "Dựa trên các thông tin tuyển dụng mới nhất, Apple đang tìm kiếm nhân sự cấp cao để xây dựng kiến trúc cho trợ lý AI thông minh, cho phép hệ thống chủ động điều khiển các tác vụ phức tạp thay cho người dùng.",
+        "Động thái này đánh dấu bước tiến quan trọng của Apple trong cuộc đua AI, trực tiếp cạnh tranh với các đối thủ lớn như Google, Meta và Anthropic, đồng thời định hình lại cách người dùng tương tác với thiết bị di động trong tương lai."
+      ],
+      "summary_en": [
+        "Apple is accelerating its strategy to develop autonomous AI agents capable of performing complex multi-tasking operations such as web browsing, writing code, and interacting with various applications across its proprietary operating systems.",
+        "Based on recent job listings, the company is actively recruiting senior engineers to design the architecture for an intelligent AI assistant, enabling the system to proactively execute intricate tasks on behalf of the user.",
+        "This strategic move marks a significant milestone for Apple in the competitive AI landscape, challenging major rivals like Google, Meta, and Anthropic while fundamentally reshaping how users interact with mobile devices in the future."
+      ],
+      "originalTitle": "Apple is hiring engineers to build its own AI agent",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Apple",
+        "Agentic AI",
+        "Software Engineering",
+        "Automation"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-19T22:31:41.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DSC04239.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic ",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6de11fafb54cdc18",
+      "title_vi": "Táo Khuyết đang thử nghiệm hai thiết kế cho mẫu điện thoại iPhone kỷ niệm 20 năm",
+      "title_en": "Apple is testing two designs for the 20th anniversary iPhone model",
+      "summary_vi": [
+        "Tập đoàn công nghệ Apple được ghi nhận đang trong quá trình thử nghiệm đồng thời hai phong cách thiết kế phần cứng hoàn toàn mới, bao gồm kiểu màn hình phẳng truyền thống và màn hình kính cong bốn cạnh độc đáo.",
+        "Sự thay đổi này hướng tới dòng sản phẩm điện thoại thông minh kỷ niệm mốc phát triển 20 năm, đòi hỏi các kỹ sư phải giải quyết nhiều bài toán phức tạp về tối ưu hóa không gian linh kiện và độ bền vật liệu kính.",
+        "Bước đột phá về thiết kế cơ khí này không chỉ định hình lại xu hướng phần cứng di động mà còn đặt ra những tiêu chuẩn mới về trải nghiệm thị giác và công nghệ chế tác vỏ máy cho toàn bộ ngành công nghiệp."
+      ],
+      "summary_en": [
+        "Apple is reportedly testing two distinct hardware design approaches simultaneously, featuring both traditional flat displays and innovative four-sided curved glass configurations for their upcoming device.",
+        "This architectural evolution targets the milestone anniversary smartphone line, requiring hardware engineers to solve complex challenges regarding internal component optimization and structural glass durability.",
+        "Such mechanical design breakthroughs will reshape mobile hardware trends, setting new benchmarks for visual user experience and advanced manufacturing standards across the entire industry."
+      ],
+      "originalTitle": "Apple 'đang thử nghiệm hai thiết kế cho iPhone 20'",
+      "url": "https://vnexpress.net/apple-dang-thu-nghiem-hai-thiet-ke-cho-iphone-20-5146303.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple",
+        "iPhone",
+        "Hardware Design",
+        "Mobile Tech"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-19T22:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/18/r2pw7stcgyqwjttrcb5sah-jpg-179-6556-7389-1795012037.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=XbV1RbZGu54S_62CY9jU-g",
+      "contentSnippet": "Apple được cho là đang thử nghiệm đồng thời hai phong cách thiết kế, gồm màn hình phẳng truyền thống và kính cong bốn cạnh, cho mẫu iPhone kỷ niệm 20 năm.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a16a060150c59a52",
+      "title_vi": "Lịch sử ngắn gọn về những biến động cổ phiếu gần đây của Nvidia",
+      "title_en": "A brief history of Nvidia’s recent stock fluctuations",
+      "summary_vi": [
+        "Thị trường tài chính chứng kiến những biến động mạnh mẽ của cổ phiếu Nvidia khi giá giảm gần bốn mươi phần trăm so với mức cao nhất mọi thời đại dù báo cáo doanh thu quý ba vượt kỳ vọng.",
+        "Báo cáo tài chính cho thấy doanh thu từ chip tăng mạnh gấp đôi so với cùng kỳ năm ngoái, phản ánh nhu cầu khổng lồ đối với phần cứng trí tuệ nhân tạo và hạ tầng máy chủ hiệu năng cao.",
+        "Sự kiện này tác động lớn đến hệ sinh thái công nghệ khi các khách hàng lớn và các công ty khởi nghiệp trí tuệ nhân tạo liên tục định hình lại bối cảnh cạnh tranh trên thị trường chứng khoán toàn cầu."
+      ],
+      "summary_en": [
+        "Financial markets witnessed significant fluctuations in Nvidia shares as prices dropped nearly forty percent from all-time highs despite reporting strong third-quarter earnings that surpassed analyst expectations.",
+        "Financial reports revealed that chip revenue more than doubled compared to the same period last year, reflecting massive demand for artificial intelligence hardware and high-performance server infrastructure.",
+        "This event significantly impacts the technology ecosystem as major customers and artificial intelligence startups continuously reshape the competitive landscape across global stock markets."
+      ],
+      "originalTitle": "A brief history of Nvidia’s recent stock fluctuations",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "AI",
+        "Hardware",
+        "Semiconductors",
+        "StockMarket"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-19T21:59:35.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305716823.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Traders work on the floor of the New York Stock Exchange during morning trading on November 18, 2026 in New York City. | Image: Getty Images \"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thurs",
+      "authorName": "Ellen Thomas",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b331a244d62b8fc8",
+      "title_vi": "Thiết bị trợ lý ảo Muse Charm của Meta dự kiến có giá 300 USD",
+      "title_en": "Meta’s Muse Charm might cost $300",
+      "summary_vi": [
+        "Meta đang lên kế hoạch ra mắt thiết bị phần cứng Muse Charm với mức giá dự kiến khoảng 300 USD, nhằm mục tiêu đưa công nghệ trí tuệ nhân tạo Muse đến gần hơn với người dùng phổ thông trong dịp lễ cuối năm nay.",
+        "Thiết bị này được tích hợp công nghệ giọng nói và hình đại diện thời gian thực, trang bị cảm biến vân tay cho phép người dùng tương tác trực tiếp với tác nhân AI mà không cần thông qua điện thoại hay ứng dụng di động.",
+        "Việc phát triển phần cứng chuyên dụng cho AI đánh dấu bước tiến mới của Meta trong việc tối ưu hóa trải nghiệm người dùng, giúp giảm bớt sự phụ thuộc vào các nền tảng di động truyền thống và thúc đẩy tương tác AI tự nhiên."
+      ],
+      "summary_en": [
+        "Meta is planning to launch the Muse Charm hardware device with an expected price of 300 USD, aiming to bring its proprietary Muse artificial intelligence technology to mainstream consumers during the upcoming holiday season this year.",
+        "The device features real-time voice and avatar technology, equipped with a fingerprint sensor that allows users to interact directly with the AI agent without needing to unlock a smartphone or open any mobile applications.",
+        "Developing dedicated hardware for AI marks a significant strategic shift for Meta, focusing on optimizing user experience by reducing reliance on traditional mobile platforms and fostering more seamless, natural interactions with intelligent agents."
+      ],
+      "originalTitle": "Meta’s Muse Charm might cost $300",
+      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Meta",
+        "Hardware",
+        "VoiceTech",
+        "ConsumerElectronics"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-19T20:22:17.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/lcimg-3879511d-dd3d-430c-8072-616e2dfb3484.jpeg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\"",
+      "authorName": "Jay Peters",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c363e4ee1aa6f6ac",
+      "title_vi": "Google tích hợp trực tiếp các cuộc trò chuyện trí tuệ nhân tạo ngay trên trang chủ tìm kiếm",
+      "title_en": "Google is putting AI chats right on the homepage",
+      "summary_vi": [
+        "Google đang tiến hành cập nhật giao diện trang chủ tìm kiếm trên máy tính với việc tích hợp các đoạn hội thoại trí tuệ nhân tạo thông qua một thanh bên có thể thu gọn linh hoạt.",
+        "Người dùng có thể dễ dàng mở rộng thanh bên bằng cách nhấp vào thanh màu xám ở cạnh trái màn hình để xem lại danh sách tìm kiếm AI, bắt đầu chuỗi trò chuyện mới hoặc kết nối với Gemini Notebook.",
+        "Tính năng này giúp tối ưu hóa trải nghiệm người dùng trên nền tảng web, đánh dấu bước tiến mới trong việc đưa các công cụ sinh văn bản tiếp cận trực tiếp với hàng tỷ người dùng toàn cầu."
+      ],
+      "summary_en": [
+        "Google is updating its desktop search homepage interface by integrating artificial intelligence conversations through a flexible and collapsible sidebar for enhanced user accessibility.",
+        "Users can easily expand the sidebar by clicking the gray bar on the left side of the screen to review AI search history, start new threads, or connect with Gemini Notebook.",
+        "This feature optimizes the web platform user experience, marking a significant milestone in bringing generative text tools directly into the daily workflow of global users."
+      ],
+      "originalTitle": "Google is putting AI chats right on the homepage",
+      "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Google",
+        "AI",
+        "Gemini",
+        "Web Development",
+        "User Interface"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-19T20:05:06.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK093_GOOGLE_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the gray ",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5fe21d2b4ecab0b0",
+      "title_vi": "Trí tuệ nhân tạo Claude giải quyết hai bài toán lớn trong vật lý lỗ đen",
+      "title_en": "Claude solves two open problems in the physics of black holes",
+      "summary_vi": [
+        "Hệ thống trí tuệ nhân tạo tiên tiến đã hoàn thành thành công các phép tính phức tạp về lỗ đen mà các nhà vật lý đã bỏ ngỏ trong hơn hai thập kỷ qua.",
+        "Nghiên cứu ứng dụng các mô hình ngôn ngữ lớn để xử lý dữ liệu lý thuyết phức tạp, giúp làm sáng tỏ mối liên hệ giữa thuyết tương đối tổng quát và cơ học lượng tử.",
+        "Bước đột phá này chứng minh tiềm năng to lớn của các công cụ tính toán thông minh trong việc hỗ trợ các nhà khoa học giải quyết các bài toán khoa học cơ bản."
+      ],
+      "summary_en": [
+        "The advanced artificial intelligence system has successfully completed complex calculations regarding black holes that physicists have left unsolved for over two decades.",
+        "The research applies large language models to process intricate theoretical data, helping to clarify the connection between general relativity and quantum mechanics.",
+        "This breakthrough demonstrates the immense potential of intelligent computing tools in assisting scientists to solve fundamental scientific problems."
+      ],
+      "originalTitle": "Claude solves two open problems in the physics of black holes",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Physics",
+        "Research",
+        "Algorithms"
+      ],
+      "hotScore": 86,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-19T17:30:44.000Z",
+      "contentSnippet": "Skip to main content01IntroductionClaude has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity. In the first, it completed a calculation that physicists set up more than 20 years ago, but which had never been solved. Claude’s res",
+      "authorName": "cybermango",
+      "upvotes": 345,
+      "commentsCount": 155
+    },
+    {
+      "id": "15969c90ab8fc1c8",
+      "title_vi": "Sự kiện công ty trí tuệ nhân tạo Anthropic chuẩn bị lên sàn chứng khoán Nasdaq",
+      "title_en": "Anthropic prepares for its highly anticipated Nasdaq debut",
+      "summary_vi": [
+        "Công ty nghiên cứu và phát triển trí tuệ nhân tạo hàng đầu Anthropic đang tiến gần hơn tới kế hoạch phát hành cổ phiếu lần đầu ra công chúng trên sàn giao dịch Nasdaq uy tín của Mỹ.",
+        "Động thái này diễn ra trong bối cảnh cuộc đua công nghệ sinh, đặc biệt là các mô hình ngôn ngữ lớn và các giải pháp hạ tầng điện toán đám mây cho trí tuệ nhân tạo đang thu hút nguồn vốn đầu tư khổng lồ từ thị trường.",
+        "Sự kiện này đánh dấu một cột mốc quan trọng đối với hệ sinh thái công nghệ toàn cầu, mở ra kỷ nguyên mới cho việc định giá các công ty chuyên về trí tuệ nhân tạo tạo sinh và các giải pháp an toàn AI."
+      ],
+      "summary_en": [
+        "Leading artificial intelligence research and development company Anthropic is moving closer to its planned initial public offering on the prestigious American Nasdaq stock exchange.",
+        "This strategic move occurs amidst an unprecedented technology race where large language models and specialized cloud computing infrastructure for artificial intelligence are attracting massive market investments.",
+        "This milestone represents a significant turning point for the global technology ecosystem, establishing a new valuation benchmark for generative artificial intelligence enterprises and safety research organizations."
+      ],
+      "originalTitle": "Anthropic’s Nasdaq debut",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Anthropic",
+        "AI",
+        "Nasdaq",
+        "IPO",
+        "Machine Learning"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-19T17:02:40.000Z",
+      "contentSnippet": "Anthropic’s Nasdaq debut",
+      "authorName": "wslh",
+      "upvotes": 825,
+      "commentsCount": 1579
+    },
     {
       "id": "7f5bebf7feffff5e",
       "title_vi": "IOPS là gì? Hiểu đúng và tự đo IOPS của server bằng fio, iostat trước khi đổ lỗi cho CPU",
@@ -67,6 +409,146 @@
       "publishedAt": "2026-11-19T12:01:14.000Z",
       "contentSnippet": "VPS giá rẻ có thể chạy tốt website doanh nghiệp, nhưng chỉ khi gói đó vẫn đáp ứng được vài yêu cầu tối thiểu về bảo mật, sao lưu và khả năng phục hồi....",
       "authorName": "Vũ Tuấn",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f103040dfe78b38f",
+      "title_vi": "iPhone 18 Pro Max có mức giá cạnh tranh bất ngờ tại thị trường Việt Nam",
+      "title_en": "iPhone 18 Pro Max features surprisingly competitive pricing in the Vietnamese market",
+      "summary_vi": [
+        "Thị trường thiết bị di động tại Việt Nam chứng kiến sự biến động giá thú vị khi dòng điện thoại cao cấp mới ra mắt có mức giá khởi điểm thấp hơn đáng kể so với các đối thủ cạnh tranh trực tiếp.",
+        "Xét về mặt cấu hình phần cứng và chiến lược định giá, thiết bị này tối ưu hóa chi phí sản xuất nhưng vẫn đảm bảo hiệu năng xử lý mạnh mẽ từ con chip thế hệ mới nhất.",
+        "Chiến lược giá này tạo ra áp lực cạnh tranh lớn lên các hãng sản xuất thiết bị Android cao cấp, buộc họ phải điều chỉnh phân khúc sản phẩm để duy trì thị phần tại khu vực Đông Nam Á."
+      ],
+      "summary_en": [
+        "The mobile device market in Vietnam witnessed interesting price fluctuations as the newly launched flagship smartphone features a significantly lower starting price compared to its direct competitors.",
+        "Regarding hardware configuration and pricing strategy, this device optimizes manufacturing costs while still ensuring powerful processing performance from the latest generation chipset.",
+        "This pricing strategy creates significant competitive pressure on high-end Android device manufacturers, forcing them to adjust their product segments to maintain market share in Southeast Asia."
+      ],
+      "originalTitle": "iPhone 18 Pro Max không đắt",
+      "url": "https://genk.vn/iphone-18-pro-max-khong-dat-165261119160813912.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Mobile",
+        "Smartphone",
+        "Hardware",
+        "Apple",
+        "Market Trends"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-19T10:02:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/19/avatar1795079175944-1795079176466429277532.jpg",
+      "contentSnippet": "Trong 4 chiếc Pro Max đang bán chính hãng tại Việt Nam, iPhone 18 Pro Max có giá niêm yết khởi điểm thấp nhất, thấp hơn đối thủ Android đắt nhất gần 8 triệu đồng.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "1f02b43b4392d41e",
+      "title_vi": "VNPT ra mắt modem Wi-Fi 8 tích hợp AI xử lý cục bộ",
+      "title_en": "VNPT Introduces AI-Integrated Wi-Fi 8 Modem with Edge Processing",
+      "summary_vi": [
+        "Tập đoàn Bưu chính Viễn thông Việt Nam vừa chính thức giới thiệu mẫu thiết bị mạng thế hệ mới mang tên AI Gateway Wi-Fi 8 trong một sự kiện công nghệ diễn ra vào buổi sáng ngày 19 tháng 11.",
+        "Thiết bị là thành quả hợp tác cùng Qualcomm, tích hợp công nghệ kết nối quang XGS-PON 10 Gbps, chuẩn Wi-Fi 8 ba băng tần với tốc độ vật lý đạt 22 Gbps cùng năng lực xử lý trí tuệ nhân tạo cục bộ lên tới 10.000 tỷ phép tính mỗi giây.",
+        "Bước tiến này giúp tối ưu hóa hiệu suất mạng gia đình, giảm thiểu độ trễ truyền tải dữ liệu và hạn chế tối đa sự phụ thuộc vào hệ thống đám mây, mang lại giải pháp kết nối thông minh và bảo mật hơn."
+      ],
+      "summary_en": [
+        "Vietnam Posts and Telecommunications Group officially introduced a next-generation networking device named AI Gateway Wi-Fi 8 during a technology launch event held on the morning of November 19.",
+        "Developed in collaboration with Qualcomm, the device integrates 10 Gbps XGS-PON optical connectivity, tri-band Wi-Fi 8 standards with physical speeds reaching 22 Gbps, and local artificial intelligence processing capacity of up to 10 trillion operations per second.",
+        "This technological milestone optimizes home network performance, significantly reduces data transmission latency, and minimizes reliance on cloud systems, delivering a smarter and more secure connectivity solution."
+      ],
+      "originalTitle": "VNPT ra mắt modem Wi-Fi 8 tích hợp AI",
+      "url": "https://vnexpress.net/vnpt-ra-mat-modem-wi-fi-8-tich-hop-ai-5146630.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "AI",
+        "Wi-Fi 8",
+        "Qualcomm",
+        "Networking",
+        "VNPT"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-19T09:33:33.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/19/wf8-1795077587-7159-1795077720.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=rq0Ul7hx-B5ZT057g8fnKg",
+      "contentSnippet": "VNPT giới thiệu bản thử nghiệm modem Internet tích hợp Wi-Fi 8, có khả năng xử lý tác vụ AI cục bộ thay vì phụ thuộc máy chủ đám mây.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "11418e362711abcb",
+      "title_vi": "Robot hình người nhặt trứng trong trang trại gia cầm tích hợp trí tuệ nhân tạo",
+      "title_en": "Humanoid Robot Collects Eggs in Poultry Farms Powered by Artificial Intelligence",
+      "summary_vi": [
+        "Nhóm nghiên cứu tại Đại học Bắc Carolina phát triển robot hình người Howl nhằm giải quyết tình trạng thiếu hụt nhân công và tự động hóa việc thu gom trứng đẻ rơi trong các mô hình trang trại nuôi thả tự do.",
+        "Hệ thống ứng dụng trí tuệ nhân tạo, công nghệ học máy và thị giác máy tính để điều khiển robot nhận dạng chính xác vị trí trứng trên sàn chuồng, sau đó sử dụng cánh tay cơ khí để tiếp cận và nhặt lên.",
+        "Giải pháp robot tự động này giúp các trang trại quy mô lớn giảm thiểu tối đa tỷ lệ thất thoát sản lượng, nâng cao hiệu suất vận hành và đảm bảo chất lượng nông sản tốt nhất trước khi đến tay người tiêu dùng."
+      ],
+      "summary_en": [
+        "Researchers at North Carolina State University developed the Howl humanoid robot to address labor shortages and automate egg collection in free-range poultry farming operations.",
+        "The system utilizes artificial intelligence, machine learning, and computer vision technologies to enable the robot to accurately identify egg locations on the floor and use mechanical arms for retrieval.",
+        "This automated robotic solution helps large-scale farms minimize yield losses, optimize operational efficiency, and maintain superior agricultural product quality before reaching consumers."
+      ],
+      "originalTitle": "Robot hình người nhặt trứng trong trang trại gia cầm",
+      "url": "https://vnexpress.net/robot-hinh-nguoi-nhat-trung-trong-trang-trai-gia-cam-5146244.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Computer Vision",
+        "Robotics",
+        "Automation"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-19T09:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/18/VNERobot-1794995614-7405-1794995667.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=l8obyNQGgpYW0egHYW1ybQ",
+      "contentSnippet": "Nhóm nghiên cứu tại Đại học Bắc Carolina (Mỹ) phát triển robot nhặt trứng giúp tiết kiệm thời gian và sức lao động tại các trang trại nuôi thả tự do.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f05ec6e3998a5641",
+      "title_vi": "iPhone trở thành mẫu điện thoại Pro Max có giá bán rẻ nhất tại thị trường Việt Nam",
+      "title_en": "iPhone Becomes the Most Affordable Pro Max Smartphone in the Vietnamese Market",
+      "summary_vi": [
+        "Thị trường thiết bị di động cao cấp cuối năm tại Việt Nam trở nên vô cùng sôi động khi các hãng công nghệ lớn liên tục trình làng những dòng sản phẩm mang hậu tố Pro Max cao cấp.",
+        "Các mẫu điện thoại thông minh mới ra mắt từ Oppo, Vivo và Xiaomi đều có mức giá vượt ngưỡng năm mươi triệu đồng, cao hơn đáng kể so với dòng thiết bị tương đương của Apple.",
+        "Sự biến động về giá bán này tạo ra một góc nhìn mới cho phân khúc thiết bị di động cao cấp, đồng thời thay đổi chiến lược cạnh tranh giữa các nhà sản xuất phần cứng lớn trên thị trường."
+      ],
+      "summary_en": [
+        "The year-end high-end mobile device market in Vietnam becomes exceptionally vibrant as major tech companies continuously launch premium smartphone lineups featuring the Pro Max branding.",
+        "Newly released smartphones from Oppo, Vivo, and Xiaomi all exceed the fifty million dong price threshold, positioning them significantly higher than Apple's equivalent flagship devices.",
+        "This pricing dynamic introduces a fresh perspective to the high-end mobile segment while altering the hardware competition strategies among major manufacturers in the region."
+      ],
+      "originalTitle": "iPhone thành 'điện thoại Pro Max' rẻ nhất tại Việt Nam",
+      "url": "https://vnexpress.net/iphone-thanh-dien-thoai-pro-max-re-nhat-tai-viet-nam-5146588.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Mobile",
+        "Smartphones",
+        "Apple",
+        "Xiaomi",
+        "Oppo"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-19T08:12:23.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/19/top-1795074752-5163-1795074855.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ZoI3yeODVkep-ZaZMJRqlA",
+      "contentSnippet": "Với tầm giá 50 triệu đồng, ba smartphone mới bán là Oppo Find X10 Pro Max, Vivo X500 Pro Max, Xiaomi 18 Pro Max đều đắt hơn iPhone 18 Pro Max.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8041,485 +8523,6 @@
       "authorName": "Anh Tú.",
       "upvotes": 0,
       "commentsCount": 0
-    },
-    {
-      "id": "1a1518112d038ef8",
-      "title_vi": "Anthropic ra mắt tính năng tài chính cá nhân cho trợ lý ảo Claude: Liệu ứng dụng quản lý chi tiêu còn cần thiết?",
-      "title_en": "Anthropic Launches Personal Finance Feature for Claude: Is Budgeting Apps Still Necessary?",
-      "summary_vi": [
-        "Vào đầu tháng 11 năm 2026, công ty trí tuệ nhân tạo Anthropic đã chính thức tích hợp tính năng quản lý tài chính cá nhân mang tên Personal Finance trực tiếp vào nền tảng trợ lý ảo Claude.",
-        "Điểm cốt lõi của giải pháp này là khả năng kết nối trực tiếp với các tài khoản ngân hàng và ví điện tử, cho phép xử lý dữ liệu giao dịch thời gian thực bằng các mô hình ngôn ngữ lớn.",
-        "Sự kiện này đánh dấu bước tiến mới của công nghệ trí tuệ nhân tạo trong việc thay thế dần các ứng dụng quản lý tài chính truyền thống, đặt ra thách thức lớn cho các nhà phát triển phần mềm fintech hiện nay."
-      ],
-      "summary_en": [
-        "In early November 2026, artificial intelligence company Anthropic officially integrated a personal finance management feature called Personal Finance directly into the Claude assistant platform.",
-        "The core of this solution is the ability to connect directly with bank accounts and digital wallets, enabling real-time transaction data processing using advanced large language models.",
-        "This milestone marks a significant step for artificial intelligence in gradually replacing traditional financial management applications, posing a major challenge for current fintech software developers."
-      ],
-      "originalTitle": "Anthropic ra mắt tính năng Personal Finance cho Claude: Có cần ứng dụng quản lý chi tiêu nữa không?",
-      "url": "https://tinhte.vn/thread/anthropic-ra-mat-tinh-nang-personal-finance-cho-claude-co-can-ung-dung-quan-ly-chi-tieu-nua-khong.4190501/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Claude",
-        "Fintech",
-        "Anthropic",
-        "Machine Learning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-08T11:36:09.000Z",
-      "contentSnippet": "Tính năng Personal Finance chính thức được Anthropic giới thiệu trên nền tảng Claude vào ngày 5 tháng 11 năm 2026. Điểm nổi bật của tính năng này là khả năng kết nối trực tiếp với các tài khoản...",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "69de7ea95eb04eb6",
-      "title_vi": "Apple công bố hơn 100.000 ứng dụng hỗ trợ iPhone Duo, nhưng thực tế chỉ là sự tương thích từ bộ công cụ lập trình",
-      "title_en": "Apple claims over 100,000 apps optimized for iPhone Duo, yet reality reveals reliance on standard development toolkits",
-      "summary_vi": [
-        "Apple vừa thông báo cột mốc quan trọng với hơn 100.000 ứng dụng được tối ưu hóa cho thiết bị iPhone Duo mới chỉ sau hai tuần ra mắt, tạo ra làn sóng quan tâm lớn trong cộng đồng người dùng công nghệ toàn cầu.",
-        "Tuy nhiên, con số này thực chất dựa trên việc sử dụng bộ công cụ lập trình mặc định của Apple thay vì yêu cầu các nhà phát triển phải thực hiện thiết kế lại giao diện chuyên biệt cho cấu trúc hai màn hình độc đáo.",
-        "Sự kiện này đặt ra thách thức cho các lập trình viên trong việc cân bằng giữa tính tương thích sẵn có và trải nghiệm người dùng thực tế, đồng thời phản ánh chiến lược thúc đẩy hệ sinh thái phần mềm của Apple trên thiết bị mới."
-      ],
-      "summary_en": [
-        "Apple recently announced a significant milestone with over 100,000 applications optimized for the new iPhone Duo device just two weeks after launch, generating substantial interest within the global technology community and among mobile users.",
-        "However, this figure is primarily based on the utilization of standard Apple development toolkits rather than requiring developers to perform extensive interface redesigns specifically tailored for the unique dual-screen hardware architecture of the device.",
-        "This situation presents a challenge for developers to balance out-of-the-box compatibility with actual user experience, while also highlighting Apple's strategic approach to rapidly expanding the software ecosystem for their latest innovative mobile hardware platform."
-      ],
-      "originalTitle": "Apple bảo có hơn 100.000 ứng dụng được tối ưu cho iPhone Duo, ấy thế mà Google vẫn... \"làm ngơ\"",
-      "url": "https://genk.vn/apple-bao-co-hon-100000-ung-dung-duoc-toi-uu-cho-iphone-duo-ay-the-ma-google-van-lam-ngo-165261108162841385.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Mobile Development",
-        "Software Engineering",
-        "UI/UX"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-08T09:25:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/8/apple-says-over-100000-apps-optimized-for-iphone-duo-but-these-are-still-missing-feature-1-scaled-0-109-1125-1909-crop-1794129838118677995530.jpg",
-      "contentSnippet": "Apple cho biết hơn 100.000 ứng dụng đã được tối ưu cho iPhone Duo sau hai tuần, nhưng con số tính theo bộ công cụ lập trình dùng dựng ứng dụng, không phải mức độ thiết kế lại cho hai màn hình.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "063cfe49afc8fbdf",
-      "title_vi": "Công nghệ Bluetooth mới cho phép truyền tải âm thanh không mất dữ liệu",
-      "title_en": "New Bluetooth Technology Enables Lossless Audio Streaming",
-      "summary_vi": [
-        "Tổ chức Bluetooth SIG vừa chính thức công bố công nghệ Bluetooth HDT tiên tiến với tốc độ truyền tải dữ liệu tối đa lên đến 7,5 Mb mỗi giây, mở ra khả năng phát âm thanh không nén chất lượng cao qua kết nối không dây.",
-        "Băng thông mới này gấp gần bốn lần so với chuẩn Bluetooth LE 2M hiện tại, không chỉ đáp ứng hoàn hảo nhu cầu truyền tải âm thanh chuẩn CD mà còn phục vụ các ứng dụng trí tuệ nhân tạo và thực tế ảo mở rộng.",
-        "Sự nâng cấp này giải quyết triệt để hạn chế lâu năm của cộng đồng người dùng âm thanh chuyên nghiệp vốn phải phụ thuộc vào tai nghe có dây do băng thông không dây không đủ ổn định cho nhạc không nén."
-      ],
-      "summary_en": [
-        "The Bluetooth SIG organization has officially announced the advanced Bluetooth HDT technology with a maximum data transmission rate of up to 7.5 megabits per second, enabling high quality uncompressed audio streaming wirelessly.",
-        "This new bandwidth is nearly four times higher than the current Bluetooth LE 2M standard, perfectly meeting the transmission demands of high quality audio as well as supporting artificial intelligence and extended reality applications.",
-        "This upgrade thoroughly resolves long standing limitations faced by the audiophile community who previously had to rely on wired headphones because wireless bandwidth was insufficient for stable uncompressed music streaming."
-      ],
-      "originalTitle": "Công nghệ Bluetooth mới cho phép phát âm thanh lossless",
-      "url": "https://vnexpress.net/cong-nghe-bluetooth-moi-cho-phep-phat-am-thanh-lossless-5141993.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Bluetooth",
-        "Audio",
-        "Wireless",
-        "Hardware",
-        "Tech Trends"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-08T09:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/07/dsc8652-1794060485-2338-1794060541.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=eQVmaEeWfpBX2NhCWVOjkQ",
-      "contentSnippet": "Tổ chức Bluetooth SIG công bố công nghệ Bluetooth HDT với tốc độ truyền tải tối đa 7,5 Mb/giây, có thể phát âm thanh không nén qua kết nối không dây.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9e4c32040630327f",
-      "title_vi": "Công cụ trí tuệ nhân tạo miễn phí bị lạm dụng để tấn công mạng các ngân hàng Đông Nam Á",
-      "title_en": "Free Artificial Intelligence Tools Abused for Cyber Attacks on Southeast Asian Banks",
-      "summary_vi": [
-        "Microsoft vừa đưa ra cảnh báo về một nhóm tin tặc có trụ sở tại Campuchia đang sử dụng các công cụ trí tuệ nhân tạo mã nguồn mở để tự động hóa hoàn toàn các chiến dịch tấn công mạng nhằm vào hệ thống tài chính và ngân hàng tại khu vực Đông Nam Á.",
-        "Kẻ tấn công đã lạm dụng công cụ ARTEX để thực hiện việc quét lỗ hổng và tối ưu hóa các bước xâm nhập, thể hiện xu hướng ngày càng tinh vi khi các tác nhân đe dọa tận dụng các giải pháp công nghệ cao sẵn có mà không cần chi phí phát triển lớn.",
-        "Sự việc này đặt ra yêu cầu cấp thiết cho các kỹ sư bảo mật và tổ chức tài chính trong việc nâng cao năng lực phòng thủ chủ động, đặc biệt là việc giám sát chặt chẽ các hành vi tự động hóa sử dụng trí tuệ nhân tạo nhằm ngăn chặn kịp thời những rủi ro mất an toàn thông tin."
-      ],
-      "summary_en": [
-        "Microsoft recently issued a warning about a hacker group based in Cambodia that is utilizing open source artificial intelligence tools to fully automate cyber attack campaigns targeting financial systems and banks across the Southeast Asian region.",
-        "The threat actors have abused the ARTEX tool to execute vulnerability scanning and optimize infiltration steps, demonstrating an increasingly sophisticated trend where malicious entities leverage existing high tech solutions without incurring high development costs.",
-        "This incident poses an urgent requirement for security engineers and financial institutions to enhance proactive defense capabilities, specifically focusing on closely monitoring automated behaviors driven by artificial intelligence to timely prevent information security risks."
-      ],
-      "originalTitle": "AI hack miễn phí đang nhắm vào các ngân hàng ở Đông Nam Á",
-      "url": "https://genk.vn/ai-hack-mien-phi-dang-nham-vao-cac-ngan-hang-o-dong-nam-a-165261108155642289.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Artificial Intelligence",
-        "Banking Security",
-        "Threat Intelligence",
-        "Automation"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-08T08:56:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/8/thumb-image20261108155507-17941281155221250902024-116-217-518-860-crop-17941281226621959549657.png",
-      "contentSnippet": "Microsoft cho biết một nhóm hack đặt tại Campuchia từ tháng 10 dùng ARTEX, công cụ AI mã nguồn mở tự động hóa tấn công, để nhắm vào các tổ chức tài chính chủ yếu ở Đông Nam Á.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "58603a9f44fef820",
-      "title_vi": "iPhone 20 có thể loại bỏ nút Action và tích hợp vào Camera Control",
-      "title_en": "iPhone 20 may drop the Action button in favor of integrated Camera Control",
-      "summary_vi": [
-        "Apple đang lên kế hoạch thay đổi thiết kế phần cứng trên mẫu iPhone kỷ niệm 20 năm bằng cách hợp nhất nút Action vào phím Camera Control, nhằm tối ưu hóa không gian linh kiện bên trong thiết bị và đơn giản hóa quy trình sản xuất hàng loạt.",
-        "Cơ chế hoạt động mới cho phép người dùng thực hiện thao tác nhấn đơn để khởi động máy ảnh, trong khi nhấn giữ sẽ kích hoạt các lối tắt tùy chỉnh, giúp giảm thiểu tình trạng bấm nhầm giữa các phím vật lý trên thân máy điện thoại thông minh.",
-        "Việc tinh giản các phím cơ học phản ánh xu hướng thiết kế tối giản của Apple, giúp cải thiện trải nghiệm người dùng thông qua việc tích hợp đa chức năng vào một điểm chạm duy nhất, đồng thời tạo tiền đề cho các thay đổi thiết kế trên dòng iPhone gập."
-      ],
-      "summary_en": [
-        "Apple is reportedly planning a significant hardware design shift for its 20th-anniversary iPhone by merging the Action button into the Camera Control key to optimize internal component space and streamline the overall manufacturing process for the new device.",
-        "The new mechanism allows users to perform a single press to launch the camera, while a long press triggers custom shortcuts, effectively reducing accidental inputs and physical button clutter on the side of the smartphone chassis.",
-        "This consolidation of mechanical buttons reflects Apple's minimalist design philosophy, enhancing user experience by integrating multiple functions into a single touch point while setting a precedent for future design iterations in the upcoming foldable iPhone lineup."
-      ],
-      "originalTitle": "iPhone 20 có thể bỏ nút Action và giữ nguyên Dynamic Island",
-      "url": "https://vnexpress.net/iphone-20-co-the-bo-nut-action-va-giu-nguyen-dynamic-island-5141990.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Hardware",
-        "Mobile Design",
-        "Smartphone"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-11-08T07:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/07/fdnnyswsv5m3lw8bs4geuy-1794060-2723-9452-1794060076.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=AiQfW9d6L8Mn5AJ1XM6E9A",
-      "contentSnippet": "Apple được cho là đang lên kế hoạch gộp chung nút Action vào Camera Control, đồng thời vẫn duy trì Dynamic Island trên mẫu iPhone kỷ niệm 20 năm.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1b17b34b51f1ed0c",
-      "title_vi": "Tải ngay bộ hình nền kỷ niệm 12 năm chương trình Windows Insider của Microsoft",
-      "title_en": "Download the official wallpaper collection celebrating the 12th anniversary of Microsoft Windows Insider program",
-      "summary_vi": [
-        "Microsoft vừa phát hành một bộ hình nền đặc biệt nhằm kỷ niệm mốc son mười hai năm hoạt động của chương trình trải nghiệm người dùng Windows Insider.",
-        "Bộ sưu tập hình nền này được thiết kế với các chủ đề đồ họa mang đậm dấu ấn hệ điều hành Windows dành riêng cho cộng đồng thử nghiệm.",
-        "Sự kiện này tri ân hàng triệu lập trình viên và người dùng nhiệt huyết đã đóng góp quan trọng vào quá trình phát triển các phiên bản hệ điều hành."
-      ],
-      "summary_en": [
-        "Microsoft has recently released a special wallpaper collection to commemorate the twelfth anniversary of the Windows Insider testing program.",
-        "This curated wallpaper pack features unique graphic designs reflecting the iconic Windows operating system branding tailored for the enthusiast community.",
-        "The initiative celebrates millions of passionate developers and users who have significantly contributed to shaping upcoming operating system features."
-      ],
-      "originalTitle": "Mời anh em tải về bộ hình nền kỷ niệm 12 năm chương trình Windows Insider của Microsoft",
-      "url": "https://tinhte.vn/thread/moi-anh-em-tai-ve-bo-hinh-nen-ky-niem-12-nam-chuong-trinh-windows-insider-cua-microsoft.4190575/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Microsoft",
-        "Windows Insider",
-        "Operating System",
-        "Wallpapers"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-11-08T04:44:43.000Z",
-      "contentSnippet": "Mời anh em tải về bộ hình nền kỷ niệm 12 năm chương trình Windows Insider của Microsoft Link tải mình để dưới bình luận nhé.",
-      "authorName": "Pnghuy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "149c124f7b07d2a1",
-      "title_vi": "Tạm biệt Claude, Chào Pi: Trải nghiệm chuyển đổi công cụ lập trình AI của lập trình viên",
-      "title_en": "Goodbye Claude, Hello Pi: A Developer's Journey Migrating AI Coding Harnesses",
-      "summary_vi": [
-        "Tác giả chia sẻ hành trình sử dụng lâu năm công cụ hỗ trợ lập trình Claude Code trong gói đăng ký Claude Pro và quyết định bất ngờ chuyển đổi sang nền tảng Pi do những điểm hạn chế tích tụ trong quá trình làm việc thực tế.",
-        "Những bất cập kỹ thuật chính bao gồm việc quản lý tệp cấu hình phân mảnh như định dạng CLAUDE.md và sự thiếu hụt hỗ trợ tệp AGENTS.md đồng nhất trong các kho lưu trữ mã nguồn trên nền tảng GitHub.",
-        "Sự việc phản ánh xu hướng dịch chuyển liên tục của lập trình viên giữa các trợ lý lập trình trí tuệ nhân tạo nhằm tối ưu hóa quy trình làm việc và tìm kiếm trải nghiệm phát triển phần mềm hiệu quả hơn."
-      ],
-      "summary_en": [
-        "The author shares their long-term experience using Claude Code within the Claude Pro subscription and explains the sudden decision to migrate to the Pi platform due to accumulated workflow frustrations.",
-        "Key technical drawbacks include managing fragmented configuration files like CLAUDE.md formats and the initial lack of unified AGENTS.md file support across various GitHub code repositories.",
-        "This transition reflects the ongoing trend of developers shifting between artificial intelligence coding assistants to optimize their development workflows and seek more efficient software engineering experiences."
-      ],
-      "originalTitle": "Goodbye Claude, Hello Pi",
-      "url": "https://caleb.software/posts/claude-to-pi.html",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "AI Coding",
-        "Claude Code",
-        "Pi",
-        "Software Development",
-        "Developer Tools"
-      ],
-      "hotScore": 94,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-08T03:11:48.000Z",
-      "contentSnippet": "I’ve been a longtime Claude Code user, ever since it became available in the Claude Pro subscription plan over a year ago. I remember the first time I used it, feeling giddy as it spat out messy Python code for whatever random weekend project I was working on, all from a single prompt. I’m certain t",
-      "authorName": "karagenit",
-      "upvotes": 377,
-      "commentsCount": 239
-    },
-    {
-      "id": "1bb7502b8f48e067",
-      "title_vi": "Django: Hướng dẫn gửi email nhanh chóng với send_mail() và cấu hình SMTP chuẩn xác",
-      "title_en": "Django: Quick Email Dispatch Using send_mail() and Proper SMTP Configuration",
-      "summary_vi": [
-        "Khung làm việc Django cung cấp sẵn hàm send_mail tiện lợi giúp lập trình viên dễ dàng tích hợp tính năng gửi thư điện tử vào ứng dụng web chỉ trong vài phút ngắn ngủi.",
-        "Quá trình triển khai yêu cầu cấu hình chính xác các tham số giao thức SMTP bao gồm máy chủ, cổng kết nối, tên đăng nhập và mật khẩu ứng dụng bên trong tệp thiết lập hệ thống.",
-        "Giải pháp này tối ưu hóa hiệu quả phát triển các tính năng cơ bản như xác thực tài khoản, thông báo hệ thống và gửi thư chào mừng cho người dùng mới một cách an toàn."
-      ],
-      "summary_en": [
-        "The Django framework provides a built-in send_mail function that enables developers to seamlessly integrate email dispatch capabilities into web applications within just a few minutes.",
-        "The implementation process requires precise configuration of SMTP protocol parameters including server addresses, connection ports, credentials, and application passwords within the main settings file.",
-        "This technical solution optimizes the development efficiency for essential features such as account verification, system notifications, and automated welcome emails for new platform users securely."
-      ],
-      "originalTitle": "Django: gửi email bằng send_mail() trong 5 phút — cấu hình SMTP đúng cách",
-      "url": "https://viblo.asia/p/django-gui-email-bang-send-mail-trong-5-phut-cau-hinh-smtp-dung-cach-lZL9XOK7JQK",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Django",
-        "Python",
-        "SMTP",
-        "Backend",
-        "Web Development"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-07T22:20:29.000Z",
-      "contentSnippet": "Django đã có sẵn hàm send_mail() để gửi email — chỉ cần cấu hình SMTP một lần trong settings.py rồi gọi một dòng là gửi được. Dùng cho mail chào mừng ...",
-      "authorName": "Linh Fish Dev",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0a8f38d13d967a18",
-      "title_vi": "GPT-6.1 Terra là gì? Hướng dẫn gọi gpt-6.1-terra qua API với thử nghiệm thị giác, thao tác máy tính và đầu ra JSON",
-      "title_en": "What is GPT-6.1 Terra? Guide to calling gpt-6.1-terra via API with visual testing, computer use, and JSON output",
-      "summary_vi": [
-        "Bài viết giới thiệu mô hình GPT-6.1 Terra cùng phương pháp tích hợp thông qua giao diện lập trình ứng dụng API tương thích với nền tảng OpenAI một cách nhanh chóng và vô cùng thuận tiện.",
-        "Lập trình viên chỉ cần thực hiện thao tác thay đổi địa chỉ cơ sở và tên mô hình trong mã nguồn hiện tại để bắt đầu sử dụng các tính năng nâng cao mà không tốn nhiều thời gian cấu hình.",
-        "Công nghệ này mang lại khả năng xử lý hình ảnh, điều khiển máy tính và trả về dữ liệu định dạng chuẩn giúp tối ưu hóa hiệu suất phát triển ứng dụng trí tuệ nhân tạo hiện đại."
-      ],
-      "summary_en": [
-        "The article introduces the GPT-6.1 Terra model along with methods for integrating it via an application programming interface compatible with the OpenAI platform quickly and conveniently.",
-        "Developers only need to change the base address and model name in their current source code to start using advanced features without spending much time on complex configurations.",
-        "This technology provides image processing capabilities, computer control, and standardized data output formatting to help optimize the performance of modern artificial intelligence application development."
-      ],
-      "originalTitle": "GPT-6.1 Terra là gì? Hướng dẫn gọi gpt-6.1-terra qua API với thử nghiệm thị giác, thao tác máy tính và đầu ra JSON",
-      "url": "https://viblo.asia/p/gpt-61-terra-la-gi-huong-dan-goi-gpt-61-terra-qua-api-voi-thu-nghiem-thi-giac-thao-tac-may-tinh-va-dau-ra-json-oKLnqj1gJQO",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "API",
-        "OpenAI",
-        "GPT-6.1",
-        "Machine Learning"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-07T22:10:10.000Z",
-      "contentSnippet": "Nếu mã nguồn của bạn đã chạy với API tương thích OpenAI, việc chuyển sang gpt-6.1-terra thường chỉ cần đổi hai chỗ: base_url và model. Điều quan trọ...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9bfc98ba4a0cc270",
-      "title_vi": "Python: Gọi nhiều API song song với asyncio.gather và Semaphore trong 10 phút",
-      "title_en": "Python: Calling Multiple APIs Concurrently with asyncio.gather and Semaphore in 10 Minutes",
-      "summary_vi": [
-        "Bài viết hướng dẫn lập trình viên Python tối ưu hóa hiệu năng khi phải thực hiện hàng chục yêu cầu mạng cùng lúc để đồng bộ dữ liệu hoặc cào dữ liệu web.",
-        "Giải pháp sử dụng thư viện asyncio kết hợp cùng cơ chế Semaphore giúp kiểm soát số lượng luồng thực thi đồng thời, tránh tình trạng quá tải hệ thống và giới hạn tốc độ từ máy chủ.",
-        "Kỹ thuật này giúp giảm đáng kể tổng thời gian chờ đợi so với vòng lặp tuần thống truyền thống, mang lại hiệu quả cao khi xây dựng các hệ thống bất đồng bộ hiện đại."
-      ],
-      "summary_en": [
-        "The article guides Python developers on optimizing performance when executing dozens of network requests simultaneously for data synchronization or web scraping tasks.",
-        "The solution utilizes the asyncio library combined with the Semaphore mechanism to control concurrent execution threads, preventing system overload and server rate limiting.",
-        "This technique significantly reduces total waiting time compared to traditional sequential loops, delivering high efficiency when building modern asynchronous backend systems."
-      ],
-      "originalTitle": "Python: Gọi nhiều API song song với asyncio.gather và Semaphore trong 10 phút",
-      "url": "https://viblo.asia/p/python-goi-nhieu-api-song-song-voi-asynciogather-va-semaphore-trong-10-phut-kNLr3eWlVgA",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Python",
-        "Asyncio",
-        "API",
-        "Concurrency",
-        "Backend"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-07T20:16:29.000Z",
-      "contentSnippet": "Khi cần gọi hàng chục API — đồng bộ dữ liệu, crawl giá, bắn webhook — vòng lặp for tuần tự cộng dồn thời gian chờ của từng request: 20 request × 1 giâ...",
-      "authorName": "Linh Fish Dev",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0d8d5ea9a3baaa8d",
-      "title_vi": "Phát sóng trong Laravel: Tự vận hành Reverb hay sử dụng dịch vụ WebSocket được quản lý sẵn?",
-      "title_en": "Laravel Broadcasting: Self-hosting Reverb or Using Managed WebSocket Services?",
-      "summary_vi": [
-        "Bài viết phân tích bài toán lựa chọn giữa việc tự triển khai máy chủ WebSocket Reverb nội bộ hay sử dụng các dịch vụ dịch vụ lưu trữ sẵn tương thích giao thức Pusher cho ứng dụng Laravel.",
-        "Đội ngũ phát triển Hibira chia sẻ kinh nghiệm vận hành thực tế, so sánh chi phí hạ tầng, độ phức tạp khi cấu hình cũng như khả năng mở rộng hệ thống thời gian thực trong môi trường sản xuất.",
-        "Quyết định này giúp các kiến trúc sư phần mềm và lập trình viên tối ưu hóa hiệu năng ứng dụng, cân đối ngân sách và lựa chọn mô hình hạ tầng phù hợp nhất với quy mô dự án hiện tại."
-      ],
-      "summary_en": [
-        "The article analyzes the architectural dilemma between self-hosting the Reverb WebSocket server internally or utilizing managed services compatible with the Pusher protocol for Laravel applications.",
-        "The Hibira development team shares practical operational experiences, comparing infrastructure costs, configuration complexity, and real-time system scalability within production environments.",
-        "This decision helps software architects and developers optimize application performance, balance budgets, and choose the most suitable infrastructure model aligned with their project scale."
-      ],
-      "originalTitle": "Laravel Broadcasting: tự chạy Reverb hay dùng dịch vụ WebSocket lưu trữ sẵn?",
-      "url": "https://viblo.asia/p/laravel-broadcasting-tu-chay-reverb-hay-dung-dich-vu-websocket-luu-tru-san-pPLkNQmnJRZ",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Laravel",
-        "WebSocket",
-        "Reverb",
-        "DevOps",
-        "Backend"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-07T18:23:50.000Z",
-      "contentSnippet": "Bài này được viết lại từ bài trên blog Hibira. Bài viết của đội ngũ phát triển và vận hành Hibira, một dịch vụ WebSocket tương thích giao thức Pusher....",
-      "authorName": "Hibira",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "579f1e45f94231f7",
-      "title_vi": "Hệ thống máy chủ gia đình giá mười đô la chạy bằng thiết bị OpenStick nhỏ gọn",
-      "title_en": "What I run on my $10 USD OpenStick homelab",
-      "summary_vi": [
-        "Tác giả đã mua một thiết bị OpenStick siêu nhỏ giá mười đô la để xây dựng hệ thống máy chủ tại nhà với mức tiêu thụ điện năng cực thấp và không gây tiếng ồn khi hoạt động liên tục.",
-        "Thiết bị này được cài đặt hệ điều hành Debian Linux, hỗ trợ các công nghệ hiện đại như hệ thống quản lý tiến trình systemd và công cụ quản lý vùng chứa container nhẹ Podman để chạy các dịch vụ.",
-        "Giải pháp này cho phép người dùng tự lưu trữ các ứng dụng hữu ích như tự động bỏ qua quảng cáo video trên các thiết bị truyền phát hoặc chặn tên miền độc hại ở cấp độ phân giải DNS."
-      ],
-      "summary_en": [
-        "The author purchased a tiny ten dollar OpenStick hardware device to build a low power home server setup that operates silently with minimal energy consumption.",
-        "The device runs the Debian Linux operating system, supporting modern technologies such as the systemd service manager and the lightweight containerization tool Podman for deployments.",
-        "This solution enables users to self host useful applications such as automatically skipping video advertisements on streaming devices or blocking malicious domains at the DNS level."
-      ],
-      "originalTitle": "What I run on my $10 USD OpenStick homelab",
-      "url": "https://blog.bosscher.ch/posts/openstick/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "Homelab",
-        "Linux",
-        "Debian",
-        "Podman",
-        "Self-hosting"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-07T18:12:12.000Z",
-      "contentSnippet": "Go backWhat I run on my $10 USD OpenStick homelab7 Nov, 2026|Edit pageA while ago I bought an OpenStick on a whim for 10 dollars (including shipping!) because it seemed like such a cool novelty piece of hardware. Now, you might look at this hardware and think “my watch is more powerful than that”, a",
-      "authorName": "LaurensBER",
-      "upvotes": 156,
-      "commentsCount": 32
-    },
-    {
-      "id": "8017ce29f6d88c8d",
-      "title_vi": "Sự kết thúc của nhóm nghiên cứu Trí tuệ nhân tạo Frontiers tại Microsoft",
-      "title_en": "The end of Microsoft Research's AI Frontiers group",
-      "summary_vi": [
-        "Sau sự bùng nổ của ChatGPT vào năm 2023, nhóm nghiên cứu AI Frontiers được thành lập tại Microsoft nhằm tổ chức lại các nỗ lực nghiên cứu trí tuệ nhân tạo theo phương pháp tập trung và quy mô hơn.",
-        "Nhóm khoảng năm mươi người này đã phát triển thành công nhiều khung công tác quan trọng như hệ thống điều phối Autogen và tác nhân sử dụng máy tính Fara, đồng thời giải quyết các bài toán về năng lực tính toán hạn chế.",
-        "Việc thay đổi cơ cấu này phản ánh những thách thức lớn trong việc định hướng nghiên cứu cơ bản và ứng dụng trí tuệ nhân tạo tại các tập đoàn công nghệ lớn hiện nay."
-      ],
-      "summary_en": [
-        "Following the ChatGPT release in 2023, the AI Frontiers research group was established at Microsoft to reorganize artificial intelligence research efforts through a more focused and scalable methodology.",
-        "This fifty-person team successfully developed crucial frameworks such as the Autogen orchestration system and the Fara computer use agent, while addressing severe challenges regarding limited computing resources.",
-        "This structural reorganization reflects major challenges in directing fundamental research and artificial intelligence applications within large modern technology corporations today."
-      ],
-      "originalTitle": "The end of Microsoft Research's AI Frontiers group",
-      "url": "https://hunch.net/?p=13764006",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Microsoft",
-        "Autogen",
-        "Machine Learning",
-        "Research"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-07T18:02:17.000Z",
-      "contentSnippet": "In 2023 after the ChatGPT release, it was clear to me that research needed to be more organized to succeed than was typical within Microsoft Research. The amount of support and focus which other research groups were applying was great enough that even with a clever idea pursued by one person it was ",
-      "authorName": "srean",
-      "upvotes": 227,
-      "commentsCount": 125
-    },
-    {
-      "id": "840f536384a14a6f",
-      "title_vi": "Danh sách đen của Táo khuyết: Những từ ngữ và cụm từ thiết bị di động của bạn không hỗ trợ đánh vần",
-      "title_en": "Apple's grey list: Words and phrases your iPhone won't help you spell",
-      "summary_vi": [
-        "Bài viết khám phá hiện tượng thú vị trên hệ điều hành di động của tập đoàn công nghệ khi các thiết bị thông minh từ chối hỗ trợ tính năng vuốt để gõ phím đối với một số từ ngữ nhạy cảm hoặc cụm từ bất thường.",
-        "Cơ chế hoạt động của thuật toán dự đoán văn bản và bàn phím ảo trên điện thoại thông minh đã vô tình hoặc hữu ý loại bỏ các từ khóa liên quan đến chính trị, chất kích thích hoặc tình dục khỏi bộ nhớ đệm đề xuất.",
-        "Sự việc này đặt ra nhiều câu hỏi quan trọng cho các kỹ sư phần mềm về quyền riêng tư, cách thức kiểm duyệt nội dung tự động trên thiết bị đầu cuối và ranh giới đạo đức trong thiết kế trải nghiệm người dùng."
-      ],
-      "summary_en": [
-        "The article explores an interesting phenomenon in mobile operating systems where smart devices refuse to support swipe typing features for certain sensitive words or unusual phrases.",
-        "The operational mechanism of predictive text algorithms and virtual keyboards on smartphones has intentionally or accidentally removed keywords related to politics, substances, or sex from the suggested cache.",
-        "This incident raises important questions for software engineers regarding privacy, automated content moderation mechanisms on end-user devices, and ethical boundaries in user experience design."
-      ],
-      "originalTitle": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
-      "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "iOS",
-        "Mobile",
-        "UX",
-        "Software",
-        "Security"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-07T17:06:36.000Z",
-      "contentSnippet": "“Australia is a very bad place to question your sexuality on MDMA with NSA spies” might be a text you would wish to send to your friends, if you have had an extraordinarily complicated night out in Sydney. But your iPhone won’t help you spell any of it if you try to swipe-type it – that is, by glidi",
-      "authorName": "user_7832",
-      "upvotes": 202,
-      "commentsCount": 128
     }
   ]
 }
