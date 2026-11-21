@@ -1,7 +1,109 @@
 {
-  "lastUpdated": "2026-11-21T13:57:22.575Z",
+  "lastUpdated": "2026-11-21T22:38:18.057Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "a914cbe7cddc4869",
+      "title_vi": "Vì sao mô hình ngôn ngữ lớn xử lý cùng một yêu cầu theo những cách khác nhau mỗi lần lập trình?",
+      "title_en": "Why Do Large Language Models Produce Different Outputs for the Same Coding Prompt?",
+      "summary_vi": [
+        "Bài viết phân tích hiện tượng các mô hình trí tuệ nhân tạo tạo ra kết quả và cách diễn đạt khác nhau trong mỗi lần hội thoại mới, ngay cả khi người dùng sử dụng cùng một câu lệnh đầu vào.",
+        "Bản chất cốt lõi nằm ở nguyên lý hoạt động xác suất của các mô hình ngôn ngữ lớn, nơi hệ thống tính toán và lựa chọn từ ngữ dựa trên phân phối xác suất thay vì thực thi một thuật toán cố định.",
+        "Hiểu rõ cơ chế này giúp các lập trình viên tối ưu hóa cách viết câu lệnh, kiểm soát tính nhất quán của mã nguồn và tận dụng hiệu quả công cụ trợ lý lập trình hiện đại."
+      ],
+      "summary_en": [
+        "The article analyzes the phenomenon where artificial intelligence models generate varying outputs and expressions across new conversations even when given the exact same input prompt.",
+        "The fundamental mechanism relies on the probabilistic nature of large language models, where the system calculates and selects vocabulary based on probability distributions rather than rigid deterministic execution.",
+        "Understanding this core mechanism helps software engineers optimize prompt engineering techniques, control source code consistency, and leverage modern programming assistant tools more effectively."
+      ],
+      "originalTitle": "Vì sao AI làm cùng một việc khác nhau mỗi lần khi lập trình với Claude Code? | Nguyên lý LLM",
+      "url": "https://viblo.asia/p/vi-sao-ai-lam-cung-mot-viec-khac-nhau-moi-lan-khi-lap-trinh-voi-claude-code-nguyen-ly-llm-AWVpX52ZV05",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "LLM",
+        "Claude Code",
+        "Prompt Engineering",
+        "Software Engineering"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-21T23:00:17.000Z",
+      "contentSnippet": "Cùng một câu, bản dịch vẫn có thể khác nhau Bạn dịch cùng một câu, nhưng mỗi lần hỏi trong một cuộc trò chuyện mới, cách diễn đạt lại hơi khác. Có ph...",
+      "authorName": "BG Kim",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5b100e526a26c1dc",
+      "title_vi": "FastAPI: Lưu trữ phiên đăng nhập với SessionMiddleware trong vòng 5 phút",
+      "title_en": "FastAPI: Storing User Login Sessions Using SessionMiddleware for 5 Minutes",
+      "summary_vi": [
+        "Bài viết hướng dẫn lập trình viên sử dụng SessionMiddleware của Starlette để quản lý trạng thái xác thực và lưu trữ phiên đăng nhập trực tiếp trên trình duyệt người dùng.",
+        "Hệ thống tận dụng cơ chế cookie đã ký mã hóa an toàn, cho phép máy chủ dễ dàng đọc đối tượng request.session để kiểm tra thời hạn hiệu lực trong khoảng thời gian năm phút.",
+        "Giải pháp này cung cấp một phương pháp tiếp cận gọn nhẹ và hiệu quả cho các ứng dụng web FastAPI mà không cần phụ thuộc vào cơ sở dữ liệu bên ngoài."
+      ],
+      "summary_en": [
+        "The article guides developers on using Starlette SessionMiddleware to manage authentication states and store user login sessions directly within browser cookies.",
+        "The system leverages secure signed cookie mechanisms, allowing servers to easily read the request.session object to verify expiration within a five-minute window.",
+        "This solution provides a lightweight and efficient approach for FastAPI web applications without relying on external databases for session persistence."
+      ],
+      "originalTitle": "FastAPI: lưu session đăng nhập bằng SessionMiddleware trong 5 phút",
+      "url": "https://viblo.asia/p/fastapi-luu-session-dang-nhap-bang-sessionmiddleware-trong-5-phut-XP4WE9nYL7G",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "FastAPI",
+        "Python",
+        "WebDevelopment",
+        "Security",
+        "Backend"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-21T22:24:16.000Z",
+      "contentSnippet": "SessionMiddleware của Starlette lưu trạng thái đăng nhập trong một cookie đã ký ở trình duyệt: sau khi đăng nhập, server chỉ cần đọc request.session l...",
+      "authorName": "Linh Fish Dev",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b19d201c432d8f8f",
+      "title_vi": "Tăng độ song song của MySQL CDC lên 8: Vì sao cả 8 reader cùng đọc một bảng?",
+      "title_en": "Increasing MySQL CDC Parallelism to 8: Why Are All 8 Readers Reading the Same Table?",
+      "summary_vi": [
+        "Bài viết phân tích một vấn đề phổ biến trong Apache SeaTunnel khi cấu hình độ song song của MySQL CDC lên tám luồng nhưng tất cả lại tập trung vào việc đọc một bảng dữ liệu đơn lẻ.",
+        "Tác giả đi sâu vào cơ chế phân chia công việc và thuật toán phân bổ bảng của công cụ đồng bộ hóa dữ liệu thời gian thực, giải quyết các điểm nghẽn hiệu năng thường gặp trong kiến trúc.",
+        "Giải pháp giúp các kỹ sư dữ liệu tối ưu hóa cấu hình hệ thống, nâng cao hiệu suất xử lý đường ống dữ liệu lớn và tránh lãng phí tài nguyên phần cứng máy chủ."
+      ],
+      "summary_en": [
+        "The article analyzes a common issue in Apache SeaTunnel when setting the MySQL CDC parallelism to eight threads while all workers end up reading a single table.",
+        "The author dives deep into the workload partitioning mechanism and table allocation algorithms of the real-time data synchronization tool to resolve architectural performance bottlenecks.",
+        "The solution helps data engineers optimize system configurations, enhance large-scale data pipeline processing efficiency, and prevent the wastage of server hardware resources."
+      ],
+      "originalTitle": "Tăng độ song song của MySQL CDC lên 8: Vì sao cả 8 reader cùng đọc một bảng?",
+      "url": "https://viblo.asia/p/tang-do-song-song-cua-mysql-cdc-len-8-vi-sao-ca-8-reader-cung-doc-mot-bang-AY4qQqbe4Pw",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "MySQL",
+        "CDC",
+        "Apache SeaTunnel",
+        "Data Engineering",
+        "Performance Tuning"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-21T21:28:35.000Z",
+      "contentSnippet": "Bạn đặt độ song song của MySQL CDC trong Apache SeaTunnel thành 8, cấu hình 12 bảng rồi nhận ra gần như mọi lượt đọc đều tập trung vào một bảng đơn hà...",
+      "authorName": "Daniel Nadia",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "ec1d3e2920fc8bd5",
       "title_vi": "Gian lận trong iGaming: các kiểu tấn công phổ biến và lớp kiểm soát bằng AI/ML, sinh trắc học",
@@ -98,6 +200,41 @@
       "publishedAt": "2026-11-21T18:00:00.000Z",
       "contentSnippet": "Với 1 triệu con số, Bubble Sort cần khoảng 500 tỷ phép so sánh. Merge Sort cần khoảng 20 triệu. Chênh nhau cỡ 25.000 lần. Không có mẹo tối ưu vi mô nà...",
       "authorName": "Dream",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "01820fe70fe74dad",
+      "title_vi": "Khung ảnh kỹ thuật số đầu tiên của Amazon giảm giá tới 50% trong dịp mua sắm Black Friday",
+      "title_en": "Amazon's first digital photo frame is up to 50 percent off for Black Friday",
+      "summary_vi": [
+        "Khung ảnh thông minh tích hợp trợ lý ảo của Amazon vừa ra mắt chưa đầy một tháng đã nhận được mức giảm giá lớn trong đợt mua sắm Black Friday, thu hút sự quan tâm của nhiều người dùng yêu thích công nghệ gia đình.",
+        "Thiết bị được trang bị màn hình cảm ứng mờ kích thước mười inch kết hợp các cảm biến ánh sáng tự động điều chỉnh độ sáng, đồng thời tích hợp trợ lý AI để phân loại và tìm kiếm ảnh bằng lệnh thoại một cách thông minh.",
+        "Sản phẩm mang lại trải nghiệm hiển thị hình ảnh trực quan kết hợp kho lưu trữ đám mây không giới hạn cho thành viên, tạo động lực thúc đẩy hệ sinh thái thiết bị phần cứng nhà thông minh phát triển mạnh mẽ hơn."
+      ],
+      "summary_en": [
+        "Amazon's newly announced smart assistant photo frame received a massive discount during Black Friday shortly after its initial launch, capturing significant interest from home technology enthusiasts everywhere.",
+        "The device features a ten-inch semi-matte touchscreen with automated brightness sensors, alongside integrated AI assistants that enable intelligent photo organization and voice-command searching capabilities.",
+        "This product delivers an intuitive visual display experience coupled with unlimited cloud storage for members, driving strong momentum for the continued growth of smart home hardware ecosystems."
+      ],
+      "originalTitle": "Amazon’s first digital photo frame is up to 50 percent off for Black Friday",
+      "url": "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "Smart Home",
+        "AI",
+        "Cloud Storage",
+        "Hardware",
+        "IoT"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-21T16:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268832_Amazon_Alexa_Frame_JTuohy_0011.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Amazon only announced its first digital photo frame less than a month ago, but it’s already getting a sizable discount for Black Friday. You can currently grab the Alexa Photo Frame at Amazon and Best Buy starting at $114 ($115 off), making it a great holiday gift for anyone who loves displaying fam",
+      "authorName": "Sheena Vasani",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -337,6 +474,41 @@
       "publishedAt": "2026-11-21T05:23:28.000Z",
       "contentSnippet": "Water damage crews track drying in grains per pound (GPP), not in relative humidity. Relative humidity moves every time the temperature moves. GPP is ...",
       "authorName": "Alex Alwood",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9fa124e997328ddc",
+      "title_vi": "Anthropic từ phòng thí nghiệm AI đến đế chế nghìn tỷ USD",
+      "title_en": "Anthropic from AI laboratory to trillion-dollar tech empire",
+      "summary_vi": [
+        "Công ty trí tuệ nhân tạo Anthropic được thành lập bởi bảy cựu nhân viên của OpenAI với tầm nhìn phát triển các hệ thống máy học an toàn và đáng tin cậy cho người dùng toàn cầu.",
+        "Doanh nghiệp đang đối mặt với những thách thức lớn trong việc duy trì cam kết nghiên cứu đạo đức AI trong khi vẫn phải đáp ứng áp lực thương mại hóa mạnh mẽ sau đợt phát hành cổ phiếu công khai.",
+        "Sự kiện này phản ánh bài toán nan giải của ngành công nghiệp phần mềm khi phải cân bằng giữa tốc độ tăng trưởng kinh tế thần tốc và trách nhiệm kiểm soát rủi ro an toàn công nghệ."
+      ],
+      "summary_en": [
+        "The artificial intelligence company Anthropic was founded by seven former OpenAI employees with a vision to develop safe and reliable machine learning systems for global users.",
+        "The enterprise is facing major challenges in maintaining its commitment to AI safety research while dealing with intense commercialization pressures following its public offering.",
+        "This event reflects the difficult dilemma in the software industry when trying to balance rapid economic growth rates with the responsibility of technological risk control."
+      ],
+      "originalTitle": "Anthropic - từ phòng thí nghiệm AI đến đế chế nghìn tỷ USD",
+      "url": "https://vnexpress.net/anthropic-tu-phong-thi-nghiem-ai-den-de-che-nghin-ty-usd-5147177.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Anthropic",
+        "OpenAI",
+        "Machine Learning",
+        "Tech Startups"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-21T05:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/21/2026t220550z-rc21roah5bkl-rtrm-7755-4046-1795194498.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=l_yWfibT_EQFVpq5fdyEpQ",
+      "contentSnippet": "Được thành lập với 7 cựu nhân viên OpenAI, Anthropic mong muốn phát triển trí tuệ nhân tạo an toàn, nhưng đang gặp thách thức với chính mục tiêu đó sau IPO.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8341,180 +8513,6 @@
       "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1%2Fbabb96d0-9cd2-49bc-a412-2dc4caf94c2a.png",
       "upvotes": 71,
       "commentsCount": 11
-    },
-    {
-      "id": "68f01e64632c6713",
-      "title_vi": "Apple thay đổi chính sách bảo mật iCloud: Người dùng cần lưu ý khi chia sẻ tệp",
-      "title_en": "Apple Quietly Modifies iCloud Privacy Policy for Shared Files and Photos",
-      "summary_vi": [
-        "Apple chuẩn bị triển khai những thay đổi quan trọng trong cách xử lý các tệp và hình ảnh được chia sẻ thông qua dịch vụ đám mây iCloud trên các phiên bản hệ điều hành sắp tới của hãng.",
-        "Cơ chế bảo mật đầu cuối sẽ không được duy trì đối với các nội dung được chia sẻ thông qua tùy chọn công khai đường dẫn, cho phép hệ thống kiểm tra và truy cập nội dung dễ dàng hơn.",
-        "Thay đổi này đòi hỏi người dùng và các kỹ sư hệ thống phải đặc biệt cẩn trọng với các tệp tin nhạy cảm khi sử dụng tính năng chia sẻ liên kết rộng rãi trong hệ sinh thái."
-      ],
-      "summary_en": [
-        "Apple is preparing to implement significant changes in how files and images shared via the iCloud cloud service are processed across the company's upcoming operating system versions.",
-        "End-to-end encryption mechanisms will no longer be maintained for content shared via public link options, allowing the system to inspect and access contents more easily.",
-        "This change requires users and system engineers to exercise extreme caution with sensitive files when utilizing widespread link-sharing features within the ecosystem."
-      ],
-      "originalTitle": "Apple âm thầm thay đổi chính sách bảo mật iCloud trên iOS mới: Người dùng cần biết điều này trước khi chia sẻ ảnh và file",
-      "url": "https://genk.vn/apple-am-tham-thay-doi-chinh-sach-bao-mat-icloud-tren-ios-moi-nguoi-dung-can-biet-dieu-nay-truoc-khi-chia-se-anh-va-file-165261109181508175.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "iCloud",
-        "Security",
-        "Apple",
-        "Privacy",
-        "Cloud"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-09T12:41:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/9/avatar1794222868367-179422286861999051184-0-156-540-1020-crop-1794222883079318366300.png",
-      "contentSnippet": "Đây là một thay đổi đáng kể so với các tuyên bố trước đây của Apple về việc bảo vệ quyền riêng tư của người dùng.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "49ecc52d2d24b657",
-      "title_vi": "Công nghệ phát hiện độ tuổi bằng trí tuệ nhân tạo của Instagram đang mở rộng trên toàn cầu",
-      "title_en": "Instagram's AI age detection is expanding globally",
-      "summary_vi": [
-        "Meta đang triển khai công nghệ ước tính độ tuổi sử dụng trí tuệ nhân tạo trên phạm vi toàn cầu để phát hiện thanh thiếu niên chưa khai báo đúng tuổi trên nền tảng mạng xã hội Instagram.",
-        "Hệ thống tự động quét các tín hiệu hành vi trực tuyến để xác định người dùng dưới mười tám tuổi và đưa họ vào chế độ bảo vệ tài khoản thanh thiếu niên với các thiết lập bảo mật nghiêm ngặt hơn.",
-        "Giải pháp này giúp các nền tảng mạng xã hội tuân thủ tốt hơn các quy định pháp lý về bảo vệ trẻ em, đồng thời nâng cao năng lực kiểm duyệt tự động dựa trên dữ liệu lớn và học máy."
-      ],
-      "summary_en": [
-        "Meta is globally deploying artificial intelligence-based age estimation technology to identify teenagers who have not correctly disclosed their age on the Instagram social media platform.",
-        "The system automatically scans online behavioral signals to identify users under eighteen years of age and places them into more restrictive teen account protection modes.",
-        "This solution helps social media platforms better comply with legal regulations regarding child protection while enhancing automated moderation capabilities driven by big data and machine learning."
-      ],
-      "originalTitle": "Instagram’s AI age detection is expanding globally",
-      "url": "https://www.theverge.com/tech/1029627/meta-instagram-ai-age-assurance-global-expansion",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Social Media",
-        "Security",
-        "Meta"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-09T12:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK070_INSTAGRAM__A.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Meta is globally expanding the age estimation technology it uses to find teenagers on Instagram who haven't correctly disclosed their age. The rollout will automatically place \"millions more teens on Instagram into Teen Account protections,\" according to Meta's announcement, after launching the AI-p",
-      "authorName": "Jess Weatherbed",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "738fb8efec577226",
-      "title_vi": "Thế giới ngầm của các cộng đồng chia sẻ dữ liệu BitTorrent",
-      "title_en": "The underground world of private BitTorrent trackers",
-      "summary_vi": [
-        "Bài viết khám phá thế giới bí ẩn của các cộng đồng chia sẻ dữ liệu BitTorrent riêng tư, nơi người dùng duy trì các kho lưu trữ kỹ thuật số khổng lồ thông qua các quy tắc nghiêm ngặt và hệ thống xếp hạng cộng đồng phức tạp.",
-        "Các nền tảng này sử dụng giao thức BitTorrent để quản lý dữ liệu, yêu cầu người dùng duy trì tỷ lệ tải lên và tải xuống nhất định, đồng thời áp dụng các kỹ thuật tự động hóa để tối ưu hóa việc lưu trữ và phân phối nội dung.",
-        "Dù đối mặt với rủi ro pháp lý từ các tổ chức bảo vệ bản quyền, các cộng đồng này đóng vai trò như những kho lưu trữ văn hóa số quan trọng, bảo tồn nhiều tài liệu hiếm mà các dịch vụ thương mại thường bỏ qua."
-      ],
-      "summary_en": [
-        "The article explores the mysterious world of private BitTorrent tracker communities, where users maintain massive digital archives through strict community rules and complex, gamified ranking systems that govern file sharing and data availability.",
-        "These platforms utilize the BitTorrent protocol to manage data, requiring users to maintain specific upload-to-download ratios while employing automated scripts and dedicated servers to optimize the storage and distribution of rare media files.",
-        "Despite facing significant legal risks from copyright enforcement agencies, these communities serve as vital digital archives, preserving cultural artifacts and rare media that are often neglected or unavailable on mainstream commercial streaming platforms."
-      ],
-      "originalTitle": "Torrent underground",
-      "url": "https://www.theverge.com/cs/features/1027614/torrent-movies-file-sharing-download-piracy",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "BitTorrent",
-        "Data Archiving",
-        "Cybersecurity",
-        "File Sharing",
-        "Digital Preservation"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-11-09T11:00:05.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268792_private_torrent_trackers_CVirginia_LEDE_bde354.gif?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "When Jane first heard about Memory and Imagination, a rare 1990s documentary about the Library of Congress, she was intrigued. But the Canadian writer in her 30s couldn’t find the movie anywhere — not on streaming services, not on YouTube, not on pirate sites — and her intrigue turned into obsession",
-      "authorName": "Janko Roettgers",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b323c49928ab0c1b",
-      "title_vi": "Nvidia thiếu phương án thay thế nếu CEO Jensen Huang bị miễn nhiệm",
-      "title_en": "Nvidia Lacks Contingency Plan If CEO Jensen Huang Is Dismissed",
-      "summary_vi": [
-        "Hãng sản xuất chip AI hàng đầu thế giới Nvidia đang đối mặt với rủi ro lớn khi Tổng giám đốc điều hành Jensen Huang vướng bê bối cá nhân và chưa có người kế nhiệm xứng tầm để chèo lái công ty.",
-        "Hội đồng quản trị đã tiến hành điều tra độc lập liên quan đến mối quan hệ mập mờ của ông Huang với cựu lãnh đạo Megaspeed, công ty đang bị Mỹ giám sát về nghi vấn hỗ trợ Bắc Kinh tiếp cận chip AI cấm xuất khẩu.",
-        "Sự cố này tạo sức ép cực lớn lên giá cổ phiếu và tâm lý nhà đầu tư, đặt ra thách thức nghiêm trọng về năng lực quản trị rủi ro và chiến lược phát triển toàn cầu của gã khổng lồ bán dẫn này."
-      ],
-      "summary_en": [
-        "Leading global AI chip manufacturer Nvidia is facing major risks as CEO Jensen Huang is embroiled in a personal scandal without a qualified successor to steer the company forward.",
-        "The board of directors launched an independent investigation regarding Huang's questionable relationship with a former Megaspeed executive, a company under US scrutiny over suspected shipments of restricted AI chips to Beijing.",
-        "This incident places immense pressure on stock prices and investor sentiment, raising serious challenges regarding risk management capabilities and the global growth strategy of the semiconductor giant."
-      ],
-      "originalTitle": "Nvidia thiếu phương án nếu Jensen Huang bị miễn nhiệm CEO",
-      "url": "https://vnexpress.net/nvidia-thieu-phuong-an-neu-jensen-huang-bi-mien-nhiem-ceo-5142459.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Nvidia",
-        "AI Chips",
-        "Semiconductor",
-        "Cybersecurity",
-        "Tech Governance"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-09T11:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/09/20180108t064606z2104981634rc12-3584-6797-1794206856.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=OoPtkZ8GziQVtrHLbKoa1g",
-      "contentSnippet": "Hãng chip AI hàng đầu thế giới Nvidia gặp rủi ro khi nhân vật chủ chốt CEO Jensen Huang vướng bê bối ngoại tình và chưa có người kế nhiệm.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "81b02f995beb1a51",
-      "title_vi": "Những điều thú vị có thể làm với máy chủ ảo hóa phiên bản cộng đồng máy tính lớn",
-      "title_en": "Fun things to do with your VM/370 CE machine – Fun with big computers",
-      "summary_vi": [
-        "Bài viết hướng dẫn cách tận dụng hệ điều hành máy chủ ảo hóa phiên bản cộng đồng, mang lại trải nghiệm máy tính lớn cổ điển nhưng được cải tiến toàn diện trên hệ thống hiện đại.",
-        "Bản phát hành này tích hợp hàng loạt cải tiến và vá lỗi quan trọng dựa trên nền tảng gốc, cho phép vận hành hiệu quả các tính năng tiên tiến dù bị giới hạn tài nguyên.",
-        "Giải pháp triển khai thông qua các công cụ container hóa hiện đại giúp lập trình viên dễ dàng thiết lập và khám phá kiến trúc hệ thống máy tính lịch sử một cách nhanh chóng."
-      ],
-      "summary_en": [
-        "The article explores how to utilize the community edition operating system for virtualized mainframe environments, offering a classic yet comprehensively upgraded computing experience.",
-        "This release integrates numerous critical improvements and bug fixes based on the original foundation, enabling efficient operation of advanced features despite resource constraints.",
-        "Deployment solutions using modern containerization tools allow developers to easily set up and explore historical computer system architectures quickly and efficiently."
-      ],
-      "originalTitle": "Fun things to do with your VM/370 CE machine – Fun with big computers",
-      "url": "https://rbanffy.github.io/fun-with-big-computers/fun-with-vm370/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Virtualization",
-        "Mainframe",
-        "Containers",
-        "DevOps",
-        "Operating Systems"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-09T10:11:47.000Z",
-      "contentSnippet": "This page assumes you have a machine (emulated or not) running the VM370 Community Edition OS available. There are a couple ways to get one, and you might want to choose the one that appeals to you the most (or the one that’s less work - it’s up to you). The Community Edition is a huge set of improv",
-      "authorName": "rbanffy",
-      "upvotes": 68,
-      "commentsCount": 8
     }
   ]
 }
