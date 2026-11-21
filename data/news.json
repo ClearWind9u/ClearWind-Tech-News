@@ -1,7 +1,209 @@
 {
-  "lastUpdated": "2026-11-21T04:55:36.667Z",
+  "lastUpdated": "2026-11-21T13:57:22.575Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "ec1d3e2920fc8bd5",
+      "title_vi": "Gian lận trong iGaming: các kiểu tấn công phổ biến và lớp kiểm soát bằng AI/ML, sinh trắc học",
+      "title_en": "Cheating in iGaming: common attack types and control layers using AI/ML, biometrics",
+      "summary_vi": [
+        "Ghi chú kỹ thuật từ đội ngũ Biometric.Vision.",
+        "Đây là bản tóm tắt và chuyển thể từ một bài viết trên blog của chúng tôi (xem nguồn ở cuối bài).",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Gian lận trong iGaming: các kiểu tấn công phổ biến và lớp kiểm soát bằng AI/ML, sinh trắc học."
+      ],
+      "summary_en": [
+        "Technical notes from the Biometric.Vision team.",
+        "This is a summary and adaptation of an article on our blog (see source at the end of the article).",
+        "Practical engineering impact and actionable takeaways for developers building with Cheating in iGaming: common attack types and control layers using AI/ML, biometrics."
+      ],
+      "originalTitle": "Gian lận trong iGaming: các kiểu tấn công phổ biến và lớp kiểm soát bằng AI/ML, sinh trắc học",
+      "url": "https://viblo.asia/p/gian-lan-trong-igaming-cac-kieu-tan-cong-pho-bien-va-lop-kiem-soat-bang-aiml-sinh-trac-hoc-k74a96wv4eO",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "MachineLearning"
+      ],
+      "hotScore": 87,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-21T19:51:53.000Z",
+      "contentSnippet": "Ghi chú kỹ thuật từ đội ngũ Biometric.Vision. Đây là bản tóm tắt và chuyển thể từ một bài viết trên blog của chúng tôi (xem nguồn ở cuối bài). Mọi số ...",
+      "authorName": "Biometric Vision",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c0b2f7c656b04c3c",
+      "title_vi": "Bẫy chi phí AWS: Sai lầm cấu hình Route Table gây lãng phí băng thông và mất tính sẵn sàng cao",
+      "title_en": "AWS Cost Trap: Misconfigured Route Tables Leading to Excessive Data Transfer Fees and Loss of Multi-AZ Redundancy",
+      "summary_vi": [
+        "Bài viết phân tích sai lầm phổ biến khi cấu hình Route Table trên AWS, nơi việc trỏ nhầm NAT Gateway giữa các Availability Zone khiến hệ thống phát sinh chi phí truyền tải dữ liệu không cần thiết.",
+        "Cơ chế kỹ thuật liên quan đến việc định tuyến lưu lượng mạng qua các vùng sẵn sàng khác nhau, dẫn đến việc tính phí dữ liệu liên vùng và làm suy yếu kiến trúc dự phòng đa vùng của hệ thống.",
+        "Kỹ sư cần kiểm tra kỹ cấu hình mạng để tối ưu hóa chi phí vận hành, đảm bảo tính sẵn sàng cao và tránh những lỗi thiết lập cơ bản nhưng gây hậu quả tài chính nghiêm trọng cho doanh nghiệp."
+      ],
+      "summary_en": [
+        "The article analyzes a common configuration error in AWS Route Tables where misdirecting NAT Gateway traffic across Availability Zones results in unnecessary and significant data transfer costs for cloud infrastructure.",
+        "Technical details involve network routing mechanisms that trigger cross-zone data charges, effectively undermining the multi-AZ redundancy strategy and increasing the overall complexity of the cloud environment's network architecture.",
+        "Engineers must rigorously audit network configurations to optimize operational expenses, maintain high availability standards, and prevent fundamental setup mistakes that lead to substantial financial impact on production cloud workloads."
+      ],
+      "originalTitle": "Bẫy chi phí AWS #07: Route NAT Gateway trỏ nhầm AZ, trả tiền mạng hai lần và mất multi-AZ",
+      "url": "https://viblo.asia/p/bay-chi-phi-aws-07-route-nat-gateway-tro-nham-az-tra-tien-mang-hai-lan-va-mat-multi-az-1XVOWB9PVMz",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "AWS",
+        "CloudCost",
+        "Networking",
+        "DevOps",
+        "Architecture"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-21T19:00:00.000Z",
+      "contentSnippet": "Bài này tiền tiết kiệm không phải lớn nhất series, nhưng là bài tôi muốn mọi team chạy production đọc kỹ. Một dòng route table copy nhầm khiến bạn trả...",
+      "authorName": "Dream",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b429abfe8a845ea8",
+      "title_vi": "Thuật toán & Cấu trúc dữ liệu #04: Merge Sort - chia để trị và hiệu năng vượt trội gấp 25.000 lần Bubble Sort",
+      "title_en": "Algorithms & Data Structures #04: Merge Sort - Divide and Conquer Strategy Outperforms Bubble Sort by 25,000x",
+      "summary_vi": [
+        "Bài viết phân tích sự khác biệt về hiệu năng giữa thuật toán sắp xếp Merge Sort và Bubble Sort khi xử lý tập dữ liệu lớn lên tới một triệu phần tử trong môi trường lập trình thực tế.",
+        "Với cơ chế chia để trị, Merge Sort chỉ cần khoảng 20 triệu phép so sánh, trong khi Bubble Sort tiêu tốn tới 500 tỷ phép so sánh, minh chứng cho sự tối ưu hóa vượt bậc của thuật toán hiện đại.",
+        "Việc lựa chọn thuật toán phù hợp không chỉ giúp tối ưu hóa tài nguyên hệ thống mà còn là kỹ năng cốt lõi giúp lập trình viên xây dựng các ứng dụng có khả năng mở rộng và hiệu suất cao."
+      ],
+      "summary_en": [
+        "The article analyzes the performance gap between Merge Sort and Bubble Sort algorithms when processing large datasets of up to one million elements within a practical software development environment.",
+        "Utilizing a divide and conquer strategy, Merge Sort requires only 20 million comparisons, whereas Bubble Sort consumes 500 billion, demonstrating the significant efficiency gains provided by modern algorithmic design.",
+        "Selecting the appropriate algorithm is essential for optimizing system resources and serves as a core skill for developers aiming to build scalable applications with high performance and reliability."
+      ],
+      "originalTitle": "Thuật toán & CTDL #04: Merge Sort - chia để trị và nhanh gấp ~25.000 lần Bubble Sort",
+      "url": "https://viblo.asia/p/thuat-toan-ctdl-04-merge-sort-chia-de-tri-va-nhanh-gap-25000-lan-bubble-sort-PoL7elqk4vk",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Algorithms",
+        "Data Structures",
+        "Merge Sort",
+        "Optimization",
+        "Programming"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-21T18:00:00.000Z",
+      "contentSnippet": "Với 1 triệu con số, Bubble Sort cần khoảng 500 tỷ phép so sánh. Merge Sort cần khoảng 20 triệu. Chênh nhau cỡ 25.000 lần. Không có mẹo tối ưu vi mô nà...",
+      "authorName": "Dream",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "86e18a843ee28eba",
+      "title_vi": "Điện thoại thông minh Air 2 lộ diện hình ảnh rò rỉ với cụm camera kép thay thế camera đơn",
+      "title_en": "Smartphone Air 2 Leaks Reveal Dual Camera Module Replacing Single Lens Design",
+      "summary_vi": [
+        "Những hình ảnh mới nhất được cho là của dòng điện thoại thông minh Air 2 vừa bất ngờ xuất hiện trên các trang mạng xã hội và diễn đàn công nghệ lớn.",
+        "Bức ảnh rò rỉ cho thấy thiết bị sở hữu mặt lưng màu đen nổi bật với cụm camera hình viên thuốc nằm ngang ở góc trên bên trái cùng hai ống kính lớn đặt song song.",
+        "Sự thay đổi về thiết kế phần cứng camera này cho thấy nhà sản xuất đang tập trung nâng cấp năng lực chụp ảnh và trải nghiệm quay phim trên dòng thiết bị di động thế hệ mới."
+      ],
+      "summary_en": [
+        "The latest leaked images allegedly belonging to the upcoming Air 2 smartphone have recently surfaced across various major social media platforms and technology forums.",
+        "The leaked photos reveal that the device features a striking black rear panel with a horizontal pill-shaped camera module positioned in the top-left corner housing two large parallel lenses.",
+        "This hardware design modification regarding the camera configuration indicates that the manufacturer is focusing heavily on upgrading photography capabilities and mobile videography experiences."
+      ],
+      "originalTitle": "iPhone Air 2 lộ ảnh: cụm camera kép thay camera đơn",
+      "url": "https://tinhte.vn/thread/iphone-air-2-lo-anh-cum-camera-kep-thay-camera-don.4194697/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Smartphone",
+        "Camera",
+        "Hardware",
+        "Mobile",
+        "TechLeaks"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-21T13:41:30.000Z",
+      "contentSnippet": "Những hình ảnh được cho là của iPhone Air 2 vừa xuất hiện trên mạng. Trong ảnh, mặt lưng máy màu đen có cụm camera hình viên thuốc nằm ngang ở góc trên bên trái, với hai ống kính lớn đặt cạnh nhau...",
+      "authorName": "osx",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9ea68e3c6324e9fc",
+      "title_vi": "Táo khuyết siết chặt quyền điều khiển của trợ lý AI bên ngoài và phát triển giải pháp độc quyền",
+      "title_en": "Apple Tightens Restrictions on Third-Party AI Agents and Develops Proprietary Solutions",
+      "summary_vi": [
+        "Trong phiên bản macOS mới nhất, việc tích hợp các trợ lý trí tuệ nhân tạo từ bên thứ ba như ChatGPT để điều khiển hệ thống đang bị siết chặt các quyền truy cập cấp hệ thống nhằm nâng cao mức độ kiểm soát.",
+        "Cơ chế phân quyền mới yêu cầu các tác vụ tự động hóa từ AI phải thông qua các lớp xác thực phức tạp hơn, hạn chế khả năng can thiệp sâu vào nhân hệ điều hành mà không có sự giám sát chặt chẽ.",
+        "Động thái này cho thấy chiến lược dài hạn của hãng trong việc tự phát triển các giải pháp trợ lý thông minh độc quyền, đảm bảo tính bảo mật và tối ưu hóa trải nghiệm người dùng toàn diện."
+      ],
+      "summary_en": [
+        "In the latest operating system version, the integration of third-party artificial intelligence assistants for system control is facing tighter permission restrictions to enhance security.",
+        "The new authorization mechanism requires automated tasks from external agents to pass through complex validation layers, limiting deep system interference without strict supervision.",
+        "This strategic shift highlights the company's long-term plan to develop proprietary intelligent assistant solutions, ensuring top-tier security and a seamless overall user experience."
+      ],
+      "originalTitle": "Apple siết agent bên ngoài, tự làm agent riêng",
+      "url": "https://tinhte.vn/thread/apple-siet-agent-ben-ngoai-tu-lam-agent-rieng.4194165/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Apple",
+        "AI Agent",
+        "macOS",
+        "Security",
+        "ChatGPT"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-21T13:38:06.000Z",
+      "contentSnippet": "Trong bản macOS 27.3 beta 2, việc cho ChatGPT hay một AI agent bên ngoài điều khiển máy Mac không còn gói gọn trong vài bước cấp quyền như trước. Mark Gurman của Bloomberg viết trên X rằng bật...",
+      "authorName": "TinhteUpdate",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "16c9b2c8b942287b",
+      "title_vi": "Tối ưu hóa công việc với tính năng AI trên hệ điều hành ColorOS 17 của OPPO",
+      "title_en": "Optimizing Productivity with AI Features on OPPO ColorOS 17",
+      "summary_vi": [
+        "Hệ điều hành ColorOS 17 trên các dòng điện thoại thông minh cao cấp của OPPO vừa tích hợp bộ công cụ trí tuệ nhân tạo mới nhằm hỗ trợ người dùng xử lý các tác vụ hàng ngày một cách nhanh chóng và hiệu quả hơn.",
+        "Các tính năng AI này tập trung vào việc tự động hóa quy trình tìm kiếm hình ảnh, lập kế hoạch du lịch và hỗ trợ thiết kế nội dung tương tác thông qua các câu lệnh ngôn ngữ tự nhiên giúp giảm thiểu đáng kể thao tác thủ công.",
+        "Việc ứng dụng AI sâu rộng vào giao diện người dùng cho thấy xu hướng chuyển dịch của các nhà sản xuất thiết bị di động trong việc biến smartphone thành trợ lý cá nhân thông minh thay vì chỉ là công cụ liên lạc đơn thuần."
+      ],
+      "summary_en": [
+        "The ColorOS 17 operating system on OPPO flagship smartphones has integrated a new suite of artificial intelligence tools designed to help users manage their daily tasks with significantly increased speed and operational efficiency.",
+        "These AI features focus on automating image retrieval processes, travel planning, and interactive content design through natural language prompts, effectively reducing the need for complex manual inputs and repetitive user interface interactions.",
+        "The deep integration of AI into the mobile user interface highlights a major shift among hardware manufacturers toward transforming smartphones into intelligent personal assistants rather than serving as mere communication devices for end users."
+      ],
+      "originalTitle": "Tìm ảnh cưới, lên plan du lịch, làm slide và cả website tương tác: OPPO AI trên ColorOS 17 giúp gì cho người bận rộn?",
+      "url": "https://genk.vn/tim-anh-cuoi-len-plan-du-lich-lam-slide-va-ca-website-tuong-tac-oppo-ai-tren-coloros-17-giup-gi-cho-nguoi-ban-ron-165261121191429949.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "AI",
+        "ColorOS",
+        "OPPO",
+        "Mobile Computing",
+        "Generative AI"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-21T13:13:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/21/avatar1795263008604-1795263009113892421597.jpg",
+      "contentSnippet": "Từ tìm ảnh đám cưới đến chuẩn bị bài học tương tác, AI trên OPPO Find X10 Pro Max hướng tới việc giảm thao tác bằng những yêu cầu quen thuộc, dễ diễn đạt.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "5122992220230461",
       "title_vi": "Bẫy chi phí AWS số sáu: Đặt cơ sở dữ liệu ở mạng công cộng vừa lộ lọt vừa tốn hơn sáu trăm đô la mỗi tháng",
@@ -8313,211 +8515,6 @@
       "authorName": "rbanffy",
       "upvotes": 68,
       "commentsCount": 8
-    },
-    {
-      "id": "74ca02b8eccd5530",
-      "title_vi": "Cấu trúc dữ liệu và Giải thuật Bài 133: Mã Prüfer và Định lý Cayley trong nén cây nhãn",
-      "title_en": "Data Structures and Algorithms Lesson 133: Prufer Code and Cayley's Theorem in Labeled Tree Compression",
-      "summary_vi": [
-        "Bài viết khám phá mã Prüfer và định lý Cayley trong lý thuyết đồ thị, giải quyết bài toán đếm và biểu diễn cây khung có nhãn một cách hiệu quả.",
-        "Kỹ thuật này cho phép chuyển đổi song ánh giữa một cây có nhãn và một dãy số nguyên độc lập, giúp tối ưu hóa việc lưu trữ cấu trúc dữ liệu.",
-        "Kiến thức này rất quan trọng đối với các kỹ sư phần mềm khi xử lý các bài toán tối ưu hóa mạng lưới, thuật toán đồ thị và cấu trúc dữ liệu phức tạp."
-      ],
-      "summary_en": [
-        "This article explores the Prufer code and Cayley's theorem in graph theory, effectively solving the problem of counting and representing labeled spanning trees.",
-        "The technique enables a bijective mapping between a labeled tree and a sequence of integers, significantly optimizing data structure storage efficiency.",
-        "This knowledge is crucial for software engineers when dealing with network optimization problems, graph algorithms, and complex data structures."
-      ],
-      "originalTitle": "Cấu trúc dữ liệu và Giải thuật Bài 133: Mã Prüfer (Prüfer Code & Định lý Cayley) - Kỹ thuật nén cấu trúc cây và bài toán đếm cây có nhãn.",
-      "url": "https://viblo.asia/p/cau-truc-du-lieu-va-giai-thuat-bai-133-ma-pruefer-pruefer-code-dinh-ly-cayley-ky-thuat-nen-cau-truc-cay-va-bai-toan-dem-cay-co-nhan-ZoJjej1y4Y7",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Algorithms",
-        "Data Structures",
-        "Graph Theory",
-        "Optimization"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-11-09T09:20:54.000Z",
-      "contentSnippet": "Trong lý thuyết đồ thị và tổ hợp đại số, bài toán xác định số lượng cây khung có nhãn (Labeled Trees) trên tập đỉnh là một cột mốc lịch sử. Năm 1889,...",
-      "authorName": "Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "5e98a633fba660e7",
-      "title_vi": "llms.txt là gì? Phân tích 1.240 Website: Vì sao 80% triển khai sai & Cách cấu hình chuẩn GEO cho ChatGPT, Perplexity (2026)",
-      "title_en": "What is llms.txt? Analyzing 1,240 Websites: Why 80% Fail Implementation & How to Configure GEO Standards for ChatGPT and Perplexity (2026)",
-      "summary_vi": [
-        "Sự chuyển dịch hành vi người dùng từ tìm kiếm truyền thống sang các mô hình AI như ChatGPT và Perplexity đang đặt ra yêu cầu cấp thiết cho các quản trị viên website trong việc tối ưu hóa dữ liệu để máy học dễ dàng truy xuất.",
-        "Nghiên cứu trên 1.240 trang web cho thấy 80% đơn vị đang triển khai tệp llms.txt sai cách, dẫn đến việc các trình thu thập dữ liệu AI không thể hiểu đúng cấu trúc nội dung, gây ảnh hưởng trực tiếp đến khả năng hiển thị thông tin.",
-        "Việc cấu hình chuẩn hóa tệp tin này không chỉ giúp cải thiện khả năng đọc hiểu của các mô hình ngôn ngữ lớn mà còn là chiến lược then chốt để duy trì lợi thế cạnh tranh trong kỷ nguyên tìm kiếm bằng trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "The shift in user behavior from traditional search engines to AI models like ChatGPT and Perplexity necessitates that website administrators optimize their data structures to ensure seamless retrieval and interpretation by advanced machine learning crawlers.",
-        "An analysis of 1,240 websites reveals that 80% have implemented the llms.txt file incorrectly, preventing AI agents from accurately parsing site content and significantly hindering the visibility of information within these emerging search ecosystems.",
-        "Standardizing this configuration is essential for enhancing the readability of web content by large language models, serving as a critical strategy for developers to maintain relevance and visibility in the evolving era of AI-driven search."
-      ],
-      "originalTitle": "llms.txt là gì? Phân tích 1.240 Website: Vì sao 80% triển khai sai & Cách cấu hình chuẩn GEO cho ChatGPT, Perplexity (2026)",
-      "url": "https://viblo.asia/p/llmstxt-la-gi-phan-tich-1240-website-vi-sao-80-trien-khai-sai-cach-cau-hinh-chuan-geo-cho-chatgpt-perplexity-2026-8X4EjW7BJN2",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "LLM",
-        "SEO",
-        "Web Development",
-        "Search Engine"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-11-09T09:15:59.000Z",
-      "contentSnippet": "Khi người dùng chuyển dần từ thói quen gõ từ khóa ngắn trên Google sang đặt câu hỏi trực tiếp cho ChatGPT Search (OAI-SearchBot), Perplexity (Perplexi...",
-      "authorName": "Nguyen Vy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "5f6f5759173d6c8f",
-      "title_vi": "Thời đại AI: Chúng ta phải làm gì để tồn tại? (Cảm ngộ khi sáng lập StreamPDF)",
-      "title_en": "The AI Era: How to Survive and Thrive? (Reflections from Founding StreamPDF)",
-      "summary_vi": [
-        "Bài viết phân tích tác động sâu rộng của cuộc cách mạng công nghiệp lần thứ tư do trí tuệ nhân tạo dẫn dắt, đặt ra câu hỏi về sự tồn vong của các kỹ sư và chuyên gia trong bối cảnh thị trường lao động công nghệ đang biến động mạnh mẽ.",
-        "Tác giả chia sẻ góc nhìn từ quá trình xây dựng StreamPDF, nhấn mạnh việc chuyển đổi từ tư duy lập trình truyền thống sang khả năng tận dụng các mô hình ngôn ngữ lớn để tối ưu hóa quy trình xử lý tài liệu và tự động hóa các tác vụ phức tạp.",
-        "Thông điệp cốt lõi hướng tới việc thích nghi thông qua tư duy giải quyết vấn đề thay vì chỉ tập trung vào kỹ năng viết mã thuần túy, giúp lập trình viên duy trì lợi thế cạnh tranh trong kỷ nguyên mà AI có thể thay thế các công việc lặp lại."
-      ],
-      "summary_en": [
-        "The article analyzes the profound impact of the fourth industrial revolution driven by artificial intelligence, questioning the survival of engineers and professionals amidst the rapidly shifting landscape of the technology labor market.",
-        "The author shares insights from building StreamPDF, emphasizing the shift from traditional programming mindsets to leveraging large language models for optimizing document processing workflows and automating complex technical tasks effectively.",
-        "The core message focuses on adapting through problem-solving mindsets rather than just coding skills, helping developers maintain a competitive edge in an era where AI can increasingly replace repetitive and routine technical tasks."
-      ],
-      "originalTitle": "Thời đại AI: Chúng ta phải làm gì để tồn tại? (Cảm ngộ khi sáng lập StreamPDF)",
-      "url": "https://viblo.asia/p/thoi-dai-ai-chung-ta-phai-lam-gi-de-ton-tai-cam-ngo-khi-sang-lap-streampdf-G24B8WAWLz3",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "AI",
-        "Startup",
-        "Software Engineering",
-        "Automation",
-        "Future of Work"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-11-09T08:38:37.000Z",
-      "contentSnippet": "Lời mở đầu AI được gọi là cuộc cách mạng công nghiệp lần thứ tư, vậy nó đã cướp đi sinh mạng của ai? Cách mạng, tức là sẽ có người chết. Cuộc cách...",
-      "authorName": "Jiang Xuan",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "2b216b43a4d422de",
-      "title_vi": "Megaspeed và vai trò trong chuỗi cung ứng chip Nvidia tỷ USD",
-      "title_en": "Megaspeed and its role in the multi-billion dollar Nvidia chip supply chain",
-      "summary_vi": [
-        "Công ty Megaspeed tại Singapore đang thu hút sự chú ý lớn từ dư luận sau khi xuất hiện thông tin liên quan đến các lô hàng nhập khẩu chip xử lý trí tuệ nhân tạo Nvidia trị giá hàng tỷ đô la.",
-        "Sự kiện này làm nổi bật tầm quan trọng của các kênh phân phối phần cứng bán dẫn cao cấp, đặc biệt trong bối cảnh nhu cầu tính toán hiệu năng cao cho các hệ thống trí tuệ nhân tạo đang tăng trưởng bùng nổ toàn cầu.",
-        "Việc kiểm soát chặt chẽ chuỗi cung ứng thiết bị phần cứng từ các nhà sản xuất lớn như Nvidia đóng vai trò quyết định đối với tốc độ phát triển và mở rộng cơ sở hạ tầng của các trung tâm dữ liệu hiện đại."
-      ],
-      "summary_en": [
-        "Megaspeed, a Singapore-based company, is attracting significant attention after emerging in reports concerning multi-billion dollar imports of Nvidia artificial intelligence processing chips.",
-        "This event highlights the critical importance of high-end semiconductor hardware distribution channels, especially amid the explosive global growth in high-performance computing demand for artificial intelligence systems.",
-        "Strict control over the hardware supply chain from major manufacturers like Nvidia plays a decisive role in the development speed and expansion of modern data center infrastructure."
-      ],
-      "originalTitle": "Megaspeed - công ty đứng sau những lô chip Nvidia tỷ USD",
-      "url": "https://vnexpress.net/megaspeed-cong-ty-dung-sau-nhung-lo-chip-nvidia-ty-usd-5142300.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Nvidia",
-        "Hardware",
-        "Semiconductor",
-        "AI",
-        "Supply Chain"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-09T04:15:55.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/09/imagecopy-1794194898-4199-1794195037.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=nhsdPMBAZ1kRkFb97GHKgQ",
-      "contentSnippet": "Megaspeed, công ty Singapore nhập khẩu những lô chip Nvidia trị giá tỷ USD, đang trở thành tâm điểm trong bê bối tình cảm giữa Jensen Huang và Alice Huang.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "313c0184a2be5a84",
-      "title_vi": "Tổng giám đốc Nvidia thừa nhận quan hệ cá nhân với cá nhân bị nghi là gián điệp, công ty mở cuộc điều tra độc lập",
-      "title_en": "Nvidia CEO admits personal relationship with suspected spy, company launches independent investigation",
-      "summary_vi": [
-        "Giám đốc điều hành Nvidia vừa gửi thư điện tử toàn thể nhân viên để thừa nhận mối quan hệ cá nhân với một cá nhân từng bị cơ quan tình báo Mỹ nghi ngờ là gián điệp Trung Quốc trong thời gian qua.",
-        "Sự việc liên quan đến vấn đề bảo mật thông tin và an ninh nội bộ tại một trong những tập đoàn công nghệ bán dẫn lớn nhất thế giới, đòi hỏi cơ chế kiểm soát truy cập dữ liệu nhạy cảm cực kỳ khắt khe.",
-        "Vụ việc đặt ra thách thức lớn về quản trị doanh nghiệp và quy trình kiểm tra an ninh đối với các lãnh đạo cấp cao trong các công ty công nghệ chiến lược có liên quan đến an ninh quốc gia."
-      ],
-      "summary_en": [
-        "The Chief Executive Officer of Nvidia recently sent an internal email to all employees acknowledging a personal relationship with an individual previously suspected by US intelligence agencies of being a Chinese spy.",
-        "This incident highlights critical information security and internal clearance concerns within one of the world's largest semiconductor giants, demanding rigorous access control mechanisms for sensitive technological data.",
-        "The situation poses significant governance challenges and highlights the necessity of strict security vetting processes for executive leadership across strategic technology corporations tied to national security."
-      ],
-      "originalTitle": "Jensen Huang thừa nhận ngoại tình với người bị tình báo Mỹ nghi là gián điệp Trung Quốc, Nvidia...",
-      "url": "https://tinhte.vn/thread/jensen-huang-thua-nhan-ngoai-tinh-voi-nguoi-bi-tinh-bao-my-nghi-la-gian-diep-trung-quoc-nvidia.4190725/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Nvidia",
-        "Security",
-        "Semiconductor",
-        "Leadership",
-        "Compliance"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-09T03:44:19.000Z",
-      "contentSnippet": "Jensen Huang thừa nhận ngoại tình với người bị tình báo Mỹ nghi là gián điệp Trung Quốc, Nvidia mở điều tra độc lập Jensen Huang vừa gửi email cho toàn bộ nhân viên Nvidia, thừa nhận ông đã có...",
-      "authorName": "nhatminhngo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a3f25cf2e5b4fb2c",
-      "title_vi": "Chuột không dây giá ba trăm nghìn đồng trang bị phím bấm tĩnh lặng, thời lượng pin một năm và tích hợp phím tắt trí tuệ nhân tạo",
-      "title_en": "Budget Wireless Mouse Priced Around Three Hundred Thousand VND Features Silent Switches, One Year Battery Life, and Dedicated AI Integration Button",
-      "summary_vi": [
-        "Thị trường thiết bị ngoại vi vừa đón nhận một mẫu chuột không dây phân khúc phổ thông có mức giá cực kỳ dễ tiếp cận khoảng ba trăm nghìn đồng nhưng sở hữu nhiều tính năng vượt trội so với tầm giá chung hiện nay.",
-        "Sản phẩm được trang bị thiết kế công thái học gọn nhẹ, tích hợp hệ thống phím bấm silent giảm tiếng ồn tối đa, hỗ trợ hai chế độ kết nối linh hoạt giữa máy tính để bàn và máy tính xách tay cùng nút bấm AI chuyên dụng.",
-        "Thiết bị mang lại giải pháp làm việc hiệu quả và tiết kiệm chi phí cho các kỹ sư công nghệ cùng lập trình viên thường xuyên phải di chuyển, đồng thời tối ưu hóa thao tác nhờ sự hỗ trợ đắc lực từ trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "The peripheral market has just welcomed an entry level wireless mouse priced at around three hundred thousand VND while offering advanced capabilities that far exceed its current standard market segment.",
-        "The device features a lightweight ergonomic design equipped with silent switch mechanisms to minimize noise, dual connection modes for desktops and laptops, and a dedicated artificial intelligence shortcut button.",
-        "This hardware solution delivers cost effective productivity enhancements for software engineers and developers who travel frequently while optimizing daily workflows through integrated artificial intelligence assistance."
-      ],
-      "originalTitle": "Chuột không dây giá chỉ 300.000 đồng: Thiết kế gọn nhẹ, có switch silent, pin 12 tháng lại còn tích hợp cả nút AI",
-      "url": "https://genk.vn/chuot-khong-day-gia-chi-300000-dong-thiet-ke-gon-nhe-co-switch-silent-pin-12-thang-lai-con-tich-hop-ca-nut-ai-165261109103753949.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Hardware",
-        "AI",
-        "Wireless Mouse",
-        "Peripherals",
-        "Tech Trends"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-11-09T03:37:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/9/genk-rapoo-m360-smart-12-1794194463984238853865-67-0-1067-1600-crop-17941953296062068952098.jpg",
-      "contentSnippet": "Một mẫu chuột nhỏ gọn nhẹ, nhiều nút bấm mà lại còn có 2 chế độ ghép nối, dùng được cho cả máy bàn lẫn laptop trong khi mức giá chỉ khoảng 300.000 đồng.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
     }
   ]
 }
