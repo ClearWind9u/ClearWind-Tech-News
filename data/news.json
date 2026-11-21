@@ -1,7 +1,109 @@
 {
-  "lastUpdated": "2026-11-20T23:31:21.609Z",
+  "lastUpdated": "2026-11-21T04:55:36.667Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "5122992220230461",
+      "title_vi": "Bẫy chi phí AWS số sáu: Đặt cơ sở dữ liệu ở mạng công cộng vừa lộ lọt vừa tốn hơn sáu trăm đô la mỗi tháng",
+      "title_en": "AWS Cost Trap Number Six: Placing databases in public subnets exposes them to the internet and wastes over six hundred dollars monthly",
+      "summary_vi": [
+        "Nhiều đội ngũ phát triển phần mềm trong giai đoạn đầu thường đặt cơ sở dữ liệu trực tiếp vào mạng công cộng để thuận tiện cho việc kết nối từ xa nhưng lại gây ra hậu quả nghiêm trọng về lãng phí tài chính.",
+        "Việc cấu hình mạng không an toàn này làm tăng đột biến chi phí đường truyền mạng lên hơn sáu trăm đô la mỗi tháng đồng thời tạo ra lỗ hổng bảo mật chết người trực tiếp phơi bày dữ liệu ra ngoài không gian mạng internet.",
+        "Bài học cốt lõi cho các kỹ sư DevOps và kiến trúc sư hệ thống là phải tuân thủ nghiêm ngặt nguyên tắc bảo mật mạng bằng cách đặt cơ sở dữ liệu vào mạng nội bộ riêng tư và sử dụng kênh kết nối an toàn."
+      ],
+      "summary_en": [
+        "Many software development teams in their early stages often place databases directly in public subnets for convenient remote connection which ultimately leads to severe financial waste and operational risks.",
+        "This insecure network configuration causes data transfer costs to spike over six hundred dollars every month while creating a critical security vulnerability that directly exposes sensitive data to the internet.",
+        "The core lesson for DevOps engineers and system architects is to strictly follow network security principles by placing databases inside private subnets and utilizing secure connection channels like VPNs."
+      ],
+      "originalTitle": "Bẫy chi phí AWS #06: Đặt database ở public subnet, vừa lộ ra Internet vừa tốn $636/tháng",
+      "url": "https://viblo.asia/p/bay-chi-phi-aws-06-dat-database-o-public-subnet-vua-lo-ra-internet-vua-ton-636thang-R5JRQrGz4Gv",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "AWS",
+        "Cloud Security",
+        "DevOps",
+        "Database",
+        "Cost Optimization"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-21T08:00:00.000Z",
+      "contentSnippet": "\"Để hết ở public subnet cho dễ, dev ở nhà cũng connect được.\" Câu này nghe quen ở nhiều team giai đoạn đầu. Kết quả là hơn $600 tiền mạng mỗi tháng, v...",
+      "authorName": "Dream",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c58f963f164bcaef",
+      "title_vi": "Xác định rõ phong cách nghệ thuật và bố cục trước khi tạo hình minh họa bằng trí tuệ nhân tạo cho tài liệu giáo dục",
+      "title_en": "Define Art Style and Composition Specifications Before Generating Educational Illustrations with AI",
+      "summary_vi": [
+        "Các hình minh họa trong tài liệu giảng dạy và bài viết kỹ thuật khác biệt hoàn toàn so với tranh ảnh nghệ thuật thông thường vì chúng cần truyền tải chính xác các bước thực hiện, linh kiện hoặc nhân vật cụ thể cho người đọc.",
+        "Việc chỉ nhập các câu lệnh chung chung vào công cụ sinh ảnh trí tuệ nhân tạo thường mang lại vẻ ngoài bắt mắt nhưng lại gây cản trở nghiêm trọng đến quá trình truyền đạt thông tin chuyên môn cần thiết.",
+        "Quy trình chuẩn hóa mới giúp các nhà sản xuất nội dung thiết lập trước các mục tiêu, phong cách đồ họa, khoảng trắng và độ chính xác kỹ thuật nhằm tối ưu hóa hiệu quả giảng dạy."
+      ],
+      "summary_en": [
+        "Illustrations in teaching materials and technical articles differ fundamentally from standard artwork because they must accurately guide readers through specific procedures, components, or characters.",
+        "Simply inputting generic prompts into artificial intelligence image generators often produces visually appealing results that severely hinder the delivery of necessary technical information.",
+        "A standardized workflow enables content creators to pre-define objectives, graphic styles, whitespace, and technical accuracy to optimize the overall effectiveness of educational media."
+      ],
+      "originalTitle": "教材の挿絵をAIで作る前に、画風と構図を仕様にする",
+      "url": "https://viblo.asia/p/教材の挿絵をaiで作る前に画風と構図を仕様にする-Nj4vg5l2J6r",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Generative AI",
+        "UI/UX",
+        "Content Creation",
+        "Technical Writing"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-21T07:34:39.000Z",
+      "contentSnippet": "授業プリントや技術記事の挿絵は、鑑賞用の一枚絵とは違います。読者がどの手順、部品、人物を見ればよいかを示す必要があります。AIイラスト生成に「かわいい絵」とだけ入力すると見栄えはよくても説明の邪魔になることがあります。制作担当者が使えるよう、目的、画風、余白、正確性を先に決める手順を紹介します。 ...",
+      "authorName": "Gazou AI",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e3f733b3476cb2b9",
+      "title_vi": "Danh sách kiểm tra chỉnh sửa hình ảnh bằng trí tuệ nhân tạo khi bạn muốn thay đổi nền ảnh",
+      "title_en": "AI Image Editing Checklist for Changing Backgrounds",
+      "summary_vi": [
+        "Bài viết đề cập đến giải pháp chỉnh sửa hình ảnh trực tuyến khi người dùng chỉ muốn thay đổi phần nền của sản phẩm mà vẫn giữ nguyên được đối tượng chính một cách hoàn hảo.",
+        "Kỹ thuật này áp dụng các mô hình trí tuệ nhân tạo để phân tách rõ ràng giữa đối tượng cần giữ lại và phần nền cần thay đổi, tránh tình trạng viền răng cưa hoặc mất chi tiết do cắt thủ công.",
+        "Phương pháp này mang lại giá trị thực tiễn cao cho các nhà phát triển và nhà thiết kế thương mại điện tử, giúp tự động hóa quy trình xử lý ảnh sản phẩm với độ chính xác và hiệu suất tối ưu."
+      ],
+      "summary_en": [
+        "The article discusses online image editing solutions when users want to change only the background of a product while keeping the main subject completely intact and pristine.",
+        "This technique leverages artificial intelligence models to clearly separate subjects from backgrounds, avoiding jagged edges or missing details typically caused by manual cropping methods.",
+        "The method delivers high practical value for developers and e-commerce designers by automating product image processing workflows with optimal accuracy and operational efficiency."
+      ],
+      "originalTitle": "写真の背景だけを変えたいときのAI画像編集チェックリスト",
+      "url": "https://viblo.asia/p/写真の背景だけを変えたいときのai画像編集チェックリスト-ymJXDM36Jkq",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Image Processing",
+        "Computer Vision",
+        "E-commerce",
+        "Automation"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-21T07:32:31.000Z",
+      "contentSnippet": "オンラインショップの商品写真を公開する直前、机の傷や背景の色だけが気になることがあります。画像全体を描き直せば被写体まで変わり、手作業で切り抜くと境界に不自然な縁が残る。そこで、編集対象と保持対象を明確にしたうえでAI画像編集を試します。単なるワンクリック補正ではなく、元画像と結果の差分を検証する工...",
+      "authorName": "Gazou AI",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "96971eb7ea034944",
       "title_vi": "Tính toán độ ẩm GPP trong JavaScript: Giải pháp kỹ thuật cho hệ thống sấy và hiệu chỉnh độ cao",
@@ -33,6 +135,144 @@
       "publishedAt": "2026-11-21T05:23:28.000Z",
       "contentSnippet": "Water damage crews track drying in grains per pound (GPP), not in relative humidity. Relative humidity moves every time the temperature moves. GPP is ...",
       "authorName": "Alex Alwood",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c6af11ed46b37617",
+      "title_vi": "Từ tháng 4/2027, ứng dụng Android không tối ưu cho máy gập sẽ không được cập nhật trên Google Play",
+      "title_en": "Starting April 2027, Android apps without foldable optimization will no longer be updated on Google Play",
+      "summary_vi": [
+        "Google vừa đưa ra quy định mới yêu cầu tất cả các ứng dụng Android phát hành trên kho ứng dụng Google Play phải đạt chuẩn tối ưu hóa tối thiểu cho thiết bị màn hình gập từ tháng 4 năm 2027.",
+        "Các ứng dụng không đạt tiêu chuẩn tối ưu hóa Tier 3 sẽ bị từ chối cập nhật hoặc phát hành mới, đồng thời có nguy cơ bị giảm khả năng hiển thị và tìm kiếm trên hệ thống cửa hàng trực tuyến.",
+        "Quyết định này buộc các lập trình viên và doanh nghiệp phần mềm phải nhanh chóng điều chỉnh kiến trúc giao diện, nâng cao khả năng thích ứng màn hình và cải thiện trải nghiệm người dùng trên các thiết bị di động thế hệ mới."
+      ],
+      "summary_en": [
+        "Google has announced a new policy requiring all Android applications published on Google Play to meet minimum optimization standards for foldable devices starting in April 2027.",
+        "Applications failing to meet Tier 3 optimization requirements will face rejection for updates or new releases, alongside potential demotion in search visibility and store rankings.",
+        "This mandates software engineers and development teams to promptly adapt their UI architectures, enhance screen responsiveness, and improve user experience across next-generation mobile hardware."
+      ],
+      "originalTitle": "Từ tháng 4/2027, app Android không tối ưu cho máy gập sẽ không được cập nhật trên Google Play",
+      "url": "https://tinhte.vn/thread/tu-thang-4-2027-app-android-khong-toi-uu-cho-may-gap-se-khong-duoc-cap-nhat-tren-google-play.4194421/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Android",
+        "Google Play",
+        "Mobile Development",
+        "UI/UX",
+        "Foldable Devices"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-21T04:14:24.000Z",
+      "contentSnippet": "Google vừa chốt: từ tháng 4/2027, app nào trên Google Play không đạt chuẩn tối ưu tối thiểu cho máy gập (Tier 3) sẽ không được phát hành hay cập nhật nữa, còn có thể bị giảm hiển thị trên cửa...",
+      "authorName": "Anh Tú.",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "21320799e387cc07",
+      "title_vi": "Hội đồng quản trị Nvidia từ chối khả năng Jensen Huang trở lại lãnh đạo tập đoàn",
+      "title_en": "Nvidia Board of Directors Rejects the Possibility of Jensen Huang Returning to Leadership",
+      "summary_vi": [
+        "Trong cuộc họp trực tuyến với các nhà phân tích Phố Wall, Chủ tịch Hội đồng quản trị Nvidia là Harvey C. Jones đã chính thức khẳng định tỷ phú Jensen Huang không có cơ hội quay lại nắm quyền điều hành tập đoàn công nghệ này.",
+        "Sự việc diễn ra sau một tuần chiến dịch vận động hành lang nhằm đưa nhà sáng lập áo da trở lại ghế nóng bất chấp việc ông từng bày tỏ sự vinh dự nếu được hội đồng quản trị tạo điều kiện cho phép tái gia nhập.",
+        "Quyết định kiên quyết từ phía hội đồng quản trị đánh dấu bước ngoặt lớn trong cấu trúc quản trị của hãng sản xuất vi mạch đồ họa hàng đầu thế giới, gây nhiều tranh luận sâu sắc trong cộng đồng công nghệ."
+      ],
+      "summary_en": [
+        "During a conference call with Wall Street analysts, Nvidia Chairman Harvey C. Jones firmly stated that billionaire Jensen Huang has no chance of returning to lead the technology corporation.",
+        "This development followed a week-long lobbying campaign aimed at bringing the iconic founder back to the top position, despite his previous statement expressing honor if the board permitted his reinstatement.",
+        "The board's decisive refusal marks a major turning point in the governance structure of the world's leading graphics semiconductor manufacturer, sparking intense discussions across the global tech community."
+      ],
+      "originalTitle": "\"Tất cả đã hết thật rồi\": Không có chuyện Jensen Huang về với NVIDIA, \"phép thuật\" của Elon Musk tan thành mây khói",
+      "url": "https://genk.vn/tat-ca-da-het-that-roi-khong-co-chuyen-jensen-huang-ve-voi-nvidia-phep-thuat-cua-elon-musk-tan-thanh-may-khoi-165261121090633811.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia",
+        "Jensen Huang",
+        "Semiconductor",
+        "Tech Leadership",
+        "AI Chips"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-21T02:40:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/21/avatar1795226780732-1795226781502547085215.webp",
+      "contentSnippet": "Trước khi Jensen Huang rời đi, người ta nghĩ rằng Nvidia sẽ chao đảo nhưng sự thực là công ty này rồi sẽ sống khỏe, thậm chí là sống tốt.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "486a48a22ab26cd5",
+      "title_vi": "Intel cắt giảm một phần nhân sự công nghệ thông tin toàn cầu trong đợt sa thải lớn",
+      "title_en": "Intel Lays Off Global IT Workforce Amid Massive Workforce Reduction",
+      "summary_vi": [
+        "Hãng sản xuất chip lớn của Mỹ là Intel đang tiến hành đợt điều chỉnh nhân sự quy mô lớn tại bộ phận công nghệ thông tin toàn cầu nhằm tối ưu hóa hoạt động.",
+        "Tổng số lượng nhân sự bị cắt giảm dưới thời lãnh đạo hiện tại đã chạm mốc 27.800 người, ảnh hưởng trực tiếp đến cấu trúc vận hành hạ tầng công nghệ.",
+        "Động thái này phản ánh xu hướng tái cấu trúc mạnh mẽ trong ngành bán dẫn, buộc các tập đoàn công nghệ phải tinh gọn bộ máy để vượt qua giai đoạn khó khăn."
+      ],
+      "summary_en": [
+        "US semiconductor giant Intel is implementing a large-scale workforce adjustment across its global information technology department to optimize operations.",
+        "The total number of laid-off employees under the current leadership has reached 27,800, directly impacting the operational structure of technology infrastructure.",
+        "This move reflects a strong restructuring trend in the semiconductor industry, forcing technology corporations to streamline their organizations to overcome challenges."
+      ],
+      "originalTitle": "Intel sa thải một phần nhân sự IT toàn cầu",
+      "url": "https://vnexpress.net/intel-sa-thai-mot-phan-nhan-su-it-toan-cau-5147238.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Intel",
+        "Semiconductor",
+        "IT Workforce",
+        "Tech Layoffs"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-21T02:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/20/lq-1795182966-5322-1795183023.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=v-UxWv9IZrcUuIqlyxaqoQ",
+      "contentSnippet": "Hàng loạt nhân viên tại bộ phận IT của Intel được cho là nằm trong diện điều chỉnh mới nhất, nâng số nhân sự bị cắt giảm của hãng chip Mỹ lên 27.800 người dưới thời CEO Lip-Bu Tan.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b29afa812869ba89",
+      "title_vi": "Phát hiện lỗ hổng bảo mật nghiêm trọng trong hệ thống tủ lạnh công nghiệp tại Anh",
+      "title_en": "Critical Security Vulnerabilities Discovered in Industrial Refrigeration Systems Across the UK",
+      "summary_vi": [
+        "Các chuyên gia bảo mật tại Anh vừa phát hiện lỗ hổng nghiêm trọng trong hệ thống tủ lạnh công nghiệp, sau khi hàng loạt thiết bị tương tự tại châu Âu bị tin tặc tấn công làm hỏng thực phẩm.",
+        "Lỗ hổng này cho phép kẻ tấn công truy cập trái phép vào hệ thống điều khiển nhiệt độ, từ đó thay đổi thông số vận hành từ xa, gây ra những thiệt hại kinh tế đáng kể cho các chuỗi siêu thị.",
+        "Sự cố này là lời cảnh báo đanh thép về an ninh mạng đối với các thiết bị IoT trong môi trường công nghiệp, đòi hỏi các doanh nghiệp phải ưu tiên kiểm thử bảo mật và cập nhật phần mềm thường xuyên."
+      ],
+      "summary_en": [
+        "Security experts in the UK have identified critical vulnerabilities in industrial refrigeration systems, following a series of cyberattacks across Europe that caused significant spoilage of food products in major supermarket chains.",
+        "The flaw allows unauthorized actors to gain remote access to temperature control systems, enabling them to manipulate operational parameters and cause severe economic damage to businesses relying on these connected cooling infrastructures.",
+        "This incident serves as a stark warning regarding the security of IoT devices in industrial environments, emphasizing the urgent need for rigorous penetration testing and consistent firmware updates to mitigate cyber threats."
+      ],
+      "originalTitle": "Anh phát hiện lỗ hổng bảo mật trong hệ thống tủ lạnh",
+      "url": "https://vnexpress.net/anh-phat-hien-lo-hong-bao-mat-trong-he-thong-tu-lanh-5147268.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Cybersecurity",
+        "IoT",
+        "Vulnerability",
+        "IndustrialControlSystems",
+        "NetworkSecurity"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-21T01:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/21/2026t145838z-rc2pfoa1mgiv-rtrm-9868-2566-1795198120.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=MSeBlHGcJ6_grRXG7EMGsw",
+      "contentSnippet": "Các chuyên gia Anh phát hiện lỗ hổng bảo mật trong hệ thống tủ lạnh, sau khi thiết bị tương tự ở nhiều nước châu Âu bị tin tặc tấn công.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8276,247 +8516,6 @@
       "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/9/genk-rapoo-m360-smart-12-1794194463984238853865-67-0-1067-1600-crop-17941953296062068952098.jpg",
       "contentSnippet": "Một mẫu chuột nhỏ gọn nhẹ, nhiều nút bấm mà lại còn có 2 chế độ ghép nối, dùng được cho cả máy bàn lẫn laptop trong khi mức giá chỉ khoảng 300.000 đồng.",
       "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "c658e5d0eba57a4c",
-      "title_vi": "Looki L1: Đeo camera AI vài tháng, tôi có cuốn nhật ký hoạt hình sống động",
-      "title_en": "Looki L1: Wearing an AI Camera for Months Yielded an Animated Diary",
-      "summary_vi": [
-        "Thiết bị đeo thông minh Looki L1 tích hợp camera AI được người dùng trải nghiệm thực tế trong nhiều tháng để ghi lại toàn bộ các hoạt động thường ngày diễn ra xung quanh một cách tự động và liên tục.",
-        "Hệ thống trí tuệ nhân tạo phía sau thiết bị xử lý dữ liệu hình ảnh thu thập được, tự động chuyển đổi các khoảnh khắc đời thường thành một cuốn nhật ký dưới dạng hoạt hình sinh động.",
-        "Giải pháp này mở ra hướng đi mới cho các thiết bị phần cứng tích hợp AI cá nhân hóa, giúp người dùng lưu giữ kỷ niệm một cách sáng tạo mà không tốn công sức quay dựng thủ công."
-      ],
-      "summary_en": [
-        "The smart wearable device Looki L1 integrating an AI camera was practically experienced by users for months to automatically and continuously record daily activities occurring around them.",
-        "The artificial intelligence system behind the device processes the collected image data, automatically transforming ordinary moments into a vivid animated diary format.",
-        "This solution opens up a new direction for personalized AI-integrated hardware devices, helping users preserve memories creatively without manual editing efforts."
-      ],
-      "originalTitle": "Looki L1: đeo camera AI vài tháng, mình có cuốn nhật ký hoạt hình",
-      "url": "https://tinhte.vn/thread/looki-l1-deo-camera-ai-vai-thang-minh-co-cuon-nhat-ky-hoat-hinh.4190792/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Wearables",
-        "Computer Vision",
-        "Smart Devices",
-        "Generative AI"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-09T03:25:26.000Z",
-      "contentSnippet": "Mấy tháng nay mình đeo Looki L1 trên ngực để nó ghi lại một ngày của mình, rồi để AI vẽ lại thành nhật ký hoạt hình. Mình không cần video đẹp. Thứ mình giữ lại là cả trăm khoảnh khắc nhỏ, từ quán...",
-      "authorName": "cuhiep",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "20b1c0b8f409e69c",
-      "title_vi": "Vụ việc tại Singapore và lý do hãng sản xuất chip Nvidia phải tiến hành điều tra chính tổng giám đốc điều hành của mình",
-      "title_en": "The Singapore Incident and Why Nvidia Had to Investigate Its Own Chief Executive Officer",
-      "summary_vi": [
-        "Sự việc bắt đầu từ một bài báo điều tra chuyên sâu của tờ New York Times kéo dài mười ngày, dẫn đến quyết định buộc tập đoàn công nghệ khổng lồ Nvidia phải công khai thư xin lỗi gửi toàn thể nhân viên công ty.",
-        "Báo cáo tập trung làm rõ các vấn đề liên quan đến quy trình quản trị doanh nghiệp, tính minh bạch trong chuỗi cung ứng linh kiện bán dẫn và trách nhiệm giải trình của lãnh đạo cấp cao trong bối cảnh bùng nổ trí tuệ nhân tạo.",
-        "Bài học rút ra cho ngành công nghệ là tầm thiết yếu của việc thiết lập hệ thống kiểm soát nội bộ vững chắc, giúp ngăn ngừa rủi ro đạo đức nghề nghiệp và duy trì niềm tin vững bền từ cộng đồng kỹ thuật toàn cầu."
-      ],
-      "summary_en": [
-        "The controversy stemmed from a ten-day investigative report by the New York Times, culminating in a formal apology letter sent by semiconductor giant Nvidia to all employees across the entire organization.",
-        "The report focused on clarifying issues regarding corporate governance practices, transparency within the hardware supply chain, and executive accountability amidst the unprecedented global boom in artificial intelligence infrastructure.",
-        "A critical takeaway for the tech industry is the absolute necessity of establishing robust internal control systems to prevent ethical risks and maintain enduring trust within the global engineering community."
-      ],
-      "originalTitle": "Người phụ nữ ở Singapore và lý do Nvidia phải điều tra chính CEO của mình",
-      "url": "https://genk.vn/nguoi-phu-nu-o-singapore-va-ly-do-nvidia-phai-dieu-tra-chinh-ceo-cua-minh-165261109085411571.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Nvidia",
-        "Semiconductor",
-        "Leadership",
-        "Governance",
-        "TechNews"
-      ],
-      "hotScore": 91,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-11-09T02:12:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/9/avanvidiahuang16x10-1794186937505293022864.jpg",
-      "contentSnippet": "10 ngày từ bài báo của New York Times tới lá thư xin lỗi gửi toàn công ty.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b414d450688324f8",
-      "title_vi": "Thái Lan tạm dừng hàng loạt dự án trung tâm dữ liệu AI do lo ngại thiếu nguồn điện và nước",
-      "title_en": "Thailand Halts Multiple AI Data Center Projects Due to Electricity and Water Shortage Concerns",
-      "summary_vi": [
-        "Thái Lan vừa đưa ra quyết định tạm dừng bốn mươi chín trung tâm dữ liệu đang trong quá trình xây dựng cùng một trăm mười bảy hồ sơ chờ phê duyệt để tiến hành rà soát kỹ lưỡng các yêu cầu về điện năng, nguồn nước và tác động môi trường.",
-        "Việc bùng nổ các hạ tầng tính toán trí tuệ nhân tạo đòi hỏi công suất khổng lồ, khiến nhiều quốc gia đối mặt với áp lực quá tải lưới điện cục bộ và bắt buộc phải tái cấu trúc phương án cung cấp năng lượng tái tạo dài hạn.",
-        "Sự kiện này gióng lên hồi chuông cảnh báo cho các kỹ sư hệ thống và kiến trúc sư hạ tầng về bài toán tối ưu hóa năng lượng, đòi hỏi các giải pháp phần cứng lẫn phần mềm tiết kiệm điện năng hơn trong kỷ nguyên AI."
-      ],
-      "summary_en": [
-        "Thailand has decided to temporarily suspend forty nine data centers currently under construction alongside one hundred seventeen pending applications to thoroughly review electricity, water and environmental requirements.",
-        "The surge in artificial intelligence computing infrastructure demands massive power capacity, putting pressure on local power grids and forcing nations to restructure their long term renewable energy supply plans.",
-        "This event serves as a wake up call for system engineers and infrastructure architects regarding energy optimization, demanding more power efficient hardware and software solutions in the AI era."
-      ],
-      "originalTitle": "Thái Lan dừng 166 dự án trung tâm dữ liệu AI vì lo thiếu điện nước",
-      "url": "https://genk.vn/thai-lan-dung-166-du-an-trung-tam-du-lieu-ai-vi-lo-thieu-dien-nuoc-165261109081839992.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "AI",
-        "Data Center",
-        "Cloud Infrastructure",
-        "Energy Efficiency"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-09T01:59:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/9/avatar1794187099948-17941871010102069778551.jpg",
-      "contentSnippet": "Thái Lan tạm dừng 49 dự án đang xây và 117 hồ sơ chờ phê duyệt để rà soát yêu cầu về điện, nước và môi trường. Tại Scotland, một dự án trung tâm dữ liệu AI quy mô 500 MW cũng phải điều chỉnh cách cấp điện so với kế hoạch năng lượng tái tạo ban đầu.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "5c91c386677b0bcd",
-      "title_vi": "Mở khóa hầu hết các dòng xe ô tô của một hãng lớn trên toàn thế giới thông qua lỗ hổng hệ thống mạng",
-      "title_en": "Unlocking any car from X brand in most of the world",
-      "summary_vi": [
-        "Bài viết nghiên cứu chuyên sâu về lỗ hổng bảo mật trong nền tảng xe hơi kết nối Internet của một nhà sản xuất ô tô lớn trên toàn cầu.",
-        "Tác giả phối hợp cùng chuyên gia Sam Curry tiến hành phân tích mã nguồn ứng dụng di động, giải mã các yêu cầu API giao tiếp với hạ tầng đám mây và hệ thống từ xa.",
-        "Phát hiện này gióng lên hồi chuông cảnh báo về rủi ro an ninh mạng đối với các ứng dụng điều khiển phương tiện thông minh kết nối trực tiếp với internet hiện nay."
-      ],
-      "summary_en": [
-        "The article provides an in-depth security analysis of the connected car platform belonging to a major global automotive manufacturer.",
-        "The author collaborated with expert Sam Curry to decompile the mobile application and reconstruct the API requests communicating with remote cloud infrastructure.",
-        "This critical finding raises serious cybersecurity awareness regarding the inherent risks in smart vehicle control applications connected directly to the internet."
-      ],
-      "originalTitle": "Unlocking any car from X brand in most of the world",
-      "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "API Security",
-        "Mobile App",
-        "Automotive",
-        "Reverse Engineering"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-11-09T00:10:50.000Z",
-      "contentSnippet": "I've always had a soft spot for this particular car brand. Our family has owned a few of them over the years, and they've served us incredibly well. In 2023, I bought a new four wheel drive/SUV from them, and it was the first time I had access to their connected car platform. Having looked at platfo",
-      "authorName": "infosecau",
-      "upvotes": 130,
-      "commentsCount": 46
-    },
-    {
-      "id": "f0be6325bfc4dec9",
-      "title_vi": "Nvidia mở cuộc điều tra về mối quan hệ cá nhân của CEO Jensen Huang",
-      "title_en": "Nvidia launches investigation into CEO Jensen Huang's personal relationship",
-      "summary_vi": [
-        "Tập đoàn Nvidia vừa chính thức khởi động cuộc điều tra nội bộ liên quan đến mối quan hệ cá nhân của CEO Jensen Huang với một nữ giám đốc điều hành trong lĩnh vực trí tuệ nhân tạo.",
-        "Sự việc diễn ra trong bối cảnh công ty đang đẩy mạnh sản xuất dòng chip Rubin thế hệ mới nhằm phục vụ các mô hình AI nền tảng cho robot tại thị trường Nhật Bản với số lượng lớn.",
-        "Vụ bê bối này đặt ra những thách thức về quản trị doanh nghiệp và an ninh thông tin, có thể ảnh hưởng đến uy tín của Nvidia trong việc duy trì các mối quan hệ đối tác chiến lược quốc tế."
-      ],
-      "summary_en": [
-        "Nvidia Corporation has officially launched an internal investigation regarding the personal relationship between CEO Jensen Huang and a female executive operating within the artificial intelligence sector amid growing corporate governance concerns.",
-        "The incident coincides with the company's strategic push to manufacture 27,500 next-generation Rubin chips, which are intended to power foundational AI models for robotics applications in the Japanese market.",
-        "This scandal presents significant challenges for corporate leadership and information security, potentially impacting Nvidia's reputation and its ability to maintain critical international strategic partnerships in the competitive semiconductor industry."
-      ],
-      "originalTitle": "Here’s the full text of Jensen Huang’s memo to Nvidia",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Nvidia",
-        "AI",
-        "Semiconductor",
-        "Corporate Governance",
-        "Jensen Huang"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-08T22:54:50.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2285784039.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Jensen Huang, chief executive officer of Nvidia Corp., attends a media briefing following the company's \"Japan AI Ecosystem\" reception in Tokyo, Japan, on Thursday, July 16, 2026. Japan is planning to buy 27,500 next-generation Rubin chips from Nvidia Corp. to build a homegrown foundational AI model",
-      "authorName": "Terrence O’Brien",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "cce9b0398069673d",
-      "title_vi": "Nvidia điều tra nguy cơ CEO Jensen Huang bị gián điệp nhắm mục tiêu",
-      "title_en": "Nvidia Investigates Potential Foreign Intelligence Targeting CEO Jensen Huang",
-      "summary_vi": [
-        "Công ty công nghệ bán dẫn hàng đầu Nvidia đang tiến hành điều tra khẩn cấp sau khi có thông tin cho rằng giám đốc điều hành Jensen Huang có thể đã trở thành mục tiêu trong một chiến dịch tình báo nước ngoài phức tạp.",
-        "Vụ việc làm dấy lên những lo ngại nghiêm trọng về các lỗ hổng bảo mật cấp cao, đặc biệt liên quan đến việc bảo vệ thông tin độc quyền và dữ liệu chiến lược trong ngành công nghiệp vi mạch và trí tuệ nhân tạo.",
-        "Sự cố này đặt ra bài học đắt giá về an ninh mạng và an toàn thông tin cá nhân cho các nhà lãnh đạo công nghệ lớn, nhấn mạnh sự cần thiết phải thắt chặt kiểm soát an ninh đối với các yếu nhân."
-      ],
-      "summary_en": [
-        "Leading semiconductor giant Nvidia is conducting an urgent investigation following reports that chief executive Jensen Huang may have become the target of a sophisticated foreign intelligence operation.",
-        "This incident raises serious concerns regarding high-level security vulnerabilities, specifically related to the protection of proprietary information and strategic data within the microchip and artificial intelligence industry.",
-        "The event serves as a critical lesson on cybersecurity and personal information security for major tech leaders, emphasizing the need to tighten security controls surrounding key executives."
-      ],
-      "originalTitle": "CEO Nvidia thừa nhận không chung thủy với vợ",
-      "url": "https://vnexpress.net/ceo-nvidia-thua-nhan-khong-chung-thuy-voi-vo-5142241.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Cybersecurity",
-      "tags": [
-        "Nvidia",
-        "Cybersecurity",
-        "Semiconductor",
-        "Jensen Huang",
-        "Security"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-08T22:32:21.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/09/Nvidia-jpeg-1794177036-2872-1794177089.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=lU_1xPiTfvlAB1cQ8Q8gPQ",
-      "contentSnippet": "Nvidia cho biết đang điều tra khả năng CEO Jensen Huang trở thành mục tiêu của một chiến dịch tình báo nước ngoài, sau khi ông thừa nhận không chung thủy với vợ.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "fcf957b0192a51b2",
-      "title_vi": "JavaScript: Chạy nhiều promise cùng lúc bằng Promise.allSettled — Một lỗi không làm hỏng cả lô",
-      "title_en": "JavaScript: Running Multiple Promises Concurrently with Promise.allSettled — Preventing Single Failures from Breaking the Batch",
-      "summary_vi": [
-        "Khi phát triển ứng dụng web hiện đại, lập trình viên thường xuyên phải thực hiện nhiều yêu cầu gọi API bất đồng bộ độc lập cùng lúc để hiển thị dữ liệu tổng hợp trên một giao diện trang tổng quan phức tạp.",
-        "Phương thức Promise.allSettled trong JavaScript cung cấp một cơ chế xử lý mạnh mẽ cho phép chờ đợi tất cả các tác vụ hoàn thành bất kể trạng thái thành công hay thất bại mà không bị dừng đột ngột giữa chừng.",
-        "Việc áp dụng giải pháp này giúp cải thiện đáng kể độ ổn định của hệ thống phía người dùng, ngăn chặn tình trạng sập toàn bộ giao diện khi chỉ một vài dịch vụ phụ trợ gặp sự cố mạng hoặc lỗi."
-      ],
-      "summary_en": [
-        "When developing modern web applications, developers frequently need to execute multiple independent asynchronous API requests simultaneously to display aggregated data on complex dashboard interfaces.",
-        "The Promise.allSettled method in JavaScript provides a robust handling mechanism that allows waiting for all tasks to complete regardless of their fulfillment or rejection status without early termination.",
-        "Applying this solution significantly improves client-side system stability, preventing entire user interfaces from crashing when only a few backend services encounter network issues or unexpected errors."
-      ],
-      "originalTitle": "JavaScript: chạy nhiều promise cùng lúc bằng Promise.allSettled — một lỗi không làm hỏng cả lô",
-      "url": "https://viblo.asia/p/javascript-chay-nhieu-promise-cung-luc-bang-promiseallsettled-mot-loi-khong-lam-hong-ca-lo-wd43ExwKLX9",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "JavaScript",
-        "Promises",
-        "Web Development",
-        "Asynchronous",
-        "Frontend"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-08T22:18:57.000Z",
-      "contentSnippet": "Khi cần gọi nhiều API độc lập cùng lúc — ví dụ lấy thông tin người dùng, danh sách bài viết và số liệu thống kê cho một trang dashboard — Promise.allS...",
-      "authorName": "Linh Fish Dev",
       "upvotes": 0,
       "commentsCount": 0
     }
