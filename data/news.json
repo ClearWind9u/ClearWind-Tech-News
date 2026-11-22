@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-11-21T22:38:18.057Z",
+  "lastUpdated": "2026-11-22T04:14:47.380Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "1e9dae403adba253",
+      "title_vi": "Đồng bộ hóa video tạo bởi AI với giọng nói được nhân bản và các ghi chú quy trình từ bộ phim AI dài 1 phút 46 giây",
+      "title_en": "Retiming generated video to a cloned voice, and other pipeline notes from a 1:46 AI film",
+      "summary_vi": [
+        "Bài viết chia sẻ toàn bộ quy trình sản xuất một bộ phim ngắn dài một phút bốn mươi sáu giây hoàn toàn bằng trí tuệ nhân tạo mà không sử dụng bất kỳ cảnh quay thực tế nào từ máy quay truyền thống.",
+        "Kỹ thuật xử lý phức tạp bao gồm việc đồng bộ hóa khung hình video được tạo ra với âm thanh giọng nói nhân bản, đảm bảo tính khớp nối chính xác giữa hình ảnh chuyển động và lời thoại nhân vật.",
+        "Giải pháp này cung cấp cái nhìn thực tiễn về cách xây dựng đường ống xử lý nội dung đa phương tiện tự động hóa, mở ra tiềm năng lớn cho các nhà phát triển ứng dụng công nghệ truyền thông."
+      ],
+      "summary_en": [
+        "The article shares the entire production pipeline for a one minute and forty six seconds short film generated entirely by artificial intelligence without using any traditional camera footage.",
+        "Complex processing techniques involve retiming generated video frames to match cloned voice audio, ensuring precise synchronization between moving images and character dialogue.",
+        "This solution provides practical insights into building automated multimedia processing pipelines, unlocking significant potential for developers working in media technology applications."
+      ],
+      "originalTitle": "Retiming generated video to a cloned voice, and other pipeline notes from a 1:46 AI film",
+      "url": "https://viblo.asia/p/retiming-generated-video-to-a-cloned-voice-and-other-pipeline-notes-from-a-146-ai-film-y0VGwQKyVPA",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Generative Video",
+        "Voice Cloning",
+        "Media Pipeline"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-22T08:14:34.000Z",
+      "contentSnippet": "A film with no footage still needs a pipeline. Ours produced a 1:46 launch film from three kinds of input, none of them filmed: shots from generativ...",
+      "authorName": "Support Wiro",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e558104268d29120",
+      "title_vi": "Bẫy chi phí AWS: Gắn Lambda vào VPC gây phát sinh chi phí NAT Gateway ngoài dự kiến",
+      "title_en": "The AWS Cost Trap: Connecting Lambda to VPC Triggers Unexpected NAT Gateway Charges",
+      "summary_vi": [
+        "Việc triển khai AWS Lambda trong môi trường VPC thường được khuyến nghị để tăng cường bảo mật cho hệ thống, tuy nhiên hành động này vô tình tạo ra một lỗ hổng chi phí lớn nếu không được cấu hình đúng cách.",
+        "Khi Lambda nằm trong VPC, nó yêu cầu NAT Gateway để truy cập internet, dẫn đến việc phát sinh chi phí vận hành hàng tháng lên tới hơn 200 USD cho mỗi tài nguyên được triển khai trong kiến trúc đám mây.",
+        "Các kỹ sư cần cân nhắc kỹ lưỡng giữa yêu cầu bảo mật mạng và chi phí vận hành thực tế, đồng thời xem xét các giải pháp thay thế như VPC Endpoints để tối ưu hóa hóa đơn hàng tháng cho doanh nghiệp."
+      ],
+      "summary_en": [
+        "Deploying AWS Lambda within a VPC is frequently recommended to enhance system security, yet this architectural decision can inadvertently create a significant financial burden if not managed with proper cost awareness.",
+        "Placing Lambda inside a VPC necessitates the use of a NAT Gateway for internet access, which results in recurring monthly operational costs exceeding 200 USD for each resource deployed within the cloud infrastructure.",
+        "Engineers must carefully balance network security requirements against actual operational expenses, while exploring alternatives like VPC Endpoints to effectively optimize monthly cloud bills for their respective organizations and development projects."
+      ],
+      "originalTitle": "Bẫy chi phí AWS #08: Gắn Lambda vào VPC cho an toàn, hóa đơn thêm $204/tháng tiền NAT",
+      "url": "https://viblo.asia/p/bay-chi-phi-aws-08-gan-lambda-vao-vpc-cho-an-toan-hoa-don-them-204thang-tien-nat-XRJ8RYq9VGq",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "AWS",
+        "Lambda",
+        "VPC",
+        "CloudCost",
+        "DevOps"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-22T08:00:00.000Z",
+      "contentSnippet": "\"Cho Lambda vào VPC đi, trong VPC an toàn hơn.\" Nghe rất hợp lý, và tôi đã thấy câu này trong không ít buổi review kiến trúc. Cho đến khi hóa đơn có t...",
+      "authorName": "Dream",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "e0002ad07b8c7804",
+      "title_vi": "Trí tuệ nhân tạo vừa chứng minh giả thuyết Riemann, bài toán 167 năm: chuyện gì thực sự đã xảy ra?",
+      "title_en": "Artificial intelligence just proved the Riemann hypothesis, a 167-year-old math problem: what really happened?",
+      "summary_vi": [
+        "Vào cuối tháng 11 năm 2026, nhà toán học Levent Alpöge công tác tại hãng Anthropic đã bất ngờ công bố việc phối hợp cùng mô hình trí tuệ nhân tạo Claude để xây dựng thành công bản chứng minh cho giả thuyết Riemann nổi tiếng.",
+        "Sự kiện này đánh dấu một bước đột phá lớn khi các hệ thống học máy tiên tiến không chỉ hỗ trợ tính toán thông thường mà còn tham gia trực tiếp vào việc giải quyết những bài toán hóc búa nhất của toán học lý thuyết thế giới.",
+        "Thành tựu này mở ra kỷ nguyên mới cho ngành công nghệ thông tin và trí tuệ nhân tạo, cho thấy tiềm năng to lớn của các mô hình ngôn ngữ lớn trong việc thúc đẩy tốc độ nghiên cứu khoa học cơ bản."
+      ],
+      "summary_en": [
+        "In late November 2026, mathematician Levent Alpöge at Anthropic unexpectedly announced that he collaborated with the Claude artificial intelligence model to successfully build a proof for the famous Riemann hypothesis.",
+        "This event marks a major breakthrough as advanced machine learning systems not only support routine calculations but also participate directly in solving the most challenging theoretical mathematics problems in the world.",
+        "This achievement opens a new era for the information technology and artificial intelligence industry, demonstrating the enormous potential of large language models in accelerating the pace of basic scientific research."
+      ],
+      "originalTitle": "AI vừa chứng minh giả thuyết Riemann, bài toán 167 năm: chuyện gì thực sự đã xảy ra?",
+      "url": "https://tinhte.vn/thread/ai-vua-chung-minh-gia-thuyet-riemann-bai-toan-167-nam-chuyen-gi-thuc-su-da-xay-ra.4194738/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Claude",
+        "Anthropic",
+        "Machine Learning",
+        "Research"
+      ],
+      "hotScore": 98,
+      "readTimeMinutes": 5,
+      "publishedAt": "2026-11-22T03:56:05.000Z",
+      "contentSnippet": "Ngày 20/11/2026, nhà toán học Levent Alpöge (làm việc tại Anthropic) công bố trên trang cá nhân rằng ông và mô hình AI Claude đã xây dựng thành công một chứng minh cho Giả thuyết Riemann — bài...",
+      "authorName": "Quocxi",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "49e114fd9ff5a73f",
+      "title_vi": "Khắc phục lỗi MacBook không lên nguồn: Hướng dẫn xử lý cho cả dòng máy chip Apple silicon và Intel",
+      "title_en": "Troubleshooting MacBook Power Failure: Comprehensive Guide for Apple Silicon and Intel Models",
+      "summary_vi": [
+        "Bài viết cung cấp các bước xử lý sự cố thiết thực khi máy tính xách tay của Apple gặp tình trạng không thể khởi động, áp dụng cho cả thế hệ chip xử lý mới và dòng máy cũ dùng chip Intel.",
+        "Các giải pháp kỹ thuật bao gồm việc kiểm tra kết nối sạc MagSafe, thực hiện thao tác giữ nút nguồn trong mười giây, ngắt kết nối toàn bộ thiết bị ngoại vi và quy trình reset SMC đặc thù cho dòng máy Intel.",
+        "Kiến thức này giúp các kỹ sư và người dùng cuối tự khắc phục nhanh chóng các sự cố phần cứng cơ bản, tiết kiệm thời gian bảo trì và đảm bảo hiệu suất làm việc liên tục trên thiết bị di động."
+      ],
+      "summary_en": [
+        "The article provides practical troubleshooting steps when Apple laptops experience failure to boot up, applying to both new processor generations and older Intel-based computer models.",
+        "Technical solutions include checking MagSafe power connections, performing a ten-second power button hold, disconnecting all peripheral devices, and executing the SMC reset procedure specific to Intel machines.",
+        "This knowledge helps engineers and end-users quickly resolve basic hardware malfunctions, saving maintenance downtime and ensuring uninterrupted productivity on mobile computing devices."
+      ],
+      "originalTitle": "MacBook bấm nút nguồn không lên: sạc, giữ nút nguồn 10 giây, rút hết phụ kiện",
+      "url": "https://tinhte.vn/thread/macbook-bam-nut-nguon-khong-len-sac-giu-nut-nguon-10-giay-rut-het-phu-kien.4194451/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "MacBook",
+        "Hardware",
+        "Apple Silicon",
+        "Troubleshooting",
+        "Intel"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-22T03:52:50.000Z",
+      "contentSnippet": "Áp dụng cho: mọi MacBook, cả Apple silicon (M1 trở lên) lẫn Intel. Bước reset SMC chỉ dành cho máy Intel. Phần đèn MagSafe 3, sạc chờ 10 phút và máy tự bật khi cắm sạc lấy từ tài liệu xử lý sự cố...",
+      "authorName": "Quocxi",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "2e915f9b61d43037",
+      "title_vi": "Mỹ áp quy định xuất khẩu mới, Đài Loan và Samsung dừng giao chip cho khách hàng Trung Quốc",
+      "title_en": "US Imposes New Export Rules, TSMC and Samsung Halt Chip Deliveries to Chinese Customers",
+      "summary_vi": [
+        "Công ty sản xuất chất bán dẫn Đài Loan và Samsung Electronics đã tạm dừng cung cấp một số lô hàng linh kiện điện tử quan trọng cho các đối tác tại Trung Quốc sau khi chính phủ Mỹ siết chặt các quy định kiểm soát xuất khẩu phần cứng tiên tiến.",
+        "Lệnh trừng phạt mới trực tiếp nhắm vào các bộ vi xử lý hiệu năng cao được chế tạo dựa trên công nghệ bán dẫn của Mỹ, buộc các nhà máy phải kiểm tra nghiêm ngặt giấy phép từ Bộ Thương mại trước khi tiếp tục vận chuyển thiết bị.",
+        "Động thái này tạo ra chuỗi gián đoạn nguồn cung nghiêm trọng, không chỉ ảnh hưởng đến hạ tầng trí tuệ nhân tạo mà còn đe dọa trực tiếp tiến độ sản xuất phần cứng của các hãng điện thoại thông minh lớn tại thị trường Trung Quốc."
+      ],
+      "summary_en": [
+        "TSMC and Samsung Electronics have temporarily suspended shipments of critical semiconductor components to Chinese partners following tightened export control regulations implemented by the US government on advanced hardware technologies.",
+        "The new trade restrictions directly target high-performance processors manufactured using US semiconductor technology, forcing fabrication plants to secure strict licenses from the Department of Commerce before resuming device transit.",
+        "This action creates severe supply chain disruptions, impacting artificial intelligence infrastructure development and directly threatening hardware production schedules for major smartphone manufacturers operating within the Chinese market."
+      ],
+      "originalTitle": "Mỹ áp quy định xuất khẩu mới, TSMC và Samsung dừng giao chip cho khách hàng Trung Quốc",
+      "url": "https://genk.vn/my-ap-quy-dinh-xuat-khau-moi-tsmc-va-samsung-dung-giao-chip-cho-khach-hang-trung-quoc-165261122093020803.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Semiconductor",
+        "TSMC",
+        "Samsung",
+        "Hardware",
+        "AI"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-22T03:30:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/22/avatar1795314576298-179531457711065316846.png",
+      "contentSnippet": "Khi các khách hàng Trung Quốc bị TSMC và Samsung dừng giao chip, có thể các thương hiệu smartphone lớn như Xiaomi, Oppo và Vivo sẽ bị vạ lây.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "cacc1b561277bb5e",
+      "title_vi": "Thị trường smartphone Đông Nam Á lao dốc mạnh trong quý III/2026",
+      "title_en": "Southeast Asian Smartphone Market Plummets Sharply in Q3 2026",
+      "summary_vi": [
+        "Lượng smartphone xuất xưởng tại khu vực Đông Nam Á trong quý III năm 2026 đã giảm mạnh ba mươi sáu phần trăm so với cùng kỳ năm trước, đạt mười sáu phẩy năm triệu máy theo báo cáo từ Omdia.",
+        "Mặc dù số lượng máy xuất xưởng sụt giảm đáng kể do áp lực nguồn cung, tổng giá trị thị trường chỉ giảm nhẹ một phần trăm nhờ giá bán trung bình tăng vọt năm mươi ba phần trăm.",
+        "Sự dịch chuyển chiến lược sang các dòng thiết bị cao cấp và đắt tiền hơn cho thấy các nhà sản xuất đang tối ưu hóa biên lợi nhuận trước các biến động của chuỗi cung ứng di động."
+      ],
+      "summary_en": [
+        "Smartphone shipments across Southeast Asia in the third quarter of 2026 experienced a sharp thirty-six percent decline year-over-year, dropping to sixteen point five million units according to Omdia data.",
+        "Despite the significant drop in shipment volumes driven by severe supply chain pressures, the total market value decreased by only one percent due to an exceptional fifty-three percent surge in average selling prices.",
+        "This strategic shift toward high-end and premium mobile device segments demonstrates how hardware manufacturers are successfully optimizing profit margins amid ongoing supply chain fluctuations."
+      ],
+      "originalTitle": "Thị trường smartphone Đông Nam Á lao dốc",
+      "url": "https://vnexpress.net/thi-truong-smartphone-dong-nam-a-lao-doc-5147543.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Smartphone",
+        "Mobile Market",
+        "Omdia",
+        "Supply Chain",
+        "Hardware"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-22T03:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/22/iphone-pro-max-the-bang-179528-7467-6424-1795290121.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Trp-uzh6VCMzMbkJDK_Nlg",
+      "contentSnippet": "Lượng smartphone xuất xưởng tại khu vực Đông Nam Á giảm 36% trong quý III/2026 so với cùng kỳ năm ngoái, riêng thị trường Việt Nam tăng trưởng 1%.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "a914cbe7cddc4869",
       "title_vi": "Vì sao mô hình ngôn ngữ lớn xử lý cùng một yêu cầu theo những cách khác nhau mỗi lần lập trình?",
@@ -8307,212 +8512,6 @@
       "authorName": "Minh Trần",
       "upvotes": 0,
       "commentsCount": 0
-    },
-    {
-      "id": "97eedb91375d7417",
-      "title_vi": "Lỗ hổng bảo mật cho phép hacker truy cập trái phép vào hệ thống Linux đang bị khai thác tích cực",
-      "title_en": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
-      "summary_vi": [
-        "Các nhà nghiên cứu an ninh mạng phát hiện ra rằng một lỗ hổng nghiêm trọng trên hệ thống Linux đang bị tin tặc khai thác tích cực để truy cập trái phép vào các tài khoản đặc quyền.",
-        "Lỗ hổng xuất phát từ sự tương tác mã nguồn giữa dịch vụ OpenSSH và thư viện musl, cho phép kẻ tấn công vượt qua xác thực chỉ trong vòng vài giây trên các máy chủ đáp ứng điều kiện.",
-        "Sự việc gióng lên hồi chuông cảnh báo về rủi ro bảo mật hạ tầng, buộc các kỹ sư hệ thống phải nhanh chóng cập nhật bản vá và kiểm tra các dấu hiệu xâm nhập."
-      ],
-      "summary_en": [
-        "Cybersecurity researchers have discovered that a critical vulnerability affecting Linux systems is actively being exploited by hackers to gain unauthorized access to privileged accounts.",
-        "The vulnerability stems from the code interaction between the OpenSSH service and the musl library, allowing attackers to bypass authentication within seconds on vulnerable servers.",
-        "This incident raises serious alarms regarding infrastructure security, compelling system engineers to promptly apply security patches and monitor for any indicators of compromise."
-      ],
-      "originalTitle": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
-      "url": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
-      "sourceName": "Ars Technica",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Linux",
-        "OpenSSH",
-        "Vulnerability",
-        "DevOps"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-09T19:41:34.000Z",
-      "contentSnippet": "\"*sshole\" poses a serious threat to Internet security.",
-      "authorName": "\n                    Dan Goodin\n                ",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e852afcde4a7ecbc",
-      "title_vi": "Vì sao trí tuệ nhân tạo tính sai ngày Tết năm 2030 và cách viết kỹ năng để khắc phục",
-      "title_en": "Why Artificial Intelligence Calculated the 2030 Tet Date Wrong and How to Write a Skill to Fix It",
-      "summary_vi": [
-        "Bài viết phân tích tình huống khi hỏi trợ lý ảo Claude về ngày mùng 1 Tết Nguyên Đán năm 2030 nhưng mô hình này đưa ra kết quả sai lệch do thiếu khả năng tính toán lịch âm chính xác.",
-        "Tác giả đã tự xây dựng một kỹ năng lập trình chuyên biệt để bổ sung thuật toán chuyển đổi lịch, giúp mô hình trí tuệ nhân tạo truy xuất và xử lý dữ liệu thời gian đúng chuẩn xác.",
-        "Giải pháp này nhấn mạnh tầm quan trọng của việc mở rộng khả năng cho các hệ thống ngôn ngữ lớn thông qua công cụ bên ngoài khi xử lý các bài toán logic phức tạp."
-      ],
-      "summary_en": [
-        "The article analyzes a scenario where asking the Claude AI assistant about the first day of Lunar New Year in 2030 resulted in an incorrect date due to a lack of precise lunar calendar computation.",
-        "The author developed a specialized programming skill to integrate a calendar conversion algorithm, helping the artificial intelligence model accurately retrieve and process time-based data.",
-        "This solution highlights the crucial importance of extending large language models with external tools when handling complex logical problems and domain-specific calculations."
-      ],
-      "originalTitle": "Vì sao AI tính sai ngày Tết 2030, và mình viết skill để sửa thế nào",
-      "url": "https://viblo.asia/p/vi-sao-ai-tinh-sai-ngay-tet-2030-va-minh-viet-skill-de-sua-the-nao-2vJPdvGMJeK",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Claude",
-        "LLM",
-        "Prompt Engineering",
-        "Algorithms"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-09T19:36:37.000Z",
-      "contentSnippet": "Mình hỏi Claude một câu tưởng dễ: \"Mùng 1 Tết Nguyên Đán năm 2030 ở Việt Nam là ngày dương lịch nào?\". Không cho dùng công cụ tra cứu, chỉ dùng những ...",
-      "authorName": "Cao Thanh Lam",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "cf927664f4a95f46",
-      "title_vi": "Quả Táo lần đầu bán gói cước trí tuệ nhân tạo giá một triệu đồng",
-      "title_en": "Apple starts selling artificial intelligence usage packs for the first time",
-      "summary_vi": [
-        "Hãng công nghệ Quả Táo vừa bất ngờ triển khai hình thức thương mại hóa các tính năng trí tuệ nhân tạo thông qua gói cước sử dụng bổ sung trên phần mềm làm nhạc chuyên nghiệp.",
-        "Cơ chế này xuất hiện trong ứng dụng Logic Pro phiên bản mới trên kho ứng dụng dành cho máy tính cá nhân, yêu cầu người dùng trả phí bốn mươi chín đô la Mỹ cho mỗi lượt bổ sung dung lượng xử lý.",
-        "Động thái này đánh dấu bước chuyển dịch quan trọng trong chiến lược kiếm tiền từ dịch vụ trí tuệ nhân tạo của các hãng công nghệ lớn, tác động mạnh mẽ đến mô hình kinh doanh phần mềm."
-      ],
-      "summary_en": [
-        "The major technology company has unexpectedly introduced a monetization model for artificial intelligence features through an additional usage package integrated into professional audio production software.",
-        "This mechanism appeared in the latest version of the professional music creation application on the desktop software store, requiring users to pay forty nine US dollars for each processing capacity refill.",
-        "This move marks a significant shift in the monetization strategy for artificial intelligence services among major technology giants, profoundly impacting the traditional software business model."
-      ],
-      "originalTitle": "Apple bán gói AI giá 1,29 triệu đồng, nhưng không phải như bạn nghĩ",
-      "url": "https://genk.vn/apple-ban-goi-ai-gia-129-trieu-dong-nhung-khong-phai-nhu-ban-nghi-165261110022624811.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Apple",
-        "AI",
-        "Logic Pro",
-        "Monetization",
-        "Machine Learning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-09T19:25:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/9/thumb-apple-intelligence-17942522569552021509465-146-230-1092-1743-crop-1794252265652834618201.jpg",
-      "contentSnippet": "Gói đầu tiên chỉ có trong ứng dụng làm nhạc Logic Pro, trong khi mức giá cho Siri vẫn là ẩn số.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a989f1582084d0cf",
-      "title_vi": "Phiên bản Claude Fable 5.2 và Mythos 5.2 nâng cấp khả năng lập trình và suy luận",
-      "title_en": "Claude Fable 5.2 and Mythos 5.2 Upgrades Coding and Reasoning Capabilities",
-      "summary_vi": [
-        "Các mô hình Claude Fable 5.2 và Mythos 5.2 vừa được nâng cấp toàn diện, mang lại những cải tiến vượt trội về khả năng lập trình, tư duy logic và xử lý thị giác máy tính cho các kỹ sư.",
-        "Hệ thống cung cấp tốc độ tạo mã nguồn nhanh hơn tới 30 phần trăm cùng chế độ siêu tốc độ giúp tăng tốc độ sinh token lên gấp 2.5 lần với mức giá tối ưu hơn cho người dùng.",
-        "Bản cập nhật này giúp giải quyết các bài toán kỹ thuật phức tạp, thực hiện di chuyển phần mềm quy mô lớn và hỗ trợ mạnh mẽ cho nghiên cứu khoa học cũng như an ninh mạng."
-      ],
-      "summary_en": [
-        "The Claude Fable 5.2 and Mythos 5.2 models have received comprehensive upgrades, delivering exceptional improvements in coding capabilities, logical reasoning, and computer vision for engineers.",
-        "The system provides up to 30 percent faster code generation speeds along with an optional fast mode that increases token generation speed by up to 2.5 times at more optimized pricing.",
-        "This update helps solve complex technical problems, executes large-scale software migrations, and strongly supports scientific research as well as advanced cybersecurity applications."
-      ],
-      "originalTitle": "Claude Fable 5.2 and Mythos 5.2",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Claude",
-        "Machine Learning",
-        "Coding",
-        "Cybersecurity"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-09T18:56:29.000Z",
-      "contentSnippet": "Skip to main contentNovember 9, 2026 We’ve upgraded Claude Fable and Claude Mythos—models that are designed to tackle the most daunting technical challenges. Claude Fable 5.2 and Claude Mythos 5.2 show improvements in areas like coding, reasoning, and vision. During prerelease testing they’ve helped",
-      "authorName": "meetpateltech",
-      "upvotes": 907,
-      "commentsCount": 547
-    },
-    {
-      "id": "a98326b09f6ff516",
-      "title_vi": "Trợ lý ảo thông minh định tuyến dữ liệu cá nhân của người dùng đến kiểm toán viên con người",
-      "title_en": "Google Gemini routes personal Drive files and emails to human annotators",
-      "summary_vi": [
-        "Hệ thống trí tuệ nhân tạo tiên tiến của Google đã tự động định tuyến các tệp dữ liệu lưu trữ cá nhân và thư điện tử của người dùng đến các kiểm toán viên là con người để xử lý.",
-        "Cơ chế hoạt động này làm dấy lên những lo ngại nghiêm trọng về quyền riêng tư dữ liệu, khi các thông tin nhạy cảm trên đám mây có khả năng bị bên thứ ba hoặc nhân viên kiểm duyệt tiếp cận mà chưa có sự đồng thuận rõ ràng.",
-        "Sự việc đặt ra bài toán lớn cho các kỹ sư phát triển hệ thống điện toán đám mây và trí tuệ nhân tạo trong việc cân bằng giữa cải tiến mô hình học máy và bảo vệ tuyệt đối thông tin bảo mật của người dùng."
-      ],
-      "summary_en": [
-        "Google's advanced artificial intelligence system has automatically routed personal cloud storage files and user emails to human annotators for review and processing.",
-        "This operational mechanism raises serious data privacy concerns, as sensitive cloud information could potentially be accessed by third parties or moderators without explicit consent.",
-        "The incident poses a major challenge for cloud computing and machine learning engineers to balance model improvement with the absolute protection of user confidentiality."
-      ],
-      "originalTitle": "Google Gemini routes personal Drive files and emails to human annotators",
-      "url": "https://github.com/thisisme6598/gemini_files/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Google Gemini",
-        "Data Privacy",
-        "Cloud Security"
-      ],
-      "hotScore": 91,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-09T18:24:38.000Z",
-      "contentSnippet": "Google Gemini routes personal Drive files and emails to human annotators",
-      "authorName": "gf74918",
-      "upvotes": 366,
-      "commentsCount": 93
-    },
-    {
-      "id": "2e6c7f1664af57cf",
-      "title_vi": "Nhà máy tự động hóa giảm 75% thời gian tải trang phát triển và những bài học từ kỹ thuật tác nhân",
-      "title_en": "Our Looping Factory Cut DEV Page Load Time by 75% and Counting",
-      "summary_vi": [
-        "Nền tảng chia sẻ kiến thức cho lập trình viên đã tận dụng hệ thống tự động hóa để tối ưu hóa hiệu suất, giúp giảm đáng kể thời gian phản hồi của máy chủ Ruby trên hàng trăm nghìn yêu cầu mỗi ngày.",
-        "Các thông số kỹ thuật cho thấy thời gian truy vấn cơ sở dữ liệu, thời gian kết xuất giao diện và thời gian xử lý cache đã giảm mạnh nhờ việc hợp nhất hàng trăm yêu cầu kéo mã nguồn.",
-        "Giải pháp này không chỉ giải quyết triệt để các vấn đề hiệu suất kéo dài mà còn minh họa cách thiết kế vòng lặp phản hồi tự động để tránh cạm bẫy khi triển khai phát triển bằng tác nhân trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "The popular developer platform utilized automation systems to optimize performance, significantly reducing server response times for hundreds of thousands of daily requests.",
-        "Technical metrics demonstrate sharp declines in database query duration, view rendering times, and cache processing latency achieved through hundreds of merged pull requests.",
-        "This approach successfully resolves long-standing performance bottlenecks while illustrating how to design feedback loops to avoid pitfalls in AI agent-driven development."
-      ],
-      "originalTitle": "Our Looping Factory Cut DEV Page Load Time by 75% and Counting",
-      "url": "https://dev.to/dailycontext/our-looping-factory-cut-dev-page-load-time-by-75-and-counting-1hnf",
-      "sourceName": "Dev.to",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Software Engineering",
-        "Performance Optimization",
-        "Automation",
-        "Ruby on Rails",
-        "AI Agents"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-09T16:12:25.000Z",
-      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flcwp10ptnojbvt20v0y7.jpg",
-      "contentSnippet": "A month ago, an average web request on DEV took about 70 milliseconds inside Rails, with P99 response...",
-      "authorName": "Ben Halpern",
-      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1%2Fbabb96d0-9cd2-49bc-a412-2dc4caf94c2a.png",
-      "upvotes": 71,
-      "commentsCount": 11
     }
   ]
 }
