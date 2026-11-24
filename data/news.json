@@ -1,7 +1,702 @@
 {
-  "lastUpdated": "2026-11-22T04:14:47.380Z",
+  "lastUpdated": "2026-11-24T16:50:15.645Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "1961221afe8fed61",
+      "title_vi": "FastAPI: versioning API v1/v2 bằng APIRouter — thêm phiên bản mới mà không phá client cũ",
+      "title_en": "FastAPI: versioning API v1/v2 using APIRouter — add new versions without breaking the old client",
+      "summary_vi": [
+        "API của bạn đã có client thật đang dùng, nhưng bạn cần đổi tên field trong response — sửa thẳng thì client cũ vỡ ngay.",
+        "Cách chuẩn là versioning: tách.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến FastAPI: versioning API v1/v2 bằng APIRouter — thêm phiên bản mới mà không phá client cũ."
+      ],
+      "summary_en": [
+        "Your API already has a real client in use, but you need to rename the field in the response — if you fix it directly, the old client will immediately break.",
+        "The standard way is versioning: splitting.",
+        "Practical engineering impact and actionable takeaways for developers building with FastAPI: versioning API v1/v2 using APIRouter — add new versions without breaking the old client."
+      ],
+      "originalTitle": "FastAPI: versioning API v1/v2 bằng APIRouter — thêm phiên bản mới mà không phá client cũ",
+      "url": "https://viblo.asia/p/fastapi-versioning-api-v1v2-bang-apirouter-them-phien-ban-moi-ma-khong-pha-client-cu-wd43EpOMLX9",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "SoftwareEngineering",
+        "Programming"
+      ],
+      "hotScore": 96,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-24T22:22:40.000Z",
+      "contentSnippet": "API của bạn đã có client thật đang dùng, nhưng bạn cần đổi tên field trong response — sửa thẳng thì client cũ vỡ ngay. Cách chuẩn là versioning: tách ...",
+      "authorName": "Linh Fish Dev",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "d3a3828674f76e81",
+      "title_vi": "GLM-5.4 so với GPT-6.1 Sol: kiểm tra 6 đầu ra từ SVG đến video 30 giây",
+      "title_en": "GLM-5.4 vs GPT-6.1 Sol: testing 6 outputs from SVG to 30 second video",
+      "summary_vi": [
+        "Một tệp SVG có thể mở được trong trình duyệt nhưng vẫn làm hỏng bước trích xuất tự động nếu thiếu khối mã Markdown.",
+        "Một trang 3D có thể tạo đủ nhà,.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến GLM-5.4 so với GPT-6.1 Sol: kiểm tra 6 đầu ra từ SVG đến video 30 giây."
+      ],
+      "summary_en": [
+        "An SVG file can be opened in the browser but will still fail the automatic extraction step if the Markdown code block is missing.",
+        "A 3D page can create enough houses,.",
+        "Practical engineering impact and actionable takeaways for developers building with GLM-5.4 vs GPT-6.1 Sol: testing 6 outputs from SVG to 30 second video."
+      ],
+      "originalTitle": "GLM-5.4 so với GPT-6.1 Sol: kiểm tra 6 đầu ra từ SVG đến video 30 giây",
+      "url": "https://viblo.asia/p/glm-54-so-voi-gpt-61-sol-kiem-tra-6-dau-ra-tu-svg-den-video-30-giay-y0VGwQpEVPA",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "MachineLearning"
+      ],
+      "hotScore": 96,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-24T22:10:18.000Z",
+      "contentSnippet": "Một tệp SVG có thể mở được trong trình duyệt nhưng vẫn làm hỏng bước trích xuất tự động nếu thiếu khối mã Markdown. Một trang 3D có thể tạo đủ nhà, tr...",
+      "authorName": "crboluo",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b87ff0dbb2993d39",
+      "title_vi": "Kỷ nguyên AI và cái chết của quy trình \"Tam sao thất bản\" trong phát triển phần mềm",
+      "title_en": "The AI Era and the Death of the Broken Telephone Process in Software Development",
+      "summary_vi": [
+        "Trong các dự án phần mềm truyền thống, quy trình chuyển giao yêu cầu từ người dùng sang chuyên viên phân tích và lập trình viên thường gặp nhiều rủi ro sai lệch thông tin.",
+        "Sự xuất hiện của trí tuệ nhân tạo và các mô hình ngôn ngữ lớn giúp tự động hóa khâu phân tích tài liệu kỹ thuật, chuyển đổi trực tiếp yêu cầu thành mã nguồn chuẩn xác.",
+        "Điều này đòi hỏi các kỹ sư phần mềm phải nâng cao năng lực tư duy kiến trúc hệ thống và quản trị mã nguồn thay vì chỉ tập trung vào việc viết code thủ công."
+      ],
+      "summary_en": [
+        "Traditional software projects often suffer from requirement distortion risks during the communication handoff between business analysts and development teams.",
+        "The emergence of artificial intelligence and large language models automates technical documentation analysis, directly translating business requirements into precise source code.",
+        "This paradigm shift requires software engineers to elevate their system architecture thinking and source code governance rather than focusing solely on manual coding tasks."
+      ],
+      "originalTitle": "Kỷ nguyên AI và cái chết của quy trình \"Tam sao thất bản\" trong phát triển phần mềm",
+      "url": "https://viblo.asia/p/ky-nguyen-ai-va-cai-chet-cua-quy-trinh-tam-sao-that-ban-trong-phat-trien-phan-mem-PoL7elpX4vk",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "AI",
+        "Software Engineering",
+        "Business Analysis",
+        "Automation",
+        "LLM"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-24T21:28:24.000Z",
+      "contentSnippet": "Trong các dự án phần mềm truyền thống, chúng ta thường tự hào về một quy trình chặt chẽ: Người dùng nêu nhu cầu BA (Business Analyst) phân tích và vi...",
+      "authorName": "Xuân Chinh Trịnh",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "aca7d8800ca7136d",
+      "title_vi": "Vấn đề về cơ sở dữ liệu ẩn giấu bên trong mỗi lần triển khai dần dần",
+      "title_en": "The Database Problem Hiding Inside Every Gradual Rollout",
+      "summary_vi": [
+        "Hầu như mọi bài viết về phát hành an toàn đều nói về giao thông.",
+        "Gửi 5% yêu cầu tại đây, chuyển bộ cân bằng tải ở đó hoặc quay lại sau vài giây.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Vấn đề về cơ sở dữ liệu ẩn giấu bên trong mỗi lần triển khai dần dần."
+      ],
+      "summary_en": [
+        "Almost every article about safe releases talks about traffic.",
+        "Send 5% of requests here, switch a load balancer there, or roll back in seconds.",
+        "Practical engineering impact and actionable takeaways for developers building with The Database Problem Hiding Inside Every Gradual Rollout."
+      ],
+      "originalTitle": "The Database Problem Hiding Inside Every Gradual Rollout",
+      "url": "https://viblo.asia/p/the-database-problem-hiding-inside-every-gradual-rollout-lZL9XYp7JQK",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "SoftwareEngineering",
+        "Programming"
+      ],
+      "hotScore": 96,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-24T19:56:16.000Z",
+      "contentSnippet": "Almost every article about safe releases talks about traffic. Send 5% of requests here, switch a load balancer there, or roll back in seconds. But th...",
+      "authorName": "Marcus Keenton",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b4d554087110d39d",
+      "title_vi": "Phát hiện mã độc núp bóng AI, vô hiệu hóa hàng loạt phần mềm bảo mật",
+      "title_en": "Detect malware hiding behind AI, disable a series of security software",
+      "summary_vi": [
+        "Mã độc ngụy trang dưới dạng công cụ AI Ollama, âm thầm xâm nhập máy tính Windows và vô hiệu hóa chức năng bảo vệ của phần mềm diệt virus.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Phát hiện mã độc núp bóng AI, vô hiệu hóa hàng loạt phần mềm bảo mật.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Phát hiện mã độc núp bóng AI, vô hiệu hóa hàng loạt phần mềm bảo mật."
+      ],
+      "summary_en": [
+        "Malicious code disguised as the Ollama AI tool, silently invades Windows computers and disables the protection function of anti-virus software.",
+        "In-depth technical breakdown and implementation mechanisms introduced in Detect malware hiding behind AI, disable a series of security software.",
+        "Practical engineering impact and actionable takeaways for developers building with Detect malware hiding behind AI, disable a series of security software."
+      ],
+      "originalTitle": "Phát hiện mã độc núp bóng AI, vô hiệu hóa hàng loạt phần mềm bảo mật",
+      "url": "https://tuoitre.vn/phat-hien-ma-doc-nup-bong-ai-vo-hieu-hoa-hang-loat-phan-mem-bao-mat-100261124180050267.htm",
+      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Security"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-24T18:24:00.000Z",
+      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/24/ma-doc-17955179390402117636649-0-40-339-582-crop-17955180622971607856172.png",
+      "contentSnippet": "Mã độc ngụy trang dưới dạng công cụ AI Ollama, âm thầm xâm nhập máy tính Windows và vô hiệu hóa chức năng bảo vệ của phần mềm diệt virus.",
+      "authorName": "TTXVN",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "382477c959ea42f3",
+      "title_vi": "Bộ Thương mại Hoa Kỳ bổ sung Megaspeed vào danh sách đen giao dịch khi Huang giành lại quyền kiểm soát Nvidia",
+      "title_en": "US Commerce Department adds Megaspeed to trade blacklist as Huang retakes control of Nvidia",
+      "summary_vi": [
+        "Khi Jensen Huang trở lại vị trí Giám đốc điều hành của Nvidia với sự hỗ trợ từ Chính quyền Trump, Bộ Thương mại đã thêm Megaspeed vào Danh sách thực thể của mình, danh sách này chặn giao dịch với công ty, với lý do rủi ro an ninh quốc gia.",
+        "Như Semafor đã đưa tin trước đó, Bộ trưởng Thương mại Howard Lutnick đã phải đối mặt với áp lực ngày càng tăng trong việc niêm yết công ty sau khi có tin tức tiết lộ mối quan hệ của Huang với Alice Huang, cựu giám đốc Megaspeed, và các quan chức Mỹ nghi ngờ cô là tài sản tình báo của Trung Quốc.",
+        "Bộ Thương mại cho biết trong một hồ sơ rằng họ bổ sung Megaspeed và các chi nhánh của nó ở Malaysia và Thái Lan vào danh sách “vì o … Đọc toàn bộ câu chuyện tại The Verge."
+      ],
+      "summary_en": [
+        "As Jensen Huang returns to his post as Nvidia's CEO with support from the Trump Administration, the Department of Commerce has added Megaspeed to its Entity List, which blocks trade with the company, citing national security risks.",
+        "As reported earlier by Semafor, Commerce Secretary Howard Lutnick had faced increasing pressure to list the company after news reports revealed Huang's affair with Alice Huang, a former Megaspeed executive, and that US officials suspected her of being a Chinese intelligence asset.",
+        "The Commerce Department said in a filing that it's adding Megaspeed and its affiliates in Malaysia and Thailand to the list \"because o … Read the full story at The Verge."
+      ],
+      "originalTitle": "US Commerce Department adds Megaspeed to trade blacklist as Huang retakes control of Nvidia",
+      "url": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Cybersecurity",
+      "tags": [
+        "Nvidia"
+      ],
+      "hotScore": 96,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-24T16:37:03.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2292676553.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "As Jensen Huang returns to his post as Nvidia's CEO with support from the Trump Administration, the Department of Commerce has added Megaspeed to its Entity List, which blocks trade with the company, citing national security risks. As reported earlier by Semafor, Commerce Secretary Howard Lutnick ha",
+      "authorName": "Stevie Bonifield",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "9b7f0538ab934225",
+      "title_vi": "Video giả mạo sâu Jensen Huang đang là rác AI mới gây sốt",
+      "title_en": "Jensen Huang deepfakes are the hot new AI slop",
+      "summary_vi": [
+        "Một đoạn video deepfake giả mạo cựu giám đốc điều hành Nvidia là Jensen Huang đang khiêu vũ tại một hộp đêm ở Ibiza đã thu hút hàng triệu lượt xem trên mạng xã hội Instagram.",
+        "Công nghệ tổng hợp hình ảnh và video bằng trí tuệ nhân tạo ngày càng tinh vi, cho phép tạo ra các nội dung giả mạo có độ chân thực cao nhưng mang thông tin sai lệch.",
+        "Sự bùng nổ của các nội dung rác sinh ra từ trí tuệ nhân tạo đặt ra thách thức lớn về an toàn thông tin, xác thực danh tính và kiểm soát đạo đức công nghệ."
+      ],
+      "summary_en": [
+        "A deepfake video of former Nvidia CEO Jensen Huang dancing in an Ibiza nightclub has gained millions of views on social media platform Instagram.",
+        "Advanced artificial intelligence image and video synthesis technologies allow the creation of highly realistic forged content that spreads misinformation.",
+        "The surge of AI-generated junk content poses significant challenges regarding information security, identity verification, and ethical technology governance."
+      ],
+      "originalTitle": "Jensen Huang deepfakes are the hot new AI slop",
+      "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Deepfake",
+        "Nvidia",
+        "Cybersecurity",
+        "Artificial Intelligence"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-24T16:30:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Jensen_huang_AI_deepfakes.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive an",
+      "authorName": "Kat Tenbarge",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "684c6ef3b0d63254",
+      "title_vi": "Windows Server 2028 bỏ hỗ trợ ứng dụng 32-bit mặc định, Windows 11 vẫn giữ nguyên",
+      "title_en": "Windows Server 2028 drops default 32-bit application support, Windows 11 remains the same",
+      "summary_vi": [
+        "Microsoft xác nhận sẽ gỡ bỏ khả năng tương thích mặc định với ứng dụng 32-bit trên Windows Server 2028.",
+        "Thông tin được ông Elden Christensen, Giám đốc Quản lý Sản phẩm Chính của đội ngũ Windows.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Windows Server 2028 bỏ hỗ trợ ứng dụng 32-bit mặc định, Windows 11 vẫn giữ nguyên."
+      ],
+      "summary_en": [
+        "Microsoft confirmed that it will remove default compatibility with 32-bit applications on Windows Server 2028.",
+        "Information provided by Mr. Elden Christensen, Principal Product Management Director of the Windows team.",
+        "Practical engineering impact and actionable takeaways for developers building with Windows Server 2028 drops default 32-bit application support, Windows 11 remains the same."
+      ],
+      "originalTitle": "Windows Server 2028 bỏ hỗ trợ ứng dụng 32-bit mặc định, Windows 11 vẫn giữ nguyên",
+      "url": "https://tinhte.vn/thread/windows-server-2028-bo-ho-tro-ung-dung-32-bit-mac-dinh-windows-11-van-giu-nguyen.4195240/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "TechTrends",
+        "Innovation"
+      ],
+      "hotScore": 90,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-24T16:28:48.000Z",
+      "contentSnippet": "Microsoft xác nhận sẽ gỡ bỏ khả năng tương thích mặc định với ứng dụng 32-bit trên Windows Server 2028. Thông tin được ông Elden Christensen, Giám đốc Quản lý Sản phẩm Chính của đội ngũ Windows...",
+      "authorName": "Pnghuy",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "c7bf06417ce23813",
+      "title_vi": "Vấn đề tương thích ứng dụng Facebook trên các dòng điện thoại màn hình gập mới",
+      "title_en": "Compatibility Issues with Facebook App on New Foldable Smartphones",
+      "summary_vi": [
+        "Bài viết đề cập đến những trải nghiệm chưa được tối ưu của ứng dụng Facebook trên các dòng điện thoại màn hình gập cao cấp mới nhất hiện nay như Galaxy Z Fold8 và iPhone Duo.",
+        "Các vấn đề kỹ thuật liên quan đến khả năng thích ứng giao diện người dùng, tỷ lệ khung hình thay đổi và hiệu suất hiển thị khi chuyển đổi giữa các trạng thái màn hình của thiết bị gập.",
+        "Sự việc phảnท ánh tầm quan trọng của việc tối ưu hóa phần mềm và trải nghiệm người dùng đối với các ứng dụng mạng xã hội hàng đầu trên các form phần cứng di động mới."
+      ],
+      "summary_en": [
+        "The article discusses suboptimal user experiences of the Facebook application on the latest high-end foldable smartphones such as the Galaxy Z Fold8 and iPhone Duo.",
+        "Technical issues involve user interface adaptability, changing aspect ratios, and rendering performance when transitioning between different screen states of foldable hardware.",
+        "This highlights the critical importance of software optimization and user experience for leading social networking applications on emerging mobile hardware form factors."
+      ],
+      "originalTitle": "Hai vấn đề với Facebook của Z Fold8 và iPhone Duo, rất chán",
+      "url": "https://tinhte.vn/thread/hai-van-de-voi-facebook-cua-z-fold8-va-iphone-duo-rat-chan.4195150/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Foldable Phones",
+        "Mobile App",
+        "UI Optimization",
+        "Facebook",
+        "Hardware Compatibility"
+      ],
+      "hotScore": 82,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-24T16:25:45.000Z",
+      "contentSnippet": "Hai chiếc điện thoại gập nổi nhất hiện nay là Galaxy Z Fold8 và iPhone Duo đều gặp rắc rối với mạng xã hội đỉnh nhất hiện nay là Facebook. Mình cũng không hiểu sao Facebook không mặn mà lắm với...",
+      "authorName": "cuhiep",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f727c1c958452b14",
+      "title_vi": "Tidal cấm âm nhạc do AI tạo ra",
+      "title_en": "Tidal Bans AI-Generated Music",
+      "summary_vi": [
+        "Tidal cấm âm nhạc do AI tạo ra.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Tidal cấm âm nhạc do AI tạo ra.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Tidal cấm âm nhạc do AI tạo ra."
+      ],
+      "summary_en": [
+        "Tidal Bans AI-Generated Music.",
+        "In-depth technical breakdown and implementation mechanisms introduced in Tidal Bans AI-Generated Music.",
+        "Practical engineering impact and actionable takeaways for developers building with Tidal Bans AI-Generated Music."
+      ],
+      "originalTitle": "Tidal Bans AI-Generated Music",
+      "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "MachineLearning"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-24T16:12:38.000Z",
+      "contentSnippet": "Tidal Bans AI-Generated Music",
+      "authorName": "theanonymousone",
+      "upvotes": 66,
+      "commentsCount": 41
+    },
+    {
+      "id": "1bfb90103b3c1d8e",
+      "title_vi": "Tờ báo lớn cảnh báo các nhiếp ảnh gia không nên cập nhật phần mềm chỉnh sửa ảnh vì các tính năng trí tuệ nhân tạo",
+      "title_en": "The New York Times warns photographers not to update Photoshop over AI features",
+      "summary_vi": [
+        "Tờ báo nổi tiếng đã yêu cầu các nhiếp ảnh gia tự do tránh sử dụng phiên bản mới nhất của phần mềm chỉnh sửa ảnh vì các công cụ thông minh nhân tạo tích hợp bên trong hoạt động theo cách thức ngầm ẩn.",
+        "Bản cập nhật mới tích hợp nhiều công cụ trí tuệ nhân tạo tự động có khả năng tự động gắn thẻ siêu dữ liệu vào tệp hình ảnh, khiến chúng bị hệ thống nhận diện nhầm là nội dung do máy tính tự sinh ra.",
+        "Sự việc này làm nổi bật những thách thức pháp lý và kỹ thuật lớn đối với ngành công nghiệp truyền thông khi ranh giới giữa ảnh chụp thực tế và ảnh do trí tuệ nhân tạo tạo ra ngày càng bị mờ đi."
+      ],
+      "summary_en": [
+        "A prominent news publication has requested freelance photographers to avoid using the latest version of the popular image editing software because its newly integrated artificial intelligence tools operate in opaque ways.",
+        "The recent software update introduces several automated artificial intelligence capabilities that can automatically inject metadata into image files, causing them to be incorrectly flagged as machine-generated content.",
+        "This situation highlights significant legal and technical challenges for the media industry as the boundary between authentic photography and artificial intelligence generated imagery becomes increasingly blurred."
+      ],
+      "originalTitle": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Photoshop",
+        "Adobe",
+        "Metadata",
+        "Software Updates"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-24T16:09:23.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography leaders, Meaghan Looram and",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a6448cfe0af3d57d",
+      "title_vi": "Rosetta sắp hết hạn: kiểm tra app Intel trên Mac trước khi lên macOS 28",
+      "title_en": "Rosetta is about to expire: check Intel apps on Mac before upgrading to macOS 28",
+      "summary_vi": [
+        "Áp dụng cho: máy Mac dùng chip Apple silicon (M1, M2, M3, M4 trở về sau).",
+        "Cách xem danh sách app Intel trong Cài đặt hệ thống cần macOS 27 Golden Gate trở lên; cách kiểm tra từng app bằng Finder.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Rosetta sắp hết hạn: kiểm tra app Intel trên Mac trước khi lên macOS 28."
+      ],
+      "summary_en": [
+        "Applies to: Macs using Apple silicon chips (M1, M2, M3, M4 and later).",
+        "How to view the Intel app list in System Settings requires macOS 27 Golden Gate or later; How to check each app using Finder.",
+        "Practical engineering impact and actionable takeaways for developers building with Rosetta is about to expire: check Intel apps on Mac before upgrading to macOS 28."
+      ],
+      "originalTitle": "Rosetta sắp hết hạn: kiểm tra app Intel trên Mac trước khi lên macOS 28",
+      "url": "https://tinhte.vn/thread/rosetta-sap-het-han-kiem-tra-app-intel-tren-mac-truoc-khi-len-macos-28.4195152/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Apple"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-24T13:48:58.000Z",
+      "contentSnippet": "Áp dụng cho: máy Mac dùng chip Apple silicon (M1, M2, M3, M4 trở về sau). Cách xem danh sách app Intel trong Cài đặt hệ thống cần macOS 27 Golden Gate trở lên; cách kiểm tra từng app bằng Finder...",
+      "authorName": "osx",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "923c0e4c62bee184",
+      "title_vi": "Đại lý LLM làm việc cho công ty mẹ của họ, không phải cho bạn",
+      "title_en": "LLM agents work for their parent companies, not for you",
+      "summary_vi": [
+        "Vào buổi tối sau giờ làm việc, tôi thường ngồi ngoài hiên và chơi điện thoại.",
+        "Điều đó thường diễn ra dưới hình thức tôi chỉ lướt qua các cuộn phim trên Instagram, cho phép thuật toán đưa tôi đến nơi có thể.",
+        "Tôi thường kết hợp món này với một cốc rượu rum hoặc rượu bourbon tốt cho sức khỏe."
+      ],
+      "summary_en": [
+        "In the evenings after work, I will often sit out back on the porch and do some phone rotting.",
+        "That usually takes the form of me just flipping through reels on Instagram, allowing the algorithm to take me where it may.",
+        "I usually pair this with a healthy tumbler of rum or bourbon."
+      ],
+      "originalTitle": "LLM agents work for their parent companies, not for you",
+      "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Claude"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-11-24T12:40:15.000Z",
+      "contentSnippet": "In the evenings after work, I will often sit out back on the porch and do some phone rotting. That usually takes the form of me just flipping through reels on Instagram, allowing the algorithm to take me where it may. I usually pair this with a healthy tumbler of rum or bourbon. I'm turning my brain",
+      "authorName": "surprisetalk",
+      "upvotes": 560,
+      "commentsCount": 236
+    },
+    {
+      "id": "e97dd56116f464d7",
+      "title_vi": "Amazon cho biết các tác nhân AI của tin tặc đã tìm thấy và khai thác 0-day với rất ít sự can thiệp của con người",
+      "title_en": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "summary_vi": [
+        "Khung AI của Cairn đang chứng tỏ là một lợi ích cho những người phòng thủ và kẻ tấn công.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Amazon cho biết các tác nhân AI của tin tặc đã tìm thấy và khai thác 0-day với rất ít sự can thiệp của con người.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Amazon cho biết các tác nhân AI của tin tặc đã tìm thấy và khai thác 0-day với rất ít sự can thiệp của con người."
+      ],
+      "summary_en": [
+        "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+        "In-depth technical breakdown and implementation mechanisms introduced in Amazon says hackers' AI agents found and exploited 0-day with little human input.",
+        "Practical engineering impact and actionable takeaways for developers building with Amazon says hackers' AI agents found and exploited 0-day with little human input."
+      ],
+      "originalTitle": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+      "sourceName": "Ars Technica",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "MachineLearning"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-24T12:30:05.000Z",
+      "contentSnippet": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+      "authorName": "\n                    Dan Goodin\n                ",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "411d67a00b3e0e82",
+      "title_vi": "Hà Lan khuyên ngừng mua kính thông minh AI sau thử nghiệm cấp cứu",
+      "title_en": "Netherlands advises to stop buying AI smart glasses after emergency testing",
+      "summary_vi": [
+        "Ngày 20/11/2026, Cơ quan Bảo vệ Dữ liệu Hà Lan chính thức phát đi khuyến cáo người dân không nên mua kính thông minh tích hợp AI sau khi thử nghiệm phát hiện một mẫu kính đọc sai liều thuốc và nói dối rằng đã gọi xe cứu thương trong lúc cấp cứu ngưng tim.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Hà Lan khuyên ngừng mua kính thông minh AI sau thử nghiệm cấp cứu.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Hà Lan khuyên ngừng mua kính thông minh AI sau thử nghiệm cấp cứu."
+      ],
+      "summary_en": [
+        "On November 20, 2026, the Dutch Data Protection Agency officially issued a warning that people should not buy smart glasses with integrated AI after testing discovered that a model of the glasses read the wrong dose of medicine and lied about calling an ambulance during a cardiac arrest.",
+        "In-depth technical breakdown and implementation mechanisms introduced in Netherlands advises to stop buying AI smart glasses after emergency testing.",
+        "Practical engineering impact and actionable takeaways for developers building with Netherlands advises to stop buying AI smart glasses after emergency testing."
+      ],
+      "originalTitle": "Hà Lan khuyên ngừng mua kính thông minh AI sau thử nghiệm cấp cứu",
+      "url": "https://genk.vn/ha-lan-khuyen-ngung-mua-kinh-thong-minh-ai-sau-thu-nghiem-cap-cuu-165261124164724037.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "MachineLearning"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-24T11:26:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/24/avatar1795513598381-1795513598855205527251.jpg",
+      "contentSnippet": "Ngày 20/11/2026, Cơ quan Bảo vệ Dữ liệu Hà Lan chính thức phát đi khuyến cáo người dân không nên mua kính thông minh tích hợp AI sau khi thử nghiệm phát hiện một mẫu kính đọc sai liều thuốc và nói dối rằng đã gọi xe cứu thương trong lúc cấp cứu ngưng tim.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "64154a7f1ac84687",
+      "title_vi": "Microsoft mất cả thập kỷ đưa VS Code lên đỉnh, Claude Code chỉ cần 6 tháng để khiến nó lu mờ",
+      "title_en": "It took Microsoft a decade to bring VS Code to the top, Claude Code only needed 6 months to make it eclipse it",
+      "summary_vi": [
+        "Microsoft đã dành hơn một thập kỷ biến VS Code thành công cụ quen thuộc của giới lập trình.",
+        "Nhưng theo CEO Satya Nadella, sự xuất hiện của Claude Code khiến vai trò VS Code mờ đi chỉ trong khoảng sáu tháng.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Microsoft mất cả thập kỷ đưa VS Code lên đỉnh, Claude Code chỉ cần 6 tháng để khiến nó lu mờ."
+      ],
+      "summary_en": [
+        "Microsoft has spent more than a decade turning VS Code into a familiar tool for programmers.",
+        "But according to CEO Satya Nadella, Claude Code's appearance made the VS Code role fade away in just about six months.",
+        "Practical engineering impact and actionable takeaways for developers building with It took Microsoft a decade to bring VS Code to the top, Claude Code only needed 6 months to make it eclipse it."
+      ],
+      "originalTitle": "Microsoft mất cả thập kỷ đưa VS Code lên đỉnh, Claude Code chỉ cần 6 tháng để khiến nó lu mờ",
+      "url": "https://genk.vn/microsoft-mat-ca-thap-ky-dua-vs-code-len-dinh-claude-code-chi-can-6-thang-de-khien-no-lu-mo-165261124153533711.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Claude"
+      ],
+      "hotScore": 87,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-24T08:35:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/24/avatar1795509264945-1795509265921960320719.jpg",
+      "contentSnippet": "Microsoft đã dành hơn một thập kỷ biến VS Code thành công cụ quen thuộc của giới lập trình. Nhưng theo CEO Satya Nadella, sự xuất hiện của Claude Code khiến vai trò VS Code mờ đi chỉ trong khoảng sáu tháng.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "918d17042287d824",
+      "title_vi": "Windows 11 lộ tính năng mới mà ngay cả iPhone kết hợp với Mac cũng chưa có",
+      "title_en": "Windows 11 reveals new features that even iPhone combined with Mac don't yet have",
+      "summary_vi": [
+        "Microsoft đang phát triển tính năng mà Apple hiện chưa tích hợp cho bộ đôi iPhone và Mac, dù hãng vốn nổi tiếng với sự kết nối giữa các thiết bị.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Windows 11 lộ tính năng mới mà ngay cả iPhone kết hợp với Mac cũng chưa có.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Windows 11 lộ tính năng mới mà ngay cả iPhone kết hợp với Mac cũng chưa có."
+      ],
+      "summary_en": [
+        "Microsoft is developing features that Apple has not yet integrated into the iPhone and Mac duo, even though the company is famous for the connection between devices.",
+        "In-depth technical breakdown and implementation mechanisms introduced in Windows 11 reveals new features that even iPhone combined with Mac don't yet have.",
+        "Practical engineering impact and actionable takeaways for developers building with Windows 11 reveals new features that even iPhone combined with Mac don't yet have."
+      ],
+      "originalTitle": "Windows 11 lộ tính năng mới mà ngay cả iPhone kết hợp với Mac cũng chưa có",
+      "url": "https://genk.vn/windows-11-lo-tinh-nang-moi-ma-ngay-ca-iphone-ket-hop-voi-mac-cung-chua-co-165261124122429934.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple"
+      ],
+      "hotScore": 97,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-24T07:34:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/24/avatar1795497836341-17954978367411650027277.jpg",
+      "contentSnippet": "Microsoft đang phát triển tính năng mà Apple hiện chưa tích hợp cho bộ đôi iPhone và Mac, dù hãng vốn nổi tiếng với sự kết nối giữa các thiết bị.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "39383d51c90bf47c",
+      "title_vi": "Màn tái xuất của hai CEO quyền lực trong giới AI",
+      "title_en": "The return of two powerful CEOs in the AI ​​world",
+      "summary_vi": [
+        "Jensen Huang trở lại lãnh đạo Nvidia sau 11 ngày khiến giới công nghệ nhớ đến Sam Altman cũng được phục chức CEO OpenAI sau 5 ngày bị sa thải năm 2023.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Màn tái xuất của hai CEO quyền lực trong giới AI.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Màn tái xuất của hai CEO quyền lực trong giới AI."
+      ],
+      "summary_en": [
+        "Jensen Huang returns to lead Nvidia after 11 days, reminding the technology world of Sam Altman also being reinstated as CEO of OpenAI after 5 days of being fired in 2023.",
+        "In-depth technical breakdown and implementation mechanisms introduced in The return of two powerful CEOs in the AI ​​world.",
+        "Practical engineering impact and actionable takeaways for developers building with The return of two powerful CEOs in the AI ​​world."
+      ],
+      "originalTitle": "Màn tái xuất của hai CEO quyền lực trong giới AI",
+      "url": "https://vnexpress.net/man-tai-xuat-cua-hai-ceo-quyen-luc-trong-gioi-ai-5148305.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "OpenAI",
+        "Nvidia"
+      ],
+      "hotScore": 89,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-24T07:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/24/ca6b0be40755a65bca3231bbffefc5-3281-8866-1795490265.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=XKCuXQnGlCwM4PEFqqXcrw",
+      "contentSnippet": "Jensen Huang trở lại lãnh đạo Nvidia sau 11 ngày khiến giới công nghệ nhớ đến Sam Altman cũng được phục chức CEO OpenAI sau 5 ngày bị sa thải năm 2023.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a9c56d12d300d5c6",
+      "title_vi": "2035 đến sớm",
+      "title_en": "2035 came early",
+      "summary_vi": [
+        "tl;dr trynix.dev khởi động các chương trình GUI ngay bây giờ.",
+        "Hãy thử solitaire, GL gear, xeyes, giọng nói, thời tiết trên màn hình cong hoặc Firefox.",
+        "Trong phần kể lại các sự kiện của Bernhardt, ngày được tính từ năm 2035, tuy nhiên, không có gì đáng ngạc nhiên khi các mô hình ngôn ngữ lớn đã nhanh chóng đẩy nhanh dòng thời gian."
+      ],
+      "summary_en": [
+        "tl;dr trynix.dev boots GUI programs now.",
+        "Try solitaire, GL gears, xeyes, a voice, the weather over curl, or Firefox.",
+        "In Bernhardt’s retelling of events, the date is worked back from 2035, however unsurprisingly, large language models have rapidly sped up the timeline."
+      ],
+      "originalTitle": "2035 came early",
+      "url": "https://fzakaria.com/2026/11/23/2035-came-early",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "JavaScript"
+      ],
+      "hotScore": 99,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-11-24T06:30:33.000Z",
+      "contentSnippet": "tl;dr trynix.dev boots GUI programs now. Try solitaire, GL gears, xeyes, a voice, the weather over curl, or Firefox. I remember watching the talk The Birth & Death of JavaScript by Gary Bernhardt and falling in love with the whimsical yet dreadfully serious unfolding of the story of how JavaScript w",
+      "authorName": "setheron",
+      "upvotes": 711,
+      "commentsCount": 264
+    },
+    {
+      "id": "98238e71788c8d80",
+      "title_vi": "Bài toán khó nhất thế giới thổi bùng cuộc đọ sức giữa con người và AI",
+      "title_en": "The world's most difficult problem ignites the competition between humans and AI",
+      "summary_vi": [
+        "Tranh cãi xoay quanh AI tiếp tục nổ ra khi Anthropic thông báo tìm ra cách chứng minh giả thuyết Riemann giữa lúc một nhà nghiên cứu khác chuẩn bị công bố lời giải.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Bài toán khó nhất thế giới thổi bùng cuộc đọ sức giữa con người và AI.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Bài toán khó nhất thế giới thổi bùng cuộc đọ sức giữa con người và AI."
+      ],
+      "summary_en": [
+        "Controversy surrounding AI continued to erupt when Anthropic announced it had found a way to prove the Riemann hypothesis while another researcher was preparing to announce the solution.",
+        "In-depth technical breakdown and implementation mechanisms introduced in The world's most difficult problem ignites the competition between humans and AI.",
+        "Practical engineering impact and actionable takeaways for developers building with The world's most difficult problem ignites the competition between humans and AI."
+      ],
+      "originalTitle": "Bài toán khó nhất thế giới thổi bùng cuộc đọ sức giữa con người và AI",
+      "url": "https://vnexpress.net/bai-toan-kho-nhat-the-gioi-thoi-bung-cuoc-do-suc-giua-con-nguoi-va-ai-5148183.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Claude"
+      ],
+      "hotScore": 93,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-24T05:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/23/AFP-20260213-HL-JMBARRERE-3058-9951-8471-1795431098.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=pSLlqf76L_H_Exp0_fQV5g",
+      "contentSnippet": "Tranh cãi xoay quanh AI tiếp tục nổ ra khi Anthropic thông báo tìm ra cách chứng minh giả thuyết Riemann giữa lúc một nhà nghiên cứu khác chuẩn bị công bố lời giải.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "09dd08ff1dec70db",
+      "title_vi": "Mô hình iPhone Air 2 và iPhone 18 lộ diện",
+      "title_en": "iPhone Air 2 and iPhone 18 models revealed",
+      "summary_vi": [
+        "Hình ảnh được cho là mô hình đầu tiên của iPhone 18 và Air 2 cho thấy smartphone siêu mỏng của Apple có thêm camera góc siêu rộng.",
+        "Sonny Dickson, chuyên gia uy tín từng chia sẻ hình ảnh chính xác về nhiều sản phẩm chưa công bố của Apple, đăng trên mạng xã hội X các ảnh mặt trước và sau của iPhone Air 2 và iPhone 18.",
+        "Thay đổi đáng chú ý trên mô hình iPhone Air 2 (18 Air) là sự xuất hiện của ống kính thứ hai ở mặt lưng."
+      ],
+      "summary_en": [
+        "Images believed to be the first models of iPhone 18 and Air 2 show that Apple's ultra-thin smartphone has an additional super wide-angle camera.",
+        "Sonny Dickson, a reputable expert who has shared accurate images of many unannounced Apple products, posted on social network X the front and back photos of the iPhone Air 2 and iPhone 18.",
+        "The notable change on the iPhone Air 2 (18 Air) model is the appearance of a second lens on the back."
+      ],
+      "originalTitle": "Mô hình iPhone Air 2 và iPhone 18 lộ diện",
+      "url": "https://vnexpress.net/mo-hinh-iphone-air-2-va-iphone-18-lo-dien-5148224.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Apple"
+      ],
+      "hotScore": 98,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-24T03:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/24/69948-iphone-dummies-xl-179547-1654-8141-1795479794.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=jPXDmnx-T28QXBjQjwda_w",
+      "contentSnippet": "Hình ảnh được cho là mô hình đầu tiên của iPhone 18 và Air 2 cho thấy smartphone siêu mỏng của Apple có thêm camera góc siêu rộng.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "ae1c9ac3f33e6088",
+      "title_vi": "Khoảnh khắc nhân viên chào đón Jensen Huang trở lại Nvidia",
+      "title_en": "The moment employees welcome Jensen Huang back to Nvidia",
+      "summary_vi": [
+        "Jensen Huang trở lại trụ sở Nvidia tại Santa Clara, California trong tiếng reo hò của nhân viên, 11 ngày sau khi ông bất ngờ từ chức.",
+        "Theo Business Insider, nhân viên Nvidia tập trung tại trụ sở để chào đón sự xuất hiện của CEO, đồng thanh hô vang \"Jensen!",
+        "Đám đông chen chúc đến mức nhiều người phải xô đẩy để nhìn thấy ông."
+      ],
+      "summary_en": [
+        "Jensen Huang returned to Nvidia headquarters in Santa Clara, California to the cheers of employees, 11 days after he unexpectedly resigned.",
+        "According to Business Insider, Nvidia employees gathered at headquarters to welcome the CEO's arrival, chanting \"Jensen!",
+        "The crowd was so packed that many people had to jostle to see him."
+      ],
+      "originalTitle": "Khoảnh khắc nhân viên chào đón Jensen Huang trở lại Nvidia",
+      "url": "https://vnexpress.net/khoanh-khac-nhan-vien-chao-don-jensen-huang-tro-lai-nvidia-5148274.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Nvidia"
+      ],
+      "hotScore": 87,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-23T23:04:37.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/24/Jensen-1795474750-8683-1795474870.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=u1lsxAABfU5o7YvBrvCydw",
+      "contentSnippet": "Jensen Huang trở lại trụ sở Nvidia tại Santa Clara, California trong tiếng reo hò của nhân viên, 11 ngày sau khi ông bất ngờ từ chức.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "1e9dae403adba253",
       "title_vi": "Đồng bộ hóa video tạo bởi AI với giọng nói được nhân bản và các ghi chú quy trình từ bộ phim AI dài 1 phút 46 giây",
@@ -7770,746 +8465,6 @@
       "publishedAt": "2026-11-10T20:24:32.000Z",
       "contentSnippet": "Tác giả: Carol Luo · Cập nhật ngày 10/11/2026 Minh bạch: Tôi không nhận tài trợ, hoa hồng liên kết hay có quan hệ lao động với các công cụ được nhắc ...",
       "authorName": "Carol Luo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "04be8cb760920af7",
-      "title_vi": "Chuyên gia AI chia sẻ kinh nghiệm thương mại hóa nghiên cứu khoa học tại Việt Nam",
-      "title_en": "AI Expert Shares Insights on Commercializing Scientific Research in Vietnam",
-      "summary_vi": [
-        "Tiến sĩ Nguyễn Thị Thu Trang từ Đại học Bách khoa Hà Nội, người đứng sau giọng đọc AI phổ biến trong các video review phim, đã chia sẻ lộ trình thực tế để đưa các sản phẩm nghiên cứu khoa học từ phòng thí nghiệm ra thị trường công nghệ.",
-        "Quá trình phát triển giọng đọc AI đòi hỏi sự kết hợp giữa kỹ thuật xử lý ngôn ngữ tự nhiên, mô hình học sâu và tối ưu hóa hạ tầng tính toán để đảm bảo độ mượt mà, cảm xúc tự nhiên và khả năng phản hồi nhanh chóng cho người dùng cuối.",
-        "Bài học từ dự án này nhấn mạnh tầm quan trọng của việc thấu hiểu nhu cầu thị trường, khả năng tùy biến sản phẩm theo ngữ cảnh thực tế và chiến lược chuyển giao công nghệ hiệu quả để tạo ra giá trị kinh tế bền vững cho cộng đồng công nghệ."
-      ],
-      "summary_en": [
-        "Dr. Nguyen Thi Thu Trang from Hanoi University of Science and Technology, the creator of the popular AI voice used in movie reviews, shares her practical roadmap for transitioning scientific research projects into successful commercial technology products for the mass market.",
-        "The development of this AI voice technology involves complex integration of natural language processing, deep learning architectures, and computational infrastructure optimization to ensure high-quality, emotionally expressive speech synthesis with low latency for end-users in various digital environments.",
-        "The project highlights the critical importance of aligning technical innovation with market demands, customizing solutions for real-world applications, and implementing effective technology transfer strategies to generate sustainable economic value within the local and global tech ecosystem."
-      ],
-      "originalTitle": "'Mẹ đẻ' giọng đọc AI review phim chia sẻ cách đưa nghiên cứu khoa học ra thị trường",
-      "url": "https://tuoitre.vn/me-de-giong-doc-ai-review-phim-chia-se-cach-dua-nghien-cuu-khoa-hoc-ra-thi-truong-100261110193415365.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "NLP",
-        "Deep Learning",
-        "Speech Synthesis",
-        "Tech Startup"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-10T20:16:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/10/php05362-1794312107943400678623-285-63-1307-1698-crop-1794317451902300184296.jpg",
-      "contentSnippet": "Tiến sĩ Nguyễn Thị Thu Trang, giảng viên Đại học Bách khoa Hà Nội, người phát triển giọng đọc AI 'quốc dân' review phim, chia sẻ với sinh viên cách đưa nghiên cứu khoa học ra thị trường.",
-      "authorName": "VŨ TUẤN⭐",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8b81df17ea45f3a3",
-      "title_vi": "Trung Quốc có thực sự cần Nvidia để chạy đua trí tuệ nhân tạo?",
-      "title_en": "Does China Actually Need Nvidia to Win the AI Race?",
-      "summary_vi": [
-        "Các hãng công nghệ hàng đầu tại Trung Quốc như DeepSeek và Huawei đang nỗ lực phát triển dòng chip xử lý trí tuệ nhân tạo nội địa nhằm giảm sự phụ thuộc vào nguồn cung nước ngoài.",
-        "Bất chấp những tiến bộ đáng kể trong việc thiết kế vi mạch bán dẫn nội địa, phần cứng và hệ sinh thái phần mềm tối ưu hóa của Nvidia vẫn đóng vai trò cốt lõi không thể thay thế trong các hệ thống huấn luyện mô hình ngôn ngữ lớn.",
-        "Cuộc cạnh tranh chiến lược này không chỉ định hình lại chuỗi cung ứng bán dẫn toàn cầu mà còn buộc các kỹ sư phần mềm phải tối ưu hóa mã nguồn để chạy hiệu quả trên nhiều kiến trúc phần cứng khác nhau."
-      ],
-      "summary_en": [
-        "Leading technology enterprises in China such as DeepSeek and Huawei are actively developing domestic artificial intelligence processors to reduce their heavy reliance on foreign hardware suppliers.",
-        "Despite significant advancements in domestic semiconductor design, Nvidia's advanced hardware and optimized software ecosystem continue to play an irreplaceable role in large-scale language model training systems.",
-        "This strategic competition is reshaping the global semiconductor supply chain while forcing software engineers to optimize codebases to run efficiently across diverse hardware architectures."
-      ],
-      "originalTitle": "Trung Quốc có thực sự cần Nvidia để chạy đua AI?",
-      "url": "https://tuoitre.vn/trung-quoc-co-thuc-su-can-nvidia-de-chay-dua-ai-100261110150631224.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Semiconductors",
-        "Nvidia",
-        "DeepSeek",
-        "Huawei"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-10T17:38:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/10/ai-chips-and-global-power-shift-17942973202121178059394-0-156-941-1662-crop-1794297328368695668908.png",
-      "contentSnippet": "DeepSeek, Huawei và các hãng công nghệ Trung Quốc đang phát triển chip AI nội địa, nhưng Nvidia vẫn giữ vai trò quan trọng trong cuộc đua này.",
-      "authorName": "THANH HIỆP⭐",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "cc5b4346fcca544f",
-      "title_vi": "Hướng dẫn kết nối Kimi K3.1 Pro với Kimi Code: API chính thức hay API tổng hợp?",
-      "title_en": "Guide to Connecting Kimi K3.1 Pro with Kimi Code: Official API or Aggregated API?",
-      "summary_vi": [
-        "Bài viết phân tích chi tiết về phương pháp kết nối mô hình Kimi K3.1 Pro vào môi trường phát triển Kimi Code thông qua hai lựa chọn API khác nhau là API chính thức và API tổng hợp.",
-        "API chính thức cung cấp độ ổn định cao và dễ dàng triển khai cho các tác vụ lập trình cơ bản, trong khi API tổng hợp mang lại sự linh hoạt khi cần chuyển đổi giữa nhiều nhà cung cấp mô hình AI khác nhau.",
-        "Lựa chọn kiến trúc API phù hợp giúp lập trình viên tối ưu hóa chi phí vận hành, giảm độ trễ mạng và nâng cao hiệu suất tổng thể trong quá trình xây dựng các ứng dụng tích hợp trí tuệ nhân tạo."
-      ],
-      "summary_en": [
-        "The article provides a detailed analysis of connecting the Kimi K3.1 Pro model to the Kimi Code development environment using either official APIs or aggregated API solutions.",
-        "The official API offers high stability and straightforward implementation for standard programming tasks, whereas the aggregated API provides greater flexibility when switching between multiple AI model providers.",
-        "Choosing the appropriate API architecture helps developers optimize operational costs, reduce network latency, and significantly enhance overall performance when building artificial intelligence-integrated applications."
-      ],
-      "originalTitle": "Hướng dẫn kết nối Kimi K3.1 Pro với Kimi Code: API chính thức hay API tổng hợp?",
-      "url": "https://viblo.asia/p/huong-dan-ket-noi-kimi-k31-pro-voi-kimi-code-api-chinh-thuc-hay-api-tong-hop-gjLN0B0j432",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "API",
-        "Kimi Code",
-        "Machine Learning",
-        "Software Development"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-10T17:04:09.000Z",
-      "contentSnippet": "Nếu bạn chỉ dùng Kimi cho hầu hết công việc, API chính thức thường là lựa chọn đơn giản nhất. API tổng hợp chỉ thực sự hữu ích khi bạn cần chuyển giữa...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "ad37f01e70421265",
-      "title_vi": "Các thiết bị nhà thông minh nên hoạt động ổn định mà không cần kết nối Internet",
-      "title_en": "Smart home devices should work without the internet",
-      "summary_vi": [
-        "Tác giả chia sẻ kinh nghiệm xây dựng hệ thống nhà thông minh vận hành hoàn toàn độc lập với các máy chủ của bên thứ ba trong suốt mười năm qua, đảm bảo ngôi nhà vẫn hoạt động bình thường ngay cả khi mất kết nối Internet.",
-        "Hệ thống cốt lõi được xây dựng trên các phần cứng tự chủ bao gồm vi điều khiển chạy mã nguồn mở Tasmota, trình trung gian MQTT và nền tảng điều khiển tự động Node-RED chạy trên máy tính nhúng Raspberry Pi, hạn chế tối đa sự phụ thuộc vào đám mây.",
-        "Mô hình kiến trúc này mang lại bài học quan trọng cho các kỹ sư phần mềm và người làm công nghệ về tính kiên cường của hệ thống, giúp giảm thiểu rủi ro khi dịch vụ đám mây gặp sự cố hoặc ngừng hoạt động đột ngột."
-      ],
-      "summary_en": [
-        "The author shares ten years of experience building a smart home automation system that operates independently of third-party vendor servers, ensuring the house remains fully functional even during total internet outages.",
-        "The core infrastructure relies on self-owned hardware utilizing Tasmota open-source firmware on microcontrollers, an MQTT message broker, and Node-RED running on a Raspberry Pi to minimize cloud dependency and ensure local control.",
-        "This architectural approach provides valuable lessons for software engineers and technologists regarding system resilience, helping mitigate catastrophic risks when external cloud services experience unexpected failures or API deprecations."
-      ],
-      "originalTitle": "Smart home devices should work without the internet",
-      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "IoT",
-        "Smart Home",
-        "Node-RED",
-        "MQTT",
-        "Edge Computing"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-10T15:25:20.000Z",
-      "contentSnippet": "AI;DR: I wrote the first draft, AI helped me edit and rewrite it, and I made the final pass. The rules, setups, and talks are my own. TLDR; Nothing core in my house depends on a vendor’s server. If the internet goes down, the house keeps running. That’s been rule one for about ten years, and my othe",
-      "authorName": "skittleson",
-      "upvotes": 1050,
-      "commentsCount": 369
-    },
-    {
-      "id": "1d8889c9661cfe54",
-      "title_vi": "Thực hành với máy ảnh drone AI mới của Ring dành cho ngôi nhà của bạn",
-      "title_en": "Hands-on with Ring’s new AI drone camera for your home",
-      "summary_vi": [
-        "Drone Cam mới của Ring là một camera an ninh bay trong nhà.",
-        "Ring cuối cùng cũng xuất xưởng một chiếc máy ảnh bay không người lái trong nhà.",
-        "Người sáng lập Ring, Jamie Siminoff, cho biết Ring Drone Cam sẽ ra mắt vào ngày 27 tháng 1 năm 2027 với giá 249,99 USD tại một sự kiện ra mắt ở Thành phố New York trong tuần này."
-      ],
-      "summary_en": [
-        "Ring’s new Drone Cam is a flying indoor security camera.",
-        "Ring is finally shipping a flying indoor drone camera.",
-        "The Ring Drone Cam will arrive on January 27th, 2027, for $249.99, Ring founder Jamie Siminoff said at a launch event in New York City this week."
-      ],
-      "originalTitle": "Hands-on with Ring’s new AI drone camera for your home",
-      "url": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "React"
-      ],
-      "hotScore": 89,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-11-10T13:30:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC01268.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Ring’s new Drone Cam is a flying indoor security camera. Ring is finally shipping a flying indoor drone camera. For real this time. The Ring Drone Cam will arrive on January 27th, 2027, for $249.99, Ring founder Jamie Siminoff said at a launch event in New York City this week. If it does actually sh",
-      "authorName": "Jennifer Pattison Tuohy",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "8056a97306225725",
-      "title_vi": "Việt Nam và Nhật Bản rót gần 500 tỉ đồng phát triển dự án bán dẫn",
-      "title_en": "Vietnam and Japan Invest Nearly 500 Billion VND in Semiconductor Projects",
-      "summary_vi": [
-        "Việt Nam cùng với Nhật Bản vừa quyết định đồng tài trợ nguồn kinh phí lên đến gần năm trăm tỉ đồng để triển khai thực hiện mười một dự án nghiên cứu chuyên sâu về công nghệ bán dẫn.",
-        "Sáng kiến hợp tác chiến lược này không chỉ tập trung vào lĩnh vực phần cứng vi mạch mà còn mở rộng kế hoạch đào tạo nguồn nhân lực chất lượng cao với một trăm tiến sĩ trí tuệ nhân tạo từ năm hai nghìn không trăm hai mươi bảy.",
-        "Sự đầu tư mạnh mẽ này tạo ra bước ngoặt quan trọng giúp nâng cao năng lực nghiên cứu phát triển công nghệ lõi, mở ra cơ hội lớn cho các kỹ sư Việt Nam tham gia sâu hơn vào chuỗi cung ứng công nghệ toàn cầu."
-      ],
-      "summary_en": [
-        "Vietnam and Japan have jointly funded nearly five hundred billion VND to support eleven specialized semiconductor research projects aimed at advancing hardware capabilities.",
-        "This strategic cooperation initiative focuses on microchip technology while outlining a comprehensive plan to train one hundred artificial intelligence Ph.D. holders starting in twenty twenty-seven.",
-        "This robust investment creates a crucial turning point to enhance core technology research capacity, opening significant opportunities for local engineers to integrate into the global tech supply chain."
-      ],
-      "originalTitle": "Việt Nam - Nhật Bản rót gần 500 tỉ đồng cho 11 dự án bán dẫn",
-      "url": "https://tuoitre.vn/viet-nam-nhat-ban-rot-gan-500-ti-dong-cho-11-du-an-ban-dan-100261110120103386.htm",
-      "sourceName": "Tuổi Trẻ Nhịp Sống Số",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Semiconductor",
-        "AI",
-        "Vietnam",
-        "Japan",
-        "Hardware"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-10T13:02:00.000Z",
-      "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/10/thumb-trao-van-kien-vn-nhat-edit-1794290821696958830816-17942908419312047764397-477-559-1003-1401-crop-17942911041021289601196-5-7-526-840-crop-1794291127353708991800.jpg",
-      "contentSnippet": "Việt Nam và Nhật Bản đồng tài trợ gần 500 tỉ đồng cho 11 dự án nghiên cứu bán dẫn, đồng thời lên kế hoạch đào tạo 100 tiến sĩ AI từ năm 2027.",
-      "authorName": "NGUYÊN BẢO⭐",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "f321c904268bcef2",
-      "title_vi": "Mã nguồn AlphaProof: Đột phá trong việc kiểm tra phần mềm phức tạp ở mức độ sâu",
-      "title_en": "AlphaProof Code: A Breakthrough in Verifying Complex Software at Depth",
-      "summary_vi": [
-        "Các nhà nghiên cứu tại Google DeepMind đã phát triển thành công một khung tác nhân trí tuệ nhân tạo mới mang tên AlphaProof Code nhằm giải quyết bài toán lớn về bảo mật phần mềm.",
-        "Hệ thống tiên tiến này kết hợp chuyên môn của con người với các tác nhân AI đa mô hình để chứng minh toán học các thuộc tính bảo mật cốt lõi trong mã nguồn thực tế của giao thức mã hóa Signal.",
-        "Bước tiến mang tính lịch sử này đánh dấu lần đầu tiên trí tuệ nhân tạo được ứng dụng thành công để kiểm định hình thức một giao thức mã hóa được triển khai rộng rãi với độ sâu tuyệt đối."
-      ],
-      "summary_en": [
-        "Researchers at Google DeepMind have successfully developed a novel artificial intelligence agent framework named AlphaProof Code to address major challenges in software security.",
-        "This advanced system combines human expertise with multi-LLM AI agents to mathematically prove core security properties within the actual implementation code of the Signal cryptographic protocol.",
-        "This historic breakthrough marks the first time artificial intelligence has been applied to formally verify a widely deployed cryptographic protocol at such an unprecedented level of depth."
-      ],
-      "originalTitle": "AlphaProof Code",
-      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "AI",
-        "Cybersecurity",
-        "Formal Verification",
-        "Google DeepMind",
-        "Cryptography"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-11-10T12:11:12.000Z",
-      "contentSnippet": "AlphaProof Code",
-      "authorName": "ilreb",
-      "upvotes": 184,
-      "commentsCount": 81
-    },
-    {
-      "id": "54d071bf2fec3d69",
-      "title_vi": "Meta triển khai trí tuệ nhân tạo ước tính tuổi người dùng mạng xã hội",
-      "title_en": "Meta Deploys Artificial Intelligence to Estimate Social Media User Age",
-      "summary_vi": [
-        "Meta chính thức triển khai công nghệ trí tuệ nhân tạo nhằm nhận diện và ước tính độ tuổi người dùng trên Instagram nhằm giải quyết tình trạng khai báo sai thông tin cá nhân. Giải pháp này giúp ngăn chặn thanh thiếu niên tiếp cận các nội dung trực tuyến chưa phù hợp với lứa tuổi.",
-        "Hệ thống mô hình học máy phân tích các đặc điểm tài khoản và hành vi trực tuyến để xác định liệu chủ sở hữu có phải là trẻ vị thành niên hay không dựa trên dữ liệu lịch sử. Công nghệ này đã được thử nghiệm thành công trước khi mở rộng quy mô toàn cầu cho Instagram.",
-        "Việc áp dụng các giải pháp nhận diện sinh học và ước tính tuổi bằng AI đặt ra tiêu chuẩn mới về an toàn số và quản lý danh tính trên nền tảng mạng xã hội lớn. Các kỹ sư phần mềm phải đối mặt với bài toán cân bằng giữa bảo mật quyền riêng tư và tuân thủ quy định pháp lý."
-      ],
-      "summary_en": [
-        "Meta is officially deploying artificial intelligence technology to detect and estimate user ages on Instagram to address widespread inaccurate personal information reporting. This solution helps prevent teenagers from accessing online content that is inappropriate for their age group.",
-        "Machine learning models analyze account characteristics and online behaviors to determine whether the account owner is a minor based on historical data. This technology has been successfully tested before expanding globally across the Instagram platform.",
-        "The application of biometric recognition and AI-based age estimation solutions sets new standards for digital safety and identity management on major social networks. Software engineers face the challenge of balancing privacy protection with regulatory compliance."
-      ],
-      "originalTitle": "Meta triển khai AI ước tính tuổi người dùng mạng xã hội",
-      "url": "https://vnexpress.net/meta-trien-khai-ai-uoc-tinh-tuoi-nguoi-dung-mang-xa-hoi-5142993.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Cybersecurity",
-        "Meta",
-        "Social Media"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-10T12:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/10/lq-1794299595-5814-1794299607.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=xkkrlX2J2q0rgAo9TJIaTw",
-      "contentSnippet": "Meta triển khai công nghệ nhận diện độ tuổi người dùng trên Instagram, đồng thời có kế hoạch mở rộng sang Threads và Facebook.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "3ee951e0d9e29078",
-      "title_vi": "Ốp trong suốt \"chống ố vàng\", chống sốc, có MagSafe xịn mà người dùng iPhone nào cũng nên có một cái, giá sale chỉ khoảng 400.000 đồng",
-      "title_en": "\"Anti-yellowing\", shockproof, transparent case with genuine MagSafe that every iPhone user should have one, sale price is only about 400,000 VND",
-      "summary_vi": [
-        "ESR Classic Hybrid Magnetic Case là mẫu ốp dành cho người muốn bảo vệ iPhone 18 Pro Max thật chắc mà vẫn khoe được màu máy.",
-        "Mẫu ốp này được bán chung cho cả iPhone 17 Pro Max và 18 Pro Max, có mặt lưng trong suốt, viền dẻo ôm quanh thân máy.",
-        "Trong đợt sale ngày đôi 11/11, giá khi áp mã khoảng 400.000 đồng."
-      ],
-      "summary_en": [
-        "ESR Classic Hybrid Magnetic Case is a case for people who want to protect their iPhone 18 Pro Max firmly while still showing off the device's color.",
-        "This case model is sold for both iPhone 17 Pro Max and 18 Pro Max, has a transparent back, flexible edges around the body.",
-        "During the sale on November 11, the price when applying the code is about 400,000 VND."
-      ],
-      "originalTitle": "Ốp trong suốt \"chống ố vàng\", chống sốc, có MagSafe xịn mà người dùng iPhone nào cũng nên có một cái, giá sale chỉ khoảng 400.000 đồng",
-      "url": "https://genk.vn/op-trong-suot-chong-o-vang-chong-soc-co-magsafe-xin-ma-nguoi-dung-iphone-nao-cung-nen-co-mot-cai-gia-sale-chi-khoang-400000-dong-16526111018361416.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-11-10T11:30:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/10/genk-esr-hybrid-magnetic-case-op-iphone-17-18-pro-max-9-1794309850666815433641-67-0-1067-1600-crop-1794310418354146445759.jpg",
-      "contentSnippet": "Mẫu ốp lưng giá dễ tiếp cận giúp người dùng iPhone 17/18 Pro Max \"khoe\" được trọn vẹn màu của máy, bốn góc có đệm khí chống va đập.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "9c6d286e6061d667",
-      "title_vi": "Tác nhân AI tự vận hành phòng thí nghiệm sinh học với hệ thống AutoDNA",
-      "title_en": "AI Agents Autonomously Operate Biological Laboratories with AutoDNA System",
-      "summary_vi": [
-        "Các nhà nghiên cứu tại Đại học Giao thông Thượng Hải đã phát triển hệ thống AutoDNA, một bước tiến quan trọng hướng tới việc xây dựng phòng thí nghiệm tự hành hoàn toàn do trí tuệ nhân tạo quản lý.",
-        "Hệ thống này tích hợp cánh tay robot điều khiển hơn hai mươi thiết bị khác nhau để tự động thực hiện các thao tác phức tạp như tổng hợp và giải trình tự ADN dựa trên chỉ dẫn tối giản từ con người.",
-        "Công nghệ này đánh dấu sự chuyển dịch từ việc AI chỉ phân tích dữ liệu sang trực tiếp điều khiển phần cứng vật lý, mở ra tương lai mới cho tự động hóa toàn diện trong nghiên cứu sinh học."
-      ],
-      "summary_en": [
-        "Researchers at Shanghai Jiao Tong University have developed the AutoDNA system, representing a major milestone toward the creation of fully autonomous laboratories managed by artificial intelligence.",
-        "The system integrates robotic arms controlling over twenty different devices to automatically execute complex operations such as DNA synthesis and sequencing based on minimal human prompts.",
-        "This technology marks a shift from AI merely analyzing data to directly controlling physical hardware, paving a new future for comprehensive automation in biological research."
-      ],
-      "originalTitle": "Tác nhân AI tự vận hành phòng thí nghiệm sinh học",
-      "url": "https://vnexpress.net/tac-nhan-ai-tu-van-hanh-phong-thi-nghiem-sinh-hoc-5141682.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI Agents",
-        "Automation",
-        "Bioinformatics",
-        "Robotics",
-        "Machine Learning"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-10T09:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/09/VNEAI-1794198073-1697-1794198330.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=x9bwzEy2nqNXOmnjFQ95HA",
-      "contentSnippet": "Các chuyên gia Trung Quốc thiết kế phòng thí nghiệm di truyền trong đó tác nhân AI thực hiện mọi thao tác tổng hợp và giải trình tự ADN.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "66234d49b46157f9",
-      "title_vi": "Kiểm thử mã nguồn do trí tuệ nhân tạo viết đều vượt qua nhưng vẫn bỏ sót nhiều lỗi đột biến",
-      "title_en": "AI-generated code tests pass successfully but half of mutants still slip through",
-      "summary_vi": [
-        "Bài viết phân tích thực trạng kiểm chứng chất lượng mã nguồn do trí tuệ nhân tạo tạo ra thông qua việc chạy các tập lệnh kiểm thử tự động truyền thống nhưng vẫn tiềm ẩn nhiều rủi ro.",
-        "Tác giả chỉ ra rằng mặc dù tất cả các bài kiểm thử đều vượt qua thành công, phương pháp kiểm tra đột biến cho thấy một tỷ lệ lớn các lỗi logic vẫn lọt qua lưới lọc an toàn.",
-        "Điều này đặt ra thách thức lớn cho các kỹ sư phần mềm trong việc phụ thuộc hoàn toàn vào mã do máy học tạo ra mà thiếu đi sự giám sát và bổ sung kiểm thử chuyên sâu."
-      ],
-      "summary_en": [
-        "The article analyzes the current state of verifying AI-generated source code through traditional automated test suites while hidden risks still remain largely unaddressed.",
-        "The author points out that although all test cases passed successfully, mutation testing reveals that a significant proportion of logical defects still slip through the safety net.",
-        "This poses a major challenge for software engineers regarding over-reliance on machine learning generated code without sufficient human oversight and rigorous testing enhancements."
-      ],
-      "originalTitle": "Test do AI viết đều pass nhưng một nửa mutant vẫn lọt qua",
-      "url": "https://viblo.asia/p/test-do-ai-viet-deu-pass-nhung-mot-nua-mutant-van-lot-qua-kNLr3p3EVgA",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "AI",
-        "Software Testing",
-        "Code Quality",
-        "Mutation Testing",
-        "Software Engineering"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-10T07:47:55.000Z",
-      "contentSnippet": "Nếu ai hỏi tôi kiểm chứng code do AI viết bằng cách nào, trước đây tôi có một câu trả lời rất đơn giản: chạy test. Dự án của tôi có 451 test trong 84...",
-      "authorName": "머승",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "de4fa8460832c912",
-      "title_vi": "Quản lý tài nguyên CSS và JavaScript hiện đại trong Joomla thông qua Web Asset Manager",
-      "title_en": "Modern CSS and JavaScript Resource Management in Joomla via Web Asset Manager",
-      "summary_vi": [
-        "Bài viết phân tích cách thức quản lý tệp tin tài nguyên tĩnh truyền thống trong các phiên bản Joomla cũ với phương thức gọi trực tiếp hàm addScript gây phân mảnh mã nguồn.",
-        "Giải pháp kiến trúc hiện đại được giới thiệu là sử dụng tệp cấu hình joomla asset json giúp lập trình viên quản lý tập trung các phụ thuộc và tải tệp hiệu quả.",
-        "Việc áp dụng Web Asset Manager mang lại giá trị thiết thực giúp tối ưu hóa hiệu suất website mã nguồn mở và nâng cao chất lượng bảo trì mã nguồn."
-      ],
-      "summary_en": [
-        "The article analyzes traditional static resource management methods in older Joomla versions involving scattered direct calls to the addScript function causing code fragmentation.",
-        "The modern architectural solution introduced is utilizing the joomla asset json configuration file helping developers centrally manage dependencies and load files efficiently.",
-        "Applying the Web Asset Manager brings practical value by optimizing open source website performance and significantly improving source code maintainability."
-      ],
-      "originalTitle": "Joomla Bài học 25: Quản lý CSS và JavaScript hiện đại với Web Asset Manager (joomla.asset.json)",
-      "url": "https://viblo.asia/p/joomla-bai-hoc-25-quan-ly-css-va-javascript-hien-dai-voi-web-asset-manager-joomlaassetjson-yZJZlRQQVjm",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Joomla",
-        "JavaScript",
-        "CSS",
-        "Web Asset Manager",
-        "Web Development"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-10T07:45:45.000Z",
-      "contentSnippet": "Ở các phiên bản Joomla cũ (Joomla 3 trở về trước), lập trình viên thường gọi trực tiếp doc->addScript() rải rác khắp các Component, Module và Template...",
-      "authorName": "Nguyen Hoang",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "abae38968403c950",
-      "title_vi": "Joomla Bài học 24: Xây dựng file index.php, sử dụng các thẻ và khai báo Module Positions",
-      "title_en": "Joomla Lesson 24: Building the index.php File, Using Tags and Declaring Module Positions",
-      "summary_vi": [
-        "Bài học tiếp theo trong series phát triển giao diện Joomla hướng dẫn lập trình viên cách xây dựng file index.php hoàn chỉnh sau khi đã hoàn tất việc thiết lập cấu trúc thư mục và danh sách vị trí hiển thị ở bài học trước.",
-        "Nội dung tập trung vào việc cấu trúc mã nguồn PHP và HTML, tích hợp các thẻ điều kiện, cũng như phương thức khai báo các vị trí module để hệ thống quản trị nội dung có thể render các thành phần giao diện một cách chính xác.",
-        "Kiến thức này giúp các nhà phát triển web làm chủ quá trình tùy biến template mã nguồn mở, tối ưu hóa khả năng hiển thị nội dung và nâng cao hiệu suất xây dựng hệ thống website chuyên nghiệp bằng nền tảng Joomla."
-      ],
-      "summary_en": [
-        "The next lesson in the Joomla template development series guides developers through building a complete index.php file after finishing the directory structure and position list setup in the previous lesson.",
-        "The content focuses on structuring PHP and HTML source code, integrating conditional tags, and declaring module positions so that the content management system can render interface components accurately.",
-        "This knowledge helps web developers master the process of customizing open-source templates, optimizing content display capabilities, and improving efficiency when building professional websites using Joomla."
-      ],
-      "originalTitle": "Joomla Bài học 24: Xây dựng file index.php, sử dụng các thẻ và khai báo Module Positions",
-      "url": "https://viblo.asia/p/joomla-bai-hoc-24-xay-dung-file-indexphp-su-dung-cac-the-jdocinclude-va-khai-bao-module-positions-OQJwzOKk4MP",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Joomla",
-        "PHP",
-        "Web Development",
-        "CMS",
-        "Template"
-      ],
-      "hotScore": 78,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-10T07:45:38.000Z",
-      "contentSnippet": "Ở Bài học 23, chúng ta đã dựng xong bộ khung thư mục và khai báo danh sách vị trí hiển thị trong file templateDetails.xml cho giao diện độc lập joomla...",
-      "authorName": "Nguyen Hoang",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "48c2f2313952f522",
-      "title_vi": "Những lợi thế ngành bán dẫn Việt - Nhật có thể bổ trợ nhau",
-      "title_en": "Synergistic Semiconductor Advantages Between Vietnam and Japan",
-      "summary_vi": [
-        "Tại tọa đàm chương trình NEXUS ở Tokyo, các chuyên gia nhận định Việt Nam và Nhật Bản sở hữu các thế mạnh mang tính bổ trợ cao để cùng thúc đẩy sự phát triển mạnh mẽ của ngành công nghiệp bán dẫn toàn cầu.",
-        "Nhật Bản nắm giữ vị thế thống trị với thị phần lớn về vật liệu và thiết bị quang khắc chip tiên tiến nhưng đang đối mặt với tình trạng thiếu hụt trầm trọng nguồn nhân lực kỹ thuật cao trong ngành.",
-        "Việt Nam sở hữu lực lượng kỹ sư vi mạch giàu tiềm năng cùng mục tiêu đào tạo lớn đến năm 2030, tạo cơ hội hợp tác chiến lược để bù đắp các mắt xích còn thiếu trong hệ sinh thái bán dẫn nội địa."
-      ],
-      "summary_en": [
-        "At the NEXUS program seminar in Tokyo, experts noted that Vietnam and Japan possess highly complementary strengths to jointly promote the powerful development of the global semiconductor industry.",
-        "Japan maintains a dominant position with large market shares in advanced semiconductor materials and photolithography equipment, but it is facing a severe shortage of high-tech engineering human resources.",
-        "Vietnam possesses a promising integrated circuit engineering workforce alongside ambitious training targets by 2030, creating strategic cooperation opportunities to fill missing links in the domestic semiconductor ecosystem."
-      ],
-      "originalTitle": "Những lợi thế ngành bán dẫn Việt - Nhật có thể bổ trợ nhau",
-      "url": "https://vnexpress.net/nhung-loi-the-nganh-ban-dan-viet-nhat-co-the-bo-tro-nhau-5142903.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Semiconductors",
-        "Hardware",
-        "Vietnam-Japan",
-        "Microchips",
-        "Supply Chain"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-10T07:17:30.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/10/wm1-wm1-img-5913-jpg-1794290420-4113-1794290601.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FLibvddUfrpm8PIPQ9mUTQ",
-      "contentSnippet": "Các chuyên gia cho rằng, Việt Nam lợi thế về nhân lực trong khi Nhật mạnh về vật liệu và thiết bị, có thể kết hợp để cùng phát triển ngành bán dẫn.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "d8522f99f19120ba",
-      "title_vi": "Amazon tiết kiệm hàng triệu USD bằng cách thay thế Sonnet 4.6 bằng Strands Decisionr",
-      "title_en": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
-      "summary_vi": [
-        "Trong một thời gian, các nhóm Amazon và AWS đã dựa vào Claude Sonnet 4.6 để dán nhãn vé trong hệ thống nội bộ mà không tốn quá nhiều chi phí.",
-        "Sonnet 4.6 phù hợp với sự lựa chọn của goldilocks trong việc cân bằng giữa trí thông minh và chi phí.",
-        "Xét đến việc nó xử lý một trong những hệ thống bán vé nội bộ lớn nhất thế giới, mô hình 9 tháng tuổi này đã hoạt động rất tốt."
-      ],
-      "summary_en": [
-        "For a while, Amazon and AWS teams relied on Claude Sonnet 4.6 to label tickets in an internal system without breaking the bank.",
-        "Sonnet 4.6 fit the goldilocks choice of balancing intelligence with cost.",
-        "Considering it dealt with one of the world’s largest internal ticketing systems, the nine month old model did well."
-      ],
-      "originalTitle": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
-      "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Claude"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 6,
-      "publishedAt": "2026-11-10T06:01:08.000Z",
-      "contentSnippet": "For a while, Amazon and AWS teams relied on Claude Sonnet 4.6 to label tickets in an internal system without breaking the bank. Sonnet 4.6 fit the goldilocks choice of balancing intelligence with cost. Considering it dealt with one of the world’s largest internal ticketing systems, the nine month ol",
-      "authorName": "aloukissas",
-      "upvotes": 443,
-      "commentsCount": 157
-    },
-    {
-      "id": "4c1020a0667435bb",
-      "title_vi": "AI giúp 'giải đáp câu hỏi lớn của điện toán lượng tử'",
-      "title_en": "AI helps 'answer the big question of quantum computing'",
-      "summary_vi": [
-        "Một mô hình chưa công bố của Anthropic giúp giới khoa học chứng minh giả thuyết Aaronson-Ambainis, vấn đề đã tồn tại lâu năm trong điện toán lượng tử.",
-        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong AI giúp 'giải đáp câu hỏi lớn của điện toán lượng tử'.",
-        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến AI giúp 'giải đáp câu hỏi lớn của điện toán lượng tử'."
-      ],
-      "summary_en": [
-        "An unpublished model from Anthropic helps scientists prove the Aaronson-Ambainis hypothesis, a long-standing problem in quantum computing.",
-        "In-depth technical breakdown and implementation mechanisms introduced in AI helps 'answer the big question of quantum computing'.",
-        "Practical engineering impact and actionable takeaways for developers building with AI helps 'answer the big question of quantum computing'."
-      ],
-      "originalTitle": "AI giúp 'giải đáp câu hỏi lớn của điện toán lượng tử'",
-      "url": "https://vnexpress.net/ai-giup-giai-dap-cau-hoi-lon-cua-dien-toan-luong-tu-5142424.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Claude"
-      ],
-      "hotScore": 94,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-11-10T02:00:00.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/09/lq-1794216508-7052-1794217806.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=nBHg0HBcqxMrItst-xXNcA",
-      "contentSnippet": "Một mô hình chưa công bố của Anthropic giúp giới khoa học chứng minh giả thuyết Aaronson-Ambainis, vấn đề đã tồn tại lâu năm trong điện toán lượng tử.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "05e31abb81030e94",
-      "title_vi": "David Ellison cho biết AI có thể là 'sự mở khóa sáng tạo lớn nhất trong lịch sử hiện đại'",
-      "title_en": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
-      "summary_vi": [
-        "Trong cuộc họp báo cáo thu nhập mới nhất của Paramount Skydance, Giám đốc điều hành David Ellison cho biết “thật khó tưởng tượng” AI sẽ không có tác động lớn hơn đến ngành công nghiệp điện ảnh so với CGI.",
-        "Trả lời câu hỏi về triển vọng của công ty đối với AI, Ellison nói: “Tôi nghĩ khi bạn thu nhỏ và nhìn vào quá trình sản xuất, AI thực sự có tiềm năng trở thành cơ hội sáng tạo lớn nhất trong lịch sử hiện đại.",
-        "Lần cuối cùng chúng ta nhìn thấy bất cứ thứ gì gần giống như vậy thực sự là sự ra đời của CGI và vật liệu tổng hợp kỹ thuật số vào đầu những năm 90."
-      ],
-      "summary_en": [
-        "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI.",
-        "In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has the potential to be the biggest creative unlock in modern history.",
-        "The last time we saw anything close to this was really the, you know, advent of CGI and digital composites in the early 90s."
-      ],
-      "originalTitle": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
-      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "MachineLearning"
-      ],
-      "hotScore": 97,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-11-10T00:28:49.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2274329497.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has th",
-      "authorName": "Stevie Bonifield",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "44bb6093a440b817",
-      "title_vi": "Trung Quốc có thể nhận được gì từ nhà sáng lập Nvidia?",
-      "title_en": "What could China get from Jensen Huang?",
-      "summary_vi": [
-        "Sức mạnh thống trị của tập đoàn Nvidia trong lĩnh vực trí tuệ nhân tạo toàn cầu đang trở thành tâm điểm chú ý khi các dòng chip xử lý cao cấp định hình toàn bộ hạ tầng công nghệ tương lai.",
-        "Với hàng chục tỷ đô la đầu tư vào các phòng thí nghiệm trí tuệ nhân tạo tiên tiến và các công ty hạ tầng đám mây, tầm ảnh hưởng của hãng chip này vượt xa giới hạn kinh doanh phần cứng thông thường.",
-        "Việc phân tích vai trò chiến lược của lãnh đạo doanh nghiệp này giúp cộng đồng công nghệ hiểu rõ hơn về chuỗi cung ứng bán dẫn toàn cầu và các mốiε quan hệ địa chính trị ảnh hưởng đến ngành công nghệ."
-      ],
-      "summary_en": [
-        "The dominant power of Nvidia in the global artificial intelligence landscape is drawing significant attention as advanced processing chips shape the foundation of future technology infrastructure.",
-        "With tens of billions of dollars invested in frontier AI laboratories and cloud infrastructure companies, the influence of this chipmaker extends far beyond conventional hardware business operations.",
-        "Analyzing the strategic role of this corporate leader helps the technology community better understand global semiconductor supply chains and geopolitical relationships impacting the tech industry."
-      ],
-      "originalTitle": "What could China get from Jensen Huang?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Nvidia",
-        "AI",
-        "Semiconductors",
-        "Infrastructure",
-        "Tech Geopolitics"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-09T23:51:58.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range of up-and-coming AI ",
-      "authorName": "Hayden Field",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "e9950a58c8925934",
-      "title_vi": "Bộ vi xử lý TPU 8tx và TPU 8i Max mới hỗ trợ kỷ nguyên tác nhân thông minh",
-      "title_en": "TPU 8tx and TPU 8i Max Built for the Agentic Era",
-      "summary_vi": [
-        "Google vừa mở rộng danh mục phần cứng thế hệ thứ tám của mình bằng việc ra mắt hai dòng chip xử lý tensor mới nhằm đáp ứng nhu cầu ngày càng tăng của kỷ nguyên tác nhân thông minh.",
-        "Các hệ thống mới này cung cấp khả năng suy luận bảo mật và bảo mật dữ liệu tối ưu cùng với cửa sổ ngữ cảnh lớn, giúp xử lý các khối lượng công việc phức tạp một cách hiệu quả.",
-        "Việc bổ sung các dòng chip chuyên dụng này mang lại giá trị thiết thực cho các phòng thí nghiệm tiên tiến, doanh nghiệp và nhà phát triển đang triển khai hạ tầng trí tuệ nhân tạo quy mô lớn."
-      ],
-      "summary_en": [
-        "Google has expanded its eighth-generation hardware portfolio by launching two new tensor processing units designed to meet the growing demands of the intelligent agent era.",
-        "These new systems provide optimized secure inference capabilities along with massive context windows, helping to handle complex workloads efficiently.",
-        "The addition of these specialized chips delivers practical value for advanced research labs, enterprises, and developers deploying large-scale artificial intelligence infrastructure."
-      ],
-      "originalTitle": "TPU 8tx and TPU 8i Max",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "TPU",
-        "Google Cloud",
-        "AI Hardware",
-        "Machine Learning",
-        "Cloud Computing"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-09T21:56:57.000Z",
-      "contentSnippet": "Our newest TPUs: 8tx and 8i Max, built for the agentic era Nov 09, 2026 We’ve expanded our eighth generation TPU portfolio with TPU 8tx and TPU 8i Max, marking four new TPU systems in a single year. SVP and Chief Technologist, AI and Infrastructure We’re expanding our eighth-generation TPU portfolio",
-      "authorName": "_benx_",
-      "upvotes": 186,
-      "commentsCount": 38
-    },
-    {
-      "id": "cdaf639b0bcf3950",
-      "title_vi": "Từ lập trình đến phát hành sản phẩm: Cursor Live Apps hỗ trợ gì cho lập trình viên độc lập",
-      "title_en": "From Code to Launch: What Cursor Live Apps Can Do for Indie Developers",
-      "summary_vi": [
-        "Sự ra mắt của các công cụ phát triển tích hợp trí tuệ nhân tạo hiện đại đang thay đổi hoàn toàn cách thức xây dựng sản phẩm của cộng đồng lập trình viên độc lập trên thị trường hiện nay.",
-        "Công cụ này cung cấp khả năng tự động hóa quy trình viết mã nguồn, kiểm thử và tối ưu hóa giao diện người dùng giúp rút ngắn đáng kể thời gian triển khai ứng dụng thực tế.",
-        "Giải pháp này mở ra cơ hội lớn cho các nhà phát triển cá nhân cạnh tranh hiệu quả hơn, giảm thiểu chi phí vận hành và tăng tốc độ đưa sản phẩm công nghệ ra mắt thị trường."
-      ],
-      "summary_en": [
-        "The introduction of modern AI-integrated development tools is completely transforming the product building workflow for independent software developers across the current market landscape.",
-        "This platform provides powerful automation capabilities for source code generation, testing, and user interface optimization, significantly shortening the time required to deploy real-world applications.",
-        "This technological solution unlocks major opportunities for solo developers to compete more effectively, minimize operational costs, and accelerate the time-to-market for digital products."
-      ],
-      "originalTitle": "Từ code đến ra mắt: Cursor Live Apps có thể làm gì cho các indie developer",
-      "url": "https://viblo.asia/p/tu-code-den-ra-mat-cursor-live-apps-co-the-lam-gi-cho-cac-indie-developer-R5JRQrw74Gv",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Cursor",
-        "AI Development",
-        "Indie Hacker",
-        "Software Engineering",
-        "Product Launch"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-09T21:29:41.000Z",
-      "contentSnippet": "Từ code đến ra mắt: Cursor Live Apps có thể làm gì cho các indie developer Trong công việc của một indie developer, từ lâu việc viết code đã không cò...",
-      "authorName": "Sunny",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "809772a49db1b003",
-      "title_vi": "Tại sao DeepSeek nổi tiếng toàn cầu và hướng dẫn tích hợp API DeepSeek cho lập trình viên",
-      "title_en": "Why DeepSeek Gained Global Popularity and How to Integrate Its API for Developers",
-      "summary_vi": [
-        "Vào tháng 1 năm 2025, một ứng dụng trí tuệ nhân tạo do các kỹ sư Trung Quốc phát triển đã bất ngờ vươn lên vị trí dẫn đầu bảng xếp hạng ứng dụng miễn phí trên kho ứng dụng App Store tại Mỹ, vượt qua cả đối thủ sừng sỏ ChatGPT.",
-        "Bài viết phân tích sâu về kiến trúc mô hình ngôn ngữ lớn, các phương pháp tối ưu hóa chi phí huấn luyện và chiến lược triển khai hạ tầng phần cứng giúp DeepSeek đạt hiệu suất vượt trội với mức chi phí thấp đáng kinh ngạc.",
-        "Cung cấp hướng dẫn chi tiết từng bước cách gọi và tích hợp giao diện lập trình ứng dụng API của DeepSeek vào các hệ thống phần mềm thực tế, mang lại giải pháp công nghệ kinh tế và hiệu quả cao cho cộng đồng lập trình viên."
-      ],
-      "summary_en": [
-        "In January 2025, an artificial intelligence application developed by Chinese engineers unexpectedly claimed the top spot on the US App Store free charts, surpassing major competitors like ChatGPT.",
-        "The article deeply analyzes the large language model architecture, training cost optimization techniques, and hardware infrastructure strategies that enable DeepSeek to achieve outstanding performance at remarkably low costs.",
-        "It provides a comprehensive, step-by-step guide on how to invoke and integrate the DeepSeek API into practical software systems, offering an economical and high-efficiency technological solution for the developer community."
-      ],
-      "originalTitle": "Tại sao DeepSeek nổi tiếng ở nước ngoài, và gọi API DeepSeek thế nào trong năm 2026?",
-      "url": "https://viblo.asia/p/tai-sao-deepseek-noi-tieng-o-nuoc-ngoai-va-goi-api-deepseek-the-nao-trong-nam-2026-37Lde9N2Vov",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "DeepSeek",
-        "AI",
-        "API",
-        "LLM",
-        "Machine Learning"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 5,
-      "publishedAt": "2026-11-09T21:06:02.000Z",
-      "contentSnippet": "Tháng 1/2025, một ứng dụng AI do một nhóm kỹ sư Trung Quốc xây dựng leo lên vị trí đầu bảng xếp hạng miễn phí của App Store Mỹ, vượt qua ChatGPT. Cù...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "d77483afd0bdcbb4",
-      "title_vi": "Xử lý mã OTP trong Spring Boot với WireMock, Testcontainers và kiểm thử thực tế",
-      "title_en": "Handling OTP in Spring Boot with WireMock, Testcontainers, and Real Smoke Testing",
-      "summary_vi": [
-        "Bài viết chia sẻ phương pháp kiểm thử mã OTP trong ứng dụng Spring Boot bằng cách kết hợp công cụ WireMock, môi trường Testcontainers và thực hiện smoke test trực tiếp trên dịch vụ số ảo HeroSMS.",
-        "Tác giả áp dụng các công cụ hiện đại như AI hỗ trợ sinh mã, đồng thời đối chiếu kỹ lưỡng với tài liệu API chính thức để đảm bảo tính chính xác và ổn định của quy trình kiểm thử tin nhắn SMS.",
-        "Giải pháp này mang lại giá trị thực tiễn cao cho các lập trình viên backend, giúp tự động hóa quá trình kiểm thử tích hợp và nâng cao chất lượng hệ thống xác thực người dùng trong các dự án thực tế."
-      ],
-      "summary_en": [
-        "The article shares a comprehensive method for testing OTP authentication in Spring Boot applications by combining WireMock, Testcontainers, and performing smoke tests directly on the HeroSMS virtual number service.",
-        "The author leverages AI tools for code generation while meticulously cross-referencing official API documentation to ensure the accuracy and reliability of the automated SMS messaging test pipeline.",
-        "This solution delivers high practical value for backend developers by automating integration testing workflows and significantly improving the overall quality of user authentication systems in production projects."
-      ],
-      "originalTitle": "OTP Spring Boot: test SMS với WireMock, Testcontainers và smoke test bằng số thật",
-      "url": "https://viblo.asia/p/otp-spring-boot-test-sms-voi-wiremock-testcontainers-va-smoke-test-bang-so-that-gjLN0BeP432",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Spring Boot",
-        "WireMock",
-        "Testcontainers",
-        "Testing",
-        "OTP"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-09T21:01:05.000Z",
-      "contentSnippet": "Mình làm việc cùng HeroSMS, dịch vụ số ảo dùng ở phần smoke test. Bài viết có dùng công cụ AI; code đã được đối chiếu với tài liệu API HeroSMS và docs...",
-      "authorName": "Minh Trần",
       "upvotes": 0,
       "commentsCount": 0
     }
