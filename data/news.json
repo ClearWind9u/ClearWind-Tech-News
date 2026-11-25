@@ -1,7 +1,391 @@
 {
-  "lastUpdated": "2026-11-25T01:47:08.141Z",
+  "lastUpdated": "2026-11-25T16:35:49.044Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "f29befff1e0c56f5",
+      "title_vi": "Django: kiểm tra bảo mật trước khi deploy bằng manage.py check --deploy trong 5 phút",
+      "title_en": "Django: check security before deploying with manage.py check --deploy in 5 minutes",
+      "summary_vi": [
+        "Trước khi đưa một dự án Django lên production, hãy chạy python manage.py check --deploy: lệnh này quét file settings và liệt kê các lỗ hổng bảo mật.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Django: kiểm tra bảo mật trước khi deploy bằng manage.py check --deploy trong 5 phút.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Django: kiểm tra bảo mật trước khi deploy bằng manage.py check --deploy trong 5 phút."
+      ],
+      "summary_en": [
+        "Before pushing a Django project to production, run python manage.py check --deploy: this command scans the settings file and lists security vulnerabilities.",
+        "In-depth technical breakdown and implementation mechanisms introduced in Django: check security before deploying with manage.py check --deploy in 5 minutes.",
+        "Practical engineering impact and actionable takeaways for developers building with Django: check security before deploying with manage.py check --deploy in 5 minutes."
+      ],
+      "originalTitle": "Django: kiểm tra bảo mật trước khi deploy bằng manage.py check --deploy trong 5 phút",
+      "url": "https://viblo.asia/p/django-kiem-tra-bao-mat-truoc-khi-deploy-bang-managepy-check-deploy-trong-5-phut-OQJwzvdN4MP",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Cybersecurity",
+      "tags": [
+        "Python",
+        "Security"
+      ],
+      "hotScore": 89,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-25T22:24:04.000Z",
+      "contentSnippet": "Trước khi đưa một dự án Django lên production, hãy chạy python manage.py check --deploy: lệnh này quét file settings và liệt kê các lỗ hổng bảo mật nh...",
+      "authorName": "Linh Fish Dev",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "2f63653d7f65c099",
+      "title_vi": "Dùng proxy trong Python: requests, HTTPX và aiohttp khác nhau ở đâu (và những lỗi hay gặp)",
+      "title_en": "Using proxies in Python: what's the difference between requests, HTTPX and aiohttp (and common mistakes)",
+      "summary_vi": [
+        "Bởi Leo Lin, Product Manager tại FlashIP, Singapore.",
+        "Công khai: tôi làm việc tại FlashIP, một nhà cung cấp proxy, nên bạn hãy cân nhắc điều đó khi đọc.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Dùng proxy trong Python: requests, HTTPX và aiohttp khác nhau ở đâu (và những lỗi hay gặp)."
+      ],
+      "summary_en": [
+        "By Leo Lin, Product Manager at FlashIP, Singapore.",
+        "Disclosure: I work at FlashIP, a proxy provider, so please consider that when reading.",
+        "Practical engineering impact and actionable takeaways for developers building with Using proxies in Python: what's the difference between requests, HTTPX and aiohttp (and common mistakes)."
+      ],
+      "originalTitle": "Dùng proxy trong Python: requests, HTTPX và aiohttp khác nhau ở đâu (và những lỗi hay gặp)",
+      "url": "https://viblo.asia/p/dung-proxy-trong-python-requests-httpx-va-aiohttp-khac-nhau-o-dau-va-nhung-loi-hay-gap-13VM9Bm0VY7",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Software Engineering",
+      "tags": [
+        "Python"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-25T19:54:37.000Z",
+      "contentSnippet": "Bởi Leo Lin, Product Manager tại FlashIP, Singapore. Công khai: tôi làm việc tại FlashIP, một nhà cung cấp proxy, nên bạn hãy cân nhắc điều đó khi đọc...",
+      "authorName": "Leo Lin",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "623c00cc4ae87af5",
+      "title_vi": "Bẫy chi phí AWS số 15: Tính năng S3 Versioning thiếu Lifecycle Rule khiến một gigabyte dữ liệu phình to thành tám phẩy sáu terabyte",
+      "title_en": "AWS Cost Trap #15: Missing S3 Lifecycle Rule for Versioning Blows Up One Gigabyte of Data into Eight Point Six Terabytes",
+      "summary_vi": [
+        "Bài viết phân tích một trường hợp thực tế khi dữ liệu lưu trữ trên Amazon S3 tăng phi mã từ một gigabyte ban đầu lên tới tám phẩy sáu terabyte chỉ vì bật tính năng quản lý phiên bản.",
+        "Nguyên nhân cốt lõi là do người dùng quên cấu hình quy tắc vòng đời dữ liệu, dẫn đến việc các phiên bản cũ và dữ liệu đã xóa âm thầm tích tụ và gánh chịu chi phí lưu trữ không cần thiết.",
+        "Bài học kinh nghiệm xương máu cho các kỹ sư DevOps là luôn phải thiết lập chính sách vòng đời tự động xóa hoặc chuyển tầng lưu trữ đối với các S3 bucket có bật tính năng versioning."
+      ],
+      "summary_en": [
+        "The article analyzes a real world case where storage data on Amazon S3 skyrocketed from an initial one gigabyte to eight point six terabytes simply due to enabling the versioning feature.",
+        "The root cause is that users forgot to configure data lifecycle rules, leading to old versions and deleted data silently accumulating and incurring unnecessary storage costs every single month.",
+        "A crucial lesson for DevOps engineers is to always establish automated lifecycle policies to delete or transition storage tiers for S3 buckets that have versioning enabled."
+      ],
+      "originalTitle": "Bẫy chi phí AWS #15: S3 versioning thiếu lifecycle rule, 1 GB dữ liệu phình thành 8,6 TB",
+      "url": "https://viblo.asia/p/bay-chi-phi-aws-15-s3-versioning-thieu-lifecycle-rule-1-gb-du-lieu-phinh-thanh-86-tb-ym400bqW491",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "AWS",
+        "S3",
+        "DevOps",
+        "Cloud Storage",
+        "Cost Optimization"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-25T19:00:00.000Z",
+      "contentSnippet": "Dữ liệu thật chỉ có 1 GB. Nhưng bucket S3 chứa tới 8,6 TB, tốn khoảng $199/tháng, và con số đó vẫn đang tăng mỗi ngày. Thủ phạm là versioning, một tí...",
+      "authorName": "Dream",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "3b2cd85b3a1440f7",
+      "title_vi": "Thuật toán & CTDL #12: Stack - cấu trúc dữ liệu nằm sau mỗi lần bạn bấm Ctrl+Z",
+      "title_en": "Algorithms & Data Program #12: Stack - the data structure that lies behind each time you press Ctrl+Z",
+      "summary_vi": [
+        "Bạn bấm Ctrl+Z mỗi ngày, và trình soạn thảo luôn hoàn tác đúng thao tác vừa làm, không nhầm sang thao tác cách đây mười phút.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Thuật toán & CTDL #12: Stack - cấu trúc dữ liệu nằm sau mỗi lần bạn bấm Ctrl+Z.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Thuật toán & CTDL #12: Stack - cấu trúc dữ liệu nằm sau mỗi lần bạn bấm Ctrl+Z."
+      ],
+      "summary_en": [
+        "You press Ctrl+Z every day, and the editor always undoes the exact action you just did, not the one you did ten minutes ago.",
+        "In-depth technical breakdown and implementation mechanisms introduced in Algorithms & Data Program #12: Stack - the data structure that lies behind each time you press Ctrl+Z.",
+        "Practical engineering impact and actionable takeaways for developers building with Algorithms & Data Program #12: Stack - the data structure that lies behind each time you press Ctrl+Z."
+      ],
+      "originalTitle": "Thuật toán & CTDL #12: Stack - cấu trúc dữ liệu nằm sau mỗi lần bạn bấm Ctrl+Z",
+      "url": "https://viblo.asia/p/thuat-toan-ctdl-12-stack-cau-truc-du-lieu-nam-sau-moi-lan-ban-bam-ctrlz-yZJZlGe8Vjm",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "TechTrends",
+        "Innovation"
+      ],
+      "hotScore": 86,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-25T18:00:00.000Z",
+      "contentSnippet": "Bạn bấm Ctrl+Z mỗi ngày, và trình soạn thảo luôn hoàn tác đúng thao tác vừa làm, không nhầm sang thao tác cách đây mười phút. Đằng sau là một trong nh...",
+      "authorName": "Dream",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "927dd6b10beb1b95",
+      "title_vi": "Không có gì cung cấp cái nhìn đầy đủ về hộp sạc và tai nghe AI ​​của nó",
+      "title_en": "Nothing offers a full look at its AI earbuds and charging case",
+      "summary_vi": [
+        "Không có gì thể hiện cái nhìn chi tiết hơn nhiều về tai nghe nhét tai AI sắp ra mắt trước khi phát hành vào ngày 8 tháng 12.",
+        "Tai nghe Ear Note có thể ghi âm cuộc gọi của bạn trong khi hộp sạc có thể ghi âm, phiên âm và tóm tắt cuộc trò chuyện của bạn.",
+        "Giống như Ear 3, hộp đựng micrô của Ear Note đi kèm nút \"Talk\" mà bạn có thể sử dụng để ghi âm giọng nói của chính mình."
+      ],
+      "summary_en": [
+        "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release.",
+        "The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations.",
+        "Like the Ear 3, the Ear Note's microphone-equipped case comes with a \"Talk\" button that you can use to record your own voice."
+      ],
+      "originalTitle": "Nothing offers a full look at its AI earbuds and charging case",
+      "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "MachineLearning"
+      ],
+      "hotScore": 91,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-25T16:00:59.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ear-note-nothing.jpeg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-equipped case comes ",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "17696e1aae2fb82d",
+      "title_vi": "Không có \"danh sách đen\" nào: vì sao Xiaomi, OPPO, vivo bị réo tên khi TSMC dừng đơn chip của Trung Quốc",
+      "title_en": "There is no \"black list\": why Xiaomi, OPPO, vivo were called names when TSMC stopped Chinese chip orders",
+      "summary_vi": [
+        "Quy định mới có hiệu lực từ 19/11 buộc nhiều chip tiên tiến của hãng thiết kế Trung Quốc phải xin giấy phép, nhưng việc cắt hẳn nguồn cung chưa được xác nhận.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Không có \"danh sách đen\" nào: vì sao Xiaomi, OPPO, vivo bị réo tên khi TSMC dừng đơn chip của Trung Quốc.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Không có \"danh sách đen\" nào: vì sao Xiaomi, OPPO, vivo bị réo tên khi TSMC dừng đơn chip của Trung Quốc."
+      ],
+      "summary_en": [
+        "New regulations effective from November 19 force many advanced chips from Chinese design firms to apply for licenses, but a complete supply cut has not been confirmed.",
+        "In-depth technical breakdown and implementation mechanisms introduced in There is no \"black list\": why Xiaomi, OPPO, vivo were called names when TSMC stopped Chinese chip orders.",
+        "Practical engineering impact and actionable takeaways for developers building with There is no \"black list\": why Xiaomi, OPPO, vivo were called names when TSMC stopped Chinese chip orders."
+      ],
+      "originalTitle": "Không có \"danh sách đen\" nào: vì sao Xiaomi, OPPO, vivo bị réo tên khi TSMC dừng đơn chip của Trung Quốc",
+      "url": "https://genk.vn/khong-co-danh-sach-den-nao-vi-sao-xiaomi-oppo-vivo-bi-reo-ten-khi-tsmc-dung-don-chip-cua-trung-quoc-165261125202330598.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "TechTrends",
+        "Innovation"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-25T15:49:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/25/gettyimages-1228208911-32-0-672-1024-crop-17956196381601956813053.jpg",
+      "contentSnippet": "Quy định mới có hiệu lực từ 19/11 buộc nhiều chip tiên tiến của hãng thiết kế Trung Quốc phải xin giấy phép, nhưng việc cắt hẳn nguồn cung chưa được xác nhận.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "59214112cb06abdc",
+      "title_vi": "Nhà toán học của Anthropic thừa nhận: Lời giải dài 250.000 trang cho Giả thuyết Riemann chỉ là trò đùa",
+      "title_en": "Anthropic's mathematician admits: The 250,000-page solution to the Riemann Hypothesis is just a joke",
+      "summary_vi": [
+        "Nhà toán học này cho rằng mọi người sẽ nhận ra trò đùa với con số 250.000 trang này, nhưng hóa ra hầu hết mọi người lại hiểu theo đúng nghĩa đen với con số mà ông công bố.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Nhà toán học của Anthropic thừa nhận: Lời giải dài 250.000 trang cho Giả thuyết Riemann chỉ là trò đùa.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Nhà toán học của Anthropic thừa nhận: Lời giải dài 250.000 trang cho Giả thuyết Riemann chỉ là trò đùa."
+      ],
+      "summary_en": [
+        "This mathematician thought people would recognize the joke with this number of 250,000 pages, but it turned out that most people took the number he announced quite literally.",
+        "In-depth technical breakdown and implementation mechanisms introduced in Anthropic's mathematician admits: The 250,000-page solution to the Riemann Hypothesis is just a joke.",
+        "Practical engineering impact and actionable takeaways for developers building with Anthropic's mathematician admits: The 250,000-page solution to the Riemann Hypothesis is just a joke."
+      ],
+      "originalTitle": "Nhà toán học của Anthropic thừa nhận: Lời giải dài 250.000 trang cho Giả thuyết Riemann chỉ là trò đùa",
+      "url": "https://genk.vn/nha-toan-hoc-cua-anthropic-thua-nhan-loi-giai-dai-250000-trang-cho-gia-thuyet-riemann-chi-la-tro-dua-165261125215855518.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Claude"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-25T14:58:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/25/avatar1795618730269-1795618730860215883601.png",
+      "contentSnippet": "Nhà toán học này cho rằng mọi người sẽ nhận ra trò đùa với con số 250.000 trang này, nhưng hóa ra hầu hết mọi người lại hiểu theo đúng nghĩa đen với con số mà ông công bố.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "8309588c20e1138e",
+      "title_vi": "Amazon đang thảo luận để chấm dứt lệnh cấm tác nhân AI Muse mua sắm trên nền tảng thương mại điện tử của mình",
+      "title_en": "Amazon is reportedly in talks to end Muse AI shopping block",
+      "summary_vi": [
+        "Amazon đã tiến hành các cuộc đàm phán quan trọng nhằm xem xét khả năng cho phép tác nhân trí tuệ nhân tạo Muse của Meta tham gia mua sắm trực tiếp trên nền tảng chợ điện tử của hãng.",
+        "Trọng tâm của các phiên thảo luận xoay quanh việc kiểm soát chất lượng kết quả tìm kiếm sản phẩm do hệ thống AI đề xuất và bài toán cân đối nguồn doanh thu từ quảng cáo trực tuyến.",
+        "Sự kiện này đánh dấu bước dịch chuyển quan trọng trong việc tích hợp các tác nhân thông minh tự động vào hệ sinh thái thương mại điện tử quy mô lớn, đặt ra nhiều thách thức mới cho các kỹ sư phát triển."
+      ],
+      "summary_en": [
+        "Amazon has held significant discussions regarding the possibility of allowing Meta's Muse artificial intelligence agent to shop directly within its online marketplace platform.",
+        "The core focus of these negotiations centers on controlling the quality of product search results generated by AI systems and balancing revenue streams from online advertisements.",
+        "This development marks a crucial shift in integrating autonomous intelligent agents into large-scale ecommerce ecosystems, presenting new engineering challenges for developers."
+      ],
+      "originalTitle": "Amazon is reportedly in talks to end Muse AI shopping block",
+      "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Meta",
+        "Amazon",
+        "Ecommerce",
+        "Machine Learning"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-25T14:12:33.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's a",
+      "authorName": "Emma Roth",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "b831dbeefa036a18",
+      "title_vi": "Máy đọc sách điện tử X4 Classic bỏ túi của Xteink giảm xuống chỉ còn 55 USD cho Thứ Sáu Đen",
+      "title_en": "Xteink’s pocketable X4 Classic e-reader is down to just $55 for Black Friday",
+      "summary_vi": [
+        "Không có gì đáng ngạc nhiên khi chúng tôi đã thấy một số ưu đãi Thứ Sáu Đen hấp dẫn trên nhiều loại thiết bị đọc sách điện tử.",
+        "Mọi thứ từ Kobo Libra Color đến Kindle Paperwhite thế hệ mới nhất đều đang được giảm giá, nhưng nếu bạn đang tìm kiếm thứ gì đó rẻ hơn nhiều - hoặc nhỏ hơn đáng kể - thì Xteink X4 Classic nằm trong một đẳng cấp riêng.",
+        "Rất may, máy đọc sách điện tử nhỏ bé này đã giảm xuống mức thấp mới là 54,87 USD (giảm giá 55 USD) tại Amazon, khiến nó trở thành một lựa chọn thay thế đặc biệt hợp lý cho Kindle mới nhất của Amazon."
+      ],
+      "summary_en": [
+        "Unsurprisingly, we’re already seeing some solid Black Friday deals on a wide variety of e-readers.",
+        "Everything from the Kobo Libra Colour to last-gen Kindle Paperwhite is on sale, but if you’re looking for something much cheaper — or considerably smaller — the Xteink X4 Classic is in a league of its own.",
+        "Thankfully, the tiny e-reader is down to a new low of $54.87 ($55 off) at Amazon, making it an especially affordable alternative to Amazon’s latest Kindle."
+      ],
+      "originalTitle": "Xteink’s pocketable X4 Classic e-reader is down to just $55 for Black Friday",
+      "url": "https://www.theverge.com/gadgets/1040178/xteink-x4-classic-e-reader-black-friday-2026-deal-sale",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Mobile & Web",
+      "tags": [
+        "WebDev",
+        "Mobile"
+      ],
+      "hotScore": 97,
+      "readTimeMinutes": 8,
+      "publishedAt": "2026-11-25T14:00:00.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/xteink1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Unsurprisingly, we’re already seeing some solid Black Friday deals on a wide variety of e-readers. Everything from the Kobo Libra Colour to last-gen Kindle Paperwhite is on sale, but if you’re looking for something much cheaper — or considerably smaller — the Xteink X4 Classic is in a league of its ",
+      "authorName": "Sheena Vasani",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "a9bf059c6257cfab",
+      "title_vi": "Trò đùa của nhà nghiên cứu Anthropic gây phẫn nộ giới toán học",
+      "title_en": "Anthropic researcher's joke caused outrage in the mathematical world",
+      "summary_vi": [
+        "Nhà toán học Levent Alpöge của Anthropic thừa nhận con số 250.000 trang gắn liền với bài chứng minh giả thuyết Riemann chỉ là trò đùa, khiến cộng đồng toán học phẫn nộ.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Trò đùa của nhà nghiên cứu Anthropic gây phẫn nộ giới toán học.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Trò đùa của nhà nghiên cứu Anthropic gây phẫn nộ giới toán học."
+      ],
+      "summary_en": [
+        "Anthropic mathematician Levent Alpöge admitted that the number of 250,000 pages attached to the article proving the Riemann hypothesis was just a joke, making the mathematical community angry.",
+        "In-depth technical breakdown and implementation mechanisms introduced in Anthropic researcher's joke caused outrage in the mathematical world.",
+        "Practical engineering impact and actionable takeaways for developers building with Anthropic researcher's joke caused outrage in the mathematical world."
+      ],
+      "originalTitle": "Trò đùa của nhà nghiên cứu Anthropic gây phẫn nộ giới toán học",
+      "url": "https://vnexpress.net/tro-dua-cua-nha-nghien-cuu-anthropic-gay-phan-no-gioi-toan-hoc-5148868.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Claude"
+      ],
+      "hotScore": 96,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-25T13:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/25/VNEMath-1795605539-4049-1795605627.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=o9oxBX4Wy4B93IHa4lt4fg",
+      "contentSnippet": "Nhà toán học Levent Alpöge của Anthropic thừa nhận con số 250.000 trang gắn liền với bài chứng minh giả thuyết Riemann chỉ là trò đùa, khiến cộng đồng toán học phẫn nộ.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "0b46032ba816a3c3",
+      "title_vi": "Cân bằng âm lượng của Windows, được thiết kế ngược và chuyển sang PipeWire",
+      "title_en": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+      "summary_vi": [
+        "Cân bằng âm lượng của Windows, được thiết kế ngược và chuyển sang PipeWire.",
+        "Chi tiết kỹ thuật, giải pháp kiến trúc và cơ chế vận hành được áp dụng trong Cân bằng âm lượng của Windows, được thiết kế ngược và chuyển sang PipeWire.",
+        "Đánh giá tác động thực tế và giá trị ứng dụng công nghệ cho cộng đồng kỹ sư, lập trình viên quan tâm đến Cân bằng âm lượng của Windows, được thiết kế ngược và chuyển sang PipeWire."
+      ],
+      "summary_en": [
+        "Windows Loudness Equalization, reverse-engineered and ported to PipeWire.",
+        "In-depth technical breakdown and implementation mechanisms introduced in Windows Loudness Equalization, reverse-engineered and ported to PipeWire.",
+        "Practical engineering impact and actionable takeaways for developers building with Windows Loudness Equalization, reverse-engineered and ported to PipeWire."
+      ],
+      "originalTitle": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+      "url": "https://github.com/xoxorwr/pw-loudness-eq",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "TechTrends",
+        "Innovation"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-25T11:34:25.000Z",
+      "contentSnippet": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+      "authorName": "ThrowNotAway",
+      "upvotes": 215,
+      "commentsCount": 122
+    },
+    {
+      "id": "64dd8a34429626f0",
+      "title_vi": "Dịch vụ nhạc trực tuyến Tidal cấm hoàn toàn nhạc tạo bởi trí tuệ nhân tạo",
+      "title_en": "Music Streaming Service Tidal Bans Purely AI-Generated Tracks",
+      "summary_vi": [
+        "Dịch vụ phát nhạc trực tuyến Tidal chính thức thông báo sẽ gỡ bỏ toàn bộ các ca khúc được tạo ra hoàn toàn bằng trí tuệ nhân tạo bắt đầu từ ngày 9 tháng 12 tới đây.",
+        "Động thái này diễn ra trong bối cảnh các nền tảng phát nhạc lớn như Apple Music và Spotify đang tích cực tìm kiếm các giải pháp kỹ thuật để đối phó với làn sóng rác công nghệ.",
+        "Quyết định này đặt ra tiêu chuẩn mới về bản quyền và chất lượng nội dung số, buộc các kỹ sư phần mềm phải phát triển thuật toán phát hiện nội dung giả mạo chính xác hơn."
+      ],
+      "summary_en": [
+        "Music streaming service Tidal has officially announced it will remove all tracks created entirely by artificial intelligence starting from December 9th.",
+        "This move comes as major music platforms like Apple Music and Spotify are actively seeking technical solutions to combat the wave of low-quality AI spam.",
+        "This decision sets a new standard for digital copyright and content quality, forcing software engineers to develop more accurate content detection algorithms."
+      ],
+      "originalTitle": "Dịch vụ nhạc trực tuyến Tidal cấm nhạc AI",
+      "url": "https://vnexpress.net/dich-vu-nhac-truc-tuyen-tidal-cam-nhac-ai-5148751.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Streaming",
+        "Copyright",
+        "Machine Learning"
+      ],
+      "hotScore": 85,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-25T09:06:40.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/25/img-1762134911628-1fdd1289fc69-7513-9632-1795592754.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=MDBLX6aJMAkf9CesS4Mr7g",
+      "contentSnippet": "Dịch vụ nhạc trực tuyến Tidal sẽ gỡ bỏ toàn bộ ca khúc tạo hoàn toàn bằng AI từ ngày 9/12 trong khi Apple Music, Spotify đang tìm cách đối phó làn sóng \"rác AI\".",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
     {
       "id": "6539d4141fc6262f",
       "title_vi": "Bẫy chi phí AWS: Hàng trăm triệu tệp nhỏ trên S3 gây lãng phí lớn tiền yêu cầu PUT",
@@ -135,6 +519,41 @@
       "publishedAt": "2026-11-25T06:59:26.000Z",
       "contentSnippet": "Khi làm việc với các hệ thống phân tán, một Microservice thường không chỉ lắng nghe từ một nguồn duy nhất. Nó có thể phải đợi dữ liệu từ Kafka (qua Ch...",
       "authorName": "Huy Hoàng",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "58fc789f39b9ecd3",
+      "title_vi": "Máy chủ trí tuệ nhân tạo tăng giá đến 45 phần trăm dù đã ký hợp đồng",
+      "title_en": "AI servers surge in price by up to 45 percent despite signed contracts",
+      "summary_vi": [
+        "Tình trạng thiếu hụt nguồn cung bộ nhớ DRAM trên thị trường toàn cầu đã đẩy chi phí sản xuất máy chủ chuyên dụng cho trí tuệ nhân tạo tăng cao đột biến, khiến nhiều doanh nghiệp mua sắm phải đối mặt với áp lực tài chính lớn.",
+        "Sự gia tăng mạnh mẽ về nhu cầu tính toán hiệu năng cao cùng những ràng buộc trong chuỗi cung ứng linh kiện phần cứng đã làm cho chi phí phần cứng liên quan đến dung lượng RAM tăng gấp ba lần so với thời điểm trước đó.",
+        "Biến động giá cả này buộc các nhà quản lý hạ tầng và kiến trúc sư hệ thống phải xem xét lại chiến lược phân bổ nguồn lực, tối ưu hóa phần mềm và dự trù ngân sách cho việc mở rộng các trung tâm dữ liệu trong tương lai."
+      ],
+      "summary_en": [
+        "The severe shortage of DRAM memory supply in the global market has driven up the manufacturing costs of specialized artificial intelligence servers, forcing many enterprise buyers to face significant financial pressures.",
+        "The sharp increase in demand for high-performance computing and hardware supply chain constraints have caused hardware costs related to RAM capacity to triple compared to previous baseline levels.",
+        "These price fluctuations force infrastructure managers and system architects to reconsider their resource allocation strategies, software optimization techniques, and budget planning for future data center expansions."
+      ],
+      "originalTitle": "Máy chủ AI tăng giá đến 45% dù đã ký hợp đồng",
+      "url": "https://vnexpress.net/may-chu-ai-tang-gia-den-45-du-da-ky-hop-dong-5148227.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "AI",
+        "Hardware",
+        "DRAM",
+        "Cloud Infrastructure",
+        "Supply Chain"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-25T03:32:19.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/23/fpt-1795441410-1420-1795441453.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=2HrmrTrKYr4wFkoqYJWRhg",
+      "contentSnippet": "Tình trạng thiếu hụt DRAM khiến chi phí của máy chủ thiên về dung lượng RAM tăng gấp ba lần, buộc nhiều bên mua phải chấp nhận đội giá hàng chục phần trăm.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -2268,6 +2687,38 @@
       "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F236316%2Ff37b78ae-1962-4d42-a508-e19f25cf6452.png",
       "upvotes": 29,
       "commentsCount": 4
+    },
+    {
+      "id": "95692e5ab30ce363",
+      "title_vi": "Byte ấm cúng 🍺 | Rust::Ai sở hữu con mèo? 🐈🦀",
+      "title_en": "Cozy Bytes 🍺 | Rust::Who Owns the Cat? 🐈🦀",
+      "summary_vi": [
+        "Giải thích các quy tắc ghi nhớ bằng cách sử dụng những chú mèo thân thiện Thứ Sáu vui vẻ!",
+        "Hãy cùng tìm hiểu một chút về Rust nhé!",
+        "😸🍻 Không có kiến ​​trúc phức tạp."
+      ],
+      "summary_en": [
+        "Explains memory rules using friendly felines Happy Friday!",
+        "Let's learn a tiny bit of Rust!",
+        "😸🍻 No complicated architecture."
+      ],
+      "originalTitle": "Cozy Bytes 🍺 | Rust::Who Owns the Cat? 🐈🦀",
+      "url": "https://dev.to/_yourbrainbuffer_/cozy-bytes-rustwho-owns-the-cat-13ch",
+      "sourceName": "Dev.to",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Rust"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 6,
+      "publishedAt": "2026-11-20T16:21:37.000Z",
+      "thumbnailUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F36ic1wwew7q0m53uv65e.gif",
+      "contentSnippet": "Hoi hoi! 😸 Happy Friday! Let's learn a tiny bit of Rust! 😸🍻 No complicated architecture. No giant...",
+      "authorName": "nyaomaru",
+      "authorAvatar": "https://media2.dev.to/dynamic/image/width=90,height=90,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1436158%2Fa78bc4ed-7796-4760-baa5-06283c2404d6.png",
+      "upvotes": 108,
+      "commentsCount": 38
     },
     {
       "id": "344c516d95d2ecd8",
@@ -7993,487 +8444,6 @@
       "publishedAt": "2026-11-12T04:33:42.000Z",
       "contentSnippet": "Bản cập nhật bảo mật tháng 11 của Windows 11 (KB5132061) đã phát hành từ ngày 10/11 theo giờ Mỹ, tức rạng sáng 11/11 giờ Việt Nam. Đây là bản bắt buộc, cài qua Windows Update như mọi tháng. Điểm...",
       "authorName": "Quocxi",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1cdf6ef6cb283dc3",
-      "title_vi": "Học sinh lạm dụng trí tuệ nhân tạo, cuộc thi làm game kéo dài 12 năm tại Australia chính thức bị khai tử",
-      "title_en": "Students Abusing AI Forces 12-Year-Old Australian Game Development Competition to Shut Down",
-      "summary_vi": [
-        "Một cuộc thi thiết kế và lập trình game dành cho học sinh tại Australia sẽ chính thức khép lại vào năm 2026 sau mười hai năm tổ chức do sự bùng nổ của công nghệ trí tuệ nhân tạo tạo sinh.",
-        "Sự phát triển vượt bậc của các công cụ sinh mã nguồn và nội dung tự động khiến ban tổ chức gặp vô số khó khăn trong việc xác minh và đánh giá chính xác năng lực thực tế cũng như phần việc do chính các thí sinh tự thực hiện.",
-        "Sự kiện này gióng lên hồi chuông cảnh báo về thách thức lớn mà giáo dục công nghệ phải đối mặt khi trí tuệ nhân tạo làm mờ ranh giới giữa sáng tạo cá nhân và tự động hóa trong các sân chơi lập trình trẻ."
-      ],
-      "summary_en": [
-        "An annual student game development and programming competition in Australia will officially conclude by 2026 after twelve years of operation due to the rapid rise of generative artificial intelligence technologies.",
-        "The explosive growth of automated code generation and content creation tools has made it increasingly difficult for organizers to verify and accurately evaluate the genuine technical skills and independent efforts of participants.",
-        "This event highlights significant challenges facing technology education as generative artificial intelligence blurs the line between individual creativity and automated generation within youth programming competitions."
-      ],
-      "originalTitle": "Học sinh giao bài cho AI, ban tổ chức “bó tay”: Cuộc thi làm game phải chấm dứt sau 12 năm hoạt động",
-      "url": "https://genk.vn/hoc-sinh-giao-bai-cho-ai-ban-to-chuc-bo-tay-cuoc-thi-lam-game-phai-cham-dut-sau-12-nam-hoat-dong-165261112101932719.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Generative AI",
-        "Game Development",
-        "Education",
-        "Software Engineering"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-12T03:19:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/12/avatar1794453433659-17944534350471804765941.jpg",
-      "contentSnippet": "Một cuộc thi làm game dành cho học sinh tại Australia sẽ kết thúc sau năm 2026, khi AI tạo sinh khiến ban tổ chức ngày càng khó đánh giá phần việc thí sinh thực sự tự làm.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1777469d73c3aded",
-      "title_vi": "Người dùng Việt Nam biến máy chơi game PlayStation 5 cũ thành máy chủ trí tuệ nhân tạo cục bộ tiết kiệm chi phí",
-      "title_en": "Vietnamese users repurpose budget PlayStation 5 consoles into cost-effective local AI computing servers",
-      "summary_vi": [
-        "Trong bối cảnh chi phí phần cứng chuyên dụng cho trí tuệ nhân tạo tăng cao, cộng đồng công nghệ Việt Nam đã tìm ra giải pháp tận dụng máy chơi game PlayStation 5 phiên bản khóa mạng nội địa để chạy các mô hình ngôn ngữ lớn ngay tại nhà.",
-        "Bằng cách khai thác sức mạnh phần cứng từ kiến trúc tùy chỉnh của Sony, các kỹ sư đã thiết lập hệ thống máy chủ cục bộ cho phép xử lý các tác vụ học máy một cách mượt mà và tối ưu hóa tài nguyên phần cứng sẵn có.",
-        "Sáng kiến này mở ra hướng đi mới đầy thực tiễn cho các nhà phát triển và người đam mê công nghệ trong việc xây dựng môi trường thử nghiệm trí tuệ nhân tạo tiết kiệm chi phí mà không cần đầu tư các dòng card đồ họa đắt đỏ."
-      ],
-      "summary_en": [
-        "Amid soaring costs of dedicated hardware for artificial intelligence, the Vietnamese tech community has discovered a creative solution to leverage locked PlayStation 5 gaming consoles for running local large language models at home.",
-        "By exploiting the robust hardware architecture custom-built by Sony, engineers have successfully configured local server environments capable of processing machine learning tasks smoothly while optimizing existing hardware resources.",
-        "This initiative opens up practical new avenues for developers and tech enthusiasts to build cost-effective artificial intelligence experimentation environments without investing in expensive high-end graphics processing units."
-      ],
-      "originalTitle": "Người dùng Việt biến PS5 \"Lock Nhật\" giá rẻ thành trạm tính toán AI cục bộ \"siêu ngon\"",
-      "url": "https://genk.vn/nguoi-dung-viet-bien-ps5-lock-nhat-gia-re-thanh-tram-tinh-toan-ai-cuc-bo-sieu-ngon-165261112100316805.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "PlayStation 5",
-        "Local LLM",
-        "Hardware",
-        "Edge Computing"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-12T03:03:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/12/avatar1794451746166-17944517465312125820088.jpg",
-      "contentSnippet": "Trong khi dân tình còn đang than trời vì giá GPU AI chát chúa, Sam Altman thì phàn nàn chuyện \"lãng phí RAM\", các dân chơi công nghệ Việt Nam lại vừa nghĩ ra một bài toán đến mức Sony cũng phải câm nín. Biến PlayStation 5 thành server chạy Local AI.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "cefc145f84197fd1",
-      "title_vi": "Google ra mắt ứng dụng Gemini độc lập trên Apple CarPlay hỗ trợ trợ lý giọng nói rảnh tay",
-      "title_en": "Google Launches Standalone Gemini App on Apple CarPlay Supporting Hands Free Voice Assistant",
-      "summary_vi": [
-        "Google chính thức triển khai ứng dụng Gemini trên nền tảng Apple CarPlay trên phạm vi toàn cầu, hỗ trợ đa ngôn ngữ giúp người dùng dễ dàng truy cập trợ lý ảo thông minh ngay trên màn hình giải trí của ô tô.",
-        "Ứng dụng tích hợp tính năng trò chuyện rảnh tay Gemini Live, cho phép tài xế tương tác tự nhiên bằng giọng nói để xử lý các tác vụ phức tạp mà không làm phân tâm khi đang điều khiển phương tiện trên đường.",
-        "Động thái này đánh dấu bước tiến quan trọng trong việc mở rộng hệ sinh thái trí tuệ nhân tạo của Google lên các nền tảng xe hơi phổ biến, mang lại trải nghiệm liền mạch và tối ưu hóa an toàn cho người lái."
-      ],
-      "summary_en": [
-        "Google has officially rolled out the Gemini application on the Apple CarPlay platform globally with multi language support, enabling users to easily access smart virtual assistants directly on their vehicle infotainment screens.",
-        "The application integrates the hands free Gemini Live conversational feature, allowing drivers to interact naturally using voice commands to handle complex tasks without distraction while operating vehicles on the road.",
-        "This strategic move marks a significant milestone in expanding Google artificial intelligence ecosystem onto popular automotive platforms, delivering seamless experiences and optimizing driving safety for users."
-      ],
-      "originalTitle": "Gemini chính thức có app riêng trên Apple CarPlay, trò chuyện rảnh tay với Gemini Live khi lái xe",
-      "url": "https://tinhte.vn/thread/gemini-chinh-thuc-co-app-rieng-tren-apple-carplay-tro-chuyen-ranh-tay-voi-gemini-live-khi-lai-xe.4191665/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Gemini",
-        "Apple CarPlay",
-        "AI",
-        "Google",
-        "Mobile App"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-12T02:54:55.000Z",
-      "contentSnippet": "Gemini chính thức có app riêng trên Apple CarPlay, trò chuyện rảnh tay với Gemini Live khi lái xe Google bắt đầu phát hành app Gemini cho Apple CarPlay từ 11/11, toàn cầu với mọi ngôn ngữ Gemini...",
-      "authorName": "Anh Tú.",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "7c413c5b5223a576",
-      "title_vi": "Lỗ hổng bảo mật nghiêm trọng cho phép thực thi mã từ xa trên máy chủ Apache HTTP",
-      "title_en": "Critical RCE Vulnerability in Apache HTTP Server",
-      "summary_vi": [
-        "Lỗ hổng bảo mật CVE-2026-119618 vừa được phát hiện trên máy chủ Apache HTTP, gây ra rủi ro nghiêm trọng do lỗi điều kiện tranh chấp trong mô-đun HTTP/2, cho phép kẻ tấn công thực thi mã từ xa mà không cần xác thực.",
-        "Lỗi nằm tại hàm assign_headers() do cơ chế đồng bộ hóa luồng không đúng cách, dẫn đến hỏng bộ nhớ heap. Các chuyên gia từ Google và Anthropic đã xác nhận lỗ hổng này có thể bị khai thác để chiếm quyền điều khiển máy chủ.",
-        "Theo dữ liệu từ Wiz, hơn 60% môi trường đám mây đang đối mặt với rủi ro này. Các đội ngũ kỹ thuật cần ưu tiên cập nhật phiên bản Apache mới nhất để ngăn chặn nguy cơ di chuyển ngang và tấn công vào hạ tầng microservices."
-      ],
-      "summary_en": [
-        "A critical security vulnerability identified as CVE-2026-119618 has been discovered in the Apache HTTP Server, stemming from a race condition in the HTTP/2 module that enables unauthorized remote code execution on affected hosting servers.",
-        "The flaw resides within the assign_headers() function due to improper thread synchronization, leading to heap corruption. Researchers from Google and Anthropic confirmed that this memory corruption can be leveraged to gain full control over the web server process.",
-        "Wiz reports that 64% of cloud environments are vulnerable to this exploit. Security teams must immediately prioritize patching their Apache instances to mitigate the risk of lateral movement and potential compromise of adjacent cloud metadata endpoints."
-      ],
-      "originalTitle": "Critical RCE Vulnerability in Apache HTTP Server",
-      "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Cybersecurity",
-      "tags": [
-        "Apache",
-        "Cybersecurity",
-        "RCE",
-        "CloudSecurity",
-        "Vulnerability"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-12T02:11:11.000Z",
-      "contentSnippet": "As of the time of this blog’s publication, no exploit is available and there are no reports of exploitation in the wild. CVE-2026-119618 is a critical, high-severity vulnerability involving a race condition in the Apache HTTP Server, which was independently discovered by Anthropic and Google Cloud’s",
-      "authorName": "soheilpro",
-      "upvotes": 61,
-      "commentsCount": 26
-    },
-    {
-      "id": "a6547f8cea67f8f6",
-      "title_vi": "Hội đồng quản trị Nvidia được cho là đang chuẩn bị sa thải CEO Jensen Huang",
-      "title_en": "Nvidia is reportedly preparing to fire Jensen Huang",
-      "summary_vi": [
-        "Hội đồng quản trị của công ty bán dẫn hàng đầu Nvidia đang chuẩn bị tiến hành các thủ tục sa thải Tổng giám đốc điều hành Jensen Huang sau những bê bối đời tư nghiêm trọng gần đây.",
-        "Sự việc bắt nguồn từ các cáo buộc liên quan đến mối quan hệ ngoài luồng với một quan chức cấp cao trong công ty cũng như những nghi vấn về an ninh và gián điệp quốc tế.",
-        "Biến động thượng tầng này có thể tạo ra những tác động mạnh mẽ đến chiến lược phát triển trí tuệ nhân tạo và chuỗi cung ứng phần cứng toàn cầu của tập đoàn trong tương lai gần."
-      ],
-      "summary_en": [
-        "The board of directors at leading semiconductor company Nvidia is reportedly preparing dismissal procedures for Chief Executive Officer Jensen Huang following recent severe personal controversies.",
-        "The situation stems from allegations concerning an extramarital affair with a high-ranking corporate executive as well as rising concerns regarding security protocols and international espionage.",
-        "This high-level executive turmoil could trigger profound impacts on artificial intelligence development strategies and global hardware supply chains for the corporation in the near future."
-      ],
-      "originalTitle": "Nvidia is reportedly preparing to fire Jensen Huang",
-      "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Nvidia",
-        "Jensen Huang",
-        "Semiconductor",
-        "AI",
-        "Leadership"
-      ],
-      "hotScore": 95,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-11T22:44:36.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25824934/2192224191.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second alleged affair was wit",
-      "authorName": "Lauren Feiner",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "824dde57612568d9",
-      "title_vi": "Các hãng điện thoại tái sử dụng RAM trên smartphone cũ",
-      "title_en": "Smartphone Manufacturers Reuse RAM From Older Devices to Cut Costs",
-      "summary_vi": [
-        "Một số nhà sản xuất thiết bị di động đang tiến hành tháo gỡ và tái sử dụng linh kiện bộ nhớ RAM từ các dòng điện thoại cũ nhằm đưa vào các sản phẩm mới chuẩn bị ra mắt thị trường.",
-        "Phương pháp này đòi hỏi quy trình kiểm tra chất lượng phần cứng vô cùng khắt khe để đảm bảo các chip nhớ đã qua sử dụng vẫn đáp ứng đầy đủ tiêu chuẩn kỹ thuật về băng thông và độ bền.",
-        "Chiến lược tận dụng linh kiện cũ giúp các doanh nghiệp tối ưu hóa chi phí sản xuất phần cứng, duy trì mức giá bán cạnh tranh cho phân khúc điện thoại thông minh phổ thông."
-      ],
-      "summary_en": [
-        "Several mobile device manufacturers are harvesting and reusing memory RAM components from older phones to integrate them into upcoming product releases for the market.",
-        "This practice requires rigorous hardware quality control processes to ensure that previously used memory chips still meet technical standards for bandwidth and durability.",
-        "Leveraging recycled components helps enterprises optimize hardware manufacturing costs while maintaining competitive pricing strategies for the entry-level smartphone segment."
-      ],
-      "originalTitle": "Các hãng điện thoại tái sử dụng RAM trên smartphone cũ",
-      "url": "https://vnexpress.net/cac-hang-dien-thoai-tai-su-dung-ram-tren-smartphone-cu-5143116.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Smartphone",
-        "Hardware",
-        "RAM",
-        "Supply Chain",
-        "Mobile Tech"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-11T22:35:04.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/10/How-to-Best-Reuse-Your-Old-Sma-1513-3988-1794319936.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=kHkHvb3yIYSUMRRy-EoR3g",
-      "contentSnippet": "Một số nhà sản xuất smartphone phải tách RAM từ thiết bị cũ để sử dụng trên sản phẩm mới nhằm duy trì mức giá rẻ cho dòng phổ thông.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "3c4a130ff1dbafc3",
-      "title_vi": "Hãng hàng không United ngăn chặn các trợ lý trí tuệ nhân tạo đặt vé máy bay",
-      "title_en": "United won’t let your AI agent book your flight",
-      "summary_vi": [
-        "Hãng hàng không United đã chính thức từ chối cho phép các tác nhân trí tuệ nhân tạo cá nhân thực hiện giao dịch đặt vé trực tiếp trên hệ thống của họ.",
-        "Quyết định này được đưa ra do những lo ngại về bảo mật dữ liệu khách hàng, rủi ro giao dịch ngoài ý muốn và việc tuân thủ các quy định liên bang khắt khe.",
-        "Sự kiện này phản ánh thách thức lớn trong việc tích hợp các hệ thống tự động hóa thông minh vào các nền tảng thương mại điện tử có tính pháp lý cao."
-      ],
-      "summary_en": [
-        "United Airlines has officially announced that it will not permit personal artificial intelligence agents to conduct direct ticket booking transactions on their systems.",
-        "This decision stems from significant concerns regarding customer data privacy, the risk of unintended purchases, and strict compliance with federal regulatory requirements.",
-        "This event highlights major challenges in integrating intelligent automation systems into highly regulated e-commerce platforms and maintaining secure user interactions."
-      ],
-      "originalTitle": "United won’t let your AI agent book your flight",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI Agents",
-        "Cybersecurity",
-        "Automation",
-        "Privacy",
-        "API Security"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-11T21:54:21.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23176430/1237621702.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal reports, in line with observations from other businesses like ",
-      "authorName": "Lauren Feiner",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "78b8986836f7bb24",
-      "title_vi": "Trình giả lập dịch vụ điện toán đám mây AWS",
-      "title_en": "AWS Cloud Services Emulator",
-      "summary_vi": [
-        "Trình giả lập dịch vụ điện toán đám mây Amazon Web Services mang lại giải pháp tối ưu giúp nhà phát triển kiểm thử ứng dụng cục bộ hiệu quả.",
-        "Công cụ này cho phép mô phỏng chính xác các thành phần kiến trúc cốt lõi như máy chủ ảo và cơ sở dữ liệu mà không cần kết nối mạng.",
-        "Việc áp dụng giải pháp giả lập giúp tối ưu hóa chi phí vận hành thử nghiệm, tăng tốc độ phát triển và giảm thiểu rủi ro khi triển khai."
-      ],
-      "summary_en": [
-        "The Amazon Web Services cloud computing emulator provides an optimal solution helping developers test applications locally with high efficiency.",
-        "This tool allows accurate simulation of core architectural components such as virtual servers and databases without requiring a live network connection.",
-        "Adopting simulation solutions helps optimize testing operational costs, accelerates development speed, and minimizes deployment risks significantly."
-      ],
-      "originalTitle": "AWS emulator",
-      "url": "https://github.com/aws/aws-emulator",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "DevOps & Cloud",
-      "tags": [
-        "AWS",
-        "Cloud Computing",
-        "Emulator",
-        "DevOps",
-        "Testing"
-      ],
-      "hotScore": 99,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-11T18:21:38.000Z",
-      "contentSnippet": "AWS emulator",
-      "authorName": "super_linear",
-      "upvotes": 756,
-      "commentsCount": 228
-    },
-    {
-      "id": "9faafdb160db3155",
-      "title_vi": "Giải phẫu cấu trúc thư mục chuẩn cho một dự án dòng lệnh bằng Golang",
-      "title_en": "Anatomy of a Standard Directory Structure for a Golang Command Line Project",
-      "summary_vi": [
-        "Bài viết phân tích cách tổ chức mã nguồn khi phát triển ứng dụng dòng lệnh bằng ngôn ngữ Golang từ một file đơn lẻ đến hệ thống phức tạp.",
-        "Tác giả hướng dẫn chi tiết cách xây dựng cấu trúc thư mục chuẩn, phân tách rõ ràng các tầng logic để dễ dàng mở rộng và bảo trì.",
-        "Kiến trúc này giúp các kỹ sư phần mềm tối ưu hóa quá trình phát triển, giảm thiểu độ phức tạp và nâng cao chất lượng mã nguồn dự án."
-      ],
-      "summary_en": [
-        "The article analyzes source code organization when developing command line applications in Golang from a single file to complex systems.",
-        "The author provides detailed guidance on building a standard directory structure, clearly separating logic layers for easy expansion and maintenance.",
-        "This architecture helps software engineers optimize the development process, minimize complexity, and improve the project source code quality."
-      ],
-      "originalTitle": "Command Box bài học 4: Giải phẫu cấu trúc thư mục chuẩn cho một dự án Command Box",
-      "url": "https://viblo.asia/p/command-box-bai-hoc-4-giai-phau-cau-truc-thu-muc-chuan-cho-mot-du-an-command-box-bNVQGkNAJvR",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "Golang",
-        "CLI",
-        "Software Architecture",
-        "Backend"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-11T18:10:43.000Z",
-      "contentSnippet": "Khi mới bắt đầu viết CLI bằng Golang, hầu hết mọi người đều xuất phát từ một file main.go duy nhất. Thêm lệnh thứ hai, thứ ba, bạn vẫn nhét chung vào ...",
-      "authorName": "Nguyễn Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1cb0338b95c9239c",
-      "title_vi": "DeepSeek viết báo cáo tuần chưa ổn định? Đừng vội cài đặt plugin",
-      "title_en": "Is DeepSeek struggling with weekly reports? Think twice before installing plugins",
-      "summary_vi": [
-        "Người dùng thường xuyên sử dụng DeepSeek để tự động hóa việc soạn thảo báo cáo tuần từ các ghi chú công việc, tuy nhiên kết quả đầu ra thường xuyên gặp tình trạng thiếu chính xác hoặc tự ý tô hồng các đầu việc chưa hoàn thành.",
-        "Vấn đề cốt lõi nằm ở khả năng suy luận ngữ cảnh của mô hình ngôn ngữ lớn khi xử lý dữ liệu đầu vào không có cấu trúc, dẫn đến việc suy diễn sai lệch các trạng thái công việc thực tế của người dùng.",
-        "Thay vì vội vàng cài đặt các plugin mở rộng tiềm ẩn rủi ro bảo mật, người dùng nên tối ưu hóa quy trình cung cấp dữ liệu đầu vào và sử dụng các câu lệnh gợi ý chi tiết để cải thiện chất lượng phản hồi."
-      ],
-      "summary_en": [
-        "Users frequently rely on DeepSeek to automate weekly report drafting from work notes, yet the output often suffers from inaccuracies or misleadingly embellishes incomplete tasks, creating significant reliability issues for professional documentation workflows.",
-        "The core problem lies in the large language model's contextual reasoning capabilities when processing unstructured input data, which frequently leads to misinterpretations of the actual status of specific project milestones and individual work items.",
-        "Rather than rushing to install third-party plugins that may introduce security vulnerabilities, users should focus on refining their prompt engineering techniques and providing more structured input data to enhance the overall quality of generated reports."
-      ],
-      "originalTitle": "DeepSeek viết báo cáo tuần mãi chưa ổn? Đừng cài plugin vội",
-      "url": "https://viblo.asia/p/deepseek-viet-bao-cao-tuan-mai-chua-on-dung-cai-plugin-voi-3RL1BbgPVao",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "DeepSeek",
-        "AI",
-        "LLM",
-        "Productivity",
-        "Prompt Engineering"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-11T17:27:03.000Z",
-      "contentSnippet": "Thứ sáu nào bạn cũng nhờ DeepSeek viết báo cáo tuần từ ghi chép công việc. Có tuần bản thảo dùng được ngay. Có tuần nó tô hồng một việc chưa xong, hoặ...",
-      "authorName": "crboluo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "c4479eb1f90c22fc",
-      "title_vi": "Quy trình đánh giá công cụ tạo video bằng trí tuệ nhân tạo: lựa chọn đầu vào, mô hình và tối ưu hóa chi phí",
-      "title_en": "Evaluation framework for AI video generation tools: selecting inputs, models, and credit management",
-      "summary_vi": [
-        "Bài viết phân tích quy trình đánh giá các công cụ tạo video bằng trí tuệ nhân tạo, nhấn mạnh rằng việc tạo ra sản phẩm chất lượng không chỉ dừng lại ở thao tác bấm nút đơn giản.",
-        "Tác giả đi sâu vào kỹ thuật lựa chọn dữ liệu đầu vào từ văn bản hoặc hình ảnh, đồng thời phân tích cách các mô hình AI xử lý tham số để tối ưu hóa hiệu suất đầu ra.",
-        "Người dùng cần hiểu rõ cơ chế phân bổ tín dụng và khả năng tương thích của từng mô hình để đạt hiệu quả cao nhất trong quy trình sản xuất nội dung kỹ thuật số chuyên nghiệp hiện nay."
-      ],
-      "summary_en": [
-        "The article analyzes the evaluation process for AI video generation tools, emphasizing that producing high-quality content requires more than just clicking a button to initiate the automated generation workflow.",
-        "The author explores technical strategies for selecting input data from text or images, while examining how AI models process parameters to optimize output performance and visual fidelity for users.",
-        "Users must understand credit allocation mechanisms and model compatibility to achieve maximum efficiency within their professional digital content production pipelines and maintain cost-effective operational standards for AI projects."
-      ],
-      "originalTitle": "Quy trình đánh giá ImageVideoAI: chọn đầu vào, mô hình và mức tín dụng phù hợp",
-      "url": "https://viblo.asia/p/quy-trinh-danh-gia-imagevideoai-chon-dau-vao-mo-hinh-va-muc-tin-dung-phu-hop-k74a96yD4eO",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Generative Video",
-        "Machine Learning",
-        "Workflow Optimization"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-11T16:45:19.000Z",
-      "contentSnippet": "Carol Luo · Kiểm tra ngày 11/11/2026 Khi thử một công cụ tạo video bằng AI, việc khó không chỉ là bấm nút tạo. Người dùng còn cần chọn ảnh hay văn bả...",
-      "authorName": "Carol Luo",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "442160431499dd77",
-      "title_vi": "Sungrow công bố chiến lược phát triển và giải pháp lưu trữ năng lượng tích hợp AI tại GEPS 2026",
-      "title_en": "Sungrow Unveils Growth Strategy and AI-Powered Energy Storage Solutions at GEPS 2026",
-      "summary_vi": [
-        "Tại sự kiện công nghệ GEPS 2026 tổ chức ở Trung Quốc, tập đoàn Sungrow đã công bố chiến lược tăng trưởng dài hạn cùng hệ sinh thái giải pháp lưu trữ năng lượng thế hệ mới.",
-        "Điểm nhấn công nghệ của sự kiện là việc tích hợp các thuật toán trí tuệ nhân tạo và học máy vào hệ thống quản lý điện năng thông minh nhằm tối ưu hóa hiệu suất vận hành lưới điện.",
-        "Bước tiến này đánh dấu xu hướng hội tụ mạnh mẽ giữa công nghệ phần mềm AI và cơ sở hạ tầng năng lượng, mở ra nhiều cơ hội phát triển cho các kỹ sư hệ thống phân tán."
-      ],
-      "summary_en": [
-        "At the GEPS 2026 technology event held in China, Sungrow announced its long-term growth strategy alongside a next-generation ecosystem of energy storage solutions.",
-        "The technological highlight of the event is the integration of artificial intelligence and machine learning algorithms into smart power management systems to optimize grid operational efficiency.",
-        "This advancement marks a strong convergence trend between AI software engineering and energy infrastructure, opening up numerous development opportunities for distributed systems engineers."
-      ],
-      "originalTitle": "Sungrow chia sẻ chiến lược phát triển cùng loạt giải pháp lưu trữ năng lượng mới tại GEPS 2026",
-      "url": "https://tinhte.vn/thread/sungrow-chia-se-chien-luoc-phat-trien-cung-loat-giai-phap-luu-tru-nang-luong-moi-tai-geps-2026.4191632/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "AI",
-        "Energy Storage",
-        "Smart Grid",
-        "Machine Learning",
-        "Cloud Management"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-11T14:10:57.000Z",
-      "contentSnippet": "Tại sự kiện GEPS 2026 diễn ra ở Trung Quốc, Sungrow chia sẻ chiến lược tăng trưởng, giới thiệu các giải pháp lưu trữ năng lượng mới và ứng dụng AI trong quản lý điện. Mình được mời tham dự sự...",
-      "authorName": "Trung Dt",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b12bf270b7caed37",
-      "title_vi": "Không phải ai cũng thích chiếc điện thoại màn hình gập mới của Apple",
-      "title_en": "Not everyone is loving their new iPhone Duo",
-      "summary_vi": [
-        "Sau hai tuần ra mắt thị trường, dòng điện thoại màn hình gập mới của Apple đang đối mặt với làn sóng trả hàng đầu tiên từ một bộ phận người dùng từ chối tiếp tục sử dụng thiết bị.",
-        "Thiết bị này có mức giá cao lên tới hai nghìn đô la và hiện đang gặp phải một số vấn đề phần cứng thế hệ đầu tiên liên quan đến cơ chế bản lề gập mở của máy.",
-        "Sự kiện này phản ánh thách thức lớn mà các nhà sản xuất phần cứng di động phải đối mặt khi thương mại hóa các dòng sản phẩm công nghệ tiên phong có độ phức tạp cao."
-      ],
-      "summary_en": [
-        "Two weeks after hitting the market, Apple's new foldable smartphone is facing an initial wave of returns from a subset of users who refuse to keep using the device.",
-        "This device comes with a high price tag of two thousand dollars and is currently suffering from some first-generation hardware issues related to its mechanical hinge mechanism.",
-        "This event reflects the major challenges that mobile hardware manufacturers face when commercializing high-complexity pioneering technology product lines."
-      ],
-      "originalTitle": "Not everyone is loving their new iPhone Duo",
-      "url": "https://www.theverge.com/tech/1030398/iphone-duo-returns-screen-apps",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Mobile & Web",
-      "tags": [
-        "Apple",
-        "iPhone",
-        "Mobile",
-        "Hardware",
-        "Foldable"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-11T13:00:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268734_iPhone_Duo_handson_ADiBenedetto_0018.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "An open-and-shut case. For most new relationships, two weeks probably isn't enough time to decide if you're ready for long-term commitment. But two weeks with a new phone? You probably know. The iPhone Duo launched just over two weeks ago, and that's been enough time for a subset of day-one buyers w",
-      "authorName": "Allison Johnson",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "09b2f13e17bd6949",
-      "title_vi": "Serve Robotics mở cổng thông tin cho phép lập trình viên điều khiển robot giao hàng tự động",
-      "title_en": "Serve Robotics wants to democratize sidewalk delivery robots",
-      "summary_vi": [
-        "Công ty Serve Robotics vừa chính thức ra mắt cổng thông tin dành cho nhà phát triển, cho phép các kỹ sư phần mềm và doanh nghiệp nhỏ tiếp cận trực tiếp hệ thống robot giao hàng tự động của họ tại hơn 150 khu vực khác nhau.",
-        "Nền tảng này cung cấp các công cụ phần mềm chuyên dụng giúp người dùng tự thiết lập quy trình điều phối robot mà không cần phụ thuộc vào các nền tảng giao đồ ăn lớn, mở ra khả năng tích hợp linh hoạt cho các tác nhân AI độc lập.",
-        "Động thái này đánh dấu bước tiến quan trọng trong việc dân chủ hóa công nghệ robot tự hành, tạo cơ hội cho cộng đồng lập trình viên ứng dụng giải pháp giao hàng thông minh vào các mô hình kinh doanh thực tế một cách chủ động và hiệu quả."
-      ],
-      "summary_en": [
-        "Serve Robotics has officially launched a new developer portal, enabling software engineers and small businesses to gain direct access to their fleet of autonomous delivery robots currently operating across 150 distinct neighborhoods.",
-        "The platform provides specialized software tools that allow users to manage robot dispatching independently, bypassing major food delivery aggregators and facilitating seamless integration for autonomous AI agents within their own logistics workflows.",
-        "This initiative represents a significant shift toward democratizing autonomous delivery technology, empowering developers to implement smart robotics solutions into practical business models while fostering greater innovation within the last-mile delivery ecosystem."
-      ],
-      "originalTitle": "Serve Robotics wants to democratize sidewalk delivery robots",
-      "url": "https://www.theverge.com/transportation/1030902/serve-robotics-open-developer-api-sidewalk-delivery",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Robotics",
-        "AI",
-        "Automation",
-        "API",
-        "Software Engineering"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-11T12:30:00.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2231498899.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "A delivery robot rolls down a pedestrian walkway in Miami. | Photo: Universal Images Group via Getty Images Serve Robotics is opening up its platform to make its autonomous last-mile delivery robots available to anyone who wants to use them. The company is launching a new AV Delivery Developer Porta",
-      "authorName": "Andrew J. Hawkins",
       "upvotes": 0,
       "commentsCount": 0
     }
