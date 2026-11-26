@@ -1,7 +1,280 @@
 {
-  "lastUpdated": "2026-11-26T01:22:42.046Z",
+  "lastUpdated": "2026-11-26T16:05:40.477Z",
   "totalArticles": 250,
   "articles": [
+    {
+      "id": "70dd249c96367fb4",
+      "title_vi": "Bẫy chi phí AWS: Xóa máy chủ ảo EC2 nhưng ổ đĩa và bản sao lưu vẫn lãng phí tiền bạc",
+      "title_en": "AWS Cost Trap: Deleting EC2 instances leaves orphaned EBS volumes and snapshots draining money",
+      "summary_vi": [
+        "Bài viết cảnh báo về tình trạng người dùng điện toán đám mây thường xuyên gặp phải hóa đơn tài chính bất ngờ sau khi hoàn tất các đợt kiểm thử hệ thống phần mềm trên môi trường AWS.",
+        "Nguyên nhân cốt lõi đến từ việc các ổ đĩa lưu trữ gắn liền và các bản sao lưu dữ liệu tự động không bị xóa đồng thời khi quản trị viên tiến hành hủy bỏ máy chủ ảo EC2.",
+        "Kỹ sư và nhà phát triển cần thiết lập quy trình kiểm soát tài nguyên đám mây chặt chẽ cùng các chính sách tự động hóa để tránh thất thoát chi phí vận hành không đáng có."
+      ],
+      "summary_en": [
+        "The article highlights how cloud computing users frequently encounter unexpected financial bills after completing software system testing cycles on the AWS environment.",
+        "The root cause stems from attached storage volumes and automated data backups not being deleted simultaneously when administrators terminate virtual EC2 servers.",
+        "Engineers and developers must establish strict cloud resource control procedures and automation policies to prevent unnecessary operational cost leakages."
+      ],
+      "originalTitle": "Bẫy chi phí AWS #17: Xóa EC2 rồi mà EBS volume và snapshot bị bỏ quên vẫn tốn $182/tháng",
+      "url": "https://viblo.asia/p/bay-chi-phi-aws-17-xoa-ec2-roi-ma-ebs-volume-va-snapshot-bi-bo-quen-van-ton-182thang-1QLxnkDq4Aw",
+      "sourceName": "Viblo Tech",
+      "sourceOrigin": "vietnam",
+      "category": "DevOps & Cloud",
+      "tags": [
+        "AWS",
+        "EC2",
+        "Cloud Cost",
+        "DevOps",
+        "Infrastructure"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-26T19:00:00.000Z",
+      "contentSnippet": "Xóa EC2 rồi mà tháng sau hóa đơn vẫn có thêm $182. Chuyện này mình gặp lại nhiều lần đến mức giờ cứ xong đợt test là việc đầu tiên mình làm là mở tab ...",
+      "authorName": "Dream",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6017eb39d3e996ca",
+      "title_vi": "Nhà phát triển trò chơi Grand Theft Auto VI bỏ phiếu chống lại việc thành lập công đoàn",
+      "title_en": "GTA VI developers vote against unionization",
+      "summary_vi": [
+        "Nhân viên tại hãng phát triển trò chơi điện tử Rockstar Games đã bỏ phiếu bác bỏ đề xuất thành lập công đoàn chính thức với tỷ lệ ủng hộ chỉ đạt hai mươi lăm phần trăm.",
+        "Cuộc bỏ phiếu diễn ra từ ngày mười hai đến ngày hăm sáu tháng mười một, xoay quanh giai đoạn phát hành quan trọng của tựa game bom tấn được chờ đợi này.",
+        "Sự kiện này làm nổi bật những thách thức trong việc tổ chức đàm phán tập thể về lương thưởng, làm thêm giờ và các điều kiện phúc lợi khác trong ngành công nghiệp game."
+      ],
+      "summary_en": [
+        "Employees at prominent video game developer Rockstar Games officially rejected the proposal to unionize after receiving only twenty five percent support in the recent ballot.",
+        "The voting process took place from November twelfth through twenty sixth, coinciding with the critical launch window of the highly anticipated blockbuster game title.",
+        "This event highlights ongoing challenges regarding collective bargaining for compensation, overtime policies, and workplace benefits within the competitive gaming industry."
+      ],
+      "originalTitle": "GTA VI developers vote against unionization",
+      "url": "https://www.theverge.com/games/1043169/rockstar-games-union-vote-iwgb",
+      "sourceName": "The Verge",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Game Development",
+        "Rockstar Games",
+        "Software Engineering",
+        "Industry Trends"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-26T15:55:24.000Z",
+      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Jason_and_Lucia_01.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "contentSnippet": "Workers at Grand Theft Auto VI developer Rockstar Games won't unionize, after the vote for a formal recognition agreement failed, with only 25 percent of votes in favor of unionization. The Independent Workers Union of Great Britain (IWGB) said that Rockstar workers in the union will continue organi",
+      "authorName": "Dominic Preston",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "dd5319d80d4e2586",
+      "title_vi": "Đánh giá củ sạc mophie 45W AVS Max 60W hỗ trợ sạc nhanh cho iPhone 18 Pro Max, Z Fold8 và MacBook",
+      "title_en": "Reviewing mophie 45W AVS Max 60W Fast Charger Supporting iPhone 18 Pro Max, Z Fold8, and MacBook",
+      "summary_vi": [
+        "Bài viết giới thiệu dòng củ sạc mophie 45W AVS có khả năng đẩy công suất tối đa lên đến 60W, thiết kế thuộc nhóm siêu nhỏ gọn nhằm tối ưu hóa việc sạc pin cho các dòng smartphone hiện đại và thiết bị di động cá nhân.",
+        "Sản phẩm tích hợp công nghệ AVS tiên tiến giúp tối ưu hóa dòng điện, cung cấp khả năng tương thích cao với các thiết bị cao cấp đòi hỏi nguồn điện lớn như iPhone 18 Pro Max, Samsung Galaxy Z Fold8 cũng như máy tính xách tay MacBook.",
+        "Thiết bị mang lại giải pháp năng lượng di động vượt trội cho kỹ sư và chuyên gia công nghệ, giúp giảm thiểu không gian mang theo nhiều bộ sạc khác nhau mà vẫn đảm bảo hiệu suất truyền dẫn điện năng cực kỳ ổn định."
+      ],
+      "summary_en": [
+        "The article introduces the mophie 45W AVS charger series capable of delivering up to 60W of maximum power, featuring an ultra-compact design optimized for charging modern smartphones and personal mobile devices efficiently.",
+        "The product integrates advanced AVS technology to optimize current delivery, providing high compatibility with high-end devices demanding large power supplies such as iPhone 18 Pro Max, Samsung Galaxy Z Fold8, and MacBook laptops.",
+        "The device provides a superior mobile power solution for engineers and tech professionals, helping to minimize the space required for carrying multiple chargers while ensuring extremely stable power transmission performance."
+      ],
+      "originalTitle": "Thử nghiệm củ sạc mophie 45W AVS Max 60W sạc iPhone 18 Pro Max, Z Fold8 rất nhanh, sạc cả MacBook",
+      "url": "https://tinhte.vn/thread/thu-nghiem-cu-sac-mophie-45w-avs-max-60w-sac-iphone-18-pro-max-z-fold8-rat-nhanh-sac-ca-macbook.4194935/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "Mobile & Web",
+      "tags": [
+        "Hardware",
+        "Mobile Accessories",
+        "Fast Charging",
+        "Apple",
+        "Android"
+      ],
+      "hotScore": 78,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-26T15:09:00.000Z",
+      "contentSnippet": "Trong chủ đề này mình giới thiệu với anh em cục sạc mophie 45W AVS tới 60W. Đây là một cục sạc thuộc nhóm các cục sạc siêu nhỏ gọn mà chúng ta hay mau dùng để sạc smartphone. Tuy nhiên với các...",
+      "authorName": "cuhiep",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "f82985aecbc25d92",
+      "title_vi": "Sử dụng Claude để tự phát triển ứng dụng phục vụ nhu cầu cá nhân: Hiệu quả cao và đúng ý muốn",
+      "title_en": "Using Claude to Build Custom Personal Applications: High Efficiency and Exact Requirements Met",
+      "summary_vi": [
+        "Bài viết chia sẻ trải nghiệm thực tế của lập trình viên khi ứng dụng công cụ trí tuệ nhân tạo Claude Code nhằm tự động hóa quá trình phát triển phần mềm phục vụ các mục đích sử dụng cá nhân hàng ngày.",
+        "Giải pháp khai thác khả năng sinh mã nguồn mạnh mẽ của mô hình ngôn ngữ lớn giúp hiện thực hóa các ý tưởng phần mềm nhanh chóng mà không cần tốn nhiều thời gian thiết kế kiến trúc phức tạp.",
+        "Xu hướng tự phát triển ứng dụng cá nhân bằng trợ lý AI đang mở ra cách tiếp cận mới cho cộng đồng lập trình, giúp tối ưu hóa hiệu suất làm việc và giải quyết các bài toán công việc đặc thù."
+      ],
+      "summary_en": [
+        "The article shares the practical experience of a developer leveraging the Claude Code artificial intelligence tool to automate the software development process for daily personal use cases.",
+        "This solution harnesses the powerful code generation capabilities of large language models to quickly realize software ideas without spending extensive time on complex architectural design.",
+        "The trend of building custom personal applications using AI assistants opens up a new approach for the programming community, optimizing work efficiency and solving specific task challenges."
+      ],
+      "originalTitle": "Dùng Claude tự viết app để dùng cá nhân: Rất hiệu quả & đúng ý muốn",
+      "url": "https://tinhte.vn/thread/dung-claude-tu-viet-app-de-dung-ca-nhan-rat-hieu-qua-dung-y-muon.4195819/",
+      "sourceName": "Tinh Tế",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Claude Code",
+        "Software Development",
+        "Productivity",
+        "LLM"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-26T14:04:08.000Z",
+      "contentSnippet": "Chắc nhiều anh em đã nghe về chuyện các công cụ AI giờ có thể viết code, làm app và xử lý một số việc của người trong ngành. Mình cũng tìm hiểu rồi áp dụng vào nhu cầu thực tế: dùng Claude Code để...",
+      "authorName": "thanhtung6868",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "5fb358f0ef6d8512",
+      "title_vi": "Anthropic và OpenAI chặn chưng cất dữ liệu, làm trí tuệ nhân tạo Trung Quốc khốn đốn khi công sức khai thác tăng gấp mười lần và nguy cơ tụt hậu chín tháng",
+      "title_en": "Anthropic and OpenAI block data distillation, causing severe struggles for Chinese artificial intelligence with a tenfold increase in mining effort and a nine-month lag risk",
+      "summary_vi": [
+        "Các hãng công nghệ lớn như Anthropic và OpenAI đã triển khai các biện pháp kỹ thuật nhằm ngăn chặn triệt để quá trình chưng cất dữ liệu từ các mô hình ngôn ngữ lớn hàng đầu.",
+        "Động thái này khiến các công ty trí tuệ nhân tạo tại Trung Quốc đối mặt với bài toán cực kỳ nan giải khi chi phí và công sức khai thác dữ liệu phải tăng lên gấp mười lần.",
+        "Bối cảnh thắt chặt lệnh cấm vận xuất khẩu chip và hạn chế dữ liệu đang làm gia tăng nguy cơ tụt hậu công nghệ của ngành công nghiệp trí tuệ nhân tạo Trung Quốc so với Mỹ lên tới chín tháng."
+      ],
+      "summary_en": [
+        "Major technology companies like Anthropic and OpenAI have implemented robust technical measures to thoroughly prevent data distillation processes from their leading large language models.",
+        "This move forces artificial intelligence companies in China to face a severe challenge where the cost and effort required for data mining must increase by a tenfold margin.",
+        "The tightening of chip export bans and data restrictions is significantly widening the technology lag risk for China's artificial intelligence industry compared to the United States by up to nine months."
+      ],
+      "originalTitle": "Anthropic và OpenAI chặn chưng cất dữ liệu, làm AI Trung Quốc khốn đốn: Công sức khai thác tăng gấp 10 lần, nguy cơ tụt hậu với Mỹ đến 9 tháng",
+      "url": "https://genk.vn/anthropic-va-openai-chan-chung-cat-du-lieu-lam-ai-trung-quoc-khon-don-cong-suc-khai-thac-tang-gap-10-lan-nguy-co-tut-hau-voi-my-den-9-thang-165261126205444579.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "OpenAI",
+        "Anthropic",
+        "Data Distillation",
+        "Semiconductors"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-26T13:54:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/26/avatar1795701269694-17957012701842069875006.png",
+      "contentSnippet": "Không chỉ bị chặn chiết xuất dữ liệu, các công ty AI Trung Quốc còn đối mặt với nguy cơ thiếu hụt chip trầm trọng hơn khi Mỹ siết chặt lệnh hạn chế xuất khẩu công nghệ.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "4299a3ba81334a44",
+      "title_vi": "Văn phòng Châu Âu ra mắt ứng dụng máy tính Nextcloud Office",
+      "title_en": "Euro-Office comes to your desktop with the Nextcloud Office Desktop app",
+      "summary_vi": [
+        "Vào ngày chín tháng sáu năm hai nghìn không trăm hai mươi sáu, phiên bản ổn định đầu tiên của bộ ứng dụng văn phòng cộng tác chủ quyền Châu Âu mang tên Euro-Office chính thức được phát hành rộng rãi.",
+        "Ứng dụng máy tính Nextcloud Office hỗ trợ ngoại tuyến, tương thích cao với các định dạng tài liệu Microsoft Office và định dạng mở trên hệ điều hành Windows, macOS và Linux.",
+        "Giải pháp phần mềm mã nguồn mở này mang lại khả năng chỉnh sửa thời gian thực, giúp các nhóm phát triển duy trì năng suất làm việc độc lập mà không phụ thuộc vào kết nối mạng."
+      ],
+      "summary_en": [
+        "On June ninth, twenty twenty-six, the first production-ready version of the sovereign European collaborative office suite named Euro-Office was officially released to the public market.",
+        "The Nextcloud Office Desktop app supports offline capabilities, high compatibility with Microsoft Office formats and open file formats across Windows, macOS, and Linux operating systems.",
+        "This open-source software solution delivers real-time editing features, helping development teams maintain productivity independently without relying on continuous internet connectivity."
+      ],
+      "originalTitle": "Euro-Office comes to your desktop with the Nextcloud Office Desktop app",
+      "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Nextcloud",
+        "Open Source",
+        "Desktop App",
+        "Collaboration",
+        "Productivity"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-26T11:50:49.000Z",
+      "contentSnippet": "Mastodon Bluesky LinkedIn Nextcloud Hub 26 Summer:Autonomy for Teams, Office on desktop, a fresh take on PhotosExplore what’s new in the release blog! On June 9, 2026, we released the first production-ready version of Euro-Office, a sovereign collaborative office suite developed and governed in Euro",
+      "authorName": "e12e",
+      "upvotes": 254,
+      "commentsCount": 108
+    },
+    {
+      "id": "b49fd59703ff511b",
+      "title_vi": "Cổ phiếu Anthropic sụt giảm dưới giá IPO sau bốn phiên giao dịch",
+      "title_en": "Anthropic Stock Falls Below IPO Price After Four Trading Sessions",
+      "summary_vi": [
+        "Cổ phiếu của công ty trí tuệ nhân tạo Anthropic đã chính thức đóng cửa dưới mức giá chào bán lần đầu ra công chúng vào ngày hai mươi tư tháng mười một.",
+        "Phòng thí nghiệm trí tuệ nhân tạo này đang phải đối mặt với áp lực tài chính lớn để thanh toán các hợp đồng hạ tầng tính toán và máy chủ quy mô khổng lồ.",
+        "Sự kiện này phản ánh thách thức về dòng tiền và chi phí vận hành đắt đỏ của các công ty phát triển mô hình ngôn ngữ lớn trong giai đoạn hiện nay."
+      ],
+      "summary_en": [
+        "Shares of artificial intelligence company Anthropic officially closed below their initial public offering price on the twenty fourth of November.",
+        "The artificial intelligence laboratory is facing significant financial pressure to pay for massive scale infrastructure and computing server contracts.",
+        "This event reflects the cash flow challenges and expensive operating costs of large language model developers in the current industry landscape."
+      ],
+      "originalTitle": "Cổ phiếu Anthropic rơi xuống dưới giá IPO chỉ sau 4 phiên giao dịch",
+      "url": "https://genk.vn/co-phieu-anthropic-roi-xuong-duoi-gia-ipo-chi-sau-4-phien-giao-dich-165261126183340605.chn",
+      "sourceName": "GenK",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "Anthropic",
+        "AI",
+        "IPO",
+        "Infrastructure",
+        "Startups"
+      ],
+      "hotScore": 88,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-26T11:35:00.000Z",
+      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/26/ant-price-7996fdfb.png",
+      "contentSnippet": "Cổ phiếu ANT đóng cửa dưới giá chào bán lần đầu vào ngày 24/11, trong lúc phòng thí nghiệm AI này cần tiền thật để trả những hợp đồng hạ tầng khổng lồ.",
+      "authorName": "GenK",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "6bfee4b6633aba44",
+      "title_vi": "Phông chữ lập trình Intel One Mono",
+      "title_en": "Intel One Mono font",
+      "summary_vi": [
+        "Tập đoàn Intel đã chính thức phát hành bộ phông chữ đơn kích thước mới mang tên Intel One Mono, được thiết kế đặc biệt nhằm tối ưu hóa khả năng đọc cho các nhà phát triển phần mềm và kỹ sư mã nguồn.",
+        "Bộ phông chữ này được xây dựng với sự chú ý tỉ mỉ đến tính dễ đọc, giúp phân biệt rõ ràng các ký tự dễ nhầm lẫn như chữ số một và chữ cái L thường, hoặc số không và chữ O lớn trong môi trường lập trình.",
+        "Việc cung cấp miễn phí phông chữ này mang lại giá trị thiết thực lớn cho cộng đồng lập trình viên toàn cầu, giúp giảm thiểu mỏi mắt khi làm việc kéo dài và nâng cao năng suất viết mã hàng ngày."
+      ],
+      "summary_en": [
+        "Intel Corporation has officially released a new open-source monospaced typeface named Intel One Mono, specifically engineered to optimize readability and reduce visual fatigue for software developers and coding engineers.",
+        "This typeface was meticulously crafted with high legibility in mind, ensuring clear distinction between easily confused characters such as the number one and lowercase L, or zero and uppercase O within coding environments.",
+        "Providing this font as a free resource delivers immense practical value to the global developer community, helping to minimize eye strain during extended working hours and significantly improving daily coding productivity."
+      ],
+      "originalTitle": "Intel One Mono font",
+      "url": "https://github.com/intel/intel-one-mono",
+      "sourceName": "Hacker News",
+      "sourceOrigin": "global",
+      "category": "Software Engineering",
+      "tags": [
+        "Typography",
+        "Developer Tools",
+        "Open Source",
+        "Software Engineering"
+      ],
+      "hotScore": 75,
+      "readTimeMinutes": 3,
+      "publishedAt": "2026-11-26T10:11:01.000Z",
+      "contentSnippet": "Intel One Mono font",
+      "authorName": "saikatsg",
+      "upvotes": 285,
+      "commentsCount": 171
+    },
     {
       "id": "af073305d60fb45e",
       "title_vi": "Bẫy chi phí AWS: Khôi phục Glacier Expedited rẻ khi lưu trữ nhưng đắt đỏ khi lấy dữ liệu",
@@ -33,6 +306,76 @@
       "publishedAt": "2026-11-26T08:00:00.000Z",
       "contentSnippet": "Lưu 10 TB backup trên Glacier chỉ tốn khoảng $37 mỗi tháng. Nhưng lấy toàn bộ ra một lần thì mất $307. Và cái bẫy này chỉ lộ ra đúng lúc bạn đang gặp ...",
       "authorName": "Dream",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "82e6eed9a7e66567",
+      "title_vi": "Việt Nam không thể chỉ làm lắp ráp trong ngành bán dẫn",
+      "title_en": "Vietnam Cannot Rely Solely on Assembly in the Semiconductor Industry",
+      "summary_vi": [
+        "Chủ tịch Hiệp hội Bán dẫn Đông Nam Á Linda Tan nhận định Việt Nam sở hữu nhiều tiềm năng lớn nhưng cần nhanh chóng chuyển dịch từ gia công lắp ráp sang các công đoạn giá trị cao hơn.",
+        "Chiến lược phát triển hệ sinh thái bán dẫn quốc gia đòi hỏi sự tập trung mạnh mẽ vào mảng thiết kế vi mạch tích hợp cùng quy trình đóng gói tiên tiến.",
+        "Sự kiện SemiExpo Việt Nam 2026 sắp tới tại thành phố Hồ Chí Minh sẽ là diễn đàn quan trọng định hình tầm nhìn và thu hút đầu tư công nghệ cao."
+      ],
+      "summary_en": [
+        "SEMI SEA President Linda Tan emphasizes that Vietnam holds significant potential but must quickly transition from simple assembly to higher-value semiconductor segments.",
+        "The national semiconductor ecosystem strategy requires strong concentration on integrated circuit design and advanced packaging technologies.",
+        "The upcoming SemiExpo Vietnam 2026 in Ho Chi Minh City will serve as a crucial forum to shape technological vision and attract high-tech investments."
+      ],
+      "originalTitle": "'Việt Nam không thể chỉ làm lắp ráp trong ngành bán dẫn'",
+      "url": "https://vnexpress.net/viet-nam-khong-the-chi-lam-lap-rap-trong-nganh-ban-dan-5148931.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "Tech Trends & Startups",
+      "tags": [
+        "Semiconductor",
+        "Chip Design",
+        "Advanced Packaging",
+        "SEMI SEA",
+        "Hardware"
+      ],
+      "hotScore": 92,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-26T06:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/26/wm1-dsc01918-jpg-1795649454-8973-1795651111.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=zhUkxMqCgAFd-G9j6O3pLA",
+      "contentSnippet": "Việt Nam cần tiến sâu vào thiết kế chip và đóng gói tiên tiến để nâng vị thế trong chuỗi giá trị bán dẫn, theo Chủ tịch SEMI SEA Linda Tan.",
+      "authorName": "VnExpress Số Hóa",
+      "upvotes": 0,
+      "commentsCount": 0
+    },
+    {
+      "id": "8812fa5294c39522",
+      "title_vi": "Mỹ cấp phép cho công ty không gian triển khai một triệu vệ tinh phục vụ trí tuệ nhân tạo",
+      "title_en": "US Regulator Approves One Million Satellite Constellation for AI Data Centers",
+      "summary_vi": [
+        "Ủy ban Truyền thông Liên bang Mỹ đã chính thức thông qua kế hoạch của công ty hàng không vũ trụ SpaceX nhằm triển khai một chòm sao khổng lồ gồm một triệu vệ tinh quỹ đạo.",
+        "Hệ thống siêu máy tính trên không mang tên StarMind được thiết kế đặc biệt để cung cấp hạ tầng tính toán khổng lồ và tiêu thụ năng lượng tối ưu cho các mô hình trí tuệ nhân tạo thế hệ mới.",
+        "Việc tận dụng nguồn năng lượng mặt trời ngoài không gian giúp giảm thiểu đáng kể chi phí vận hành và hạn chế tác động tiêu cực đến môi trường so với các trung tâm dữ liệu mặt đất truyền thống."
+      ],
+      "summary_en": [
+        "The United States Federal Communications Commission officially approved the aerospace company SpaceX plan to deploy a massive orbital constellation consisting of one million satellites.",
+        "The airborne supercomputer system named StarMind is specifically engineered to provide massive computational infrastructure and optimized power consumption for next generation artificial intelligence models.",
+        "Harnessing continuous solar energy directly from space significantly reduces operational costs and minimizes negative environmental impacts compared to traditional terrestrial data centers."
+      ],
+      "originalTitle": "Mỹ cho phép SpaceX triển khai một triệu vệ tinh",
+      "url": "https://vnexpress.net/my-cho-phep-spacex-trien-khai-mot-trieu-ve-tinh-5149014.html",
+      "sourceName": "VnExpress Số Hóa",
+      "sourceOrigin": "vietnam",
+      "category": "AI & Machine Learning",
+      "tags": [
+        "AI",
+        "Cloud",
+        "Data Center",
+        "Hardware",
+        "SpaceX"
+      ],
+      "hotScore": 95,
+      "readTimeMinutes": 4,
+      "publishedAt": "2026-11-26T05:00:00.000Z",
+      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/26/cms-interestingengineering-179-1192-9452-1795662343.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=dbauBCGt-kQQisGAOel3Tg",
+      "contentSnippet": "Ủy ban Truyền thông Liên bang Mỹ (FCC) đã thông qua yêu cầu của SpaceX về \"chòm sao\" một triệu vệ tinh phục vụ trung tâm dữ liệu AI.",
+      "authorName": "VnExpress Số Hóa",
       "upvotes": 0,
       "commentsCount": 0
     },
@@ -8106,350 +8449,6 @@
       "thumbnailUrl": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/13/microsoft-laptop-error-alert-17945375905411139327278-63-266-941-1672-crop-17945404900061819742132.png",
       "contentSnippet": "Sự cố Microsoft khiến hàng chục nghìn người dùng không thể truy cập Outlook, Teams, Microsoft 365, đồng thời ảnh hưởng đến các nền tảng AI.",
       "authorName": "THANH HIỆP⭐",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "1a09f77a4836fe9e",
-      "title_vi": "Lỗi hệ thống gia tăng trên nền tảng trí tuệ nhân tạo Claude và các công cụ phát triển",
-      "title_en": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-      "summary_vi": [
-        "Nền tảng trợ lý trí tuệ nhân tạo Claude và các dịch vụ trực tuyến liên quan đang gặp phải tình trạng tỷ lệ lỗi hệ thống gia tăng đột biến, gây ảnh hưởng trực tiếp đến trải nghiệm của người dùng trên toàn cầu.",
-        "Sự cố kỹ thuật này tác động nghiêm trọng đến giao diện web chính thức, công cụ lập trình hỗ trợ Claude Code và cổng thông tin dành cho nhà phát triển platform.claude.com, làm gián đoạn các luồng công việc tích hợp.",
-        "Đội ngũ kỹ sư và vận hành hạ tầng đám mây đang khẩn trương tiến hành chẩn đoán nguyên nhân gốc rễ, triển khai các biện pháp khắc phục nhằm khôi phục hoàn toàn tính ổn định cho toàn bộ hệ sinh thái."
-      ],
-      "summary_en": [
-        "The artificial intelligence assistant platform Claude and related online services are currently experiencing a sudden surge in system error rates, directly impacting user experience globally.",
-        "This technical incident severely affects the main web interface, the Claude Code development tool, and the developer portal platform.claude.com, disrupting integrated workflow pipelines.",
-        "Engineering and cloud infrastructure operations teams are urgently diagnosing root causes and deploying mitigation measures to fully restore stability across the entire ecosystem."
-      ],
-      "originalTitle": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-      "url": "https://status.claude.com/incidents/nn11wk485zfn",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "Claude",
-        "AI",
-        "DevOps",
-        "Cloud",
-        "API"
-      ],
-      "hotScore": 76,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-13T10:18:13.000Z",
-      "contentSnippet": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-      "authorName": "__vivek",
-      "upvotes": 306,
-      "commentsCount": 259
-    },
-    {
-      "id": "89351864f9ecb4d3",
-      "title_vi": "Thị trường trí tuệ nhân tạo có thể biến động mạnh khi Jensen Huang rời Nvidia",
-      "title_en": "The AI market may face significant disruption following Jensen Huang's departure from Nvidia",
-      "summary_vi": [
-        "Sự kiện Jensen Huang từ chức CEO Nvidia sau hơn ba thập kỷ dẫn dắt đã gây chấn động toàn cầu, đánh dấu một bước ngoặt lớn đối với tập đoàn sản xuất chip AI giá trị nhất thế giới hiện nay.",
-        "Việc thay đổi nhân sự cấp cao tại Nvidia đặt ra nhiều câu hỏi về chiến lược phát triển phần cứng, lộ trình sản xuất chip xử lý đồ họa và khả năng duy trì vị thế thống trị trong lĩnh vực hạ tầng tính toán.",
-        "Sự ra đi của một nhà lãnh đạo có tầm ảnh hưởng lớn như Jensen Huang có thể làm thay đổi cục diện ngành công nghiệp bán dẫn, ảnh hưởng trực tiếp đến các dự án phát triển AI và hệ sinh thái phần mềm liên quan."
-      ],
-      "summary_en": [
-        "The resignation of Jensen Huang as CEO of Nvidia after over three decades of leadership has sent shockwaves globally, marking a major turning point for the world's most valuable AI chip manufacturing corporation.",
-        "The change in top-level management at Nvidia raises significant questions regarding hardware development strategies, the roadmap for graphics processing units, and the ability to maintain dominance in the computational infrastructure sector.",
-        "The departure of such an influential leader could reshape the semiconductor industry landscape, directly impacting AI development projects and the broader software ecosystems that rely on Nvidia's specialized hardware and computing platforms."
-      ],
-      "originalTitle": "Thị trường AI có thể xáo trộn thế nào khi Jensen Huang rời Nvidia",
-      "url": "https://vnexpress.net/thi-truong-ai-co-the-xao-tron-the-nao-khi-jensen-huang-roi-nvidia-5144136.html",
-      "sourceName": "VnExpress Số Hóa",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Nvidia",
-        "AI",
-        "Semiconductor",
-        "Jensen Huang",
-        "Tech Leadership"
-      ],
-      "hotScore": 98,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-13T10:05:44.000Z",
-      "thumbnailUrl": "https://vcdn1-vnexpress.vnecdn.net/2026/11/13/20261109t135825z14491308rc2h6o-4271-5103-1794551374.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=9KdRD0OJ3RHSCQ95EpDuXQ",
-      "contentSnippet": "Việc Jensen Huang từ chức CEO Nvidia sau 33 năm dẫn dắt hãng chip giá trị nhất thế giới dự kiến gây ra những thay đổi đáng kể trong ngành AI.",
-      "authorName": "VnExpress Số Hóa",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "7bc74b1169fe0f38",
-      "title_vi": "Command Box bài học 10: Quản lý phiên bản và lập tài liệu tự động cho công cụ dòng lệnh",
-      "title_en": "Command Box Lesson 10: Version Management and Automated Documentation for CLI Tools",
-      "summary_vi": [
-        "Bài viết đề cập đến bài học thực tế trong quá trình phát triển công cụ dòng lệnh khi việc quản lý phiên bản thủ công gây ra nhiều nhầm lẫn cho đội ngũ phát triển và người dùng cuối.",
-        "Tác giả hướng dẫn chi tiết cách tích hợp cơ chế tự động hóa quản lý số phiên bản kết hợp với việc tạo tài liệu hướng dẫn sử dụng trực tiếp từ mã nguồn của ứng dụng.",
-        "Giải pháp này giúp tối ưu hóa quy trình phát hành phần mềm, giảm thiểu sai sót do con người và nâng cao tính chuyên nghiệp cho các dự án phát triển công cụ dòng lệnh."
-      ],
-      "summary_en": [
-        "The article addresses practical lessons in command line tool development where manual version management causes confusion for development teams and end users alike.",
-        "The author provides detailed guidance on integrating automated versioning mechanisms combined with generating user documentation directly from the application source code.",
-        "This solution helps optimize the software release pipeline, minimize human errors, and enhance professionalism for various command line tool development projects."
-      ],
-      "originalTitle": "Command Box bài học 10: Quản lý phiên bản (Versioning) và lập tài liệu tự động cho CLI tool",
-      "url": "https://viblo.asia/p/command-box-bai-hoc-10-quan-ly-phien-ban-versioning-va-lap-tai-lieu-tu-dong-cho-cli-tool-13VM9BqmVY7",
-      "sourceName": "Viblo Tech",
-      "sourceOrigin": "vietnam",
-      "category": "Software Engineering",
-      "tags": [
-        "CLI",
-        "Versioning",
-        "Automation",
-        "Software Development",
-        "Documentation"
-      ],
-      "hotScore": 85,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-13T09:19:19.000Z",
-      "contentSnippet": "Bạn vừa sửa xong một bug nghiêm trọng trong lệnh cbox db migrate, build lại file binary rồi gửi vào nhóm chat cho cả team tải về. Hai ngày sau, một đồ...",
-      "authorName": "Nguyễn Huy Hoàng",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "0eb39675fdec200b",
-      "title_vi": "IceWM: Trình quản lý cửa sổ tối ưu cho hệ thống X Window",
-      "title_en": "IceWM: A Lightweight Window Manager for the X Window System",
-      "summary_vi": [
-        "IceWM là một trình quản lý cửa sổ lâu đời dành cho hệ thống X Window, được Marko Maček phát triển từ năm 1997 với mục tiêu tối ưu hóa tốc độ, sự đơn giản và trải nghiệm người dùng mượt mà trên các hệ điều hành Linux và BSD.",
-        "Phần mềm này hỗ trợ cấu hình linh hoạt thông qua các tệp tin, cung cấp hệ thống menu động, quản lý phím tắt toàn cục, hỗ trợ đa màn hình thông qua RandR và Xinerama, cùng khả năng tùy biến giao diện mạnh mẽ với hơn 450 chủ đề khác nhau.",
-        "Với phiên bản 4.1.0 mới nhất, IceWM tiếp tục khẳng định giá trị trong cộng đồng mã nguồn mở nhờ tính ổn định cao, tài liệu hướng dẫn chi tiết và khả năng hoạt động hiệu quả trên các bản phân phối Linux phổ biến hiện nay."
-      ],
-      "summary_en": [
-        "IceWM is a long-standing window manager for the X Window System, developed by Marko Maček since 1997 with a focus on speed, simplicity, and providing a seamless user experience across various Linux and BSD operating systems.",
-        "The software offers flexible configuration via files, dynamic menus, global keyboard shortcuts, multi-monitor support via RandR and Xinerama, and extensive visual customization capabilities with a library of over 450 themes available for users.",
-        "With the release of version 4.1.0, IceWM continues to provide significant value to the open-source community through its high stability, comprehensive documentation, and efficient performance on most popular modern Linux distributions."
-      ],
-      "originalTitle": "IceWM",
-      "url": "https://ice-wm.org/",
-      "sourceName": "Hacker News",
-      "sourceOrigin": "global",
-      "category": "Software Engineering",
-      "tags": [
-        "Linux",
-        "Window Manager",
-        "Open Source",
-        "X11",
-        "Desktop Environment"
-      ],
-      "hotScore": 75,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-13T04:54:53.000Z",
-      "contentSnippet": "IceWM is a window manager for the X Window System. The goal of IceWM is speed, simplicity, and not getting in the user’s way. It comes with a taskbar with pager, global and per-window keybindings and a dynamic menu system. Application windows can be managed by keyboard and mouse. Windows can be icon",
-      "authorName": "inatreecrown2",
-      "upvotes": 257,
-      "commentsCount": 127
-    },
-    {
-      "id": "da1c9d20d641cec5",
-      "title_vi": "Kỷ niệm 20 năm, Điện thoại thông minh cao cấp thế hệ mới sẽ tích hợp các công nghệ tiên tiến từ hệ sinh thái cạnh tranh?",
-      "title_en": "Celebrating 20 Years, Next-Generation Flagship Smartphones to Integrate Advanced Technologies from Competitor Ecosystems?",
-      "summary_vi": [
-        "Dự án kỷ niệm hai mươi năm ra mắt dòng thiết bị di động cao cấp đang thu hút sự chú ý lớn từ cộng đồng công nghệ toàn cầu.",
-        "Các cải tiến phần cứng quan trọng bao gồm màn hình tràn viền hoàn toàn, thiết kế không lỗ khuyết vật lý và công nghệ pin anode silicon tiên tiến.",
-        "Sự chuyển dịch này không chỉ đánh dấu bước ngoặt thiết kế mà còn tạo sức ép cạnh tranh mạnh mẽ lên toàn bộ chuỗi cung ứng phần cứng di động."
-      ],
-      "summary_en": [
-        "The twentieth-anniversary project of the flagship mobile device lineup is attracting significant attention from the global technology community.",
-        "Key hardware innovations include a true bezel-less display, a physical notch-free design, and advanced silicon anode battery technology.",
-        "This shift not only marks a design turning point but also exerts strong competitive pressure across the entire mobile hardware supply chain."
-      ],
-      "originalTitle": "Kỷ niệm 20 năm, iPhone 20 Pro sẽ hồi sinh các công nghệ \"đã nguội\" từ Android?",
-      "url": "https://genk.vn/ky-niem-20-nam-iphone-20-pro-se-hoi-sinh-cac-cong-nghe-da-nguoi-tu-android-165261113110752787.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Mobile & Web",
-      "tags": [
-        "Smartphone",
-        "Hardware",
-        "Mobile Tech",
-        "Battery Tech"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-13T04:07:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/13/avatar1794542845290-1794542846765433849150.jpg",
-      "contentSnippet": "Với hàng loạt thay đổi táo bạo như màn hình tràn viền đích thực, thiết kế không lỗ khuyết và pin anode silicon, iPhone 20 Pro được kỳ vọng sẽ tái định hình lại thị trường smartphone, dù nhiều công nghệ trong số đó vốn không còn xa lạ với người dùng Android.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "2ed5e0f8bde7db52",
-      "title_vi": "Tổng thống Trump đề xuất Tim Cook thay thế Jensen Huang tại NVIDIA",
-      "title_en": "President Trump Proposes Tim Cook to Replace Jensen Huang at NVIDIA",
-      "summary_vi": [
-        "Tổng thống Mỹ Donald Trump đã đăng tải trên mạng xã hội Truth Social một tuyên bố gây chú ý lớn trong cộng đồng công nghệ khi đề xuất CEO Apple Tim Cook nên đảm nhận vị trí lãnh đạo tại NVIDIA thay cho Jensen Huang.",
-        "Tuyên bố này liên quan trực tiếp đến thị trường phần cứng trí tuệ nhân tạo và các tập đoàn bán dẫn khổng lồ, nơi NVIDIA đang giữ vị thế thống trị toàn cầu về cung cấp vi xử lý đồ họa và chip AI hiệu năng cao.",
-        "Sự kiện này phản ánh sự giao thoa phức tạp giữa chính trị, kinh tế vĩ mô và ngành công nghiệp công nghệ cao, gây ra những thảo luận đa chiều về tương lai quản trị của các doanh nghiệp chip bán dẫn hàng đầu."
-      ],
-      "summary_en": [
-        "US President Donald Trump posted a striking statement on Truth Social suggesting that Apple CEO Tim Cook should take over the leadership position at NVIDIA, replacing current CEO Jensen Huang.",
-        "This statement directly involves the artificial intelligence hardware market and massive semiconductor corporations, where NVIDIA currently maintains a global dominant position in supplying GPUs and high-performance AI chips.",
-        "This event reflects the complex intersection between politics, macroeconomics, and the high-tech industry, sparking multi-dimensional discussions regarding the future governance of leading semiconductor enterprises."
-      ],
-      "originalTitle": "Tổng thống Trump đề xuất Tim Cook thay thế Jensen Huang tại NVIDIA",
-      "url": "https://tinhte.vn/thread/tong-thong-trump-de-xuat-tim-cook-thay-the-jensen-huang-tai-nvidia.4191973/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "NVIDIA",
-        "Apple",
-        "Semiconductor",
-        "AI",
-        "Leadership"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-13T04:03:22.000Z",
-      "contentSnippet": "Tổng thống Trump đề xuất Tim Cook thay thế Jensen Huang tại NVIDIA Ngày 12/11/2026, Tổng thống Mỹ Donald Trump đã đăng tải trên Truth Social một tuyên bố gây chú ý, cho rằng sau khi CEO NVIDIA...",
-      "authorName": "cuhiep",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "b93246162a408102",
-      "title_vi": "Kính thông minh tích hợp trí tuệ nhân tạo của Samsung mở đặt trước qua Warby Parker với giá từ 395 USD",
-      "title_en": "Samsung Intelligent AI Eyewear Opens for Pre-orders via Warby Parker Starting at 395 USD",
-      "summary_vi": [
-        "Sự kiện ra mắt dòng kính thông minh Intelligent Eyewear đánh dấu bước tiến lớn trong lĩnh vực thiết bị đeo tích hợp trí tuệ nhân tạo thông minh do Samsung hợp tác phát triển.",
-        "Thiết bị này vận hành trên nền tảng hệ điều hành Android XR với phần cứng từ Samsung, phần mềm tối ưu từ Google và tích hợp sâu trợ lý ảo Gemini tiên tiến.",
-        "Sản phẩm mở ra hướng đi mới cho các ứng dụng thực tế ảo và tăng cường, mang lại trải nghiệm tương tác liền mạch cho người dùng công nghệ di động hiện đại."
-      ],
-      "summary_en": [
-        "The launch of the Intelligent Eyewear marks a significant milestone in the wearable device market featuring deeply integrated artificial intelligence developed in partnership with Samsung.",
-        "The device operates on the Android XR platform featuring hardware built by Samsung optimized software from Google and deep integration with the advanced Gemini virtual assistant.",
-        "This product paves the way for new augmented and virtual reality applications delivering seamless interactive experiences for modern mobile technology users globally."
-      ],
-      "originalTitle": "Kính AI Samsung Intelligent Eyewear mở đặt trước ở Mỹ qua Warby Parker, giá từ 395 USD",
-      "url": "https://tinhte.vn/thread/kinh-ai-samsung-intelligent-eyewear-mo-dat-truoc-o-my-qua-warby-parker-gia-tu-395-usd.4191987/",
-      "sourceName": "Tinh Tế",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Android XR",
-        "Samsung",
-        "Google",
-        "Wearables"
-      ],
-      "hotScore": 88,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-13T02:32:45.000Z",
-      "contentSnippet": "Đêm 12/11 giờ Việt Nam, Warby Parker và Gentle Monster đã mở đặt trước Intelligent Eyewear, dòng kính AI chạy Android XR do Samsung làm phần cứng, Google làm phần mềm và tích hợp Gemini. Giá khởi...",
-      "authorName": "TinhteUpdate",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "bd6cc4644a53e6d3",
-      "title_vi": "Asus ra mắt Zenbook 14 phiên bản mới: Mỏng nhẹ với thiết kế nắp máy Ceraluminum và nhiều tùy chọn chip",
-      "title_en": "Asus Launches New Zenbook 14: Lightweight Design with Ceraluminum Lid and Multiple Chip Options",
-      "summary_vi": [
-        "Hãng công nghệ Asus vừa chính thức giới thiệu dòng máy tính xách tay Zenbook 14 mới tại thị trường Việt Nam với nhiều cải tiến mạnh mẽ về thiết kế và cấu hình phần cứng.",
-        "Sản phẩm được trang bị lớp vỏ Ceraluminum cao cấp, màn hình OLED sắc nét độ phân giải cao cùng các tùy chọn bộ vi xử lý tiên tiến từ Intel, AMD và Snapdragon.",
-        "Thiết bị đáp ứng tốt nhu cầu của người dùng chuyên nghiệp và lập trình viên thường xuyên di chuyển nhờ trọng lượng nhẹ, hiệu năng ổn định và thời lượng pin ấn tượng."
-      ],
-      "summary_en": [
-        "Tech giant Asus has officially introduced the new Zenbook 14 laptop series in the Vietnamese market featuring significant improvements in design and hardware configurations.",
-        "The device is equipped with a premium Ceraluminum chassis, a sharp high-resolution OLED display, and advanced processor options from Intel, AMD, and Snapdragon.",
-        "It effectively meets the needs of professional users and mobile developers who travel frequently thanks to its lightweight build, stable performance, and impressive battery life."
-      ],
-      "originalTitle": "ASUS ra mắt Zenbook 14 2026: Mỏng nhẹ với hai màu đẹp mắt, đa dạng lựa chọn chip, giá từ 34,99 triệu đồng",
-      "url": "https://genk.vn/asus-ra-mat-zenbook-14-2026-mong-nhe-voi-hai-mau-dep-mat-da-dang-lua-chon-chip-gia-tu-3499-trieu-dong-165261113084407039.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Asus",
-        "Zenbook",
-        "Laptop",
-        "Hardware",
-        "OLED"
-      ],
-      "hotScore": 82,
-      "readTimeMinutes": 3,
-      "publishedAt": "2026-11-13T01:42:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/13/avatar1794534172051-17945341724721237095906.jpg",
-      "contentSnippet": "ASUS chính thức giới thiệu Zenbook 14 UX3480 tại Việt Nam với năm cấu hình trên ba nền tảng Intel, AMD và Snapdragon. Dòng laptop mới nổi bật với nắp máy Ceraluminum, hai gam màu trẻ trung, trọng lượng từ 1,1kg và màn hình OLED lên đến 3K 120Hz.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "fbf39366823c1a1b",
-      "title_vi": "CEO Google cảnh báo trí tuệ nhân tạo sẽ xáo trộn mọi ngành nghề và lao động tri thức",
-      "title_en": "Google CEO Warns Artificial Intelligence Will Disrupt Every Industry and Knowledge Work",
-      "summary_vi": [
-        "Giám đốc điều hành Google Sundar Pichai đã đưa ra cảnh báo mạnh mẽ về việc trí tuệ nhân tạo sẽ tác động sâu rộng đến toàn bộ các ngành nghề kinh tế hiện nay.",
-        "Công nghệ học máy và các mô hình ngôn ngữ lớn đang chứng minh năng lực tự động hóa vượt trội, trực tiếp thách thức các vị trí lao động tri thức truyền thống.",
-        "Sự chuyển dịch này đòi hỏi kỹ sư phần mềm và lực lượng lao động công nghệ phải liên tục nâng cao kỹ năng để thích ứng với kỷ nguyên tự động hóa mới."
-      ],
-      "summary_en": [
-        "Google Chief Executive Officer Sundar Pichai issued a strong warning regarding the profound impact of artificial intelligence across all modern economic sectors.",
-        "Machine learning technologies and large language models are demonstrating superior automation capabilities, directly challenging traditional knowledge worker positions.",
-        "This shift requires software engineers and technology workforces to continuously upskill in order to adapt to the new era of advanced automation."
-      ],
-      "originalTitle": "CEO Google cảnh báo AI sẽ làm xáo trộn gần như mọi ngành nghề, lao động tri thức khó đứng ngoài cuộc",
-      "url": "https://genk.vn/ceo-google-canh-bao-ai-se-lam-xao-tron-gan-nhu-moi-nganh-nghe-lao-dong-tri-thuc-kho-dung-ngoai-cuoc-165261113072159515.chn",
-      "sourceName": "GenK",
-      "sourceOrigin": "vietnam",
-      "category": "AI & Machine Learning",
-      "tags": [
-        "AI",
-        "Machine Learning",
-        "Google",
-        "Future of Work",
-        "Tech Trends"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-13T01:21:00.000Z",
-      "thumbnailUrl": "https://genk.mediacdn.vn/zoom/700_438/139269124445442048/2026/11/13/avatar1794529301651-1794529301953377090553.jpg",
-      "contentSnippet": "Một lời cảnh báo lạnh gáy vừa được phát ra từ thượng tầng Google. CEO Sundar Pichai thẳng thừng tuyên bố một sự thật phũ phàng: Không một ngành nghề tri thức nào có thể đứng ngoài vùng phủ sóng của cuộc cách mạng này.",
-      "authorName": "GenK",
-      "upvotes": 0,
-      "commentsCount": 0
-    },
-    {
-      "id": "a33c16c8e7593e79",
-      "title_vi": "Donald Trump thực sự muốn Tim Cook điều hành tập đoàn Nvidia",
-      "title_en": "Donald Trump really wants Tim Cook to run Nvidia",
-      "summary_vi": [
-        "Jensen Huang đã từ chức tổng giám đốc điều hành tập đoàn Nvidia sau những thông tin liên quan đến đời tư cá nhân và gián điệp, khiến công ty phải tạm thời đặt dưới quyền lãnh đạo của giám đốc tài chính trong giai đoạn chuyển giao.",
-        "Tổng thống Donald Trump đã bất ngờ đề xuất cựu tổng giám đốc điều hành Apple là Tim Cook nên tiếp quản vị trí lãnh đạo tại gã khổng lồ sản xuất vi mạch bán dẫn này ngay sau khi thông tin từ chức được công bố chính thức.",
-        "Sự thay đổi nhân sự cấp cao tại một trong những nhà sản xuất phần cứng trí tuệ nhân tạo lớn nhất thế giới có thể tạo ra những tác động mạnh mẽ đến chuỗi cung ứng linh kiện và chiến lược phát triển công nghệ toàn cầu."
-      ],
-      "summary_en": [
-        "Jensen Huang has resigned as the chief executive officer of Nvidia following personal affairs and espionage allegations, leaving the semiconductor giant temporarily led by its chief financial officer during this transition period.",
-        "President Donald Trump unexpectedly suggested that former Apple chief executive officer Tim Cook should take over the leadership position at the massive semiconductor manufacturing giant shortly after the official resignation announcement.",
-        "This high-level executive shakeup at one of the world's leading artificial intelligence hardware manufacturers could generate significant impacts on global component supply chains and future technology development strategies."
-      ],
-      "originalTitle": "Donald Trump really wants Tim Cook to run Nvidia",
-      "url": "https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang",
-      "sourceName": "The Verge",
-      "sourceOrigin": "global",
-      "category": "Tech Trends & Startups",
-      "tags": [
-        "Nvidia",
-        "Tim Cook",
-        "Jensen Huang",
-        "Semiconductors",
-        "Leadership"
-      ],
-      "hotScore": 92,
-      "readTimeMinutes": 4,
-      "publishedAt": "2026-11-13T00:46:07.000Z",
-      "thumbnailUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/gettyimages-2228842017.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "contentSnippet": "Jensen Huang resigned this morning as Nvidia's CEO following reports of affairs, including one with an alleged Chinese spy. Right now, the company is being led by its CFO on an interim basis. But President Donald Trump is already throwing around one person he thinks should take over the chipmaking g",
-      "authorName": "Jay Peters",
       "upvotes": 0,
       "commentsCount": 0
     }
